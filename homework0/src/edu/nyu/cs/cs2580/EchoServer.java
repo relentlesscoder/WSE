@@ -59,17 +59,23 @@ class EchoHandler implements HttpHandler {
 
     // Construct a simple response.
     Map<String, String> params = queryToMap(exchange.getRequestURI().getQuery());
+    String queryText = params.get("query");
     Headers responseHeaders = exchange.getResponseHeaders();
     responseHeaders.set("Content-Type", "text/plain");
     exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
     OutputStream responseBody = exchange.getResponseBody();
-    String queryText = params.get("query");
-    if (queryText != null && queryText != "") {
-      responseBody.write(queryText.replace("+", " ").getBytes());
-    } else {
-      responseBody.write(errorMsg.getBytes());
-    }
+    responseBody.write(getResponse(queryText).getBytes());
     responseBody.close();
+  }
+
+  private String getResponse(String queryText){
+      String response;
+      if (queryText != null && queryText != "") {
+          response = queryText.replace("+", " ");
+      } else {
+          response = errorMsg;
+      }
+      return response + "\n";
   }
 
   private Map<String, String> queryToMap(String query) {
