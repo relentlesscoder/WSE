@@ -58,7 +58,7 @@ class Ranker {
       // Get the document vector. For hw1, you don't have to worry about the
       // details of how index works.
       Document document = _index.getDoc(did);
-      Vector<String> documentVectorv = document.get_title_vector();
+      Vector<String> documentVector = document.get_title_vector();
 
       double score = 0.0;
 
@@ -71,7 +71,7 @@ class Ranker {
         rankingAlgorithm = new VectorSpaceModel();
         break;
       }
-      score = rankingAlgorithm.scoreDocument(queryVector, documentVectorv);
+      score = rankingAlgorithm.scoreDocument(queryVector, documentVector);
       scoredDocument = new ScoredDocument(did, document.get_title_string(),
           score);
     } catch (Exception e) {
