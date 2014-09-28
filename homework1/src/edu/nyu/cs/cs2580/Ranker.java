@@ -77,7 +77,9 @@ class Ranker {
     } catch (Exception e) {
       // TODO: handle exception
     } finally {
-      scanner.close();
+      if (scanner != null) {
+        scanner.close();
+      }
     }
 
     return scoredDocument;
