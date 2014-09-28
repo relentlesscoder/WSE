@@ -66,10 +66,16 @@ class Ranker {
       RankingAlgorithm rankingAlgorithm = null;
       Ranker_Type ranker = Ranker_Type.valueOf(rankerType.toUpperCase());
       switch (ranker) {
-      default:
       case COSINE:
         rankingAlgorithm = new VectorSpaceModel();
         break;
+      case QL:
+        break;
+      case PHRASE:
+        break;
+      case LINEAR:
+        break;
+      default:
       }
       score = rankingAlgorithm.scoreDocument(queryVector, documentVector);
       scoredDocument = new ScoredDocument(did, document.get_title_string(),
