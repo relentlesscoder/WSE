@@ -20,8 +20,25 @@ public class NumviewsRanker implements BaseRanker {
           document.get_title_string(), document.get_numviews()));
     }
 
+<<<<<<< HEAD
+    
+    retrieval_results.sort(new Comparator<ScoredDocument>() {
+      @Override
+      public int compare(ScoredDocument o1, ScoredDocument o2) {
+        if (o1._score > o2._score) {
+          return -1;
+        } else if (o1._score < o2._score) {
+          return 1;
+        } else {
+          return 0;
+        }
+      }
+    });
+    
+=======
     WSEUtil.sortScore(retrieval_results);
 
+>>>>>>> FETCH_HEAD
     return retrieval_results;
   }
 }

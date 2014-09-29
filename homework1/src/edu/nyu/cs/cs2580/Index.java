@@ -44,6 +44,14 @@ class Index {
     return Document.termFrequency();
   }
 
+  public int numTerms() {
+    return Document.numTerms();
+  }
+
+  public String getTerm(int index) {
+    return Document.getTerm(index);
+  }
+
   public int numDocs() {
     return _documents.size();
   }
