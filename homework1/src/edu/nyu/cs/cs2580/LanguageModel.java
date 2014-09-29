@@ -1,8 +1,6 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Comparator;
-import java.util.Scanner;
-import java.util.Vector;
+import java.util.*;
 
 public class LanguageModel implements BaseRanker {
 
@@ -21,18 +19,9 @@ public class LanguageModel implements BaseRanker {
       retrieval_results.add(scoreDocument(query, docId));
     }
 
-    retrieval_results.sort(new Comparator<ScoredDocument>() {
-      @Override
-      public int compare(ScoredDocument o1, ScoredDocument o2) {
-        if (o1._score > o2._score) {
-          return -1;
-        } else if (o1._score < o2._score) {
-          return 1;
-        } else {
-          return 0;
-        }
-      }
-    });
+    WSEUtil.sortScore(retrieval_results);
+
+    Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
     return retrieval_results;
   }
