@@ -2,13 +2,18 @@ package edu.nyu.cs.cs2580;
 
 import java.util.Vector;
 
-public class VectorSpaceModel implements RankingAlgorithm {
+public class VectorSpaceModel implements BaseRanker {
+
+  private Index _index;
+
+  public VectorSpaceModel(String indexSource) {
+    _index = new Index(indexSource);
+  }
 
   @Override
-  public double scoreDocument(Vector<String> quertVector,
-      Vector<String> documentVector) {
+  public Vector<ScoredDocument> runQuery(String query) {
     // TODO Auto-generated method stub
-    return 0;
+    return null;
   }
 
 }

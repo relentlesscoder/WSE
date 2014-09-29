@@ -14,19 +14,41 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
 class QueryHandler implements HttpHandler {
+  /**
+   * Ranker types that are used for ranking documents
+   */
+  private enum Ranker_Type {
+    /**
+     * Map to vector space model
+     */
+    COSINE,
+    /**
+     * Map to query likelihood with Jelinek-Mercer smoothing
+     */
+    QL,
+    /**
+     * Map to phrase-based model
+     */
+    PHRASE,
+    /**
+     * Map to numviewed-based model
+     */
+    LINEAR
+  }
+
   private static final String QUERY_REQUIRED = "Query text is required!\n";
   private static final String RANKER_REQUIRED = "Ranker type is required!\n";
   private static final String INVALID_RANKER_TYPE = "Ranker type is invalid!\n";
   private static final ArrayList<String> VALID_RANKER = new ArrayList<String>();
 
-  private Ranker _ranker;
+  private String _indexPath;
 
-  public QueryHandler(Ranker ranker) {
-    _ranker = ranker;
+  public QueryHandler(String indexPath) {
     VALID_RANKER.add("cosine");
     VALID_RANKER.add("QL");
     VALID_RANKER.add("phrase");
     VALID_RANKER.add("linear");
+    _indexPath = indexPath;
   }
 
   private static Map<String, String> getQueryMap(String query) {
@@ -73,12 +95,27 @@ class QueryHandler implements HttpHandler {
         Set<String> keys = query_map.keySet();
         if (keys.contains("query")) {
           if (keys.contains("ranker")) {
-            String ranker_type = query_map.get("ranker");
-            if (!isValidRankerType(ranker_type)) {
+            String rankerType = query_map.get("ranker");
+            if (!isValidRankerType(rankerType)) {
               queryResponse = INVALID_RANKER_TYPE;
             } else {
-              Vector<ScoredDocument> sds = _ranker.runQuery(
-                  query_map.get("query"), ranker_type);
+              // TODO: initialize specific ranker according to the ranker type
+              BaseRanker ranker = null;
+              Ranker_Type type = Ranker_Type.valueOf(rankerType.toUpperCase());
+              switch (type) {
+              case QL:
+                break;
+              case PHRASE:
+                break;
+              case LINEAR:
+                break;
+              case COSINE:
+              default:
+                ranker = new VectorSpaceModel(_indexPath);
+                break;
+              }
+              Vector<ScoredDocument> sds = ranker.runQuery(query_map
+                  .get("query"));
               Iterator<ScoredDocument> itr = sds.iterator();
               while (itr.hasNext()) {
                 ScoredDocument sd = itr.next();
