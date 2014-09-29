@@ -20,6 +20,7 @@ public class NumviewsRanker implements BaseRanker {
           document.get_title_string(), document.get_numviews()));
     }
 
+<<<<<<< HEAD
     
     retrieval_results.sort(new Comparator<ScoredDocument>() {
       @Override
@@ -34,6 +35,10 @@ public class NumviewsRanker implements BaseRanker {
       }
     });
     
+=======
+    WSEUtil.sortScore(retrieval_results);
+
+>>>>>>> FETCH_HEAD
     return retrieval_results;
   }
 }
