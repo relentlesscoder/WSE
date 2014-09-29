@@ -33,6 +33,14 @@ class Document {
     return _total_tf;
   }
 
+  public static String getTerm(int index) {
+    return _rdictionary.get(index);
+  }
+
+  public static int numTerms() {
+    return _rdictionary.size();
+  }
+
   public Document(int did, String content) {
     Scanner scanner = null;
 
