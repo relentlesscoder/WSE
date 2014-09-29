@@ -7,7 +7,7 @@ import java.util.Vector;
 public class PhraseRanker implements BaseRanker {
 
   private Index _index;
-  private n_gram = 2;
+  private int n_gram = 2;
 
   public PhraseRanker(String index_source) {
     _index = new Index(index_source);
@@ -20,7 +20,7 @@ public class PhraseRanker implements BaseRanker {
     for (int docId = 0; docId < _index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
-
+    
     retrieval_results.sort(new Comparator<ScoredDocument>() {
       @Override
       public int compare(ScoredDocument o1, ScoredDocument o2) {
@@ -32,8 +32,9 @@ public class PhraseRanker implements BaseRanker {
           return 0;
         }
       }
+      
     });
-
+	
     return retrieval_results;
   }
 
@@ -60,9 +61,9 @@ public class PhraseRanker implements BaseRanker {
       n_gram = n_gram>queryVector.size()? queryVector.size() : n_gram; 
       
       // generate the n-gram vector for query, document title and document body
-      Vector<String> nGramQueryVector = nGramVector(queryVector,n_gram); 
-      Vector<String> nGramTitleVector = nGramVector(titleVector,n_gram);
-      Vector<String> nGramBodyVector = nGramVector(bodyVector,n_gram);
+      Vector<String> nGramQueryVector = nGramGenerator(queryVector,n_gram); 
+      Vector<String> nGramTitleVector = nGramGenerator(titleVector,n_gram);
+      Vector<String> nGramBodyVector = nGramGenerator(bodyVector,n_gram);
 
 	  double score = 0.0;
 	  for (int i = 0; i < nGramQueryVector.size(); ++i) {
@@ -94,10 +95,10 @@ public class PhraseRanker implements BaseRanker {
 
   // n-gram vector generator
   private Vector<String> nGramGenerator(Vector<String> content, int n_gram){
-  	Vector nGramVector = new Vector<String>();
-  	for (int i=0; i<=content.size()-n; i++){
+  	Vector<String> nGramVector = new Vector<String>();
+  	for (int i=0; i<=content.size()-n_gram; i++){
 		StringBuilder sb = new StringBuilder();
-		for(int j=i; j<i+n; j++){
+		for(int j=i; j<i+n_gram; j++){
 			System.out.println(j);
 			sb.append(content.get(j)).append(" ");
 		}
