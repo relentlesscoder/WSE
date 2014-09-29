@@ -104,6 +104,7 @@ class QueryHandler implements HttpHandler {
               Ranker_Type type = Ranker_Type.valueOf(rankerType.toUpperCase());
               switch (type) {
               case QL:
+                ranker = new LanguageModel(_indexPath);
                 break;
               case PHRASE:
                 break;

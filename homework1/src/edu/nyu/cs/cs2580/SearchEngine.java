@@ -22,7 +22,7 @@ public class SearchEngine {
     HttpServer server = HttpServer.create(addr, -1);
 
     // Attach specific paths to their handlers.
-    server.createContext("/", new QueryHandler(indexPath));
+    server.createContext("/search", new QueryHandler(indexPath));
     server.setExecutor(Executors.newCachedThreadPool());
     server.start();
     System.out.println("Listening on port: " + Integer.toString(port));
