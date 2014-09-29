@@ -1,6 +1,5 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 import java.util.Vector;
@@ -8,7 +7,7 @@ import java.util.Vector;
 public class LanguageModel implements BaseRanker {
 
   private Index _index;
-  private static double LAMDA = 0.50;
+  private final static double LAMDA = 0.50;
 
   public LanguageModel(String index_source) {
     _index = new Index(index_source);
