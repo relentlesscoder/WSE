@@ -20,7 +20,7 @@ public class NumviewsRanker implements BaseRanker {
           document.get_title_string(), document.get_numviews()));
     }
 
-
+    
     retrieval_results.sort(new Comparator<ScoredDocument>() {
       @Override
       public int compare(ScoredDocument o1, ScoredDocument o2) {
@@ -33,7 +33,7 @@ public class NumviewsRanker implements BaseRanker {
         }
       }
     });
-
+    
     return retrieval_results;
   }
 }

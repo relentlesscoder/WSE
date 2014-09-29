@@ -20,7 +20,7 @@ public class PhraseRanker implements BaseRanker {
     for (int docId = 0; docId < _index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
-    /*
+    
     retrieval_results.sort(new Comparator<ScoredDocument>() {
       @Override
       public int compare(ScoredDocument o1, ScoredDocument o2) {
@@ -34,7 +34,7 @@ public class PhraseRanker implements BaseRanker {
       }
     
     });
-	*/
+    
     return retrieval_results;
   }
 
@@ -80,6 +80,8 @@ public class PhraseRanker implements BaseRanker {
           }
         }
       }
+      
+    scoredDocument = new ScoredDocument(docId, document.get_title_string(), score);
 
     } catch (Exception e) {
       // TODO: handle exception
@@ -89,7 +91,7 @@ public class PhraseRanker implements BaseRanker {
       }
     }
 
-
+    
     return scoredDocument;
   }
 
@@ -99,7 +101,6 @@ public class PhraseRanker implements BaseRanker {
   	for (int i=0; i<=content.size()-n_gram; i++){
 		StringBuilder sb = new StringBuilder();
 		for(int j=i; j<i+n_gram; j++){
-			System.out.println(j);
 			sb.append(content.get(j)).append(" ");
 		}
 		nGramVector.add(sb.substring(0,sb.length()-1));
