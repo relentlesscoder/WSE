@@ -3,46 +3,24 @@ package edu.nyu.cs.cs2580;
 import java.util.Scanner;
 import java.util.Vector;
 
-class Ranker {
+class Ranker implements BaseRanker {
   private Index _index;
-
-  /**
-   * Ranker types that are used for ranking documents
-   */
-  private enum Ranker_Type {
-    /**
-     * Map to vector space model
-     */
-    COSINE,
-    /**
-     * Map to query likelihood with Jelinek-Mercer smoothing
-     */
-    QL,
-    /**
-     * Map to phrase-based model
-     */
-    PHRASE,
-    /**
-     * Map to numviewed-based model
-     */
-    LINEAR
-  }
 
   public Ranker(String index_source) {
     _index = new Index(index_source);
   }
 
-  public Vector<ScoredDocument> runQuery(String query, String rankerType) {
+  public Vector<ScoredDocument> runQuery(String query) {
 
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
     for (int i = 0; i < _index.numDocs(); ++i) {
-      retrieval_results.add(scoreDocument(query, i, rankerType));
+      retrieval_results.add(scoreDocument(query, i));
     }
 
     return retrieval_results;
   }
 
-  public ScoredDocument scoreDocument(String query, int did, String rankerType) {
+  public ScoredDocument scoreDocument(String query, int did) {
 
     ScoredDocument scoredDocument = null;
     // Build query vector
@@ -60,24 +38,18 @@ class Ranker {
       Document document = _index.getDoc(did);
       Vector<String> documentVector = document.get_title_vector();
 
+      // Score the document. Here we have provided a very simple ranking model,
+      // where a document is scored 1.0 if it gets hit by at least one query
+      // term.
       double score = 0.0;
-
-      // TODO: invoke algorithm according to the ranker type
-      RankingAlgorithm rankingAlgorithm = null;
-      Ranker_Type ranker = Ranker_Type.valueOf(rankerType.toUpperCase());
-      switch (ranker) {
-      case COSINE:
-        rankingAlgorithm = new VectorSpaceModel();
-        break;
-      case QL:
-        break;
-      case PHRASE:
-        break;
-      case LINEAR:
-        break;
-      default:
+      for (int i = 0; i < documentVector.size(); ++i) {
+        for (int j = 0; j < queryVector.size(); ++j) {
+          if (documentVector.get(i).equals(queryVector.get(j))) {
+            score = 1.0;
+            break;
+          }
+        }
       }
-      score = rankingAlgorithm.scoreDocument(queryVector, documentVector);
       scoredDocument = new ScoredDocument(did, document.get_title_string(),
           score);
     } catch (Exception e) {
