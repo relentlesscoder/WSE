@@ -34,7 +34,7 @@ public class PhraseRanker implements BaseRanker {
       }
     
     });
-    
+
     return retrieval_results;
   }
 
@@ -65,9 +65,9 @@ public class PhraseRanker implements BaseRanker {
       Vector<String> nGramTitleVector = nGramGenerator(titleVector,n_gram);
       Vector<String> nGramBodyVector = nGramGenerator(bodyVector,n_gram);
 
-	  double score = 0.0;
-	  for (int i = 0; i < nGramQueryVector.size(); ++i) {
-	  	// Scan title
+      double score = 0.0;
+      for (int i = 0; i < nGramQueryVector.size(); ++i) {
+	  	  // Scan title
         for (int j = 0; j < nGramTitleVector.size(); ++j) {
           if (nGramQueryVector.get(i).equals(nGramTitleVector.get(j))) {
             score += 1.0;
