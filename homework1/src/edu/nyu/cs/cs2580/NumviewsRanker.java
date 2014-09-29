@@ -2,10 +2,10 @@ package edu.nyu.cs.cs2580;
 
 import java.util.Vector;
 
-public class NumviewsRanker implements RankingAlgorithm {
+public class NumviewsRanker implements BaseRanker {
   // TODO: Not yet implement
   @Override
-  public double scoreDocument(Vector<String> quertVector, Vector<String> documentVector) {
-    return 0;
+  public Vector<ScoredDocument> runQuery(String query) {
+    return null;
   }
 }
