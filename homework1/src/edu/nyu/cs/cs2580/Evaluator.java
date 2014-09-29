@@ -15,41 +15,44 @@ class Evaluator {
     HashMap<String, HashMap<Integer, Double>> relevance_judgments =
         new HashMap<String, HashMap<Integer, Double>>();
     if (args.length < 1) {
-      System.out.println("need to provide relevance_judgments");
+      System.out.println("Need to provide relevance_judgments...");
       return;
     }
-    String p = args[0];
+    String judgePath = args[0];
     // first read the relevance judgments into the HashMap
-    readRelevanceJudgments(p, relevance_judgments);
+    readRelevanceJudgments(judgePath, relevance_judgments);
     // now evaluate the results from stdin
     evaluateStdin(relevance_judgments);
   }
 
   public static void readRelevanceJudgments(
-      String p, HashMap<String, HashMap<Integer, Double>> relevance_judgments) {
+      String judgePath,
+      // <String: query, <Integer: documentID, Double: binary relevance>>
+      HashMap<String, HashMap<Integer, Double>> relevanceJudgments) {
     try {
-      BufferedReader reader = new BufferedReader(new FileReader(p));
+      BufferedReader reader = new BufferedReader(new FileReader(judgePath));
       try {
         String line = null;
         while ((line = reader.readLine()) != null) {
-          // parse the query,did,relevance line
+          // parse the query,docId,relevance line
           Scanner s = new Scanner(line).useDelimiter("\t");
           String query = s.next();
-          int did = Integer.parseInt(s.next());
+          int docId = Integer.parseInt(s.next());
           String grade = s.next();
           double rel = 0.0;
+
           // convert to binary relevance
           if ((grade.equals("Perfect")) ||
               (grade.equals("Excellent")) ||
               (grade.equals("Good"))) {
             rel = 1.0;
           }
-          if (relevance_judgments.containsKey(query) == false) {
-            HashMap<Integer, Double> qr = new HashMap<Integer, Double>();
-            relevance_judgments.put(query, qr);
+
+          if (!relevanceJudgments.containsKey(query)) {
+            HashMap<Integer, Double> tmpMap = new HashMap<Integer, Double>();
+            tmpMap.put(docId, rel);
+            relevanceJudgments.put(query, tmpMap);
           }
-          HashMap<Integer, Double> qr = relevance_judgments.get(query);
-          qr.put(did, rel);
         }
       } finally {
         reader.close();
@@ -60,7 +63,8 @@ class Evaluator {
   }
 
   public static void evaluateStdin(
-      HashMap<String, HashMap<Integer, Double>> relevance_judgments) {
+      // <String: query, <Integer: documentID, Double: binary relevance>>
+      HashMap<String, HashMap<Integer, Double>> relevanceJudgments) {
     // only consider one query per call    
     try {
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -71,15 +75,15 @@ class Evaluator {
       while ((line = reader.readLine()) != null) {
         Scanner s = new Scanner(line).useDelimiter("\t");
         String query = s.next();
-        int did = Integer.parseInt(s.next());
+        int docId = Integer.parseInt(s.next());
         String title = s.next();
         double rel = Double.parseDouble(s.next());
-        if (relevance_judgments.containsKey(query) == false) {
+        if (relevanceJudgments.containsKey(query) == false) {
           throw new IOException("query not found");
         }
-        HashMap<Integer, Double> qr = relevance_judgments.get(query);
-        if (qr.containsKey(did) != false) {
-          RR += qr.get(did);
+        HashMap<Integer, Double> qr = relevanceJudgments.get(query);
+        if (qr.containsKey(docId) != false) {
+          RR += qr.get(docId);
         }
         ++N;
       }

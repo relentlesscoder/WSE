@@ -76,6 +76,9 @@ public class LanguageModel implements BaseRanker {
         score += Math.log((1 - LAMDA) * (fqi_D / D) + LAMDA * (cqi / C));
       }
 
+      // TODO: Not sure...
+      score = Math.exp(score);
+
       scoredDocument = new ScoredDocument(docId, document.get_title_string(),
           score);
     } catch (Exception e) {
