@@ -16,4 +16,14 @@ public class VectorSpaceModel implements BaseRanker {
     return null;
   }
 
+  /**
+   * Calculates the term frequency-inverse document frequency weight of the
+   * vector
+   * 
+   * @return the term frequency-inverse document frequency weight
+   */
+  private double tfIdf(String term, ) {
+    
+  }
+
 }
