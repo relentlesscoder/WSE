@@ -107,6 +107,7 @@ class QueryHandler implements HttpHandler {
                 ranker = new LanguageModel(_indexPath);
                 break;
               case PHRASE:
+                ranker = new PhraseRanker(_indexPath);
                 break;
               case LINEAR:
                 break;

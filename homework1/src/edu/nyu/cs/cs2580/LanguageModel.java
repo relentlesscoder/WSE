@@ -20,7 +20,7 @@ public class LanguageModel implements BaseRanker {
     for (int docId = 0; docId < _index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
-    /*
+
     retrieval_results.sort(new Comparator<ScoredDocument>() {
       @Override
       public int compare(ScoredDocument o1, ScoredDocument o2) {
@@ -33,7 +33,7 @@ public class LanguageModel implements BaseRanker {
         }
       }
     });
-    */
+    
     return retrieval_results;
   }
 
