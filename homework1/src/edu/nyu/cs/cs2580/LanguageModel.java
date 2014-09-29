@@ -11,6 +11,10 @@ public class LanguageModel implements BaseRanker {
     _index = new Index(index_source);
   }
 
+  public LanguageModel(Index _index) {
+    this._index = _index;
+  }
+
   @Override
   public Vector<ScoredDocument> runQuery(String query) {
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
@@ -18,10 +22,6 @@ public class LanguageModel implements BaseRanker {
     for (int docId = 0; docId < _index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
-
-    WSEUtil.sortScore(retrieval_results);
-
-    Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
     return retrieval_results;
   }

@@ -11,6 +11,10 @@ public class VectorSpaceModel implements BaseRanker {
     _index = new Index(indexSource);
   }
 
+  public VectorSpaceModel(Index _index) {
+    this._index = _index;
+  }
+
   @Override
   public Vector<ScoredDocument> runQuery(String query) {
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();

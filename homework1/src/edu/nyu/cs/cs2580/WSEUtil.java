@@ -5,9 +5,6 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Vector;
 
-/**
- * Created by youlongli on 9/29/14.
- */
 public class WSEUtil {
   static void sortScore(List<ScoredDocument> retrieval_results) {
     Collections.sort(retrieval_results, new Comparator<ScoredDocument>() {

@@ -10,6 +10,10 @@ public class NumviewsRanker implements BaseRanker {
     _index = new Index(index_source);
   }
 
+  public NumviewsRanker(Index _index) {
+    this._index = _index;
+  }
+
   @Override
   public Vector<ScoredDocument> runQuery(String query) {
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
@@ -19,8 +23,6 @@ public class NumviewsRanker implements BaseRanker {
       retrieval_results.add(new ScoredDocument(docId,
           document.get_title_string(), document.get_numviews()));
     }
-
-    WSEUtil.sortScore(retrieval_results);
 
     return retrieval_results;
   }
