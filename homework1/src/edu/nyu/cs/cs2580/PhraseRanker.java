@@ -13,6 +13,10 @@ public class PhraseRanker implements BaseRanker {
     _index = new Index(index_source);
   }
 
+  public PhraseRanker(Index _index) {
+    this._index = _index;
+  }
+
   @Override
   public Vector<ScoredDocument> runQuery(String query) {
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
@@ -20,20 +24,6 @@ public class PhraseRanker implements BaseRanker {
     for (int docId = 0; docId < _index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
-    
-    retrieval_results.sort(new Comparator<ScoredDocument>() {
-      @Override
-      public int compare(ScoredDocument o1, ScoredDocument o2) {
-        if (o1._score > o2._score) {
-          return -1;
-        } else if (o1._score < o2._score) {
-          return 1;
-        } else {
-          return 0;
-        }
-      }
-    
-    });
 
     return retrieval_results;
   }

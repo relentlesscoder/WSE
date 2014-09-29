@@ -110,6 +110,7 @@ class QueryHandler implements HttpHandler {
                 ranker = new PhraseRanker(_indexPath);
                 break;
               case LINEAR:
+                ranker = new LinearRanker(_indexPath);
                 break;
               case COSINE:
               default:
@@ -118,6 +119,9 @@ class QueryHandler implements HttpHandler {
               }
               Vector<ScoredDocument> sds = ranker.runQuery(query_map
                   .get("query"));
+              // Sort the scoredDocument decreasingly
+              WSEUtil.sortScore(sds);
+
               Iterator<ScoredDocument> itr = sds.iterator();
               while (itr.hasNext()) {
                 ScoredDocument sd = itr.next();
