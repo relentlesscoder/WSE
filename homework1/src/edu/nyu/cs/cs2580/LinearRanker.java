@@ -33,13 +33,14 @@ public class LinearRanker implements BaseRanker {
     for (int docId = 0; docId < _index.numDocs(); ++docId) {
       Document document = _index.getDoc(docId);
       double score = 0.0;
-      score = BETA * (retrieval_results_VSM.get(docId)._score
-          + retrieval_results_LM.get(docId)._score
-          + retrieval_results_phrase.get(docId)._score
-          + retrieval_results_numviews.get(docId)._score);
+      score = BETA
+          * (retrieval_results_VSM.get(docId)._score
+              + retrieval_results_LM.get(docId)._score
+              + retrieval_results_phrase.get(docId)._score + retrieval_results_numviews
+                .get(docId)._score);
 
-      retrieval_results
-          .add(new ScoredDocument(docId, document.get_title_string(), score));
+      retrieval_results.add(new ScoredDocument(docId, document
+          .get_title_string(), score));
     }
 
     return retrieval_results;

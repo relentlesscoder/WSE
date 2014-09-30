@@ -1,6 +1,5 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Comparator;
 import java.util.Vector;
 
 public class NumviewsRanker implements BaseRanker {
@@ -20,8 +19,8 @@ public class NumviewsRanker implements BaseRanker {
 
     for (int docId = 0; docId < _index.numDocs(); ++docId) {
       Document document = _index.getDoc(docId);
-      retrieval_results.add(new ScoredDocument(docId,
-          document.get_title_string(), document.get_numviews()));
+      retrieval_results.add(new ScoredDocument(docId, document
+          .get_title_string(), document.get_numviews()));
     }
 
     return retrieval_results;
