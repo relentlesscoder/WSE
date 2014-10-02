@@ -1,5 +1,7 @@
 package edu.nyu.cs.cs2580;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -10,9 +12,8 @@ class Ranker implements BaseRanker {
     this.index = index;
   }
 
-  public Vector<ScoredDocument> runQuery(String query) {
-
-    Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
+  public List<ScoredDocument> runQuery(String query) {
+    List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
     for (int i = 0; i < index.numDocs(); ++i) {
       retrieval_results.add(scoreDocument(query, i));
     }
@@ -36,7 +37,7 @@ class Ranker implements BaseRanker {
       // Get the document vector. For hw1, you don't have to worry about the
       // details of how index works.
       Document document = index.getDoc(did);
-      Vector<String> documentVector = document.get_title_vector();
+      List<String> documentVector = document.getTitleList();
 
       // Score the document. Here we have provided a very simple ranking model,
       // where a document is scored 1.0 if it gets hit by at least one query
@@ -50,7 +51,7 @@ class Ranker implements BaseRanker {
           }
         }
       }
-      scoredDocument = new ScoredDocument(did, document.get_title_string(),
+      scoredDocument = new ScoredDocument(did, document.getTitleStr(),
           score);
     } catch (Exception e) {
       // TODO: handle exception

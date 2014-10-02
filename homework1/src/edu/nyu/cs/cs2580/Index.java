@@ -1,62 +1,99 @@
 package edu.nyu.cs.cs2580;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
 
 class Index {
-  public Vector<Document> _documents;
+  private static final Logger logger = LogManager.getLogger();
 
-  public Index(String index_source) {
-    System.out.println("Indexing documents ...");
+  public List<Document> _documents;
 
-    _documents = new Vector<Document>();
+  public Index(String indexDir) {
+    logger.info("Begin to index documents...");
+
+    // TODO: Delete later..
+    System.out.println("Begin to index documents...");
+
+    // Initialize the documents
+    _documents = new ArrayList<Document>();
+
     try {
-      BufferedReader reader = new BufferedReader(new FileReader(index_source));
+      logger.info("Reading documents from {}...", indexDir);
+      BufferedReader reader = new BufferedReader(new FileReader(indexDir));
       try {
         String line = null;
-        int did = 0;
+        int docId = 0;
         while ((line = reader.readLine()) != null) {
-          Document d = new Document(did, line);
-          _documents.add(d);
-          did++;
+          _documents.add(new Document(docId, line));
+          docId++;
         }
       } finally {
+        logger.info("Closing the file...", indexDir);
         reader.close();
       }
     } catch (IOException ioe) {
-      System.err.println("Oops " + ioe.getMessage());
+      logger.error("Oops... {}", ioe.getMessage());
     }
-    System.out.println("Done indexing " + Integer.toString(_documents.size())
-        + " documents...");
+    logger.info("Done indexing {} documents...", _documents.size());
+
+    // TODO: Delete later..
+    System.out.println("Done indexing " + _documents.size() + " documents...");
   }
 
+  /**
+   * Return the number of documents a specific term occurs in.
+   */
   public int documentFrequency(String term) {
     return Document.documentFrequency(term);
   }
 
-  public int termFrequency(String term, int did) {
-    return getDoc(did).termFrequency(term);
+  /**
+   * Return the number of occurrences of a specific term in the entire
+   * collection.
+   */
+  public int termFrequency(String term) {
+    return Document.termFrequency(term);
   }
 
+  /**
+   * Returns the total number of words occurrences in the collection
+   * (i.e. the sum of termFrequency(s) over all words in the vocabulary).
+   */
   public int termFrequency() {
     return Document.termFrequency();
   }
 
+  /**
+   * Return the number of different terms in the collection.
+   */
   public int numTerms() {
     return Document.numTerms();
   }
 
+  /**
+   * Get a term from the dictionary by a its index
+   */
   public String getTerm(int index) {
     return Document.getTerm(index);
   }
 
+  /**
+   * Return the number of documents.
+   */
   public int numDocs() {
     return _documents.size();
   }
 
-  public Document getDoc(int did) {
-    return (did >= _documents.size() || did < 0) ? null : _documents.get(did);
+  /**
+   * Return a document according to the document id.
+   */
+  public Document getDoc(int docId) {
+    return (docId >= _documents.size() || docId < 0) ? null : _documents.get(docId);
   }
 }

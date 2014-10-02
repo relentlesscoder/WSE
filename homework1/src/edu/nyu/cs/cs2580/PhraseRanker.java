@@ -1,5 +1,7 @@
 package edu.nyu.cs.cs2580;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -39,16 +41,16 @@ public class PhraseRanker implements BaseRanker {
       }
 
       Document document = index.getDoc(docId);
-      Vector<String> titleVector = document.get_title_vector();
-      Vector<String> bodyVector = document.get_body_vector();
+      List<String> titleVector = document.getTitleList();
+      List<String> bodyVector = document.getBodyList();
 
       // n-gram equal to the query size if the query size is less than n-gram
       n_gram = n_gram > queryVector.size() ? queryVector.size() : n_gram;
 
       // generate the n-gram vector for query, document title and document body
-      Vector<String> nGramQueryVector = nGramGenerator(queryVector, n_gram);
-      Vector<String> nGramTitleVector = nGramGenerator(titleVector, n_gram);
-      Vector<String> nGramBodyVector = nGramGenerator(bodyVector, n_gram);
+      List<String> nGramQueryVector = nGramGenerator(queryVector, n_gram);
+      List<String> nGramTitleVector = nGramGenerator(titleVector, n_gram);
+      List<String> nGramBodyVector = nGramGenerator(bodyVector, n_gram);
 
       double score = 0.0;
       for (int i = 0; i < nGramQueryVector.size(); ++i) {
@@ -66,7 +68,7 @@ public class PhraseRanker implements BaseRanker {
         }
       }
 
-      scoredDocument = new ScoredDocument(docId, document.get_title_string(),
+      scoredDocument = new ScoredDocument(docId, document.getTitleStr(),
           score);
 
     } catch (Exception e) {
@@ -81,8 +83,8 @@ public class PhraseRanker implements BaseRanker {
   }
 
   // n-gram vector generator
-  private Vector<String> nGramGenerator(Vector<String> content, int n_gram) {
-    Vector<String> nGramVector = new Vector<String>();
+  private List<String> nGramGenerator(List<String> content, int n_gram) {
+    List<String> nGramVector = new ArrayList<String>();
     for (int i = 0; i <= content.size() - n_gram; i++) {
       StringBuilder sb = new StringBuilder();
       for (int j = i; j < i + n_gram; j++) {

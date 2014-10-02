@@ -1,5 +1,7 @@
 package edu.nyu.cs.cs2580;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -13,8 +15,8 @@ public class LanguageModel implements BaseRanker {
   }
 
   @Override
-  public Vector<ScoredDocument> runQuery(String query) {
-    Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
+  public List<ScoredDocument> runQuery(String query) {
+    List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
 
     for (int docId = 0; docId < index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
@@ -39,8 +41,8 @@ public class LanguageModel implements BaseRanker {
       }
 
       Document document = index.getDoc(docId);
-      Vector<String> titleVectorVector = document.get_title_vector();
-      Vector<String> bodyVector = document.get_body_vector();
+      List<String> titleVectorVector = document.getTitleList();
+      List<String> bodyVector = document.getBodyList();
 
       // Score the document. Here we have provided a very simple ranking model,
       // where a document is scored 1.0 if it gets hit by at least one query
@@ -77,7 +79,7 @@ public class LanguageModel implements BaseRanker {
       // TODO: Not sure...
       score = Math.exp(score);
 
-      scoredDocument = new ScoredDocument(docId, document.get_title_string(),
+      scoredDocument = new ScoredDocument(docId, document.getTitleStr(),
           score);
     } catch (Exception e) {
       // TODO: handle exception

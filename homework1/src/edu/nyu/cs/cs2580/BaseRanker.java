@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Vector;
+import java.util.List;
 
 public interface BaseRanker {
-  Vector<ScoredDocument> runQuery(String query);
+  List<ScoredDocument> runQuery(String query);
 }

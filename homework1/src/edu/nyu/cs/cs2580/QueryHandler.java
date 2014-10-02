@@ -1,67 +1,22 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.IOException;
-import java.io.OutputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.Vector;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.util.*;
 
 class QueryHandler implements HttpHandler {
 
-  private static final Logger logger = LogManager.getLogger(QueryHandler.class);
-
-  /**
-   * Ranker types that are used for ranking documents
-   */
-  private enum Ranker_Type {
-    /**
-     * Map to vector space model
-     */
-    COSINE,
-    /**
-     * Map to query likelihood with Jelinek-Mercer smoothing
-     */
-    QL,
-    /**
-     * Map to phrase-based model
-     */
-    PHRASE,
-    /**
-     * Map to numviewed-based model
-     */
-    LINEAR
-  }
-
-  /**
-   * Define output format of server response
-   * 
-   */
-  private enum RESPONSE_FORMAT {
-    /**
-     * HTML
-     */
-    HTML,
-    /**
-     * Plain text
-     */
-    TEXT
-  }
-
+  private static final Logger logger = LogManager.getLogger();
   private static final String QUERY_REQUIRED = "Query text is required!\n";
   private static final String RANKER_REQUIRED = "Ranker type is required!\n";
   private static final String INVALID_RANKER_TYPE = "Ranker type is invalid!\n";
   private static final ArrayList<String> VALID_RANKER = new ArrayList<String>();
-
   private Index index;
 
   public QueryHandler(Index index) {
@@ -97,25 +52,25 @@ class QueryHandler implements HttpHandler {
     BaseRanker ranker = null;
     Ranker_Type type = Ranker_Type.valueOf(rankerType.toUpperCase());
     switch (type) {
-    case QL:
-      ranker = new LanguageModel(index);
-      break;
-    case PHRASE:
-      ranker = new PhraseRanker(index);
-      break;
-    case LINEAR:
-      ranker = new LinearRanker(index);
-      break;
-    case COSINE:
-    default:
-      ranker = new VectorSpaceModel(index);
-      break;
+      case QL:
+        ranker = new LanguageModel(index);
+        break;
+      case PHRASE:
+        ranker = new PhraseRanker(index);
+        break;
+      case LINEAR:
+        ranker = new LinearRanker(index);
+        break;
+      case COSINE:
+      default:
+        ranker = new VectorSpaceModel(index);
+        break;
     }
     return ranker;
   }
 
   private String buildOutput(String queryText,
-      Vector<ScoredDocument> scoredDocuments) {
+                             List<ScoredDocument> scoredDocuments) {
     logger.debug("Start building output");
     String queryResponse = "";
     Iterator<ScoredDocument> itr = scoredDocuments.iterator();
@@ -169,10 +124,17 @@ class QueryHandler implements HttpHandler {
               queryResponse = INVALID_RANKER_TYPE;
             } else {
               BaseRanker ranker = initRanker(rankerType);
-              Vector<ScoredDocument> scoredDocuments = ranker
+              List<ScoredDocument> scoredDocuments = ranker
                   .runQuery(query_map.get("query"));
               // Sort the scoredDocument decreasingly
-              WSEUtil.sortScore(scoredDocuments);
+              Collections.sort(scoredDocuments, new Comparator<ScoredDocument>() {
+                @Override
+                public int compare(ScoredDocument o1, ScoredDocument o2) {
+                  return (o2._score > o1._score) ? 1 :
+                      (o2._score < o1._score) ? -1 : 0;
+                }
+              });
+
               // TODO: add HTML method
               queryResponse = buildOutput(query_map.get("query"),
                   scoredDocuments);
@@ -193,5 +155,41 @@ class QueryHandler implements HttpHandler {
     OutputStream responseBody = exchange.getResponseBody();
     responseBody.write(queryResponse.getBytes());
     responseBody.close();
+  }
+
+  /**
+   * Ranker types that are used for ranking documents
+   */
+  private enum Ranker_Type {
+    /**
+     * Map to vector space model
+     */
+    COSINE,
+    /**
+     * Map to query likelihood with Jelinek-Mercer smoothing
+     */
+    QL,
+    /**
+     * Map to phrase-based model
+     */
+    PHRASE,
+    /**
+     * Map to numviewed-based model
+     */
+    LINEAR
+  }
+
+  /**
+   * Define output format of server response
+   */
+  private enum RESPONSE_FORMAT {
+    /**
+     * HTML
+     */
+    HTML,
+    /**
+     * Plain text
+     */
+    TEXT
   }
 }

@@ -1,6 +1,7 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
 
 public class NumviewsRanker implements BaseRanker {
   private Index index;
@@ -10,13 +11,13 @@ public class NumviewsRanker implements BaseRanker {
   }
 
   @Override
-  public Vector<ScoredDocument> runQuery(String query) {
-    Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
+  public List<ScoredDocument> runQuery(String query) {
+    List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
 
     for (int docId = 0; docId < index.numDocs(); ++docId) {
       Document document = index.getDoc(docId);
       retrieval_results.add(new ScoredDocument(docId, document
-          .get_title_string(), document.get_numviews()));
+          .getTitleStr(), document.getNumviews()));
     }
 
     return retrieval_results;
