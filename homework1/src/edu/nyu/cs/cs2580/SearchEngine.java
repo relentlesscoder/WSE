@@ -19,19 +19,25 @@ public class SearchEngine {
     // Create the server.
     if (args.length < 2) {
       System.out
-          .println("arguments for this program are: [PORT] [PATH-TO-CORPUS]");
+          .println("Arguments for this program are: [PORT] [PATH-TO-CORPUS]");
+      logger.error("Invalid arguments.");
       return;
     }
     int port = Integer.parseInt(args[0]);
     String indexPath = args[1];
+    logger.debug("Port #: " + Integer.toString(port));
+    logger.debug("Index file path: " + indexPath);
     InetSocketAddress addr = new InetSocketAddress(port);
     HttpServer server = HttpServer.create(addr, -1);
 
+    // Indexing
+    Index index = new Index(indexPath);
+
     // Attach specific paths to their handlers.
-    server.createContext("/search", new QueryHandler(indexPath));
+    server.createContext("/search", new QueryHandler(index));
     server.setExecutor(Executors.newCachedThreadPool());
     server.start();
     System.out.println("Listening on port: " + Integer.toString(port));
-    logger.debug("Search engine server listening...");
+    logger.debug("Search engine server listening ...");
   }
 }

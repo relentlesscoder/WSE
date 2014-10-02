@@ -5,17 +5,22 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Vector;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 // @CS2580: This is a simple implementation that you will be changing
 // in homework 2.  For this homework, don't worry about how this is done.
 class Document {
+  private static final Logger logger = LogManager.getLogger(Document.class);
+
   public int _docid;
 
   private static HashMap<String, Integer> _dictionary = new HashMap<String, Integer>();
   private static Vector<String> _rdictionary = new Vector<String>();
   private static HashMap<Integer, Integer> _df = new HashMap<Integer, Integer>();
-  private static HashMap<Integer, Integer> _tf = new HashMap<Integer, Integer>();
   private static int _total_tf = 0;
 
+  private HashMap<Integer, Integer> _tf = new HashMap<Integer, Integer>();
   private Vector<Integer> _body;
   private Vector<Integer> _title;
   private String _titleString;
@@ -25,8 +30,10 @@ class Document {
     return _dictionary.containsKey(term) ? _df.get(_dictionary.get(term)) : 0;
   }
 
-  public static int termFrequency(String term) {
-    return _dictionary.containsKey(term) ? _tf.get(_dictionary.get(term)) : 0;
+  public int termFrequency(String term) {
+
+    return _dictionary.containsKey(term) ? (_tf.containsKey(_dictionary
+        .get(term)) ? _tf.get(_dictionary.get(term)) : 0) : 0;
   }
 
   public static int termFrequency() {
@@ -80,7 +87,7 @@ class Document {
       _docid = did;
 
     } catch (Exception e) {
-      // TODO: handle exception
+      logger.error("Create document error, due to: " + e);
     } finally {
       if (scanner != null) {
         scanner.close();
@@ -126,13 +133,13 @@ class Document {
           idx = _rdictionary.size();
           _rdictionary.add(term);
           _dictionary.put(term, idx);
-          _tf.put(idx, 0);
           _df.put(idx, 0);
         }
+        _tf.put(idx, 0);
         tv.add(idx);
       }
     } catch (Exception e) {
-      // TODO: handle exception
+      logger.error("error, due to: " + e);
     } finally {
       if (scanner != null) {
         scanner.close();

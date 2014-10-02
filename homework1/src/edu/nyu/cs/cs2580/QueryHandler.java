@@ -9,11 +9,17 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
 class QueryHandler implements HttpHandler {
+
+  private static final Logger logger = LogManager.getLogger(QueryHandler.class);
+
   /**
    * Ranker types that are used for ranking documents
    */
@@ -36,19 +42,34 @@ class QueryHandler implements HttpHandler {
     LINEAR
   }
 
+  /**
+   * Define output format of server response
+   * 
+   */
+  private enum RESPONSE_FORMAT {
+    /**
+     * HTML
+     */
+    HTML,
+    /**
+     * Plain text
+     */
+    TEXT
+  }
+
   private static final String QUERY_REQUIRED = "Query text is required!\n";
   private static final String RANKER_REQUIRED = "Ranker type is required!\n";
   private static final String INVALID_RANKER_TYPE = "Ranker type is invalid!\n";
   private static final ArrayList<String> VALID_RANKER = new ArrayList<String>();
 
-  private String _indexPath;
+  private Index index;
 
-  public QueryHandler(String indexPath) {
+  public QueryHandler(Index index) {
     VALID_RANKER.add("cosine");
     VALID_RANKER.add("QL");
     VALID_RANKER.add("phrase");
     VALID_RANKER.add("linear");
-    _indexPath = indexPath;
+    this.index = index;
   }
 
   private static Map<String, String> getQueryMap(String query) {
@@ -72,22 +93,70 @@ class QueryHandler implements HttpHandler {
     return isValid;
   }
 
+  private BaseRanker initRanker(String rankerType) {
+    BaseRanker ranker = null;
+    Ranker_Type type = Ranker_Type.valueOf(rankerType.toUpperCase());
+    switch (type) {
+    case QL:
+      ranker = new LanguageModel(index);
+      break;
+    case PHRASE:
+      ranker = new PhraseRanker(index);
+      break;
+    case LINEAR:
+      ranker = new LinearRanker(index);
+      break;
+    case COSINE:
+    default:
+      ranker = new VectorSpaceModel(index);
+      break;
+    }
+    return ranker;
+  }
+
+  private String buildOutput(String queryText,
+      Vector<ScoredDocument> scoredDocuments) {
+    logger.debug("Start building output");
+    String queryResponse = "";
+    Iterator<ScoredDocument> itr = scoredDocuments.iterator();
+    while (itr.hasNext()) {
+      ScoredDocument sd = itr.next();
+      if (queryResponse.length() > 0) {
+        queryResponse = queryResponse + "\n";
+      }
+      queryResponse = queryResponse + queryText + "\t" + sd.asString();
+    }
+    if (queryResponse.length() > 0) {
+      queryResponse = queryResponse + "\n";
+    }
+    logger.debug("Finish building output");
+    return queryResponse;
+  }
+
   public void handle(HttpExchange exchange) throws IOException {
+    logger.debug("Query handler start processing query");
     String requestMethod = exchange.getRequestMethod();
     if (!requestMethod.equalsIgnoreCase("GET")) { // GET requests only.
+      logger
+          .error("Invalid HTTP request method, the server only supports GET.");
       return;
     }
 
     // Print the user request header.
     Headers requestHeaders = exchange.getRequestHeaders();
     System.out.print("Incoming request: ");
+    logger.debug("Incoming request: ");
     for (String key : requestHeaders.keySet()) {
-      System.out.print(key + ":" + requestHeaders.get(key) + "; ");
+      String keyValue = key + ":" + requestHeaders.get(key) + "; ";
+      System.out.print(keyValue);
+      logger.debug(keyValue);
     }
     System.out.println();
     String queryResponse = "";
     String uriQuery = exchange.getRequestURI().getQuery();
     String uriPath = exchange.getRequestURI().getPath();
+    logger.debug("Query: " + uriQuery);
+    logger.debug("Path: " + uriPath);
 
     if ((uriPath != null) && (uriQuery != null)) {
       if (uriPath.equals("/search")) {
@@ -99,41 +168,14 @@ class QueryHandler implements HttpHandler {
             if (!isValidRankerType(rankerType)) {
               queryResponse = INVALID_RANKER_TYPE;
             } else {
-              // TODO: initialize specific ranker according to the ranker type
-              BaseRanker ranker = null;
-              Ranker_Type type = Ranker_Type.valueOf(rankerType.toUpperCase());
-              switch (type) {
-              case QL:
-                ranker = new LanguageModel(_indexPath);
-                break;
-              case PHRASE:
-                ranker = new PhraseRanker(_indexPath);
-                break;
-              case LINEAR:
-                ranker = new LinearRanker(_indexPath);
-                break;
-              case COSINE:
-              default:
-                ranker = new VectorSpaceModel(_indexPath);
-                break;
-              }
-              Vector<ScoredDocument> sds = ranker.runQuery(query_map
-                  .get("query"));
+              BaseRanker ranker = initRanker(rankerType);
+              Vector<ScoredDocument> scoredDocuments = ranker
+                  .runQuery(query_map.get("query"));
               // Sort the scoredDocument decreasingly
-              WSEUtil.sortScore(sds);
-
-              Iterator<ScoredDocument> itr = sds.iterator();
-              while (itr.hasNext()) {
-                ScoredDocument sd = itr.next();
-                if (queryResponse.length() > 0) {
-                  queryResponse = queryResponse + "\n";
-                }
-                queryResponse = queryResponse + query_map.get("query") + "\t"
-                    + sd.asString();
-              }
-              if (queryResponse.length() > 0) {
-                queryResponse = queryResponse + "\n";
-              }
+              WSEUtil.sortScore(scoredDocuments);
+              // TODO: add HTML method
+              queryResponse = buildOutput(query_map.get("query"),
+                  scoredDocuments);
             }
           } else {
             queryResponse = RANKER_REQUIRED;

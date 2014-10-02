@@ -1,27 +1,22 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Comparator;
 import java.util.Scanner;
 import java.util.Vector;
 
 public class PhraseRanker implements BaseRanker {
 
-  private Index _index;
+  private Index index;
   private int n_gram = 2;
 
-  public PhraseRanker(String index_source) {
-    _index = new Index(index_source);
-  }
-
-  public PhraseRanker(Index _index) {
-    this._index = _index;
+  public PhraseRanker(Index index) {
+    this.index = index;
   }
 
   @Override
   public Vector<ScoredDocument> runQuery(String query) {
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
 
-    for (int docId = 0; docId < _index.numDocs(); docId++) {
+    for (int docId = 0; docId < index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
 
@@ -31,7 +26,7 @@ public class PhraseRanker implements BaseRanker {
   public ScoredDocument scoreDocument(String query, int docId) {
     ScoredDocument scoredDocument = null;
     // C is the total number of word occurrences in the collection.
-    int C = _index.termFrequency();
+    int C = index.termFrequency();
 
     Scanner scanner = null;
     try {
@@ -43,35 +38,36 @@ public class PhraseRanker implements BaseRanker {
         queryVector.add(term);
       }
 
-      Document document = _index.getDoc(docId);
+      Document document = index.getDoc(docId);
       Vector<String> titleVector = document.get_title_vector();
       Vector<String> bodyVector = document.get_body_vector();
 
       // n-gram equal to the query size if the query size is less than n-gram
-      n_gram = n_gram>queryVector.size()? queryVector.size() : n_gram; 
-      
+      n_gram = n_gram > queryVector.size() ? queryVector.size() : n_gram;
+
       // generate the n-gram vector for query, document title and document body
-      Vector<String> nGramQueryVector = nGramGenerator(queryVector,n_gram); 
-      Vector<String> nGramTitleVector = nGramGenerator(titleVector,n_gram);
-      Vector<String> nGramBodyVector = nGramGenerator(bodyVector,n_gram);
+      Vector<String> nGramQueryVector = nGramGenerator(queryVector, n_gram);
+      Vector<String> nGramTitleVector = nGramGenerator(titleVector, n_gram);
+      Vector<String> nGramBodyVector = nGramGenerator(bodyVector, n_gram);
 
       double score = 0.0;
       for (int i = 0; i < nGramQueryVector.size(); ++i) {
-	  	  // Scan title
+        // Scan title
         for (int j = 0; j < nGramTitleVector.size(); ++j) {
           if (nGramQueryVector.get(i).equals(nGramTitleVector.get(j))) {
             score += 1.0;
           }
         }
         // Scan body
-        for (int j = 0; j < nGramBodyVector.size(); ++j){
+        for (int j = 0; j < nGramBodyVector.size(); ++j) {
           if (nGramQueryVector.get(i).equals(nGramBodyVector.get(j))) {
             score += 1.0;
           }
         }
       }
-      
-    scoredDocument = new ScoredDocument(docId, document.get_title_string(), score);
+
+      scoredDocument = new ScoredDocument(docId, document.get_title_string(),
+          score);
 
     } catch (Exception e) {
       // TODO: handle exception
@@ -81,21 +77,20 @@ public class PhraseRanker implements BaseRanker {
       }
     }
 
-    
     return scoredDocument;
   }
 
   // n-gram vector generator
-  private Vector<String> nGramGenerator(Vector<String> content, int n_gram){
-  	Vector<String> nGramVector = new Vector<String>();
-  	for (int i=0; i<=content.size()-n_gram; i++){
-		StringBuilder sb = new StringBuilder();
-		for(int j=i; j<i+n_gram; j++){
-			sb.append(content.get(j)).append(" ");
-		}
-		nGramVector.add(sb.substring(0,sb.length()-1));
-	}
-	return nGramVector;
+  private Vector<String> nGramGenerator(Vector<String> content, int n_gram) {
+    Vector<String> nGramVector = new Vector<String>();
+    for (int i = 0; i <= content.size() - n_gram; i++) {
+      StringBuilder sb = new StringBuilder();
+      for (int j = i; j < i + n_gram; j++) {
+        sb.append(content.get(j)).append(" ");
+      }
+      nGramVector.add(sb.substring(0, sb.length() - 1));
+    }
+    return nGramVector;
   }
 
 }

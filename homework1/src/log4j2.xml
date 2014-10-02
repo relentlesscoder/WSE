@@ -26,10 +26,10 @@ filePattern="${log-path}/error-%d{yyyy-MM-dd}.log">
 <Loggers>
 <Logger name="com.mycuteblog.log4j2" level="debug" additivity="false">
 <appender-ref ref="trace-log" level="debug"/>
-<appender-ref ref="error-log" level="error"/>
 </Logger>
 <Root level="debug" additivity="false">
 <AppenderRef ref="trace-log"/>
+<AppenderRef ref="error-log" level="error"/>
 </Root>
 </Loggers>
 </Configuration>

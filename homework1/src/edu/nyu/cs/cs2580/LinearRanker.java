@@ -3,11 +3,11 @@ package edu.nyu.cs.cs2580;
 import java.util.Vector;
 
 public class LinearRanker implements BaseRanker {
-  private Index _index;
+  private Index index;
   private final static double BETA = 0.50;
 
-  public LinearRanker(String index_source) {
-    _index = new Index(index_source);
+  public LinearRanker(Index index) {
+    this.index = index;
   }
 
   @Override
@@ -18,20 +18,20 @@ public class LinearRanker implements BaseRanker {
     Vector<ScoredDocument> retrieval_results_phrase;
     Vector<ScoredDocument> retrieval_results_numviews;
 
-    BaseRanker VSM = new VectorSpaceModel(_index);
+    BaseRanker VSM = new VectorSpaceModel(index);
     retrieval_results_VSM = VSM.runQuery(query);
 
-    BaseRanker LM = new LanguageModel(_index);
+    BaseRanker LM = new LanguageModel(index);
     retrieval_results_LM = LM.runQuery(query);
 
-    BaseRanker phrase = new PhraseRanker(_index);
+    BaseRanker phrase = new PhraseRanker(index);
     retrieval_results_phrase = phrase.runQuery(query);
 
-    BaseRanker numviews = new NumviewsRanker(_index);
+    BaseRanker numviews = new NumviewsRanker(index);
     retrieval_results_numviews = numviews.runQuery(query);
 
-    for (int docId = 0; docId < _index.numDocs(); ++docId) {
-      Document document = _index.getDoc(docId);
+    for (int docId = 0; docId < index.numDocs(); ++docId) {
+      Document document = index.getDoc(docId);
       double score = 0.0;
       score = BETA
           * (retrieval_results_VSM.get(docId)._score

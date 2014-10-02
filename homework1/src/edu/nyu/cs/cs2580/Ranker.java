@@ -4,16 +4,16 @@ import java.util.Scanner;
 import java.util.Vector;
 
 class Ranker implements BaseRanker {
-  private Index _index;
+  private Index index;
 
-  public Ranker(String index_source) {
-    _index = new Index(index_source);
+  public Ranker(Index index) {
+    this.index = index;
   }
 
   public Vector<ScoredDocument> runQuery(String query) {
 
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
-    for (int i = 0; i < _index.numDocs(); ++i) {
+    for (int i = 0; i < index.numDocs(); ++i) {
       retrieval_results.add(scoreDocument(query, i));
     }
 
@@ -35,7 +35,7 @@ class Ranker implements BaseRanker {
 
       // Get the document vector. For hw1, you don't have to worry about the
       // details of how index works.
-      Document document = _index.getDoc(did);
+      Document document = index.getDoc(did);
       Vector<String> documentVector = document.get_title_vector();
 
       // Score the document. Here we have provided a very simple ranking model,

@@ -1,25 +1,22 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.*;
+import java.util.Scanner;
+import java.util.Vector;
 
 public class LanguageModel implements BaseRanker {
 
-  private Index _index;
+  private Index index;
   private final static double LAMDA = 0.50;
 
-  public LanguageModel(String index_source) {
-    _index = new Index(index_source);
-  }
-
-  public LanguageModel(Index _index) {
-    this._index = _index;
+  public LanguageModel(Index index) {
+    this.index = index;
   }
 
   @Override
   public Vector<ScoredDocument> runQuery(String query) {
     Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
 
-    for (int docId = 0; docId < _index.numDocs(); docId++) {
+    for (int docId = 0; docId < index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
     }
 
@@ -29,7 +26,7 @@ public class LanguageModel implements BaseRanker {
   public ScoredDocument scoreDocument(String query, int docId) {
     ScoredDocument scoredDocument = null;
     // C is the total number of word occurrences in the collection.
-    int C = _index.termFrequency();
+    int C = index.termFrequency();
 
     Scanner scanner = null;
     try {
@@ -41,7 +38,7 @@ public class LanguageModel implements BaseRanker {
         Q.add(term);
       }
 
-      Document document = _index.getDoc(docId);
+      Document document = index.getDoc(docId);
       Vector<String> titleVectorVector = document.get_title_vector();
       Vector<String> bodyVector = document.get_body_vector();
 
@@ -55,8 +52,9 @@ public class LanguageModel implements BaseRanker {
 
         // fqi_D is the number of times word qi occurs in document D.
         int fqi_D = 0;
-        // cqi is the number of times a query word occurs in the collection of documents
-        int cqi = _index.documentFrequency(qi);
+        // cqi is the number of times a query word occurs in the collection of
+        // documents
+        int cqi = index.documentFrequency(qi);
         // D is the number of words in D.
         double D = titleVectorVector.size() + bodyVector.size();
 
@@ -88,7 +86,6 @@ public class LanguageModel implements BaseRanker {
         scanner.close();
       }
     }
-
 
     return scoredDocument;
   }
