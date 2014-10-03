@@ -3,15 +3,10 @@ package edu.nyu.cs.cs2580;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class VectorSpaceModel implements BaseRanker {
-
-  private static final Logger logger = LogManager
-      .getLogger(VectorSpaceModel.class);
+  private static final Logger logger = LogManager.getLogger();
 
   private Index index;
 
@@ -19,27 +14,12 @@ public class VectorSpaceModel implements BaseRanker {
     this.index = index;
   }
 
-  private static int getTermFrequency(String term,
-                                      HashMap<String, Integer> termsMap) {
-
-    int termFrequency = 0;
-
-    if (termsMap != null && termsMap.containsKey(term)) {
-      termFrequency = termsMap.get(term);
-    }
-
-    return termFrequency;
-  }
-
-  private static double getInverseDocumentFrequency(int documentFrequency,
-                                                    int numDocs) {
-    return Math.log((double) numDocs / (double) (1 + documentFrequency));
-  }
-
   @Override
   public List<ScoredDocument> runQuery(String query) {
     logger.debug("Start running query");
+
     List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
+
     for (int i = 0; i < index.numDocs(); ++i) {
       retrieval_results.add(scoreDocument(query, i));
     }
@@ -48,33 +28,35 @@ public class VectorSpaceModel implements BaseRanker {
     return retrieval_results;
   }
 
-  public ScoredDocument scoreDocument(String query, int did) {
-
+  public ScoredDocument scoreDocument(String query, int docId) {
     ScoredDocument scoredDocument = null;
-    // Build query vector
     Scanner scanner = null;
+
+    // Build query vector
     try {
       scanner = new Scanner(query);
-      HashMap<String, Integer> queryMap = new HashMap<String, Integer>();
+      // <Term, Term frequency>
+      Map<String, Integer> queryMap = new HashMap<String, Integer>();
+
       while (scanner.hasNext()) {
         String term = scanner.next().toLowerCase();
         if (queryMap.containsKey(term)) {
-          int tf = queryMap.get(term);
-          queryMap.put(term, tf + 1);
+          queryMap.put(term, queryMap.get(term) + 1);
         } else {
           queryMap.put(term, 1);
         }
       }
 
-      // Get the document vector. For hw1, you don't have to worry about the
-      // details of how index works.
-      Document document = index.getDoc(did);
+      Document document = index.getDoc(docId);
+
       double score = cosineSimilarity(document, queryMap);
-      scoredDocument = new ScoredDocument(did, document.getTitleStr(),
+
+      scoredDocument = new ScoredDocument(docId, document.getTitleStr(),
           score);
+
     } catch (Exception e) {
       logger.error("Score document error while processing doc "
-          + Integer.toString(did) + ", due to: " + e);
+          + Integer.toString(docId) + ", due to: " + e);
     } finally {
       if (scanner != null) {
         scanner.close();
@@ -85,49 +67,86 @@ public class VectorSpaceModel implements BaseRanker {
   }
 
   private double cosineSimilarity(Document document,
-                                  HashMap<String, Integer> queryMap) {
-    double score = 0.0;
+                                  Map<String, Integer> queryMap) {
+    List<String> allTerms = new ArrayList<String>();
+    allTerms.addAll(document.getTitleList());
+    allTerms.addAll(document.getBodyList());
+    Set<String> uniqueTerms = new HashSet<String>(allTerms);
 
-    int numTerms = index.numTerms();
-    double interSection = 0.0;
-    double normDoc = 0.0;
-    double normQuery = 0.0;
-    int numDocs = index.numDocs();
-    for (int i = 0; i < numTerms; i++) {
-      String term = index.getTerm(i);
-      int documentFrequency = index.documentFrequency(term);
-      int termFrequency = document.termFrequency(term);
-      double tfIdfDoc = tfIdfDocument(termFrequency, documentFrequency, numDocs);
-      double tfidfQuery = tfIdfQuery(term, queryMap, documentFrequency, numDocs);
-      interSection += tfIdfDoc * tfidfQuery;
-      normDoc += Math.pow(tfIdfDoc, 2);
-      normQuery += Math.pow(tfidfQuery, 2);
+    double score = 0.0;
+    double d_j = 0.0;
+    double q_j = 0.0;
+    double a = 0.0;
+    double b = 0.0;
+    double c = 0.0;
+
+    // Calculate the numerator a and part of the denominator c
+    for (Map.Entry entry : queryMap.entrySet()) {
+      String query = (String) entry.getKey();
+      int queryFrequency = (Integer) entry.getValue();
+
+      q_j = getQueryTermWeights(query, queryFrequency);
+
+      if (allTerms.contains(query)) {
+        d_j = getDocumentTermWeights(allTerms, query);
+        a += d_j * q_j;
+      }
+
+      c += q_j * q_j;
     }
-    score = interSection / (Math.sqrt(normDoc) * Math.sqrt(normQuery));
-    logger.debug("DocId: " + Integer.toString(document.docId) + " score: "
-        + score);
+
+    // Calculate the part of denominator b
+    for (String s : uniqueTerms) {
+      d_j = getDocumentTermWeights(allTerms, s);
+      b += d_j * d_j;
+    }
+
+    if (b * c != 0) {
+      score = a / Math.sqrt(b * c);
+    }
+
     return score;
   }
 
-  /**
-   * Calculates the term frequency-inverse document frequency weight of the
-   * vector
-   *
-   * @return the term frequency-inverse document frequency weight
-   */
-  private double tfIdfDocument(int termFrequency, int documentFrequency,
-                               int numDocs) {
-    double idf = getInverseDocumentFrequency(documentFrequency, numDocs);
-    return termFrequency * idf;
+  private double getQueryTermWeights(String term, int termFrequency) {
+    double tf_ik = termFrequency;
+    double idf_k = getInverseDocumentFrequency(term);
+
+    return tf_ik * idf_k;
   }
 
-  private double tfIdfQuery(String term, HashMap<String, Integer> queryMap,
-                            int documentFrequency, int numDocs) {
+  private double getDocumentTermWeights(List<String> allTerms, String term) {
+    double tf_ik = getTermFrequencyWeight(allTerms, term);
+    double idf_k = getInverseDocumentFrequency(term);
 
-    int tf = getTermFrequency(term, queryMap);
-    double idf = getInverseDocumentFrequency(documentFrequency, numDocs);
-
-    return tf * idf;
+    return tf_ik * idf_k;
   }
 
+  private double getTermFrequencyWeight(List<String> allTerms, String term) {
+    double tf_ik = 0.0;
+    double f_ik = getTermFrequencyOfDocument(allTerms, term);
+
+    tf_ik = f_ik / allTerms.size();
+
+    return tf_ik;
+  }
+
+  private double getTermFrequencyOfDocument(List<String> allTerms, String term) {
+    double f_ik = 0.0;
+
+    for (String s : allTerms) {
+      if (s.equals(term)) {
+        f_ik++;
+      }
+    }
+
+    return f_ik;
+  }
+
+  private double getInverseDocumentFrequency(String term) {
+    double N = index.numDocs();
+    double n_t = index.documentFrequency(term);
+
+    return Math.log(N / n_t);
+  }
 }
