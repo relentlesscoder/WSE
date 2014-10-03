@@ -79,7 +79,7 @@ class QueryHandler implements HttpHandler {
       if (queryResponse.length() > 0) {
         queryResponse = queryResponse + "\n";
       }
-      queryResponse = queryResponse + queryText + "\t" + sd.asString();
+      queryResponse = queryResponse + queryText + "\t" + sd.toString();
     }
     if (queryResponse.length() > 0) {
       queryResponse = queryResponse + "\n";
@@ -130,8 +130,8 @@ class QueryHandler implements HttpHandler {
               Collections.sort(scoredDocuments, new Comparator<ScoredDocument>() {
                 @Override
                 public int compare(ScoredDocument o1, ScoredDocument o2) {
-                  return (o2._score > o1._score) ? 1 :
-                      (o2._score < o1._score) ? -1 : 0;
+                  return (o2.getScore() > o1.getScore()) ? 1 :
+                      (o2.getScore() < o1.getScore()) ? -1 : 0;
                 }
               });
 

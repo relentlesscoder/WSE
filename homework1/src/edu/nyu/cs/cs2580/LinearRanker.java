@@ -5,7 +5,10 @@ import java.util.List;
 
 public class LinearRanker implements BaseRanker {
   private Index index;
-  private final static double BETA = 0.50;
+  private final static double BETA_COS = 1.0;
+  private final static double BETA_LM = 1.0;
+  private final static double BETA_PHRASE = 1.0;
+  private final static double BETA_NUMVIEWS = 0.0001;
 
   public LinearRanker(Index index) {
     this.index = index;
@@ -13,37 +16,33 @@ public class LinearRanker implements BaseRanker {
 
   @Override
   public List<ScoredDocument> runQuery(String query) {
-    List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
-    List<ScoredDocument> retrieval_results_VSM;
-    List<ScoredDocument> retrieval_results_LM;
-    List<ScoredDocument> retrieval_results_phrase;
-    List<ScoredDocument> retrieval_results_numviews;
-
+    List<ScoredDocument> retrievalResults = new ArrayList<ScoredDocument>();
     BaseRanker VSM = new VectorSpaceModel(index);
-    retrieval_results_VSM = VSM.runQuery(query);
-
     BaseRanker LM = new LanguageModel(index);
-    retrieval_results_LM = LM.runQuery(query);
-
     BaseRanker phrase = new PhraseRanker(index);
-    retrieval_results_phrase = phrase.runQuery(query);
-
     BaseRanker numviews = new NumviewsRanker(index);
-    retrieval_results_numviews = numviews.runQuery(query);
 
     for (int docId = 0; docId < index.numDocs(); ++docId) {
       Document document = index.getDoc(docId);
-      double score = 0.0;
-      score = BETA
-          * (retrieval_results_VSM.get(docId)._score
-              + retrieval_results_LM.get(docId)._score
-              + retrieval_results_phrase.get(docId)._score + retrieval_results_numviews
-                .get(docId)._score);
-
-      retrieval_results.add(new ScoredDocument(docId, document
-          .getTitleStr(), score));
+      retrievalResults.add(new ScoredDocument(docId, document
+          .getTitleStr(), 0.0));
     }
 
-    return retrieval_results;
+    addRankerScore(retrievalResults, VSM.runQuery(query), BETA_COS);
+    addRankerScore(retrievalResults, LM.runQuery(query), BETA_LM);
+    addRankerScore(retrievalResults, phrase.runQuery(query), BETA_PHRASE);
+    addRankerScore(retrievalResults, numviews.runQuery(query), BETA_NUMVIEWS);
+
+    return retrievalResults;
+  }
+
+  private void addRankerScore(List<ScoredDocument> linearRankerResults, List<ScoredDocument> otherRankerResults, double beta) {
+    for (int docId = 0; docId < index.numDocs(); ++docId) {
+      Document document = index.getDoc(docId);
+
+      double originScore = linearRankerResults.get(docId).getScore();
+      double newScore = originScore + beta * otherRankerResults.get(docId).getScore();
+      linearRankerResults.get(docId).setScore(newScore);
+    }
   }
 }
