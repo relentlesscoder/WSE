@@ -15,8 +15,8 @@ public class PhraseRanker implements BaseRanker {
   }
 
   @Override
-  public Vector<ScoredDocument> runQuery(String query) {
-    Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
+  public List<ScoredDocument> runQuery(String query) {
+    List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
 
     for (int docId = 0; docId < index.numDocs(); docId++) {
       retrieval_results.add(scoreDocument(query, docId));
@@ -27,6 +27,7 @@ public class PhraseRanker implements BaseRanker {
 
   public ScoredDocument scoreDocument(String query, int docId) {
     ScoredDocument scoredDocument = null;
+
     // C is the total number of word occurrences in the collection.
     int C = index.termFrequency();
 
@@ -34,10 +35,14 @@ public class PhraseRanker implements BaseRanker {
     try {
       scanner = new Scanner(query);
       // Query vector
-      Vector<String> queryVector = new Vector<String>();
+      List<String> queryList = new ArrayList<String>();
       while (scanner.hasNext()) {
         String term = scanner.next();
-        queryVector.add(term);
+        queryList.add(term);
+      }
+
+      if (docId == 152) {
+        System.out.println("yoyoyo");
       }
 
       Document document = index.getDoc(docId);
@@ -45,24 +50,24 @@ public class PhraseRanker implements BaseRanker {
       List<String> bodyVector = document.getBodyList();
 
       // n-gram equal to the query size if the query size is less than n-gram
-      n_gram = n_gram > queryVector.size() ? queryVector.size() : n_gram;
+      n_gram = n_gram > queryList.size() ? queryList.size() : n_gram;
 
       // generate the n-gram vector for query, document title and document body
-      List<String> nGramQueryVector = nGramGenerator(queryVector, n_gram);
-      List<String> nGramTitleVector = nGramGenerator(titleVector, n_gram);
-      List<String> nGramBodyVector = nGramGenerator(bodyVector, n_gram);
+      List<String> nGramQueryList = nGramGenerator(queryList, n_gram);
+      List<String> nGramTitleList = nGramGenerator(titleVector, n_gram);
+      List<String> nGramBodyList = nGramGenerator(bodyVector, n_gram);
 
       double score = 0.0;
-      for (int i = 0; i < nGramQueryVector.size(); ++i) {
+      for (int i = 0; i < nGramQueryList.size(); ++i) {
         // Scan title
-        for (int j = 0; j < nGramTitleVector.size(); ++j) {
-          if (nGramQueryVector.get(i).equals(nGramTitleVector.get(j))) {
+        for (int j = 0; j < nGramTitleList.size(); ++j) {
+          if (nGramQueryList.get(i).equals(nGramTitleList.get(j))) {
             score += 1.0;
           }
         }
         // Scan body
-        for (int j = 0; j < nGramBodyVector.size(); ++j) {
-          if (nGramQueryVector.get(i).equals(nGramBodyVector.get(j))) {
+        for (int j = 0; j < nGramBodyList.size(); ++j) {
+          if (nGramQueryList.get(i).equals(nGramBodyList.get(j))) {
             score += 1.0;
           }
         }
@@ -84,15 +89,15 @@ public class PhraseRanker implements BaseRanker {
 
   // n-gram vector generator
   private List<String> nGramGenerator(List<String> content, int n_gram) {
-    List<String> nGramVector = new ArrayList<String>();
+    List<String> nGramList = new ArrayList<String>();
     for (int i = 0; i <= content.size() - n_gram; i++) {
       StringBuilder sb = new StringBuilder();
       for (int j = i; j < i + n_gram; j++) {
         sb.append(content.get(j)).append(" ");
       }
-      nGramVector.add(sb.substring(0, sb.length() - 1));
+      nGramList.add(sb.substring(0, sb.length() - 1));
     }
-    return nGramVector;
+    return nGramList;
   }
 
 }

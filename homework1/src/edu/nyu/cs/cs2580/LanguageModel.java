@@ -34,10 +34,10 @@ public class LanguageModel implements BaseRanker {
     try {
       scanner = new Scanner(query);
       // Query vector
-      Vector<String> Q = new Vector<String>();
+      List<String> queryList = new ArrayList<String>();
       while (scanner.hasNext()) {
         String term = scanner.next();
-        Q.add(term);
+        queryList.add(term);
       }
 
       Document document = index.getDoc(docId);
@@ -49,8 +49,8 @@ public class LanguageModel implements BaseRanker {
       // term.
       double score = 0.0;
 
-      for (int i = 0; i < Q.size(); ++i) {
-        String qi = Q.get(i);
+      for (int i = 0; i < queryList.size(); ++i) {
+        String qi = queryList.get(i);
 
         // fqi_D is the number of times word qi occurs in document D.
         int fqi_D = 0;
