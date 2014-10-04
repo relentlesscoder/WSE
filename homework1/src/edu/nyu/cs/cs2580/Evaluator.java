@@ -334,12 +334,7 @@ class Evaluator {
     double averagePrecision;
     double reciprocal;
 
-    StringBuilder output = new StringBuilder();
-    ArrayList<Double> recallList = new ArrayList<Double>();
-    ArrayList<Double> precisionList = new ArrayList<Double>();
-    ArrayList<Double> ideaDCGList = new ArrayList<Double>();
-    ArrayList<Double> queryDCGList = new ArrayList<Double>();
-    double reciprocalRank = 0.0;
+    StringBuilder res = new StringBuilder();
 
     String query = "";
     // Index: rank, Integer: docId
@@ -376,32 +371,33 @@ class Evaluator {
 
 
     // TODO: return the result
+    res.append(query);
+    // Precision: 1, 5, 10
+    res.append("\t" + precisionMap.get((Integer) K[0]));
+    res.append("\t" + precisionMap.get((Integer) K[1]));
+    res.append("\t" + precisionMap.get((Integer) K[2]));
+    // Recall: 1, 5, 10
+    res.append("\t" + recallMap.get((Integer) K[0]));
+    res.append("\t" + recallMap.get((Integer) K[1]));
+    res.append("\t" + recallMap.get((Integer) K[2]));
+    // F_0.50: 1, 5, 10
+    res.append("\t" + FMap.get((Integer) K[0]));
+    res.append("\t" + FMap.get((Integer) K[1]));
+    res.append("\t" + FMap.get((Integer) K[2]));
+    // Precision at recall points {0.0 - 1.0}
+    for (int i = 0; i < STANDARD_RECALL_LEVELS.length; i++) {
+      res.append("\t" + precisionAtStandardRecalls.get(i));
+    }
+    // Average precision
+    res.append("\t" + averagePrecision);
+    // NDCG: 1, 5, 10
+    res.append("\t" + NDCGMap.get((Integer) K[0]));
+    res.append("\t" + NDCGMap.get((Integer) K[1]));
+    res.append("\t" + NDCGMap.get((Integer) K[2]));
+    // Reciprocal
+    res.append("\t" + reciprocal);
 
-//    output.append("\t" + precisionList.get(0));
-//    output.append("\t" + precisionList.get(4));
-//    output.append("\t" + precisionList.get(9));
-//    output.append("\t" + recallList.get(0));
-//    output.append("\t" + recallList.get(4));
-//    output.append("\t" + recallList.get(9));
-//    output.append("\t" + getFMeasure(precisionList.get(0), recallList.get(0)));
-//    output.append("\t" + getFMeasure(precisionList.get(4), recallList.get(4)));
-//    output.append("\t" + getFMeasure(precisionList.get(9), recallList.get(9)));
-//    for (int i = 0; i < STANDARD_RECALL_LEVELS.length; i++) {
-//      output.append("\t"
-//          + getPrecisionAtStandardRecalls(STANDARD_RECALL_LEVELS[i],
-//              precisionList, recallList));
-//    }
-//    output.append("\t" + getAveragePrecision(precisionList));
-//    output.append("\t"
-//        + normalizedDiscountCumulativeGain(1, ideaDCGList, queryDCGList));
-//    output.append("\t"
-//        + normalizedDiscountCumulativeGain(5, ideaDCGList, queryDCGList));
-//    output.append("\t"
-//        + normalizedDiscountCumulativeGain(10, ideaDCGList, queryDCGList));
-//    output.append("\t" + reciprocalRank);
-//    return output.toString();
-
-    return null;
+    return res.toString();
   }
 
 
