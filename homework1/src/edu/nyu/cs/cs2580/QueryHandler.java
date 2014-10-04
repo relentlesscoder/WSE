@@ -3,9 +3,12 @@ package edu.nyu.cs.cs2580;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -23,6 +26,8 @@ import com.sun.net.httpserver.HttpHandler;
 class QueryHandler implements HttpHandler {
 
   private static final Logger logger = LogManager.getLogger(QueryHandler.class);
+  private static final String LOG_FILE_NAME = "hw1.4-log.tsv";
+  private static final String ACTION_RENDER = "render";
   private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\n$(document).ready(function () {\r\n$(\".clickLoggingTrigger\").click(function () {\r\nvar docId = $(this).attr(\"doc-id\");\r\nvar sessionId = $(\"#divSesstionId\").text();\r\nvar query = $(\"#divQueryText\").text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\n});\r\n});\r\n</script>\r\n</head>\r\n<body>\r\n";
   private static final String HTML_FOOTER = "</body>\r\n</html>";
   private static final String QUERY_REQUIRED = "Query text is required!\n";
@@ -100,6 +105,22 @@ class QueryHandler implements HttpHandler {
     return queryResponse;
   }
 
+  private String buildLog(String queryText, List<ScoredDocument> scoredDocuments) {
+    StringBuilder sb = new StringBuilder();
+    DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+    Date date = new Date();
+
+    for (ScoredDocument scoredDocument : scoredDocuments) {
+      String clickLog = sessionId + "\t";
+      clickLog += queryText + "\t";
+      clickLog += scoredDocument.getDocId() + "\t";
+      clickLog += ACTION_RENDER + "\t" + df.format(date) + "\r\n";
+      sb.append(clickLog);
+    }
+
+    return sb.toString();
+  }
+
   private String buildHtmlOutput(String queryText,
       List<ScoredDocument> scoredDocuments, UUID sessionId) {
     StringBuilder output = new StringBuilder();
@@ -172,6 +193,8 @@ class QueryHandler implements HttpHandler {
                           .getScore() < o1.getScore()) ? -1 : 0;
                     }
                   });
+              String log = buildLog(queryMap.get("query"), scoredDocuments);
+              Utility.WriteToFile(log, LOG_FILE_NAME, true);
             }
           } else {
             queryResponse = RANKER_REQUIRED;

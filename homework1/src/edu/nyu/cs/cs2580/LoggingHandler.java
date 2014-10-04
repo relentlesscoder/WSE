@@ -64,7 +64,7 @@ public class LoggingHandler implements HttpHandler {
               String clickLog = queryMap.get("sessionId") + "\t";
               clickLog += queryMap.get("query") + "\t";
               clickLog += queryMap.get("docId") + "\t";
-              clickLog += ACTION_CLICK + "\t" + df.format(date);
+              clickLog += ACTION_CLICK + "\t" + df.format(date) + "\r\n";
               actionLogged = Utility.WriteToFile(clickLog, LOG_FILE_NAME, true);
             } else {
               logger.error(QUERY_REQUIRED);
