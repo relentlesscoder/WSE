@@ -30,10 +30,13 @@ class QueryHandler implements HttpHandler {
   private static final String ACTION_RENDER = "render";
   private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\n$(document).ready(function () {\r\n$(\".clickLoggingTrigger\").click(function () {\r\nvar docId = $(this).attr(\"doc-id\");\r\nvar sessionId = $(\"#divSesstionId\").text();\r\nvar query = $(\"#divQueryText\").text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\n});\r\n});\r\n</script>\r\n</head>\r\n<body>\r\n";
   private static final String HTML_FOOTER = "</body>\r\n</html>";
-  private static final String QUERY_REQUIRED = "Query text is required!\n";
-  private static final String RANKER_REQUIRED = "Ranker type is required!\n";
-  private static final String INVALID_RANKER_TYPE = "Ranker type is invalid!\n";
-  private static final ArrayList<String> VALID_RANKER = new ArrayList<String>();
+  private static final String QUERY_REQUIRED = "Query is required!\n";
+  private static final String RANKER_REQUIRED = "Ranker is required!\n";
+  private static final String FORMAT_REQUIRED = "Format is required!\n";
+  private static final String INVALID_RANKER = "Ranker type is invalid!\n";
+  private static final String INVALID_FORMAT = "Format type is invalid!\n";
+  private static final List<String> VALID_RANKER = new ArrayList<String>();
+  private static final List<String> VALID_FORMAT = new ArrayList<String>();
   private Index index;
   private final UUID sessionId;
 
@@ -42,18 +45,10 @@ class QueryHandler implements HttpHandler {
     VALID_RANKER.add("QL");
     VALID_RANKER.add("phrase");
     VALID_RANKER.add("linear");
+    VALID_FORMAT.add("text");
+    VALID_FORMAT.add("html");
     this.index = index;
     sessionId = UUID.randomUUID();
-  }
-
-  private static boolean isValidRankerType(String rankerType) {
-    boolean isValid = true;
-    if (rankerType == null || rankerType.isEmpty()) {
-      isValid = false;
-    } else if (!VALID_RANKER.contains(rankerType)) {
-      isValid = false;
-    }
-    return isValid;
   }
 
   private BaseRanker initRanker(String rankerType) {
@@ -176,62 +171,69 @@ class QueryHandler implements HttpHandler {
       if (uriPath.equals("/search")) {
         queryMap = Utility.getQueryMap(uriQuery);
         Set<String> keys = queryMap.keySet();
-        if (keys.contains("query")) {
-          if (keys.contains("ranker")) {
-            String rankerType = queryMap.get("ranker");
-            if (!isValidRankerType(rankerType)) {
-              queryResponse = INVALID_RANKER_TYPE;
-            } else {
-              BaseRanker ranker = initRanker(rankerType);
-              scoredDocuments = ranker.runQuery(queryMap.get("query"));
-              // Sort the scoredDocument decreasingly
-              Collections.sort(scoredDocuments,
-                  new Comparator<ScoredDocument>() {
-                    @Override
-                    public int compare(ScoredDocument o1, ScoredDocument o2) {
-                      return (o2.getScore() > o1.getScore()) ? 1 : (o2
-                          .getScore() < o1.getScore()) ? -1 : 0;
-                    }
-                  });
-              String log = buildLog(queryMap.get("query"), scoredDocuments);
-              Utility.WriteToFile(log, LOG_FILE_NAME, true);
-            }
-          } else {
-            queryResponse = RANKER_REQUIRED;
-          }
-        } else {
+
+        if (!queryMap.containsKey("query")) {
           queryResponse = QUERY_REQUIRED;
+        } else if (!queryMap.containsKey("ranker")) {
+          queryResponse = RANKER_REQUIRED;
+        } else if (!queryMap.containsKey("format")) {
+          queryResponse = FORMAT_REQUIRED;
+        } else if (!VALID_RANKER.contains(queryMap.get("ranker"))) {
+          queryResponse = INVALID_RANKER;
+        } else {
+          // Everything looks fine, proceed...
+          BaseRanker ranker = initRanker(queryMap.get("ranker"));
+          scoredDocuments = ranker.runQuery(queryMap.get("query"));
+
+          // Sort the scoredDocument decreasingly
+          Collections.sort(scoredDocuments,
+              new Comparator<ScoredDocument>() {
+                @Override
+                public int compare(ScoredDocument o1, ScoredDocument o2) {
+                  return (o2.getScore() > o1.getScore()) ? 1 : (o2
+                      .getScore() < o1.getScore()) ? -1 : 0;
+                }
+              });
+
+          String log = buildLog(queryMap.get("query"), scoredDocuments);
+          Utility.WriteToFile(log, LOG_FILE_NAME, true);
+        }
+
+        RESPONSE_FORMAT format = null;
+
+        if (!VALID_FORMAT.contains(queryMap.get("format"))) {
+          queryResponse = INVALID_FORMAT;
+        } else {
+          format = getResponseFormat(queryMap.get("format"));
+        }
+
+        if (format == RESPONSE_FORMAT.HTML) {
+          queryResponse += HTML_HEADER;
+          queryResponse += buildHtmlOutput(queryMap.get("query"), scoredDocuments,
+              sessionId);
+          queryResponse += HTML_FOOTER;
+          Headers responseHeaders = exchange.getResponseHeaders();
+          responseHeaders.set("Server", "Java HTTP Search Server");
+          responseHeaders.set("Content-Type", "text/html; charset=iso-8859-1");
+          responseHeaders.set("Cache-Control", "no-cache");
+          // responseHeaders.set("Status", "HTTP/1.1 200 OK");
+          // responseHeaders.set("Content-Length",
+          // Integer.toString(queryResponse.length()));
+          exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+          OutputStream responseBody = exchange.getResponseBody();
+          responseBody.write(queryResponse.getBytes());
+          responseBody.close();
+        } else {
+          queryResponse = buildOutput(queryMap.get("query"), scoredDocuments);
+          // Construct a simple response.
+          Headers responseHeaders = exchange.getResponseHeaders();
+          responseHeaders.set("Content-Type", "text/plain");
+          exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
+          OutputStream responseBody = exchange.getResponseBody();
+          responseBody.write(queryResponse.getBytes());
+          responseBody.close();
         }
       }
-    }
-
-    RESPONSE_FORMAT format = getResponseFormat(queryMap.get("format"));
-    if (format == RESPONSE_FORMAT.HTML) {
-      queryResponse += HTML_HEADER;
-      queryResponse += buildHtmlOutput(queryMap.get("query"), scoredDocuments,
-          sessionId);
-      queryResponse += HTML_FOOTER;
-      Headers responseHeaders = exchange.getResponseHeaders();
-      responseHeaders.set("Server", "Java HTTP Search Server");
-      responseHeaders.set("Content-Type", "text/html; charset=iso-8859-1");
-      responseHeaders.set("Cache-Control", "no-cache");
-      // responseHeaders.set("Status", "HTTP/1.1 200 OK");
-      // responseHeaders.set("Content-Length",
-      // Integer.toString(queryResponse.length()));
-      exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
-      OutputStream responseBody = exchange.getResponseBody();
-      responseBody.write(queryResponse.getBytes());
-      responseBody.close();
-
-    } else {
-      queryResponse = buildOutput(queryMap.get("query"), scoredDocuments);
-      // Construct a simple response.
-      Headers responseHeaders = exchange.getResponseHeaders();
-      responseHeaders.set("Content-Type", "text/plain");
-      exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-      OutputStream responseBody = exchange.getResponseBody();
-      responseBody.write(queryResponse.getBytes());
-      responseBody.close();
     }
   }
 
