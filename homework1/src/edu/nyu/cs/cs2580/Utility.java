@@ -31,7 +31,6 @@ public class Utility {
       return false;
     }
     boolean result = false;
-    ;
     String filePath = System.getProperty("user.dir");
     if (filePath != null && !filePath.isEmpty()) {
       filePath += "/" + RESULT_FOLDER_NAME + "/" + fileName;
