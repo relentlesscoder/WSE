@@ -411,59 +411,6 @@ class Evaluator {
 
     return res.toString();
   }
-
-
-  private static double getFMeasure(double precision, double recall) {
-    return 2 * (precision * recall) / (precision + recall);
-  }
-
-  private static double getAveragePrecision(ArrayList<Double> precisionList) {
-    double sum = 0.0;
-    int size = precisionList.size();
-    for (int i = 0; i < size; i++) {
-      sum += precisionList.get(i);
-    }
-    return sum / size;
-  }
-
-  private static double getPrecisionAtStandardRecalls(double standardRecall,
-                                                      ArrayList<Double> precisionList, ArrayList<Double> recallList) {
-    double precision = 0.0;
-
-    for (int i = 0; i < recallList.size(); i++) {
-      if (recallList.get(i) >= standardRecall) {
-        precision = Math.max(precisionList.get(i), precision);
-      }
-    }
-
-    return precision;
-  }
-
-  private static double normalizedDiscountCumulativeGain(int rankPosition,
-                                                         ArrayList<Double> ideaDCGList, ArrayList<Double> queryDCGList) {
-    double ndcg = 0.0;
-    double dcg = 0.0;
-    double idcg = 0.0;
-
-    for (int i = 0; i < rankPosition; i++) {
-      dcg += discountCumulativeGain(rankPosition, queryDCGList);
-      idcg += discountCumulativeGain(rankPosition, ideaDCGList);
-    }
-
-    if (idcg != 0.0) {
-      ndcg = dcg / idcg;
-    }
-    return ndcg;
-  }
-
-  private static double discountCumulativeGain(int rankPosition,
-                                               ArrayList<Double> relevanceDCGList) {
-    double dcg = relevanceDCGList.get(0);
-    for (int i = 0; i < rankPosition; i++) {
-      dcg += relevanceDCGList.get(i) / (Math.log(i) / Math.log(2));
-    }
-    return dcg;
-  }
 }
 
 class RelevancePair {
