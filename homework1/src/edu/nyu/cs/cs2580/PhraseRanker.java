@@ -41,10 +41,6 @@ public class PhraseRanker implements BaseRanker {
         queryList.add(term);
       }
 
-      if (docId == 152) {
-        System.out.println("yoyoyo");
-      }
-
       Document document = index.getDoc(docId);
       List<String> titleVector = document.getTitleList();
       List<String> bodyVector = document.getBodyList();
