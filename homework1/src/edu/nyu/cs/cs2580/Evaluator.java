@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 import java.util.Map.Entry;
 
@@ -350,8 +351,9 @@ class Evaluator {
     List<Integer> rankedList = new ArrayList<Integer>();
 
     try {
-      String path = "/Users/youlongli/Documents/Dropbox/cs/WS/WSE/WSE/homework1/data/test.tsv";
-      BufferedReader reader = new BufferedReader(new FileReader(path));
+//      String path = "/Users/youlongli/Documents/Dropbox/cs/WS/WSE/WSE/homework1/data/test.tsv";
+//      BufferedReader reader = new BufferedReader(new FileReader(path));
+      BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
       try {
         String line;
         while ((line = reader.readLine()) != null) {
@@ -379,7 +381,6 @@ class Evaluator {
     precisionAtStandardRecalls = getPrecisionAtStandardRecalls(relevanceJudgments.get(query), rankedList);
 
 
-    // TODO: return the result
     res.append(query);
     // Precision: 1, 5, 10
     res.append("\t" + precisionMap.get((Integer) K[0]));
@@ -405,6 +406,8 @@ class Evaluator {
     res.append("\t" + NDCGMap.get((Integer) K[2]));
     // Reciprocal
     res.append("\t" + reciprocal);
+
+    System.out.println(res.toString());
 
     return res.toString();
   }
