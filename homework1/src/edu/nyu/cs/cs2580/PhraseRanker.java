@@ -28,9 +28,6 @@ public class PhraseRanker implements BaseRanker {
   public ScoredDocument scoreDocument(String query, int docId) {
     ScoredDocument scoredDocument = null;
 
-    // C is the total number of word occurrences in the collection.
-    int C = index.termFrequency();
-
     Scanner scanner = null;
     try {
       scanner = new Scanner(query);
@@ -39,10 +36,6 @@ public class PhraseRanker implements BaseRanker {
       while (scanner.hasNext()) {
         String term = scanner.next();
         queryList.add(term);
-      }
-
-      if (docId == 152) {
-        System.out.println("yoyoyo");
       }
 
       Document document = index.getDoc(docId);
