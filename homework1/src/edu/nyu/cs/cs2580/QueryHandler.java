@@ -23,8 +23,8 @@ import com.sun.net.httpserver.HttpHandler;
 class QueryHandler implements HttpHandler {
 
   private static final Logger logger = LogManager.getLogger(QueryHandler.class);
-  private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"><html><head><title>Web Search Engine</title><script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script><script type=\"text/javascript\">$(document).ready(function () {$(\".clickLoggingTrigger\").click(function () {var docId = $(this).attr(\"doc-id\");var sessionId = $(\"#divSesstionId\").text();console.log(docId);console.log(sessionId);});});</script></head><body>";
-  private static final String HTML_FOOTER = "</body></html>";
+  private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\n$(document).ready(function () {\r\n$(\".clickLoggingTrigger\").click(function () {\r\nvar docId = $(this).attr(\"doc-id\");\r\nvar sessionId = $(\"#divSesstionId\").text();\r\nvar query = $(\"#divQueryText\").text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\n});\r\n});\r\n</script>\r\n</head>\r\n<body>\r\n";
+  private static final String HTML_FOOTER = "</body>\r\n</html>";
   private static final String QUERY_REQUIRED = "Query text is required!\n";
   private static final String RANKER_REQUIRED = "Ranker type is required!\n";
   private static final String INVALID_RANKER_TYPE = "Ranker type is invalid!\n";
@@ -39,17 +39,6 @@ class QueryHandler implements HttpHandler {
     VALID_RANKER.add("linear");
     this.index = index;
     sessionId = UUID.randomUUID();
-  }
-
-  private static Map<String, String> getQueryMap(String query) {
-    String[] params = query.split("&");
-    Map<String, String> map = new HashMap<String, String>();
-    for (String param : params) {
-      String name = param.split("=")[0];
-      String value = param.split("=")[1];
-      map.put(name, value);
-    }
-    return map;
   }
 
   private static boolean isValidRankerType(String rankerType) {
@@ -117,19 +106,21 @@ class QueryHandler implements HttpHandler {
     output.append("<div>Your search for term ");
     output.append(queryText);
     output.append(" returns " + Integer.toString(scoredDocuments.size())
-        + " documents.</div>");
-    output.append("<div id=\"divSearchContainer\">");
+        + " documents.</div>\r\n");
+    output.append("<div id=\"divSearchContainer\">\r\n");
     for (ScoredDocument scoredDocument : scoredDocuments) {
       output.append("<div id=\"divDocument" + scoredDocument.getDocId()
           + "\" class=\"clickLoggingTrigger\" doc-id=\""
-          + scoredDocument.getDocId() + "\">");
-      output.append("<div>" + scoredDocument.getTitle() + "</div>");
-      output.append("<div>" + scoredDocument.getScore() + "</div>");
-      output.append("</div>");
+          + scoredDocument.getDocId() + "\">\r\n");
+      output.append("<div>" + scoredDocument.getTitle() + "</div>\r\n");
+      output.append("<div>" + scoredDocument.getScore() + "</div>\r\n");
+      output.append("</div>\r\n");
     }
-    output.append("</div>");
+    output.append("</div>\r\n");
     output.append("<div id=\"divSesstionId\" style=\"display:none\">"
-        + sessionId + "</div>");
+        + sessionId + "</div>\r\n");
+    output.append("<div id=\"divQueryText\" style=\"display:none\">"
+        + queryText + "</div>\r\n");
     return output.toString();
   }
 
@@ -162,7 +153,7 @@ class QueryHandler implements HttpHandler {
 
     if ((uriPath != null) && (uriQuery != null)) {
       if (uriPath.equals("/search")) {
-        queryMap = getQueryMap(uriQuery);
+        queryMap = Utility.getQueryMap(uriQuery);
         Set<String> keys = queryMap.keySet();
         if (keys.contains("query")) {
           if (keys.contains("ranker")) {
