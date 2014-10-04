@@ -35,6 +35,7 @@ public class SearchEngine {
 
     // Attach specific paths to their handlers.
     server.createContext("/search", new QueryHandler(index));
+    server.createContext("/logging", new LoggingHandler());
     server.setExecutor(Executors.newCachedThreadPool());
     server.start();
     System.out.println("Listening on port: " + Integer.toString(port));

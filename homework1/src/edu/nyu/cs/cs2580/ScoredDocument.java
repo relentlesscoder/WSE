@@ -21,6 +21,14 @@ class ScoredDocument {
     this.score = score;
   }
 
+  public int getDocId() {
+    return this.docId;
+  }
+
+  public String getTitle() {
+    return this.title;
+  }
+
   @Override
   public String toString() {
     return docId + "\t" + title + "\t" + score;
