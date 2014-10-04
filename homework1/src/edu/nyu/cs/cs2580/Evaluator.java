@@ -351,7 +351,6 @@ class Evaluator {
     List<Integer> rankedList = new ArrayList<Integer>();
 
     try {
-//      String path = "/Users/youlongli/Documents/Dropbox/cs/WS/WSE/WSE/homework1/data/test.tsv";
 //      BufferedReader reader = new BufferedReader(new FileReader(path));
       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
       try {
@@ -407,7 +406,7 @@ class Evaluator {
     // Reciprocal
     res.append("\t" + reciprocal);
 
-    System.out.println(res.toString());
+//    System.out.println(res.toString());
 
     return res.toString();
   }
