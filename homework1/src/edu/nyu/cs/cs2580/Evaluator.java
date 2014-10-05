@@ -32,7 +32,12 @@ class Evaluator {
 
     // now evaluate the results from stdin
     String output = evaluateStdin(relevanceJudgments);
-    // TODO call write to file utility method
+
+    // Write a file
+    Utility.WriteToFile(output, "hw1.3-unknownRanker.tsv", false);
+
+    // Print it in the terminal...
+    System.out.printf(output);
   }
 
   public static void readRelevanceJudgments(String judgePath,
