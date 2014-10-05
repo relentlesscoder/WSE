@@ -43,6 +43,7 @@ class QueryHandler implements HttpHandler {
   public QueryHandler(Index index) {
     VALID_RANKER.add("cosine");
     VALID_RANKER.add("QL");
+    VALID_RANKER.add("numviews");
     VALID_RANKER.add("phrase");
     VALID_RANKER.add("linear");
     VALID_FORMAT.add("text");
@@ -63,6 +64,9 @@ class QueryHandler implements HttpHandler {
       break;
     case LINEAR:
       ranker = new LinearRanker(index);
+      break;
+    case NUMVIEWS:
+      ranker = new NumviewsRanker(index);
       break;
     case COSINE:
     default:
@@ -140,6 +144,16 @@ class QueryHandler implements HttpHandler {
     return output.toString();
   }
 
+  private String convertScoredDocToString(List<ScoredDocument> scoredDocuments) {
+    StringBuilder sb = new StringBuilder();
+
+    for (ScoredDocument scoredDocument : scoredDocuments) {
+      sb.append(scoredDocument.toString());
+    }
+
+    return sb.toString();
+  }
+
   public void handle(HttpExchange exchange) throws IOException {
     logger.debug("Query handler start processing query");
     String requestMethod = exchange.getRequestMethod();
@@ -162,7 +176,7 @@ class QueryHandler implements HttpHandler {
     String queryResponse = "";
     String uriQuery = exchange.getRequestURI().getQuery();
     String uriPath = exchange.getRequestURI().getPath();
-    Map<String, String> queryMap = new HashMap<String, String>();
+    Map<String, String> queryMap;
     List<ScoredDocument> scoredDocuments = new ArrayList<ScoredDocument>();
     logger.debug("Query: " + uriQuery);
     logger.debug("Path: " + uriPath);
@@ -181,9 +195,28 @@ class QueryHandler implements HttpHandler {
         } else if (!VALID_RANKER.contains(queryMap.get("ranker"))) {
           queryResponse = INVALID_RANKER;
         } else {
+          String query = queryMap.get("query");
+          String rankerType = queryMap.get("ranker");
           // Everything looks fine, proceed...
-          BaseRanker ranker = initRanker(queryMap.get("ranker"));
-          scoredDocuments = ranker.runQuery(queryMap.get("query"));
+          BaseRanker ranker = initRanker(rankerType);
+          scoredDocuments = ranker.runQuery(query);
+
+          RANKER_TYPE type = RANKER_TYPE.valueOf(rankerType);
+          String fileName = "hw1.1-";
+
+          switch (type) {
+            case COSINE: fileName += "vsm.tsv";
+              break;
+            case QL: fileName += "ql.tsv";
+              break;
+            case PHRASE: fileName += "phrase.tsv";
+              break;
+            case LINEAR: fileName += "linear.tsv";
+              break;
+            case NUMVIEWS: fileName += "numviews.tsv";
+          }
+
+          Utility.WriteToFile(convertScoredDocToString(scoredDocuments), fileName, false);
 
           // Sort the scoredDocument decreasingly
           Collections.sort(scoredDocuments,
@@ -256,7 +289,8 @@ class QueryHandler implements HttpHandler {
     /**
      * Map to numviewed-based model
      */
-    LINEAR
+    LINEAR,
+    NUMVIEWS
   }
 
   /**
