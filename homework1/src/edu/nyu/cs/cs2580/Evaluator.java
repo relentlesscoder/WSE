@@ -387,7 +387,7 @@ class Evaluator {
   }
 
   public static String evaluateStdin(
-      // <String: query, <Integer: documentID, RelevancePair: binary relevance and categorical relevance pair>>
+//      <String: query, <Integer: documentID, RelevancePair: binary relevance and categorical relevance pair>>
       Map<String, HashMap<Integer, RelevancePair>> relevanceJudgments) {
 
     Map<Integer, Double> precisionMap;

@@ -134,10 +134,11 @@ class QueryHandler implements HttpHandler {
     return output.toString();
   }
 
-  private String convertScoredDocToString(List<ScoredDocument> scoredDocuments) {
+  private String convertScoredDocToString(List<ScoredDocument> scoredDocuments, String query) {
     StringBuilder sb = new StringBuilder();
 
     for (ScoredDocument scoredDocument : scoredDocuments) {
+      sb.append(query + "\t");
       sb.append(scoredDocument.toString());
       sb.append('\n');
     }
@@ -225,7 +226,7 @@ class QueryHandler implements HttpHandler {
               });
 
           // Write the result to file
-          Utility.WriteToFile(convertScoredDocToString(scoredDocuments), fileName, false);
+          Utility.WriteToFile(convertScoredDocToString(scoredDocuments, query), fileName, false);
 
           // Write the log to file
           String log = buildLog(queryMap.get("query"), scoredDocuments);
