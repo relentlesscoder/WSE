@@ -68,10 +68,21 @@ public class VectorSpaceModel implements BaseRanker {
 
   private double cosineSimilarity(Document document,
                                   Map<String, Integer> queryMap) {
+    int numOfDocTerms = document.getBodyList().size() + document.getTitleList().size();
     List<String> allTerms = new ArrayList<String>();
     allTerms.addAll(document.getTitleList());
     allTerms.addAll(document.getBodyList());
-    Set<String> uniqueTerms = new HashSet<String>(allTerms);
+
+    // <term, frequency> of a document
+    Map<String, Double> termFrequencyMap = new HashMap<String, Double>();
+
+    for (String s : allTerms) {
+      if (termFrequencyMap.containsKey(s)) {
+        termFrequencyMap.put(s, termFrequencyMap.get(s) + 1.0);
+      } else {
+        termFrequencyMap.put(s, 1.0);
+      }
+    }
 
     double score = 0.0;
     double d_j = 0.0;
@@ -87,8 +98,8 @@ public class VectorSpaceModel implements BaseRanker {
 
       q_j = getQueryTermWeights(query, queryFrequency);
 
-      if (allTerms.contains(query)) {
-        d_j = getDocumentTermWeights(allTerms, query);
+      if (termFrequencyMap.containsKey(query)) {
+        d_j = getDocumentTermWeights(termFrequencyMap, numOfDocTerms, query);
         a += d_j * q_j;
       }
 
@@ -96,8 +107,9 @@ public class VectorSpaceModel implements BaseRanker {
     }
 
     // Calculate the part of denominator b
-    for (String s : uniqueTerms) {
-      d_j = getDocumentTermWeights(allTerms, s);
+    for (Map.Entry entry : termFrequencyMap.entrySet()) {
+      String s = (String) entry.getKey();
+      d_j = getDocumentTermWeights(termFrequencyMap, numOfDocTerms, s);
       b += d_j * d_j;
     }
 
@@ -115,32 +127,20 @@ public class VectorSpaceModel implements BaseRanker {
     return tf_ik * idf_k;
   }
 
-  private double getDocumentTermWeights(List<String> allTerms, String term) {
-    double tf_ik = getTermFrequencyWeight(allTerms, term);
+  private double getDocumentTermWeights(Map<String, Double> termFrequencyMap, int numOfDocTerms, String term) {
+    double tf_ik = getTermFrequencyWeight(termFrequencyMap, numOfDocTerms, term);
     double idf_k = getInverseDocumentFrequency(term);
 
     return tf_ik * idf_k;
   }
 
-  private double getTermFrequencyWeight(List<String> allTerms, String term) {
+  private double getTermFrequencyWeight(Map<String, Double> termFrequencyMap, int numOfDocTerms, String term) {
     double tf_ik = 0.0;
-    double f_ik = getTermFrequencyOfDocument(allTerms, term);
+    double f_ik = termFrequencyMap.get(term);
 
-    tf_ik = f_ik / allTerms.size();
+    tf_ik = f_ik / numOfDocTerms;
 
     return tf_ik;
-  }
-
-  private double getTermFrequencyOfDocument(List<String> allTerms, String term) {
-    double f_ik = 0.0;
-
-    for (String s : allTerms) {
-      if (s.equals(term)) {
-        f_ik++;
-      }
-    }
-
-    return f_ik;
   }
 
   private double getInverseDocumentFrequency(String term) {
