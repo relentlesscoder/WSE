@@ -11,7 +11,7 @@ if [ -e $2 ]; then
 	VALID=$((VALID+1))
 fi
 if [ ${VALID} -ne 2 ]; then
-	echo "Arguments for this program are: [PORT] [PATH-TO-CORPUS]"
+	echo "Arguments for this program are: 25806 [PATH-TO-CORPUS]"
 	exit 1
 fi
  
