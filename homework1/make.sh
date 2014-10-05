@@ -4,14 +4,21 @@ PORT=$1
 CORPUS=$2
 VALID=0
 
-if [ $1 -eq 25806 ]; then
+if [ $# -lt 2 ]; then
+  echo 1>&2 "$0: not enough arguments"
+  exit 2
+elif [ $# -gt 2 ]; then
+  echo 1>&2 "$0: too many arguments"
+fi
+
+if [ ${PORT} -eq 25806 ]; then
 	VALID=$((VALID+1))
 fi
-if [ -e $2 ]; then
+if [ -e ${CORPUS} ]; then
 	VALID=$((VALID+1))
 fi
 if [ ${VALID} -ne 2 ]; then
-	echo "Arguments for this program are: 25806 [PATH-TO-CORPUS]"
+	echo 1>&2 "$0:Arguments for this program are: 25806 [PATH-TO-CORPUS]"
 	exit 1
 fi
  
