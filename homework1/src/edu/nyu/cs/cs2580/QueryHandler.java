@@ -149,6 +149,7 @@ class QueryHandler implements HttpHandler {
 
     for (ScoredDocument scoredDocument : scoredDocuments) {
       sb.append(scoredDocument.toString());
+      sb.append('\n');
     }
 
     return sb.toString();
@@ -216,7 +217,6 @@ class QueryHandler implements HttpHandler {
             case NUMVIEWS: fileName += "numviews.tsv";
           }
 
-          Utility.WriteToFile(convertScoredDocToString(scoredDocuments), fileName, false);
 
           // Sort the scoredDocument decreasingly
           Collections.sort(scoredDocuments,
@@ -228,6 +228,8 @@ class QueryHandler implements HttpHandler {
                 }
               });
 
+          Utility.WriteToFile(convertScoredDocToString(scoredDocuments), fileName, false);
+          
           String log = buildLog(queryMap.get("query"), scoredDocuments);
           Utility.WriteToFile(log, LOG_FILE_NAME, true);
         }
