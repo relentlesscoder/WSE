@@ -29,4 +29,3 @@ rm -rf ./bin
 
 NEWLINE=$'\n'
 echo "${NEWLINE}done:)"
-

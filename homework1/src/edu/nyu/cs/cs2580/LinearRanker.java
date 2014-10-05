@@ -6,9 +6,9 @@ import java.util.List;
 public class LinearRanker implements BaseRanker {
   private Index index;
   private final static double BETA_COS = 1.0;
-  private final static double BETA_LM = 1.0;
-  private final static double BETA_PHRASE = 1.0;
-  private final static double BETA_NUMVIEWS = 0.0001;
+  private final static double BETA_LM = 10.0;
+  private final static double BETA_PHRASE = 0.001;
+  private final static double BETA_NUMVIEWS = 0.00001;
 
   public LinearRanker(Index index) {
     this.index = index;

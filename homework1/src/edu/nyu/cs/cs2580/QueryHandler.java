@@ -1,27 +1,17 @@
 package edu.nyu.cs.cs2580;
 
+import com.sun.net.httpserver.Headers;
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import com.sun.net.httpserver.Headers;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
+import java.util.*;
 
 class QueryHandler implements HttpHandler {
 
@@ -35,8 +25,8 @@ class QueryHandler implements HttpHandler {
   private static final String FORMAT_REQUIRED = "Format is required!\n";
   private static final String INVALID_RANKER = "Ranker type is invalid!\n";
   private static final String INVALID_FORMAT = "Format type is invalid!\n";
-  private static final List<String> VALID_RANKER = new ArrayList<String>();
-  private static final List<String> VALID_FORMAT = new ArrayList<String>();
+  private List<String> VALID_RANKER = new ArrayList<String>();
+  private List<String> VALID_FORMAT = new ArrayList<String>();
   private Index index;
   private final UUID sessionId;
 
@@ -52,26 +42,26 @@ class QueryHandler implements HttpHandler {
     sessionId = UUID.randomUUID();
   }
 
-  private BaseRanker initRanker(String rankerType) {
-    BaseRanker ranker = null;
-    RANKER_TYPE type = RANKER_TYPE.valueOf(rankerType.toUpperCase());
-    switch (type) {
-    case QL:
-      ranker = new LanguageModel(index);
-      break;
-    case PHRASE:
-      ranker = new PhraseRanker(index);
-      break;
-    case LINEAR:
-      ranker = new LinearRanker(index);
-      break;
-    case NUMVIEWS:
-      ranker = new NumviewsRanker(index);
-      break;
-    case COSINE:
-    default:
-      ranker = new VectorSpaceModel(index);
-      break;
+  private BaseRanker initRanker(RANKER_TYPE rankerType) {
+    BaseRanker ranker;
+
+    switch (rankerType) {
+      case QL:
+        ranker = new LanguageModel(index);
+        break;
+      case PHRASE:
+        ranker = new PhraseRanker(index);
+        break;
+      case LINEAR:
+        ranker = new LinearRanker(index);
+        break;
+      case NUMVIEWS:
+        ranker = new NumviewsRanker(index);
+        break;
+      case COSINE:
+      default:
+        ranker = new VectorSpaceModel(index);
+        break;
     }
     return ranker;
   }
@@ -86,7 +76,7 @@ class QueryHandler implements HttpHandler {
   }
 
   private String buildOutput(String queryText,
-      List<ScoredDocument> scoredDocuments) {
+                             List<ScoredDocument> scoredDocuments) {
     logger.debug("Start building output");
     String queryResponse = "";
     Iterator<ScoredDocument> itr = scoredDocuments.iterator();
@@ -121,7 +111,7 @@ class QueryHandler implements HttpHandler {
   }
 
   private String buildHtmlOutput(String queryText,
-      List<ScoredDocument> scoredDocuments, UUID sessionId) {
+                                 List<ScoredDocument> scoredDocuments, UUID sessionId) {
     StringBuilder output = new StringBuilder();
     output.append("<div>Your search for term ");
     output.append(queryText);
@@ -185,7 +175,6 @@ class QueryHandler implements HttpHandler {
     if ((uriPath != null) && (uriQuery != null)) {
       if (uriPath.equals("/search")) {
         queryMap = Utility.getQueryMap(uriQuery);
-        Set<String> keys = queryMap.keySet();
 
         if (!queryMap.containsKey("query")) {
           queryResponse = QUERY_REQUIRED;
@@ -196,25 +185,32 @@ class QueryHandler implements HttpHandler {
         } else if (!VALID_RANKER.contains(queryMap.get("ranker"))) {
           queryResponse = INVALID_RANKER;
         } else {
-          String query = queryMap.get("query");
-          String rankerType = queryMap.get("ranker");
           // Everything looks fine, proceed...
+          String fileName = "";
+          String query = queryMap.get("query");
+          String rankerStr = queryMap.get("ranker");
+          RANKER_TYPE rankerType = RANKER_TYPE.valueOf(rankerStr.toUpperCase());
+
           BaseRanker ranker = initRanker(rankerType);
           scoredDocuments = ranker.runQuery(query);
 
-          RANKER_TYPE type = RANKER_TYPE.valueOf(rankerType.toUpperCase());
-          String fileName = "hw1.1-";
 
-          switch (type) {
-            case COSINE: fileName += "vsm.tsv";
+          switch (rankerType) {
+            case QL:
+              fileName += "hw1.1-ql.tsv";
               break;
-            case QL: fileName += "ql.tsv";
+            case PHRASE:
+              fileName += "hw1.1-phrase.tsv";
               break;
-            case PHRASE: fileName += "phrase.tsv";
+            case LINEAR:
+              fileName += "hw1.1-linear.tsv";
               break;
-            case LINEAR: fileName += "linear.tsv";
+            case NUMVIEWS:
+              fileName += "hw1.1-numviews.tsv";
               break;
-            case NUMVIEWS: fileName += "numviews.tsv";
+            case COSINE:
+            default:
+              fileName += "hw1.1-vsm.tsv";
           }
 
 
@@ -228,8 +224,10 @@ class QueryHandler implements HttpHandler {
                 }
               });
 
+          // Write the result to file
           Utility.WriteToFile(convertScoredDocToString(scoredDocuments), fileName, false);
-          
+
+          // Write the log to file
           String log = buildLog(queryMap.get("query"), scoredDocuments);
           Utility.WriteToFile(log, LOG_FILE_NAME, true);
         }
@@ -289,9 +287,12 @@ class QueryHandler implements HttpHandler {
      */
     PHRASE,
     /**
-     * Map to numviewed-based model
+     * Map to linear-based model
      */
     LINEAR,
+    /**
+     * Map to numviewed-based model
+     */
     NUMVIEWS
   }
 
