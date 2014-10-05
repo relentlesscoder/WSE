@@ -201,7 +201,7 @@ class QueryHandler implements HttpHandler {
           BaseRanker ranker = initRanker(rankerType);
           scoredDocuments = ranker.runQuery(query);
 
-          RANKER_TYPE type = RANKER_TYPE.valueOf(rankerType);
+          RANKER_TYPE type = RANKER_TYPE.valueOf(rankerType.toUpperCase());
           String fileName = "hw1.1-";
 
           switch (type) {
