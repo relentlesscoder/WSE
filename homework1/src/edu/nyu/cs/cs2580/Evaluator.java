@@ -105,13 +105,21 @@ class Evaluator {
     for (int i = 0; i < K.length; i++) {
       int k = K[i];
       double rr = 0.0;
+      double res = 0.0;
+
       for (int j = 0; j < k; j++) {
         int docId = rankedList.get(j);
         if (relevanceJudgments.containsKey(docId) && relevanceJudgments.get(docId).getBinaryRelevance() == 1) {
           rr++;
         }
       }
-      precisionMap.put(k, rr / k);
+
+      res = rr / k;
+      if (Double.isNaN(res)) {
+        res = 0.0;
+      }
+
+      precisionMap.put(k, res);
     }
 
     return precisionMap;
@@ -133,13 +141,21 @@ class Evaluator {
     for (int i = 0; i < K.length; i++) {
       int k = K[i];
       double rr = 0.0;
+      double res = 0.0;
       for (int j = 0; j < k; j++) {
         int docId = rankedList.get(j);
         if (relevanceJudgments.containsKey(docId) && relevanceJudgments.get(docId).getBinaryRelevance() == 1) {
           rr++;
         }
       }
-      recallMap.put(k, rr / countOfRelevant);
+
+      res = rr / countOfRelevant;
+
+      if (Double.isNaN(res)) {
+        res = 0.0;
+      }
+
+      recallMap.put(k, res);
     }
 
     return recallMap;
@@ -155,6 +171,11 @@ class Evaluator {
       double p = precisionMap.get(k);
       double r = recallMap.get(k);
       double f = 1 / (ALPHA * (1 / p) + (1 - ALPHA) * (1 / r));
+
+      if (Double.isNaN(f)) {
+        f = 0.0;
+      }
+
       FMap.put(k, f);
     }
 
@@ -166,16 +187,23 @@ class Evaluator {
     int lengthOfRankedList = rankedList.size();
     double ap = 0.0;
     double rr = 0.0;
+    double res = 0.0;
 
     for (int i = 0; i < lengthOfRankedList; i++) {
       int docId = rankedList.get(i);
-      if (relevanceJudgments.containsKey(docId) && relevanceJudgments.get(docId).getBinaryRelevance() == 1) {
+      if (relevanceJudgments.containsKey(docId) && relevanceJudgments.get(docId).getBinaryRelevance() == 1.0) {
         rr += 1.0;
-        ap += rr / i;
+        ap += rr / (i + 1);
       }
     }
 
-    return ap / rr;
+    res = ap / rr;
+
+    if (Double.isNaN(res)) {
+      res = 0.0;
+    }
+
+    return res;
   }
 
   // Return the reciprocal rank
@@ -205,6 +233,10 @@ class Evaluator {
         }
       }
 
+      if (Double.isNaN(dcg)) {
+        dcg = 0.0;
+      }
+
       DCG.put(k, dcg);
     }
 
@@ -220,9 +252,7 @@ class Evaluator {
     for (Entry entry : relevanceJudgments.entrySet()) {
       RelevancePair relevancePair = (RelevancePair) entry.getValue();
       double categoryRel = relevancePair.getCategoricalRelevance();
-      if (categoryRel > 0) {
-        ideaRankedList.add(relevancePair.getCategoricalRelevance());
-      }
+      ideaRankedList.add(relevancePair.getCategoricalRelevance());
     }
 
     Collections.sort(ideaRankedList, new Comparator<Double>() {
@@ -233,10 +263,20 @@ class Evaluator {
       }
     });
 
+    if (ideaRankedList.size() < K[K.length - 1]) {
+      for (int i = ideaRankedList.size() - 1; i < K[K.length - 1]; i++) {
+        ideaRankedList.add(0.0);
+      }
+    }
+
     for (int i = 0; i < K.length; i++) {
       int k = K[i];
       for (int j = 0; j < k; j++) {
         idcg += ideaRankedList.get(j) / Math.log(j + 2);
+      }
+
+      if (Double.isNaN(idcg)) {
+        idcg = 0.0;
       }
 
       IDCG.put(k, idcg);
@@ -254,6 +294,10 @@ class Evaluator {
     for (int i = 0; i < K.length; i++) {
       int k = K[i];
       double ndcg = DCG.get(k) / IDCG.get(k);
+
+      if (Double.isNaN(ndcg)) {
+        ndcg = 0.0;
+      }
 
       NDCG.put(k, ndcg);
     }
@@ -297,6 +341,7 @@ class Evaluator {
     // Get all precision
     for (int i = 0; i < rankedList.size(); i++) {
       double rr = 0.0;
+      double res = 0.0;
       for (int j = 0; j <= i; j++) {
         int docId = rankedList.get(j);
         if (relevanceJudgments.containsKey(docId) && relevanceJudgments.get(docId).getBinaryRelevance() == 1) {
@@ -304,7 +349,12 @@ class Evaluator {
         }
       }
 
-      precisionRecallPairList.get(i).setPrecision(rr / (i + 1));
+      res = rr / (i + 1);
+      if (Double.isNaN(res)) {
+        res = 0.0;
+      }
+
+      precisionRecallPairList.get(i).setPrecision(res);
     }
 
     // Sort the pairs by recall increasingly
@@ -379,11 +429,18 @@ class Evaluator {
     precisionMap = getPrecisionMap(relevanceJudgments.get(query), rankedList);
     recallMap = getRecallMap(relevanceJudgments.get(query), rankedList);
     FMap = getFMap(precisionMap, recallMap);
-    averagePrecision = getAveragePrecision(relevanceJudgments.get(query), rankedList);
-    reciprocal = getReciprocal(relevanceJudgments.get(query), rankedList);
     NDCGMap = getNDCG(relevanceJudgments.get(query), rankedList);
     precisionAtStandardRecalls = getPrecisionAtStandardRecalls(relevanceJudgments.get(query), rankedList);
+    averagePrecision = getAveragePrecision(relevanceJudgments.get(query), rankedList);
+    reciprocal = getReciprocal(relevanceJudgments.get(query), rankedList);
 
+    if (Double.isNaN(averagePrecision)) {
+      averagePrecision = 0.0;
+    }
+
+    if (Double.isNaN(reciprocal)) {
+      reciprocal = 0.0;
+    }
 
     res.append(query);
     // Precision: 1, 5, 10
