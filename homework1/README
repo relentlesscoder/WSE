@@ -4,15 +4,14 @@ Compile and Run
 
 1. Shell Script:
 
-For now, the port 25806 is occupied. It would be best that the administrator could
-help us to turn it off. If not, you could change the value of 'SERVER' varible in 
-start.sh to 258XX that available.
+If the port 25806 is occupied somehow, you could change the value of 'SERVER'
+variable in start.sh to one that is available.
 
 run server:  $ chmod u+x start.sh
 			 $ ./start.sh 25806 ./data/corpus.tsv
 
 evaluation:  $ chmod u+x evaluate.sh
-		     $ ./evaluate.sh [URL] ./data/qrel.tsv
+		     $ ./evaluate.sh [URL] ./data/qrels.tsv
 
 2. Manual:
 
