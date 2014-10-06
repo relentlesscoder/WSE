@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Combinatorial design - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Combinatorial_design&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Combinatorial_design&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Combinatorial_design","wgTitle":"Combinatorial design","wgCurRevisionId":526239139,"wgArticleId":2761968,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Combinatorics","Design theory","Set families","Design of experiments"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Combinatorial_design","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"f9cd9c1b811fb36757b58cf234dc777c","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":2761968,"title":"Combinatorial design","namespace":0,"categories":["Combinatorics","Design of experiments","Design theory","Set families"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Combinatorial_design skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Combinatorial design</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Combinatorial design theory</b> is the part of <a href="Combinatorics" title="Combinatorics">combinatorial</a> <a href="Mathematics" title="Mathematics">mathematics</a> that deals with the existence, construction and properties of <a href="Set_system" title="Set system" class="mw-redirect">systems of finite sets</a> whose arrangements satisfy generalized concepts of <i>balance</i> and/or <i>symmetry</i>. These concepts are not made precise so that a wide range of objects can be thought of as being under the same umbrella. At times this might involve the numerical sizes of set intersections as in <a href="Block_design" title="Block design">block designs</a>, while at other times it could involve the spatial arrangement of entries in an array as in <a href="Sudoku" title="Sudoku">Sudoku grids</a>.</p>
+<p>Combinatorial design theory can be applied to the area of <a href="Design_of_experiments" title="Design of experiments">design of experiments</a>. Some of the basic theory of combinatorial designs originated in the statistician <a href="Ronald_Fisher" title="Ronald Fisher">Ronald Fisher</a>'s work on the design of biological experiments. Modern applications are also found in a wide gamut of areas including; <a href="Finite_geometry" title="Finite geometry">Finite geometry</a>, <a href="Tournament" title="Tournament">tournament scheduling</a>, <a href="Lottery" title="Lottery">lotteries</a>, <a href="Mathematical_biology" title="Mathematical biology" class="mw-redirect">mathematical biology</a>, <a href="Algorithm_design" title="Algorithm design">algorithm design and analysis</a>, <a href="Computer_network" title="Computer network">networking</a>, <a href="Group_testing" title="Group testing">group testing</a> and <a href="Cryptography" title="Cryptography">cryptography</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Example"><span class="tocnumber">1</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Fundamental_combinatorial_designs"><span class="tocnumber">2</span> <span class="toctext">Fundamental combinatorial designs</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#A_wide_assortment_of_other_combinatorial_designs"><span class="tocnumber">3</span> <span class="toctext">A wide assortment of other combinatorial designs</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=1.php.html" title="Edit section: Example">edit</a>]</span> <span class="mw-headline" id="Example">Example</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Fano_plane.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fano_plane.svg/220px-Fano_plane.svg.png" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fano_plane.svg/330px-Fano_plane.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fano_plane.svg/440px-Fano_plane.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Fano_plane.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The Fano plane</div>
+</div>
+</div>
+<p>Given a certain number <i>n</i> of people, is it possible to assign them to sets so that each person is in at least one set, each pair of people is in exactly one set together, every two sets have exactly one person in common, and no set contains everyone, all but one person, or exactly one person? The answer depends on <i>n</i>.</p>
+<p>This has a solution only if <i>n</i> has the form <i>q</i><sup>2</sup> + <i>q</i> + 1. It is less simple to prove that a solution exists if <i>q</i> is a <a href="Prime_power" title="Prime power">prime power</a>. It is conjectured that these are the <i>only</i> solutions. It has been further shown that if a solution exists for <i>q</i> congruent to 1 or 2 mod 4, then <i>q</i> is a sum of two <a href="Square_numbers" title="Square numbers" class="mw-redirect">square numbers</a>. This last result, the <a href="Bruck%E2%80%93Ryser_theorem" title="Bruck–Ryser theorem" class="mw-redirect">Bruck–Ryser theorem</a>, is proved by a combination of constructive methods based on <a href="Finite_field" title="Finite field">finite fields</a> and an application of <a href="Quadratic_form" title="Quadratic form">quadratic forms</a>.</p>
+<p>When such a structure does exist, it is called a finite <a href="Projective_plane" title="Projective plane">projective plane</a>; thus showing how <a href="Finite_geometry" title="Finite geometry">finite geometry</a> and combinatorics intersect. When <i>q</i>&#160;=&#160;2, the projective plane is called the <a href="Fano_plane" title="Fano plane">Fano plane</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=2.php.html" title="Edit section: Fundamental combinatorial designs">edit</a>]</span> <span class="mw-headline" id="Fundamental_combinatorial_designs">Fundamental combinatorial designs</span></h2>
+<p>The classical core of the subject of combinatorial designs is built around <a href="Block_design" title="Block design">balanced incomplete block designs (BIBDs)</a>, <a href="Hadamard_matrix" title="Hadamard matrix">Hadamard matrices and Hadamard designs</a>, <a href="Block_design#Symmetric_BIBDs" title="Block design">symmetric BIBDs</a>, <a href="Latin_square" title="Latin square">Latin squares</a>, <a href="Block_design#Resolvable_2-designs" title="Block design">resolvable BIBDs</a>, <a href="Difference_set" title="Difference set">difference sets</a>, and pairwise balanced designs (PBDs).<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> Other combinatorial designs are related to or have been developed from the study of these fundamental ones.</p>
+<ul>
+<li>A <b>balanced incomplete block design</b> or BIBD (usually called for short a <a href="Block_design" title="Block design">block design</a>) is a collection <i><b>B</b></i> of <i>b</i> subsets (called <i>blocks</i>) of a finite set <i>X</i> of <i>v</i> elements, such that any element of <i>X</i> is contained in the same number <i>r</i> of blocks, every block has the same number <i>k</i> of elements, and each pair of distinct elements appear together in the same number λ of blocks. BIBDs are also known as <i>2-designs</i> and are often denoted as 2-(<i>v</i>,<i>k</i>,λ) designs. As an example, when λ = 1 and <i>b</i> = <i>v</i>, we have a <a href="Projective_plane" title="Projective plane">projective plane</a>: <i>X</i> is the point set of the plane and the blocks are the lines.</li>
+</ul>
+<ul>
+<li>A <b>symmetric balanced incomplete block design</b> or <b><a href="Block_design#Symmetric_BIBDs" title="Block design">SBIBD</a></b> is a BIBD in which <i>v</i> &#160;=&#160; <i>b</i> (the number of points equals the number of blocks). They are the single most important and well studied subclass of BIBDs. Projective planes, biplanes and Hadamard 2-designs are all SBIBDs. They are of particular interest since they are the extremal examples of <a href="Fisher's_inequality" title="Fisher's inequality">Fisher's inequality</a> (<i>b</i> ≥ <i>v</i>).</li>
+</ul>
+<ul>
+<li>A <b><a href="Block_design#Resolvable_2-designs" title="Block design">resolvable BIBD</a></b> is a BIBD whose blocks can be partitioned into sets (called <i>parallel classes</i>), each of which forms a partition of the point set of the BIBD. The set of parallel classes is called a <i>resolution</i> of the design. A solution of the famous <a href="15_schoolgirl_problem" title="15 schoolgirl problem" class="mw-redirect">15 schoolgirl problem</a> is a resolution of a BIBD with <i>v</i> &#160;=&#160;15, <i>k</i> &#160;=&#160;3 and λ&#160;=&#160;1.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></li>
+</ul>
+<ul>
+<li>A <b><a href="Latin_rectangle" title="Latin rectangle">Latin rectangle</a></b> is an <i>r</i>&#160;×&#160;<i>n</i> <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrix</a> that has the numbers 1,&#160;2,&#160;3,&#160;...,&#160;<i>n</i> as its entries (or any other set of <i>n</i> distinct symbols) with no number occurring more than once in any row or column where&#160;<i>r</i>&#160;≤&#160;<i>n</i>. An <i>n</i>&#160;×&#160;<i>n</i> Latin rectangle is called a <a href="Latin_square" title="Latin square">Latin square</a>. If <i>r</i>&#160;&lt;&#160;<i>n</i>, then it is possible to append <i>n</i>&#160;−&#160;<i>r</i> rows to an <i>r</i>&#160;×&#160;<i>n</i> Latin rectangle to form a Latin square, using <a href="Hall's_marriage_theorem" title="Hall's marriage theorem">Hall's marriage theorem</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></li>
+</ul>
+<dl>
+<dd>Two Latin squares of order <i>n</i> are said to be <i>orthogonal</i> if the set of all ordered pairs consisting of the corresponding entries in the two squares has <i>n</i><sup>2</sup> distinct members (all possible ordered pairs occur). A set of Latin squares of the same order forms a set of <b><a href="Orthogonal_Latin_squares" title="Orthogonal Latin squares" class="mw-redirect">mutually orthogonal Latin squares (MOLS)</a></b> if every pair of Latin squares in the set are orthogonal. There can be at most <i>n</i>&#160;-&#160;1 squares in a set of MOLS of order <i>n</i>. A set of MOLS of order <i>n</i> of maximal size can be used to construct a <a href="Projective_plane" title="Projective plane">projective plane</a> of order <i>n</i>.</dd>
+</dl>
+<ul>
+<li>A (<i>v</i>, <i>k</i>, λ) <b><a href="Difference_set" title="Difference set">difference set</a></b> is a <a href="Subset" title="Subset">subset</a> <b>D</b> of a <a href="Group_(mathematics)" title="Group (mathematics)">group</a> <b>G</b> such that the <a href="Order_of_a_group" title="Order of a group" class="mw-redirect">order</a> of <b>G</b> is <i>v</i>, the <a href="Cardinality" title="Cardinality">size</a> of <b>D</b> is <i>k</i>, and every nonidentity element of <b>G</b> can be expressed as a product <i>d</i><sub>1</sub><i>d</i><sub>2</sub><sup>-1</sup> of elements of <b>D</b> in exactly λ ways (when <b>G</b> is written with a multiplicative operation).<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></li>
+</ul>
+<dl>
+<dd>If <b>D</b> is a difference set, and <i>g</i> in <b>G</b>, then <i>g</i> <b>D</b>&#160;=&#160;{<i>gd</i>: <i>d</i> in <b>D</b>} is also a difference set, and is called a <b>translate</b> of <b>D</b>. The set of all translates of a difference set <b>D</b> forms a <a href="Block_design#Symmetric_BIBDs" title="Block design">symmetric block design</a>. In such a design there are <i>v</i> elements and <i>v</i> blocks. Each block of the design consists of <i>k</i> points, each point is contained in <i>k</i> blocks. Any two blocks have exactly λ elements in common and any two points appear together in λ blocks. This SBIBD is called the <i>development</i> of <b>D</b>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></dd>
+</dl>
+<dl>
+<dd>In particular, if λ = 1, then the difference set gives rise to a <a href="Projective_plane" title="Projective plane">projective plane</a>. An example of a (7,3,1) difference set in the group <img class="tex" alt="\mathbb{Z}/7\mathbb{Z}" src="http://upload.wikimedia.org/math/1/9/8/1984deae95579d1a0efbda677ad5ff5e.png" /> (an abelian group written additively) is the subset {1,2,4}. The development of this difference set gives the <a href="Fano_plane" title="Fano plane">Fano plane</a>.</dd>
+<dd>Since every difference set gives an SBIBD, the parameter set must satisfy the <a href="Bruck%E2%80%93Ryser%E2%80%93Chowla_theorem" title="Bruck–Ryser–Chowla theorem">Bruck–Ryser–Chowla theorem</a>, but not every SBIBD gives a difference set.</dd>
+</dl>
+<ul>
+<li>An <b><a href="Hadamard_matrix" title="Hadamard matrix">Hadamard matrix</a></b> of order <i>m</i> is an <i>m</i> × <i>m</i> matrix <b>H</b> whose entries are ±1 such that <b>HH</b><sup>⊤</sup> &#160;=&#160;m<b>I</b><sub>m</sub>, where <b>H</b><sup>⊤</sup> is the transpose of <b>H</b> and <b>I</b><sub>m</sub> is the <i>m</i> × <i>m</i> identity matrix. An Hadamard matrix can be put into <i>standardized form</i> (that is, converted to an equivalent Hadamard matrix) where the first row and first column entries are all +1. If the order <i>m</i> &gt; 2 then <i>m</i> must be a multiple of 4.</li>
+</ul>
+<dl>
+<dd>Given an Hadamard matrix of order 4<i>a</i> in standardized form, remove the first row and first column and convert every -1 to a 0. The resulting 0-1 matrix <b>M</b> is the <a href="Incidence_matrix" title="Incidence matrix">incidence matrix</a> of a symmetric 2-(4<i>a</i>-1, 2<i>a</i>-1, <i>a</i>-1) design called an <b>Hadamard 2-design</b>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> This construction is reversible, and the incidence matrix of a symmetric 2-design with these parameters can be used to form an Hadamard matrix of order 4<i>a</i>. When <i>a</i>&#160;=&#160;2 we obtain the, by now familiar, <a href="Fano_plane" title="Fano plane">Fano plane</a> as an Hadamard 2-design.</dd>
+</dl>
+<ul>
+<li><span id="pairwise_balanced_design"></span> A <b>pairwise balanced design</b> (or PBD) is a set <i>X</i> together with a family of subsets of <i>X</i> (which need not have the same size and may contain repeats) such that every pair of distinct elements of <i>X</i> is contained in exactly λ (a positive integer) subsets. The set <i>X</i> is allowed to be one of the subsets, and if all the subsets are copies of <i>X</i>, the PBD is called <i>trivial</i>. The size of <i>X</i> is <i>v</i> and the number of subsets in the family (counted with multiplicity) is <i>b</i>.</li>
+</ul>
+<dl>
+<dd><a href="Fisher's_inequality" title="Fisher's inequality">Fisher's inequality</a> holds for PBDs:<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> For any non-trivial PBD, <i>v</i> ≤ <i>b</i>.</dd>
+</dl>
+<dl>
+<dd>This result also generalizes the famous <a href="De_Bruijn%E2%80%93Erd%C5%91s_theorem_(incidence_geometry)" title="De Bruijn–Erdős theorem (incidence geometry)">Erdős–De Bruijn theorem</a>: For a PBD with <i>λ</i> = 1 having no blocks of size 1 or size <i>v</i>, <i>v</i> ≤ <i>b</i>, with equality if and only if the PBD is a <a href="Projective_plane" title="Projective plane">projective plane</a> or a near-pencil.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=3.php.html" title="Edit section: A wide assortment of other combinatorial designs">edit</a>]</span> <span class="mw-headline" id="A_wide_assortment_of_other_combinatorial_designs">A wide assortment of other combinatorial designs</span></h2>
+<p>The Handbook of Combinatorial Designs (<a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>) has, amongst others, 65 chapters, each devoted to a combinatorial design other than those given above. A partial listing is given below:</p>
+<ul>
+<li><a href="Association_scheme" title="Association scheme">Association schemes</a></li>
+<li>A <b>balanced ternary design</b> BTD(<i>V</i>, <i>B</i>; ρ<sub>1</sub>, ρ<sub>2</sub>, <i>R</i>; <i>K</i>, Λ) is an arrangement of <i>V</i> elements into <i>B</i> <a href="Multiset" title="Multiset">multisets</a> (blocks), each of cardinality <i>K</i> (<i>K</i> ≤ <i>V</i>), satisfying:</li>
+</ul>
+<ol>
+<li>Each element appears <i>R</i> = ρ<sub>1</sub> + 2ρ<sub>2</sub> times altogether, with multiplicity one in exactly ρ<sub>1</sub> blocks and multiplicity two in exactly ρ<sub>2</sub> blocks.</li>
+<li>Every pair of disinct elements appears Λ times (counted with multiplicity); that is, if m<sub>vb</sub> is the multiplicity of the element <i>v</i> in block <i>b</i>, then for every pair of distinct elements <i>v</i> and <i>w</i>, <img class="tex" alt="\sum_{b=1}^B m_{vb} m_{wb} = \Lambda" src="http://upload.wikimedia.org/math/e/d/4/ed47ed29f38c63fe0e20abc04d932b10.png" />.</li>
+</ol>
+<dl>
+<dd>For example, one of the only two nonisomorphic BTD(4,8;2,3,8;4,6)s (blocks are columns) is:<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></dd>
+</dl>
+<center>
+<table class="wikitable">
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>3</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+<td>4</td>
+</tr>
+</table>
+</center>
+<dl>
+<dd>The <a href="Incidence_matrix" title="Incidence matrix">incidence matrix</a> of a BTD (where the entries are the multiplicities of the elements in the blocks) can be used to form a ternary error-correcting code analogous to the way binary codes are formed from the incidence matrices of BIBDs.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li>A <b>balanced tournament design</b> of order <i>n</i> (a BTD(<i>n</i>)) is an arrangement of all the distinct unordered pairs of a 2<i>n</i>-set <i>V</i> into an <i>n</i> × (2<i>n</i>-1) array such that</li>
+</ul>
+<ol>
+<li>every element of <i>V</i> appears precisely once in each column, and</li>
+<li>every element of <i>V</i> appears at most twice in each row.</li>
+</ol>
+<dl>
+<dd>An example of a BTD(3) is given by</dd>
+</dl>
+<center>
+<table class="wikitable">
+<tr>
+<td>1 6</td>
+<td>3 5</td>
+<td>2 3</td>
+<td>4 5</td>
+<td>2 4</td>
+</tr>
+<tr>
+<td>2 5</td>
+<td>4 6</td>
+<td>1 4</td>
+<td>1 3</td>
+<td>3 6</td>
+</tr>
+<tr>
+<td>3 4</td>
+<td>1 2</td>
+<td>5 6</td>
+<td>2 6</td>
+<td>1 5</td>
+</tr>
+</table>
+</center>
+<dl>
+<dd>The columns of a BTD(<i>n</i>) provide a <a href="1-factorization" title="1-factorization" class="mw-redirect">1-factorization</a> of the complete graph on 2<i>n</i> vertices, <i>K</i><sub>2n</sub>.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></dd>
+<dd>BTD(<i>n</i>)s can be used to schedule round robin tournaments: the rows represent the locations, the columns the rounds of play and the entries are the competing players or teams.</dd>
+</dl>
+<ul>
+<li><a href="Bent_function" title="Bent function">Bent functions</a></li>
+<li><a href="Costas_array" title="Costas array">Costas arrays</a></li>
+<li><a href="Factorial_design" title="Factorial design" class="mw-redirect">Factorial designs</a></li>
+<li>A <b>frequency square</b> (<b>F</b>-square) is a higher order generalization of a <a href="Latin_square" title="Latin square">Latin square</a>. Let <i>S</i> = {<i>s</i><sub>1</sub>,<i>s</i><sub>2</sub>, ..., <i>s</i><sub>m</sub>} be a set of distinct symbols and (λ<sub>1</sub>, λ<sub>2</sub>, ...,λ<sub>m</sub>) a <i>frequency vector</i> of positive integers. A <i>frequency square</i> of order <i>n</i> is an <i>n</i> × <i>n</i> array in which each symbol <i>s</i><sub>i</sub> occurs λ<sub>i</sub> times, <i>i</i> = 1,2,...,m, in each row and column. The <i>order</i> <i>n</i> = λ<sub>1</sub>&#160;+&#160;λ<sub>2</sub>&#160;+&#160;...&#160;+&#160;λ<sub>m</sub>. An F-square is in <i>standard form</i> if in the first row and column, all occurrences of <i>s</i><sub>i</sub> precede those of <i>s</i><sub>j</sub> whenever <i>i</i> &lt; <i>j</i>.</li>
+</ul>
+<dl>
+<dd>A frequency square F<sub>1</sub> of order <i>n</i> based on the set {<i>s</i><sub>1</sub>,<i>s</i><sub>2</sub>, ..., <i>s</i><sub>m</sub>} with frequency vector (λ<sub>1</sub>, λ<sub>2</sub>, ...,λ<sub>m</sub>) and a frequency square F<sub>2</sub>, also of order <i>n</i>, based on the set {<i>t</i><sub>1</sub>,<i>t</i><sub>2</sub>, ..., <i>t</i><sub>k</sub>} with frequency vector (μ<sub>1</sub>, μ<sub>2</sub>, ...,μ<sub>k</sub>) are <i>orthogonal</i> if every ordered pair (<i>s</i><sub>i</sub>, <i>t</i><sub>j</sub>) appears precisely λ<sub>i</sub>μ<sub>j</sub> times when F<sub>1</sub> and F<sub>2</sub> are superimposed.</dd>
+</dl>
+<ul>
+<li><b>Hall triple systems</b> (HTSs) are <a href="Steiner_system" title="Steiner system">Steiner triple systems (STSs)</a> (but the blocks are called <i>lines</i>) with the property that the substructure generated by two intersecting lines is isomorphic to the <a href="Projective_plane#Affine_planes" title="Projective plane">finite affine plane</a> AG(2,3).</li>
+</ul>
+<dl>
+<dd>Any affine space AG(<i>n</i>,3) gives an example of an HTS. Such an HTS is an <i>affine</i> HTS. Nonaffine HTSs also exist.</dd>
+<dd>The number of points of an HTS is 3<sup>m</sup> for some integer <i>m</i>&#160;≥&#160;2. Nonaffine HTSs exist for any <i>m</i>&#160;≥&#160;4 and do not exist for <i>m</i>&#160;=&#160;2 or 3.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></dd>
+<dd>Every Steiner triple system is equivalent to a Steiner <a href="Quasigroup" title="Quasigroup">quasigroup</a> (<a href="Idempotent" title="Idempotent" class="mw-redirect">idempotent</a>, <a href="Commutative" title="Commutative" class="mw-redirect">commutative</a> and satisfying (<i>xy</i>)<i>y</i>&#160;=&#160;<i>x</i> for all <i>x</i> and <i>y</i>). A Hall triple system is equivalent to a Steiner quasigroup which is <a href="Distributive" title="Distributive" class="mw-redirect">distributive</a>, that is, satisfies <span class="nowrap">a(xy) = (ax)(ay)</span> for all a,x,y in the quasigroup.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li>Let <i>S</i> be a set of 2<i>n</i> elements. A <b>Howell design</b>, H(<i>s</i>,2<i>n</i>) (on symbol set <i>S</i>) is an <i>s</i> × <i>s</i> array such that:</li>
+</ul>
+<ol>
+<li>Each cell of the array is either empty or contains an unordered pair from <i>S</i>,</li>
+<li>Each symbol occurs exactly once in each row and column of the array, and</li>
+<li>Every unordered pair of symbols occurs in at most one cell of the array.</li>
+</ol>
+<dl>
+<dd>An example of an H(4,6) is</dd>
+</dl>
+<center>
+<table class="wikitable">
+<tr>
+<td>0 4</td>
+<td>&#160;</td>
+<td>1 3</td>
+<td>2 5</td>
+</tr>
+<tr>
+<td>2 3</td>
+<td>1 4</td>
+<td>0 5</td>
+<td>&#160;</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td>3 5</td>
+<td>2 4</td>
+<td>0 1</td>
+</tr>
+<tr>
+<td>1 5</td>
+<td>0 2</td>
+<td>&#160;</td>
+<td>3 4</td>
+</tr>
+</table>
+</center>
+<dl>
+<dd>An H(2<i>n</i> - 1, 2<i>n</i>) is a <a href="Room_square" title="Room square">Room square</a> of side 2<i>n</i> - 1, and thus the Howell designs generalize the concept of Room squares.</dd>
+</dl>
+<dl>
+<dd>The pairs of symbols in the cells of a Howell design can be thought of as the edges of an <i>s</i> regular graph on 2<i>n</i> vertices, called the <i>underlying graph</i> of the Howell design.</dd>
+</dl>
+<dl>
+<dd>Cyclic Howell designs are used as <i>Howell movements</i> in duplicate bridge tournaments. The rows of the design represent the rounds, the columns represent the boards, and the diagonals represent the tables.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li><a href="Linear_space" title="Linear space" class="mw-redirect">Linear spaces</a></li>
+<li>An <b>(<i>n</i>,<i>k</i>,<i>p</i>,<i>t</i>)-lotto design</b> is an <i>n</i>-set <i>V</i> of elements together with a set β of <i>k</i>-element subsets of <i>V</i> (blocks), so that for any <i>p</i>-subset P of <i>V</i>, there is a block B in β for which |P ∩ B | ≥ <i>t</i>. <b>L(<i>n</i>,<i>k</i>,<i>p</i>,<i>t</i>)</b> denotes the smallest number of blocks in any (<i>n</i>,<i>k</i>,<i>p</i>,<i>t</i>)-lotto design. The following is a (7,5,4,3)-lotto design with the smallest possible number of blocks:<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd>{1,2,3,4,7} &#160; &#160; &#160; {1,2,5,6,7} &#160; &#160; &#160; {3,4,5,6,7}.</dd>
+</dl>
+</dd>
+<dd>Lotto designs model any <a href="Lottery" title="Lottery">lottery</a> that is run in the following way: Individuals purchase <i>tickets</i> consisting of <i>k</i> numbers chosen from a set of <i>n</i> numbers. At a certain point the sale of tickets is stopped and a set of <i>p</i> numbers is randomly selected from the <i>n</i> numbers. These are the <i>winning numbers</i>. If any sold ticket contains <i>t</i> or more of the winning numbers, a prize is given to the ticket holder. Larger prizes go to tickets with more matchs. The value of L(<i>n</i>,<i>k</i>,<i>p</i>,<i>t</i>) is of interest to both gamblers and researchers, as this is the smallest number of tickets that are needed to be purchased in order to guarantee a prize.</dd>
+</dl>
+<dl>
+<dd>The Hungarian Lottery is a (90,5,5,<i>t</i>)-lotto design and it is known that L(90,5,5,2) = 100. Lotteries with parameters (49,6,6,<i>t</i>) are also popular worldwide and it is known that L(49,6,6,2) = 19. In general though, these numbers are hard to calculate and remain unknown.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup></dd>
+</dl>
+<dl>
+<dd>A geometric construction of one such design is given in <a href="Transylvanian_lottery" title="Transylvanian lottery" class="mw-redirect">Transylvanian lottery</a>.</dd>
+</dl>
+<ul>
+<li><a href="Magic_square" title="Magic square">Magic squares</a></li>
+</ul>
+<ul>
+<li>A <b>(<i>v</i>,<i>k</i>,λ)-Mendelsohn design</b>, or MD(<i>v</i>,<i>k</i>,λ),is a <i>v</i>-set <i>V</i> and a collection β of ordered <i>k</i>-tuples of distinct elements of <i>V</i> (called <i>blocks</i>), such that each ordered pair (<i>x</i>,<i>y</i>) with <i>x</i> ≠ <i>y</i> of elements of <i>V</i> is cyclically adjacent in λ blocks. The ordered pair (<i>x</i>,<i>y</i>) of distinct elements is <i>cyclically adjacent</i> in a block if the elements appear in the block as (...,<i>x</i>,<i>y</i>,...) or (<i>y</i>,...,<i>x</i>). An MD(<i>v</i>,3,λ) is a <b>Mendelsohn triple system</b>, MTS(<i>v</i>,λ). An example of an MTS(4,1) on V = {0,1,2,3} is:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd>(0,1,2) &#160; &#160; (1,0,3) &#160; &#160; (2,1,3) &#160; &#160; (0,2,3)</dd>
+</dl>
+</dd>
+<dd>Any triple system can be made into a Mendelson triple system by replacing the unordered triple {<i>a</i>,<i>b</i>,<i>c</i>} with the pair of ordered triples (<i>a</i>,<i>b</i>,<i>c</i>) and (<i>a</i>,<i>c</i>,<i>b</i>), but as the example shows, the converse of this statement is not true.</dd>
+<dd>If (<i>Q</i>,∗) is an idempotent semisymmetric <a href="Quasigroup" title="Quasigroup">quasigroup</a>, that is, <i>x</i> ∗ <i>x</i> = <i>x</i> (idempotent) and <i>x</i> ∗ (<i>y</i> ∗ <i>x</i>) = <i>x</i> (semisymmetric) for all <i>x</i>, <i>y</i> in <i>Q</i>, let β = {(<i>x</i>,<i>y</i>,<i>x</i> ∗ <i>y</i>): <i>x</i>, <i>y</i> in <i>Q</i>}. Then (<i>Q</i>, β) is a Mendelsohn triple system MTS(|<i>Q</i>|,1). This construction is reversible.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li><a href="Orthogonal_array" title="Orthogonal array">Orthogonal arrays</a></li>
+</ul>
+<ul>
+<li>A <b>quasi-3 design</b> is a symmetric design (SBIBD) in which each triple of blocks intersect in either <i>x</i> or <i>y</i> points, for fixed <i>x</i> and <i>y</i> called the <i>triple intersection numbers</i> (<i>x</i> &lt; <i>y</i>). Any symmetric design with λ ≤ 2 is a quasi-3 design with <i>x</i>&#160;=&#160;0 and <i>y</i>&#160;=&#160;1. The point-hyperplane design of <a href="Projective_geometry" title="Projective geometry"><b>PG</b>(<i>n</i>,<i>q</i>)</a> is a quasi-3 design with <i>x</i>&#160;=&#160;(<i>q</i><sup>n-2</sup>&#160;-&#160;1)/(<i>q</i>&#160;-&#160;1) and <i>y</i>&#160;=&#160;λ&#160;=&#160;(<i>q</i><sup>n-1</sup>&#160;-&#160;1)/(<i>q</i>&#160;-&#160;1). If <i>y</i>&#160;=&#160;λ for a quasi-3 design, the design is isomorphic to <b>PG</b>(<i>n</i>,<i>q</i>) or a <a href="Projective_plane" title="Projective plane">projective plane</a>.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup></li>
+</ul>
+<ul>
+<li>A <i>t</i>-(<i>v</i>,<i>k</i>,λ) design <i>D</i> is <b>quasi-symmetric</b> with intersection numbers <i>x</i> and <i>y</i> (<i>x</i> &lt; <i>y</i>) if every two distinct blocks intersect in either <i>x</i> or <i>y</i> points. These designs naturally arise in the investigation of the duals of designs with λ = 1. A non-symmetric (<i>b</i> &gt; <i>v</i>) 2-(<i>v</i>,<i>k</i>,1) design is quasisymmetric with <i>x</i> = 0 and <i>y</i> = 1. A multiple (repeat all blocks a certain number of times) of a symmetric 2-(<i>v</i>,<i>k</i>,λ) design is quasisymmetric with <i>x</i> = λ and <i>y</i> = <i>k</i>. Hadamard 3-designs (extensions of <a href="Block_design#Symmetric_designs" title="Block design">Hadamard 2-designs</a>) are quasisymmetric.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></li>
+</ul>
+<dl>
+<dd>Every quasisymmetric block design gives rise to a <a href="Strongly_regular_graph" title="Strongly regular graph">strongly regular graph</a> (as its block graph), but not all SRGs arise in this way.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></dd>
+<dd>The <a href="Incidence_matrix" title="Incidence matrix">incidence matrix</a> of a quasisymmetric 2-(<i>v</i>,<i>k</i>,λ) design with <i>k</i> ≡ <i>x</i> ≡ <i>y</i> (mod 2) generates a binary self-orthogonal <a href="Error-correcting_code" title="Error-correcting code" class="mw-redirect">code</a> (when bordered if <i>k</i> is odd).<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li><a href="Room_square" title="Room square">Room squares</a></li>
+<li>A <b><a href="Spherical_design" title="Spherical design">spherical design</a></b> is a finite set <i>X</i> of points in a (<i>d</i>&#160;−&#160;1)-dimensional <a href="Sphere" title="Sphere">sphere</a> such that, for some integer <i>t</i>, the average value on <i>X</i> of every polynomial</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt="f(x_1, \ldots, x_d)\ " src="http://upload.wikimedia.org/math/7/1/5/7155e2a9fcfd72fe99ce314a7915617a.png" /></dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>of total degree at most <i>t</i> is equal to the average value of <i>f</i> on the whole sphere, i.e., the <a href="Integral" title="Integral">integral</a> of <i>f</i> divided by the area of the sphere.</dd>
+</dl>
+<ul>
+<li><a href="Tur%C3%A1n_system" title="Turán system" class="mw-redirect">Turán systems</a></li>
+<li>An <b><i>r</i> × <i>n</i> tuscan-<i>k</i> rectangle</b> on <i>n</i> symbols has <i>r</i> rows and <i>n</i> columns such that:</li>
+</ul>
+<ol>
+<li>each row is a permutation of the <i>n</i> symbols and</li>
+<li>for any two distinct symbols <i>a</i> and <i>b</i> and for each <i>m</i> from 1 to <i>k</i>, there is at most one row in which <i>b</i> is <i>m</i> steps to the right of <i>a</i>.</li>
+</ol>
+<dl>
+<dd>If <i>r</i> = <i>n</i> and <i>k</i> = 1 these are referred to as <b>Tuscan squares</b>, while if <i>r</i> = <i>n</i> and <i>k</i> = <i>n</i> - 1 they are <b>Florentine squares</b>. A <b>Roman square</b> is a tuscan square which is also a <a href="Latin_square" title="Latin square">latin square</a> (these are also known as <i>row complete latin squares</i>). A <b>Vatican square</b> is a florentine square which is also a latin square.</dd>
+</dl>
+<dl>
+<dd>The following example is a tuscan-1 square on 7 symbols which is not tuscan-2:<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup></dd>
+</dl>
+<center>
+<table class="wikitable">
+<tr>
+<td>6</td>
+<td>1</td>
+<td>5</td>
+<td>2</td>
+<td>4</td>
+<td>3</td>
+<td>7</td>
+</tr>
+<tr>
+<td>2</td>
+<td>6</td>
+<td>3</td>
+<td>5</td>
+<td>4</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>7</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+<td>4</td>
+<td>6</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2</td>
+<td>5</td>
+<td>1</td>
+<td>6</td>
+<td>7</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>2</td>
+<td>1</td>
+<td>7</td>
+<td>4</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>7</td>
+<td>5</td>
+<td>6</td>
+<td>4</td>
+</tr>
+<tr>
+<td>7</td>
+<td>6</td>
+<td>5</td>
+<td>3</td>
+<td>4</td>
+<td>1</td>
+<td>2</td>
+</tr>
+</table>
+</center>
+<dl>
+<dd>A tuscan square on <i>n</i> symbols is equivalent to a decomposition of the complete graph with <i>n</i> vertices into <i>n</i> hamiltonian directed paths.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup></dd>
+</dl>
+<dl>
+<dd>In a sequence of visual impressions, one flash card may have some effect on the impression given by the next. This bias can be cancelled by using <i>n</i> sequences corresponding to the rows of an <i>n</i> × <i>n</i> tuscan-1 square.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li>A <b>t-wise balanced design</b> (or <i>t</i> BD) of type <i>t</i>-(<i>v</i>,K,λ) is a <i>v</i>-set <i>X</i> together with a family of subsets of <i>X</i> (called <i>blocks</i>) whose sizes are in the set K, such that every <i>t</i>-subset of distinct elements of <i>X</i> is contained in exactly λ blocks. If K is a set of positive integers strictly between <i>t</i> and <i>v</i>, then the <i>t</i> BD is <i>proper</i>. If all the <i>k</i>-subsets of <i>X</i> for some <i>k</i> are blocks, the <i>t</i> BD is a <i>trivial design</i>.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26"><span>[</span>26<span>]</span></a></sup></li>
+</ul>
+<dl>
+<dd>Notice that in the following example of a 3-{12,{4,6},1) design based on the set <i>X</i> = {1,2,...,12}, some pairs appear four times (such as 1,2) while others appear five times (6,12 for instance).<sup id="cite_ref-27" class="reference"><a href="#cite_note-27"><span>[</span>27<span>]</span></a></sup>
+<dl>
+<dd>1 2 3 4 5 6 &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160; 1 2 7 8 &#160;&#160;&#160;&#160; 1 2 9 11 &#160;&#160;&#160;&#160; 1 2 10 12 &#160;&#160;&#160;&#160; 3 5 7 8 &#160;&#160;&#160;&#160; 3 5 9 11 &#160;&#160;&#160;&#160; 3 5 10 12 &#160;&#160;&#160;&#160; 4 6 7 8 &#160;&#160;&#160;&#160; 4 6 9 11 &#160;&#160;&#160;&#160; 4 6 10 12</dd>
+<dd>7 8 9 10 11 12 &#160;&#160;&#160;&#160; 2 3 8 9 &#160;&#160;&#160;&#160; 2 3 10 7 &#160;&#160;&#160;&#160; 2 3 11 12 &#160;&#160;&#160;&#160; 4 1 8 9 &#160;&#160;&#160;&#160; 4 1 10 7 &#160;&#160;&#160;&#160; 4 1 11 12 &#160;&#160;&#160;&#160; 5 6 8 9 &#160;&#160;&#160;&#160; 5 6 10 7 &#160;&#160;&#160;&#160; 5 6 11 12</dd>
+<dd>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; 3 4 9 10 &#160;&#160;&#160;&#160; 3 4 11 8 &#160;&#160;&#160;&#160; 3 4 7 12 &#160;&#160;&#160;&#160; 5 2 9 10 &#160;&#160;&#160;&#160; 5 2 11 8 &#160;&#160;&#160;&#160; 5 2 7 12 &#160;&#160;&#160;&#160; 1 6 9 10 &#160;&#160;&#160;&#160; 1 6 11 8 &#160;&#160;&#160;&#160; 1 6 7 12</dd>
+<dd>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; 4 5 10 11 &#160;&#160;&#160;&#160; 4 5 7 9 &#160;&#160;&#160;&#160; 4 5 8 12 &#160;&#160;&#160;&#160; 1 3 10 11 &#160;&#160;&#160;&#160; 1 3 7 9 &#160;&#160;&#160;&#160; 1 3 8 12 &#160;&#160;&#160;&#160; 2 6 10 11 &#160;&#160;&#160;&#160; 2 6 7 9 &#160;&#160;&#160;&#160; 2 6 8 12</dd>
+<dd>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; 5 1 11 7 &#160;&#160;&#160;&#160; 5 1 8 10 &#160;&#160;&#160;&#160; 5 1 9 12 &#160;&#160;&#160;&#160; 2 4 11 7 &#160;&#160;&#160;&#160; 2 4 8 10 &#160;&#160;&#160;&#160; 2 4 9 12 &#160;&#160;&#160;&#160; 3 6 11 7 &#160;&#160;&#160;&#160; 3 6 8 10 &#160;&#160;&#160;&#160; 3 6 9 12</dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>A <b>Youden square</b> is a <i>k</i> × <i>v</i> <i>rectangular</i> array (<i>k</i> &lt; <i>v</i>) of <i>v</i> symbols such that each symbol appears exactly once in each row and the symbols appearing in any column form a block of a symmetric (<i>v</i>, <i>k</i>, λ) design, all the blocks of which occur in this manner. A Youden square is a Latin rectangle. The term "square" in the name comes from an older definition which did use a square array.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28"><span>[</span>28<span>]</span></a></sup> An example of a 4 × 7 Youden square is given by:</li>
+</ul>
+<center>
+<table class="wikitable">
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+</table>
+</center>
+<dl>
+<dd>The seven blocks (columns) form the order 2 <a href="Block_design#Symmetric_BIBDs" title="Block design">biplane</a> (a symmetric (7,4,2)-design).</dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=4.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Algebraic_statistics" title="Algebraic statistics">Algebraic statistics</a></li>
+<li><a href="Hypergraph" title="Hypergraph">Hypergraph</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=5.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a href="#CITEREFStinson2003">Stinson 2003</a>, pg.1</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a href="#CITEREFStinson2003">Stinson 2003</a>, pg. IX</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="#CITEREFBethJungnickelLenz1986">Beth, Jungnickel &amp; Lenz 1986</a>, pg. 40 Example 5.8</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a href="#CITEREFRyser1963">Ryser 1963</a>, pg. 52, Theorem 3.1</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">When the group <b>G</b> is an abelian group (or written additively) the defining property looks like d<sub>1</sub> –d<sub>2</sub> from which the term <i>difference set</i> comes from.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a href="#CITEREFBethJungnickelLenz1986">Beth, Jungnickel &amp; Lenz 1986</a>, pg. 262, Theorem 1.6</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a href="#CITEREFStinson2003">Stinson 2003</a>, pg. 74, Theorem 4.5</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a href="#CITEREFStinson2003">Stinson 2003</a>, pg. 193, Theorem 8.20</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a href="#CITEREFStinson2003">Stinson 2003</a>, pg. 183, Theorem 8.5</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 331, Example 2.2</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 331, Remark 2.8</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 333, Remark 3.3</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 496, Theorem 28.5</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 497, Theorem 28.15</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 503, Remark 29.38</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 512, Example 32.4</span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitiz2007">Colbourn &amp; Dinitiz 2007</a>, pg. 512, Remark 32.3</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 530, Theorem 35.15</span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 577, Theorem 47.15</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pp. 578-579</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 579, Theorem 48.10</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 580, Lemma 48.22</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 652, Examples 62.4</span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 655, Theorem 62.24</span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 657, Remark 62.29</span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 657</span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 658, Example 63.5</span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><a href="#CITEREFColbournDinitz2007">Colbourn &amp; Dinitz 2007</a>, pg. 669, Remark 65.3</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=6.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFAssmusKey1992">Assmus, E.F.; Key, J.D. (1992), <i>Designs and Their Codes</i>, Cambridge: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-41361-3" title="Special:BookSources/0-521-41361-3">0-521-41361-3</a></span></li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFBethJungnickelLenz1986">Beth, Thomas; Jungnickel, Dieter; Lenz, Hanfried (1986), <i>Design Theory</i>, Cambridge: <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a></span>. 2nd ed. (1999) <a href="Special_BookSources/9780521444323" class="internal mw-magiclink-isbn">ISBN 978-0-521-44432-3</a>.</li>
+</ul>
+<ul>
+<li><a href="../R._C._Bose" title="R. C. Bose" class="mw-redirect">R. C. Bose</a>, "A Note on Fisher's Inequality for Balanced Incomplete Block Designs", <i><a href="Annals_of_Mathematical_Statistics" title="Annals of Mathematical Statistics">Annals of Mathematical Statistics</a></i>, 1949, pages 619–620.</li>
+</ul>
+<ul>
+<li><span class="citation book">Caliński, Tadeusz and Kageyama, Sanpei (2003). <i>Block designs: A Randomization approach, Volume <b>II</b>: Design</i>. Lecture Notes in Statistics. <b>170</b>. New York: Springer-Verlag. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-95470-8" title="Special:BookSources/0-387-95470-8">0-387-95470-8</a>.</span></li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFColbournDinitz2007">Colbourn, Charles J.; Dinitz, Jeffrey H. (2007), <i>Handbook of Combinatorial Designs</i> (2nd Edition ed.), Boca Raton: Chapman &amp; Hall/ CRC, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-58488-506-8" title="Special:BookSources/1-58488-506-8">1-58488-506-8</a></span></li>
+</ul>
+<ul>
+<li>R. A. Fisher, "An examination of the different possible solutions of a problem in incomplete blocks", <i><a href="Annals_of_Eugenics" title="Annals of Eugenics" class="mw-redirect">Annals of Eugenics</a></i>, volume 10, 1940, pages 52–75.</li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFHall.2C_Jr.1986">Hall, Jr., Marshall (1986), <i>Combinatorial Theory</i> (2nd ed.), New York: Wiley-Interscience, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-09138-3" title="Special:BookSources/0-471-09138-3">0-471-09138-3</a></span></li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFHughesPiper1985">Hughes, D.R.; Piper, E.C. (1985), <i>Design theory</i>, Cambridge: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-25754-9" title="Special:BookSources/0-521-25754-9">0-521-25754-9</a></span></li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFLander1983">Lander, E. S. (1983), <i>Symmetric Designs: An Algebraic Approach</i>, Cambridge: Cambridge University Press</span></li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFLindnerRodger1997">Lindner, C.C.; Rodger, C.A. (1997), <i>Design Theory</i>, Boca Raton: CRC Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8493-3986-3" title="Special:BookSources/0-8493-3986-3">0-8493-3986-3</a></span></li>
+</ul>
+<ul>
+<li><span class="citation book"><a href="Damaraju_Raghavarao" title="Damaraju Raghavarao" class="mw-redirect">Raghavarao, Damaraju</a> (1988). <i>Constructions and Combinatorial Problems in Design of Experiments</i> (corrected reprint of the 1971 Wiley ed.). New York: Dover.</span></li>
+</ul>
+<ul>
+<li><span class="citation book"><a href="Damaraju_Raghavarao" title="Damaraju Raghavarao" class="mw-redirect">Raghavarao, Damaraju</a> and Padgett, L.V. (2005). <i>Block Designs: Analysis, Combinatorics and Applications</i>. World Scientific.</span></li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFRyser1963">Ryser, Herbert John (1963), "Chapter 8: Combinatorial Designs", <i>Combinatorial Mathematics (Carus Monograph #14)</i>, Mathematical Association of America</span></li>
+</ul>
+<ul>
+<li><a href="../S._S._Shrikhande" title="S. S. Shrikhande" class="mw-redirect">S. S. Shrikhande</a>, and <a href="Bhat-Nayak_Vasanti_N." title="Bhat-Nayak Vasanti N." class="mw-redirect">Vasanti N. Bhat-Nayak</a>, Non-isomorphic solutions of some balanced incomplete block designs I – <a href="Journal_of_Combinatorial_Theory" title="Journal of Combinatorial Theory">Journal of Combinatorial Theory</a>, 1970</li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFStinson2003">Stinson, Douglas R. (2003), <i>Combinatorial Designs: Constructions and Analysis</i>, New York: Springer, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-95487-2" title="Special:BookSources/0-387-95487-2">0-387-95487-2</a></span></li>
+</ul>
+<ul>
+<li><span class="citation book">Street, Anne Penfold and Street, Deborah J. (1987). <i>Combinatorics of Experimental Design</i>. Oxford U. P. [Clarendon]. pp.&#160;400+xiv. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-19-853256-3" title="Special:BookSources/0-19-853256-3">0-19-853256-3</a>.</span></li>
+</ul>
+<ul>
+<li>van Lint, J.H., and R.M. Wilson (1992), <i>A Course in Combinatorics</i>. Cambridge, Eng.: Cambridge University Press.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_design&action=edit&section=7.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://batman.cs.dal.ca/~peter/designdb/">Design DB</a>: A comprehensive database of combinatorial, statistical, experimental block designs</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Experimental_design" title="Template:Experimental design"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Experimental_design" title="Template talk:Experimental design"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Experimental_design&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Design_of_experiments" title="Design of experiments">Design of experiments</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Scientific_method" title="Scientific method">Scientific</a><br />
+<a href="Scientific_method" title="Scientific method">Method</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Experiment" title="Experiment">Scientific experiment</a></li>
+<li><a href="Design_of_experiments" title="Design of experiments">Statistical design</a></li>
+<li><a href="Experiment#Controlled_experiments" title="Experiment">Control</a></li>
+<li><a href="Internal_validity" title="Internal validity">Internal</a> &amp; <a href="External_validity" title="External validity">external</a> <a href="Validity_(statistics)" title="Validity (statistics)">validity</a></li>
+<li><a href="Experimental_unit" title="Experimental unit" class="mw-redirect">Experimental unit</a></li>
+<li><a href="Blind_experiment" title="Blind experiment">Blinding</a></li>
+</ul>
+<ul>
+<li><b><a href="Optimal_design" title="Optimal design">Optimal design</a></b>: <a href="Bayesian_experimental_design" title="Bayesian experimental design">Bayesian</a></li>
+<li><a href="Random_assignment" title="Random assignment">Random assignment</a></li>
+<li><a href="Randomization" title="Randomization">Randomization</a></li>
+<li><a href="Restricted_randomization" title="Restricted randomization">Restricted randomization</a></li>
+<li><a href="Replication_(statistics)" title="Replication (statistics)">Replication versus subsampling</a></li>
+<li><a href="Sample_size" title="Sample size" class="mw-redirect">Sample size</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Glossary_of_experimental_design" title="Glossary of experimental design">Treatment</a><br />
+&amp; <a href="Blocking_(statistics)" title="Blocking (statistics)">Blocking</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><b><a href="Glossary_of_experimental_design" title="Glossary of experimental design">Treatment</a></b></li>
+<li><a href="Effect_size" title="Effect size">Effect size</a></li>
+<li><a href="Contrast_(statistics)" title="Contrast (statistics)">Contrast</a></li>
+<li><a href="Interaction_(statistics)" title="Interaction (statistics)">Interaction</a></li>
+<li><a href="Confounding" title="Confounding">Confounding</a></li>
+<li><a href="Orthogonality#Statistics.2C_econometrics.2C_and_economics" title="Orthogonality">Orthogonality</a></li>
+<li><b><a href="Blocking_(statistics)" title="Blocking (statistics)">Blocking</a></b></li>
+<li><a href="Covariate" title="Covariate">Covariate</a></li>
+<li><a href="Nuisance_variable" title="Nuisance variable">Nuisance variable</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Statistical_model" title="Statistical model">Models</a><br />
+&amp; <a href="Statistical_inference" title="Statistical inference">Inference</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Linear_regression" title="Linear regression">Linear regression</a></li>
+<li><a href="Ordinary_least_squares" title="Ordinary least squares">Ordinary least squares</a></li>
+<li><a href="Bayesian_linear_regression" title="Bayesian linear regression">Bayesian</a></li>
+</ul>
+<ul>
+<li><b><a href="Random_effect" title="Random effect" class="mw-redirect">Random effect</a></b></li>
+<li><a href="Mixed_model" title="Mixed model">Mixed model</a></li>
+<li><a href="Hierarchical_linear_modeling" title="Hierarchical linear modeling" class="mw-redirect">Hierarchical model:</a> <a href="Hierarchical_Bayes_model" title="Hierarchical Bayes model" class="mw-redirect">Bayesian</a></li>
+</ul>
+<ul>
+<li><b><a href="Analysis_of_variance" title="Analysis of variance">Analysis of variance (Anova)</a></b></li>
+<li><a href="Cochran's_theorem" title="Cochran's theorem">Cochran's theorem</a></li>
+<li><a href="Multivariate_analysis_of_variance" title="Multivariate analysis of variance"><b>Manova</b> (<i>multivariate</i>)</a></li>
+<li><a href="Analysis_of_covariance" title="Analysis of covariance"><b>Ancova</b> (<i>covariance</i>)</a></li>
+</ul>
+<ul>
+<li><a href="Comparing_means" title="Comparing means">Compare means</a></li>
+<li><a href="Multiple_comparison" title="Multiple comparison" class="mw-redirect">Multiple comparison</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Design_of_experiments" title="Design of experiments">Designs</a>:<br />
+<br />
+<a href="Completely_randomized_design" title="Completely randomized design">Completely</a><br />
+<a href="Completely_randomized_design" title="Completely randomized design">Randomized</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><b><a href="Factorial_experiment" title="Factorial experiment">Factorial</a></b></li>
+<li><a href="Fractional_factorial_design" title="Fractional factorial design">Fractional factorial</a></li>
+<li><a href="Plackett-Burman_design" title="Plackett-Burman design" class="mw-redirect">Plackett-Burman</a></li>
+<li><a href="Taguchi_methods" title="Taguchi methods">Taguchi</a></li>
+</ul>
+<ul>
+<li><b><a href="Response_surface_methodology" title="Response surface methodology">Response surface methodology</a></b></li>
+<li><a href="Polynomial_and_rational_function_modeling" title="Polynomial and rational function modeling">Polynomial &amp; rational modeling</a></li>
+<li><a href="Box%E2%80%93Behnken_design" title="Box–Behnken design">Box-Behnken</a></li>
+<li><a href="Central_composite_design" title="Central composite design">Central composite</a></li>
+</ul>
+<ul>
+<li><b><a href="Randomized_block_design" title="Randomized block design">Block</a></b></li>
+<li><a href="Generalized_randomized_block_design" title="Generalized randomized block design">Generalized randomized block design</a> (GRBD)</li>
+<li><a href="Latin_square" title="Latin square">Latin square</a></li>
+<li><a href="Graeco-Latin_square" title="Graeco-Latin square">Graeco-Latin square</a></li>
+<li><a href="Orthogonal_array#Mutually_orthogonal_latin_squares" title="Orthogonal array">Orthogonal array</a></li>
+<li><a href="Latin_hypercube_sampling" title="Latin hypercube sampling">Latin hypercube</a><br />
+<b><a href="Repeated_measures_design" title="Repeated measures design">Repeated measures design</a></b></li>
+<li><a href="Crossover_study" title="Crossover study">Crossover study</a></li>
+</ul>
+<ul>
+<li><b><a href="Randomized_controlled_trial" title="Randomized controlled trial">Randomized controlled trial</a></b></li>
+<li><a href="Sequential_analysis" title="Sequential analysis">Sequential analysis</a></li>
+<li><a href="Sequential_probability_ratio_test" title="Sequential probability ratio test">Sequential probability ratio test</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><a href="Glossary_of_experimental_design" title="Glossary of experimental design">Glossary</a></li>
+<li><a href="Category_Design_of_experiments" title="Category:Design of experiments">Category</a></li>
+<li><a href="Portal_Statistics" title="Portal:Statistics">Statistics portal</a></li>
+<li><a href="Outline_of_statistics" title="Outline of statistics">Statistical outline</a></li>
+<li><a href="List_of_statistics_articles" title="List of statistics articles">Statistical topics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 10927/1000000
+Preprocessor generated node count: 30230/1500000
+Post-expand include size: 57741/2048000 bytes
+Template argument size: 20801/2048000 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:2761968-0!0!0!!en!4!* and timestamp 20130127143511 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Combinatorial_design&oldid=526239139.php.html">http://en.wikipedia.org/w/index.php?title=Combinatorial_design&amp;oldid=526239139</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Combinatorics" title="Category:Combinatorics">Combinatorics</a></li><li><a href="Category_Design_theory" title="Category:Design theory">Design theory</a></li><li><a href="Category_Set_families" title="Category:Set families">Set families</a></li><li><a href="Category_Design_of_experiments" title="Category:Design of experiments">Design of experiments</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Combinatorial+design&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Combinatorial+design.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Combinatorial_design"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Combinatorial_design&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Combinatorial_design&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Combinatorial_design" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Combinatorial_design" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Combinatorial_design&oldid=526239139.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Combinatorial_design&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Combinatorial_design&id=526239139.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Combinatorial+design.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Combinatorial+design&oldid=526239139&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Combinatorial_design&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 3 December 2012 at 22:07.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Combinatorial_design" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1055 in 0.164 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

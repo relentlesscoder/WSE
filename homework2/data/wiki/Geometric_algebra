@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Geometric algebra - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Geometric_algebra&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Geometric_algebra&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Geometric_algebra","wgTitle":"Geometric algebra","wgCurRevisionId":537484996,"wgArticleId":12939,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing clarification from November 2011","Clifford algebras","Ring theory","Geometric algebra"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Geometric_algebra","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"492c5fd2dd077b15db8171e6ca275f39","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":12939,"title":"Geometric algebra","namespace":0,"categories":["Clifford algebras","Geometric algebra","Ring theory","Wikipedia articles needing clarification from November 2011"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Geometric_algebra skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Geometric algebra</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a>.</div>
+<div class="dablink">For other uses, see <a href="Geometric_algebra_(disambiguation)" title="Geometric algebra (disambiguation)">Geometric algebra (disambiguation)</a>.</div>
+<p>A <b>geometric algebra</b> is the <a href="Clifford_algebra" title="Clifford algebra">Clifford algebra</a> of a <a href="Vector_space" title="Vector space">vector space</a> over the field of <a href="Real_numbers" title="Real numbers" class="mw-redirect">real numbers</a> endowed with a <a href="Quadratic_form" title="Quadratic form">quadratic form</a>. The <a href="Spacetime_algebra" title="Spacetime algebra">spacetime algebra</a> and the <a href="#Conformal_geometric_algebra_.28CGA.29">conformal geometric algebra</a> are specific examples of such geometric algebras. The term is also used as a collective term for the approach to classical, computational and relativistic <a href="Geometry" title="Geometry">geometry</a> that makes heavy use of such algebras.</p>
+<p>In <a rel="nofollow" class="external text" href="http://sinai.apphy.u-fukui.ac.jp/gcj/wkconline.html">1878</a>, the year before his death, <a href="William_Kingdon_Clifford" title="William Kingdon Clifford">Clifford</a> expanded upon Grassmann's <i><a href="Ausdehnungslehre" title="Ausdehnungslehre" class="mw-redirect">Ausdehnungslehre</a></i> to form what are now usually called Clifford algebras in his honor although Clifford himself chose to call them "geometric algebras" and this term was repopularized by <a href="David_Hestenes" title="David Hestenes">Hestenes</a><sup id="cite_ref-FOOTNOTEHestenes1966_1-0" class="reference"><a href="#cite_note-FOOTNOTEHestenes1966-1"><span>[</span>1<span>]</span></a></sup> in the 1960s. Geometric algebra (GA) finds application in <a href="Physics" title="Physics">physics</a>, in <a href="Graphics" title="Graphics">graphics</a> and in <a href="Robotics" title="Robotics">robotics</a>. A key feature of GA is its emphasis on geometric interpretations of certain elements of the algebra as geometric entities. Via this interpretation, <i>geometric operations</i> are realized as <i>algebraic operations</i> in the algebra.</p>
+<p>Proponents argue<sup id="cite_ref-FOOTNOTELasenbyLasenbyDoran_2-0" class="reference"><a href="#cite_note-FOOTNOTELasenbyLasenbyDoran-2"><span>[</span>2<span>]</span></a></sup> that it provides compact and intuitive descriptions in many areas including <a href="Classical_mechanics" title="Classical mechanics">classical</a> and <a href="Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a>, <a href="Electromagnetic_theory" title="Electromagnetic theory" class="mw-redirect">electromagnetic theory</a> and <a href="Theory_of_relativity" title="Theory of relativity">relativity</a>. Others claim that in some cases the geometric algebra approach is able to sidestep a "proliferation of manifolds"<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> that arises during the standard application of <a href="Differential_geometry" title="Differential geometry">differential geometry</a>.</p>
+<p>The associated <a href="Geometric_calculus" title="Geometric calculus">geometric calculus</a> is a generalization of <a href="Vector_calculus" title="Vector calculus">vector calculus</a> that is an alternative to the use of <a href="Differential_forms" title="Differential forms" class="mw-redirect">differential forms</a> and <a href="Hodge_duality" title="Hodge duality" class="mw-redirect">Hodge duality</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition_and_notation"><span class="tocnumber">1</span> <span class="toctext">Definition and notation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Standard_bases_and_the_geometric_product"><span class="tocnumber">1.1</span> <span class="toctext">Standard bases and the geometric product</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Grading"><span class="tocnumber">1.2</span> <span class="toctext">Grading</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Inner_and_outer_products"><span class="tocnumber">1.3</span> <span class="toctext">Inner and outer products</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Representation_of_subspaces"><span class="tocnumber">1.4</span> <span class="toctext">Representation of subspaces</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Unit_pseudoscalars"><span class="tocnumber">1.5</span> <span class="toctext">Unit pseudoscalars</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Extensions_of_the_inner_and_outer_products"><span class="tocnumber">1.6</span> <span class="toctext">Extensions of the inner and outer products</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Terminology_specific_to_geometric_algebra"><span class="tocnumber">1.7</span> <span class="toctext">Terminology specific to geometric algebra</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Geometric_interpretation"><span class="tocnumber">2</span> <span class="toctext">Geometric interpretation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Projection_and_rejection"><span class="tocnumber">2.1</span> <span class="toctext">Projection and rejection</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Reflections"><span class="tocnumber">2.2</span> <span class="toctext">Reflections</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#Reflection_along_a_vector"><span class="tocnumber">2.2.1</span> <span class="toctext">Reflection <i>along</i> a vector</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Reflection_on_a_vector"><span class="tocnumber">2.2.2</span> <span class="toctext">Reflection <i>on</i> a vector</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Hypervolume_of_an_n-parallelotope_spanned_by_n_vectors"><span class="tocnumber">2.3</span> <span class="toctext">Hypervolume of an <i>n</i>-parallelotope spanned by <i>n</i> vectors</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Rotations"><span class="tocnumber">2.4</span> <span class="toctext">Rotations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Examples_and_applications"><span class="tocnumber">3</span> <span class="toctext">Examples and applications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Intersection_of_a_line_and_a_plane"><span class="tocnumber">3.1</span> <span class="toctext">Intersection of a line and a plane</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Rotating_systems"><span class="tocnumber">3.2</span> <span class="toctext">Rotating systems</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Electrodynamics_and_special_relativity"><span class="tocnumber">3.3</span> <span class="toctext">Electrodynamics and special relativity</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Relationship_with_other_formalisms"><span class="tocnumber">4</span> <span class="toctext">Relationship with other formalisms</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Geometric_calculus"><span class="tocnumber">5</span> <span class="toctext">Geometric calculus</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Conformal_geometric_algebra_.28CGA.29"><span class="tocnumber">6</span> <span class="toctext">Conformal geometric algebra (CGA)</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#History"><span class="tocnumber">7</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Software"><span class="tocnumber">8</span> <span class="toctext">Software</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=1.php.html" title="Edit section: Definition and notation">edit</a>]</span> <span class="mw-headline" id="Definition_and_notation">Definition and notation</span></h2>
+<p>Given a finite dimensional real <a href="Quadratic_space" title="Quadratic space" class="mw-redirect">quadratic space</a> <span class="nowrap"><i>V</i> = <b>R</b><sup><i>n</i></sup></span> with quadratic form <span class="nowrap"><i>Q</i>&#160;: <i>V</i> → <b>R</b></span>, the <b>geometric algebra</b> for this quadratic space is the <a href="Clifford_algebra" title="Clifford algebra">Clifford algebra</a> <i>C</i>ℓ(<i>V</i>,<i>Q</i>).</p>
+<p>The algebra product is called the <b>geometric product</b>. It is standard to denote the geometric product by juxtaposition.</p>
+<p>For <a href="Quadratic_form" title="Quadratic form">quadratic forms</a> of any <a href="Quadratic_form#Real_quadratic_forms" title="Quadratic form">signature</a>, an <a href="Orthogonal_basis" title="Orthogonal basis">orthogonal basis</a> {<i>e</i><sub>1</sub>,...,<i>e</i><sub><i>n</i></sub>} can be found for <i>V</i> such that each <i>e</i><sub><i>i</i></sub><sup>2</sup> is either −1, 0 or +1. The number of <i>e</i><sub><i>i</i></sub>'s associated with each of these three values is expressed by the signature, which is an invariant of the quadratic form.</p>
+<p>When <i>Q</i> is <a href="Nondegenerate_quadratic_form" title="Nondegenerate quadratic form" class="mw-redirect">nondegenerate</a> there are no 0's in the signature, and so an orthogonal basis of <i>V</i> exists with <i>p</i> elements squaring to 1 and <i>q</i> elements squaring to −1, with <span class="nowrap"><i>p</i> + <i>q</i> = <i>n</i></span>. We denote this algebra <img class="tex" alt="\mathcal{G}(p,q)" src="http://upload.wikimedia.org/math/9/a/c/9ac4cc022be70db23327079e143faf4f.png" />. For example, <img class="tex" alt="\mathcal G(3,0)" src="http://upload.wikimedia.org/math/0/5/d/05ddc671acff71e39385af3fe761bf36.png" /> models 3D <a href="Euclidean_space" title="Euclidean space">Euclidean space</a>, <img class="tex" alt="\mathcal G(1,3)" src="http://upload.wikimedia.org/math/c/f/5/cf50ed7d277a1233f5aecc3f815c9327.png" /> relativistic <a href="Spacetime" title="Spacetime">spacetime</a> and <img class="tex" alt="\mathcal G(4,1)" src="http://upload.wikimedia.org/math/d/e/0/de0e8ce3381d4a9b1222d1cd9bd66b65.png" /> a 3D Conformal Geometric algebra.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=2.php.html" title="Edit section: Standard bases and the geometric product">edit</a>]</span> <span class="mw-headline" id="Standard_bases_and_the_geometric_product">Standard bases and the geometric product</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:GA_basis_of_3d_multivector.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/GA_basis_of_3d_multivector.svg/300px-GA_basis_of_3d_multivector.svg.png" width="300" height="296" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/GA_basis_of_3d_multivector.svg/450px-GA_basis_of_3d_multivector.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c5/GA_basis_of_3d_multivector.svg/600px-GA_basis_of_3d_multivector.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GA_basis_of_3d_multivector.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Standard <i>n</i>-vector basis; unit scalar 1 (represented by a black number line), unit vectors, unit bivectors, and a unit trivector, all in 3d.</div>
+</div>
+</div>
+<p>Viewing the geometric algebra as a quotient of the tensor algebra, the geometric algebra's product is inherited from the tensor algebra. However, some authors introduce the geometric product in the following way by defining the product on a <i>standard basis</i>.</p>
+<p>One can always find a basis <img class="tex" alt="\{e_1,\cdots,e_n\}" src="http://upload.wikimedia.org/math/0/e/9/0e94a24952441e4711a08746f03d007c.png" /> for <i>V</i> such that</p>
+<dl>
+<dd><img class="tex" alt="e_i \cdot e_j = 0 \," src="http://upload.wikimedia.org/math/3/9/9/39954659fc225cc03da1edaf082c216d.png" /> for all <span class="nowrap"><i>i</i> ≠ <i>j</i></span> (orthogonality) and</dd>
+<dd><img class="tex" alt="\,e_i \cdot e_i = Q(e_i) \in \{-1,0,1\}" src="http://upload.wikimedia.org/math/d/2/4/d243b8d5977a1f835987f7d54d982113.png" />.</dd>
+</dl>
+<p>The set of all possible products of these <i>n</i> symbols with indices in increasing order, including 1 as the empty product, then forms a basis for the geometric algebra (an analogue of the <a href="Poincar%C3%A9%E2%80%93Birkhoff%E2%80%93Witt_theorem" title="Poincaré–Birkhoff–Witt theorem">PBW theorem</a>). For example, the following is a basis for the geometric algebra <img class="tex" alt="\mathcal{G}(3,0)" src="http://upload.wikimedia.org/math/c/1/4/c14c8c2eeb663c02978b6f95e2d1a9d8.png" />:</p>
+<dl>
+<dd><img class="tex" alt="\{1,e_1,e_2,e_3,e_1e_2,e_1e_3,e_2e_3,e_1e_2e_3\}\," src="http://upload.wikimedia.org/math/a/8/4/a8444aeb6eb8e6e20cbb98488fc2c693.png" /></dd>
+</dl>
+<p>A basis formed this way is called a <b>standard basis</b> for the geometric algebra, and any other orthogonal basis for <i>V</i> fitting the above description will produce another standard basis. Each standard basis consists of 2<sup><i>n</i></sup> elements.</p>
+<p>Given a standard basis, the geometric product between elements of the algebra is completely described by the rules:</p>
+<ul>
+<li><img class="tex" alt="\,e_ie_i=Q(e_i)" src="http://upload.wikimedia.org/math/5/3/d/53d0d8850f2fc2f2f91e2a9431e6d4ca.png" /></li>
+<li><img class="tex" alt="\,e_ie_j=-e_je_i" src="http://upload.wikimedia.org/math/a/5/4/a54f77c73c8220c628e6a4d534348af3.png" /> for <span class="nowrap"><i>i</i> ≠ <i>j</i></span> (orthogonal vectors anticommute)</li>
+<li><img class="tex" alt="\,e_i \alpha = \alpha e_i" src="http://upload.wikimedia.org/math/0/1/3/0132f78dd1ff5df61be31f57b8c2491c.png" /> (scalars commute)</li>
+<li><img class="tex" alt="\,(AB)C = A(BC) = ABC" src="http://upload.wikimedia.org/math/4/1/a/41a139dad9f9382632a542be9a9b145d.png" /> (<a href="Associative_property" title="Associative property">associativity</a> of the geometric product)</li>
+<li><img class="tex" alt="\,(A+B)C=AC+BC" src="http://upload.wikimedia.org/math/b/6/9/b693994ed22c3d429372a005661b17c3.png" /> and <img class="tex" alt="\,C(A+B)=CA+CB" src="http://upload.wikimedia.org/math/b/9/9/b99a45e82711cf21d82f2b9ad04eee65.png" /> (<a href="Distributive_property" title="Distributive property">distributivity</a> of the geometric product over addition).</li>
+</ul>
+<p>The first four rules give the geometric product of any two elements in the standard basis as another up to a sign or zero. A few example computations follow:</p>
+<dl>
+<dd><img class="tex" alt="\,(e_1e_2)(e_3e_4)=e_1e_2e_3e_4" src="http://upload.wikimedia.org/math/9/5/d/95d3bb79727f6332277f5a949bd74cb9.png" /></dd>
+<dd><img class="tex" alt="\,(e_2)(e_1e_2e_4)=(e_2e_1)(e_2e_4)=-(e_1e_2)(e_2e_4)=-e_1(e_2e_2)e_4=-Q(e_2)e_1e_4." src="http://upload.wikimedia.org/math/e/d/8/ed8e3440fb81b6f934ac11cfb97f2fd7.png" /></dd>
+</dl>
+<p>The geometric product of any two elements in the algebra can be computed with these rules, including the last. Specifically, if the standard basis elements are <span class="nowrap">{<i>b</i><sub><i>i</i></sub> | <i>i</i>∈<i>S</i>}</span> with <i>S</i> being an index set, then</p>
+<dl>
+<dd><img class="tex" alt="(\Sigma_i \alpha_i b_i)(\Sigma_j \beta_j b_j)=\Sigma_{i,j} \alpha_i\beta_j b_i b_j\," src="http://upload.wikimedia.org/math/d/4/6/d46c4c5be4cc5f6f0682f5615a31bdf5.png" />.</dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=3.php.html" title="Edit section: Grading">edit</a>]</span> <span class="mw-headline" id="Grading">Grading</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:127px;"><a href="http://en.wikipedia.org/wiki/File:N-vector.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/N-vector.svg/125px-N-vector.svg.png" width="125" height="324" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/N-vector.svg/188px-N-vector.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c3/N-vector.svg/250px-N-vector.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:N-vector.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Geometric interpretation for the <b>outer product</b> of <i>n</i> <a href="Vector_(geometry)" title="Vector (geometry)" class="mw-redirect">vectors</a> (<b>u</b>, <b>v</b>, <b>w</b>) to obtain an <i>n</i>-vector (<a href="Parallelotope" title="Parallelotope" class="mw-redirect">parallelotope</a> elements), where <i>n</i> = <a href="Graded_algebra" title="Graded algebra">grade</a>,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> for <i>n</i> = 1, 2, 3. The "circulations" show <a href="Orientation_(vector_space)" title="Orientation (vector space)">orientation</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></div>
+</div>
+</div>
+<p>Using a standard basis, a <a href="Graded_vector_space" title="Graded vector space">graded vector space</a> structure can be established. A vector which happens to have grade <i>n</i> is called an <i>n-vector</i>, or sometimes a <i>grade n vector</i>. This grading does <i>not</i> make the algebra a <a href="Graded_algebra" title="Graded algebra">graded algebra</a> with the Clifford product,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> but the grading does form a graded algebra using the <i>exterior product</i>, defined later.</p>
+<p>Ordinary vectors (those in <i>V</i>) are in the span of <img class="tex" alt="\{e_1,\cdots,e_n\}" src="http://upload.wikimedia.org/math/0/e/9/0e94a24952441e4711a08746f03d007c.png" /> and are called 1-vectors. Scalars are called 0-vectors. Elements in the span of <img class="tex" alt="\{e_ie_j\mid 1\leq i&lt;j\leq n\}" src="http://upload.wikimedia.org/math/f/4/8/f48a7300a675fe508b41ad6f527e64bf.png" /> are called 2-vectors, and elements in the span of <img class="tex" alt="\{e_ie_je_k\mid 1\leq i&lt;j&lt;k\leq n\}" src="http://upload.wikimedia.org/math/2/9/9/299b99c1c7d6a0cb6ca2d687e67311e4.png" /> are called 3-vectors and so on until the last grade of <i>n</i>-vectors. Many of the elements of the algebra are not graded by this scheme since they are sums of elements of differing grade. Such elements are said to be of <i>mixed grade</i>.</p>
+<p>Generic elements of the geometric algebra are usually called <b>multivectors</b> with the term <i>vector</i> usually reserved for 1-vectors. The grading of multivectors is independent of the orthogonal basis chosen originally.</p>
+<p>A multivector <img class="tex" alt="A" src="http://upload.wikimedia.org/math/7/f/c/7fc56270e7a70fa81a5935b72eacbe29.png" /> may be decomposed with the <b>grade projection operator</b> <img class="tex" alt="\langle A \rangle _r" src="http://upload.wikimedia.org/math/2/c/c/2cc3b9782dfbc497d598561e78cad3c9.png" /> which outputs the grade <i>r</i> portion of <i>A</i>. As a result:</p>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" A = \sum_{r=0}^{n} \langle A \rangle _r " src="http://upload.wikimedia.org/math/3/0/9/309c9993a359f04b084e938159b1af65.png" /></dd>
+</dl>
+</dd>
+</dl>
+<p>As an example, the geometric product of two vectors <img class="tex" alt=" a b = a \cdot b + a \wedge b = \langle a b \rangle_0 + \langle a b \rangle_2" src="http://upload.wikimedia.org/math/f/c/1/fc11c0a75a8fa666daa4030536fb7ed3.png" /> since <img class="tex" alt="\langle a b \rangle_0=a\cdot b\," src="http://upload.wikimedia.org/math/8/3/7/837766de81915710f2a1b371e19a515b.png" /> and <img class="tex" alt="\langle a b \rangle_2 = a\wedge b\," src="http://upload.wikimedia.org/math/2/9/b/29bf3db547194e76716b5fd900d8312c.png" /> and <img class="tex" alt="\langle a b \rangle_i=0\," src="http://upload.wikimedia.org/math/2/e/c/2ec4a2434ad468fffe2c3d5a20547943.png" /> for <i>i</i> other than 0 and 2.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=4.php.html" title="Edit section: Inner and outer products">edit</a>]</span> <span class="mw-headline" id="Inner_and_outer_products">Inner and outer products</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:GA_parallel_and_perpendicular_vectors.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/79/GA_parallel_and_perpendicular_vectors.svg/200px-GA_parallel_and_perpendicular_vectors.svg.png" width="200" height="278" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/79/GA_parallel_and_perpendicular_vectors.svg/300px-GA_parallel_and_perpendicular_vectors.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/79/GA_parallel_and_perpendicular_vectors.svg/400px-GA_parallel_and_perpendicular_vectors.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GA_parallel_and_perpendicular_vectors.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Given two vectors <b>a</b> and <b>b</b>, if the geometric product <b>ab</b> is<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> anticommutative; they are perpendicular (top) because <b>a</b>∧<b>b</b> = −<b>b</b>∧<b>a</b> and <b>a · b</b> = 0, if it's commutative; they are parallel (bottom) because <b>a</b>∧<b>b</b> = <b>0</b> and <b>a · b</b> = <b>b · a</b>.</div>
+</div>
+</div>
+<p>There are two other important operations on <span class="nowrap"><i>V</i> × <i>V</i></span> in the geometric algebra besides the geometric product. Let <i>a</i> and <i>b</i> be elements of <i>V</i>:</p>
+<ul>
+<li>The <b><a href="Inner_product" title="Inner product" class="mw-redirect">inner product</a></b> on <i>V</i> is the <a href="Symmetric_bilinear_form" title="Symmetric bilinear form">symmetric bilinear form</a> arising as the symmetric part of geometric multiplication (and equivalently the bilinear form arising from the quadratic form <i>Q</i>), and is denoted by <img class="tex" alt="a \cdot b" src="http://upload.wikimedia.org/math/2/3/f/23f67728366e547d92590bc017f83b94.png" />. It is related to the geometric product and quadratic form by these equations:
+<dl>
+<dd><img class="tex" alt="a \cdot b = \tfrac{1}{2}(ab+ba)=b \cdot a" src="http://upload.wikimedia.org/math/c/7/a/c7ad8c33264bb5d2fd453eb4c5bd4a76.png" /></dd>
+<dd><img class="tex" alt=" aa =a \cdot a= Q(a)" src="http://upload.wikimedia.org/math/5/0/d/50d643665ca1e25ad1dba3123facd883.png" /></dd>
+</dl>
+</li>
+</ul>
+<dl>
+<dd>The inner product of two vectors is always a 0-vector of the algebra.</dd>
+</dl>
+<ul>
+<li>The <b><a href="Exterior_product" title="Exterior product" class="mw-redirect">outer product</a></b> on <i>V</i>, denoted with ∧, arises as the antisymmetric part of the geometric product:
+<dl>
+<dd><img class="tex" alt="a \wedge b = \tfrac{1}{2}(ab-ba)=-b \wedge a " src="http://upload.wikimedia.org/math/e/7/5/e75f90f46018c2af0eed330abcc50149.png" /></dd>
+<dd><img class="tex" alt="a\wedge a=0" src="http://upload.wikimedia.org/math/d/0/c/d0c13b93f9ad245fda5d90f9c465ac61.png" /></dd>
+</dl>
+</li>
+</ul>
+<dl>
+<dd>The outer product of two vectors is always a 2-vector of the algebra.</dd>
+</dl>
+<ul>
+<li>The inner and outer products are united into the geometric product since
+<dl>
+<dd><img class="tex" alt="ab = a \cdot b + a \wedge b" src="http://upload.wikimedia.org/math/f/2/6/f267e56ff10f5796a1a3146fe994e4ff.png" />,</dd>
+</dl>
+</li>
+</ul>
+<dl>
+<dd>Thus the geometric product of two vectors is in general of mixed grade.</dd>
+</dl>
+<p>If <span class="nowrap"><i>a</i>⋅<i>a</i> ≠ 0</span> for some vector <i>a</i>, then <i>a</i><sup>−1</sup> exists and is equal to <span class="nowrap"><i>a</i>/(<i>a</i>⋅<i>a</i>)</span>. For a positive-definite or negative-definite quadratic form, all nonzero vectors have multiplicative inverses. Not all the elements of the algebra are invertible. For example, if <i>u</i> is a unit vector in <i>V</i> (i.e. a vector such that <span class="nowrap"><i>uu</i> = 1)</span>, the elements <span class="nowrap">1 ± <i>u</i></span> have no inverse since they are <a href="Zero_divisor" title="Zero divisor">zero divisors</a>: <span class="nowrap">(1 − <i>u</i>)(1 + <i>u</i>) = 1 − <i>uu</i> = 1 − 1 = 0</span>.</p>
+<p>Vectors will be represented by lower case letters (e.g. <span class="texhtml"><i>a</i></span>), and multivectors by upper case letters (e.g. <span class="texhtml"><i>A</i></span>). Scalars will be represented by Greek characters.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=5.php.html" title="Edit section: Representation of subspaces">edit</a>]</span> <span class="mw-headline" id="Representation_of_subspaces">Representation of subspaces</span></h3>
+<p>Geometric algebra represents subspaces of <i>V</i> as multivectors, and so they coexist in the same algebra with vectors from <i>V</i>. A <i>k</i> dimensional subspace <i>W</i> of <i>V</i> is represented by taking an orthogonal basis <img class="tex" alt="\{b_1,b_2,\cdots b_k\}" src="http://upload.wikimedia.org/math/b/c/4/bc41a6bcb22d13b8ee9ed0dd90e08bdc.png" /> and using the geometric product to form the <a href="Blade_(geometry)" title="Blade (geometry)">blade</a> <span class="nowrap"><i>D</i> = <i>b</i><sub>1</sub><i>b</i><sub>2</sub>⋅⋅⋅<i>b</i><sub><i>k</i></sub></span>. There are multiple blades representing <i>W</i>; all those representing <i>W</i> are scalar multiples of <i>D</i>. These blades can be separated into two sets: positive multiples of <i>D</i> and negative multiples of <i>D</i>. The positive multiples of <i>D</i> are said to have <i>the same <a href="Orientation_(vector_space)" title="Orientation (vector space)">orientation</a></i> as <i>D</i>, and the negative multiples the <i>opposite orientation</i>.</p>
+<p>Blades are important since geometric operations such as projections, rotations and reflections are implemented by using the geometric product to multiply vectors and blades.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="This is a rather vague statement. Blades are useful because from them multivectors may be generated that produce the stated operations (e.g. via exponentiation of a bivector to produce a rotor) when used appropriately with the geometric product or a contractive product, and they represent oriented subspaces of ''V'' that are very naturally related to these operations. Stating this concisely is of course a challenge. It may be better to simply omit the statement. from November 2011">clarification needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=6.php.html" title="Edit section: Unit pseudoscalars">edit</a>]</span> <span class="mw-headline" id="Unit_pseudoscalars">Unit pseudoscalars</span></h3>
+<p>Unit pseudoscalars are blades that play important roles in GA. A <b>unit pseudoscalar</b> for a non-degenerate subspace <i>W</i> of <i>V</i> is a blade that is the product of the members of an orthonormal basis for <i>W</i>. It can be shown that if <span class="texhtml"><i>I</i></span> and <span class="texhtml"><i>I′</i></span> are both unit pseudoscalars for <i>W</i>, then <span class="texhtml"><i>I</i> = ±<i>I′</i></span> and <span class="texhtml"><i>I</i><sup>2</sup> = ±1</span>.</p>
+<p>Suppose the geometric algebra <img class="tex" alt="\mathcal{G}(n,0)" src="http://upload.wikimedia.org/math/5/4/e/54e11d9315875b122a08fa1fb16162ce.png" /> with the familiar positive definite inner product on <b>R</b><sup><i>n</i></sup> is formed. Given a plane (2-dimensional subspace) of <b>R</b><sup><i>n</i></sup>, one can find an orthonormal basis {<i>b</i><sub>1</sub>,<i>b</i><sub>2</sub>} spanning the plane, and thus find a unit pseudoscalar <span class="nowrap"><span class="texhtml"><i>I</i></span> = <i>b</i><sub>1</sub><i>b</i><sub>2</sub></span> representing this plane. The geometric product of any two vectors in the span of <i>b</i><sub>1</sub> and <i>b</i><sub>2</sub> lies in <img class="tex" alt="\{\alpha_0+\alpha_1 I\mid \alpha_i\in\mathbb{R} \}" src="http://upload.wikimedia.org/math/3/1/7/317673d6eb0578bc56bd37afbff335aa.png" />, that is, it is the sum of a 0-vector and a 2-vector.</p>
+<p>By the properties of the geometric product, <span class="nowrap"><span class="texhtml"><i>I</i></span>&#160;<sup>2</sup> = <i>b</i><sub>1</sub><i>b</i><sub>2</sub><i>b</i><sub>1</sub><i>b</i><sub>2</sub> = −<i>b</i><sub>1</sub><i>b</i><sub>2</sub><i>b</i><sub>2</sub><i>b</i><sub>1</sub> = −1</span>. The resemblance to the <a href="Imaginary_unit" title="Imaginary unit">imaginary unit</a> is not accidental: the subspace <img class="tex" alt="\{\alpha_0+\alpha_1 I\mid \alpha_i\in\mathbb{R} \}" src="http://upload.wikimedia.org/math/3/1/7/317673d6eb0578bc56bd37afbff335aa.png" /> is <b>R</b>-algebra isomorphic to the <a href="Complex_number" title="Complex number">complex numbers</a>. In this way, a copy of the complex numbers is embedded in the geometric algebra for each 2-dimensional subspace of <i>V</i> on which the quadratic form is definite.</p>
+<p>It is sometimes possible to identify the presence of an imaginary unit in a physical equation. Such units arise from one of the many quantities in the real algebra that square to −1, and these have geometric significance because of the properties of the algebra and the interaction of its various subspaces.</p>
+<p>In <img class="tex" alt="\mathcal{G}(3,0)" src="http://upload.wikimedia.org/math/c/1/4/c14c8c2eeb663c02978b6f95e2d1a9d8.png" />, an exceptional case occurs. Given a standard basis built from orthonormal <i>e</i><sub><i>i</i></sub>'s from <i>V</i>, the set of <i>all</i> 2-vectors is generated by</p>
+<dl>
+<dd><img class="tex" alt="\{e_3e_2,e_1e_3,e_2e_1\}\," src="http://upload.wikimedia.org/math/7/b/7/7b7fa72fe1f5f2da7f53947c4e28193f.png" />.</dd>
+</dl>
+<p>Labelling these <i>i</i>, <i>j</i> and <i>k</i> (momentarily deviating from our uppercase convention), the subspace generated by 0-vectors and 2-vectors is exactly <img class="tex" alt="\{\alpha_0+i\alpha_1+j\alpha_2+k\alpha_3\mid \alpha_i\in\mathbb{R}\}" src="http://upload.wikimedia.org/math/2/2/9/229e461f3ee40a8dbbeb9912fa2badb3.png" />. This set is seen to be a subalgebra, and furthermore is <b>R</b>-algebra isomorphic to the <a href="Quaternion" title="Quaternion">quaternions</a>, another important algebraic system.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=7.php.html" title="Edit section: Extensions of the inner and outer products">edit</a>]</span> <span class="mw-headline" id="Extensions_of_the_inner_and_outer_products">Extensions of the inner and outer products</span></h3>
+<p>It is common practice to extend the outer product on vectors to the entire algebra. This may be done through the use of the grade projection operator:</p>
+<dl>
+<dd><img class="tex" alt="C \wedge D&#160;:= \sum_{r,s}\langle \langle C \rangle_r \langle D \rangle_s \rangle_{r+s} \," src="http://upload.wikimedia.org/math/1/2/e/12e875deebf43188354a3694f7341166.png" /> (the <i>outer product</i>)</dd>
+</dl>
+<p>The inner product on vectors can also be generalised, but in more than one non-equivalent way. The paper (<a href="#CITEREFDorst2002">Dorst 2002</a>) gives a full treatment of several different inner products developed for geometric algebras and their interrelationships, and the notation is taken from there. Many authors use the same symbol as for the inner product of vectors for their chosen extension (e.g. Hestenes and Perwass). No consistent notation has emerged.</p>
+<p>Among these several different generalizations of the inner product on vectors are:</p>
+<dl>
+<dd><img class="tex" alt="\, C \;\big\lrcorner\; D&#160;:= \sum_{r,s}\langle \langle C\rangle_r \langle D \rangle_{s} \rangle_{s-r} " src="http://upload.wikimedia.org/math/1/0/a/10a1beec607673c64030641b1038971c.png" /> &#160;&#160;(the <i>left contraction</i>)</dd>
+<dd><img class="tex" alt="\, C \;\big\llcorner\; D&#160;:= \sum_{r,s}\langle \langle C\rangle_r \langle D \rangle_{s} \rangle_{r-s} " src="http://upload.wikimedia.org/math/d/c/8/dc8c384af6cd4ca5b576e09adcbe3044.png" /> &#160;&#160;(the <i>right contraction</i>)</dd>
+<dd><img class="tex" alt="\, C * D&#160;:= \sum_{r,s}\langle \langle C \rangle_r \langle D \rangle_s \rangle_0 " src="http://upload.wikimedia.org/math/4/0/5/40526797b7a206d90718c33949c41e8a.png" /> &#160;&#160;(the <i>scalar product</i>)</dd>
+<dd><img class="tex" alt="\, C \bullet D&#160;:= \sum_{r,s}\langle \langle C\rangle_r \langle D \rangle_{s} \rangle_{|s-r|} " src="http://upload.wikimedia.org/math/a/6/9/a69f1c49f19071664822b16be776cf44.png" /> &#160;&#160;(the "(fat) dot" product)</dd>
+<dd><img class="tex" alt="\, C \bullet_H D&#160;:= \sum_{r\ne0,s\ne0}\langle \langle C\rangle_r \langle D \rangle_{s} \rangle_{|s-r|} " src="http://upload.wikimedia.org/math/b/a/f/baff51377ddfbba9fa553fe23ef848c1.png" /> &#160;&#160;(Hestenes's inner product)<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></dd>
+</dl>
+<p>(<a href="#CITEREFDorst2002">Dorst 2002</a>) makes an argument for the use of contractions in preference to Hestenes's inner product; they are algebraically more regular and have cleaner geometric interpretations. A number of identities incorporating the contractions are valid without restriction of their inputs. Benefits of using the left contraction as an extension of the inner product on vectors include that the identity <img class="tex" alt=" ab = a \cdot b + a \wedge b " src="http://upload.wikimedia.org/math/f/2/6/f267e56ff10f5796a1a3146fe994e4ff.png" /> is extended to <img class="tex" alt=" aB = a \;\big\lrcorner\; B + a \wedge B" src="http://upload.wikimedia.org/math/1/6/7/16706f0efe6271627126bf3755fa1674.png" /> for any vector <i>a</i> and multivector <i>B</i>, and that the <a href="Projection_(linear_algebra)" title="Projection (linear algebra)">projection</a> operation <img class="tex" alt=" \mathcal{P}_b (a) = (a \cdot b^{-1})b " src="http://upload.wikimedia.org/math/9/8/5/985cb3bc946803c37b9dc1eb1b554ac1.png" /> is extended to <img class="tex" alt=" \mathcal{P}_B (A) = (A \;\big\lrcorner\; B^{-1}) \;\big\lrcorner\; B" src="http://upload.wikimedia.org/math/4/2/8/4287ca10c81cba4de53c607d4532795e.png" /> for any blades <i>A</i> and <i>B</i> (with a minor modification to accommodate null <i>B</i>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=8.php.html" title="Edit section: Terminology specific to geometric algebra">edit</a>]</span> <span class="mw-headline" id="Terminology_specific_to_geometric_algebra">Terminology specific to geometric algebra</span></h3>
+<p>Some terms are used in geometric algebra with a meaning that differs from the use of those terms in other fields of mathematics. Some of these are listed here:</p>
+<dl>
+<dt>Outer product</dt>
+<dd>In GA this refers to what in other contexts is usually called the <a href="Exterior_product" title="Exterior product" class="mw-redirect">exterior product</a>. It is not the <a href="Outer_product" title="Outer product">outer product</a> of linear algebra.</dd>
+<dt>Inner product</dt>
+<dd>In GA this generally refers to a scalar product on the vector subspace (which is not required to be positive definite) and any chosen generalization of this product to the entire algebra. It is not specifically the <a href="Inner_product" title="Inner product" class="mw-redirect">inner product</a> on a normed vector space.</dd>
+<dt>Versor</dt>
+<dd>In GA this refers to an object that can be constructed as the geometric product of any number of non-null vectors. The term otherwise typically refers to a <a href="Versor" title="Versor">unit quaternion</a>.</dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=9.php.html" title="Edit section: Geometric interpretation">edit</a>]</span> <span class="mw-headline" id="Geometric_interpretation">Geometric interpretation</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=10.php.html" title="Edit section: Projection and rejection">edit</a>]</span> <span class="mw-headline" id="Projection_and_rejection">Projection and rejection</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:GA_plane_subspace_and_projection.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/GA_plane_subspace_and_projection.svg/300px-GA_plane_subspace_and_projection.svg.png" width="300" height="161" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/GA_plane_subspace_and_projection.svg/450px-GA_plane_subspace_and_projection.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c4/GA_plane_subspace_and_projection.svg/600px-GA_plane_subspace_and_projection.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GA_plane_subspace_and_projection.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+In 3d space, a bivector <b>a</b>∧<b>b</b> defines a 2d plane subspace (light blue, extends infinitely in indicated directions). Any vector <b>c</b> in the 3-space can be projected onto and rejected normal to the plane, shown respectively by <b>c</b><sub>⊥</sub> and <b>c</b><sub>∥</sub>.</div>
+</div>
+</div>
+<p>For any vector <i>a</i> and any invertible vector <i>m</i>,</p>
+<dl>
+<dd><img class="tex" alt="\, a = amm^{-1} = (a\cdot m + a \wedge m)m^{-1} = a_{\| m} + a_{\perp m} " src="http://upload.wikimedia.org/math/5/8/d/58d624d679cf1505a071b401724d4d45.png" /></dd>
+</dl>
+<p>where the <b>projection</b> of <i>a</i> onto <i>m</i> (or the parallel part) is</p>
+<dl>
+<dd><img class="tex" alt="\, a_{\| m} = (a\cdot m)m^{-1} " src="http://upload.wikimedia.org/math/d/5/2/d5214d7885ce53c7788d0c788939a798.png" /></dd>
+</dl>
+<p>and the <b>rejection</b> of <i>a</i> onto <i>m</i> (or the perpendicular part) is</p>
+<dl>
+<dd><img class="tex" alt="\, a_{\perp m} = a - a_{\| m} = (a\wedge m)m^{-1} ." src="http://upload.wikimedia.org/math/1/1/3/11322388360e968282a991e4d36536f5.png" /></dd>
+</dl>
+<p>Using the concept of a <i>k</i>-blade <i>B</i> as representing a subspace of <i>V</i> and every multivector ultimately being expressed in terms of vectors, this generalizes to projection of a general multivector onto any invertible <i>k</i>-blade <i>B</i> as<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<dl>
+<dd><img class="tex" alt="\, \mathcal{P}_B (A) = (A \;\big\lrcorner\; B^{-1}) \;\big\lrcorner\; B " src="http://upload.wikimedia.org/math/8/3/4/834028a57a55ab1f88cfe8bea9619450.png" /></dd>
+</dl>
+<p>with the rejection being defined as</p>
+<dl>
+<dd><img class="tex" alt="\, \mathcal{P}_B^\perp (A) = A - \mathcal{P}_B (A) ." src="http://upload.wikimedia.org/math/0/9/9/099040632b12153fe5bcb257510b5011.png" /></dd>
+</dl>
+<p>The projection and rejection generalize to null blades <i>B</i> by replacing the inverse <i>B</i><sup>−1</sup> with the pseudoinverse <i>B</i><sup>+</sup> with respect to the contractive product.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> The outcome of the projection coincides in both cases for non-null blades.<sup id="cite_ref-FOOTNOTEDorst.C2.A73.6_p._85_11-0" class="reference"><a href="#cite_note-FOOTNOTEDorst.C2.A73.6_p._85-11"><span>[</span>11<span>]</span></a></sup>.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> For null blades <i>B</i>, the definition of the projection given here with the first contraction rather than the second being onto the pseudoinverse should be used,<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> as only then is the result necessarily in the subspace represented by <i>B</i>.<sup id="cite_ref-FOOTNOTEDorst.C2.A73.6_p._85_11-1" class="reference"><a href="#cite_note-FOOTNOTEDorst.C2.A73.6_p._85-11"><span>[</span>11<span>]</span></a></sup> The projection generalizes through linearity to general multivectors <i>A</i>.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> The projection is not linear in <i>B</i> and does not generalize to objects <i>B</i> that are not blades.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=11.php.html" title="Edit section: Reflections">edit</a>]</span> <span class="mw-headline" id="Reflections">Reflections</span></h3>
+<p>The definition of a reflection occurs in two forms in the literature. Several authors work with reflection <i>along</i> a vector (negating only the component parallel to the specifying vector, or reflection in the hypersurface orthogonal to that vector), while others work with reflection <i>on</i> a vector (negating all vector components except that parallel to the specifying vector). Either may be used to build general versor operations, but the latter has the advantage that it extends to the algebra in a simpler and algebraically more regular fashion.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=12.php.html" title="Edit section: Reflection along a vector">edit</a>]</span> <span class="mw-headline" id="Reflection_along_a_vector">Reflection <i>along</i> a vector</span></h4>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:GA_reflection_along_vector.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/GA_reflection_along_vector.svg/200px-GA_reflection_along_vector.svg.png" width="200" height="185" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/GA_reflection_along_vector.svg/300px-GA_reflection_along_vector.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/GA_reflection_along_vector.svg/400px-GA_reflection_along_vector.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GA_reflection_along_vector.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Reflection of vector <i>c</i> along a vector <i>m</i>. Only the component of <i>c</i> parallel to <i>m</i> is negated.</div>
+</div>
+</div>
+<p>The reflection of a vector <i>a</i> along a vector <i>m</i>, or equivalently in the hyperplane orthogonal to <i>m</i>, is the same as negating the component of a vector parallel to <i>m</i>. The result of the reflection will be</p>
+<dl>
+<dd><img class="tex" alt="\! a' = {-a_{\| m} + a_{\perp m}} = {-(a \cdot m)m^{-1} + (a \wedge m)m^{-1}}
+= {(-m \cdot a - m \wedge a)m^{-1}}
+= -mam^{-1} " src="http://upload.wikimedia.org/math/f/2/3/f23499a78e5e3eda3faf169bfdf900d3.png" /></dd>
+</dl>
+<p>This is not the most general operation that may be regarded as a reflection when the dimension <span class="nowrap"><i>n</i> ≥ 4</span>. A general reflection may be expressed as the composite of any odd number of single-axis reflections. Thus, a general reflection of a vector may be written</p>
+<dl>
+<dd><img class="tex" alt="\! a \mapsto -MaM^{-1} " src="http://upload.wikimedia.org/math/3/8/0/3804b3917c524da9c23cc1ce0148389f.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt="\! M = pq \ldots r" src="http://upload.wikimedia.org/math/f/0/c/f0c98a64d6ac21814e70aaefd0b87a6e.png" /> and <img class="tex" alt="\! M^{-1} = (pq \ldots r)^{-1} = r^{-1} \ldots q^{-1}p^{-1} ." src="http://upload.wikimedia.org/math/4/8/e/48ed3dd5f95090b7d791aed9835a0c65.png" /></dd>
+</dl>
+<p>If we define the reflection along a non-null vector <i>m</i> of the product of vectors as the reflection of every vector in the product along the same vector, we get for any product of an odd number of vectors that, by way of example,</p>
+<dl>
+<dd><img class="tex" alt=" (abc)' = a'b'c' = (-mam^{-1})(-mbm^{-1})(-mcm^{-1}) = -ma(m^{-1}m)b(m^{-1}m)cm^{-1} = -mabcm^{-1} \," src="http://upload.wikimedia.org/math/4/3/4/43425bdc3ff5c937703fede30661d3e6.png" /></dd>
+</dl>
+<p>and for the product of an even number of vectors that</p>
+<dl>
+<dd><img class="tex" alt=" (abcd)' = a'b'c'd' = (-mam^{-1})(-mbm^{-1})(-mcm^{-1})(-mdm^{-1})
+= mabcdm^{-1} .\," src="http://upload.wikimedia.org/math/2/0/8/208ad5cf90776795ccdd1476cd617658.png" /></dd>
+</dl>
+<p>Using the concept of every multivector ultimately being expressed in terms of vectors, the reflection of a general multivector <i>A</i> using any reflection versor <i>M</i> may be written</p>
+<dl>
+<dd><img class="tex" alt="\, A \mapsto M\alpha(A)M^{-1} ," src="http://upload.wikimedia.org/math/7/4/8/748b478792bf8a4a00bdafbf8fbc7921.png" /></dd>
+</dl>
+<p>where <i>α</i> is the <a href="Automorphism" title="Automorphism">automorphism</a> of <a href="Reflection_through_the_origin" title="Reflection through the origin" class="mw-redirect">reflection through the origin</a> of the vector space (<i>v</i> ↦ −<i>v</i>) extended through multilinearity to the whole algebra.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=13.php.html" title="Edit section: Reflection on a vector">edit</a>]</span> <span class="mw-headline" id="Reflection_on_a_vector">Reflection <i>on</i> a vector</span></h4>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:GA_reflection_on_vector.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/GA_reflection_on_vector.svg/200px-GA_reflection_on_vector.svg.png" width="200" height="181" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/GA_reflection_on_vector.svg/300px-GA_reflection_on_vector.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/GA_reflection_on_vector.svg/400px-GA_reflection_on_vector.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GA_reflection_on_vector.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Reflection of vector <i>c</i> on a vector <i>n</i>. The rejection of <i>c</i> on <i>n</i> is negated.</div>
+</div>
+</div>
+<p>The result of reflecting a vector <i>a</i> on another vector <i>n</i> is to negate the rejection of <i>a</i>. It is akin to reflecting the vector <i>a</i> through the origin, except that the projection of <i>a</i> onto <i>n</i> is not reflected. Such an operation is described by</p>
+<dl>
+<dd><img class="tex" alt="\, a \mapsto nan^{-1} ." src="http://upload.wikimedia.org/math/6/3/d/63d2ac23a53226a1b9afa8cae1565ace.png" /></dd>
+</dl>
+<p>Repeating this operation results in a general versor operation (including both rotations and reflections) of an general multivector <i>A</i> being expressed as</p>
+<dl>
+<dd><img class="tex" alt="\, A \mapsto NAN^{-1} ." src="http://upload.wikimedia.org/math/a/3/a/a3a5df226c844e2024c2b430358b33b8.png" /></dd>
+</dl>
+<p>This allows a general definition of any versor <i>N</i> (including both reflections and rotors) as an object that can be expressed as geometric product of any number of non-null 1-vectors. Such a versor can be applied in a uniform sandwich product as above irrespective of whether it is of even (a proper rotation) or odd grade (an improper rotation i.e. general reflection). The set of all versors with the geometric product as the group operation constitutes the <a href="Clifford_group" title="Clifford group" class="mw-redirect">Clifford group</a> of the Clifford algebra <i>C</i>ℓ<sub><i>p</i>,<i>q</i></sub>(<b>R</b>).<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup><br style="clear:both;" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=14.php.html" title="Edit section: Hypervolume of an n-parallelotope spanned by n vectors">edit</a>]</span> <span class="mw-headline" id="Hypervolume_of_an_n-parallelotope_spanned_by_n_vectors">Hypervolume of an <i>n</i>-parallelotope spanned by <i>n</i> vectors</span></h3>
+<p>For vectors <img class="tex" alt=" a " src="http://upload.wikimedia.org/math/0/c/c/0cc175b9c0f1b6a831c399e269772661.png" /> and <img class="tex" alt=" b " src="http://upload.wikimedia.org/math/9/2/e/92eb5ffee6ae2fec3ad71c777531578f.png" /> spanning a parallelogram we have</p>
+<dl>
+<dd><img class="tex" alt=" a \wedge b = ((a \wedge b) b^{-1}) b = a_{\perp b} b " src="http://upload.wikimedia.org/math/8/4/9/849b58e5e8922a5eb0f18c157a3dab5a.png" /></dd>
+</dl>
+<p>with the result that <img class="tex" alt=" a \wedge b" src="http://upload.wikimedia.org/math/2/0/8/2087fb4763a6e238d1917e47e2a5aa29.png" /> is linear in the product of the "altitude" and the "base" of the parallelogram, that is, its area.</p>
+<p>Similar interpretations are true for any number of vectors spanning an <i>n</i>-dimensional <a href="Parallelotope" title="Parallelotope" class="mw-redirect">parallelotope</a>; the outer product of vectors <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, ... <i>a<sub>n</sub></i> , that is <img class="tex" alt="\bigwedge_{i=1}^n a_i " src="http://upload.wikimedia.org/math/7/8/e/78ea958c83ebc7293e01dd00725a1bea.png" />, has a magnitude equal to the volume of the <i>n</i>-parallelotope. An <i>n</i>-vector doesn't necessarily have a shape of a parallelotope - this is a convenient visualization. It could be any shape, although the volume equals that of the parallelotope.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=15.php.html" title="Edit section: Rotations">edit</a>]</span> <span class="mw-headline" id="Rotations">Rotations</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:GA_planar_rotations.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/GA_planar_rotations.svg/200px-GA_planar_rotations.svg.png" width="200" height="286" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/GA_planar_rotations.svg/300px-GA_planar_rotations.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e9/GA_planar_rotations.svg/400px-GA_planar_rotations.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GA_planar_rotations.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A rotor that rotates vectors in a plane rotates vectors through angle <i>θ</i>, that is <i>x</i>→<i>R</i><sub><i>θ</i></sub><i>xR</i><sub><i>θ</i></sub><sup>†</sup> is a rotation of <i>x</i> through angle <i>θ</i>. The angle between <i>u</i> and <i>v</i> is <i>θ</i>/2. Similar interpretations are valid for a general multivector <i>X</i> instead of the vector <i>x</i>. <sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></div>
+</div>
+</div>
+<p>If we have a product of vectors <img class="tex" alt="R = a_1a_2....a_r" src="http://upload.wikimedia.org/math/c/b/1/cb1430042a6a9117419795f80c6c5c29.png" /> then we denote the reverse as</p>
+<dl>
+<dd><img class="tex" alt="R^{\dagger}= (a_1a_2....a_r)^{\dagger} = a_r....a_2a_1" src="http://upload.wikimedia.org/math/9/d/2/9d245be524a207ac5d9f814ee0d33394.png" />.</dd>
+</dl>
+<p>As an example, assume that <img class="tex" alt=" R = ab " src="http://upload.wikimedia.org/math/6/4/0/6406448b5e0d7eb40c5fe50d598636b2.png" /> we get</p>
+<dl>
+<dd><img class="tex" alt="RR^{\dagger} = abba = ab^2a =a^2b^2 = R^{\dagger}R" src="http://upload.wikimedia.org/math/0/d/5/0d5142536dac32e3417972009d58c285.png" />.</dd>
+</dl>
+<p>Scaling <span class="texhtml"><i>R</i></span> so that <span class="texhtml"><i>RR</i><sup>†</sup> = 1</span> then</p>
+<dl>
+<dd><img class="tex" alt="(RvR^{\dagger})^2 = Rv^{2}R^{\dagger}= v^2RR^{\dagger} = v^2 " src="http://upload.wikimedia.org/math/1/b/3/1b39025db39be7d05ebbef27197a937c.png" /></dd>
+</dl>
+<p>so <img class="tex" alt="RvR" src="http://upload.wikimedia.org/math/4/e/7/4e79989fa65e331f748c7c450a9b23c3.png" /><sup>†</sup> leaves the length of <img class="tex" alt="v" src="http://upload.wikimedia.org/math/9/e/3/9e3669d19b675bd57058fd4664205d2a.png" /> unchanged. We can also show that</p>
+<dl>
+<dd><img class="tex" alt="(Rv_1R^{\dagger}) \cdot (Rv_2R^{\dagger}) = v_1 \cdot v_2" src="http://upload.wikimedia.org/math/b/2/a/b2ad0b8073f5ae87caa862d492563100.png" /></dd>
+</dl>
+<p>so the transformation <span class="texhtml"><i>RvR</i><sup>†</sup></span> preserves both length and angle. It therefore can be identified as a rotation or rotoreflection; <span class="texhtml"><i>R</i></span> is called a <a href="Rotor_(mathematics)" title="Rotor (mathematics)">rotor</a> if it is a <a href="Proper_rotation" title="Proper rotation" class="mw-redirect">proper rotation</a> (as it is if it can be expressed as a product of an even number of vectors) and is an instance of what is known in GA as a <i><a href="Versor" title="Versor">versor</a></i> (presumably for historical reasons).</p>
+<p>There is a general method for rotating a vector involving the formation of a multivector of the form <img class="tex" alt=" R = e^{-\frac{B \theta}{2}} " src="http://upload.wikimedia.org/math/2/5/3/253c6d6d4c4b4b2c445a6966efc73d19.png" /> that produces a rotation <img class="tex" alt=" \theta " src="http://upload.wikimedia.org/math/5/0/d/50d91f80cbb8feda1d10e167107ad1ff.png" /> in the plane and with the orientation defined by a bivector <img class="tex" alt=" B " src="http://upload.wikimedia.org/math/9/d/5/9d5ed678fe57bcca610140957afab571.png" />.</p>
+<p>Rotors are a generalization of quaternions to <i>n</i>-D spaces.</p>
+<p>For more about reflections, rotations and "sandwiching" products like <span class="texhtml"><i>RvR</i><sup>†</sup></span> see <a href="Plane_of_rotation" title="Plane of rotation">Plane of rotation</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=16.php.html" title="Edit section: Examples and applications">edit</a>]</span> <span class="mw-headline" id="Examples_and_applications">Examples and applications</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=17.php.html" title="Edit section: Intersection of a line and a plane">edit</a>]</span> <span class="mw-headline" id="Intersection_of_a_line_and_a_plane">Intersection of a line and a plane</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:LinePlaneIntersect.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f1/LinePlaneIntersect.png/220px-LinePlaneIntersect.png" width="220" height="122" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f1/LinePlaneIntersect.png/330px-LinePlaneIntersect.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f1/LinePlaneIntersect.png/440px-LinePlaneIntersect.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:LinePlaneIntersect.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A line L defined by points T and P (which we seek) and a plane defined by a bivector B containing points P and Q.</div>
+</div>
+</div>
+<p>We may define the line parametrically by <img class="tex" alt=" p = t + \alpha \ v " src="http://upload.wikimedia.org/math/3/5/7/3575b7bfc5c11de81bf597ccdd885603.png" /> where <i>p</i> and <i>t</i> are position vectors for points T and P and <i>v</i> is the direction vector for the line.</p>
+<p>Then</p>
+<dl>
+<dd><img class="tex" alt="B \wedge (p-q) = 0" src="http://upload.wikimedia.org/math/9/c/e/9ce92908e79cac8624fc90c3a5119051.png" /> and <img class="tex" alt="B \wedge (t + \alpha v - q) = 0" src="http://upload.wikimedia.org/math/9/6/7/9674339510d86f8d4f409f9f75d72286.png" /></dd>
+</dl>
+<p>so</p>
+<dl>
+<dd><img class="tex" alt="\alpha = \frac{B \wedge(q-t)}{B \wedge v} " src="http://upload.wikimedia.org/math/0/5/b/05ba1a4765d061f654951a0dba788e2f.png" /></dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><img class="tex" alt="p = t + \left(\frac{B \wedge (q-t)}{B \wedge v}\right) v" src="http://upload.wikimedia.org/math/9/6/5/965fc55881a10e5084586f090a13c657.png" />.</dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=18.php.html" title="Edit section: Rotating systems">edit</a>]</span> <span class="mw-headline" id="Rotating_systems">Rotating systems</span></h3>
+<p>The mathematical description of rotational forces such as <a href="Torque" title="Torque">torque</a> and <a href="Angular_momentum" title="Angular momentum">angular momentum</a> make use of the <a href="Cross_product" title="Cross product">cross product</a>.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Exterior_calc_cross_product.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Exterior_calc_cross_product.svg/220px-Exterior_calc_cross_product.svg.png" width="220" height="203" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Exterior_calc_cross_product.svg/330px-Exterior_calc_cross_product.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Exterior_calc_cross_product.svg/440px-Exterior_calc_cross_product.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Exterior_calc_cross_product.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The cross product in relation to the outer product. In red are the unit normal vector, and the "parallel" unit bivector.</div>
+</div>
+</div>
+<p>The cross product can be viewed in terms of the outer product allowing a more natural geometric interpretation of the cross product as a bivector using the <a href="Hodge_dual" title="Hodge dual">dual</a> relationship</p>
+<dl>
+<dd><img class="tex" alt="a \times b = -I (a \wedge b) \,." src="http://upload.wikimedia.org/math/3/9/0/390b6c0be2e86e6f853acd1cad4470dc.png" /></dd>
+</dl>
+<p>For example,torque is generally defined as the magnitude of the perpendicular force component times distance, or work per unit angle.</p>
+<p>Suppose a circular path in an arbitrary plane containing orthonormal vectors <img class="tex" alt="\hat{ u}" src="http://upload.wikimedia.org/math/9/f/1/9f1eea918a8184c68a3c43536444fa60.png" /> and<img class="tex" alt="\hat{ v}" src="http://upload.wikimedia.org/math/a/1/c/a1c7c155cb7b65ab90f819fa8461fc9c.png" /> is parameterized by angle.</p>
+<dl>
+<dd><img class="tex" alt="
+\mathbf{r} = r(\hat{ u} \cos \theta + \hat{ v} \sin \theta) = r \hat{ u}(\cos \theta + \hat{ u} \hat{ v} \sin \theta)
+" src="http://upload.wikimedia.org/math/6/e/a/6eada356c55e245b0de5f70d1e586fbc.png" /></dd>
+</dl>
+<p>By designating the unit bivector of this plane as the imaginary number</p>
+<dl>
+<dd><img class="tex" alt="{i} = \hat{ u} \hat{ v} = \hat{ u} \wedge \hat{ v}" src="http://upload.wikimedia.org/math/0/f/a/0fa3e52668a7d17b168dc64ffca6f8d9.png" /></dd>
+<dd><img class="tex" alt="{i}^2 = -1" src="http://upload.wikimedia.org/math/5/3/c/53ccd79a5f3075ebf0b5132af9cb15ce.png" /></dd>
+</dl>
+<p>this path vector can be conveniently written in complex exponential form</p>
+<dl>
+<dd><img class="tex" alt="
+\mathbf{r} = r \hat{ u} e^{{i} \theta}
+" src="http://upload.wikimedia.org/math/f/a/9/fa908fd1f33d6844b90c214b57274e37.png" /></dd>
+</dl>
+<p>and the derivative with respect to angle is</p>
+<dl>
+<dd><img class="tex" alt="
+\frac{d  \mathbf{r}}{d\theta} = r \hat{ u} {i} e^{{i} \theta} = \mathbf{r} {i}
+" src="http://upload.wikimedia.org/math/4/3/f/43fa56c33647611052b48b955ef63a71.png" /></dd>
+</dl>
+<p>So the torque, the rate of change of work <i>W</i>, due to a force<i>F</i>, is</p>
+<dl>
+<dd><img class="tex" alt="\tau = \frac{dW}{d\theta} =  F \cdot \frac{d  r}{d\theta} =  F \cdot (\mathbf{r} {i})
+" src="http://upload.wikimedia.org/math/9/e/2/9e274e66d1b322f22269fab4b49f5a14.png" /></dd>
+</dl>
+<p>Unlike the cross product description of torque, <img class="tex" alt=" \tau =  \mathbf{r} \times  F" src="http://upload.wikimedia.org/math/f/e/7/fe7d8a07f0f70aab74b9298c684e11ab.png" />, the geometric-algebra description does not introduce a vector in the normal direction; a vector that does not exist in two and that is not unique in greater than three dimensions. The unit bivector describes the plane and the orientation of the rotation, and the sense of the rotation is relative to the angle between the vectors <img class="tex" alt="{\hat{u}}" src="http://upload.wikimedia.org/math/9/f/1/9f1eea918a8184c68a3c43536444fa60.png" /> and <img class="tex" alt="{\hat{v}}" src="http://upload.wikimedia.org/math/a/1/c/a1c7c155cb7b65ab90f819fa8461fc9c.png" />.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=19.php.html" title="Edit section: Electrodynamics and special relativity">edit</a>]</span> <span class="mw-headline" id="Electrodynamics_and_special_relativity">Electrodynamics and special relativity</span></h3>
+<p>In physics, the main applications are the geometric algebra of <a href="Minkowski_spacetime" title="Minkowski spacetime" class="mw-redirect">Minkowski 3+1 spacetime</a>, <i>C</i>ℓ<sub>1,3</sub>, called <a href="Spacetime_algebra" title="Spacetime algebra">spacetime algebra</a> (STA).<sup id="cite_ref-FOOTNOTEHestenes1966_1-1" class="reference"><a href="#cite_note-FOOTNOTEHestenes1966-1"><span>[</span>1<span>]</span></a></sup> or less commonly, <i>C</i>ℓ<sub>3</sub>, called the <a href="Algebra_of_physical_space" title="Algebra of physical space">algebra of physical space</a> (APS) where <i>C</i>ℓ<sub>3</sub> is isomorphic to the <i>even</i> subalgebra of the 3+1 Clifford algebra, <i>C</i>ℓ<span style="display:inline-block; margin-bottom:-0.3em; vertical-align:-0.4em; line-height:1.2em; font-size:85%; text-align:left;">0<br />
+3,1</span>.</p>
+<p>While in STA points of spacetime are represented simply by vectors, in APS, points of (3+1)-dimensional spacetime are instead represented by <a href="Paravector" title="Paravector">paravectors</a>: a 3-dimensional vector (space) plus a 1-dimensional scalar (time).</p>
+<p>In spacetime algebra the electromagnetic field tensor has a bivector representation <img class="tex" alt="{F} = {E} + i c {B}" src="http://upload.wikimedia.org/math/e/f/2/ef2004a75bd6858fd99d4249c03e2a28.png" /> where the imaginary unit is the volume element, and where <a href="Maxwell's_equations" title="Maxwell's equations">Maxwell's equations</a> simplify to one equation:</p>
+<dl>
+<dd><img class="tex" alt="\nabla {F} = \mu_0 c {J}" src="http://upload.wikimedia.org/math/1/3/6/136bfa9827fd1fcf98105027394f7948.png" />, where <img class="tex" alt="{J}" src="http://upload.wikimedia.org/math/0/a/8/0a8f733556ca682c414d403f00a4af25.png" /> is the <a href="Four-current" title="Four-current">four-current</a>.</dd>
+</dl>
+<p><a href="Lorentz_boost" title="Lorentz boost" class="mw-redirect">Boosts</a> in this Lorenzian metric space have the same expression <img class="tex" alt="e^{{\beta}}" src="http://upload.wikimedia.org/math/0/b/1/0b105b772707bacf981e7f4c7c27a324.png" /> as rotation in Euclidean space, where <img class="tex" alt="{\beta}" src="http://upload.wikimedia.org/math/a/0/d/a0d0d432dab07f6f48d729d730b2a497.png" /> is the bivector generated by the time and the space directions involved, whereas in the Euclidean case it is the bivector generated by the two space directions, strengthening the "analogy" to almost identity.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=20.php.html" title="Edit section: Relationship with other formalisms">edit</a>]</span> <span class="mw-headline" id="Relationship_with_other_formalisms">Relationship with other formalisms</span></h2>
+<p><img class="tex" alt="\mathcal G(3,0)" src="http://upload.wikimedia.org/math/0/5/d/05ddc671acff71e39385af3fe761bf36.png" /> may be <a href="Comparison_of_vector_algebra_and_geometric_algebra" title="Comparison of vector algebra and geometric algebra">directly compared</a> to <a href="Vector_calculus#Algebraic_operations" title="Vector calculus">vector algebra</a>.</p>
+<p>The <a href="Superalgebra#Even_subalgebra" title="Superalgebra">even</a> <a href="Subalgebra" title="Subalgebra">subalgebra</a> of <img class="tex" alt="\mathcal G(2,0)" src="http://upload.wikimedia.org/math/a/e/f/aefdc55bb5b371c52a188a9122e71c8f.png" /> is isomorphic to the <a href="Complex_number" title="Complex number">complex numbers</a>, as may be seen by writing a vector <span class="texhtml"><i>P</i></span> in terms of its components in an orthonormal basis and left multiplying by the basis vector <span class="texhtml"><i>e</i><sub>1</sub></span>, yielding</p>
+<dl>
+<dd><img class="tex" alt=" Z =  {e_1}  P =  {e_1} ( x  {e_1} + y  {e_2})
+= x (1) + y ( {e_1}  {e_2})\,
+" src="http://upload.wikimedia.org/math/f/3/c/f3cf15bb22469e54c9fc616a15c8dca4.png" /></dd>
+</dl>
+<p>where we identify <span class="texhtml"><i>i</i> ↦ <i>e</i><sub>1</sub><i>e</i><sub>2</sub></span> since</p>
+<dl>
+<dd><img class="tex" alt="({e_1}{e_2})^2 = {e_1}{e_2}{e_1}{e_2} = -{e_1}{e_1}{e_2}{e_2} = -1 \," src="http://upload.wikimedia.org/math/4/3/d/43da336b44ca60aeeccfc0411fe1141d.png" /></dd>
+</dl>
+<p>Similarly, the even subalgebra of <img class="tex" alt="\mathcal G(3,0)" src="http://upload.wikimedia.org/math/0/5/d/05ddc671acff71e39385af3fe761bf36.png" /> with basis <span class="texhtml">{1, <i>e</i><sub>2</sub><i>e</i><sub>3</sub>, <i>e</i><sub>3</sub><i>e</i><sub>1</sub>, <i>e</i><sub>1</sub><i>e</i><sub>2</sub>}</span> is isomorphic to the <a href="Quaternion" title="Quaternion">quaternions</a> as may be seen by identifying <span class="texhtml"><i>i</i> ↦ −<i>e</i><sub>2</sub><i>e</i><sub>3</sub></span>, <span class="texhtml"><i>j</i> ↦ −<i>e</i><sub>3</sub><i>e</i><sub>1</sub></span> and <span class="texhtml"><i>k</i> ↦ −<i>e</i><sub>1</sub><i>e</i><sub>2</sub></span>.</p>
+<p>Every <a href="Associative_algebra" title="Associative algebra">associative algebra</a> has a matrix representation; the <a href="Pauli_matrices" title="Pauli matrices">Pauli matrices</a> are a representation of <img class="tex" alt="\mathcal G(3,0)" src="http://upload.wikimedia.org/math/0/5/d/05ddc671acff71e39385af3fe761bf36.png" /> and the <a href="Dirac_matrices" title="Dirac matrices" class="mw-redirect">Dirac matrices</a> are a representation of <img class="tex" alt="\mathcal G(1,3)" src="http://upload.wikimedia.org/math/c/f/5/cf50ed7d277a1233f5aecc3f815c9327.png" />, showing the equivalence with matrix representations used by physicists.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=21.php.html" title="Edit section: Geometric calculus">edit</a>]</span> <span class="mw-headline" id="Geometric_calculus">Geometric calculus</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Geometric_calculus" title="Geometric calculus">Geometric calculus</a></div>
+<p>Geometric calculus extends the formalism to include differentiation and integration including differential geometry and differential forms.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup></p>
+<p>Essentially, the vector derivative is defined so that the GA version of <a href="Green's_theorem" title="Green's theorem">Green's theorem</a> is true,</p>
+<dl>
+<dd><img class="tex" alt="\oint_{A} dA \nabla f = \oint_{dA} dx f" src="http://upload.wikimedia.org/math/6/b/f/6bf38311e61f89ecc2bc143f7e69909f.png" /></dd>
+</dl>
+<p>and then one can write</p>
+<dl>
+<dd><img class="tex" alt="\nabla f = \nabla \cdot f + \nabla \wedge f" src="http://upload.wikimedia.org/math/4/b/0/4b028f20d4d0c10299b50be60242ca96.png" /></dd>
+</dl>
+<p>as a geometric product, effectively generalizing <a href="Stokes_theorem" title="Stokes theorem" class="mw-redirect">Stokes theorem</a> (including the differential forms version of it).</p>
+<p>In <img class="tex" alt="1D" src="http://upload.wikimedia.org/math/f/1/4/f149c23cf5b13e619e76d9f013ca0d5e.png" /> when A is a curve with endpoints <img class="tex" alt="a" src="http://upload.wikimedia.org/math/0/c/c/0cc175b9c0f1b6a831c399e269772661.png" /> and <img class="tex" alt="b" src="http://upload.wikimedia.org/math/9/2/e/92eb5ffee6ae2fec3ad71c777531578f.png" />, then</p>
+<dl>
+<dd><img class="tex" alt="\oint_{A} dA \nabla f = \oint_{dA} dx f" src="http://upload.wikimedia.org/math/6/b/f/6bf38311e61f89ecc2bc143f7e69909f.png" /></dd>
+</dl>
+<p>reduces to</p>
+<dl>
+<dd><img class="tex" alt="\int_{a}^{b} dx \nabla f = \int_{a}^{b} dx \cdot \nabla f = \int_{a}^{b} df = f(b) -f(a)" src="http://upload.wikimedia.org/math/4/1/4/4147aefc5c8575e7bfec68b6f2d56361.png" /></dd>
+</dl>
+<p>or the fundamental theorem of integral calculus.</p>
+<p>Also developed are the concept of vector manifold and geometric integration theory (which generalizes Cartan's differential forms).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=22.php.html" title="Edit section: Conformal geometric algebra (CGA)">edit</a>]</span> <span class="mw-headline" id="Conformal_geometric_algebra_.28CGA.29">Conformal geometric algebra (CGA)</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Conformal_geometric_algebra" title="Conformal geometric algebra">Conformal geometric algebra</a></div>
+<p>A compact description of the current state of the art is provided by Bayro-Corrochano and Scheuermann (2010),<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> which also includes further references, in particular to Dorst <i>et al</i> (2007).<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> Another useful reference is Li (2008).<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></p>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:Conformal_Embedding.svg" class="image"><img alt="Conformal Embedding.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Conformal_Embedding.svg/300px-Conformal_Embedding.svg.png" width="300" height="256" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Conformal_Embedding.svg/450px-Conformal_Embedding.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Conformal_Embedding.svg/600px-Conformal_Embedding.svg.png 2x" /></a></div>
+<p>Working within GA, Euclidian space <img class="tex" alt="\mathcal E^3" src="http://upload.wikimedia.org/math/4/f/3/4f312fac45f73957fe03214ead1f4849.png" /> is embedded projectively in the CGA <img class="tex" alt="\mathcal G^{4,1}" src="http://upload.wikimedia.org/math/5/3/e/53e954570e94027b5be37f1d37373c8a.png" /> via the identification of Euclidean points with 1D subspaces in the 4D null cone of the 5D CGA vector subspace, and adding a point at infinity. This allows all conformal transformations to be done as rotations and reflections and is <a href="Covariance_and_contravariance_of_vectors" title="Covariance and contravariance of vectors">covariant</a>, extending incidence relations of projective geometry to circles and spheres.</p>
+<p>Specifically, we add orthogonal basis vectors <img class="tex" alt="\, e_+ " src="http://upload.wikimedia.org/math/4/1/6/416f43b548fecfdc715d2c64ca4f635e.png" /> and <img class="tex" alt="\, e_- " src="http://upload.wikimedia.org/math/8/5/f/85f9adb8f62b5100ffb668c921a2e003.png" /> such that <img class="tex" alt="\, {e_+}^2 = +1 " src="http://upload.wikimedia.org/math/3/5/1/35102adb2628fad99156a2810f634d1d.png" /> and <img class="tex" alt="\, {e_-}^2 = -1 " src="http://upload.wikimedia.org/math/3/6/0/3603c9a3678ccc7f6a0255182f7354bb.png" /> to the basis of <img class="tex" alt=" \mathcal{G}(3,0) " src="http://upload.wikimedia.org/math/c/1/4/c14c8c2eeb663c02978b6f95e2d1a9d8.png" /> and identify <a href="Null_vectors" title="Null vectors" class="mw-redirect">null vectors</a></p>
+<dl>
+<dd><img class="tex" alt=" n_{\infty} = e_- + e_+ " src="http://upload.wikimedia.org/math/7/3/f/73ff8c3fb63224ab6d3bde9816eab3bf.png" /> as an <a href="Ideal_point" title="Ideal point" class="mw-redirect">ideal point</a> (point at infinity) (see <a href="Compactification_(mathematics)" title="Compactification (mathematics)">Compactification</a>) and</dd>
+<dd><img class="tex" alt=" n_{o} = \tfrac{1}{2}(e_- - e_+) " src="http://upload.wikimedia.org/math/f/1/3/f13fe1542445b653ae646e7430a7268f.png" /> as the point at the origin, giving</dd>
+<dd><img class="tex" alt=" n_{\infty} \cdot n_{o} = -1 " src="http://upload.wikimedia.org/math/f/5/1/f5157767388764034a73f210b2895723.png" />.</dd>
+</dl>
+<p>This procedure has some similarities to the procedure for working with <a href="Homogeneous_coordinates" title="Homogeneous coordinates">homogeneous coordinates</a> in projective geometry and in this case allows the modeling of <a href="Euclidean_transformation" title="Euclidean transformation" class="mw-redirect">Euclidean transformations</a> as <a href="Orthogonal_transformation" title="Orthogonal transformation">orthogonal transformations</a>.</p>
+<p>A fast changing and fluid area of GA, CGA is also being investigated for applications to relativistic physics.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=23.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<dl>
+<dt>Before the 20th century</dt>
+</dl>
+<p>Although the connection of geometry with algebra dates as far back at least to <a href="Euclid" title="Euclid">Euclid</a>'s <i><a href="Euclid's_Elements" title="Euclid's Elements">Elements</a></i> in the 3rd century B.C. (see <a href="History_of_elementary_algebra#Greek_geometric_algebra" title="History of elementary algebra">Greek geometric algebra</a>), GA in the sense used in this article was not developed until 1844, when it was used in a <i>systematic way</i> to describe the geometrical properties and <i>transformations</i> of a space. In that year, <a href="Hermann_Grassmann" title="Hermann Grassmann">Hermann Grassmann</a> introduced the idea of a geometrical algebra in full generality as a certain calculus (analogous to the <a href="Propositional_calculus" title="Propositional calculus">propositional calculus</a>) that encoded all of the geometrical information of a space.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup> Grassmann's algebraic system could be applied to a number of different kinds of spaces, the chief among them being <a href="Euclidean_space" title="Euclidean space">Euclidean space</a>, <a href="Affine_space" title="Affine space">affine space</a>, and <a href="Projective_space" title="Projective space">projective space</a>. Following Grassmann, in 1878 <a href="William_Kingdon_Clifford" title="William Kingdon Clifford">William Kingdon Clifford</a> examined Grassmann's algebraic system alongside the <a href="Quaternions" title="Quaternions" class="mw-redirect">quaternions</a> of <a href="William_Rowan_Hamilton" title="William Rowan Hamilton">William Rowan Hamilton</a> in (<a href="#CITEREFClifford1878">Clifford 1878</a>). From his point of view, the quaternions described certain <i>transformations</i> (which he called <i>rotors</i>), whereas Grassmann's algebra described certain <i>properties</i> (or <i>Strecken</i> such as length, area, and volume). His contribution was to define a new product — the <b>geometric product</b> — on an existing Grassmann algebra, which realized the quaternions as living within that algebra. Subsequently <a href="Rudolf_Lipschitz" title="Rudolf Lipschitz">Rudolf Lipschitz</a> in 1886 generalized Clifford's interpretation of the quaternions and applied them to the geometry of rotations in <i>n</i> dimensions. Later these developments would lead other 20th-century mathematicians to formalize and explore the properties of the Clifford algebra.</p>
+<p>Nevertheless, another revolutionary development of the 19th-century would completely overshadow the geometric algebras: that of <a href="Vector_analysis" title="Vector analysis" class="mw-redirect">vector analysis</a>, developed independently by <a href="Josiah_Willard_Gibbs" title="Josiah Willard Gibbs">Josiah Willard Gibbs</a> and <a href="Oliver_Heaviside" title="Oliver Heaviside">Oliver Heaviside</a>. Vector analysis was motivated by <a href="James_Clerk_Maxwell" title="James Clerk Maxwell">James Clerk Maxwell</a>'s studies of <a href="Electromagnetism" title="Electromagnetism">electromagnetism</a>, and specifically the need to express and manipulate conveniently certain <a href="Differential_equation" title="Differential equation">differential equations</a>. Vector analysis had a certain intuitive appeal compared to the rigors of the new algebras. Physicists and mathematicians alike readily adopted it as their geometrical toolkit of choice, particularly following the influential 1901 textbook <i><a href="Vector_Analysis" title="Vector Analysis">Vector Analysis</a></i> by <a href="Edwin_Bidwell_Wilson" title="Edwin Bidwell Wilson">Edwin Bidwell Wilson</a>, following lectures of Gibbs.</p>
+<p>In more detail, there have been three approaches to geometric algebra: <a href="Quaternion" title="Quaternion">quaternionic</a> analysis, initiated by Hamilton in 1843 and geometrized as rotors by Clifford in 1878; geometric algebra, initiated by Grassmann in 1844; and vector analysis, developed out of quaternionic analysis in the late 19th century by Gibbs and Heaviside. The legacy of quaternionic analysis in vector analysis can be seen in the use of <span class="texhtml"><i>i</i>, <i>j</i>, <i>k</i></span> to indicate the basis vectors of <b>R</b><sup>3</sup>: it is being thought of as the purely imaginary quaternions. From the perspective of geometric algebra, <a href="Quaternion#Quaternions_as_the_even_part_of_C.E2.84.933.2C0.28R.29" title="Quaternion">quaternions can be identified as <i>C</i>ℓ<sup>0</sup><sub>3,0</sub>(<b>R</b>)</a>, the even part of the Clifford algebra on Euclidean 3-space, which unifies the three approaches.</p>
+<dl>
+<dt>20th century and Present</dt>
+</dl>
+<p>Progress on the study of Clifford algebras quietly advanced through the twentieth century, although largely due to the work of <a href="Abstract_algebra" title="Abstract algebra">abstract algebraists</a> such as <a href="Hermann_Weyl" title="Hermann Weyl">Hermann Weyl</a> and <a href="Claude_Chevalley" title="Claude Chevalley">Claude Chevalley</a>. The <i>geometrical</i> approach to geometric algebras has seen a number of 20th-century revivals. In mathematics, <a href="Emil_Artin" title="Emil Artin">Emil Artin</a>'s <i>Geometric Algebra</i><sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> discusses the algebra associated with each of a number of geometries, including <a href="Affine_geometry" title="Affine geometry">affine geometry</a>, <a href="Projective_geometry" title="Projective geometry">projective geometry</a>, <a href="Symplectic_geometry" title="Symplectic geometry">symplectic geometry</a>, and <a href="Orthogonal_geometry" title="Orthogonal geometry" class="mw-redirect">orthogonal geometry</a>. In physics, geometric algebras have been revived as a "new" way to do classical mechanics and electromagnetism, together with more advanced topics such as quantum mechanics and gauge theory.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> <a href="David_Hestenes" title="David Hestenes">David Hestenes</a> reinterpreted the Pauli and Dirac matrices as vectors in ordinary space and spacetime, respectively, and has been a primary contemporary advocate for the use of geometric algebra.</p>
+<p>In <a href="Computer_graphics" title="Computer graphics">computer graphics</a>, geometric algebras have been revived in order to efficiently represent rotations and other transformations.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=24.php.html" title="Edit section: Software">edit</a>]</span> <span class="mw-headline" id="Software">Software</span></h2>
+<p>GA is a very application oriented subject. There is a reasonably steep initial learning curve associated with it, but this can be eased somewhat by the use of applicable software.</p>
+<p>The following is a list of freely available software that does not require ownership of commercial software or purchase of any commercial products for this purpose:</p>
+<ul>
+<li>GA Viewer <a rel="nofollow" class="external text" href="http://www.geometricalgebra.net/downloads.html">Fontijne, Dorst, Bouma &amp; Mann</a></li>
+</ul>
+<p>The link provides a manual, introduction to GA and sample material as well as the software.</p>
+<ul>
+<li>CLUViz <a rel="nofollow" class="external text" href="http://www.clucalc.info/">Perwass</a></li>
+</ul>
+<p>Software allowing script creation and including sample visualizations, manual and GA introduction.</p>
+<ul>
+<li>Gaigen <a href="http://sourceforge.net/projects/g25/" class="extiw" title="sourceforge:projects/g25/">Fontijne</a></li>
+</ul>
+<p>For programmers,this is a code generator with support for C,C++,C# and Java.</p>
+<ul>
+<li>Cinderella Visualizations <a rel="nofollow" class="external text" href="http://sinai.apphy.u-fukui.ac.jp/gcj/software/GAcindy-1.4/GAcindy.htm">Hitzer</a> and <a rel="nofollow" class="external text" href="http://staff.science.uva.nl/~leo/cinderella/">Dorst</a>.</li>
+<li>Gaalop <a rel="nofollow" class="external autonumber" href="http://www.gaalop.de">[3]</a> Standalone GUI-Application that uses the Open-Source Computer Algebra Software <a href="Maxima_(software)" title="Maxima (software)">Maxima</a> to break down CLUViz code into C/C++ or Java code.</li>
+<li>Gaalop Precompiler <a rel="nofollow" class="external autonumber" href="http://www.gaalop.de">[4]</a> Precompiler based on Gaalop integrated with <a href="CMake" title="CMake">CMake</a>.</li>
+<li>Gaalet, C++ Expression Template Library <a rel="nofollow" class="external text" href="http://sourceforge.net/apps/trac/gaalet/">Seybold</a>.</li>
+<li>GALua, A Lua module adding GA data-types to the Lua programming language <a rel="nofollow" class="external text" href="http://spencerparkin.github.com/GALua/">Parkin</a>.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=25.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Comparison_of_vector_algebra_and_geometric_algebra" title="Comparison of vector algebra and geometric algebra">Comparison of vector algebra and geometric algebra</a></li>
+<li><a href="Clifford_algebra" title="Clifford algebra">Clifford algebra</a></li>
+<li><a href="Spacetime_algebra" title="Spacetime algebra">Spacetime algebra</a></li>
+<li><a href="Spinor" title="Spinor">Spinor</a></li>
+<li><a href="Quaternion" title="Quaternion">Quaternion</a></li>
+<li><a href="Algebra_of_physical_space" title="Algebra of physical space">Algebra of physical space</a> (<a href="http://en.wikibooks.org/wiki/Physics_in_the_Language_of_Geometric_Algebra._An_Approach_with_the_Algebra_of_Physical_Space" class="extiw" title="wikibooks:Physics in the Language of Geometric Algebra. An Approach with the Algebra of Physical Space">wikibooks:Physics in the Language of Geometric Algebra. An Approach with the Algebra of Physical Space</a>)</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=26.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-FOOTNOTEHestenes1966-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEHestenes1966_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEHestenes1966_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFHestenes1966">Hestenes 1966</a>.</span></li>
+<li id="cite_note-FOOTNOTELasenbyLasenbyDoran-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTELasenbyLasenbyDoran_2-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFLasenbyLasenbyDoran">Lasenby &amp; Lasenby Doran</a>.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">McRobie, F. A.; Lasenby, J. (1999) <i>Simo-Vu Quoc rods using Clifford algebra.</i> Internat. J. Numer. Methods Engrg. Vol 45, #4, p. 377−398</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation book">R. Penrose (2007). <i><a href="The_Road_to_Reality" title="The Road to Reality">The Road to Reality</a></i>. Vintage books. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-679-77631-1" title="Special:BookSources/0-679-77631-1">0-679-77631-1</a>.</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation book">J.A. Wheeler, C. Misner, K.S. Thorne (1973). <i>Gravitation</i>. W.H. Freeman &amp; Co. p.&#160;83. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-7167-0344-0" title="Special:BookSources/0-7167-0344-0">0-7167-0344-0</a>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">For example, when <i>vv</i>=<i>v</i>⋅<i>v</i>≠0, the product is grade-0 and not grade-2, as a graded algebra would require.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external autonumber" href="http://geocalc.clas.asu.edu/html/IntroPrimerGeometricAlgebra.html">[1]</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Distinguishing notation here is from Dorst (2007) <i>Geometric Algebra for computer Science</i> §B.1 p.590.; the point is also made that scalars must be handled as a special case with this product.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">This definition follows Dorst (2007) and Perwass (2009) – the left contraction used by Dorst replaces the ("fat dot") inner product that Perwass uses, consistent with Perwass's constraint that grade of <i>A</i> may not exceed that of <i>B</i>.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Dorst appears to merely assume <i>B</i><sup>+</sup> such that <span class="nowrap"><i>B</i> ⨼ <i>B</i><sup>+</sup> = 1</span>, whereas Perwass (2009) defines <span class="nowrap"><i>B</i><sup>+</sup> = <i>B</i><sup>†</sup>/(<i>B</i> ⨼ <i>B</i><sup>†</sup>)</span>, where <i>B</i><sup>†</sup> is the conjugate of <i>B</i>, equivalent to the reverse of <i>B</i> up to a sign.</span></li>
+<li id="cite_note-FOOTNOTEDorst.C2.A73.6_p._85-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEDorst.C2.A73.6_p._85_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-FOOTNOTEDorst.C2.A73.6_p._85_11-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFDorst">Dorst</a>, §3.6 p. 85.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Perwass (2009) §3.2.10.2 p83</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">That is to say, the projection must be defined as <span class="nowrap"><i>P</i><sub><i>B</i></sub>(<i>A</i>) = (<i>A</i> ⨼ <i>B</i><sup>+</sup>) ⨼ <i>B</i></span> and not as <span class="nowrap">(<i>A</i> ⨼ <i>B</i>) ⨼ <i>B</i><sup>+</sup></span>, though the two are equivalent for non-null blades <i>B</i></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">This generalization to all <i>A</i> is apparently not considered by Perwass or Dorst.</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">Perwass (2009) §3.3.1. Perwass also claims here that David Hestenes coined the term "versor", where he is presumably is referring to the GA context (the term <a href="Versor" title="Versor">versor</a> appears to have been used by <a href="William_Rowan_Hamilton" title="William Rowan Hamilton">Hamilton</a> to refer to an equivalent object of the <a href="Quaternion" title="Quaternion">quaternion</a> algebra).</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external autonumber" href="http://geocalc.clas.asu.edu/html/IntroPrimerGeometricAlgebra.html">[2]</a></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Clifford Algebra to Geometric Calculus, a Unified Language for mathematics and Physics (Dordrecht/Boston:G.Reidel Publ.Co.,1984</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">Geometric Algebra Computing in Engineering and Computer Science, E.Bayro-Corrochano &amp; Gerik Scheuermann (Eds),Springer 2010. Extract online at <a rel="nofollow" class="external free" href="http://geocalc.clas.asu.edu/html/UAFCG.html">http://geocalc.clas.asu.edu/html/UAFCG.html</a> #5 New Tools for Computational Geometry and rejuvenation of Screw Theory</span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><span class="citation book" id="CITEREFDorstFontijneMann2007">Dorst, Leo; Fontijne, Daniel; Mann, Stephen (2007). <a rel="nofollow" class="external text" href="http://www.geometricalgebra.net/"><i>Geometric algebra for computer science: an object-oriented approach to geometry</i></a>. Amsterdam: Elsevier/Morgan Kaufmann. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-12-369465-2" title="Special:BookSources/978-0-12-369465-2">978-0-12-369465-2</a>. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/132691969">132691969</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.geometricalgebra.net/">http://www.geometricalgebra.net/</a></span>.</span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">Hongbo Li (2008) <i>Invariant Algebras and Geometric Reasoning</i>, Singapore: World Scientific. Extract online at <a rel="nofollow" class="external free" href="http://www.worldscibooks.com/etextbook/6514/6514_chap01.pdf">http://www.worldscibooks.com/etextbook/6514/6514_chap01.pdf</a></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><span class="citation book" id="CITEREFGrassmann1844"><a href="Hermann_Grassmann" title="Hermann Grassmann">Grassmann, Hermann</a> (1844). <a rel="nofollow" class="external text" href="http://books.google.com/?id=bKgAAAAAMAAJ"><i>Die lineale Ausdehnungslehre ein neuer Zweig der Mathematik: dargestellt und durch Anwendungen auf die übrigen Zweige der Mathematik, wie auch auf die Statik, Mechanik, die Lehre vom Magnetismus und die Krystallonomie erläutert</i></a>. Leipzig: O. Wigand. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/20521674">20521674</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=bKgAAAAAMAAJ">http://books.google.com/?id=bKgAAAAAMAAJ</a></span>.</span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFArtin1988">Artin, Emil (1988), <i>Geometric algebra</i>, Wiley Classics Library, New York: John Wiley &amp; Sons Inc., pp.&#160;x+214, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-60839-4" title="Special:BookSources/0-471-60839-4">0-471-60839-4</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1009557">1009557</a></span> <i>(Reprint of the 1957 original; A Wiley-Interscience Publication)</i></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation book" id="CITEREFDoran1994"><a href="../Chris_J._L._Doran" title="Chris J. L. Doran">Doran</a>, Chris J. L. (February 1994). <a rel="nofollow" class="external text" href="http://www.mrao.cam.ac.uk/~clifford/publications/abstracts/chris_thesis.html"><i>Geometric Algebra and its Application to Mathematical Physics</i></a> (Ph.D. thesis). <a href="University_of_Cambridge" title="University of Cambridge">University of Cambridge</a>. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/53604228">53604228</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mrao.cam.ac.uk/~clifford/publications/abstracts/chris_thesis.html">http://www.mrao.cam.ac.uk/~clifford/publications/abstracts/chris_thesis.html</a></span>.</span></span></li>
+</ol>
+</div>
+<ul>
+<li><span class="citation" id="CITEREFBaylis.2C_W._E.1996">Baylis, W. E., ed. (1996), <i>Clifford (Geometric) Algebra with Applications to Physics, Mathematics, and Engineering</i>, Birkhäuser</span></li>
+<li><span class="citation" id="CITEREFBaylis2002">Baylis, W. E. (2002), <i>Electrodynamics: A Modern Geometric Approach</i> (2 ed.), Birkhäuser, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-8176-4025-5" title="Special:BookSources/978-0-8176-4025-5">978-0-8176-4025-5</a></span></li>
+<li><span class="citation" id="CITEREFBourbaki1980"><a href="Nicolas_Bourbaki" title="Nicolas Bourbaki">Bourbaki, Nicolas</a> (1980), <i>Eléments de Mathématique. Algèbre</i>, Ch. 9 "Algèbres de Clifford": Hermann</span></li>
+<li><span class="citation" id="CITEREFDorst2002">Dorst, Leo (2002), <i>The inner products of geometric algebra</i>, Boston, MA: Birkhäuser Boston</span></li>
+<li><span class="citation" id="CITEREFHestenes1999"><a href="David_Hestenes" title="David Hestenes">Hestenes, David</a> (1999), <i>New Foundations for Classical Mechanics</i> (2 ed.), Springer Verlag, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-7923-5302-7" title="Special:BookSources/978-0-7923-5302-7">978-0-7923-5302-7</a></span></li>
+<li><span class="citation book"><a href="David_Hestenes" title="David Hestenes">Hestenes, David</a> (1966). <i>Space-time Algebra</i>. New York: Gordon and Breach. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-677-01390-9" title="Special:BookSources/978-0-677-01390-9">978-0-677-01390-9</a>. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/996371">996371</a>.</span></li>
+<li><span class="citation" id="CITEREFLasenbyLasenbyDoran2000">Lasenby, J.; Lasenby, A. N.; Doran, C. J. L. (2000), <a rel="nofollow" class="external text" href="http://www.mrao.cam.ac.uk/~clifford/publications/ps/dll_millen.pdf">"A Unified Mathematical Language for Physics and Engineering in the 21st Century"</a>, <i>Philosophical Transactions of the Royal Society of London</i> (pp. 1-18) (A 358)<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.mrao.cam.ac.uk/~clifford/publications/ps/dll_millen.pdf">http://www.mrao.cam.ac.uk/%7Eclifford/publications/ps/dll_millen.pdf</a></span></span></li>
+<li><span class="citation book">Doran, Chris; Lasenby, Anthony (2003). <a rel="nofollow" class="external text" href="http://assets.cambridge.org/052148/0221/sample/0521480221WS.pdf"><i>Geometric algebra for physicists</i></a>. Cambridge University Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-71595-9" title="Special:BookSources/978-0-521-71595-9">978-0-521-71595-9</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://assets.cambridge.org/052148/0221/sample/0521480221WS.pdf">http://assets.cambridge.org/052148/0221/sample/0521480221WS.pdf</a></span>.</span></li>
+<li><span class="citation book">Macdonald, Alan (2011). <i>Linear and Geometric Algebra</i>. Charleston: CreateSpace. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/9781453854938" title="Special:BookSources/9781453854938">9781453854938</a>. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/704377582">704377582</a>.</span></li>
+<li><span class="citation book">J Bain (2006). <a rel="nofollow" class="external text" href="http://books.google.com/?id=OI5BySlm-IcC&pg=PT72">"Spacetime structuralism: §5 Manifolds <i>vs.</i> geometric algebra"</a>. In <a href="Dennis_Dieks" title="Dennis Dieks">Dennis Dieks</a>. <i>The ontology of spacetime</i>. Elsevier. p.&#160;54 <i>ff</i>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-444-52768-4" title="Special:BookSources/978-0-444-52768-4">978-0-444-52768-4</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=OI5BySlm-IcC&pg=PT72">http://books.google.com/?id=OI5BySlm-IcC&amp;pg=PT72</a></span>.</span></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometric_algebra&action=edit&section=27.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://faculty.luther.edu/~macdonal/GA&GC.pdf">A Survey of Geometric Algebra and Geometric Calculus</a> <a rel="nofollow" class="external text" href="http://faculty.luther.edu/~macdonal/">Alan Macdonald</a>, Luther College, Iowa.</li>
+<li><a rel="nofollow" class="external text" href="http://www.mrao.cam.ac.uk/~clifford/introduction/intro/intro.html">Imaginary Numbers are not Real - the Geometric Algebra of Spacetime</a>. Introduction (Cambridge GA group).</li>
+<li><a rel="nofollow" class="external text" href="http://www.mrao.cam.ac.uk/~clifford/ptIIIcourse/">Physical Applications of Geometric Algebra</a>. Final-year undergraduate course by Chris Doran and Anthony Lasenby (Cambridge GA group; see also <a rel="nofollow" class="external text" href="http://www.mrao.cam.ac.uk/~clifford/ptIIIcourse/course99/">1999 version</a>).</li>
+<li><a rel="nofollow" class="external text" href="http://www.iancgbell.clara.net/maths/">Maths for (Games) Programmers: 5 - Multivector methods</a>. Comprehensive introduction and reference for programmers, from <a href="Ian_Bell_(programmer)" title="Ian Bell (programmer)">Ian Bell</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/?op=getobj&from=objects&id=3770">Geometric Algebra</a>, <a href="PlanetMath" title="PlanetMath">PlanetMath.org</a>.</li>
+<li><a href="http://arxiv.org/abs/0907.5356" class="extiw" title="arxiv:0907.5356">Clifford algebra, geometric algebra, and applications</a> Douglas Lundholm, Lars Svensson Lecture notes for a course on the theory of Clifford algebras, with special emphasis on their wide range of applications in mathematics and physics.</li>
+<li><a rel="nofollow" class="external text" href="http://www.visgraf.impa.br/Courses/ga/">IMPA SUmmer School 2010</a> Fernandes Oliveira Intro and Slides.</li>
+<li><a rel="nofollow" class="external text" href="http://sinai.apphy.u-fukui.ac.jp/gcj/pubs.html">University of Fukui</a> E.S.M. Hitzer and Japan GA publications.</li>
+<li><a rel="nofollow" class="external text" href="http://groups.google.com/group/geometric_algebra">Google Group for GA</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.jaapsuter.com/geometric-algebra/">Geometric Algebra Primer</a> Introduction to GA, Jaap Suter.</li>
+</ul>
+<p><b>Research groups</b></p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://sinai.apphy.u-fukui.ac.jp/gcj/gc_int.html">Geometric Calculus International</a>. Links to Research groups, Software, and Conferences, worldwide.</li>
+<li><a rel="nofollow" class="external text" href="http://www.mrao.cam.ac.uk/~clifford/">Cambridge Geometric Algebra group</a>. Full-text online publications, and other material.</li>
+<li><a rel="nofollow" class="external text" href="http://www.science.uva.nl/ga/">University of Amsterdam group</a></li>
+<li><a rel="nofollow" class="external text" href="http://geocalc.clas.asu.edu/">Geometric Calculus research &amp; development</a> (Arizona State University).</li>
+<li><a rel="nofollow" class="external text" href="http://gaupdate.wordpress.com/">GA-Net blog</a> and <a rel="nofollow" class="external text" href="http://sinai.apphy.u-fukui.ac.jp/GA-Net/archive/index.html">newsletter archive</a>. Geometric Algebra/Clifford Algebra development news.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 12753/1000000
+Preprocessor generated node count: 30580/1500000
+Post-expand include size: 55099/2048000 bytes
+Template argument size: 20307/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:12939-0!0!0!!en!4!* and timestamp 20130210032433 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Geometric_algebra&oldid=537484996.php.html">http://en.wikipedia.org/w/index.php?title=Geometric_algebra&amp;oldid=537484996</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Clifford_algebras" title="Category:Clifford algebras">Clifford algebras</a></li><li><a href="Category_Ring_theory" title="Category:Ring theory">Ring theory</a></li><li><a href="Category_Geometric_algebra" title="Category:Geometric algebra">Geometric algebra</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_articles_needing_clarification_from_November_2011" title="Category:Wikipedia articles needing clarification from November 2011">Wikipedia articles needing clarification from November 2011</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Geometric+algebra&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Geometric+algebra.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Geometric_algebra"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Geometric_algebra&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Geometric_algebra&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Geometric_algebra" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Geometric_algebra" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Geometric_algebra&oldid=537484996.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Geometric_algebra&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Geometric_algebra&id=537484996.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Geometric+algebra.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Geometric+algebra&oldid=537484996&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Geometric_algebra&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%95_%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" title="জ্যামিতিক বীজগণিত" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/%C3%80lgebra_geom%C3%A8trica" title="Àlgebra geomètrica" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/%C3%81lgebra_geom%C3%A9trica" title="Álgebra geométrica" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Alg%C3%A8bre_g%C3%A9om%C3%A9trique_(structure)" title="Algèbre géométrique (structure)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EA%B8%B0%ED%95%98%EC%A0%81_%EB%8C%80%EC%88%98%ED%95%99" title="기하적 대수학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Geometrijska_algebra" title="Geometrijska algebra" lang="sl" hreflang="sl">Slovenščina</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 10 February 2013 at 03:24.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Geometric_algebra" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1071 in 0.120 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

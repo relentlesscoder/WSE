@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>DBpedia - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=DBpedia&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=DBpedia&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.geshi.local%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"DBpedia","wgTitle":"DBpedia","wgCurRevisionId":538103010,"wgArticleId":11865154,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from December 2012","Articles to be merged from May 2012","All articles to be merged","Articles containing potentially dated statements from September 2011","All articles containing potentially dated statements","Articles containing potentially dated statements from January 2011","Free software culture and documents","Open access (publishing)","World Wide Web","Semantic Web","Knowledge bases","History of Wikipedia"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"DBpedia","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"fed390d759ed756440e60d6006baa855","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":11865154,"title":"DBpedia","namespace":0,"categories":["All articles containing potentially dated statements","All articles to be merged","Articles containing potentially dated statements from January 2011","Articles containing potentially dated statements from September 2011","Articles to be merged from May 2012","Free software culture and documents","History of Wikipedia","Knowledge bases","Open access (publishing)","Semantic Web","Use dmy dates from December 2012","World Wide Web"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-sql {line-height: normal;}
+.source-sql li, .source-sql pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for sql
+ * CSS class: source-sql, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.sql.source-sql .de1, .sql.source-sql .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.sql.source-sql  {font-family:monospace;}
+.sql.source-sql .imp {font-weight: bold; color: red;}
+.sql.source-sql li, .sql.source-sql .li1 {font-weight: normal; vertical-align:top;}
+.sql.source-sql .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.sql.source-sql .li2 {font-weight: bold; vertical-align:top;}
+.sql.source-sql .kw1 {color: #993333; font-weight: bold;}
+.sql.source-sql .co1 {color: #808080; font-style: italic;}
+.sql.source-sql .coMULTI {color: #808080; font-style: italic;}
+.sql.source-sql .es0 {color: #000099; font-weight: bold;}
+.sql.source-sql .br0 {color: #66cc66;}
+.sql.source-sql .sy0 {color: #66cc66;}
+.sql.source-sql .st0 {color: #ff0000;}
+.sql.source-sql .nu0 {color: #cc66cc;}
+.sql.source-sql .ln-xtra, .sql.source-sql li.ln-xtra, .sql.source-sql div.ln-xtra {background-color: #ffc;}
+.sql.source-sql span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-DBpedia skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">DBpedia</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-move" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mergefrom.svg/50px-Mergefrom.svg.png" width="50" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mergefrom.svg/75px-Mergefrom.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mergefrom.svg/100px-Mergefrom.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">It has been suggested that <i><a href="DBpedia_Spotlight" title="DBpedia Spotlight">DBpedia Spotlight</a></i> be <a href="Wikipedia_Merging" title="Wikipedia:Merging">merged</a> into this article or section. (<a href="Talk_DBpedia" title="Talk:DBpedia">Discuss</a>) <small><i>Proposed since May 2012.</i></small> </span></td>
+</tr>
+</table>
+<table class="infobox vevent" cellspacing="3" style="border-spacing: 3px; width:22em;">
+<caption class="summary" style="">DBpedia</caption>
+<tr class="">
+<td colspan="2" class="" style="text-align:center;"><a href="http://en.wikipedia.org/wiki/File:DBpediaLogo.svg" class="image" title="DBpedia logo"><img alt="DBpedia logo" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/DBpediaLogo.svg/200px-DBpediaLogo.svg.png" width="200" height="123" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/DBpediaLogo.svg/300px-DBpediaLogo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/DBpediaLogo.svg/400px-DBpediaLogo.svg.png 2x" /></a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_developer" title="Software developer">Developer(s)</a></th>
+<td class="" style=""><a href="University_of_Leipzig" title="University of Leipzig" class="mw-redirect">University of Leipzig</a>, <a href="Free_University_of_Berlin" title="Free University of Berlin">Freie Universität Berlin</a>, <a href="OpenLink_Software" title="OpenLink Software">OpenLink Software</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Initial release</th>
+<td class="" style="">23 January 2007</td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
+<td class="" style="">DBpedia 3.8 / 6 August 2012<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Written in</th>
+<td class="" style=""><a href="Scala_(programming_language)" title="Scala (programming language)">Scala</a>, <a href="Java_(programming_language)" title="Java (programming language)">Java</a>, <a href="Virtuoso_Universal_Server" title="Virtuoso Universal Server">VSP</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Operating_system" title="Operating system">Operating system</a></th>
+<td class="" style=""><a href="Virtuoso_Universal_Server" title="Virtuoso Universal Server">Virtuoso Universal Server</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="List_of_software_categories" title="List of software categories">Type</a></th>
+<td class="" style=""><a href="Semantic_Web" title="Semantic Web">Semantic Web</a>, <a href="Linked_Data" title="Linked Data" class="mw-redirect">Linked Data</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_license" title="Software license">License</a></th>
+<td class="" style=""><a href="GNU_General_Public_License" title="GNU General Public License">GNU General Public License</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Website</th>
+<td class="" style=""><span class="url"><a rel="nofollow" class="external text" href="http://dbpedia.org">dbpedia.org</a></span></td>
+</tr>
+</table>
+<p><b>DBpedia</b> is a project aiming to extract <a href="Structured_content" title="Structured content">structured content</a> from the information created as part of the <a href="Wikipedia" title="Wikipedia">Wikipedia</a> project. This structured information is then made available on the <a href="World_Wide_Web" title="World Wide Web">World Wide Web</a>.<sup id="cite_ref-crystallization_2-0" class="reference"><a href="#cite_note-crystallization-2"><span>[</span>2<span>]</span></a></sup> DBpedia allows users to query relationships and properties associated with Wikipedia resources, including links to <a href="Linked_Data" title="Linked Data" class="mw-redirect">other related datasets</a>.<sup id="cite_ref-LinkedData3Sat_3-0" class="reference"><a href="#cite_note-LinkedData3Sat-3"><span>[</span>3<span>]</span></a></sup> DBpedia has been described by <a href="Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a> as one of the more famous parts of the <a href="Linked_Data" title="Linked Data" class="mw-redirect">Linked Data</a> project.<sup id="cite_ref-Berners-LeeTalis_4-0" class="reference"><a href="#cite_note-Berners-LeeTalis-4"><span>[</span>4<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Background"><span class="tocnumber">1</span> <span class="toctext">Background</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Dataset"><span class="tocnumber">2</span> <span class="toctext">Dataset</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Example"><span class="tocnumber">3</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Uses"><span class="tocnumber">4</span> <span class="toctext">Uses</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=1.php.html" title="Edit section: Background">edit</a>]</span> <span class="mw-headline" id="Background">Background</span></h2>
+<p>The project was started by people at the <a href="Free_University_of_Berlin" title="Free University of Berlin">Free University of Berlin</a> and the <a href="University_of_Leipzig" title="University of Leipzig" class="mw-redirect">University of Leipzig</a>, in collaboration with <a href="OpenLink_Software" title="OpenLink Software">OpenLink Software</a>,<sup id="cite_ref-DBpediaTeam_5-0" class="reference"><a href="#cite_note-DBpediaTeam-5"><span>[</span>5<span>]</span></a></sup> and the first publicly available dataset was published in 2007. It is made available under <a href="Free_licence" title="Free licence" class="mw-redirect">free licences</a>, allowing others to reuse the dataset.</p>
+<p>Wikipedia articles consist mostly of free text, but also include structured information embedded in the articles, such as "infobox" tables, categorisation information, images, geo-coordinates and links to external <a href="Web_page" title="Web page">Web pages</a>. This structured information is extracted and put in a uniform dataset which can be queried.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=2.php.html" title="Edit section: Dataset">edit</a>]</span> <span class="mw-headline" id="Dataset">Dataset</span></h2>
+<p>As of September 2011<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=DBpedia&action=edit.php.html">[update]</a></sup>, the DBpedia dataset describes more than 3.64 million things, out of which 1.83 million are classified in a consistent <a href="Ontology_(information_science)" title="Ontology (information science)">ontology</a>, including 416,000 persons, 526,000 places, 106,000 music albums, 60,000 films, 17,500 video games, 169,000 organizations, 183,000 species and 5,400 diseases. The DBpedia data set features labels and abstracts for these 3.64 million things in up to 97 different languages; 2,724,000 links to images and 6,300,000 links to external web pages; 6,200,000 external links into other RDF datasets, 740,000 Wikipedia categories, and 2,900,000 <a href="YAGO_(Ontology)" title="YAGO (Ontology)" class="mw-redirect">YAGO2</a> categories. From this dataset, information spread across multiple pages can be extracted, for example book authorship can be put together from pages about the work, or the author.</p>
+<p>The DBpedia project uses the <a href="Resource_Description_Framework" title="Resource Description Framework">Resource Description Framework</a> (RDF) to represent the extracted information. As of September 2011<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=DBpedia&action=edit.php.html">[update]</a></sup>, the DBpedia dataset consists of over 1 billion pieces of information (RDF triples) out of which 385 million were extracted from the English edition of Wikipedia and 665 million were extracted from other language editions.<sup id="cite_ref-DBpediaDatasets_6-0" class="reference"><a href="#cite_note-DBpediaDatasets-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>One of the challenges in extracting information from Wikipedia is that the same concepts can be expressed using different properties in templates, such as birthplace and placeofbirth. Because of this, queries about where people were born would have to search for both of these properties in order to get more complete results. As a result, the DBpedia Mapping Language has been developed to help in mapping these properties to an ontology while reducing the number of synonyms. Due to the large diversity of infoboxes and properties in use on Wikipedia, the process of developing and improving these mappings has been opened to public contributions.<sup id="cite_ref-DBpediaMappings_7-0" class="reference"><a href="#cite_note-DBpediaMappings-7"><span>[</span>7<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=3.php.html" title="Edit section: Example">edit</a>]</span> <span class="mw-headline" id="Example">Example</span></h2>
+<p>DBpedia extracts factual information from Wikipedia pages, allowing users to find answers to questions where the information is spread across many different Wikipedia articles. Data is accessed using an <a href="SQL" title="SQL">SQL</a>-like <a href="Query_language" title="Query language">query language</a> for <a href="Resource_Description_Framework" title="Resource Description Framework">RDF</a> called <a href="SPARQL" title="SPARQL">SPARQL</a>. For example, imagine you were interested in the Japanese <a href="Sh%C5%8Djo_manga" title="Shōjo manga"><i>shōjo</i> manga</a> series <a href="Tokyo_Mew_Mew" title="Tokyo Mew Mew">Tokyo Mew Mew</a>, and wanted to find the genres of other works written by its illustrator. DBpedia combines information from Wikipedia's entries on Tokyo Mew Mew, <a href="Mia_Ikumi" title="Mia Ikumi">Mia Ikumi</a> and on works such as <a href="Super_Doll_Licca-chan" title="Super Doll Licca-chan">Super Doll Licca-chan</a> and <a href="Koi_Cupid" title="Koi Cupid">Koi Cupid</a>. Since DBpedia normalises information into a single database, the following <a rel="nofollow" class="external text" href="http://dbpedia.org/sparql?default-graph-uri=http://dbpedia.org&should-sponge=&query=PREFIX+dbprop:+%3Chttp://dbpedia.org/property/%3E%0D%0APREFIX+db:+%3Chttp://dbpedia.org/resource/%3E%0D%0ASELECT+?who,+?work,+?genre+WHERE+%7B+%0D%0A+db:Tokyo_Mew_Mew+dbprop:author+?who+.%0D%0A+?work++dbpprop:author+?who+.%0D%0A+OPTIONAL+%7B+?work+dbpprop:genre+?genre+%7D+.%0D%0A%7D+%0D%0A&format=text/html&debug=on&timeout=">query</a> can be asked without needing to know exactly which entry carries each fragment of information, and will list related genres:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="sql source-sql">
+<pre class="de1">
+ PREFIX dbprop: <span class="sy0">&lt;</span>http:<span class="sy0">//</span>dbpedia<span class="sy0">.</span>org<span class="sy0">/</span>property<span class="sy0">/&gt;</span>
+ PREFIX db: <span class="sy0">&lt;</span>http:<span class="sy0">//</span>dbpedia<span class="sy0">.</span>org<span class="sy0">/</span>resource<span class="sy0">/&gt;</span>
+ <span class="kw1">SELECT</span> ?who ?<span class="kw1">WORK</span> ?genre <span class="kw1">WHERE</span> <span class="br0">{</span> 
+  db:Tokyo_Mew_Mew dbprop:illustrator ?who <span class="sy0">.</span>
+  ?<span class="kw1">WORK</span>  dbprop:author ?who <span class="sy0">.</span>
+  OPTIONAL <span class="br0">{</span> ?<span class="kw1">WORK</span> dbprop:genre ?genre <span class="br0">}</span> <span class="sy0">.</span>
+ <span class="br0">}</span>
+</pre></div>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=4.php.html" title="Edit section: Uses">edit</a>]</span> <span class="mw-headline" id="Uses">Uses</span></h2>
+<p>DBpedia has a broad scope of entities covering different areas of human knowledge. This makes it a natural hub for connecting datasets, where external datasets could link to its concepts.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> The DBpedia dataset is interlinked on the RDF level with various other <a href="Open_Data" title="Open Data" class="mw-redirect">Open Data</a> datasets on the Web. This enables applications to enrich DBpedia data with data from these datasets. As of January 2011<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=DBpedia&action=edit.php.html">[update]</a></sup>, there are more than 6.5 million interlinks between DBpedia and external datasets including: <a href="Freebase_(database)" title="Freebase (database)" class="mw-redirect">Freebase</a>, <a href="Cyc#OpenCyc" title="Cyc">OpenCyc</a>, <a href="UMBEL" title="UMBEL">UMBEL</a>, <a href="GeoNames" title="GeoNames">GeoNames</a>, <a href="Musicbrainz" title="Musicbrainz" class="mw-redirect">Musicbrainz</a>, <a href="CIA_World_Fact_Book" title="CIA World Fact Book" class="mw-redirect">CIA World Fact Book</a>, <a href="DBLP" title="DBLP">DBLP</a>, <a href="Project_Gutenberg" title="Project Gutenberg">Project Gutenberg</a>, DBtune <a href="Jamendo" title="Jamendo">Jamendo</a>, <a href="Eurostat" title="Eurostat">Eurostat</a>, <a href="Uniprot" title="Uniprot" class="mw-redirect">Uniprot</a>, <a href="Bio2RDF" title="Bio2RDF">Bio2RDF</a>, and <a href="US_Census" title="US Census" class="mw-redirect">US Census</a> data.<sup id="cite_ref-W3LinkStatistics_9-0" class="reference"><a href="#cite_note-W3LinkStatistics-9"><span>[</span>9<span>]</span></a></sup><sup id="cite_ref-W3Statistics_10-0" class="reference"><a href="#cite_note-W3Statistics-10"><span>[</span>10<span>]</span></a></sup> The <a href="Thomson_Reuters" title="Thomson Reuters">Thomson Reuters</a> initiative <a href="Calais_(Reuters_Product)" title="Calais (Reuters Product)" class="mw-redirect">OpenCalais</a>, the Linked Open Data project of the <a href="New_York_Times" title="New York Times" class="mw-redirect">New York Times</a>, the <a href="Zemanta" title="Zemanta">Zemanta API</a> and <a href="DBpedia_Spotlight" title="DBpedia Spotlight">DBpedia Spotlight</a> also include links to DBpedia.<sup id="cite_ref-NYTimesLinkedData_11-0" class="reference"><a href="#cite_note-NYTimesLinkedData-11"><span>[</span>11<span>]</span></a></sup><sup id="cite_ref-OpenCalaisLinkedData_12-0" class="reference"><a href="#cite_note-OpenCalaisLinkedData-12"><span>[</span>12<span>]</span></a></sup><sup id="cite_ref-ZDNetLinkedData_13-0" class="reference"><a href="#cite_note-ZDNetLinkedData-13"><span>[</span>13<span>]</span></a></sup> The <a href="BBC" title="BBC">BBC</a> uses DBpedia to help organize its content.<sup id="cite_ref-ESWC2009_14-0" class="reference"><a href="#cite_note-ESWC2009-14"><span>[</span>14<span>]</span></a></sup><sup id="cite_ref-BackstageBBC_15-0" class="reference"><a href="#cite_note-BackstageBBC-15"><span>[</span>15<span>]</span></a></sup> <a href="../../w/index-title=Faviki&action=edit&redlink=1.php.html" class="new" title="Faviki (page does not exist)">Faviki</a> uses DBpedia for semantic tagging.<sup id="cite_ref-RWWFaviki_16-0" class="reference"><a href="#cite_note-RWWFaviki-16"><span>[</span>16<span>]</span></a></sup></p>
+<p><a href="../Amazon.com" title="Amazon.com">Amazon</a> provides DBpedia <i>Public Data Set</i> that can be integrated into <a href="Amazon_Web_Services" title="Amazon Web Services">Amazon Web Services</a> applications.<sup id="cite_ref-AmazonDBpedia_17-0" class="reference"><a href="#cite_note-AmazonDBpedia-17"><span>[</span>17<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=5.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="BabelNet" title="BabelNet">BabelNet</a></li>
+<li><a href="Freebase_(database)" title="Freebase (database)" class="mw-redirect">Freebase</a></li>
+<li><a href="Semantic_MediaWiki" title="Semantic MediaWiki">Semantic MediaWiki</a></li>
+<li><a href="Netsukuku" title="Netsukuku">Netsukuku</a></li>
+<li><a href="Wikidata" title="Wikidata">Wikidata</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=6.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://blog.dbpedia.org/2012/08/06/dbpedia-38-released-including-enlarged-ontology-and-additional-localized-versions/">"DBpedia 3.8 released, including enlarged Ontology and additional localized Versions"</a>. DBpedia Blog. 6 August 2012<span class="printonly">. <a rel="nofollow" class="external free" href="http://blog.dbpedia.org/2012/08/06/dbpedia-38-released-including-enlarged-ontology-and-additional-localized-versions/">http://blog.dbpedia.org/2012/08/06/dbpedia-38-released-including-enlarged-ontology-and-additional-localized-versions/</a></span>.</span></span></li>
+<li id="cite_note-crystallization-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-crystallization_2-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">Bizer, Christian; Lehmann, Jens; Kobilarov, Georgi; Auer, Soren; Becker, Christian; Cyganiak, Richard; Hellmann, Sebastian (September 2009). <a rel="nofollow" class="external text" href="http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/research/publications/Bizer-etal-DBpedia-CrystallizationPoint-JWS-Preprint.pdf">"DBpedia - A crystallization point for the Web of Data"</a>. <i>Web Semantics: Science, Services and Agents on the World Wide Web</i> <b>7</b> (3): 154–165. <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/1570-8268">1570-8268</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/research/publications/Bizer-etal-DBpedia-CrystallizationPoint-JWS-Preprint.pdf">http://www.wiwiss.fu-berlin.de/en/institute/pwo/bizer/research/publications/Bizer-etal-DBpedia-CrystallizationPoint-JWS-Preprint.pdf</a></span>.</span></span></li>
+<li id="cite_note-LinkedData3Sat-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-LinkedData3Sat_3-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.3sat.de/dynamic/sitegen/bin/sitegen.php?tab=2&source=/neues/sendungen/magazin/135119/index.html">"Komplett verlinkt - Linked Data"</a> (in German). <a href="3sat" title="3sat">3sat</a>. 2009-06-19<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.3sat.de/dynamic/sitegen/bin/sitegen.php?tab=2&source=/neues/sendungen/magazin/135119/index.html">http://www.3sat.de/dynamic/sitegen/bin/sitegen.php?tab=2&amp;source=/neues/sendungen/magazin/135119/index.html</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>.</span></span></li>
+<li id="cite_note-Berners-LeeTalis-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Berners-LeeTalis_4-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://talis-podcasts.s3.amazonaws.com/twt20080207_TimBL.html">"Sir Tim Berners-Lee Talks with Talis about the Semantic Web"</a>. Talis. 7 February 2008<span class="printonly">. <a rel="nofollow" class="external free" href="http://talis-podcasts.s3.amazonaws.com/twt20080207_TimBL.html">http://talis-podcasts.s3.amazonaws.com/twt20080207_TimBL.html</a></span>.</span></span></li>
+<li id="cite_note-DBpediaTeam-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-DBpediaTeam_5-0">^</a></b></span> <span class="reference-text"><span class="citation">, <a rel="nofollow" class="external free" href="http://wiki.dbpedia.org/Team">http://wiki.dbpedia.org/Team</a><span class="reference-accessdate">, retrieved 2009-11-23</span></span></span></li>
+<li id="cite_note-DBpediaDatasets-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-DBpediaDatasets_6-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://wiki.dbpedia.org/Datasets#h18-3">"DBpedia dataset"</a>. DBpedia<span class="printonly">. <a rel="nofollow" class="external free" href="http://wiki.dbpedia.org/Datasets#h18-3">http://wiki.dbpedia.org/Datasets#h18-3</a></span><span class="reference-accessdate">. Retrieved 2008-09-26</span>.</span></span></li>
+<li id="cite_note-DBpediaMappings-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-DBpediaMappings_7-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://mappings.dbpedia.org/index.php/Main_Page">"DBpedia Mappings"</a>. mappings.dbpedia.org<span class="printonly">. <a rel="nofollow" class="external free" href="http://mappings.dbpedia.org/index.php/Main_Page">http://mappings.dbpedia.org/index.php/Main_Page</a></span><span class="reference-accessdate">. Retrieved 2010-04-03</span>.</span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">E. Curry, A. Freitas, and S. O’Riáin, <a rel="nofollow" class="external text" href="http://3roundstones.com/led_book/led-curry-et-al.html">"The Role of Community-Driven Data Curation for Enterprises,"</a> in Linking Enterprise Data, D. Wood, Ed. Boston, MA: Springer US, 2010, pp. 25-47.</span></li>
+<li id="cite_note-W3LinkStatistics-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-W3LinkStatistics_9-0">^</a></b></span> <span class="reference-text"><span class="citation"><a rel="nofollow" class="external text" href="http://esw.w3.org/topic/TaskForces/CommunityProjects/LinkingOpenData/DataSets/LinkStatistics">"Statistics on links between Data sets"</a>, <i>SWEO Community Project: Linking Open Data on the Semantic Web</i> (W3C)<span class="printonly">, <a rel="nofollow" class="external free" href="http://esw.w3.org/topic/TaskForces/CommunityProjects/LinkingOpenData/DataSets/LinkStatistics">http://esw.w3.org/topic/TaskForces/CommunityProjects/LinkingOpenData/DataSets/LinkStatistics</a></span><span class="reference-accessdate">, retrieved 2009-11-24</span></span></span></li>
+<li id="cite_note-W3Statistics-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-W3Statistics_10-0">^</a></b></span> <span class="reference-text"><span class="citation"><a rel="nofollow" class="external text" href="http://esw.w3.org/topic/TaskForces/CommunityProjects/LinkingOpenData/DataSets/Statistics">"Statistics on Data sets"</a>, <i>SWEO Community Project: Linking Open Data on the Semantic Web</i> (W3C)<span class="printonly">, <a rel="nofollow" class="external free" href="http://esw.w3.org/topic/TaskForces/CommunityProjects/LinkingOpenData/DataSets/Statistics">http://esw.w3.org/topic/TaskForces/CommunityProjects/LinkingOpenData/DataSets/Statistics</a></span><span class="reference-accessdate">, retrieved 2009-11-24</span></span></span></li>
+<li id="cite_note-NYTimesLinkedData-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-NYTimesLinkedData_11-0">^</a></b></span> <span class="reference-text"><span class="citation news"><a rel="nofollow" class="external text" href="http://open.blogs.nytimes.com/2009/10/29/first-5000-tags-released-to-the-linked-data-cloud/">"First 5,000 Tags Released to the Linked Data Cloud"</a>. open.blogs.nytimes.com. 2009-10-29<span class="printonly">. <a rel="nofollow" class="external free" href="http://open.blogs.nytimes.com/2009/10/29/first-5000-tags-released-to-the-linked-data-cloud/">http://open.blogs.nytimes.com/2009/10/29/first-5000-tags-released-to-the-linked-data-cloud/</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>.</span></span></li>
+<li id="cite_note-OpenCalaisLinkedData-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-OpenCalaisLinkedData_12-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.opencalais.com/node/9501">"Life in the Linked Data Cloud"</a>. www.opencalais.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.opencalais.com/node/9501">http://www.opencalais.com/node/9501</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>. "Wikipedia has a Linked Data twin called DBpedia. DBpedia has the same structured information as Wikipedia – but translated into a machine-readable format."</span></span></li>
+<li id="cite_note-ZDNetLinkedData-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-ZDNetLinkedData_13-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://blogs.zdnet.com/semantic-web/?p=243">"Zemanta talks Linked Data with SDK and commercial API"</a>. blogs.zdnet.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://blogs.zdnet.com/semantic-web/?p=243">http://blogs.zdnet.com/semantic-web/?p=243</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>. "Zemanta fully supports the Linking Open Data initiative. It is the first API that returns disambiguated entities linked to dbPedia, Freebase, MusicBrainz, and Semantic Crunchbase."</span></span></li>
+<li id="cite_note-ESWC2009-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-ESWC2009_14-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.eswc2009.org/program-menu/accepted-in-use-track-papers/134-georgi-kobilarov-tom-scott-yves-raimond-silver-oliver-chris-sizemore-michael-smethurst-christian-bizer-and-robert-lee-media-meets-semantic-web-how-the-bbc-uses-dbpedia-and-linked-data-to-make-connections">"European Semantic Web Conference 2009 - Georgi Kobilarov, Tom Scott, Yves Raimond, Silver Oliver, Chris Sizemore, Michael Smethurst, Christian Bizer and Robert Lee. Media meets Semantic Web - How the BBC uses DBpedia and Linked Data to make Connections"</a>. www.eswc2009.org<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.eswc2009.org/program-menu/accepted-in-use-track-papers/134-georgi-kobilarov-tom-scott-yves-raimond-silver-oliver-chris-sizemore-michael-smethurst-christian-bizer-and-robert-lee-media-meets-semantic-web-how-the-bbc-uses-dbpedia-and-linked-data-to-make-connections">http://www.eswc2009.org/program-menu/accepted-in-use-track-papers/134-georgi-kobilarov-tom-scott-yves-raimond-silver-oliver-chris-sizemore-michael-smethurst-christian-bizer-and-robert-lee-media-meets-semantic-web-how-the-bbc-uses-dbpedia-and-linked-data-to-make-connections</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>.</span></span></li>
+<li id="cite_note-BackstageBBC-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-BackstageBBC_15-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://backstage.bbc.co.uk/openlab/reference.php">"BBC Learning - Open Lab - Reference"</a>. bbc.co.uk<span class="printonly">. <a rel="nofollow" class="external free" href="http://backstage.bbc.co.uk/openlab/reference.php">http://backstage.bbc.co.uk/openlab/reference.php</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>. "Dbpedia is a database version of Wikipedia. It's used in a lot of projects for a wide range of different reasons. At the BBC we are using it for tagging content."</span></span></li>
+<li id="cite_note-RWWFaviki-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-RWWFaviki_16-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.readwriteweb.com/archives/semantic_tagging_with_faviki.php">"Semantic Tagging with Faviki"</a>. www.readwriteweb.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.readwriteweb.com/archives/semantic_tagging_with_faviki.php">http://www.readwriteweb.com/archives/semantic_tagging_with_faviki.php</a></span>.</span></span></li>
+<li id="cite_note-AmazonDBpedia-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-AmazonDBpedia_17-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://developer.amazonwebservices.com/connect/entry.jspa?externalID=2319&categoryID=249">"Amazon Web Services Developer Community&#160;: DBpedia"</a>. developer.amazonwebservices.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://developer.amazonwebservices.com/connect/entry.jspa?externalID=2319&categoryID=249">http://developer.amazonwebservices.com/connect/entry.jspa?externalID=2319&amp;categoryID=249</a></span><span class="reference-accessdate">. Retrieved 2009-11-10</span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=DBpedia&action=edit&section=7.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><span class="official website"><a rel="nofollow" class="external text" href="http://dbpedia.org/">Official website</a></span></li>
+<li><a rel="nofollow" class="external text" href="http://www.ted.com/talks/lang/eng/tim_berners_lee_on_the_next_web.html">TED Talks video</a> <small>(<a href="Flash_video" title="Flash video" class="mw-redirect">flash video</a>)</small> about the semantic web by <a href="Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a>, presenting DBpedia as an example, at <a href="TED_(conference)" title="TED (conference)">TED</a></li>
+<li><a class="external text" href="http://wikimania2009.wikimedia.org/wiki/Proceedings:174">DBpedia - Extracting structured data from Wikipedia</a> and <a class="external text" href="http://wikimania2009.wikimedia.org/wiki/Proceedings:178">LinkedGeodata</a>, <a href="Wikimania_2009" title="Wikimania 2009" class="mw-redirect">Wikimania 2009</a> talks about the DBpedia project.</li>
+<li><a rel="nofollow" class="external text" href="http://lists.w3.org/Archives/Public/www-archive/2007May/att-0056/WWW2007-DBpedia-Talk.pdf">DBpedia: Querying Wikipedia like a Database</a> - Chris Bizer, World Wide Web Conference Developers Track, 11 May 2007</li>
+<li><a rel="nofollow" class="external text" href="http://esw.w3.org/topic/SweoIG/TaskForces/CommunityProjects/LinkingOpenData">W3C SWEO Linking Open Data Community Project</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Semantic_Web" title="Template:Semantic Web"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Semantic_Web" title="Template talk:Semantic Web"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Semantic_Web&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Semantic_Web" title="Semantic Web">Semantic Web</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Background</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Database" title="Database">Databases</a></li>
+<li><a href="Hypertext" title="Hypertext">Hypertext</a></li>
+<li><a href="Internet" title="Internet">Internet</a></li>
+<li><a href="Ontology_(information_science)" title="Ontology (information science)">Ontologies</a></li>
+<li><a href="Semantic_network" title="Semantic network">Semantic networks</a></li>
+<li><a href="World_Wide_Web" title="World Wide Web">World Wide Web</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Sub-topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Data_Web" title="Data Web">Data Web</a></li>
+<li><a href="Dataspaces" title="Dataspaces">Dataspaces</a></li>
+<li><a href="Dereferenceable_Uniform_Resource_Identifier" title="Dereferenceable Uniform Resource Identifier">Dereferenceable URIs</a></li>
+<li><a href="Hyperdata" title="Hyperdata">Hyperdata</a></li>
+<li><a href="Linked_data" title="Linked data">Linked data</a></li>
+<li><a href="Rule-based_system" title="Rule-based system">Rule-based systems</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Applications</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Semantic_advertising" title="Semantic advertising">Semantic advertising</a></li>
+<li><a href="Semantic_analytics" title="Semantic analytics">Semantic analytics</a></li>
+<li><a href="Semantic_broker" title="Semantic broker">Semantic broker</a></li>
+<li><a href="Semantic_computing" title="Semantic computing">Semantic computing</a></li>
+<li><a href="Semantic_mapper" title="Semantic mapper">Semantic mapper</a></li>
+<li><a href="Semantic_matching" title="Semantic matching">Semantic matching</a></li>
+<li><a href="Semantic_publishing" title="Semantic publishing">Semantic publishing</a></li>
+<li><a href="Semantic_reasoner" title="Semantic reasoner">Semantic reasoner</a></li>
+<li><a href="Semantic_search" title="Semantic search">Semantic search</a></li>
+<li><a href="Semantic_service-oriented_architecture" title="Semantic service-oriented architecture">Semantic service-oriented architecture</a></li>
+<li><a href="Semantic_wiki" title="Semantic wiki">Semantic wiki</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Related topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Collective_intelligence" title="Collective intelligence">Collective intelligence</a></li>
+<li><a href="Description_logic" title="Description logic">Description logic</a></li>
+<li><a href="Folksonomy" title="Folksonomy">Folksonomy</a></li>
+<li><a href="Geotagging" title="Geotagging">Geotagging</a></li>
+<li><a href="Information_architecture" title="Information architecture">Information architecture</a></li>
+<li><a href="Knowledge_extraction" title="Knowledge extraction">Knowledge extraction</a></li>
+<li><a href="Knowledge_management" title="Knowledge management">Knowledge management</a></li>
+<li><a href="../Library_2.0" title="Library 2.0">Library 2.0</a></li>
+<li><a href="Metadata" title="Metadata">Metadata</a></li>
+<li><a href="Mind_map" title="Mind map">Mind mapping</a></li>
+<li><a href="ODBC" title="ODBC">ODBC</a></li>
+<li><a href="Reference_(computer_science)" title="Reference (computer science)">References</a></li>
+<li><a href="Topic_Maps" title="Topic Maps">Topic Maps</a></li>
+<li><a href="../Web_2.0" title="Web 2.0">Web 2.0</a></li>
+<li><a href="Web_Science_Trust" title="Web Science Trust">Web Science Trust</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standards</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Syntax and supporting technologies</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a></li>
+<li><a href="Resource_Description_Framework" title="Resource Description Framework">RDF</a>
+<ul>
+<li><small><a href="RDF/XML" title="RDF/XML">RDF/XML</a></small></li>
+<li><small><a href="Notation3" title="Notation3">Notation3</a></small></li>
+<li><small><a href="Turtle_(syntax)" title="Turtle (syntax)">Turtle</a></small></li>
+<li><small><a href="N-Triples" title="N-Triples">N-Triples</a></small></li>
+</ul>
+</li>
+<li><a href="SPARQL" title="SPARQL">SPARQL</a></li>
+<li><a href="Uniform_resource_identifier" title="Uniform resource identifier">URI</a></li>
+<li><a href="XML" title="XML">XML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Schemas, ontologies and rules</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Common_logic" title="Common logic">Common logic</a></li>
+<li><a href="Web_Ontology_Language" title="Web Ontology Language">OWL</a></li>
+<li><a href="RDF_Schema" title="RDF Schema">RDFS</a></li>
+<li><a href="Rule_Interchange_Format" title="Rule Interchange Format">Rule Interchange Format</a></li>
+<li><a href="Semantic_Web_Rule_Language" title="Semantic Web Rule Language">Semantic Web Rule Language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Semantic annotation</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Embedded_RDF" title="Embedded RDF">eRDF</a></li>
+<li><a href="GRDDL" title="GRDDL">GRDDL</a></li>
+<li><a href="Microformat" title="Microformat">Microformats</a></li>
+<li><a href="RDFa" title="RDFa">RDFa</a></li>
+<li><a href="SAWSDL" title="SAWSDL">SAWSDL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Common vocabularies</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dublin_Core" title="Dublin Core">Dublin Core</a></li>
+<li><a href="FOAF_(software)" title="FOAF (software)">FOAF</a></li>
+<li><a href="Semantically-Interlinked_Online_Communities" title="Semantically-Interlinked Online Communities">SIOC</a></li>
+<li><a href="Simple_Knowledge_Organization_System" title="Simple Knowledge Organization System">SKOS</a></li>
+<li><a href="UMBEL" title="UMBEL">UMBEL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 12702/1000000
+Preprocessor generated node count: 60580/1500000
+Post-expand include size: 85113/2048000 bytes
+Template argument size: 37812/2048000 bytes
+Highest expansion depth: 20/40
+Expensive parser function count: 5/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:11865154-0!*!0!!en!4!* and timestamp 20130213205208 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=DBpedia&oldid=538103010.php.html">http://en.wikipedia.org/w/index.php?title=DBpedia&amp;oldid=538103010</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Free_software_culture_and_documents" title="Category:Free software culture and documents">Free software culture and documents</a></li><li><a href="Category_Open_access_(publishing)" title="Category:Open access (publishing)">Open access (publishing)</a></li><li><a href="Category_World_Wide_Web" title="Category:World Wide Web">World Wide Web</a></li><li><a href="Category_Semantic_Web" title="Category:Semantic Web">Semantic Web</a></li><li><a href="Category_Knowledge_bases" title="Category:Knowledge bases">Knowledge bases</a></li><li><a href="Category_History_of_Wikipedia" title="Category:History of Wikipedia">History of Wikipedia</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Use_dmy_dates_from_December_2012" title="Category:Use dmy dates from December 2012">Use dmy dates from December 2012</a></li><li><a href="Category_Articles_to_be_merged_from_May_2012" title="Category:Articles to be merged from May 2012">Articles to be merged from May 2012</a></li><li><a href="Category_All_articles_to_be_merged" title="Category:All articles to be merged">All articles to be merged</a></li><li><a href="Category_Articles_containing_potentially_dated_statements_from_September_2011" title="Category:Articles containing potentially dated statements from September 2011">Articles containing potentially dated statements from September 2011</a></li><li><a href="Category_All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="Category_Articles_containing_potentially_dated_statements_from_January_2011" title="Category:Articles containing potentially dated statements from January 2011">Articles containing potentially dated statements from January 2011</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=DBpedia&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=DBpedia.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_DBpedia"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=DBpedia&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=DBpedia&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/DBpedia" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/DBpedia" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=DBpedia&oldid=538103010.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=DBpedia&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=DBpedia&id=538103010.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=DBpedia.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=DBpedia&oldid=538103010&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=DBpedia&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%92%CE%B9%CE%BA%CE%B9%CF%80%CE%B1%CE%AF%CE%B4%CE%B5%CE%B9%CE%B1:DBpedia" title="Βικιπαίδεια:DBpedia" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/DBpedia" title="DBpedia" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="wbc-editpage"><a href="http://wikidata.org/wiki/Special:ItemByTitle/enwiki/DBpedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 20:52.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/DBpedia" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1094 in 0.127 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

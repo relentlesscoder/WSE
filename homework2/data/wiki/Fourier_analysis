@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Fourier analysis - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Fourier_analysis&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Fourier_analysis&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Fourier_analysis","wgTitle":"Fourier analysis","wgCurRevisionId":535781309,"wgArticleId":11659,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from April 2012","Articles to be expanded from January 2008","All articles to be expanded","Articles needing additional references from September 2008","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from April 2009","Fourier analysis","Integral transforms","Digital signal processing","Mathematical physics","Mathematics of computing","Time series analysis","Joseph Fourier"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Fourier_analysis","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"6b5d5dd96af85dd83ae4cfc90333ac0b","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":11659,"title":"Fourier analysis","namespace":0,"categories":["All articles needing additional references","All articles to be expanded","All articles with unsourced statements","Articles needing additional references from September 2008","Articles to be expanded from January 2008","Articles with unsourced statements from April 2009","Digital signal processing","Fourier analysis","Integral transforms","Joseph Fourier","Mathematical physics","Mathematics of computing","Time series analysis","Use dmy dates from April 2012"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Fourier_analysis skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Fourier analysis</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox">
+<tr>
+<th style="background:#ccccff"><a href="Fourier_transform" title="Fourier transform">Fourier transforms</a></th>
+</tr>
+<tr>
+<td><a href="Fourier_transform" title="Fourier transform">Continuous Fourier transform</a></td>
+</tr>
+<tr>
+<td><a href="Fourier_series" title="Fourier series">Fourier series</a></td>
+</tr>
+<tr>
+<td><a href="Discrete-time_Fourier_transform" title="Discrete-time Fourier transform">Discrete-time Fourier transform</a></td>
+</tr>
+<tr>
+<td><a href="Discrete_Fourier_transform" title="Discrete Fourier transform">Discrete Fourier transform</a></td>
+</tr>
+<tr align="right">
+<td>
+<center><small><a href="index.html" title="Fourier Analysis" class="mw-redirect">Fourier Analysis</a></small></center>
+</td>
+</tr>
+<tr>
+<td>
+<center><small><a href="List_of_Fourier-related_transforms" title="List of Fourier-related transforms">Related transforms</a></small></center>
+</td>
+</tr>
+</table>
+<p>In mathematics, <b>Fourier analysis</b> is the study of the way general <a href="Function_(mathematics)" title="Function (mathematics)">functions</a> may be represented or approximated by sums of simpler <a href="Trigonometric_functions" title="Trigonometric functions">trigonometric functions</a>. Fourier analysis grew from the study of <a href="Fourier_series" title="Fourier series">Fourier series</a>, and is named after <a href="Joseph_Fourier" title="Joseph Fourier">Joseph Fourier</a>, who showed that representing a function as a sum of trigonometric functions greatly simplifies the study of heat propagation.</p>
+<p>Today, the subject of Fourier analysis encompasses a vast spectrum of mathematics. In the sciences and engineering, the process of decomposing a function into simpler pieces is often called Fourier analysis, while the operation of rebuilding the function from these pieces is known as <b>Fourier synthesis</b>. In mathematics, the term <i>Fourier analysis</i> often refers to the study of both operations.</p>
+<p>The decomposition process itself is called a <a href="Fourier_transform" title="Fourier transform">Fourier transform</a>. The transform is often given a more specific name which depends upon the domain and other properties of the function being transformed. Moreover, the original concept of Fourier analysis has been extended over time to apply to more and more abstract and general situations, and the general field is often known as <a href="Harmonic_analysis" title="Harmonic analysis">harmonic analysis</a>. Each <a href="Transform_(mathematics)" title="Transform (mathematics)" class="mw-redirect">transform</a> used for analysis (see <a href="List_of_Fourier-related_transforms" title="List of Fourier-related transforms">list of Fourier-related transforms</a>) has a corresponding <a href="Inverse_function" title="Inverse function">inverse</a> transform that can be used for synthesis.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Applications"><span class="tocnumber">1</span> <span class="toctext">Applications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Applications_in_signal_processing"><span class="tocnumber">1.1</span> <span class="toctext">Applications in signal processing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#Variants_of_Fourier_analysis"><span class="tocnumber">2</span> <span class="toctext">Variants of Fourier analysis</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#.28Continuous.29_Fourier_transform"><span class="tocnumber">2.1</span> <span class="toctext">(Continuous) Fourier transform</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Fourier_series"><span class="tocnumber">2.2</span> <span class="toctext">Fourier series</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Discrete-time_Fourier_transform_.28DTFT.29"><span class="tocnumber">2.3</span> <span class="toctext">Discrete-time Fourier transform (DTFT)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Discrete_Fourier_transform_.28DFT.29"><span class="tocnumber">2.4</span> <span class="toctext">Discrete Fourier transform (DFT)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Summary"><span class="tocnumber">2.5</span> <span class="toctext">Summary</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Fourier_transforms_on_arbitrary_locally_compact_abelian_topological_groups"><span class="tocnumber">2.6</span> <span class="toctext">Fourier transforms on arbitrary locally compact abelian topological groups</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Time.E2.80.93frequency_transforms"><span class="tocnumber">2.7</span> <span class="toctext">Time–frequency transforms</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#History"><span class="tocnumber">3</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Interpretation_in_terms_of_time_and_frequency"><span class="tocnumber">4</span> <span class="toctext">Interpretation in terms of time and frequency</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Citations"><span class="tocnumber">7</span> <span class="toctext">Citations</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=1.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h2>
+<table class="metadata plainlinks ambox mbox-small-left ambox-content" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Wiki_letter_w_cropped.svg" class="image"><img alt="[icon]" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-Wiki_letter_w_cropped.svg.png" width="20" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/30px-Wiki_letter_w_cropped.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/40px-Wiki_letter_w_cropped.svg.png 2x" /></a></td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section requires <a class="external text" href="../../w/index-title=Fourier_analysis&action=edit.php.html">expansion</a>. <small><i>(January 2008)</i></small></span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>does not <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(September 2008)</i></small> </span></td>
+</tr>
+</table>
+<p>Fourier analysis has many scientific applications – in <a href="Physics" title="Physics">physics</a>, <a href="Partial_differential_equations" title="Partial differential equations" class="mw-redirect">partial differential equations</a>, <a href="Number_theory" title="Number theory">number theory</a>, <a href="Combinatorics" title="Combinatorics">combinatorics</a>, <a href="Signal_processing" title="Signal processing">signal processing</a>, imaging, <a href="Probability_theory" title="Probability theory">probability theory</a>, <a href="Statistics" title="Statistics">statistics</a>, <a href="Option_pricing" title="Option pricing" class="mw-redirect">option pricing</a>, <a href="Cryptography" title="Cryptography">cryptography</a>, <a href="Numerical_analysis" title="Numerical analysis">numerical analysis</a>, <a href="Acoustics" title="Acoustics">acoustics</a>, <a href="Oceanography" title="Oceanography">oceanography</a>, <a href="Sonar" title="Sonar">sonar</a>, <a href="Optics" title="Optics">optics</a>, <a href="Diffraction" title="Diffraction">diffraction</a>, <a href="Geometry" title="Geometry">geometry</a>, <a href="Protein" title="Protein">protein</a> structure analysis and other areas.</p>
+<p>This wide applicability stems from many useful properties of the transforms<b>:</b></p>
+<ul>
+<li>The transforms are <a href="Linear_operator" title="Linear operator" class="mw-redirect">linear operators</a> and, with proper normalization, are <a href="Unitary_operator" title="Unitary operator">unitary</a> as well (a property known as <a href="Parseval's_theorem" title="Parseval's theorem">Parseval's theorem</a> or, more generally, as the <a href="Plancherel_theorem" title="Plancherel theorem">Plancherel theorem</a>, and most generally via <a href="Pontryagin_duality" title="Pontryagin duality">Pontryagin duality</a>) (<a href="#CITEREFRudin1990">Rudin 1990</a>).</li>
+<li>The transforms are usually invertible.</li>
+<li>The exponential functions are <a href="Eigenfunctions" title="Eigenfunctions" class="mw-redirect">eigenfunctions</a> of <a href="Derivative" title="Derivative">differentiation</a>, which means that this representation transforms linear <a href="Differential_equation" title="Differential equation">differential equations</a> with <a href="Constant_coefficients" title="Constant coefficients">constant coefficients</a> into ordinary algebraic ones (<a href="#CITEREFEvans1998">Evans 1998</a>). Therefore, the behavior of a <a href="LTI_system" title="LTI system" class="mw-redirect">linear time-invariant system</a> can be analyzed at each frequency independently.</li>
+<li>By the <a href="Convolution_theorem" title="Convolution theorem">convolution theorem</a>, Fourier transforms turn the complicated <a href="Convolution" title="Convolution">convolution</a> operation into simple multiplication, which means that they provide an efficient way to compute convolution-based operations such as <a href="Polynomial" title="Polynomial">polynomial</a> multiplication and <a href="Multiplication_algorithm#Fourier_transform_methods" title="Multiplication algorithm">multiplying large numbers</a> (<a href="#CITEREFKnuth1997">Knuth 1997</a>).</li>
+<li>The <a href="Discrete_Fourier_transform" title="Discrete Fourier transform">discrete</a> version of the Fourier transform (see below) can be evaluated quickly on computers using <a href="Fast_Fourier_Transform" title="Fast Fourier Transform" class="mw-redirect">Fast Fourier Transform</a> (FFT) algorithms. (<a href="#CITEREFContede_Boor1980">Conte &amp; de Boor 1980</a>)</li>
+</ul>
+<p>Fourier transformation is also useful as a compact representation of a signal. For example, <a href="JPEG" title="JPEG">JPEG</a> compression uses a variant of the Fourier transformation (<a href="Discrete_cosine_transform" title="Discrete cosine transform">discrete cosine transform</a>) of small square pieces of a digital image. The Fourier components of each square are rounded to lower <a href="Precision_(arithmetic)" title="Precision (arithmetic)" class="mw-redirect">arithmetic precision</a>, and weak components are eliminated entirely, so that the remaining components can be stored very compactly. In image reconstruction, each image square is reassembled from the preserved approximate Fourier-transformed components, which are then inverse-transformed to produce an approximation of the original image.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=2.php.html" title="Edit section: Applications in signal processing">edit</a>]</span> <span class="mw-headline" id="Applications_in_signal_processing">Applications in signal processing</span></h3>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>does not <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(September 2008)</i></small> </span></td>
+</tr>
+</table>
+<p>When processing signals, such as <a href="Sound" title="Sound">audio</a>, <a href="Radio_wave" title="Radio wave" class="mw-redirect">radio waves</a>, light waves, <a href="Seismic_waves" title="Seismic waves" class="mw-redirect">seismic waves</a>, and even images, Fourier analysis can isolate individual components of a compound waveform, concentrating them for easier detection and/or removal. A large family of signal processing techniques consist of Fourier-transforming a signal, manipulating the Fourier-transformed data in a simple way, and reversing the transformation.</p>
+<p>Some examples include:</p>
+<ul>
+<li><a href="Equalization" title="Equalization">Equalization</a> of audio recordings with a series of <a href="Bandpass_filter" title="Bandpass filter" class="mw-redirect">bandpass filters</a>;</li>
+<li>Digital radio reception with no <a href="Superheterodyne" title="Superheterodyne" class="mw-redirect">superheterodyne</a> circuit, as in a modern cell phone or <a href="Radio_scanner" title="Radio scanner" class="mw-redirect">radio scanner</a>;</li>
+<li><a href="Image_processing" title="Image processing">Image processing</a> to remove periodic or <a href="Anisotropic" title="Anisotropic" class="mw-redirect">anisotropic</a> artifacts such as <a href="Jaggies" title="Jaggies">jaggies</a> from interlaced video, stripe artifacts from <a href="Strip_aerial_photography" title="Strip aerial photography">strip aerial photography</a>, or wave patterns from <a href="Radio_frequency_interference" title="Radio frequency interference" class="mw-redirect">radio frequency interference</a> in a digital camera;</li>
+<li><a href="Cross_correlation" title="Cross correlation" class="mw-redirect">Cross correlation</a> of similar images for <a href="../../w/index-title=Co-alignment&action=edit&redlink=1.php.html" class="new" title="Co-alignment (page does not exist)">co-alignment</a>;</li>
+<li><a href="X-ray_crystallography" title="X-ray crystallography">X-ray crystallography</a> to reconstruct a crystal structure from its diffraction pattern;</li>
+<li><a href="Fourier_transform_ion_cyclotron_resonance" title="Fourier transform ion cyclotron resonance">Fourier transform ion cyclotron resonance</a> mass spectrometry to determine the mass of ions from the frequency of cyclotron motion in a magnetic field.</li>
+<li>Many other forms of spectroscopy also rely upon Fourier Transforms to determine the three-dimensional structure and/or identity of the sample being analyzed, including Infrared and Nuclear Magnetic Resonance spectroscopies.</li>
+<li>Generation of sound <a href="Spectrogram" title="Spectrogram">spectrograms</a> used to analyze sounds.</li>
+<li>Passive <a href="Sonar" title="Sonar">sonar</a> used to classify targets based on machinery noise.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=3.php.html" title="Edit section: Variants of Fourier analysis">edit</a>]</span> <span class="mw-headline" id="Variants_of_Fourier_analysis">Variants of Fourier analysis</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:402px;"><a href="http://en.wikipedia.org/wiki/File:Variations_of_the_Fourier_transform.tif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Variations_of_the_Fourier_transform.tif/lossless-page1-400px-Variations_of_the_Fourier_transform.tif.png" width="400" height="350" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Variations_of_the_Fourier_transform.tif/lossless-page1-600px-Variations_of_the_Fourier_transform.tif.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Variations_of_the_Fourier_transform.tif/lossless-page1-800px-Variations_of_the_Fourier_transform.tif.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Variations_of_the_Fourier_transform.tif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Illustration of using <a href="Dirac_comb" title="Dirac comb">Dirac comb</a> functions and the <a href="Convolution_theorem" title="Convolution theorem">convolution theorem</a> to model the effects of sampling and/or <a href="Periodic_summation" title="Periodic summation">periodic summation</a>. At lower left is a <a href="Discrete-time_Fourier_transform" title="Discrete-time Fourier transform">DTFT</a>, the spectral result of sampling s(t) at intervals of T. The spectral sequences at (a) upper right and (b) lower right are respectively computed from (a) one cycle of the periodic summation of s(t) and (b) one cycle of the periodic summation of the s(nT) sequence. The respective formulas are (a) the <a href="Fourier_series" title="Fourier series">Fourier series</a> <u>integral</u> and (b) the <a href="Discrete_Fourier_transform" title="Discrete Fourier transform">DFT</a> <u>summation</u>. The relative computational ease of the DFT sequence and the insight it provides into S(f) make it a popular analysis tool.</div>
+</div>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=4.php.html" title="Edit section: (Continuous) Fourier transform">edit</a>]</span> <span class="mw-headline" id=".28Continuous.29_Fourier_transform">(Continuous) Fourier transform</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Fourier_Transform" title="Fourier Transform" class="mw-redirect">Fourier Transform</a></div>
+<p>Most often, the unqualified term <b>Fourier transform</b> refers to the transform of functions of a continuous <a href="Real_number" title="Real number">real</a> argument, and it produces a continuous function of frequency, known as a <i>frequency distribution</i>. One function is transformed into another, and the operation is reversible. When the domain of the input (initial) function is time (<i>t</i>), and the domain of the output (final) function is <a href="Frequency" title="Frequency">ordinary frequency</a>, the transform of function <i>s</i>(<i>t</i>) at frequency <i>ƒ</i> is given by the complex number<b>:</b></p>
+<dl>
+<dd><img class="tex" alt="S(f) = \int_{-\infty}^{\infty} s(t) \cdot e^{- i 2\pi f t} dt." src="http://upload.wikimedia.org/math/6/d/e/6deb703001eb6e6ed0ad032d0a03c482.png" /></dd>
+</dl>
+<p>Evaluating this quantity for all values of <i>ƒ</i> produces the <i>frequency-domain</i> function. Then <i>s</i>(<i>t</i>) can be represented as a recombination of <a href="Complex_exponentials" title="Complex exponentials" class="mw-redirect">complex exponentials</a> of all possible frequencies<b>:</b></p>
+<dl>
+<dd><img class="tex" alt="s(t) = \int_{-\infty}^{\infty} S(f) \cdot e^{i 2\pi f t} df," src="http://upload.wikimedia.org/math/d/d/a/dda2ece1b2052448e74c384e88fb52c5.png" /></dd>
+</dl>
+<p>which is the inverse transform formula. The complex number, <i>S</i>(<i>ƒ</i>), conveys both amplitude and phase of frequency <i>ƒ</i>.</p>
+<p>See <a href="Fourier_transform" title="Fourier transform">Fourier transform</a> for much more information, including<b>:</b></p>
+<ul>
+<li>conventions for amplitude normalization and frequency scaling/units</li>
+<li>transform properties</li>
+<li>tabulated transforms of specific functions</li>
+<li>an extension/generalization for functions of multiple dimensions, such as images.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=5.php.html" title="Edit section: Fourier series">edit</a>]</span> <span class="mw-headline" id="Fourier_series">Fourier series</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Fourier_series" title="Fourier series">Fourier series</a></div>
+<p>The Fourier transform of a periodic function, <i>s</i><sub><i>P</i></sub>(<i>t</i>), with period <i>P</i>, becomes a <a href="Dirac_comb" title="Dirac comb">Dirac comb</a> function, modulated by a sequence of complex <a href="Coefficients" title="Coefficients" class="mw-redirect">coefficients</a><b>:</b></p>
+<dl>
+<dd><img class="tex" alt="S[k] = \frac{1}{P}\int_{P} s_P(t)\cdot e^{-i 2\pi \frac{k}{P} t}\, dt" src="http://upload.wikimedia.org/math/e/5/0/e502ff216c46ef0aeb19dcd458950a3f.png" /> &#160; &#160; for all integer values of <i>k</i>,</dd>
+</dl>
+<p>and where <img class="tex" alt="\scriptstyle \int_P" src="http://upload.wikimedia.org/math/6/5/a/65a2bad7e252df4bf5a9dc0495b928a4.png" />&#160; is the integral over any interval of length <i>P</i>.</p>
+<p>The inverse transform, known as <b>Fourier series</b>, is a representation of <i>s</i><sub><i>P</i></sub>(<i>t</i>) in terms of a summation of a potentially infinite number of harmonically related sinusoids or <a href="Complex_exponentials" title="Complex exponentials" class="mw-redirect">complex exponential</a> functions, each with an amplitude and phase specified by one of the coefficients<b>:</b></p>
+<dl>
+<dd><img class="tex" alt="s_P(t)=\sum_{k=-\infty}^\infty S[k]\cdot e^{i 2\pi \frac{k}{P} t} \quad\stackrel{\mathcal{F}}{\Longleftrightarrow}\quad \sum_{k=-\infty}^{+\infty} S[k]\ \delta \left(f-\frac{k}{P}\right)." src="http://upload.wikimedia.org/math/2/a/3/2a327002f224c81f2056bcdbd90b0314.png" /></dd>
+</dl>
+<p>When <i>s</i><sub><i>P</i></sub>(<i>t</i>), is expressed as a <a href="Periodic_summation" title="Periodic summation">periodic summation</a> of another function, <i>s</i>(<i>t</i>)<b>:</b> &#160;&#160;<img class="tex" alt="s_P(t)\ \stackrel{\text{def}}{=}\ \sum_{k=-\infty}^{\infty} s(t-kP)," src="http://upload.wikimedia.org/math/f/0/5/f055b2b851a2e5042f7aaa0e3b92f629.png" /></p>
+<p>the coefficients are proportional to samples of <i>S</i>(<i>ƒ</i>) at discrete intervals of <b>1/P:</b> &#160;&#160;<img class="tex" alt="S[k] =\frac{1}{P}\cdot S\left(\frac{k}{P}\right).\," src="http://upload.wikimedia.org/math/d/3/7/d37bad0a4f4ea630575a8f45a8859825.png" /><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>note 1<span>]</span></a></sup></p>
+<p>A sufficient condition for recovering <i>s</i>(<i>t</i>) (and therefore <i>S</i>(<i>ƒ</i>)) from just these samples is that the non-zero portion of <i>s</i>(<i>t</i>) be confined to a known interval of duration <i>P</i>, which is the frequency domain dual of the <a href="Nyquist%E2%80%93Shannon_sampling_theorem" title="Nyquist–Shannon sampling theorem">Nyquist–Shannon sampling theorem</a>.</p>
+<p>See <a href="Fourier_series" title="Fourier series">Fourier series</a> for more information, including the historical development.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=6.php.html" title="Edit section: Discrete-time Fourier transform (DTFT)">edit</a>]</span> <span class="mw-headline" id="Discrete-time_Fourier_transform_.28DTFT.29">Discrete-time Fourier transform (DTFT)</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Discrete-time_Fourier_transform" title="Discrete-time Fourier transform">Discrete-time Fourier transform</a></div>
+<p>The DTFT is the mathematical dual of the time-domain Fourier series. Thus, a convergent <a href="Periodic_summation" title="Periodic summation">periodic summation</a> in the frequency domain can be represented by a Fourier series, whose coefficients are samples of a related continuous time function:</p>
+<dl>
+<dd><img class="tex" alt="S_{1/T}(f)\ \stackrel{\text{def}}{=}\ \underbrace{\sum_{k=-\infty}^{\infty} S\left(f - \frac{k}{T}\right) \equiv \overbrace{\sum_{n=-\infty}^{\infty} s[n] \cdot e^{-i 2\pi f n T}}^{\text{Fourier series (DTFT)}}}_{\text{Poisson summation formula}} = \mathcal{F} \left \{ \sum_{n=-\infty}^{\infty} s[n]\ \delta(t-nT)\right \},\," src="http://upload.wikimedia.org/math/0/a/6/0a6536280c46b8db04d00177c2f070cb.png" /></dd>
+</dl>
+<p>which is known as the DTFT. Thus the <b>DTFT</b> of the <i>s</i>[<i>n</i>] sequence is also the <b>Fourier transform</b> of the modulated <a href="Dirac_comb" title="Dirac comb">Dirac comb</a> function.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>note 2<span>]</span></a></sup></p>
+<p>The Fourier series coefficients, defined by:</p>
+<dl>
+<dd><img class="tex" alt="s[n]\ \stackrel{\mathrm{def}}{=} \ T \int_{1/T} S_{1/T}(f)\cdot e^{i 2\pi f nT} df = T \underbrace{\int_{-\infty}^{\infty} S(f)\cdot e^{i 2\pi f nT} df}_{\stackrel{\mathrm{def}}{=} \ s(nT)}\," src="http://upload.wikimedia.org/math/5/8/d/58d9a965cb298bfa8dd1e1470f0c2460.png" /></dd>
+</dl>
+<p>is the inverse transform. With <b>s[n] = T•s(nT)</b>, this Fourier series can now be recognized as a form of the <a href="Poisson_summation_formula" title="Poisson summation formula">Poisson summation formula</a>. Thus we have the important result that when a discrete data sequence, <i>s</i>[<i>n</i>], is proportional to samples of an underlying continuous function, <i>s</i>(<i>t</i>), one can observe a periodic summation of the continuous Fourier transform, <i>S</i>(<i>ƒ</i>). That is a cornerstone in the foundation of <a href="Digital_signal_processing" title="Digital signal processing">digital signal processing</a>. Furthermore, under certain idealized conditions one can theoretically recover <i>S</i>(<i>ƒ</i>) and <i>s</i>(<i>t</i>) exactly. A sufficient condition for perfect recovery is that the non-zero portion of <i>S</i>(<i>ƒ</i>) be confined to a known frequency interval of width <i>1/T</i>. When that interval is [-0.5/T, 0.5/T], the applicable reconstruction formula is the <a href="Whittaker%E2%80%93Shannon_interpolation_formula" title="Whittaker–Shannon interpolation formula">Whittaker–Shannon interpolation formula</a>.</p>
+<p>Another reason to be interested in <i>S</i><sub><i>1/T</i></sub>(<i>ƒ</i>) is that it often provides insight into the amount of <a href="Aliasing" title="Aliasing">aliasing</a> caused by the sampling process.</p>
+<p>Applications of the DTFT are not limited to sampled functions. See <a href="Discrete-time_Fourier_transform" title="Discrete-time Fourier transform">Discrete-time Fourier transform</a> for more information on this and other topics, including:</p>
+<ul>
+<li>normalized frequency units</li>
+<li>windowing (finite-length sequences)</li>
+<li>transform properties</li>
+<li>tabulated transforms of specific functions</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=7.php.html" title="Edit section: Discrete Fourier transform (DFT)">edit</a>]</span> <span class="mw-headline" id="Discrete_Fourier_transform_.28DFT.29">Discrete Fourier transform (DFT)</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Discrete_Fourier_transform" title="Discrete Fourier transform">Discrete Fourier transform</a></div>
+<p>The DTFT of a periodic sequence, <i>s</i><sub><i>N</i></sub>[<i>n</i>], with period <i>N</i>, becomes another <a href="Dirac_comb" title="Dirac comb">Dirac comb</a> function, modulated by the coefficients of a <b>Fourier series</b>.&#160; And the integral formula for the coefficients simplifies to a summation (see <a href="Discrete-time_Fourier_transform#Periodic_data" title="Discrete-time Fourier transform">DTFT/Periodic data</a>)<b>:</b></p>
+<dl>
+<dd><img class="tex" alt="S_N[k] =\frac{1}{NT} \underbrace{\sum_N s_N[n]\cdot e^{-i 2\pi \frac{k}{N} n}}_{S_k}\," src="http://upload.wikimedia.org/math/7/0/1/701f2a3f8d0d7577ea36ca77d85ab506.png" />, &#160; &#160; where <img class="tex" alt="\scriptstyle \sum_N" src="http://upload.wikimedia.org/math/b/c/0/bc00fccc3251131d0fb7ad556db447a4.png" />&#160; is the sum over any n-sequence of length <b>N</b>.</dd>
+</dl>
+<p>The <i>S</i><sub><i>k</i></sub> sequence is what's customarily known as the <b>DFT</b> of <i>s</i><sub><i>N</i></sub>. &#160;It is also N-periodic, so it is never necessary to compute more than N coefficients. &#160;In terms of <i>S</i><sub><i>k</i></sub>, the inverse transform is given by<b>:</b></p>
+<dl>
+<dd><img class="tex" alt="s_N[n] = \frac{1}{N} \sum_{N} S_k\cdot e^{i 2\pi \frac{n}{N}k},\," src="http://upload.wikimedia.org/math/5/b/a/5ba06b60191c1bacc2287502a11f5127.png" /> &#160; &#160; where <img class="tex" alt="\scriptstyle \sum_N" src="http://upload.wikimedia.org/math/b/c/0/bc00fccc3251131d0fb7ad556db447a4.png" />&#160; is the sum over any k-sequence of length <b>N</b>.</dd>
+</dl>
+<p>When <i>s</i><sub><i>N</i></sub>[<i>n</i>] is expressed as a <a href="Periodic_summation" title="Periodic summation">periodic summation</a> of another function<b>:</b> &#160;<img class="tex" alt="s_N[n]\ \stackrel{\text{def}}{=}\ \sum_{k=-\infty}^{\infty} s[n-kN]," src="http://upload.wikimedia.org/math/d/1/f/d1fa840ead4dcd40c9ab27d31bbfd54c.png" /> &#160; and &#160; <img class="tex" alt="s[n]\ \stackrel{\text{def}}{=}\ T\cdot s(nT),\," src="http://upload.wikimedia.org/math/b/f/4/bf4df0e9f3b54bd6ef585919e30e4a6c.png" /></p>
+<p>the coefficients are equivalent to samples of <i>S</i><sub>1/<i>T</i></sub>(<i>ƒ</i>) at discrete intervals of <b>1/P = 1/NT:</b> &#160;&#160;<img class="tex" alt="S_k = S_{1/T}(k/P).\," src="http://upload.wikimedia.org/math/d/d/a/dda61fb02b5ab7cfdfc610cbd8ff61b6.png" /> &#160; (see <a href="Discrete-time_Fourier_transform#Sampling_the_DTFT" title="Discrete-time Fourier transform">DTFT/Sampling the DTFT</a>)</p>
+<p>Conversely, when one wants to compute an arbitrary number (N) of discrete samples of one cycle of a continuous DTFT, &#160;<img class="tex" alt="S_{1/T}(f),\," src="http://upload.wikimedia.org/math/e/4/9/e49bd23eaa3dc50a16a7424d7e803335.png" />&#160; it can be done by computing the relatively simple DFT of <i>s</i><sub><i>N</i></sub>[<i>n</i>], as defined above. &#160;In most cases, <i>N</i> is chosen equal to the length of non-zero portion of <i>s</i>[<i>n</i>]. &#160;Increasing <i>N</i>, known as <i>zero-padding</i> or <i>interpolation</i>, results in more closely spaced samples of one cycle of &#160;<i>S</i><sub><i>1/T</i></sub>(<i>ƒ</i>). &#160;Decreasing <i>N</i>, causes overlap (adding) in the time-domain (analogous to <a href="Aliasing" title="Aliasing">aliasing</a>), which corresponds to decimation in the frequency domain. (see <a href="Discrete-time_Fourier_transform#Sampling_the_DTFT" title="Discrete-time Fourier transform">Sampling the DTFT</a>) In most cases of practical interest, the <i>s</i>[<i>n</i>] sequence represents a longer sequence that was truncated by the application of a finite-length <a href="Window_function" title="Window function">window function</a> or <a href="FIR_filter" title="FIR filter" class="mw-redirect">FIR filter</a> array.</p>
+<p>The DFT can be computed using a <a href="Fast_Fourier_transform" title="Fast Fourier transform">fast Fourier transform</a> (FFT) algorithm, which makes it a practical and important transformation on computers.</p>
+<p>See <a href="Discrete_Fourier_transform" title="Discrete Fourier transform">Discrete Fourier transform</a> for much more information, including<b>:</b></p>
+<ul>
+<li>transform properties</li>
+<li>applications</li>
+<li>tabulated transforms of specific functions</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=8.php.html" title="Edit section: Summary">edit</a>]</span> <span class="mw-headline" id="Summary">Summary</span></h3>
+<p>For periodic functions, both the Fourier transform and the DTFT comprise only a discrete set of frequency components (Fourier series), and the transforms diverge at those frequencies. One common practice (not discussed above) is to handle that divergence via <a href="Dirac_delta" title="Dirac delta" class="mw-redirect">Dirac delta</a> and <a href="Dirac_comb" title="Dirac comb">Dirac comb</a> functions. But the same spectral information can be discerned from just one cycle of the periodic function, since all the other cycles are identical. Similarly, finite-duration functions can be represented as a Fourier series, with no actual loss of information except that the periodicity of the inverse transform is a mere artifact. We also note that none of the formulas here require the duration of <img class="tex" alt="s\," src="http://upload.wikimedia.org/math/d/0/4/d0438646c1f482faffdd1bac9a841799.png" /> to be limited to the period, <b>P</b> or <b>N</b>. &#160;But that is a common situation, in practice.</p>
+<table class="wikitable" style="text-align:left">
+<caption><img class="tex" alt="s(t)\," src="http://upload.wikimedia.org/math/9/8/0/980c4ecdf45c9a0659ea9a425b556262.png" /> &#160;transforms (continuous-time)</caption>
+<tr>
+<th></th>
+<th>Continuous frequency</th>
+<th>Discrete frequencies</th>
+</tr>
+<tr>
+<th>Transform</th>
+<td><img class="tex" alt="S(f)\ \stackrel{\text{def}}{=}\ \int_{-\infty}^{\infty} s(t)\ e^{-i 2\pi f t}\,dt" src="http://upload.wikimedia.org/math/2/b/9/2b986c1cbdf2deb31759b38b16da7712.png" /></td>
+<td><img class="tex" alt="\underbrace{\frac{1}{P}\cdot S\left(\frac{k}{P}\right)}_{S[k]}\ \stackrel{\text{def}}{=}\ \frac{1}{P} \int_{-\infty}^{\infty} s(t)\ e^{-i 2\pi \frac{k}{P} t}\,dt \equiv \frac{1}{P} \int_P s_P(t)\ e^{-i 2\pi \frac{k}{P} t}\,dt " src="http://upload.wikimedia.org/math/a/6/6/a66a6196f3e4159a15121a87427a9596.png" /></td>
+</tr>
+<tr>
+<th>Inverse</th>
+<td><img class="tex" alt="s(t) = \int_{-\infty}^{\infty} S(f)\ e^{ i 2 \pi f t}\,df " src="http://upload.wikimedia.org/math/3/9/b/39bee85fe1296ecc60e93d1ffa8b5878.png" /></td>
+<td><img class="tex" alt="\underbrace{s_P(t) = \sum_{k=-\infty}^{\infty} S[k] \cdot e^{i 2\pi \frac{k}{P} t}}_{\text{Poisson summation formula (Fourier series)}}" src="http://upload.wikimedia.org/math/3/9/e/39e026ff285c6513d464e71192f144d9.png" /></td>
+</tr>
+</table>
+<table class="wikitable" style="text-align:left">
+<caption><img class="tex" alt="s[n]\," src="http://upload.wikimedia.org/math/4/8/c/48cb1a096b0cbfc8a463e57f72ca3c4f.png" /> &#160;transforms (discrete-time)</caption>
+<tr>
+<th></th>
+<th>Continuous frequency</th>
+<th>Discrete frequencies</th>
+</tr>
+<tr>
+<th>Transform</th>
+<td><img class="tex" alt="\underbrace{S_{1/T}(f) = \sum_{n=-\infty}^{\infty} \overbrace{T\cdot s(nT)}^{s[n]}\cdot e^{-i 2\pi f nT}}_{\text{Poisson summation formula (DTFT)}}" src="http://upload.wikimedia.org/math/c/4/9/c4946807e545fa61f064fdb85e373ecc.png" /></td>
+<td><img class="tex" alt="\underbrace{\overbrace{S_{1/T}\left(\frac{k}{NT}\right)}^{S_k} = \sum_{n=-\infty}^{\infty} s[n]\cdot e^{-i 2\pi \frac{kn}{N}}}_{\text{Poisson summation formula}} \equiv \underbrace{\sum_{N} s_N[n]\cdot e^{-i 2\pi \frac{kn}{N}}}_{\text{DFT}}" src="http://upload.wikimedia.org/math/f/3/f/f3fd0730ed9500188e2dfeceffc78d28.png" /></td>
+</tr>
+<tr>
+<th>Inverse</th>
+<td><img class="tex" alt="s[n] = T \int_{1/T} S_{1/T}(f)\cdot e^{i 2\pi f nT} \,df " src="http://upload.wikimedia.org/math/6/7/e/67e53a859d0b8f034fef1b3ae65e9245.png" />
+<p><img class="tex" alt="\sum_{n=-\infty}^{\infty} s[n]\cdot \delta(t-nT) = \underbrace{\int_{-\infty}^{\infty} S_{1/T}(f)\cdot e^{i 2\pi f t}\,df}_{\text{inverse Fourier transform}} " src="http://upload.wikimedia.org/math/a/a/5/aa5dace7130b217e38bcb779d94d589d.png" /></p>
+</td>
+<td><img class="tex" alt="s_N[n] = \underbrace{\frac{1}{N} \sum_{N} S_k\cdot e^{i 2\pi \frac{kn}{N}}}_{\text{inverse DFT}}" src="http://upload.wikimedia.org/math/9/6/6/966df6aa305975f5fbbc341f54933905.png" />
+<p><img class="tex" alt="s_P(nT) = \frac{1}{T}\cdot s_N[n] = \sum_{N} \underbrace{\frac{1}{P}\cdot S_{1/T}\left(\frac{k}{P}\right)}_{S_{N}[k]} \cdot e^{i 2\pi \frac{kn}{N}}" src="http://upload.wikimedia.org/math/5/4/5/54583bdbfbb0e8ce67c18af780576da8.png" /></p>
+</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=9.php.html" title="Edit section: Fourier transforms on arbitrary locally compact abelian topological groups">edit</a>]</span> <span class="mw-headline" id="Fourier_transforms_on_arbitrary_locally_compact_abelian_topological_groups">Fourier transforms on arbitrary locally compact abelian topological groups</span></h3>
+<p>The Fourier variants can also be generalized to Fourier transforms on arbitrary <a href="Locally_compact" title="Locally compact" class="mw-redirect">locally compact</a> <a href="Abelian_group" title="Abelian group">abelian</a> <a href="Topological_group" title="Topological group">topological groups</a>, which are studied in <a href="Harmonic_analysis" title="Harmonic analysis">harmonic analysis</a>; there, the Fourier transform takes functions on a group to functions on the dual group. This treatment also allows a general formulation of the <a href="Convolution_theorem" title="Convolution theorem">convolution theorem</a>, which relates Fourier transforms and <a href="Convolution" title="Convolution">convolutions</a>. See also the <a href="Pontryagin_duality" title="Pontryagin duality">Pontryagin duality</a> for the generalized underpinnings of the Fourier transform.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=10.php.html" title="Edit section: Time–frequency transforms">edit</a>]</span> <span class="mw-headline" id="Time.E2.80.93frequency_transforms">Time–frequency transforms</span></h3>
+<div class="rellink boilerplate seealso">For more details on this topic, see <a href="Time%E2%80%93frequency_analysis" title="Time–frequency analysis">Time–frequency analysis</a>.</div>
+<p>In <a href="Signal_processing" title="Signal processing">signal processing</a> terms, a function (of time) is a representation of a signal with perfect <i>time resolution,</i> but no frequency information, while the Fourier transform has perfect <i>frequency resolution,</i> but no time information.</p>
+<p>As alternatives to the Fourier transform, in <a href="Time%E2%80%93frequency_analysis" title="Time–frequency analysis">time–frequency analysis</a>, one uses time–frequency transforms to represent signals in a form that has some time information and some frequency information – by the <a href="Uncertainty_principle" title="Uncertainty principle">uncertainty principle</a>, there is a trade-off between these. These can be generalizations of the Fourier transform, such as the <a href="Short-time_Fourier_transform" title="Short-time Fourier transform">short-time Fourier transform</a>, the <a href="Gabor_transform" title="Gabor transform">Gabor transform</a> or <a href="Fractional_Fourier_transform" title="Fractional Fourier transform">fractional Fourier transform</a>, or can use different functions to represent signals, as in <a href="Wavelet_transforms" title="Wavelet transforms" class="mw-redirect">wavelet transforms</a> and <a href="Chirplet_transform" title="Chirplet transform">chirplet transforms</a>, with the wavelet analog of the (continuous) Fourier transform being the <a href="Continuous_wavelet_transform" title="Continuous wavelet transform">continuous wavelet transform</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=11.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Fourier_series#Historical_development" title="Fourier series">Fourier series#Historical development</a></div>
+<p>A primitive form of harmonic series dates back to ancient <a href="Babylonian_mathematics" title="Babylonian mathematics">Babylonian mathematics</a>, where they were used to compute <a href="Ephemerides" title="Ephemerides" class="mw-redirect">ephemerides</a> (tables of astronomical positions).<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>1<span>]</span></a></sup></p>
+<p>In modern times, variants of the discrete Fourier transform were used by <a href="Alexis_Clairaut" title="Alexis Clairaut">Alexis Clairaut</a> in 1754 to compute an orbit,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>2<span>]</span></a></sup> which has been described as the first formula for the DFT,<sup id="cite_ref-thedft4_5-0" class="reference"><a href="#cite_note-thedft4-5"><span>[</span>3<span>]</span></a></sup> and in 1759 by <a href="Joseph_Louis_Lagrange" title="Joseph Louis Lagrange">Joseph Louis Lagrange</a>, in computing the coefficients of a trigonometric series for a vibrating string.<sup id="cite_ref-thedft_6-0" class="reference"><a href="#cite_note-thedft-6"><span>[</span>4<span>]</span></a></sup> Technically, Clairaut's work was a cosine-only series (a form of <a href="Discrete_cosine_transform" title="Discrete cosine transform">discrete cosine transform</a>), while Lagrange's work was a sine-only series (a form of <a href="Discrete_sine_transform" title="Discrete sine transform">discrete sine transform</a>); a true cosine+sine DFT was used by <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a> in 1805 for <a href="Trigonometric_interpolation" title="Trigonometric interpolation">trigonometric interpolation</a> of <a href="Asteroid" title="Asteroid">asteroid</a> orbits.<sup id="cite_ref-Heideman84_7-0" class="reference"><a href="#cite_note-Heideman84-7"><span>[</span>5<span>]</span></a></sup> Euler and Lagrange both discretized the vibrating string problem, using what would today be called samples.<sup id="cite_ref-thedft_6-1" class="reference"><a href="#cite_note-thedft-6"><span>[</span>4<span>]</span></a></sup></p>
+<p>An early modern development toward Fourier analysis was the 1770 paper <i><a href="R%C3%A9flexions_sur_la_r%C3%A9solution_alg%C3%A9brique_des_%C3%A9quations" title="Réflexions sur la résolution algébrique des équations" class="mw-redirect">Réflexions sur la résolution algébrique des équations</a></i> by Lagrange, which in the method of <a href="Lagrange_resolvents" title="Lagrange resolvents" class="mw-redirect">Lagrange resolvents</a> used a complex Fourier decomposition to study the solution of a cubic:<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>6<span>]</span></a></sup> Lagrange transformed the roots <img class="tex" alt="x_1,x_2,x_3" src="http://upload.wikimedia.org/math/f/1/b/f1b850cae96c67f362658f6786f507d8.png" /> into the resolvents:</p>
+<dl>
+<dd><img class="tex" alt="\begin{align}
+r_1 &amp;= x_1 + x_2 + x_3\\
+r_2 &amp;= x_1 + \zeta x_2 + \zeta^2 x_3\\
+r_3 &amp;= x_1 + \zeta^2 x_2 + \zeta x_3
+\end{align}" src="http://upload.wikimedia.org/math/9/7/3/973fe9cc0bb35cd07ed0e42d5bc27411.png" /></dd>
+</dl>
+<p>where <i>ζ</i> is a cubic root of unity, which is the DFT of order 3.</p>
+<p>A number of authors, notably <a href="Jean_le_Rond_d'Alembert" title="Jean le Rond d'Alembert">Jean le Rond d'Alembert</a>, and <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Carl Friedrich Gauss</a> used <a href="Trigonometric_series" title="Trigonometric series">trigonometric series</a> to study the <a href="Heat_equation" title="Heat equation">heat equation</a>,<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from April 2009">citation needed</span></a></i>]</sup> but the breakthrough development was the 1807 paper <i><a href="M%C3%A9moire_sur_la_propagation_de_la_chaleur_dans_les_corps_solides" title="Mémoire sur la propagation de la chaleur dans les corps solides" class="mw-redirect">Mémoire sur la propagation de la chaleur dans les corps solides</a></i> by <a href="Joseph_Fourier" title="Joseph Fourier">Joseph Fourier</a>, whose crucial insight was to model <i>all</i> functions by trigonometric series, introducing the Fourier series.</p>
+<p>Historians are divided as to how much to credit Lagrange and others for the development of Fourier theory: <a href="Daniel_Bernoulli" title="Daniel Bernoulli">Daniel Bernoulli</a> and <a href="Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a> had introduced trigonometric representations of functions,<sup id="cite_ref-thedft4_5-1" class="reference"><a href="#cite_note-thedft4-5"><span>[</span>3<span>]</span></a></sup> and Lagrange had given the Fourier series solution to the wave equation,<sup id="cite_ref-thedft4_5-2" class="reference"><a href="#cite_note-thedft4-5"><span>[</span>3<span>]</span></a></sup> so Fourier's contribution was mainly the bold claim that an arbitrary function could be represented by a Fourier series.<sup id="cite_ref-thedft4_5-3" class="reference"><a href="#cite_note-thedft4-5"><span>[</span>3<span>]</span></a></sup></p>
+<p>The subsequent development of the field is known as <a href="Harmonic_analysis" title="Harmonic analysis">harmonic analysis</a>, and is also an early instance of <a href="Representation_theory" title="Representation theory">representation theory</a>.</p>
+<p>The first fast Fourier transform (FFT) algorithm for the DFT was discovered around 1805 by Carl Friedrich Gauss when interpolating measurements of the orbit of the asteroids Juno and Pallas, although that particular FFT algorithm is more often attributed to its modern rediscoverers <a href="Cooley%E2%80%93Tukey_FFT_algorithm" title="Cooley–Tukey FFT algorithm">Cooley and Tukey</a>.<sup id="cite_ref-Heideman84_7-1" class="reference"><a href="#cite_note-Heideman84-7"><span>[</span>5<span>]</span></a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>7<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=12.php.html" title="Edit section: Interpretation in terms of time and frequency">edit</a>]</span> <span class="mw-headline" id="Interpretation_in_terms_of_time_and_frequency">Interpretation in terms of time and frequency</span></h2>
+<p>In <a href="Signal_processing" title="Signal processing">signal processing</a>, the Fourier transform often takes a <a href="Time_series" title="Time series">time series</a> or a function of <a href="Continuous_time" title="Continuous time" class="mw-redirect">continuous time</a>, and maps it into a <a href="Frequency_spectrum" title="Frequency spectrum">frequency spectrum</a>. That is, it takes a function from the time domain into the <a href="Frequency" title="Frequency">frequency</a> domain; it is a <a href="Orthogonal_system" title="Orthogonal system" class="mw-redirect">decomposition</a> of a function into <a href="Sine_wave" title="Sine wave">sinusoids</a> of different frequencies; in the case of a <a href="Fourier_series" title="Fourier series">Fourier series</a> or <a href="Discrete_Fourier_transform" title="Discrete Fourier transform">discrete Fourier transform</a>, the sinusoids are <a href="Harmonic" title="Harmonic">harmonics</a> of the fundamental frequency of the function being analyzed.</p>
+<p>When the function <i>ƒ</i> is a function of time and represents a physical <a href="Signal_(information_theory)" title="Signal (information theory)" class="mw-redirect">signal</a>, the transform has a standard interpretation as the frequency spectrum of the signal. The <a href="Magnitude_(mathematics)" title="Magnitude (mathematics)">magnitude</a> of the resulting complex-valued function <i>F</i> at frequency ω represents the <a href="Amplitude" title="Amplitude">amplitude</a> of a frequency component whose <a href="Phase_(waves)" title="Phase (waves)">initial phase</a> is given by the phase of&#160;<i>F</i>.</p>
+<p>Fourier transforms are not limited to functions of time, and temporal frequencies. They can equally be applied to analyze <i>spatial</i> frequencies, and indeed for nearly any function domain. This justifies their use in branches such diverse as <a href="Image_processing" title="Image processing">image processing</a>, <a href="Heat_conduction" title="Heat conduction" class="mw-redirect">heat conduction</a> and <a href="Automatic_control" title="Automatic control">automatic control</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=13.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span>
+<dl>
+<dd><span class="reference-text"><img class="tex" alt="\int_{P} \left[\sum_{k=-\infty}^{\infty} s(t-kP)\right] \cdot e^{-i 2\pi \frac{k}{P} t} dt = \underbrace{\int_{-\infty}^{\infty} s(t) \cdot e^{-i 2\pi \frac{k}{P} t} dt}_{\stackrel{\mathrm{def}}{=}\ S(k/P)}" src="http://upload.wikimedia.org/math/4/7/b/47bf7883ce8b9f682742df6bc3af8a3f.png" /></span></dd>
+</dl>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">We may also note that: &#160; <img class="tex" alt="\scriptstyle
+\sum_{n=-\infty}^{+\infty} T\ s(nT)\ \delta(t-nT)\ =\ \sum_{n=-\infty}^{+\infty} T\ s(t)\ \delta(t-nT)\ =\ s(t)\cdot T \sum_{n=-\infty}^{+\infty} \delta(t-nT)." src="http://upload.wikimedia.org/math/b/8/0/b804a02db90e08eedae480f91a9aae43.png" /><br />
+Consequently, a common practice is to model "sampling" as a multiplication by the <a href="Dirac_comb" title="Dirac comb">Dirac comb</a> function, which of course is only "possible" in a purely mathematical sense.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="column-count column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li><a href="Generalized_Fourier_series" title="Generalized Fourier series">Generalized Fourier series</a></li>
+<li><a href="Fourier-Bessel_series" title="Fourier-Bessel series" class="mw-redirect">Fourier-Bessel series</a></li>
+<li><a href="Generalized_Fourier_series#Example_.28Fourier.E2.80.93Legendre_series.29" title="Generalized Fourier series">Fourier-Legendre series</a></li>
+<li><a href="Fourier-related_transforms" title="Fourier-related transforms" class="mw-redirect">Fourier-related transforms</a></li>
+<li><a href="Laplace_transform" title="Laplace transform">Laplace transform</a> (LT)</li>
+<li><a href="Two-sided_Laplace_transform" title="Two-sided Laplace transform">Two-sided Laplace transform</a></li>
+<li><a href="Mellin_transform" title="Mellin transform">Mellin transform</a></li>
+<li><a href="Fast_Fourier_transform" title="Fast Fourier transform">Fast Fourier transform</a> (FFT)</li>
+<li><a href="Non-uniform_discrete_Fourier_transform" title="Non-uniform discrete Fourier transform">Non-uniform discrete Fourier transform</a> (NDFT)</li>
+<li><a href="Fractional_Fourier_transform" title="Fractional Fourier transform">Fractional Fourier transform</a> (FRFT)</li>
+<li><a href="Quantum_Fourier_transform" title="Quantum Fourier transform">Quantum Fourier transform</a> (QFT)</li>
+<li><a href="Number-theoretic_transform" title="Number-theoretic transform" class="mw-redirect">Number-theoretic transform</a></li>
+<li><a href="Least-squares_spectral_analysis" title="Least-squares spectral analysis">Least-squares spectral analysis</a></li>
+<li><a href="Basis_vector" title="Basis vector" class="mw-redirect">Basis vectors</a></li>
+<li><a href="Bispectrum" title="Bispectrum">Bispectrum</a></li>
+<li><a href="Characteristic_function_(probability_theory)" title="Characteristic function (probability theory)">Characteristic function (probability theory)</a></li>
+<li><a href="Orthogonal_functions" title="Orthogonal functions">Orthogonal functions</a></li>
+<li><a href="Pontryagin_duality" title="Pontryagin duality">Pontryagin duality</a></li>
+<li><a href="Schwartz_space" title="Schwartz space">Schwartz space</a></li>
+<li><a href="Spectral_density" title="Spectral density">Spectral density</a></li>
+<li><a href="Spectral_density_estimation" title="Spectral density estimation">Spectral density estimation</a></li>
+<li><a href="Spectral_music" title="Spectral music">Spectral music</a></li>
+<li><a href="Wavelet" title="Wavelet">Wavelet</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=15.php.html" title="Edit section: Citations">edit</a>]</span> <span class="mw-headline" id="Citations">Citations</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFPrestini2004">Prestini, Elena (2004), <a rel="nofollow" class="external text" href="http://books.google.com/?id=fye--TBu4T0C"><i>The evolution of applied harmonic analysis: models of the real world</i></a>, Birkhäuser, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-8176-4125-2" title="Special:BookSources/978-0-8176-4125-2">978-0-8176-4125-2</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=fye--TBu4T0C">http://books.google.com/?id=fye--TBu4T0C</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=fye--TBu4T0C&pg=PA62">p. 62</a><br />
+<span class="citation" id="CITEREFRotaPalombi1997"><a href="Gian-Carlo_Rota" title="Gian-Carlo Rota">Rota, Gian-Carlo</a>; Palombi, Fabrizio (1997), <a rel="nofollow" class="external text" href="http://books.google.com/?id=H5smrEExNFUC"><i>Indiscrete thoughts</i></a>, Birkhäuser, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-8176-3866-5" title="Special:BookSources/978-0-8176-3866-5">978-0-8176-3866-5</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=H5smrEExNFUC">http://books.google.com/?id=H5smrEExNFUC</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=H5smrEExNFUC&pg=PA11">p. 11</a><br />
+<span class="citation" id="CITEREFNeugebauer1969"><a href="../Otto_E._Neugebauer" title="Otto E. Neugebauer">Neugebauer, Otto</a> (1969) [1957], <a rel="nofollow" class="external text" href="http://books.google.com/?id=JVhTtVA2zr8C"><i>The Exact Sciences in Antiquity</i></a> (2 ed.), <a href="Dover_Publications" title="Dover Publications">Dover Publications</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-486-22332-2" title="Special:BookSources/978-0-486-22332-2">978-0-486-22332-2</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=JVhTtVA2zr8C">http://books.google.com/?id=JVhTtVA2zr8C</a></span></span><br />
+<span class="citation" id="CITEREFBrack-BernsenBrack">Brack-Bernsen, Lis; Brack, Matthias, <i>Analyzing shell structure from Babylonian and modern times</i>, <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/physics/0310126">physics/0310126</a></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFTerras1999"><a href="Audrey_Terras" title="Audrey Terras">Terras, Audrey</a> (1999), <a rel="nofollow" class="external text" href="http://books.google.com/?id=-B2TA669dJMC"><i>Fourier analysis on finite groups and applications</i></a>, <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-45718-7" title="Special:BookSources/978-0-521-45718-7">978-0-521-45718-7</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=-B2TA669dJMC">http://books.google.com/?id=-B2TA669dJMC</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=-B2TA669dJMC&pg=PA30#PPA30,M1">p. 30</a></span></li>
+<li id="cite_note-thedft4-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-thedft4_5-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-thedft4_5-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-thedft4_5-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-thedft4_5-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><span class="citation" id="CITEREFBriggsHenson1995">Briggs, William L.; Henson, Van Emden (1995), <a rel="nofollow" class="external text" href="http://books.google.com/?id=coq49_LRURUC"><i>The DFT&#160;: an owner's manual for the discrete Fourier transform</i></a>, SIAM, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-89871-342-8" title="Special:BookSources/978-0-89871-342-8">978-0-89871-342-8</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=coq49_LRURUC">http://books.google.com/?id=coq49_LRURUC</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=coq49_LRURUC&pg=PA2#PPA4,M1">p. 4</a></span></li>
+<li id="cite_note-thedft-6"><span class="mw-cite-backlink">^ <a href="#cite_ref-thedft_6-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-thedft_6-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation" id="CITEREFBriggsHenson1995">Briggs, William L.; Henson, Van Emden (1995), <a rel="nofollow" class="external text" href="http://books.google.com/?id=coq49_LRURUC"><i>The DFT: an owner's manual for the discrete Fourier transform</i></a>, SIAM, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-89871-342-8" title="Special:BookSources/978-0-89871-342-8">978-0-89871-342-8</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=coq49_LRURUC">http://books.google.com/?id=coq49_LRURUC</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=coq49_LRURUC&pg=PA2#PPA2,M1">p. 2</a></span></li>
+<li id="cite_note-Heideman84-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-Heideman84_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Heideman84_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Heideman, M. T., D. H. Johnson, and C. S. Burrus, "<a rel="nofollow" class="external text" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1162257">Gauss and the history of the fast Fourier transform</a>," IEEE ASSP Magazine, 1, (4), 14–21 (1984)</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFKnapp2006">Knapp, Anthony W. (2006), <a rel="nofollow" class="external text" href="http://books.google.com/?id=KVeXG163BggC"><i>Basic algebra</i></a>, Springer, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-8176-3248-9" title="Special:BookSources/978-0-8176-3248-9">978-0-8176-3248-9</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=KVeXG163BggC">http://books.google.com/?id=KVeXG163BggC</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=KVeXG163BggC&pg=PA501">p. 501</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFTerras1999"><a href="Audrey_Terras" title="Audrey Terras">Terras, Audrey</a> (1999), <a rel="nofollow" class="external text" href="http://books.google.com/?id=-B2TA669dJMC"><i>Fourier analysis on finite groups and applications</i></a>, Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-45718-7" title="Special:BookSources/978-0-521-45718-7">978-0-521-45718-7</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=-B2TA669dJMC">http://books.google.com/?id=-B2TA669dJMC</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=-B2TA669dJMC&pg=PA30#PPA31,M1">p. 31</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=16.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFContede_Boor1980">Conte, S. D.; de Boor, Carl (1980), <i>Elementary Numerical Analysis</i> (Third ed.), New York: McGraw Hill, Inc., <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-07-066228-2" title="Special:BookSources/0-07-066228-2">0-07-066228-2</a></span></li>
+<li><span class="citation" id="CITEREFEvans1998">Evans, L. (1998), <i>Partial Differential Equations</i>, American Mathematical Society, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-540-76124-1" title="Special:BookSources/3-540-76124-1">3-540-76124-1</a></span></li>
+<li>Howell, Kenneth B. (2001). <i>Principles of Fourier Analysis</i>, CRC Press. <a href="Special_BookSources/9780849382758" class="internal mw-magiclink-isbn">ISBN 978-0-8493-8275-8</a></li>
+<li>Kamen, E.W., and B.S. Heck. "Fundamentals of Signals and Systems Using the Web and Matlab". <a href="Special_BookSources/0130172936" class="internal mw-magiclink-isbn">ISBN 0-13-017293-6</a></li>
+<li><span class="citation" id="CITEREFKnuth1997">Knuth, Donald E. (1997), <i>The Art of Computer Programming Volume 2: Seminumerical Algorithms</i> (3rd ed.), Section 4.3.3.C: Discrete Fourier transforms, pg.305: Addison-Wesley Professional, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-201-89684-2" title="Special:BookSources/0-201-89684-2">0-201-89684-2</a></span></li>
+<li>Polyanin, A.D., and A.V. Manzhirov (1998). <i>Handbook of Integral Equations</i>, CRC Press, Boca Raton. <a href="Special_BookSources/0849328764" class="internal mw-magiclink-isbn">ISBN 0-8493-2876-4</a></li>
+<li><span class="citation" id="CITEREFRudin1990">Rudin, Walter (1990), <i>Fourier Analysis on Groups</i>, Wiley-Interscience, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-52364-X" title="Special:BookSources/0-471-52364-X">0-471-52364-X</a></span></li>
+<li><span class="citation" id="CITEREFSmith1999">Smith, Steven W. (1999), <a rel="nofollow" class="external text" href="http://www.dspguide.com/pdfbook.htm"><i>The Scientist and Engineer's Guide to Digital Signal Processing</i></a> (Second ed.), San Diego, Calif.: California Technical Publishing, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-9660176-3-3" title="Special:BookSources/0-9660176-3-3">0-9660176-3-3</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.dspguide.com/pdfbook.htm">http://www.dspguide.com/pdfbook.htm</a></span></span></li>
+<li>Stein, E.M., and G. Weiss (1971). <i>Introduction to Fourier Analysis on Euclidean Spaces</i>. Princeton University Press. <a href="Special_BookSources/069108078X" class="internal mw-magiclink-isbn">ISBN 0-691-08078-X</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Fourier_analysis&action=edit&section=17.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://eqworld.ipmnet.ru/en/auxiliary/aux-inttrans.htm">Tables of Integral Transforms</a> at EqWorld: The World of Mathematical Equations.</li>
+<li><a rel="nofollow" class="external text" href="http://cns-alumni.bu.edu/~slehar/fourier/fourier.html">An Intuitive Explanation of Fourier Theory</a> by Steven Lehar.</li>
+<li><a rel="nofollow" class="external text" href="http://www.archive.org/details/Lectures_on_Image_Processing">Lectures on Image Processing: A collection of 18 lectures in pdf format from Vanderbilt University. Lecture 6 is on the 1- and 2-D Fourier Transform. Lectures 7–15 make use of it.</a>, by Alan Peters</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 11281/1000000
+Preprocessor generated node count: 27057/1500000
+Post-expand include size: 67214/2048000 bytes
+Template argument size: 22316/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 5/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:11659-0!0!0!!en!4!* and timestamp 20130131003213 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Fourier_analysis&oldid=535781309.php.html">http://en.wikipedia.org/w/index.php?title=Fourier_analysis&amp;oldid=535781309</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Fourier_analysis" title="Category:Fourier analysis">Fourier analysis</a></li><li><a href="Category_Integral_transforms" title="Category:Integral transforms">Integral transforms</a></li><li><a href="Category_Digital_signal_processing" title="Category:Digital signal processing">Digital signal processing</a></li><li><a href="Category_Mathematical_physics" title="Category:Mathematical physics">Mathematical physics</a></li><li><a href="Category_Mathematics_of_computing" title="Category:Mathematics of computing">Mathematics of computing</a></li><li><a href="Category_Time_series_analysis" title="Category:Time series analysis">Time series analysis</a></li><li><a href="Category_Joseph_Fourier" title="Category:Joseph Fourier">Joseph Fourier</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Use_dmy_dates_from_April_2012" title="Category:Use dmy dates from April 2012">Use dmy dates from April 2012</a></li><li><a href="Category_Articles_to_be_expanded_from_January_2008" title="Category:Articles to be expanded from January 2008">Articles to be expanded from January 2008</a></li><li><a href="Category_All_articles_to_be_expanded" title="Category:All articles to be expanded">All articles to be expanded</a></li><li><a href="Category_Articles_needing_additional_references_from_September_2008" title="Category:Articles needing additional references from September 2008">Articles needing additional references from September 2008</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_April_2009" title="Category:Articles with unsourced statements from April 2009">Articles with unsourced statements from April 2009</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Fourier+analysis&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Fourier+analysis.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Fourier_analysis"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Fourier_analysis&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Fourier_analysis&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Fourier_analysis" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Fourier_analysis" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Fourier_analysis&oldid=535781309.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Fourier_analysis&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Fourier_analysis&id=535781309.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Fourier+analysis.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Fourier+analysis&oldid=535781309&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Fourier_analysis&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Fourier-Analysis" title="Fourier-Analysis" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%AB%E0%A5%81%E0%A4%B0%E0%A4%BF%E0%A4%85%E0%A4%B0_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%B7%E0%A4%A3" title="फुरिअर विश्लेषण" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Analisi_di_Fourier" title="Analisi di Fourier" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Furj%C4%97_analiz%C4%97" title="Furjė analizė" lang="lt" hreflang="lt">Lietuvių</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 31 January 2013 at 00:32.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Fourier_analysis" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1067 in 0.152 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

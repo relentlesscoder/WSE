@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Combinatorial optimization - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Combinatorial_optimization&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Combinatorial_optimization&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Combinatorial_optimization","wgTitle":"Combinatorial optimization","wgCurRevisionId":534553064,"wgArticleId":420555,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia external links cleanup from April 2012","Wikipedia spam cleanup from April 2012","Combinatorial optimization","Computational complexity theory"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Combinatorial_optimization","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"64fbfc333f0c8010c0b6d7472210e157","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":420555,"title":"Combinatorial optimization","namespace":0,"categories":["Combinatorial optimization","Computational complexity theory","Wikipedia external links cleanup from April 2012","Wikipedia spam cleanup from April 2012"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Combinatorial_optimization skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Combinatorial optimization</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>In <a href="Applied_mathematics" title="Applied mathematics">applied mathematics</a> and <a href="Theoretical_computer_science" title="Theoretical computer science">theoretical computer science</a>, <b>combinatorial optimization</b> is a topic that consists of finding an optimal object from a finite set of objects.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> In many such problems, <a href="Exhaustive_search" title="Exhaustive search" class="mw-redirect">exhaustive search</a> is not feasible. It operates on the domain of those optimization problems, in which the set of <a href="Candidate_solution" title="Candidate solution">feasible solutions</a> is <a href="Discrete_set" title="Discrete set" class="mw-redirect">discrete</a> or can be reduced to discrete, and in which the goal is to find the best solution. Some common problems involving combinatorial optimization are the <a href="Traveling_salesman_problem" title="Traveling salesman problem" class="mw-redirect">traveling salesman problem</a> ("TSP") and the <a href="Minimum_spanning_tree" title="Minimum spanning tree">minimum spanning tree problem</a>.</p>
+<p>Combinatorial optimization is a subset of <a href="Mathematical_optimization" title="Mathematical optimization">mathematical optimization</a> that is related to <a href="Operations_research" title="Operations research">operations research</a>, <a href="Algorithm" title="Algorithm">algorithm theory</a>, and <a href="Computational_complexity_theory" title="Computational complexity theory">computational complexity theory</a>. It has important applications in several fields, including <a href="Artificial_intelligence" title="Artificial intelligence">artificial intelligence</a>, <a href="Machine_learning" title="Machine learning">machine learning</a>, <a href="Mathematics" title="Mathematics">mathematics</a>, <a href="Auction_theory" title="Auction theory">auction theory</a>, and <a href="Software_engineering" title="Software engineering">software engineering</a>.</p>
+<p>Some research literature<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> considers <a href="Discrete_optimization" title="Discrete optimization">discrete optimization</a> to consist of <a href="Integer_programming" title="Integer programming">integer programming</a> together with combinatorial optimization (which in turn is composed of <a href="Optimization_problem" title="Optimization problem">optimization problems</a> dealing with <a href="Graph_(mathematics)" title="Graph (mathematics)">graphs</a>, <a href="Matroid" title="Matroid">matroids</a>, and related structures) although all of these topics have closely intertwined research literature. It often involves determining the way to efficiently allocate resources used to find solutions to mathematical problems.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Applications"><span class="tocnumber">1</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Methods"><span class="tocnumber">2</span> <span class="toctext">Methods</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Specific_problems"><span class="tocnumber">3</span> <span class="toctext">Specific problems</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Further_reading"><span class="tocnumber">4</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_optimization&action=edit&section=1.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h2>
+<p>Applications for combinatorial optimization include, but are not limited to:</p>
+<ul>
+<li>Developing the best airline network of spokes and destinations</li>
+<li>Deciding which taxis in a fleet to route to pick up fares</li>
+<li>Determining the optimal way to deliver packages</li>
+<li>Determining the right attributes of concept elements prior to <a href="Concept_testing" title="Concept testing">concept testing</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_optimization&action=edit&section=2.php.html" title="Edit section: Methods">edit</a>]</span> <span class="mw-headline" id="Methods">Methods</span></h2>
+<p>There is a large amount of literature on <a href="Polynomial-time_algorithm" title="Polynomial-time algorithm" class="mw-redirect">polynomial-time algorithms</a> for certain special classes of discrete optimization, a considerable amount of it unified by the theory of <a href="Linear_programming" title="Linear programming">linear programming</a>. Some examples of combinatorial optimization problems that fall into this framework are <a href="Shortest_path" title="Shortest path" class="mw-redirect">shortest paths</a> and <a href="Shortest_path_tree" title="Shortest path tree">shortest path trees</a>, <a href="Flow_network" title="Flow network">flows and circulations</a>, <a href="Spanning_tree" title="Spanning tree">spanning trees</a>, <a href="Matching_(graph_theory)" title="Matching (graph theory)">matching</a>, and <a href="Matroid" title="Matroid">matroid</a> problems.</p>
+<p>For <a href="NP-complete" title="NP-complete">NP-complete</a> discrete optimization problems, current research literature includes the following topics:</p>
+<ul>
+<li>polynomial-time exactly solvable special cases of the problem at hand (e.g. see <a href="Fixed-parameter_tractable" title="Fixed-parameter tractable" class="mw-redirect">fixed-parameter tractable</a>)</li>
+<li>algorithms that perform well on "random" instances (e.g. for <a href="Traveling_salesman_problem#TSP_path_length_for_random_pointset_in_a_square" title="Traveling salesman problem" class="mw-redirect">TSP</a>)</li>
+<li><a href="Approximation_algorithm" title="Approximation algorithm">approximation algorithms</a> that run in polynomial time and find a solution that is "close" to optimal</li>
+<li>solving real-world instances that arise in practice and do not necessarily exhibit the worst-case behavior inherent in NP-complete problems (e.g. TSP instances with tens of thousands of nodes<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup>).</li>
+</ul>
+<p>Combinatorial optimization problems can be viewed as searching for the best element of some set of discrete items, therefore, in principle, any sort of <a href="Search_algorithm" title="Search algorithm">search algorithm</a> or <a href="Metaheuristic" title="Metaheuristic">metaheuristic</a> can be used to solve them. However, generic search algorithms are not guaranteed to find an optimal solution, nor are they guaranteed to run quickly (in polynomial time). Since some discrete optimization problems are <a href="NP-complete" title="NP-complete">NP-complete</a>, such as the traveling salesman problem, this is expected unless <a href="P=NP" title="P=NP" class="mw-redirect">P=NP</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_optimization&action=edit&section=3.php.html" title="Edit section: Specific problems">edit</a>]</span> <span class="mw-headline" id="Specific_problems">Specific problems</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:TSP_Deutschland_3.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/TSP_Deutschland_3.png/200px-TSP_Deutschland_3.png" width="200" height="215" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/TSP_Deutschland_3.png/300px-TSP_Deutschland_3.png 1.5x, //upload.wikimedia.org/wikipedia/commons/c/c4/TSP_Deutschland_3.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:TSP_Deutschland_3.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An optimal traveling salesperson tour through <a href="Germany" title="Germany">Germany</a>’s 15 largest cities. It is the shortest among 43,589,145,600<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>nb 1<span>]</span></a></sup> possible tours visiting each city exactly once.</div>
+</div>
+</div>
+<ul>
+<li><a href="Vehicle_routing_problem" title="Vehicle routing problem">Vehicle routing problem</a></li>
+<li><a href="Traveling_salesman_problem" title="Traveling salesman problem" class="mw-redirect">Traveling salesman problem</a></li>
+<li><a href="Minimum_spanning_tree" title="Minimum spanning tree">Minimum spanning tree</a> problem</li>
+<li><a href="Linear_programming" title="Linear programming">Linear programming</a> (if the solution space is the choice of which variables to make <a href="Simplex_algorithm#Problem_input" title="Simplex algorithm">basic</a>)</li>
+<li><a href="Linear_programming#Integer_unknowns" title="Linear programming">Integer programming</a></li>
+<li><a href="Eight_queens_puzzle" title="Eight queens puzzle">Eight queens puzzle</a> - A <a href="Constraint_satisfaction_problem" title="Constraint satisfaction problem">constraint satisfaction problem</a>. When applying standard combinatorial optimization algorithms to this problem, one would usually treat the goal function as the number of unsatisfied constraints (e.g. number of attacks) rather than whether the whole problem is satisfied or not.</li>
+<li><a href="Knapsack_problem" title="Knapsack problem">Knapsack problem</a></li>
+<li><a href="Cutting_stock_problem" title="Cutting stock problem">Cutting stock problem</a></li>
+<li><a href="Assignment_problem" title="Assignment problem">Assignment problem</a></li>
+<li><a href="Weapon_target_assignment_problem" title="Weapon target assignment problem">Weapon target assignment problem</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_optimization&action=edit&section=4.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li><span class="citation book"><a href="Alexander_Schrijver" title="Alexander Schrijver">Schrijver, Alexander</a>. <i>Combinatorial Optimization: Polyhedra and Efficiency</i>. Algorithms and Combinatorics. <b>24</b>. Springer.</span></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_optimization&action=edit&section=5.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Schrijver, p. 1</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.elsevier.com/locate/disopt">"Discrete Optimization"</a>. Elsevier<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.elsevier.com/locate/disopt">http://www.elsevier.com/locate/disopt</a></span><span class="reference-accessdate">. Retrieved 2009-06-08</span>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation web"><a href="../William_J._Cook" title="William J. Cook">Bill Cook</a>. <a rel="nofollow" class="external text" href="http://www.tsp.gatech.edu/optimal/index.html">"Optimal TSP Tours"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.tsp.gatech.edu/optimal/index.html">http://www.tsp.gatech.edu/optimal/index.html</a></span><span class="reference-accessdate">. Retrieved 2009-06-08</span>.</span></span></li>
+</ol>
+</div>
+<ol class="references">
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Take one city, and take all possible orders of the other 14 cities. Then divide by two because it does not matter in which direction in time they come after each other: 14!/2 = 43,589,145,600.</span></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorial_optimization&action=edit&section=6.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-external_links" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article's <b>use of <a href="Wikipedia_External_links" title="Wikipedia:External links">external links</a> may not follow Wikipedia's policies or guidelines</b>. <span class="hide-when-compact">Please <a class="external text" href="../../w/index-title=Combinatorial_optimization&action=edit.php.html">improve this article</a> by removing <a href="Wikipedia_What_Wikipedia_is_not#Wikipedia_is_not_a_mirror_or_a_repository_of_links.2C_images.2C_or_media_files" title="Wikipedia:What Wikipedia is not">excessive</a> or <a href="Wikipedia_External_links" title="Wikipedia:External links">inappropriate</a> external links, and converting useful links where appropriate into <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">footnote references</a>.</span> <small><i>(April 2012)</i></small> </span></td>
+</tr>
+</table>
+<ul>
+<li><a href="Alexander_Schrijver" title="Alexander Schrijver">Alexander Schrijver</a>. <a rel="nofollow" class="external text" href="http://homepages.cwi.nl/~lex/files/histco.pdf">On the history of combinatorial optimization (till 1960)</a>.</li>
+</ul>
+<dl>
+<dt>Lecture notes</dt>
+</dl>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://people.brunel.ac.uk/~mastjjb/jeb/or/ip.html">Integer programming</a> notes, J E Beasley.</li>
+</ul>
+<dl>
+<dt>Source code</dt>
+</dl>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/jcop/">Java Combinatorial Optimization Platform</a> open source project.</li>
+</ul>
+<dl>
+<dt>Others</dt>
+</dl>
+<ul>
+<li><a href="Alexander_Schrijver" title="Alexander Schrijver">Alexander Schrijver</a>; <a rel="nofollow" class="external text" href="http://homepages.cwi.nl/~lex/files/dict.pdf"><i>A Course in Combinatorial Optimization</i></a> February 1, 2006 (© A. Schrijver)</li>
+<li>William J. Cook, William H. Cunningham, William R. Pulleyblank, Alexander Schrijver; <i>Combinatorial Optimization</i>; John Wiley &amp; Sons; 1 edition (November 12, 1997); <a href="Special_BookSources/047155894X" class="internal mw-magiclink-isbn">ISBN 0-471-55894-X</a>.</li>
+<li><span class="citation book"><a href="Eugene_Lawler" title="Eugene Lawler">Eugene Lawler</a> (2001). <i>Combinatorial Optimization: Networks and Matroids</i>. Dover. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-486-41453-1" title="Special:BookSources/0-486-41453-1">0-486-41453-1</a>.</span></li>
+<li><a href="Jon_Lee_(mathematician)" title="Jon Lee (mathematician)">Jon Lee</a>; <i><a rel="nofollow" class="external text" href="http://books.google.com/books?id=3pL1B7WVYnAC&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&amp;q&amp;f=false">A First Course in Combinatorial Optimization</a></i>; Cambridge University Press; 2004; <a href="Special_BookSources/0521010128" class="internal mw-magiclink-isbn">ISBN 0-521-01012-8</a>.</li>
+<li>Pierluigi Crescenzi, Viggo Kann, Magnús Halldórsson, <a href="Marek_Karpinski" title="Marek Karpinski">Marek Karpinski</a>, Gerhard Woeginger, <a rel="nofollow" class="external text" href="http://www.nada.kth.se/~viggo/wwwcompendium/"><i>A Compendium of NP Optimization Problems</i></a>.</li>
+<li>Christos H. Papadimitriou and <a href="Kenneth_Steiglitz" title="Kenneth Steiglitz">Kenneth Steiglitz</a> <i>Combinatorial Optimization&#160;: Algorithms and Complexity</i>; Dover Pubns; (paperback, Unabridged edition, July 1998) <a href="Special_BookSources/0486402584" class="internal mw-magiclink-isbn">ISBN 0-486-40258-4</a>.</li>
+<li>Arnab Das and <a href="Bikas_K_Chakrabarti" title="Bikas K Chakrabarti">Bikas K Chakrabarti</a> (Eds.) <i>Quantum Annealing and Related Optimization Methods</i>, Lecture Note in Physics, Vol. <b>679</b>, Springer, Heidelberg (2005)</li>
+<li><a rel="nofollow" class="external text" href="http://www.kluweronline.com/issn/1382-6905">Journal of Combinatorial Optimization</a></li>
+<li>Arnab Das and <a href="Bikas_K_Chakrabarti" title="Bikas K Chakrabarti">Bikas K Chakrabarti</a>, Rev. Mod. Phys. 80 1061 (2008)</li>
+</ul>
+<p><br /></p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="3">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Optimization_algorithms" title="Template:Optimization algorithms"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Optimization_algorithms" title="Template talk:Optimization algorithms"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Optimization_algorithms&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Mathematical_optimization" title="Mathematical optimization">Optimization</a>: <a href="Optimization_algorithm" title="Optimization algorithm" class="mw-redirect">Algorithms</a>, <a href="Iterative_method" title="Iterative method">methods</a>, and <a href="Heuristic_algorithm" title="Heuristic algorithm" class="mw-redirect">heuristics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Nonlinear_programming" title="Nonlinear programming">Unconstrained nonlinear</a>: <a href="Iterative_method" title="Iterative method">Methods</a> <a href="Subroutine" title="Subroutine">calling ...</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Function_(mathematics)" title="Function (mathematics)">... functions</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Golden_section_search" title="Golden section search">Golden section search</a></li>
+<li><a href="Powell's_method" title="Powell's method">Interpolation methods</a></li>
+<li><a href="Line_search" title="Line search">Line search</a></li>
+<li><a href="Successive_parabolic_interpolation" title="Successive parabolic interpolation">Successive parabolic interpolation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">... and <a href="Gradient" title="Gradient">gradients</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Local_convergence" title="Local convergence">Convergence</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Trust_region" title="Trust region">Trust region</a></li>
+<li><a href="Wolfe_conditions" title="Wolfe conditions">Wolfe conditions</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Quasi-Newton_method" title="Quasi-Newton method">Quasi–Newton</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="BFGS_method" title="BFGS method">BFGS</a> and <a href="Limited-memory_BFGS" title="Limited-memory BFGS">L-BFGS</a></li>
+<li><a href="Davidon%E2%80%93Fletcher%E2%80%93Powell_formula" title="Davidon–Fletcher–Powell formula">DFP</a></li>
+<li><a href="SR1_formula" title="SR1 formula" class="mw-redirect">Symmetric rank-one (SR1)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Iterative_method" title="Iterative method">Other methods</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Gauss%E2%80%93Newton_algorithm" title="Gauss–Newton algorithm">Gauss–Newton</a></li>
+<li><a href="Gradient_descent" title="Gradient descent">Gradient</a></li>
+<li><a href="Levenberg%E2%80%93Marquardt_algorithm" title="Levenberg–Marquardt algorithm">Levenberg–Marquardt</a></li>
+<li><a href="Nonlinear_conjugate_gradient_method" title="Nonlinear conjugate gradient method">Conjugate gradient</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">... and <a href="Hessian_matrix" title="Hessian matrix">Hessians</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Newton's_method_in_optimization" title="Newton's method in optimization">Newton's method</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td class="navbox-image" style="width:0%;padding:0px 0px 0px 2px;" rowspan="9">
+<div>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:MaximumParaboloid.png" class="image" title="Optimization computes maxima and minima."><img alt="The graph of a strictly concave quadratic function is shown in blue, with its unique maximum shown as a red dot. Below the graph appears the contours of the function: The level sets are nested ellipses." src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/MaximumParaboloid.png/100px-MaximumParaboloid.png" width="100" height="75" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/62/MaximumParaboloid.png/150px-MaximumParaboloid.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/62/MaximumParaboloid.png/200px-MaximumParaboloid.png 2x" /></a></div>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Nonlinear_programming" title="Nonlinear programming">Constrained nonlinear</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Barrier_function" title="Barrier function">Barrier methods</a></li>
+<li><a href="Penalty_method" title="Penalty method">Penalty methods</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Differentiable</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Augmented_Lagrangian_method" title="Augmented Lagrangian method">Augmented Lagrangian methods</a></li>
+<li><a href="Sequential_quadratic_programming" title="Sequential quadratic programming">Sequential quadratic programming</a></li>
+<li><a href="Successive_linear_programming" title="Successive linear programming">Successive linear programming</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Convex_optimization" title="Convex optimization">Convex optimization</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Convex_minimization" title="Convex minimization" class="mw-redirect">Convex minimization</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cutting-plane_method" title="Cutting-plane method">Cutting-plane method</a></li>
+<li><a href="Frank%E2%80%93Wolfe_algorithm" title="Frank–Wolfe algorithm">Reduced gradient (Frank–Wolfe)</a></li>
+<li><a href="Subgradient_method" title="Subgradient method">Subgradient method</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Linear_programming" title="Linear programming">Linear</a> and<br />
+<a href="Quadratic_programming" title="Quadratic programming">quadratic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Linear_programming#Interior_point" title="Linear programming">Interior point</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ellipsoid_method" title="Ellipsoid method">Ellipsoid algorithm of Khachiyan</a></li>
+<li><a href="Karmarkar's_algorithm" title="Karmarkar's algorithm">Projective algorithm of Karmarkar</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Matroid" title="Matroid">Basis-</a><a href="Exchange_algorithm" title="Exchange algorithm" class="mw-redirect">Exchange</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Simplex_algorithm" title="Simplex algorithm">Simplex algorithm of Dantzig</a></li>
+<li><a href="Criss-cross_algorithm" title="Criss-cross algorithm">Criss-cross algorithm</a></li>
+<li><a href="Lemke's_algorithm" title="Lemke's algorithm">Principal pivoting algorithm of Lemke</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible uncollapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><strong class="selflink">Combinatorial</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Paradigms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Approximation_algorithm" title="Approximation algorithm">Approximation algorithm</a></li>
+<li><a href="Dynamic_programming" title="Dynamic programming">Dynamic programming</a></li>
+<li><a href="Greedy_algorithm" title="Greedy algorithm">Greedy algorithm</a></li>
+<li><a href="Integer_programming" title="Integer programming">Integer programming</a>
+<ul>
+<li><a href="Branch_and_bound" title="Branch and bound">Branch &amp; bound</a> or <a href="Branch_and_cut" title="Branch and cut">cut</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Graph_algorithm" title="Graph algorithm" class="mw-redirect">Graph algorithms</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Minimum_spanning_tree" title="Minimum spanning tree">Minimum spanning tree</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Bellman%E2%80%93Ford_algorithm" title="Bellman–Ford algorithm">Bellman–Ford</a></li>
+<li><a href="Bor%C5%AFvka's_algorithm" title="Borůvka's algorithm">Borůvka</a></li>
+<li><a href="Dijkstra's_algorithm" title="Dijkstra's algorithm">Dijkstra</a></li>
+<li><a href="Floyd%E2%80%93Warshall_algorithm" title="Floyd–Warshall algorithm">Floyd–Warshall</a></li>
+<li><a href="Johnson's_algorithm" title="Johnson's algorithm">Johnson</a></li>
+<li><a href="Kruskal's_algorithm" title="Kruskal's algorithm">Kruskal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Flow_network" title="Flow network">Network flows</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dinic's_algorithm" title="Dinic's algorithm">Dinic</a></li>
+<li><a href="Edmonds%E2%80%93Karp_algorithm" title="Edmonds–Karp algorithm">Edmonds–Karp</a></li>
+<li><a href="Ford%E2%80%93Fulkerson_algorithm" title="Ford–Fulkerson algorithm">Ford–Fulkerson</a></li>
+<li><a href="Push-relabel_maximum_flow_algorithm" title="Push-relabel maximum flow algorithm" class="mw-redirect">Push-relabel maximum flow</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Metaheuristic" title="Metaheuristic">Metaheuristics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Evolutionary_algorithm" title="Evolutionary algorithm">Evolutionary algorithm</a></li>
+<li><a href="Hill_climbing" title="Hill climbing">Hill climbing</a></li>
+<li><a href="Local_search_(optimization)" title="Local search (optimization)">Local search</a></li>
+<li><a href="Simulated_annealing" title="Simulated annealing">Simulated annealing</a></li>
+<li><a href="Tabu_search" title="Tabu search">Tabu search</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="3">
+<div>
+<ul>
+<li><b>Categories</b>
+<ul>
+<li><a href="Category_Optimization_algorithms_and_methods" title="Category:Optimization algorithms and methods">Algorithms and methods</a></li>
+<li><a href="Category_Heuristic_algorithms" title="Category:Heuristic algorithms">Heuristics</a></li>
+</ul>
+</li>
+<li><b><a href="Comparison_of_optimization_software" title="Comparison of optimization software">Software</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 5555/1000000
+Preprocessor generated node count: 35639/1500000
+Post-expand include size: 118101/2048000 bytes
+Template argument size: 85993/2048000 bytes
+Highest expansion depth: 22/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:420555-0!*!0!!en!4!* and timestamp 20130206200458 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Combinatorial_optimization&oldid=534553064.php.html">http://en.wikipedia.org/w/index.php?title=Combinatorial_optimization&amp;oldid=534553064</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Combinatorial_optimization" title="Category:Combinatorial optimization">Combinatorial optimization</a></li><li><a href="Category_Computational_complexity_theory" title="Category:Computational complexity theory">Computational complexity theory</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_external_links_cleanup_from_April_2012" title="Category:Wikipedia external links cleanup from April 2012">Wikipedia external links cleanup from April 2012</a></li><li><a href="Category_Wikipedia_spam_cleanup_from_April_2012" title="Category:Wikipedia spam cleanup from April 2012">Wikipedia spam cleanup from April 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Combinatorial+optimization&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Combinatorial+optimization.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Combinatorial_optimization"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Combinatorial_optimization&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Combinatorial_optimization&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Combinatorial_optimization" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Combinatorial_optimization" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Combinatorial_optimization&oldid=534553064.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Combinatorial_optimization&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Combinatorial_optimization&id=534553064.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Combinatorial+optimization.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Combinatorial+optimization&oldid=534553064&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Combinatorial_optimization&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Kombinatorische_Optimierung" title="Kombinatorische Optimierung" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Optimizaci%C3%B3n_combinatoria" title="Optimización combinatoria" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Diskreta_optimumigo" title="Diskreta optimumigo" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%A8%D9%87%DB%8C%D9%86%D9%87%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C_%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C%D8%A7%D8%AA%DB%8C" title="بهینه‌سازی ترکیبیاتی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Optimisation_combinatoire" title="Optimisation combinatoire" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%A1%B0%ED%95%A9%EC%B5%9C%EC%A0%81%ED%99%94" title="조합최적화" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E7%B5%84%E5%90%88%E3%81%9B%E6%9C%80%E9%81%A9%E5%8C%96" title="組合せ最適化" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Otimiza%C3%A7%C3%A3o_combinat%C3%B3ria" title="Otimização combinatória" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F" title="Комбинаторная оптимизация" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0_%D0%BE%D0%BF%D1%82%D0%B8%D0%BC%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%8F" title="Комбінаторна оптимізація" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%BB%84%E5%90%88%E4%BC%98%E5%8C%96" title="组合优化" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 23 January 2013 at 21:30.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Combinatorial_optimization" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1111 in 0.157 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

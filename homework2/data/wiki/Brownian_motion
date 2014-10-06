@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Brownian motion - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Brownian_motion&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Brownian_motion&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Brownian_motion","wgTitle":"Brownian motion","wgCurRevisionId":537992757,"wgArticleId":4436,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with inconsistent citation formats","Articles needing more detailed references","Use dmy dates from July 2012","Articles containing Greek language text","All articles with unsourced statements","Articles with unsourced statements from October 2012","Articles with unsourced statements from July 2012","Wikipedia articles needing clarification from April 2010","Wikipedia articles that are too technical from June 2011","All articles that are too technical","Articles needing expert attention from June 2011","All articles needing expert attention","Stochastic processes","Variants of random walks","Fractals","Statistical mechanics","Colloidal chemistry","Robert Brown (botanist)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Brownian_motion","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"a8cf5b04c929ed6c277c9150ceb52a0d","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":4436,"title":"Brownian motion","namespace":0,"categories":["All articles needing expert attention","All articles that are too technical","All articles with unsourced statements","Articles containing Greek language text","Articles needing expert attention from June 2011","Articles needing more detailed references","Articles with inconsistent citation formats","Articles with unsourced statements from July 2012","Articles with unsourced statements from October 2012","Colloidal chemistry","Fractals","Robert Brown (botanist)","Statistical mechanics","Stochastic processes","Use dmy dates from July 2012","Variants of random walks","Wikipedia articles needing clarification from April 2010","Wikipedia articles that are too technical from June 2011"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Brownian_motion skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Brownian motion</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article is about the physical phenomenon.  For the stochastic process, see <a href="Wiener_process" title="Wiener process">Wiener process</a>.  For the sports team, see <a href="Brownian_Motion_(Ultimate)" title="Brownian Motion (Ultimate)" class="mw-redirect">Brownian Motion (Ultimate)</a>.  For the mobility model, see <a href="Random_walk" title="Random walk">Random walk</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Brownian_motion_large.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Brownian_motion_large.gif/220px-Brownian_motion_large.gif" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/c/c2/Brownian_motion_large.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/c/c2/Brownian_motion_large.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Brownian_motion_large.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+This is a simulation of the Brownian motion of a big particle (dust particle) that collides with a large set of smaller particles (molecules of a gas) which move with different velocities in different random directions.</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Brownianmotion5particles150frame.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brownianmotion5particles150frame.gif/220px-Brownianmotion5particles150frame.gif" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/5/51/Brownianmotion5particles150frame.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/5/51/Brownianmotion5particles150frame.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Brownianmotion5particles150frame.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+This is a simulation of the Brownian motion of 5 particles (yellow) that collide with a large set of 800 particles. The yellow particles leave 5 blue trails of random motion and one of them has a red velocity vector.</div>
+</div>
+</div>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:Translational_motion.gif" class="image"><img alt="Translational motion.gif" src="http://upload.wikimedia.org/wikipedia/commons/6/6d/Translational_motion.gif" width="300" height="263" /></a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Brownian_hierarchical.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Brownian_hierarchical.svg/220px-Brownian_hierarchical.svg.png" width="220" height="230" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Brownian_hierarchical.svg/330px-Brownian_hierarchical.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Brownian_hierarchical.svg/440px-Brownian_hierarchical.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Brownian_hierarchical.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Three different views of Brownian motion, with 32 steps, 256 steps, and 2048 steps denoted by progressively lighter colors</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Wiener_process_3d.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiener_process_3d.png/220px-Wiener_process_3d.png" width="220" height="215" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiener_process_3d.png/330px-Wiener_process_3d.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiener_process_3d.png/440px-Wiener_process_3d.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Wiener_process_3d.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A single realisation of three-dimensional Brownian motion for times 0&#160;≤&#160;<i>t</i>&#160;≤&#160;2</div>
+</div>
+</div>
+<p><b>Brownian motion</b> or <b>pedesis</b> (from <a href="Greek_language" title="Greek language">Greek</a>: <span lang="el">πήδησις</span> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">Pɛɖeːsɪs</span> "leaping") is the presumably random moving of <a href="Particle" title="Particle">particles</a> suspended in a <a href="Fluid" title="Fluid">fluid</a> (a <a href="Liquid" title="Liquid">liquid</a> or a <a href="Gas" title="Gas">gas</a>) resulting from their bombardment by the fast-moving <a href="Atom" title="Atom">atoms</a> or <a href="Molecule" title="Molecule">molecules</a> in the gas or liquid. The term "Brownian motion" can also refer to the mathematical model used to describe such random movements, which is often called a <a href="Particle" title="Particle">particle theory</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>In 1827, the botanist <a href="Robert_Brown_(botanist)" title="Robert Brown (botanist)">Robert Brown</a>, looking through a microscope at pollen grains in water, noted that the grains moved through the water but was not able to determine the mechanisms that caused this motion. The direction of the force of atomic bombardment is constantly changing, and at different times the pollen grain is hit more on one side than another, leading to the seemingly random nature of the motion. This <a href="Transport_phenomena" title="Transport phenomena">transport phenomena</a> is named after Robert Brown.</p>
+<p>The mathematical model of Brownian motion has a few real-world applications. For instance, <a href="Stock_market" title="Stock market">Stock market</a> fluctuations are often cited, although <a href="Benoit_Mandelbrot" title="Benoit Mandelbrot">Benoit Mandelbrot</a> rejected its applicability to stock price movements in part because these are discontinuous.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Brownian motion is among the simplest of the continuous-time <a href="Stochastic_process" title="Stochastic process">stochastic (or probabilistic) processes</a>, and it is a <a href="Limit_(mathematics)" title="Limit (mathematics)">limit</a> of both simpler and more complicated stochastic processes (see <a href="Random_walk" title="Random walk">random walk</a> and <a href="Donsker's_theorem" title="Donsker's theorem">Donsker's theorem</a>). This <a href="Universality_(dynamical_systems)" title="Universality (dynamical systems)">universality</a> is closely related to the universality of the <a href="Normal_distribution" title="Normal distribution">normal distribution</a>. In both cases, it is often mathematical convenience rather than the accuracy of the models that motivates their use. This is because Brownian motion, whose time derivative is everywhere infinite, is an idealised approximation to actual random physical processes, which always have a finite time scale.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Einstein.27s_theory"><span class="tocnumber">2</span> <span class="toctext">Einstein's theory</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Intuitive_metaphor"><span class="tocnumber">3</span> <span class="toctext">Intuitive metaphor</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Theory"><span class="tocnumber">4</span> <span class="toctext">Theory</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Smoluchowski_model"><span class="tocnumber">4.1</span> <span class="toctext">Smoluchowski model</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Modeling_using_differential_equations"><span class="tocnumber">5</span> <span class="toctext">Modeling using differential equations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Mathematics"><span class="tocnumber">5.1</span> <span class="toctext">Mathematics</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Physics"><span class="tocnumber">5.2</span> <span class="toctext">Physics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#L.C3.A9vy_characterisation"><span class="tocnumber">6</span> <span class="toctext">Lévy characterisation</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Riemannian_manifold"><span class="tocnumber">7</span> <span class="toctext">Riemannian manifold</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Gravitational_motion"><span class="tocnumber">8</span> <span class="toctext">Gravitational motion</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Narrow_escape"><span class="tocnumber">9</span> <span class="toctext">Narrow escape</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">11</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Further_reading"><span class="tocnumber">12</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:PerrinPlot2.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/44/PerrinPlot2.svg/220px-PerrinPlot2.svg.png" width="220" height="170" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/44/PerrinPlot2.svg/330px-PerrinPlot2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/44/PerrinPlot2.svg/440px-PerrinPlot2.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:PerrinPlot2.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Reproduced from the book of <a href="Jean_Baptiste_Perrin" title="Jean Baptiste Perrin">Jean Baptiste Perrin</a>, <i>Les Atomes</i>, three tracings of the motion of colloidal particles of radius 0.53&#160;µm, as seen under the microscope, are displayed. Successive positions every 30 seconds are joined by straight line segments (the mesh size is 3.2&#160;µm).<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></div>
+</div>
+</div>
+<p>The Roman <a href="Lucretius" title="Lucretius">Lucretius</a>'s scientific poem "<a href="On_the_Nature_of_Things" title="On the Nature of Things" class="mw-redirect">On the Nature of Things</a>" (c. 60 BC) has a remarkable description of Brownian motion of dust particles. He uses this as a proof of the existence of atoms:</p>
+<blockquote>
+<p>"Observe what happens when sunbeams are admitted into a building and shed light on its shadowy places. You will see a multitude of tiny particles mingling in a multitude of ways... their dancing is an actual indication of underlying movements of matter that are hidden from our sight... It originates with the atoms which move of themselves [i.e., spontaneously]. Then those small compound bodies that are least removed from the impetus of the atoms are set in motion by the impact of their invisible blows and in turn cannon against slightly larger bodies. So the movement mounts up from the atoms and gradually emerges to the level of our senses, so that those bodies are in motion that we see in sunbeams, moved by blows that remain invisible."</p>
+</blockquote>
+<p>Although the mingling motion of dust particles is caused largely by air currents, the glittering, tumbling motion of small dust particles is, indeed, caused chiefly by true Brownian dynamics.</p>
+<p><a href="Jan_Ingenhousz" title="Jan Ingenhousz">Jan Ingenhousz</a> had described the irregular motion of <a href="Coal" title="Coal">coal</a> <a href="Dust" title="Dust">dust</a> particles on the surface of <a href="Ethanol" title="Ethanol">alcohol</a> in 1785 — nevertheless the discovery is often credited to the botanist <a href="Robert_Brown_(botanist)" title="Robert Brown (botanist)">Robert Brown</a> in 1827. Brown was studying <a href="Pollen" title="Pollen">pollen</a> grains of the plant <i><a href="Clarkia_pulchella" title="Clarkia pulchella">Clarkia pulchella</a></i> suspended in water under a microscope when he observed minute particles, ejected by the pollen grains, executing a jittery motion. By repeating the experiment with particles of inorganic matter he was able to rule out that the motion was life-related, although its origin was yet to be explained.</p>
+<p>The first person to describe the mathematics behind Brownian motion was <a href="../Thorvald_N._Thiele" title="Thorvald N. Thiele">Thorvald N. Thiele</a> in a paper on the method of <a href="Least_squares" title="Least squares">least squares</a> published in 1880. This was followed independently by <a href="Louis_Bachelier" title="Louis Bachelier">Louis Bachelier</a> in 1900 in his PhD thesis "The theory of speculation", in which he presented a stochastic analysis of the stock and option markets. <a href="Albert_Einstein" title="Albert Einstein">Albert Einstein</a> (in one of his <a href="%C3%9Cber_die_von_der_molekularkinetischen_Theorie_der_W%C3%A4rme_geforderte_Bewegung_von_in_ruhenden_Fl%C3%BCssigkeiten_suspendierten_Teilchen" title="Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen">1905 papers</a>) and <a href="Marian_Smoluchowski" title="Marian Smoluchowski">Marian Smoluchowski</a> (1906) brought the solution of the problem to the attention of physicists, and presented it as a way to indirectly confirm the existence of atoms and molecules. Their equations describing Brownian motion were subsequently verified by the experimental work of <a href="Jean_Baptiste_Perrin" title="Jean Baptiste Perrin">Jean Baptiste Perrin</a> in 1908.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=2.php.html" title="Edit section: Einstein's theory">edit</a>]</span> <span class="mw-headline" id="Einstein.27s_theory">Einstein's theory</span></h2>
+<p>There are two parts to Einstein's theory: the first part consists in the formulation of a diffusion equation for Brownian particles, in which the diffusion coefficient is related to the <a href="Mean_squared_displacement" title="Mean squared displacement">mean squared displacement</a> of a Brownian particle, while the second part consists in relating the diffusion coefficient to measurable physical quantities.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup> In this way Einstein was able to determine the size of atoms, and how many atoms there are in a mole, or the molecular weight in grams, of a gas.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup> In accordance to <a href="Avogadro's_law" title="Avogadro's law">Avogadro's law</a> this volume is the same for all ideal gases, which is 22.414 liters at standard temperature and pressure. The number of atoms contained in this volume is referred to as <a href="Avogadro_constant" title="Avogadro constant">Avogadro's number</a>, and the determination of this number is tantamount to the knowledge of the mass of an atom since the latter is obtained by dividing the mass of a mole of the gas by Avogadro's number.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Diffusion_of_Brownian_particles.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Diffusion_of_Brownian_particles.svg/300px-Diffusion_of_Brownian_particles.svg.png" width="300" height="206" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Diffusion_of_Brownian_particles.svg/450px-Diffusion_of_Brownian_particles.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Diffusion_of_Brownian_particles.svg/600px-Diffusion_of_Brownian_particles.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Diffusion_of_Brownian_particles.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The characteristic bell-shaped curves of the diffusion of Brownian particles. The distribution begins as a <a href="Dirac_delta_function" title="Dirac delta function">Dirac delta function</a>, indicating that all the particles are located at the origin at time t=0, and for increasing times they become flatter and flatter until the distribution becomes uniform in the asymptotic time limit.</div>
+</div>
+</div>
+<p>The first part of Einstein's argument was to determine how far a Brownian particle travels in a given time interval.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup> Classical mechanics is unable to determine this distance because of the enormous number of bombardments a Brownian particle will undergo, roughly of the order of 10<sup>21</sup> collisions per second.<sup id="cite_ref-Chandrasekhar43_4-0" class="reference"><a href="#cite_note-Chandrasekhar43-4"><span>[</span>4<span>]</span></a></sup> Thus Einstein was led to consider the collective motion of Brownian particles.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup> He<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup> showed that if ρ(x,t) is the density of Brownian particles at point x at time t, then ρ satisfies the diffusion equation:</p>
+<dl>
+<dd><img class="tex" alt="\frac{\partial\rho}{\partial t}=D\frac{\partial^2\rho}{\partial x^2}," src="http://upload.wikimedia.org/math/c/d/f/cdf7ffbbab4601275c5cb96a8e69ad4f.png" /></dd>
+</dl>
+<p>where:</p>
+<p>D is the <a href="Mass_diffusivity" title="Mass diffusivity">mass diffusivity</a>.</p>
+<p>Assuming that all the particles start from the origin at the initial time t=0, the diffusion equation has the solution</p>
+<dl>
+<dd><img class="tex" alt="\rho(x,t)=\frac{\rho_0}{(4\pi Dt)^{1/2}}e^{-x^2/4Dt}." src="http://upload.wikimedia.org/math/1/4/4/14495cba133f86ae12a99ed15b809b7d.png" /></dd>
+</dl>
+<p>This expression allowed Einstein to calculate the moments directly. The first moment is seen to vanish, meaning that the Brownian particle is equally likely to move to the left as it is to move to the right. The second moment is, however, non-vanishing, being given by</p>
+<dl>
+<dd><img class="tex" alt="\overline{x^2}=2Dt." src="http://upload.wikimedia.org/math/d/2/d/d2d2c9aa621f4d6f342c3a82bf9fb7ea.png" /></dd>
+</dl>
+<p>This expresses the mean squared displacement in terms of the time elapsed and the diffusivity. From this expression Einstein argued that the displacement of a Brownian particle is not proportional to the elapsed time, but rather to its square root.<sup id="cite_ref-Einstein_5-0" class="reference"><a href="#cite_note-Einstein-5"><span>[</span>5<span>]</span></a></sup> His argument is based on a conceptual switch from the "ensemble" of Brownian particles to the "single" Brownian particle: we can speak of the relative number of particles at a single instant just as well as of the time it takes a Brownian particle to reach a given point.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>The second part of Einstein's theory relates the diffusion constant to physically measurable quantities, such as the mean squared displacement of a particle in a given time interval. This result enables the experimental determination of Avogadro's number and therefore the size of molecules. Einstein analyzed a dynamic equilibrium being established between opposing forces. The beauty of his argument is that the final result does not depend upon which forces are involved in setting up the dynamic equilibrium. In his original treatment, Einstein considered an osmotic pressure experiment, but the same conclusion can be reached in other ways. Consider, for instance, particles suspended in a viscous fluid in a gravitational field. Gravity tends to make the particles settle, whereas diffusion acts to homogenize them, driving them into regions of smaller concentration. Under the action of gravity, a particle acquires a downward speed of <img class="tex" alt="v=\mu mg" src="http://upload.wikimedia.org/math/c/e/e/ceee7b6e67fa2c5902d1c7259ad4ccca.png" />, where <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" /> is the mass of the particle, <img class="tex" alt="g" src="http://upload.wikimedia.org/math/b/2/f/b2f5ff47436671b6e533d8dc3614845d.png" /> is the acceleration due to gravity, and <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" /> is the particle's <a href="Einstein_relation_(kinetic_theory)" title="Einstein relation (kinetic theory)">mobility</a> in the fluid. <a href="Sir_George_Stokes,_1st_Baronet" title="Sir George Stokes, 1st Baronet">George Stokes</a> had shown that the mobility for a spherical particle with radius <img class="tex" alt="r" src="http://upload.wikimedia.org/math/4/b/4/4b43b0aee35624cd95b910189b3dc231.png" /> is <img class="tex" alt="\mu=1/(6\pi\eta r)" src="http://upload.wikimedia.org/math/0/7/6/076b460de243dfb3b02d0e9ccfe9b377.png" />, where <img class="tex" alt="\eta" src="http://upload.wikimedia.org/math/7/1/7/7174cbd6aeaaa56e37102b72386bb2b9.png" /> is the <a href="Dynamic_viscosity" title="Dynamic viscosity" class="mw-redirect">dynamic viscosity</a> of the fluid. In a state of dynamic equilibrium, the particles are distributed according to the barometric distribution</p>
+<dl>
+<dd><img class="tex" alt="\rho=\rho_0e^{-mgh/k_BT}," src="http://upload.wikimedia.org/math/b/7/6/b767d91b213e4bf11ecbc02219e0b405.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="\rho-\rho_0" src="http://upload.wikimedia.org/math/4/0/7/407306e978c3807b973ead241036a516.png" /> is the difference in density of particles separated by a height difference of <img class="tex" alt="h" src="http://upload.wikimedia.org/math/2/5/1/2510c39011c5be704182423e3a695e91.png" />, <img class="tex" alt="k_B" src="http://upload.wikimedia.org/math/4/9/9/499ea482f0642e2bd203a3f560d4dd97.png" /> is Boltzmann's constant (namely, the ratio of the universal gas constant, <img class="tex" alt="R" src="http://upload.wikimedia.org/math/e/1/e/e1e1d3d40573127e9ee0480caf1283d6.png" />, to Avogadro's number, <img class="tex" alt="N" src="http://upload.wikimedia.org/math/8/d/9/8d9c307cb7f3c4a32822a51922d1ceaa.png" />), and <img class="tex" alt="T" src="http://upload.wikimedia.org/math/b/9/e/b9ece18c950afbfa6b0fdbfa4ff731d3.png" /> is the absolute temperature. It is Avogadro's number that is to be determined.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Brownian_motion_gamboge.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Brownian_motion_gamboge.jpg/220px-Brownian_motion_gamboge.jpg" width="220" height="181" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Brownian_motion_gamboge.jpg/330px-Brownian_motion_gamboge.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Brownian_motion_gamboge.jpg/440px-Brownian_motion_gamboge.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Brownian_motion_gamboge.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The equilibrium distribution for particles of <a href="Gamboge" title="Gamboge">gamboge</a> shows the tendency for granules to move to regions of lower concentration when affected by gravity.</div>
+</div>
+</div>
+<p>Dynamic equilibrium is established because the more that particles are pulled down by gravity, the greater is the tendency for the particles to migrate to regions of lower concentration. The flux is given by <a href="Fick's_laws_of_diffusion" title="Fick's laws of diffusion">Fick's law</a>,</p>
+<dl>
+<dd><img class="tex" alt="J=-D\frac{d\rho}{dh}," src="http://upload.wikimedia.org/math/6/2/d/62d7100fd90a0a210f2ba8c5b33a0d1b.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="J=\rho v" src="http://upload.wikimedia.org/math/2/e/4/2e4646b52dd5287640f0d734efd7ceb3.png" />. Introducing the formula for <img class="tex" alt="\rho" src="http://upload.wikimedia.org/math/f/7/f/f7f177957cf064a93e9811df8fe65ed1.png" />, we find that</p>
+<dl>
+<dd><img class="tex" alt="v=\frac{Dmg}{k_BT}." src="http://upload.wikimedia.org/math/6/3/2/632c83a66c4da1e365cbd164dc22d282.png" /></dd>
+</dl>
+<p>In a state of dynamical equilibrium, this speed must also be equal to <img class="tex" alt="v=\mu mg" src="http://upload.wikimedia.org/math/c/e/e/ceee7b6e67fa2c5902d1c7259ad4ccca.png" />. Notice that both expressions for <img class="tex" alt="v" src="http://upload.wikimedia.org/math/9/e/3/9e3669d19b675bd57058fd4664205d2a.png" /> are proportional to <img class="tex" alt="mg" src="http://upload.wikimedia.org/math/b/3/5/b351bb9b0af6e4fc678749675c53ad67.png" />, reflecting how the derivation is independent of the type of forces considered. Equating these two expressions yields a formula for the diffusivity:</p>
+<dl>
+<dd><img class="tex" alt="\frac{\overline{x^2}}{2t}=D=\mu k_BT=\frac{\mu RT}{N}=\frac{RT}{6\pi\eta rN}." src="http://upload.wikimedia.org/math/3/1/2/3122902a8274ad854726c177994d798a.png" /></dd>
+</dl>
+<p>Here the first equality follows from the first part of Einstein's theory, the third equality follows from the definition of Boltzmann's constant as <img class="tex" alt="k_B=R/N" src="http://upload.wikimedia.org/math/7/7/3/773a1dd1cd726c4cf1add88e86e1b104.png" />, and the fourth equality follows from Stokes' formula for the mobility. By measuring the mean squared displacement over a time interval along with the universal gas constant <img class="tex" alt="R" src="http://upload.wikimedia.org/math/e/1/e/e1e1d3d40573127e9ee0480caf1283d6.png" />, the temperature <img class="tex" alt="T" src="http://upload.wikimedia.org/math/b/9/e/b9ece18c950afbfa6b0fdbfa4ff731d3.png" />, the viscosity <img class="tex" alt="\eta" src="http://upload.wikimedia.org/math/7/1/7/7174cbd6aeaaa56e37102b72386bb2b9.png" />, and the particle radius <img class="tex" alt="r" src="http://upload.wikimedia.org/math/4/b/4/4b43b0aee35624cd95b910189b3dc231.png" />, Avogadro's number <img class="tex" alt="N" src="http://upload.wikimedia.org/math/8/d/9/8d9c307cb7f3c4a32822a51922d1ceaa.png" /> can be determined.</p>
+<p>The type of dynamical equilibrium proposed by Einstein was not new. It had been pointed out previously by <a href="../J._J._Thomson" title="J. J. Thomson">J. J. Thomson</a><sup id="cite_ref-Electricity_7-0" class="reference"><a href="#cite_note-Electricity-7"><span>[</span>7<span>]</span></a></sup> in his series of lectures at Yale University in May 1903 that the dynamic equilibrium between the velocity generated by a concentration gradient given by Fick's law and the velocity due to the variation of the partial pressure caused when ions are set in motion "gives us a method of determining Avogadro's Constant which is independent of any hypothesis as to the shape or size of molecules, or of the way in which they act upon each other".<sup id="cite_ref-Electricity_7-1" class="reference"><a href="#cite_note-Electricity-7"><span>[</span>7<span>]</span></a></sup></p>
+<p>An identical expression to Einstein's formula for the diffusion coefficient was also found by <a href="Walther_Nernst" title="Walther Nernst">Walther Nernst</a> in 1888<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> in which he expressed the diffusion coefficient as the ratio of the osmotic pressure to the ratio of the frictional force and the velocity to which it gives rise. The former was equated to the law of van 't Hoff while the latter was given by <a href="Stokes'_law" title="Stokes' law">Stokes's law</a>. He writes <img class="tex" alt="k'=p_0/k" src="http://upload.wikimedia.org/math/4/9/f/49f1b1bba77b66c0a4514ce2f3e0fe7d.png" /> for the diffusion coefficient <img class="tex" alt="k'" src="http://upload.wikimedia.org/math/d/6/a/d6a72fc99e4efef53dc8969ba2f042d2.png" />, where <img class="tex" alt="p_0" src="http://upload.wikimedia.org/math/4/e/f/4ef9cff2047e04349f6399910a5e1592.png" /> is the osmotic pressure and <img class="tex" alt="k" src="http://upload.wikimedia.org/math/8/c/e/8ce4b16b22b58894aa86c421e8759df3.png" /> is the ratio of the frictional force to the molecular viscosity which he assumes is given by Stokes's formula for the viscosity. Introducing the ideal gas law per unit volume for the osmotic pressure, the formula becomes identical to that of Einstein's.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> The use of Stokes's law in Nernst's case, as well as in Einstein and Smoluchowski, is not strictly applicable since it does not apply to the case where the radius of the sphere is small in comparison with the mean free path.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>At first the predictions of Einstein's formula were seemingly refuted by a series of experiments by Svedberg in 1906 and 1907, which gave displacements of the particles as 4 to 6 times the predicted value, and by Henri in 1908 who found displacements 3 times greater than Einstein's formula predicted.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> But Einstein's predictions were finally confirmed in a series of experiments carried out by Chaudesaigues in 1908 and Perrin in 1909. The confirmation of Einstein's theory constituted empirical progress for the kinetic theory of heat. In essence, Einstein showed that the motion can be predicted directly from the kinetic model of thermal equilibrium. The importance of the theory lay in the fact that it confirmed the kinetic theory's account of the second law of <a href="Thermodynamics" title="Thermodynamics">thermodynamics</a> as being an essentially statistical law.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=3.php.html" title="Edit section: Intuitive metaphor">edit</a>]</span> <span class="mw-headline" id="Intuitive_metaphor">Intuitive metaphor</span></h2>
+<p>Consider a large balloon of 100 metres in diameter. Imagine this large balloon in a football stadium. The balloon is so large that it lies on top of many members of the crowd. Because they are excited, these fans hit the balloon at different times and in different directions with the motions being completely random. In the end, the balloon is pushed in random directions, so it should not move on average. Consider now the force exerted at a certain time. We might have 20 supporters pushing right, and 21 other supporters pushing left, where each supporter is exerting equivalent amounts of force. In this case, the forces exerted towards the left and the right are imbalanced in favor of the left; the balloon will move slightly to the left. This type of imbalance exists at all times, and it causes random motion of the balloon. If we look at this situation from far above, so that we cannot see the supporters, we see the large balloon as a small object animated by erratic movement.</p>
+<table style="width:320px; float:right; border:1px solid #ccc; background:#f9f9f9; font-size:88%; line-height:1.5em;">
+<tr>
+<td>
+<div class="mediaContainer" style="position:relative;display:block;width:320px"><video id="mwe_player_2" style="width:320px;height:240px" poster="//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Brownian_Motion.ogv/320px--Brownian_Motion.ogv.jpg" controls="" preload="none" class="kskin" data-durationhint="112.56" data-startoffset="0" data-mwtitle="Brownian_Motion.ogv" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Brownian_Motion.ogv/Brownian_Motion.ogv.360p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" transcodekey="360p.webm" data-title="Web streamable WebM (360P)" data-shorttitle="WebM 360P" data-width="320" data-height="240" data-bandwidth="47944" data-framerate="54.166666666667"></source><source src="//upload.wikimedia.org/wikipedia/commons/c/cc/Brownian_Motion.ogv" type="video/ogg; codecs=&quot;theora&quot;" data-title="Original ogg, 320 × 240 (217kbps)" data-shorttitle="Ogg source" data-width="320" data-height="240" data-bandwidth="217236" data-framerate="54.166666666667"></source>Sorry, your browser either has JavaScript disabled or does not have any supported player.<br />
+You can <a href="http://upload.wikimedia.org/wikipedia/commons/c/cc/Brownian_Motion.ogv">download the clip</a> or <a href="http://www.mediawiki.org/wiki/Extension:TimedMediaHandler/Client_download">download a player</a> to play the clip in your browser.</video></div>
+</td>
+</tr>
+<tr>
+<td>Brownian motion model of the trajectory of a particle of dye in water.</td>
+</tr>
+</table>
+<p>Consider the particles emitted by Brown's pollen grain moving randomly in water: we know that a water molecule is about 0.1 by 0.2&#160;nm in size, whereas the particles which Brown observed were of the order of a few <a href="Micrometre" title="Micrometre">micrometres</a> in size (these are not to be confused with the actual pollen particle which is about 100 micrometres). So a particle from the pollen may be likened to the balloon, and the water molecules to the fans, except that in this case the balloon is surrounded by fans. The Brownian motion of a particle in a liquid is thus due to the instantaneous imbalance in the combined forces exerted by collisions of the particle with the much smaller liquid molecules (which are in random <a href="Temperature" title="Temperature">thermal</a> motion) surrounding it.</p>
+<p>An <a rel="nofollow" class="external text" href="http://galileo.phys.virginia.edu/classes/109N/more_stuff/Applets/brownian/brownian.html">animation of the Brownian motion concept</a> is available as a <a href="Java_applet" title="Java applet">Java applet</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=4.php.html" title="Edit section: Theory">edit</a>]</span> <span class="mw-headline" id="Theory">Theory</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=5.php.html" title="Edit section: Smoluchowski model">edit</a>]</span> <span class="mw-headline" id="Smoluchowski_model">Smoluchowski model</span></h3>
+<p><a href="Marian_Smoluchowski" title="Marian Smoluchowski">Smoluchowski</a>'s theory of Brownian motion<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> starts from the same premise as that of Einstein and derives the same probability distribution <img class="tex" alt="\rho(x,t)" src="http://upload.wikimedia.org/math/0/8/1/08153fed3789fe1d15cb8f955f8e3867.png" /> for the displacement of a Brownian particle along the <img class="tex" alt="x" src="http://upload.wikimedia.org/math/9/d/d/9dd4e461268c8034f5c8564e155c67a6.png" /> in time <img class="tex" alt="t" src="http://upload.wikimedia.org/math/e/3/5/e358efa489f58062f10dd7316b65649e.png" />. He therefore gets the same expression for the mean squared displacement: <img class="tex" alt="\overline{(\Delta x)^2}" src="http://upload.wikimedia.org/math/b/5/b/b5b7d68df6b416167d62f2abcbb23cee.png" />. However, when he relates it to a particle of mass <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" /> moving at a velocity <img class="tex" alt="u" src="http://upload.wikimedia.org/math/7/b/7/7b774effe4a349c6dd82ad4f4f21d34c.png" /> which is the result of a frictional force governed by Stokes's law, he finds</p>
+<dl>
+<dd><img class="tex" alt="\overline{(\Delta x)^2}=2Dt=t\frac{32}{81}\frac{mu^2}{\pi\mu a}=t\frac{64}{27}\frac{mu^2/2}{3\pi\mu a}," src="http://upload.wikimedia.org/math/0/f/7/0f7c07e600b28dd2536cce30b89cb84b.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" /> is the viscosity coefficient, and <img class="tex" alt="a" src="http://upload.wikimedia.org/math/0/c/c/0cc175b9c0f1b6a831c399e269772661.png" /> is the radius of the particle. Associating the kinetic energy <img class="tex" alt="mu^2/2" src="http://upload.wikimedia.org/math/4/5/3/453be8ca35a4dbc1d06873eb83354462.png" /> with the thermal energy <img class="tex" alt="RT/N" src="http://upload.wikimedia.org/math/c/c/0/cc01b189f3cc865f868c5ac3208a8215.png" />, the expression for the mean squared displacement is 64/27 times that found by Einstein. The fraction 27/64 was commented on by Arnold Sommerfeld in his necrology on Smoluckowski: "The numerical coefficient of Einstein, which differs from Smoluchowski by 27/64 can only be put in doubt."<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<p>Smoluchowski<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> attempts to answer the question of why a Brownian particle should be displaced by bombardments of smaller particles when the probabilities for striking it in the forward and rear directions are equal. In order to do so, he uses, unknowingly, the <a href="Ballot_theorem" title="Ballot theorem" class="mw-redirect">ballot theorem</a>, first proved by W.A. Whitworth in 1887.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> The ballot theorem states that if a candidate A scores <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" /> votes and candidate B scores <img class="tex" alt="n-m" src="http://upload.wikimedia.org/math/d/7/3/d733fd8595bd7313c92223e51e3ce3a8.png" /> that the probability throughout the counting that A will have more votes than B is <img class="tex" alt="[m-(n-m)]/[m+n-m]," src="http://upload.wikimedia.org/math/b/0/5/b059cbc1ce744a457d5654ae71d1dc9f.png" /> or <img class="tex" alt="(2m-n)/n" src="http://upload.wikimedia.org/math/9/2/2/92290dae19b02a8dd4ec955a579ed7e4.png" />, no matter how large the total number of votes <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" /> may be. In other words, if one candidate has an edge on the other candidate he will tend to keep that edge even though there is nothing favoring either candidate on a ballot extraction.</p>
+<p>If the probability of <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" /> gains and <img class="tex" alt="n-m" src="http://upload.wikimedia.org/math/d/7/3/d733fd8595bd7313c92223e51e3ce3a8.png" /> losses follows a <a href="Binomial_distribution" title="Binomial distribution">binomial distribution</a>,</p>
+<dl>
+<dd><img class="tex" alt="P_{m,n}=\binom{n}{m}2^{-n}," src="http://upload.wikimedia.org/math/1/3/0/1305853662e7c40d6fa3234a59b60d79.png" /></dd>
+</dl>
+<p>with equal <i>a priori</i> probabilities of <img class="tex" alt="1/2" src="http://upload.wikimedia.org/math/9/7/5/975ca8804565c1a569450d61090b2743.png" />, the mean total gain is</p>
+<dl>
+<dd><img class="tex" alt="\overline{2m-n}=\sum_{m=n/2}^n (2m-n)P_{m,n}=\frac{n n!}{2^n[(n/2)!]^2}." src="http://upload.wikimedia.org/math/e/c/6/ec630d38b630f71615365909372092c5.png" /></dd>
+</dl>
+<p>If <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" /> is large enough so that Stirling's approximation can be used in the form</p>
+<dl>
+<dd><img class="tex" alt="n!\approx\left(\frac{n}{e}\right)^n\sqrt{2\pi n}," src="http://upload.wikimedia.org/math/e/3/4/e34805346b7b5d6a26b43ca9067de7cd.png" /></dd>
+</dl>
+<p>then the expected total gain will be<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2012">citation needed</span></a></i>]</sup></p>
+<dl>
+<dd><img class="tex" alt="\overline{2m-n}\approx\sqrt{\frac{2n}{\pi}}," src="http://upload.wikimedia.org/math/9/1/9/919eb02f260f87d7c70378b9766095a0.png" /></dd>
+</dl>
+<p>showing that it increases as the square root of the total population.</p>
+<p>Suppose that a Brownian particle of mass <img class="tex" alt="M" src="http://upload.wikimedia.org/math/6/9/6/69691c7bdcc3ce6d5d8a1361f22d04ac.png" /> is surrounded by lighter particles of mass <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" /> which are traveling at a speed <img class="tex" alt="u" src="http://upload.wikimedia.org/math/7/b/7/7b774effe4a349c6dd82ad4f4f21d34c.png" />. Then, reasons Smoluchowski, in any collision between a surrounding and Brownian particles, the velocity transmitted to the latter will be <img class="tex" alt="mu/M" src="http://upload.wikimedia.org/math/6/e/b/6ebfe7265300839e2661dea79b5bb31e.png" />. This ratio is of the order of <img class="tex" alt="10^{-7}" src="http://upload.wikimedia.org/math/c/3/6/c3613be7ae19a8668a8a388fabfdb629.png" /> cm/sec. But we also have to take into consideration that in a gas there will be more than <img class="tex" alt="10^{16}" src="http://upload.wikimedia.org/math/e/7/1/e71dc08c10f6a51bf9ac80ce3e44293e.png" /> collisions in a second, and even greater in a liquid where we expect that there will be <img class="tex" alt="10^{20}" src="http://upload.wikimedia.org/math/2/4/0/240a5c38a403adf1c68410a8451defc5.png" /> collision in one second. Some of these collisions will tend to accelerate the Brownian particle; others will tend to decelerate it. If there is a mean excess of one kind of collision or the other to be of the order of <img class="tex" alt="10^{8}" src="http://upload.wikimedia.org/math/4/a/b/4abb21359aad9c164addf3efd1d21772.png" /> to <img class="tex" alt="10^{10}" src="http://upload.wikimedia.org/math/f/3/c/f3c75c54078aadf0d0e85e5ca4890c11.png" /> collisions in one second, then velocity of the Brownian particle may be anywhere between 10 to a 1000&#160;cm/sec. Thus, even though there are equal probabilities for forward and backward collisions there will be a net tendency to keep the Brownian particle in motion, just as the ballot theorem predicts.</p>
+<p>These orders of magnitude are not exact because they don't take into consideration the velocity of the Brownian particle, <img class="tex" alt="U" src="http://upload.wikimedia.org/math/4/c/6/4c614360da93c0a041b22e537de151eb.png" />, which depends on the collisions that tend to accelerate and decelerate it. The larger <img class="tex" alt="U" src="http://upload.wikimedia.org/math/4/c/6/4c614360da93c0a041b22e537de151eb.png" /> is, the greater will be the collisions that will retard it so that the velocity of a Brownian particle can never increase without limit. Could a such a process occur, it would be tantamount to a perpetual motion of the second type. And since equipartition of energy applies, the kinetic energy of the Brownian particle, <img class="tex" alt="MU^2/2" src="http://upload.wikimedia.org/math/2/e/a/2ea460114c692524248abb7bd5d824c5.png" />, will be equal, on the average, to the kinetic energy of the surrounding fluid particle, <img class="tex" alt="mu^2/2" src="http://upload.wikimedia.org/math/4/5/3/453be8ca35a4dbc1d06873eb83354462.png" />.</p>
+<p>In 1906 Smoluchowski published a one-dimensional model to describe a particle undergoing Brownian motion.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> The model assumes collisions with <i>M</i>&#160;<span class="Unicode">≫</span>&#160;<i>m</i> where <i>M</i> is the test particle's mass and <i>m</i> the mass of one of the individual particles composing the fluid. It is assumed that the particle collisions are confined to one dimension and that it is equally probable for the test particle to be hit from the left as from the right. It is also assumed that every collision always imparts the same magnitude of <img class="tex" alt="\Delta V" src="http://upload.wikimedia.org/math/d/e/f/def0fceff3b277a685bdb2936e614835.png" />. If <img class="tex" alt="N_R" src="http://upload.wikimedia.org/math/5/4/7/54740134933e7654924be752cc0ca2d9.png" /> is the number of collisions from the right and <img class="tex" alt="N_L" src="http://upload.wikimedia.org/math/e/0/2/e02891e00005c2468875f773b9d15f7f.png" /> the number of collisions from the left then after <i>N</i> collisions the particle's velocity will have changed by <img class="tex" alt="\Delta V(2N_R-N)" src="http://upload.wikimedia.org/math/f/1/c/f1ca63492766391fd1aa7fe6de635f69.png" />. The <a href="Multiplicity_(mathematics)" title="Multiplicity (mathematics)">multiplicity</a> is then simply given by:</p>
+<dl>
+<dd><img class="tex" alt="\frac{N!}{N_R!(N-N_R)!}" src="http://upload.wikimedia.org/math/9/c/1/9c19613cc8a4a6dd03a933a005b5be3e.png" /></dd>
+</dl>
+<p>and the total number of possible states is given by <img class="tex" alt="2^N" src="http://upload.wikimedia.org/math/5/1/a/51a00a634fd5e0ad8b398a5d65c9cd6d.png" />. Therefore the probability of the particle being hit from the right <img class="tex" alt="N_R" src="http://upload.wikimedia.org/math/5/4/7/54740134933e7654924be752cc0ca2d9.png" /> times is:</p>
+<dl>
+<dd><img class="tex" alt="P_N(N_R)=\frac{N!}{2^NN_R!(N-N_R)!}" src="http://upload.wikimedia.org/math/a/3/c/a3c21b05c5a467c476fdf5220d9bdd9b.png" /></dd>
+</dl>
+<p>As a result of its simplicity, Smoluchowski's 1D model can only qualitatively describe Brownian motion. For a realistic particle undergoing Brownian motion in a fluid many of the assumptions cannot be made. For example, the assumption that on average there occurs an equal number of collisions from the right as from the left falls apart once the particle is in motion. Also, there would be a distribution of different possible <img class="tex" alt="\Delta V" src="http://upload.wikimedia.org/math/d/e/f/def0fceff3b277a685bdb2936e614835.png" />s instead of always just one in a realistic situation.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=6.php.html" title="Edit section: Modeling using differential equations">edit</a>]</span> <span class="mw-headline" id="Modeling_using_differential_equations">Modeling using differential equations</span></h2>
+<p>The equations governing Brownian motion relate slightly differently to each of the two definitions of <i>Brownian motion</i> given at the start of this article.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=7.php.html" title="Edit section: Mathematics">edit</a>]</span> <span class="mw-headline" id="Mathematics">Mathematics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Wiener_process" title="Wiener process">Wiener process</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;">
+<div class="mediaContainer" style="position:relative;display:block;width:300px"><video id="mwe_player_3" style="width:300px;height:300px" poster="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2D_Random_Walk_400x400.ogv/300px--2D_Random_Walk_400x400.ogv.jpg" controls="" preload="none" class="kskin" data-durationhint="666.53333333333" data-startoffset="0" data-mwtitle="2D_Random_Walk_400x400.ogv" data-mwprovider="wikimediacommons"><source src="//upload.wikimedia.org/wikipedia/commons/a/a9/2D_Random_Walk_400x400.ogv" type="video/ogg; codecs=&quot;theora&quot;" data-title="Original ogg, 400 × 400 (218kbps)" data-shorttitle="Ogg source" data-width="400" data-height="400" data-bandwidth="218193" data-framerate="30"></source><source src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2D_Random_Walk_400x400.ogv/2D_Random_Walk_400x400.ogv.360p.webm" type="video/webm; codecs=&quot;vp8, vorbis&quot;" transcodekey="360p.webm" data-title="Web streamable WebM (360P)" data-shorttitle="WebM 360P" data-width="360" data-height="360" data-bandwidth="320208" data-framerate="30"></source>Sorry, your browser either has JavaScript disabled or does not have any supported player.<br />
+You can <a href="http://upload.wikimedia.org/wikipedia/commons/a/a9/2D_Random_Walk_400x400.ogv">download the clip</a> or <a href="http://www.mediawiki.org/wiki/Extension:TimedMediaHandler/Client_download">download a player</a> to play the clip in your browser.</video></div>
+<div class="thumbcaption">
+<div class="magnify"><a href="../File_2D_Random_Walk_400x400.ogv" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An animated example of a Brownian motion-like <a href="Random_walk" title="Random walk">random walk</a> on a <a href="Torus" title="Torus">torus</a>. In the <a href="Scaling_limit" title="Scaling limit">scaling limit</a>, random walk approaches the Wiener process according to <a href="Donsker's_theorem" title="Donsker's theorem">Donsker's theorem</a>.</div>
+</div>
+</div>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, Brownian motion is described by the <b>Wiener process</b>; a continuous-time <a href="Stochastic_process" title="Stochastic process">stochastic process</a> named in honor of <a href="Norbert_Wiener" title="Norbert Wiener">Norbert Wiener</a>. It is one of the best known <a href="L%C3%A9vy_process" title="Lévy process">Lévy processes</a> (<a href="C%C3%A0dl%C3%A0g" title="Càdlàg">càdlàg</a> stochastic processes with <a href="Stationary_process" title="Stationary process">stationary</a> <a href="Statistical_independence" title="Statistical independence" class="mw-redirect">independent</a> increments) and occurs frequently in pure and applied mathematics, <a href="Economy" title="Economy">economics</a> and <a href="Physics" title="Physics">physics</a>.</p>
+<p>The Wiener process <img class="tex" alt="W_t" src="http://upload.wikimedia.org/math/1/f/2/1f23b7344056336e50ed7ff881721734.png" /> is characterised by four facts:</p>
+<ol>
+<li><img class="tex" alt="\ W_0 = 0" src="http://upload.wikimedia.org/math/f/2/b/f2be062130ad2ed82d20b01386dc82ed.png" /></li>
+<li><img class="tex" alt="\ W_t" src="http://upload.wikimedia.org/math/b/7/7/b7796cc7caa9cac09cc95ee996515273.png" /> is <a href="Almost_surely" title="Almost surely">almost surely</a> continuous</li>
+<li><img class="tex" alt="\ W_t" src="http://upload.wikimedia.org/math/b/7/7/b7796cc7caa9cac09cc95ee996515273.png" /> has independent increments</li>
+<li><img class="tex" alt="W_t-W_s\sim \mathcal{N}(0,t-s)" src="http://upload.wikimedia.org/math/6/7/a/67a124a8fa6cf3d71df0b4287b39ce5b.png" /> (for <img class="tex" alt="0 \leq s \le t" src="http://upload.wikimedia.org/math/e/2/2/e220d8c56eed2522775fb5e563474161.png" />).</li>
+</ol>
+<p><img class="tex" alt="\mathcal{N}(\mu, \sigma^2)" src="http://upload.wikimedia.org/math/0/c/5/0c5b030344a76f354aadb766abd54f86.png" /> denotes the <a href="Normal_distribution" title="Normal distribution">normal distribution</a> with <a href="Expected_value" title="Expected value">expected value</a> <i>μ</i> and <a href="Variance" title="Variance">variance</a> <i>σ</i><sup>2</sup>. The condition that it has independent increments means that if <img class="tex" alt="0 \leq s_1 \leq t_1 \leq s_2 \leq t_2" src="http://upload.wikimedia.org/math/1/b/e/1be827aafe103f65c2ba7713cebceb53.png" /> then <img class="tex" alt="W_{t_1}-W_{s_1}" src="http://upload.wikimedia.org/math/6/4/7/6476de2ddc927364609437a527d9d28a.png" /> and <img class="tex" alt="W_{t_2}-W_{s_2}" src="http://upload.wikimedia.org/math/1/0/8/108b6756e5e51a4d38bc09709bca5ae9.png" /> are independent random variables.</p>
+<p>An alternative characterisation of the Wiener process is the so-called <i>Lévy characterisation</i> that says that the Wiener process is an almost surely continuous <a href="Martingale_(probability_theory)" title="Martingale (probability theory)">martingale</a> with <img class="tex" alt="W_0 = 0" src="http://upload.wikimedia.org/math/3/d/f/3df4a26c11807a47171b5a4c2f613112.png" /> and <a href="Quadratic_variation" title="Quadratic variation">quadratic variation</a> <img class="tex" alt="[W_t, W_t] = t" src="http://upload.wikimedia.org/math/7/4/d/74d4d3e232e6d7b0bd3bbb13f4558594.png" />.</p>
+<p>A third characterisation is that the Wiener process has a spectral representation as a sine series whose coefficients are independent <img class="tex" alt="\mathcal{N}(0, 1)" src="http://upload.wikimedia.org/math/3/d/b/3dbf6c28a4275cee76c877ae82866e05.png" /> random variables. This representation can be obtained using the <a href="Karhunen%E2%80%93Lo%C3%A8ve_theorem" title="Karhunen–Loève theorem">Karhunen–Loève theorem</a>.</p>
+<p>The Wiener process can be constructed as the <a href="Scaling_limit" title="Scaling limit">scaling limit</a> of a <a href="Random_walk" title="Random walk">random walk</a>, or other discrete-time stochastic processes with stationary independent increments. This is known as <a href="Donsker's_theorem" title="Donsker's theorem">Donsker's theorem</a>. Like the random walk, the Wiener process is recurrent in one or two dimensions (meaning that it returns almost surely to any fixed <a href="Neighborhood_(mathematics)" title="Neighborhood (mathematics)" class="mw-redirect">neighborhood</a> of the origin infinitely often) whereas it is not recurrent in dimensions three and higher. Unlike the random walk, it is <a href="Scale_invariance" title="Scale invariance">scale invariant</a>.</p>
+<p>The time evolution of the position of the Brownian particle itself can be described approximately by a <a href="Langevin_equation" title="Langevin equation">Langevin equation</a>, an equation which involves a random force field representing the effect of the <a href="Thermal_fluctuations" title="Thermal fluctuations">thermal fluctuations</a> of the solvent on the Brownian particle. On long timescales, the mathematical Brownian motion is well described by a Langevin equation. On small timescales, <a href="Inertia" title="Inertia">inertial</a> effects are prevalent in the Langevin equation. However the mathematical <i>Brownian motion</i> is exempt of such inertial effects. Note that inertial effects have to be considered in the Langevin equation, otherwise the equation becomes singular.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="The text in the vicinity of this tag needs clarification or removal of jargon from April 2010">clarification needed</span></a></i>]</sup> so that simply removing the <a href="Inertia" title="Inertia">inertia</a> term from this equation would not yield an exact description, but rather a singular behavior in which the particle doesn't move at all.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="The text in the vicinity of this tag needs clarification or removal of jargon from April 2010">clarification needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=8.php.html" title="Edit section: Physics">edit</a>]</span> <span class="mw-headline" id="Physics">Physics</span></h3>
+<p>The <a href="Diffusion_equation" title="Diffusion equation">diffusion equation</a> yields an approximation of the time evolution of the <a href="Probability_density_function" title="Probability density function">probability density function</a> associated to the position of the particle going under a Brownian movement under the physical definition. The approximation is valid on <a href="Langevin_equation" title="Langevin equation">short</a> timescales.</p>
+<p>The time evolution of the position of the Brownian particle itself is best described using <a href="Langevin_equation" title="Langevin equation">Langevin equation</a>, an equation which involves a random force field representing the effect of the <a href="Thermal_fluctuations" title="Thermal fluctuations">thermal fluctuations</a> of the solvent on the particle.</p>
+<p>The displacement of a particle undergoing Brownian motion is obtained by solving the <a href="Diffusion_equation" title="Diffusion equation">diffusion equation</a> under appropriate boundary conditions and finding the <a href="Root_mean_square" title="Root mean square">rms</a> of the solution. This shows that the displacement varies as the square root of the time (not linearly), which explains why previous experimental results concerning the velocity of Brownian particles gave nonsensical results. A linear time dependence was incorrectly assumed.</p>
+<p>At very short time scales, however, the motion of a particle is dominated by its inertia and its displacement will be linearly dependent on time: Δx = vΔt. So the instantaneous velocity of the Brownian motion can be measured as v = Δx/Δt, when Δt &lt;&lt; τ, where τ is the momentum relaxation time. In 2010, the instantaneous velocity of a Brownian particle (a glass microsphere trapped in air with an optical tweezer) was measured successfully.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> The velocity data verified the Maxwell-Boltzmann velocity distribution, and the equipartition theorem for a Brownian particle.</p>
+<p>The Brownian motion can be modeled by a random walk.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> Random walks in porous media or fractals are anomalous.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></p>
+<p>In the general case, Brownian motion is a <a href="Markov_process" title="Markov process">non-Markov random process</a> and described by <a href="Stochastic_calculus" title="Stochastic calculus">stochastic integral equations</a>.<sup id="cite_ref-mor-skr2a_21-0" class="reference"><a href="#cite_note-mor-skr2a-21"><span>[</span>21<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=9.php.html" title="Edit section: Lévy characterisation">edit</a>]</span> <span class="mw-headline" id="L.C3.A9vy_characterisation">Lévy characterisation</span></h2>
+<p>The French <a href="Mathematician" title="Mathematician">mathematician</a> <a href="Paul_Pierre_L%C3%A9vy" title="Paul Pierre Lévy">Paul Lévy</a> proved the following theorem, which gives a necessary and sufficient condition for a continuous <b>R</b><sup><i>n</i></sup>-valued stochastic process <i>X</i> to actually be <i>n</i>-dimensional Brownian motion. Hence, Lévy's condition can actually be used as an alternative definition of Brownian motion.</p>
+<p>Let <i>X</i>&#160;=&#160;(<i>X</i><sub>1</sub>,&#160;...,&#160;<i>X</i><sub><i>n</i></sub>) be a continuous stochastic process on a <a href="Probability_space" title="Probability space">probability space</a> (Ω,&#160;Σ,&#160;<b>P</b>) taking values in <b>R</b><sup><i>n</i></sup>. Then the following are equivalent:</p>
+<ol>
+<li><i>X</i> is a Brownian motion with respect to <b>P</b>, i.e., the law of <i>X</i> with respect to <b>P</b> is the same as the law of an <i>n</i>-dimensional Brownian motion, i.e., the <a href="Push-forward_measure" title="Push-forward measure" class="mw-redirect">push-forward measure</a> <i>X</i><sub>∗</sub>(<b>P</b>) is <a href="Classical_Wiener_measure" title="Classical Wiener measure" class="mw-redirect">classical Wiener measure</a> on <i>C</i><sub>0</sub>([0,&#160;+∞);&#160;<b>R</b><sup><i>n</i></sup>).</li>
+<li>both
+<ol>
+<li><i>X</i> is a <a href="Martingale_(probability_theory)" title="Martingale (probability theory)">martingale</a> with respect to <b>P</b> (and its own <a href="Natural_filtration" title="Natural filtration">natural filtration</a>); and</li>
+<li>for all 1&#160;≤&#160;<i>i</i>,&#160;<i>j</i>&#160;≤&#160;<i>n</i>, <i>X</i><sub><i>i</i></sub>(<i>t</i>)<i>X</i><sub><i>j</i></sub>(<i>t</i>)&#160;−<i>δ</i><sub><i>ij</i></sub><i>t</i> is a martingale with respect to <b>P</b> (and its own <a href="Natural_filtration" title="Natural filtration">natural filtration</a>), where <i>δ</i><sub><i>ij</i></sub> denotes the <a href="Kronecker_delta" title="Kronecker delta">Kronecker delta</a>.</li>
+</ol>
+</li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=10.php.html" title="Edit section: Riemannian manifold">edit</a>]</span> <span class="mw-headline" id="Riemannian_manifold">Riemannian manifold</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:BMonSphere.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BMonSphere.jpg/220px-BMonSphere.jpg" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BMonSphere.jpg/330px-BMonSphere.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4e/BMonSphere.jpg/440px-BMonSphere.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:BMonSphere.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Brownian motion on a 2-sphere</div>
+</div>
+</div>
+<table class="metadata plainlinks ambox ambox-style ambox-technical" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>may be too <a href="http://en.wiktionary.org/wiki/technical#Adjective" class="extiw" title="wikt:technical">technical</a> for most readers to understand</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Brownian_motion&action=edit.php.html">improve</a> this section to <a href="Wikipedia_Make_technical_articles_understandable" title="Wikipedia:Make technical articles understandable">make it understandable to non-experts</a>, without removing the technical details. The <a href="Talk_Brownian_motion" title="Talk:Brownian motion">talk page</a> may contain suggestions.</span> <small><i>(June 2011)</i></small> </span></td>
+</tr>
+</table>
+<p>The <a href="Infinitesimal_generator_(stochastic_processes)" title="Infinitesimal generator (stochastic processes)">infinitesimal generator</a> (and hence characteristic operator) of a Brownian motion on <b>R</b><sup><i>n</i></sup> is easily calculated to be ½Δ, where Δ denotes the <a href="Laplace_operator" title="Laplace operator">Laplace operator</a>. This observation is useful in defining Brownian motion on an <i>m</i>-dimensional <a href="Riemannian_manifold" title="Riemannian manifold">Riemannian manifold</a> (<i>M</i>,&#160;<i>g</i>): a <b>Brownian motion on</b> <i>M</i> is defined to be a diffusion on <i>M</i> whose characteristic operator <img class="tex" alt="\mathcal{A}" src="http://upload.wikimedia.org/math/8/4/c/84cc21a1ecbbe55e01e12e575a52cca2.png" /> in local coordinates <i>x</i><sub><i>i</i></sub>, 1&#160;≤&#160;<i>i</i>&#160;≤&#160;<i>m</i>, is given by ½Δ<sub>LB</sub>, where Δ<sub>LB</sub> is the <a href="Laplace%E2%80%93Beltrami_operator" title="Laplace–Beltrami operator">Laplace–Beltrami operator</a> given in local coordinates by</p>
+<dl>
+<dd><img class="tex" alt="\Delta_{\mathrm{LB}} = \frac1{\sqrt{\det(g)}} \sum_{i = 1}^{m} \frac{\partial}{\partial x_{i}} \left( \sqrt{\det(g)} \sum_{j = 1}^{m} g^{ij} \frac{\partial}{\partial x_{j}} \right)," src="http://upload.wikimedia.org/math/f/d/e/fde8a191f5c249546ff003e64a07c911.png" /></dd>
+</dl>
+<p>where [<i>g</i><sup><i>ij</i></sup>]&#160;=&#160;[<i>g</i><sub><i>ij</i></sub>]<sup>−1</sup> in the sense of <a href="Invertible_matrix" title="Invertible matrix">the inverse of a square matrix</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=11.php.html" title="Edit section: Gravitational motion">edit</a>]</span> <span class="mw-headline" id="Gravitational_motion">Gravitational motion</span></h2>
+<p>In <a href="Stellar_dynamics" title="Stellar dynamics">stellar dynamics</a>, a massive body (star, <a href="Black_hole" title="Black hole">black hole</a>, etc.) can experience Brownian motion as it responds to <a href="Gravitational" title="Gravitational" class="mw-redirect">gravitational forces</a> from surrounding stars.<sup id="cite_ref-Merritt_22-0" class="reference"><a href="#cite_note-Merritt-22"><span>[</span>22<span>]</span></a></sup> The rms velocity <img class="tex" alt="V" src="http://upload.wikimedia.org/math/5/2/0/5206560a306a2e085a437fd258eb57ce.png" /> of the massive object, of mass <img class="tex" alt="M" src="http://upload.wikimedia.org/math/6/9/6/69691c7bdcc3ce6d5d8a1361f22d04ac.png" />, is related to the rms velocity <img class="tex" alt="v_\star" src="http://upload.wikimedia.org/math/0/7/e/07e1f33dbd792649ce37b11a7ce6a05d.png" /> of the background stars by</p>
+<dl>
+<dd><img class="tex" alt="
+MV^2 \approx m v_\star^2
+" src="http://upload.wikimedia.org/math/5/3/1/53103228ee343c2e59e12885db6d882b.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="m\ll M" src="http://upload.wikimedia.org/math/f/9/9/f99d4aa81024c50f6240eadc85b9e3a0.png" /> is the mass of the background stars. The gravitational force from the massive object causes nearby stars to move faster than they otherwise would, increasing both <img class="tex" alt="v_\star" src="http://upload.wikimedia.org/math/0/7/e/07e1f33dbd792649ce37b11a7ce6a05d.png" /> and <img class="tex" alt="V" src="http://upload.wikimedia.org/math/5/2/0/5206560a306a2e085a437fd258eb57ce.png" />.<sup id="cite_ref-Merritt_22-1" class="reference"><a href="#cite_note-Merritt-22"><span>[</span>22<span>]</span></a></sup> The Brownian velocity of <a href="Sagittarius_A*" title="Sagittarius A*">Sgr A*</a>, the <a href="Supermassive_black_hole" title="Supermassive black hole">supermassive black hole</a> at the center of the <a href="Milky_Way_galaxy" title="Milky Way galaxy" class="mw-redirect">Milky Way galaxy</a>, is predicted from this formula to be less than 1&#160;km s<sup>−1</sup>.<sup id="cite_ref-Reid_23-0" class="reference"><a href="#cite_note-Reid-23"><span>[</span>23<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=12.php.html" title="Edit section: Narrow escape">edit</a>]</span> <span class="mw-headline" id="Narrow_escape">Narrow escape</span></h2>
+<p>The <b><a href="Narrow_escape_problem" title="Narrow escape problem">Narrow escape problem</a></b> is a ubiquitous problem in biology, biophysics and cellular biology which has the following formulation: a Brownian particle (<a href="Ion" title="Ion">ion</a>, <a href="Molecule" title="Molecule">molecule</a>, or <a href="Protein" title="Protein">protein</a>) is confined to a bounded domain (a compartment or a cell) by a reflecting boundary, except for a small window through which it can escape. The narrow escape problem is that of calculating the mean escape time. This time diverges as the window shrinks, thus rendering the calculation a <a href="Singular_perturbation" title="Singular perturbation">singular perturbation</a> problem.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=13.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Brownian_bridge" title="Brownian bridge">Brownian bridge</a>: a Brownian motion that is required to "bridge" specified values at specified times</li>
+<li><a href="Brownian_covariance" title="Brownian covariance" class="mw-redirect">Brownian covariance</a></li>
+<li><a href="Brownian_dynamics" title="Brownian dynamics">Brownian dynamics</a></li>
+<li><a href="Brownian_motor" title="Brownian motor">Brownian motor</a></li>
+<li><a href="Brownian_ratchet" title="Brownian ratchet">Brownian ratchet</a></li>
+<li><a href="Brownian_surface" title="Brownian surface">Brownian surface</a></li>
+<li><a href="Brownian_tree" title="Brownian tree">Brownian tree</a></li>
+<li><a href="Rotational_Brownian_motion" title="Rotational Brownian motion">Rotational Brownian motion</a></li>
+<li><a href="Complex_system" title="Complex system">Complex system</a></li>
+<li><a href="Diffusion_equation" title="Diffusion equation">Diffusion equation</a></li>
+<li><a href="Geometric_Brownian_motion" title="Geometric Brownian motion">Geometric Brownian motion</a></li>
+<li><a href="It%C5%8D_diffusion" title="Itō diffusion">Itō diffusion</a>: a generalisation of Brownian motion</li>
+<li><a href="Langevin_equation" title="Langevin equation">Langevin equation</a></li>
+<li><a href="L%C3%A9vy_arcsine_law" title="Lévy arcsine law">Lévy arcsine law</a></li>
+<li><a href="Local_time_(mathematics)" title="Local time (mathematics)">Local time (mathematics)</a></li>
+<li><a href="../Mark_G._Raizen" title="Mark G. Raizen">Mark G. Raizen</a></li>
+<li><a href="Osmosis" title="Osmosis">Osmosis</a></li>
+<li><a href="Random_walk" title="Random walk">Random walk</a></li>
+<li><a href="Red_noise" title="Red noise" class="mw-redirect">Red noise</a>, also known as <i>brown noise</i> (<a href="Martin_Gardner" title="Martin Gardner">Martin Gardner</a> proposed this name for sound generated with random intervals. It is a pun on Brownian motion and <a href="White_noise" title="White noise">white noise</a>.)</li>
+<li><a href="Schramm%E2%80%93Loewner_evolution" title="Schramm–Loewner evolution">Schramm–Loewner evolution</a></li>
+<li><a href="Surface_diffusion" title="Surface diffusion">Surface diffusion</a>: a type of constrained Brownian motion.</li>
+<li><a href="Tyndall_effect" title="Tyndall effect">Tyndall effect</a>: physical chemistry phenomenon where particles are involved; used to differentiate between the different types of mixtures.</li>
+<li><a href="Ultramicroscope" title="Ultramicroscope">Ultramicroscope</a></li>
+<li><a href="Single_particle_tracking" title="Single particle tracking">Single particle tracking</a></li>
+<li><a href="Nanoparticle_Tracking_Analysis" title="Nanoparticle Tracking Analysis" class="mw-redirect">Nanoparticle Tracking Analysis</a></li>
+<li><a href="Marangoni_effect" title="Marangoni effect">Marangoni effect</a></li>
+<li><a href="Narrow_escape_problem" title="Narrow escape problem">Narrow escape problem</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=14.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation book">Mörters, Peter; Peres, Yuval (25 May 2008). <a rel="nofollow" class="external text" href="http://www.stat.berkeley.edu/~peres/bmbook.pdf"><i>Brownian Motion</i></a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.stat.berkeley.edu/~peres/bmbook.pdf">http://www.stat.berkeley.edu/~peres/bmbook.pdf</a></span><span class="reference-accessdate">. Retrieved 25 May 2008</span>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation book">Mandelbrot, B.; Hudson, R. (2004). <i>The (Mis)behavior of Markets: A Fractal View of Risk, Ruin, and Reward</i>. New York: Basic Books. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-465-04355-0" title="Special:BookSources/0-465-04355-0">0-465-04355-0</a>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Perrin, 1914, <a rel="nofollow" class="external text" href="http://www.archive.org/stream/atomsper00perruoft#page/115/mode/1up">p. 115</a></span></li>
+<li id="cite_note-Chandrasekhar43-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Chandrasekhar43_4-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">Chandrasekhar, S. (1943). "Stochastic problems in physics and astronomy". <i><a href="Reviews_of_Modern_Physics" title="Reviews of Modern Physics">Reviews of Modern Physics</a></i> <b>15</b> (1): 1–89. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1103/RevModPhys.15.1">10.1103/RevModPhys.15.1</a>. <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=0008130">0008130</a>.</span></span></li>
+<li id="cite_note-Einstein-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Einstein_5-0">^</a></b></span> <span class="reference-text">A. Einstein, <i>Investigations of the Theory of Brownian Movement</i> (Dover, 1956).</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation book">Lavenda, Bernard H. (1985). <i>Nonequilibrium Statistical Thermodynamics</i>. John Wiley &amp; Sons Inc.. pp.&#160;20. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-90670-0" title="Special:BookSources/0-471-90670-0">0-471-90670-0</a>.</span></span></li>
+<li id="cite_note-Electricity-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-Electricity_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Electricity_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">"Electricity and Matter" (Yale University Press, New Haven, 1904), pp 80-83</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Zeit. Phys. Chem. 9 (1888) 613.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">J. Leveugle, La Relativite', Poincaré' et Einstein, Planck, Hilbert (L'Harmattan, Paris, 2004) p. 181</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">J.E.S. Townsend, "Electricity in Gases" (Clarendon Press, Oxford, 1915), p. 254.</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">See P. Clark 1976, p. 97</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">See P. Clark 1976 for this whole paragraph</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation Journal">Smoluchowski, M. (1906). <i>Bull. Int. De l'Acad. Des Sci. De Cracovie</i>: 202</span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation Journal">Sommerfeld, A. (15 November 1917). <i>Phys. Zeit.</i>: 535</span><sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Citing_sources#What_information_to_include" title="Wikipedia:Citing sources"><span title="A more detailed citation is required from November 2012">full citation needed</span></a></i>]</sup></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">loc. cite p. 577<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Citing_sources#What_information_to_include" title="Wikipedia:Citing sources"><span title="A more detailed citation is required from November 2012">full citation needed</span></a></i>]</sup></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation Journal">Whithworth, W. A. (1965). <i>Choice and Chance</i>. Hafner Pub. Co.</span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><span class="citation Journal">Smoluchowski, M. (1906). "Zur kinetischen Theorie der Brownschen Molekularbewegung und der Suspensionen". <i><a href="Annalen_der_Physik" title="Annalen der Physik">Annalen der Physik</a></i> <b>326</b> (14): 756–780. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1906AnP...326..756V">1906AnP...326..756V</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1002/andp.19063261405">10.1002/andp.19063261405</a></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation Journal">Li, Tongcang; Kheifets, Simon; Medellin, David; Raizen, Mark (June 2010). "Measurement of the instantaneous velocity of a Brownian particle". <i>Science</i> <b>328</b> (5986): 1673–1675. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2010Sci...328.1673L">2010Sci...328.1673L</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1126/science.1189403">10.1126/science.1189403</a>. <a href="PubMed_Identifier" title="PubMed Identifier" class="mw-redirect">PMID</a>&#160;<a rel="nofollow" class="external text" href="http://www.ncbi.nlm.nih.gov/pubmed/20488989">20488989</a>.</span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><span class="citation book">Weiss, G. H. (1994). <i>Aspects and applications of the random walk</i>. North Holland.</span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><span class="citation book">Ben-Avraham, D.; <a href="Shlomo_Havlin" title="Shlomo Havlin">Havlin, S.</a> (2000). <a rel="nofollow" class="external text" href="http://havlin.biu.ac.il/Shlomo%20Havlin%20books_d_r.php"><i>Diffusion and reaction in disordered systems</i></a>. Cambridge University Press<span class="printonly">. <a rel="nofollow" class="external free" href="http://havlin.biu.ac.il/Shlomo%20Havlin%20books_d_r.php">http://havlin.biu.ac.il/Shlomo%20Havlin%20books_d_r.php</a></span>.</span></span></li>
+<li id="cite_note-mor-skr2a-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-mor-skr2a_21-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">Morozov, A. N.; Skripkin, A. V. (2011). "Spherical particle Brownian motion in viscous medium as non-Markovian random process". <i>Physics Letters A</i> <b>375</b> (46): 4113–4115. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2011PhLA..375.4113M">2011PhLA..375.4113M</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1016/j.physleta.2011.10.001">10.1016/j.physleta.2011.10.001</a>.</span></span></li>
+<li id="cite_note-Merritt-22"><span class="mw-cite-backlink">^ <a href="#cite_ref-Merritt_22-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Merritt_22-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation Journal"><a href="David_Merritt" title="David Merritt">Merritt, D.</a>; Berczik, P.; Laun, F. (February 2007). "Brownian motion of black holes in dense nuclei". <i>The Astronomical Journal</i> <b>133</b> (2): 553–563. <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/astro-ph/0408029">astro-ph/0408029</a>. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2007AJ....133..553M">2007AJ....133..553M</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1086/510294">10.1086/510294</a></span></span></li>
+<li id="cite_note-Reid-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-Reid_23-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">Reid, M. J.; Brunthaler, A. (December 2004). "The Proper Motion of Sagittarius A*. II. The Mass of Sagittarius A*". <i>The Astrophysical Journal</i> <b>616</b> (2): 872–884. <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/astro-ph/0408107">astro-ph/0408107</a>. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2004ApJ...616..872R">2004ApJ...616..872R</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1086/424960">10.1086/424960</a></span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=15.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li>Brown, Robert, "A brief account of microscopical observations made in the months of June, July and August, 1827, on the particles contained in the pollen of plants; and on the general existence of active molecules in organic and inorganic bodies." Phil. Mag. 4, 161–173, 1828. <a rel="nofollow" class="external text" href="http://sciweb.nybg.org/science2/pdfs/dws/Brownian.pdf">(PDF version of original paper including a subsequent defense by Brown of his original observations, <i>Additional remarks on active molecules</i>.)</a></li>
+<li><span class="citation Journal">Chaudesaigues, M. (1908). "Le mouvement brownien et la formule d'Einstein". <i>Comptes Rendus</i> <b>147</b>: 1044–6.</span></li>
+<li>Clark, P. (1976) 'Atomism versus thermodynamics' in <i>Method and appraisal in the physical sciences</i>, Colin Howson (Ed), Cambridge University Press 1976</li>
+<li><span class="citation Journal">Einstein, A. (1905). <a rel="nofollow" class="external text" href="http://www.physik.uni-augsburg.de/annalen/history/einstein-papers/1905_17_549-560.pdf">"Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen"</a>. <i>Annalen der Physik</i> <b>17</b> (8): 549–560. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1905AnP...322..549E">1905AnP...322..549E</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1002/andp.19053220806">10.1002/andp.19053220806</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.physik.uni-augsburg.de/annalen/history/einstein-papers/1905_17_549-560.pdf">http://www.physik.uni-augsburg.de/annalen/history/einstein-papers/1905_17_549-560.pdf</a></span></span></li>
+<li>Einstein, A. "Investigations on the Theory of Brownian Movement". New York: Dover, 1956. <a href="Special_BookSources/0486603040" class="internal mw-magiclink-isbn">ISBN 0-486-60304-0</a> <a rel="nofollow" class="external autonumber" href="http://lorentz.phl.jhu.edu/AnnusMirabilis/AeReserveArticles/eins_brownian.pdf">[1]</a></li>
+<li>Henri, V(1908) 'Etudes cinematographique du mouvement brownien' <i>Comptes Rendus</i> 146 pp&#160;1024–6</li>
+<li><a href="Lucretius" title="Lucretius">Lucretius</a>, 'On The Nature of Things.', translated by William Ellery Leonard. (<i><a rel="nofollow" class="external text" href="http://onlinebooks.library.upenn.edu/webbin/gutbook/lookup?num=785">on-line version</a></i>, from <a href="Project_Gutenberg" title="Project Gutenberg">Project Gutenberg</a>. see the heading 'Atomic Motions'; this translation differs slightly from the one quoted).</li>
+<li>Pearle, P., Collett, B., Bart, K., Bilderback, D., Newman, D., and Samuels, S. (2010) <a rel="nofollow" class="external text" href="http://ajp.aapt.org/resource/1/ajpias/v78/i12/p1278_s1">What Brown saw and you can too</a>. <i>Am. J. Phys.</i> <b>78:</b> 1278-1289.</li>
+<li>Nelson, Edward, <i>Dynamical Theories of Brownian Motion</i> (1967) &#160; <a rel="nofollow" class="external text" href="http://www.math.princeton.edu/~nelson/books.html">(PDF version of this out-of-print book, from the author's webpage.)</a></li>
+<li><a href="Jean_Baptiste_Perrin" title="Jean Baptiste Perrin">J. Perrin</a>, "Mouvement brownien et réalité moléculaire". <i><a href="Annales_de_chimie_et_de_physique" title="Annales de chimie et de physique">Ann. Chim. Phys.</a></i> 8ième série <b>18</b>, 5–114 (1909). See also Perrin's book "Les Atomes" (1914).</li>
+<li>Ruben D. Cohen (1986) "Self Similarity in Brownian Motion and Other Ergodic Phenomena", <i>Journal of Chemical Education 63</i>, pp.&#160;933–934 <a rel="nofollow" class="external autonumber" href="http://rdcohen.50megs.com/BrownianMotion.pdf">[2]</a></li>
+<li><span class="citation Journal">Smoluchowski, M. (1906). <a rel="nofollow" class="external text" href="http://gallica.bnf.fr/ark:/12148/bpt6k15328k/f770.chemindefer">"Zur kinetischen Theorie der Brownschen Molekularbewegung und der Suspensionen"</a>. <i>Annalen der Physik</i> <b>21</b> (14): 756–780. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1906AnP...326..756V">1906AnP...326..756V</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1002/andp.19063261405">10.1002/andp.19063261405</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://gallica.bnf.fr/ark:/12148/bpt6k15328k/f770.chemindefer">http://gallica.bnf.fr/ark:/12148/bpt6k15328k/f770.chemindefer</a></span></span></li>
+<li>Svedberg, T. <i>Studien zur Lehre von den kolloiden Losungen</i> 1907</li>
+<li>Theile, T. N. Danish version: "Om Anvendelse af mindste Kvadraters Methode i nogle Tilfælde, hvor en Komplikation af visse Slags uensartede tilfældige Fejlkilder giver Fejlene en ‘systematisk’ Karakter". French version: "Sur la compensation de quelques erreurs quasi-systématiques par la méthodes de moindre carrés" published simultaneously in <i>Vidensk. Selsk. Skr. 5. Rk., naturvid. og mat. Afd.</i>, 12:381–408, 1880.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Brownian_motion&action=edit&section=16.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Brownian_motion" class="extiw" title="commons:Category:Brownian motion">Brownian motion</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png" width="38" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/57px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/76px-Wikisource-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style=""><a href="Wikisource" title="Wikisource">Wikisource</a> has original text related to this article:
+<div style="margin-left: 10px;"><b><a href="http://en.wikisource.org/wiki/A_brief_account_of_microscopical_observations_made_on_the_particles_contained_in_the_pollen_of_plants" class="extiw" title="wikisource:A brief account of microscopical observations made on the particles contained in the pollen of plants">A brief account of microscopical observations made on the particles contained in the pollen of plants</a></b></div>
+</td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://galileo.phys.virginia.edu/classes/109N/more_stuff/Applets/brownian/applet.html">Brownian motion java simulation</a></li>
+<li><a rel="nofollow" class="external text" href="http://xxx.imsc.res.in/abs/physics/0412132">Article for the school-going child</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.bun.kyoto-u.ac.jp/~suchii/einsteinBM.html">Einstein on Brownian Motion</a></li>
+<li><a rel="nofollow" class="external text" href="http://arxiv.org/abs/0705.1951">Brownian Motion, "Diverse and Undulating"</a></li>
+<li><a rel="nofollow" class="external text" href="http://physerver.hamilton.edu/Research/Brownian/index.html">Discusses history, botany and physics of Brown's original observations, with videos</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.gizmag.com/einsteins-prediction-finally-witnessed/16212/">"Einstein's prediction finally witnessed one century later"</a>&#160;: a test to observe the velocity of Brownian motion</li>
+<li><a rel="nofollow" class="external text" href="http://cafemath.kegtux.org/mathblog/article.php?page=BrownianMotion.php">"Café math&#160;: brownian motion (Part 1)"</a>&#160;: A blog article describing brownian motion (definition, symmetries, simulation)</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="3">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Fractals" title="Template:Fractals"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_Fractals&action=edit&redlink=1.php.html" class="new" title="Template talk:Fractals (page does not exist)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Fractals&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Fractal" title="Fractal">Fractals</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Characteristics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Fractal_dimension" title="Fractal dimension">Fractal dimension</a> (<a href="Hausdorff_dimension" title="Hausdorff dimension">Hausdorff dimension</a> &amp; <a href="Lebesgue_covering_dimension" title="Lebesgue covering dimension">Topological dimension</a>)</li>
+<li><a href="Self-similarity" title="Self-similarity">Self-similarity</a></li>
+<li><a href="Recursion" title="Recursion">Recursion</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" style="width:0%;padding:0px 0px 0px 2px;" rowspan="15">
+<div><a href="Barnsley_fern" title="Barnsley fern"><img alt="An image of a fern which exhibits affine self-similarity." src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Fractal_fern_explained.png/80px-Fractal_fern_explained.png" width="80" height="112" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Fractal_fern_explained.png/120px-Fractal_fern_explained.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Fractal_fern_explained.png/160px-Fractal_fern_explained.png 2x" /></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Iterated_function_system" title="Iterated function system">Iterated function system</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Koch_snowflake" title="Koch snowflake">Koch snowflake</a></li>
+<li><a href="Cantor_set" title="Cantor set">Cantor set</a></li>
+<li><a href="Sierpinski_carpet" title="Sierpinski carpet">Sierpinski carpet</a></li>
+<li><a href="Sierpinski_triangle" title="Sierpinski triangle">Sierpinski triangle</a></li>
+<li><a href="Space-filling_curve" title="Space-filling curve">Space-filling curve</a></li>
+<li><a href="Dragon_curve" title="Dragon curve">Dragon curve</a></li>
+<li><a href="T-square_(fractal)" title="T-square (fractal)">T-square</a></li>
+<li><a href="Menger_sponge" title="Menger sponge">Menger sponge</a></li>
+<li><a href="Barnsley_fern" title="Barnsley fern">Barnsley fern</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Strange_attractor" title="Strange attractor" class="mw-redirect">Strange attractor</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Multifractal_system" title="Multifractal system">Multifractal system</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="L-system" title="L-system">L-system</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Space-filling_curve" title="Space-filling curve">Space-filling curve</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Escape-time fractals</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Mandelbrot_set" title="Mandelbrot set">Mandelbrot set</a></li>
+<li><a href="Julia_set" title="Julia set">Julia set</a></li>
+<li><a href="Burning_Ship_fractal" title="Burning Ship fractal">Burning Ship fractal</a></li>
+<li><a href="Nova_fractal" title="Nova fractal">Nova fractal</a></li>
+<li><a href="Lyapunov_fractal" title="Lyapunov fractal">Lyapunov fractal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Random fractals</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="L%C3%A9vy_flight" title="Lévy flight">Lévy flight</a></li>
+<li><a href="Percolation_theory" title="Percolation theory">Percolation theory</a></li>
+<li><a href="Self-avoiding_walk" title="Self-avoiding walk">Self-avoiding walk</a></li>
+<li><a href="Fractal_landscape" title="Fractal landscape">Fractal landscape</a></li>
+<li><strong class="selflink">Brownian motion</strong></li>
+<li><a href="Brownian_tree" title="Brownian tree">Brownian tree</a></li>
+<li><a href="Diffusion-limited_aggregation" title="Diffusion-limited aggregation">Diffusion-limited aggregation</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">People</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a></li>
+<li><a href="Felix_Hausdorff" title="Felix Hausdorff">Felix Hausdorff</a></li>
+<li><a href="Gaston_Julia" title="Gaston Julia">Gaston Julia</a></li>
+<li><a href="Paul_Pierre_L%C3%A9vy" title="Paul Pierre Lévy">Paul Pierre Lévy</a></li>
+<li><a href="Aleksandr_Lyapunov" title="Aleksandr Lyapunov">Aleksandr Lyapunov</a></li>
+<li><a href="Benoit_Mandelbrot" title="Benoit Mandelbrot">Benoît Mandelbrot</a></li>
+<li><a href="Lewis_Fry_Richardson" title="Lewis Fry Richardson">Lewis Fry Richardson</a></li>
+<li><a href="Wac%C5%82aw_Sierpi%C5%84ski" title="Wacław Sierpiński">Wacław Sierpiński</a></li>
+<li><a href="Helge_von_Koch" title="Helge von Koch">Helge von Koch</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_fractals_by_Hausdorff_dimension" title="List of fractals by Hausdorff dimension">List of fractals by Hausdorff dimension</a></li>
+<li>"<a href="../How_Long_Is_the_Coast_of_Britain/index-_Statistical_Self-Similarity_and_Fractional_Dimension.html" title="How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension">How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension</a>"</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 17019/1000000
+Preprocessor generated node count: 42253/1500000
+Post-expand include size: 111846/2048000 bytes
+Template argument size: 39666/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 11/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:4436-0!0!0!!en!4!* and timestamp 20130213044645 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Brownian_motion&oldid=537992757.php.html">http://en.wikipedia.org/w/index.php?title=Brownian_motion&amp;oldid=537992757</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Stochastic_processes" title="Category:Stochastic processes">Stochastic processes</a></li><li><a href="Category_Variants_of_random_walks" title="Category:Variants of random walks">Variants of random walks</a></li><li><a href="Category_Fractals" title="Category:Fractals">Fractals</a></li><li><a href="Category_Statistical_mechanics" title="Category:Statistical mechanics">Statistical mechanics</a></li><li><a href="Category_Colloidal_chemistry" title="Category:Colloidal chemistry">Colloidal chemistry</a></li><li><a href="Category_Robert_Brown_(botanist)" title="Category:Robert Brown (botanist)">Robert Brown (botanist)</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_with_inconsistent_citation_formats" title="Category:Articles with inconsistent citation formats">Articles with inconsistent citation formats</a></li><li><a href="Category_Articles_needing_more_detailed_references" title="Category:Articles needing more detailed references">Articles needing more detailed references</a></li><li><a href="Category_Use_dmy_dates_from_July_2012" title="Category:Use dmy dates from July 2012">Use dmy dates from July 2012</a></li><li><a href="Category_Articles_containing_Greek_language_text" title="Category:Articles containing Greek language text">Articles containing Greek language text</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_October_2012" title="Category:Articles with unsourced statements from October 2012">Articles with unsourced statements from October 2012</a></li><li><a href="Category_Articles_with_unsourced_statements_from_July_2012" title="Category:Articles with unsourced statements from July 2012">Articles with unsourced statements from July 2012</a></li><li><a href="Category_Wikipedia_articles_needing_clarification_from_April_2010" title="Category:Wikipedia articles needing clarification from April 2010">Wikipedia articles needing clarification from April 2010</a></li><li><a href="Category_Wikipedia_articles_that_are_too_technical_from_June_2011" title="Category:Wikipedia articles that are too technical from June 2011">Wikipedia articles that are too technical from June 2011</a></li><li><a href="Category_All_articles_that_are_too_technical" title="Category:All articles that are too technical">All articles that are too technical</a></li><li><a href="Category_Articles_needing_expert_attention_from_June_2011" title="Category:Articles needing expert attention from June 2011">Articles needing expert attention from June 2011</a></li><li><a href="Category_All_articles_needing_expert_attention" title="Category:All articles needing expert attention">All articles needing expert attention</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Brownian+motion&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Brownian+motion.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Brownian_motion"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Brownian_motion&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Brownian_motion&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Brownian_motion" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Brownian_motion" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Brownian_motion&oldid=537992757.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Brownian_motion&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Brownian_motion&id=537992757.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Brownian+motion.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Brownian+motion&oldid=537992757&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Brownian_motion&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%83%D8%A9_%D8%A8%D8%B1%D8%A7%D9%88%D9%86%D9%8A%D8%A9" title="حركة براونية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Broun_h%C9%99r%C9%99k%C9%99ti" title="Broun hərəkəti" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%BD%D0%BE%D0%B2%D0%BE_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" title="Брауново движение" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Moviment_browni%C3%A0" title="Moviment brownià" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Brown%C5%AFv_pohyb" title="Brownův pohyb" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Brownske_bev%C3%A6gelser" title="Brownske bevægelser" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Brownsche_Bewegung" title="Brownsche Bewegung" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Browni_liikumine" title="Browni liikumine" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9A%CE%AF%CE%BD%CE%B7%CF%83%CE%B7_%CE%9C%CF%80%CF%81%CE%AC%CE%BF%CF%85%CE%BD" title="Κίνηση Μπράουν" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Movimiento_browniano" title="Movimiento browniano" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Mugimendu_browndar" title="Mugimendu browndar" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Mouvement_brownien" title="Mouvement brownien" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B4_%EC%9A%B4%EB%8F%99" title="브라운 운동" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Brownovo_gibanje" title="Brownovo gibanje" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Gerak_Brown" title="Gerak Brown" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Moto_browniano" title="Moto browniano" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%91%D7%A8%D7%90%D7%95%D7%A0%D7%99%D7%AA" title="תנועה בראונית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-kn"><a href="http://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B3%8C%E0%B2%A8%E0%B2%BF%E0%B2%AF%E0%B2%A8%E0%B3%8D_%E0%B2%9A%E0%B2%B2%E0%B2%A8%E0%B3%86" title="ಬ್ರೌನಿಯನ್ ಚಲನೆ" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+			<li class="interwiki-ht"><a href="http://ht.wikipedia.org/wiki/Mouvman_bwonyen" title="Mouvman bwonyen" lang="ht" hreflang="ht">Kreyòl ayisyen</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Brauna_kust%C4%ABba" title="Brauna kustība" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Brauno_jud%C4%97jimas" title="Brauno judėjimas" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Brown-mozg%C3%A1s" title="Brown-mozgás" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mt"><a href="http://mt.wikipedia.org/wiki/Moviment_Brownjan" title="Moviment Brownjan" lang="mt" hreflang="mt">Malti</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Pergerakan_Brown" title="Pergerakan Brown" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Brownse_beweging" title="Brownse beweging" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E9%81%8B%E5%8B%95" title="ブラウン運動" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Brownsk_bevegelse" title="Brownsk bevegelse" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Brownsk_r%C3%B8rsle" title="Brownsk rørsle" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D8%A8%D8%B1%D8%A7%D8%A4%D9%86%DB%8C_%D9%B9%D9%88%D8%B1" title="براؤنی ٹور" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Ruchy_Browna" title="Ruchy Browna" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Movimento_browniano" title="Movimento browniano" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Agita%C8%9Bie_termic%C4%83" title="Agitație termică" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D1%83%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" title="Броуновское движение" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Brownov_pohyb" title="Brownov pohyb" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Brownovo_gibanje" title="Brownovo gibanje" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D1%83%D0%BD%D0%BE%D0%B2%D0%BE_%D0%BA%D1%80%D0%B5%D1%82%D0%B0%D1%9A%D0%B5" title="Брауново кретање" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Brownovo_gibanje" title="Brownovo gibanje" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/Gerak_Brown" title="Gerak Brown" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Brownin_liike" title="Brownin liike" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Brownsk_r%C3%B6relse" title="Brownsk rörelse" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%BF%E0%AE%B0%E0%AF%8C%E0%AE%A9%E0%AE%BF%E0%AE%AF%E0%AE%A9%E0%AF%8D_%E0%AE%87%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D" title="பிரௌனியன் இயக்கம்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C" title="การเคลื่อนที่แบบบราวน์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Brown_hareketi" title="Brown hareketi" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D1%83%D0%BD%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D1%83%D1%85" title="Броунівський рух" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Chuy%E1%BB%83n_%C4%91%E1%BB%99ng_Brown" title="Chuyển động Brown" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%B8%83%E6%9C%97%E8%BF%90%E5%8A%A8" title="布朗运动" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 04:46.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Brownian_motion" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mw.PopUpMediaTransform","mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1048 in 0.204 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

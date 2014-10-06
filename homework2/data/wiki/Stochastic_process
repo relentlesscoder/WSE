@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Stochastic process - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Stochastic_process&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Stochastic_process&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Stochastic_process","wgTitle":"Stochastic process","wgCurRevisionId":536702254,"wgArticleId":47895,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from November 2010","All articles lacking in-text citations","Stochastic processes","Telecommunication theory","Statistical models","Statistical data types"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Stochastic_process","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"8b0b18c8f195ed1d7ba6fc39e9fe4809","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":47895,"title":"Stochastic process","namespace":0,"categories":["All articles lacking in-text citations","Articles lacking in-text citations from November 2010","Statistical data types","Statistical models","Stochastic processes","Telecommunication theory"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Stochastic_process skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Stochastic process</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-style ambox-More_footnotes" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article includes a <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">list of references</a>, but <b>its sources remain unclear because it has insufficient <a href="Wikipedia_INCITE" title="Wikipedia:INCITE" class="mw-redirect">inline citations</a></b>. <span class="hide-when-compact">Please help to <a href="Wikipedia_WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="Wikipedia_When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span> <small><i>(November 2010)</i></small> </span></td>
+</tr>
+</table>
+<p>In <a href="Probability_theory" title="Probability theory">probability theory</a>, a <b>stochastic process</b> (<span class="nowrap"><small>pronunciation:</small> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'s' in 'sigh'" style="border-bottom:1px dotted">s</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'t' in 'tie'" style="border-bottom:1px dotted">t</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/oʊ/ long 'o' in 'bode'" style="border-bottom:1px dotted">oʊ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ˈ/ primary stress follows" style="border-bottom:1px dotted">ˈ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'k' in 'kind'" style="border-bottom:1px dotted">k</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/æ/ short 'a' in 'bad'" style="border-bottom:1px dotted">æ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'s' in 'sigh'" style="border-bottom:1px dotted">s</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'t' in 'tie'" style="border-bottom:1px dotted">t</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ɪ/ short 'i' in 'bid'" style="border-bottom:1px dotted">ɪ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'k' in 'kind'" style="border-bottom:1px dotted">k</span></a></span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span></span>), or sometimes <b>random process</b> (<i>widely used</i>) is a collection of <a href="Random_variable" title="Random variable">random variables</a>; this is often used to represent the evolution of some random value, or system, over time. This is the probabilistic counterpart to a deterministic process (or <a href="Deterministic_system" title="Deterministic system">deterministic system</a>). Instead of describing a process which can only evolve in one way (as in the case, for example, of solutions of an <a href="Ordinary_differential_equation" title="Ordinary differential equation">ordinary differential equation</a>), in a stochastic or random process there is some indeterminacy: even if the initial condition (or starting point) is known, there are several (often infinitely many) directions in which the process may evolve.</p>
+<p>In the simple case of <a href="Discrete-time" title="Discrete-time" class="mw-redirect">discrete time</a>, a stochastic process amounts to a <a href="Sequence_(mathematics)" title="Sequence (mathematics)" class="mw-redirect">sequence</a> of random variables known as a <a href="Time_series" title="Time series">time series</a> (for example, see <a href="Markov_chain" title="Markov chain">Markov chain</a>). Another basic type of a stochastic process is a <a href="Random_field" title="Random field">random field</a>, whose domain is a region of <a href="Space" title="Space">space</a>, in other words, a random function whose arguments are drawn from a range of continuously changing values. One approach to stochastic processes treats them as <a href="Function_(mathematics)" title="Function (mathematics)">functions</a> of one or several deterministic arguments (inputs, in most cases regarded as time) whose values (outputs) are <a href="Random_variables" title="Random variables" class="mw-redirect">random variables</a>: non-deterministic (single) quantities which have certain <a href="Probability_distribution" title="Probability distribution">probability distributions</a>. Random variables corresponding to various times (or points, in the case of random fields) may be completely different. The main requirement is that these different random quantities all have the same type. Type refers to the <a href="Codomain" title="Codomain">codomain</a> of the function. Although the random values of a stochastic process at different times may be <a href="Statistical_independence" title="Statistical independence" class="mw-redirect">independent random variables</a>, in most commonly considered situations they exhibit complicated statistical correlations.</p>
+<p>Familiar examples of processes modeled as stochastic time series include <a href="Stock_market" title="Stock market">stock market</a> and <a href="Exchange_rate" title="Exchange rate">exchange rate</a> fluctuations, signals such as <a href="Speech_communication" title="Speech communication" class="mw-redirect">speech</a>, <a href="Sound" title="Sound">audio</a> and <a href="Video" title="Video">video</a>, <a href="Medicine" title="Medicine">medical</a> data such as a patient's <a href="Electrocardiogram" title="Electrocardiogram" class="mw-redirect">EKG</a>, <a href="Electroencephalography" title="Electroencephalography">EEG</a>, <a href="Blood_pressure" title="Blood pressure">blood pressure</a> or <a href="Temperature" title="Temperature">temperature</a>, and random movement such as <a href="Brownian_motion" title="Brownian motion">Brownian motion</a> or <a href="Random_walk" title="Random walk">random walks</a>. Examples of random fields include static images, random <a href="Terrain" title="Terrain">terrain</a> (landscapes), <a href="Wind_wave" title="Wind wave">wind waves</a> or composition variations of a heterogeneous material.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Formal_definition_and_basic_properties"><span class="tocnumber">1</span> <span class="toctext">Formal definition and basic properties</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Definition"><span class="tocnumber">1.1</span> <span class="toctext">Definition</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Finite-dimensional_distributions"><span class="tocnumber">1.2</span> <span class="toctext">Finite-dimensional distributions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Construction"><span class="tocnumber">2</span> <span class="toctext">Construction</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Kolmogorov_extension"><span class="tocnumber">2.1</span> <span class="toctext">Kolmogorov extension</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Separability.2C_or_what_the_Kolmogorov_extension_does_not_provide"><span class="tocnumber">2.2</span> <span class="toctext">Separability, or what the Kolmogorov extension does not provide</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Filtrations"><span class="tocnumber">3</span> <span class="toctext">Filtrations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#The_natural_filtration"><span class="tocnumber">3.1</span> <span class="toctext">The natural filtration</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Classification"><span class="tocnumber">4</span> <span class="toctext">Classification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Discrete_time_and_discrete_states"><span class="tocnumber">4.1</span> <span class="toctext">Discrete time and discrete states</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Continuous_time_and_continuous_state_space"><span class="tocnumber">4.2</span> <span class="toctext">Continuous time and continuous state space</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Discrete_time_and_continuous_state_space"><span class="tocnumber">4.3</span> <span class="toctext">Discrete time and continuous state space</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Continuous_time_and_discrete_state_space"><span class="tocnumber">4.4</span> <span class="toctext">Continuous time and discrete state space</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=1.php.html" title="Edit section: Formal definition and basic properties">edit</a>]</span> <span class="mw-headline" id="Formal_definition_and_basic_properties">Formal definition and basic properties</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=2.php.html" title="Edit section: Definition">edit</a>]</span> <span class="mw-headline" id="Definition">Definition</span></h3>
+<p>Given a <a href="Probability_space" title="Probability space">probability space</a> <img class="tex" alt="(\Omega, \mathcal{F}, P)" src="http://upload.wikimedia.org/math/9/b/1/9b188179f9107041f5631a75cfb84b8d.png" /> and a <a href="Measurable_space" title="Measurable space" class="mw-redirect">measurable space</a> <img class="tex" alt="(S,\Sigma)" src="http://upload.wikimedia.org/math/8/3/f/83f5b698bfe96de46b385e2e99dc40ba.png" />, an <i>S</i>-valued <b>stochastic process</b> is a collection of <i>S</i>-valued <a href="Random_variable" title="Random variable">random variables</a> on <img class="tex" alt="\Omega" src="http://upload.wikimedia.org/math/b/9/d/b9d99db8626de63193c7fe96273a6cae.png" />, indexed by a <a href="Totally_ordered" title="Totally ordered" class="mw-redirect">totally ordered</a> set <i>T</i> ("time"). That is, a stochastic process <i>X</i> is a collection</p>
+<dl>
+<dd><img class="tex" alt=" \{ X_t&#160;: t \in T \}" src="http://upload.wikimedia.org/math/c/9/7/c97c9c5521468d113601b061024f473e.png" /></dd>
+</dl>
+<p>where each <img class="tex" alt="X_t" src="http://upload.wikimedia.org/math/4/1/7/417748f905fcf618688a30338c8c6e10.png" /> is an <i>S</i>-valued random variable on <img class="tex" alt="\Omega" src="http://upload.wikimedia.org/math/b/9/d/b9d99db8626de63193c7fe96273a6cae.png" />. The space <i>S</i> is then called the <b>state space</b> of the process.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=3.php.html" title="Edit section: Finite-dimensional distributions">edit</a>]</span> <span class="mw-headline" id="Finite-dimensional_distributions">Finite-dimensional distributions</span></h3>
+<p>Let <i>X</i> be an <i>S</i>-valued stochastic process. For every finite subset <img class="tex" alt="T'=\{ t_1, \ldots, t_k \} \subseteq T" src="http://upload.wikimedia.org/math/8/e/1/8e175e05436e07ea03459bf5e220bca4.png" />, the <i>k</i>-tuple <img class="tex" alt="X_{T'} = (X_{t_1}, X_{t_2},\ldots, X_{t_k})" src="http://upload.wikimedia.org/math/1/1/d/11d8c3d541809c0e17570f5043679184.png" /> is a random variable taking values in <img class="tex" alt="S^k" src="http://upload.wikimedia.org/math/8/3/4/83481703a58de47792a9b2f09b3b4121.png" />. The distribution <img class="tex" alt="\mathbb{P}_{T'}(\cdot) = \mathbb{P} (X_{T'}^{-1}(\cdot))" src="http://upload.wikimedia.org/math/8/3/6/83645f9b5b423c769bf1007b4e77e446.png" /> of this random variable is a probability measure on <img class="tex" alt="S^k" src="http://upload.wikimedia.org/math/8/3/4/83481703a58de47792a9b2f09b3b4121.png" />. This is called a <a href="Finite-dimensional_distribution" title="Finite-dimensional distribution">finite-dimensional distribution</a> of <i>X</i>.</p>
+<p>Under suitable topological restrictions, a suitably "consistent" collection of finite-dimensional distributions can be used to define a stochastic process (see Kolmogorov extension in the next section).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=4.php.html" title="Edit section: Construction">edit</a>]</span> <span class="mw-headline" id="Construction">Construction</span></h2>
+<p>In the ordinary <a href="Axiomatization" title="Axiomatization" class="mw-redirect">axiomatization</a> of <a href="Probability_theory" title="Probability theory">probability theory</a> by means of <a href="Measure_theory" title="Measure theory" class="mw-redirect">measure theory</a>, the problem is to construct a <a href="Sigma-algebra" title="Sigma-algebra">sigma-algebra</a> of <a href="Measurable_set" title="Measurable set" class="mw-redirect">measurable subsets</a> of the space of all functions, and then put a finite <a href="Measure_(mathematics)" title="Measure (mathematics)">measure</a> on it. For this purpose one traditionally uses a method called <a href="Kolmogorov_extension_theorem" title="Kolmogorov extension theorem">Kolmogorov extension</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>There is at least one alternative axiomatization of probability theory by means of <a href="Expected_value" title="Expected value">expectations</a> on <a href="C-star_algebra" title="C-star algebra" class="mw-redirect">C-star</a> <a href="Algebra_of_random_variables" title="Algebra of random variables">algebras of random variables</a>. In this case the method goes by the name of <a href="Gelfand%E2%80%93Naimark%E2%80%93Segal_construction" title="Gelfand–Naimark–Segal construction">Gelfand–Naimark–Segal construction</a>.</p>
+<p>This is analogous to the two approaches to measure and integration, where one has the choice to construct measures of sets first and define integrals later, or construct integrals first and define set measures as integrals of characteristic functions.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=5.php.html" title="Edit section: Kolmogorov extension">edit</a>]</span> <span class="mw-headline" id="Kolmogorov_extension">Kolmogorov extension</span></h3>
+<p>The <a href="Kolmogorov_extension_theorem" title="Kolmogorov extension theorem">Kolmogorov extension</a> proceeds along the following lines: assuming that a <a href="Probability_measure" title="Probability measure">probability measure</a> on the space of all functions <img class="tex" alt="f: X \to Y" src="http://upload.wikimedia.org/math/5/2/d/52d50404f827bbeee59ac8a21a1378b5.png" /> exists, then it can be used to specify the joint probability distribution of finite-dimensional random variables <img class="tex" alt="f(x_1),\dots,f(x_n)" src="http://upload.wikimedia.org/math/e/f/c/efc56603079c6e880184486793806d17.png" />. Now, from this <i>n</i>-dimensional probability distribution we can deduce an (<i>n</i>&#160;−&#160;1)-dimensional <a href="Marginal_probability_distribution" title="Marginal probability distribution" class="mw-redirect">marginal probability distribution</a> for <img class="tex" alt="f(x_1),\dots,f(x_{n-1})" src="http://upload.wikimedia.org/math/3/d/0/3d0b46e2eff10824e2d09a49c6b3f679.png" />. Note that the obvious compatibility condition, namely, that this marginal probability distribution be in the same class as the one derived from the full-blown stochastic process, is not a requirement. Such a condition only holds, for example, if the stochastic process is a <a href="Wiener_process" title="Wiener process">Wiener process</a> (in which case the marginals are all gaussian distributions of the exponential class) but not in general for all stochastic processes. When this condition is expressed in terms of <a href="Probability_density_function" title="Probability density function">probability densities</a>, the result is called the <a href="Chapman%E2%80%93Kolmogorov_equation" title="Chapman–Kolmogorov equation">Chapman–Kolmogorov equation</a>.</p>
+<p>The <a href="Kolmogorov_extension_theorem" title="Kolmogorov extension theorem">Kolmogorov extension theorem</a> guarantees the existence of a stochastic process with a given family of finite-dimensional <a href="Probability_distribution" title="Probability distribution">probability distributions</a> satisfying the Chapman–Kolmogorov compatibility condition.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=6.php.html" title="Edit section: Separability, or what the Kolmogorov extension does not provide">edit</a>]</span> <span class="mw-headline" id="Separability.2C_or_what_the_Kolmogorov_extension_does_not_provide">Separability, or what the Kolmogorov extension does not provide</span></h3>
+<p>Recall that in the Kolmogorov <a href="Axiomatic_system" title="Axiomatic system">axiomatization</a>, <a href="Measurable" title="Measurable" class="mw-redirect">measurable</a> sets are the sets which have a probability or, in other words, the sets corresponding to <a href="Yes-no_question" title="Yes-no question" class="mw-redirect">yes/no questions</a> that have a probabilistic answer.</p>
+<p>The Kolmogorov extension starts by declaring to be measurable all sets of functions where finitely many coordinates <img class="tex" alt="[f(x_1), \dots , f(x_n)]" src="http://upload.wikimedia.org/math/b/9/a/b9a6079f40559225fe2bc357448387fb.png" /> are restricted to lie in measurable subsets of <img class="tex" alt="Y_n" src="http://upload.wikimedia.org/math/9/5/b/95be3b202f708368a7213cddc1d1bdc0.png" />. In other words, if a yes/no question about f can be answered by looking at the values of at most finitely many coordinates, then it has a probabilistic answer.</p>
+<p>In measure theory, if we have a <a href="Countably_infinite" title="Countably infinite" class="mw-redirect">countably infinite</a> collection of measurable sets, then the union and intersection of all of them is a measurable set. For our purposes, this means that yes/no questions that depend on countably many coordinates have a probabilistic answer.</p>
+<p>The good news is that the Kolmogorov extension makes it possible to construct stochastic processes with fairly arbitrary finite-dimensional distributions. Also, every question that one could ask about a sequence has a probabilistic answer when asked of a random sequence. The bad news is that certain questions about functions on a continuous domain don't have a probabilistic answer. One might hope that the questions that depend on uncountably many values of a function be of little interest, but the really bad news is that virtually all concepts of <a href="Calculus" title="Calculus">calculus</a> are of this sort. For example:</p>
+<ol>
+<li><a href="Bounded_function" title="Bounded function">boundedness</a></li>
+<li><a href="Continuous_function" title="Continuous function">continuity</a></li>
+<li><a href="Differentiability" title="Differentiability" class="mw-redirect">differentiability</a></li>
+</ol>
+<p>all require knowledge of uncountably many values of the function.</p>
+<p>One solution to this problem is to require that the stochastic process be <a href="Separable_space" title="Separable space">separable</a>. In other words, that there be some countable set of coordinates <img class="tex" alt="\{f(x_i)\}" src="http://upload.wikimedia.org/math/2/6/0/26003f969f49b549734f67f5c1f4edc2.png" /> whose values determine the whole random function <i>f</i>.</p>
+<p>The <a href="Kolmogorov_continuity_theorem" title="Kolmogorov continuity theorem">Kolmogorov continuity theorem</a> guarantees that processes that satisfy certain constraints on the <a href="Moment_(mathematics)" title="Moment (mathematics)">moments</a> of their increments have continuous modifications and are therefore separable.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=7.php.html" title="Edit section: Filtrations">edit</a>]</span> <span class="mw-headline" id="Filtrations">Filtrations</span></h2>
+<p>Given a probability space <img class="tex" alt="(\Omega,\mathcal{F},P)" src="http://upload.wikimedia.org/math/9/b/1/9b188179f9107041f5631a75cfb84b8d.png" />, a <b>filtration</b> is a weakly increasing collection of <a href="Sigma-algebras" title="Sigma-algebras" class="mw-redirect">sigma-algebras</a> on <img class="tex" alt="\Omega" src="http://upload.wikimedia.org/math/b/9/d/b9d99db8626de63193c7fe96273a6cae.png" />, <img class="tex" alt="\{\mathcal{F}_t, t\in T\}" src="http://upload.wikimedia.org/math/2/a/9/2a94d89ba38d713eea98bf7547fdf4cf.png" />, indexed by some totally ordered set <img class="tex" alt="T" src="http://upload.wikimedia.org/math/b/9/e/b9ece18c950afbfa6b0fdbfa4ff731d3.png" />, and bounded above by <img class="tex" alt="\mathcal{F}" src="http://upload.wikimedia.org/math/2/6/a/26afd73f8c17f310707120691ccc4a35.png" />, i.e. for <i>s</i>,<i>t</i> &#160;<img class="tex" alt="\in T" src="http://upload.wikimedia.org/math/8/5/c/85ce8e09fe868ec8d79fdbcf5fdb3aa2.png" /> with <i>s</i> &lt; <i>t</i>,</p>
+<dl>
+<dd><img class="tex" alt="\mathcal{F}_s \subseteq \mathcal{F}_t \subseteq \mathcal{F}" src="http://upload.wikimedia.org/math/a/6/c/a6c0b24dbd3649898287744f49b3bc5a.png" />.</dd>
+</dl>
+<p>A stochastic process <img class="tex" alt="X" src="http://upload.wikimedia.org/math/0/2/1/02129bb861061d1a052c592e2dc6b383.png" /> on the same time set <img class="tex" alt="T" src="http://upload.wikimedia.org/math/b/9/e/b9ece18c950afbfa6b0fdbfa4ff731d3.png" /> is said to be <b>adapted</b> to the filtration if, for every t &#160;<img class="tex" alt="\in T" src="http://upload.wikimedia.org/math/8/5/c/85ce8e09fe868ec8d79fdbcf5fdb3aa2.png" />, <img class="tex" alt="X_t" src="http://upload.wikimedia.org/math/4/1/7/417748f905fcf618688a30338c8c6e10.png" /> is <img class="tex" alt="\mathcal{F}_t" src="http://upload.wikimedia.org/math/6/7/0/67037f8c9fe54dc52f813e44944529d1.png" />-measurable.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=8.php.html" title="Edit section: The natural filtration">edit</a>]</span> <span class="mw-headline" id="The_natural_filtration">The natural filtration</span></h3>
+<p>Given a stochastic process <img class="tex" alt="X = \{X_t&#160;: t\in T\}" src="http://upload.wikimedia.org/math/9/6/8/9683468acba69b9b777643b7410b6b1a.png" />, the <b>natural filtration</b> for (or induced by) this process is the filtration where <img class="tex" alt="\mathcal{F}_t" src="http://upload.wikimedia.org/math/6/7/0/67037f8c9fe54dc52f813e44944529d1.png" /> is generated by all values of <img class="tex" alt="X_s" src="http://upload.wikimedia.org/math/c/3/9/c398e81d53d930b6ff7b927c668fc003.png" /> up to time <i>s</i> = <i>t</i>, i.e. <img class="tex" alt="\mathcal{F}_t = \sigma(\{X_s^{-1}(A)&#160;: s\leq t,A \in S\})" src="http://upload.wikimedia.org/math/9/a/4/9a4cdc61876e762c783ae7bb61f12019.png" />.</p>
+<p>A stochastic process is always adapted to its natural filtration.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=9.php.html" title="Edit section: Classification">edit</a>]</span> <span class="mw-headline" id="Classification">Classification</span></h2>
+<p>Stochastic processes can be classified according to the <a href="Cardinality" title="Cardinality">cardinality</a> of its index set (usually interpreted as time) and state space.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=10.php.html" title="Edit section: Discrete time and discrete states">edit</a>]</span> <span class="mw-headline" id="Discrete_time_and_discrete_states">Discrete time and discrete states</span></h3>
+<p>If both <img class="tex" alt="t" src="http://upload.wikimedia.org/math/e/3/5/e358efa489f58062f10dd7316b65649e.png" /> and <img class="tex" alt="X_t" src="http://upload.wikimedia.org/math/4/1/7/417748f905fcf618688a30338c8c6e10.png" /> belong to <img class="tex" alt="N" src="http://upload.wikimedia.org/math/8/d/9/8d9c307cb7f3c4a32822a51922d1ceaa.png" />, the set of <a href="Natural_numbers" title="Natural numbers" class="mw-redirect">natural numbers</a>, then we have models which lead to <a href="Markov_chains" title="Markov chains" class="mw-redirect">Markov chains</a>. For example:</p>
+<p>(a) If <img class="tex" alt="X_t" src="http://upload.wikimedia.org/math/4/1/7/417748f905fcf618688a30338c8c6e10.png" /> means the bit (0 or 1) in position <img class="tex" alt="t" src="http://upload.wikimedia.org/math/e/3/5/e358efa489f58062f10dd7316b65649e.png" /> of a sequence of transmitted bits, then <img class="tex" alt="X_t" src="http://upload.wikimedia.org/math/4/1/7/417748f905fcf618688a30338c8c6e10.png" /> can be modelled as a Markov chain with 2 states. This leads to the error correcting <a href="Viterbi_algorithm" title="Viterbi algorithm">viterbi algorithm</a> in data transmission.</p>
+<p>(b) If <img class="tex" alt="X_t" src="http://upload.wikimedia.org/math/4/1/7/417748f905fcf618688a30338c8c6e10.png" /> means the combined genotype of a breeding couple in the <img class="tex" alt="t" src="http://upload.wikimedia.org/math/e/3/5/e358efa489f58062f10dd7316b65649e.png" />th generation in a inbreeding model, it can be shown that the proportion of heterozygous individuals in the population approaches zero as <img class="tex" alt="t" src="http://upload.wikimedia.org/math/e/3/5/e358efa489f58062f10dd7316b65649e.png" /> goes to ∞.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=11.php.html" title="Edit section: Continuous time and continuous state space">edit</a>]</span> <span class="mw-headline" id="Continuous_time_and_continuous_state_space">Continuous time and continuous state space</span></h3>
+<p>The paradigm of continuous stochastic process is that of the <a href="Wiener_process" title="Wiener process">Wiener process</a>. In its original form the problem was concerned with a particle floating on a liquid surface, receiving "kicks" from the molecules of the liquid. The particle is then viewed as being subject to a random force which, since the molecules are very small and very close together, is treated as being continuous and, since the particle is constrained to the surface of the liquid by surface tension, is at each point in time a vector parallel to the surface. Thus the random force is described by a two component stochastic process; two real-valued random variables are associated to each point in the index set, time, (note that since the liquid is viewed as being <a href="http://en.wiktionary.org/wiki/Homogeneous" class="extiw" title="wiktionary:Homogeneous">homogeneous</a> the force is independent of the spatial coordinates) with the domain of the two random variables being <b>R</b>, giving the <i>x</i> and <i>y</i> components of the force. A treatment of <a href="Brownian_motion" title="Brownian motion">Brownian motion</a> generally also includes the effect of viscosity, resulting in an equation of motion known as the <a href="Langevin_equation" title="Langevin equation">Langevin equation</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=12.php.html" title="Edit section: Discrete time and continuous state space">edit</a>]</span> <span class="mw-headline" id="Discrete_time_and_continuous_state_space">Discrete time and continuous state space</span></h3>
+<p>If the index set of the process is <b>N</b> (the <a href="Natural_numbers" title="Natural numbers" class="mw-redirect">natural numbers</a>), and the range is <b>R</b> (the real numbers), there are some natural questions to ask about the sample sequences of a process {<b>X</b><sub><i>i</i></sub>}<sub><i>i</i> ∈ <b>N</b></sub>, where a sample sequence is {<b>X</b><sub><i>i</i></sub>(ω)}<sub><i>i</i> ∈ <b>N</b></sub>.</p>
+<ol>
+<li>What is the <a href="Probability" title="Probability">probability</a> that each sample sequence is <a href="Bounded_function" title="Bounded function">bounded</a>?</li>
+<li>What is the probability that each sample sequence is <a href="Monotonic" title="Monotonic" class="mw-redirect">monotonic</a>?</li>
+<li>What is the probability that each sample sequence has a <a href="Limit_of_a_sequence" title="Limit of a sequence">limit</a> as the index approaches ∞?</li>
+<li>What is the probability that the <a href="Series_(mathematics)" title="Series (mathematics)">series</a> obtained from a sample sequence from <img class="tex" alt="f(i)" src="http://upload.wikimedia.org/math/1/6/c/16ced14ad381d0c55f46a750367db2ed.png" /> <a href="Convergent_series" title="Convergent series">converges</a>?</li>
+<li>What is the <a href="Probability_distribution" title="Probability distribution">probability distribution</a> of the sum?</li>
+</ol>
+<p>Main applications of discrete time continuous state stochastic models include <a href="Markov_chain_Monte_Carlo" title="Markov chain Monte Carlo">Markov chain Monte Carlo</a> (MCMC) and the analysis of <a href="Time_Series" title="Time Series" class="mw-redirect">Time Series</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=13.php.html" title="Edit section: Continuous time and discrete state space">edit</a>]</span> <span class="mw-headline" id="Continuous_time_and_discrete_state_space">Continuous time and discrete state space</span></h3>
+<p>Similarly, if the index space <i>I</i> is a finite or infinite <a href="Interval_(mathematics)" title="Interval (mathematics)">interval</a>, we can ask about the sample paths {<b>X</b><sub><i>t</i></sub>(ω)}<sub><i>t</i> ∈ <i>I</i></sub></p>
+<ol>
+<li>What is the probability that it is bounded/<a href="Integrable" title="Integrable" class="mw-redirect">integrable</a>/<a href="Continuous_function" title="Continuous function">continuous</a>/<a href="Differentiable" title="Differentiable" class="mw-redirect">differentiable</a>...?</li>
+<li>What is the probability that it has a limit at ∞</li>
+<li>What is the probability distribution of the integral?</li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="List_of_stochastic_processes_topics" title="List of stochastic processes topics">List of stochastic processes topics</a></li>
+<li><a href="Law_(stochastic_processes)" title="Law (stochastic processes)">Law (stochastic processes)</a></li>
+<li><a href="Gillespie_algorithm" title="Gillespie algorithm">Gillespie algorithm</a></li>
+<li><a href="Markov_chain" title="Markov chain">Markov chain</a></li>
+<li><a href="Stochastic_calculus" title="Stochastic calculus">Stochastic calculus</a></li>
+<li><a href="Dynamics_of_Markovian_Particles" title="Dynamics of Markovian Particles" class="mw-redirect">DMP</a></li>
+<li><a href="Interacting_particle_system" title="Interacting particle system">interacting particle system</a></li>
+<li><a href="Stochastic_cellular_automaton" title="Stochastic cellular automaton">Probabilistic cellular automaton</a></li>
+<li><a href="Covariance_function" title="Covariance function">Covariance function</a></li>
+<li><a href="Entropy_rate" title="Entropy rate">Entropy rate</a> for a stochastic process</li>
+<li><a href="Stationary_process" title="Stationary process">Stationary process</a></li>
+<li><a href="Ergodic_process" title="Ergodic process">Ergodic process</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=15.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Karlin, Samuel &amp; Taylor, Howard M. (1998). <i>An Introduction to Stochastic Modeling</i>, Academic Press. <a href="Special_BookSources/0126848874" class="internal mw-magiclink-isbn">ISBN 0-12-684887-4</a>.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Durrett, Rick. <i>Probability: Theory and Examples</i>. Fourth Edition. Cambridge: Cambridge University Press, 2010.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Allen, Linda J. S., <i>An Introduction to Stochastic Processes with Applications to Biology, 2th Edition</i>, Chapman and Hall, 2010, <a href="Special_BookSources/1439818827" class="internal mw-magiclink-isbn">ISBN 1-4398-1882-7</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Gardiner, C. <i>Handbook of Stochastic Methods: for Physics, Chemistry and the Natural Sciences, 3th Edition</i>, Springer, 2004, <a href="Special_BookSources/3540208828" class="internal mw-magiclink-isbn">ISBN 3540208828</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Stochastic_process&action=edit&section=16.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<div class="references-small">
+<ul>
+<li><span class="citation book">Wio, S. Horacio, Deza, R. Roberto &amp; Lopez, M. Juan (2012). <i>An Introduction to Stochastic Processes and Nonequilibrium Statistical Physics</i>. World Scientific Publishing. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-981-4374-78-1" title="Special:BookSources/978-981-4374-78-1">978-981-4374-78-1</a>.</span></li>
+<li><span class="citation book">Papoulis, Athanasios &amp; Pillai, S. Unnikrishna (2001). <i>Probability, Random Variables and Stochastic Processes</i>. McGraw-Hill Science/Engineering/Math. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-07-281725-9" title="Special:BookSources/0-07-281725-9">0-07-281725-9</a>.</span></li>
+<li><span class="citation web"><a href="Boris_Tsirelson" title="Boris Tsirelson">Boris Tsirelson</a>. <a rel="nofollow" class="external text" href="http://www.webcitation.org/5cfvVZ4Kd">"Lecture notes in <i>Advanced probability theory</i>"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.webcitation.org/5cfvVZ4Kd">http://www.webcitation.org/5cfvVZ4Kd</a></span>.</span></li>
+<li><span class="citation book">Doob, J. L. (1953). <i>Stochastic Processes</i>. Wiley.</span></li>
+<li><span class="citation book">Klebaner, Fima C. (2011). <i>Introduction to Stochastic Calculus With Applications</i>. Imperial College Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-84816-831-4" title="Special:BookSources/1-84816-831-4">1-84816-831-4</a>.</span></li>
+<li><span class="citation web">Bruce Hajek (July 2006). <a rel="nofollow" class="external text" href="http://www.ifp.uiuc.edu/~hajek/Papers/randomprocesses.html">"An Exploration of Random Processes for Engineers"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ifp.uiuc.edu/~hajek/Papers/randomprocesses.html">http://www.ifp.uiuc.edu/~hajek/Papers/randomprocesses.html</a></span>.</span></li>
+<li><span class="citation web"><a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=AUSKTk9ENzg">"An 8 foot tall Probability Machine (named Sir Francis) comparing stock market returns to the randomness of the beans dropping through the quincunx pattern"</a>. <i>Index Funds Advisors <a rel="nofollow" class="external text" href="http://www.ifa.com">IFA.com</a></i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=AUSKTk9ENzg">http://www.youtube.com/watch?v=AUSKTk9ENzg</a></span>.</span></li>
+<li><span class="citation web"><a rel="nofollow" class="external text" href="http://www.sitmo.com/article/popular-stochastic-processes-in-finance/">"Popular Stochastic Processes used in Quantitative Finance"</a>. <i>sitmo.com</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.sitmo.com/article/popular-stochastic-processes-in-finance/">http://www.sitmo.com/article/popular-stochastic-processes-in-finance/</a></span>.</span></li>
+<li><span class="citation web"><a rel="nofollow" class="external text" href="http://www.goldsim.com/Content.asp?PageID=455">"Addressing Risk and Uncertainty"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.goldsim.com/Content.asp?PageID=455">http://www.goldsim.com/Content.asp?PageID=455</a></span>.</span></li>
+</ul>
+</div>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Stochastic_processes" title="Template:Stochastic processes"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Stochastic_processes" title="Template talk:Stochastic processes"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Stochastic_processes&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Stochastic_processes" title="Stochastic processes" class="mw-redirect">Stochastic processes</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Discrete time</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Bernoulli_process" title="Bernoulli process">Bernoulli process</a></li>
+<li><a href="Branching_process" title="Branching process">Branching process</a></li>
+<li><a href="Chinese_restaurant_process" title="Chinese restaurant process">Chinese restaurant process</a></li>
+<li><a href="Galton%E2%80%93Watson_process" title="Galton–Watson process">Galton–Watson process</a></li>
+<li><a href="Independent_and_identically_distributed_random_variables" title="Independent and identically distributed random variables">Independent and identically distributed random variables</a></li>
+<li><a href="Markov_chain" title="Markov chain">Markov chain</a></li>
+<li><a href="Moran_process" title="Moran process">Moran process</a></li>
+<li><a href="Random_walk" title="Random walk">Random walk</a>
+<ul>
+<li><a href="Loop-erased_random_walk" title="Loop-erased random walk">Loop-erased</a></li>
+<li><a href="Self-avoiding_walk" title="Self-avoiding walk">Self-avoiding</a></li>
+</ul>
+</li>
+<li><a href="Stochastic_cellular_automaton" title="Stochastic cellular automaton">Probabilistic cellular automata</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Continuous-time_stochastic_process" title="Continuous-time stochastic process">Continuous time</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="../../w/index-title=Affine_process&action=edit&redlink=1.php.html" class="new" title="Affine process (page does not exist)">Affine process</a></li>
+<li><a href="../../w/index-title=Az%C3%A9ma's_martingale&action=edit&redlink=1.php.html" class="new" title="Azéma's martingale (page does not exist)">Azéma's martingale</a></li>
+<li><a href="Bessel_process" title="Bessel process">Bessel process</a>
+<ul>
+<li><a href="../../w/index-title=Squared_Bessel_process&action=edit&redlink=1.php.html" class="new" title="Squared Bessel process (page does not exist)">Squared</a></li>
+</ul>
+</li>
+<li><a href="Birth%E2%80%93death_process" title="Birth–death process">Birth–death process</a></li>
+<li><a href="Wiener_process" title="Wiener process">Brownian motion</a>
+<ul>
+<li><a href="Brownian_bridge" title="Brownian bridge">Bridge</a></li>
+<li><a href="Brownian_excursion" title="Brownian excursion">Excursion</a></li>
+<li><a href="Fractional_Brownian_motion" title="Fractional Brownian motion">Fractional</a></li>
+<li><a href="Geometric_Brownian_motion" title="Geometric Brownian motion">Geometric</a></li>
+</ul>
+</li>
+<li><a href="Cauchy_process" title="Cauchy process">Cauchy process</a></li>
+<li><a href="Contact_process_(mathematics)" title="Contact process (mathematics)">Contact process</a></li>
+<li><a href="Cox_process" title="Cox process">Cox process</a></li>
+<li><a href="Diffusion_process" title="Diffusion process">Diffusion process</a></li>
+<li><a href="Empirical_process" title="Empirical process">Empirical process</a></li>
+<li><a href="Feller_process" title="Feller process">Feller process</a></li>
+<li><a href="Fleming%E2%80%93Viot_process" title="Fleming–Viot process">Fleming–Viot process</a></li>
+<li><a href="Gamma_process" title="Gamma process">Gamma process</a></li>
+<li><a href="Hunt_process" title="Hunt process">Hunt process</a></li>
+<li><a href="Interacting_particle_system" title="Interacting particle system">Interacting particle systems</a></li>
+<li><a href="It%C5%8D_diffusion" title="Itō diffusion">Itō diffusion</a></li>
+<li><a href="It%C5%8D_process" title="Itō process" class="mw-redirect">Itō process</a></li>
+<li><a href="../../w/index-title=Jacobi_process&action=edit&redlink=1.php.html" class="new" title="Jacobi process (page does not exist)">Jacobi (Wright–Fisher) process</a></li>
+<li><a href="Jump_diffusion" title="Jump diffusion">Jump diffusion</a></li>
+<li><a href="Jump_process" title="Jump process">Jump process</a></li>
+<li><a href="L%C3%A9vy_process" title="Lévy process">Lévy process</a></li>
+<li><a href="Local_time_(mathematics)" title="Local time (mathematics)">Local time</a></li>
+<li><a href="Markov_additive_process" title="Markov additive process">Markov additive process</a></li>
+<li><a href="McKean%E2%80%93Vlasov_process" title="McKean–Vlasov process">McKean–Vlasov process</a></li>
+<li><a href="Ornstein%E2%80%93Uhlenbeck_process" title="Ornstein–Uhlenbeck process">Ornstein–Uhlenbeck process</a></li>
+<li><a href="Poisson_process" title="Poisson process">Poisson process</a>
+<ul>
+<li><a href="Compound_Poisson_process" title="Compound Poisson process">Compound</a></li>
+<li><a href="Non-homogeneous_Poisson_process" title="Non-homogeneous Poisson process" class="mw-redirect">Non-homogeneous</a></li>
+</ul>
+</li>
+<li><a href="Schramm%E2%80%93Loewner_evolution" title="Schramm–Loewner evolution">Schramm–Loewner evolution</a></li>
+<li><a href="Semimartingale" title="Semimartingale">Semimartingale</a></li>
+<li><a href="Sigma-martingale" title="Sigma-martingale">Sigma-martingale</a></li>
+<li><a href="Stable_process" title="Stable process">Stable process</a></li>
+<li><a href="Superprocess" title="Superprocess">Superprocess</a></li>
+<li><a href="Telegraph_process" title="Telegraph process">Telegraph process</a></li>
+<li><a href="Variance_gamma_process" title="Variance gamma process">Variance gamma process</a></li>
+<li><a href="Wiener_process" title="Wiener process">Wiener process</a></li>
+<li><a href="Wiener_sausage" title="Wiener sausage">Wiener sausage</a></li>
+<li><a href="../../w/index-title=Wishart_process&action=edit&redlink=1.php.html" class="new" title="Wishart process (page does not exist)">Wishart process</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Both</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Branching_process" title="Branching process">Branching process</a></li>
+<li><a href="Gaussian_process" title="Gaussian process">Gaussian process</a></li>
+<li><a href="Hidden_Markov_model" title="Hidden Markov model">Hidden Markov model (HMM)</a></li>
+<li><a href="Markov_process" title="Markov process">Markov process</a></li>
+<li><a href="Martingale_(probability_theory)" title="Martingale (probability theory)">Martingale</a>
+<ul>
+<li><a href="Local_martingale" title="Local martingale">Local</a></li>
+<li><a href="Submartingale" title="Submartingale" class="mw-redirect">Sub-</a></li>
+<li><a href="Supermartingale" title="Supermartingale" class="mw-redirect">Super-</a></li>
+</ul>
+</li>
+<li><a href="Random_dynamical_system" title="Random dynamical system">Random dynamical system</a></li>
+<li><a href="Regenerative_process" title="Regenerative process">Regenerative process</a></li>
+<li><a href="Renewal_process" title="Renewal process" class="mw-redirect">Renewal process</a></li>
+<li><a href="White_noise" title="White noise">White noise</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Fields and other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="../../w/index-title=Brownian_sheet&action=edit&redlink=1.php.html" class="new" title="Brownian sheet (page does not exist)">Brownian sheet</a></li>
+<li><a href="Dirichlet_process" title="Dirichlet process">Dirichlet process</a></li>
+<li><a href="Gaussian_random_field" title="Gaussian random field">Gaussian random field</a></li>
+<li><a href="Gibbs_measure" title="Gibbs measure">Gibbs measure</a></li>
+<li><a href="Hopfield_model" title="Hopfield model" class="mw-redirect">Hopfield model</a></li>
+<li><a href="Ising_model" title="Ising model">Ising model</a></li>
+<li><a href="Markov_random_field" title="Markov random field">Markov random field</a></li>
+<li><a href="Percolation_theory" title="Percolation theory">Percolation</a></li>
+<li><a href="Pitman%E2%80%93Yor_process" title="Pitman–Yor process">Pitman–Yor process</a></li>
+<li><a href="Point_process" title="Point process">Point process</a></li>
+<li><a href="Potts_model" title="Potts model">Potts model</a></li>
+<li><a href="Random_field" title="Random field">Random field</a></li>
+<li><a href="Random_graph" title="Random graph">Random graph</a></li>
+<li><a href="../../w/index-title=Random-cluster_process&action=edit&redlink=1.php.html" class="new" title="Random-cluster process (page does not exist)">Random-cluster process</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Time_series" title="Time series">Time series models</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Autoregressive_conditional_heteroskedasticity" title="Autoregressive conditional heteroskedasticity">Autoregressive conditional heteroskedasticity (ARCH) model</a></li>
+<li><a href="Autoregressive_integrated_moving_average" title="Autoregressive integrated moving average">Autoregressive integrated moving average (ARIMA) model</a></li>
+<li><a href="Autoregressive_model" title="Autoregressive model">Autoregressive (AR) model</a></li>
+<li><a href="Autoregressive%E2%80%93moving-average_model" title="Autoregressive–moving-average model">Autoregressive–moving-average (ARMA) model</a></li>
+<li><a href="GARCH" title="GARCH" class="mw-redirect">Generalized autoregressive conditional heteroskedasticity (GARCH) model</a></li>
+<li><a href="Moving-average_model" title="Moving-average model">Moving-average (MA) model</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Financial models</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Black%E2%80%93Derman%E2%80%93Toy_model" title="Black–Derman–Toy model">Black–Derman–Toy</a></li>
+<li><a href="Black%E2%80%93Karasinski_model" title="Black–Karasinski model">Black–Karasinski</a></li>
+<li><a href="Black%E2%80%93Scholes_model" title="Black–Scholes model" class="mw-redirect">Black–Scholes–Samuelson</a></li>
+<li><a href="Chen_model" title="Chen model">Chen</a></li>
+<li><a href="Constant_elasticity_of_variance_model" title="Constant elasticity of variance model">Constant elasticity of variance (CEV)</a></li>
+<li><a href="Cox%E2%80%93Ingersoll%E2%80%93Ross_model" title="Cox–Ingersoll–Ross model">Cox–Ingersoll–Ross (CIR)</a></li>
+<li><a href="../../w/index-title=Dothan_model&action=edit&redlink=1.php.html" class="new" title="Dothan model (page does not exist)">Dothan</a></li>
+<li><a href="Garman%E2%80%93Kohlhagen_model" title="Garman–Kohlhagen model" class="mw-redirect">Garman–Kohlhagen</a></li>
+<li><a href="Heath%E2%80%93Jarrow%E2%80%93Morton_framework" title="Heath–Jarrow–Morton framework">Heath–Jarrow–Morton (HJM)</a></li>
+<li><a href="Heston_model" title="Heston model">Heston</a></li>
+<li><a href="Ho%E2%80%93Lee_model" title="Ho–Lee model">Ho–Lee</a></li>
+<li><a href="Hull%E2%80%93White_model" title="Hull–White model">Hull–White</a></li>
+<li><a href="LIBOR_market_model" title="LIBOR market model">LIBOR market</a></li>
+<li><a href="SABR_volatility_model" title="SABR volatility model">SABR volatility</a></li>
+<li><a href="Vasicek_model" title="Vasicek model">Vašícek</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Actuarial_mathematics" title="Actuarial mathematics" class="mw-redirect">Actuarial models</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="B%C3%BChlmann_model" title="Bühlmann model">Bühlmann</a></li>
+<li><a href="../../w/index-title=B%C3%BChlmann%E2%80%93Straub_model&action=edit&redlink=1.php.html" class="new" title="Bühlmann–Straub model (page does not exist)">Bühlmann–Straub</a></li>
+<li><a href="../../w/index-title=Cram%C3%A9r%E2%80%93Lundberg_model&action=edit&redlink=1.php.html" class="new" title="Cramér–Lundberg model (page does not exist)">Cramér–Lundberg</a></li>
+<li><a href="../../w/index-title=Risk_process&action=edit&redlink=1.php.html" class="new" title="Risk process (page does not exist)">Risk process</a></li>
+<li><a href="../../w/index-title=Sparre%E2%80%93Anderson_model&action=edit&redlink=1.php.html" class="new" title="Sparre–Anderson model (page does not exist)">Sparre–Anderson</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Queueing_model" title="Queueing model" class="mw-redirect">Queueing models</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Bulk_queue" title="Bulk queue">Bulk</a></li>
+<li><a href="Fluid_queue" title="Fluid queue">Fluid</a></li>
+<li><a href="G-network" title="G-network">Generalized queueing network</a></li>
+<li><a href="M/G/1_queue" title="M/G/1 queue">M/G/1</a></li>
+<li><a href="M/M/1_queue" title="M/M/1 queue">M/M/1</a></li>
+<li><a href="M/M/c_queue" title="M/M/c queue">M/M/c</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Properties</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="C%C3%A0dl%C3%A0g" title="Càdlàg">Càdlàg paths</a></li>
+<li><a href="Continuous_stochastic_process" title="Continuous stochastic process">Continuous</a></li>
+<li><a href="Sample-continuous_process" title="Sample-continuous process">Continuous paths</a></li>
+<li><a href="Ergodicity" title="Ergodicity">Ergodic</a></li>
+<li><a href="Exchangeable_random_variables" title="Exchangeable random variables">Exchangeable</a></li>
+<li><a href="Feller-continuous_process" title="Feller-continuous process">Feller-continuous</a></li>
+<li><a href="Gauss%E2%80%93Markov_process" title="Gauss–Markov process">Gauss–Markov</a></li>
+<li><a href="Markov_property" title="Markov property">Markov</a></li>
+<li><a href="Mixing_(mathematics)" title="Mixing (mathematics)">Mixing</a></li>
+<li><a href="Piecewise_deterministic_Markov_process" title="Piecewise deterministic Markov process" class="mw-redirect">Piecewise deterministic</a></li>
+<li><a href="Predictable_process" title="Predictable process">Predictable</a></li>
+<li><a href="Progressively_measurable_process" title="Progressively measurable process">Progressively measurable</a></li>
+<li><a href="Self-similar_process" title="Self-similar process">Self-similar</a></li>
+<li><a href="Stationary_process" title="Stationary process">Stationary</a></li>
+<li><a href="Time_reversibility" title="Time reversibility">Time-reversible</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Limit theorems</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Central_limit_theorem" title="Central limit theorem">Central limit theorem</a></li>
+<li><a href="Donsker's_theorem" title="Donsker's theorem">Donsker's theorem</a></li>
+<li><a href="Doob's_martingale_convergence_theorems" title="Doob's martingale convergence theorems">Doob's martingale convergence theorems</a></li>
+<li><a href="Ergodic_theorem" title="Ergodic theorem" class="mw-redirect">Ergodic theorem</a></li>
+<li><a href="Fisher%E2%80%93Tippett%E2%80%93Gnedenko_theorem" title="Fisher–Tippett–Gnedenko theorem">Fisher–Tippett–Gnedenko theorem</a></li>
+<li><a href="Large_deviation_principle" title="Large deviation principle" class="mw-redirect">Large deviation principle</a></li>
+<li><a href="Law_of_large_numbers" title="Law of large numbers">Law of large numbers (weak/strong)</a></li>
+<li><a href="Law_of_the_iterated_logarithm" title="Law of the iterated logarithm">Law of the iterated logarithm</a></li>
+<li><a href="Maximal_ergodic_theorem" title="Maximal ergodic theorem">Maximal ergodic theorem</a></li>
+<li><a href="../../w/index-title=Moderate_deviation_principle&action=edit&redlink=1.php.html" class="new" title="Moderate deviation principle (page does not exist)">Moderate deviation principle</a></li>
+<li><a href="Sanov's_theorem" title="Sanov's theorem">Sanov's theorem</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="List_of_inequalities#Probability_theory_and_statistics" title="List of inequalities">Inequalities</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="../../w/index-title=Burkholder's_inequality&action=edit&redlink=1.php.html" class="new" title="Burkholder's inequality (page does not exist)">Burkholder</a></li>
+<li><a href="Burkholder%E2%80%93Davis%E2%80%93Gundy_inequalities" title="Burkholder–Davis–Gundy inequalities" class="mw-redirect">Burkholder–Davis–Gundy</a></li>
+<li><a href="../../w/index-title=Fefferman's_inequality&action=edit&redlink=1.php.html" class="new" title="Fefferman's inequality (page does not exist)">Fefferman</a></li>
+<li><a href="Kunita%E2%80%93Watanabe_inequality" title="Kunita–Watanabe inequality" class="mw-redirect">Kunita–Watanabe</a></li>
+<li><a href="../../w/index-title=Lenglart's_inequality&action=edit&redlink=1.php.html" class="new" title="Lenglart's inequality (page does not exist)">Langlart</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Tools</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cameron%E2%80%93Martin_formula" title="Cameron–Martin formula" class="mw-redirect">Cameron–Martin formula</a></li>
+<li><a href="Convergence_of_random_variables" title="Convergence of random variables">Convergence of random variables</a></li>
+<li><a href="Dol%C3%A9ans-Dade_exponential" title="Doléans-Dade exponential">Doléans-Dade exponential</a></li>
+<li><a href="Doob_decomposition_theorem" title="Doob decomposition theorem">Doob decomposition theorem</a></li>
+<li><a href="Doob%E2%80%93Meyer_decomposition_theorem" title="Doob–Meyer decomposition theorem">Doob–Meyer decomposition theorem</a></li>
+<li><a href="Doob's_optional_stopping_theorem" title="Doob's optional stopping theorem" class="mw-redirect">Doob's optional stopping theorem</a></li>
+<li><a href="Dynkin's_formula" title="Dynkin's formula">Dynkin's formula</a></li>
+<li><a href="Feynman%E2%80%93Kac_formula" title="Feynman–Kac formula">Feynman–Kac formula</a></li>
+<li><a href="Filtration_(mathematics)#Measure_theory" title="Filtration (mathematics)">Filtration</a></li>
+<li><a href="Girsanov_theorem" title="Girsanov theorem">Girsanov theorem</a></li>
+<li><a href="Infinitesimal_generator_(stochastic_processes)" title="Infinitesimal generator (stochastic processes)">Infinitesimal generator</a></li>
+<li><a href="It%C5%8D_integral" title="Itō integral" class="mw-redirect">Itō integral</a></li>
+<li><a href="It%C5%8D's_lemma" title="Itō's lemma">Itō's lemma</a></li>
+<li><a href="Kolmogorov_continuity_theorem" title="Kolmogorov continuity theorem">Kolmogorov continuity theorem</a></li>
+<li><a href="Kolmogorov_extension_theorem" title="Kolmogorov extension theorem">Kolmogorov extension theorem</a></li>
+<li><a href="L%C3%A9vy%E2%80%93Prokhorov_metric" title="Lévy–Prokhorov metric">Lévy–Prokhorov metric</a></li>
+<li><a href="Malliavin_calculus" title="Malliavin calculus">Malliavin calculus</a></li>
+<li><a href="Martingale_representation_theorem" title="Martingale representation theorem">Martingale representation theorem</a></li>
+<li><a href="../../w/index-title=Meyer%E2%80%93Tanaka_formula&action=edit&redlink=1.php.html" class="new" title="Meyer–Tanaka formula (page does not exist)">Meyer–Tanaka formula</a></li>
+<li><a href="Optional_stopping_theorem" title="Optional stopping theorem">Optional stopping theorem</a></li>
+<li><a href="Prohorov_theorem" title="Prohorov theorem" class="mw-redirect">Prohorov theorem</a></li>
+<li><a href="Quadratic_variation" title="Quadratic variation">Quadratic variation</a></li>
+<li><a href="Skorokhod_integral" title="Skorokhod integral">Skorokhod integral</a></li>
+<li><a href="Skorokhod's_representation_theorem" title="Skorokhod's representation theorem">Skorokhod's representation theorem</a></li>
+<li><a href="Skorokhod_space" title="Skorokhod space" class="mw-redirect">Skorokhod space</a></li>
+<li><a href="Snell_envelope" title="Snell envelope">Snell envelope</a></li>
+<li><a href="Stochastic_differential_equation" title="Stochastic differential equation">Stochastic differential equation</a>
+<ul>
+<li><a href="Tanaka_equation" title="Tanaka equation">Tanaka</a></li>
+</ul>
+</li>
+<li><a href="Stopping_time" title="Stopping time">Stopping time</a></li>
+<li><a href="Stratonovich_integral" title="Stratonovich integral">Stratonovich integral</a></li>
+<li><a href="Uniform_integrability" title="Uniform integrability">Uniform integrability</a></li>
+<li><a href="Wiener_space" title="Wiener space" class="mw-redirect">Wiener space</a>
+<ul>
+<li><a href="Classical_Wiener_space" title="Classical Wiener space">Classical</a></li>
+<li><a href="Abstract_Wiener_space" title="Abstract Wiener space">Abstract</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Disciplines</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Actuarial_mathematics" title="Actuarial mathematics" class="mw-redirect">Actuarial mathematics</a></li>
+<li><a href="Econometrics" title="Econometrics">Econometrics</a></li>
+<li><a href="Ergodic_theory" title="Ergodic theory">Ergodic theory</a></li>
+<li><a href="Extreme_value_theory" title="Extreme value theory">Extreme value theory (EVT)</a></li>
+<li><a href="Large_deviations_theory" title="Large deviations theory">Large deviations theory</a></li>
+<li><a href="Mathematical_finance" title="Mathematical finance">Mathematical finance</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical statistics</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability theory</a></li>
+<li><a href="Queueing_theory" title="Queueing theory">Queueing theory</a></li>
+<li><a href="Renewal_theory" title="Renewal theory">Renewal theory</a></li>
+<li><a href="Ruin_theory" title="Ruin theory">Ruin theory</a></li>
+<li><a href="Statistics" title="Statistics">Statistics</a></li>
+<li><a href="Stochastic_analysis" title="Stochastic analysis" class="mw-redirect">Stochastic analysis</a></li>
+<li><a href="Time_series_analysis" title="Time series analysis" class="mw-redirect">Time series analysis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div><a href="List_of_stochastic_processes_topics" title="List of stochastic processes topics">List of stochastic processes topics</a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 7566/1000000
+Preprocessor generated node count: 34399/1500000
+Post-expand include size: 68507/2048000 bytes
+Template argument size: 30267/2048000 bytes
+Highest expansion depth: 17/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:47895-0!0!0!!en!4!* and timestamp 20130207222254 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Stochastic_process&oldid=536702254.php.html">http://en.wikipedia.org/w/index.php?title=Stochastic_process&amp;oldid=536702254</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Stochastic_processes" title="Category:Stochastic processes">Stochastic processes</a></li><li><a href="Category_Telecommunication_theory" title="Category:Telecommunication theory">Telecommunication theory</a></li><li><a href="Category_Statistical_models" title="Category:Statistical models">Statistical models</a></li><li><a href="Category_Statistical_data_types" title="Category:Statistical data types">Statistical data types</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_lacking_in-text_citations_from_November_2010" title="Category:Articles lacking in-text citations from November 2010">Articles lacking in-text citations from November 2010</a></li><li><a href="Category_All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Stochastic+process&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Stochastic+process.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Stochastic_process"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Stochastic_process&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Stochastic_process&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Stochastic_process" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Stochastic_process" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Stochastic_process&oldid=536702254.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Stochastic_process&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Stochastic_process&id=536702254.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Stochastic+process.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Stochastic+process&oldid=536702254&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Stochastic_process&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Stogastiese_proses" title="Stogastiese proses" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%B9%D9%85%D9%84%D9%8A%D8%A9_%D8%AA%D8%B5%D8%A7%D8%AF%D9%81%D9%8A%D8%A9" title="عملية تصادفية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%A6%E0%A7%88%E0%A6%AC_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE" title="দৈব প্রক্রিয়া" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D0%BD_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81" title="Случаен процес" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Proc%C3%A9s_estoc%C3%A0stic" title="Procés estocàstic" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/N%C3%A1hodn%C3%BD_proces" title="Náhodný proces" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Stochastischer_Prozess" title="Stochastischer Prozess" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Juhuslik_protsess" title="Juhuslik protsess" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Proceso_estoc%C3%A1stico" title="Proceso estocástico" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Stokastiko" title="Stokastiko" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Prozesu_estokastiko" title="Prozesu estokastiko" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF_%D8%AA%D8%B5%D8%A7%D8%AF%D9%81%DB%8C" title="فرایند تصادفی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Processus_stochastique" title="Processus stochastique" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Proceso_estoc%C3%A1stico" title="Proceso estocástico" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%ED%99%95%EB%A5%A0_%EA%B3%BC%EC%A0%95" title="확률 과정" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Processo_stocastico" title="Processo stocastico" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%94%D7%9C%D7%99%D7%9A_%D7%A1%D7%98%D7%95%D7%9B%D7%A1%D7%98%D7%99" title="תהליך סטוכסטי" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Sztochasztikus_folyamat" title="Sztochasztikus folyamat" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Proses_stokastik" title="Proses stokastik" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Stochastisch_proces" title="Stochastisch proces" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E7%A2%BA%E7%8E%87%E9%81%8E%E7%A8%8B" title="確率過程" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Stokastisk_prosess" title="Stokastisk prosess" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Proces_stochastyczny" title="Proces stochastyczny" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Processo_estoc%C3%A1stico" title="Processo estocástico" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Proces_stochastic" title="Proces stochastic" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81" title="Случайный процесс" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Stochastick%C3%BD_proces" title="Stochastický proces" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/Pros%C3%A9s_stokastik" title="Prosés stokastik" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Stokastinen_prosessi" title="Stokastinen prosessi" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Stokastisk_process" title="Stokastisk process" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%92%D0%B8%D0%BF%D0%B0%D0%B4%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81" title="Випадковий процес" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Qu%C3%A1_tr%C3%ACnh_ng%E1%BA%ABu_nhi%C3%AAn" title="Quá trình ngẫu nhiên" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B" title="随机过程" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 5 February 2013 at 14:54.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Stochastic_process" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1057 in 1.310 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

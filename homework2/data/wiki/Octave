@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Octave - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Octave&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Octave&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Octave","wgTitle":"Octave","wgCurRevisionId":537687393,"wgArticleId":37726,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Octaves","Perfect intervals","Superparticular intervals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Octave","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"38de11b06635a36b4bbe0ab86fcaa4a3","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":37726,"title":"Octave","namespace":0,"categories":["Octaves","Perfect intervals","Superparticular intervals"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Octave skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Octave</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For other uses, see <a href="Octave_(disambiguation)" title="Octave (disambiguation)">Octave (disambiguation)</a>.</div>
+<table class="infobox" style="width: 22em; text-align: center; font-size: 90%;" cellspacing="2">
+<caption style="font-size: 1.25em;"><b>Perfect octave</b></caption>
+<tr style="vertical-align: center;">
+<th><b><a href="Inversion_(music)" title="Inversion (music)">Inverse</a></b></th>
+<th colspan="2"><a href="Unison" title="Unison">unison</a></th>
+</tr>
+<tr style="vertical-align:center;">
+<td style="background: palegoldenrod;" colspan="3" align="center">Name</td>
+</tr>
+<tr style="vertical-align: center;">
+<th><b>Other names</b></th>
+<th colspan="2">-</th>
+</tr>
+<tr style="vertical-align: center;">
+<th><b>Abbreviation</b></th>
+<th colspan="2">P8</th>
+</tr>
+<tr style="vertical-align:center;">
+<td style="background: palegoldenrod;" colspan="3" align="center">Size</td>
+</tr>
+<tr style="vertical-align: center;">
+<th><b><a href="Semitone" title="Semitone">Semitones</a></b></th>
+<th colspan="2">12</th>
+</tr>
+<tr style="vertical-align: center;">
+<th><b><a href="Interval_class" title="Interval class">Interval class</a></b></th>
+<th colspan="2">0</th>
+</tr>
+<tr style="vertical-align: center;">
+<th><b><a href="Just_intonation" title="Just intonation">Just interval</a></b></th>
+<th colspan="2">2:1</th>
+</tr>
+<tr style="vertical-align:center;">
+<td style="background: palegoldenrod;" colspan="3" align="center"><a href="Cent_(music)" title="Cent (music)">Cents</a></td>
+</tr>
+<tr style="vertical-align: center;">
+<th><b><a href="Equal_temperament" title="Equal temperament">Equal temperament</a></b></th>
+<th colspan="2">1200</th>
+</tr>
+<tr style="vertical-align: center;">
+<th><b><a href="24_equal_temperament" title="24 equal temperament" class="mw-redirect">24 equal temperament</a></b></th>
+<th colspan="2">1200</th>
+</tr>
+<tr style="vertical-align: center;">
+<th><b><a href="Just_intonation" title="Just intonation">Just intonation</a></b></th>
+<th colspan="2">1200</th>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Perfect_octave_on_C.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Perfect_octave_on_C.png/220px-Perfect_octave_on_C.png" width="220" height="103" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Perfect_octave_on_C.png/330px-Perfect_octave_on_C.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Perfect_octave_on_C.png/440px-Perfect_octave_on_C.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Perfect_octave_on_C.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Perfect octave <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Perfect_octave_on_C.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/commons/f/f0/Perfect_octave_on_C.mid" class="internal" title="Perfect octave on C.mid">Play</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Perfect_octave_on_C.mid" title="File:Perfect octave on C.mid"><span style="cursor:help;">info</span></a>)</small></span></div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Octaves_marked.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/97/Octaves_marked.png/220px-Octaves_marked.png" width="220" height="191" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/97/Octaves_marked.png/330px-Octaves_marked.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/97/Octaves_marked.png/440px-Octaves_marked.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Octaves_marked.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Multi-octave F major chord with octaves marked by brackets. <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Octaves_marked.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/2/25/Octaves_marked.mid" class="internal" title="Octaves marked.mid">Play full chord</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Octaves_marked.mid" title="File:Octaves marked.mid"><span style="cursor:help;">info</span></a>)</small></span>, <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Octaves_marked_lowest_octave.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/6/6d/Octaves_marked_lowest_octave.mid" class="internal" title="Octaves marked lowest octave.mid">lowest octave</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Octaves_marked_lowest_octave.mid" title="File:Octaves marked lowest octave.mid"><span style="cursor:help;">info</span></a>)</small></span>, <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Octaves_marked_middle_octave.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/6/6a/Octaves_marked_middle_octave.mid" class="internal" title="Octaves marked middle octave.mid">middle octave</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Octaves_marked_middle_octave.mid" title="File:Octaves marked middle octave.mid"><span style="cursor:help;">info</span></a>)</small></span>, or <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Octaves_marked_highest_octave.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/7/7d/Octaves_marked_highest_octave.mid" class="internal" title="Octaves marked highest octave.mid">highest octave</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Octaves_marked_highest_octave.mid" title="File:Octaves marked highest octave.mid"><span style="cursor:help;">info</span></a>)</small></span>.</div>
+</div>
+</div>
+<p>In <a href="Music" title="Music">music</a>, an <b>octave</b> (Latin <i>octavus</i>: eighth) or <b>perfect octave</b> is the <a href="Interval_(music)" title="Interval (music)">interval</a> between one musical <a href="Pitch_(music)" title="Pitch (music)">pitch</a> and another with half or double its <a href="Frequency" title="Frequency">frequency</a>. The octave relationship is a natural phenomenon that has been referred to as the "basic miracle of music", the use of which is "common in most musical systems".<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> It may be derived from the <a href="Harmonic_series_(music)" title="Harmonic series (music)">harmonic series</a> as the interval between the first and second harmonics.</p>
+<p>The octave has occasionally been referred to as a <a href="Pythagorean_interval" title="Pythagorean interval">diapason</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>To emphasize that it is one of the <a href="Interval_(music)" title="Interval (music)">perfect intervals</a> (including unison, <a href="Perfect_fourth" title="Perfect fourth">perfect fourth</a>, and <a href="Perfect_fifth" title="Perfect fifth">perfect fifth</a>), the octave is designated <b>P8</b>. The octave above or below an indicated <a href="Note" title="Note">note</a> is sometimes abbreviated <b>8va</b> (= Italian <i>all'ottava</i>), or <b>8va bassa</b> (= Italian <i>all'ottava bassa</i>, sometimes also <b>8vb</b>), respectively.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Theory"><span class="tocnumber">1</span> <span class="toctext">Theory</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Notation"><span class="tocnumber">2</span> <span class="toctext">Notation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#First_octave"><span class="tocnumber">2.1</span> <span class="toctext">First octave</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#External_links"><span class="tocnumber">5</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Octave&action=edit&section=1.php.html" title="Edit section: Theory">edit</a>]</span> <span class="mw-headline" id="Theory">Theory</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:117px;"><a href="http://en.wikipedia.org/wiki/File:Octave_example.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/a/a4/Octave_example.png" width="115" height="80" class="thumbimage" /></a>
+<div class="thumbcaption">An example of an octave, from G4 to G5</div>
+</div>
+</div>
+<p>For example, if one note has a frequency of 440 <a href="Hertz" title="Hertz">Hz</a>, the note an octave above it is at 880&#160;Hz, and the note an octave below is at 220&#160;Hz. The ratio of frequencies of two notes an octave apart is therefore 2:1. Further octaves of a note occur at 2<sup><i>n</i></sup> times the frequency of that note (where <i>n</i> is an integer), such as 2, 4, 8, 16, etc. and the reciprocal of that series. For example, 55&#160;Hz and 440&#160;Hz are one and two octaves away from 110&#160;Hz because they are 0.5 (or 2<sup>&#160;−1</sup>) and 4 (or 2<sup>2</sup>) times the frequency, respectively.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:352px;"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_octaves.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Twinkle_Twinkle_in_octaves.png/350px-Twinkle_Twinkle_in_octaves.png" width="350" height="85" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/aa/Twinkle_Twinkle_in_octaves.png/525px-Twinkle_Twinkle_in_octaves.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/aa/Twinkle_Twinkle_in_octaves.png/700px-Twinkle_Twinkle_in_octaves.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_octaves.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+"<a href="Twinkle_Twinkle_Little_Star" title="Twinkle Twinkle Little Star">Twinkle Twinkle Little Star</a>" melody doubled in four octaves: consonant and equivalent. <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_octaves.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/6/62/Twinkle_Twinkle_in_octaves.mid" class="internal" title="Twinkle Twinkle in octaves.mid">Play</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_octaves.mid" title="File:Twinkle Twinkle in octaves.mid"><span style="cursor:help;">info</span></a>)</small></span></div>
+</div>
+</div>
+<p>After the <a href="Unison" title="Unison">unison</a>, the octave is the simplest interval in music. The human <a href="Ear" title="Ear">ear</a> tends to <a href="Hearing_(sense)" title="Hearing (sense)">hear</a> both notes as being essentially "the same", due to closely related harmonics. Notes in an octave "ring" together, adding a pleasing sound to <a href="Music" title="Music">music</a>. For this reason, notes an octave apart are given the same note name in the Western system of <a href="Music_notation" title="Music notation" class="mw-redirect">music notation</a>—the name of a note an octave above A is also A. This is called <b>octave equivalency</b>, the assumption that pitches one or more octaves apart are musically <a href="Equivalence_class_(music)" title="Equivalence class (music)">equivalent</a> in many ways, leading to the convention "that <a href="Musical_scale" title="Musical scale" class="mw-redirect">scales</a> are uniquely defined by specifying the intervals within an octave".<sup id="cite_ref-Burns_3-0" class="reference"><a href="#cite_note-Burns-3"><span>[</span>3<span>]</span></a></sup> The conceptualization of pitch as having two dimensions, pitch height (absolute frequency) and pitch class (relative position within the octave), inherently include octave circularity.<sup id="cite_ref-Burns_3-1" class="reference"><a href="#cite_note-Burns-3"><span>[</span>3<span>]</span></a></sup> Thus all C<span class="music-symbol" style="font-family: Arial Unicode MS, Lucida Sans Unicode;">♯</span>s, or all 1s (if C&#160;=&#160;0), in any octave are part of the same <a href="Pitch_class" title="Pitch class">pitch class</a>.</p>
+<p>Octave equivalency is a part of most "advanced musical cultures", but is far from universal in "primitive" and <a href="Early_music" title="Early music">early music</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> The languages in which the oldest extant written documents on tuning are written, <a href="Sumerian_language" title="Sumerian language">Sumerian</a> and <a href="Akkadian" title="Akkadian" class="mw-redirect">Akkadian</a>, have no known word for "octave". However, it is believed that a set of <a href="Cuneiform" title="Cuneiform">cuneiform</a> tablets that collectively describe the tuning of a nine-stringed instrument, believed to be a Babylonian <a href="Lyre" title="Lyre">lyre</a>, describe tunings for seven of the strings, with indications to tune the remaining two strings an octave from two of the seven tuned strings.<sup id="cite_ref-Meso_Flutes_6-0" class="reference"><a href="#cite_note-Meso_Flutes-6"><span>[</span>6<span>]</span></a></sup> Leon Crickmore recently proposed that "The octave may not have been thought of as a unit in its own right, but rather by analogy like the first day of a new seven-day week".<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:352px;"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_fifths.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/3/30/Twinkle_Twinkle_in_fifths.png/350px-Twinkle_Twinkle_in_fifths.png" width="350" height="79" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/30/Twinkle_Twinkle_in_fifths.png/525px-Twinkle_Twinkle_in_fifths.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/30/Twinkle_Twinkle_in_fifths.png/700px-Twinkle_Twinkle_in_fifths.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_fifths.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+"<a href="Twinkle_Twinkle_Little_Star" title="Twinkle Twinkle Little Star">Twinkle Twinkle Little Star</a>" melody doubled at fifths: fairly consonant but not equivalent. <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_fifths.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/5/5e/Twinkle_Twinkle_in_fifths.mid" class="internal" title="Twinkle Twinkle in fifths.mid">Play</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_fifths.mid" title="File:Twinkle Twinkle in fifths.mid"><span style="cursor:help;">info</span></a>)</small></span></div>
+</div>
+</div>
+<p>Monkeys experience octave equivalency, and its biological basis apparently is an octave mapping of neurons in the auditory <a href="Thalamus" title="Thalamus">thalamus</a> of the mammalian <a href="Brain" title="Brain">brain</a><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> and the perception of octave equivalency in self-organizing <a href="Neural_network" title="Neural network">neural networks</a> can form through exposure to pitched notes, without any tutoring, this being derived from the acoustical structure of those notes.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> Studies have also shown the perception of octave equivalence in rats (Blackwell &amp; Schlosberg, 1943), human infants (Demany &amp; Armand, 1984),<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> and musicians (Allen, 1967) but not starlings (Cynx, 1993), 4-9 year old children (Sergeant, 1983), or nonmusicians (Allen, 1967).<sup id="cite_ref-Burns_3-2" class="reference"><a href="#cite_note-Burns-3"><span>[</span>3<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:352px;"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_seconds.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/5/58/Twinkle_Twinkle_in_seconds.png/350px-Twinkle_Twinkle_in_seconds.png" width="350" height="79" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/5/58/Twinkle_Twinkle_in_seconds.png/525px-Twinkle_Twinkle_in_seconds.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/5/58/Twinkle_Twinkle_in_seconds.png/700px-Twinkle_Twinkle_in_seconds.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_seconds.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+"<a href="Twinkle_Twinkle_Little_Star" title="Twinkle Twinkle Little Star">Twinkle Twinkle Little Star</a>" melody doubled at seconds: neither consonant nor equivalent. <span class="unicode"><a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_seconds.mid" title="About this sound"><img alt="About this sound" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/11px-Loudspeaker.svg.png" width="11" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/17px-Loudspeaker.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Loudspeaker.svg/22px-Loudspeaker.svg.png 2x" /></a>&#160;<a href="http://upload.wikimedia.org/wikipedia/en/9/92/Twinkle_Twinkle_in_seconds.mid" class="internal" title="Twinkle Twinkle in seconds.mid">Play</a><small class="metadata audiolinkinfo" style="cursor:help;">&#160;(<a href="Wikipedia_Media_help" title="Wikipedia:Media help"><span style="cursor:help;">help</span></a>·<a href="http://en.wikipedia.org/wiki/File:Twinkle_Twinkle_in_seconds.mid" title="File:Twinkle Twinkle in seconds.mid"><span style="cursor:help;">info</span></a>)</small></span></div>
+</div>
+</div>
+<p>While octaves commonly refer to the <b>perfect octave</b> (P8), the interval of an octave in music theory encompasses chromatic alterations within the pitch class, meaning that <span class="Unicode">G♮</span> to G♯ (13 semitones higher) is an <a href="Augmented_octave" title="Augmented octave">Augmented octave</a> (A8), and <span class="Unicode">G♮</span> to G♭ (11 semitones higher) is a <a href="Diminished_octave" title="Diminished octave">diminished octave</a> (d8). The use of such intervals is rare, as there is frequently a more preferable <a href="Enharmonic" title="Enharmonic">enharmonic</a> notation available, but these categories of octaves must be acknowledged in any full understanding of the role and meaning of octaves more generally in music.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Octave&action=edit&section=2.php.html" title="Edit section: Notation">edit</a>]</span> <span class="mw-headline" id="Notation">Notation</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:402px;"><a href="http://en.wikipedia.org/wiki/File:Common_Octave_Naming_Systems.png" class="image"><img alt="Common Octave Naming Systems.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Common_Octave_Naming_Systems.png/400px-Common_Octave_Naming_Systems.png" width="400" height="183" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Common_Octave_Naming_Systems.png/600px-Common_Octave_Naming_Systems.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Common_Octave_Naming_Systems.png/800px-Common_Octave_Naming_Systems.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Common_Octave_Naming_Systems.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+</div>
+</div>
+</div>
+<p>Octaves are identified with various naming systems. Among the most common are the Scientific, Helmholtz, Organ Pipe, Midi, and Midi Note systems.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Ottava_Ex.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Ottava_Ex.png/300px-Ottava_Ex.png" width="300" height="83" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/f/f3/Ottava_Ex.png 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f3/Ottava_Ex.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Ottava_Ex.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An example of the same two notes expressed regularly, in an 8va bracket, and in a 15ma bracket.</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Six_octaves_visualization.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Six_octaves_visualization.png/220px-Six_octaves_visualization.png" width="220" height="62" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Six_octaves_visualization.png/330px-Six_octaves_visualization.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Six_octaves_visualization.png/440px-Six_octaves_visualization.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Six_octaves_visualization.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Five octaves: 1, 2, 4, 8, 16, 32 (2<sup>0</sup>, 2<sup>1</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 2<sup>4</sup>, 2<sup>5</sup>).</div>
+</div>
+</div>
+<p>In writing a specific octave is often indicated through the addition of a number after the note letter name. Thus middle C is "C4", because of the note's position as the fourth C key on a standard 88-key piano keyboard, while the C above is "C5", in a system known as <a href="Scientific_pitch_notation" title="Scientific pitch notation">scientific pitch notation</a>.</p>
+<p>The notation <b>8va</b> is sometimes seen in <a href="Sheet_music" title="Sheet music">sheet music</a>, meaning "play this an octave higher than written" (<i><b>all' ottava</b></i>: "at the octave"). <i>8va</i> stands for <i>ottava</i>, the <a href="Italian_language" title="Italian language">Italian</a> word for octave (also meaning "eighth"). Sometimes 8va is used to tell the musician to play a passage an octave <i>lower</i>, though the similar notation <b>8vb</b> (<i>ottava bassa</i>) is more common. Similarly, <b><a href="Fifteenth" title="Fifteenth">15ma</a></b> (<i>quindicesima</i>) means "play two octaves higher than written" and <b>15mb</b> (<i>quindicesima bassa</i>) means "play two octaves lower than written." <b>Col 8</b> or <b>c. 8va</b> stands for <i>coll'ottava</i> and means "play the notes in the passage together with the notes in the notated octaves". Any of these directions can be cancelled with the word <i><a href="Loco_(music)" title="Loco (music)" class="mw-redirect">loco</a></i>, but often a dashed line or bracket indicates the extent of the music affected.</p>
+<p>For music-theoretical purposes (not on sheet music), <i>octave</i> can be abbreviated as <b>P8</b> (which is an abbreviation for Perfect Eighth, the interval between 12 semitones or an octave).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Octave&action=edit&section=3.php.html" title="Edit section: First octave">edit</a>]</span> <span class="mw-headline" id="First_octave">First octave</span></h3>
+<p>In <a href="Music_theory" title="Music theory">music theory</a>, the <b>first octave</b>, also called the <b>contra octave</b>, ranges from <a href="Scientific_pitch_notation" title="Scientific pitch notation">C1</a>, or about 32.7 <a href="Hertz" title="Hertz">Hz</a>, to <a href="Scientific_pitch_notation" title="Scientific pitch notation">C2</a>, about 65.4 Hz, in <a href="Equal_temperament" title="Equal temperament">equal temperament</a> using <a href="A440_(Concert_A)" title="A440 (Concert A)" class="mw-redirect">A440</a> tuning. This is the lowest complete octave of most <a href="Piano" title="Piano">pianos</a> (excepting the <a href="B%C3%B6sendorfer" title="Bösendorfer">Bösendorfer</a> <a href="Imperial_B%C3%B6sendorfer_(piano)" title="Imperial Bösendorfer (piano)">Imperial Grand</a>). The lowest notes of instruments such as <a href="Double_bass" title="Double bass">double bass</a>, <a href="Bass_guitar" title="Bass guitar">electric bass</a>, extended-range <a href="Bass_clarinet" title="Bass clarinet">bass clarinet</a>, <a href="Contrabass_clarinet" title="Contrabass clarinet">contrabass clarinet</a>, <a href="Bassoon" title="Bassoon">bassoon</a>, <a href="Contrabassoon" title="Contrabassoon">contrabassoon</a>, <a href="Tuba" title="Tuba">tuba</a> and <a href="Sousaphone" title="Sousaphone">sousaphone</a> are part of the first octave.</p>
+<p>The ability of <a href="Vocalist" title="Vocalist" class="mw-redirect">vocalists</a> to sing competently in the first octave is rare, even for males. A singer who can reach notes in this range is known as a <a href="Basso_profondo" title="Basso profondo">basso profondo</a>, Italian for "deep bass". A <a href="Russian_bass" title="Russian bass" class="mw-redirect">Russian bass</a> can also sing in this range, and the fundamental pitches sung by <a href="Tibetan_monk" title="Tibetan monk" class="mw-redirect">Tibetan monks</a> and the <a href="Overtone_singing" title="Overtone singing">throat singers</a> of <a href="Siberia" title="Siberia">Siberia</a> and <a href="Mongolia" title="Mongolia">Mongolia</a> are in this range.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Octave&action=edit&section=4.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Blind_octave" title="Blind octave">Blind octave</a></li>
+<li><a href="Decade_(log_scale)" title="Decade (log scale)">Decade</a></li>
+<li><a href="Eight_foot_pitch" title="Eight foot pitch">Eight foot pitch</a></li>
+<li><a href="Octave_species" title="Octave species">Octave species</a></li>
+<li><a href="Pitch_circularity" title="Pitch circularity">Pitch circularity</a></li>
+<li><a href="Pseudo-octave" title="Pseudo-octave">Pseudo-octave</a></li>
+<li><a href="Pythagorean_interval" title="Pythagorean interval">Pythagorean interval</a></li>
+<li><a href="Solfege" title="Solfege" class="mw-redirect">Solfege</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Octave&action=edit&section=5.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Cooper, Paul (1973). <i>Perspectives in Music Theory: An Historical-Analytical Approach</i>, p.16. <a href="Special_BookSources/0396067522" class="internal mw-magiclink-isbn">ISBN 0-396-06752-2</a>.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation book">William Smith and Samuel Cheetham (1875). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=1LIPFk6oFVkC&pg=PA550&dq=diatessaron+diapason+diapente+fourth+fifth"><i>A Dictionary of Christian Antiquities</i></a>. London: John Murray<span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=1LIPFk6oFVkC&pg=PA550&dq=diatessaron+diapason+diapente+fourth+fifth">http://books.google.com/books?id=1LIPFk6oFVkC&amp;pg=PA550&amp;dq=diatessaron+diapason+diapente+fourth+fifth</a></span>.</span></span></li>
+<li id="cite_note-Burns-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-Burns_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Burns_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Burns_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Burns, Edward M. (1999). "Intervals, Scales, and Tuning", <i>The Psychology of Music</i> second edition, , p.252. Deutsch, Diana, ed. San Diego: Academic Press. <a href="Special_BookSources/0122135644" class="internal mw-magiclink-isbn">ISBN 0-12-213564-4</a>.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">e.g., Nettl, 1956; Sachs, C. and Kunst, J. (1962). In <i>The wellsprings of music</i>, ed. Kunst, J. The Hague: Marinus Nijhoff.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">e.g., Nettl, 1956; Sachs, C. and Kunst, J. (1962). Cited in Burns, Edward M. (1999), p.217.</span></li>
+<li id="cite_note-Meso_Flutes-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Meso_Flutes_6-0">^</a></b></span> <span class="reference-text"><span class="citation web">Clint Goss (2012). <a rel="nofollow" class="external text" href="http://Flutopedia.com/mesopotamian_flutes.htm">"Flutes of Gilgamesh and Ancient Mesopotamia"</a>. <i>Flutopedia</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://Flutopedia.com/mesopotamian_flutes.htm">http://Flutopedia.com/mesopotamian_flutes.htm</a></span><span class="reference-accessdate">. Retrieved 2012-01-08</span>.</span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation Journal">Leon Crickmore (2008). "New Light on the Babylonian Tonal System". <i>ICONEA 2008: Proceedings of the International Conference of Near Eastern Archaeomusicology, held at the British Museum, December 4-6, 2008</i> <b>24</b>: 11–22.</span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">"<a rel="nofollow" class="external text" href="http://www.neuroscience-of-music.se/eng7.htm">The mechanism of octave circularity in the auditory brain</a>", <i>Neuroscience of Music</i>.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Bharucha 2003, cited in Fineberg, Joshua (2006). <i>Classical Music, Why Bother?". Routledge. <a href="Special_BookSources/041597173X" class="internal mw-magiclink-isbn">ISBN 0-415-97173-X</a>. Cites Bharucha (2003).</i></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Demany L, Armand F. The perceptual reality of tone chroma in early infancy. J Acoust Soc Am 1984;76:57–66.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Octave&action=edit&section=6.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.kylegann.com/Octave.html">Anatomy of an Octave</a> by <a href="Kyle_Gann" title="Kyle Gann">Kyle Gann</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Intervals" title="Template:Intervals"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Intervals" title="Template talk:Intervals"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Intervals&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Interval_(music)" title="Interval (music)">Intervals</a> (<a href="List_of_musical_intervals" title="List of musical intervals">list by name</a> &amp; <a href="List_of_pitch_intervals" title="List of pitch intervals">list by ratio</a>)</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div><i>Numbers in brackets are the number of <a href="Semitone" title="Semitone">semitones</a> in the interval.<br />
+Fractional semitones are approximate.</i></div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";line-height:1.2em;;">Twelve-semitone<br />
+(Western)</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;">Perfect</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Unison" title="Unison">unison</a> (0)</li>
+<li><a href="Perfect_fourth" title="Perfect fourth">fourth</a> (5)</li>
+<li><a href="Perfect_fifth" title="Perfect fifth">fifth</a> (7)</li>
+<li><strong class="selflink">octave</strong> (12)</li>
+<li><a href="Fifteenth" title="Fifteenth">fifteenth</a> (24)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Major_and_minor#Intervals_and_chords" title="Major and minor">Major</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Major_second" title="Major second">second</a> (2)</li>
+<li><a href="Major_third" title="Major third">third</a> (4)</li>
+<li><a href="Major_sixth" title="Major sixth">sixth</a> (9)</li>
+<li><a href="Major_seventh" title="Major seventh">seventh</a> (11)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Major_and_minor#Intervals_and_chords" title="Major and minor">Minor</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Semitone" title="Semitone">second</a> (1)</li>
+<li><a href="Minor_third" title="Minor third">third</a> (3)</li>
+<li><a href="Minor_sixth" title="Minor sixth">sixth</a> (8)</li>
+<li><a href="Minor_seventh" title="Minor seventh">seventh</a> (10)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Augmentation_(music)#Augmentation_of_intervals" title="Augmentation (music)">Augmented</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Augmented_unison" title="Augmented unison">unison</a> (1)</li>
+<li><a href="Augmented_second" title="Augmented second">second</a> (3)</li>
+<li><a href="Augmented_third" title="Augmented third">third</a> (5)</li>
+<li><a href="Tritone" title="Tritone">fourth</a> (6)</li>
+<li><a href="Augmented_fifth" title="Augmented fifth">fifth</a> (8)</li>
+<li><a href="Augmented_sixth" title="Augmented sixth">sixth</a> (10)</li>
+<li><a href="Augmented_seventh" title="Augmented seventh">seventh</a> (12)</li>
+<li><a href="Augmented_octave" title="Augmented octave">octave</a> (13)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Diminution#Diminution_of_intervals" title="Diminution">Diminished</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Diminished_second" title="Diminished second">second</a> (0)</li>
+<li><a href="Diminished_third" title="Diminished third">third</a> (2)</li>
+<li><a href="Diminished_fourth" title="Diminished fourth">fourth</a> (4)</li>
+<li><a href="Tritone" title="Tritone">fifth</a> (6)</li>
+<li><a href="Diminished_sixth" title="Diminished sixth">sixth</a> (7)</li>
+<li><a href="Diminished_seventh" title="Diminished seventh">seventh</a> (9)</li>
+<li><a href="Diminished_octave" title="Diminished octave">octave</a> (11)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Interval_(music)#Simple_and_compound" title="Interval (music)">Compound</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ninth" title="Ninth">ninth</a> (13 or 14)</li>
+<li><a href="Third_(chord)" title="Third (chord)">tenth</a> (15 or 16)</li>
+<li><a href="Eleventh" title="Eleventh">eleventh</a> (17 or 18)</li>
+<li><a href="Thirteenth" title="Thirteenth">thirteenth</a> (20 or 21)</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";line-height:1.2em;;">Other systems</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Neutral_interval" title="Neutral interval">Neutral</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Quarter_tone" title="Quarter tone">quarter tone</a> (½)</li>
+<li><a href="Neutral_second" title="Neutral second">second</a> (1½)</li>
+<li><a href="Neutral_third" title="Neutral third">third</a> (3½)</li>
+<li><a href="Major_fourth" title="Major fourth">major fourth</a> (5½)</li>
+<li><a href="Minor_fifth" title="Minor fifth">minor fifth</a> (6½)</li>
+<li><a href="Neutral_sixth" title="Neutral sixth">sixth</a> (8½)</li>
+<li><a href="Neutral_seventh" title="Neutral seventh">seventh</a> (10½)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="7-limit" title="7-limit">7-limit</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Septimal_quarter_tone" title="Septimal quarter tone">quarter tone</a> (½)</li>
+<li><a href="Septimal_chromatic_semitone" title="Septimal chromatic semitone">chromatic semitone</a> (⅔)</li>
+<li><a href="Septimal_diatonic_semitone" title="Septimal diatonic semitone">diatonic semitone</a> (1⅙)</li>
+<li><a href="Septimal_whole_tone" title="Septimal whole tone">whole tone</a> (2⅓)</li>
+<li><a href="Septimal_minor_third" title="Septimal minor third">subminor third</a> (2⅔)</li>
+<li><a href="Septimal_major_third" title="Septimal major third">supermajor third</a> (4⅓)</li>
+<li><a href="Harmonic_seventh" title="Harmonic seventh">harmonic (subminor) seventh</a> (9⅔)</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";line-height:1.2em;;">Other intervals</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;">Groups</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Microtonal_music" title="Microtonal music">Microtone</a></li>
+<li><a href="List_of_intervals_in_5-limit_just_intonation" title="List of intervals in 5-limit just intonation">5-limit</a></li>
+<li><a href="Comma_(music)" title="Comma (music)">Comma</a></li>
+<li><a href="Pseudo-octave" title="Pseudo-octave">Pseudo-octave</a></li>
+<li><a href="Pythagorean_interval" title="Pythagorean interval">Pythagorean interval</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;"><a href="Comma_(music)" title="Comma (music)">Commas</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pythagorean_comma" title="Pythagorean comma">Pythagorean comma</a></li>
+<li><a href="Pythagorean_apotome" title="Pythagorean apotome" class="mw-redirect">Pythagorean apotome</a></li>
+<li><a href="Pythagorean_limma" title="Pythagorean limma" class="mw-redirect">Pythagorean limma</a></li>
+<li><a href="Diesis" title="Diesis">Diesis</a></li>
+<li><a href="Septimal_diesis" title="Septimal diesis">Septimal diesis</a></li>
+<li><a href="Septimal_comma" title="Septimal comma">Septimal comma</a></li>
+<li><a href="Syntonic_comma" title="Syntonic comma">Syntonic comma</a></li>
+<li><a href="Schisma" title="Schisma">Schisma</a></li>
+<li><a href="Diaschisma" title="Diaschisma">Diaschisma</a></li>
+<li><a href="Major_limma" title="Major limma">Major limma</a></li>
+<li><a href="Ragisma" title="Ragisma">Ragisma</a></li>
+<li><a href="Breedsma" title="Breedsma">Breedsma</a></li>
+<li><a href="Kleisma" title="Kleisma">Kleisma</a></li>
+<li><a href="Septimal_kleisma" title="Septimal kleisma">Septimal kleisma</a></li>
+<li><a href="Septimal_semicomma" title="Septimal semicomma">Septimal semicomma</a></li>
+<li><a href="Orwell_comma" title="Orwell comma">Orwell comma</a></li>
+<li><a href="Semicomma" title="Semicomma">Semicomma</a></li>
+<li><a href="Septimal_sixth-tone" title="Septimal sixth-tone">Septimal sixth-tone</a></li>
+<li><a href="Septimal_quarter_tone" title="Septimal quarter tone">Septimal quarter tone</a></li>
+<li><a href="Septimal_third-tone" title="Septimal third-tone">Septimal third-tone</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;">Measurement</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cent_(music)" title="Cent (music)">Cent</a></li>
+<li><a href="Centitone" title="Centitone">Centitone</a></li>
+<li><a href="Millioctave" title="Millioctave">Millioctave</a></li>
+<li><a href="Savart" title="Savart">Savart</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;width:8.0em;font-weight:normal;;">
+<div style="padding:0em 0.75em;">Others</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;width:auto;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Quarter_tone" title="Quarter tone">Quarter tone</a></li>
+<li><a href="Wolf_interval" title="Wolf interval">Wolf</a></li>
+<li><a href="Ditone" title="Ditone">Ditone</a></li>
+<li><a href="Semiditone" title="Semiditone" class="mw-redirect">Semiditone</a></li>
+<li><a href="Holdrian_comma" title="Holdrian comma">Holdrian comma</a></li>
+<li><a href="Secor_(interval)" title="Secor (interval)">Secor</a></li>
+<li><a href="Subminor_interval" title="Subminor interval">Subminor interval</a></li>
+<li><a href="Supermajor_interval" title="Supermajor interval">Supermajor interval</a></li>
+<li><a href="Incomposite_interval" title="Incomposite interval">Incomposite interval</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Voicing_(music)" title="Template:Voicing (music)"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_Voicing_(music)&action=edit&redlink=1.php.html" class="new" title="Template talk:Voicing (music) (page does not exist)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Voicing_(music)&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Voicing_(music)" title="Voicing (music)">Voicing</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Blind_octave" title="Blind octave">Blind octave</a></li>
+<li><a href="Block_chord" title="Block chord">Block chord</a></li>
+<li><a href="Close_and_open_harmony" title="Close and open harmony">Close and open harmony</a></li>
+<li><a href="Common_tone" title="Common tone">Common tone</a></li>
+<li><a href="Inversion_(music)" title="Inversion (music)">Inversion</a></li>
+<li><strong class="selflink">Octave</strong></li>
+<li><a href="Part_(music)" title="Part (music)">Voice</a></li>
+<li><a href="Root_(chord)" title="Root (chord)">Root position</a></li>
+<li><a href="Voice_leading" title="Voice leading">Voice leading</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 4185/1000000
+Preprocessor generated node count: 30686/1500000
+Post-expand include size: 79470/2048000 bytes
+Template argument size: 43263/2048000 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:37726-0!*!0!!en!4!* and timestamp 20130211105005 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Octave&oldid=537687393.php.html">http://en.wikipedia.org/w/index.php?title=Octave&amp;oldid=537687393</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Octaves" title="Category:Octaves">Octaves</a></li><li><a href="Category_Perfect_intervals" title="Category:Perfect intervals">Perfect intervals</a></li><li><a href="Category_Superparticular_intervals" title="Category:Superparticular intervals">Superparticular intervals</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Octave&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Octave.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Octave"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Octave&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Octave&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Octave" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Octave" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Octave&oldid=537687393.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Octave&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Octave&id=537687393.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Octave.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Octave&oldid=537687393&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Octave&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%85%D8%B3%D8%A7%D9%81%D8%A9_%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%8A%D8%A9" title="مسافة موسيقية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%90%D0%BA%D1%82%D0%B0%D0%B2%D0%B0" title="Актава" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%90%D0%BA%D1%82%D0%B0%D0%B2%D0%B0" title="Актава" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9E%D0%BA%D1%82%D0%B0%D0%B2%D0%B0" title="Октава" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Octava" title="Octava" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Okt%C3%A1va_(hudba)" title="Oktáva (hudba)" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Oktav" title="Oktav" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Oktave" title="Oktave" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Oktaav" title="Oktaav" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Octava" title="Octava" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Okto" title="Okto" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%87%D8%B4%D8%AA%DA%AF%D8%A7%D9%86" title="هشتگان" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Octave_(musique)" title="Octave (musique)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-fy"><a href="http://fy.wikipedia.org/wiki/Oktaaf" title="Oktaaf" lang="fy" hreflang="fy">Frysk</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Oitava" title="Oitava" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%98%A5%ED%83%80%EB%B8%8C" title="옥타브" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Oktava" title="Oktava" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Oktavo" title="Oktavo" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Oktaf" title="Oktaf" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/%C3%81ttund" title="Áttund" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Ottava_(musica)" title="Ottava (musica)" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A7%D7%98%D7%91%D7%94" title="אוקטבה" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%9D%E1%83%A5%E1%83%A2%E1%83%90%E1%83%95%E1%83%90" title="ოქტავა" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Okt%C4%81va" title="Oktāva" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Oktava" title="Oktava" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Okt%C3%A1v" title="Oktáv" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Octaaf_(muziek)" title="Octaaf (muziek)" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%B4" title="オクターヴ" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Oktav" title="Oktav" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Oktav" title="Oktav" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Octava_(solfegi)" title="Octava (solfegi)" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-uz"><a href="http://uz.wikipedia.org/wiki/Oktava" title="Oktava" lang="uz" hreflang="uz">Oʻzbekcha</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Oktawa_(interwa%C5%82)" title="Oktawa (interwał)" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Oitava" title="Oitava" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9E%D0%BA%D1%82%D0%B0%D0%B2%D0%B0" title="Октава" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Octave" title="Octave" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Hlasov%C3%A1_okt%C3%A1va" title="Hlasová oktáva" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9E%D0%BA%D1%82%D0%B0%D0%B2%D0%B0_(%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0)" title="Октава (музика)" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Oktava" title="Oktava" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Oktaavi" title="Oktaavi" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Oktav" title="Oktav" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%AD%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%97%E0%B8%9F" title="อ็อกเทฟ" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Oktav" title="Oktav" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9E%D0%BA%D1%82%D0%B0%D0%B2%D0%B0" title="Октава" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Qu%C3%A3ng_t%C3%A1m" title="Quãng tám" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%85%AB%E5%BA%A6" title="八度" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 February 2013 at 10:50.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Octave" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1040 in 0.129 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

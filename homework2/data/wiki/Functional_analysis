@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Functional analysis - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Functional_analysis&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Functional_analysis&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Functional_analysis","wgTitle":"Functional analysis","wgCurRevisionId":537561510,"wgArticleId":11180,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing potentially dated statements from 2004","All articles containing potentially dated statements","Functional analysis"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Functional_analysis","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"5d3d57e147ebdaf29451770ae28e2b5f","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":11180,"title":"Functional analysis","namespace":0,"categories":["All articles containing potentially dated statements","Articles containing potentially dated statements from 2004","Functional analysis"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Functional_analysis skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Functional analysis</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For functional analysis as used in psychology, see <a href="Functional_analysis_(psychology)" title="Functional analysis (psychology)">functional analysis (psychology)</a>.</div>
+<p><b>Functional analysis</b> is a branch of <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a>, the core of which is formed by the study of <a href="Vector_space" title="Vector space">vector spaces</a> endowed with some kind of limit-related structure (e.g. <a href="Inner_product_space#Definition" title="Inner product space">inner product</a>, <a href="Norm_(mathematics)#Definition" title="Norm (mathematics)">norm</a>, <a href="Topological_space#Definition" title="Topological space">topology</a>, etc.) and the <a href="Linear_transformation" title="Linear transformation" class="mw-redirect">linear operators</a> acting upon these spaces and respecting these structures in a suitable sense. The historical roots of functional analysis lie in the study of <a href="Function_space" title="Function space">spaces of functions</a> and the formulation of properties of transformations of functions such as the <a href="Fourier_transform" title="Fourier transform">Fourier transform</a> as transformations defining <a href="Continuous_function" title="Continuous function">continuous</a>, <a href="Unitary_operator" title="Unitary operator">unitary</a> etc. operators between function spaces. This point of view turned out to be particularly useful for the study of <a href="Differential_equations" title="Differential equations" class="mw-redirect">differential</a> and <a href="Integral_equations" title="Integral equations" class="mw-redirect">integral equations</a>.</p>
+<p>The usage of the word <i><a href="Functional_(mathematics)" title="Functional (mathematics)">functional</a></i> goes back to the <a href="Calculus_of_variations" title="Calculus of variations">calculus of variations</a>, implying a function whose argument is a function and the name was first used in <a href="Jacques_Hadamard" title="Jacques Hadamard">Hadamard</a>'s 1910 book on that subject. However, the general concept of functional had previously been introduced in 1887 by the Italian mathematician and physicist <a href="Vito_Volterra" title="Vito Volterra">Vito Volterra</a>. The theory of nonlinear functionals was continued by students of Hadamard, in particular Fréchet and Lévy. Hadamard also founded the modern school of linear functional analysis further developed by <a href="Frigyes_Riesz" title="Frigyes Riesz">Riesz</a> and the <a href="Lw%C3%B3w_School_of_Mathematics" title="Lwów School of Mathematics">group</a> of <a href="Poland" title="Poland">Polish</a> mathematicians around <a href="Stefan_Banach" title="Stefan Banach">Stefan Banach</a>.</p>
+<p>In modern introductory texts to functional analysis, the subject is seen as the study of vector spaces endowed with a topology, in particular <a href="Dimension_(vector_space)" title="Dimension (vector space)">infinite dimensional spaces</a>. In contrast, <a href="Linear_algebra" title="Linear algebra">linear algebra</a> deals mostly with finite dimensional spaces, and does not use topology. An important part of functional analysis is the extension of the theory of <a href="Measure_(mathematics)" title="Measure (mathematics)">measure</a>, <a href="Integral" title="Integral">integration</a>, and <a href="Probability" title="Probability">probability</a> to infinite dimensional spaces, also known as <b>infinite dimensional analysis</b>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Normed_vector_spaces"><span class="tocnumber">1</span> <span class="toctext">Normed vector spaces</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Hilbert_spaces"><span class="tocnumber">1.1</span> <span class="toctext">Hilbert spaces</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Banach_spaces"><span class="tocnumber">1.2</span> <span class="toctext">Banach spaces</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Major_and_foundational_results"><span class="tocnumber">2</span> <span class="toctext">Major and foundational results</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Foundations_of_mathematics_considerations"><span class="tocnumber">3</span> <span class="toctext">Foundations of mathematics considerations</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Points_of_view"><span class="tocnumber">4</span> <span class="toctext">Points of view</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=1.php.html" title="Edit section: Normed vector spaces">edit</a>]</span> <span class="mw-headline" id="Normed_vector_spaces">Normed vector spaces</span></h2>
+<p>The basic and historically first class of spaces studied in functional analysis are <a href="Complete_space" title="Complete space" class="mw-redirect">complete</a> <a href="Normed_vector_space" title="Normed vector space">normed vector spaces</a> over the <a href="Real_number" title="Real number">real</a> or <a href="Complex_number" title="Complex number">complex numbers</a>. Such spaces are called <a href="Banach_space" title="Banach space">Banach spaces</a>. An important example is a <a href="Hilbert_space" title="Hilbert space">Hilbert space</a>, where the norm arises from an inner product. These spaces are of fundamental importance in many areas, including the mathematical formulation of <a href="Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a>.</p>
+<p>More generally, functional analysis includes the study of <a href="Fr%C3%A9chet_space" title="Fréchet space">Fréchet spaces</a> and other <a href="Topological_vector_space" title="Topological vector space">topological vector spaces</a> not endowed with a norm.</p>
+<p>An important object of study in functional analysis are the <a href="Continuous_function_(topology)" title="Continuous function (topology)" class="mw-redirect">continuous</a> <a href="Linear_transformation" title="Linear transformation" class="mw-redirect">linear operators</a> defined on Banach and Hilbert spaces. These lead naturally to the definition of <a href="C*-algebra" title="C*-algebra">C*-algebras</a> and other <a href="Operator_algebra" title="Operator algebra">operator algebras</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=2.php.html" title="Edit section: Hilbert spaces">edit</a>]</span> <span class="mw-headline" id="Hilbert_spaces">Hilbert spaces</span></h3>
+<p><a href="Hilbert_space" title="Hilbert space">Hilbert spaces</a> can be completely classified: there is a unique Hilbert space <a href="Up_to" title="Up to">up to</a> <a href="Isomorphism" title="Isomorphism">isomorphism</a> for every <a href="Cardinal_number" title="Cardinal number">cardinality</a> of the <a href="Orthonormal_basis" title="Orthonormal basis">orthonormal basis</a>. Finite-dimensional Hilbert spaces are fully understood in <a href="Linear_Algebra" title="Linear Algebra" class="mw-redirect">linear algebra</a>, and infinite-dimensional <a href="Separable_space" title="Separable space">separable</a> Hilbert spaces are isomorphic to <a href="Sequence_space#.E2.84.93p_spaces" title="Sequence space"><img class="tex" alt="\ell^{\,2}(\aleph_0)\," src="http://upload.wikimedia.org/math/9/f/1/9f145643dec897b150c7f5ff665cd36f.png" /></a>. Separability being important for applications, functional analysis of Hilbert spaces consequently mostly deals with this space. One of the open problems in functional analysis is to prove that every bounded linear operator on a Hilbert space has a proper <a href="Invariant_subspace" title="Invariant subspace">invariant subspace</a>. Many special cases of this <a href="Invariant_subspace_problem" title="Invariant subspace problem">invariant subspace problem</a> have already been proven.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=3.php.html" title="Edit section: Banach spaces">edit</a>]</span> <span class="mw-headline" id="Banach_spaces">Banach spaces</span></h3>
+<p>General <a href="Banach_space" title="Banach space">Banach spaces</a> are more complicated than Hilbert spaces, and cannot be classified in such a simple manner as those. In particular, Banach spaces lack a notion analogous to an <a href="Orthonormal_basis" title="Orthonormal basis">orthonormal basis</a>.</p>
+<p>Examples of Banach spaces are <a href="Lp_space" title="Lp space"><img class="tex" alt="L^{\,p}" src="http://upload.wikimedia.org/math/3/b/7/3b70b6da9aa3f0a44c097799eb7ef932.png" />-spaces</a> for any real number <img class="tex" alt="p\geq1" src="http://upload.wikimedia.org/math/a/a/4/aa47fa19b67316cd180a645dec5bf0b7.png" /> . Given also a measure <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" /> on set <img class="tex" alt="X" src="http://upload.wikimedia.org/math/0/2/1/02129bb861061d1a052c592e2dc6b383.png" />, then <img class="tex" alt="L^{\,p}(X)" src="http://upload.wikimedia.org/math/0/8/0/08056b2f989d0de27beb46103f556f7f.png" />, sometimes also denoted <img class="tex" alt="L^{\,p}(X,\mu)" src="http://upload.wikimedia.org/math/d/7/1/d7171b5557a5901359497cddea4feee3.png" /> or <img class="tex" alt="L^{\,p}(\mu)" src="http://upload.wikimedia.org/math/2/f/8/2f8acea2f4761d3e716b9b9fd56febf8.png" />, has as its vectors equivalence classes <img class="tex" alt="[\,f\,]" src="http://upload.wikimedia.org/math/7/5/f/75f1f3c4b3a6aef446dac2aa5a52094b.png" /> of <a href="Lebesgue-measurable_function" title="Lebesgue-measurable function" class="mw-redirect">measurable functions</a> whose <a href="Absolute_value" title="Absolute value">absolute value</a>'s <img class="tex" alt="p" src="http://upload.wikimedia.org/math/8/3/8/83878c91171338902e0fe0fb97a8c47a.png" />-th power has finite integral, that is, functions <img class="tex" alt="f\," src="http://upload.wikimedia.org/math/1/8/f/18f63800376271ee4b0efe1545744cd6.png" /> for which one has</p>
+<dl>
+<dd><img class="tex" alt="\int_{X}\left|f(x)\right|^p\,d\mu(x)&lt;+\infty" src="http://upload.wikimedia.org/math/a/b/c/abc3ad71dd4eea114facedf41e7fed05.png" />.</dd>
+</dl>
+<p>If <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" /> is the <a href="Counting_measure" title="Counting measure">counting measure</a>, then the integral may be replaced by a sum. That is, we require</p>
+<dl>
+<dd><img class="tex" alt="\sum_{x\in X}\left|f(x)\right|^p&lt;+\infty" src="http://upload.wikimedia.org/math/9/0/f/90f97a69cb7e1de95a2f9ff29488fdb3.png" />.</dd>
+</dl>
+<p>Then it is not necessary to deal with equivalence classes, and the space is denoted <img class="tex" alt="\ell^{\ p}(X)" src="http://upload.wikimedia.org/math/5/e/0/5e0d375f96f4c058b6eb77f9ac28ec63.png" />, written more simply <img class="tex" alt="\,\ell^{\,p\ }" src="http://upload.wikimedia.org/math/1/5/9/159be78add28ed5fea587c9b243576fb.png" /> in the case when <img class="tex" alt="X" src="http://upload.wikimedia.org/math/0/2/1/02129bb861061d1a052c592e2dc6b383.png" /> is the set of non-negative <a href="Integer" title="Integer">integers</a>.</p>
+<p>In Banach spaces, a large part of the study involves the <a href="Continuous_dual" title="Continuous dual" class="mw-redirect">dual space</a>: the space of all <a href="Continuous_function_(topology)" title="Continuous function (topology)" class="mw-redirect">continuous</a> linear maps from the space into its underlying field, so-called functionals. A Banach space can be canonically identified with a subspace of its bidual, which is the dual of its dual space. The corresponding map is an <a href="Isometry" title="Isometry">isometry</a> but in general not onto. A general Banach space and its bidual need not even be isometrically isomorphic in any way, contrary to the finite-dimensional situation. This is explained in the dual space article.</p>
+<p>Also, the notion of <a href="Derivative" title="Derivative">derivative</a> can be extended to arbitrary functions between Banach spaces. See, for instance, the <a href="Fr%C3%A9chet_derivative" title="Fréchet derivative">Fréchet derivative</a> article.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=4.php.html" title="Edit section: Major and foundational results">edit</a>]</span> <span class="mw-headline" id="Major_and_foundational_results">Major and foundational results</span></h2>
+<p>Important results of functional analysis include:</p>
+<ul>
+<li>The <a href="Uniform_boundedness_principle" title="Uniform boundedness principle">uniform boundedness principle</a> (also known as <a href="Banach%E2%80%93Steinhaus_theorem" title="Banach–Steinhaus theorem" class="mw-redirect">Banach–Steinhaus theorem</a>) applies to sets of operators with uniform bounds.</li>
+<li>One of the <a href="Spectral_theorem" title="Spectral theorem">spectral theorems</a> (there is indeed more than one) gives an integral formula for the <a href="Normal_operators" title="Normal operators" class="mw-redirect">normal operators</a> on a Hilbert space. This theorem is of central importance for the mathematical formulation of <a href="Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a>.</li>
+<li>The <a href="Hahn%E2%80%93Banach_theorem" title="Hahn–Banach theorem">Hahn–Banach theorem</a> extends functionals from a subspace to the full space, in a norm-preserving fashion. An implication is the non-triviality of dual spaces.</li>
+<li>The <a href="Open_mapping_theorem_(functional_analysis)" title="Open mapping theorem (functional analysis)">open mapping theorem</a> and <a href="Closed_graph_theorem" title="Closed graph theorem">closed graph theorem</a>.</li>
+</ul>
+<p><i>See also</i>: <a href="List_of_functional_analysis_topics" title="List of functional analysis topics">List of functional analysis topics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=5.php.html" title="Edit section: Foundations of mathematics considerations">edit</a>]</span> <span class="mw-headline" id="Foundations_of_mathematics_considerations">Foundations of mathematics considerations</span></h2>
+<p>Most spaces considered in functional analysis have infinite dimension. To show the existence of a <a href="Vector_space_basis" title="Vector space basis" class="mw-redirect">vector space basis</a> for such spaces may require <a href="Zorn's_lemma" title="Zorn's lemma">Zorn's lemma</a>. However, a somewhat different concept, <a href="Schauder_basis" title="Schauder basis">Schauder basis</a>, is usually more relevant in functional analysis. Many very important theorems require the <a href="Hahn%E2%80%93Banach_theorem" title="Hahn–Banach theorem">Hahn–Banach theorem</a>, usually proved using <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a>, although the strictly weaker <a href="Boolean_prime_ideal_theorem" title="Boolean prime ideal theorem">Boolean prime ideal theorem</a> suffices. The <a href="Baire_category_theorem" title="Baire category theorem">Baire category theorem</a>, needed to prove many important theorems, also requires a form of axiom of choice.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=6.php.html" title="Edit section: Points of view">edit</a>]</span> <span class="mw-headline" id="Points_of_view">Points of view</span></h2>
+<p>Functional analysis in its present form<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=Functional_analysis&action=edit.php.html">[update]</a></sup> includes the following tendencies:</p>
+<ul>
+<li><i>Abstract analysis</i>. An approach to analysis based on <a href="Topological_group" title="Topological group">topological groups</a>, <a href="Topological_ring" title="Topological ring">topological rings</a>, and <a href="Topological_vector_space" title="Topological vector space">topological vector spaces</a>.</li>
+<li><i>Geometry of <a href="Banach_space" title="Banach space">Banach spaces</a></i> contains many topics. One is <a href="Combinatorial" title="Combinatorial" class="mw-redirect">combinatorial</a> approach connected with <a href="Jean_Bourgain" title="Jean Bourgain">Jean Bourgain</a>; another is a characterization of Banach spaces in which various forms of the <a href="Law_of_large_numbers" title="Law of large numbers">law of large numbers</a> hold.</li>
+<li><i><a href="Noncommutative_geometry" title="Noncommutative geometry">Noncommutative geometry</a></i>. Developed by <a href="Alain_Connes" title="Alain Connes">Alain Connes</a>, partly building on earlier notions, such as <a href="George_Mackey" title="George Mackey">George Mackey</a>'s approach to <a href="Ergodic_theory" title="Ergodic theory">ergodic theory</a>.</li>
+<li><i>Connection with <a href="Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a></i>. Either narrowly defined as in <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a>, or broadly interpreted by, e.g. <a href="Israel_Gelfand" title="Israel Gelfand">Israel Gelfand</a>, to include most types of <a href="Representation_theory" title="Representation theory">representation theory</a>.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=7.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="List_of_functional_analysis_topics" title="List of functional analysis topics">List of functional analysis topics</a></li>
+<li><a href="Spectral_theory" title="Spectral theory">Spectral theory</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=8.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Aliprantis, C.D., Border, K.C.: <i>Infinite Dimensional Analysis: A Hitchhiker's Guide</i>, 3rd ed., Springer 2007, <a href="Special_BookSources/9783540326960" class="internal mw-magiclink-isbn">ISBN 978-3-540-32696-0</a>. Online <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/3-540-29587-9">10.1007/3-540-29587-9</a> (by subscription)</li>
+<li>Bachman, G., Narici, L.: <i>Functional analysis</i>, Academic Press, 1966. (reprint Dover Publications)</li>
+<li><a href="Stefan_Banach" title="Stefan Banach">Banach S.</a> <a rel="nofollow" class="external text" href="http://www.ebook3000.com/Theory-of-Linear-Operations--Volume-38--North-Holland-Mathematical-Library--by-S--Banach_134628.html"><i>Theory of Linear Operations</i></a>. Volume 38, North-Holland Mathematical Library, 1987, <a href="Special_BookSources/0444701842" class="internal mw-magiclink-isbn">ISBN 0-444-70184-2</a></li>
+<li><a href="Ha%C3%AFm_Brezis" title="Haïm Brezis">Brezis, H.</a>: <i>Analyse Fonctionnelle</i>, Dunod <a href="Special_BookSources/9782100043149" class="internal mw-magiclink-isbn">ISBN 978-2-10-004314-9</a> or <a href="Special_BookSources/9782100493364" class="internal mw-magiclink-isbn">ISBN 978-2-10-049336-4</a></li>
+<li><a href="../John_B._Conway" title="John B. Conway">Conway, J. B.</a>: <i>A Course in Functional Analysis</i>, 2nd edition, Springer-Verlag, 1994, <a href="Special_BookSources/0387972455" class="internal mw-magiclink-isbn">ISBN 0-387-97245-5</a></li>
+<li><a href="Nelson_Dunford" title="Nelson Dunford">Dunford, N.</a> and <a href="../Jacob_T._Schwartz" title="Jacob T. Schwartz">Schwartz, J.T.</a>: <i>Linear Operators, General Theory</i>, and other 3 volumes, includes visualization charts</li>
+<li>Edwards, R. E.: <i>Functional Analysis, Theory and Applications</i>, Hold, Rinehart and Winston, 1965.</li>
+<li>Eidelman, Yuli, Vitali Milman, and Antonis Tsolomitis: <i>Functional Analysis: An Introduction</i>, American Mathematical Society, 2004.</li>
+<li><a href="Avner_Friedman" title="Avner Friedman">Freidman, A.</a>: <i>Foundations of Modern Analysis</i>, Dover Publications, Paperback Edition, July 21, 2010</li>
+<li>Giles,J.R.: <i>Introduction to the Analysis of Normed Linear Spaces</i>,Cambridge University Press,2000</li>
+<li>Hirsch F., Lacombe G. - "Elements of Functional Analysis", Springer 1999.</li>
+<li>Hutson, V., Pym, J.S., Cloud M.J.: <i>Applications of Functional Analysis and Operator Theory</i>, 2nd edition, Elsevier Science, 2005, <a href="Special_BookSources/0444517901" class="internal mw-magiclink-isbn">ISBN 0-444-51790-1</a></li>
+<li>Kantorovitz, S.,<i>Introduction to Modern Analysis</i>, Oxford University Press,2003,2nd ed.2006.</li>
+<li><a href="Kolmogorov" title="Kolmogorov" class="mw-redirect">Kolmogorov, A.N</a> and <a href="Sergei_Fomin" title="Sergei Fomin">Fomin, S.V.</a>: <i>Elements of the Theory of Functions and Functional Analysis</i>, Dover Publications, 1999</li>
+<li><a href="Erwin_Kreyszig" title="Erwin Kreyszig">Kreyszig, E.</a>: <i>Introductory Functional Analysis with Applications</i>, Wiley, 1989.</li>
+<li><a href="Peter_Lax" title="Peter Lax">Lax, P.</a>: <i>Functional Analysis</i>, Wiley-Interscience, 2002</li>
+<li>Lebedev, L.P. and Vorovich, I.I.: <i>Functional Analysis in Mechanics</i>, Springer-Verlag, 2002</li>
+<li>Michel, Anthony N. and Charles J. Herget: <i>Applied Algebra and Functional Analysis</i>, Dover, 1993.</li>
+<li>Pietsch, Albrecht: <i>History of Banach spaces and linear operators</i>, Birkhauser Boston Inc., 2007, <a href="Special_BookSources/9780817643676" class="internal mw-magiclink-isbn">ISBN 978-0-8176-4367-6</a></li>
+<li><a href="../Michael_C._Reed" title="Michael C. Reed">Reed, M.</a>, <a href="Barry_Simon" title="Barry Simon">Simon, B.</a>: "Functional Analysis", Academic Press 1980.</li>
+<li>Riesz, F. and Sz.-Nagy, B.: <i>Functional Analysis</i>, Dover Publications, 1990</li>
+<li><a href="Walter_Rudin" title="Walter Rudin">Rudin, W.</a>: <i>Functional Analysis</i>, McGraw-Hill Science, 1991</li>
+<li>Schechter, M.: <i>Principles of Functional Analysis</i>, AMS, 2nd edition, 2001</li>
+<li>Shilov, Georgi E.: <i>Elementary Functional Analysis</i>, Dover, 1996.</li>
+<li><a href="Sobolev" title="Sobolev">Sobolev, S.L.</a>: <i>Applications of Functional Analysis in Mathematical Physics</i>, AMS, 1963</li>
+<li><a href="K%C5%8Dsaku_Yosida" title="Kōsaku Yosida">Yosida, K.</a>: <i>Functional Analysis</i>, Springer-Verlag, 6th edition, 1980</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Functional_analysis&action=edit&section=9.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has a book on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Functional_Analysis" class="extiw" title="wikibooks:Functional Analysis">Functional Analysis</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.mat.univie.ac.at/~gerald/ftp/book-fa/index.html">Functional Analysis</a> by <a href="Gerald_Teschl" title="Gerald Teschl">Gerald Teschl</a>, University of Vienna.</li>
+<li><a rel="nofollow" class="external text" href="http://www.math.nyu.edu/phd_students/vilensky/Functional_Analysis.pdf">Lecture Notes on Functional Analysis</a> by Yevgeny Vilensky, New York University.</li>
+<li><a rel="nofollow" class="external text" href="http://www.economics.soton.ac.uk/staff/aldrich/Calculus%20and%20Analysis%20Earliest%20Uses.htm">Earliest Known Uses of Some of the Words of Mathematics: Calculus &amp; Analysis</a> by John Aldrich University of Southampton.</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 814/1000000
+Preprocessor generated node count: 10487/1500000
+Post-expand include size: 14781/2048000 bytes
+Template argument size: 6227/2048000 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:11180-0!0!0!!en!4!* and timestamp 20130210163446 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Functional_analysis&oldid=537561510.php.html">http://en.wikipedia.org/w/index.php?title=Functional_analysis&amp;oldid=537561510</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Functional_analysis" title="Category:Functional analysis">Functional analysis</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_containing_potentially_dated_statements_from_2004" title="Category:Articles containing potentially dated statements from 2004">Articles containing potentially dated statements from 2004</a></li><li><a href="Category_All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Functional+analysis&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Functional+analysis.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Functional_analysis"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Functional_analysis&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Functional_analysis&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Functional_analysis" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Functional_analysis" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Functional_analysis&oldid=537561510.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Functional_analysis&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Functional_analysis&id=537561510.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Functional+analysis.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Functional+analysis&oldid=537561510&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Functional_analysis&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D8%AD%D9%84%D9%8A%D9%84_%D8%AF%D8%A7%D9%84%D9%8A" title="تحليل دالي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%8B%D1%8F%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B_%D0%B0%D0%BD%D0%B0%D0%BB%D1%96%D0%B7" title="Функцыянальны аналіз" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B5%D0%BD_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Функционален анализ" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/An%C3%A0lisi_funcional" title="Anàlisi funcional" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Funkcion%C3%A1ln%C3%AD_anal%C3%BDza" title="Funkcionální analýza" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Funktionalanalyse" title="Funktionalanalyse" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Funktionalanalysis" title="Funktionalanalysis" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Funktsionaalanal%C3%BC%C3%BCs" title="Funktsionaalanalüüs" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/An%C3%A1lisis_funcional" title="Análisis funcional" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%A2%D9%86%D8%A7%D9%84%DB%8C%D8%B2_%D8%AA%D8%A7%D8%A8%D8%B9%DB%8C" title="آنالیز تابعی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/An%C3%A1lise_funcional" title="Análise funcional" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%ED%95%A8%EC%88%98%ED%95%B4%EC%84%9D%ED%95%99" title="함수해석학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Analisi_funzionale" title="Analisi funzionale" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%9C%D7%99%D7%96%D7%94_%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%95%D7%A0%D7%9C%D7%99%D7%AA" title="אנליזה פונקציונלית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%A4%E1%83%A3%E1%83%9C%E1%83%A5%E1%83%AA%E1%83%98%E1%83%9D%E1%83%9C%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%90%E1%83%9C%E1%83%90%E1%83%9A%E1%83%98%E1%83%96%E1%83%98" title="ფუნქციონალური ანალიზი" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B4%D1%8B%D2%9B_%D1%82%D0%B0%D0%BB%D0%B4%D0%B0%D1%83" title="Функционалдық талдау" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Funkcion%C3%A1lanal%C3%ADzis" title="Funkcionálanalízis" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Functionaalanalyse" title="Functionaalanalyse" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E9%96%A2%E6%95%B0%E8%A7%A3%E6%9E%90%E5%AD%A6" title="関数解析学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Funksjonalanalyse" title="Funksjonalanalyse" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/An%C3%A0lisi_fonsional" title="Anàlisi fonsional" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Analiza_funkcjonalna" title="Analiza funkcjonalna" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/An%C3%A1lise_funcional" title="Análise funcional" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Функциональный анализ" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Analiza_funksionale" title="Analiza funksionale" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Funkcion%C3%A1lna_anal%C3%BDza" title="Funkcionálna analýza" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Funktionaalianalyysi" title="Funktionaalianalyysi" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Funktionalanalys" title="Funktionalanalys" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Fonksiyonel_analiz" title="Fonksiyonel analiz" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D1%96%D0%B7" title="Функціональний аналіз" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Gi%E1%BA%A3i_t%C3%ADch_h%C3%A0m" title="Giải tích hàm" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90" title="泛函分析" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 10 February 2013 at 16:34.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Functional_analysis" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1056 in 0.195 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

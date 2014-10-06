@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Algebraic number theory - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Algebraic_number_theory&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Algebraic_number_theory&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algebraic_number_theory","wgTitle":"Algebraic number theory","wgCurRevisionId":534267173,"wgArticleId":174705,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Algebraic number theory"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Algebraic_number_theory","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"f9d9be89857dcfb98955164e95fda1ac","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":174705,"title":"Algebraic number theory","namespace":0,"categories":["Algebraic number theory"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Algebraic_number_theory skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Algebraic number theory</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Algebraic number theory</b> is a major branch of <a href="Number_theory" title="Number theory">number theory</a> which studies <a href="Algebraic_structure" title="Algebraic structure">algebraic structures</a> related to <a href="Algebraic_integer" title="Algebraic integer">algebraic integers</a>. This is generally accomplished by considering a <a href="Ring_(mathematics)" title="Ring (mathematics)">ring</a> of algebraic integers <i>O</i> in an <a href="Algebraic_number_field" title="Algebraic number field">algebraic number field</a> <i>K</i>/<b>Q</b>, and studying their algebraic properties such as <a href="Factorization" title="Factorization">factorization</a>, the behaviour of <a href="Ideal_(ring_theory)" title="Ideal (ring theory)">ideals</a>, and <a href="Field_(mathematics)" title="Field (mathematics)">field</a> extensions. In this setting, the familiar features of the <a href="Integer" title="Integer">integers</a>—such as <a href="Unique_factorization" title="Unique factorization" class="mw-redirect">unique factorization</a>—need not hold. The virtue of the primary machinery employed—<a href="Galois_theory" title="Galois theory">Galois theory</a>, <a href="Group_cohomology" title="Group cohomology">group cohomology</a>, <a href="Group_representation" title="Group representation">group representations</a>, and <a href="L-function" title="L-function"><i>L</i>-functions</a>—is that it allows one to deal with new phenomena and yet partially recover the behaviour of the usual integers.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Basic_notions"><span class="tocnumber">1</span> <span class="toctext">Basic notions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Unique_factorization_and_the_ideal_class_group"><span class="tocnumber">1.1</span> <span class="toctext">Unique factorization and the ideal class group</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Factoring_prime_ideals_in_extensions"><span class="tocnumber">1.2</span> <span class="toctext">Factoring prime ideals in extensions</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Primes_and_places"><span class="tocnumber">1.3</span> <span class="toctext">Primes and places</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Units"><span class="tocnumber">1.4</span> <span class="toctext">Units</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Local_fields"><span class="tocnumber">1.5</span> <span class="toctext">Local fields</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Major_results"><span class="tocnumber">2</span> <span class="toctext">Major results</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Finiteness_of_the_class_group"><span class="tocnumber">2.1</span> <span class="toctext">Finiteness of the class group</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Dirichlet.27s_unit_theorem"><span class="tocnumber">2.2</span> <span class="toctext">Dirichlet's unit theorem</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Artin_reciprocity"><span class="tocnumber">2.3</span> <span class="toctext">Artin reciprocity</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Class_number_formula"><span class="tocnumber">2.4</span> <span class="toctext">Class number formula</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#Notes"><span class="tocnumber">3</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Introductory_texts"><span class="tocnumber">4.1</span> <span class="toctext">Introductory texts</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Intermediate_texts"><span class="tocnumber">4.2</span> <span class="toctext">Intermediate texts</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Graduate_level_accounts"><span class="tocnumber">4.3</span> <span class="toctext">Graduate level accounts</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Specific_references"><span class="tocnumber">4.4</span> <span class="toctext">Specific references</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=1.php.html" title="Edit section: Basic notions">edit</a>]</span> <span class="mw-headline" id="Basic_notions">Basic notions</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=2.php.html" title="Edit section: Unique factorization and the ideal class group">edit</a>]</span> <span class="mw-headline" id="Unique_factorization_and_the_ideal_class_group">Unique factorization and the ideal class group</span></h3>
+<p>One of the first properties of <b>Z</b> that can fail in the <a href="Ring_of_integers" title="Ring of integers">ring of integers</a> <i>O</i> of an algebraic number field <i>K</i> is that of the unique factorization of integers into <a href="Prime_number" title="Prime number">prime numbers</a>. The prime numbers in <b>Z</b> are generalized to <a href="Irreducible_element" title="Irreducible element">irreducible elements</a> in <i>O</i>, and though the unique factorization of elements of <i>O</i> into irreducible elements may hold in some cases (such as for the <a href="Gaussian_integers" title="Gaussian integers" class="mw-redirect">Gaussian integers</a> <b>Z</b>[i]), it may also fail, as in the case of <b>Z</b>[√<span style="text-decoration:overline;">-5</span>] where</p>
+<dl>
+<dd><img class="tex" alt=" 6=2\cdot3=(1+\sqrt{-5})\cdot(1-\sqrt{-5})." src="http://upload.wikimedia.org/math/8/a/7/8a7b80b1efc481033db5dca5874c44e9.png" /></dd>
+</dl>
+<p>The <a href="Ideal_class_group" title="Ideal class group">ideal class group</a> of <i>O</i> is a measure of how much unique factorization of elements fails; in particular, the ideal class group is <a href="Trivial_group" title="Trivial group">trivial</a> if, and only if, <i>O</i> is a <a href="Unique_factorization_domain" title="Unique factorization domain">unique factorization domain</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=3.php.html" title="Edit section: Factoring prime ideals in extensions">edit</a>]</span> <span class="mw-headline" id="Factoring_prime_ideals_in_extensions">Factoring prime ideals in extensions</span></h3>
+<p>Unique factorization can be partially recovered for <i>O</i> in that it has the property of unique factorization of <i>ideals</i> into <a href="Prime_ideal" title="Prime ideal">prime ideals</a> (i.e. it is a <a href="Dedekind_domain" title="Dedekind domain">Dedekind domain</a>). This makes the study of the prime ideals in <i>O</i> particularly important. This is another area where things change from <b>Z</b> to <i>O</i>: the prime numbers, which <a href="Principal_ideal" title="Principal ideal">generate</a> prime ideals of <b>Z</b> (in fact, every single prime ideal of <b>Z</b> is of the form (<i>p</i>):=<i>p</i><b>Z</b> for some prime number <i>p</i>,) may no longer generate prime ideals in <i>O</i>. For example, in the ring of Gaussian integers, the ideal 2<b>Z</b>[i] is no longer a prime ideal; in fact</p>
+<dl>
+<dd><img class="tex" alt="2\mathbf{Z}[i]=\left((1+i)\mathbf{Z}[i]\right)^2." src="http://upload.wikimedia.org/math/3/5/3/3535afe892f2eb9ffc813d15c6c2f4d5.png" /></dd>
+</dl>
+<p>On the other hand, the ideal 3<b>Z</b>[i] is a prime ideal. The complete answer for the Gaussian integers is obtained by using a <a href="Fermat's_theorem_on_sums_of_two_squares" title="Fermat's theorem on sums of two squares">theorem of Fermat's</a>, with the result being that for an odd prime number <i>p</i></p>
+<dl>
+<dd><img class="tex" alt="p\mathbf{Z}[i]\mbox{ is a prime ideal if }p\equiv 3 \,(\operatorname{mod}\, 4)" src="http://upload.wikimedia.org/math/5/4/f/54f6d2337af695ff826e1cfa8c394ad3.png" /></dd>
+<dd><img class="tex" alt="p\mathbf{Z}[i]\mbox{ is not a prime ideal if }p\equiv 1 \,(\operatorname{mod}\, 4)." src="http://upload.wikimedia.org/math/6/8/7/6878a86ca5499ea9f73620b8e9785bde.png" /></dd>
+</dl>
+<p>Generalizing this simple result to more general rings of integers is a basic problem in algebraic number theory. <a href="Class_field_theory" title="Class field theory">Class field theory</a> accomplishes this goal when <i>K</i> is an <a href="Abelian_extension" title="Abelian extension">abelian extension</a> of <b>Q</b> (i.e. a <a href="Galois_extension" title="Galois extension">Galois extension</a> with <a href="Abelian_group" title="Abelian group">abelian</a> <a href="Galois_group" title="Galois group">Galois group</a>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=4.php.html" title="Edit section: Primes and places">edit</a>]</span> <span class="mw-headline" id="Primes_and_places">Primes and places</span></h3>
+<p>An important generalization of the notion of prime ideal in <i>O</i> is obtained by passing from the so-called <i>ideal-theoretic</i> approach to the so-called <i>valuation-theoretic</i> approach. The relation between the two approaches arises as follows. In addition to the <a href="Absolute_value" title="Absolute value">usual absolute value</a> function |·|&#160;: <b>Q</b> → <b>R</b>, there are <a href="Absolute_value_(algebra)" title="Absolute value (algebra)">absolute value</a> functions |·|<sub>p</sub>&#160;: <b>Q</b> → <b>R</b> defined for each prime number <i>p</i> in <b>Z</b>, called <a href="P-adic_absolute_value" title="P-adic absolute value" class="mw-redirect">p-adic absolute values</a>. <a href="Ostrowski's_theorem" title="Ostrowski's theorem">Ostrowski's theorem</a> states that these are all possible absolute value functions on <b>Q</b> (up to equivalence). This suggests that the usual absolute value could be considered as another prime. More generally, a <b>prime of an algebraic number field <i>K</i></b> (also called a <b>place</b>) is an <a href="Equivalence_class" title="Equivalence class">equivalence class</a> of absolute values on <i>K</i>. The primes in <i>K</i> are of two sorts: <img class="tex" alt="\mathfrak{p}" src="http://upload.wikimedia.org/math/d/b/7/db7f4157daac1c93135f2a9cedc2fc98.png" />-adic absolute values like |·|<sub>p</sub>, one for each prime ideal <img class="tex" alt="\mathfrak{p}" src="http://upload.wikimedia.org/math/d/b/7/db7f4157daac1c93135f2a9cedc2fc98.png" /> of <i>O</i>, and absolute values like |·| obtained by considering <i>K</i> as a subset of the <a href="Complex_number" title="Complex number">complex numbers</a> in various possible ways and using the absolute value |·|&#160;: <b>C</b> → <b>R</b>. A prime of the first kind is called a <b>finite prime</b> (or <b>finite place</b>) and one of the second kind is called an <b>infinite prime</b> (or <b>infinite place</b>). Thus, the set of primes of <b>Q</b> is generally denoted { 2, 3, 5, 7, ..., ∞ }, and the usual absolute value on <b>Q</b> is often denoted |·|<sub>∞</sub> in this context.</p>
+<p>The set of infinite primes of <i>K</i> can be described explicitly in terms of the embeddings <i>K</i> → <b>C</b> (i.e. the non-zero <a href="Ring_homomorphism" title="Ring homomorphism">ring homomorphisms</a> from <i>K</i> to <b>C</b>). Specifically, the set of embeddings can be split up into two disjoint subsets, those whose <a href="Image_(mathematics)" title="Image (mathematics)">image</a> is contained in <b>R</b>, and the rest. To each embedding σ&#160;: <i>K</i> → <b>R</b>, there corresponds a unique prime of <i>K</i> coming from the absolute value obtained by composing σ with the usual absolute value on <b>R</b>; a prime arising in this fashion is called a <b>real prime</b> (or <b>real place</b>). To an embedding τ&#160;: <i>K</i> → <b>C</b> whose image is <i>not</i> contained in <b>R</b>, one can construct a distinct embedding <span style="text-decoration:overline;">τ</span>, called the <i>conjugate embedding</i>, by composing τ with the <a href="Complex_conjugation" title="Complex conjugation" class="mw-redirect">complex conjugation</a> map <b>C</b> → <b>C</b>. Given such a pair of embeddings τ and <span style="text-decoration:overline;">τ</span>, there corresponds a unique prime of <i>K</i> again obtained by composing τ with the usual absolute value (composing <span style="text-decoration:overline;">τ</span> instead gives the same absolute value function since |<i>z</i>| = |<span style="text-decoration:overline;"><i>z</i></span>| for any complex number <i>z</i>, where <span style="text-decoration:overline;"><i>z</i></span> denotes the complex conjugate of <i>z</i>). Such a prime is called a <b>complex prime</b> (or <b>complex place</b>). The description of the set of infinite primes is then as follows: each infinite prime corresponds either to a unique embedding σ&#160;: <i>K</i> → <b>R</b>, or a pair of conjugate embeddings τ, <span style="text-decoration:overline;">τ</span>&#160;: <i>K</i> → <b>C</b>. The number of real (respectively, complex) primes is often denoted <i>r</i><sub>1</sub> (respectively, <i>r</i><sub>2</sub>). Then, the total number of embeddings <i>K</i> → <b>C</b> is <i>r</i><sub>1</sub>+2<i>r</i><sub>2</sub> (which, in fact, equals the degree of the extension <i>K</i>/<b>Q</b>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=5.php.html" title="Edit section: Units">edit</a>]</span> <span class="mw-headline" id="Units">Units</span></h3>
+<p>The <a href="Fundamental_theorem_of_arithmetic" title="Fundamental theorem of arithmetic">fundamental theorem of arithmetic</a> describes the multiplicative structure of <b>Z</b>. It states that every non-zero integer can be written (essentially) uniquely as a product of <a href="Prime_power" title="Prime power">prime powers</a> and ±1. The unique factorization of ideals in the ring <i>O</i> recovers part of this description, but fails to address the factor ±1. The integers 1 and -1 are the invertible elements (i.e. <a href="Unit_(ring_theory)" title="Unit (ring theory)">units</a>) of <b>Z</b>. More generally, the invertible elements in <i>O</i> form a group under multiplication called the <b><a href="Unit_(ring_theory)#Group_of_units" title="Unit (ring theory)">unit group</a></b> of <i>O</i>, denoted <i>O</i><sup>×</sup>. This group can be much larger than the <a href="Cyclic_group" title="Cyclic group">cyclic group</a> of order 2 formed by the units of <b>Z</b>. <a href="Dirichlet's_unit_theorem" title="Dirichlet's unit theorem">Dirichlet's unit theorem</a> describes the abstract structure of the unit group as an abelian group. A more precise statement giving the structure of <i>O</i><sup>×</sup> ⊗<sub><b>Z</b></sub> <b>Q</b> as a <a href="Galois_module" title="Galois module">Galois module</a> for the Galois group of <i>K</i>/<b>Q</b> is also possible.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> The size of the unit group, and its lattice structure give important numerical information about <i>O</i>, as can be seen in the <a href="Class_number_formula" title="Class number formula">class number formula</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=6.php.html" title="Edit section: Local fields">edit</a>]</span> <span class="mw-headline" id="Local_fields">Local fields</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Local_field" title="Local field">Local field</a></div>
+<p><a href="Completion_(metric_space)" title="Completion (metric space)" class="mw-redirect">Completing</a> a number field <i>K</i> at a place <i>w</i> gives a <a href="Complete_field" title="Complete field">complete field</a>. If the valuation is archimedean, one gets <b>R</b> or <b>C</b>, if it is non-archimedean and lies over a prime <i>p</i> of the rationals, one gets a finite extension <i>K</i><sub>w</sub> / <b>Q</b><sub>p</sub>: a complete, discrete valued field with finite residue field. This process simplifies the arithmetic of the field and allows the local study of problems. For example the <a href="Kronecker%E2%80%93Weber_theorem" title="Kronecker–Weber theorem">Kronecker–Weber theorem</a> can be deduced easily from the analogous local statement. The philosophy behind the study of local fields is largely motivated by geometric methods. In algebraic geometry, it is common to study varieties locally at a point by localizing to a maximal ideal. Global information can then be recovered by gluing together local data. This spirit is adopted in algebraic number theory. Given a prime in the ring of algebraic integers in a number field, it is desirable to study the field locally at that prime. Therefore one localizes the ring of algebraic integers to that prime and then completes the fraction field much in the spirit of geometry.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=7.php.html" title="Edit section: Major results">edit</a>]</span> <span class="mw-headline" id="Major_results">Major results</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=8.php.html" title="Edit section: Finiteness of the class group">edit</a>]</span> <span class="mw-headline" id="Finiteness_of_the_class_group">Finiteness of the class group</span></h3>
+<p>One of the classical results in algebraic number theory is that the ideal class group of an algebraic number field <i>K</i> is finite. The order of the class group is called the <a href="Class_number_(number_theory)" title="Class number (number theory)" class="mw-redirect">class number</a>, and is often denoted by the letter <i>h</i>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=9.php.html" title="Edit section: Dirichlet's unit theorem">edit</a>]</span> <span class="mw-headline" id="Dirichlet.27s_unit_theorem">Dirichlet's unit theorem</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Dirichlet's_unit_theorem" title="Dirichlet's unit theorem">Dirichlet's unit theorem</a></div>
+<p>Dirichlet's unit theorem provides a description of the structure of the multiplicative group of units <i>O</i><sup>×</sup> of the ring of integers <i>O</i>. Specifically, it states that <i>O</i><sup>×</sup> is isomorphic to <i>G</i> × <b>Z</b><sup><i>r</i></sup>, where <i>G</i> is the finite cyclic group consisting of all the roots of unity in <i>O</i>, and <i>r</i> = <i>r</i><sub>1</sub>&#160;+&#160;<i>r</i><sub>2</sub>&#160;−&#160;1 (where <i>r</i><sub>1</sub> (respectively, <i>r</i><sub>2</sub>) denotes the number of real embeddings (respectively, pairs of conjugate non-real embeddings) of <i>K</i>). In other words, <i>O</i><sup>×</sup> is a <a href="Finitely_generated_abelian_group" title="Finitely generated abelian group" class="mw-redirect">finitely generated abelian group</a> of <a href="Rank_of_an_abelian_group" title="Rank of an abelian group">rank</a> <i>r</i><sub>1</sub>&#160;+&#160;<i>r</i><sub>2</sub>&#160;−&#160;1 whose torsion consists of the roots of unity in <i>O</i>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=10.php.html" title="Edit section: Artin reciprocity">edit</a>]</span> <span class="mw-headline" id="Artin_reciprocity">Artin reciprocity</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Artin_reciprocity_law" title="Artin reciprocity law">Artin reciprocity law</a></div>
+<p>See also</p>
+<dl>
+<dd><a href="Quadratic_reciprocity" title="Quadratic reciprocity">Quadratic reciprocity</a></dd>
+<dd><a href="Cubic_reciprocity" title="Cubic reciprocity">Cubic reciprocity</a></dd>
+<dd><a href="Quartic_reciprocity" title="Quartic reciprocity">Quartic reciprocity</a></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=11.php.html" title="Edit section: Class number formula">edit</a>]</span> <span class="mw-headline" id="Class_number_formula">Class number formula</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Class_number_formula" title="Class number formula">Class number formula</a></div>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=12.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">See proposition VIII.8.6.11 of <a href="#CITEREFNeukirchSchmidtWingberg2000">Neukirch, Schmidt &amp; Wingberg 2000</a></span></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=13.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=14.php.html" title="Edit section: Introductory texts">edit</a>]</span> <span class="mw-headline" id="Introductory_texts">Introductory texts</span></h3>
+<ul>
+<li>Kenneth Ireland and Michael Rosen, "A Classical Introduction to Modern Number Theory, Second Edition", Springer-Verlag, 1990</li>
+<li><a href="Ian_Stewart_(mathematician)" title="Ian Stewart (mathematician)">Ian Stewart</a> and <a href="../David_O._Tall" title="David O. Tall" class="mw-redirect">David O. Tall</a>, "Algebraic Number Theory and Fermat's Last Theorem," A. K. Peters, 2002</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=15.php.html" title="Edit section: Intermediate texts">edit</a>]</span> <span class="mw-headline" id="Intermediate_texts">Intermediate texts</span></h3>
+<ul>
+<li>Daniel A. Marcus, "Number Fields"</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=16.php.html" title="Edit section: Graduate level accounts">edit</a>]</span> <span class="mw-headline" id="Graduate_level_accounts">Graduate level accounts</span></h3>
+<ul>
+<li><span class="citation" id="CITEREFCasselsFr.C3.B6hlich1967"><a href="../J._W._S._Cassels" title="J. W. S. Cassels">Cassels, J. W. S.</a>; <a href="Albrecht_Fr%C3%B6hlich" title="Albrecht Fröhlich">Fröhlich, Albrecht</a>, eds. (1967), <i>Algebraic number theory</i>, London: Academic Press, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=0215665">0215665</a></span></li>
+<li><span class="citation" id="CITEREFFr.C3.B6hlichTaylor1993"><a href="Albrecht_Fr%C3%B6hlich" title="Albrecht Fröhlich">Fröhlich, Albrecht</a>; <a href="../Martin_J._Taylor" title="Martin J. Taylor">Taylor, Martin J.</a> (1993), <i>Algebraic number theory</i>, Cambridge Studies in Advanced Mathematics, <b>27</b>, <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-43834-9" title="Special:BookSources/0-521-43834-9">0-521-43834-9</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1215934">1215934</a></span></li>
+<li><span class="citation" id="CITEREFLang1994"><a href="Serge_Lang" title="Serge Lang">Lang, Serge</a> (1994), <i>Algebraic number theory</i>, <a href="Graduate_Texts_in_Mathematics" title="Graduate Texts in Mathematics">Graduate Texts in Mathematics</a>, <b>110</b> (2 ed.), New York: <a href="Springer-Verlag" title="Springer-Verlag" class="mw-redirect">Springer-Verlag</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-387-94225-4" title="Special:BookSources/978-0-387-94225-4">978-0-387-94225-4</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1282723">1282723</a></span></li>
+<li><span class="citation" id="CITEREFNeukirch1999"><a href="J%C3%BCrgen_Neukirch" title="Jürgen Neukirch">Neukirch, Jürgen</a> (1999), <i>Algebraic Number Theory</i>, Grundlehren der mathematischen Wissenschaften, <b>322</b>, Berlin: <a href="Springer-Verlag" title="Springer-Verlag" class="mw-redirect">Springer-Verlag</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-3-540-65399-8" title="Special:BookSources/978-3-540-65399-8">978-3-540-65399-8</a>, <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0956.11021&format=complete">0956.11021</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1697859">1697859</a></span></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=17.php.html" title="Edit section: Specific references">edit</a>]</span> <span class="mw-headline" id="Specific_references">Specific references</span></h3>
+<ul>
+<li><span class="citation" id="CITEREFNeukirchSchmidtWingberg2000"><a href="J%C3%BCrgen_Neukirch" title="Jürgen Neukirch">Neukirch, Jürgen</a>; Schmidt, Alexander; Wingberg, Kay (2000), <i>Cohomology of Number Fields</i>, Grundlehren der Mathematischen Wissenschaften, <b>323</b>, Berlin: <a href="Springer-Verlag" title="Springer-Verlag" class="mw-redirect">Springer-Verlag</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-3-540-66671-4" title="Special:BookSources/978-3-540-66671-4">978-3-540-66671-4</a>, <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0948.11001&format=complete">0948.11001</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1737196">1737196</a></span></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_number_theory&action=edit&section=18.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Langlands_program" title="Langlands program">Langlands program</a></li>
+<li><a href="Adele_ring" title="Adele ring">Adele ring</a></li>
+<li><a href="Tamagawa_number" title="Tamagawa number" class="mw-redirect">Tamagawa number</a></li>
+<li><a href="Iwasawa_theory" title="Iwasawa theory">Iwasawa theory</a></li>
+<li><a href="Arithmetic_algebraic_geometry" title="Arithmetic algebraic geometry" class="mw-redirect">Arithmetic algebraic geometry</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";background:#ffb;" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Number_theory-footer" title="Template:Number theory-footer"><span title="View this template" style=";background:#ffb;;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Number_theory-footer" title="Template talk:Number theory-footer"><span title="Discuss this template" style=";background:#ffb;;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Number_theory-footer&action=edit.php.html"><span title="Edit this template" style=";background:#ffb;;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Major topics in <a href="Number_theory" title="Number theory">Number theory</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Algebraic number theory</strong></li>
+<li><a href="Analytic_number_theory" title="Analytic number theory">Analytic number theory</a></li>
+<li><a href="Geometry_of_numbers" title="Geometry of numbers">Geometric number theory</a></li>
+<li><a href="Computational_number_theory" title="Computational number theory">Computational number theory</a></li>
+<li><a href="Transcendence_theory" title="Transcendence theory">Transcendental number theory</a></li>
+<li><a href="Number_theory#Combinatorial_number_theory" title="Number theory">Combinatorial number theory</a></li>
+<li><a href="Glossary_of_arithmetic_and_Diophantine_geometry" title="Glossary of arithmetic and Diophantine geometry">Arithmetic geometry</a></li>
+<li><a href="Arithmetic_topology" title="Arithmetic topology">Arithmetic topology</a></li>
+<li><a href="Arithmetic_dynamics" title="Arithmetic dynamics">Arithmetic dynamics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Number" title="Number">Numbers</a></li>
+<li><a href="Natural_numbers" title="Natural numbers" class="mw-redirect">Natural numbers</a></li>
+<li><a href="Prime_number" title="Prime number">Prime numbers</a></li>
+<li><a href="Rational_number" title="Rational number">Rational numbers</a></li>
+<li><a href="Irrational_number" title="Irrational number">Irrational numbers</a></li>
+<li><a href="Algebraic_number" title="Algebraic number">Algebraic numbers</a></li>
+<li><a href="Transcendental_number" title="Transcendental number">Transcendental numbers</a></li>
+<li><a href="P-adic_number" title="P-adic number">p-adic numbers</a></li>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Modular_arithmetic" title="Modular arithmetic">Modular arithmetic</a></li>
+<li><a href="Arithmetic_function" title="Arithmetic function">Arithmetic functions</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Quadratic_form" title="Quadratic form">Quadratic forms</a></li>
+<li><a href="Modular_form" title="Modular form">Modular forms</a></li>
+<li><a href="L-function" title="L-function">L-functions</a></li>
+<li><a href="Diophantine_equation" title="Diophantine equation">Diophantine equations</a></li>
+<li><a href="Diophantine_approximation" title="Diophantine approximation">Diophantine approximation</a></li>
+<li><a href="Continued_fraction" title="Continued fraction">Continued fractions</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_recreational_number_theory_topics" title="List of recreational number theory topics">List of recreational number theory topics</a></li>
+<li><a href="List_of_number_theory_topics" title="List of number theory topics">List of number theory topics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 4208/1000000
+Preprocessor generated node count: 23971/1500000
+Post-expand include size: 37732/2048000 bytes
+Template argument size: 9955/2048000 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:174705-0!0!0!!en!*!* and timestamp 20130127141719 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Algebraic_number_theory&oldid=534267173.php.html">http://en.wikipedia.org/w/index.php?title=Algebraic_number_theory&amp;oldid=534267173</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Algebraic_number_theory" title="Category:Algebraic number theory">Algebraic number theory</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Algebraic+number+theory&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Algebraic+number+theory.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Algebraic_number_theory"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Algebraic_number_theory&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Algebraic_number_theory&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Algebraic_number_theory" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Algebraic_number_theory" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Algebraic_number_theory&oldid=534267173.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Algebraic_number_theory&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Algebraic_number_theory&id=534267173.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Algebraic+number+theory.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Algebraic+number+theory&oldid=534267173&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Algebraic_number_theory&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%81%E0%A4%9A%E0%A4%BE:%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE_%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4" title="साँचा:संख्या सिद्धान्त" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D8%B9%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D9%8A%D8%A9" title="نظرية الأعداد الجبرية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%97%E0%A6%BE%E0%A6%A3%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%95_%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%AC" title="বীজগাণিতিক সংখ্যাতত্ত্ব" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BD%D0%B0_%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D1%82%D0%B0" title="Алгебрична теория на числата" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Teoria_de_nombres_algebraics" title="Teoria de nombres algebraics" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Algebraische_Zahlentheorie" title="Algebraische Zahlentheorie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Teor%C3%ADa_de_n%C3%BAmeros_algebraicos" title="Teoría de números algebraicos" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Th%C3%A9orie_alg%C3%A9brique_des_nombres" title="Théorie algébrique des nombres" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%8C%80%EC%88%98%EC%A0%81_%EC%88%98%EB%A1%A0" title="대수적 수론" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Teoria_algebrica_dei_numeri" title="Teoria algebrica dei numeri" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%9E%D7%A1%D7%A4%D7%A8%D7%99%D7%9D_%D7%94%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%99%D7%AA" title="תורת המספרים האלגברית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Algebra%C3%AFsche_getaltheorie" title="Algebraïsche getaltheorie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Algebraiczna_teoria_liczb" title="Algebraiczna teoria liczb" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Teoria_alg%C3%A9brica_dos_n%C3%BAmeros" title="Teoria algébrica dos números" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Algebrallinen_lukuteoria" title="Algebrallinen lukuteoria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8%E8%AB%96" title="代數數論" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 22 January 2013 at 02:53.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Algebraic_number_theory" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1022 in 0.133 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Proof theory - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Proof_theory&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Proof_theory&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Proof_theory","wgTitle":"Proof theory","wgCurRevisionId":528875184,"wgArticleId":183478,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Mathematical logic","Proof theory","Metalogic"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Proof_theory","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"bc7bbf1d003e6e8c28898a02a9428dc0","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":183478,"title":"Proof theory","namespace":0,"categories":["Mathematical logic","Metalogic","Proof theory"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Proof_theory skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Proof theory</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Proof theory</b> is a branch of <a href="Mathematical_logic" title="Mathematical logic">mathematical logic</a> that represents <a href="Mathematical_proof" title="Mathematical proof">proofs</a> as formal <a href="Mathematical_object" title="Mathematical object">mathematical objects</a>, facilitating their analysis by mathematical techniques. Proofs are typically presented as inductively-defined <a href="Data_structures" title="Data structures" class="mw-redirect">data structures</a> such as plain lists, boxed lists, or trees, which are constructed according to the <a href="Axiom" title="Axiom">axioms</a> and <a href="Rule_of_inference" title="Rule of inference">rules of inference</a> of the logical system. As such, proof theory is <a href="Syntax_(logic)" title="Syntax (logic)">syntactic</a> in nature, in contrast to <a href="Model_theory" title="Model theory">model theory</a>, which is <a href="Formal_semantics_(logic)" title="Formal semantics (logic)">semantic</a> in nature. Together with <a href="Model_theory" title="Model theory">model theory</a>, <a href="Axiomatic_set_theory" title="Axiomatic set theory" class="mw-redirect">axiomatic set theory</a>, and <a href="Recursion_theory" title="Recursion theory" class="mw-redirect">recursion theory</a>, proof theory is one of the so-called <i>four pillars</i> of the <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a>.<sup id="cite_ref-wang_1-0" class="reference"><a href="#cite_note-wang-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>Proof theory is important in <a href="Philosophical_logic" title="Philosophical logic">philosophical logic</a>, where the primary interest is in the idea of a <a href="Proof-theoretic_semantics" title="Proof-theoretic semantics">proof-theoretic semantics</a>, an idea which depends upon technical ideas in <a href="Structural_proof_theory" title="Structural proof theory">structural proof theory</a> to be feasible.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Formal_and_informal_proof"><span class="tocnumber">2</span> <span class="toctext">Formal and informal proof</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Kinds_of_proof_calculi"><span class="tocnumber">3</span> <span class="toctext">Kinds of proof calculi</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Consistency_proofs"><span class="tocnumber">4</span> <span class="toctext">Consistency proofs</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Structural_proof_theory"><span class="tocnumber">5</span> <span class="toctext">Structural proof theory</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Proof-theoretic_semantics"><span class="tocnumber">6</span> <span class="toctext">Proof-theoretic semantics</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Tableau_systems"><span class="tocnumber">7</span> <span class="toctext">Tableau systems</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Ordinal_analysis"><span class="tocnumber">8</span> <span class="toctext">Ordinal analysis</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Logics_from_proof_analysis"><span class="tocnumber">9</span> <span class="toctext">Logics from proof analysis</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Notes"><span class="tocnumber">11</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>Although the formalisation of logic was much advanced by the work of such figures as <a href="Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a>, <a href="Giuseppe_Peano" title="Giuseppe Peano">Giuseppe Peano</a>, <a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a>, and <a href="Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a>, the story of modern proof theory is often seen as being established by <a href="David_Hilbert" title="David Hilbert">David Hilbert</a>, who initiated what is called <a href="Hilbert's_program" title="Hilbert's program">Hilbert's program</a> in the <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a>. <a href="Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a>'s seminal work on proof theory first advanced, then refuted this program: his <a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">completeness theorem</a> initially seemed to bode well for Hilbert's aim of reducing all mathematics to a finitist formal system; then his <a href="G%C3%B6del's_incompleteness_theorem" title="Gödel's incompleteness theorem" class="mw-redirect">incompleteness theorems</a> showed that this is unattainable. All of this work was carried out with the proof calculi called the <a href="Hilbert_system" title="Hilbert system">Hilbert systems</a>.</p>
+<p>In parallel, the foundations of <a href="Structural_proof_theory" title="Structural proof theory">structural proof theory</a> were being founded. <a href="Jan_%C5%81ukasiewicz" title="Jan Łukasiewicz">Jan Łukasiewicz</a> suggested in 1926 that one could improve on <a href="Hilbert_system" title="Hilbert system">Hilbert systems</a> as a basis for the axiomatic presentation of logic if one allowed the drawing of conclusions from assumptions in the inference rules of the logic. In response to this <a href="Stanis%C5%82aw_Ja%C5%9Bkowski" title="Stanisław Jaśkowski">Stanisław Jaśkowski</a> (1929) and <a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gerhard Gentzen</a> (1934) independently provided such systems, called calculi of <a href="Natural_deduction" title="Natural deduction">natural deduction</a>, with Gentzen's approach introducing the idea of symmetry between the grounds for asserting propositions, expressed in <a href="Introduction_rule" title="Introduction rule" class="mw-redirect">introduction rules</a>, and the consequences of accepting propositions in the <a href="Elimination_rule" title="Elimination rule" class="mw-redirect">elimination rules</a>, an idea that has proved very important in proof theory.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> Gentzen (1934) further introduced the idea of the <a href="Sequent_calculus" title="Sequent calculus">sequent calculus</a>, a calculus advanced in a similar spirit that better expressed the duality of the logical connectives,<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> and went on to make fundamental advances in the formalisation of intuitionistic logic, and provide the first <a href="Combinatorial_proof" title="Combinatorial proof">combinatorial proof</a> of the consistency of <a href="Peano_arithmetic" title="Peano arithmetic" class="mw-redirect">Peano arithmetic</a>. Together, the presentation of natural deduction and the sequent calculus introduced the fundamental idea of <a href="Analytic_proof" title="Analytic proof">analytic proof</a> to proof theory,</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=2.php.html" title="Edit section: Formal and informal proof">edit</a>]</span> <span class="mw-headline" id="Formal_and_informal_proof">Formal and informal proof</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Formal_proof" title="Formal proof">Formal proof</a></div>
+<p>The <i>informal</i> proofs of everyday mathematical practice are unlike the <i>formal</i> proofs of proof theory. They are rather like high-level sketches that would allow an expert to reconstruct a formal proof at least in principle, given enough time and patience. For most mathematicians, writing a fully formal proof is too pedantic and long-winded to be in common use.</p>
+<p>Formal proofs are constructed with the help of computers in <a href="Interactive_theorem_proving" title="Interactive theorem proving" class="mw-redirect">interactive theorem proving</a>. Significantly, these proofs can be checked automatically, also by computer. (Checking formal proofs is usually simple, whereas <i>finding</i> proofs (<a href="Automated_theorem_proving" title="Automated theorem proving">automated theorem proving</a>) is generally hard.) An informal proof in the mathematics literature, by contrast, requires weeks of <a href="Peer_review" title="Peer review">peer review</a> to be checked, and may still contain errors.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=3.php.html" title="Edit section: Kinds of proof calculi">edit</a>]</span> <span class="mw-headline" id="Kinds_of_proof_calculi">Kinds of proof calculi</span></h2>
+<p>The three most well-known styles of <a href="Proof_calculi" title="Proof calculi" class="mw-redirect">proof calculi</a> are:</p>
+<ul>
+<li>The <a href="Hilbert_system" title="Hilbert system">Hilbert calculi</a></li>
+<li>The <a href="Natural_deduction_calculus" title="Natural deduction calculus" class="mw-redirect">natural deduction calculi</a></li>
+<li>The <a href="Sequent_calculus" title="Sequent calculus">sequent calculi</a></li>
+</ul>
+<p>Each of these can give a complete and axiomatic formalization of <a href="Propositional_logic" title="Propositional logic" class="mw-redirect">propositional</a> or <a href="Predicate_logic" title="Predicate logic">predicate logic</a> of either the <a href="Classical_logic" title="Classical logic">classical</a> or <a href="Intuitionistic_logic" title="Intuitionistic logic">intuitionistic</a> flavour, almost any <a href="Modal_logic" title="Modal logic">modal logic</a>, and many <a href="Substructural_logic" title="Substructural logic">substructural logics</a>, such as <a href="Relevance_logic" title="Relevance logic">relevance logic</a> or <a href="Linear_logic" title="Linear logic">linear logic</a>. Indeed it is unusual to find a logic that resists being represented in one of these calculi.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=4.php.html" title="Edit section: Consistency proofs">edit</a>]</span> <span class="mw-headline" id="Consistency_proofs">Consistency proofs</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Consistency_proof" title="Consistency proof" class="mw-redirect">Consistency proof</a></div>
+<p>As previously mentioned, the spur for the mathematical investigation of proofs in formal theories was <a href="Hilbert's_program" title="Hilbert's program">Hilbert's program</a>. The central idea of this program was that if we could give finitary proofs of consistency for all the sophisticated formal theories needed by mathematicians, then we could ground these theories by means of a metamathematical argument, which shows that all of their purely universal assertions (more technically their provable <a href="Arithmetical_hierarchy" title="Arithmetical hierarchy"><img class="tex" alt="\Pi^0_1" src="http://upload.wikimedia.org/math/6/4/c/64cb0da20570d65cab34484bf9a17a41.png" /> sentences</a>) are finitarily true; once so grounded we do not care about the non-finitary meaning of their existential theorems, regarding these as pseudo-meaningful stipulations of the existence of ideal entities.</p>
+<p>The failure of the program was induced by <a href="Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a>'s <a href="G%C3%B6del's_incompleteness_theorems" title="Gödel's incompleteness theorems">incompleteness theorems</a>, which showed that any <a href="%CE%A9-consistent_theory" title="Ω-consistent theory">ω-consistent theory</a> that is sufficiently strong to express certain simple arithmetic truths, cannot prove its own consistency, which on Gödel's formulation is a <img class="tex" alt="\Pi^0_1" src="http://upload.wikimedia.org/math/6/4/c/64cb0da20570d65cab34484bf9a17a41.png" /> sentence.</p>
+<p>Much investigation has been carried out on this topic since, which has in particular led to:</p>
+<ul>
+<li>Refinement of Gödel's result, particularly <a href="../J._Barkley_Rosser" title="J. Barkley Rosser">J. Barkley Rosser</a>'s refinement, weakening the above requirement of ω-consistency to simple consistency;</li>
+<li>Axiomatisation of the core of Gödel's result in terms of a modal language, <a href="Provability_logic" title="Provability logic">provability logic</a>;</li>
+<li>Transfinite iteration of theories, due to <a href="Alan_Turing" title="Alan Turing">Alan Turing</a> and <a href="Solomon_Feferman" title="Solomon Feferman">Solomon Feferman</a>;</li>
+<li>The recent discovery of <a href="Self-verifying_theories" title="Self-verifying theories">self-verifying theories</a>, systems strong enough to talk about themselves, but too weak to carry out the diagonal argument that is the key to Gödel's unprovability argument.</li>
+</ul>
+<p>See also <a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=5.php.html" title="Edit section: Structural proof theory">edit</a>]</span> <span class="mw-headline" id="Structural_proof_theory">Structural proof theory</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Structural_proof_theory" title="Structural proof theory">Structural proof theory</a></div>
+<p>Structural proof theory is the subdiscipline of proof theory that studies proof calculi that support a notion of <a href="Analytic_proof" title="Analytic proof">analytic proof</a>. The notion of analytic proof was introduced by Gentzen for the sequent calculus; there the analytic proofs are those that are <a href="Cut-elimination_theorem" title="Cut-elimination theorem">cut-free</a>. His natural deduction calculus also supports a notion of analytic proof, as shown by <a href="Dag_Prawitz" title="Dag Prawitz">Dag Prawitz</a>. The definition is slightly more complex: we say the analytic proofs are the <a href="Natural_deduction#Consistency.2C_completeness.2C_and_normal_forms" title="Natural deduction">normal forms</a>, which are related to the notion of normal form in term rewriting. More exotic proof calculi such as <a href="Jean-Yves_Girard" title="Jean-Yves Girard">Jean-Yves Girard</a>'s <a href="Proof_net" title="Proof net">proof nets</a> also support a notion of analytic proof.</p>
+<p>Structural proof theory is connected to <a href="Type_theory" title="Type theory">type theory</a> by means of the <a href="Curry-Howard_correspondence" title="Curry-Howard correspondence" class="mw-redirect">Curry-Howard correspondence</a>, which observes a structural analogy between the process of normalisation in the natural deduction calculus and beta reduction in the <a href="Typed_lambda_calculus" title="Typed lambda calculus">typed lambda calculus</a>. This provides the foundation for the <a href="Intuitionistic_type_theory" title="Intuitionistic type theory">intuitionistic type theory</a> developed by <a href="Per_Martin-L%C3%B6f" title="Per Martin-Löf">Per Martin-Löf</a>, and is often extended to a three way correspondence, the third leg of which are the <a href="Cartesian_closed_category" title="Cartesian closed category">cartesian closed categories</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=6.php.html" title="Edit section: Proof-theoretic semantics">edit</a>]</span> <span class="mw-headline" id="Proof-theoretic_semantics">Proof-theoretic semantics</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Proof-theoretic_semantics" title="Proof-theoretic semantics">proof-theoretic semantics</a> and <a href="Logical_harmony" title="Logical harmony">logical harmony</a></div>
+<p>In <a href="Linguistics" title="Linguistics">linguistics</a>, <a href="../../w/index-title=Type-logical_grammar&action=edit&redlink=1.php.html" class="new" title="Type-logical grammar (page does not exist)">type-logical grammar</a>, <a href="Categorial_grammar" title="Categorial grammar">categorial grammar</a> and <a href="Montague_grammar" title="Montague grammar">Montague grammar</a> apply formalisms based on structural proof theory to give a formal <a href="../../w/index-title=Natural_language_semantics&action=edit&redlink=1.php.html" class="new" title="Natural language semantics (page does not exist)">natural language semantics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=7.php.html" title="Edit section: Tableau systems">edit</a>]</span> <span class="mw-headline" id="Tableau_systems">Tableau systems</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Method_of_analytic_tableaux" title="Method of analytic tableaux">Method of analytic tableaux</a></div>
+<p>Analytic tableaux apply the central idea of analytic proof from structural proof theory to provide decision procedures and semi-decision procedures for a wide range of logics.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=8.php.html" title="Edit section: Ordinal analysis">edit</a>]</span> <span class="mw-headline" id="Ordinal_analysis">Ordinal analysis</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Ordinal_analysis" title="Ordinal analysis">Ordinal analysis</a></div>
+<p>Ordinal analysis is a powerful technique for providing combinatorial consistency proofs for theories formalising arithmetic and analysis.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=9.php.html" title="Edit section: Logics from proof analysis">edit</a>]</span> <span class="mw-headline" id="Logics_from_proof_analysis">Logics from proof analysis</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Substructural_logic" title="Substructural logic">Substructural logic</a></div>
+<p>Several important logics have come from insights into logical structure arising in structural proof theory.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=10.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Logical_connectives_Hasse_diagram.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logical_connectives_Hasse_diagram.svg/20px-Logical_connectives_Hasse_diagram.svg.png" width="20" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logical_connectives_Hasse_diagram.svg/30px-Logical_connectives_Hasse_diagram.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logical_connectives_Hasse_diagram.svg/39px-Logical_connectives_Hasse_diagram.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Logic" title="Portal:Logic">Logic  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Intermediate_logics" title="Intermediate logics" class="mw-redirect">Intermediate logics</a></li>
+<li><a href="Model_theory" title="Model theory">Model theory</a></li>
+<li><a href="Proof_(truth)" title="Proof (truth)">Proof (truth)</a></li>
+<li><a href="Proof_techniques" title="Proof techniques" class="mw-redirect">Proof techniques</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=11.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ol class="references">
+<li id="cite_note-wang-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-wang_1-0">^</a></b></span> <span class="reference-text">E.g., Wang (1981), pp. 3–4, and Barwise (1978).</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Prawitz (1965).</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Girard, Lafont, and Taylor (1988).</span></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Proof_theory&action=edit&section=12.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>J. Avigad, E.H. Reck (2001). <a rel="nofollow" class="external text" href="http://www.andrew.cmu.edu/user/avigad/Papers/infinite.pdf">“Clarifying the nature of the infinite”: the development of metamathematics and proof theory</a>. Carnegie-Mellon Technical Report CMU-PHIL-120.</li>
+<li>J. Barwise (ed., 1978). Handbook of Mathematical Logic. North-Holland.</li>
+<li><a href="../A._S._Troelstra" title="A. S. Troelstra" class="mw-redirect">A. S. Troelstra</a>, H. Schwichtenberg (1996). <i>Basic Proof Theory</i>. In series <i>Cambridge Tracts in Theoretical Computer Science</i>, Cambridge University Press, <a href="Special_BookSources/0521779111" class="internal mw-magiclink-isbn">ISBN 0-521-77911-1</a>.</li>
+<li>G. Gentzen (1935/1969). Investigations into logical deduction. In M. E. Szabo, editor, <i>Collected Papers of Gerhard Gentzen</i>. North-Holland. Translated by Szabo from "Untersuchungen über das logische Schliessen", Mathematisches Zeitschrift 39: 176-210, 405-431.</li>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/p075430">"Proof theory"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/p075430">http://www.encyclopediaofmath.org/index.php?title=p/p075430</a></span></span></li>
+<li>Luis Moreno &amp; <a href="Bharath_Sriraman" title="Bharath Sriraman">Bharath Sriraman</a> (2005).<i>Structural Stability and Dynamic Geometry: Some Ideas on Situated Proof. International Reviews on Mathematical Education. Vol. 37, no.3, pp.&#160;130–139</i> <a rel="nofollow" class="external autonumber" href="http://www.springerlink.com/content/n602313107541846/?p=74ab8879ce75445da488d5744cbc3818&pi=0">[1]</a></li>
+<li>J. von Plato (2008). <a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/proof-theory-development/">The Development of Proof Theory</a>. <a href="Stanford_Encyclopedia_of_Philosophy" title="Stanford Encyclopedia of Philosophy">Stanford Encyclopedia of Philosophy</a>.</li>
+<li><span class="citation book"><a href="Hao_Wang_(academic)" title="Hao Wang (academic)">Wang, Hao</a> (1981). <i>Popular Lectures on Mathematical Logic</i>. <a href="Van_Nostrand" title="Van Nostrand">Van Nostrand Reinhold Company</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-442-23109-1" title="Special:BookSources/0-442-23109-1">0-442-23109-1</a>.</span></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Logic" title="Template:Logic"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Logic" title="Template talk:Logic"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Logic&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Logic" title="Logic">Logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Overview</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Academic areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Argumentation_theory" title="Argumentation theory">Argumentation theory</a></li>
+<li><a href="Axiology" title="Axiology">Axiology</a></li>
+<li><a href="Critical_thinking" title="Critical thinking">Critical thinking</a></li>
+<li><a href="Computability_theory" title="Computability theory">Computability theory</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="History_of_logic" title="History of logic">History of logic</a></li>
+<li><a href="Informal_logic" title="Informal logic">Informal logic</a></li>
+<li><a href="Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></li>
+<li><a href="Mathematics" title="Mathematics">Mathematics</a></li>
+<li><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+<li><a href="Model_theory" title="Model theory">Model theory</a></li>
+<li><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></li>
+<li><a href="Philosophy" title="Philosophy">Philosophy</a></li>
+<li><a href="Philosophy_of_logic" title="Philosophy of logic">Philosophy of logic</a></li>
+<li><a href="Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><strong class="selflink">Proof theory</strong></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Foundations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Abductive_reasoning" title="Abductive reasoning">Abduction</a></li>
+<li><a href="Analytic%E2%80%93synthetic_distinction" title="Analytic–synthetic distinction">Analytic truth</a></li>
+<li><a href="Antinomy" title="Antinomy">Antinomy</a></li>
+<li><a href="A_priori_and_a_posteriori" title="A priori and a posteriori">A priori</a></li>
+<li><a href="Deductive_reasoning" title="Deductive reasoning">Deduction</a></li>
+<li><a href="Definition" title="Definition">Definition</a></li>
+<li><a href="Description" title="Description">Description</a></li>
+<li><a href="Inductive_reasoning" title="Inductive reasoning">Induction</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Logical_form" title="Logical form">Logical form</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Logical_truth" title="Logical truth">Logical truth</a></li>
+<li><a href="Name" title="Name">Name</a></li>
+<li><a href="Necessary_and_sufficient_condition" title="Necessary and sufficient condition" class="mw-redirect">Necessity</a></li>
+<li><a href="Meaning_(linguistics)" title="Meaning (linguistics)">Meaning</a></li>
+<li><a href="Paradox" title="Paradox">Paradox</a></li>
+<li><a href="Possible_world" title="Possible world">Possible world</a></li>
+<li><a href="Presupposition" title="Presupposition">Presupposition</a></li>
+<li><a href="Probability" title="Probability">Probability</a></li>
+<li><a href="Reason" title="Reason">Reason</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Reference" title="Reference">Reference</a></li>
+<li><a href="Semantics" title="Semantics">Semantics</a></li>
+<li><a href="Statement_(logic)" title="Statement (logic)">Statement</a></li>
+<li><a href="Strict_implication" title="Strict implication" class="mw-redirect">Strict implication</a></li>
+<li><a href="Substitution_(logic)" title="Substitution (logic)">Substitution</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Truth" title="Truth">Truth</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Critical_thinking" title="Critical thinking">Critical thinking</a><br />
+<a href="Informal_logic" title="Informal logic">Informal logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Philosophical_analysis" title="Philosophical analysis">Analysis</a></li>
+<li><a href="Ambiguity" title="Ambiguity">Ambiguity</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Belief" title="Belief">Belief</a></li>
+<li><a href="Bias" title="Bias">Bias</a></li>
+<li><a href="Credibility" title="Credibility">Credibility</a></li>
+<li><a href="Evidence" title="Evidence">Evidence</a></li>
+<li><a href="Explanation" title="Explanation">Explanation</a></li>
+<li><a href="Explanatory_power" title="Explanatory power">Explanatory power</a></li>
+<li><a href="Fact" title="Fact">Fact</a></li>
+<li><a href="Fallacy" title="Fallacy">Fallacy</a></li>
+<li><a href="Inquiry" title="Inquiry">Inquiry</a></li>
+<li><a href="Opinion" title="Opinion">Opinion</a></li>
+<li><a href="Occam's_razor" title="Occam's razor">Parsimony</a></li>
+<li><a href="Premise" title="Premise">Premise</a></li>
+<li><a href="Propaganda" title="Propaganda">Propaganda</a></li>
+<li><a href="Prudence" title="Prudence">Prudence</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Relevance" title="Relevance">Relevance</a></li>
+<li><a href="Rhetoric" title="Rhetoric">Rhetoric</a></li>
+<li><a href="Rigour" title="Rigour">Rigor</a></li>
+<li><a href="Vagueness" title="Vagueness">Vagueness</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Philosophy_of_logic" title="Philosophy of logic">Theories of<br />
+deduction</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Constructivism_(mathematics)" title="Constructivism (mathematics)">Constructivism</a></li>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+<li><a href="Fictionalism" title="Fictionalism">Fictionalism</a></li>
+<li><a href="Finitism" title="Finitism">Finitism</a></li>
+<li><a href="Formalism_(mathematics)" title="Formalism (mathematics)">Formalism</a></li>
+<li><a href="Intuitionism" title="Intuitionism">Intuitionism</a></li>
+<li><a href="Logical_atomism" title="Logical atomism">Logical atomism</a></li>
+<li><a href="Logicism" title="Logicism">Logicism</a></li>
+<li><a href="Nominalism" title="Nominalism">Nominalism</a></li>
+<li><a href="Platonic_realism" title="Platonic realism">Platonic realism</a></li>
+<li><a href="Pragmatism" title="Pragmatism">Pragmatism</a></li>
+<li><a href="Philosophical_realism" title="Philosophical realism">Realism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li style=""><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+</ul>
+</div>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cantor's_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+<li><a href="Entscheidungsproblem" title="Entscheidungsproblem">Church's theorem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church's thesis</a></li>
+<li><a href="Consistency" title="Consistency">Consistency</a></li>
+<li><a href="Effective_method" title="Effective method">Effective method</a></li>
+<li><a href="Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></li>
+<li><a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a></li>
+<li><a href="G%C3%B6del's_incompleteness_theorems" title="Gödel's incompleteness theorems">Gödel's incompleteness theorems</a></li>
+<li><a href="Soundness" title="Soundness">Soundness</a></li>
+<li><a href="Completeness" title="Completeness">Completeness</a></li>
+<li><a href="Decidability_(logic)" title="Decidability (logic)">Decidability</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a></li>
+<li><a href="Metatheorem" title="Metatheorem">Metatheorem</a></li>
+<li><a href="Satisfiability" title="Satisfiability">Satisfiability</a></li>
+<li><a href="Independence_(mathematical_logic)" title="Independence (mathematical logic)">Independence</a></li>
+<li><a href="Type%E2%80%93token_distinction" title="Type–token distinction">Type–token distinction</a></li>
+<li><a href="Use%E2%80%93mention_distinction" title="Use–mention distinction">Use–mention distinction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="Formation_rule" title="Formation rule">Formation rule</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="Well-formed_formula" title="Well-formed formula">Well-formed formula</a></li>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Element_(mathematics)" title="Element (mathematics)">Element</a></li>
+<li><a href="Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li><a href="Classical_logic" title="Classical logic">Classical logic</a></li>
+<li><a href="Axiom" title="Axiom">Axiom</a></li>
+<li><a href="Natural_deduction" title="Natural deduction">Natural deduction</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Finitary_relation" title="Finitary relation">Relation</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Axiomatic_system" title="Axiomatic system">Axiomatic system</a></li>
+<li><a href="Type_theory" title="Type theory">Type theory</a></li>
+<li><a href="Symbol_(formal)" title="Symbol (formal)">Symbol</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Term_logic" title="Term logic">Traditional logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Proposition" title="Proposition">Proposition</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+<li><a href="Cogency" title="Cogency">Cogency</a></li>
+<li><a href="Syllogism" title="Syllogism">Syllogism</a></li>
+<li><a href="Square_of_opposition" title="Square of opposition">Square of opposition</a></li>
+<li><a href="Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a><br />
+<a href="Boolean_algebra" title="Boolean algebra">Boolean logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Boolean_function" title="Boolean function">Boolean functions</a></li>
+<li><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a></li>
+<li><a href="Propositional_formula" title="Propositional formula">Propositional formula</a></li>
+<li><a href="Logical_connective" title="Logical connective">Logical connectives</a></li>
+<li><a href="Truth_table" title="Truth table">Truth tables</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Predicate_logic" title="Predicate logic">Predicate logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="First-order_logic" title="First-order logic">First-order</a></li>
+<li><a href="Quantification" title="Quantification">Quantifiers</a></li>
+<li><a href="Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a></li>
+<li><a href="Second-order_logic" title="Second-order logic">Second-order</a></li>
+<li><a href="Monadic_predicate_calculus" title="Monadic predicate calculus">Monadic predicate calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Set_theory" title="Set theory">Set theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Empty_set" title="Empty set">Empty set</a></li>
+<li><a href="Enumeration" title="Enumeration">Enumeration</a></li>
+<li><a href="Extensionality" title="Extensionality">Extensionality</a></li>
+<li><a href="Finite_set" title="Finite set">Finite set</a></li>
+<li><a href="Function_(mathematics)" title="Function (mathematics)">Function</a></li>
+<li><a href="Subset" title="Subset">Subset</a></li>
+<li><a href="Power_set" title="Power set">Power set</a></li>
+<li><a href="Countable_set" title="Countable set">Countable set</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Domain_of_a_function" title="Domain of a function">Domain</a></li>
+<li><a href="Range_(mathematics)" title="Range (mathematics)">Range</a></li>
+<li><a href="Ordered_pair" title="Ordered pair">Ordered pair</a></li>
+<li><a href="Uncountable_set" title="Uncountable set">Uncountable set</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Model_theory" title="Model theory">Model theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="Non-standard_model" title="Non-standard model">Non-standard model</a></li>
+<li><a href="Finite_model_theory" title="Finite model theory">Finite model theory</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><strong class="selflink">Proof theory</strong></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computability_theory" title="Computability theory">Computability theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Recursion" title="Recursion">Recursion</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Recursively_enumerable_set" title="Recursively enumerable set">Recursively enumerable set</a></li>
+<li><a href="Decision_problem" title="Decision problem">Decision problem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a></li>
+<li><a href="Computable_function" title="Computable function">Computable function</a></li>
+<li><a href="Primitive_recursive_function" title="Primitive recursive function">Primitive recursive function</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Non-classical_logic" title="Non-classical logic">Non-classical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Modal_logic" title="Modal logic">Modal logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Modal_logic#Alethic_modalities" title="Modal logic">Alethic</a></li>
+<li><a href="Modal_operator#Axiological" title="Modal operator">Axiologic</a></li>
+<li><a href="Deontic_logic" title="Deontic logic">Deontic</a></li>
+<li><a href="Doxastic_logic" title="Doxastic logic">Doxastic</a></li>
+<li><a href="Epistemic_modal_logic" title="Epistemic modal logic">Epistemic</a></li>
+<li><a href="Temporal_logic" title="Temporal logic">Temporal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Intuitionism" title="Intuitionism">Intuitionism</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li>
+<li><a href="Constructive_analysis" title="Constructive analysis">Constructive analysis</a></li>
+<li><a href="Heyting_arithmetic" title="Heyting arithmetic">Heyting arithmetic</a></li>
+<li><a href="Intuitionistic_type_theory" title="Intuitionistic type theory">Intuitionistic type theory</a></li>
+<li><a href="Constructive_set_theory" title="Constructive set theory">Constructive set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Degree_of_truth" title="Degree of truth">Degree of truth</a></li>
+<li><a href="Fuzzy_rule" title="Fuzzy rule">Fuzzy rule</a></li>
+<li><a href="Fuzzy_set" title="Fuzzy set">Fuzzy set</a></li>
+<li><a href="Fuzzy_finite_element" title="Fuzzy finite element">Fuzzy finite element</a></li>
+<li><a href="Fuzzy_set_operations" title="Fuzzy set operations">Fuzzy set operations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Substructural_logic" title="Substructural logic">Substructural logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structural_rule" title="Structural rule">Structural rule</a></li>
+<li><a href="Relevance_logic" title="Relevance logic">Relevance logic</a></li>
+<li><a href="Linear_logic" title="Linear logic">Linear logic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Paraconsistent_logic" title="Paraconsistent logic">Paraconsistent logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Description_logic" title="Description logic">Description logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ontology" title="Ontology">Ontology</a></li>
+<li><a href="Ontology_language" title="Ontology language">Ontology language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logicians" title="List of logicians">Logicians</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Alan_Ross_Anderson" title="Alan Ross Anderson">Anderson</a></li>
+<li><a href="Aristotle" title="Aristotle">Aristotle</a></li>
+<li><a href="Averroes" title="Averroes">Averroes</a></li>
+<li><a href="Avicenna" title="Avicenna">Avicenna</a></li>
+<li><a href="Alexander_Bain" title="Alexander Bain">Bain</a></li>
+<li><a href="Jon_Barwise" title="Jon Barwise">Barwise</a></li>
+<li><a href="Paul_Bernays" title="Paul Bernays">Bernays</a></li>
+<li><a href="George_Boole" title="George Boole">Boole</a></li>
+<li><a href="George_Boolos" title="George Boolos">Boolos</a></li>
+<li><a href="Georg_Cantor" title="Georg Cantor">Cantor</a></li>
+<li><a href="Rudolf_Carnap" title="Rudolf Carnap">Carnap</a></li>
+<li><a href="Alonzo_Church" title="Alonzo Church">Church</a></li>
+<li><a href="Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="Haskell_Curry" title="Haskell Curry">Curry</a></li>
+<li><a href="Augustus_De_Morgan" title="Augustus De Morgan">De Morgan</a></li>
+<li><a href="Gottlob_Frege" title="Gottlob Frege">Frege</a></li>
+<li><a href="Peter_Geach" title="Peter Geach">Geach</a></li>
+<li><a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gentzen</a></li>
+<li><a href="Kurt_G%C3%B6del" title="Kurt Gödel">Gödel</a></li>
+<li><a href="David_Hilbert" title="David Hilbert">Hilbert</a></li>
+<li><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Kleene</a></li>
+<li><a href="Saul_Kripke" title="Saul Kripke">Kripke</a></li>
+<li><a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a></li>
+<li><a href="Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Löwenheim</a></li>
+<li><a href="Giuseppe_Peano" title="Giuseppe Peano">Peano</a></li>
+<li><a href="Charles_Sanders_Peirce" title="Charles Sanders Peirce">Peirce</a></li>
+<li><a href="Hilary_Putnam" title="Hilary Putnam">Putnam</a></li>
+<li><a href="Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Quine</a></li>
+<li><a href="Bertrand_Russell" title="Bertrand Russell">Russell</a></li>
+<li><a href="Ernst_Schr%C3%B6der" title="Ernst Schröder">Schröder</a></li>
+<li><a href="Duns_Scotus" title="Duns Scotus">Scotus</a></li>
+<li><a href="Thoralf_Skolem" title="Thoralf Skolem">Skolem</a></li>
+<li><a href="Raymond_Smullyan" title="Raymond Smullyan">Smullyan</a></li>
+<li><a href="Alfred_Tarski" title="Alfred Tarski">Tarski</a></li>
+<li><a href="Alan_Turing" title="Alan Turing">Turing</a></li>
+<li><a href="Alfred_North_Whitehead" title="Alfred North Whitehead">Whitehead</a></li>
+<li><a href="William_of_Ockham" title="William of Ockham">William of Ockham</a></li>
+<li><a href="Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Wittgenstein</a></li>
+<li><a href="Ernst_Zermelo" title="Ernst Zermelo">Zermelo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Lists</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Index_of_logic_articles" title="Index of logic articles">Index of logic articles</a></li>
+<li><a href="List_of_mathematical_logic_topics" title="List of mathematical logic topics">Mathematical logic</a></li>
+<li><a href="List_of_Boolean_algebra_topics" title="List of Boolean algebra topics">Boolean algebra</a></li>
+<li><a href="List_of_set_theory_topics" title="List of set theory topics">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_logicians" title="List of logicians">Logicians</a></li>
+<li><a href="List_of_rules_of_inference" title="List of rules of inference">Rules of inference</a></li>
+<li><a href="List_of_paradoxes" title="List of paradoxes">Paradoxes</a></li>
+<li><a href="List_of_fallacies" title="List of fallacies">Fallacies</a></li>
+<li><a href="List_of_logic_symbols" title="List of logic symbols">Logic symbols</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logic_symbols" title="List of logic symbols">Common logical symbols</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<div style="font-size:130%;">
+<p><a href="Ampersand" title="Ampersand">&amp;</a>&#160; &#160; <a href="Vel_(symbol)" title="Vel (symbol)">∨</a>&#160; &#160; <a href="Negation" title="Negation">¬</a>&#160; &#160; <a href="Tilde" title="Tilde">~</a>&#160; &#160; <a href="Arrow_(symbol)" title="Arrow (symbol)">→</a>&#160; &#160; <a href="Horseshoe_(symbol)" title="Horseshoe (symbol)">⊃</a>&#160; &#160; <a href="Triple_bar" title="Triple bar">≡</a>&#160; &#160; <a href="Sheffer_stroke" title="Sheffer stroke"><span class="Unicode">|</span></a>&#160; &#160; <a href="Turned_A" title="Turned A">∀</a>&#160; &#160; <a href="Turned_E" title="Turned E">∃</a>&#160; &#160; <a href="Tee_(symbol)" title="Tee (symbol)">⊤</a>&#160; &#160; <a href="Up_tack" title="Up tack">⊥</a>&#160; &#160; <a href="Turnstile_(symbol)" title="Turnstile (symbol)">⊢</a>&#160; &#160; <a href="Double_turnstile" title="Double turnstile">⊨</a>&#160; &#160; <a href="Therefore_sign" title="Therefore sign">∴</a>&#160; &#160; <a href="Therefore_sign#Related_signs" title="Therefore sign">∵</a></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><a href="Portal_Logic" title="Portal:Logic">Portal</a></li>
+<li><a href="Category_Logic" title="Category:Logic">Category</a></li>
+<li><a href="Outline_of_logic" title="Outline of logic">Outline</a></li>
+<li><a href="Wikipedia_WikiProject_Logic" title="Wikipedia:WikiProject Logic">WikiProject</a></li>
+<li><a href="Wikipedia_talk_WikiProject_Logic" title="Wikipedia talk:WikiProject Logic">Talk</a></li>
+<li><a class="external text" href="../../w/index-title=Special_Recentchangeslinked&target=Template_Logic&hidebots=0.php.html">changes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 5662/1000000
+Preprocessor generated node count: 37289/1500000
+Post-expand include size: 174317/2048000 bytes
+Template argument size: 108217/2048000 bytes
+Highest expansion depth: 16/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:183478-0!0!0!!en!4!* and timestamp 20130211160855 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Proof_theory&oldid=528875184.php.html">http://en.wikipedia.org/w/index.php?title=Proof_theory&amp;oldid=528875184</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Mathematical_logic" title="Category:Mathematical logic">Mathematical logic</a></li><li><a href="Category_Proof_theory" title="Category:Proof theory">Proof theory</a></li><li><a href="Category_Metalogic" title="Category:Metalogic">Metalogic</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Proof+theory&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Proof+theory.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Proof_theory"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Proof_theory&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Proof_theory&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Proof_theory" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Proof_theory" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Proof_theory&oldid=528875184.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Proof_theory&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Proof_theory&id=528875184.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Proof+theory.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Proof+theory&oldid=528875184&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Proof_theory&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%A8%D8%B1%D9%87%D8%A7%D9%86" title="نظرية البرهان" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3_%E0%A6%A4%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%AC" title="প্রমাণ তত্ত্ব" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Teoria_de_la_demostraci%C3%B3" title="Teoria de la demostració" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Beweistheorie" title="Beweistheorie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Teor%C3%ADa_de_la_demostraci%C3%B3n" title="Teoría de la demostración" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%D9%87_%D8%A8%D8%B1%D9%87%D8%A7%D9%86" title="نظریه برهان" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Th%C3%A9orie_de_la_d%C3%A9monstration" title="Théorie de la démonstration" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%A6%9D%EB%AA%85_%EC%9D%B4%EB%A1%A0" title="증명 이론" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Teoria_della_dimostrazione" title="Teoria della dimostrazione" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%94%D7%95%D7%9B%D7%97%D7%95%D7%AA" title="תורת ההוכחות" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Bewijstheorie" title="Bewijstheorie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E8%A8%BC%E6%98%8E%E8%AB%96" title="証明論" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Teoria_dowodu" title="Teoria dowodu" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Teoria_da_prova" title="Teoria da prova" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2" title="Теория доказательств" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Bevisteori" title="Bevisteori" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E8%AF%81%E6%98%8E%E8%AE%BA" title="证明论" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 19 December 2012 at 23:31.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Proof_theory" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1031 in 0.123 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

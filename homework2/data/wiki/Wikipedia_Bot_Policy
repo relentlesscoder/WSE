@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wikipedia:Bot policy - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Wikipedia_Bot_policy&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Wikipedia_Bot_policy&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="canonical" href="index.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:Bot_policy","wgTitle":"Bot policy","wgCurRevisionId":537035530,"wgArticleId":16819254,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia policies","Wikipedia procedural policies"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:Bot_policy","wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgRedirectedFrom":"Wikipedia:Bot_Policy","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"518386cfcc89fd50e6324f74a6609529","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":16819254,"title":"Wikipedia:Bot policy","namespace":4,"categories":["Wikipedia policies","Wikipedia procedural policies"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-4 ns-subject page-Wikipedia_Bot_policy skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wikipedia:Bot policy</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub">  (Redirected from <a href="../../w/index-title=Wikipedia_Bot_Policy&redirect=no.php.html" title="Wikipedia:Bot Policy">Wikipedia:Bot Policy</a>)</div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="plainlinks ombox ombox-notice" style="">
+<tr>
+<td class="mbox-image"><img alt="Green check.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/30px-Green_check.svg.png" width="30" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/45px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/60px-Green_check.svg.png 2x" /></td>
+<td class="mbox-text" style="">This page documents an English Wikipedia <a href="Wikipedia_Policies_and_guidelines" title="Wikipedia:Policies and guidelines">policy</a>, a widely accepted standard that all editors should <a href="Wikipedia_What_%22Ignore_all_rules%22_means#Use_common_sense" title="Wikipedia:What &quot;Ignore all rules&quot; means">normally</a> follow. Changes made to it should reflect <a href="Wikipedia_Consensus" title="Wikipedia:Consensus">consensus</a>.</td>
+<td class="mbox-imageright">
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: 0; padding: 1px; text-align: center; line-height: 1.1em">
+<tr>
+<th style="border: none; background: transparent;"><span id="WP:BOTPOL"></span><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:<br />
+<a href="Wikipedia_BOTPOL" title="Wikipedia:BOTPOL" class="mw-redirect">WP:BOTPOL</a></small></th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="plainlinks ombox ombox-notice" style="">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/c/ce/Nutshell.png" width="30" height="30" /></td>
+<td class="mbox-text" style=""><b>This page in a nutshell:</b> Automated or partially automated editing processes, known as "bots", must be harmless and useful, have approval, use separate user accounts, and be operated responsibly.<br />
+This wiki allows <a href="http://meta.wikimedia.org/wiki/bot_policy#Global_bots" class="extiw" title="m:bot policy">global bots</a> subject to <a href="Wikipedia_Global_rights_usage#Global_bots" title="Wikipedia:Global rights usage" class="mw-redirect">local requirements</a>.</td>
+</tr>
+</table>
+<table class="plainlinks ombox ombox-notice hlist" style="">
+<tr>
+<td class="mbox-empty-cell"></td>
+<td class="mbox-text" style="text-align: center;">
+<div>
+<ul>
+<li><a href="Wikipedia_Bots" title="Wikipedia:Bots"><b>Overview of bots</b></a></li>
+<li><a href="Wikipedia_Creating_a_bot" title="Wikipedia:Creating a bot">Creating a bot</a></li>
+<li><a href="Wikipedia_Bot_Approvals_Group" title="Wikipedia:Bot Approvals Group">Bot Approvals Group</a></li>
+<li><strong class="selflink">Bot policy</strong></li>
+<li><a href="Wikipedia_Bots/Status" title="Wikipedia:Bots/Status">List of bots</a></li>
+<li><a href="Template_BAG_Tools" title="Template:BAG Tools">BAG tools</a></li>
+<li><a href="Wikipedia_Bot_owners'_noticeboard" title="Wikipedia:Bot owners' noticeboard">Bot owners' noticeboard</a></li>
+<li><a href="Wikipedia_Bots/Requests_for_approval" title="Wikipedia:Bots/Requests for approval">Requests for bot approval</a>&#160;/ <a href="Wikipedia_Bots/Requests_for_approval/Adminbots" title="Wikipedia:Bots/Requests for approval/Adminbots">Adminbots</a></li>
+<li><a href="Wikipedia_Bot_requests" title="Wikipedia:Bot requests">Requests for work to be done by a bot</a></li>
+</ul>
+</div>
+</td>
+<td class="mbox-imageright"><a href="Wikipedia_Bots" title="Wikipedia:Bots"><img alt="Crystal Clear action run.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Crystal_Clear_action_run.svg/45px-Crystal_Clear_action_run.svg.png" width="45" height="41" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Crystal_Clear_action_run.svg/68px-Crystal_Clear_action_run.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/35/Crystal_Clear_action_run.svg/90px-Crystal_Clear_action_run.svg.png 2x" /></a></td>
+</tr>
+</table>
+<p><b>Bot policy</b> covers the operation of all <a href="Internet_bot" title="Internet bot">bots</a> and automated scripts used to provide automation of Wikipedia edits, whether completely automated, higher speed, or simply assisting human editors in their own work.</p>
+<p>It also covers the work of the <b>Bot Approvals Group</b>, which supervises and approves all bot-related activity from a technical and quality-control perspective on behalf of the English Wikipedia community.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definitions"><span class="tocnumber">1</span> <span class="toctext">Definitions</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Bot_usage"><span class="tocnumber">2</span> <span class="toctext">Bot usage</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Bot_accounts"><span class="tocnumber">2.1</span> <span class="toctext">Bot accounts</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#The_.22bot.22_flag"><span class="tocnumber">2.1.1</span> <span class="toctext">The "bot" flag</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-5"><a href="#Bot_requirements"><span class="tocnumber">2.2</span> <span class="toctext">Bot requirements</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Good_communication"><span class="tocnumber">2.3</span> <span class="toctext">Good communication</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Configuration_tips"><span class="tocnumber">2.4</span> <span class="toctext">Configuration tips</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Restrictions_on_specific_tasks"><span class="tocnumber">2.5</span> <span class="toctext">Restrictions on specific tasks</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Context-sensitive_changes"><span class="tocnumber">2.5.1</span> <span class="toctext">Context-sensitive changes</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Categorization_of_people"><span class="tocnumber">2.5.2</span> <span class="toctext">Categorization of people</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Interwiki_links"><span class="tocnumber">2.5.3</span> <span class="toctext">Interwiki links</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Cosmetic_changes"><span class="tocnumber">2.5.4</span> <span class="toctext">Cosmetic changes</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Mass_page_creation"><span class="tocnumber">2.5.5</span> <span class="toctext"> Mass page creation</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Approval_process"><span class="tocnumber">3</span> <span class="toctext">Approval process</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Requests_for_approval"><span class="tocnumber">3.1</span> <span class="toctext">Requests for approval</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Appeals_and_reexamination_of_approvals"><span class="tocnumber">3.2</span> <span class="toctext">Appeals and reexamination of approvals</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Bots_with_administrative_rights"><span class="tocnumber">3.3</span> <span class="toctext">Bots with administrative rights</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Other_bot-related_matters"><span class="tocnumber">4</span> <span class="toctext">Other bot-related matters</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#Bot_Approvals_Group"><span class="tocnumber">4.1</span> <span class="toctext">Bot Approvals Group</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Dealing_with_issues"><span class="tocnumber">4.2</span> <span class="toctext">Dealing with issues</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Bot-like_editing"><span class="tocnumber">4.3</span> <span class="toctext">Bot-like editing</span></a>
+<ul>
+<li class="toclevel-3 tocsection-22"><a href="#Assisted_editing_guidelines"><span class="tocnumber">4.3.1</span> <span class="toctext">Assisted editing guidelines</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#User_scripts"><span class="tocnumber">4.3.2</span> <span class="toctext">User scripts</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-24"><a href="#Bots_operated_by_multiple_users"><span class="tocnumber">4.4</span> <span class="toctext">Bots operated by multiple users</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=1.php.html" title="Edit section: Definitions">edit</a>]</span> <span class="mw-headline" id="Definitions">Definitions</span></h2>
+<div style="position: relative; top: -3em;"><span id="WP:BOTDEF"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTDEF" title="Wikipedia:BOTDEF" class="mw-redirect">WP:BOTDEF</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<ul>
+<li><b>Bots</b> (short for "<a href="Robot" title="Robot">robots</a>") are generally programs or scripts that make automated edits without the necessity of human decision-making.</li>
+<li><b>Assisted editing</b> covers specifically lower-speed tools and scripts that can assist users to make decisions but leave the actual decision up to the user (see <a href="#Assisted_editing_guidelines">Assisted editing guidelines</a> below). Any program or tool which does not allow the user to view each edit and give an instruction to make that edit (that is, one which can edit without the operator looking at and approving the change) is considered to be a bot.</li>
+<li><b><a href="Scripting_language" title="Scripting language">Scripts</a></b> are personalized scripts (typically, but not always, written in JavaScript) that may automate processes, or may merely enhance the existing MediaWiki interface.</li>
+<li>The <b><a href="Wikipedia_Bot_Approvals_Group" title="Wikipedia:Bot Approvals Group">Bot Approvals Group</a> ("BAG")</b> is a group of users with appropriate technical skills and wiki-experience, whose members are approved by the community to oversee and make decisions on bot activity and operation on-wiki for the community. The Bot Approvals Group also determine the classification as bot or assisted editing, in ambiguous cases. Formal work by MediaWiki <a href="http://meta.wikimedia.org/wiki/Developer" class="extiw" title="m:Developer">Developers</a> is outside the scope of this policy.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=2.php.html" title="Edit section: Bot usage">edit</a>]</span> <span class="mw-headline" id="Bot_usage">Bot usage</span></h2>
+<p>Because bots:</p>
+<ol>
+<li>are potentially capable of editing far faster than humans can; and</li>
+<li>have a lower level of scrutiny on each edit than a human editor; and</li>
+<li>may cause severe disruption if they malfunction or are misused</li>
+</ol>
+<p>the community expects high standards before a bot is approved for use on designated tasks.</p>
+<p>Operation of unapproved bots, or use of approved bots in unapproved ways outside their conditions of operation, is prohibited and may in some cases lead to blocking of the user account and possible sanctions for the operator.</p>
+<p>Administrators blocking a user account suspected of operating an unapproved bot or an approved bot in unapproved ways should block indefinitely.</p>
+<p><i>Note that high-speed semi-automated processes may effectively be considered bots in some cases, even if performed by an account used by a human editor. If in doubt, check.</i></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=3.php.html" title="Edit section: Bot accounts">edit</a>]</span> <span class="mw-headline" id="Bot_accounts">Bot accounts</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTACC"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTACC" title="Wikipedia:BOTACC" class="mw-redirect">WP:BOTACC</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Contributors should create a separate <a href="Wikipedia_ACCOUNT" title="Wikipedia:ACCOUNT" class="mw-redirect">account</a> in order to operate a bot. The account's name should identify the operator or bot function. Additionally, it should be immediately clear that its edits are made by an automated account; this is usually accomplished by including the word "Bot" at the beginning or end of the username. (Bots active on other wikis may need to use other means to indicate this.) Bots must only edit while logged into their account. Bots which often attempt to edit while logged out should use <a href="http://www.mediawiki.org/wiki/Extension:Assert_Edit" class="extiw" title="mw:Extension:Assert Edit">AssertEdit</a>, or a similar function. Tools not considered to be bots do not require a separate account, but some users do choose to make separate accounts for non-bot but high-speed editing.</p>
+<p>The contributions of a bot account remain the responsibility of its operator, who must be prominently identifiable on its user page. In particular, the bot operator is responsible for the repair of any damage caused by a bot which operates incorrectly. All <a href="Wikipedia_List_of_policies" title="Wikipedia:List of policies">policies</a> apply to a bot account in the same way as to any other user account. Bot accounts are considered alternative accounts of their operator for the purposes of the <a href="Wikipedia_User_account_policy" title="Wikipedia:User account policy" class="mw-redirect">user account policy</a>.</p>
+<p>Bot accounts should not be used for contributions that do not fall within the scope of the bot's designated tasks. In particular, bot operators should not use a bot account to respond to messages related to the bot. Bot operators may wish to <a href="Wikipedia_REDIRECT" title="Wikipedia:REDIRECT" class="mw-redirect">redirect</a> a bot account's <a href="Wikipedia_TP" title="Wikipedia:TP" class="mw-redirect">discussion page</a> to their own.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=4.php.html" title="Edit section: The &quot;bot&quot; flag">edit</a>]</span> <span class="mw-headline" id="The_.22bot.22_flag">The "bot" flag</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:BOTFLAG"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTFLAG" title="Wikipedia:BOTFLAG" class="mw-redirect">WP:BOTFLAG</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Bot accounts will be marked by a <a href="Wikipedia_CRAT" title="Wikipedia:CRAT" class="mw-redirect">bureaucrat</a> upon Bot Approvals Group request as being in the "bot" user-group on Wikipedia. This is a flag on their account that indicates that the account is used by a bot, and reduces some of the technical limits usually imposed by the Mediawiki software. Edits by such accounts are hidden by default within <a href="Wikipedia_Recent_Changes" title="Wikipedia:Recent Changes" class="mw-redirect">recent changes</a>.</p>
+<p>Historically, being flagged as a bot account was distinct from the approval process; not all approved bots had that property. This stemmed from the fact that all bot edits were hidden from recent changes, and that was not universally desirable. Now that bot edits can be allowed to show up on recent changes, this is no longer necessary.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=5.php.html" title="Edit section: Bot requirements">edit</a>]</span> <span class="mw-headline" id="Bot_requirements">Bot requirements</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTREQUIRE"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTREQUIRE" title="Wikipedia:BOTREQUIRE" class="mw-redirect">WP:BOTREQUIRE</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>In order for a bot to be approved, its operator should demonstrate that it:</p>
+<dl>
+<dd>
+<ul>
+<li>is harmless</li>
+<li>is useful</li>
+<li>does not consume resources unnecessarily</li>
+<li>performs only tasks for which there is <a href="Wikipedia_Consensus" title="Wikipedia:Consensus">consensus</a></li>
+<li>carefully adheres to relevant <a href="Wikipedia_Policies_and_guidelines" title="Wikipedia:Policies and guidelines">policies and guidelines</a></li>
+<li>uses informative messages, appropriately worded, in any edit summaries or messages left for users</li>
+</ul>
+</dd>
+</dl>
+<p>The bot account's <a href="Wikipedia_User_page" title="Wikipedia:User page" class="mw-redirect">user page</a> should identify the bot as such using the {{<a href="Template_Bot" title="Template:Bot">bot</a>}} tag. The following information should be provided on, or linked from, both the bot account's userpage and the approval request:</p>
+<dl>
+<dd>
+<ul>
+<li>Details of the bot's task (or tasks)</li>
+<li>Whether the bot is manually assisted or runs automatically</li>
+<li>When it operates (continuously, intermittently, or at specified intervals), and at what rate</li>
+</ul>
+</dd>
+</dl>
+<p>While performance is <a href="Wikipedia_Don't_worry_about_performance" title="Wikipedia:Don't worry about performance">not generally an issue</a>, bot operators should recognize that a bot making many requests or editing at a high speed has a much greater effect than the average contributor. Operators should be careful not to make unnecessary Web requests, and be conservative in their editing speed. <a href="http://meta.wikimedia.org/wiki/Sysadmins" class="extiw" title="m:Sysadmins">Sysadmins</a> will inform the community if performance issues of any significance do arise, and in such situations, their directives must be followed.</p>
+<dl>
+<dd>
+<ul>
+<li>Bots in trial periods, and approved bots performing all but the most trivial or urgent tasks, should be run at a rate that permits review of their edits when necessary.</li>
+<li>Unflagged bots should edit more slowly than flagged bots, as their edits are visible in user watchlists.</li>
+<li>The urgency of a task should always be considered; tasks that do not need to be completed quickly (for example, renaming <a href="Wikipedia_Categorization" title="Wikipedia:Categorization">categories</a>) can and should be accomplished at a slower rate than those that do (for example, reverting <a href="Wikipedia_Vandalism" title="Wikipedia:Vandalism">vandalism</a>).</li>
+<li>Bots' editing speed should be regulated in some way; subject to approval, bots doing non-urgent tasks may edit approximately once every ten seconds, while bots doing more urgent tasks may edit approximately once every five seconds.</li>
+<li>Bots editing at a high speed should operate more slowly during peak hours (1200–0400 UTC), and days (middle of the week, especially Wednesdays and Thursdays) than during the quietest times (weekends).</li>
+<li>Bots' editing speed may also be adjusted based on slave database server lag; this allows bots to edit more quickly during quiet periods while slowing down considerably when server load is high. This can be achieved by appending an extra parameter to the query string of each requested URL; see <a href="http://www.mediawiki.org/wiki/Manual:Maxlag_parameter" class="extiw" title="mw:Manual:Maxlag parameter">mw:Manual:Maxlag parameter</a> for more details.</li>
+</ul>
+</dd>
+</dl>
+<p>Bots that download substantial portions of Wikipedia's content by requesting many individual pages are not permitted. When such content is required, download <a class="external text" href="http://download.wikimedia.org/">database dumps</a> instead. Bots that require access to run queries on Wikipedia databases may be run on the <a href="http://meta.wikimedia.org/wiki/Toolserver" class="extiw" title="m:Toolserver">toolserver</a>; such processes are outside the scope of this policy.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=6.php.html" title="Edit section: Good communication">edit</a>]</span> <span class="mw-headline" id="Good_communication">Good communication</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTCOMM"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTCOMM" title="Wikipedia:BOTCOMM" class="mw-redirect">WP:BOTCOMM</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<div class="rellink boilerplate seealso">See also: <a href="Wikipedia_Bot_owners'_noticeboard/Archive_6#General_notice_to_bot_owners_about_edit_summaries" title="Wikipedia:Bot owners' noticeboard/Archive 6">General notice to bot owners about edit summaries</a></div>
+<p>Users who read messages or <a href="Wikipedia_Edit_summary" title="Wikipedia:Edit summary" class="mw-redirect">edit summaries</a> from bots will generally expect a high standard of cordiality and information, backed up by prompt and civil help from the bot's operator if queries arise. Bot operators should take care in the design of communications, and ensure that they will be able to meet any inquiries resulting from the bot's operation cordially, promptly, and appropriately. This is a condition of operation of bots in general. At a minimum, the operator should ensure that other users will be willing and able to address any messages left in this way if they cannot be sure to do so themselves.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=7.php.html" title="Edit section: Configuration tips">edit</a>]</span> <span class="mw-headline" id="Configuration_tips">Configuration tips</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTCONFIG"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTCONFIG" title="Wikipedia:BOTCONFIG" class="mw-redirect">WP:BOTCONFIG</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Bot operators may wish to implement the following features, depending on the nature of the bot's tasks:</p>
+<ul>
+<li>Bots which deliver user talk messages are encouraged to provide a method of opting out of non-critical messages, and advertise that method on the bot user page.</li>
+<li>Bots which edit many pages, but may need to be prevented from editing particular pages, can do so by interpreting {{<a href="Template_Bots" title="Template:Bots">Bots</a>}}; see the template page for an explanation of how this works.</li>
+<li>Bots which "clean up" in response to non-vandalism user edits may honor {{<a href="Template_Inuse" title="Template:Inuse" class="mw-redirect">inuse</a>}} to help avoid edit conflicts, either by checking for the presence of that template (and <span class="plainlinks"><a class="external text" href="../../w/index-title=Special_WhatLinksHere_Template_Inuse&hidelinks=1&hidetrans=1.php.html">redirects</a></span>) or the category <a href="Category_Pages_actively_undergoing_a_major_edit" title="Category:Pages actively undergoing a major edit">Category:Pages actively undergoing a major edit</a>. As suggested at <a href="Template_Inuse/doc" title="Template:Inuse/doc" class="mw-redirect">Template:inuse/doc</a>, a bot that honors {{<a href="Template_Inuse" title="Template:Inuse" class="mw-redirect">inuse</a>}} may ignore the template if it has been more than 2 hours since the last edit.</li>
+<li>Providing some mechanism which allows contributors other than the bot's operator to control the bot's operation is useful in some circumstances – the bot can be enabled or disabled without resorting to blocks, and could also be configured in other ways. For example, the bot could check the contents of a particular page and act upon the value it finds there. If desired, such a page could then be <a href="Wikipedia_Protected" title="Wikipedia:Protected" class="mw-redirect">protected or semi-protected</a> to prevent abuse. Bot operators doing this should bear in mind that they retain all responsibility for their bot account's edits.</li>
+<li>To avoid unnecessary blocks, the bot may detect whether its account is logged in, and cease editing if not. This can be done using the <a href="http://www.mediawiki.org/wiki/Extension:Assert_Edit" class="extiw" title="mw:Extension:Assert Edit">Assert Edit Extension</a>.</li>
+</ul>
+<p>Authors of bot processes are encouraged, but not required, to publish the source code of their bot.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=8.php.html" title="Edit section: Restrictions on specific tasks">edit</a>]</span> <span class="mw-headline" id="Restrictions_on_specific_tasks">Restrictions on specific tasks</span></h3>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=9.php.html" title="Edit section: Context-sensitive changes">edit</a>]</span> <span class="mw-headline" id="Context-sensitive_changes">Context-sensitive changes</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:SPELLBOT"></span><span id="WP:CONTEXTBOT"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcuts</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_SPELLBOT" title="Wikipedia:SPELLBOT" class="mw-redirect">WP:SPELLBOT</a></small></li>
+<li><small><a href="Wikipedia_CONTEXTBOT" title="Wikipedia:CONTEXTBOT" class="mw-redirect">WP:CONTEXTBOT</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Unsupervised bot processes should not make <a href="Context-sensitive" title="Context-sensitive">context-sensitive</a> changes that would normally require human attention, as accounting for all possible false positives is generally unfeasible. Exceptionally, such tasks may be allowed if – in addition to having consensus – the operator can demonstrate that no false positives will arise (for example, a one-time run with a complete list of changes from a <a href="Wikipedia_DUMP" title="Wikipedia:DUMP" class="mw-redirect">database dump</a>) or there is community consensus to run the task without supervision (for example, vandalism reversion with a community-accepted false positive rate).</p>
+<p>Examples of context-sensitive changes include, but are not limited to:</p>
+<ul>
+<li>Correcting spelling, grammar, or punctuation mistakes.</li>
+<li>Converting words from one regional variation of English to another.</li>
+<li>Applying context-sensitive templates, such as {{<a href="Template_Weasel_word" title="Template:Weasel word" class="mw-redirect">weasel word</a>}}.</li>
+<li>Changing <a href="Character_entity_reference" title="Character entity reference">HTML entities</a> to Unicode characters whenever the Unicode character might be difficult to identify visually in edit-mode, per <a href="Wikipedia_Manual_of_Style#Keep_markup_simple" title="Wikipedia:Manual of Style">Manual of Style</a>.</li>
+</ul>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=10.php.html" title="Edit section: Categorization of people">edit</a>]</span> <span class="mw-headline" id="Categorization_of_people">Categorization of people</span></h4>
+<p>Assignment of person categories should not be made using a bot. Before adding sensitive categories to articles by bot, the input should be manually checked article by article, rather than uploaded from an existing list in Wikipedia. (See <a href="Wikipedia_Categorization_of_people#General_considerations" title="Wikipedia:Categorization of people">Wikipedia:Categorization of people</a>)</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=11.php.html" title="Edit section: Interwiki links">edit</a>]</span> <span class="mw-headline" id="Interwiki_links">Interwiki links</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:INTERWIKIBOT"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_INTERWIKIBOT" title="Wikipedia:INTERWIKIBOT" class="mw-redirect">WP:INTERWIKIBOT</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<div class="rellink boilerplate seealso">See also: <a href="Wikipedia_Interlanguage_links" title="Wikipedia:Interlanguage links" class="mw-redirect">Wikipedia:Interlanguage links</a>, <a href="User_talk_Yurik/Interwiki_Bot_FAQ" title="User talk:Yurik/Interwiki Bot FAQ">Interwiki bot FAQ</a>, <a href="http://meta.wikimedia.org/wiki/Interwiki_bot" class="extiw" title="m:Interwiki bot">m:Interwiki bot</a>,&#160;and <a href="http://meta.wikimedia.org/wiki/Interwiki_sorting_order" class="extiw" title="m:Interwiki sorting order">m:Interwiki sorting order</a></div>
+<p>Operators of <a href="Help_Interwiki" title="Help:Interwiki" class="mw-redirect">interwiki</a> bots creating new links to articles that do not already link back must be familiar with the languages to which they are linking. Bots running standard tools such as the <a href="http://meta.wikimedia.org/wiki/Using_the_python_wikipediabot" class="extiw" title="m:Using the python wikipediabot">pywikipedia framework</a> should be updated to the latest version daily. <a href="http://meta.wikimedia.org/wiki/bot_policy#Global_bots" class="extiw" title="m:bot policy">Globally-approved</a> interwiki bots are permitted to operate on English Wikipedia, subject to <a href="Wikipedia_Global_rights_usage#Global_bots" title="Wikipedia:Global rights usage" class="mw-redirect">local requirements</a>. Interwiki bots should not run unsupervised in Template namespace unless specifically designed to run on templates. They must make sure that interwiki links added to templates are not transcluded on all pages using the template by properly placing them in the appropriate documentation subpage section, or non-included portion of the template if no documentation subpage exists. (As of <a href="http://www.mediawiki.org/wiki/Special:Code/pywikipedia/7744" class="extiw" title="pyrev:7744">December 2009</a>, the standard interwiki module in pywikipedia does meet these requirements.) Note that, as of April 2, 2012, continuous running interwiki bots on <a href="Wikipedia_Toolserver" title="Wikipedia:Toolserver">Toolserver</a> must be members of the Multi-Maintainer-Project "interwikibot" (<a rel="nofollow" class="external text" href="http://wiki.toolserver.org/view/Rules">TS rule 9.4</a>).</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=12.php.html" title="Edit section: Cosmetic changes">edit</a>]</span> <span class="mw-headline" id="Cosmetic_changes">Cosmetic changes</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:COSMETICBOT"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_COSMETICBOT" title="Wikipedia:COSMETICBOT" class="mw-redirect">WP:COSMETICBOT</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Cosmetic changes (such as many of <a href="Wikipedia_GENFIXES" title="Wikipedia:GENFIXES" class="mw-redirect">AWB general fixes</a>) should only be applied when there is a substantial change to make at the same time.</p>
+<p>Scripts that apply cosmetic changes, such as <a rel="nofollow" class="external text" href="https://fisheye.toolserver.org/browse/pywikipedia/trunk/pywikipedia/cosmetic_changes.py?r=6769">cosmetic_changes.py</a><sup class="noprint Inline-Template"><span title="&#160;since December 2012" style="white-space: nowrap;">[<i><a href="Wikipedia_Link_rot" title="Wikipedia:Link rot">dead link</a></i>]</span></sup>, should be used with caution. The pywiki functions <tt>standardizeCategories</tt>, <tt>validXhtml</tt>, <tt>translateAndCapitalizeNamespaces</tt>, <tt>removeNonBreakingSpaceBeforePercent</tt>, or equivalent functionality, should not be used (as of May 2009), as they do not function correctly or there is no consensus for such changes. The functions <tt>removeUselessSpaces</tt> and <tt>cleanUpSectionHeaders</tt> are also not recommended, as they mainly move around whitespace.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=13.php.html" title="Edit section: Mass page creation">edit</a>]</span> <span class="mw-headline" id="Mass_page_creation"><span id="Mass_article_creation"></span> Mass page creation</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:MASSCREATION"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_MASSCREATION" title="Wikipedia:MASSCREATION" class="mw-redirect">WP:MASSCREATION</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>The community has <a href="Wikipedia_Village_pump_(policy)/Archive_66#Proposal:_Any_large-scale_semi-.2Fautomated_article_creation_task_require_BRFA" title="Wikipedia:Village pump (policy)/Archive 66">decided</a> that any large-scale automated or semi-automated article creation task must be approved at <a href="Wikipedia_Bots/Requests_for_approval" title="Wikipedia:Bots/Requests for approval">Wikipedia:Bots/Requests for approval</a>. The same restriction is applied to mass category creation, where those categories are visible in the article space (not including hidden maintenance categories). While no specific definition of "large-scale" was decided, a suggestion of "anything more than 25 or 50" was not opposed. It is also strongly encouraged (and may be required by BAG) that community input be solicited at <a href="Wikipedia_Village_pump_(proposals)" title="Wikipedia:Village pump (proposals)">WP:Village pump (proposals)</a> and the talk pages of any relevant WikiProjects. Bot operators must ensure that all article creations are strictly within the terms of their approval.</p>
+<p>Alternatives to simply creating mass quantities of articles include creating the articles in small batches or creating the articles as subpages of the WikiProject to be individually <a href="Wikipedia_MOVE" title="Wikipedia:MOVE" class="mw-redirect">moved</a> to article space after each has been reviewed by human editors. While use of these alternatives does not obviate the need for a BRFA, it may garner more support from the community at large.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=14.php.html" title="Edit section: Approval process">edit</a>]</span> <span class="mw-headline" id="Approval_process"><span id="Approval"></span>Approval process</span></h2>
+<div style="position: relative; top: -3em;"><span id="WP:BOTAPPROVAL"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTAPPROVAL" title="Wikipedia:BOTAPPROVAL" class="mw-redirect">WP:BOTAPPROVAL</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=15.php.html" title="Edit section: Requests for approval">edit</a>]</span> <span class="mw-headline" id="Requests_for_approval">Requests for approval</span></h3>
+<p><i>All</i> bots that make any logged actions (such as editing pages, uploading files or creating accounts) must be approved for each of these tasks before they may operate. Bot approval requests should be made at <a href="Wikipedia_Bots/Requests_for_approval" title="Wikipedia:Bots/Requests for approval">Wikipedia:Bots/Requests for approval</a> (BRFA). Requests should state <i>precisely</i> what the bot will do, as well as any other information that may be relevant to its operation, including links to any community discussions sufficient to demonstrate consensus for the proposed task(s). In addition, prospective bot operators should be editors in good standing, and with demonstrable experience with the kind of tasks the bot proposes to do.</p>
+<p>During the request for approval, a member of the <a href="#Bot_Approvals_Group">Bot Approvals Group</a> (BAG) will typically approve a short trial during which the bot is monitored to ensure that it operates correctly. The terms and extent of such a trial period may be determined by the BAG. Bots should be supervised during trial periods so that any problems may be addressed quickly. The bot operator is responsible for reviewing the edits and repairing any mistakes caused by the bot. The BAG may also approve extended trials should problems arise with the initial trial and until community is confident the bot will function correctly.</p>
+<p>The request will generally be open for some time during which the community or BAG members may comment or ask questions, and give feedback on the trial. The decision to approve or decline a request should take into account the <a href="#Bot_requirements">requirements</a> above, relevant policies and guidelines, and discussions of the request. Bot operators are encouraged and often asked to notify the relevant noticeboards whose areas may be affected or whose expertise in the area could provide useful comments and insight into the proposed task.</p>
+<p>Once the request has demonstrated its conformance with the community standards and correct technical implementation, the BAG may approve the task. The BAG may also decline a request which fails to demonstrate community consensus to perform the task. Occasionally, the operator may wish to withdraw the task or the BAG may mark a stale request as expired. Closed requests are archived and preserved for future reference. Should the task be approved, the "bot" <a href="Wikipedia_User_access_levels" title="Wikipedia:User access levels">user group</a> flag will be assigned by any <a href="Wikipedia_Bureaucrats" title="Wikipedia:Bureaucrats">bureaucrat</a> and the operator may run the bot as intended.</p>
+<p>The BAG may also occasionally speedily approve or decline BRFAs without having a trial period. Overtly non-controversial, technically-simple tasks or duplicates of existing tasks, especially if performed by trusted bot operators, can be speedily approved. Similarly, controversial or commonly declined tasks, especially by <a href="Wikipedia_BOTNOTNOW" title="Wikipedia:BOTNOTNOW" class="mw-redirect">new editors</a>, may be speedily declined.</p>
+<p>Operators may carry out limited testing of bot processes without approval, provided that test edits are very low in number and frequency, and are restricted to test pages such as the <a href="Wikipedia_Sandbox" title="Wikipedia:Sandbox">sandbox</a>. Such test edits may be made from any user account. In addition, any bot or automated editing process that affects only the operator's or their own <a href="Wikipedia_Userspace" title="Wikipedia:Userspace" class="mw-redirect">userspace</a> (user page, user talk page, and subpages thereof), and which are not otherwise disruptive, may be run without prior approval.</p>
+<p>Should bot operators wish to modify or extend the operation of their bots, they should ensure that they do so in compliance with this policy. Small changes, for example to fix problems or improve the operation of a particular task, are unlikely to be an issue, but larger changes should not be implemented without some discussion. Completely new tasks usually require a separate approval request. Bot operators may wish to create a separate bot account for each task.</p>
+<p>Accounts performing automated tasks without prior approval may be summarily blocked by any administrator.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=16.php.html" title="Edit section: Appeals and reexamination of approvals">edit</a>]</span> <span class="mw-headline" id="Appeals_and_reexamination_of_approvals">Appeals and reexamination of approvals</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTAPPEAL"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTAPPEAL" title="Wikipedia:BOTAPPEAL" class="mw-redirect">WP:BOTAPPEAL</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Requests for reexamination should be discussed at <a href="Wikipedia_talk_Bots/Requests_for_approval" title="Wikipedia talk:Bots/Requests for approval">Wikipedia talk:Bots/Requests for approval</a>. This may include either appeal of denied bot requests, or reexamination of approved bots. In some cases, <a href="Wikipedia_Requests_for_comment" title="Wikipedia:Requests for comment">Wikipedia:Requests for comment</a> may be warranted.</p>
+<p>Such an examination can result in:</p>
+<ul>
+<li>Granting or revoking approval for a bot task;</li>
+<li>Removing or placing the account into the bot user group;</li>
+<li>Imposing further operational conditions on the bot to maintain approval status.</li>
+</ul>
+<p>BAG has no authority on <i>operator</i> behavior, or on the operators themselves. <a href="Wikipedia_DR" title="Wikipedia:DR" class="mw-redirect">Dispute resolution</a> is the proper venue for that.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=17.php.html" title="Edit section: Bots with administrative rights">edit</a>]</span> <span class="mw-headline" id="Bots_with_administrative_rights">Bots with administrative rights<span id="Adminbots"></span></span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:ADMINBOT"></span><span id="WP:ADMINBOTS"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcuts</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_ADMINBOT" title="Wikipedia:ADMINBOT" class="mw-redirect">WP:ADMINBOT</a></small></li>
+<li><small><a href="Wikipedia_ADMINBOTS" title="Wikipedia:ADMINBOTS" class="mw-redirect">WP:ADMINBOTS</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Bots with <a href="Wikipedia_User_access_levels#Administrator" title="Wikipedia:User access levels">administrator rights</a> (a.k.a. "adminbots") are also approved through <a href="Wikipedia_BRFA" title="Wikipedia:BRFA" class="mw-redirect">the general process</a>. The bot operator must already be an administrator. As with any bot, the approval discussion is conducted on two levels:</p>
+<ol>
+<li>Community approval for the bot's task, i.e. whether there is consensus for the task to be done by an automated program. This discussion either takes place in a dedicated subsection of the BRFA proper, on the <a href="Wikipedia_Village_Pump" title="Wikipedia:Village Pump" class="mw-redirect">Village Pump</a>, or any other forum, provided it receives significant publicity.</li>
+<li>The technical assessment of the bot's implementation, i.e. whether the bot will do what it's supposed to do. The technical assessment process is open to all users, though those leaving comments are generally expected to possess some relevant technical expertise. It is recommended that the source code for adminbots be open, but should the operator elect not to do so, they must present it for review upon request from any BAG member or administrator.</li>
+</ol>
+<p>After a suitable consensus that the task is both useful and technically sound, a member of the Bot Approvals Group will review the request and approve a trial period, wherein the bot will either run "dry" <i>without</i> a <tt>'sysop'</tt> bit (if practical), or be run on the operator's main account (with its edits clearly marked as such). When the Bot Approvals Group is satisfied that the bot is technically sound, they will approve the bot and recommend that it be given both <tt>'bot'</tt> and <tt>'sysop'</tt> rights. The bureaucrat who responds to the flag request acts as a final arbiter of the process and will ensure that an adequate level of community consensus (including publicity of approval discussion) underlies the approval.</p>
+<p>If the bot operates upon additional rules (such as lists of regular expressions applied in a particular decision-making process) that are not publicly visible, the bot operator should make these available to any BAG member or administrator upon request. The operator should also exercise their best judgment when making alterations to these rules, especially if they can significantly alter the bot's behavior.</p>
+<p>Administrators running unapproved experimental administrative bots (for example during the development phase) should "babysit" the bots and terminate them at the first sign of incorrect behavior. Administrators will be responsible for the behavior of robots that are allowed to run wild.</p>
+<p>Administrators are allowed to run semi-automated tools (assisted use of administrative tools) on their own accounts but will be held responsible if those tools go awry.</p>
+<p>If an administrator responsible for one or more adminbots is desysopped, their bots should be immediately desysopped at the same time (except if the administrator <a href="Wikipedia_Administrators#Voluntary_removal" title="Wikipedia:Administrators">voluntarily stepped down</a> in <a href="Wikipedia_Arbitration/Requests/Case/MZMcBride_2#Return_of_access_levels" title="Wikipedia:Arbitration/Requests/Case/MZMcBride 2">uncontroversial circumstances</a>).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=18.php.html" title="Edit section: Other bot-related matters">edit</a>]</span> <span class="mw-headline" id="Other_bot-related_matters">Other bot-related matters</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=19.php.html" title="Edit section: Bot Approvals Group">edit</a>]</span> <span class="mw-headline" id="Bot_Approvals_Group">Bot Approvals Group</span></h3>
+<div class="rellink relarticle mainarticle">Main page: <a href="Wikipedia_Bot_Approvals_Group" title="Wikipedia:Bot Approvals Group">Wikipedia:Bot Approvals Group</a></div>
+<p>Members of the group are experienced in writing and running bots, have programming experience, understand the role of the BAG in the BRFA process, and understand Wikipedia's bot policy. Those interested in joining the group should make a post to <a href="Wikipedia_talk_BAG" title="Wikipedia talk:BAG" class="mw-redirect">the talk page</a> explaining why they would be a good member of the team and outlining past experience, and then should make posts to <a href="Wikipedia_AN" title="Wikipedia:AN" class="mw-redirect">WP:AN</a>, <a href="Wikipedia_VPM" title="Wikipedia:VPM" class="mw-redirect">WP:VPM</a>, <a href="Wikipedia_talk_BOT" title="Wikipedia talk:BOT" class="mw-redirect">WT:BOT</a>, and <a href="Wikipedia_BON" title="Wikipedia:BON" class="mw-redirect">WP:BON</a>. After seven days, an uninvolved bureaucrat will close the discussion.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=20.php.html" title="Edit section: Dealing with issues">edit</a>]</span> <span class="mw-headline" id="Dealing_with_issues">Dealing with issues</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTISSUE"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTISSUE" title="Wikipedia:BOTISSUE" class="mw-redirect">WP:BOTISSUE</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>If you have noticed a problem with a bot, or have a complaint or suggestion to make, you should contact the bot operator. If the bot is causing a significant problem, and you feel that more urgent discussion is necessary, you may also wish to leave a message at <a href="Wikipedia_Administrators'_noticeboard" title="Wikipedia:Administrators' noticeboard">Wikipedia:Administrators' noticeboard</a> and/or <a href="Wikipedia_Bot_owners'_noticeboard" title="Wikipedia:Bot owners' noticeboard">Wikipedia:Bot owners' noticeboard</a>, indicating where you have notified the bot operator.</p>
+<p><a href="Wikipedia_Administrators" title="Wikipedia:Administrators">Administrators</a> may <a href="Wikipedia_Blocking_policy" title="Wikipedia:Blocking policy">block</a> bot accounts that operate without approval, operate in a manner not specified in their approval request, or operate counter to the terms of their approval or bot usage policy. A block may also be issued if a bot process operates without being logged in to an account, or is logged in to an account other than its own. Bots which are known to edit while logged out should have <a href="http://www.mediawiki.org/wiki/Extension:Assert_Edit" class="extiw" title="mw:Extension:Assert Edit">AssertEdit</a>, or a similar function, added to them. Operators can be notified with {{<a href="Template_Bot_block_message" title="Template:Bot block message">Bot block message</a>}} (for approved bots that are broken) or {{<a href="Template_Uw-botblock" title="Template:Uw-botblock">Uw-botblock</a>}} (for unapproved bots).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=21.php.html" title="Edit section: Bot-like editing">edit</a>]</span> <span class="mw-headline" id="Bot-like_editing">Bot-like editing</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:MEATBOT"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_MEATBOT" title="Wikipedia:MEATBOT" class="mw-redirect">WP:MEATBOT</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Human editors are expected to pay attention to the edits they make, and ensure that they don't sacrifice quality in the pursuit of speed or quantity. For the purpose of dispute resolution, it is irrelevant whether high-speed or large-scale edits that involve errors an attentive human would not make are actually being performed by a bot, by a human assisted by a script, or even by a human without any programmatic assistance. No matter the method, the disruptive editing must stop or the user may end up blocked.</p>
+<p>Note that merely editing quickly, particularly for a short time, is not by itself disruptive.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=22.php.html" title="Edit section: Assisted editing guidelines">edit</a>]</span> <span class="mw-headline" id="Assisted_editing_guidelines">Assisted editing guidelines</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:BOTASSIST"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTASSIST" title="Wikipedia:BOTASSIST" class="mw-redirect">WP:BOTASSIST</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>"Assisted editing" covers the use of tools which assist with repetitive tasks, but do not alter Wikipedia's content without some human interaction. Examples of this include correcting <a href="Typographical_error" title="Typographical error">typographical errors</a>, fixing links to <a href="Wikipedia_Disambiguation" title="Wikipedia:Disambiguation">disambiguation</a> pages, reverting <a href="Wikipedia_Vandalism" title="Wikipedia:Vandalism">vandalism</a>, and <a href="Wikipedia_Stub_sorting" title="Wikipedia:Stub sorting" class="mw-redirect">stub sorting</a>.</p>
+<p>While such contributions are not usually considered to constitute use of a bot, if there is any doubt, you should make an approval request; see <a href="#Approval">Approval</a> above. In such cases, the Bot Approvals Group will determine whether the full approval process and a separate bot account are necessary. In general, processes that are operated at higher speeds, with a high volume of edits, or are more automated, may be more likely to be treated as bots for these purposes.</p>
+<p>Contributors intending to make a large number of assisted edits are advised to first ensure that there is a clear consensus that such edits are desired. They may wish to create a separate user account in order to do so; such accounts should adhere to the <a href="Wikipedia_MULTIPLE" title="Wikipedia:MULTIPLE" class="mw-redirect">policy on multiple accounts</a>. Contributors using assisted editing tools may wish to indicate this, if it is not already clear, in <a href="Help_Edit_summary" title="Help:Edit summary">edit summaries</a> and/or on the <a href="Wikipedia_User_page" title="Wikipedia:User page" class="mw-redirect">user page</a> or <a href="Wikipedia_Talk_page" title="Wikipedia:Talk page" class="mw-redirect">user discussion page</a> of the account making the contributions.</p>
+<p>Authors of assisted editing tools are permitted to create their own approval mechanism for that tool; if bot approval is required for use of the tool, this is in addition to, not instead of, the normal approval request process. <a href="Wikipedia_AutoWikiBrowser" title="Wikipedia:AutoWikiBrowser">AutoWikiBrowser</a> is an example of a tool with such a mechanism. Release of the source code for assisted editing tools is, as with bots, encouraged but not required.</p>
+<p>Note that <a href="#Mass_article_creation">any large-scale semi-automated (or automated) article creation task requires a BRFA</a>.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=23.php.html" title="Edit section: User scripts">edit</a>]</span> <span class="mw-headline" id="User_scripts">User scripts</span></h4>
+<div style="position: relative; top: -3em;"><span id="WP:BOTSCRIPT"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTSCRIPT" title="Wikipedia:BOTSCRIPT" class="mw-redirect">WP:BOTSCRIPT</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>The majority of user scripts are intended to merely improve or personalize the existing MediaWiki interface, or to simplify access to commonly used functions for editors. Scripts of this kind do not normally require BAG approval.<br style="clear:both;" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=24.php.html" title="Edit section: Bots operated by multiple users">edit</a>]</span> <span class="mw-headline" id="Bots_operated_by_multiple_users">Bots operated by multiple users</span></h3>
+<div style="position: relative; top: -3em;"><span id="WP:BOTMULTIOP"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_BOTMULTIOP" title="Wikipedia:BOTMULTIOP" class="mw-redirect">WP:BOTMULTIOP</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Accounts used for approved bots that can make edits of a specific designated type, at the direction of more than one person, are not likely to be a problem, provided:</p>
+<ol>
+<li><i>operator disclosure</i> – the Wikipedia user directing any given edit will always be identifiable, typically by being linked in the edit summary, and</li>
+<li><i>operator verification</i> – users able to direct the bot to make edits must be positively identified to the bot at the time of edit, in some manner not readily faked and unique to that user that cannot readily be bypassed or avoided (e.g. non-trivial password, restricted IP, wiki login, irc hostname), so that the user directing any given edit and identified above, may be considered verified.</li>
+<li><i>operator trust</i> – if anyone other than the bot creator is likely to operate the bot, then there must be outline measures to reassure Bot Approvals Group members that they will have the requisite skill and knowledge to operate that bot to an appropriate standard.</li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Bot_policy&action=edit&section=25.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Wikipedia_Global_bots_policy" title="Wikipedia:Global bots policy" class="mw-redirect">Wikipedia:Global bots policy</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/User-Agent_policy" class="extiw" title="meta:User-Agent policy">meta:User-Agent policy</a></li>
+<li><a href="Wikipedia_Bot_Approvals_Group" title="Wikipedia:Bot Approvals Group">Wikipedia:Bot Approvals Group</a></li>
+<li><a href="Wikipedia_Bot_requests" title="Wikipedia:Bot requests">Wikipedia:Bot requests</a></li>
+<li><a href="Wikipedia_Bots/Requests_for_approval" title="Wikipedia:Bots/Requests for approval">Wikipedia:Bots/Requests for approval</a>
+<ul>
+<li><a href="Wikipedia_Bots/Requests_for_approval/Adminbots" title="Wikipedia:Bots/Requests for approval/Adminbots">Wikipedia:Bots/Requests for approval/Adminbots</a></li>
+</ul>
+</li>
+<li><a href="Wikipedia_Creating_a_bot" title="Wikipedia:Creating a bot">Wikipedia:Creating a bot</a></li>
+<li><a href="Wikipedia_History_of_Wikipedia_bots" title="Wikipedia:History of Wikipedia bots">Wikipedia:History of Wikipedia bots</a></li>
+<li><a href="Wikipedia_Types_of_bots" title="Wikipedia:Types of bots">Wikipedia:Types of bots</a></li>
+<li><a href="Wikipedia_User_access_levels" title="Wikipedia:User access levels">Wikipedia:User access levels</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Bot_policy" class="extiw" title="meta:Bot policy">meta:Bot policy</a> (not in effect here)</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1962/1000000
+Preprocessor generated node count: 9040/1500000
+Post-expand include size: 25176/2048000 bytes
+Template argument size: 9080/2048000 bytes
+Highest expansion depth: 17/40
+Expensive parser function count: 19/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:16819254-0!*!0!!en!4!* and timestamp 20130207110346 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wikipedia_Bot_policy&oldid=537035530.php.html">http://en.wikipedia.org/w/index.php?title=Wikipedia:Bot_policy&amp;oldid=537035530</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Wikipedia_policies" title="Category:Wikipedia policies">Wikipedia policies</a></li><li><a href="Category_Wikipedia_procedural_policies" title="Category:Wikipedia procedural policies">Wikipedia procedural policies</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Bot+policy&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Bot+policy.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-project" class="selected"><span><a href="index.html"  title="View the project page [c]" accesskey="c">Project page</a></span></li>
+					<li  id="ca-talk"><span><a href="Wikipedia_talk_Bot_policy"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Wikipedia_Bot_policy&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wikipedia_Bot_policy&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wikipedia_Bot_policy" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wikipedia_Bot_policy" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wikipedia_Bot_policy&oldid=537035530.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wikipedia_Bot_policy&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wikipedia_Bot+policy.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wikipedia_Bot+policy&oldid=537035530&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wikipedia_Bot_policy&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9_%D8%A7%D9%84%D8%A8%D9%88%D8%AA" title="ويكيبيديا:سياسة البوت" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Vikipediya:Bot_siyas%C9%99ti" title="Vikipediya:Bot siyasəti" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Vikipeedia:Bot_policy" title="Vikipeedia:Bot policy" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C%E2%80%8C%D9%BE%D8%AF%DB%8C%D8%A7:%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA_%D8%B1%D8%A8%D8%A7%D8%AA%DB%8C%DA%A9" title="ویکی‌پدیا:سیاست رباتیک" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-gd"><a href="http://gd.wikipedia.org/wiki/Uicipeid:Bot_policy" title="Uicipeid:Bot policy" lang="gd" hreflang="gd">Gàidhlig</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0_%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B1%D0%BE%D1%82%D0%BE%D0%B2" title="Википедия:Правила применения ботов" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Wikipedia:Patakaran_sa_bot" title="Wikipedia:Patakaran sa bot" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Vikipedi:Bot_politikas%C4%B1" title="Vikipedi:Bot politikası" lang="tr" hreflang="tr">Türkçe</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 7 February 2013 at 11:03.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wikipedia:Bot_policy" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1094 in 0.137 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Topology - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Topology&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Topology&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Topology","wgTitle":"Topology","wgCurRevisionId":537820605,"wgArticleId":29954,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from July 2012","All articles with unsourced statements","Articles with unsourced statements from July 2009","Articles with unsourced statements from October 2010","Mathematical structures","Topology"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Topology","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"28db3b688ff8ff099c1dc13c7d852cb9","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":29954,"title":"Topology","namespace":0,"categories":["All articles with unsourced statements","Articles with unsourced statements from July 2009","Articles with unsourced statements from October 2010","Mathematical structures","Topology","Use dmy dates from July 2012"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Topology skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Topology</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Topography" title="Topography">topography</a>.</div>
+<div class="dablink">This article is about the branch of mathematics.  For other uses, see <a href="Topology_(disambiguation)" title="Topology (disambiguation)">Topology (disambiguation)</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:242px;"><a href="http://en.wikipedia.org/wiki/File:M%C3%B6bius_strip.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/M%C3%B6bius_strip.jpg/240px-M%C3%B6bius_strip.jpg" width="240" height="149" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/M%C3%B6bius_strip.jpg/360px-M%C3%B6bius_strip.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d9/M%C3%B6bius_strip.jpg/480px-M%C3%B6bius_strip.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:M%C3%B6bius_strip.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="M%C3%B6bius_strip" title="Möbius strip">Möbius strips</a>, which have only one surface and one edge, are a kind of object studied in topology.</div>
+</div>
+</div>
+<p><b>Topology</b> (from the <a href="Greek_language" title="Greek language">Greek</a> τόπος, “place”, and λόγος, “study”) is a major area of <a href="Mathematics" title="Mathematics">mathematics</a> concerned with the most basic properties of space, such as <a href="Connectedness" title="Connectedness">connectedness</a>. More precisely, topology studies properties that are preserved under <a href="Continuous_function" title="Continuous function">continuous</a> deformations, including stretching and bending, but not tearing or gluing. The exact mathematical definition is given below. Topology developed as a field of study out of <a href="Geometry" title="Geometry">geometry</a> and <a href="Set_theory" title="Set theory">set theory</a>, through analysis of such concepts as space, dimension, and transformation.</p>
+<p>Ideas that are now classified as topological were expressed as early as 1736. Toward the end of the 19th century, a distinct discipline developed, which was referred to in Latin as the <i>geometria situs</i> (“geometry of place”) or <i>analysis situs</i> (Greek-Latin for “picking apart of place”). This later acquired the modern name of topology. By the middle of the 20th century, topology had become an important area of study within mathematics.</p>
+<p>Topology has many subfields. <b><a href="General_topology" title="General topology">Point-set topology</a></b> establishes the foundational aspects of topology and investigates concepts inherent to topological spaces (basic examples include <a href="Compactness" title="Compactness" class="mw-redirect">compactness</a> and <a href="Connectedness" title="Connectedness">connectedness</a>). <b><a href="Algebraic_topology" title="Algebraic topology">Algebraic topology</a></b> tries to measure degrees of connectivity using algebraic constructs such as <a href="Homology_(mathematics)" title="Homology (mathematics)">homology</a> and <a href="Homotopy_groups" title="Homotopy groups" class="mw-redirect">homotopy groups</a>. <b><a href="Geometric_topology" title="Geometric topology">Geometric topology</a></b> primarily studies <a href="Manifold" title="Manifold">manifolds</a> and their embeddings (placements) in other manifolds. A particularly active area in geometric topology is <b><a href="Low_dimensional_topology" title="Low dimensional topology" class="mw-redirect">low dimensional topology</a></b>, which studies manifolds of four or fewer dimensions. This includes <b><a href="Knot_theory" title="Knot theory">knot theory</a></b>, the study of <a href="Knot_(mathematics)" title="Knot (mathematics)">mathematical knots</a>.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Trefoil_knot_arb.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Trefoil_knot_arb.png/220px-Trefoil_knot_arb.png" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Trefoil_knot_arb.png/330px-Trefoil_knot_arb.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/46/Trefoil_knot_arb.png/440px-Trefoil_knot_arb.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Trefoil_knot_arb.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A three-dimensional depiction of a thickened <a href="Trefoil_knot" title="Trefoil knot">trefoil knot</a>, the simplest non-<a href="Trivial_knot" title="Trivial knot" class="mw-redirect">trivial knot</a></div>
+</div>
+</div>
+<p>See also: <a href="Topology_glossary" title="Topology glossary" class="mw-redirect">topology glossary</a> for definitions of some of the terms used in topology and <a href="Topological_space" title="Topological space">topological space</a> for a more technical treatment of the subject.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Elementary_introduction"><span class="tocnumber">2</span> <span class="toctext">Elementary introduction</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Mathematical_definition"><span class="tocnumber">3</span> <span class="toctext">Mathematical definition</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Topology_topics"><span class="tocnumber">4</span> <span class="toctext">Topology topics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Some_theorems_in_general_topology"><span class="tocnumber">4.1</span> <span class="toctext">Some theorems in general topology</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Some_useful_notions_from_algebraic_topology"><span class="tocnumber">4.2</span> <span class="toctext">Some useful notions from algebraic topology</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Generalizations"><span class="tocnumber">4.3</span> <span class="toctext">Generalizations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Further_reading"><span class="tocnumber">7</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:242px;"><a href="http://en.wikipedia.org/wiki/File:Konigsberg_bridges.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Konigsberg_bridges.png/240px-Konigsberg_bridges.png" width="240" height="189" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png 1.5x, //upload.wikimedia.org/wikipedia/commons/5/5d/Konigsberg_bridges.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Konigsberg_bridges.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The <a href="Seven_Bridges_of_K%C3%B6nigsberg" title="Seven Bridges of Königsberg">Seven Bridges of Königsberg</a> is a famous problem solved by Euler.</div>
+</div>
+</div>
+<p>Topology began with the investigation of certain questions in geometry. <a href="Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a>'s 1736 paper on the <a href="Seven_Bridges_of_K%C3%B6nigsberg" title="Seven Bridges of Königsberg">Seven Bridges of Königsberg</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> is regarded as one of the first academic treatises in modern topology.</p>
+<p>The term "Topologie" was introduced in German in 1847 by <a href="Johann_Benedict_Listing" title="Johann Benedict Listing">Johann Benedict Listing</a> in <i>Vorstudien zur Topologie</i>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> who had used the word for ten years in correspondence before its first appearance in print. "Topology," its English form, was first used in 1883 in Listing's obituary in the journal <a href="Nature_(journal)" title="Nature (journal)"><i>Nature</i></a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> to distinguish "qualitative geometry from the ordinary geometry in which quantitative relations chiefly are treated". The term <b>topologist</b> in the sense of a specialist in topology was used in 1905 in the magazine <i><a href="The_Spectator" title="The Spectator">Spectator</a></i>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2009">citation needed</span></a></i>]</sup> However, none of these uses corresponds exactly to the modern definition of topology.</p>
+<p>Modern topology depends strongly on the ideas of <a href="Set_theory" title="Set theory">set theory</a>, developed by <a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a> in the later part of the 19th century. Cantor, in addition to establishing the basic ideas of set theory, considered point sets in <a href="Euclidean_space" title="Euclidean space">Euclidean space</a> as part of his study of <a href="Fourier_series" title="Fourier series">Fourier series</a>.</p>
+<p><a href="Henri_Poincar%C3%A9" title="Henri Poincaré">Henri Poincaré</a> published <i><a href="Analysis_Situs_(paper)" title="Analysis Situs (paper)">Analysis Situs</a></i> in 1895,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> introducing the concepts of <a href="Homotopy" title="Homotopy">homotopy</a> and <a href="Homology_(mathematics)" title="Homology (mathematics)">homology</a>, which are now considered part of <a href="Algebraic_topology" title="Algebraic topology">algebraic topology</a>.</p>
+<p><a href="Maurice_Fr%C3%A9chet" title="Maurice Fréchet" class="mw-redirect">Maurice Fréchet</a>, unifying the work on function spaces of Georg Cantor, <a href="Vito_Volterra" title="Vito Volterra">Vito Volterra</a>, <a href="Cesare_Arzel%C3%A0" title="Cesare Arzelà">Cesare Arzelà</a>, <a href="Jacques_Hadamard" title="Jacques Hadamard">Jacques Hadamard</a>, <a href="Giulio_Ascoli" title="Giulio Ascoli">Giulio Ascoli</a>, and others, introduced the <a href="Metric_space" title="Metric space">metric space</a> in 1906.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> A metric space is now considered a special case of a general topological space. In 1914, <a href="Felix_Hausdorff" title="Felix Hausdorff">Felix Hausdorff</a> coined the term "topological space" and gave the definition for what is now called a <a href="Hausdorff_space" title="Hausdorff space">Hausdorff space</a>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> In current usage, a topological space is a slight generalization of Hausdorff spaces, given in 1922 by <a href="Kazimierz_Kuratowski" title="Kazimierz Kuratowski">Kazimierz Kuratowski</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2010">citation needed</span></a></i>]</sup></p>
+<p>For further developments, see <a href="Point-set_topology" title="Point-set topology" class="mw-redirect">point-set topology</a> and <a href="Algebraic_topology" title="Algebraic topology">algebraic topology</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=2.php.html" title="Edit section: Elementary introduction">edit</a>]</span> <span class="mw-headline" id="Elementary_introduction">Elementary introduction</span></h2>
+<p>Topology, as a branch of mathematics, can be formally defined as "the study of qualitative properties of certain objects (called <a href="Topological_spaces" title="Topological spaces" class="mw-redirect">topological spaces</a>) that are <a href="Invariant_(mathematics)" title="Invariant (mathematics)">invariant</a> under a certain kind of transformation (called a <a href="Continuous_maps" title="Continuous maps" class="mw-redirect">continuous map</a>), especially those properties that are invariant under a certain kind of equivalence (called <a href="Homeomorphism" title="Homeomorphism">homeomorphism</a>)." To put it more simply, topology is the study of continuity and connectivity.</p>
+<p>The term <i>topology</i> is also used to refer to a structure imposed upon a set <i>X</i>, a structure that essentially 'characterizes' the set <i>X</i> as a <a href="Topological_space" title="Topological space">topological space</a> by taking proper care of properties such as <a href="Limit_of_a_sequence" title="Limit of a sequence">convergence</a>, <a href="Connectedness" title="Connectedness">connectedness</a> and <a href="Continuous_function_(topology)" title="Continuous function (topology)" class="mw-redirect">continuity</a>, upon transformation.</p>
+<p>Topological spaces show up naturally in almost every branch of mathematics. This has made topology one of the great unifying ideas of mathematics.</p>
+<p>The motivating insight behind topology is that some geometric problems depend not on the exact shape of the objects involved, but rather on the way they are put together. For example, the square and the circle have many properties in common: they are both one dimensional objects (from a topological point of view) and both separate the plane into two parts, the part inside and the part outside.</p>
+<p>One of the first papers in topology was the demonstration, by <a href="Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a>, that it was impossible to find a route through the town of Königsberg (now <a href="Kaliningrad" title="Kaliningrad">Kaliningrad</a>) that would cross each of its seven bridges exactly once. This result did not depend on the lengths of the bridges, nor on their distance from one another, but only on connectivity properties: which bridges are connected to which islands or riverbanks. This problem, the <i><a href="Seven_Bridges_of_K%C3%B6nigsberg" title="Seven Bridges of Königsberg">Seven Bridges of Königsberg</a></i>, is now a famous problem in introductory mathematics, and led to the branch of mathematics known as <a href="Graph_theory" title="Graph theory">graph theory</a>.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:242px;"><a href="http://en.wikipedia.org/wiki/File:Mug_and_Torus_morph.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/2/26/Mug_and_Torus_morph.gif" width="240" height="240" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Mug_and_Torus_morph.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A continuous deformation (a type of <a href="Homeomorphism" title="Homeomorphism">homeomorphism</a>) of a mug into a doughnut (<a href="Torus" title="Torus">torus</a>) and back.</div>
+</div>
+</div>
+<p>Similarly, the <a href="Hairy_ball_theorem" title="Hairy ball theorem">hairy ball theorem</a> of algebraic topology says that "one cannot comb the hair flat on a hairy ball without creating a <a href="Cowlick" title="Cowlick">cowlick</a>." This fact is immediately convincing to most people, even though they might not recognize the more formal statement of the theorem, that there is no nonvanishing continuous <a href="Vector_field" title="Vector field">tangent vector field</a> on the <a href="Sphere" title="Sphere">sphere</a>. As with the <i>Bridges of Königsberg</i>, the result does not depend on the exact shape of the sphere; it applies to pear shapes and in fact any kind of smooth blob, as long as it has no holes.</p>
+<p>To deal with these problems that do not rely on the exact shape of the objects, one must be clear about just what properties these problems <i>do</i> rely on. From this need arises the notion of homeomorphism. The impossibility of crossing each bridge just once applies to any arrangement of bridges homeomorphic to those in Königsberg, and the hairy ball theorem applies to any space homeomorphic to a sphere.</p>
+<p>Intuitively two spaces are homeomorphic if one can be deformed into the other without cutting or gluing. A traditional joke is that a topologist can't distinguish a coffee mug from a doughnut, since a sufficiently pliable doughnut could be reshaped to the form of a coffee cup by creating a dimple and progressively enlarging it, while shrinking the hole into a handle. A precise definition of homeomorphic, involving a continuous function with a continuous inverse, is necessarily more technical.</p>
+<p>Homeomorphism can be considered the most basic <i>topological equivalence</i>. Another is <a href="Homotopy_equivalence" title="Homotopy equivalence" class="mw-redirect">homotopy equivalence</a>. This is harder to describe without getting technical, but the essential notion is that two objects are homotopy equivalent if they both result from "squishing" some larger object.</p>
+<table class="wikitable" border="1">
+<tr>
+<th colspan="2">Equivalence classes of the English alphabet:</th>
+</tr>
+<tr>
+<th>Homeomorphism</th>
+<th>Homotopy equivalence</th>
+</tr>
+<tr>
+<td style="vertical-align: top"><a href="http://en.wikipedia.org/wiki/File:Alphabet_homeo.png" class="image"><img alt="Alphabet homeo.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Alphabet_homeo.png/270px-Alphabet_homeo.png" width="270" height="62" srcset="//upload.wikimedia.org/wikipedia/commons/7/74/Alphabet_homeo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/7/74/Alphabet_homeo.png 2x" /></a></td>
+<td style="vertical-align: top"><a href="http://en.wikipedia.org/wiki/File:Alphabet_homotopy.png" class="image"><img alt="Alphabet homotopy.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Alphabet_homotopy.png/300px-Alphabet_homotopy.png" width="300" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/7/7c/Alphabet_homotopy.png 1.5x, //upload.wikimedia.org/wikipedia/commons/7/7c/Alphabet_homotopy.png 2x" /></a></td>
+</tr>
+</table>
+<p>An introductory <a href="Exercise_(mathematics)" title="Exercise (mathematics)">exercise</a> is to classify the uppercase letters of the <a href="Latin_alphabet" title="Latin alphabet">English alphabet</a> according to homeomorphism and homotopy equivalence. The result depends partially on the font used. The figures use a <a href="Sans-serif" title="Sans-serif">sans-serif</a> <a href="Font" title="Font">font</a> named <a href="Myriad_(font)" title="Myriad (font)" class="mw-redirect">Myriad</a>. Notice that homotopy equivalence is a rougher relationship than homeomorphism; a homotopy equivalence class can contain several of the homeomorphism classes. The simple case of homotopy equivalence described above can be used here to show two letters are homotopy equivalent. For example, O fits inside P and the tail of the P can be squished to the "hole" part.</p>
+<p>Thus, the homeomorphism classes are: one hole two tails, two holes no tail, no holes, one hole no tail, no holes three tails, a bar with four tails (the "bar" on the <i>K</i> is almost too short to see), one hole one tail, and no holes four tails.</p>
+<p>The homotopy classes are larger, because the tails can be squished down to a point. The homotopy classes are: one hole, two holes, and no holes.</p>
+<p>To be sure we have classified the letters correctly, we not only need to show that two letters in the same class are equivalent, but that two letters in different classes are not equivalent. In the case of homeomorphism, this can be done by suitably selecting points and showing their removal disconnects the letters differently. For example, X and Y are not homeomorphic because removing the center point of the X leaves four pieces; whatever point in Y corresponds to this point, its removal can leave at most three pieces. The case of homotopy equivalence is harder and requires a more elaborate argument showing an algebraic invariant, such as the <a href="Fundamental_group" title="Fundamental group">fundamental group</a>, is different on the supposedly differing classes.</p>
+<p>Letter topology has some practical relevance in <a href="Stencil" title="Stencil">stencil</a> <a href="Typography" title="Typography">typography</a>. The font <a href="Braggadocio_(typeface)" title="Braggadocio (typeface)">Braggadocio</a>, for instance, has stencils that are made of one connected piece of material.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=3.php.html" title="Edit section: Mathematical definition">edit</a>]</span> <span class="mw-headline" id="Mathematical_definition">Mathematical definition</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Topological_space" title="Topological space">Topological space</a></div>
+<p>Let <i>X</i> be a set and let <i>τ</i> be a family of subsets of <i>X</i>. Then <i>τ</i> is called a <i>topology on X</i> if:</p>
+<ol>
+<li>Both the empty set and <i>X</i> are elements of <i>τ</i></li>
+<li>Any union of elements of <i>τ</i> is an element of <i>τ</i></li>
+<li>Any intersection of finitely many elements of <i>τ</i> is an element of <i>τ</i></li>
+</ol>
+<p>If <i>τ</i> is a topology on <i>X</i>, then the pair (<i>X</i>, <i>τ</i>) is called a <i>topological space</i>. The notation <i>X<sub>τ</sub></i> may be used to denote a set <i>X</i> endowed with the particular topology <i>τ</i>.</p>
+<p>The members of <i>τ</i> are called <i><a href="Open_set" title="Open set">open sets</a></i> in <i>X</i>. A subset of <i>X</i> is said to be <a href="Closed_set" title="Closed set">closed</a> if its complement is in <i>τ</i> (i.e., its complement is open). A subset of <i>X</i> may be open, closed, both (<a href="Clopen_set" title="Clopen set">clopen set</a>), or neither. The empty set and <i>X</i> itself are always clopen.</p>
+<p>A <a href="Function_(mathematics)" title="Function (mathematics)">function</a> or map from one topological space to another is called <i>continuous</i> if the inverse image of any open set is open. If the function maps the <a href="Real_number" title="Real number">real numbers</a> to the real numbers (both spaces with the Standard Topology), then this definition of continuous is equivalent to the definition of continuous in <a href="Calculus" title="Calculus">calculus</a>. If a continuous function is <a href="Injective_function" title="Injective function">one-to-one</a> and <a href="Surjective_function" title="Surjective function">onto</a>, and if the inverse of the function is also continuous, then the function is called a <a href="Homeomorphism" title="Homeomorphism">homeomorphism</a> and the domain of the function is said to be homeomorphic to the range. Another way of saying this is that the function has a natural extension to the topology. If two spaces are homeomorphic, they have identical topological properties, and are considered topologically the same. The cube and the sphere are homeomorphic, as are the coffee cup and the doughnut. But the circle is not homeomorphic to the doughnut.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=4.php.html" title="Edit section: Topology topics">edit</a>]</span> <span class="mw-headline" id="Topology_topics">Topology topics</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=5.php.html" title="Edit section: Some theorems in general topology">edit</a>]</span> <span class="mw-headline" id="Some_theorems_in_general_topology">Some theorems in general topology</span></h3>
+<ul>
+<li>Every closed <a href="Interval_(mathematics)" title="Interval (mathematics)">interval</a> in <b><a href="Real_number" title="Real number">R</a></b> of finite length is <a href="Compact_space" title="Compact space">compact</a>. More is true: In <b>R</b><sup><var>n</var></sup>, a set is compact <a href="If_and_only_if" title="If and only if">if and only if</a> it is <a href="Closed_set" title="Closed set">closed</a> and bounded. (See <a href="Heine%E2%80%93Borel_theorem" title="Heine–Borel theorem">Heine–Borel theorem</a>).</li>
+<li>Every continuous image of a compact space is compact.</li>
+<li><a href="Tychonoff's_theorem" title="Tychonoff's theorem">Tychonoff's theorem</a>: the (arbitrary) <a href="Product_topology" title="Product topology">product</a> of compact spaces is compact.</li>
+<li>A compact subset of a Hausdorff space is closed.</li>
+<li>Every continuous <a href="Bijection" title="Bijection">bijection</a> from a compact space to a Hausdorff space is necessarily a <a href="Homeomorphism" title="Homeomorphism">homeomorphism</a>.</li>
+<li>Every <a href="Sequence" title="Sequence">sequence</a> of points in a compact metric space has a convergent subsequence.</li>
+<li>Every interval in <b>R</b> is <a href="Connected_space" title="Connected space">connected</a>.</li>
+<li>Every compact finite-dimensional <a href="Manifold" title="Manifold">manifold</a> can be embedded in some Euclidean space <b>R</b><sup><var>n</var></sup>.</li>
+<li>The continuous image of a <a href="Connectedness" title="Connectedness">connected</a> space is connected.</li>
+<li>Every <a href="Metric_space" title="Metric space">metric space</a> is <a href="Paracompact" title="Paracompact" class="mw-redirect">paracompact</a> and <a href="Hausdorff_space" title="Hausdorff space">Hausdorff</a>, and thus <a href="Normal_space" title="Normal space">normal</a>.</li>
+<li>The <a href="Metrization_theorems" title="Metrization theorems" class="mw-redirect">metrization theorems</a> provide necessary and sufficient conditions for a topology to come from a metric.</li>
+<li>The <a href="Tietze_extension_theorem" title="Tietze extension theorem">Tietze extension theorem</a>: In a normal space, every continuous real-valued function defined on a closed subspace can be extended to a continuous map defined on the whole space.</li>
+<li>Any open subspace of a <a href="Baire_space" title="Baire space">Baire space</a> is itself a Baire space.</li>
+<li>The <a href="Baire_category_theorem" title="Baire category theorem">Baire category theorem</a>: If <i>X</i> is a <a href="Completeness_(topology)" title="Completeness (topology)" class="mw-redirect">complete</a> metric space or a <a href="Locally_compact" title="Locally compact" class="mw-redirect">locally compact</a> Hausdorff space, then the interior of every union of <a href="Countable" title="Countable" class="mw-redirect">countably many</a> <a href="Nowhere_dense" title="Nowhere dense" class="mw-redirect">nowhere dense</a> sets is empty.</li>
+<li>On a paracompact Hausdorff space every <a href="Open_cover" title="Open cover" class="mw-redirect">open cover</a> admits a <a href="Partition_of_unity" title="Partition of unity">partition of unity</a> subordinate to the cover.</li>
+<li>Every path-connected, locally path-connected and <a href="Semi-locally_simply_connected" title="Semi-locally simply connected">semi-locally simply connected</a> space has a <a href="Universal_cover" title="Universal cover" class="mw-redirect">universal cover</a>.</li>
+</ul>
+<p>General topology also has some surprising connections to other areas of mathematics. For example:</p>
+<ul>
+<li>In number theory, <a href="F%C3%BCrstenberg's_proof_of_the_infinitude_of_primes" title="Fürstenberg's proof of the infinitude of primes" class="mw-redirect">Fürstenberg's proof of the infinitude of primes</a>.</li>
+</ul>
+<p>See also some counter-intuitive theorems, e.g. the <a href="Banach%E2%80%93Tarski_paradox" title="Banach–Tarski paradox">Banach–Tarski paradox</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=6.php.html" title="Edit section: Some useful notions from algebraic topology">edit</a>]</span> <span class="mw-headline" id="Some_useful_notions_from_algebraic_topology">Some useful notions from algebraic topology</span></h3>
+<p>See also <a href="List_of_algebraic_topology_topics" title="List of algebraic topology topics">list of algebraic topology topics</a>.</p>
+<ul>
+<li><a href="Homology_(mathematics)" title="Homology (mathematics)">Homology</a> and <a href="Cohomology" title="Cohomology">cohomology</a>: <a href="Betti_number" title="Betti number">Betti numbers</a>, <a href="Euler_characteristic" title="Euler characteristic">Euler characteristic</a>, <a href="Degree_of_a_continuous_mapping" title="Degree of a continuous mapping">degree of a continuous mapping</a>.</li>
+<li>Operations: <a href="Cup_product" title="Cup product">cup product</a>, <a href="Massey_product" title="Massey product">Massey product</a></li>
+<li>Intuitively attractive applications: <a href="Brouwer_fixed-point_theorem" title="Brouwer fixed-point theorem">Brouwer fixed-point theorem</a>, <a href="Hairy_ball_theorem" title="Hairy ball theorem">Hairy ball theorem</a>, <a href="Borsuk%E2%80%93Ulam_theorem" title="Borsuk–Ulam theorem">Borsuk–Ulam theorem</a>, <a href="Ham_sandwich_theorem" title="Ham sandwich theorem">Ham sandwich theorem</a>.</li>
+<li><a href="Homotopy" title="Homotopy">Homotopy</a> groups (including the <a href="Fundamental_group" title="Fundamental group">fundamental group</a>).</li>
+<li><a href="Chern_class" title="Chern class">Chern classes</a>, <a href="Stiefel%E2%80%93Whitney_class" title="Stiefel–Whitney class">Stiefel–Whitney classes</a>, <a href="Pontryagin_class" title="Pontryagin class">Pontryagin classes</a>.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=7.php.html" title="Edit section: Generalizations">edit</a>]</span> <span class="mw-headline" id="Generalizations">Generalizations</span></h3>
+<p>Occasionally, one needs to use the tools of topology but a "set of points" is not available. In <a href="Pointless_topology" title="Pointless topology">pointless topology</a> one considers instead the <a href="Lattice_(order)" title="Lattice (order)">lattice</a> of open sets as the basic notion of the theory, while <a href="Grothendieck_topology" title="Grothendieck topology">Grothendieck topologies</a> are certain structures defined on arbitrary <a href="Category_theory" title="Category theory">categories</a> that allow the definition of <a href="Sheaf_(mathematics)" title="Sheaf (mathematics)">sheaves</a> on those categories, and with that the definition of quite general cohomology theories.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=8.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Portal-puzzle.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png" width="32" height="28" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/48px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/64px-Portal-puzzle.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Topology" title="Portal:Topology">Topology  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="List_of_algebraic_topology_topics" title="List of algebraic topology topics">List of algebraic topology topics</a></li>
+<li><a href="List_of_general_topology_topics" title="List of general topology topics">List of general topology topics</a></li>
+<li><a href="List_of_geometric_topology_topics" title="List of geometric topology topics">List of geometric topology topics</a></li>
+<li><a href="List_of_topology_topics" title="List of topology topics">List of topology topics</a></li>
+<li><a href="List_of_publications_in_mathematics#Topology" title="List of publications in mathematics" class="mw-redirect">Publications in topology</a></li>
+<li><a href="Topology_glossary" title="Topology glossary" class="mw-redirect">Topology glossary</a></li>
+<li><a href="General_topology" title="General topology">General topology</a></li>
+<li><a href="List_of_examples_in_general_topology" title="List of examples in general topology">List of examples in general topology</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=9.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Euler, Leonhard, <a rel="nofollow" class="external text" href="http://www.math.dartmouth.edu/~euler/docs/originals/E053.pdf">Solutio problematis ad geometriam situs pertinentis</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Listing, Johann Benedict, "Vorstudien zur Topologie", Vandenhoeck und Ruprecht, Göttingen, p.&#160;67, 1848</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Tait, Peter Guthrie, "Johann Benedict Listing (obituary)", Nature *27*, 1 February 1883, pp. 316–317</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Poincaré, Henri, "Analysis situs", Journal de l'École Polytechnique ser 2, 1 (1895) pp. 1–123</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Fréchet, Maurice, "Sur quelques points du calcul fonctionnel", PhD dissertation, 1906</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Hausdorff, Felix, "Grundzüge der Mengenlehre", Leipzig: Veit. In (Hausdorff Werke, II (2002), 91–576)</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=10.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li>Rysxard Engelking, <i>General Topology</i>, Heldermann Verlag, Sigma Series in Pure Mathematics, December 1989, <a href="Special_BookSources/3885380064" class="internal mw-magiclink-isbn">ISBN 3885380064</a>.</li>
+</ul>
+<ul>
+<li><a href="Nicolas_Bourbaki" title="Nicolas Bourbaki">Bourbaki</a>; <i>Elements of Mathematics: General Topology</i>, Addison–Wesley (1966).</li>
+<li><span class="citation book">Breitenberger, E. (2006). "Johann Benedict Listing". In I.M. James. <i>History of Topology</i>. North Holland. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-444-82375-5" title="Special:BookSources/978-0-444-82375-5">978-0-444-82375-5</a>.</span></li>
+<li><span class="citation book"><a href="../John_L._Kelley" title="John L. Kelley">Kelley, John L.</a> (1975). <i>General Topology</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-90125-6" title="Special:BookSources/0-387-90125-6">0-387-90125-6</a>.</span></li>
+</ul>
+<ul>
+<li>Waclaw Sierpinski, <i>General Topology</i>, Dover Publications, 2000, <a href="Special_BookSources/0486411486" class="internal mw-magiclink-isbn">ISBN 0486411486</a></li>
+</ul>
+<ul>
+<li><span class="citation book"><a href="../Clifford_A._Pickover" title="Clifford A. Pickover">Pickover, Clifford A.</a> (2006). <i>The Möbius Strip: Dr. August Möbius's Marvelous Band in Mathematics, Games, Literature, Art, Technology, and Cosmology</i>. Thunder's Mouth Press (Provides a popular introduction to topology and geometry). <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-56025-826-8" title="Special:BookSources/1-56025-826-8">1-56025-826-8</a>.</span></li>
+</ul>
+<p><br /></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Topology&action=edit&section=11.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Topology" class="extiw" title="commons:Topology">Topology</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has more on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Special:Search/Topology" class="extiw" title="wikibooks:Special:Search/Topology">Topology</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/t093200">"Topology, general"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/t093200">http://www.encyclopediaofmath.org/index.php?title=p/t093200</a></span></span></li>
+<li><a rel="nofollow" class="external text" href="http://www.pdmi.ras.ru/~olegviro/topoman/index.html">Elementary Topology: A First Course</a> Viro, Ivanov, Netsvetaev, Kharlamov</li>
+<li><a rel="nofollow" class="external text" href="http://www.dmoz.org/Science/Math/Topology/">Topology</a> at the <a href="Open_Directory_Project" title="Open Directory Project">Open Directory Project</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.geom.uiuc.edu/zoo/">The Topological Zoo</a> at <a href="The_Geometry_Center" title="The Geometry Center">The Geometry Center</a></li>
+<li><a rel="nofollow" class="external text" href="http://at.yorku.ca/topology/">Topology Atlas</a></li>
+<li><a rel="nofollow" class="external text" href="http://at.yorku.ca/i/a/a/b/23.htm">Topology Course Lecture Notes</a> Aisling McCluskey and Brian McMaster, Topology Atlas</li>
+<li><a rel="nofollow" class="external text" href="http://www.ornl.gov/sci/ortep/topology/defs.txt">Topology Glossary</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ams.org/online_bks/hmath1/hmath1-whitney10.pdf">Moscow 1935: Topology moving towards America</a>, a historical essay by <a href="Hassler_Whitney" title="Hassler Whitney">Hassler Whitney</a>.</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Topology-footer" title="Template:Topology-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_Topology-footer&action=edit&redlink=1.php.html" class="new" title="Template talk:Topology-footer (page does not exist)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Topology-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Topics in <strong class="selflink">Topology</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#e5e5ff;;">Fields</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Topological_spaces" title="Topological spaces" class="mw-redirect">Topological spaces</a></li>
+<li><a href="General_topology" title="General topology">General (point set) topology</a></li>
+<li><a href="Set-theoretic_topology" title="Set-theoretic topology">Set-theoretic topology</a></li>
+<li><a href="Algebraic_topology" title="Algebraic topology">Algebraic topology</a></li>
+<li><a href="Homology_theory" title="Homology theory">Homology theory</a></li>
+<li><a href="Cohomology_theory" title="Cohomology theory" class="mw-redirect">Cohomology theory</a></li>
+<li><a href="Differential_topology" title="Differential topology">Differential topology</a></li>
+<li><a href="Geometric_topology" title="Geometric topology">Geometric topology</a></li>
+<li><a href="Combinatorial_topology" title="Combinatorial topology">Combinatorial topology</a></li>
+<li><a href="Continuum_theory" title="Continuum theory" class="mw-redirect">Continuum theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#e5e5ff;;">Key concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Open_set" title="Open set">Open set</a>, <a href="Closed_set" title="Closed set">closed set</a></li>
+<li><a href="Continuity_(topology)" title="Continuity (topology)" class="mw-redirect">Continuity</a></li>
+<li><a href="Compact_space" title="Compact space">Compact space</a></li>
+<li><a href="Uniform_spaces" title="Uniform spaces" class="mw-redirect">Uniform spaces</a></li>
+<li><a href="Metric_spaces" title="Metric spaces" class="mw-redirect">Metric spaces</a></li>
+<li><a href="Hausdorff_space" title="Hausdorff space">Hausdorff space</a></li>
+<li><a href="Homotopy_theory" title="Homotopy theory" class="mw-redirect">Homotopy theory</a></li>
+<li><a href="Homotopy_groups" title="Homotopy groups" class="mw-redirect">Homotopy groups</a></li>
+<li><a href="Fundamental_group" title="Fundamental group">Fundamental group</a></li>
+<li><a href="Simplicial_complexes" title="Simplicial complexes" class="mw-redirect">Simplicial complexes</a></li>
+<li><a href="CW_complex" title="CW complex">CW complexes</a></li>
+<li><a href="Exact_sequence" title="Exact sequence">Exact sequence</a></li>
+<li><a href="Homological_algebra" title="Homological algebra">Homological algebra</a></li>
+<li><a href="K-theory" title="K-theory">K-theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#e5e5ff;;">Lists&#160;and&#160;glossaries</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Glossary_of_general_topology" title="Glossary of general topology" class="mw-redirect">Glossary of general topology</a></li>
+<li><a href="List_of_topology_topics" title="List of topology topics">List of topology topics</a></li>
+<li><a href="List_of_general_topology_topics" title="List of general topology topics">List of general topology topics</a></li>
+<li><a href="List_of_geometric_topology_topics" title="List of geometric topology topics">List of geometric topology topics</a></li>
+<li><a href="List_of_algebraic_topology_topics" title="List of algebraic topology topics">List of algebraic topology topics</a></li>
+<li><a href="List_of_publications_in_mathematics#Topology" title="List of publications in mathematics" class="mw-redirect">Publications in topology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><strong class="selflink">Topology</strong></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><span id="interwiki-es-ga"></span> <span id="interwiki-pl-ga"></span> <span id="interwiki-ka-fa"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 4550/1000000
+Preprocessor generated node count: 33353/1500000
+Post-expand include size: 45183/2048000 bytes
+Template argument size: 16476/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:29954-0!*!0!!en!4!* and timestamp 20130212043816 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Topology&oldid=537820605.php.html">http://en.wikipedia.org/w/index.php?title=Topology&amp;oldid=537820605</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Mathematical_structures" title="Category:Mathematical structures">Mathematical structures</a></li><li><a href="Category_Topology" title="Category:Topology">Topology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Use_dmy_dates_from_July_2012" title="Category:Use dmy dates from July 2012">Use dmy dates from July 2012</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_July_2009" title="Category:Articles with unsourced statements from July 2009">Articles with unsourced statements from July 2009</a></li><li><a href="Category_Articles_with_unsourced_statements_from_October_2010" title="Category:Articles with unsourced statements from October 2010">Articles with unsourced statements from October 2010</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Topology&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Topology.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Topology"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Topology&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Topology&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Topology" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Topology" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Topology&oldid=537820605.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Topology&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Topology&id=537820605.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Topology.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Topology&oldid=537820605&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Topology&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%B7%D9%88%D8%A8%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7" title="طوبولوجيا" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Topoloch%C3%ADa" title="Topolochía" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Topologiya" title="Topologiya" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%9F%E0%A6%AA%E0%A7%8B%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" title="টপোগণিত" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BF%D0%B0%D0%BB%D0%BE%D0%B3%D1%96%D1%8F" title="Тапалогія" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BF%D0%B0%D0%BB%D1%91%D0%B3%D1%96%D1%8F" title="Тапалёгія" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Топология" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bo"><a href="http://bo.wikipedia.org/wiki/%E0%BD%90%E0%BD%BC%E0%BC%8B%E0%BD%95%E0%BD%B4%E0%BC%8B%E0%BD%A2%E0%BD%B2%E0%BD%82%E0%BC%8B%E0%BD%94%E0%BC%8D" title="ཐོ་ཕུ་རིག་པ།" lang="bo" hreflang="bo">བོད་ཡིག</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Topologija" title="Topologija" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Topologia" title="Topologia" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Topologie" title="Topologie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Topologi" title="Topologi" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Topologie_(Mathematik)" title="Topologie (Mathematik)" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%A4%CE%BF%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1" title="Τοπολογία" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Topolog%C3%ADa" title="Topología" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Topologio" title="Topologio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Topologia" title="Topologia" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AA%D9%88%D9%BE%D9%88%D9%84%D9%88%DA%98%DB%8C" title="توپولوژی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Topologie" title="Topologie" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-fur"><a href="http://fur.wikipedia.org/wiki/Topologjie" title="Topologjie" lang="fur" hreflang="fur">Furlan</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Topolox%C3%ADa" title="Topoloxía" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/%E6%8B%93%E6%92%B2%E5%AD%B8" title="拓撲學" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-xal"><a href="http://xal.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D2%97%D0%B8%D0%BA" title="Тополоҗик" lang="xal" hreflang="xal">Хальмг</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9C%84%EC%83%81%EC%88%98%ED%95%99" title="위상수학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D5%8F%D5%A5%D5%B2%D5%A1%D5%A2%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" title="Տեղաբանություն" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%A4%E0%A4%BF" title="संस्थिति" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Topologija" title="Topologija" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Topologio" title="Topologio" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Topologi" title="Topologi" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Grannfr%C3%A6%C3%B0i" title="Grannfræði" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Topologia" title="Topologia" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%98%D7%95%D7%A4%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94" title="טופולוגיה" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%9D%E1%83%9E%E1%83%9D%E1%83%9A%E1%83%9D%E1%83%92%E1%83%98%E1%83%90" title="ტოპოლოგია" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Топология" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Topolo%C4%A3ija" title="Topoloģija" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Topologija" title="Topologija" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Topol%C3%B3gia" title="Topológia" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0" title="Топологија" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Topologi" title="Topologi" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Topologie" title="Topologie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E4%BD%8D%E7%9B%B8%E5%B9%BE%E4%BD%95%E5%AD%A6" title="位相幾何学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Topologi" title="Topologi" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Topologi" title="Topologi" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Topologia" title="Topologia" lang="nov" hreflang="nov">Novial</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Topologia" title="Topologia" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Topolog%C3%ACa" title="Topologìa" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Topologia" title="Topologia" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Topologia_(matem%C3%A1tica)" title="Topologia (matemática)" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Topologie" title="Topologie" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Топология" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Topologjia" title="Topologjia" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/Topolugg%C3%ACa" title="Topoluggìa" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B6%BD_%E0%B7%80%E0%B7%92%E0%B6%AF%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F%E0%B7%80" title="ස්ථල විද්‍යාව" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Topology" title="Topology" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Topol%C3%B3gia" title="Topológia" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Topologija" title="Topologija" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-ckb"><a href="http://ckb.wikipedia.org/wiki/%D8%AA%DB%86%D9%BE%DB%86%D9%84%DB%86%DA%98%DB%8C" title="تۆپۆلۆژی" lang="ckb" hreflang="ckb">کوردی</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0" title="Топологија" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Topologija" title="Topologija" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Topologia_(matematiikka)" title="Topologia (matematiikka)" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Topologi" title="Topologi" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%9F%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" title="இடவியல்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%AD%E0%B8%9E%E0%B8%AD%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5" title="ทอพอโลยี" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tg"><a href="http://tg.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Топология" lang="tg" hreflang="tg">Тоҷикӣ</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Topoloji" title="Topoloji" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F" title="Топологія" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D9%88%D8%B6%D8%B9%DB%8C%D8%AA" title="وضعیت" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/T%C3%B4_p%C3%B4" title="Tô pô" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh-classical"><a href="http://zh-classical.wikipedia.org/wiki/%E6%8B%93%E6%92%B2%E5%AD%B8" title="拓撲學" lang="zh-classical" hreflang="zh-classical">文言</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Topolohiya" title="Topolohiya" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 February 2013 at 04:38.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Topology" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1033 in 0.205 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

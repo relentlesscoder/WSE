@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Applied mathematics - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Applied_mathematics&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Applied_mathematics&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Applied_mathematics","wgTitle":"Applied mathematics","wgCurRevisionId":536205742,"wgArticleId":24295969,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from February 2008","All articles needing additional references","Applied mathematics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Applied_mathematics","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"29619c77d695efecf4463d78f550313c","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":24295969,"title":"Applied mathematics","namespace":0,"categories":["All articles needing additional references","Applied mathematics","Articles needing additional references from February 2008"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Applied_mathematics skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Applied mathematics</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For the bioinformatics company, see <a href="Applied_Maths" title="Applied Maths">Applied Maths</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Vehicle_Routing_Problem_Example.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vehicle_Routing_Problem_Example.svg/220px-Vehicle_Routing_Problem_Example.svg.png" width="220" height="215" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vehicle_Routing_Problem_Example.svg/330px-Vehicle_Routing_Problem_Example.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vehicle_Routing_Problem_Example.svg/440px-Vehicle_Routing_Problem_Example.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Vehicle_Routing_Problem_Example.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Efficient solutions to the <a href="Vehicle_routing_problem" title="Vehicle routing problem">vehicle routing problem</a> require tools from <a href="Combinatorial_optimization" title="Combinatorial optimization">combinatorial optimization</a> and <a href="Integer_programming" title="Integer programming">integer programming</a>.</div>
+</div>
+</div>
+<p><b>Applied mathematics</b> is a branch of <a href="Mathematics" title="Mathematics">mathematics</a> that concerns itself with <a href="Mathematical_model" title="Mathematical model">mathematical methods</a> that are typically used in science, engineering, business, and industry. Thus, "applied mathematics" is a <a href="Mathematical_science" title="Mathematical science" class="mw-redirect">mathematical science</a> with specialized knowledge. The term "applied mathematics" also describes the <a href="Professional" title="Professional">professional</a> specialty in which mathematicians work on practical problems; as a profession focused on practical problems, <i>applied mathematics</i> focuses on the formulation and study of mathematical models. In the past, practical applications have motivated the development of mathematical theories, which then became the subject of study in <a href="Pure_mathematics" title="Pure mathematics">pure mathematics</a>, where mathematics is developed primarily for its own sake. Thus, the activity of applied mathematics is vitally connected with research in pure mathematics.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Divisions"><span class="tocnumber">2</span> <span class="toctext">Divisions</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Utility"><span class="tocnumber">3</span> <span class="toctext">Utility</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Status_in_academic_departments"><span class="tocnumber">4</span> <span class="toctext">Status in academic departments</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Other_associated_mathematical_sciences"><span class="tocnumber">5</span> <span class="toctext">Other associated mathematical sciences</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Scientific_computing"><span class="tocnumber">5.1</span> <span class="toctext">Scientific computing</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Computer_science"><span class="tocnumber">5.2</span> <span class="toctext">Computer science</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Operations_research_and_management_science"><span class="tocnumber">5.3</span> <span class="toctext">Operations research and management science</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Statistics"><span class="tocnumber">5.4</span> <span class="toctext">Statistics</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Actuarial_science"><span class="tocnumber">5.5</span> <span class="toctext">Actuarial science</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Economics"><span class="tocnumber">5.6</span> <span class="toctext">Economics</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Other_disciplines"><span class="tocnumber">5.7</span> <span class="toctext">Other disciplines</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Elmer-pump-heatequation.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Elmer-pump-heatequation.png/220px-Elmer-pump-heatequation.png" width="220" height="172" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Elmer-pump-heatequation.png/330px-Elmer-pump-heatequation.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Elmer-pump-heatequation.png/440px-Elmer-pump-heatequation.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Elmer-pump-heatequation.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A numerical solution to the <a href="Heat_equation" title="Heat equation">heat equation</a> on a pump casing <a href="Mathematical_model" title="Mathematical model">model</a> using the <a href="Finite_element_method" title="Finite element method">finite element method</a>.</div>
+</div>
+</div>
+<p>Historically, applied mathematics consisted principally of <a href="Mathematical_analysis" title="Mathematical analysis">applied analysis</a>, most notably <a href="Differential_equations" title="Differential equations" class="mw-redirect">differential equations</a>; <a href="Approximation_theory" title="Approximation theory">approximation theory</a> (broadly construed, to include <a href="Representation_(mathematics)" title="Representation (mathematics)">representations</a>, <a href="Asymptotic_analysis" title="Asymptotic analysis">asymptotic</a> methods, <a href="Calculus_of_variations" title="Calculus of variations">variational methods</a>, and <a href="Numerical_analysis" title="Numerical analysis">numerical analysis</a>); and applied <a href="Probability" title="Probability">probability</a>. These areas of mathematics were intimately tied to the development of <a href="Newtonian_physics" title="Newtonian physics" class="mw-redirect">Newtonian physics</a>, and in fact the distinction between mathematicians and physicists was not sharply drawn before the mid-19th century. This history left a legacy as well: until the early 20th century subjects such as <a href="Classical_mechanics" title="Classical mechanics">classical mechanics</a> were often taught in applied mathematics departments at American universities rather than in <a href="Physics" title="Physics">physics</a> departments, and <a href="Fluid_mechanics" title="Fluid mechanics">fluid mechanics</a> may still be taught in applied mathematics departments.<sup id="cite_ref-Stolz2002_1-0" class="reference"><a href="#cite_note-Stolz2002-1"><span>[</span>1<span>]</span></a></sup> <a href="Engineering" title="Engineering">Engineering</a> and <a href="Computer_science" title="Computer science">computer science</a> departments have traditionally made use of applied mathematics.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=2.php.html" title="Edit section: Divisions">edit</a>]</span> <span class="mw-headline" id="Divisions">Divisions</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:HD-Rayleigh-Taylor.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HD-Rayleigh-Taylor.gif/220px-HD-Rayleigh-Taylor.gif" width="220" height="171" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HD-Rayleigh-Taylor.gif/330px-HD-Rayleigh-Taylor.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HD-Rayleigh-Taylor.gif/440px-HD-Rayleigh-Taylor.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:HD-Rayleigh-Taylor.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Fluid_mechanics" title="Fluid mechanics">Fluid mechanics</a> is often considered a branch of applied mathematics.</div>
+</div>
+</div>
+<p>Today, the term "applied mathematics" is used in a broader sense. It includes the classical areas above, as well as other areas that have become increasingly important in applications. Even fields such as <a href="Number_theory" title="Number theory">number theory</a> that are part of <a href="Pure_mathematics" title="Pure mathematics">pure mathematics</a> are now important in applications (such as <a href="Cryptography" title="Cryptography">cryptography</a>), though they are not generally considered to be part of the field of applied mathematics <i>per se</i>. Sometimes, the term "applicable mathematics" is used to distinguish between the traditional applied mathematics that developed alongside physics and the many areas of mathematics that are applicable to real-world problems today.</p>
+<p>There is no consensus as to what the various branches of applied mathematics are. Such categorizations are made difficult by the way mathematics and science change over time, and also by the way universities organize departments, courses, and degrees.</p>
+<p>Many mathematicians distinguish between "applied mathematics", which is concerned with mathematical methods, and the "applications of mathematics" within science and engineering. A <a href="Biology" title="Biology">biologist</a> using a <a href="Matrix_population_models" title="Matrix population models">population model</a> and applying known mathematics would not be <i>doing</i> applied mathematics, but rather <i>using</i> it; however, mathematical biologists have posed problems that have stimulated the growth of pure mathematics. Mathematicians such as <a href="Henri_Poincar%C3%A9" title="Henri Poincaré">Poincaré</a> and <a href="Vladimir_Arnold" title="Vladimir Arnold">Arnold</a> deny the existence of "applied mathematics" and claim that there are only "applications of mathematics"; similarly, non-mathematicians blend applied mathematics and applications of mathematics. The use and development of mathematics to solve industrial problems is also called "industrial mathematics".<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>The success of modern numerical mathematical methods and software has led to the emergence of <a href="Computational_mathematics" title="Computational mathematics">computational mathematics</a>, <a href="Computational_science" title="Computational science">computational science</a>, and <a href="Computational_engineering" title="Computational engineering" class="mw-redirect">computational engineering</a>, which use <a href="Supercomputer" title="Supercomputer">high-performance computing</a> for the <a href="Simulation" title="Simulation">simulation</a> of phenomena and the solution of problems in the sciences and engineering. These are often considered interdisciplinary disciplines.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=3.php.html" title="Edit section: Utility">edit</a>]</span> <span class="mw-headline" id="Utility">Utility</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Market_Data_Index_NYA_on_20050726_202628_UTC.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Market_Data_Index_NYA_on_20050726_202628_UTC.png/220px-Market_Data_Index_NYA_on_20050726_202628_UTC.png" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Market_Data_Index_NYA_on_20050726_202628_UTC.png/330px-Market_Data_Index_NYA_on_20050726_202628_UTC.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/46/Market_Data_Index_NYA_on_20050726_202628_UTC.png/440px-Market_Data_Index_NYA_on_20050726_202628_UTC.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Market_Data_Index_NYA_on_20050726_202628_UTC.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Mathematical_finance" title="Mathematical finance">Mathematical finance</a> is concerned with the modelling of financial markets.</div>
+</div>
+</div>
+<p>Historically, mathematics was most important in the <a href="Natural_sciences" title="Natural sciences" class="mw-redirect">natural sciences</a> and <a href="Engineering" title="Engineering">engineering</a>. However, since <a href="World_War_II" title="World War II">World War II</a>, fields outside of the physical sciences have spawned the creation of new areas of mathematics, such as <a href="Game_theory" title="Game theory">game theory</a> and <a href="Social_choice_theory" title="Social choice theory">social choice theory</a>, which grew out of economic considerations, or <a href="Neural_networks" title="Neural networks" class="mw-redirect">neural networks</a>, which arose out of the study of the brain in <a href="Neuroscience" title="Neuroscience">neuroscience</a>.</p>
+<p>The advent of the computer has created new applications: studying and using the new computer technology itself (<a href="Computer_science" title="Computer science">computer science</a>), using computers to study problems arising in other areas of science (<a href="Computational_science" title="Computational science">computational science</a>), and studying the mathematics of computation (for example, <a href="Theoretical_computer_science" title="Theoretical computer science">theoretical computer science</a>, <a href="Computer_algebra" title="Computer algebra" class="mw-redirect">computer algebra</a>, <a href="Numerical_analysis" title="Numerical analysis">numerical analysis</a>). <a href="Statistics" title="Statistics">Statistics</a> is probably the most widespread <a href="Mathematical_science" title="Mathematical science" class="mw-redirect">mathematical science</a> used in the <a href="Social_sciences" title="Social sciences" class="mw-redirect">social sciences</a>, but other areas of mathematics are proving increasingly useful in these disciplines, most notably in <a href="Economics" title="Economics">economics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=4.php.html" title="Edit section: Status in academic departments">edit</a>]</span> <span class="mw-headline" id="Status_in_academic_departments">Status in academic departments</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>does not <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(February 2008)</i></small> </span></td>
+</tr>
+</table>
+<p>Academic institutions are not consistent in the way they group and label courses, programs, and degrees in applied mathematics. At some schools, there is a single mathematics department, whereas others have separate departments for Applied Mathematics and (Pure) Mathematics. It is very common for Statistics departments to be separate at schools with graduate programs, but many undergraduate-only institutions include statistics under the mathematics department.</p>
+<p>Many applied mathematics programs (as opposed to departments) consist of primarily cross-listed courses and jointly appointed faculty in departments representing applications. Some Ph.D. programs in applied mathematics require little or no coursework outside of mathematics, while others require substantial coursework in a specific area of application. In some respects this difference reflects the distinction between "application of mathematics" and "applied mathematics".</p>
+<p>Some universities in the <a href="United_Kingdom" title="United Kingdom">UK</a> host departments of <i>Applied Mathematics and Theoretical Physics</i>,<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> but it is now much less common to have separate departments of pure and applied mathematics. A notable exception to this is the <a href="Faculty_of_Mathematics,_University_of_Cambridge" title="Faculty of Mathematics, University of Cambridge">Department of Applied Mathematics and Theoretical Physics</a> at the <a href="University_of_Cambridge" title="University of Cambridge">University of Cambridge</a>, housing the <a href="Lucasian_Professor_of_Mathematics" title="Lucasian Professor of Mathematics">Lucasian Professor of Mathematics</a> whose past holders include <a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a>, <a href="Charles_Babbage" title="Charles Babbage">Charles Babbage</a>, <a href="James_Lighthill" title="James Lighthill">James Lighthill</a>, <a href="Paul_Dirac" title="Paul Dirac">Paul Dirac</a> and <a href="Stephen_Hawking" title="Stephen Hawking">Stephen Hawking</a>.</p>
+<p>Schools with separate applied mathematics departments range from <a href="Brown_University" title="Brown University">Brown University</a>, which has a well-known and large Division of Applied Mathematics that offers degrees through the <a href="Doctorate" title="Doctorate">doctorate</a>, to <a href="Santa_Clara_University" title="Santa Clara University">Santa Clara University</a>, which offers only the <a href="Master_of_Science" title="Master of Science">M.S.</a> in applied mathematics.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> Research universities dividing their mathematics department into pure and applied sections include <a href="Harvard" title="Harvard" class="mw-redirect">Harvard</a> and <a href="MIT" title="MIT" class="mw-redirect">MIT</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=5.php.html" title="Edit section: Other associated mathematical sciences">edit</a>]</span> <span class="mw-headline" id="Other_associated_mathematical_sciences">Other associated mathematical sciences</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Oldfaithful3.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/220px-Oldfaithful3.png" width="220" height="219" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Oldfaithful3.png/330px-Oldfaithful3.png 1.5x, //upload.wikimedia.org/wikipedia/commons/0/0f/Oldfaithful3.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Oldfaithful3.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Applied mathematics has substantial overlap with <a href="Statistics" title="Statistics">statistics</a>.</div>
+</div>
+</div>
+<p>Applied mathematics is closely related to other mathematical sciences.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=6.php.html" title="Edit section: Scientific computing">edit</a>]</span> <span class="mw-headline" id="Scientific_computing">Scientific computing</span></h3>
+<p><a href="Scientific_computing" title="Scientific computing" class="mw-redirect">Scientific computing</a> includes applied mathematics (especially <a href="Numerical_analysis" title="Numerical analysis">numerical analysis</a>), <a href="Computing_science" title="Computing science" class="mw-redirect">computing science</a> (especially <a href="High-performance_computing" title="High-performance computing" class="mw-redirect">high-performance computing</a>), and mathematical modelling in a scientific discipline.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=7.php.html" title="Edit section: Computer science">edit</a>]</span> <span class="mw-headline" id="Computer_science">Computer science</span></h3>
+<p><a href="Computer_science" title="Computer science">Computer science</a> relies on <a href="Logic" title="Logic">logic</a>, <a href="Algebra" title="Algebra">algebra</a>, and <a href="Combinatorics" title="Combinatorics">combinatorics</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=8.php.html" title="Edit section: Operations research and management science">edit</a>]</span> <span class="mw-headline" id="Operations_research_and_management_science">Operations research and management science</span></h3>
+<p><a href="Operations_research" title="Operations research">Operations research</a> and <a href="Management_science" title="Management science" class="mw-redirect">management science</a> are often taught in faculties of engineering, business, public policy.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=9.php.html" title="Edit section: Statistics">edit</a>]</span> <span class="mw-headline" id="Statistics">Statistics</span></h3>
+<p>Applied mathematics has substantial overlap with the discipline of <a href="Statistics" title="Statistics">statistics</a>. <a href="Statisticians" title="Statisticians" class="mw-redirect">Statistical theorists</a> study and improve statistical procedures with mathematics, and statistical research often raises mathematical questions. Statistical theory relies on <a href="Probability_theory" title="Probability theory">probability</a> and <a href="Optimal_decision" title="Optimal decision">decision theory</a>, and makes extensive use of <a href="Scientific_computing" title="Scientific computing" class="mw-redirect">scientific computing</a>, <a href="Mathematical_analysis" title="Mathematical analysis">analysis</a>, and <a href="Mathematical_optimization" title="Mathematical optimization">optimization</a>; for the <a href="Design_of_experiments" title="Design of experiments">design of experiments</a>, statisticians use <a href="Algebraic_statistics" title="Algebraic statistics">algebra</a> and <a href="Combinatorial_design" title="Combinatorial design">combinatorial design</a>. Applied mathematicians and <a href="Statistician" title="Statistician">statisticians</a> often work in a department of mathematical sciences (particularly at colleges and small universities).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=10.php.html" title="Edit section: Actuarial science">edit</a>]</span> <span class="mw-headline" id="Actuarial_science">Actuarial science</span></h3>
+<p><a href="Actuarial_science" title="Actuarial science">Actuarial science</a> uses <a href="Probability" title="Probability">probability</a>, <a href="Statistics" title="Statistics">statistics</a>, and <a href="Economic_theory" title="Economic theory" class="mw-redirect">economic theory</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=11.php.html" title="Edit section: Economics">edit</a>]</span> <span class="mw-headline" id="Economics">Economics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Mathematical_economics" title="Mathematical economics">Mathematical economics</a></div>
+<p>According to the <a href="Mathematics_Subject_Classification" title="Mathematics Subject Classification">Mathematics Subject Classification</a> (MSC), mathematical economics falls into the <a href="Mathematics_Subject_Classification#Applied_mathematics_.2F_other" title="Mathematics Subject Classification">Applied mathematics/other</a> classification of category 91:</p>
+<dl>
+<dd>Game theory, economics, social and behavioral sciences</dd>
+</dl>
+<p>with <a rel="nofollow" class="external text" href="http://msc2010.org/mscwiki/index.php?title=MSC2010">MSC2010</a> classifications for '<a href="Game_theory" title="Game theory">Game theory</a>' at codes <a rel="nofollow" class="external text" href="http://msc2010.org/mscwiki/index.php?title=91Axx">91Axx</a> and for '<a href="Mathematical_economics" title="Mathematical economics">Mathematical economics</a>' at codes <a rel="nofollow" class="external text" href="http://msc2010.org/mscwiki/index.php?title=91Bxx">91Bxx</a>.</p>
+<p>The <i>Handbook of Mathematical Economics</i> series (Elsevier), currently 4 volumes, distinguishes between mathematical methods in economics per 1st-page chapter links in the accompanying footnote<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> and mathematical approaches to different subjects in in economic theory.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>Another source with a similar distinction is <i><a href="The_New_Palgrave__A_Dictionary_of_Economics" title="The New Palgrave: A Dictionary of Economics" class="mw-redirect">The New Palgrave: A Dictionary of Economics</a></i> (1987, 4 vols., 1,300 subject entries). In it, a "Subject Index" includes mathematical entries under 2 headings (vol. IV, pp.&#160;982–3):</p>
+<dl>
+<dd>Mathematical Economics (24 listed, such as "acyclicity", "<a href="Aggregation_problem" title="Aggregation problem">aggregation problem</a>", "<a href="Comparative_statics" title="Comparative statics">comparative statics</a>", "<a href="Lexicographic_ordering" title="Lexicographic ordering" class="mw-redirect">lexicographic orderings</a>", "<a href="Linear_models" title="Linear models" class="mw-redirect">linear models</a>", "<a href="Order_(mathematics)" title="Order (mathematics)">orderings</a>", and "<a href="Qualitative_economics" title="Qualitative economics">qualitative economics</a>")</dd>
+<dd>Mathematical Methods (42 listed, such as "<a href="Calculus_of_variations" title="Calculus of variations">calculus of variations</a>", "<a href="Catastrophe_theory" title="Catastrophe theory">catastrophe theory</a>", "<a href="Combinatorics" title="Combinatorics">combinatorics</a>," "<a href="Computable_general_equilibrium" title="Computable general equilibrium">computation of general equilibrium</a>", "<a href="Convexity_in_economics" title="Convexity in economics">convexity</a>", "<a href="Convex_programming" title="Convex programming" class="mw-redirect">convex programming</a>", and "stochastic <a href="Optimal_control" title="Optimal control">optimal control</a>").</dd>
+</dl>
+<p>A widely used system in <a href="Economics" title="Economics">economics</a> that includes mathematical methods on the subject is the <a href="JEL_classification_codes" title="JEL classification codes">JEL classification codes</a>. It originated in the <i><a href="Journal_of_Economic_Literature" title="Journal of Economic Literature">Journal of Economic Literature</a></i> for classifying new books and articles. The relevant categories are listed below (simplified below to omit "Miscellaneous" and "Other" JEL codes), as reproduced from <a href="JEL_classification_codes#Mathematical_and_quantitative_methods_JEL:_C_Subcategories" title="JEL classification codes">JEL classification codes#Mathematical and quantitative methods JEL: C Subcategories</a>. <i><a href="The_New_Palgrave_Dictionary_of_Economics" title="The New Palgrave Dictionary of Economics">The New Palgrave Dictionary of Economics</a></i> (2008, 2nd ed.) also uses the JEL codes to classify its entries. The corresponding footnotes below have links to <a href="Abstract_(summary)" title="Abstract (summary)">abstracts</a> of <i>The New Palgrave <a rel="nofollow" class="external text" href="http://www.dictionaryofeconomics.com/dictionary">Online</a></i> for each JEL category (10 or fewer per page, similar to <a href="Google" title="Google">Google</a> searches).</p>
+<dl>
+<dd>JEL: C02 - <a href="Mathematical_economics" title="Mathematical economics">Mathematical Methods</a> (following JEL: C00 - General and JEL: C01 - <a href="Econometrics" title="Econometrics">Econometrics</a>)</dd>
+</dl>
+<dl>
+<dd>JEL: C6 - <a href="Mathematical_economics" title="Mathematical economics">Mathematical Methods</a>; <a href="Mathematical_programming" title="Mathematical programming" class="mw-redirect">Programming</a> <a href="Programming_model" title="Programming model" class="mw-redirect">Models</a>; <a href="Mathematical_modeling" title="Mathematical modeling" class="mw-redirect">Mathematical</a> and <a href="Simulation_modeling" title="Simulation modeling">Simulation Modeling</a> <sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup>
+<dl>
+<dd>JEL: C60 - <a href="Mathematical_economics" title="Mathematical economics">General</a></dd>
+<dd>JEL: C61 - <a href="Optimization_(mathematics)" title="Optimization (mathematics)" class="mw-redirect">Optimization techniques</a>; <a href="Operations_research" title="Operations research">Programming models</a>; <a href="Dynamical_systems" title="Dynamical systems" class="mw-redirect">Dynamic analysis</a><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></dd>
+<dd>JEL: C62 - <a href="Existence_theorem" title="Existence theorem">Existence</a> and <a href="Stability_theory" title="Stability theory">stability</a> conditions of <a href="Economic_equilibrium" title="Economic equilibrium">equilibrium</a><sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></dd>
+<dd><a href="Category_Computational_economics" title="Category:Computational economics">JEL: C63</a> - <a href="Computational_economics" title="Computational economics">Computational techniques</a>; <a href="Simulation_modeling" title="Simulation modeling">Simulation modeling</a><sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></dd>
+<dd>JEL: C67 - <a href="Input-output_model" title="Input-output model">Input–output models</a></dd>
+<dd>JEL: C68 - <a href="Computable_general_equilibrium" title="Computable general equilibrium">Computable General Equilibrium models</a><sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>JEL: C7 - <a href="Game_theory" title="Game theory">Game theory</a> and <a href="Bargaining" title="Bargaining">Bargaining theory</a><sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup>
+<dl>
+<dd>JEL: C70 - General<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></dd>
+<dd>JEL: C71 - <a href="Cooperative_game" title="Cooperative game">Cooperative games</a><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></dd>
+<dd>JEL: C72 - <a href="Noncooperative_game" title="Noncooperative game" class="mw-redirect">Noncooperative games</a><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></dd>
+<dd>JEL: C73 - <a href="Stochastic_game" title="Stochastic game">Stochastic</a> and <a href="Dynamic_game" title="Dynamic game" class="mw-redirect">Dynamic games</a>; <a href="Evolutionary_game_theory" title="Evolutionary game theory">Evolutionary games</a>; Repeated Games<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></dd>
+<dd>JEL: C78 - <a href="Bargaining" title="Bargaining">Bargaining theory</a>; <a href="Matching_(graph_theory)" title="Matching (graph theory)">Matching theory</a><sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup></dd>
+</dl>
+</dd>
+</dl>
+<p>Mathematical methods as delineated in related economics texts include:</p>
+<ul>
+<li>Alpha C. Chiang and Kevin Wainwright, [1967] 2005. <i>Fundamental Methods of Mathematical Economics</i>, McGraw-Hill Irwin. <a rel="nofollow" class="external text" href="http://www.mhprofessional.com/product.php?isbn=0070109109">Contents.</a></li>
+<li><a href="../E._Roy_Weintraub" title="E. Roy Weintraub">E. Roy Weintraub</a>, 1982. <i>Mathematics for Economists</i>, Cambridge. <a rel="nofollow" class="external text" href="http://books.google.com/books?id=kJAoyAIms_4C&printsec=find&pg=PR5=onepage&q&f=false#v=onepage&amp;q&amp;f=false">Contents</a>.</li>
+<li><a href="Stephen_Glaister" title="Stephen Glaister">Stephen Glaister</a>, 1984. <i>Mathematical Methods for Economists</i>, 3rd ed., Blackwell. <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Ct2nrJSHxsQC&printsec=find&pg=PR5=onepage&q&f=false#v=onepage&amp;q&amp;f=false">Contents.</a></li>
+<li>Akira Takayama, 1985. <i>Mathematical Economics</i>, 2nd ed. Cambridge. <a rel="nofollow" class="external text" href="http://books.google.com/books?id=685iPEaLAEcC&printsec=find&pg=PR9=onepage&q&f=false#v=onepage&amp;q&amp;f=false">Contents</a>.</li>
+<li><a href="Nancy_Stokey" title="Nancy Stokey">Nancy L. Stokey</a> and <a href="../Robert_E._Lucas" title="Robert E. Lucas" class="mw-redirect">Robert E. Lucas</a> with <a href="Edward_Prescott" title="Edward Prescott" class="mw-redirect">Edward Prescott</a>, 1989. <i>Recursive Methods in Economic Dynamics</i>, Harvard University Press. <a rel="nofollow" class="external text" href="http://www.hup.harvard.edu/catalog.php?isbn=9780674750968">Desecription</a> and chapter-preview <a rel="nofollow" class="external text" href="http://books.google.com/books?hl=en&lr=&id=tWYo0QolyLAC&oi=fnd&pg=PR11&dq=#v=onepage&amp;q=f%3Dfalse&amp;f=false">links</a>.</li>
+<li><a href="Avinash_Dixit" title="Avinash Dixit">A. K. Dixit</a>, [1976] 1990. <i>Optimization in Economic Theory</i>, 2nd ed., Oxford. <a rel="nofollow" class="external text" href="http://books.google.com/books?id=dHrsHz0VocUC&pg=find&pg=PA194=false#v=onepage&amp;q&amp;f=false">Description</a> and contents <a rel="nofollow" class="external text" href="http://books.google.com/books?id=dHrsHz0VocUC&pg=PR7&lpg=PR6&dq=false&lr=#v=onepage&amp;q=false&amp;f=false">preview</a>.</li>
+<li><a href="../Kenneth_L._Judd" title="Kenneth L. Judd" class="mw-redirect">Kenneth L. Judd</a>, 1998. <i>Numerical Methods in Economics</i>, MIT Press. <a rel="nofollow" class="external text" href="http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&tid=3257">Description</a> and chapter-preview <a rel="nofollow" class="external text" href="http://books.google.com/books?id=9Wxk_z9HskAC&pg=PR7&source=gbs_toc_r&cad=3#v=onepage&amp;q&amp;f=false">links</a>.</li>
+<li>Michael Carter, 2001. <i>Foundations of Mathematical Economics</i>, MIT Press. <a rel="nofollow" class="external text" href="http://books.google.com/books?id=KysvrGGfzq0C&printsec=find&pg=PR7=onepage&q&f=false">Contents</a>.</li>
+<li>D. Wade Hands, 2004. <i>Introductory Mathematical Economics</i>, 2nd ed. Oxford. <a rel="nofollow" class="external text" href="http://www.oup.com/us/catalog/he/subject/Economics/OtherCourses/MathematicalEconomics/?view=usa&sf=toc&ci=9780195133783">Contents</a>.</li>
+<li>Giancarlo Gandolfo, [1997] 2009. <i>Economic Dynamics</i>, 4th ed., Springer. <a rel="nofollow" class="external text" href="http://www.springer.com/economics/economic+theory/book/978-3-642-03862-4">Description</a> and <a rel="nofollow" class="external text" href="http://books.google.com/books?id=ZMwXi67nhHQC&printsec=find&pg=PR9#v=onepage&amp;q&amp;f=false">preview</a>.</li>
+<li>John Stachurski, 2009. <i>Economic Dynamics: Theory and Computation</i>, MIT Press. <a rel="nofollow" class="external text" href="http://johnstachurski.net/book/book.html">Description</a> and <a rel="nofollow" class="external text" href="http://books.google.com/books?id=IzW5rSzlluIC&printsec=find&pg=PR7#v=onepage&amp;q&amp;f=false">preview</a>.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=12.php.html" title="Edit section: Other disciplines">edit</a>]</span> <span class="mw-headline" id="Other_disciplines">Other disciplines</span></h3>
+<p>The line between applied mathematics and specific areas of application is often blurred. Many universities teach mathematical and statistical courses outside of the respective departments, in departments and areas including <a href="Business" title="Business">business</a>, <a href="Engineering" title="Engineering">engineering</a>, <a href="Physics" title="Physics">physics</a>, <a href="Chemistry" title="Chemistry">chemistry</a>, <a href="Psychology" title="Psychology">psychology</a>, <a href="Biology" title="Biology">biology</a>, <a href="Computer_science" title="Computer science">computer science</a>, and <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=13.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics  portal</a></td>
+</tr>
+</table>
+</div>
+<table class="metadata mbox-small" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="Book icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Office-book.svg/30px-Office-book.svg.png" width="30" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Office-book.svg/45px-Office-book.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Office-book.svg/60px-Office-book.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">
+<ul style="font-weight: bold">
+<li><a href="Book_Applied_science" title="Book:Applied science">Book: Applied science</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Society_for_Industrial_and_Applied_Mathematics" title="Society for Industrial and Applied Mathematics">Society for Industrial and Applied Mathematics</a></li>
+</ul>
+<p><br style="clear:both;" /></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=14.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ol class="references">
+<li id="cite_note-Stolz2002-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-Stolz2002_1-0">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFStolz.2C_M.2002">Stolz, M. (2002), <a rel="nofollow" class="external text" href="http://www.springerlink.com/index/T152575218M865W4.pdf">"The History Of Applied Mathematics And The History Of Society"</a>, <i>Synthese</i> <b>133</b> (1): 43–57, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1023/A:1020823608217">10.1023/A:1020823608217</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.springerlink.com/index/T152575218M865W4.pdf">http://www.springerlink.com/index/T152575218M865W4.pdf</a></span><span class="reference-accessdate">, retrieved 2009-07-07</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFUniversity_of_Strathclyde2008">University of Strathclyde (17 January 2008), <a rel="nofollow" class="external text" href="http://www.maths.strath.ac.uk/applying/postgraduate/research_topics/industrial_mathematics"><i>Industrial Mathematics</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.maths.strath.ac.uk/applying/postgraduate/research_topics/industrial_mathematics">http://www.maths.strath.ac.uk/applying/postgraduate/research_topics/industrial_mathematics</a></span><span class="reference-accessdate">, retrieved 8 January 2009</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">For example see, <a rel="nofollow" class="external text" href="http://www.tait.ac.uk/History.html">The Tait Institute: History (2nd par.)</a>. Accessed Nov 2012.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation"><a rel="nofollow" class="external text" href="http://www.scu.edu/academics/bulletins/undergraduate/Department-of-Applied-Mathematics.cfm"><i>Santa Clara University Dept of Applied Mathematics</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.scu.edu/academics/bulletins/undergraduate/Department-of-Applied-Mathematics.cfm">http://www.scu.edu/academics/bulletins/undergraduate/Department-of-Applied-Mathematics.cfm</a></span><span class="reference-accessdate">, retrieved 2011-03-05</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a href="../Kenneth_J._Arrow" title="Kenneth J. Arrow" class="mw-redirect">Kenneth J. Arrow</a> and Michael D. Intriligator, ed. (1981), <i>Handbook of Mathematical Economics</i>, v. <a rel="nofollow" class="external text" href="http://www.sciencedirect.com/science/handbooks/15734382/1">1</a>.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">• Kenneth J. Arrow and Michael D. Intriligator, ed. (1982). <i>Handbook of Mathematical Economics</i>, v. <a rel="nofollow" class="external text" href="http://www.sciencedirect.com/science/handbooks/15734382/2">2</a>.<br />
+&#160;&#160;&#160;&#160;• _____ (1986). <i>Handbook of Mathematical Economics</i>, v. <a rel="nofollow" class="external text" href="http://www.sciencedirect.com/science/handbooks/15734382/3">3</a>.<br />
+&#160;&#160;&#160;&#160;• <a href="Werner_Hildenbrand" title="Werner Hildenbrand">Hildenbrand, Werner</a>, and <a href="Hugo_Sonnenschein" title="Hugo Sonnenschein">Hugo Sonnenschein</a>, ed. (1991). <i>Handbook of Mathematical Economics</i>, v. <a rel="nofollow" class="external text" href="http://www.sciencedirect.com/science/handbooks/15734382">4</a>.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C6">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C6</a>. The JEL Classification Codes Guide for JEL: 6 has this comment: "Covers studies about general issues related to mathematical methods that are of interest to economists."</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C61">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C61</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C62">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C62</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C63">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C63</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C68">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C68</a></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C7">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C7</a></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C70">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C70</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C71">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C71</a></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C72">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C72</a></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C73">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C73</a></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.dictionaryofeconomics.com/search_results?q=&field=content&edition=all&topicid=C78">http://www.dictionaryofeconomics.com/search_results?q=&amp;field=content&amp;edition=all&amp;topicid=C78</a></span></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Applied_mathematics&action=edit&section=15.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/40px-Wikiversity-logo.svg.png" width="40" height="32" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/60px-Wikiversity-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/80px-Wikiversity-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikiversity has learning materials about <i><b><a href="http://en.wikiversity.org/wiki/School_of_Mathematics" class="extiw" title="v:School of Mathematics">School of Mathematics</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li>The <a rel="nofollow" class="external text" href="http://www.siam.org/">Society for Industrial and Applied Mathematics</a> (SIAM) is a professional society dedicated to promoting the interaction between mathematics and other scientific and technical communities. Aside from organizing and sponsoring numerous conferences, <a href="Society_for_Industrial_and_Applied_Mathematics" title="Society for Industrial and Applied Mathematics">SIAM</a> is a major publisher of research journals and books in applied mathematics.</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Applied-footer" title="Template:Applied-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Applied-footer" title="Template talk:Applied-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Applied-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Topics in <a href="Industrial_mathematics" title="Industrial mathematics" class="mw-redirect">industrial</a> and <strong class="selflink">applied mathematics</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Logic_in_computer_science" title="Logic in computer science">Computational logic</a></li>
+<li><a href="Algorithm" title="Algorithm">Algorithm</a> <a href="Algorithm_design" title="Algorithm design">design</a> &amp; <a href="Analysis_of_algorithms" title="Analysis of algorithms">analysis</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Coding_theory" title="Coding theory">Coding theory</a></li>
+<li><a href="Cryptography" title="Cryptography">Cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symbolic_computation" title="Symbolic computation">Computer algebra</a></li>
+<li><a href="Computational_number_theory" title="Computational number theory">Computational number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Discrete_geometry" title="Discrete geometry">Discrete geometry</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Mathematical_physics" title="Mathematical physics">Algebraic physics</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Operator_algebra" title="Operator algebra">Operator algebra</a></li>
+<li><a href="Particle_physics_and_representation_theory" title="Particle physics and representation theory">Representation theory</a></li>
+<li><a href="Renormalization_group" title="Renormalization group">Renormalization group</a></li>
+<li><a href="Feynman_integral" title="Feynman integral" class="mw-redirect">Feynman integral</a></li>
+<li><a href="M-theory" title="M-theory">M-theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Mathematical_physics" title="Mathematical physics">Analytic physics</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Differential_geometry#Applications_of_differential_geometry" title="Differential geometry">Differential geometry</a></li>
+<li><a href="Fourier_analysis" title="Fourier analysis">Fourier analysis</a></li>
+<li><a href="Harmonic_analysis" title="Harmonic analysis">Harmonic analysis</a></li>
+<li><a href="Functional_analysis" title="Functional analysis">Functional analysis</a></li>
+<li><a href="Operator_theory" title="Operator theory">Operator theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Approximation_theory" title="Approximation theory">Approximation theory</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Differential_equations" title="Differential equations" class="mw-redirect">Differential equations</a></li>
+<li><a href="Dynamical_systems" title="Dynamical systems" class="mw-redirect">Dynamical systems</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Calculus_of_variations" title="Calculus of variations">Variational calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Probability_theory" title="Probability theory">Probability theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Probability_distribution" title="Probability distribution">Distributions</a> of <a href="Random_variable" title="Random variable">random variables</a></li>
+<li><a href="Stochastic_process" title="Stochastic process">Stochastic process</a></li>
+<li><a href="Stochastic_analysis" title="Stochastic analysis" class="mw-redirect">Stochastic analysis</a></li>
+<li><a href="Functional_integration" title="Functional integration">Path integral</a></li>
+<li><a href="Malliavin_calculus" title="Malliavin calculus">Stochastic variational calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Decision_theory" title="Decision theory">Decision sciences</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Statistics" title="Statistics">Statistics</a></li>
+<li><a href="Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="Optimization_(mathematics)" title="Optimization (mathematics)" class="mw-redirect">Optimization</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+<li><a href="Mathematical_economics" title="Mathematical economics">Mathematical economics</a></li>
+<li><a href="Mathematical_finance" title="Mathematical finance">Mathematical finance</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other applications</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences" title="The Unreasonable Effectiveness of Mathematics in the Natural Sciences">Applicability of mathematics (philosophy)</a></li>
+<li><a href="Mathematical_biology" title="Mathematical biology" class="mw-redirect">Biology</a></li>
+<li><a href="Mathematical_chemistry" title="Mathematical chemistry">Chemistry</a></li>
+<li><a href="Mathematical_psychology" title="Mathematical psychology">Psychology</a></li>
+<li><a href="Mathematical_sociology" title="Mathematical sociology">Sociology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Mathematics" title="Category:Mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Topic_outline_of_mathematics" title="Topic outline of mathematics" class="mw-redirect">Outline</a></li>
+<li><a href="List_of_mathematics_topics" title="List of mathematics topics" class="mw-redirect">Topics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><strong class="selflink">Applied mathematics</strong></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 3677/1000000
+Preprocessor generated node count: 29913/1500000
+Post-expand include size: 52833/2048000 bytes
+Template argument size: 18038/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:24295969-0!*!0!!en!4!* and timestamp 20130202163020 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Applied_mathematics&oldid=536205742.php.html">http://en.wikipedia.org/w/index.php?title=Applied_mathematics&amp;oldid=536205742</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Applied_mathematics" title="Category:Applied mathematics">Applied mathematics</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_needing_additional_references_from_February_2008" title="Category:Articles needing additional references from February 2008">Articles needing additional references from February 2008</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Applied+mathematics&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Applied+mathematics.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Applied_mathematics"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Applied_mathematics&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Applied_mathematics&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Applied_mathematics" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Applied_mathematics" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Applied_mathematics&oldid=536205742.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Applied_mathematics&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Applied_mathematics&id=536205742.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Applied+mathematics.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Applied+mathematics&oldid=536205742&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Applied_mathematics&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA_%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D9%8A%D8%A9" title="رياضيات تطبيقية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/T%C9%99tbiqi_riyaziyyat" title="Tətbiqi riyaziyyat" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0" title="Прыкладная матэматыка" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0" title="Прыкладная матэматыка" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%BD%D0%B0_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Приложна математика" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A6%BC%E0%A7%8B%E0%A6%97%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A6%95_%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" title="প্রয়োগমূলক গণিত" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Primijenjena_matematika" title="Primijenjena matematika" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Matem%C3%A0tiques_aplicades" title="Matemàtiques aplicades" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Aplikovan%C3%A1_matematika" title="Aplikovaná matematika" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Anvendt_matematik" title="Anvendt matematik" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Angewandte_Mathematik" title="Angewandte Mathematik" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Rakendusmatemaatika" title="Rakendusmatemaatika" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%95%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CF%83%CE%BC%CE%AD%CE%BD%CE%B1_%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC" title="Εφαρμοσμένα μαθηματικά" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Matem%C3%A1ticas_aplicadas" title="Matemáticas aplicadas" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Aplika_matematiko" title="Aplika matematiko" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C" title="ریاضیات کاربردی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Math%C3%A9matiques_appliqu%C3%A9es" title="Mathématiques appliquées" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ga"><a href="http://ga.wikipedia.org/wiki/Matamaitic_fheidhmeach" title="Matamaitic fheidhmeach" lang="ga" hreflang="ga">Gaeilge</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9D%91%EC%9A%A9%EC%88%98%ED%95%99" title="응용수학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B5%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%95_%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" title="व्यावहारिक गणित" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Matematika_terapan" title="Matematika terapan" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-ia"><a href="http://ia.wikipedia.org/wiki/Mathematica_applicate" title="Mathematica applicate" lang="ia" hreflang="ia">Interlingua</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Heimf%C3%A6r%C3%B0_st%C3%A6r%C3%B0fr%C3%A6%C3%B0i" title="Heimfærð stærðfræði" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Matematica_applicata" title="Matematica applicata" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94_%D7%A9%D7%99%D7%9E%D7%95%D7%A9%D7%99%D7%AA" title="מתמטיקה שימושית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-jv"><a href="http://jv.wikipedia.org/wiki/Mat%C3%A9matika_terapan" title="Matématika terapan" lang="jv" hreflang="jv">Basa Jawa</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%A7%E1%83%94%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%97%E1%83%98_%E1%83%9B%E1%83%90%E1%83%97%E1%83%94%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%90" title="გამოყენებითი მათემატიკა" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-ht"><a href="http://ht.wikipedia.org/wiki/Matematik_aplike" title="Matematik aplike" lang="ht" hreflang="ht">Kreyòl ayisyen</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Matematik_gunaan" title="Matematik gunaan" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Toegepaste_wiskunde" title="Toegepaste wiskunde" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%BF%9C%E7%94%A8%E6%95%B0%E5%AD%A6" title="応用数学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Anvendt_matematikk" title="Anvendt matematikk" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Bruksmatematikk" title="Bruksmatematikk" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Aplikat_matematike" title="Aplikat matematike" lang="nov" hreflang="nov">Novial</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Matematyka_stosowana" title="Matematyka stosowana" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Matem%C3%A1tica_aplicada" title="Matemática aplicada" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Matematic%C4%83_aplicat%C4%83" title="Matematică aplicată" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Прикладная математика" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Applied_mathematics" title="Applied mathematics" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Aplikovan%C3%A1_matematika" title="Aplikovaná matematika" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Uporabna_matematika" title="Uporabna matematika" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/Matematik_terapan" title="Matematik terapan" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Sovellettu_matematiikka" title="Sovellettu matematiikka" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Till%C3%A4mpad_matematik" title="Tillämpad matematik" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Nilapat_na_matematika" title="Nilapat na matematika" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%AF%E0%AE%A9%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" title="பயன்பாட்டுக் கணிதம்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B8%E0%B8%81%E0%B8%95%E0%B9%8C" title="คณิตศาสตร์ประยุกต์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Matematik_m%C3%BChendisli%C4%9Fi" title="Matematik mühendisliği" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Прикладна математика" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/To%C3%A1n_h%E1%BB%8Dc_%E1%BB%A9ng_d%E1%BB%A5ng" title="Toán học ứng dụng" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-vo"><a href="http://vo.wikipedia.org/wiki/Matemat_paj%C3%A4f%C3%BCk%C3%B6l" title="Matemat pajäfüköl" lang="vo" hreflang="vo">Volapük</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6" title="应用数学" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 2 February 2013 at 16:30.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Applied_mathematics" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1081 in 0.190 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Portal:Geometry - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Portal_Geometry&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Portal_Geometry&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Geometry","wgTitle":"Geometry","wgCurRevisionId":488812972,"wgArticleId":8093005,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Geometry","Mathematics portals","Portals under construction"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Geometry","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"9fcf570643713afd1b0a3f546b1a966f","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-100 ns-subject page-Portal_Geometry skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Portal:Geometry</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="browsebar" class="hlist" style="margin: -3px auto 0.2em; text-align: center; font-size: 95%;">
+<ul>
+<li><a href="Portal_Contents/Portals" title="Portal:Contents/Portals">Wikipedia portals</a>: <a href="Portal_Contents/Portals#Culture_and_the_arts" title="Portal:Contents/Portals">Culture</a></li>
+<li><a href="Portal_Contents/Portals#Geography_and_places" title="Portal:Contents/Portals">Geography</a></li>
+<li><a href="Portal_Contents/Portals#Health_and_fitness" title="Portal:Contents/Portals">Health</a></li>
+<li><a href="Portal_Contents/Portals#History_and_events" title="Portal:Contents/Portals">History</a></li>
+<li><a href="Portal_Contents/Portals#Mathematics_and_logic" title="Portal:Contents/Portals">Mathematics</a></li>
+<li><a href="Portal_Contents/Portals#Natural_and_physical_sciences" title="Portal:Contents/Portals">Natural sciences</a></li>
+<li><a href="Portal_Contents/Portals#People_and_self" title="Portal:Contents/Portals">People</a></li>
+<li><a href="Portal_Contents/Portals#Philosophy_and_thinking" title="Portal:Contents/Portals">Philosophy</a></li>
+<li><a href="Portal_Contents/Portals#Religion_and_belief_systems" title="Portal:Contents/Portals">Religion</a></li>
+<li><a href="Portal_Contents/Portals#Society_and_social_sciences" title="Portal:Contents/Portals">Society</a></li>
+<li><a href="Portal_Contents/Portals#Technology_and_applied_sciences" title="Portal:Contents/Portals">Technology</a></li>
+</ul>
+</div>
+<div style="clear:both; width:100%">
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Intro&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Geometry"><big>Geometry</big></span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:Crystal_Clear_app_3d.png" class="image"><img alt="Crystal Clear app 3d.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/64px-Crystal_Clear_app_3d.png" width="64" height="64" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/96px-Crystal_Clear_app_3d.png 1.5x, //upload.wikimedia.org/wikipedia/commons/e/e4/Crystal_Clear_app_3d.png 2x" /></a></div>
+<p><b><a href="Geometry" title="Geometry">Geometry</a></b> arose as the field of knowledge dealing with spatial relationships. Geometry is one of the two fields of pre-modern <a href="Mathematics" title="Mathematics">mathematics</a>, the other being the study of numbers.</p>
+<p>In modern times, geometric concepts have been extended. They sometimes show a high level of abstraction and complexity. Geometry now uses methods of calculus and <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a>, so that many modern branches of the field are not easily recognizable as the descendants of early geometry. (See <a href="Areas_of_mathematics" title="Areas of mathematics">areas of mathematics</a>.) A geometer is one who works or is specified in geometry.</p>
+<div class="noprint" style="text-align:right; margin:0.3em 0.2em 0.2em 0.3em; padding:0.3em 0.2em 0.2em 0.3em;"><b><a href="Geometry" title="Geometry">Read more</a></b></div>
+<div style="clear:both;"></div>
+</div>
+<div style="text-align:center; margin:0.25em auto 0.75em"><span class="noprint plainlinks purgelink"><a class="external text" href="../../w/index-title=Portal_Geometry&action=purge.php.html"><span title="Purge this page"><b>Show new selections</b></span></a></span></div>
+<div style="float:left; width:55%;">
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Selected_article_5&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Selected_article">Selected article</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<table width="100%" style="background-color: transparent;">
+<tr>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Tetrahedron.jpg" class="image"><img alt="Tetrahedron.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tetrahedron.jpg/40px-Tetrahedron.jpg" width="40" height="38" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tetrahedron.jpg/60px-Tetrahedron.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tetrahedron.jpg/80px-Tetrahedron.jpg 2x" /></a></div>
+</div>
+</td>
+<td rowspan="10">A <b>Platonic solid</b> is a <a href="Convex_set" title="Convex set">convex</a> <a href="Regular_polyhedron" title="Regular polyhedron">regular polyhedron</a>. These are the three-dimensional analogs of the convex <a href="Regular_polygon" title="Regular polygon">regular polygons</a>. There are precisely five such figures (shown on the right). The name of each figure is derived from the number of its faces: respectively 4, 6, 8, 12 and 20. They are unique in that the sides, edges and angles are all <a href="Congruence_(geometry)" title="Congruence (geometry)">congruent</a>.
+<p>Due to their <a href="Mathematical_beauty" title="Mathematical beauty">aesthetic beauty</a> and <a href="Symmetry" title="Symmetry">symmetry</a>, the Platonic solids have been a favorite subject of <a href="Geometers" title="Geometers" class="mw-redirect">geometers</a> for thousands of years. They are named after the <a href="Greek_philosophy" title="Greek philosophy" class="mw-redirect">ancient Greek philosopher</a> <a href="Plato" title="Plato">Plato</a> who claimed the <a href="Classical_element" title="Classical element">classical elements</a> were constructed from the regular solids.</p>
+<p>The Platonic solids have been known since antiquity. The five solids were certainly known to the <a href="Ancient_Greeks" title="Ancient Greeks" class="mw-redirect">ancient Greeks</a> and there is evidence that these figures were known long before then. The <a href="Neolithic" title="Neolithic">neolithic</a> people of <a href="Scotland" title="Scotland">Scotland</a> constructed stone models of all five solids at least 1000 years before Plato.</p>
+</td>
+</tr>
+<tr>
+<td width="50" style="font-size: 85%; text-align: center;"><a href="Tetrahedron" title="Tetrahedron">Tetrahedron</a></td>
+</tr>
+<tr>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Hexahedron.jpg" class="image"><img alt="Hexahedron.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Hexahedron.jpg/40px-Hexahedron.jpg" width="40" height="45" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Hexahedron.jpg/60px-Hexahedron.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/78/Hexahedron.jpg/80px-Hexahedron.jpg 2x" /></a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 85%; text-align: center;"><a href="Hexahedron" title="Hexahedron">Hexahedron</a></td>
+</tr>
+<tr>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Octahedron.jpg" class="image"><img alt="Octahedron.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Octahedron.jpg/40px-Octahedron.jpg" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Octahedron.jpg/60px-Octahedron.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/27/Octahedron.jpg/80px-Octahedron.jpg 2x" /></a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 85%; text-align: center;"><a href="Octahedron" title="Octahedron">Octahedron</a></td>
+</tr>
+<tr>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:POV-Ray-Dodecahedron.svg" class="image"><img alt="POV-Ray-Dodecahedron.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/40px-POV-Ray-Dodecahedron.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/60px-POV-Ray-Dodecahedron.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/66/POV-Ray-Dodecahedron.svg/80px-POV-Ray-Dodecahedron.svg.png 2x" /></a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 85%; text-align: center;"><a href="Dodecahedron" title="Dodecahedron">Dodecahedron</a></td>
+</tr>
+<tr>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Icosahedron.jpg" class="image"><img alt="Icosahedron.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Icosahedron.jpg/40px-Icosahedron.jpg" width="40" height="39" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Icosahedron.jpg/60px-Icosahedron.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Icosahedron.jpg/80px-Icosahedron.jpg 2x" /></a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 85%; text-align: center;"><a href="Icosahedron" title="Icosahedron">Icosahedron</a></td>
+</tr>
+</table>
+<table width="100%" border="0" style="padding: 0; margin:0; background:transparent;">
+<tr>
+<td align="left"><b><a href="Selected_article/index.html" title="Portal:Geometry/Selected article">...Archive</a></b></td>
+<td align="center"><span style="font-size:smaller;">Image credits: <a href="User_Cyp" title="User:Cyp">User:Cyp</a></span></td>
+<td align="right"><b><a href="Platonic_solid" title="Platonic solid">Read more...</a></b></td>
+</tr>
+</table>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Selected_biography&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Selected_biography">Selected biography</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Euklid-von-Alexandria_1.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Euklid-von-Alexandria_1.jpg/150px-Euklid-von-Alexandria_1.jpg" width="150" height="178" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Euklid-von-Alexandria_1.jpg/225px-Euklid-von-Alexandria_1.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/3/30/Euklid-von-Alexandria_1.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Euklid-von-Alexandria_1.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Euclid of Alexandria</div>
+</div>
+</div>
+<p><b><a href="Euclid" title="Euclid">Euclid</a></b> (also referred to as <b>Euclid of Alexandria</b>) (<a href="Greek_language" title="Greek language">Greek</a>: <span lang="grc" xml:lang="grc">Εὐκλείδης</span>) (c. <a href="325_BC" title="325 BC">325</a>–c. <a href="265_BC" title="265 BC">265 BC</a>), a <a href="Greece" title="Greece">Greek</a> <a href="Mathematician" title="Mathematician">mathematician</a>, who lived in <a href="Alexandria" title="Alexandria">Alexandria</a>, <a href="Hellenistic_Egypt" title="Hellenistic Egypt" class="mw-redirect">Hellenistic Egypt</a>, almost certainly during the reign of <a href="Ptolemy_I" title="Ptolemy I" class="mw-redirect">Ptolemy I</a> (<a href="323_BC" title="323 BC">323 BC</a>–<a href="283_BC" title="283 BC">283 BC</a>), is often considered to be the "father of <a href="Geometry" title="Geometry">geometry</a>". His most popular work, <i><a href="Euclid's_Elements" title="Euclid's Elements">Elements</a></i>, is thought to be one of the most successful <a href="Textbook" title="Textbook">textbooks</a> in the <a href="History_of_mathematics" title="History of mathematics">history of mathematics</a>. Within it, the properties of <a href="Geometry" title="Geometry">geometrical</a> objects are deduced from a small set of <a href="Axiom" title="Axiom">axioms</a>, thereby founding the <a href="Axiomatic_method" title="Axiomatic method" class="mw-redirect">axiomatic method</a> of <a href="Mathematics" title="Mathematics">mathematics</a>.</p>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Mathematics_Projects&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="WikiProjects">WikiProjects</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<p>The <b><a href="Wikipedia_WikiProject_Mathematics" title="Wikipedia:WikiProject Mathematics">Mathematics WikiProject</a></b> is the center for mathematics-related editing on Wikipedia. Join the discussion on the project's <b><a href="Wikipedia_talk_WikiProject_Mathematics" title="Wikipedia talk:WikiProject Mathematics">talk page</a></b>.</p>
+<div style="float:right">
+<p><a href="http://en.wikipedia.org/wiki/File:Community.png" class="image" title="WikiProjects"><img alt="WikiProjects" src="http://upload.wikimedia.org/wikipedia/commons/c/ce/Community.png" width="55" height="37" /></a></p>
+</div>
+<p><b>Project pages</b></p>
+<ul>
+<li><a href="Wikipedia_WikiProject_Mathematics/Participants" title="Wikipedia:WikiProject Mathematics/Participants">Participants</a></li>
+<li><a href="Wikipedia_WikiProject_Mathematics/Current_activity" title="Wikipedia:WikiProject Mathematics/Current activity">Current activity</a></li>
+<li><a href="Wikipedia_Manual_of_Style_(mathematics)" title="Wikipedia:Manual of Style (mathematics)" class="mw-redirect">Manual of style</a></li>
+<li><a href="Wikipedia_WikiProject_Mathematics/Conventions" title="Wikipedia:WikiProject Mathematics/Conventions" class="mw-redirect">Conventions</a></li>
+</ul>
+<p><b>Essays</b></p>
+<ul>
+<li><a href="Wikipedia_WikiProject_Mathematics/Advice_on_using_Wikipedia_for_mathematics_self-study" title="Wikipedia:WikiProject Mathematics/Advice on using Wikipedia for mathematics self-study">Advice on using Wikipedia for mathematics self-study</a></li>
+<li><a href="Wikipedia_WikiProject_Mathematics/Proofs" title="Wikipedia:WikiProject Mathematics/Proofs">Proofs</a></li>
+</ul>
+<p><b>Subprojects</b></p>
+<ul>
+<li><a href="Wikipedia_WikiProject_Mathematics/PlanetMath_Exchange" title="Wikipedia:WikiProject Mathematics/PlanetMath Exchange">PlanetMath Exchange</a> (<a href="Wikipedia_talk_WikiProject_Mathematics/PlanetMath_Exchange" title="Wikipedia talk:WikiProject Mathematics/PlanetMath Exchange">Talk</a>)</li>
+<li><a href="Wikipedia_WikiProject_Mathematics/Graphics" title="Wikipedia:WikiProject Mathematics/Graphics">Graphics</a> (<a href="Wikipedia_talk_WikiProject_Mathematics/Graphics" title="Wikipedia talk:WikiProject Mathematics/Graphics">Talk</a>)</li>
+<li><a href="../Wikipedia_WikiProject_Mathematics/Wikipedia_1.0" title="Wikipedia:WikiProject Mathematics/Wikipedia 1.0">Article assessment</a> (<a href="../Wikipedia_talk_WikiProject_Mathematics/Wikipedia_1.0" title="Wikipedia talk:WikiProject Mathematics/Wikipedia 1.0">Talk</a>)</li>
+</ul>
+<p><b>Related projects</b></p>
+<div style="text-align:center;"><a href="Wikipedia_WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">Computer science</a> | <a href="Wikipedia_WikiProject_Cryptography" title="Wikipedia:WikiProject Cryptography">Cryptography</a> | <a href="Wikipedia_WikiProject_Game_theory" title="Wikipedia:WikiProject Game theory">Game theory</a> | <a href="Wikipedia_WikiProject_Numbers" title="Wikipedia:WikiProject Numbers">Numbers</a> | <a href="Wikipedia_WikiProject_Physics" title="Wikipedia:WikiProject Physics">Physics</a> | <a href="Wikipedia_WikiProject_Science" title="Wikipedia:WikiProject Science">Science</a> | <a href="Wikipedia_WikiProject_Statistics" title="Wikipedia:WikiProject Statistics">Statistics</a></div>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="width:44%; float:right;">
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Selected_picture_1&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Selected_picture">Selected picture</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Ruled_hyperboloid.jpg" class="image"><img alt="Ruled hyperboloid.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ruled_hyperboloid.jpg/250px-Ruled_hyperboloid.jpg" width="250" height="427" srcset="//upload.wikimedia.org/wikipedia/commons/a/ad/Ruled_hyperboloid.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/a/ad/Ruled_hyperboloid.jpg 2x" /></a></div>
+</div>
+<p>The above shows an example of doubly ruled surface – the <a href="Hyperboloid_of_one_sheet" title="Hyperboloid of one sheet" class="mw-redirect">hyperboloid of one sheet</a>. Although the wires are straight lines, they are lying within the surface. Through any point on this surface pass two straight lines, so it is doubly ruled.</p>
+<table width="100%" border="0" style="padding: 0; margin:0; background:transparent;">
+<tr>
+<td align="left"><b><a href="Selected_picture/index.html" title="Portal:Geometry/Selected picture">...Archive</a></b></td>
+<td align="right"><b><a href="Ruled_surface" title="Ruled surface">Read more...</a></b></td>
+</tr>
+</table>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Did_you_know&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Did_you_know.3F">Did you know?</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<ul>
+<li>...that the <a href="Hyperboloid_of_one_sheet" title="Hyperboloid of one sheet" class="mw-redirect">hyperboloid of one sheet</a> is a <a href="Ruled_surface" title="Ruled surface">doubly ruled surface</a>?</li>
+<li>...that as the <a href="Dimension" title="Dimension" class="mw-redirect">dimension</a> of a <a href="Hypersphere" title="Hypersphere" class="mw-redirect">hypersphere</a> tends to infinity, its "<a href="Volume" title="Volume">volume</a>" (content) tends to 0?</li>
+<li>...that a nonconvex <a href="Polygon" title="Polygon">polygon</a> with three <a href="Convex_set" title="Convex set">convex</a> vertices is called a <a href="Pseudotriangle" title="Pseudotriangle">pseudotriangle</a>?</li>
+<li>...that a regular <a href="Heptagon" title="Heptagon">heptagon</a> is the <a href="Regular_polygon" title="Regular polygon">regular polygon</a> with the fewest number of sides which is not <a href="Constructible_polygon" title="Constructible polygon">constructible</a> with a <a href="Compass_and_straightedge" title="Compass and straightedge" class="mw-redirect">compass and straightedge</a>?</li>
+<li>...that it is possible for a three dimensional figure to have a finite <a href="Volume" title="Volume">volume</a> but infinite <a href="Surface_area" title="Surface area">surface area</a>? An example of this is <a href="Gabriel's_Horn" title="Gabriel's Horn">Gabriel's Horn</a>.</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Categories&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Categories">Categories</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<div style="text-align:center;">
+<p><a href="Category_Algebraic_geometry" title="Category:Algebraic geometry">Algebraic geometry</a> • <a href="Category_Classical_geometry" title="Category:Classical geometry">Classical geometry</a><br />
+<a href="Category_Conformal_geometry" title="Category:Conformal geometry">Conformal geometry</a> • <a href="Category_Convex_geometry" title="Category:Convex geometry">Convex geometry</a><br />
+<a href="Category_Coordinate_systems" title="Category:Coordinate systems">Coordinate systems</a> • <a href="Category_Differential_geometry" title="Category:Differential geometry">Differential geometry</a><br />
+<a href="Category_Digital_geometry" title="Category:Digital geometry">Digital&#160;geometry</a> • <a href="Category_Dimension" title="Category:Dimension">Dimension</a> • <a href="Category_Discrete_geometry" title="Category:Discrete geometry">Discrete&#160;geometry</a><br />
+<a href="Category_Duality_theories" title="Category:Duality theories">Duality theories</a> • <a href="Category_Figurate_numbers" title="Category:Figurate numbers">Figurate&#160;numbers</a><br />
+<a href="Category_Frames_of_reference" title="Category:Frames of reference">Frames of reference</a> • <a href="Category_Geometers" title="Category:Geometers">Geometers</a><br />
+<a href="Category_Geometric_algorithms" title="Category:Geometric algorithms">Geometric algorithms</a> • <a href="Category_Geometric_graph_theory" title="Category:Geometric graph theory">Geometric&#160;graph&#160;theory</a><br />
+<a href="Category_Geometric_group_theory" title="Category:Geometric group theory">Geometric&#160;group&#160;theory</a> • <a href="Category_Geometric_shapes" title="Category:Geometric shapes">Geometric shapes</a><br />
+<a href="Category_Homogeneous_spaces" title="Category:Homogeneous spaces">Homogeneous spaces</a> • <a href="Category_Incidence_geometry" title="Category:Incidence geometry">Incidence geometry</a><br />
+<a href="Category_Integral_geometry" title="Category:Integral geometry">Integral geometry</a> • <a href="Category_Metric_geometry" title="Category:Metric geometry">Metric&#160;geometry</a><br />
+<a href="Category_Symmetry" title="Category:Symmetry">Symmetry</a> • <a href="Category_Trigonometry" title="Category:Trigonometry">Trigonometry</a></p>
+</div>
+<div style="text-align:right;"><b><a href="Category_Geometry" title="Category:Geometry">More geometry categories</a></b></div>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Things_you_can_do&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Things_you_can_do">Things you can do</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<ul>
+<li>Fill in <a href="../../w/index-title=Portal_Geometry_Quotes&action=edit&redlink=1.php.html" class="new" title="Portal:Geometry/Quotes (page does not exist)">Quotes</a></li>
+<li>Fill in <a href="Did_you_know/index.html" title="Portal:Geometry/Did you know">Did you know</a></li>
+<li>Find and fix a stub (ex. <a href="Great_disnub_dirhombidodecahedron" title="Great disnub dirhombidodecahedron">Great disnub dirhombidodecahedron</a>)</li>
+</ul>
+<div class="noprint" style="text-align:right; margin:0.3em 0.2em 0.2em 0.3em; padding:0.3em 0.2em 0.2em 0.3em;"></div>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="clear:both; width:100%">
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Topics&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Topics_in_Geometry"><i>Topics in Geometry</i></span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<div style="margin: -.3em -1em -1em -1em;">
+<table width="100%" bgcolor="#E6FFFF" border="0" cellpadding="3px" cellspacing="2px" style="margin:auto;">
+<tr align="center" bgcolor="#82D9D9">
+<th width="25%">Basic topics</th>
+<th width="25%">Trigonometry</th>
+<th width="25%">Euclidean geometry</th>
+<th width="25%">Other geometries</th>
+</tr>
+<tr valign="top" align="left" style="background: #E6FFFF; font-size: 92%;">
+<td>
+<ul>
+<li><a href="Point_(geometry)" title="Point (geometry)">point</a></li>
+<li><a href="Line_(mathematics)" title="Line (mathematics)" class="mw-redirect">line</a>
+<ul>
+<li><a href="Line_segment" title="Line segment">line segment</a></li>
+</ul>
+</li>
+<li><a href="Plane_(mathematics)" title="Plane (mathematics)" class="mw-redirect">plane</a></li>
+<li><a href="Hyperplane" title="Hyperplane">Hyperplane</a></li>
+<li><a href="Geometric_shape" title="Geometric shape" class="mw-redirect">Geometric shape</a></li>
+<li><a href="Polygon" title="Polygon">Polygon</a></li>
+<li><a href="Polyhedron" title="Polyhedron">Polyhedron</a>
+<ul>
+<li><a href="Platonic_solid" title="Platonic solid">Platonic solid</a></li>
+<li><a href="Archimedean_solid" title="Archimedean solid">Archimedean solid</a></li>
+<li><a href="Johnson_solid" title="Johnson solid">Johnson solid</a></li>
+</ul>
+</li>
+<li><a href="List_of_basic_geometry_topics" title="List of basic geometry topics" class="mw-redirect">List of basic geometry topics</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="Trigonometry" title="Trigonometry">Trigonometry</a></li>
+<li><a href="Trigonometric_functions" title="Trigonometric functions">Trigonometric functions</a></li>
+<li><a href="Law_of_sines" title="Law of sines">Law of sines</a></li>
+<li><a href="Law_of_cosines" title="Law of cosines">Law of cosines</a></li>
+<li><a href="Law_of_tangents" title="Law of tangents">Law of tangents</a></li>
+<li><a href="Trigonometric_identity" title="Trigonometric identity" class="mw-redirect">Trigonometric identity</a></li>
+<li><a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a></li>
+<li><a href="Euler's_formula" title="Euler's formula">Euler's formula</a></li>
+<li><a href="De_Moivre's_formula" title="De Moivre's formula">De Moivre's formula</a></li>
+<li><a href="List_of_trigonometric_identities" title="List of trigonometric identities">List of trigonometric identities</a></li>
+<li><a href="List_of_basic_trigonometry_topics" title="List of basic trigonometry topics" class="mw-redirect">List of basic trigonometry topics</a></li>
+<li><a href="List_of_trigonometry_topics" title="List of trigonometry topics">List of trigonometry topics</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a></li>
+<li><a href="Combinatorial_geometry" title="Combinatorial geometry" class="mw-redirect">Combinatorial</a></li>
+<li><a href="Convex_geometry" title="Convex geometry">Convex</a></li>
+<li><a href="Discrete_geometry" title="Discrete geometry">Discrete</a></li>
+<li><a href="Plane_geometry" title="Plane geometry" class="mw-redirect">Plane geometry</a></li>
+<li><a href="Solid_geometry" title="Solid geometry">Solid geometry</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">Non-Euclidean geometry</a></li>
+<li><a href="Conformal_geometry" title="Conformal geometry">Conformal</a></li>
+<li><a href="Elliptic_geometry" title="Elliptic geometry">Elliptic</a></li>
+<li><a href="Parabolic_geometry" title="Parabolic geometry">Parabolic</a></li>
+<li><a href="Hyperbolic_geometry" title="Hyperbolic geometry">Hyperbolic</a></li>
+<li><a href="Symplectic_geometry" title="Symplectic geometry">Symplectic</a></li>
+<li><a href="Spherical_geometry" title="Spherical geometry">Spherical</a></li>
+<li><a href="Affine_geometry" title="Affine geometry">Affine</a></li>
+<li><a href="Projective_geometry" title="Projective geometry">Projective</a></li>
+<li><a href="Riemannian_geometry" title="Riemannian geometry">Riemannian</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">Finite</a></li>
+<li><a href="Non-Desarguesian_plane" title="Non-Desarguesian plane">Non-Desarguesian planes</a></li>
+</ul>
+</td>
+</tr>
+<tr align="center" bgcolor="#82D9D9">
+<th>Differential geometry</th>
+<th>Riemannian geometry</th>
+<th>Algebraic geometry</th>
+<th><i>Other</i></th>
+</tr>
+<tr valign="top" align="left" style="background: #E6FFFF; font-size: 92%;">
+<td>
+<ul>
+<li><a href="Differential_geometry" title="Differential geometry">Differential geometry</a></li>
+<li><a href="Differential_geometry_of_curves" title="Differential geometry of curves">Differential geometry of curves</a></li>
+<li><a href="Differential_geometry_of_surfaces" title="Differential geometry of surfaces">Differential geometry of surfaces</a></li>
+<li><a href="Manifold" title="Manifold">Manifold</a></li>
+<li><a href="Tensor_analysis" title="Tensor analysis" class="mw-redirect">Tensor analysis</a></li>
+<li><a href="Jet_(mathematics)" title="Jet (mathematics)">Jets</a></li>
+<li><a href="Differential_topology" title="Differential topology">Differential topology</a></li>
+<li><a href="Fiber_bundle" title="Fiber bundle">Fiber bundle</a></li>
+<li><a href="Connection_(mathematics)" title="Connection (mathematics)">connection</a></li>
+<li><a href="List_of_differential_geometry_topics" title="List of differential geometry topics">List of differential geometry topics</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a></li>
+<li><a href="Riemannian_manifold" title="Riemannian manifold">Riemannian manifold</a></li>
+<li><a href="Levi-Civita_connection" title="Levi-Civita connection">Levi-Civita connection</a></li>
+<li><a href="Geodesic" title="Geodesic">Geodesic</a></li>
+<li><a href="Riemannian_symmetric_space" title="Riemannian symmetric space" class="mw-redirect">Riemannian symmetric space</a></li>
+<li><a href="Riemannian_submanifold" title="Riemannian submanifold">Riemannian submanifold</a></li>
+<li><a href="Curvature_of_Riemannian_manifolds" title="Curvature of Riemannian manifolds">Curvature of Riemannian manifolds</a></li>
+<li><a href="Isometry" title="Isometry">Isometry</a></li>
+<li><a href="Laplace-Beltrami_operator" title="Laplace-Beltrami operator" class="mw-redirect">Laplace-Beltrami operator</a></li>
+<li><a href="List_of_formulas_in_Riemannian_geometry" title="List of formulas in Riemannian geometry">List of formulas in Riemannian geometry</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a></li>
+<li><a href="Algebraic_curve" title="Algebraic curve">Algebraic curve</a></li>
+<li><a href="Algebraic_surface" title="Algebraic surface">Algebraic surface</a> (<a href="List_of_algebraic_surfaces" title="List of algebraic surfaces" class="mw-redirect">list</a>)</li>
+<li><a href="Algebraic_group" title="Algebraic group">Algebraic group</a></li>
+<li><a href="Complex_manifold" title="Complex manifold">Complex manifold</a></li>
+<li><a href="List_of_algebraic_geometry_topics" title="List of algebraic geometry topics">List of algebraic geometry topics</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="Lie_group" title="Lie group">Lie group</a></li>
+<li><a href="Index_theory" title="Index theory" class="mw-redirect">Index theory</a></li>
+<li><a href="Homogeneous_space" title="Homogeneous space">Homogeneous space</a></li>
+<li><a href="List_of_mathematical_shapes" title="List of mathematical shapes">List of mathematical shapes</a></li>
+<li><a href="List_of_geometry_topics" title="List of geometry topics">List of geometry topics</a></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Mathematics_RelatedPortals&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Related_portals">Related portals</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<table border="0" cellpadding="2" cellspacing="2" style="border: 1px solid none; text-align:center; padding:0.3em; background-color:transparent; margin: 1em auto 1em auto">
+<tr>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Algebra" title="Portal:Algebra"><img alt="Portal:Algebra" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/50px-Arithmetic_symbols.svg.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/75px-Arithmetic_symbols.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/100px-Arithmetic_symbols.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Analysis" title="Portal:Analysis"><img alt="Portal:Analysis" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/50px-Nuvola_apps_kmplot.svg.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/75px-Nuvola_apps_kmplot.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/100px-Nuvola_apps_kmplot.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Category_theory" title="Portal:Category theory"><img alt="Portal:Category theory" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Commutative_diagram_for_morphism.svg/50px-Commutative_diagram_for_morphism.svg.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Commutative_diagram_for_morphism.svg/75px-Commutative_diagram_for_morphism.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Commutative_diagram_for_morphism.svg/100px-Commutative_diagram_for_morphism.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Computer_science" title="Portal:Computer science"><img alt="Portal:Computer science" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Crystal_mycomputer.png/50px-Crystal_mycomputer.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/e/e3/Crystal_mycomputer.png 1.5x, //upload.wikimedia.org/wikipedia/commons/e/e3/Crystal_mycomputer.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Cryptography" title="Portal:Cryptography"><img alt="Portal:Cryptography" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/50px-Crypto_key.svg.png" width="50" height="26" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/75px-Crypto_key.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/100px-Crypto_key.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Discrete_mathematics" title="Portal:Discrete mathematics"><img alt="Portal:Discrete mathematics" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nuvola_apps_atlantik.png/50px-Nuvola_apps_atlantik.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nuvola_apps_atlantik.png/75px-Nuvola_apps_atlantik.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nuvola_apps_atlantik.png/100px-Nuvola_apps_atlantik.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="index.html" title="Portal:Geometry"><img alt="Portal:Geometry" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/50px-Crystal_Clear_app_3d.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/75px-Crystal_Clear_app_3d.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/100px-Crystal_Clear_app_3d.png 2x" /></a></div>
+</center>
+</td>
+</tr>
+<tr>
+<td><b><a href="Portal_Algebra" title="Portal:Algebra">Algebra</a></b></td>
+<td><b><a href="Portal_Analysis" title="Portal:Analysis">Analysis</a></b></td>
+<td><b><a href="Portal_Category_theory" title="Portal:Category theory">Category<br />
+theory</a></b></td>
+<td><b><a href="Portal_Computer_science" title="Portal:Computer science">Computer<br />
+science</a></b></td>
+<td><b><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography</a></b></td>
+<td><b><a href="Portal_Discrete_mathematics" title="Portal:Discrete mathematics">Discrete<br />
+mathematics</a></b></td>
+<td><b><strong class="selflink">Geometry</strong></b></td>
+</tr>
+</table>
+<table border="0" cellpadding="2" cellspacing="2" style="border: 1px solid none; text-align:center; padding:0.3em; background-color:transparent; margin: 1em auto 1em auto">
+<tr>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Logic" title="Portal:Logic"><img alt="Portal:Logic" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Non-cont.png/90px-Non-cont.png" width="90" height="26" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Non-cont.png/135px-Non-cont.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Non-cont.png/180px-Non-cont.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Mathematics" title="Portal:Mathematics"><img alt="Portal:Mathematics" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Nuvola_apps_edu_mathematics.png/50px-Nuvola_apps_edu_mathematics.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Nuvola_apps_edu_mathematics.png/75px-Nuvola_apps_edu_mathematics.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/07/Nuvola_apps_edu_mathematics.png/100px-Nuvola_apps_edu_mathematics.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Number_theory" title="Portal:Number theory"><img alt="Portal:Number theory" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Number_theory_symbol.svg/50px-Number_theory_symbol.svg.png" width="50" height="47" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Number_theory_symbol.svg/75px-Number_theory_symbol.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/01/Number_theory_symbol.svg/100px-Number_theory_symbol.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Physics" title="Portal:Physics"><img alt="Portal:Physics" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Stylised_Lithium_Atom.svg/50px-Stylised_Lithium_Atom.svg.png" width="50" height="56" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Stylised_Lithium_Atom.svg/75px-Stylised_Lithium_Atom.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Stylised_Lithium_Atom.svg/100px-Stylised_Lithium_Atom.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Science" title="Portal:Science"><img alt="Portal:Science" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nuvola_apps_kalzium.svg/50px-Nuvola_apps_kalzium.svg.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nuvola_apps_kalzium.svg/75px-Nuvola_apps_kalzium.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nuvola_apps_kalzium.svg/100px-Nuvola_apps_kalzium.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Set_theory" title="Portal:Set theory"><img alt="Portal:Set theory" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/50px-Venn0001.svg.png" width="50" height="36" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/75px-Venn0001.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/100px-Venn0001.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Statistics" title="Portal:Statistics"><img alt="Portal:Statistics" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/50px-Fisher_iris_versicolor_sepalwidth.svg.png" width="50" height="34" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/75px-Fisher_iris_versicolor_sepalwidth.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fisher_iris_versicolor_sepalwidth.svg/100px-Fisher_iris_versicolor_sepalwidth.svg.png 2x" /></a></div>
+</center>
+</td>
+<td width="90">
+<center>
+<div class="noresize"><a href="Portal_Topology" title="Portal:Topology"><img alt="Portal:Topology" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/TrefoilKnot_02.svg/50px-TrefoilKnot_02.svg.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f5/TrefoilKnot_02.svg/75px-TrefoilKnot_02.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f5/TrefoilKnot_02.svg/100px-TrefoilKnot_02.svg.png 2x" /></a></div>
+</center>
+</td>
+</tr>
+<tr>
+<td><b><a href="Portal_Logic" title="Portal:Logic">Logic</a></b></td>
+<td><b><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics</a></b></td>
+<td><b><a href="Portal_Number_theory" title="Portal:Number theory">Number<br />
+theory</a></b></td>
+<td><b><a href="Portal_Physics" title="Portal:Physics">Physics</a></b></td>
+<td><b><a href="Portal_Science" title="Portal:Science">Science</a></b></td>
+<td><b><a href="Portal_Set_theory" title="Portal:Set theory">Set theory</a></b></td>
+<td><b><a href="Portal_Statistics" title="Portal:Statistics">Statistics</a></b></td>
+<td><b><a href="Portal_Topology" title="Portal:Topology">Topology</a></b></td>
+</tr>
+</table>
+<div style="clear:both;"></div>
+</div>
+<div style="clear: both; border: solid #A3BFBF; border-width: 1px 1px 0; background: #CEF2F2; color: #1F7F7F; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #1F7F7F"><a class="external text" href="../../w/index-title=Portal_Geometry_Wikimedia&action=edit.php.html"><span style="color: #1F7F7F">edit</span></a>&#160;&#160;</div>
+<h2 style="font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#1F7F7F;"><span class="mw-headline" id="Wikimedia">Wikimedia</span></h2>
+</div>
+<div style="border: 1px solid #A3BFBF; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
+<table class="noprint" align="center" style="clear:both; background: transparent; text-align:center; font-size:91%" cellspacing="3" cellpadding="3" rules="none" border="0">
+<tr valign="top">
+<td><b><a href="http://en.wikibooks.org/wiki/Special:Search/Geometry" class="extiw" title="wikibooks:Special:Search/Geometry">Geometry on&#160;Wikibooks</a></b>&#160;</td>
+<td><b><a href="http://commons.wikimedia.org/wiki/Special:Search/Category:Geometry" class="extiw" title="commons:Special:Search/Category:Geometry">Geometry on Wikimedia Commons</a></b></td>
+<td><b><a href="http://en.wikinews.org/wiki/Special:Search/Geometry" class="extiw" title="wikinews:Special:Search/Geometry">Geometry on&#160;Wikinews</a></b>&#160;</td>
+<td><b><a href="http://en.wikiquote.org/wiki/Special:Search/Geometry" class="extiw" title="wikiquote:Special:Search/Geometry">Geometry on&#160;Wikiquote</a></b>&#160;</td>
+<td><b><a href="http://en.wikisource.org/wiki/Special:Search/Geometry" class="extiw" title="wikisource:Special:Search/Geometry">Geometry on&#160;Wikisource</a></b>&#160;</td>
+<td><b><a href="http://en.wikiversity.org/wiki/Special:Search/Geometry" class="extiw" title="wikiversity:Special:Search/Geometry">Geometry on&#160;Wikiversity</a></b>&#160;</td>
+<td><b><a href="http://en.wikivoyage.org/wiki/Special:Search/Geometry" class="extiw" title="wikivoyage:Special:Search/Geometry">Geometry on&#160;Wikivoyage</a></b>&#160;</td>
+<td><b><a href="http://en.wiktionary.org/wiki/Special:Search/Geometry" class="extiw" title="wiktionary:Special:Search/Geometry">Geometry on&#160;Wiktionary</a></b>&#160;</td>
+</tr>
+<tr valign="top">
+<td>Manuals and books</td>
+<td>Images and media</td>
+<td>News</td>
+<td>Quotations</td>
+<td>Texts</td>
+<td>Learning resources</td>
+<td>Open travel guide</td>
+<td>Definitions</td>
+</tr>
+<tr valign="top">
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikibooks.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/25px-Wikibooks-logo.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/38px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/50px-Wikibooks-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://commons.wikimedia.org/wiki/Special:Search/Category:Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" width="18" height="25" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/28px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/37px-Commons-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikinews.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/25px-Wikinews-logo.svg.png" width="25" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/38px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/50px-Wikinews-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikiquote.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/21px-Wikiquote-logo.svg.png" width="21" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/32px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/42px-Wikiquote-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikisource.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png" width="24" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/36px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/48px-Wikisource-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikiversity.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/25px-Wikiversity-logo.svg.png" width="25" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/38px-Wikiversity-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/50px-Wikiversity-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikivoyage.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/25px-Wikivoyage-logo.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/38px-Wikivoyage-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/50px-Wikivoyage-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wiktionary.org/wiki/Special:Search/Geometry"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/23px-Wiktionary-logo-en.svg.png" width="23" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/35px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/46px-Wiktionary-logo-en.svg.png 2x" /></a></div>
+</div>
+</td>
+</tr>
+</table>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div align="center" class="hlist" style="clear:both; padding:0.25em 0 0.5em;">
+<ul>
+<li><b>What are <a href="Wikipedia_Portal" title="Wikipedia:Portal">portals</a>?</b></li>
+<li><b><a href="Portal_Contents/Portals" title="Portal:Contents/Portals">List of portals</a></b></li>
+<li><b><a href="Portal_Featured_portals" title="Portal:Featured portals">Featured portals</a></b></li>
+</ul>
+</div>
+<p><i class="noprint plainlinks"><a class="external text" href="../../w/index-title=Portal_Geometry&action=purge.php.html"><small>Purge server cache</small></a></i></p>
+</div>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1770/1000000
+Preprocessor generated node count: 6784/1500000
+Post-expand include size: 50060/2048000 bytes
+Template argument size: 2701/2048000 bytes
+Highest expansion depth: 20/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:8093005-0!*!0!!*!4!* and timestamp 20130208172229 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Portal_Geometry&oldid=488812972.php.html">http://en.wikipedia.org/w/index.php?title=Portal:Geometry&amp;oldid=488812972</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Geometry" title="Category:Geometry">Geometry</a></li><li><a href="Category_Mathematics_portals" title="Category:Mathematics portals">Mathematics portals</a></li><li><a href="Category_Portals_under_construction" title="Category:Portals under construction">Portals under construction</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Portal_Geometry&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Portal_Geometry.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-portal" class="selected"><span><a href="index.html" >Portal</a></span></li>
+					<li  id="ca-talk"><span><a href="Portal_talk_Geometry"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Portal_Geometry&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Portal_Geometry&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Portal_Geometry" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Portal_Geometry" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Portal_Geometry&oldid=488812972.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Portal_Geometry&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Portal_Geometry.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Portal_Geometry&oldid=488812972&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Portal_Geometry&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A8%D9%88%D8%A7%D8%A8%D8%A9:%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9" title="بوابة:هندسة رياضية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Portal:Geometr%C3%ADa" title="Portal:Geometría" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Portail:G%C3%A9om%C3%A9trie" title="Portail:Géométrie" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%98%D0%B0" title="Портал:Геометрија" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Portal:Geometria" title="Portal:Geometria" lang="pt" hreflang="pt">Português</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 23 April 2012 at 13:39.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Portal:Geometry" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","mobile.desktop","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1057 in 1.220 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

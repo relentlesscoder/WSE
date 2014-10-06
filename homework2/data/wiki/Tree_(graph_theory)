@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Tree (graph theory) - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Tree_(graph_theory)&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Tree_(graph_theory)&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Tree_(graph_theory)","wgTitle":"Tree (graph theory)","wgCurRevisionId":537753506,"wgArticleId":48560,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from March 2012","All articles lacking in-text citations","Trees (graph theory)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Tree_(graph_theory)","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"d3cc7b0ad3b798af7885ba370205b3c9","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":48560,"title":"Tree (graph theory)","namespace":0,"categories":["All articles lacking in-text citations","Articles lacking in-text citations from March 2012","Trees (graph theory)"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Tree_graph_theory skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Tree (graph theory)</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox" cellspacing="3" style="border-spacing: 3px; width:22em;">
+<tr>
+<th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold;">Trees</th>
+</tr>
+<tr class="">
+<td colspan="2" class="" style="text-align:center;"><a href="http://en.wikipedia.org/wiki/File:Tree_graph.svg" class="image"><img alt="Tree graph.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/180px-Tree_graph.svg.png" width="180" height="210" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/270px-Tree_graph.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tree_graph.svg/360px-Tree_graph.svg.png 2x" /></a><br />
+<span style="">A labeled tree with 6 vertices and 5 edges</span></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; width:50%;"><a href="Vertex_(graph_theory)" title="Vertex (graph theory)">Vertices</a></th>
+<td class="" style=""><i>v</i></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; width:50%;"><a href="Edge_(graph_theory)" title="Edge (graph theory)" class="mw-redirect">Edges</a></th>
+<td class="" style=""><i>v</i>&#160;−&#160;1</td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; width:50%;"><a href="Chromatic_number" title="Chromatic number" class="mw-redirect">Chromatic number</a></th>
+<td class="" style="">2 if <i>v</i> &gt; 1</td>
+</tr>
+<tr>
+<td colspan="2" style="text-align:right">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Infobox_graph" title="Template:Infobox graph"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_Infobox_graph&action=edit&redlink=1.php.html" class="new" title="Template talk:Infobox graph (page does not exist)"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Infobox_graph&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, more specifically <a href="Graph_theory" title="Graph theory">graph theory</a>, a <b>tree</b> is an <a href="Undirected_graph" title="Undirected graph" class="mw-redirect">undirected graph</a> in which any two <a href="Vertex_(graph_theory)" title="Vertex (graph theory)">vertices</a> are connected by <i>exactly one</i> <a href="Path_(graph_theory)" title="Path (graph theory)">simple path</a>. In other words, any <a href="Connectedness" title="Connectedness">connected</a> graph without <a href="Cycle_(graph_theory)" title="Cycle (graph theory)">simple cycles</a> is a tree. A <b>forest</b> is a <a href="Disjoint_union" title="Disjoint union">disjoint union</a> of trees.</p>
+<p>The various kinds of <a href="Data_structures" title="Data structures" class="mw-redirect">data structures</a> referred to as <a href="Tree_(data_structure)" title="Tree (data structure)">trees</a> in <a href="Computer_science" title="Computer science">computer science</a> are equivalent to trees in graph theory, although such data structures are commonly <b>rooted trees</b>, and may have additional ordering of branches.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definitions"><span class="tocnumber">1</span> <span class="toctext">Definitions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Plane_Tree"><span class="tocnumber">1.1</span> <span class="toctext">Plane Tree</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#Example"><span class="tocnumber">2</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Facts"><span class="tocnumber">3</span> <span class="toctext">Facts</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Enumeration"><span class="tocnumber">4</span> <span class="toctext">Enumeration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Labeled_trees"><span class="tocnumber">4.1</span> <span class="toctext">Labeled trees</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Unlabeled_trees"><span class="tocnumber">4.2</span> <span class="toctext">Unlabeled trees</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Types_of_trees"><span class="tocnumber">5</span> <span class="toctext">Types of trees</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Further_reading"><span class="tocnumber">8</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=1.php.html" title="Edit section: Definitions">edit</a>]</span> <span class="mw-headline" id="Definitions">Definitions</span></h2>
+<p>A <b>tree</b> is an undirected <a href="Simple_graph" title="Simple graph" class="mw-redirect">simple graph</a> <i>G</i> that satisfies any of the following equivalent conditions:</p>
+<ul>
+<li><i>G</i> is <a href="Connected_graph" title="Connected graph" class="mw-redirect">connected</a> and has no <a href="Cycle_(graph_theory)" title="Cycle (graph theory)">cycles</a>.</li>
+<li><i>G</i> has no cycles, and a simple cycle is formed if any <a href="Edge_(graph_theory)" title="Edge (graph theory)" class="mw-redirect">edge</a> is added to <i>G</i>.</li>
+<li><i>G</i> is connected, but is not connected if any single edge is removed from <i>G</i>.</li>
+<li><i>G</i> is connected and the 3-vertex <a href="Complete_graph" title="Complete graph">complete graph</a> <img class="tex" alt="K_3" src="http://upload.wikimedia.org/math/7/e/c/7ec67670185195b16820829b113d8830.png" /> is not a <a href="Minor_(graph_theory)" title="Minor (graph theory)" class="mw-redirect">minor</a> of <i>G</i>.</li>
+<li>Any two vertices in <i>G</i> can be connected by a unique <a href="Path_(graph_theory)" title="Path (graph theory)">simple path</a>.</li>
+</ul>
+<p>If <i>G</i> has finitely many vertices, say <i>n</i> of them, then the above statements are also equivalent to any of the following conditions:</p>
+<ul>
+<li><i>G</i> is connected and has <i>n</i> − 1 edges.</li>
+<li><i>G</i> has no simple cycles and has <i>n</i> − 1 edges.</li>
+</ul>
+<p>A <b>leaf</b> is a vertex of <a href="Degree_(graph_theory)" title="Degree (graph theory)">degree</a> 1. An <b>internal vertex</b> is a vertex of <a href="Degree_(graph_theory)" title="Degree (graph theory)">degree</a> at least 2.</p>
+<p>An <b>irreducible</b> (or <i>series-reduced</i>) tree is a tree in which there is no vertex of <a href="Degree_(graph_theory)" title="Degree (graph theory)">degree</a> 2.</p>
+<p><span id="forest"></span> A <b>forest</b> is an undirected graph, all of whose <a href="Connected_component_(graph_theory)" title="Connected component (graph theory)">connected components</a> are trees; in other words, the graph consists of a <a href="Disjoint_union" title="Disjoint union">disjoint union</a> of trees. Equivalently, a forest is an undirected cycle-free graph. As special cases, an empty graph, a single tree, and the discrete graph on a set of vertices (that is, the graph with these vertices that has no edges), all are examples of forests.</p>
+<p>The term <b>hedge</b> sometimes refers to an ordered sequence of trees.</p>
+<p>A <b><a href="Polytree" title="Polytree">polytree</a></b> or <b>oriented tree</b> is a directed graph with at most one undirected path between any two vertices. In other words, a polytree is a <a href="Directed_acyclic_graph" title="Directed acyclic graph">directed acyclic graph</a> for which there are no undirected cycles either.</p>
+<p>A <b>directed tree</b> is a <a href="Directed_graph" title="Directed graph">directed graph</a> which would be a tree if the directions on the edges were ignored. Some authors restrict the phrase to the case where the edges are all directed towards a particular vertex, or all directed away from a particular vertex (see <a href="Arborescence_(graph_theory)" title="Arborescence (graph theory)">arborescence</a>).</p>
+<p><span id="rooted_tree"></span> A tree is called a <b>rooted tree</b> if one vertex has been designated the <b>root</b>, in which case the edges have a natural orientation, <i>towards</i> or <i>away</i> from the root. The <i>tree-order</i> is the <a href="Partial_ordering" title="Partial ordering" class="mw-redirect">partial ordering</a> on the vertices of a tree with <i>u</i> ≤ <i>v</i> if and only if the unique path from the root to <i>v</i> passes through <i>u</i>. A rooted tree which is a <a href="Glossary_of_graph_theory#Subgraphs" title="Glossary of graph theory">subgraph</a> of some graph <i>G</i> is a <b>normal tree</b> if the ends of every edge in <i>G</i> are comparable in this tree-order whenever those ends are vertices of the tree (<a href="#CITEREFDiestel2005">Diestel 2005</a>, p.&#160;15). Rooted trees, often with additional structure such as ordering of the neighbors at each vertex, are a key data structure in computer science; see <a href="Tree_data_structure" title="Tree data structure" class="mw-redirect">tree data structure</a>. In a context where trees are supposed to have a root, a tree without any designated root is called a <b>free tree</b>.</p>
+<p>In a rooted tree, the <b>parent</b> of a vertex is the vertex connected to it on the path to the root; every vertex except the root has a unique parent. A <b>child</b> of a vertex <i>v</i> is a vertex of which <i>v</i> is the parent.</p>
+<p>A <b>labeled tree</b> is a tree in which each vertex is given a unique label. The vertices of a labeled tree on <i>n</i> vertices are typically given the labels 1, 2, …, <i>n</i>. A <b><a href="Recursive_tree" title="Recursive tree">recursive tree</a></b> is a labeled rooted tree where the vertex labels respect the tree order (<i>i.e.</i>, if <i>u</i> &lt; <i>v</i> for two vertices <i>u</i> and <i>v</i>, then the label of <i>u</i> is smaller than the label of <i>v</i>).</p>
+<p>An <b><a href="K-ary_tree" title="K-ary tree">n-ary tree</a></b> is a rooted tree for which each vertex has at most <i>n</i> children. <i>2-ary trees</i> are sometimes called <a href="Binary_tree" title="Binary tree">binary trees</a>, while <i>3-ary trees</i> are sometimes called <a href="Ternary_tree" title="Ternary tree">ternary trees</a>.</p>
+<p>A <b>terminal vertex</b> of a tree is a vertex of degree 1. In a rooted tree, the leaves are all terminal vertices; additionally, the root, if not a leaf itself, is a terminal vertex if it has precisely one child.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=2.php.html" title="Edit section: Plane Tree">edit</a>]</span> <span class="mw-headline" id="Plane_Tree">Plane Tree</span></h3>
+<p>An <b><span id="ordered_tree">ordered tree</span></b> or <b>plane tree</b> is a rooted tree for which an ordering is specified for the children of each vertex. This is called a "plane tree" because an ordering of the children is equivalent to an embedding of the tree in the plane (up to homotopy through embeddings or <a href="Ambient_isotopy" title="Ambient isotopy">ambient isotopy</a>). Given an embedding of a rooted tree in the plane, if one fixes a direction of children (starting from root, then first child, second child, etc.), say counterclockwise, then an embedding gives an ordering of the children. Conversely, given an ordered tree, and conventionally draw the root at the top, then the child nodes in an ordered tree can be drawn left-to-right, yielding an essentially unique planar embedding (up to embedded homotopy, i.e., moving the edges and nodes without crossing).</p>
+<p>An <b><a href="K-ary_tree" title="K-ary tree">n-ary tree</a></b> is a rooted tree for which each vertex has at most <i>n</i> children. <i>2-ary trees</i> are sometimes called <a href="Binary_tree" title="Binary tree">binary trees</a>, while <i>3-ary trees</i> are sometimes called <a href="Ternary_tree" title="Ternary tree">ternary trees</a>.</p>
+<p>A <b>terminal vertex</b> of a tree is a vertex of degree 1. In a rooted tree, the leaves are all terminal vertices; additionally, the root, if not a leaf itself, is a terminal vertex if it has precisely one child.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=3.php.html" title="Edit section: Example">edit</a>]</span> <span class="mw-headline" id="Example">Example</span></h2>
+<p>The example tree shown to the right has 6 vertices and 6 − 1 = 5 edges. The unique simple path connecting the vertices 2 and 6 is 2-4-5-6.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=4.php.html" title="Edit section: Facts">edit</a>]</span> <span class="mw-headline" id="Facts">Facts</span></h2>
+<ul>
+<li>Every tree is a <a href="Bipartite_graph" title="Bipartite graph">bipartite graph</a> and a <a href="Median_graph" title="Median graph">median graph</a>. Every tree with only <a href="Countable_set" title="Countable set">countably</a> many vertices is a <a href="Planar_graph" title="Planar graph">planar graph</a>.</li>
+</ul>
+<ul>
+<li>Every connected graph <i>G</i> admits a <a href="Spanning_tree_(mathematics)" title="Spanning tree (mathematics)" class="mw-redirect">spanning tree</a>, which is a tree that contains every vertex of <i>G</i> and whose edges are edges of <i>G</i>.</li>
+</ul>
+<ul>
+<li>Every connected graph with only <a href="Countable_set" title="Countable set">countably</a> many vertices admits a normal spanning tree (<a href="#CITEREFDiestel2005">Diestel 2005</a>, Prop. 8.2.4).</li>
+</ul>
+<ul>
+<li>There exist connected graphs with <a href="Uncountable_set" title="Uncountable set">uncountably</a> many vertices which do not admit a normal spanning tree (<a href="#CITEREFDiestel2005">Diestel 2005</a>, Prop. 8.5.2).</li>
+</ul>
+<ul>
+<li>Every finite tree with <i>n</i> vertices, with <span class="nowrap"><i>n</i> &gt; 1</span>, has at least two terminal vertices (leaves). This minimal number of terminal vertices is characteristic of <a href="Path_graph" title="Path graph">path graphs</a>; the maximal number, <span class="nowrap"><i>n</i> − 1</span>, is attained by <a href="Star_graph" title="Star graph" class="mw-redirect">star graphs</a>.</li>
+</ul>
+<ul>
+<li>For any three vertices in a tree, the three paths between them have exactly one vertex in common.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=5.php.html" title="Edit section: Enumeration">edit</a>]</span> <span class="mw-headline" id="Enumeration">Enumeration</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=6.php.html" title="Edit section: Labeled trees">edit</a>]</span> <span class="mw-headline" id="Labeled_trees">Labeled trees</span></h3>
+<p><a href="Cayley's_formula" title="Cayley's formula">Cayley's formula</a> states that there are <i>n</i><sup><i>n</i>−2</sup> trees on <i>n</i> labeled vertices. It can be proved by first showing that the number of trees with vertices <i>1,2,...,n,</i> of degrees <i>d</i><sub>1</sub>,<i>d</i><sub>2</sub>,...,<i>d</i><sub><i>n</i></sub> respectively, is the <a href="Multinomial_theorem" title="Multinomial theorem">multinomial coefficient</a></p>
+<dl>
+<dd><img class="tex" alt=" {n-2 \choose d_1-1, d_2-1, \ldots, d_n-1}." src="http://upload.wikimedia.org/math/e/f/9/ef9ee0fb6f5af7d022a68d1cc92b87da.png" /></dd>
+</dl>
+<p>An alternative proof uses <a href="Pr%C3%BCfer_sequence" title="Prüfer sequence">Prüfer sequences</a>.</p>
+<p>Cayley's formula is the special case of <a href="Complete_graph" title="Complete graph">complete graphs</a> in a more general problem of counting <a href="Spanning_tree" title="Spanning tree">spanning trees</a> in an <a href="Undirected_graph" title="Undirected graph" class="mw-redirect">undirected graph</a>, which is addressed by the <a href="Matrix_tree_theorem" title="Matrix tree theorem" class="mw-redirect">matrix tree theorem</a>. The similar problem of counting all the subtrees regardless of size has been shown to be <a href="Sharp-P-complete" title="Sharp-P-complete">#P-complete</a> in the general case (<a href="#CITEREFJerrum1994">Jerrum (1994</a>)).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=7.php.html" title="Edit section: Unlabeled trees">edit</a>]</span> <span class="mw-headline" id="Unlabeled_trees">Unlabeled trees</span></h3>
+<p>Counting the number of unlabeled free trees is a harder problem. No closed formula for the number <i>t</i>(<i>n</i>) of trees with <i>n</i> vertices <a href="Up_to" title="Up to">up to</a> <a href="Graph_isomorphism" title="Graph isomorphism">graph isomorphism</a> is known. The first few values of <i>t</i>(<i>n</i>) are:</p>
+<dl>
+<dd>1, 1, 1, 1, 2, 3, 6, 11, 23, 47, 106, 235, 551, 1301, 3159, ... (sequence <span class="nowrap"><a href="http://oeis.org/A000055" class="extiw" title="oeis:A000055">A000055</a></span> in <a href="On-Line_Encyclopedia_of_Integer_Sequences" title="On-Line Encyclopedia of Integer Sequences">OEIS</a>).</dd>
+</dl>
+<p><a href="#CITEREFOtter1948">Otter (1948</a>) proved the asymptotic estimate:</p>
+<dl>
+<dd><img class="tex" alt=" {t(n) \sim C \alpha^n n^{-5/2} \quad\text{as } n\to\infty,}" src="http://upload.wikimedia.org/math/b/8/4/b84ca6b51d7ef5fd8f6999aa719d67c4.png" /></dd>
+</dl>
+<p>with <i>C</i> = 0.534949606… and α = 2.95576528565… (sequence <span class="nowrap"><a href="http://oeis.org/A051491" class="extiw" title="oeis:A051491">A051491</a></span> in <a href="On-Line_Encyclopedia_of_Integer_Sequences" title="On-Line Encyclopedia of Integer Sequences">OEIS</a>). (Here, <img class="tex" alt="f \sim g" src="http://upload.wikimedia.org/math/3/8/f/38f33421bb78c169f856eeba78b385b6.png" /> means that <img class="tex" alt="\lim_{n \to \infty} f/g = 1 " src="http://upload.wikimedia.org/math/f/6/2/f629a5887a690296183f05aacc6cf9ea.png" />.) This is a consequence of his asymptotic estimate for the number <img class="tex" alt="r(n)" src="http://upload.wikimedia.org/math/2/1/5/215c13b2f0452d81ee3f116dd951b90b.png" /> of unlabeled rooted trees with <i>n</i> vertices:</p>
+<dl>
+<dd><img class="tex" alt="r(n) \sim D\alpha^n n^{-3/2} \quad\text{as } n\to\infty," src="http://upload.wikimedia.org/math/4/2/d/42d0a1bdf2ba7fb07a7b0577aca7d63b.png" /></dd>
+</dl>
+<p>with <i>D</i> = 0.43992401257… and α the same as above (cf. <a href="#CITEREFKnuth1997">Knuth (1997</a>), Chap. 2.3.4.4 and <a href="#CITEREFFlajoletSedgewick2009">Flajolet &amp; Sedgewick (2009</a>), Chap. VII.5).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=8.php.html" title="Edit section: Types of trees">edit</a>]</span> <span class="mw-headline" id="Types_of_trees">Types of trees</span></h2>
+<p>A <a href="Star_(graph_theory)" title="Star (graph theory)">star graph</a> is a tree which consists of a single internal vertex (and <i>n</i>&#160;−&#160;1 leaves). In other words, a star graph of order <i>n</i> is a tree of order <i>n</i> with as many leaves as possible. Its diameter is at most 2.</p>
+<p>A tree with two leaves (the fewest possible) is a <a href="Path_graph" title="Path graph">path graph</a>. If all vertices in a tree are within distance one of a central path subgraph, then the tree is a <a href="Caterpillar_tree" title="Caterpillar tree">caterpillar tree</a>. If all vertices are within distance two of a central path subgraph, then the tree is a <a href="List_of_graphs#Lobster" title="List of graphs">lobster</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=9.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Decision_tree" title="Decision tree">Decision tree</a></li>
+<li><a href="Pseudoforest" title="Pseudoforest">Pseudoforest</a></li>
+<li><a href="Tree_structure" title="Tree structure">Tree structure</a></li>
+<li><a href="Tree_data_structure" title="Tree data structure" class="mw-redirect">Tree data structure</a></li>
+<li><a href="Unrooted_binary_tree" title="Unrooted binary tree">Unrooted binary tree</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=10.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-No_footnotes" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article includes a <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">list of references</a>, related reading or <a href="Wikipedia_External_links" title="Wikipedia:External links">external links</a>, but <b>its sources remain unclear because it lacks <a href="Wikipedia_Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>. <span class="hide-when-compact">Please <a href="Wikipedia_WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by introducing more precise citations.</span> <small><i>(March 2012)</i></small> </span></td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Tree_(graph_theory)&action=edit&section=11.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Tree_(graph_theory)" class="extiw" title="commons:Category:Tree (graph theory)">Tree (graph theory)</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><span class="citation" id="CITEREFDiestel2005">Diestel, Reinhard (2005), <a rel="nofollow" class="external text" href="http://diestel-graph-theory.com/index.html"><i>Graph Theory</i></a> (3rd ed.), Berlin, New York: Springer-Verlag, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-3-540-26183-4" title="Special:BookSources/978-3-540-26183-4">978-3-540-26183-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://diestel-graph-theory.com/index.html">http://diestel-graph-theory.com/index.html</a></span></span>.</li>
+<li><span class="citation" id="CITEREFFlajoletSedgewick2009">Flajolet, Philippe; <a href="Robert_Sedgewick_(computer_scientist)" title="Robert Sedgewick (computer scientist)">Sedgewick, Robert</a> (2009), <i>Analytic Combinatorics</i>, Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-89806-5" title="Special:BookSources/978-0-521-89806-5">978-0-521-89806-5</a></span></li>
+<li><span class="citation" id="CITEREFKnuth1997"><a href="../Donald_E._Knuth" title="Donald E. Knuth" class="mw-redirect">Knuth, Donald E.</a> (November 14, 1997), <i>The Art of Computer Programming Volume 1: Fundamental Algorithms</i> (3rd ed.), Addison-Wesley Professional</span></li>
+<li><span class="citation" id="CITEREFJerrum.2C_Mark1994">Jerrum, Mark (1994), "Counting trees in a graph is #P-complete", <i>Information Processing Letters</i> <b>51</b> (3): 111–116, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1016/0020-0190(94)00085-9">10.1016/0020-0190(94)00085-9</a>, <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/0020-0190">0020-0190</a></span>.</li>
+<li><span class="citation" id="CITEREFOtter1948">Otter, Richard (1948), "The Number of Trees", <i>Annals of Mathematics, Second Series</i> <b>49</b> (3): 583–599, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/1969046">10.2307/1969046</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/1969046">1969046</a></span>.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 6634/1000000
+Preprocessor generated node count: 36739/1500000
+Post-expand include size: 33199/2048000 bytes
+Template argument size: 9457/2048000 bytes
+Highest expansion depth: 20/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:48560-0!0!0!!en!4!* and timestamp 20130211194640 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Tree_(graph_theory)&oldid=537753506.php.html">http://en.wikipedia.org/w/index.php?title=Tree_(graph_theory)&amp;oldid=537753506</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Trees_(graph_theory)" title="Category:Trees (graph theory)">Trees (graph theory)</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_lacking_in-text_citations_from_March_2012" title="Category:Articles lacking in-text citations from March 2012">Articles lacking in-text citations from March 2012</a></li><li><a href="Category_All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Tree+(graph+theory)&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Tree+(graph+theory).php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Tree_(graph_theory)"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Tree_(graph_theory)&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Tree_(graph_theory)&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Tree_(graph_theory)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Tree_(graph_theory)" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Tree_(graph_theory)&oldid=537753506.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Tree_(graph_theory)&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Tree_(graph_theory)&id=537753506.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Tree+(graph+theory).php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Tree+(graph+theory)&oldid=537753506&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Tree_(graph_theory)&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%94%D1%8A%D1%80%D0%B2%D0%BE_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Дърво (математика)" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Strom_(graf)" title="Strom (graf)" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Baum_(Graphentheorie)" title="Baum (Graphentheorie)" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%94%CE%AD%CE%BD%CF%84%CF%81%CE%BF_(%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1_%CE%93%CF%81%CE%AC%CF%86%CF%89%CE%BD)" title="Δέντρο (Θεωρία Γράφων)" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/%C3%81rbol_(teor%C3%ADa_de_grafos)" title="Árbol (teoría de grafos)" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Arbo_(grafeteorio)" title="Arbo (grafeteorio)" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AF%D8%B1%D8%AE%D8%AA_(%D9%86%D8%B8%D8%B1%DB%8C%D9%87_%DA%AF%D8%B1%D8%A7%D9%81)" title="درخت (نظریه گراف)" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Arbre_(graphe)" title="Arbre (graphe)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC" title="트리" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Albero_(grafo)" title="Albero (grafo)" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%A2%D7%A5_(%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%92%D7%A8%D7%A4%D7%99%D7%9D)" title="עץ (תורת הגרפים)" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Medis_(graf%C5%B3_teorija)" title="Medis (grafų teorija)" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Fa_(gr%C3%A1felm%C3%A9let)" title="Fa (gráfelmélet)" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Boomstructuur" title="Boomstructuur" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E6%9C%A8_(%E6%95%B0%E5%AD%A6)" title="木 (数学)" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Drzewo_(matematyka)" title="Drzewo (matematyka)" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/%C3%81rvore_(grafo)" title="Árvore (grafo)" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Arbore_(teoria_grafurilor)" title="Arbore (teoria grafurilor)" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_(%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2)" title="Дерево (теория графов)" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Strom_(graf)" title="Strom (graf)" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Drevo_(teorija_grafov)" title="Drevo (teorija grafov)" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%B1%D0%BB%D0%BE_(%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2%D0%B0)" title="Стабло (теорија графова)" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Puu_(graafiteoria)" title="Puu (graafiteoria)" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Tr%C3%A4d_(graf)" title="Träd (graf)" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89_(%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%9F)" title="ต้นไม้ (ทฤษฎีกราฟ)" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BE_(%D1%82%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D0%B3%D1%80%D0%B0%D1%84%D1%96%D0%B2)" title="Дерево (теорія графів)" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%AF%D8%B1%D8%AE%D8%AA_(%D9%86%D8%B8%D8%B1%DB%8C%DB%81_%D9%85%D8%AE%D8%B7%D8%B7)" title="درخت (نظریہ مخطط)" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/C%C3%A2y_(l%C3%BD_thuy%E1%BA%BFt_%C4%91%E1%BB%93_th%E1%BB%8B)" title="Cây (lý thuyết đồ thị)" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%A0%91_(%E5%9B%BE%E8%AE%BA)" title="树 (图论)" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 February 2013 at 19:46.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Tree_(graph_theory)" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1046 in 0.150 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

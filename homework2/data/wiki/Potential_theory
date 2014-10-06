@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Potential theory - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Potential_theory&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Potential_theory&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Potential_theory","wgTitle":"Potential theory","wgCurRevisionId":522070757,"wgArticleId":1431342,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles incorporating text from PlanetMath","Potential theory","Partial differential equations","Mathematical physics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Potential_theory","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"e16baff3d9a225ee215c606112a1d740","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":1431342,"title":"Potential theory","namespace":0,"categories":["Mathematical physics","Partial differential equations","Potential theory","Wikipedia articles incorporating text from PlanetMath"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Potential_theory skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Potential theory</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>In <a href="Mathematics" title="Mathematics">mathematics</a> and <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a>, <b>potential theory</b> is the study of <a href="Harmonic_function" title="Harmonic function">harmonic functions</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Definition_and_comments"><span class="tocnumber">1</span> <span class="toctext">Definition and comments</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Symmetry"><span class="tocnumber">2</span> <span class="toctext">Symmetry</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Two_dimensions"><span class="tocnumber">3</span> <span class="toctext">Two dimensions</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Local_behavior"><span class="tocnumber">4</span> <span class="toctext">Local behavior</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Inequalities"><span class="tocnumber">5</span> <span class="toctext">Inequalities</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Spaces_of_harmonic_functions"><span class="tocnumber">6</span> <span class="toctext">Spaces of harmonic functions</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=1.php.html" title="Edit section: Definition and comments">edit</a>]</span> <span class="mw-headline" id="Definition_and_comments">Definition and comments</span></h2>
+<p>The term "potential theory" was coined in 19th-century <a href="Physics" title="Physics">physics</a>, when it was realized that the fundamental <a href="Force" title="Force">forces</a> of nature could be modeled using potentials which satisfy <a href="Laplace's_equation" title="Laplace's equation">Laplace's equation</a>. Although more accurate theories - for example classical <a href="Electrostatics" title="Electrostatics">Electrostatics</a> and <a href="Newtonian_gravity" title="Newtonian gravity" class="mw-redirect">Newtonian gravity</a> - were developed later, the name "potential theory" remained.</p>
+<p>There is considerable overlap between potential theory and the theory of the Laplace equation. To the extent that it is possible to draw a distinction between these two fields, the difference is more one of emphasis than subject matter and rests on the following distinction: potential theory focuses on the properties of the functions as opposed to the properties of the equation. For example, a result about the <a href="Mathematical_singularity" title="Mathematical singularity">singularities</a> of harmonic functions would be said to belong to potential theory whilst a result on how the solution depends on the boundary data would be said to belong to the theory of the Laplace equation. Of course, this is not a hard and fast distinction, and in practice there is considerable overlap between the two fields, with methods and results from one being used in the other.</p>
+<p>Modern potential theory is also intimately connected with probability and the theory of <a href="Markov_chain" title="Markov chain">Markov chains</a>. In the continuous case, this is closely related to analytic theory. In the finite state space case, this connection can be introduced by introducing an <a href="Electrical_network" title="Electrical network">electrical network</a> on the state space, with resistance between points inversely proportional to transition probabilities and densities proportional to potentials. Even in the finite case, the analogue I-K of the Laplacian in potential theory has its own maximum principle, uniqueness principle, balance principle, and others.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=2.php.html" title="Edit section: Symmetry">edit</a>]</span> <span class="mw-headline" id="Symmetry">Symmetry</span></h2>
+<p>A useful starting point and organizing principle in the study of harmonic functions is a consideration of the <a href="Symmetry" title="Symmetry">symmetries</a> of the Laplace equation. Although it is not a symmetry in the usual sense of the term, we can start with the observation that the Laplace equation is <a href="Linear_transformation" title="Linear transformation" class="mw-redirect">linear</a>. This means that the fundamental object of study in potential theory is a linear space of functions. This observation will prove especially important when we consider function space approaches to the subject in a later section.</p>
+<p>As for symmetry in the usual sense of the term, we may start with the theorem that the symmetries of the <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" />-dimensional Laplace equation are exactly the <a href="Conformal_map" title="Conformal map">conformal</a> symmetries of the <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" />-dimensional <a href="Euclidean_space" title="Euclidean space">Euclidean space</a>. This fact has several implications. First of all, one can consider harmonic functions which transform under irreducible representations of the <a href="Conformal_group" title="Conformal group">conformal group</a> or of its <a href="Subgroup" title="Subgroup">subgroups</a> (such as the group of rotations or translations). Proceeding in this fashion, one systematically obtains the solutions of the Laplace equation which arise from separation of variables such as <a href="Spherical_harmonic" title="Spherical harmonic" class="mw-redirect">spherical harmonic</a> solutions and <a href="Fourier_series" title="Fourier series">Fourier series</a>. By taking linear superpositions of these solutions, one can produce large classes of harmonic functions which can be shown to be dense in the space of all harmonic functions under suitable topologies.</p>
+<p>Second, one can use conformal symmetry to understand such classical tricks and techniques for generating harmonic functions as the <a href="Kelvin_transform" title="Kelvin transform">Kelvin transform</a> and the <a href="Method_of_images" title="Method of images">method of images</a>.</p>
+<p>Third, one can use conformal transforms to map harmonic functions in one <a href="Domain_(mathematics)" title="Domain (mathematics)" class="mw-redirect">domain</a> to harmonic functions in another domain. The most common instance of such a construction is to relate harmonic functions on a <a href="Disk_(mathematics)" title="Disk (mathematics)">disk</a> to harmonic functions on a half-plane.</p>
+<p>Fourth, one can use conformal symmetry to extend harmonic functions to harmonic functions on conformally flat <a href="Riemannian_manifold" title="Riemannian manifold">Riemannian manifolds</a>. Perhaps the simplest such extension is to consider a harmonic function defined on the whole of <b>R</b><sup>n</sup> (with the possible exception of a <a href="Discrete_set" title="Discrete set" class="mw-redirect">discrete set</a> of singular points) as a harmonic function on the <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" />-dimensional <a href="Sphere" title="Sphere">sphere</a>. More complicated situations can also happen. For instance, one can obtain a higher-dimensional analog of Riemann surface theory by expressing a multiply valued harmonic function as a single-valued function on a branched cover of <b>R</b><sup>n</sup> or one can regard harmonic functions which are invariant under a discrete subgroup of the conformal group as functions on a multiply connected manifold or <a href="Orbifold" title="Orbifold">orbifold</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=3.php.html" title="Edit section: Two dimensions">edit</a>]</span> <span class="mw-headline" id="Two_dimensions">Two dimensions</span></h2>
+<p>From the fact that the group of conformal transforms is infinite dimensional in two dimensions and finite dimensional for more than two dimensions, one can surmise that potential theory in two dimensions is different from potential theory in other dimensions. This is correct and, in fact, when one realizes that any two-dimensional harmonic function is the real part of a <a href="Complex_number" title="Complex number">complex</a> <a href="Analytic_function" title="Analytic function">analytic function</a>, one sees that the subject of two-dimensional potential theory is substantially the same as that of complex analysis. For this reason, when speaking of potential theory, one focuses attention on theorems which hold in three or more dimensions. In this connection, a surprising fact is that many results and concepts originally discovered in complex analysis (such as Schwartz's theorem, <a href="Morera's_theorem" title="Morera's theorem">Morera's theorem</a>, the <a href="Weierstrass-Casorati_theorem" title="Weierstrass-Casorati theorem" class="mw-redirect">Weierstrass-Casorati theorem</a>, <a href="Laurent_series" title="Laurent series">Laurent series</a>, and the classification of <a href="Mathematical_singularity" title="Mathematical singularity">singularities</a> as <a href="Removable_singularity" title="Removable singularity">removable</a>, <a href="Pole_(complex_analysis)" title="Pole (complex analysis)">poles</a> and <a href="Essential_singularity" title="Essential singularity">essential singularities</a>) generalize to results on harmonic functions in any dimension. By considering which theorems of complex analysis are special cases of theorems of potential theory in any dimension, one can obtain a feel for exactly what is special about complex analysis in two dimensions and what is simply the two-dimensional instance of more general results.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=4.php.html" title="Edit section: Local behavior">edit</a>]</span> <span class="mw-headline" id="Local_behavior">Local behavior</span></h2>
+<p>An important topic in potential theory is the study of the local behavior of harmonic functions. Perhaps the most fundamental theorem about local behavior is the regularity theorem for Laplace's equation, which states that harmonic functions are analytic. There are results which describe the local structure of <a href="Level_set" title="Level set">level sets</a> of harmonic functions. There is <a href="B%C3%B4cher's_theorem" title="Bôcher's theorem">Bôcher's theorem</a>, which characterizes the behavior of <a href="Isolated_singularity" title="Isolated singularity">isolated singularities</a> of positive harmonic functions. As alluded to in the last section, one can classify the isolated singularities of harmonic functions as removable singularities, poles, and essential singularities.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=5.php.html" title="Edit section: Inequalities">edit</a>]</span> <span class="mw-headline" id="Inequalities">Inequalities</span></h2>
+<p>A fruitful approach to the study of harmonic functions is the consideration of inequalities they satisfy. Perhaps the most basic such inequality, from which most other inequalities may be derived, is the <a href="Maximum_principle" title="Maximum principle">maximum principle</a>. Another important result is <a href="Liouville's_theorem" title="Liouville's theorem">Liouville's theorem</a>, which states the only bounded harmonic functions defined on the whole of <b>R</b><sup>n</sup> are, in fact, constant functions. In addition to these basic inequalities, one has <a href="Harnack's_inequality" title="Harnack's inequality">Harnack's inequality</a>, which states that positive harmonic functions on bounded domains are roughly constant.</p>
+<p>One important use of these inequalities is to prove <a href="Limit_of_a_sequence" title="Limit of a sequence">convergence</a> of families of harmonic functions or sub-harmonic functions, see <a href="Harnack's_theorem" title="Harnack's theorem" class="mw-redirect">Harnack's theorem</a>. These convergence theorems can often be used to prove existence of harmonic functions having particular properties.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=6.php.html" title="Edit section: Spaces of harmonic functions">edit</a>]</span> <span class="mw-headline" id="Spaces_of_harmonic_functions">Spaces of harmonic functions</span></h2>
+<p>Since the Laplace equation is linear, the set of harmonic functions defined on a given domain is, in fact, a <a href="Vector_space" title="Vector space">vector space</a>. By defining suitable <a href="Normed_vector_space" title="Normed vector space">norms</a> and/or <a href="Inner_product" title="Inner product" class="mw-redirect">inner products</a>, one can exhibit sets of harmonic functions which form <a href="Hilbert_space" title="Hilbert space">Hilbert</a> or <a href="Banach_space" title="Banach space">Banach spaces</a>. In this fashion, one obtains such spaces as the <a href="Hardy_space" title="Hardy space">Hardy space</a>, <a href="Bloch_space" title="Bloch space">Bloch space</a>, and <a href="Bergman_space" title="Bergman space">Bergman space</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=7.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Subharmonic_function" title="Subharmonic function">Subharmonic function</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Potential_theory&action=edit&section=8.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="references-small">
+<ul>
+<li><span class="citation" id="CITEREFA.I._Prilenko.2C_E.D._Solomentsev2001">A.I. Prilenko, E.D. Solomentsev (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/p074140">"Potential theory"</a>, in Hazewinkel, Michiel, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/p074140">http://www.encyclopediaofmath.org/index.php?title=p/p074140</a></span></span></li>
+<li><span class="citation" id="CITEREFE.D._Solomentsev2001">E.D. Solomentsev (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/p074150">"Abstract potential theory"</a>, in Hazewinkel, Michiel, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/p074150">http://www.encyclopediaofmath.org/index.php?title=p/p074150</a></span></span></li>
+<li>S. Axler, P. Bourdon, W. Ramey (2001). <i>Harmonic Function Theory</i> (2nd edition). Springer-Verlag. <a href="Special_BookSources/0387952187" class="internal mw-magiclink-isbn">ISBN 0-387-95218-7</a>.</li>
+<li>O. D. Kellogg (1969). <i>Foundations of Potential Theory</i>. Dover Publications. <a href="Special_BookSources/0486601447" class="internal mw-magiclink-isbn">ISBN 0-486-60144-7</a>.</li>
+<li>L. L. Helms (1975). <i>Introduction to potential theory</i>. R. E. Krieger <a href="Special_BookSources/0882752243" class="internal mw-magiclink-isbn">ISBN 0-88275-224-3</a>.</li>
+<li>J. L. Doob. <i>Classical Potential Theory and Its Probabilistic Counterpart</i>, Springer-Verlag, Berlin Heidelberg New York, <a href="Special_BookSources/3540412069" class="internal mw-magiclink-isbn">ISBN 3-540-41206-9</a>.</li>
+<li>L. Snell. "Random Walks and Electric Circuits", arXiv</li>
+</ul>
+</div>
+<p><i>This article incorporates material from <a href="http://planetmath.org/?op=getobj&from=objects&id=6659" class="extiw" title="planetmath:6659">Potential Theory</a> on <a href="PlanetMath" title="PlanetMath">PlanetMath</a>, which is licensed under the <a href="Wikipedia_CC-BY-SA" title="Wikipedia:CC-BY-SA" class="mw-redirect">Creative Commons Attribution/Share-Alike License</a>.</i></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1394/1000000
+Preprocessor generated node count: 14374/1500000
+Post-expand include size: 9426/2048000 bytes
+Template argument size: 3441/2048000 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1431342-0!0!0!!en!*!* and timestamp 20130127145747 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Potential_theory&oldid=522070757.php.html">http://en.wikipedia.org/w/index.php?title=Potential_theory&amp;oldid=522070757</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Potential_theory" title="Category:Potential theory">Potential theory</a></li><li><a href="Category_Partial_differential_equations" title="Category:Partial differential equations">Partial differential equations</a></li><li><a href="Category_Mathematical_physics" title="Category:Mathematical physics">Mathematical physics</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_articles_incorporating_text_from_PlanetMath" title="Category:Wikipedia articles incorporating text from PlanetMath">Wikipedia articles incorporating text from PlanetMath</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Potential+theory&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Potential+theory.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Potential_theory"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Potential_theory&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Potential_theory&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Potential_theory" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Potential_theory" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Potential_theory&oldid=522070757.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Potential_theory&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Potential_theory&id=522070757.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Potential+theory.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Potential+theory&oldid=522070757&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Potential_theory&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Potentialtheorie" title="Potentialtheorie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Teor%C3%ADa_del_potencial" title="Teoría del potencial" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Th%C3%A9orie_du_potentiel" title="Théorie du potentiel" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%ED%8D%BC%ED%85%90%EC%85%9C_%EC%9D%B4%EB%A1%A0" title="퍼텐셜 이론" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Teoria_del_potenziale" title="Teoria del potenziale" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Potentiaaltheorie" title="Potentiaaltheorie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Potensialteori" title="Potensialteori" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Teoria_potencja%C5%82u" title="Teoria potencjału" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Teoria_do_potencial" title="Teoria do potencial" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Potentiaaliteoria" title="Potentiaaliteoria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Potentialteori" title="Potentialteori" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E4%BD%8D%E5%8A%BF%E8%AE%BA" title="位势论" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 8 November 2012 at 21:49.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Potential_theory" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1056 in 0.158 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

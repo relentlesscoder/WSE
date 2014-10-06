@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Time value of money - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Time_value_of_money&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Time_value_of_money&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Time_value_of_money","wgTitle":"Time value of money","wgCurRevisionId":538117310,"wgArticleId":165259,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from March 2008","All articles needing additional references","Actuarial science","Basic financial concepts","Money","Time-based economics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Time_value_of_money","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"7aba6795bd05ec180734676fbccd448c","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":165259,"title":"Time value of money","namespace":0,"categories":["Actuarial science","All articles needing additional references","Articles needing additional references from March 2008","Basic financial concepts","Money","Time-based economics"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Time_value_of_money skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Time value of money</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Time_value_of_money&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(March 2008)</i></small> </span></td>
+</tr>
+</table>
+<p>The <b>time value of money</b> is the value of money figuring in a given amount of <a href="Interest" title="Interest">interest</a> earned or <a href="Inflation" title="Inflation">inflation</a> accrued over a given amount of time. The ultimate principle suggests that a certain amount of money today has different buying power than the same amount of money in the future. This notion exists both because there is an opportunity to earn interest on the money and because inflation will drive prices up, thus changing the "value" of the money. The time value of money is the central concept in <b>finance theory.</b></p>
+<p>For example, $100 of today's money invested for one year and earning 5% interest will be worth $105 after one year. Therefore, $100 paid now or $105 paid exactly one year from now both have the same value to the recipient who assumes 5% interest; using <b>time value of money terminology</b>, $100 invested for one year at 5% interest has a <i>future value</i> of $105.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> This notion dates at least to <a href="Mart%C3%ADn_de_Azpilcueta" title="Martín de Azpilcueta">Martín de Azpilcueta</a> (1491–1586) of the <a href="School_of_Salamanca" title="School of Salamanca">School of Salamanca</a>.</p>
+<p>The method also allows the valuation of a likely stream of income in the future, in such a way that the annual incomes are <a href="Discounting" title="Discounting">discounted</a> and then added together, thus providing a lump-sum "present value" of the entire income stream.</p>
+<p>All of the standard calculations for time value of money derive from the most basic algebraic expression for the <a href="Present_value" title="Present value">present value</a> of a future sum, "<a href="Discounting" title="Discounting">discounted</a>" to the present by an amount equal to the time value of money. For example, a sum of <i>FV</i> to be received in one year is discounted (at the rate of interest <b>r</b>) to give a sum of <i>PV</i> at present: PV = FV − r<b>·</b>PV = FV/(1+r).</p>
+<p>Some standard calculations based on the time value of money are:</p>
+<dl>
+<dd><b><a href="Present_value" title="Present value">Present value</a></b> The current worth of a future sum of money or stream of <a href="Cash_flows" title="Cash flows" class="mw-redirect">cash flows</a> given a specified rate of return. Future cash flows are discounted at the discount rate, and the higher the discount rate, the lower the present value of the future cash flows. Determining the appropriate discount rate is the key to properly valuing future cash flows, whether they be earnings or obligations.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></dd>
+<dd><b>Present value of an <a href="Annuity_(finance_theory)" title="Annuity (finance theory)">annuity</a></b> An annuity is a series of equal payments or receipts that occur at evenly spaced intervals. Leases and rental payments are examples. The payments or receipts occur at the end of each period for an ordinary annuity while they occur at the beginning of each period for an annuity due.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></dd>
+<dd><b>Present value of a <a href="Perpetuity" title="Perpetuity">perpetuity</a></b> is an infinite and constant stream of identical cash flows.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></dd>
+</dl>
+<dl>
+<dd><b><a href="Future_value" title="Future value">Future value</a></b> is the value of an asset or cash at a specified date in the future that is equivalent in value to a specified sum today.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></dd>
+<dd><b>Future value of an annuity</b> (FVA) is the future value of a stream of payments (annuity), assuming the payments are invested at a given rate of interest.</dd>
+</dl>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Calculations"><span class="tocnumber">1</span> <span class="toctext">Calculations</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Formula"><span class="tocnumber">2</span> <span class="toctext">Formula</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Present_value_of_a_future_sum"><span class="tocnumber">2.1</span> <span class="toctext">Present value of a future sum</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Present_value_of_an_annuity_for_n_payment_periods"><span class="tocnumber">2.2</span> <span class="toctext">Present value of an annuity for n payment periods</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Present_value_of_a_growing_annuity"><span class="tocnumber">2.3</span> <span class="toctext">Present value of a growing annuity</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Present_value_of_a_perpetuity"><span class="tocnumber">2.4</span> <span class="toctext">Present value of a perpetuity</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Present_value_of_a_growing_perpetuity"><span class="tocnumber">2.5</span> <span class="toctext">Present value of a growing perpetuity</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Future_value_of_a_present_sum"><span class="tocnumber">2.6</span> <span class="toctext">Future value of a present sum</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Future_value_of_an_annuity"><span class="tocnumber">2.7</span> <span class="toctext">Future value of an annuity</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Future_value_of_a_growing_annuity"><span class="tocnumber">2.8</span> <span class="toctext">Future value of a growing annuity</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Derivations"><span class="tocnumber">3</span> <span class="toctext">Derivations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Annuity_derivation"><span class="tocnumber">3.1</span> <span class="toctext">Annuity derivation</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Perpetuity_derivation"><span class="tocnumber">3.2</span> <span class="toctext">Perpetuity derivation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Examples"><span class="tocnumber">4</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Example_1:_Present_value"><span class="tocnumber">4.1</span> <span class="toctext">Example 1: Present value</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Example_2:_Present_value_of_an_annuity_.E2.80.94_solving_for_the_payment_amount"><span class="tocnumber">4.2</span> <span class="toctext">Example 2: Present value of an annuity — solving for the payment amount</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Example_3:_Solving_for_the_period_needed_to_double_money"><span class="tocnumber">4.3</span> <span class="toctext">Example 3: Solving for the period needed to double money</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Example_4:_What_return_is_needed_to_double_money.3F"><span class="tocnumber">4.4</span> <span class="toctext">Example 4: What return is needed to double money?</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Example_5:_Calculate_the_value_of_a_regular_savings_deposit_in_the_future."><span class="tocnumber">4.5</span> <span class="toctext">Example 5: Calculate the value of a regular savings deposit in the future.</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#Example_6:_Price.2Fearnings_.28P.2FE.29_ratio"><span class="tocnumber">4.6</span> <span class="toctext">Example 6: Price/earnings (P/E) ratio</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Continuous_compounding"><span class="tocnumber">5</span> <span class="toctext">Continuous compounding</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Examples_2"><span class="tocnumber">5.1</span> <span class="toctext">Examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Differential_equations"><span class="tocnumber">6</span> <span class="toctext">Differential equations</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=1.php.html" title="Edit section: Calculations">edit</a>]</span> <span class="mw-headline" id="Calculations">Calculations</span></h2>
+<p>There are several basic equations that represent the equalities listed above. The solutions may be found using (in most cases) the formulas, a financial calculator or a <a href="Spreadsheet" title="Spreadsheet">spreadsheet</a>. The formulas are programmed into most financial calculators and several spreadsheet functions (such as PV, FV, RATE, NPER, and PMT).<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>For any of the equations below, the formula may also be rearranged to determine one of the other unknowns. In the case of the standard annuity formula, however, there is no closed-form algebraic solution for the interest rate (although financial calculators and spreadsheet programs can readily determine solutions through rapid trial and error algorithms).</p>
+<p>These equations are frequently combined for particular uses. For example, <a href="Bond_(finance)" title="Bond (finance)">bonds</a> can be readily priced using these equations. A typical coupon bond is composed of two types of payments: a stream of coupon payments similar to an annuity, and a lump-sum <a href="Return_of_capital" title="Return of capital">return of capital</a> at the end of the bond's <a href="Maturity_(finance)" title="Maturity (finance)">maturity</a> - that is, a future payment. The two formulas can be combined to determine the present value of the bond.</p>
+<p>An important note is that the interest rate <i>i</i> is the interest rate for the relevant period. For an annuity that makes one payment per year, <i>i</i> will be the annual interest rate. For an income or payment stream with a different payment schedule, the interest rate must be converted into the relevant periodic interest rate. For example, a monthly rate for a mortgage with monthly payments requires that the interest rate be divided by 12 (see the example below). See <a href="Compound_interest" title="Compound interest">compound interest</a> for details on converting between different periodic interest rates.</p>
+<p>The rate of return in the calculations can be either the variable solved for, or a predefined variable that measures a discount rate, interest, inflation, rate of return, cost of equity, cost of debt or any number of other analogous concepts. The choice of the appropriate rate is critical to the exercise, and the use of an incorrect discount rate will make the results meaningless.</p>
+<p>For calculations involving annuities, you must decide whether the payments are made at the end of each period (known as an ordinary annuity), or at the beginning of each period (known as an annuity due). If you are using a financial calculator or a <a href="Spreadsheet" title="Spreadsheet">spreadsheet</a>, you can usually set it for either calculation. The following formulas are for an ordinary annuity. If you want the answer for the Present Value of an annuity due simply multiply the PV of an ordinary annuity by (1 + <i>i</i>).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=2.php.html" title="Edit section: Formula">edit</a>]</span> <span class="mw-headline" id="Formula">Formula</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=3.php.html" title="Edit section: Present value of a future sum">edit</a>]</span> <span class="mw-headline" id="Present_value_of_a_future_sum">Present value of a future sum</span></h3>
+<p>The present value formula is the core formula for the time value of money; each of the other formulae is derived from this formula. For example, the annuity formula is the sum of a series of present value calculations.</p>
+<p>The <a href="Present_value" title="Present value">present value</a> (PV) formula has four variables, each of which can be solved for:</p>
+<dl>
+<dd><img class="tex" alt="  PV \ = \ \frac{FV}{(1+i)^n} " src="http://upload.wikimedia.org/math/7/2/1/721727a84aa678799f9dbfe6186842ac.png" /></dd>
+</dl>
+<ol>
+<li>PV is the value at time=0</li>
+<li>FV is the value at time=n</li>
+<li>i is the <a href="Discount_rate" title="Discount rate">discount rate</a>, or the interest rate at which the amount will be compounded each period</li>
+<li>n is the number of periods (not necessarily an integer)</li>
+</ol>
+<p>The cumulative <a href="Present_value" title="Present value">present value</a> of future cash flows can be calculated by summing the contributions of <i>FV<sub>t</sub></i>, the value of cash flow at time <i>t</i></p>
+<dl>
+<dd><img class="tex" alt="  PV \ = \ \sum_{t=0}^{n} \frac{FV_{t}}{(1+i)^t} " src="http://upload.wikimedia.org/math/7/2/d/72d8b4a9237527c1a496c5cb7d2433e0.png" /></dd>
+</dl>
+<p>Note that this series can be summed for a given value of <i>n</i>, or when <i>n</i> is ∞.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> This is a very general formula, which leads to several important special cases given below.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=4.php.html" title="Edit section: Present value of an annuity for n payment periods">edit</a>]</span> <span class="mw-headline" id="Present_value_of_an_annuity_for_n_payment_periods">Present value of an annuity for n payment periods</span></h3>
+<p>In this case the cash flow values remain the same throughout the n periods. The present value of an <a href="Annuity_(finance_theory)" title="Annuity (finance theory)">annuity</a> (PVA) formula has four variables, each of which can be solved for:</p>
+<dl>
+<dd><img class="tex" alt="PV(A) \,=\,\frac{A}{i} \cdot \left[ {1-\frac{1}{\left(1+i\right)^n}} \right] " src="http://upload.wikimedia.org/math/c/b/6/cb63bc7899b0197bc65963ea0fe6e2f3.png" /></dd>
+</dl>
+<ol>
+<li>PV(A) is the value of the annuity at time=0</li>
+<li>A is the value of the individual payments in each compounding period</li>
+<li>i equals the interest rate that would be compounded for each period of time</li>
+<li>n is the number of payment periods.</li>
+</ol>
+<p>To get the PV of an <a href="Annuity_(finance_theory)#Annuity-due" title="Annuity (finance theory)">annuity due</a>, multiply the above equation by (1 + <i>i</i>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=5.php.html" title="Edit section: Present value of a growing annuity">edit</a>]</span> <span class="mw-headline" id="Present_value_of_a_growing_annuity">Present value of a growing annuity</span></h3>
+<p>In this case each cash flow grows by a factor of (1+g). Similar to the formula for an annuity, the present value of a growing annuity (PVGA) uses the same variables with the addition of <i>g</i> as the rate of growth of the annuity (A is the annuity payment in the first period). This is a calculation that is rarely provided for on financial calculators.</p>
+<p><b>Where i ≠ g&#160;:</b></p>
+<dl>
+<dd><img class="tex" alt="PV\,=\,{A \over (i-g)}\left[ 1- \left({1+g \over 1+i}\right)^n \right] " src="http://upload.wikimedia.org/math/2/9/d/29def358b418103f96d8e8b50e016cfa.png" /></dd>
+</dl>
+<p>To get the PV of a growing <a href="Annuity_(finance_theory)#Annuity-due" title="Annuity (finance theory)">annuity due</a>, multiply the above equation by (1 + <i>i</i>).</p>
+<p><b>Where i = g&#160;:</b></p>
+<dl>
+<dd><img class="tex" alt="PV\,=\,{A*n \over 1+i} " src="http://upload.wikimedia.org/math/5/4/a/54abb90af7fde9d9c3b1d0948b243e49.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=6.php.html" title="Edit section: Present value of a perpetuity">edit</a>]</span> <span class="mw-headline" id="Present_value_of_a_perpetuity">Present value of a perpetuity</span></h3>
+<p>When <i>n</i> → ∞, the <i>PV</i> of a perpetuity (a perpetual annuity) formula becomes simple division.</p>
+<dl>
+<dd><img class="tex" alt="PV(P) \ = \ { A \over i } " src="http://upload.wikimedia.org/math/f/c/3/fc3442e48b1a36efbb7211007d783121.png" /></dd>
+</dl>
+<p><br />
+Present Value of Int Factor Annuity</p>
+<p>A=P(1+r/n)^nt</p>
+<p><br />
+Investment = 1000 Int 6.90% Compounded Qtrly (4 Times in Year) Tenure Yrs 5</p>
+<p>= 1000*(1+.069/4)^(5 yrs*4 qtrs in a year ) = 1000*(1+0.069/4)^20 = 1407.842172</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=7.php.html" title="Edit section: Present value of a growing perpetuity">edit</a>]</span> <span class="mw-headline" id="Present_value_of_a_growing_perpetuity">Present value of a growing perpetuity</span></h3>
+<p>When the perpetual annuity payment grows at a fixed rate (g) the value is theoretically determined according to the following formula. In practice, there are few securities with precise characteristics, and the application of this valuation approach is subject to various qualifications and modifications. Most importantly, it is rare to find a growing perpetual annuity with fixed rates of growth and true perpetual cash flow generation. Despite these qualifications, the general approach may be used in valuations of real estate, equities, and other assets.</p>
+<p><br />
+This is the well known <a href="Gordon_model" title="Gordon model" class="mw-redirect">Gordon Growth model</a> used for <a href="Stock_valuation" title="Stock valuation">stock valuation</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=8.php.html" title="Edit section: Future value of a present sum">edit</a>]</span> <span class="mw-headline" id="Future_value_of_a_present_sum">Future value of a present sum</span></h3>
+<p>The <a href="Future_value" title="Future value">future value</a> (FV) formula is similar and uses the same variables.</p>
+<dl>
+<dd><img class="tex" alt="  FV   \ = \  PV \cdot (1+i)^n " src="http://upload.wikimedia.org/math/c/b/4/cb4ee236bb8906b060e3861ec4ae15d7.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=9.php.html" title="Edit section: Future value of an annuity">edit</a>]</span> <span class="mw-headline" id="Future_value_of_an_annuity">Future value of an annuity</span></h3>
+<p>The future value of an <a href="Annuity_(finance_theory)" title="Annuity (finance theory)">annuity</a> (FVA) formula has four variables, each of which can be solved for:</p>
+<dl>
+<dd><img class="tex" alt="FV(A) \,=\,A\cdot\frac{\left(1+i\right)^n-1}{i}" src="http://upload.wikimedia.org/math/d/7/a/d7af15f8d99a97fe9253563e650ff97b.png" /></dd>
+</dl>
+<ol>
+<li><i>FV</i>(<i>A</i>) is the value of the annuity at time = <i>n</i></li>
+<li><i>A</i> is the value of the individual payments in each compounding period</li>
+<li><i>i</i> is the interest rate that would be compounded for each period of time</li>
+<li><i>n</i> is the number of payment periods</li>
+</ol>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=10.php.html" title="Edit section: Future value of a growing annuity">edit</a>]</span> <span class="mw-headline" id="Future_value_of_a_growing_annuity">Future value of a growing annuity</span></h3>
+<p>The future value of a growing annuity (FVA) formula has five variables, each of which can be solved for:</p>
+<p><b>Where i ≠ g&#160;:</b></p>
+<dl>
+<dd><img class="tex" alt="FV(A) \,=\,A\cdot\frac{\left(1+i\right)^n-\left(1+g\right)^n}{i-g}" src="http://upload.wikimedia.org/math/8/f/e/8fe5527dd2b20bb9285aeb526e7325a6.png" /></dd>
+</dl>
+<p><b>Where i = g&#160;:</b></p>
+<dl>
+<dd><img class="tex" alt="FV(A) \,=\,A\cdot n(1+i)^{n-1}" src="http://upload.wikimedia.org/math/a/3/4/a34aff190aa665c6a06babb7086844ac.png" /></dd>
+</dl>
+<ol>
+<li><i>FV</i>(<i>A</i>) is the value of the annuity at time = <i>n</i></li>
+<li><i>A</i> is the value of initial payment paid at time 1</li>
+<li><i>i</i> is the interest rate that would be compounded for each period of time</li>
+<li><i>g</i> is the growing rate that would be compounded for each period of time</li>
+<li><i>n</i> is the number of payment periods</li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=11.php.html" title="Edit section: Derivations">edit</a>]</span> <span class="mw-headline" id="Derivations">Derivations</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=12.php.html" title="Edit section: Annuity derivation">edit</a>]</span> <span class="mw-headline" id="Annuity_derivation">Annuity derivation</span></h3>
+<p>The formula for the present value of a regular stream of future payments (an annuity) is derived from a sum of the formula for future value of a single future payment, as below, where <i>C</i> is the payment amount and <i>n</i> the period.</p>
+<p>A single payment C at future time <i>m</i> has the following future value at future time <i>n</i>:</p>
+<dl>
+<dd><img class="tex" alt="FV \ = C(1+i)^{n-m}" src="http://upload.wikimedia.org/math/2/f/3/2f3c93d461d2b1506608ff9dfa5b2649.png" /></dd>
+</dl>
+<p>Summing over all payments from time 1 to time n, then reversing the order of terms and substituting <i>k</i> = <i>n</i> - <i>m</i>:</p>
+<dl>
+<dd><img class="tex" alt="FVA \ = \sum_{m=1}^n C(1+i)^{n-m} \ = \sum_{k=0}^{n-1} C(1+i)^k" src="http://upload.wikimedia.org/math/6/4/d/64dd78f6e82ae10fa03f0950a83b3e20.png" /></dd>
+</dl>
+<p>Note that this is a <a href="Geometric_series" title="Geometric series">geometric series</a>, with the initial value being <i>a</i> = <i>C</i>, the multiplicative factor being 1 + <i>i</i>, with <i>n</i> terms. Applying the formula for geometric series, we get</p>
+<dl>
+<dd><img class="tex" alt="FVA \ = \frac{ C ( 1 - (1+i)^n )}{1 - (1+i)} \ = \frac{ C ( 1 - (1+i)^n )}{-i} " src="http://upload.wikimedia.org/math/d/5/e/d5ed28f988fcafd39767d840cb3810c5.png" /></dd>
+</dl>
+<p>The present value of the annuity (PVA) is obtained by simply dividing by <img class="tex" alt="(1+i)^n" src="http://upload.wikimedia.org/math/2/5/4/254426a8418662a6445d5fb77315c5a7.png" />:</p>
+<dl>
+<dd><img class="tex" alt="PVA \ = \frac{FVA}{(1+i)^n} = \frac{C}{i} \left( 1 - \frac{1}{(1+i)^n} \right)" src="http://upload.wikimedia.org/math/5/3/b/53b34a2ecaacf2761e0ae41f6d10f35f.png" /></dd>
+</dl>
+<hr />
+<p>Another simple and intuitive way to derive the future value of an annuity is to consider an endowment, whose interest is paid as the annuity, and whose principal remains constant. The principal of this hypothetical endowment can be computed as that whose interest equals the annuity payment amount:</p>
+<dl>
+<dd><img class="tex" alt="\text{Principal} \times i = C" src="http://upload.wikimedia.org/math/4/e/7/4e7d0250c5a0e94edc90a8f33aa3d0ab.png" /></dd>
+<dd><img class="tex" alt="\text{Principal} = C / i" src="http://upload.wikimedia.org/math/8/d/2/8d274ed0c0520b446dcc3f8fd77a3c08.png" /> + goal</dd>
+</dl>
+<p>Note that no money enters or leaves the combined system of endowment principal + accumulated annuity payments, and thus the future value of this system can be computed simply via the future value formula:</p>
+<dl>
+<dd><img class="tex" alt="FV = PV(1+i)^n" src="http://upload.wikimedia.org/math/4/f/4/4f4b68caeaf017b7f944883ac6cfa485.png" /></dd>
+</dl>
+<p>Initially, before any payments, the present value of the system is just the endowment principal (<img class="tex" alt="PV = C/i" src="http://upload.wikimedia.org/math/9/2/9/929227fea3bad5178781bf3b88ab0807.png" />). At the end, the future value is the endowment principal (which is the same) plus the future value of the total annuity payments (<img class="tex" alt="FV = C/i + FVA" src="http://upload.wikimedia.org/math/7/0/7/7077d0d97119a52583e3a4ce5bb0dc88.png" />). Plugging this back into the equation:</p>
+<dl>
+<dd><img class="tex" alt="\frac{C}{i} + FVA = \frac{C}{i} (1+i)^n" src="http://upload.wikimedia.org/math/1/f/4/1f40de0975dd1ca9f1657757f8905d23.png" /></dd>
+<dd><img class="tex" alt="FVA = \frac{C}{i} \left[ \left(1+i \right)^n - 1 \right]" src="http://upload.wikimedia.org/math/b/7/7/b77200a8e5cc8c2ecaf2e0e915d90cb5.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=13.php.html" title="Edit section: Perpetuity derivation">edit</a>]</span> <span class="mw-headline" id="Perpetuity_derivation">Perpetuity derivation</span></h3>
+<p>Without showing the formal derivation here, the perpetuity formula is derived from the annuity formula. Specifically, the term:</p>
+<dl>
+<dd><img class="tex" alt=" \left({1 - {1 \over { (1+i)^n } }}\right) " src="http://upload.wikimedia.org/math/7/0/7/707ad8b2243c370fc3bf52f5f53448b6.png" /></dd>
+</dl>
+<p>can be seen to approach the value of 1 as <i>n</i> grows larger. At infinity, it is equal to 1, leaving <img class="tex" alt=" {C \over i} " src="http://upload.wikimedia.org/math/4/5/e/45e803bf38bf290bdfb26056fd71c3d8.png" /> as the only term remaining.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=14.php.html" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=15.php.html" title="Edit section: Example 1: Present value">edit</a>]</span> <span class="mw-headline" id="Example_1:_Present_value">Example 1: Present value</span></h3>
+<p>One hundred euros to be paid 1 year from now, where the expected rate of return is 5% per year, is worth in today's money:</p>
+<dl>
+<dd><img class="tex" alt=" P \  =  \   F \times (P/F)  \ = F \times \ { 1 \over (1+i)^n }  \ = \ \frac{\ 100}{1.05} \ = \  95.24" src="http://upload.wikimedia.org/math/a/e/0/ae0b0d6cf3eedcd03cab68ebf5c4f5a7.png" /></dd>
+</dl>
+<p>So the present value of €100 one year from now at 5% is €95.24.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=16.php.html" title="Edit section: Example 2: Present value of an annuity — solving for the payment amount">edit</a>]</span> <span class="mw-headline" id="Example_2:_Present_value_of_an_annuity_.E2.80.94_solving_for_the_payment_amount">Example 2: Present value of an annuity — solving for the payment amount</span></h3>
+<p>Consider a 10-year mortgage where the principal amount <i>P</i> is $200,000 and the annual interest rate is 6%.</p>
+<p>The number of monthly payments is</p>
+<dl>
+<dd><img class="tex" alt=" n = 10 {\rm \ years} \times 12 {\rm \ months \ per \ year} = 120 {\rm \ months}" src="http://upload.wikimedia.org/math/3/c/e/3ce2a8426c824b3f69341b8719b1c2c2.png" /></dd>
+</dl>
+<p>and the monthly interest rate is</p>
+<dl>
+<dd><img class="tex" alt=" i = { 6 {\rm \% \ per \ year} \over 12 {\rm \ months \ per \ year} } =  0.5 {\rm \% \ per \ month} " src="http://upload.wikimedia.org/math/e/9/4/e9469db786c08c6c75881f8e7d747cec.png" /></dd>
+</dl>
+<p>The <a href="Annuity_(finance_theory)#Proof" title="Annuity (finance theory)">annuity formula</a> for (<i>A</i>/<i>P</i>) calculates the monthly payment:</p>
+<dl>
+<dd><img class="tex" alt=" A \ = \ P \times \left( A / P  \right) \ = \ P \times {  i (1+i)^n \over (1+i)^n - 1   }
+\ = \ \$200,000 \times { 0.005(1.005)^{120}  \over (1.005)^{120} - 1 } " src="http://upload.wikimedia.org/math/d/1/2/d125ddbca9012931c25fd1991f249baa.png" /></dd>
+</dl>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" = \ \$200,000 \times 0.01110205 \ = \ \$2,220.41 {\rm \ per \ month} " src="http://upload.wikimedia.org/math/7/7/7/777ea9b4be1e039f5053049de206b91b.png" /></dd>
+</dl>
+</dd>
+</dl>
+<p>This is considering an interest rate compounding monthly. If the interest were only to compound yearly at 6%, the monthly payment would be significantly different.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=17.php.html" title="Edit section: Example 3: Solving for the period needed to double money">edit</a>]</span> <span class="mw-headline" id="Example_3:_Solving_for_the_period_needed_to_double_money">Example 3: Solving for the period needed to double money</span></h3>
+<p>Consider a deposit of $100 placed at 10% (annual). How many years are needed for the value of the deposit to double to $200?</p>
+<p>Using the algrebraic identity that if:</p>
+<dl>
+<dd><img class="tex" alt=" x \ = \ b^y " src="http://upload.wikimedia.org/math/8/9/f/89fda983cb5e3da159d1190dd14c4599.png" /></dd>
+</dl>
+<p>then</p>
+<dl>
+<dd><img class="tex" alt=" y \ = \ {\log (x) \over \log(b)} " src="http://upload.wikimedia.org/math/b/0/4/b04e368c4dd5940edae65658116cee28.png" /></dd>
+</dl>
+<p>The present value formula can be rearranged such that:</p>
+<dl>
+<dd><img class="tex" alt=" y \ = \ {\log ({FV \over PV}) \over \log (1+i)} \ = \  {\log ({200 \over 100}) \over \log (1.10)} \ =\ 7.27   " src="http://upload.wikimedia.org/math/a/d/3/ad3cb75b0fdeb55bf76620677595cb16.png" /> <i>(years)</i></dd>
+</dl>
+<p>This same method can be used to determine the length of time needed to increase a deposit to any particular sum, as long as the interest rate is known. For the period of time needed to double an investment, the <a href="Rule_of_72" title="Rule of 72">Rule of 72</a> is a useful shortcut that gives a reasonable approximation of the period needed.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=18.php.html" title="Edit section: Example 4: What return is needed to double money?">edit</a>]</span> <span class="mw-headline" id="Example_4:_What_return_is_needed_to_double_money.3F">Example 4: What return is needed to double money?</span></h3>
+<p>Similarly, the present value formula can be rearranged to determine what <a href="Rate_of_return" title="Rate of return">rate of return</a> is needed to accumulate a given amount from an investment. For example, $100 is invested today and $200 return is expected in five years; what rate of return (interest rate) does this represent?</p>
+<p>The present value formula restated in terms of the interest rate is:</p>
+<dl>
+<dd><img class="tex" alt=" i \ = \ \left({FV \over PV}\right)^{1 \over n} - 1 \ = \ \left({200 \over 100}\right)^{1 \over 5} - 1 \ = \ 2^{0.20} - 1 \ = \ 0.15 \ = \ 15% " src="http://upload.wikimedia.org/math/7/d/e/7de51d6a388e65f416142b1c10bf9dbc.png" /></dd>
+</dl>
+<dl>
+<dd>see also <a href="Rule_of_72" title="Rule of 72">Rule of 72</a></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=19.php.html" title="Edit section: Example 5: Calculate the value of a regular savings deposit in the future.">edit</a>]</span> <span class="mw-headline" id="Example_5:_Calculate_the_value_of_a_regular_savings_deposit_in_the_future.">Example 5: Calculate the value of a regular savings deposit in the future.</span></h3>
+<p>To calculate the future value of a stream of savings deposit in the future requires two steps, or, alternatively, combining the two steps into one large formula. First, calculate the present value of a stream of deposits of $1,000 every year for 20 years earning 7% interest:</p>
+<dl>
+<dd><img class="tex" alt="PVA \,=\,A\cdot\frac{1-\frac{1}{\left(1+i\right)^n}}{i} \ = \ 1000\cdot\frac{1-\frac{1}{\left(1+.07\right)^{20}}}{.07} \ = \ 1000\cdot {1- 0.258 \over .07} \ = \ 1000 * 10.594 \ = \ $10,594" src="http://upload.wikimedia.org/math/3/a/8/3a896590c0f38bd27cc9257c6240518b.png" /></dd>
+</dl>
+<p>This does not sound like very much, but remember - this is <i>future money</i> discounted back to its value <i>today</i>; it is understandably lower. To calculate the future value (at the end of the twenty-year period):</p>
+<dl>
+<dd><img class="tex" alt="  FV   \ = \  PV  (1+i)^n \ = \ $10,594 * (1+.07)^{20} \ = \ $10,594 * 3.87 \ = \ $40,995 " src="http://upload.wikimedia.org/math/8/c/5/8c5b2c48fe7c0c9ba851aac9edee5abc.png" /></dd>
+</dl>
+<p>These steps can be combined into a single formula:</p>
+<dl>
+<dd><img class="tex" alt="FV \,=\,A\cdot\frac{1-\frac{1}{\left(1+i\right)^n}}{i} \cdot (1+i)^n \,=\,A\cdot\frac{\left(1+i\right)^n-1}{i}" src="http://upload.wikimedia.org/math/f/0/1/f013d1fa36f7b6fdfe9ab7adebcd2351.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=20.php.html" title="Edit section: Example 6: Price/earnings (P/E) ratio">edit</a>]</span> <span class="mw-headline" id="Example_6:_Price.2Fearnings_.28P.2FE.29_ratio">Example 6: Price/earnings (P/E) ratio</span></h3>
+<p>It is often mentioned that perpetuities, or securities with an indefinitely long maturity, are rare or unrealistic, and particularly those with a growing payment. In fact, many types of assets have characteristics that are similar to perpetuities. Examples might include income-oriented real estate, preferred shares, and even most forms of publicly traded stocks. Frequently, the terminology may be slightly different, but are based on the fundamentals of time value of money calculations. The application of this methodology is subject to various qualifications or modifications, such as the <a href="Gordon_model" title="Gordon model" class="mw-redirect">Gordon growth model</a>.</p>
+<p>For example, stocks are commonly noted as trading at a certain <a href="P/E_ratio" title="P/E ratio" class="mw-redirect">P/E ratio</a>. The P/E ratio is easily recognized as a variation on the perpetuity or growing perpetuity formulae - save that the P/E ratio is usually cited as the <i>inverse</i> of the "rate" in the perpetuity formula.</p>
+<p>If we substitute for the time being: the <i>price</i> of the stock for the present value; the <a href="Earnings_per_share" title="Earnings per share">earnings per share</a> of the stock for the cash annuity; and, the discount rate of the stock for the interest rate, we can see that:</p>
+<dl>
+<dd><img class="tex" alt="  {P \over E}  \ = \ {1 \over i} \ = \ {PV \over A } " src="http://upload.wikimedia.org/math/7/9/7/79780e1a2c9aba5f7a15a92d6cc26794.png" /></dd>
+</dl>
+<p>And in fact, the P/E ratio is analogous to the inverse of the interest rate (or discount rate).</p>
+<dl>
+<dd><img class="tex" alt=" { 1 \over P/E } \ = \ i " src="http://upload.wikimedia.org/math/8/9/b/89bfc8dd65d43b21353a8147c64c8f51.png" /></dd>
+</dl>
+<p>Of course, stocks may have increasing earnings. The formulation above does not allow for growth in earnings, but to incorporate growth, the formula can be restated as follows:</p>
+<dl>
+<dd><img class="tex" alt=" { P \over E } \ = \ {1 \over (i-g)}" src="http://upload.wikimedia.org/math/b/a/c/baca3cb34d298b5ffef82370608394c0.png" /></dd>
+</dl>
+<p>If we wish to determine the implied rate of growth (if we are given the discount rate), we may solve for <i>g</i>:</p>
+<dl>
+<dd><img class="tex" alt=" g \ = \ i - {E \over P}" src="http://upload.wikimedia.org/math/4/7/c/47cac3046f543be2ce5dd0665292b5af.png" /></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=21.php.html" title="Edit section: Continuous compounding">edit</a>]</span> <span class="mw-headline" id="Continuous_compounding">Continuous compounding</span></h2>
+<p>Rates are sometimes converted into the <a href="Continuous_compounding" title="Continuous compounding" class="mw-redirect">continuous compound interest</a> rate equivalent because the continuous equivalent is more convenient (for example, more easily differentiated). Each of the formulæ above may be restated in their continuous equivalents. For example, the present value at time 0 of a future payment at time <b>t</b> can be restated in the following way, where <b><a href="E_(mathematical_constant)" title="E (mathematical constant)">e</a></b> is the base of the <a href="Natural_logarithm" title="Natural logarithm">natural logarithm</a> and <b>r</b> is the continuously compounded rate:</p>
+<dl>
+<dd><img class="tex" alt=" \text{PV}  = \text{FV}\cdot e^{-rt} " src="http://upload.wikimedia.org/math/3/8/a/38a3a901c2363c9dd3b53ac2eefc984a.png" /></dd>
+</dl>
+<p>This can be generalized to discount rates that vary over time: instead of a constant discount rate <i>r,</i> one uses a function of time <i>r</i>(<i>t</i>). In that case the discount factor, and thus the present value, of a cash flow at time <i>T</i> is given by the <a href="Integral" title="Integral">integral</a> of the continuously compounded rate <i>r</i>(<i>t</i>):</p>
+<dl>
+<dd><img class="tex" alt=" \text{PV}  = \text{FV}\cdot \exp\left(-\int_0^T r(t)\,dt\right)" src="http://upload.wikimedia.org/math/9/b/5/9b5af6888f2dfd68c0605985ca6e91b3.png" /></dd>
+</dl>
+<p>Indeed, a key reason for using continuous compounding is to simplify the analysis of varying discount rates and to allow one to use the tools of calculus. Further, for interest accrued and capitalized overnight (hence compounded daily), continuous compounding is a close approximation for the actual daily compounding. More sophisticated analysis includes the use of <a href="#Differential_equations">differential equations</a>, as detailed below.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=22.php.html" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples_2">Examples</span></h3>
+<p>Using continuous compounding yields the following formulas for various instruments:</p>
+<dl>
+<dt>Annuity</dt>
+<dd><img class="tex" alt=" \ PV \ = \ {A(1-e^{-rt}) \over e^r -1}" src="http://upload.wikimedia.org/math/3/e/9/3e9a447c98d7b23346ff2738e25c5ba9.png" /></dd>
+<dt>Perpetuity</dt>
+<dd><img class="tex" alt=" \ PV  \ = \  {A \over e^r - 1} " src="http://upload.wikimedia.org/math/a/8/6/a863ce8902333b36e8421e9757786410.png" /></dd>
+<dt>Growing annuity</dt>
+<dd><img class="tex" alt=" \ PV  \ = \  {Ae^{-g}(1-e^{-(r-g)t}) \over e^{(r-g)} - 1} " src="http://upload.wikimedia.org/math/a/4/7/a4700c63939e0f245fedd529aa6e8f59.png" /></dd>
+<dt>Growing perpetuity</dt>
+<dd><img class="tex" alt=" \ PV  \ = \  {Ae^{-g} \over e^{(r-g)} - 1} " src="http://upload.wikimedia.org/math/5/0/c/50cdc688077db896f12d90f61a1e6017.png" /></dd>
+<dt>Annuity with continuous payments</dt>
+<dd><img class="tex" alt=" \ PV  \ = \  { 1 - e^{(-rt)} \over r } " src="http://upload.wikimedia.org/math/3/c/a/3cab6d2edf68846de6d87476c4fc9a28.png" /></dd>
+</dl>
+<p>These formulas assume that payment A is made in the first payment period and annuity ends at time t.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=23.php.html" title="Edit section: Differential equations">edit</a>]</span> <span class="mw-headline" id="Differential_equations">Differential equations</span></h2>
+<p><a href="Ordinary_differential_equation" title="Ordinary differential equation">Ordinary</a> and <a href="Partial_differential_equation" title="Partial differential equation">partial</a> <a href="Differential_equation" title="Differential equation">differential equations</a> (ODEs and PDEs) – equations involving derivatives and one (respectively, multiple) variables are ubiquitous in more advanced treatments of <a href="Financial_mathematics" title="Financial mathematics" class="mw-redirect">financial mathematics</a>. While time value of money can be understood without using the framework of differential equations, the added sophistication sheds additional light on time value, and provides a simple introduction before considering more complicated and less familiar situations. This exposition follows (<a href="#CITEREFCarrFlesaker2006">Carr &amp; Flesaker 2006</a>, pp. 6–7).</p>
+<p>The fundamental change that the differential equation perspective brings is that, rather than computing a <i>number</i> (the present value <i>now</i>), one computes a <i>function</i> (the present value now or at any point in <i>future</i>). This function may then be analyzed – how does its value change over time – or compared with other functions.</p>
+<p>Formally, the statement that "value decreases over time" is given by defining the <a href="Linear_differential_operator" title="Linear differential operator" class="mw-redirect">linear differential operator</a> <img class="tex" alt="\mathcal{L}" src="http://upload.wikimedia.org/math/f/6/4/f641723788f91d4c5298143486635c80.png" /> as:</p>
+<dl>
+<dd><img class="tex" alt="\mathcal{L}&#160;:= -\partial_t + r(t)." src="http://upload.wikimedia.org/math/0/6/7/067e61bcbaf04f57bb441dd0b518f130.png" /></dd>
+</dl>
+<p>This states that values decreases (−) over time (∂<sub><i>t</i></sub>) at the discount rate (<i>r</i>(<i>t</i>)). Applied to a function it yields:</p>
+<dl>
+<dd><img class="tex" alt="\mathcal{L} f = -\partial_t f(t) + r(t) f(t)." src="http://upload.wikimedia.org/math/6/c/a/6ca603b8e8f7aca6916337c708c8b4ac.png" /></dd>
+</dl>
+<p>For an instrument whose payment stream is described by <i>f</i>(<i>t</i>), the value <i>V</i>(<i>t</i>) satisfies the <a href="Inhomogeneous_differential_equation" title="Inhomogeneous differential equation" class="mw-redirect">inhomogeneous</a> <a href="First-order_differential_equation" title="First-order differential equation" class="mw-redirect">first-order ODE</a> <img class="tex" alt="\mathcal{L}V = f" src="http://upload.wikimedia.org/math/3/7/8/378922b0b29d22e999714059c3e42b4a.png" /> ("inhomogeneous" is because one has <i>f</i> rather than 0, and "first-order" is because one has first derivatives but no higher derivatives) – this encodes the fact that when any cash flow occurs, the value of the instrument changes by the value of the cash flow (if you receive a $10 coupon, the remaining value decreases by exactly $10).</p>
+<p>The standard technique tool in the analysis of ODEs is the use of <a href="Green's_function" title="Green's function">Green's functions</a>, from which other solutions can be built. In terms of time value of money, the Green's function (for the time value ODE) is the value of a bond paying $1 at a single point in time <i>u</i> – the value of any other stream of cash flows can then be obtained by taking combinations of this basic cash flow. In mathematical terms, this instantaneous cash flow is modeled as a <a href="Delta_function" title="Delta function">delta function</a> <img class="tex" alt="\delta_u(t)&#160;:= \delta(t-u)." src="http://upload.wikimedia.org/math/3/6/2/362b32f48c887c84a25adf3e88bcf7d8.png" /></p>
+<p>The Green's function for the value at time <i>t</i> of a $1 cash flow at time <i>u</i> is</p>
+<dl>
+<dd><img class="tex" alt="b(t;u)&#160;:= H(u-t)\cdot \exp\left(-\int_t^u r(v)\,dv\right)" src="http://upload.wikimedia.org/math/8/f/0/8f0bd3cd8ccce0b87ed38d9896741317.png" /></dd>
+</dl>
+<p>where <i>H</i> is the <a href="Heaviside_step_function" title="Heaviside step function">Heaviside step function</a> – the notation "<img class="tex" alt=";u" src="http://upload.wikimedia.org/math/0/b/1/0b1d4e7ae17a043fb95588eae39ea20a.png" />" is to emphasize that <i>u</i> is a <i>parameter</i> (fixed in any instance – the time when the cash flow will occur), while <i>t</i> is a <i>variable</i> (time). In other words, future cash flows are exponentially discounted (exp) by the sum (integral, <img class="tex" alt="\textstyle{\int}" src="http://upload.wikimedia.org/math/2/5/1/251be8987f2f3106b6563d254e85c303.png" />) of the future discount rates (<img class="tex" alt="\textstyle{\int_t^u}" src="http://upload.wikimedia.org/math/1/d/5/1d5cc6a9b784bacea1998d5ac0e067a1.png" /> for future, <i>r</i>(<i>v</i>) for discount rates), while past cash flows are worth 0 (<img class="tex" alt="H(u-t) = 1 \text{ if } t &lt; u, 0 \text{ if } t &gt; u" src="http://upload.wikimedia.org/math/f/6/f/f6f09e3019613b2626fbb522560a40be.png" />), because they have already occurred. Note that the value <i>at</i> the moment of a cash flow is not well-defined – there is a discontinuity at that point, and one can use a convention (assume cash flows have already occurred, or not already occurred), or simply not define the value at that point.</p>
+<p>In case the discount rate is constant, <img class="tex" alt="r(v) \equiv r," src="http://upload.wikimedia.org/math/7/3/e/73e5eeea416bb6ae35ac04540a775b57.png" /> this simplifies to</p>
+<dl>
+<dd><img class="tex" alt="b(t;u) = H(u-t)\cdot e^{-(u-t)r} = \begin{cases} e^{-(u-t) r} &amp; t &lt; u\\ 0 &amp; t &gt; u,\end{cases}" src="http://upload.wikimedia.org/math/5/8/c/58cd50184f4045542ac84c06de2ffeb6.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="(u-t)" src="http://upload.wikimedia.org/math/4/2/e/42e17e5f9213a2d8c39c640e873bfba4.png" /> is "time remaining until cash flow".</p>
+<p>Thus for a stream of cash flows <i>f</i>(<i>u</i>) ending by time <i>T</i> (which can be set to <img class="tex" alt="T = +\infty" src="http://upload.wikimedia.org/math/5/0/2/5025da240040344923416519279f7666.png" /> for no time horizon) the value at time <i>t,</i> <img class="tex" alt="V(t;T)" src="http://upload.wikimedia.org/math/d/4/b/d4b23f63a9835eeb7a4de8f1b4e16cca.png" /> is given by combining the values of these individual cash flows:</p>
+<dl>
+<dd><img class="tex" alt="V(t;T) = \int_t^T f(u) b(t;u)\,du." src="http://upload.wikimedia.org/math/1/7/9/179f87f6e305471d35b1d1519b015ad7.png" /></dd>
+</dl>
+<p>This formalizes time value of money to future values of cash flows with varying discount rates, and is the basis of many formulas in financial mathematics, such as the <a href="Black%E2%80%93Scholes_formula" title="Black–Scholes formula" class="mw-redirect">Black–Scholes formula</a> with <a href="Black%E2%80%93Scholes#Interest_rate_curve" title="Black–Scholes">varying interest rates</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=24.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Actuarial_science" title="Actuarial science">Actuarial science</a></li>
+<li><a href="Net_present_value" title="Net present value">Net present value</a></li>
+<li><a href="Option_time_value" title="Option time value">Option time value</a></li>
+<li><a href="Discounting" title="Discounting">Discounting</a></li>
+<li><a href="Discounted_cash_flow" title="Discounted cash flow">Discounted cash flow</a></li>
+<li><a href="Exponential_growth" title="Exponential growth">Exponential growth</a></li>
+<li><a href="Hyperbolic_discounting" title="Hyperbolic discounting">Hyperbolic discounting</a></li>
+<li><a href="Internal_rate_of_return" title="Internal rate of return">Internal rate of return</a></li>
+<li><a href="Perpetuity" title="Perpetuity">Perpetuity</a></li>
+<li><a href="Real_versus_nominal_value_(economics)" title="Real versus nominal value (economics)">Real versus nominal value (economics)</a></li>
+<li><a href="Time_preference" title="Time preference">Time preference</a></li>
+<li><a href="Earnings_growth" title="Earnings growth">Earnings growth</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=25.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.investopedia.com/articles/03/082703.asp">http://www.investopedia.com/articles/03/082703.asp</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.investopedia.com/terms/p/presentvalue.asp">http://www.investopedia.com/terms/p/presentvalue.asp</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.getobjects.com/Components/Finance/TVM/pva.html">http://www.getobjects.com/Components/Finance/TVM/pva.html</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.investopedia.com/terms/p/perpetuity.asp">http://www.investopedia.com/terms/p/perpetuity.asp</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.investopedia.com/terms/f/futurevalue.asp">http://www.investopedia.com/terms/f/futurevalue.asp</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Hovey, M. (2005). Spreadsheet Modelling for Finance. Frenchs Forest, N.S.W.: Pearson Education Australia.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://mathworld.wolfram.com/GeometricSeries.html">http://mathworld.wolfram.com/GeometricSeries.html</a> Geometric Series</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://baselineeducation.blogspot.co.uk/2012/10/annuities-and-perpetuities-with.html">http://baselineeducation.blogspot.co.uk/2012/10/annuities-and-perpetuities-with.html</a></span></li>
+</ol>
+</div>
+<div class="refbegin" style="">
+<ul>
+<li><span class="citation" id="CITEREFCarrFlesaker2006">Carr, Peter; Flesaker, Bjorn (2006), <a rel="nofollow" class="external text" href="http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_slides.pdf"><i>Robust Replication of Default Contingent Claims (presentation slides)</i></a>, <a href="Bloomberg_LP" title="Bloomberg LP" class="mw-redirect">Bloomberg LP</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_slides.pdf">http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_slides.pdf</a></span>. See also <a rel="nofollow" class="external text" href="http://www.fields.utoronto.ca/audio/06-07/finance_seminar/flesaker/">Audio Presentation</a> and <a rel="nofollow" class="external text" href="http://www.usc.edu/schools/business/FBE/seminars/papers/FMath_10-17-06_CARR_RRDCC3.pdf">paper</a>.</span></li>
+<li>Crosson, S.V., and Needles, B.E.(2008). Managerial Accounting (8th Ed). Boston: Houghton Mifflin Company.</li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Time_value_of_money&action=edit&section=26.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.money-zine.com/Calculators/Retirement-Calculators/Present-Value-Annuity-Calculator/">Present Value Annuity Calculator</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.investopedia.com/calculator/AnnuityFV.aspx">Future Value of an Annuity</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.farsightsoft.com/financial-calculator/time-value-of-money.html">Time Value of Money Calculator by Farsight Calculator</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.studyfinance.com/lessons/timevalue/index.mv">Time Value of Money hosted by the University of Arizona</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.swlearning.com/finance/brigham/ifm8e/web_chapters/webchapter28.pdf">Time Value of Money Ebook</a></li>
+<li><a rel="nofollow" class="external text" href="http://data.bls.gov/cgi-bin/cpicalc.pl">Inflation calculator</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";background:#ee9;" class="navbox-title" colspan="3">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Time_topics" title="Template:Time topics"><span title="View this template" style=";background:#ee9;;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Time_topics" title="Template talk:Time topics"><span title="Discuss this template" style=";background:#ee9;;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Time_topics&action=edit.php.html"><span title="Edit this template" style=";background:#ee9;;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Time" title="Time">Time</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;">Key concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Past" title="Past">Past</a>
+<ul>
+<li><a href="History" title="History">history</a></li>
+<li><a href="Deep_time" title="Deep time">deep time</a></li>
+</ul>
+</li>
+<li><a href="Present" title="Present">Present</a></li>
+<li><a href="Future" title="Future">Future</a>
+<ul>
+<li><a href="Futures_studies" title="Futures studies">futurology</a></li>
+</ul>
+</li>
+<li><a href="Eternity" title="Eternity">Eternity</a>
+<ul>
+<li><a href="Arguments_for_eternity" title="Arguments for eternity">arguments for</a></li>
+</ul>
+</li>
+<li><a href="Immortality" title="Immortality">Immortality</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" style="width:0%;padding:0px 0px 0px 2px;" rowspan="15">
+<div><a href="http://en.wikipedia.org/wiki/File:Wooden_hourglass_3.jpg" class="image" title="Wooden hourglass"><img alt="Wooden hourglass" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wooden_hourglass_3.jpg/76px-Wooden_hourglass_3.jpg" width="76" height="154" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wooden_hourglass_3.jpg/114px-Wooden_hourglass_3.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wooden_hourglass_3.jpg/152px-Wooden_hourglass_3.jpg 2x" /></a><br />
+<a href="http://en.wikipedia.org/wiki/File:Portal-puzzle.svg" class="image" title="Portal:Time"><img alt="Portal:Time" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" /></a>&#160;<b><a href="Portal_Time" title="Portal:Time">Time portal</a></b></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;">
+<div style="padding:0.1em 0;line-height:1.2em;">Measurement and<br />
+<a href="Time_standard" title="Time standard">standards</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";width:7.4em;padding-left:0em;padding-right:0em;font-weight:normal;background:#dd9;;">
+<div style="padding:0em 0.75em;"><a href="Chronometry" title="Chronometry">Chronometry</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><b><a href="Coordinated_Universal_Time" title="Coordinated Universal Time">UTC</a></b></li>
+<li><a href="Universal_Time" title="Universal Time">UT</a></li>
+<li><a href="International_Atomic_Time" title="International Atomic Time">TAI</a></li>
+<li><a href="Unit_of_time" title="Unit of time">Unit of time</a></li>
+<li><a href="Hour" title="Hour">Hour</a></li>
+<li><a href="Minute" title="Minute">Minute</a></li>
+<li><b><a href="Second" title="Second">Second</a></b></li>
+<li><a href="Sidereal_time" title="Sidereal time">Sidereal time</a></li>
+<li><a href="Solar_time" title="Solar time">Solar time</a></li>
+<li><a href="Time_zone" title="Time zone">Time zone</a></li>
+<li><a href="Metric_time" title="Metric time">Metric time</a></li>
+<li><a href="Decimal_time" title="Decimal time">Decimal time</a></li>
+<li><a href="Hexadecimal_time" title="Hexadecimal time">Hexadecimal time</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";width:7.4em;padding-left:0em;padding-right:0em;font-weight:normal;background:#dd9;;">
+<div style="padding:0em 0.75em;"><a href="Clock" title="Clock">Clock</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="12-hour_clock" title="12-hour clock">12-hour clock</a></li>
+<li><a href="24-hour_clock" title="24-hour clock">24-hour clock</a></li>
+<li><a href="Astrarium" title="Astrarium">Astrarium</a></li>
+<li><a href="History_of_timekeeping_devices" title="History of timekeeping devices">History of timekeeping devices</a></li>
+<li><a href="Horology" title="Horology">Horology</a></li>
+<li><a href="Marine_chronometer" title="Marine chronometer">Marine chronometer</a></li>
+<li><a href="Sundial" title="Sundial">Sundial</a></li>
+<li><a href="Water_clock" title="Water clock">Water clock</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";width:7.4em;padding-left:0em;padding-right:0em;font-weight:normal;background:#dd9;;">
+<div style="padding:0em 0.75em;"><a href="Calendar" title="Calendar">Calendar</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Day" title="Day">Day</a></li>
+<li><a href="Week" title="Week">Week</a></li>
+<li><a href="Month" title="Month">Month</a></li>
+<li><a href="Year" title="Year">Year</a></li>
+<li><a href="Tropical_year" title="Tropical year">Tropical year</a></li>
+<li><a href="Decade" title="Decade">Decade</a></li>
+<li><a href="Century" title="Century">Century</a></li>
+<li><a href="Millennium" title="Millennium">Millennium</a></li>
+<li><a href="Gregorian_calendar" title="Gregorian calendar">Gregorian</a></li>
+<li><a href="Islamic_calendar" title="Islamic calendar">Islamic</a></li>
+<li><a href="Julian_calendar" title="Julian calendar">Julian</a></li>
+<li><a href="Solar_Hijri" title="Solar Hijri" class="mw-redirect">Solar Hijri</a></li>
+<li><a href="Maya_calendar" title="Maya calendar">Mayan</a></li>
+<li><a href="Intercalation_(timekeeping)" title="Intercalation (timekeeping)">Intercalation</a></li>
+<li><a href="Leap_second" title="Leap second">Leap second</a></li>
+<li><a href="Leap_year" title="Leap year">Leap year</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Chronology" title="Chronology">Chronology</a>&#160;/ <a href="History" title="History">history</a>&#160;/ archaeology&#160;/ geology</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Astronomical_chronology" title="Astronomical chronology">Astronomical chronology</a>&#160;&#160;/ &#160;<a href="Calendar_era" title="Calendar era">Calendar era</a></li>
+<li><a href="Chronicle" title="Chronicle">Chronicle</a></li>
+<li><a href="Timeline" title="Timeline">Timeline</a></li>
+<li><a href="Periodization" title="Periodization">Periodization</a></li>
+<li><a href="Regnal_year" title="Regnal year">Regnal year</a></li>
+<li><a href="Big_History" title="Big History">Big History</a>&#160;&#160;/ &#160;<a href="Dating_methodologies_in_archaeology" title="Dating methodologies in archaeology">Dating methodologies</a>&#160;&#160;/ &#160;<a href="Geologic_time_scale" title="Geologic time scale">Geological time</a></li>
+<li><a href="Geochronology" title="Geochronology">Geochronology</a></li>
+<li><a href="Geological_history_of_Earth" title="Geological history of Earth">Geological history</a></li>
+<li><a href="Deep_time" title="Deep time">Deep time</a></li>
+<li><a href="Eon_(geology)" title="Eon (geology)" class="mw-redirect">Eon</a></li>
+<li><a href="Era_(geology)" title="Era (geology)">Era</a></li>
+<li><a href="Period_(geology)" title="Period (geology)">Period</a></li>
+<li><a href="Epoch_(geology)" title="Epoch (geology)">Epoch</a></li>
+<li><a href="Age_(geology)" title="Age (geology)">Age</a></li>
+<li><a href="Chron" title="Chron" class="mw-redirect">Chron</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;">Religion and mythology</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dreamtime" title="Dreamtime">Dreamtime</a></li>
+<li><a href="K%C4%81la_(time)" title="Kāla (time)">Kāla</a></li>
+<li><a href="Kalachakra" title="Kalachakra">Kalachakra</a></li>
+<li><a href="Prophecy" title="Prophecy">Prophecy</a></li>
+<li><a href="Time_and_fate_deities" title="Time and fate deities">Time and fate deities</a></li>
+<li><a href="Wheel_of_time" title="Wheel of time">Wheel of time</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;"><a href="Philosophy_of_space_and_time" title="Philosophy of space and time">Philosophy</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="A-series_and_B-series" title="A-series and B-series">A-series and B-series</a></li>
+<li><a href="B-theory_of_time" title="B-theory of time">B-theory of time</a></li>
+<li><a href="Causality" title="Causality">Causality</a></li>
+<li><a href="Duration_(philosophy)" title="Duration (philosophy)">Duration</a></li>
+<li><a href="Endurantism" title="Endurantism">Endurantism</a></li>
+<li><a href="Eternal_return" title="Eternal return">Eternal return</a></li>
+<li><a href="Eternalism_(philosophy_of_time)" title="Eternalism (philosophy of time)">Eternalism</a></li>
+<li><a href="Event_(philosophy)" title="Event (philosophy)">Event</a></li>
+<li><a href="Perdurantism" title="Perdurantism">Perdurantism</a></li>
+<li><a href="Presentism_(philosophy_of_time)" title="Presentism (philosophy of time)">Presentism</a></li>
+<li><a href="Temporal_finitism" title="Temporal finitism">Temporal finitism</a></li>
+<li><a href="Temporal_parts" title="Temporal parts">Temporal parts</a></li>
+<li><i><a href="The_Unreality_of_Time" title="The Unreality of Time">The Unreality of Time</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;"><a href="Time_in_physics" title="Time in physics">Physics</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Absolute_time_and_space" title="Absolute time and space">Absolute time and space</a></li>
+<li><a href="Arrow_of_time" title="Arrow of time">Arrow of time</a></li>
+<li><a href="Chronon" title="Chronon">Chronon</a></li>
+<li><a href="Coordinate_time" title="Coordinate time">Coordinate time</a></li>
+<li><a href="Planck_epoch" title="Planck epoch">Planck epoch</a></li>
+<li><a href="Planck_time" title="Planck time">Planck time</a></li>
+<li><a href="Proper_time" title="Proper time">Proper time</a></li>
+<li><a href="Rate_(mathematics)" title="Rate (mathematics)">Rate</a></li>
+<li><a href="Spacetime" title="Spacetime">Spacetime</a></li>
+<li><a href="Theory_of_relativity" title="Theory of relativity">Theory of relativity</a></li>
+<li><a href="Time_dilation" title="Time dilation">Time dilation</a>
+<ul>
+<li><a href="Gravitational_time_dilation" title="Gravitational time dilation">gravitational</a></li>
+</ul>
+</li>
+<li><a href="Time_domain" title="Time domain">Time domain</a></li>
+<li><a href="T-symmetry" title="T-symmetry">T-symmetry</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;">
+<div style="padding:0.1em 0;line-height:1.2em;">Biology&#160;/ psychology&#160;/ sociology&#160;/<br />
+economics&#160;/ accounting&#160;/ management</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Chronobiology" title="Chronobiology">Chronobiology</a></li>
+<li><a href="Circadian_rhythm" title="Circadian rhythm">Circadian rhythms</a>&#160;&#160;/ &#160;<a href="Mental_chronometry" title="Mental chronometry">Mental chronometry</a></li>
+<li><a href="Specious_present" title="Specious present">Specious present</a></li>
+<li><a href="Time_perception" title="Time perception">Time perception</a>&#160;&#160;/ &#160;<a href="Time_discipline" title="Time discipline">Time discipline</a>&#160;&#160;/ &#160;<a href="Time_use_research" title="Time use research">Time use research</a></li>
+<li><strong class="selflink">Time value of money</strong></li>
+<li><a href="Time-based_currency" title="Time-based currency">Time-based currency</a></li>
+<li><a href="Time_banking" title="Time banking">Time banking</a></li>
+<li><a href="Term_(time)" title="Term (time)">Term</a>&#160;&#160;/ &#160;<a href="Accounting_period" title="Accounting period">Accounting period</a></li>
+<li><a href="Fiscal_year" title="Fiscal year">Fiscal year</a>&#160;&#160;/ &#160;<a href="Time_management" title="Time management">Time management</a></li>
+<li><a href="Punctuality" title="Punctuality">Punctuality</a></li>
+<li><a href="Procrastination" title="Procrastination">Procrastination</a></li>
+<li><a href="Time_clock" title="Time clock">Time clock</a></li>
+<li><a href="Timesheet" title="Timesheet">Timesheet</a></li>
+<li><a href="Time_tracking_software" title="Time tracking software">Time tracking software</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";background:#dd9;;">Related topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="Carpe_diem" title="Carpe diem">Carpe diem</a></i></li>
+<li><a href="Clock_position" title="Clock position">Clock position</a></li>
+<li><a href="Space" title="Space">Space</a></li>
+<li><a href="System_time" title="System time">System time</a></li>
+<li><i><a href="Tempus_fugit" title="Tempus fugit">Tempus fugit</a></i></li>
+<li><a href="Time_capsule" title="Time capsule">Time capsule</a></li>
+<li><a href="Time_signature" title="Time signature">Time signature</a></li>
+<li><a href="Time_travel" title="Time travel">Time travel</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 3060/1000000
+Preprocessor generated node count: 29581/1500000
+Post-expand include size: 46612/2048000 bytes
+Template argument size: 24681/2048000 bytes
+Highest expansion depth: 17/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:165259-0!0!0!!en!4!* and timestamp 20130213223027 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Time_value_of_money&oldid=538117310.php.html">http://en.wikipedia.org/w/index.php?title=Time_value_of_money&amp;oldid=538117310</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Actuarial_science" title="Category:Actuarial science">Actuarial science</a></li><li><a href="Category_Basic_financial_concepts" title="Category:Basic financial concepts">Basic financial concepts</a></li><li><a href="Category_Money" title="Category:Money">Money</a></li><li><a href="Category_Time-based_economics" title="Category:Time-based economics">Time-based economics</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_needing_additional_references_from_March_2008" title="Category:Articles needing additional references from March 2008">Articles needing additional references from March 2008</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Time+value+of+money&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Time+value+of+money.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Time_value_of_money"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Time_value_of_money&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Time_value_of_money&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Time_value_of_money" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Time_value_of_money" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Time_value_of_money&oldid=538117310.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Time_value_of_money&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Time_value_of_money&id=538117310.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Time+value+of+money.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Time+value+of+money&oldid=538117310&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Time_value_of_money&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%82%D9%8A%D9%85%D8%A9_%D9%88%D9%82%D8%AA%D9%8A%D8%A9_%D9%84%D9%84%D9%86%D9%82%D9%88%D8%AF" title="قيمة وقتية للنقود" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/%C4%8Casov%C3%A1_hodnota_pen%C4%9Bz" title="Časová hodnota peněz" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Zeitwert_des_Geldes" title="Zeitwert des Geldes" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%A7%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE_%CE%B1%CE%BE%CE%AF%CE%B1_%CF%84%CE%BF%CF%85_%CF%87%CF%81%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82" title="Χρονική αξία του χρήματος" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Valor_tiempo_del_dinero" title="Valor tiempo del dinero" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Valeur_temps_de_l'argent" title="Valeur temps de l'argent" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Pinig%C5%B3_kaina_laike" title="Pinigų kaina laike" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Nilai_masa_wang" title="Nilai masa wang" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Tijdswaarde_van_geld" title="Tijdswaarde van geld" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Pengers_tidsverdi" title="Pengers tidsverdi" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C_%D0%B4%D0%B5%D0%BD%D0%B5%D0%B3_%D1%81_%D1%83%D1%87%D1%91%D1%82%D0%BE%D0%BC_%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8" title="Стоимость денег с учётом фактора времени" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/%C4%8Casov%C3%A1_hodnota_pe%C5%88az%C3%AD" title="Časová hodnota peňazí" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E9%87%91%E9%8C%A2%E7%9A%84%E6%99%82%E9%96%93%E5%83%B9%E5%80%BC" title="金錢的時間價值" lang="zh" hreflang="zh">中文</a></li>
+			<li class="wbc-editpage"><a href="http://www.wikidata.org/wiki/Special:ItemByTitle/enwiki/Time%20value%20of%20money" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 22:30.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Time_value_of_money" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1101 in 0.138 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

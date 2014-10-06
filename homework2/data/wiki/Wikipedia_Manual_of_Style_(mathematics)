@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wikipedia:Manual of Style/Mathematics - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf7" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="canonical" href="Wikipedia_Manual_of_Style/Mathematics" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.geshi.local%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:Manual_of_Style/Mathematics","wgTitle":"Manual of Style/Mathematics","wgCurRevisionId":534407715,"wgArticleId":1412568,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["WikiProject Mathematics","Wikipedia how-to","Wikipedia Manual of Style (science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:Manual_of_Style/Mathematics","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Wikipedia:Manual_of_Style_(mathematics)","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"ff0297ae250238c9e7a782f89d90f14a","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":1412568,"title":"Wikipedia:Manual of Style/Mathematics","namespace":4,"categories":["WikiProject Mathematics","Wikipedia Manual of Style (science)","Wikipedia how-to"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-haskell {line-height: normal;}
+.source-haskell li, .source-haskell pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for haskell
+ * CSS class: source-haskell, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.haskell.source-haskell .de1, .haskell.source-haskell .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.haskell.source-haskell  {font-family:monospace;}
+.haskell.source-haskell .imp {font-weight: bold; color: red;}
+.haskell.source-haskell li, .haskell.source-haskell .li1 {font-weight: normal; vertical-align:top;}
+.haskell.source-haskell .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.haskell.source-haskell .li2 {font-weight: bold; vertical-align:top;}
+.haskell.source-haskell .kw1 {color: #06c; font-weight: bold;}
+.haskell.source-haskell .kw2 {color: #06c; font-weight: bold;}
+.haskell.source-haskell .kw3 {font-weight: bold;}
+.haskell.source-haskell .kw4 {color: #cccc00; font-weight: bold;}
+.haskell.source-haskell .kw5 {color: maroon;}
+.haskell.source-haskell .co1 {color: #5d478b; font-style: italic;}
+.haskell.source-haskell .co2 {color: #339933; font-weight: bold;}
+.haskell.source-haskell .co3 {color: #5d478b; font-style: italic;}
+.haskell.source-haskell .coMULTI {color: #5d478b; font-style: italic;}
+.haskell.source-haskell .es0 {background-color: #3cb371; font-weight: bold;}
+.haskell.source-haskell .br0 {color: green;}
+.haskell.source-haskell .sy0 {color: #339933; font-weight: bold;}
+.haskell.source-haskell .st0 {background-color: #3cb371;}
+.haskell.source-haskell .nu0 {color: red;}
+.haskell.source-haskell .me1 {color: #060;}
+.haskell.source-haskell .ln-xtra, .haskell.source-haskell li.ln-xtra, .haskell.source-haskell div.ln-xtra {background-color: #ffc;}
+.haskell.source-haskell span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf7/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-4 ns-subject page-Wikipedia_Manual_of_Style_Mathematics skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wikipedia:Manual of Style/Mathematics</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"><span class="subpages">&lt; <a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">Wikipedia:Manual of Style</a></span>  (Redirected from <a href="../../w/index-title=Wikipedia_Manual_of_Style_(mathematics)&redirect=no.php.html" title="Wikipedia:Manual of Style (mathematics)">Wikipedia:Manual of Style (mathematics)</a>)</div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="plainlinks ombox ombox-notice" style="">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Blue_check.svg/30px-Blue_check.svg.png" width="30" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Blue_check.svg/45px-Blue_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Blue_check.svg/60px-Blue_check.svg.png 2x" /></td>
+<td class="mbox-text" style=""><b>This <a href="Wikipedia_Policies_and_guidelines#guide" title="Wikipedia:Policies and guidelines">guideline</a> is a part of the English Wikipedia's <a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">Manual of Style</a></b>. <a href="Wikipedia_What_%22Ignore_all_rules%22_means#Use_common_sense" title="Wikipedia:What &quot;Ignore all rules&quot; means">Use common sense</a> in applying it; it will have <a href="Wikipedia_Ignore_all_rules" title="Wikipedia:Ignore all rules">occasional exceptions</a>. Please ensure that any <a href="Wikipedia_Policies_and_guidelines#Content_changes" title="Wikipedia:Policies and guidelines">edits to this page</a> reflect <a href="Wikipedia_Consensus" title="Wikipedia:Consensus">consensus</a>.</td>
+<td class="mbox-imageright">
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: 0; padding: 1px; text-align: center; line-height: 1.1em">
+<tr>
+<th style="border: none; background: transparent;"><span id="WP:MSM"></span><span id="MOS:MATH"></span><span id="MOS:MATHS"></span><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcuts</a>:<br />
+<a href="Wikipedia_MSM" title="Wikipedia:MSM" class="mw-redirect">WP:MSM</a><br />
+<a href="MOS_MATH" title="MOS:MATH" class="mw-redirect">MOS:MATH</a><br />
+<a href="MOS_MATHS" title="MOS:MATHS" class="mw-redirect">MOS:MATHS</a></small></th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="vertical-navbox nowraplinks hlist" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">Manual of Style</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;">
+<div style="margin-left: auto; margin-right: auto; text-align: center; background-color:transparent">
+<form name="searchbox" id="searchbox" class="searchbox" action="/wiki/Special:Search">
+<p><input class="searchboxInput" name="search" type="text" value="" placeholder="" size="25" dir="ltr" /><input name="prefix" type="hidden" value="Wikipedia:Manual of Style" /> <input type="submit" name="fulltext" class="searchboxSearchButton" value="Search the MoS" /><input type="hidden" value="Search" name="fulltext" /></p>
+</form>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(content)" title="Category:Wikipedia Manual of Style (content)">Content</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Accessibility" title="Wikipedia:Manual of Style/Accessibility">Accessibility</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Article_message_boxes" title="Wikipedia:Manual of Style/Article message boxes">Article message boxes</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Biographies" title="Wikipedia:Manual of Style/Biographies">Biographies</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Disambiguation_pages" title="Wikipedia:Manual of Style/Disambiguation pages">Disambiguation pages</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Infoboxes" title="Wikipedia:Manual of Style/Infoboxes">Infoboxes</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Linking" title="Wikipedia:Manual of Style/Linking">Linking</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Self-references_to_avoid" title="Wikipedia:Manual of Style/Self-references to avoid">Self-references</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Words_to_watch" title="Wikipedia:Manual of Style/Words to watch">Words to watch</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(formatting)" title="Category:Wikipedia Manual of Style (formatting)">Formatting</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Abbreviations" title="Wikipedia:Manual of Style/Abbreviations">Abbreviations</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Capital_letters" title="Wikipedia:Manual of Style/Capital letters">Capitalization</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Dates_and_numbers" title="Wikipedia:Manual of Style/Dates and numbers">Dates and numbers</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Pronunciation" title="Wikipedia:Manual of Style/Pronunciation">Pronunciation</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Proper_names" title="Wikipedia:Manual of Style/Proper names">Proper names</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Spelling" title="Wikipedia:Manual of Style/Spelling">Spelling</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Text_formatting" title="Wikipedia:Manual of Style/Text formatting">Text formatting</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Titles" title="Wikipedia:Manual of Style/Titles">Titles</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(images)" title="Category:Wikipedia Manual of Style (images)">Images</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Captions" title="Wikipedia:Manual of Style/Captions">Captions</a></li>
+<li><a href="Wikipedia_Galleries" title="Wikipedia:Galleries" class="mw-redirect">Galleries</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Icons" title="Wikipedia:Manual of Style/Icons">Icons</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Images" title="Wikipedia:Manual of Style/Images">Images</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(layout)" title="Category:Wikipedia Manual of Style (layout)">Layout</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Layout" title="Wikipedia:Manual of Style/Layout">Layout</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Lead_section" title="Wikipedia:Manual of Style/Lead section">Lead section</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Tables" title="Wikipedia:Manual of Style/Tables">Tables</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Trivia_sections" title="Wikipedia:Manual of Style/Trivia sections">Trivia sections</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(lists)" title="Category:Wikipedia Manual of Style (lists)">Lists</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Embedded_lists" title="Wikipedia:Manual of Style/Embedded lists">Embedded lists</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Lists" title="Wikipedia:Manual of Style/Lists">Lists</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Lists_of_works" title="Wikipedia:Manual of Style/Lists of works">Lists of works</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Road_junction_lists" title="Wikipedia:Manual of Style/Road junction lists">Road junctions</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Stand-alone_lists" title="Wikipedia:Manual of Style/Stand-alone lists">Stand-alone lists</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(legal)" title="Category:Wikipedia Manual of Style (legal)">Legal</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Legal" title="Wikipedia:Manual of Style/Legal">Legal</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Trademarks" title="Wikipedia:Manual of Style/Trademarks">Trademarks</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(arts)" title="Category:Wikipedia Manual of Style (arts)">Arts topics</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Anime-_and_manga-related_articles" title="Wikipedia:Manual of Style/Anime- and manga-related articles">Anime &amp; Manga</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Comics" title="Wikipedia:Manual of Style/Comics">Comics</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Film" title="Wikipedia:Manual of Style/Film">Film</a></li>
+<li><a href="Wikipedia_Lyrics_and_poetry" title="Wikipedia:Lyrics and poetry">Lyrics and Poetry</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Novels" title="Wikipedia:Manual of Style/Novels">Novels</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Television" title="Wikipedia:Manual of Style/Television">Television</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Visual_arts" title="Wikipedia:Manual of Style/Visual arts">Visual arts</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Writing_about_fiction" title="Wikipedia:Manual of Style/Writing about fiction">Writing about fiction</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(music)" title="Category:Wikipedia Manual of Style (music)">Music topics</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Music" title="Wikipedia:Manual of Style/Music">Music</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Music_samples" title="Wikipedia:Manual of Style/Music samples">Music samples</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Record_charts" title="Wikipedia:Manual of Style/Record charts">Record charts</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(regional)" title="Category:Wikipedia Manual of Style (regional)">Regional topics</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Canada-related_articles" title="Wikipedia:Manual of Style/Canada-related articles">Canada</a></li>
+<li><a href="Wikipedia_Manual_of_Style/China-related_articles" title="Wikipedia:Manual of Style/China-related articles">China</a></li>
+<li><a href="Wikipedia_Manual_of_Style/France_&_French-related" title="Wikipedia:Manual of Style/France &amp; French-related" class="mw-redirect">France</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Hawaii-related_articles" title="Wikipedia:Manual of Style/Hawaii-related articles">Hawaii</a></li>
+<li><a href="Wikipedia_Manual_of_Style/India-related_articles" title="Wikipedia:Manual of Style/India-related articles">India</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Ireland-related_articles" title="Wikipedia:Manual of Style/Ireland-related articles">Ireland</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Japan-related_articles" title="Wikipedia:Manual of Style/Japan-related articles">Japan</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Korea-related_articles" title="Wikipedia:Manual of Style/Korea-related articles">Korea</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Philippine-related_articles" title="Wikipedia:Manual of Style/Philippine-related articles">Philippines</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Poland-related_articles" title="Wikipedia:Manual of Style/Poland-related articles">Poland</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Singapore-related_articles" title="Wikipedia:Manual of Style/Singapore-related articles">Singapore</a></li>
+<li><a href="Wikipedia_Trinidad_and_Tobago_Wikipedians'_notice_board/Style_guide" title="Wikipedia:Trinidad and Tobago Wikipedians' notice board/Style guide">Trinidad and Tobago</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(religion)" title="Category:Wikipedia Manual of Style (religion)">Religion topics</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Islam-related_articles" title="Wikipedia:Manual of Style/Islam-related articles">Islam</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Latter_Day_Saints" title="Wikipedia:Manual of Style/Latter Day Saints">Latter Day Saints</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(science)" title="Category:Wikipedia Manual of Style (science)">Science topics</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Chemistry" title="Wikipedia:Manual of Style/Chemistry">Chemistry</a></li>
+<li><a href="Wikipedia_WikiProject_Computer_science/Manual_of_style" title="Wikipedia:WikiProject Computer science/Manual of style">Computer science</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Computing" title="Wikipedia:Manual of Style/Computing">Computing</a></li>
+<li><strong class="selflink">Mathematics</strong></li>
+<li><a href="Wikipedia_Manual_of_Style/Medicine-related_articles" title="Wikipedia:Manual of Style/Medicine-related articles">Medicine</a></li>
+<li><a href="Template_Taxobox/doc" title="Template:Taxobox/doc">Taxonomy</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="Category_Wikipedia_Manual_of_Style_(sports)" title="Category:Wikipedia Manual of Style (sports)">Sports topics</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Manual_of_Style/Cue_sports" title="Wikipedia:Manual of Style/Cue sports">Cue sports</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Snooker" title="Wikipedia:Manual of Style/Snooker">Snooker</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; border-bottom: #aaa 1px solid;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Related guidelines</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Wikipedia_Article_size" title="Wikipedia:Article size">Article size</a></li>
+<li><a href="Wikipedia_Article_titles" title="Wikipedia:Article titles">Article titles</a></li>
+<li><a href="Wikipedia_Categories,_lists,_and_navigation_templates" title="Wikipedia:Categories, lists, and navigation templates">Categories, lists, and navigation templates</a></li>
+<li><a href="Wikipedia_Categorization" title="Wikipedia:Categorization">Categorization</a></li>
+<li><a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">Citing sources</a></li>
+<li><a href="Wikipedia_Hatnote" title="Wikipedia:Hatnote">Hatnotes</a></li>
+<li><a href="Wikipedia_Manual_of_Style/Military_history" title="Wikipedia:Manual of Style/Military history">Military history</a></li>
+<li><a href="Wikipedia_Signatures" title="Wikipedia:Signatures">Signatures</a></li>
+<li><a href="Wikipedia_Subpages" title="Wikipedia:Subpages">Subpages</a></li>
+<li><a href="Wikipedia_Talk_page_guidelines" title="Wikipedia:Talk page guidelines">Talk page guidelines</a></li>
+<li><a href="Wikipedia_Template_namespace" title="Wikipedia:Template namespace">Template namespace</a></li>
+<li><a href="Wikipedia_User_pages" title="Wikipedia:User pages">User pages</a></li>
+<li><a href="Wikipedia_Wikimedia_sister_projects" title="Wikipedia:Wikimedia sister projects">Wikimedia sister projects</a></li>
+<li><a href="Wikipedia_WikiProject_Council/Guide" title="Wikipedia:WikiProject Council/Guide">WikiProjects</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Style" title="Template:Style"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Style" title="Template talk:Style"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Style&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>This subpage of the <a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">Manual of Style</a> contains guidelines for writing and editing clear, encyclopedic, attractive, and interesting articles on <a href="Mathematics" title="Mathematics">mathematics</a>. For matters of style not treated on this subpage, follow the main Manual of Style and its other subpages to achieve consistency of style throughout Wikipedia.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Suggested_structure_of_a_mathematics_article"><span class="tocnumber">1</span> <span class="toctext">Suggested structure of a mathematics article</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Article_introduction"><span class="tocnumber">1.1</span> <span class="toctext">Article introduction</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Article_body"><span class="tocnumber">1.2</span> <span class="toctext">Article body</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Concluding_matters"><span class="tocnumber">1.3</span> <span class="toctext">Concluding matters</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Writing_style_in_mathematics"><span class="tocnumber">2</span> <span class="toctext">Writing style in mathematics</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Mathematical_conventions"><span class="tocnumber">3</span> <span class="toctext">Mathematical conventions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Terminology_conventions"><span class="tocnumber">3.1</span> <span class="toctext">Terminology conventions</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="#Natural_numbers"><span class="tocnumber">3.1.1</span> <span class="toctext">Natural numbers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="#Notational_conventions"><span class="tocnumber">3.2</span> <span class="toctext">Notational conventions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Proofs"><span class="tocnumber">4</span> <span class="toctext">Proofs</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Algorithms"><span class="tocnumber">5</span> <span class="toctext">Algorithms</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Including_literature_and_references"><span class="tocnumber">6</span> <span class="toctext">Including literature and references</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Typesetting_of_mathematical_formulae"><span class="tocnumber">7</span> <span class="toctext">Typesetting of mathematical formulae</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Using_LaTeX_markup"><span class="tocnumber">7.1</span> <span class="toctext">Using LaTeX markup</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#Deprecated_formatting"><span class="tocnumber">7.1.1</span> <span class="toctext">Deprecated formatting</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Alt_text"><span class="tocnumber">7.1.2</span> <span class="toctext">Alt text</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-17"><a href="#Using_HTML"><span class="tocnumber">7.2</span> <span class="toctext">Using HTML</span></a>
+<ul>
+<li class="toclevel-3 tocsection-18"><a href="#Font_formatting"><span class="tocnumber">7.2.1</span> <span class="toctext">Font formatting</span></a>
+<ul>
+<li class="toclevel-4 tocsection-19"><a href="#Variables"><span class="tocnumber">7.2.1.1</span> <span class="toctext">Variables</span></a></li>
+<li class="toclevel-4 tocsection-20"><a href="#Functions"><span class="tocnumber">7.2.1.2</span> <span class="toctext">Functions</span></a></li>
+<li class="toclevel-4 tocsection-21"><a href="#Sets"><span class="tocnumber">7.2.1.3</span> <span class="toctext">Sets</span></a></li>
+<li class="toclevel-4 tocsection-22"><a href="#Greek_letters"><span class="tocnumber">7.2.1.4</span> <span class="toctext">Greek letters</span></a></li>
+<li class="toclevel-4 tocsection-23"><a href="#Common_sets_of_numbers"><span class="tocnumber">7.2.1.5</span> <span class="toctext">Common sets of numbers</span></a></li>
+<li class="toclevel-4 tocsection-24"><a href="#Superscripts_and_subscripts"><span class="tocnumber">7.2.1.6</span> <span class="toctext">Superscripts and subscripts</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-25"><a href="#Special_symbols"><span class="tocnumber">7.2.2</span> <span class="toctext">Special symbols</span></a></li>
+<li class="toclevel-3 tocsection-26"><a href="#Less-than_sign"><span class="tocnumber">7.2.3</span> <span class="toctext">Less-than sign</span></a></li>
+<li class="toclevel-3 tocsection-27"><a href="#Multiplication_sign"><span class="tocnumber">7.2.4</span> <span class="toctext">Multiplication sign</span></a></li>
+<li class="toclevel-3 tocsection-28"><a href="#Minus_sign"><span class="tocnumber">7.2.5</span> <span class="toctext">Minus sign</span></a></li>
+<li class="toclevel-3 tocsection-29"><a href="#Square_brackets"><span class="tocnumber">7.2.6</span> <span class="toctext">Square brackets</span></a></li>
+<li class="toclevel-3 tocsection-30"><a href="#Function_symbol"><span class="tocnumber">7.2.7</span> <span class="toctext">Function symbol</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-31"><a href="#Explanation_of_symbols_in_formulae"><span class="tocnumber">7.3</span> <span class="toctext">Explanation of symbols in formulae</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Punctuation_after_formulae"><span class="tocnumber">7.4</span> <span class="toctext">Punctuation after formulae</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#Choice_of_type_style"><span class="tocnumber">7.5</span> <span class="toctext">Choice of type style</span></a>
+<ul>
+<li class="toclevel-3 tocsection-34"><a href="#Blackboard_bold"><span class="tocnumber">7.5.1</span> <span class="toctext">Blackboard bold</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-35"><a href="#Fractions"><span class="tocnumber">7.6</span> <span class="toctext">Fractions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-36"><a href="#Graphs_and_diagrams"><span class="tocnumber">8</span> <span class="toctext">Graphs and diagrams</span></a></li>
+<li class="toclevel-1 tocsection-37"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-38"><a href="#Help_for_those_writing_a_formula"><span class="tocnumber">9.1</span> <span class="toctext">Help for those writing a formula</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#General_information"><span class="tocnumber">9.2</span> <span class="toctext">General information</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-40"><a href="#Notes"><span class="tocnumber">10</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-41"><a href="#Further_reading"><span class="tocnumber">11</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=1.php.html" title="Edit section: Suggested structure of a mathematics article">edit</a>]</span> <span class="mw-headline" id="Suggested_structure_of_a_mathematics_article">Suggested structure of a mathematics article</span></h2>
+<p>Probably the hardest part of writing a mathematical article (actually, <i>any</i> article) is the difficulty of addressing the level of mathematical knowledge on the part of the reader. For example, when writing about a <a href="Field_(algebra)" title="Field (algebra)" class="mw-redirect">field</a>, do we assume that the reader already knows <a href="Group_(mathematics)" title="Group (mathematics)">group theory</a>? A general approach is to start simple, then move toward more abstract and technical statements as the article proceeds.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=2.php.html" title="Edit section: Article introduction">edit</a>]</span> <span class="mw-headline" id="Article_introduction">Article introduction</span></h3>
+<div class="rellink boilerplate seealso">See also: <a href="Wikipedia_Manual_of_Style_(lead_section)" title="Wikipedia:Manual of Style (lead section)" class="mw-redirect">WP:Manual of Style (lead section)</a></div>
+<p>The article should start with a short introductory section (often referred to as the <b>lead</b>). The purpose of this section is to describe, define, and give context to the subject of the article, to establish why it is interesting or useful, and to summarize the most important points. The lead should as far as possible be accessible to a general reader, so specialized terminology and symbols should be avoided as much as possible.</p>
+<p>In general, the lead sentence should include the <b>article title</b> in bold along with alternative names, establish context by linking to a more general subject, and informally define or describe the subject. For example:</p>
+<blockquote>
+<p><b>Topology</b> (from the <a href="Greek_language" title="Greek language">Greek</a> τόπος, “place”, and λόγος, “study”) is a major area of <a href="Mathematics" title="Mathematics">mathematics</a> concerned with spatial properties that are preserved under <a href="Continuous_function" title="Continuous function">continuous</a> deformations of objects, for example, deformations that involve stretching, but no tearing or gluing.</p>
+</blockquote>
+<blockquote>
+<p>In <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean plane geometry</a>, <b>Apollonius' problem</b> is to construct <a href="Circle" title="Circle">circles</a> that are <a href="Tangent#Geometry" title="Tangent">tangent</a> to three given circles in a plane.</p>
+</blockquote>
+<p>The lead section should include, where appropriate:</p>
+<ul>
+<li>Historical motivation, including names and dates, especially if the article does not have a separate History section. Explain the origin of the name if it is not self-evident.</li>
+<li>An <i>informal introduction</i> to the topic, without rigor, suitable for a general audience. (The appropriate audience for the overview will vary by article, but it should be as basic as reasonable.) The informal introduction should clearly state that it is informal, and that it is only stated to introduce the formal and correct approach. If a physical or geometric analogy or diagram will help, use one: many of the readers may be non-mathematical scientists.</li>
+<li><i>Motivation</i> or <i>applications</i>, which can illuminate the use of the mathematical idea and its connections to other areas of mathematics.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=3.php.html" title="Edit section: Article body">edit</a>]</span> <span class="mw-headline" id="Article_body">Article body</span></h3>
+<p>If you want to introduce some <i>notation</i>, it should be in its own section. You should remember that not everyone understands that, for example, <i>x</i>^<i>n</i> or <i>x</i>**<i>n</i> mean <i>x<sup>n</sup>;</i> so it is good to use standard notation if you can. If you need to use non-standard notations, or if you introduce new notations, define them in your article.</p>
+<p>There should be an <i>exact definition</i>, in mathematical terms; often in a <i>Definition(s)</i> section, for example:</p>
+<blockquote>
+<p>Let <i>S</i> and <i>T</i> be topological spaces, and let <i>f</i> be a <a href="Computer_programming" title="Computer programming">function</a> from <i>S</i> to <i>T</i>. Then <i>f</i> is called <i>continuous</i> <a href="Iff" title="Iff" class="mw-redirect">if</a>, <a href="For_every" title="For every" class="mw-redirect">for every</a> open set <i>O</i> in <i>T</i>, the <a href="Preimage" title="Preimage" class="mw-redirect">preimage</a> <i>f</i>&#160;<sup>−1</sup>(<i>O</i>) is an open set in <i>S</i>.</p>
+</blockquote>
+<p>Using the term <i>formal</i> definition may seem rather empty to a mathematician (a formal definition is a mathematician's definition, as a formal proof is just a proof); but it may help to flag where the actual definition is to be found, after some sections of motivation. (Cf. <a href="Rigged_Hilbert_space" title="Rigged Hilbert space">rigged Hilbert space</a>.)</p>
+<p>Some representative <i>examples</i> would be nice to have, in a separate section, which could serve to both expand on the definition, and also provide some context as to <i>why</i> one might want to use the defined entity. You might also want to list non-examples—things which come close to satisfying the definition but do not—in order to refine the reader's intuition more precisely. It is important to remember when composing examples, however, that the purpose of an encyclopedia is to <i>inform</i> rather than <i>instruct</i> (see <a href="Wikipedia_NOTTEXTBOOK" title="Wikipedia:NOTTEXTBOOK" class="mw-redirect">WP:NOTTEXTBOOK</a>). Examples should therefore strive to maintain an <a href="Wikipedia_TONE" title="Wikipedia:TONE" class="mw-redirect">encyclopedic tone</a>, and should be <i>informative</i> rather than merely <i>instructional</i>.</p>
+<p>A picture is a great way of bringing a point home, and often it could even precede the mathematical discussion of a concept. <a href="Wikipedia_How_to_create_graphs_for_Wikipedia_articles" title="Wikipedia:How to create graphs for Wikipedia articles" class="mw-redirect">How to create graphs for Wikipedia articles</a> has some hints on how to create graphs and other pictures, and how to include them in articles.</p>
+<p>A person editing a mathematics article should not fall into the temptation that "this formula says it all". A non-mathematical reader will skip the formulae in most cases, and often a mathematician reading outside her or his research area will do the same. Careful thought should be given to each formula included, and words should be used instead if possible. In particular, the English words "for all", "exists", and "in" should be preferred to the ∀, ∃, and ∈ symbols. Similarly, highlight definitions with words such as "is defined by" in the text.</p>
+<p>If not included in the introductory paragraph, a section about the <i>history</i> of the concept is often useful and can provide additional insight and motivation.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=4.php.html" title="Edit section: Concluding matters">edit</a>]</span> <span class="mw-headline" id="Concluding_matters">Concluding matters</span></h3>
+<p>Most mathematical ideas are amenable to some form of <i>generalization</i>. If appropriate, such material can be put under a <i>Generalizations</i> section. As an example, multiplication of the rational numbers can be generalized to other fields, etc.</p>
+<p>It is good to have a <i>see also</i> section, which connects to related subjects, or to pages which could provide more insight into the contents of the current article.</p>
+<p>Lastly, a well-written and complete article should have a references section. This topic will be discussed in detail <a href="#Including_literature_and_references">below</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=5.php.html" title="Edit section: Writing style in mathematics">edit</a>]</span> <span class="mw-headline" id="Writing_style_in_mathematics">Writing style in mathematics</span></h2>
+<p>There are several issues of writing style that are particularly relevant in mathematical writing.</p>
+<ul>
+<li>In the interest of clarity, sentences should not begin with a symbol. Here are some examples of what <i>not</i> to do:</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li>Suppose that <i>G</i> is a group. <i>G</i> can be decomposed into cosets, as follows.</li>
+<li>Let <i>H</i> be the corresponding subgroup of <i>G</i>. <i>H</i> is then finite.</li>
+</ul>
+</dd>
+<dd>Instead, one could write this:
+<ul>
+<li>A group <i>G</i> may be decomposed into cosets as follows.</li>
+<li>Let <i>H</i> be the corresponding subgroup of <i>G</i>. Then <i>H</i> must be finite.</li>
+</ul>
+</dd>
+</dl>
+<ul>
+<li>Mathematics articles are often written in a conversational style, as if a lecture is being presented to the reader, and the article is taking the place of the lecturer's whiteboard. However, an article that "speaks" to the reader runs counter to the ideal encyclopedic tone of most Wikipedia articles. Article authors should avoid referring to "we" or addressing the reader directly. While opinions vary on how far this guideline should be taken in mathematics articles—an encyclopedic tone can make advanced mathematical topics more difficult to learn—authors should try to strike a balance between simply presenting facts and formulae, and relying too much on directing the reader or using such clichés as
+<ul>
+<li>"Note that…" / "It should be noted that…"</li>
+<li>"It must be mentioned that…" / "It must be emphasized that…"</li>
+<li>"Consider that…"</li>
+<li>"We see that…"</li>
+</ul>
+</li>
+</ul>
+<dl>
+<dd>and so on. Such introductory phrases are often unnecessary and can be omitted without affecting semantics. Rather than repeatedly attempting to draw the reader's attention to crucial pieces of information that have been appended almost as an afterthought, try to reorganize and rephrase the material such that crucial information comes first. There also should be no doubt as to the reader's willingness to continue reading and taking note of whatever information is presented; the reader does not need to be implored to take note of each thing being pointed out.</dd>
+</dl>
+<ul>
+<li>The articles should be accessible, as much as possible, to readers not already familiar with the subject matter. Notations that are not entirely standard should be properly introduced and explained. Whenever a variable or other symbol is defined in a formula, make sure that it is clear that this is a definition introducing a notation, and not, for example, just another equation. Also identify the nature of the entity being defined. So don't write this:</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li>Multiplying <i>M</i> by <i>u</i> = <i>v</i> − <i>v</i><sub>0</sub>, ...</li>
+</ul>
+</dd>
+<dd>Instead, write:
+<ul>
+<li>Multiplying <i>M</i> by the vector <i>u</i> defined by <i>u</i> = <i>v</i> − <i>v</i><sub>0</sub>, ...</li>
+</ul>
+</dd>
+<dd>In definitions, the symbol "=" is preferred over "≡" or "<b>:</b>=".</dd>
+</dl>
+<ul>
+<li>When defining a term, do not use the phrase "if and only if". For example, instead of</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li>A function <i>f</i> is <i>even</i> if and only if <img class="tex" alt="f(-x)=f(x)" src="http://upload.wikimedia.org/math/0/2/9/0298fd6e24050ab6f0879313f0f565a4.png" /> for all <i>x</i></li>
+</ul>
+</dd>
+<dd>write
+<ul>
+<li>A function <i>f</i> is <i>even</i> if <img class="tex" alt="f(-x)=f(x)" src="http://upload.wikimedia.org/math/0/2/9/0298fd6e24050ab6f0879313f0f565a4.png" /> for all <i>x</i>.</li>
+</ul>
+</dd>
+<dd>If it is reasonable to do so, rephrase the sentence to avoid the use of the word "if" entirely. For example,
+<ul>
+<li>An <i>even function</i> is a function&#160;<i>f</i> such that <img class="tex" alt="f(-x)=f(x)" src="http://upload.wikimedia.org/math/0/2/9/0298fd6e24050ab6f0879313f0f565a4.png" /> for all <i>x</i>.</li>
+</ul>
+</dd>
+</dl>
+<ul>
+<li>Avoid, as far as possible, phrases such as
+<ul>
+<li>"It is easily seen that ..."</li>
+<li>"Clearly ..."</li>
+<li>"Obviously ..."</li>
+</ul>
+</li>
+</ul>
+<dl>
+<dd>The reader might not find what you write obvious. This kind of statement does not add new information and thus detracts from the clarity of the article. Instead, it may be helpful to the reader if a hint is provided as to <i>why</i> something must hold, such as:</dd>
+</dl>
+<dl>
+<dd>
+<ul>
+<li>"It follows directly from this definition that ..."</li>
+<li>"By a straightforward, if lengthy, algebraic calculation, ..."</li>
+</ul>
+</dd>
+</dl>
+<ul>
+<li>When lecturing using a blackboard, it is common to use abbreviations including <i>wrt</i> (with regard to) and <i>wlog</i> (without loss of generality), and to use quantifier symbols ∀ and ∃ instead of <i>for all</i> and <i>there exists</i> in prose. Some authors, including <a href="Paul_Halmos" title="Paul Halmos">Paul Halmos</a>, use the abbreviation <i>iff</i> for <i>if and only if</i> in print. On Wikipedia, all such abbreviations should be avoided. In addition to compromising the formal tone expected of an encyclopedia, these abbreviations are a form of jargon that may be unfamiliar to the reader.</li>
+</ul>
+<ul>
+<li>The plural of <i>formula</i> is either <i>formulae</i> or <i>formulas</i>. Both are acceptable, but articles should be consistent with themselves. If an article is consistent, then editors should not change the article from one style to another.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=6.php.html" title="Edit section: Mathematical conventions">edit</a>]</span> <span class="mw-headline" id="Mathematical_conventions">Mathematical conventions</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Wikipedia_WikiProject_Logic/Standards_for_notation" title="Wikipedia:WikiProject Logic/Standards for notation">Wikipedia:WikiProject Logic/Standards for notation</a></div>
+<p>A number of conventions have been developed to make Wikipedia's mathematics articles more consistent with each other. These conventions cover choices of terminology, such as the definitions of <i>compact</i> and <i>ring</i>, as well as notation, such as the correct symbols to use for a subset.</p>
+<p>These conventions are suggested in order to bring some uniformity between different articles, to aid a reader who moves from one article to another. However, each article may establish its own conventions. For example, an article on a specialized subject might be more clear if written using the conventions common in that area. Thus the act of changing an article from one set of conventions to another should not be undertaken lightly.</p>
+<p>Each article should explain its own terminology as if there are no conventions, in order to minimize the chance of confusion. Not only do different articles use different conventions, but Wikipedia's readers come to articles with widely different conventions in mind. These readers will often not be familiar with our conventions, which may differ greatly from the conventions they see outside Wikipedia. Moreover, when our articles are presented in print or on other websites, there may be no simple way for readers to check what conventions have been employed.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=7.php.html" title="Edit section: Terminology conventions">edit</a>]</span> <span class="mw-headline" id="Terminology_conventions">Terminology conventions</span></h3>
+<ul>
+<li>A <a href="Compact_space" title="Compact space">compact space</a> is not assumed to be <a href="Hausdorff_space" title="Hausdorff space">Hausdorff</a> (<i>contra</i> <a href="Bourbaki" title="Bourbaki" class="mw-redirect">Bourbaki</a>, who uses <a href="Quasi-compact" title="Quasi-compact" class="mw-redirect">quasi-compact</a> for our notion of <a href="Compact_space" title="Compact space">compactness</a>).</li>
+<li>Separation axioms for topological spaces are as described on the <a href="Separation_axiom" title="Separation axiom">separation axiom</a> page.</li>
+<li>A <a href="Ring_(mathematics)" title="Ring (mathematics)">ring</a> is assumed to be <a href="Associative" title="Associative" class="mw-redirect">associative</a> and <a href="Unital_algebra" title="Unital algebra">unital</a>. There is an exception for rings of operators, such as <a href="*_algebra" title="* algebra" class="mw-redirect">* algebras</a>, <a href="B*_algebra" title="B* algebra" class="mw-redirect">B* algebras</a>, <a href="C*_algebra" title="C* algebra" class="mw-redirect">C* algebras</a>, which we do not assume to be unital.</li>
+<li>A <a href="Local_ring" title="Local ring">local ring</a> is not assumed <a href="Noetherian_ring" title="Noetherian ring">noetherian</a> (<i>contra</i> <a href="Zariski" title="Zariski" class="mw-redirect">Zariski</a>).</li>
+<li>A <a href="Scheme_(mathematics)" title="Scheme (mathematics)">scheme (mathematics)</a> is not assumed to be separated. The term "prescheme" is not used.</li>
+<li>For <a href="Clifford_algebra" title="Clifford algebra">Clifford algebras</a> use <i>v</i><sup>2</sup> = +<i>Q</i>(<i>v</i>).</li>
+<li>A weight <i>k</i> <a href="Modular_form" title="Modular form">modular form</a> follows the Serre convention that <i>f</i>(−1/τ) = τ<sup><i>k</i></sup><i>f</i>(τ), and <i>q</i> = <i>e</i><sup>2πiτ</sup>.</li>
+<li><a href="Elliptic_function" title="Elliptic function">Elliptic functions</a> are written in ω = <a href="../../w/index-title=Half-period&action=edit&redlink=1.php.html" class="new" title="Half-period (page does not exist)">half-period</a> style.</li>
+<li><a href="Directed_set" title="Directed set">Directed sets</a> are <a href="Preordered_set" title="Preordered set" class="mw-redirect">preordered sets</a> with finite joins, not <a href="Partially_ordered_set" title="Partially ordered set">partial orders</a> as in, <i>e.g.</i>, <a href="../John_L._Kelley" title="John L. Kelley">Kelley</a> (<i>General Topology</i>; <a href="Special_BookSources/0387901256" class="internal mw-magiclink-isbn">ISBN 0-387-90125-6</a>).</li>
+<li>An <a href="Algebraic_variety" title="Algebraic variety">algebraic variety</a> is assumed to be an <i>irreducible</i> <a href="Algebraic_set" title="Algebraic set" class="mw-redirect">algebraic set</a>.</li>
+<li>A <a href="Lattice_(order)" title="Lattice (order)">lattice</a> need not be bounded. In a bounded lattice, 0 and 1 are allowed to be equal.</li>
+</ul>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=8.php.html" title="Edit section: Natural numbers">edit</a>]</span> <span class="mw-headline" id="Natural_numbers">Natural numbers</span></h4>
+<p>The <a href="Set_(mathematics)" title="Set (mathematics)">set</a> of <a href="Natural_numbers" title="Natural numbers" class="mw-redirect">natural numbers</a> has two common meanings: {0, 1, 2, 3, ...}, which may also be called <i>non-negative integers</i>, and {1, 2, 3, ...}, which may also be called <i>positive integers</i>. Use the sense appropriate to the field to which the subject of the article belongs if the field has a preferred convention. If the sense is unclear, and if it is important whether or not zero is included, consider using one of the alternative phrases rather than <i>natural numbers</i> if the context permits.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=9.php.html" title="Edit section: Notational conventions">edit</a>]</span> <span class="mw-headline" id="Notational_conventions">Notational conventions</span></h3>
+<ul>
+<li>The abstract <a href="Cyclic_group" title="Cyclic group">cyclic group</a> of <a href="Order_(group_theory)" title="Order (group theory)">order</a> <i>n</i>, when written additively, has notation <b>Z</b><sub><i>n</i></sub>, or in contexts where there may be confusion with <a href="P-adic_integer" title="P-adic integer" class="mw-redirect"><i>p</i>-adic integers</a>, <b>Z</b>/<i>n</i><b>Z</b>; when written multiplicatively, e.g. as <a href="Roots_of_unity" title="Roots of unity" class="mw-redirect">roots of unity</a>, <i>C</i><sub><i>n</i></sub> is used (this does not affect the notation of <a href="Isometry_group" title="Isometry group">isometry groups</a> called <i>C</i><sub><i>n</i></sub>).</li>
+<li>The standard notation for the abstract <a href="Dihedral_group" title="Dihedral group">dihedral group</a> of order 2<i>n</i> is <i>D</i><sub><i>n</i></sub> in geometry and <i>D</i><sub>2<i>n</i></sub> in finite group theory. There is no good way to reconcile these two conventions, so articles using them should make clear which they are using.</li>
+<li><a href="Bernoulli_number" title="Bernoulli number">Bernoulli numbers</a> are denoted by <i>B</i><sub><i>n</i></sub>, and are zero for <i>n</i> odd and greater than 1.</li>
+<li>In <a href="Category_theory" title="Category theory">category theory</a>, write <a href="Hom-set" title="Hom-set" class="mw-redirect">Hom-sets</a>, or <a href="Morphism" title="Morphism">morphisms</a> from <i>A</i> to <i>B</i>, as Hom(<i>A</i>,<i>B</i>) rather than Mor(<i>A</i>,<i>B</i>) (and with the implied convention that the category is not a <a href="Small_category" title="Small category" class="mw-redirect">small category</a> unless that is said).</li>
+<li>The <a href="Semidirect_product" title="Semidirect product">semidirect product</a> of groups <i>K</i> and <i>Q</i> should be written <span class="nowrap"><i>K</i> ×<sub>φ</sub> <i>Q</i></span> or <span class="nowrap"><i>Q</i> ×<sub>φ</sub> <i>K</i></span> where <i>K</i> is the normal subgroup and <span class="nowrap">φ&#160;: <i>Q</i> → Aut(<i>K</i>)</span> is the homomorphism defining the product. The semidirect product may also be written <span class="nowrap"><i>K</i> <span class="Unicode">⋊</span> <i>Q</i></span> or <span class="nowrap"><i>Q</i> <span class="Unicode">⋉</span> <i>K</i></span> (with the bar on the side of the non-normal subgroup) with or without the φ.
+<ul>
+<li>The context should clearly state that this is a semidirect product and should state which group is normal.</li>
+<li>The bar notation is discouraged because it is not supported by all browsers.</li>
+<li>If the bar notation is used it should be entered as {{unicode|&amp;#x22C9;}} (<span class="Unicode">⋉</span>) or {{unicode|&amp;#x22CA;}} (<span class="Unicode">⋊</span>) for maximum portability.</li>
+</ul>
+</li>
+<li><a href="Subset" title="Subset">Subset</a> is denoted by <img class="tex" alt="\subseteq" src="http://upload.wikimedia.org/math/a/0/7/a07903a0504f50f27e2a85c27e47fbd5.png" />, proper subset by <img class="tex" alt="\subsetneq" src="http://upload.wikimedia.org/math/d/5/5/d5557175d90cbb263ae71f0dfebbf732.png" />. The symbol <img class="tex" alt="\subset" src="http://upload.wikimedia.org/math/7/a/f/7afa88c2877d79e6a8a190b360edfcd6.png" /> may be used if the meaning is clear from context, or if it is not important whether it is interpreted as subset or as proper subset (for example, <img class="tex" alt="A\subset B" src="http://upload.wikimedia.org/math/b/d/a/bdada2015b691adc22b8378ed4ef82d3.png" /> might be given as the hypothesis of a theorem whose conclusion is obviously true in the case that <img class="tex" alt="A=B" src="http://upload.wikimedia.org/math/7/8/c/78c2bf0e745ef66ed23a53269b5435ad.png" />). All other uses of the <img class="tex" alt="\subset" src="http://upload.wikimedia.org/math/7/a/f/7afa88c2877d79e6a8a190b360edfcd6.png" /> symbol should be explicitly explained in the text.</li>
+<li>For a matrix <a href="Transpose" title="Transpose">transpose</a>, use superscript non-italic capital letter T: <i>X</i><sup>T</sup>, <img class="tex" alt="X^\mathrm T" src="http://upload.wikimedia.org/math/4/3/1/4311b81d5b4cbced2693aea3fd119d84.png" /> or <img class="tex" alt="X^\mathsf T" src="http://upload.wikimedia.org/math/3/7/9/379231f537fc3f9e73826b20e63c766c.png" />, and not <i>X</i><sup><i>T</i></sup>, <img class="tex" alt="X^T" src="http://upload.wikimedia.org/math/3/a/d/3ad6c40a10b8d80c3d416e2e09f6158c.png" />, or <img class="tex" alt="X^\top" src="http://upload.wikimedia.org/math/4/0/4/4045a8a3f0b9b9c875afdb352fc08e2d.png" />.</li>
+<li>In a <a href="Lattice_(order)" title="Lattice (order)">lattice</a>, infima are written as <i>a</i>&#160;∧&#160;<i>b</i> or as a product <i>ab</i>, suprema as <i>a</i>&#160;∨&#160;<i>b</i> or as a sum <i>a</i>&#160;+&#160;<i>b</i>. In a pure lattice theoretical context the first notation is used, usually without any precedence rules. In a pure engineering or "ideals in a ring" context the second notation is used and multiplication has higher precedence than addition. In any other context the confusion of readers of all backgrounds should be minimized. In an abstract bounded lattice, the smallest and greatest elements are denoted by 0 and 1.</li>
+<li>The scalar or <a href="Dot_product" title="Dot product">dot product</a> of vectors should be denoted with a centre-dot <span class="nowrap"><b>a</b> ⋅ <b>b</b></span>, as an <a href="Inner_product" title="Inner product" class="mw-redirect">inner product</a> 〈<b>a</b>,<b>b</b>〉 or (<b>a</b>,<b>b</b>), or as a <a href="Matrix_product" title="Matrix product" class="mw-redirect">matrix product</a> <b>a</b><sup>T</sup><b>b</b>, never with juxtaposition <b>ab</b>.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=10.php.html" title="Edit section: Proofs">edit</a>]</span> <span class="mw-headline" id="Proofs">Proofs</span></h2>
+<p>This is an encyclopedia, not a collection of mathematical texts; but we often want to include proofs, as a way of really exposing the meaning of some theorem, definition, etc. A downside of including proofs is that they may interrupt the flow of the article, whose goal is usually expository. Use your judgement; as a rule of thumb, include proofs when they expose or illuminate the concept or idea; don't include them when they serve only to establish the correctness of a result.</p>
+<p>Since many readers will want to skip proofs, it is a good idea to set them apart in some way, for instance by giving them a separate section. Additional discussion and guidelines can be found at <a href="Wikipedia_WikiProject_Mathematics/Proofs" title="Wikipedia:WikiProject Mathematics/Proofs">Wikipedia:WikiProject Mathematics/Proofs</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=11.php.html" title="Edit section: Algorithms">edit</a>]</span> <span class="mw-headline" id="Algorithms">Algorithms</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Wikipedia_WikiProject_Computer_science/Manual_of_style_(computer_science)#Algorithms" title="Wikipedia:WikiProject Computer science/Manual of style (computer science)" class="mw-redirect">Wikipedia:WikiProject Computer science/Manual of style (computer_science)#Algorithms</a></div>
+<p>An article about an <a href="Algorithm" title="Algorithm">algorithm</a> may include <a href="Pseudocode" title="Pseudocode">pseudocode</a> or in some cases <a href="Source_code" title="Source code">source code</a> in some <a href="Programming_language" title="Programming language">programming language</a>. Wikipedia does not have a standard programming language or languages, and not all readers will understand any particular language even if the language is well-known and easy to read, so consider whether the algorithm could be expressed in some other way. If source code is used always choose a programming language that expresses the algorithm as clearly as possible.</p>
+<p>Articles should not include multiple implementations of the same algorithm in different programming languages unless there is encyclopedic interest in each implementation.</p>
+<p>Source code should always use <a href="http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi" class="extiw" title="mw:Extension:SyntaxHighlight GeSHi">syntax highlighting</a>. For example this markup:<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<pre>
+&lt;source lang="Haskell"&gt;
+  primes = sieve [2..]
+  sieve (p : xs) = p : sieve [x | x &lt;- xs, x `mod` p &gt; 0]
+&lt;/source&gt;
+</pre>
+<p>generates the following:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="haskell source-haskell">
+<pre class="de1">
+  primes <span class="sy0">=</span> sieve <span class="br0">[</span><span class="nu0">2</span><span class="sy0">..</span><span class="br0">]</span>
+  sieve <span class="br0">(</span>p : xs<span class="br0">)</span> <span class="sy0">=</span> p : sieve <span class="br0">[</span>x <span class="sy0">|</span> x <span class="sy0">&lt;-</span> xs<span class="sy0">,</span> x `<span class="kw3">mod</span>` p <span class="sy0">&gt;</span> <span class="nu0">0</span><span class="br0">]</span>
+</pre></div>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=12.php.html" title="Edit section: Including literature and references">edit</a>]</span> <span class="mw-headline" id="Including_literature_and_references">Including literature and references</span></h2>
+<p>It is quite important for an article to have a well-chosen list of references and pointers to the literature. Some reasons for this are the following:</p>
+<ul>
+<li>Wikipedia articles cannot be a substitute for a textbook (that is what <a href="Wikibooks" title="Wikibooks">Wikibooks</a> is for). Also, often one might want to find out more details (like the proof of a theorem stated in the article).</li>
+<li>Some notions are defined differently depending on context or author. Articles should contain some references that support the given usage.</li>
+<li>Important theorems should cite historical papers as an additional information (not necessarily for looking them up).</li>
+<li>Today many research papers or even books are freely available online and thus virtually just one click away from Wikipedia. Newcomers would greatly profit from having an immediate connection to further discussions of a topic.</li>
+<li>Providing further reading enables other editors to verify and to extend the given information, as well as to discuss the quality of a particular source.</li>
+</ul>
+<p>The <a href="Wikipedia_Cite_sources" title="Wikipedia:Cite sources" class="mw-redirect">Wikipedia:cite sources</a> article has more information on this and also several examples for how the cited literature should look.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=13.php.html" title="Edit section: Typesetting of mathematical formulae">edit</a>]</span> <span class="mw-headline" id="Typesetting_of_mathematical_formulae">Typesetting of mathematical formulae</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Help_Displaying_a_formula" title="Help:Displaying a formula">Help:Displaying a formula</a></div>
+<p>One may set formulae using LaTeX or, for simple formulae, using HTML; both are acceptable and widely used, though there are issues, as discussed below. However, for <i>section headings,</i> use HTML only, as LaTeX markup does not appear in the table of contents.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=14.php.html" title="Edit section: Using LaTeX markup">edit</a>]</span> <span class="mw-headline" id="Using_LaTeX_markup">Using LaTeX markup</span></h3>
+<p>Wikipedia allows editors to typeset mathematical <a href="Formula" title="Formula">formulas</a> in (a subset of) <a href="LaTeX" title="LaTeX">LaTeX</a> markup (see also <a href="TeX" title="TeX">TeX</a>); the formulae are normally translated into <a href="Portable_Network_Graphics" title="Portable Network Graphics">PNG</a> images, but may be rendered as <a href="HTML" title="HTML">HTML</a> or <a href="MathML" title="MathML">MathML</a>, depending on user preferences. For more details on this, see <a href="http://meta.wikimedia.org/wiki/Help:Formula" class="extiw" title="meta:Help:Formula">meta:Help:Formula</a>.</p>
+<p>The LaTeX formulae can be displayed in-line (like this: <img class="tex" alt="\mathbf{x}\in\mathbb{R}^2" src="http://upload.wikimedia.org/math/3/a/3/3a3c77c9e8661a230b04f09b2c2d20a9.png" />), as well as on their own line:</p>
+<dl>
+<dd><img class="tex" alt="\int_0^\infty e^{-x^2}\,dx." src="http://upload.wikimedia.org/math/e/7/1/e7172bfebad33645013aea620703d8fb.png" /></dd>
+</dl>
+<p>When displaying formulae on their own line, one should indent the line with one or more colons&#160;(:); the above was typeset from</p>
+<dl>
+<dd><code>:&lt;math&gt;\int_0^\infty e^{-x^2}\,dx.&lt;/math&gt;</code></dd>
+</dl>
+<p>If you find an article which indents lines with spaces in order to achieve some formula layout effect, you should convert the formula to LaTeX markup.</p>
+<p>Having LaTeX-based formulae in-line which render as PNG under the default user settings, as above, is generally discouraged, for the following reasons.</p>
+<ul>
+<li>The font size is larger than that of the surrounding text on some browsers, making text containing in-line formulae hard to read.</li>
+<li>Misalignment can result. For example, instead of <i>e</i><sup><i>x</i></sup>, with "<i>e</i>" at the same level as the surrounding text and the <i>x</i> in superscript, one may see the <i>e</i> lowered to put the vertical center of the whole "<i>e</i><sup><i>x</i></sup>" at the same level as the center of the surrounding text.</li>
+<li>The download speed of a page is negatively affected if it contains many images.</li>
+<li>HTML (as described below) is adequate for most simple in-line formulae and better for text-only browsers.</li>
+<li>Copy-pasting of inline mathematics images will not work if the application in which you are pasting only accepts text.</li>
+</ul>
+<p>If an in-line formula needs to be typeset in LaTeX, often better formatting can be achieved with the <code>\textstyle</code> LaTeX command. By default, LaTeX code is rendered as if it were a displayed equation (not in-line), and this can frequently be too big. For example, the formula <code>&lt;math&gt;\sum_{n=1}^\infty 1/n^2 = \pi^2/6 &lt;/math&gt;</code>, which displays as <img class="tex" alt="\sum_{n=1}^\infty 1/n^2 = \pi^2/6" src="http://upload.wikimedia.org/math/8/6/b/86bb4fab04480751dc75407b47a25c0d.png" />, is too large to be used in-line. <code>\textstyle</code> generates a smaller summation sign and moves the limits on the sum to the right side of the summation sign. The code for this is <code>&lt;math&gt;\textstyle\sum_{n=1}^\infty 1/n^2 = \pi^2/6&lt;/math&gt;</code>, and it renders as the much more aesthetic <img class="tex" alt="\textstyle\sum_{n=1}^\infty 1/n^2 = \pi^2/6" src="http://upload.wikimedia.org/math/9/6/0/960d3273bb73e464367c1598038d5cea.png" />. However, the default font for <code>\textstyle</code> is larger than the surrounding text on many browsers.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=15.php.html" title="Edit section: Deprecated formatting">edit</a>]</span> <span class="mw-headline" id="Deprecated_formatting">Deprecated formatting</span></h4>
+<p><span id="Very_simple_formulae"></span><span id="Forcing_output_to_be_an_image"></span> Older versions of the MediaWiki software supported displaying some LaTeX formula as HTML rather than as an image. Although this is no longer an option some formulae have formatting in them intended to force them to display as an image, such as an invisible quarter space (<code>\,</code>) added at the end of the formula, or <code>\displaystyle</code> at the beginning. Such formatting can be removed if a formula is edited and need not be added to new formulae.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=16.php.html" title="Edit section: Alt text">edit</a>]</span> <span class="mw-headline" id="Alt_text">Alt text</span></h4>
+<p>Images generated from LaTeX markup have <a href="Wikipedia_ALT" title="Wikipedia:ALT" class="mw-redirect">alt text</a>, which is displayed to visually impaired readers and other readers who cannot see the images. The default alt text is the LaTeX markup that produced the image. You can override this by explicitly specifying an <code>alt</code> attribute for the <code>math</code> element. For example, <code>&lt;math alt="Square root of pi"&gt;\sqrt{\pi}&lt;/math&gt;</code> generates an image <img class="tex" alt="square root of pi" src="http://upload.wikimedia.org/math/8/f/4/8f43b91f6c62d37f140c92b43a97779d.png" /> whose alt text is "Square root of pi". Small and easily explained formulas used in less technical articles can benefit from explicitly specified alt text. More complicated formulas, or formulas used in more technical articles, are often better off with the default alt text.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=17.php.html" title="Edit section: Using HTML">edit</a>]</span> <span class="mw-headline" id="Using_HTML">Using HTML</span></h3>
+<p>The following sections cover the way of presenting simple in-line formulae in HTML, instead of using LaTeX.</p>
+<p>Templates supporting HTML formatting are listed in <a href="Category_Mathematical_formatting_templates" title="Category:Mathematical formatting templates">Category:Mathematical formatting templates</a>. Not all however are recommended for use, in particular use of the {{<a href="Template_Frac" title="Template:Frac">frac</a>}} template to format fractions is discouraged in mathematics articles.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=18.php.html" title="Edit section: Font formatting">edit</a>]</span> <span class="mw-headline" id="Font_formatting">Font formatting</span></h4>
+<dl>
+<dd><code>''x'' = (''y''&lt;sup&gt;2&lt;/sup&gt; + 2)</code></dd>
+</dl>
+<p>will result in:</p>
+<dl>
+<dd><i>x</i> = (<i>y</i><sup>2</sup> + 2)&#160;.</dd>
+</dl>
+<p>As TeX uses a <a href="Serif" title="Serif">serif</a> font to display a formula (both as PNG and HTML), you may use the <code>{{<a href="Template_Math" title="Template:Math">math</a>}}</code> template to display your HTML formula in serif as well. Doing so will also ensure that the text within a formula will not line-wrap, and that the font size will closely match the surrounding text in any <a href="Wikipedia_Skins" title="Wikipedia:Skins" class="mw-redirect">skin</a>.</p>
+<dl>
+<dd><code>{{math|''x'' {{=}} (''y''&lt;sup&gt;2&lt;/sup&gt; + 2)}}</code></dd>
+</dl>
+<p>will result in:</p>
+<dl>
+<dd><span class="texhtml"><i>x</i> = (<i>y</i><sup>2</sup> + 2)</span>&#160;.</dd>
+</dl>
+<h5><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=19.php.html" title="Edit section: Variables">edit</a>]</span> <span class="mw-headline" id="Variables">Variables</span></h5>
+<p>To start with, we generally use italic text for variables (but never for numbers or symbols). Most editors prefer to use <code>''x''</code> in the edit box to refer to the variable <i>x</i>. Some prefer using the HTML "variable" tag, <code>&lt;var&gt;</code>, since it provides semantic meaning to the text contained within. Which method you choose is entirely up to you, but in order to keep with convention, we recommend the wiki markup method of enclosing the variable name between repeated single quotes. Thus we write:</p>
+<dl>
+<dd><code>''x'' = (''y''&lt;sup&gt;2&lt;/sup&gt; + 2)</code>&#160;,</dd>
+</dl>
+<p>which results in:</p>
+<dl>
+<dd><i>x</i> = (<i>y</i><sup>2</sup> + 2)&#160;.</dd>
+</dl>
+<p>While italicizing variables, things like parentheses, digits, equal and plus signs should be kept outside of the double-quoted sections. In particular, do not use double quotes as if they are <code>&lt;math&gt;</code> tags; they merely denote italics. Descriptive subscripts should not be in italics, because they are not variables. For example, <i>m</i><sub>foo</sub> is the mass of a foo. <a href="SI_unit" title="SI unit" class="mw-redirect">SI units</a> are never italicized: <i>x</i>&#160;=&#160;5&#160;cm.</p>
+<h5><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=20.php.html" title="Edit section: Functions">edit</a>]</span> <span class="mw-headline" id="Functions">Functions</span></h5>
+<p>Names for <a href="List_of_mathematical_functions" title="List of mathematical functions">standard functions</a>, such as sin and cos, are not in italic font, but we use italic names such as <i>f</i> for functions in other cases; for example when we define the function as in <i>f</i>(<i>x</i>) = sin(<i>x</i>) cos(<i>x</i>).</p>
+<h5><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=21.php.html" title="Edit section: Sets">edit</a>]</span> <span class="mw-headline" id="Sets">Sets</span></h5>
+<p>Sets are usually written in upper case italics; for example:</p>
+<dl>
+<dd><i>A</i> = {<i>x</i>&#160;: <i>x</i> &gt; 0 }</dd>
+</dl>
+<p>would be written:</p>
+<dl>
+<dd><code>''A'' = {''x'' : ''x'' &gt; 0}</code>&#160;.</dd>
+</dl>
+<h5><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=22.php.html" title="Edit section: Greek letters">edit</a>]</span> <span class="mw-headline" id="Greek_letters">Greek letters</span></h5>
+<p>Some editors italicize lower-case Greek letters when they are variables (in line with the general advice to italicize variables): the example expression <i>λ</i> + <i>y</i> = <i>πr</i><sup>2</sup> would then be typeset as <code>''&amp;lambda;'' + ''y'' = ''&amp;pi;r''&lt;sup&gt;2&lt;/sup&gt;</code>. However the examples in the other sections of this guide do not specify italic formatting of Greek letters.</p>
+<h5><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=23.php.html" title="Edit section: Common sets of numbers">edit</a>]</span> <span class="mw-headline" id="Common_sets_of_numbers">Common sets of numbers</span></h5>
+<p>Commonly used sets of numbers are typeset in boldface, as in the set of real numbers <b>R</b>; see <a href="Blackboard_bold" title="Blackboard bold">blackboard bold</a> for the types in use. Again, typically we use wiki markup: three single quotes (<code>'''</code>) rather than the HTML <code>&lt;b&gt;</code> tag for making text bold.</p>
+<h5><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=24.php.html" title="Edit section: Superscripts and subscripts">edit</a>]</span> <span class="mw-headline" id="Superscripts_and_subscripts">Superscripts and subscripts</span></h5>
+<div class="rellink relarticle mainarticle">Main page: <a href="Wikipedia_Manual_of_Style_(superscripts_and_subscripts)" title="Wikipedia:Manual of Style (superscripts and subscripts)" class="mw-redirect">Wikipedia:Manual of Style (superscripts and subscripts)</a></div>
+<p>Subscripts and superscripts should be wrapped in <code>&lt;sub&gt;</code> and <code>&lt;sup&gt;</code> tags, respectively, with no other formatting info. Font sizes and such should be entrusted to be handled with stylesheets. For example, to write <i>c</i><sub>3+5</sub>, use</p>
+<dl>
+<dd><code>''c''&lt;sub&gt;3+5&lt;/sub&gt;</code>.</dd>
+</dl>
+<p>Do not use special characters like ² (<code>&amp;sup2;</code>) for squares. This does not combine well with other powers, as the following comparison shows:</p>
+<dl>
+<dd>1 + <i>x</i> + <i>x</i>² + <i>x</i><sup>3</sup> + <i>x</i><sup>4</sup> (with <code>&amp;sup2;</code>) versus</dd>
+<dd>1 + <i>x</i> + <i>x</i><sup>2</sup> + <i>x</i><sup>3</sup> + <i>x</i><sup>4</sup> (with <code>&lt;sup&gt;2&lt;/sup&gt;</code>).</dd>
+</dl>
+<p>Moreover, the TeX engine used on Wikipedia may format simple superscripts using <code>&lt;sup&gt;...&lt;/sup&gt;</code> depending on user preferences. Thus, instead of the image <img class="tex" alt="x^2\," src="http://upload.wikimedia.org/math/d/8/5/d85650cf932c062d3f7e25e1ec5afbaa.png" />, many users see <i>x</i><sup>2</sup>. Formulae formatted without using TeX should use the same syntax to maintain the same appearance.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=25.php.html" title="Edit section: Special symbols">edit</a>]</span> <span class="mw-headline" id="Special_symbols">Special symbols</span></h4>
+<p>There is a <a href="Table_of_mathematical_symbols" title="Table of mathematical symbols" class="mw-redirect">table of mathematical symbols</a> and a list at <a href="Wikipedia_Mathematical_symbols" title="Wikipedia:Mathematical symbols">Wikipedia:Mathematical symbols</a> that may be useful when editing mathematics articles. There are two caveats to keep in mind, however.</p>
+<ol>
+<li>Not all of the symbols in these lists are displayed correctly on all browsers (see <a href="Help_Special_characters" title="Help:Special characters">Help:Special characters</a>). Although the symbols that correspond to <a href="List_of_XML_and_HTML_character_entity_references" title="List of XML and HTML character entity references">named entities</a> are very likely to be displayed correctly, a significant number of viewers will have problems seeing all the characters listed at <a href="Unicode_Mathematical_Operators" title="Unicode Mathematical Operators" class="mw-redirect">Unicode Mathematical Operators</a>. One way to guarantee that an uncommon symbol is rendered correctly for all readers is to <a href="#Forcing_output_to_be_an_image">force the symbol to display as an image</a>, using the &lt;math&gt; environment.</li>
+<li>Not all readers will be familiar with mathematical notation. Thus, to maximize the size of the audience who can read an article, it is better to be conservative in using symbols. For example, writing "<i>a</i> divides <i>b</i>" rather than "<i>a</i>|<i>b</i>" in an elementary article may make it more accessible.</li>
+</ol>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=26.php.html" title="Edit section: Less-than sign">edit</a>]</span> <span class="mw-headline" id="Less-than_sign">Less-than sign</span></h4>
+<p>Although the MediaWiki markup engine is fairly smart about differentiating between unescaped "&lt;" characters that are used to denote the start of an embedded HTML or HTML-like tag and those that are just being used as literal less-than symbols, it is ideal to use <code>&amp;lt;</code> when writing the less-than sign, just like in HTML and XML. For example, to write <i>x</i> &lt; 3, use</p>
+<dl>
+<dd><code>''x'' &amp;lt; 3</code>,</dd>
+</dl>
+<p>not</p>
+<dl>
+<dd><code>''x'' &lt; 3</code>.</dd>
+</dl>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=27.php.html" title="Edit section: Multiplication sign">edit</a>]</span> <span class="mw-headline" id="Multiplication_sign">Multiplication sign</span></h4>
+<p>Standard algebraic notation is best for formulae, so two variables <i>q</i> and <i>d</i> being multiplied are best written as <i>qd</i> when presented in a formula. That is, when <i>citing</i> a formula, don't use <code>&amp;times;</code>.</p>
+<p>However, when <i>explaining</i>, for a general audience (not just mathematicians), the formula or giving examples of its application, it is prudent to use the <a href="Multiplication_sign" title="Multiplication sign">multiplication sign</a>: "×", coded as <code>&amp;times;</code> in HTML. Do not use the letter "x" as a substitute for "×". For example:</p>
+<ul>
+<li>When <a href="Division_(mathematics)" title="Division (mathematics)">dividing</a> 26 by 4, 6 is the <a href="Quotient" title="Quotient">quotient</a> and 2 is the <a href="Remainder" title="Remainder">remainder</a>, because 26&#160;=&#160;6&#160;×&#160;4&#160;+&#160;2.</li>
+<li>−42 = 9&#160;×&#160;(−5)&#160;+&#160;3</li>
+</ul>
+<p>An alternative to the <code>&amp;times;</code> markup is the <a href="Dot_operator" title="Dot operator" class="mw-redirect">dot operator</a> <code>&amp;sdot;</code> (also encoded <code>&lt;math&gt;\cdot&lt;/math&gt;</code> and reachable in the "Math and logic" drop-down list below the edit box), which produces a properly spaced centered dot: "a⋅b".</p>
+<p>Do not use the ASCII <a href="Asterisk" title="Asterisk">asterisk</a>&#160;(*) as a multiplication sign outside of <a href="Source_code" title="Source code">source code</a>. It is not used for this purpose in professionally published mathematics, and most fonts render it in an inappropriate vertical position (above the midline of the text rather than centered on it). For the dot operator, do not use a simple interpunct <code>&amp;middot;</code> (the choice offered in the "Wiki markup" drop-down list below the edit box), as in many fonts it does not kern properly.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=28.php.html" title="Edit section: Minus sign">edit</a>]</span> <span class="mw-headline" id="Minus_sign">Minus sign</span></h4>
+<p>The typographically correct representation of the minus sign "−" is different from the hyphen "-" and en-dash "–". To really render a minus sign, use the "minus" character "−" (reachable via selecting "Math and logic" in the drop-down list below the edit box), or use the "<code>&amp;minus;</code>" entity.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=29.php.html" title="Edit section: Square brackets">edit</a>]</span> <span class="mw-headline" id="Square_brackets">Square brackets</span></h4>
+<p>Square brackets have two problems; they can occasionally cause problems with wiki markup, and editors sometimes 'fix' the brackets in asymmetrical <a href="Interval_(mathematics)" title="Interval (mathematics)">intervals</a> to make them symmetrical. A general solution to problems like this is to use the nowiki tag as in for example <code>&lt;nowiki&gt;]&lt;nowiki&gt;</code> to show ] is special.</p>
+<p>The use of intervals for the range or domain of a function is very common. A solution which makes the reason for the different brackets around an interval more plain is to use one of the templates {{<a href="Template_Open-closed" title="Template:Open-closed">open-closed</a>}}, {{<a href="Template_Closed-open" title="Template:Closed-open">closed-open</a>}}, {{<a href="Template_Open-open" title="Template:Open-open">open-open</a>}}, {{<a href="Template_Closed-closed" title="Template:Closed-closed">closed-closed</a>}}. For instance:</p>
+<dl>
+<dd><code>{{open-closed|−π, π}}</code>,</dd>
+</dl>
+<p>produces</p>
+<dl>
+<dd><span class="texhtml">(−π, π]</span>.</dd>
+</dl>
+<p>These templates use the {{<a href="Template_Math" title="Template:Math">math</a>}} template to avoid line breaks and use the TeX font.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=30.php.html" title="Edit section: Function symbol">edit</a>]</span> <span class="mw-headline" id="Function_symbol">Function symbol</span></h4>
+<p>There is a special Unicode function symbol for functions, U+0192, "LATIN SMALL LETTER F WITH HOOK = script f = <a href="Florin_sign" title="Florin sign">Florin currency symbol</a> (Netherlands) = function symbol"<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup>, which looks like <i>ƒ</i>. As of December 2010, this character is not interpreted correctly by screen readers such as <a href="JAWS_(screen_reader)" title="JAWS (screen reader)">JAWS</a> and <a href="NonVisual_Desktop_Access" title="NonVisual Desktop Access">NonVisual Desktop Access</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup>. An italicized letter <i>f</i> should be used instead.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=31.php.html" title="Edit section: Explanation of symbols in formulae">edit</a>]</span> <span class="mw-headline" id="Explanation_of_symbols_in_formulae">Explanation of symbols in formulae</span></h3>
+<p>A list such as:</p>
+<blockquote>
+<p>Example 1: The foocity is given by</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{F} = \mathbf{b} \times a\mathbf{r}," src="http://upload.wikimedia.org/math/0/9/f/09fb5f3f1958e8a35dad86aa2801a755.png" /></dd>
+</dl>
+where
+<ul>
+<li><b>b</b> is the barness vector,</li>
+<li><i>a</i> is the bazness coefficient,</li>
+<li><b>r</b> is the quuxance vector.</li>
+</ul>
+</blockquote>
+<p>has no reason to be bulleted, and it should be written as prose:</p>
+<blockquote>
+<p>Example 2: The foocity is given by</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{F} = \mathbf{b} \times a\mathbf{r}," src="http://upload.wikimedia.org/math/0/9/f/09fb5f3f1958e8a35dad86aa2801a755.png" /></dd>
+</dl>
+where <b>b</b> is the barness vector, <i>a</i> is the bazness coefficient, and <b>r</b> is the quuxance vector.</blockquote>
+<p>An exception would be if some of the definitions are very long (for example, as in <a href="Heat_equation#Derivation_in_three_dimensions" title="Heat equation">Heat equation</a>), but, even in this case, each definition should end with a comma or semicolon, and the last one should end with a period if it terminates a sentence.</p>
+<p><span id="PUNC"></span></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=32.php.html" title="Edit section: Punctuation after formulae">edit</a>]</span> <span class="mw-headline" id="Punctuation_after_formulae">Punctuation after formulae</span></h3>
+<div style="position: relative; top: -3em;"><span id="MOS:MATH.23PUNC"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:</small>
+<ul>
+<li><small><a href="MOS_MATH#PUNC" title="MOS:MATH" class="mw-redirect">MOS:MATH#PUNC</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Just as in mathematics publications, a sentence which ends with a formula must have a period at the end of the formula.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> This equally applies to displayed formulae (that is, formulae that take up a line by themselves). Similarly, if the conventional punctuation rules would require a question mark, comma, semicolon, or other punctuation at that place, the formula must have that punctuation at the end.</p>
+<p>If the formula is written in LaTeX, that is, surrounded by the <code>&lt;math&gt;</code> and <code>&lt;/math&gt;</code> tags, then the punctuation needs to also be inside the tags, because otherwise it can be displayed on a new line if the formula is at the edge of the browser window. Alternatively—the result can be unaesthetic, especially for inlined formulae presented as an image whose baseline does not line up with that of the running text—the formula can be enclosed using the {{<a href="Template_Nowrap" title="Template:Nowrap">nowrap</a>}} template, as in <code>This shows that {{nowrap|&lt;math&gt;\tfrac{1}{2} = 0.5&lt;/math&gt;.}}</code>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=33.php.html" title="Edit section: Choice of type style">edit</a>]</span> <span class="mw-headline" id="Choice_of_type_style">Choice of type style</span></h3>
+<p>In mathematics notation, functions that have multi-letter names should always be in an upright font. The most well-known functions—trigonometric functions, logarithms, etc.—are often written without parentheses. For example:</p>
+<dl>
+<dd><img class="tex" alt="\sin x" src="http://upload.wikimedia.org/math/c/d/b/cdba58911c590ced3e2435dfa39f6873.png" />   (parenthesis may be omitted; typeset from <code>&lt;math&gt;\sin x&lt;/math&gt;</code>)</dd>
+<dd><img class="tex" alt="\sin(x+1)" src="http://upload.wikimedia.org/math/6/5/0/6502f1a216f7942b2c892435535081a6.png" /> (parentheses are required to clarify the intended argument)</dd>
+</dl>
+<p>but not</p>
+<dl>
+<dd><img class="tex" alt="sin x" src="http://upload.wikimedia.org/math/f/4/d/f4d88806dcf6c8bfe83d668a63854288.png" />   (<i>incorrect</i>—typeset from <code>&lt;math&gt;sin x&lt;/math&gt;</code>).</dd>
+</dl>
+<p>Some operator (function) names do not have a pre-defined abbreviation; for these we may use <code>\operatorname</code>:</p>
+<dl>
+<dd><img class="tex" alt="\operatorname{Tr}(M)" src="http://upload.wikimedia.org/math/4/2/5/4256cbbbf0581b82112120d4baaae685.png" />   (typeset from <code>&lt;math&gt;\operatorname{Tr}(M)&lt;/math&gt;</code>).</dd>
+</dl>
+<p>Special care is needed with subscripted labels to distinguish the purpose of the subscript (as this is a common error): variables and constants in subscripts should be italic, while textual labels should be in normal text font (Roman, upright). For example:</p>
+<dl>
+<dd><img class="tex" alt=" x_\text{this one} = y_\text{that one}" src="http://upload.wikimedia.org/math/9/c/5/9c51472bba31f25cd6b465ae765ef6de.png" />   (correct—typeset from <code>&lt;math&gt; x_\text{this one} = y_\text{that one}&lt;/math&gt;</code>),</dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><img class="tex" alt="\sum_{i=1}^n { y_i^2 }" src="http://upload.wikimedia.org/math/5/4/e/54e9ab787d20b9e3fe1d8deef049332b.png" />   (correct—typeset from <code>&lt;math&gt;\sum_{i=1}^n { y_i^2 }&lt;/math&gt;</code>),</dd>
+</dl>
+<p>but not</p>
+<dl>
+<dd><img class="tex" alt="r = x_{predicted} - x_{observed}" src="http://upload.wikimedia.org/math/e/f/8/ef82e28e3f45e636f3847cd0d98f51c3.png" />   (<i>incorrect</i>—typeset from <code>&lt;math&gt;r = x_{predicted} - x_{observed}&lt;/math&gt;</code>).</dd>
+</dl>
+<p>For several years this manual misled people concerning <code>\mbox</code>. See <i><a href="Wikipedia_Manual_of_Style/Mathematics/Why_you_should_never_use_%5Cmbox_within_Wikipedia" title="Wikipedia:Manual of Style/Mathematics/Why you should never use \mbox within Wikipedia">An opinion: Why you should never use \mbox within Wikipedia</a>.</i></p>
+<p>On the other hand, for the <a href="Derivative" title="Derivative">differential</a>, <a href="Imaginary_unit" title="Imaginary unit">imaginary unit</a>, and <a href="E_(mathematical_constant)" title="E (mathematical constant)">Euler's number</a>, Wikipedia articles usually use an italic font, so one writes</p>
+<dl>
+<dd><img class="tex" alt="\int_0^\pi \sin x \, dx ," src="http://upload.wikimedia.org/math/e/6/1/e61ff4b81dee31b0aec4455d37ae35f8.png" />   (typeset from <code>&lt;math&gt;\int_0^\pi \sin x \, dx ,&lt;/math&gt;</code>—note the thin space (<code>\,</code>) before <code>dx</code>),</dd>
+<dd><img class="tex" alt="x+iy," src="http://upload.wikimedia.org/math/b/1/7/b17c2f19e8855bb10a9e32ca12a22892.png" />   (typeset from <code>&lt;math&gt;x+iy,&lt;/math&gt;</code>), and</dd>
+<dd><img class="tex" alt="e^{i\theta} ." src="http://upload.wikimedia.org/math/3/9/2/3929cf9590e61c7a7e0cc1c8fd1ebbd4.png" />   (typeset from <code>&lt;math&gt;e^{i\theta} .&lt;/math&gt;</code>).</dd>
+</dl>
+<p>Some authors prefer to use an upright (Roman) font for d<i>x</i>, and Roman boldface for <b>i</b>. Both forms are correct; what is most important is consistency within an article. It is considered inappropriate for an editor to go through articles doing mass changes from one style to another. This is much the same principle as the guidelines in the <a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">Manual of Style</a> for the colour/color spelling choice, etc.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=34.php.html" title="Edit section: Blackboard bold">edit</a>]</span> <span class="mw-headline" id="Blackboard_bold">Blackboard bold</span></h4>
+<p>Certain objects, such as the real numbers <b>R</b>, are traditionally printed in boldface. On a blackboard or a whiteboard, boldface type is replaced by <a href="Blackboard_bold" title="Blackboard bold">blackboard bold</a>. Traditional mathematical typography never used printed blackboard bold because it is harder to read than ordinary boldface. Nowadays, however, some printed books and articles use blackboard bold. A particular concern for the use of blackboard bold on Wikipedia is that these symbols must be rendered as images because the Unicode symbols for blackboard bold characters are not supported by all systems.</p>
+<p>An article may use either boldface type or blackboard bold for objects traditionally printed in boldface. As with all such choices, the article should be consistent. Editors should not change articles from one choice of typeface to another except for consistency.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=35.php.html" title="Edit section: Fractions">edit</a>]</span> <span class="mw-headline" id="Fractions">Fractions</span></h3>
+<div class="rellink boilerplate seealso">See also: <a href="Wikipedia_Manual_of_Style/Dates_and_numbers#Fractions" title="Wikipedia:Manual of Style/Dates and numbers">Wikipedia:Manual of Style/Dates and numbers#Fractions</a></div>
+<p>In mathematics articles, fractions should always be written either with a horizontal fraction bar (as in <img class="tex" alt="\textstyle\frac{1}{2}" src="http://upload.wikimedia.org/math/c/c/9/cc9be7275dad11fb55dffce32ab69960.png" />), or with a forward <a href="Slash_(punctuation)" title="Slash (punctuation)">slash</a> and with the baseline of the numbers aligned with the baseline of the surrounding text (as in 1/2). The use of {{<a href="Template_Frac" title="Template:Frac">frac</a>}} (such as <span class="frac nowrap"><sup>1</sup>⁄<sub>2</sub></span>) is discouraged in mathematics articles. The use of <a href="Unicode" title="Unicode">Unicode</a> symbols (such as ½) is discouraged entirely, for <a href="Web_accessibility" title="Web accessibility">accessibility</a> reasons among others. Metric units are given in decimal fractions (e.g., 5.2&#160;cm); non-metric units can be either type of fraction, but the fraction style should be consistent throughout the article.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=36.php.html" title="Edit section: Graphs and diagrams">edit</a>]</span> <span class="mw-headline" id="Graphs_and_diagrams">Graphs and diagrams</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:MOS_triangle.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/MOS_triangle.svg/220px-MOS_triangle.svg.png" width="220" height="129" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/MOS_triangle.svg/330px-MOS_triangle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b6/MOS_triangle.svg/440px-MOS_triangle.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:MOS_triangle.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The angle <span class="texhtml"><var>CAB</var></span> is <span class="texhtml"><var>α</var></span>.<br />
+The length of <span class="texhtml"><var>CA</var></span> is <span class="texhtml"><var>b</var></span>.</div>
+</div>
+</div>
+<p>There is no general agreement on what fonts to use in graphs and diagrams. In geometrical diagrams points are normally labelled using upper case letters, sides with lower case and angles with lower case Greek letters.</p>
+<p>Recent geometry books tend to use an italic serif font in diagrams as in <img class="tex" alt="A" src="http://upload.wikimedia.org/math/7/f/c/7fc56270e7a70fa81a5935b72eacbe29.png" /> for a point. This allows easy use in LaTeX markup. However older books tend to use upright letters as in <img class="tex" alt="\mathrm{A}" src="http://upload.wikimedia.org/math/c/3/b/c3b4d844c60c334d335b700b47a24e69.png" /> and many diagrams in Wikipedia use sans-serif upright A instead. Graphs in books tend to use LaTeX conventions, but yet again there are wide variations.</p>
+<p>For ease of reference diagrams and graphs should use the same conventions as the text that refers to them. If there is a better illustration with a different convention, though, the better illustration should normally be used.</p>
+<div style="clear:both;"></div>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=37.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=38.php.html" title="Edit section: Help for those writing a formula">edit</a>]</span> <span class="mw-headline" id="Help_for_those_writing_a_formula">Help for those writing a formula</span></h3>
+<ul>
+<li><a href="Help_Formula" title="Help:Formula" class="mw-redirect">Help:Formula</a></li>
+<li><a href="Wikipedia_Mathematical_symbols" title="Wikipedia:Mathematical symbols">Wikipedia:Mathematical symbols</a></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=39.php.html" title="Edit section: General information">edit</a>]</span> <span class="mw-headline" id="General_information">General information</span></h3>
+<ul>
+<li><a href="Wikipedia_WikiProject_Mathematics" title="Wikipedia:WikiProject Mathematics">Wikipedia:WikiProject Mathematics</a></li>
+<li><a href="Wikipedia_Scientific_citation_guidelines" title="Wikipedia:Scientific citation guidelines">Wikipedia:Scientific citation guidelines</a>—advice on providing references for mathematical and scientific articles</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=40.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">This example, from here <a class="external autonumber" href="../../w/index-title=Sieve_of_Eratosthenes&oldid=347438933.php.html">[1]</a>, is in <a href="Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a>, not a well-known language so generally not a good choice when showing an algorithm.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Latin Extended-B, <a rel="nofollow" class="external autonumber" href="http://www.unicode.org/charts/PDF/U0180.pdf">[2]</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="Wikipedia_talk_WikiProject_Mathematics/Archive_68#.C6.92_or_f.3F" title="Wikipedia talk:WikiProject Mathematics/Archive 68">Wikipedia talk:WikiProject Mathematics/Archive 68#ƒ or f?</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">This style, adopted by Wikipedia, is shared by Higham (1998), the Chicago Manual of Style, and many mathematics journals.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit&section=41.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<p>A style guide specifically written for mathematics:</p>
+<ul>
+<li><span class="citation" id="CITEREFHigham1998"><a href="Nicholas_Higham" title="Nicholas Higham">Higham, Nicholas J.</a> (1998), <i>Handbook of Writing for the Mathematical Sciences</i> (second ed.), SIAM, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-89871-420-6" title="Special:BookSources/0-89871-420-6">0-89871-420-6</a></span>.</li>
+</ul>
+<p>More style guidance:</p>
+<ul>
+<li><span class="citation" id="CITEREFHalmos1970"><a href="Paul_Halmos" title="Paul Halmos">Halmos, P.R.</a> (1970), "How to Write Mathematics", <i>Enseignements Mathématiques</i> <b>16</b>: 123–152</span>. Reprinted in <a href="Special_BookSources/0821800558" class="internal mw-magiclink-isbn">ISBN 0821800558</a></li>
+</ul>
+<p>Some finer points of typography are discussed in:</p>
+<ul>
+<li><span class="citation" id="CITEREFKnuth1984"><a href="Donald_Knuth" title="Donald Knuth">Knuth, Donald E.</a> (1984), <i>The TeXbook</i>, Reading, Massachusetts: Addison-Wesley, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-201-13448-9" title="Special:BookSources/0-201-13448-9">0-201-13448-9</a></span>.</li>
+</ul>
+<p>General style manuals often include advice on mathematics, including</p>
+<ul>
+<li><span class="citation" id="CITEREFUniversity_of_Chicago_Press_Staff2010">University of Chicago Press Staff, ed. (2010), <a rel="nofollow" class="external text" href="http://www.chicagomanualofstyle.org/home.html"><i>The Chicago Manual of Style</i></a> (16th ed.), University of Chicago Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/9780226104201" title="Special:BookSources/9780226104201">9780226104201</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.chicagomanualofstyle.org/home.html">http://www.chicagomanualofstyle.org/home.html</a></span></span></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 5891/1000000
+Preprocessor generated node count: 41454/1500000
+Post-expand include size: 91553/2048000 bytes
+Template argument size: 47331/2048000 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1412568-0!0!0!!en!4!* and timestamp 20130127143955 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&oldid=534407715.php.html">http://en.wikipedia.org/w/index.php?title=Wikipedia:Manual_of_Style/Mathematics&amp;oldid=534407715</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_WikiProject_Mathematics" title="Category:WikiProject Mathematics">WikiProject Mathematics</a></li><li><a href="Category_Wikipedia_how-to" title="Category:Wikipedia how-to">Wikipedia how-to</a></li><li><a href="Category_Wikipedia_Manual_of_Style_(science)" title="Category:Wikipedia Manual of Style (science)">Wikipedia Manual of Style (science)</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Manual+of+Style_Mathematics&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Manual+of+Style_Mathematics.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-project" class="selected"><span><a href="Wikipedia_Manual_of_Style/Mathematics"  title="View the project page [c]" accesskey="c">Project page</a></span></li>
+					<li  id="ca-talk"><span><a href="Wikipedia_talk_Manual_of_Style/Mathematics"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="Wikipedia_Manual_of_Style/Mathematics" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wikipedia_Manual_of_Style/Mathematics" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wikipedia_Manual_of_Style/Mathematics" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&oldid=534407715.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wikipedia_Manual+of+Style_Mathematics.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wikipedia_Manual+of+Style_Mathematics&oldid=534407715&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wikipedia_Manual_of_Style_Mathematics&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Wikipedia:Manual_gaya_penulisan_(matematik)" title="Wikipedia:Manual gaya penulisan (matematik)" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/Wikipedia:%E6%A0%BC%E5%BC%8F%E6%89%8B%E5%86%8C_(%E6%95%B0%E5%AD%A6)" title="Wikipedia:格式手册 (数学)" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 23 January 2013 at 00:16.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Mathematics" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1073 in 0.133 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

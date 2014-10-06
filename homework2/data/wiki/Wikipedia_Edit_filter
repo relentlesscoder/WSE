@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wikipedia:Edit filter - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:Edit_filter","wgTitle":"Edit filter","wgCurRevisionId":535896880,"wgArticleId":18088626,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Semi-protected project pages","Wikipedia move-protected project pages","Wikipedia edit filter","Wikipedia user access levels","Article Feedback 5 Additional Articles"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:Edit_filter","wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"e6a9c44d92aa5089a38a5e14a2d81675","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":18088626,"title":"Wikipedia:Edit filter","namespace":4,"categories":["Article Feedback 5 Additional Articles","Semi-protected project pages","Wikipedia edit filter","Wikipedia move-protected project pages","Wikipedia user access levels"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-4 ns-subject page-Wikipedia_Edit_filter skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wikipedia:Edit filter</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">"WP:AF" redirects here. For Article Feedback, see <a href="Wikipedia_Article_Feedback_Tool" title="Wikipedia:Article Feedback Tool">Wikipedia:Article Feedback Tool</a>.</div>
+<table class="plainlinks ombox ombox-notice" style="text-align:center;">
+<tr>
+<td class="mbox-empty-cell"></td>
+<td class="mbox-text" style=""><a href="Special_AbuseFilter" title="Special:AbuseFilter"><b>Edit filter management</b></a><br />
+<strong class="selflink">Documentation</strong>&#160;<span style="font-weight:bold;">·</span>  <a href="Wikipedia_talk_Edit_filter" title="Wikipedia talk:Edit filter">Discussion</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Instructions/index.html" title="Wikipedia:Edit filter/Instructions">How to create a filter</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Requested/index.html" title="Wikipedia:Edit filter/Requested">Requested edit filters</a>&#160;<span style="font-weight:bold;">·</span>  <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">Reporting false positives</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Wikipedia_Tags" title="Wikipedia:Tags">Tags</a></td>
+</tr>
+</table>
+<div class="metadata topicon nopopups" id="protected-icon" style="display:none; right:55px;"><a href="Wikipedia_Protection_policy#semi" title="This page is semi-protected indefinitely in response to an ongoing high risk of vandalism."><img alt="Page semi-protected" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/30px-Padlock-silver.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/40px-Padlock-silver.svg.png 2x" /></a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Wikipedia-Crystal_clear-advancedsetting.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Wikipedia-Crystal_clear-advancedsetting.png/220px-Wikipedia-Crystal_clear-advancedsetting.png" width="220" height="206" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Wikipedia-Crystal_clear-advancedsetting.png/330px-Wikipedia-Crystal_clear-advancedsetting.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/64/Wikipedia-Crystal_clear-advancedsetting.png/440px-Wikipedia-Crystal_clear-advancedsetting.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Wikipedia-Crystal_clear-advancedsetting.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The edit filter manager logo.</div>
+</div>
+</div>
+<div style="position: relative; top: -3em;"><span id="WP:EF"></span><span id="WP:AF"></span><span id="WP:FILTER"></span><span id="WP:FLTR"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcuts</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_EF" title="Wikipedia:EF" class="mw-redirect">WP:EF</a></small></li>
+<li><small><a href="Wikipedia_AF" title="Wikipedia:AF" class="mw-redirect">WP:AF</a></small></li>
+<li><small><a href="Wikipedia_FILTER" title="Wikipedia:FILTER" class="mw-redirect">WP:FILTER</a></small></li>
+<li><small><a href="Wikipedia_FLTR" title="Wikipedia:FLTR" class="mw-redirect">WP:FLTR</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>The <b><a href="Special_AbuseFilter" title="Special:AbuseFilter">Edit filter</a></b> is a tool used to allow trusted users to set specific controls on user activity and create automated reactions for certain behaviors. Edits that trigger an edit filter are listed in a <a href="Special_AbuseLog" title="Special:AbuseLog">log</a>.</p>
+<p>The <a href="http://www.mediawiki.org/wiki/Extension:AbuseFilter" class="extiw" title="mw:Extension:AbuseFilter">Abuse Filter extension</a> was developed by <a href="User_Werdna" title="User:Werdna">Werdna</a> with support from the Wikimedia Foundation, and went live on the English Wikipedia in March 2009. As of July 2009, nearly all user-facing elements of the filter refer to it as the "Edit filter" as not all the edits it flags are abusive. In the software and special pages it retains its original name.</p>
+<p>The extension allows automatic filters/heuristics to be applied to all edits. Specific rules can be developed, such as "users with fewer than 500 edits are blocked from moving pages to titles which match this <a href="Regular_expression" title="Regular expression">regular expression</a>: /po{2,}p/". Of course, the rules can get quite a bit more complicated.</p>
+<p>While filters are by default publicly viewable, others are set to be private. For all filters, including those hidden from public view, a brief, general summary of what the rule targets will be available, and displayed in the log, the list of active filters, and in any error messages generated by the filter.</p>
+<p>Implementation of AbuseFilter on Wikipedia is being done with due caution—most abuse filters should be tested for a few days (in "log only" mode) before being brought to full force ("warn", "disallow" or "throttle" modes). Only members of specific groups are allowed to modify any of the filters, and this group is assignable by administrators.</p>
+<p>The assignment of the edit filter manager user right to non-admins is highly restricted. It should <i>only</i> be requested by and given to highly trusted users, and only when there is a clear, demonstrated need for it. Demonstrated ability that one can and will safely use it is absolutely critical. This is because widespread disruption of the entire encyclopedia can easily occur—even unintentionally—with the smallest of mistakes in changing edit filters. Therefore, demonstrated knowledge of the extension's syntax and confidence in understanding and crafting <a href="Regular_expressions" title="Regular expressions" class="mw-redirect">regular expressions</a> ("regexes") is absolutely essential. Non-admins should consider helping out at <a href="Requested/index.html" title="Wikipedia:Edit filter/Requested">requested edit filters</a> and troubleshooting at <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">false positives</a> to help demonstrate these skills.</p>
+<p>Requests for assignment of the group to non-admins can be made at <a href="Wikipedia_talk_Edit_filter" title="Wikipedia talk:Edit filter">Wikipedia talk:Edit filter</a>, where a discussion will be held for up to a week prior to a decision being made.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Extension_documentation"><span class="tocnumber">1</span> <span class="toctext">Extension documentation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Filtering_criteria"><span class="tocnumber">1.1</span> <span class="toctext">Filtering criteria</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#User"><span class="tocnumber">1.1.1</span> <span class="toctext">User</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#Titles_.28moved-to.2C_moved_from_included.29"><span class="tocnumber">1.1.2</span> <span class="toctext">Titles (moved-to, moved from included)</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Action"><span class="tocnumber">1.1.3</span> <span class="toctext">Action</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Throttling"><span class="tocnumber">1.1.4</span> <span class="toctext">Throttling</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#Actions_which_can_be_assigned_in_response_to_filtered_edits"><span class="tocnumber">1.2</span> <span class="toctext">Actions which can be assigned in response to filtered edits</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Monitoring"><span class="tocnumber">1.3</span> <span class="toctext">Monitoring</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Sample_abuse_log_entries"><span class="tocnumber">1.3.1</span> <span class="toctext">Sample abuse log entries</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Sample_detailed_abuse_log_entries"><span class="tocnumber">1.3.2</span> <span class="toctext">Sample detailed abuse log entries</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#Safeguards"><span class="tocnumber">1.4</span> <span class="toctext">Safeguards</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Notification"><span class="tocnumber">1.5</span> <span class="toctext">Notification</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Known_issues"><span class="tocnumber">2</span> <span class="toctext">Known issues</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Notes"><span class="tocnumber">3</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2> <span class="mw-headline" id="Extension_documentation">Extension documentation</span></h2>
+<table class="plainlinks ombox ombox-content" style="">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/3/38/Imbox_content.png" width="40" height="40" /></td>
+<td class="mbox-text" style="">The content below was written when the extension was first written and may be somewhat out of date.</td>
+</tr>
+</table>
+<h3> <span class="mw-headline" id="Filtering_criteria">Filtering criteria</span></h3>
+<p>For all of the following, we can do extensive normalisation, regex matching, length comparison and regular comparisons (less than, greater than, equal to) matching, combining different filters with boolean logic.</p>
+<h4> <span class="mw-headline" id="User">User</span></h4>
+<ul>
+<li>Edit count.</li>
+<li>Account age.</li>
+<li>Groups.</li>
+<li>Email-confirmed status.</li>
+</ul>
+<h4> <span class="mw-headline" id="Titles_.28moved-to.2C_moved_from_included.29">Titles (moved-to, moved from included)</span></h4>
+<ul>
+<li>Namespace.</li>
+<li>Title.</li>
+<li>Full text.</li>
+<li>Restrictions and protection status.</li>
+</ul>
+<h4> <span class="mw-headline" id="Action">Action</span></h4>
+<ul>
+<li>The action type (edit, move or createaccount).</li>
+<li>Edit summary.</li>
+<li>Contents of the edit.</li>
+</ul>
+<h4> <span class="mw-headline" id="Throttling">Throttling</span></h4>
+<ul>
+<li>Filters can specify whether actions done at a certain rate are by the same IP address, account, /16 range, account-creation-date, and/or to the same page, for a consequence (below) to be invoked.</li>
+<li>Any of the above conditions can be combined to produce a separate rate-limiter. For instance, we can group all accounts created on the same date, from the same /16, for the purposes of rate-limiting.</li>
+<li>Any actions set for that filter will occur if, and only if, the rate-limiter is tripped. This reduces false-positives by making the filter apply only if the same user is consistently tripping a particular filter, rather than a single false-positive.</li>
+</ul>
+<h3> <span class="mw-headline" id="Actions_which_can_be_assigned_in_response_to_filtered_edits">Actions which can be assigned in response to filtered edits</span></h3>
+<p>If a user triggers a filter, AbuseFilter can apply any of the following sanctions based on the severity of the offense:</p>
+<ul>
+<li>All actions triggering a filter are logged at a special page.</li>
+<li>The user's action can be tagged for further review.</li>
+<li>The user can be warned that their actions may be unconstructive.</li>
+<li>The user's action may be disallowed.</li>
+<li>The user's account may have its autoconfirmed status removed.</li>
+</ul>
+<p>The following actions are currently not available on this wiki:</p>
+<ul>
+<li>The user's account may be blocked from editing, along with all IP addresses used in the last 7 days.</li>
+<li>The user's account may be removed from all privileged groups (such as sysop, bot, rollbacker).</li>
+</ul>
+<p>Note: Individual sanctions can be disabled selectively. Any edit filter manager can restore autoconfirmed status in case of an error.</p>
+<h3> <span class="mw-headline" id="Monitoring">Monitoring</span></h3>
+<p>All edits triggering an action will produce a report at <a href="Special_AbuseLog" title="Special:AbuseLog">Special:AbuseLog</a>. On this page, a brief log entry is entered. Users with the appropriate permissions may view the log summary. Users with certain higher permissions may view details on the log entry. This includes all information available to the filter when it ran, and may be useful for debugging purposes. Users with the highest level of log-viewing permissions may view private data about the action which caused the log event, such as the user's IP address. See the <a href="http://www.mediawiki.org/wiki/Extension:AbuseFilter" class="extiw" title="mw:Extension:AbuseFilter">AbuseFilter documentation</a> for more details on the permissions structure.</p>
+<h4> <span class="mw-headline" id="Sample_abuse_log_entries">Sample abuse log entries</span></h4>
+<ul>
+<li>06:43, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered an abuse filter, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: warn,disallow; Filter description: Test Filter</li>
+<li>06:43, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered an abuse filter, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: none; Filter description: Test Filter</li>
+</ul>
+<h4> <span class="mw-headline" id="Sample_detailed_abuse_log_entries">Sample detailed abuse log entries</span></h4>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:AbuseLog-Sample.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AbuseLog-Sample.png/220px-AbuseLog-Sample.png" width="220" height="117" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AbuseLog-Sample.png/330px-AbuseLog-Sample.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/AbuseLog-Sample.png/440px-AbuseLog-Sample.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:AbuseLog-Sample.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A sample detailed log entry</div>
+</div>
+</div>
+<ul>
+<li>06:43, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered filter 1, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: warn,disallow; Filter description: Test Filter (details)</li>
+<li>06:43, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered filter 2, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: none; Filter description: Test Filter (details)</li>
+<li>06:42, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered filter 1, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: warn; Filter description: Test Filter (details)</li>
+<li>06:42, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered filter 2, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: none; Filter description: Test Filter (details)</li>
+<li>06:22, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered filter 1, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: warn,disallow; Filter description: Test Filter (details)</li>
+<li>06:22, 23 June 2008: <a href="User_Andrew" title="User:Andrew" class="mw-redirect">Andrew</a> (<a href="User_talk_Andrew" title="User talk:Andrew">Talk</a> | <a href="Special_Contributions/Andrew" title="Special:Contributions/Andrew">contribs</a> | <a href="Special_Block/Andrew" title="Special:Block/Andrew">block</a>) triggered filter 2, making an edit on <a href="Main_Page" title="Main Page">Main Page</a>. Actions taken: none; Filter description: Test Filter (details)</li>
+</ul>
+<p>The details link brings up a screen like that on the right.</p>
+<h3> <span class="mw-headline" id="Safeguards">Safeguards</span></h3>
+<p>To protect the wiki against poorly configured filters, a technical limit is imposed on the maximum percentage of actions that will trigger a given filter. Other technical limits are in the process of being written.</p>
+<h3> <span class="mw-headline" id="Notification">Notification</span></h3>
+<p>All notifications are based on the template {{<a href="Template_Edit_filter_warning" title="Template:Edit filter warning">edit filter warning</a>}}.</p>
+<p>Standard notifications shown to a user triggering a filter <b>action</b>:</p>
+<table class="wikitable">
+<tr>
+<th>Message name</th>
+<th>Message text</th>
+</tr>
+<tr>
+<td><tt><a href="MediaWiki_Abusefilter-disallowed" title="MediaWiki:Abusefilter-disallowed">abusefilter-disallowed</a></tt></td>
+<td>
+<table class="plainlinks fmbox fmbox-warning" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Dialog-error.svg" class="image" title="Your action has triggered the Abuse Filter"><img alt="Your action has triggered the Abuse Filter" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Dialog-error.svg/60px-Dialog-error.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Dialog-error.svg/90px-Dialog-error.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Dialog-error.svg/120px-Dialog-error.svg.png 2x" /></a></td>
+<td class="mbox-text" style="">An automated filter has identified this edit as potentially unconstructive, and it has been disallowed. If this edit is constructive, please <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">report this error</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><tt><a href="MediaWiki_Abusefilter-degrouped" title="MediaWiki:Abusefilter-degrouped">abusefilter-degrouped</a></tt></td>
+<td>
+<table class="plainlinks fmbox fmbox-warning" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Stop_x_nuvola.svg" class="image" title="Your action has triggered the Abuse Filter"><img alt="Your action has triggered the Abuse Filter" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/42/Stop_x_nuvola.svg/60px-Stop_x_nuvola.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/42/Stop_x_nuvola.svg/90px-Stop_x_nuvola.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/42/Stop_x_nuvola.svg/120px-Stop_x_nuvola.svg.png 2x" /></a></td>
+<td class="mbox-text" style="color:red; font-weight:bold; font-style:italic;">An automated filter has identified this edit as potentially unconstructive, and it has been disallowed. In addition, your account has been removed from privileged groups. If this edit is constructive, please <a href="False_positives/Blocks/index.html" title="Wikipedia:Edit filter/False positives/Blocks">report this error</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><tt><a href="MediaWiki_Abusefilter-autopromote-blocked" title="MediaWiki:Abusefilter-autopromote-blocked">abusefilter-autopromote-blocked</a></tt></td>
+<td>
+<table class="plainlinks fmbox fmbox-warning" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Stop_x_nuvola.svg" class="image" title="Your action has triggered the Abuse Filter"><img alt="Your action has triggered the Abuse Filter" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/42/Stop_x_nuvola.svg/60px-Stop_x_nuvola.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/42/Stop_x_nuvola.svg/90px-Stop_x_nuvola.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/42/Stop_x_nuvola.svg/120px-Stop_x_nuvola.svg.png 2x" /></a></td>
+<td class="mbox-text" style="">An automated filter has identified this edit as potentially unconstructive, and it has been disallowed. In addition, your account has been temporarily restricted from executing some sensitive operations. If this edit is constructive, please <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">report this error</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>Generic <b>warning</b> message is below. Admins are advised to use custom warnings.</p>
+<table class="wikitable">
+<tr>
+<th>Message name</th>
+<th>Message text</th>
+</tr>
+<tr>
+<td><tt><a href="MediaWiki_Abusefilter-warning" title="MediaWiki:Abusefilter-warning">abusefilter-warning</a></tt></td>
+<td>
+<table class="plainlinks fmbox fmbox-editnotice" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Ambox_warning_orange.svg" class="image" title="Your action has triggered the Abuse Filter"><img alt="Your action has triggered the Abuse Filter" src="http://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Ambox_warning_orange.svg/60px-Ambox_warning_orange.svg.png" width="60" height="52" srcset="//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Ambox_warning_orange.svg/90px-Ambox_warning_orange.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/5/5f/Ambox_warning_orange.svg/120px-Ambox_warning_orange.svg.png 2x" /></a></td>
+<td class="mbox-text" style=""><big><b>Warning</b></big>: An automated filter has identified this edit as potentially unconstructive. Please be aware that <a href="Wikipedia_Vandalism" title="Wikipedia:Vandalism">vandalism</a> may result in <a href="Wikipedia_Blocking_policy" title="Wikipedia:Blocking policy">revocation of your editing privileges</a>. If this edit is constructive, please click 'Save page' again, and <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">report this error</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>Some existing filters and their warnings:</p>
+<table class="wikitable">
+<tr>
+<th>Filter and message</th>
+<th>Message text</th>
+</tr>
+<tr valign="top">
+<td><a href="Special_AbuseFilter/3" title="Special:AbuseFilter/3">3: blanking articles</a><br />
+<br />
+<p><tt><a href="MediaWiki_Abusefilter-warning-blanking" title="MediaWiki:Abusefilter-warning-blanking">blanking</a></tt></p>
+</td>
+<td>
+<table class="plainlinks fmbox fmbox-editnotice" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Ambox_warning_blue.svg" class="image" title="Your action has triggered the Abuse Filter"><img alt="Your action has triggered the Abuse Filter" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ambox_warning_blue.svg/60px-Ambox_warning_blue.svg.png" width="60" height="52" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ambox_warning_blue.svg/90px-Ambox_warning_blue.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ambox_warning_blue.svg/120px-Ambox_warning_blue.svg.png 2x" /></a></td>
+<td class="mbox-text" style=""><big><b>Warning</b></big>: An automated filter has identified this edit as potentially unconstructive. <i>Please do not replace Wikipedia pages with blank content.</i> Blank pages are harmful to Wikipedia because they have a tendency to confuse readers.
+<ul>
+<li>If it is a duplicate article, please <a href="Wikipedia_Redirect" title="Wikipedia:Redirect">redirect</a> it to an appropriate existing page.</li>
+<li>If the page has been <a href="Wikipedia_How_to_spot_vandalism" title="Wikipedia:How to spot vandalism" class="mw-redirect">vandalised</a>, please <a href="Wikipedia_How_to_revert_a_page_to_an_earlier_version" title="Wikipedia:How to revert a page to an earlier version" class="mw-redirect">revert</a> it to the last legitimate version.</li>
+<li>If you feel that the content of a page is inappropriate, please <a href="Wikipedia_How_to_edit_a_page" title="Wikipedia:How to edit a page" class="mw-redirect">edit</a> the page and replace it with appropriate content or leave a message on the <a href="Wikipedia_Talk_page" title="Wikipedia:Talk page" class="mw-redirect">talk page</a>.</li>
+<li>If you believe the page should be deleted altogether, please see the <a href="Wikipedia_Deletion_policy" title="Wikipedia:Deletion policy">deletion policy</a> for information on how to proceed.</li>
+<li>If this edit is constructive, please click 'Save page' again, and <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">report this error</a>.</li>
+</ul>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr valign="top">
+<td><a href="Special_AbuseFilter/30" title="Special:AbuseFilter/30">30: large deletions</a><br />
+<br />
+<p><tt><a href="MediaWiki_Abusefilter-warning-removal" title="MediaWiki:Abusefilter-warning-removal">removal</a></tt></p>
+</td>
+<td>
+<table class="plainlinks fmbox fmbox-editnotice" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:Ambox_warning_blue.svg" class="image" title="Your action has triggered the Abuse Filter"><img alt="Your action has triggered the Abuse Filter" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ambox_warning_blue.svg/60px-Ambox_warning_blue.svg.png" width="60" height="52" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ambox_warning_blue.svg/90px-Ambox_warning_blue.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/34/Ambox_warning_blue.svg/120px-Ambox_warning_blue.svg.png 2x" /></a></td>
+<td class="mbox-text" style=""><big><b>Warning</b></big>: An automated filter has identified this edit as removing a large amount of content. While some material on Wikipedia should be removed, such as <a href="Wikipedia_Vandalism" title="Wikipedia:Vandalism">vandalism</a> and <a href="Wikipedia_BLP" title="Wikipedia:BLP" class="mw-redirect">false or libelous information</a>, we discourage removal of content without a valid reason. If you believe that your removal is constructive, please go to the bottom of this page and press 'Save page' to continue (be sure to enter an <a href="Help_Edit_summary" title="Help:Edit summary">edit summary</a> if you have not done so already). If you did not remove a large amount of content, and you believe that this edit is constructive, please <a href="False_positives/index.html" title="Wikipedia:Edit filter/False positives">report this error</a>.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>If a filter is set to warn and disallow, then a user clicking "Save page" will alternatively see that warning and standard <a href="MediaWiki_Abusefilter-disallowed" title="MediaWiki:Abusefilter-disallowed">disallowed</a> message.</p>
+<h2> <span class="mw-headline" id="Known_issues">Known issues</span></h2>
+<p>When the extension was initially installed, the available actions did <b>not</b> include blocking or removing from privileged groups. This restricted usage has been determined by community consensus, and if the extension is successful, the community may decide to enable the <tt>block</tt>, <tt>rangeblock</tt> or <tt>degroup</tt> actions for use on this wiki. Admins wishing to block users for triggering the abuse filter can use the {{<a href="Template_Uw-afblock" title="Template:Uw-afblock" class="mw-redirect">uw-afblock</a>}} template.</p>
+<p>The full technical details of implementation are available on the MediaWiki bug tracker as <a href="https://bugzilla.wikimedia.org/show_bug.cgi?id=15684" class="extiw" title="bugzilla:15684">bug 15684</a>.</p>
+<h2> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Process informally agreed upon when <span><a href="User_Cobi" title="User:Cobi">Cobi</a>&#160;<span class="plainlinks">(<a href="User_talk_Cobi" title="User talk:Cobi">talk</a>&#160;<b>·</b> <a href="Special_Contributions/Cobi" title="Special:Contributions/Cobi">contribs</a>)</span></span>, who was not an admin at the time, was granted the user right in this thread: <a href="Wikipedia_talk_Edit_filter/Archive_3#Abuse_Filter_editors_group_membership_request" title="Wikipedia talk:Edit filter/Archive 3">Wikipedia talk:Edit filter/Archive 3#Abuse Filter editors group membership request</a>. Discussion may extend beyond a week if appropriate consensus, or lack of it, is not clear.</span></li>
+</ol>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1324/1000000
+Preprocessor generated node count: 7778/1500000
+Post-expand include size: 23704/2048000 bytes
+Template argument size: 10426/2048000 bytes
+Highest expansion depth: 10/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:18088626-0!*!0!!en!4!* and timestamp 20130208233549 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wikipedia_Edit_filter&oldid=535896880.php.html">http://en.wikipedia.org/w/index.php?title=Wikipedia:Edit_filter&amp;oldid=535896880</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Wikipedia_edit_filter" title="Category:Wikipedia edit filter">Wikipedia edit filter</a></li><li><a href="Category_Wikipedia_user_access_levels" title="Category:Wikipedia user access levels">Wikipedia user access levels</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Semi-protected_project_pages" title="Category:Semi-protected project pages">Semi-protected project pages</a></li><li><a href="Category_Wikipedia_move-protected_project_pages" title="Category:Wikipedia move-protected project pages">Wikipedia move-protected project pages</a></li><li><a href="Category_Article_Feedback_5_Additional_Articles" title="Category:Article Feedback 5 Additional Articles">Article Feedback 5 Additional Articles</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Edit+filter&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Edit+filter.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-project" class="selected"><span><a href="index.html"  title="View the project page [c]" accesskey="c">Project page</a></span></li>
+					<li  id="ca-talk"><span><a href="Wikipedia_talk_Edit_filter"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="../../w/index-title=Wikipedia_Edit_filter&action=edit.php.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wikipedia_Edit_filter&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wikipedia_Edit_filter" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wikipedia_Edit_filter" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wikipedia_Edit_filter&oldid=535896880.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wikipedia_Edit_filter&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wikipedia_Edit+filter.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wikipedia_Edit+filter&oldid=535896880&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wikipedia_Edit_filter&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7:%D9%85%D8%B1%D8%B4%D8%AD_%D8%A7%D9%84%D8%A5%D8%B3%D8%A7%D8%A1%D8%A9" title="ويكيبيديا:مرشح الإساءة" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Filtre_d'edicions" title="Viquipèdia:Filtre d'edicions" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Wikipedie:Edita%C4%8Dn%C3%AD_filtr" title="Wikipedie:Editační filtr" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Hilfe:Missbrauchsfilter" title="Hilfe:Missbrauchsfilter" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Wikipedia:Filtro_de_ediciones" title="Wikipedia:Filtro de ediciones" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Aide:AbuseFilter" title="Aide:AbuseFilter" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/Wikipedia:%E7%B7%A8%E9%9B%86%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E3%83%BC" title="Wikipedia:編集フィルター" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%ED%8E%B8%EC%A7%91_%ED%95%84%ED%84%B0" title="위키백과:편집 필터" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Vikipedija:Abuse_filter" title="Vikipedija:Abuse filter" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Wikip%C3%A9dia:Vand%C3%A1lsz%C5%B1r%C5%91" title="Wikipédia:Vandálszűrő" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%B8%E0%A4%82%E0%A4%AA%E0%A4%BE%E0%A4%A6%E0%A4%A8_%E0%A4%97%E0%A4%BE%E0%A4%B3%E0%A4%A3%E0%A5%80" title="विकिपीडिया:संपादन गाळणी" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Wikipedia:Redigeringsfilter" title="Wikipedia:Redigeringsfilter" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Wikipedia:Filtr_nadu%C5%BCy%C4%87" title="Wikipedia:Filtr nadużyć" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Filtro_de_edi%C3%A7%C3%B5es" title="Wikipédia:Filtro de edições" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Wikipedia:Filtrarea_modific%C4%83rilor" title="Wikipedia:Filtrarea modificărilor" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80_%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%BA" title="Википедия:Фильтр правок" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%92%E0%B6%9A%E0%B7%92%E0%B6%B4%E0%B7%93%E0%B6%A9%E0%B7%92%E0%B6%BA%E0%B7%8F:%E0%B7%83%E0%B6%82%E0%B7%83%E0%B7%8A%E0%B6%9A%E0%B6%BB%E0%B6%AB_%E0%B6%B4%E0%B7%99%E0%B6%BB%E0%B7%84%E0%B6%B1" title="විකිපීඩියා:සංස්කරණ පෙරහන" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Wikipedia:V%C3%A4%C3%A4rink%C3%A4ytt%C3%B6suodatin" title="Wikipedia:Väärinkäyttösuodatin" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Wikipedia:Missbruksfilter" title="Wikipedia:Missbruksfilter" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Vikipedi:De%C4%9Fi%C5%9Fiklik_s%C3%BCzgeci" title="Vikipedi:Değişiklik süzgeci" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%A4%D1%96%D0%BB%D1%8C%D1%82%D1%80_%D1%80%D0%B5%D0%B4%D0%B0%D0%B3%D1%83%D0%B2%D0%B0%D0%BD%D1%8C" title="Вікіпедія:Фільтр редагувань" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D9%85%D9%86%D8%B5%D9%88%D8%A8%DB%81:%D9%85%D9%82%D8%B7%D8%A7%D8%B1_%D8%BA%D9%84%D8%B7_%DA%A9%D8%A7%D8%B1%DB%8C" title="منصوبہ:مقطار غلط کاری" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/Wikipedia:%E6%BF%AB%E7%94%A8%E9%81%8E%E6%BF%BE%E5%99%A8" title="Wikipedia:濫用過濾器" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/Wikipedia:%E9%98%B2%E6%BB%A5%E7%94%A8%E8%BF%87%E6%BB%A4%E5%99%A8" title="Wikipedia:防滥用过滤器" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 31 January 2013 at 18:38.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wikipedia:Edit_filter" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","mobile.desktop","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1111 in 0.536 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

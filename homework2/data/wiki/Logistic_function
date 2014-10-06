@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Logistic function - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Logistic_function&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Logistic_function&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Logistic_function","wgTitle":"Logistic function","wgCurRevisionId":534602978,"wgArticleId":84563,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from March 2012","Special functions","Differential equations","Population","Demography","Curves","Population ecology"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Logistic_function","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"613d5b0397f4e94e97d498106207c92d","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":84563,"title":"Logistic function","namespace":0,"categories":["All articles with unsourced statements","Articles with unsourced statements from March 2012","Curves","Demography","Differential equations","Population","Population ecology","Special functions"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Logistic_function skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Logistic function</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For the recurrence relation, see <a href="Logistic_map" title="Logistic map">Logistic map</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a href="http://en.wikipedia.org/wiki/File:Logistic-curve.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/320px-Logistic-curve.svg.png" width="320" height="213" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/480px-Logistic-curve.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/640px-Logistic-curve.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Logistic-curve.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Standard logistic sigmoid function</div>
+</div>
+</div>
+<p>A <b>logistic function</b> or <b>logistic curve</b> is a common <a href="Sigmoid_function" title="Sigmoid function">sigmoid function</a>, given its name in 1844 or 1845 by <a href="Pierre_Fran%C3%A7ois_Verhulst" title="Pierre François Verhulst">Pierre François Verhulst</a> who studied it in relation to population growth. A <a href="Generalized_logistic_curve" title="Generalized logistic curve" class="mw-redirect">generalized logistic curve</a> can model the "S-shaped" behaviour (abbreviated S-curve) of growth of some population&#160;<i>P</i>. The initial stage of growth is approximately <a href="Exponential_growth" title="Exponential growth">exponential</a>; then, as saturation begins, the growth slows, and at maturity, growth stops.</p>
+<p>A simple logistic function may be defined by the formula</p>
+<dl>
+<dd><img class="tex" alt="P(t) = \frac{1}{1 + e^{-t}} " src="http://upload.wikimedia.org/math/b/5/3/b532d798ec926e169adf3c1a55f0cdf0.png" /></dd>
+</dl>
+<p>where the variable <i>P</i> might be considered to denote a <i>population</i>, where <i>e</i> is <a href="Euler's_number" title="Euler's number" class="mw-redirect">Euler's number</a> and the variable <i>t</i> might be thought of as <i>time</i>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> For values of <i>t</i> in the range of <a href="Real_number" title="Real number">real numbers</a> from −∞ to +∞, the S-curve shown is obtained. In practice, due to the nature of the <a href="Exponential_function" title="Exponential function">exponential function</a> <i>e</i><sup>−<i>t</i></sup>, it is sufficient to compute <i>t</i> over a small range of real numbers such as [−6,&#160;+6].</p>
+<p>The logistic function finds applications in a range of fields, including <a href="Artificial_neural_network" title="Artificial neural network">artificial neural networks</a>, <a href="Biology" title="Biology">biology</a>, <a href="Biomathematics" title="Biomathematics" class="mw-redirect">biomathematics</a>, <a href="Demography" title="Demography">demography</a>, <a href="Economics" title="Economics">economics</a>, <a href="Chemistry" title="Chemistry">chemistry</a>, <a href="Mathematical_psychology" title="Mathematical psychology">mathematical psychology</a>, <a href="Probability" title="Probability">probability</a>, <a href="Sociology" title="Sociology">sociology</a>, <a href="Political_science" title="Political science">political science</a>, and <a href="Statistics" title="Statistics">statistics</a>. It has an easily calculated derivative:</p>
+<dl>
+<dd><img class="tex" alt="\frac{d}{dt}P(t) = P(t)\cdot(1-P(t)).\," src="http://upload.wikimedia.org/math/2/5/8/25884d6ad86ebb0d95b64fa0fe3389a8.png" /></dd>
+</dl>
+<p>It also has the property that</p>
+<dl>
+<dd><img class="tex" alt="1-P(t) = P(-t).\," src="http://upload.wikimedia.org/math/e/4/a/e4a9c834063ca0d6f6bb9a128a5ef202.png" /></dd>
+</dl>
+<p>Thus, the function <img class="tex" alt="t\mapsto P(t) - 1/2" src="http://upload.wikimedia.org/math/7/b/5/7b5c7d8b94d34547efb95f5090322b45.png" /> is <a href="Even_and_odd_functions#Odd_functions" title="Even and odd functions">odd</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Logistic_differential_equation"><span class="tocnumber">1</span> <span class="toctext">Logistic differential equation</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#In_ecology:_modeling_population_growth"><span class="tocnumber">2</span> <span class="toctext">In ecology: modeling population growth</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Time-varying_carrying_capacity"><span class="tocnumber">2.1</span> <span class="toctext">Time-varying carrying capacity</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#In_statistics_and_machine_learning"><span class="tocnumber">3</span> <span class="toctext">In statistics and machine learning</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Logistic_regression"><span class="tocnumber">3.1</span> <span class="toctext">Logistic regression</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Neural_networks"><span class="tocnumber">3.2</span> <span class="toctext">Neural networks</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#In_medicine:_modeling_of_growth_of_tumors"><span class="tocnumber">4</span> <span class="toctext">In medicine: modeling of growth of tumors</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#In_chemistry:_reaction_models"><span class="tocnumber">5</span> <span class="toctext">In chemistry: reaction models</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#In_physics:_Fermi_distribution"><span class="tocnumber">6</span> <span class="toctext">In physics: Fermi distribution</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#In_linguistics:_language_change"><span class="tocnumber">7</span> <span class="toctext">In linguistics: language change</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#In_economics:_diffusion_of_innovations"><span class="tocnumber">8</span> <span class="toctext">In economics: diffusion of innovations</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Double_logistic_function"><span class="tocnumber">9</span> <span class="toctext">Double logistic function</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Notes"><span class="tocnumber">11</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=1.php.html" title="Edit section: Logistic differential equation">edit</a>]</span> <span class="mw-headline" id="Logistic_differential_equation">Logistic differential equation</span></h2>
+<p>The logistic function is the solution of the simple first-order non-linear <a href="Differential_equation" title="Differential equation">differential equation</a></p>
+<dl>
+<dd><img class="tex" alt="\frac{d}{dt}P(t) = P(t)(1-P(t)) " src="http://upload.wikimedia.org/math/1/e/7/1e7572530bd3c489537fdffa822b134b.png" /></dd>
+</dl>
+<p>with <a href="Boundary_condition" title="Boundary condition" class="mw-redirect">boundary condition</a> <i>P</i>(0)&#160;=&#160;1/2. This equation is the continuous version of the <a href="Logistic_map" title="Logistic map">logistic map</a>.</p>
+<p>The qualitative behavior is easily understood in terms of the <a href="Phase_line_(mathematics)" title="Phase line (mathematics)">phase line</a>: the derivative is 0 at <i>P</i>&#160;=&#160;0&#160;or&#160;1 and the derivative is positive for <i>P</i> between 0 and 1, and negative for <i>P</i> above 1 or less than 0 (though negative populations do not generally accord with a physical model). This yields an unstable equilibrium at 0, and a stable equilibrium at 1, and thus for any value of <i>P</i> greater than 0 and less than 1, <i>P</i> grows to&#160;1.</p>
+<p>One may readily find the (symbolic) solution to be</p>
+<dl>
+<dd><img class="tex" alt="P(t)=\frac{e^{t}}{e^{t}+e^{c}}" src="http://upload.wikimedia.org/math/9/6/9/9691936c8c161ecf33318fa3c027dea8.png" /></dd>
+</dl>
+<p>Choosing the constant of integration <i>e</i><sup><i>c</i></sup>&#160;=&#160;1 gives the other well-known form of the definition of the logistic curve</p>
+<dl>
+<dd><img class="tex" alt="P(t) = \frac{e^t}{e^t + 1} \! = \frac{1}{1 + e^{-t}} \! " src="http://upload.wikimedia.org/math/8/e/c/8ec14518b9d24531f4234ea89d22efdf.png" /></dd>
+</dl>
+<p>More quantitatively, as can be seen from the analytical solution, the logistic curve shows early <a href="Exponential_growth" title="Exponential growth">exponential growth</a> for negative <i>t</i>, which slows to linear growth of slope 1/4 near <i>t</i>&#160;=&#160;0, then approaches <i>y</i>&#160;=&#160;1 with an exponentially decaying gap.</p>
+<p>The logistic function is the inverse of the natural <a href="Logit" title="Logit">logit</a> function and so can be used to convert the logarithm of <a href="Odds" title="Odds">odds</a> into a <a href="Probability" title="Probability">probability</a>; the conversion from the <a href="Log-likelihood_ratio" title="Log-likelihood ratio" class="mw-redirect">log-likelihood ratio</a> of two alternatives also takes the form of a logistic curve.</p>
+<p>The logistic sigmoid function is related to the <a href="Hyperbolic_tangent" title="Hyperbolic tangent" class="mw-redirect">hyperbolic tangent</a>, A.p. by</p>
+<dl>
+<dd><img class="tex" alt="2 \, P(t) = 1 + \tanh \left( \frac{t}{2} \right)." src="http://upload.wikimedia.org/math/8/a/d/8ad15005145492dc90c13e4e7d21585a.png" /></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=2.php.html" title="Edit section: In ecology: modeling population growth">edit</a>]</span> <span class="mw-headline" id="In_ecology:_modeling_population_growth">In ecology: modeling population growth</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Pierre_Francois_Verhulst.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pierre_Francois_Verhulst.jpg/150px-Pierre_Francois_Verhulst.jpg" width="150" height="232" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pierre_Francois_Verhulst.jpg/225px-Pierre_Francois_Verhulst.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pierre_Francois_Verhulst.jpg/300px-Pierre_Francois_Verhulst.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Pierre_Francois_Verhulst.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Pierre-François Verhulst (1804–1849)</div>
+</div>
+</div>
+<p>A typical application of the logistic equation is a common model of <a href="Population_growth" title="Population growth">population growth</a>, originally due to <a href="Pierre_Fran%C3%A7ois_Verhulst" title="Pierre François Verhulst">Pierre-François Verhulst</a> in 1838, where the rate of reproduction is proportional to both the existing population and the amount of available resources, all else being equal. The Verhulst equation was published after Verhulst had read <a href="Thomas_Malthus" title="Thomas Malthus" class="mw-redirect">Thomas Malthus</a>' <i><a href="An_Essay_on_the_Principle_of_Population" title="An Essay on the Principle of Population">An Essay on the Principle of Population</a></i>. Verhulst derived his logistic equation to describe the self-limiting growth of a <a href="Biology" title="Biology">biological</a> population. The equation is also sometimes called the <i>Verhulst-Pearl equation</i> following its rediscovery in 1920. <a href="../Alfred_J._Lotka" title="Alfred J. Lotka">Alfred J. Lotka</a> derived the equation again in 1925, calling it the <i>law of population growth</i>.</p>
+<p>Letting <i>P</i> represent population size (<i>N</i> is often used in ecology instead) and <i>t</i> represent time, this model is formalized by the <a href="Differential_equation" title="Differential equation">differential equation</a>:</p>
+<dl>
+<dd><img class="tex" alt="\frac{dP}{dt}=rP\left(1 - \frac{P}{K}\right)" src="http://upload.wikimedia.org/math/f/8/2/f82bae62876e9b80c006985e978a07c5.png" /></dd>
+</dl>
+<p>where the constant <i>r</i> defines the growth rate and <i>K</i> is the <a href="Carrying_capacity" title="Carrying capacity">carrying capacity</a>.</p>
+<p>In the equation, the early, unimpeded growth rate is modeled by the first term +<i>rP</i>. The value of the rate <i>r</i> represents the proportional increase of the population <i>P</i> in one unit of time. Later, as the population grows, the second term, which multiplied out is −<i>rP</i><sup>2</sup><i>/K</i>, becomes larger than the first as some members of the population <i>P</i> interfere with each other by competing for some critical resource, such as food or living space. This antagonistic effect is called the <i>bottleneck</i>, and is modeled by the value of the parameter <i>K</i>. The competition diminishes the combined growth rate, until the value of <i>P</i> ceases to grow (this is called <i>maturity</i> of the population).</p>
+<p>Dividing both sides of the equation by <i>K</i> gives</p>
+<dl>
+<dd><img class="tex" alt="\frac{d}{dt}\frac{P}{K}=r\frac{P}{K}\left(1 - \frac{P}{K}\right)" src="http://upload.wikimedia.org/math/8/5/6/856ab2db7a2827c44ef20667310ed279.png" /></dd>
+</dl>
+<p>Now setting <img class="tex" alt="x=P/K" src="http://upload.wikimedia.org/math/3/7/2/372e666a541a284d8943a632ab20ff67.png" /> gives the differential equation</p>
+<dl>
+<dd><img class="tex" alt="\frac{dx}{dt} = r x (1-x)" src="http://upload.wikimedia.org/math/2/5/1/251389a53280a0eb116ebee94dc762b2.png" /></dd>
+</dl>
+<p>For <img class="tex" alt="r = 1" src="http://upload.wikimedia.org/math/7/c/6/7c6270537cb2cf1c86fd46bbc6975dd3.png" /> we have the particular case with which we started.</p>
+<p>In <a href="Ecology" title="Ecology">ecology</a>, <a href="Species" title="Species">species</a> are sometimes referred to as <a href="R-selection" title="R-selection" class="mw-redirect">r-strategist</a> or <a href="K-selection" title="K-selection" class="mw-redirect">K-strategist</a> depending upon the <a href="Natural_selection" title="Natural selection">selective</a> processes that have shaped their <a href="Biological_life_cycle" title="Biological life cycle">life history</a> strategies. The solution to the equation (with <img class="tex" alt="P_0" src="http://upload.wikimedia.org/math/1/3/8/13899aa46204b02713a854702142955d.png" /> being the initial population) is</p>
+<dl>
+<dd><img class="tex" alt="P(t) = \frac{K P_0 e^{rt}}{K + P_0 \left( e^{rt} - 1\right)} " src="http://upload.wikimedia.org/math/8/b/9/8b9d470ded11f114a5d20130793f1209.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt="\lim_{t\to\infty} P(t) = K.\," src="http://upload.wikimedia.org/math/9/4/1/941aa42c87e5bf7a39629de8bb7c6254.png" /></dd>
+</dl>
+<p>Which is to say that <i>K</i> is the limiting value of <i>P</i>: the highest value that the population can reach given infinite time (or come close to reaching in finite time). It is important to stress that the carrying capacity is asymptotically reached independently of the initial value <i>P</i>(0)&#160;&gt;&#160;0, also in case that <i>P</i>(0)&#160;&gt;&#160;<i>K</i>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=3.php.html" title="Edit section: Time-varying carrying capacity">edit</a>]</span> <span class="mw-headline" id="Time-varying_carrying_capacity">Time-varying carrying capacity</span></h3>
+<p>Since the environmental conditions influence the carrying capacity, as a consequence it can be time-varying: <i>K</i>(<i>t</i>)&#160;&gt;&#160;0, leading to the following mathematical model:</p>
+<dl>
+<dd><img class="tex" alt="\frac{dP}{dt}=rP\left(1 - \frac{P}{K(t)}\right)" src="http://upload.wikimedia.org/math/d/b/1/db1ba526ab63b9d03ca3b8dfe357de4d.png" /></dd>
+</dl>
+<p>A particularly important case is that of carrying capacity that varies periodically with period <i>T</i>:</p>
+<dl>
+<dd><img class="tex" alt="K(t+T) = K(t).\," src="http://upload.wikimedia.org/math/b/b/0/bb023ed55f15888142470b4239a3ad1b.png" /></dd>
+</dl>
+<p>It can be shown that in such a case, independently from the initial value <i>P</i>(0)&#160;&gt;&#160;0, <i>P</i>(<i>t</i>) will tend to a unique periodic solution <i>P</i><sub>*</sub>(<i>t</i>), whose period is <i>T</i>.</p>
+<p>A typical value of <i>T</i> is one year: in such case <i>K</i>(<i>t</i>) reflects periodical variations of weather conditions.</p>
+<p>Another interesting generalization is to consider that the carrying capacity K(t) is a function of the population at an earlier time, capturing a delay in the way population modifies its environment. This leads to a logistic delay equation,<sup id="cite_ref-delay_carrying_2-0" class="reference"><a href="#cite_note-delay_carrying-2"><span>[</span>2<span>]</span></a></sup> which has a very rich behavior, with bistability in some parameter range, as well as a monotonic decay to zero, smooth exponential growth, punctuated unlimited growth (i.e., multiple S-shapes), punctuated growth or alternation to a stationary level, oscillatory approach to a stationary level, sustainable oscillations, finite-time singularities as well as finite-time death.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=4.php.html" title="Edit section: In statistics and machine learning">edit</a>]</span> <span class="mw-headline" id="In_statistics_and_machine_learning">In statistics and machine learning</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=5.php.html" title="Edit section: Logistic regression">edit</a>]</span> <span class="mw-headline" id="Logistic_regression">Logistic regression</span></h3>
+<p>Logistic functions are used in several roles in <a href="Statistics" title="Statistics">statistics</a>. Firstly, they are the <a href="Cumulative_distribution_function" title="Cumulative distribution function">cumulative distribution function</a> of the <a href="Logistic_distribution" title="Logistic distribution">logistic family of distributions</a>. Secondly they are used in <a href="Logistic_regression" title="Logistic regression">logistic regression</a> to model how the probability <i>p</i> of an event may be affected by one or more <a href="Explanatory_variables" title="Explanatory variables" class="mw-redirect">explanatory variables</a>: an example would be to have the model</p>
+<dl>
+<dd><img class="tex" alt="p=P(a + bx)\," src="http://upload.wikimedia.org/math/4/e/7/4e739481952130536669746e7c52ca5b.png" /></dd>
+</dl>
+<p>where <i>x</i> is the explanatory variable and <i>a</i> and <i>b</i> are model parameters to be fitted.</p>
+<p>An important application of the logistic function is in the <a href="Rasch_model" title="Rasch model">Rasch model</a>, used in <a href="Item_response_theory" title="Item response theory">item response theory</a>. In particular, the Rasch model forms a basis for <a href="Maximum_likelihood" title="Maximum likelihood">maximum likelihood</a> estimation of the locations of objects or persons on a <a href="Continuum_(theory)" title="Continuum (theory)" class="mw-redirect">continuum</a>, based on collections of categorical data, for example the abilities of persons on a continuum based on responses that have been categorized as correct and incorrect.</p>
+<p>Logistic regression and other <a href="Log-linear_model" title="Log-linear model">log-linear models</a> are also commonly used in <a href="Machine_learning" title="Machine learning">machine learning</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=6.php.html" title="Edit section: Neural networks">edit</a>]</span> <span class="mw-headline" id="Neural_networks">Neural networks</span></h3>
+<p>Logistic functions are often used in <a href="Neural_network" title="Neural network">neural networks</a> to introduce <a href="Nonlinearity" title="Nonlinearity" class="mw-redirect">nonlinearity</a> in the model and/or to <a href="Clamp_meter" title="Clamp meter" class="mw-redirect">clamp</a> signals to within a specified <a href="Range_(mathematics)" title="Range (mathematics)">range</a>. A popular <a href="Artificial_neuron" title="Artificial neuron">neural net element</a> computes a <a href="Linear_combination" title="Linear combination">linear combination</a> of its input signals, and applies a bounded logistic function to the result; this model can be seen as a "smoothed" variant of the classical <a href="Perceptron" title="Perceptron">threshold neuron</a>.</p>
+<p>A common choice for the activation or "squashing" functions, used to clip for large magnitudes to keep the response of the neural network bounded<sup id="cite_ref-Gershenfeld-1999_3-0" class="reference"><a href="#cite_note-Gershenfeld-1999-3"><span>[</span>3<span>]</span></a></sup> is</p>
+<dl>
+<dd><img class="tex" alt="g(h) = \frac{1}{1 + e^{-2 \beta h}} \! " src="http://upload.wikimedia.org/math/3/8/7/387d9be240b561a79f71ad6e47e6361b.png" /></dd>
+</dl>
+<p>which we recognize to be of the form of the logistic function. These relationships result in simplified implementations of <a href="Artificial_neural_network" title="Artificial neural network">artificial neural networks</a> with <a href="Artificial_neuron" title="Artificial neuron">artificial neurons</a>. Practitioners caution that sigmoidal functions which are <a href="Antisymmetric" title="Antisymmetric">antisymmetric</a> about the origin (e.g. the <a href="Hyperbolic_tangent" title="Hyperbolic tangent" class="mw-redirect">hyperbolic tangent</a>) lead to faster convergence when training networks with <a href="Backpropagation" title="Backpropagation">backpropagation</a>.<sup id="cite_ref-LeCun-1998_4-0" class="reference"><a href="#cite_note-LeCun-1998-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>A generalisation and extension of the logistic function to multiple inputs is the <a href="Softmax_activation_function" title="Softmax activation function">softmax activation function</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=7.php.html" title="Edit section: In medicine: modeling of growth of tumors">edit</a>]</span> <span class="mw-headline" id="In_medicine:_modeling_of_growth_of_tumors">In medicine: modeling of growth of tumors</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Gompertz_curve#Growth_of_tumors" title="Gompertz curve" class="mw-redirect">Gompertz curve#Growth of tumors</a></div>
+<p>Another application of logistic curve is in medicine, where the logistic differential equation is used to model the growth of tumors. This application can be considered an extension of the above mentioned use in the framework of ecology (see also the <a href="Generalized_logistic_curve" title="Generalized logistic curve" class="mw-redirect">Generalized logistic curve</a>, allowing for more parameters). Denoting with <i>X</i>(<i>t</i>) the size of the tumor at time <i>t</i>, its dynamics are governed by:</p>
+<dl>
+<dd><img class="tex" alt="X^{\prime}=r\left(1 - \frac{X}{K}\right)X" src="http://upload.wikimedia.org/math/a/b/8/ab887121f5a5a1cb4432aca8ec5ae80e.png" /></dd>
+</dl>
+<p>which is of the type:</p>
+<dl>
+<dd><img class="tex" alt="X^{\prime}=F\left(X\right)X, F^{\prime}(X) \le 0 " src="http://upload.wikimedia.org/math/9/7/2/9729918ba1b39f298720dff48e1ecdc8.png" /></dd>
+</dl>
+<p>where <i>F</i>(<i>X</i>) is the proliferation rate of the tumor.</p>
+<p>If a chemotherapy is started with a log-kill effect, the equation may be revised to be</p>
+<dl>
+<dd><img class="tex" alt="X^{\prime}=r\left(1 - \frac{X}{K}\right)X - c(t)X, " src="http://upload.wikimedia.org/math/7/6/b/76b71c4dc566892c68a1541c0c83ebf8.png" /></dd>
+</dl>
+<p>where <i>c</i>(<i>t</i>) is the therapy-induced death rate. In the idealized case of very long therapy, <i>c</i>(<i>t</i>) can be modeled as a periodic function (of period <i>T</i>) or (in case of continuous infusion therapy) as a constant function, and one has that</p>
+<dl>
+<dd><img class="tex" alt=" \frac{1}{T}\int_{0}^{T}{c(t)\, dt} &gt; r \rightarrow \lim_{t \rightarrow +\infty}x(t)=0 " src="http://upload.wikimedia.org/math/e/b/3/eb394cc3bf81ac3deb7b4af984826818.png" /></dd>
+</dl>
+<p>i.e. if the average therapy-induced death rate is greater than the baseline proliferation rate then there is the eradication of the disease. Of course, this is an oversimplified model of both the growth and the therapy (e.g. it does not take into account the phenomenon of clonal resistance).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=8.php.html" title="Edit section: In chemistry: reaction models">edit</a>]</span> <span class="mw-headline" id="In_chemistry:_reaction_models">In chemistry: reaction models</span></h2>
+<p>The concentration of reactants and products in <a href="Autocatalysis" title="Autocatalysis">autocatalytic reactions</a> follow the logistic function.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=9.php.html" title="Edit section: In physics: Fermi distribution">edit</a>]</span> <span class="mw-headline" id="In_physics:_Fermi_distribution">In physics: Fermi distribution</span></h2>
+<p>The logistic function determines the statistical distribution of fermions over the energy states of a system in thermal equilibrium. In particular, it is the distribution of the probabilities that each possible energy level is occupied by a fermion, according to <a href="Fermi_function" title="Fermi function" class="mw-redirect">Fermi–Dirac statistics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=10.php.html" title="Edit section: In linguistics: language change">edit</a>]</span> <span class="mw-headline" id="In_linguistics:_language_change">In linguistics: language change</span></h2>
+<p>In linguistics, the logistic function can be used to model <a href="Language_change" title="Language change">language change</a><sup id="cite_ref-probabilistic_linguistics_5-0" class="reference"><a href="#cite_note-probabilistic_linguistics-5"><span>[</span>5<span>]</span></a></sup>: an innovation that is at first marginal begins to spread more quickly with time, and then more slowly as it becomes more universally adopted.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=11.php.html" title="Edit section: In economics: diffusion of innovations">edit</a>]</span> <span class="mw-headline" id="In_economics:_diffusion_of_innovations">In economics: diffusion of innovations</span></h2>
+<p>The logistic function can be used to illustrate the progress of the <a href="Diffusion_of_innovations" title="Diffusion of innovations">diffusion of an innovation</a> through its life cycle. Historically, when new products are introduced there is an intense amount of research and development which leads to dramatic improvements in quality and reductions in cost. This leads to a period of rapid industry growth. Some of the more famous examples are: railroads, incandescent light bulbs, <a href="Electrification" title="Electrification">electrification</a>, the <a href="Ford_Model_T" title="Ford Model T">Ford Model T</a>, air travel and computers. Eventually, dramatic improvement and cost reduction opportunities are exhausted, the product or process are in widespread use with few remaining potential new customers, and markets become saturated.</p>
+<p>Logistic analysis was used in papers by several researchers at the International Institute of Applied Systems Analysis (<a href="IIASA" title="IIASA" class="mw-redirect">IIASA</a>). These papers deal with the diffusion of various innovations, infrastructures and energy source substitutions and the role of work in the economy as well as with the long economic cycle. Long economic cycles were investigated by Robert Ayres (1989).<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> Cesare Marchetti published on <a href="Kondratiev_wave" title="Kondratiev wave">long economic cycles</a> and on diffusion of innovations.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> Arnulf Grübler’s book (1990) gives a detailed account of the diffusion of infrastructures including canals, railroads, highways and airlines, showing that their diffusion followed logistic shaped curves.<sup id="cite_ref-Grubler1990_9-0" class="reference"><a href="#cite_note-Grubler1990-9"><span>[</span>9<span>]</span></a></sup></p>
+<p>Carlota Perez used a logistic curve to illustrate the long (<a href="Kondratiev_wave" title="Kondratiev wave">Kondratiev</a>) business cycle with the following labels: beginning of a technological era as <i>irruption</i>, the ascent as <i>frenzy</i>, the rapid build out as <i>synergy</i> and the completion as <i>maturity</i>.<sup id="cite_ref-Perez2002_10-0" class="reference"><a href="#cite_note-Perez2002-10"><span>[</span>10<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=12.php.html" title="Edit section: Double logistic function">edit</a>]</span> <span class="mw-headline" id="Double_logistic_function">Double logistic function</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Dsigmoid.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Dsigmoid.png/200px-Dsigmoid.png" width="200" height="143" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/bf/Dsigmoid.png/300px-Dsigmoid.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/bf/Dsigmoid.png/400px-Dsigmoid.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Dsigmoid.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Double logistic sigmoid curve</div>
+</div>
+</div>
+<p>The double logistic is a function similar to the logistic function with numerous applications<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from March 2012">citation needed</span></a></i>]</sup>. Its general formula is:</p>
+<dl>
+<dd><img class="tex" alt=" y = \mathrm{sgn}(x-d) \, \Bigg(1-\exp\bigg(-\bigg(\frac{x-d}{s}\bigg)^2\bigg)\Bigg), " src="http://upload.wikimedia.org/math/5/a/6/5a6f4cf880211b6093a73455df109d1f.png" /></dd>
+</dl>
+<p>where <i>d</i> is its centre and <i>s</i> is the steepness factor. Here "sgn" represents the <a href="Sign_function" title="Sign function">sign function</a>.</p>
+<p>It is based on the <a href="Gaussian_curve" title="Gaussian curve" class="mw-redirect">Gaussian curve</a> and graphically it is similar to two identical logistic sigmoids bonded together at the point&#160;<i>x</i>&#160;=&#160;<i>d</i>.</p>
+<p>One of its applications is non-linear <a href="Normalization_(statistics)" title="Normalization (statistics)">normalization</a> of a sample, as it has the property of eliminating <a href="Outlier" title="Outlier">outliers</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=13.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div style="-moz-column-count:2; column-count:2;">
+<ul>
+<li><a href="Generalised_logistic_curve" title="Generalised logistic curve" class="mw-redirect">Generalised logistic curve</a></li>
+<li><a href="Gompertz_curve" title="Gompertz curve" class="mw-redirect">Gompertz curve</a></li>
+<li><a href="Diffusion_of_innovations" title="Diffusion of innovations">Diffusion of innovations</a></li>
+<li><a href="Tipping_point_(sociology)" title="Tipping point (sociology)">Tipping point (sociology)</a></li>
+<li><a href="Shifted_Gompertz_distribution" title="Shifted Gompertz distribution">Shifted Gompertz distribution</a></li>
+<li><a href="Hubbert_curve" title="Hubbert curve">Hubbert curve</a></li>
+<li><a href="Logistic_distribution" title="Logistic distribution">Logistic distribution</a></li>
+<li><a href="Logistic_map" title="Logistic map">Logistic map</a></li>
+<li><a href="Logistic_regression" title="Logistic regression">Logistic regression</a></li>
+<li><a href="Logit" title="Logit">Logit</a></li>
+<li><a href="Log-likelihood_ratio" title="Log-likelihood ratio" class="mw-redirect">Log-likelihood ratio</a></li>
+<li><a href="Malthusian_growth_model" title="Malthusian growth model">Malthusian growth model</a></li>
+<li><a href="R/K_selection_theory" title="R/K selection theory">r/K selection theory</a></li>
+<li><a href="Star_model" title="Star model" class="mw-redirect">Logistic smooth-transmission model</a></li>
+<li><a href="Heaviside_step_function" title="Heaviside step function">Heaviside step function</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=14.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation Journal">Verhulst, Pierre-François (1838). <a rel="nofollow" class="external text" href="http://books.google.com/?id=8GsEAAAAYAAJ&q=">"Notice sur la loi que la population poursuit dans son accroissement"</a> (PDF). <i>Correspondance mathématique et physique</i> <b>10</b>: 113–121<span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=8GsEAAAAYAAJ&q=">http://books.google.com/?id=8GsEAAAAYAAJ&amp;q=</a></span><span class="reference-accessdate">. Retrieved 09/08/2009</span>.</span></span></li>
+<li id="cite_note-delay_carrying-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-delay_carrying_2-0">^</a></b></span> <span class="reference-text">V.I. Yukalov, E.P. Yukalova and D. Sornette, Punctuated Evolution due to Delayed Carrying Capacity, Physica D 238, 1752–1767 (2009)</span></li>
+<li id="cite_note-Gershenfeld-1999-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Gershenfeld-1999_3-0">^</a></b></span> <span class="reference-text">Gershenfeld 1999, p.150</span></li>
+<li id="cite_note-LeCun-1998-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-LeCun-1998_4-0">^</a></b></span> <span class="reference-text"><span class="citation book">LeCun, Y.; Bottou, L.; Orr, G.; Muller, K. (1998). <a rel="nofollow" class="external text" href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf"><i>Efficient BackProp</i></a>. Springer. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-540-65311-2" title="Special:BookSources/3-540-65311-2">3-540-65311-2</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf">http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf</a></span></span></span></li>
+<li id="cite_note-probabilistic_linguistics-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-probabilistic_linguistics_5-0">^</a></b></span> <span class="reference-text">Bod, Hay, Jennedy (eds.) 2003, pp. 147–156</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation Journal"><a href="Robert_Ayres" title="Robert Ayres">Ayres, Robert</a> (1989). <a rel="nofollow" class="external text" href="http://www.iiasa.ac.at/Admin/PUB/Documents/RR-89-001.pdf"><i>Technological Transformations and Long Waves</i></a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.iiasa.ac.at/Admin/PUB/Documents/RR-89-001.pdf">http://www.iiasa.ac.at/Admin/PUB/Documents/RR-89-001.pdf</a></span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation Journal">Marchetti, Cesare (1996). <a rel="nofollow" class="external text" href="http://www.agci.org/dB/PDFs/03S2_CMarchetti_Cyclotymic.pdf"><i>Pervasive Long Waves: Is Society Cyclotymic</i></a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.agci.org/dB/PDFs/03S2_CMarchetti_Cyclotymic.pdf">http://www.agci.org/dB/PDFs/03S2_CMarchetti_Cyclotymic.pdf</a></span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation Journal">Marchetti, Cesare (1988). <a rel="nofollow" class="external text" href="http://www.cesaremarchetti.org/archive/scan/MARCHETTI-037.pdf"><i>Kondratiev Revisited-After One Cycle</i></a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.cesaremarchetti.org/archive/scan/MARCHETTI-037.pdf">http://www.cesaremarchetti.org/archive/scan/MARCHETTI-037.pdf</a></span></span></span></li>
+<li id="cite_note-Grubler1990-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Grubler1990_9-0">^</a></b></span> <span class="reference-text"><span class="citation book">Grübler, Arnulf (1990). <a rel="nofollow" class="external text" href="http://www.iiasa.ac.at/Admin/PUB/Documents/XB-90-704.pdf"><i>The Rise and Fall of Infrastructures: Dynamics of Evolution and Technological Change in Transport</i></a>. Heidelberg and New York: Physica-Verlag<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.iiasa.ac.at/Admin/PUB/Documents/XB-90-704.pdf">http://www.iiasa.ac.at/Admin/PUB/Documents/XB-90-704.pdf</a></span></span></span></li>
+<li id="cite_note-Perez2002-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-Perez2002_10-0">^</a></b></span> <span class="reference-text"><span class="citation book">Perez, Carlota (2002). <i>Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages</i>. UK: Edward Elgar Publishing Limited. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-84376-331-1" title="Special:BookSources/1-84376-331-1">1-84376-331-1</a>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=15.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="references-normal">
+<ol type="1">
+<li><span class="citation book">Jannedy, Stefanie; Bod, Rens; Hay, Jennifer (2003). <i>Probabilistic Linguistics</i>. Cambridge, Massachusetts: MIT Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-262-52338-8" title="Special:BookSources/0-262-52338-8">0-262-52338-8</a>.</span></li>
+<li><span class="citation book">Gershenfeld, Neil A. (1999). <i>The Nature of Mathematical Modeling</i>. Cambridge, UK: Cambridge University Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-57095-4" title="Special:BookSources/978-0-521-57095-4">978-0-521-57095-4</a>.</span></li>
+<li><span class="citation book">Kingsland, Sharon E. (1995). <i>Modeling nature: episodes in the history of population ecology</i>. Chicago: University of Chicago Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-226-43728-0" title="Special:BookSources/0-226-43728-0">0-226-43728-0</a>.</span></li>
+<li><span class="citation mathworld" id="Reference-Mathworld-Logistic_Equation"><a href="../Eric_W._Weisstein" title="Eric W. Weisstein">Weisstein, Eric W.</a>, "<a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/LogisticEquation.html">Logistic Equation</a>" from <a href="MathWorld" title="MathWorld">MathWorld</a>.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Logistic_function&action=edit&section=16.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li>L.J. Linacre, <a rel="nofollow" class="external text" href="http://rasch.org/rmt/rmt64k.htm">Why logistic ogive and not autocatalytic curve?</a>, accessed 2009-09-12.</li>
+<li><a rel="nofollow" class="external free" href="http://luna.cas.usf.edu/~mbrannic/files/regression/Logistic.html">http://luna.cas.usf.edu/~mbrannic/files/regression/Logistic.html</a></li>
+<li><a rel="nofollow" class="external text" href="http://8020world.com/jcmendez/2007/04/business/modeling-market-adoption-in-excel-with-a-simplified-s-curve">Modeling Market Adoption in Excel with a simplified s-curve</a></li>
+<li><span class="citation mathworld" id="Reference-Mathworld-Sigmoid_Function"><a href="../Eric_W._Weisstein" title="Eric W. Weisstein">Weisstein, Eric W.</a>, "<a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/SigmoidFunction.html">Sigmoid Function</a>" from <a href="MathWorld" title="MathWorld">MathWorld</a>.</span></li>
+<li><a rel="nofollow" class="external text" href="http://jsxgraph.uni-bayreuth.de/wiki/index.php/Logistic_process">Online experiments with JSXGraph</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 6368/1000000
+Preprocessor generated node count: 23211/1500000
+Post-expand include size: 28640/2048000 bytes
+Template argument size: 11004/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:84563-0!0!0!!en!4!* and timestamp 20130127141315 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Logistic_function&oldid=534602978.php.html">http://en.wikipedia.org/w/index.php?title=Logistic_function&amp;oldid=534602978</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Special_functions" title="Category:Special functions">Special functions</a></li><li><a href="Category_Differential_equations" title="Category:Differential equations">Differential equations</a></li><li><a href="Category_Population" title="Category:Population">Population</a></li><li><a href="Category_Demography" title="Category:Demography">Demography</a></li><li><a href="Category_Curves" title="Category:Curves">Curves</a></li><li><a href="Category_Population_ecology" title="Category:Population ecology">Population ecology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_March_2012" title="Category:Articles with unsourced statements from March 2012">Articles with unsourced statements from March 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Logistic+function&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Logistic+function.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Logistic_function"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Logistic_function&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Logistic_function&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Logistic_function" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Logistic_function" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Logistic_function&oldid=534602978.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Logistic_function&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Logistic_function&id=534602978.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Logistic+function.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Logistic+function&oldid=534602978&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Logistic_function&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AF%D8%A7%D9%84%D8%A9_%D9%84%D9%88%D8%AC%D8%B3%D8%AA%D9%8A%D8%A9" title="دالة لوجستية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Logistick%C3%A1_funkce" title="Logistická funkce" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Logistische_Funktion" title="Logistische Funktion" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Funci%C3%B3n_log%C3%ADstica" title="Función logística" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Funtzio_logistiko" title="Funtzio logistiko" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Fonction_logistique_(Verhulst)" title="Fonction logistique (Verhulst)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1_%EB%B0%A9%EC%A0%95%EC%8B%9D" title="로지스틱 방정식" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Equazione_logistica" title="Equazione logistica" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Logistische_functie" title="Logistische functie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%BC%8F" title="ロジスティック式" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Equassion_log%C3%ACstica" title="Equassion logìstica" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_log%C3%ADstica" title="Função logística" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5" title="Логистическое уравнение" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Logistick%C3%A1_funkcia" title="Logistická funkcia" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Logistinen_funktio" title="Logistinen funktio" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Logistisk_funktion" title="Logistisk funktion" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/H%C3%A0m_L%C3%B4git" title="Hàm Lôgit" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 January 2013 at 03:59.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Logistic_function" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1081 in 0.183 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

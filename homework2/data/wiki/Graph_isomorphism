@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Graph isomorphism - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Graph_isomorphism&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Graph_isomorphism&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Graph_isomorphism","wgTitle":"Graph isomorphism","wgCurRevisionId":534906213,"wgArticleId":247577,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Graph theory","Graph algorithms","Morphisms"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Graph_isomorphism","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"52ee5473698bf68e34e941b1f58e6f94","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":247577,"title":"Graph isomorphism","namespace":0,"categories":["Graph algorithms","Graph theory","Morphisms"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Graph_isomorphism skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Graph isomorphism</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>In <a href="Graph_theory" title="Graph theory">graph theory</a>, an <b>isomorphism of <a href="Graph_(mathematics)" title="Graph (mathematics)">graphs</a></b> <i>G</i> and <i>H</i> is a <a href="Bijection" title="Bijection">bijection</a> between the vertex sets of <i>G</i> and <i>H</i></p>
+<dl>
+<dd><img class="tex" alt=" f \colon V(G) \to V(H) \,\!" src="http://upload.wikimedia.org/math/d/9/e/d9eb2f640da2ea0108c724a7c28401fb.png" /></dd>
+</dl>
+<p>such that any two vertices <i>u</i> and <i>v</i> of <i>G</i> are <a href="Adjacent" title="Adjacent">adjacent</a> in <i>G</i> <a href="If_and_only_if" title="If and only if">if and only if</a> ƒ(<i>u</i>) and ƒ(<i>v</i>) are adjacent in <i>H</i>. This kind of bijection is commonly called "edge-preserving bijection", in accordance with the general notion of <a href="Isomorphism" title="Isomorphism">isomorphism</a> being a structure-preserving bijection.</p>
+<p>In the above definition, graphs are understood to be <a href="Directed_graph" title="Directed graph">undirected</a> <a href="Labeled_graph" title="Labeled graph" class="mw-redirect">non-labeled</a> <a href="Weighted_graph" title="Weighted graph" class="mw-redirect">non-weighted</a> graphs. However, the notion of isomorphism may be applied to all other variants of the notion of graph, by adding the requirements to preserve the corresponding additional elements of structure: arc directions, edge weights, etc., with the following exception. When spoken about <a href="Graph_labeling" title="Graph labeling">graph labeling</a> with <i>unique labels</i>, commonly taken from the integer range 1,...,<i>n</i>, where <i>n</i> is the number of the vertices of the graph, two labeled graphs are said to be isomorphic if the corresponding underlying unlabeled graphs are isomorphic.</p>
+<p>If an <a href="Isomorphism" title="Isomorphism">isomorphism</a> exists between two graphs, then the graphs are called <b>isomorphic</b> and we write <img class="tex" alt="G\simeq H" src="http://upload.wikimedia.org/math/d/0/c/d0c471d2ac1345f54eb4b594c7ea8224.png" />. In the case when the bijection is a mapping of a graph onto itself, i.e., when <i>G</i> and <i>H</i> are one and the same graph, the bijection is called an <a href="Graph_automorphism" title="Graph automorphism">automorphism</a> of <i>G</i>.</p>
+<p>The graph isomorphism is an <a href="Equivalence_relation" title="Equivalence relation">equivalence relation</a> on graphs and as such it partitions the <a href="Class_(set_theory)" title="Class (set theory)">class</a> of all graphs into <a href="Equivalence_class" title="Equivalence class">equivalence classes</a>. A set of graphs isomorphic to each other is called an <b><a href="Isomorphism_class" title="Isomorphism class">isomorphism class</a> of graphs</b>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Example"><span class="tocnumber">1</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Motivation"><span class="tocnumber">2</span> <span class="toctext">Motivation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Recognition_of_graph_isomorphism"><span class="tocnumber">3</span> <span class="toctext">Recognition of graph isomorphism</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Whitney_theorem"><span class="tocnumber">3.1</span> <span class="toctext">Whitney theorem</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Algorithmic_approach"><span class="tocnumber">3.2</span> <span class="toctext">Algorithmic approach</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=1.php.html" title="Edit section: Example">edit</a>]</span> <span class="mw-headline" id="Example">Example</span></h2>
+<p>The two graphs shown below are isomorphic, despite their different looking <a href="Graph_drawing" title="Graph drawing">drawings</a>.</p>
+<table class="wikitable" style="margin: 1em auto 1em auto">
+<tr>
+<th>Graph G</th>
+<th>Graph H</th>
+<th>An isomorphism<br />
+between G and H</th>
+</tr>
+<tr>
+<td style="padding-left:2em;padding-right:2em;"><a href="http://en.wikipedia.org/wiki/File:Graph_isomorphism_a.svg" class="image"><img alt="Graph isomorphism a.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Graph_isomorphism_a.svg/100px-Graph_isomorphism_a.svg.png" width="100" height="213" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Graph_isomorphism_a.svg/150px-Graph_isomorphism_a.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Graph_isomorphism_a.svg/200px-Graph_isomorphism_a.svg.png 2x" /></a></td>
+<td style="padding-left:1em;padding-right:1em;"><a href="http://en.wikipedia.org/wiki/File:Graph_isomorphism_b.svg" class="image"><img alt="Graph isomorphism b.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Graph_isomorphism_b.svg/210px-Graph_isomorphism_b.svg.png" width="210" height="210" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Graph_isomorphism_b.svg/315px-Graph_isomorphism_b.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/84/Graph_isomorphism_b.svg/420px-Graph_isomorphism_b.svg.png 2x" /></a></td>
+<td align="center" style="background-color:white;"><i>f</i>(<i>a</i>) = 1
+<p><i>f</i>(<i>b</i>) = 6</p>
+<p><i>f</i>(<i>c</i>) = 8</p>
+<p><i>f</i>(<i>d</i>) = 3</p>
+<p><i>f</i>(<i>g</i>) = 5</p>
+<p><i>f</i>(<i>h</i>) = 2</p>
+<p><i>f</i>(<i>i</i>) = 4</p>
+<p><i>f</i>(<i>j</i>) = 7</p>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=2.php.html" title="Edit section: Motivation">edit</a>]</span> <span class="mw-headline" id="Motivation">Motivation</span></h2>
+<p>The formal notion of "isomorphism", e.g., of "graph isomorphism", captures the informal notion that some objects have "the same structure" if one ignores individual distinctions of "atomic" components of objects in question, see the <a href="#Example">example above</a>. Whenever individuality of "atomic" components (vertices and edges, for graphs) is important for correct representation of whatever is modeled by graphs, the model is refined by imposing additional restrictions on the structure, and other mathematical objects are used: <a href="Digraph_(mathematics)" title="Digraph (mathematics)" class="mw-redirect">digraphs</a>, <a href="Labeled_graph" title="Labeled graph" class="mw-redirect">labeled graphs</a>, <a href="Colored_graph" title="Colored graph" class="mw-redirect">colored graphs</a>, <a href="Rooted_tree" title="Rooted tree" class="mw-redirect">rooted trees</a> and so on. The isomorphism relation may also be defined for all these generalizations of graphs: the isomorphism bijection must preserve the elements of structure which define the object type in question: <a href="Arc_(graph_theory)" title="Arc (graph theory)" class="mw-redirect">arcs</a>, labels, vertex/edge colors, the root of the rooted tree, etc.</p>
+<p>The notion of "graph isomorphism" allows us to distinguish <a href="Graph_properties" title="Graph properties" class="mw-redirect">graph properties</a> inherent to the structures of graphs themselves from properties associated with graph representations: <a href="Graph_drawing" title="Graph drawing">graph drawings</a>, <a href="Graph_(data_structure)" title="Graph (data structure)" class="mw-redirect">data structures for graphs</a>, <a href="Graph_labeling" title="Graph labeling">graph labelings</a>, etc. For example, if a graph has exactly one <a href="Cycle_(graph_theory)" title="Cycle (graph theory)">cycle</a>, then all graphs in its isomorphism class also have exactly one cycle. On the other hand, in the common case when the vertices of a graph are (<i>represented</i> by) the <a href="Integer" title="Integer">integers</a> 1, 2,... <i>N</i>, then the expression</p>
+<dl>
+<dd><img class="tex" alt="\sum_{v \in V(G)} v\cdot\text{deg }v" src="http://upload.wikimedia.org/math/2/9/6/2963834551d851ff7b2e6a642a67a506.png" /></dd>
+</dl>
+<p>may be different for two isomorphic graphs.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=3.php.html" title="Edit section: Recognition of graph isomorphism">edit</a>]</span> <span class="mw-headline" id="Recognition_of_graph_isomorphism">Recognition of graph isomorphism</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=4.php.html" title="Edit section: Whitney theorem">edit</a>]</span> <span class="mw-headline" id="Whitney_theorem">Whitney theorem</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Whitneys_theorem_exception.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Whitneys_theorem_exception.svg/200px-Whitneys_theorem_exception.svg.png" width="200" height="74" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Whitneys_theorem_exception.svg/300px-Whitneys_theorem_exception.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Whitneys_theorem_exception.svg/400px-Whitneys_theorem_exception.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Whitneys_theorem_exception.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The exception of Whitney's theorem: these two graphs are not isomorphic but have isomorphic line graphs.</div>
+</div>
+</div>
+<p>The <b>Whitney graph isomorphism theorem</b>,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> shown by <a href="../H._Whitney" title="H. Whitney" class="mw-redirect">H. Whitney</a>, states that two connected graphs are isomorphic if and only if their <a href="Line_graph" title="Line graph">line graphs</a> are isomorphic, with a single exception: <i>K</i><sub>3</sub>, the <a href="Complete_graph" title="Complete graph">complete graph</a> on three vertices, and the <a href="Complete_bipartite_graph" title="Complete bipartite graph">complete bipartite graph</a> <i>K</i><sub>1,3</sub>, which are not isomorphic but both have <i>K</i><sub>3</sub> as their line graph. The Whitney graph theorem can be extended to <a href="Hypergraph" title="Hypergraph">hypergraphs</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=5.php.html" title="Edit section: Algorithmic approach">edit</a>]</span> <span class="mw-headline" id="Algorithmic_approach">Algorithmic approach</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Graph_isomorphism_problem" title="Graph isomorphism problem">Graph isomorphism problem</a></div>
+<p>While graph isomorphism may be studied in a classical mathematical way, as exemplified by the Whitney theorem, it is recognized that it is a problem to be tackled with an algorithmic approach. The computational problem of determining whether two finite graphs are isomorphic is called the graph isomorphism problem.</p>
+<p>Its practical applications include primarily <a href="Cheminformatics" title="Cheminformatics">cheminformatics</a>, <a href="Mathematical_chemistry" title="Mathematical chemistry">mathematical chemistry</a> (identification of chemical compounds), and <a href="Electronic_design_automation" title="Electronic design automation">electronic design automation</a> (verification of equivalence of various representations of the design of an <a href="Electronic_circuit" title="Electronic circuit">electronic circuit</a>).</p>
+<p>The graph isomorphism problem is one of few standard problems in <a href="Computational_complexity_theory" title="Computational complexity theory">computational complexity theory</a> belonging to <a href="NP_(complexity)" title="NP (complexity)">NP</a>, but not known to belong to either of its well-known (and, if <a href="P_versus_NP_problem" title="P versus NP problem">P&#160;≠&#160;NP</a>, disjoint) subsets: <a href="P_(complexity)" title="P (complexity)">P</a> and <a href="NP-complete" title="NP-complete">NP-complete</a>. It is one of only two, out of 12 total, problems listed in <a href="#CITEREFGareyJohnson1979">Garey &amp; Johnson (1979</a>) whose complexity remains unresolved, the other being <a href="Integer_factorization" title="Integer factorization">integer factorization</a>. It is however known that if the problem is NP-complete then the <a href="Polynomial_hierarchy" title="Polynomial hierarchy">polynomial hierarchy</a> collapses to a finite level.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>Its generalization, the <a href="Subgraph_isomorphism_problem" title="Subgraph isomorphism problem">subgraph isomorphism problem</a>, is known to be NP-complete.</p>
+<p>The main areas of research for the problem are design of fast algorithms and theoretical investigations of its <a href="Computational_complexity" title="Computational complexity" class="mw-redirect">computational complexity</a>, both for the general problem and for special classes of graphs.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=6.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Graph_homomorphism" title="Graph homomorphism">Graph homomorphism</a></li>
+<li><a href="Graph_automorphism_problem" title="Graph automorphism problem" class="mw-redirect">Graph automorphism problem</a></li>
+<li><a href="Graph_canonization" title="Graph canonization">Graph canonization</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Graph_isomorphism&action=edit&section=7.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation Journal">Whitney, Hassler (January 1932). <a rel="nofollow" class="external text" href="http://www.jstor.org/stable/2371086">"Congruent Graphs and the Connectivity of Graphs"</a>. <i>American Journal of Mathematics (Am. J. Math.)</i> (The Johns Hopkins University Press) <b>54</b> (1): 150-168<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.jstor.org/stable/2371086">http://www.jstor.org/stable/2371086</a></span><span class="reference-accessdate">. Retrieved 17 August 2012</span>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Dirk L. Vertigan, Geoffrey P. Whittle: A 2-Isomorphism Theorem for Hypergraphs. J. Comb. Theory, Ser. B 71(2): 215–230. 1997.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation Journal">Schöning, Uwe (1988). "Graph isomorphism is in the low hierarchy". <i><a href="Journal_of_Computer_and_System_Sciences" title="Journal of Computer and System Sciences">Journal of Computer and System Sciences</a></i> <b>37</b>: 312–323.</span></span></li>
+</ol>
+</div>
+<ul>
+<li><span class="citation" id="CITEREFGareyJohnson1979"><a href="../Michael_R._Garey" title="Michael R. Garey" class="mw-redirect">Garey, Michael R.</a>; <a href="../David_S._Johnson" title="David S. Johnson">Johnson, David S.</a> (1979), <i><a href="Computers_and_Intractability__A_Guide_to_the_Theory_of_NP-Completeness" title="Computers and Intractability: A Guide to the Theory of NP-Completeness">Computers and Intractability: A Guide to the Theory of NP-Completeness</a></i>, <a href="../W._H._Freeman" title="W. H. Freeman" class="mw-redirect">W.&#160;H.&#160;Freeman</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-7167-1045-5" title="Special:BookSources/0-7167-1045-5">0-7167-1045-5</a></span></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1925/1000000
+Preprocessor generated node count: 18698/1500000
+Post-expand include size: 9119/2048000 bytes
+Template argument size: 3079/2048000 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:247577-0!0!0!!en!4!* and timestamp 20130127141852 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Graph_isomorphism&oldid=534906213.php.html">http://en.wikipedia.org/w/index.php?title=Graph_isomorphism&amp;oldid=534906213</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Graph_theory" title="Category:Graph theory">Graph theory</a></li><li><a href="Category_Graph_algorithms" title="Category:Graph algorithms">Graph algorithms</a></li><li><a href="Category_Morphisms" title="Category:Morphisms">Morphisms</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Graph+isomorphism&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Graph+isomorphism.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Graph_isomorphism"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Graph_isomorphism&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Graph_isomorphism&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Graph_isomorphism" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Graph_isomorphism" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Graph_isomorphism&oldid=534906213.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Graph_isomorphism&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Graph_isomorphism&id=534906213.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Graph+isomorphism.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Graph+isomorphism&oldid=534906213&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Graph_isomorphism&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D8%B4%D8%A7%D9%83%D9%84_%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA" title="تشاكل المخططات" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Isomorfisme_de_grafs" title="Isomorfisme de grafs" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Isomorphie_von_Graphen" title="Isomorphie von Graphen" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Isomorfismo_de_grafos" title="Isomorfismo de grafos" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%DB%8C%DA%A9%E2%80%8C%D8%B1%DB%8C%D8%AE%D8%AA%DB%8C_%DA%AF%D8%B1%D8%A7%D9%81" title="یک‌ریختی گراف" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Isomorphisme_de_graphes" title="Isomorphisme de graphes" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Gr%C3%A1fizomorfizmus" title="Gráfizomorfizmus" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%B0%E3%83%A9%E3%83%95%E5%90%8C%E5%9E%8B" title="グラフ同型" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Izomorfizm_graf%C3%B3w" title="Izomorfizm grafów" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Isomorfismo_de_grafos" title="Isomorfismo de grafos" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%BE%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B7%D0%BC_%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2" title="Изоморфизм графов" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%86%D0%B7%D0%BE%D0%BC%D0%BE%D1%80%D1%84%D1%96%D0%B7%D0%BC_%D0%B3%D1%80%D0%B0%D1%84%D1%96%D0%B2" title="Ізоморфізм графів" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Ph%C3%A9p_%C4%91%E1%BA%B3ng_c%E1%BA%A5u_%C4%91%E1%BB%93_th%E1%BB%8B" title="Phép đẳng cấu đồ thị" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 25 January 2013 at 23:34.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Graph_isomorphism" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1082 in 0.163 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

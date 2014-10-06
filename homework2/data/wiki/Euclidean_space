@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Euclidean space - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Euclidean_space&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Euclidean_space&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Euclidean_space","wgTitle":"Euclidean space","wgCurRevisionId":536669876,"wgArticleId":9697,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Euclidean geometry","Linear algebra","Topological spaces","Norms (mathematics)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Euclidean_space","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"cf94a2922a33411784bebd9d2715174e","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":9697,"title":"Euclidean space","namespace":0,"categories":["Euclidean geometry","Linear algebra","Norms (mathematics)","Topological spaces"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Euclidean_space skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Euclidean space</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Coord_system_CA_0.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coord_system_CA_0.svg/250px-Coord_system_CA_0.svg.png" width="250" height="242" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coord_system_CA_0.svg/375px-Coord_system_CA_0.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coord_system_CA_0.svg/500px-Coord_system_CA_0.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Coord_system_CA_0.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Every point in three-dimensional Euclidean space is determined by three coordinates.</div>
+</div>
+</div>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, <b>Euclidean space</b> is the <a href="Euclidean_plane" title="Euclidean plane" class="mw-redirect">Euclidean plane</a>, the <a href="Three-dimensional_space" title="Three-dimensional space">three-dimensional space</a> of <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>, and generalizations of these ideas to <a href="Higher_dimension" title="Higher dimension" class="mw-redirect">higher dimensions</a>. The term “Euclidean” distinguishes these spaces from the <a href="Curved_space" title="Curved space">curved spaces</a> of <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean geometry</a> and <a href="Albert_Einstein" title="Albert Einstein">Einstein's</a> <a href="General_relativity" title="General relativity">general theory of relativity</a>. It is named for the <a href="Greeks" title="Greeks">Greek</a> mathematician <a href="Euclid" title="Euclid">Euclid of Alexandria</a>.</p>
+<p>Classical <a href="History_of_geometry#Greek_geometry" title="History of geometry">Greek geometry</a> defined the Euclidean plane and Euclidean three-dimensional space using certain <a href="Axiom" title="Axiom">postulates</a>, while the other properties of these spaces were deduced as <a href="Theorem" title="Theorem">theorems</a>. In modern mathematics, it is more common to define Euclidean space using <a href="Cartesian_coordinates" title="Cartesian coordinates" class="mw-redirect">Cartesian coordinates</a> and the ideas of <a href="Analytic_geometry" title="Analytic geometry">analytic geometry</a>. This approach brings the tools of <a href="Algebra" title="Algebra">algebra</a> and <a href="Calculus" title="Calculus">calculus</a> to bear on questions of geometry, and has the advantage that it generalizes easily to Euclidean spaces of more than three <a href="Dimension" title="Dimension" class="mw-redirect">dimensions</a>.</p>
+<p>From the modern viewpoint, there is essentially only one Euclidean space of each dimension. In dimension one this is the <a href="Real_line" title="Real line">real line</a>; in dimension two it is the <a href="Cartesian_plane" title="Cartesian plane" class="mw-redirect">Cartesian plane</a>; and in higher dimensions it is a <a href="Coordinate_space" title="Coordinate space">coordinate space</a> with three or more <a href="Real_number" title="Real number">real number</a> coordinates – in short, an <i>n</i>-dimensional <b>real coordinate space</b>. A <a href="Point_(geometry)" title="Point (geometry)">point</a> in Euclidean space may be identified by a <a href="Tuple" title="Tuple">tuple</a> of real numbers, and distances are defined using the <a href="Euclidean_distance" title="Euclidean distance">Euclidean distance formula</a>. Mathematicians often denote the <a href="N-dimensional_space" title="N-dimensional space" class="mw-redirect"><i>n</i>-dimensional</a> Euclidean space by <img class="tex" alt="\mathbb{R}^n" src="http://upload.wikimedia.org/math/3/0/c/30c28f76ef7517dbd19df4d4c683dbe6.png" />, or sometimes <img class="tex" alt="\mathbb{E}^n" src="http://upload.wikimedia.org/math/3/6/7/36757438e2c2aa7acb9d9d30124b4550.png" /> if they wish to emphasize its Euclidean nature. Euclidean spaces have finite dimension.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Intuitive_overview"><span class="tocnumber">1</span> <span class="toctext">Intuitive overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Real_coordinate_space"><span class="tocnumber">2</span> <span class="toctext">Real coordinate space</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Euclidean_structure"><span class="tocnumber">3</span> <span class="toctext">Euclidean structure</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Topology_of_Euclidean_space"><span class="tocnumber">4</span> <span class="toctext">Topology of Euclidean space</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Generalizations"><span class="tocnumber">5</span> <span class="toctext">Generalizations</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=1.php.html" title="Edit section: Intuitive overview">edit</a>]</span> <span class="mw-headline" id="Intuitive_overview">Intuitive overview</span></h2>
+<p>One way to think of the Euclidean plane is as a <a href="Set_(mathematics)" title="Set (mathematics)">set</a> of <a href="Point_(geometry)" title="Point (geometry)">points</a> satisfying certain relationships, expressible in terms of distance and angle. For example, there are two fundamental operations on the plane. One is <a href="Translation_(geometry)" title="Translation (geometry)">translation</a>, which means a shifting of the plane so that every point is shifted in the same direction and by the same distance. The other is <a href="Rotation" title="Rotation">rotation</a> about a fixed point in the plane, in which every point in the plane turns about that fixed point through the same angle. One of the basic tenets of Euclidean geometry is that two figures (that is, <a href="Subset" title="Subset">subsets</a>) of the plane should be considered equivalent (<a href="Congruence_(geometry)" title="Congruence (geometry)">congruent</a>) if one can be transformed into the other by some sequence of translations, rotations and <a href="Reflection_(mathematics)" title="Reflection (mathematics)">reflections</a>. (See <a href="Euclidean_group" title="Euclidean group">Euclidean group</a>.)</p>
+<p>In order to make all of this mathematically precise, one must clearly define the notions of distance, angle, translation, and rotation. The standard way to do this, as carried out in the remainder of this article, is to define the Euclidean plane as a two-dimensional <a href="Real_number" title="Real number">real</a> <a href="Vector_space" title="Vector space">vector space</a> equipped with an <a href="Inner_product" title="Inner product" class="mw-redirect">inner product</a>. For then:</p>
+<ul>
+<li>the <a href="Coordinate_vector" title="Coordinate vector">vectors</a> in the vector space correspond to the points of the Euclidean plane,</li>
+<li>the <a href="Addition" title="Addition">addition</a> operation in the vector space corresponds to translation, and</li>
+<li>the inner product implies notions of angle and distance, which can be used to define rotation.</li>
+</ul>
+<p>Once the Euclidean plane has been described in this language, it is actually a simple matter to extend its concept to arbitrary dimensions. For the most part, the vocabulary, formulae, and calculations are not made any more difficult by the presence of more dimensions. (However, rotations are more subtle in high dimensions, and visualizing high-dimensional spaces remains difficult, even for experienced mathematicians.)</p>
+<p>A final wrinkle is that Euclidean space is not technically a vector space but rather an <a href="Affine_space" title="Affine space">affine space</a>, on which a vector space <a href="Group_action" title="Group action">acts</a>. Intuitively, the distinction says merely that there is no <a href="Canonical_form" title="Canonical form">canonical</a> choice of where the <a href="Origin_(mathematics)" title="Origin (mathematics)">origin</a> should go in the space, because it can be translated anywhere. In this article, this technicality is largely ignored.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=2.php.html" title="Edit section: Real coordinate space">edit</a>]</span> <span class="mw-headline" id="Real_coordinate_space">Real coordinate space</span></h2>
+<p>Let <b>R</b> denote the <a href="Field_(mathematics)" title="Field (mathematics)">field</a> of <a href="Real_number" title="Real number">real numbers</a>. For any positive <a href="Integer" title="Integer">integer</a> <i>n</i>, the set of all <i>n</i>-<a href="Tuple" title="Tuple">tuples</a> of real numbers forms an <i>n</i>-dimensional vector space over <b>R</b>, which is denoted <b>R</b><sup><i>n</i></sup> and sometimes called <b>real coordinate space</b>. An element of <b>R</b><sup><i>n</i></sup> is written</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{x} = (x_1, x_2, \ldots, x_n)," src="http://upload.wikimedia.org/math/4/0/f/40f3f87309ba435315d170c05a4d984c.png" /></dd>
+</dl>
+<p>where each <i>x</i><sub><i>i</i></sub> is a real number. The vector space operations on <b>R</b><sup><i>n</i></sup> are defined by</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{x} + \mathbf{y} = (x_1 + y_1, x_2 + y_2, \ldots, x_n + y_n)," src="http://upload.wikimedia.org/math/4/d/2/4d205f363009661add8470de7cfe9b31.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="a\,\mathbf{x} = (a x_1, a x_2, \ldots, a x_n)." src="http://upload.wikimedia.org/math/d/a/0/da0facc6150ba8d8125515d3cdbd2c62.png" /></dd>
+</dl>
+<p>The vector space <b>R</b><sup><i>n</i></sup> comes with a <a href="Standard_basis" title="Standard basis">standard basis</a>:</p>
+<dl>
+<dd><img class="tex" alt="
+\begin{align}
+\mathbf{e}_1 &amp; = (1, 0, \ldots, 0), \\
+\mathbf{e}_2 &amp; = (0, 1, \ldots, 0), \\
+&amp; {}\,\,\,  \vdots \\
+\mathbf{e}_n &amp; = (0, 0, \ldots, 1).
+\end{align}
+" src="http://upload.wikimedia.org/math/d/7/0/d7091ec429cf4d5c33d45cbb555544cf.png" /></dd>
+</dl>
+<p>An arbitrary vector in <b>R</b><sup><i>n</i></sup> can then be written in the form</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{x} = \sum_{i=1}^n x_i \mathbf{e}_i." src="http://upload.wikimedia.org/math/3/9/b/39b8192f59ee670b2df9b66467c0bf1d.png" /></dd>
+</dl>
+<p><b>R</b><sup><i>n</i></sup> is the prototypical example of a real <i>n</i>-dimensional vector space. In fact, every real <i>n</i>-dimensional vector space <i>V</i> is <a href="Isomorphic" title="Isomorphic" class="mw-redirect">isomorphic</a> to <b>R</b><sup><i>n</i></sup>. This isomorphism is not <a href="Canonical_form" title="Canonical form">canonical</a>, however. A choice of isomorphism is equivalent to a choice of <a href="Basis_(linear_algebra)" title="Basis (linear algebra)">basis</a> for <i>V</i> (by looking at the image of the standard basis for <b>R</b><sup><i>n</i></sup> in <i>V</i>). The reason for working with arbitrary vector spaces instead of <b>R</b><sup><i>n</i></sup> is that it is often preferable to work in a <i>coordinate-free</i> manner (that is, without choosing a preferred basis).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=3.php.html" title="Edit section: Euclidean structure">edit</a>]</span> <span class="mw-headline" id="Euclidean_structure">Euclidean structure</span></h2>
+<p>Euclidean space is more than just a real coordinate space. In order to apply Euclidean geometry one needs to be able to talk about the distances between points and the angles between lines or vectors. The natural way to obtain these quantities is by introducing and using the standard inner product (also known as the <a href="Dot_product" title="Dot product">dot product</a>) on <b>R</b><sup><i>n</i></sup>. The inner product of any two real <b>n</b>-vectors <b>x</b> and <b>y</b> is defined by</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{x}\cdot\mathbf{y} = \sum_{i=1}^n x_iy_i = x_1y_1+x_2y_2+\cdots+x_ny_n." src="http://upload.wikimedia.org/math/2/3/5/235b77c31e62bbf4777bcb5a919e9986.png" /></dd>
+</dl>
+<p>The result is always a real number. Furthermore, the inner product of <b>x</b> with itself is always nonnegative. This product allows us to define the "length" of a vector <i>x</i> as</p>
+<dl>
+<dd><img class="tex" alt="\|\mathbf{x}\| = \sqrt{\mathbf{x}\cdot\mathbf{x}} = \sqrt{\sum_{i=1}^{n}(x_i)^2}." src="http://upload.wikimedia.org/math/4/8/8/48847990ebc51c99cf6e677bbb54d5a7.png" /></dd>
+</dl>
+<p>This length function satisfies the required properties of a <a href="Norm_(mathematics)" title="Norm (mathematics)">norm</a> and is called the <b>Euclidean norm</b> on <b>R</b><sup><i>n</i></sup>.</p>
+<p>The <b>(non-reflex) angle</b> θ (0° ≤ <i>θ</i> ≤ 180°) between <b>x</b> and <b>y</b> is then given by</p>
+<dl>
+<dd><img class="tex" alt="\theta = \cos^{-1}\left(\frac{\mathbf{x}\cdot\mathbf{y}}{\|\mathbf{x}\|\|\mathbf{y}\|}\right)" src="http://upload.wikimedia.org/math/f/5/e/f5ec784420564a938a3ec58255ce193c.png" /></dd>
+</dl>
+<p>where cos<sup>−1</sup> is the <a href="Arccosine" title="Arccosine" class="mw-redirect">arccosine</a> function.</p>
+<p>Finally, one can use the norm to define a <a href="Metric_(mathematics)" title="Metric (mathematics)">metric</a> (or distance function) on <b>R</b><sup><i>n</i></sup> by</p>
+<dl>
+<dd><img class="tex" alt="d(\mathbf{x}, \mathbf{y}) = \|\mathbf{x} - \mathbf{y}\| = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}." src="http://upload.wikimedia.org/math/4/f/c/4fc2a2af1905d2953791127042233743.png" /></dd>
+</dl>
+<p>This distance function is called the <b><a href="Euclidean_distance" title="Euclidean distance">Euclidean metric</a></b>. It can be viewed as a form of the <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a>.</p>
+<p>Real coordinate space together with this Euclidean structure is called <b>Euclidean space</b> and often denoted <b>E</b><sup><i>n</i></sup>. (Many authors refer to <b>R</b><sup><i>n</i></sup> itself as Euclidean space, with the Euclidean structure being understood). The Euclidean structure makes <b>E</b><sup><i>n</i></sup> an <a href="Inner_product_space" title="Inner product space">inner product space</a> (in fact a <a href="Hilbert_space" title="Hilbert space">Hilbert space</a>), a <a href="Normed_vector_space" title="Normed vector space">normed vector space</a>, and a <a href="Metric_space" title="Metric space">metric space</a>.</p>
+<p>Rotations of Euclidean space are then defined as <a href="Orientation_(mathematics)" title="Orientation (mathematics)" class="mw-redirect">orientation</a>-preserving <a href="Linear_transformation" title="Linear transformation" class="mw-redirect">linear transformations</a> <i>T</i> that preserve angles and lengths:</p>
+<dl>
+<dd><img class="tex" alt="T\mathbf{x} \cdot T\mathbf{y} = \mathbf{x} \cdot \mathbf{y}," src="http://upload.wikimedia.org/math/1/4/b/14b566ae6e1a47adad9180f6f95a9f10.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="|T\mathbf{x}| = |\mathbf{x}|." src="http://upload.wikimedia.org/math/5/0/0/5001854475feebf016957548aaa19857.png" /></dd>
+</dl>
+<p>In the language of <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrices</a>, rotations are <a href="Special_orthogonal_matrix" title="Special orthogonal matrix" class="mw-redirect">special orthogonal matrices</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=4.php.html" title="Edit section: Topology of Euclidean space">edit</a>]</span> <span class="mw-headline" id="Topology_of_Euclidean_space">Topology of Euclidean space</span></h2>
+<p>Since Euclidean space is a <a href="Metric_space" title="Metric space">metric space</a> it is also a <a href="Topological_space" title="Topological space">topological space</a> with the <a href="Natural_topology" title="Natural topology">natural topology</a> induced by the metric. The metric topology on <b>E</b><sup><i>n</i></sup> is called the <b>Euclidean topology</b>. A set is <a href="Open_set" title="Open set">open</a> in the Euclidean topology <a href="If_and_only_if" title="If and only if">if and only if</a> it contains an <a href="Open_ball" title="Open ball" class="mw-redirect">open ball</a> around each of its points. The Euclidean topology turns out to be equivalent to the <a href="Product_topology" title="Product topology">product topology</a> on <b>R</b><sup><i>n</i></sup> considered as a product of <i>n</i> copies of the <a href="Real_line" title="Real line">real line</a> <b>R</b> (with its standard topology).</p>
+<p>An important result on the topology of <b>R</b><sup><i>n</i></sup>, that is far from superficial, is <a href="../L._E._J._Brouwer" title="L. E. J. Brouwer" class="mw-redirect">Brouwer</a>'s <a href="Invariance_of_domain" title="Invariance of domain">invariance of domain</a>. Any subset of <b>R</b><sup><i>n</i></sup> (with its <a href="Subspace_topology" title="Subspace topology">subspace topology</a>) that is <a href="Homeomorphic" title="Homeomorphic" class="mw-redirect">homeomorphic</a> to another open subset of <b>R</b><sup><i>n</i></sup> is itself open. An immediate consequence of this is that <b>R</b><sup><i>m</i></sup> is not homeomorphic to <b>R</b><sup><i>n</i></sup> if <i>m</i> ≠ <i>n</i> — an intuitively "obvious" result which is nonetheless difficult to prove.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=5.php.html" title="Edit section: Generalizations">edit</a>]</span> <span class="mw-headline" id="Generalizations">Generalizations</span></h2>
+<p>In modern mathematics, Euclidean spaces form the prototypes for other, more complicated geometric objects. For example, a <a href="Smooth_manifold" title="Smooth manifold" class="mw-redirect">smooth manifold</a> is a <a href="Hausdorff_space" title="Hausdorff space">Hausdorff</a> topological space that is locally <a href="Diffeomorphic" title="Diffeomorphic" class="mw-redirect">diffeomorphic</a> to Euclidean space. Diffeomorphism does not respect distance and angle, so these key concepts of Euclidean geometry are lost on a smooth manifold. However, if one additionally prescribes a smoothly varying inner product on the manifold's <a href="Tangent_space" title="Tangent space">tangent spaces</a>, then the result is what is called a <a href="Riemannian_manifold" title="Riemannian manifold">Riemannian manifold</a>. Put differently, a Riemannian manifold is a space constructed by deforming and patching together Euclidean spaces. Such a space enjoys notions of distance and angle, but they behave in a <a href="Curvature" title="Curvature">curved</a>, non-Euclidean manner. The simplest Riemannian manifold, consisting of <b>R</b><sup><i>n</i></sup> with a constant inner product, is essentially identical to Euclidean <i>n</i>-space itself.</p>
+<p>If one alters a Euclidean space so that its inner product becomes negative in one or more directions, then the result is a <a href="Pseudo-Euclidean_space" title="Pseudo-Euclidean space">pseudo-Euclidean space</a>. Smooth manifolds built from such spaces are called <a href="Pseudo-Riemannian_manifold" title="Pseudo-Riemannian manifold">pseudo-Riemannian manifolds</a>. Perhaps their most famous application is the <a href="Theory_of_relativity" title="Theory of relativity">theory of relativity</a>, where empty <a href="Spacetime" title="Spacetime">spacetime</a> with no <a href="Matter" title="Matter">matter</a> is represented by the flat pseudo-Euclidean space called <a href="Minkowski_space" title="Minkowski space">Minkowski space</a>, spacetimes with matter in them form other pseudo-Riemannian manifolds, and <a href="Gravity" title="Gravity" class="mw-redirect">gravity</a> corresponds to the curvature of such a manifold.</p>
+<p>Our universe, being subject to relativity, is not Euclidean. This becomes significant in theoretical considerations of <a href="Astronomy" title="Astronomy">astronomy</a> and <a href="Cosmology" title="Cosmology">cosmology</a>, and also in some practical problems such as <a href="Global_positioning" title="Global positioning" class="mw-redirect">global positioning</a> and <a href="Airplane" title="Airplane" class="mw-redirect">airplane</a> <a href="Navigation" title="Navigation">navigation</a>. Nonetheless, a Euclidean model of the universe can still be used to solve many other practical problems with sufficient precision.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=6.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a></li>
+<li><a href="Euclidean_subspace" title="Euclidean subspace">Euclidean subspace</a></li>
+<li><a href="Cartesian_coordinate_system" title="Cartesian coordinate system">Cartesian coordinate system</a></li>
+<li><a href="Polar_coordinate_system" title="Polar coordinate system">Polar coordinate system</a></li>
+<li><a href="Hilbert_space" title="Hilbert space">Hilbert space</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=7.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation book">Kelley, John L. (1975). <i>General Topology</i>. Springer-Verlag. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-90125-6" title="Special:BookSources/0-387-90125-6">0-387-90125-6</a>.</span></li>
+<li><span class="citation book">Munkres, James (1999). <i>Topology</i>. Prentice-Hall. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-13-181629-2" title="Special:BookSources/0-13-181629-2">0-13-181629-2</a>.</span></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Euclidean_space&action=edit&section=8.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/e036380">"Euclidean space"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/e036380">http://www.encyclopediaofmath.org/index.php?title=p/e036380</a></span></span></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1857/1000000
+Preprocessor generated node count: 17641/1500000
+Post-expand include size: 8311/2048000 bytes
+Template argument size: 2361/2048000 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:9697-0!0!0!!en!4!* and timestamp 20130205100010 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Euclidean_space&oldid=536669876.php.html">http://en.wikipedia.org/w/index.php?title=Euclidean_space&amp;oldid=536669876</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Euclidean_geometry" title="Category:Euclidean geometry">Euclidean geometry</a></li><li><a href="Category_Linear_algebra" title="Category:Linear algebra">Linear algebra</a></li><li><a href="Category_Topological_spaces" title="Category:Topological spaces">Topological spaces</a></li><li><a href="Category_Norms_(mathematics)" title="Category:Norms (mathematics)">Norms (mathematics)</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Euclidean+space&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Euclidean+space.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Euclidean_space"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Euclidean_space&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Euclidean_space&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Euclidean_space" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Euclidean_space" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Euclidean_space&oldid=536669876.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Euclidean_space&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Euclidean_space&id=536669876.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Euclidean+space.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Euclidean+space&oldid=536669876&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Euclidean_space&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-als"><a href="http://als.wikipedia.org/wiki/Euklidischer_Raum" title="Euklidischer Raum" lang="als" hreflang="als">Alemannisch</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%81%D8%B6%D8%A7%D8%A1_%D8%A5%D9%82%D9%84%D9%8A%D8%AF%D9%8A" title="فضاء إقليدي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/Xeometr%C3%ADa_euclidiana" title="Xeometría euclidiana" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%87%E0%A6%89%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%A1%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8" title="ইউক্লিডীয় স্থান" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%BE_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE" title="Евклидово пространство" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Espai_euclidi%C3%A0" title="Espai euclidià" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cv"><a href="http://cv.wikipedia.org/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4_%D1%83%C3%A7%D0%BB%C4%83%D1%85%C4%95" title="Евклид уçлăхĕ" lang="cv" hreflang="cv">Чӑвашла</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Eukleidovsk%C3%BD_prostor" title="Eukleidovský prostor" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Euklidisk_rum" title="Euklidisk rum" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Euklidischer_Raum" title="Euklidischer Raum" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Espacio_eucl%C3%ADdeo" title="Espacio euclídeo" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/E%C5%ADklida_spaco" title="Eŭklida spaco" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Euklidestar_espazio" title="Euklidestar espazio" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%81%D8%B6%D8%A7%DB%8C_%D8%A7%D9%82%D9%84%DB%8C%D8%AF%D8%B3%DB%8C" title="فضای اقلیدسی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Espace_euclidien" title="Espace euclidien" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C_%EA%B3%B5%EA%B0%84" title="유클리드 공간" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Euklidski_prostor" title="Euklidski prostor" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Euklidana_spaco" title="Euklidana spaco" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Spazio_euclideo" title="Spazio euclideo" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%97%D7%91_%D7%90%D7%95%D7%A7%D7%9C%D7%99%D7%93%D7%99" title="מרחב אוקלידי" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Euklidin%C4%97_erdv%C4%97" title="Euklidinė erdvė" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Euklideszi_t%C3%A9r_(line%C3%A1ris_algebra)" title="Euklideszi tér (lineáris algebra)" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%80" title="Евклидов простор" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Euclidische_ruimte" title="Euclidische ruimte" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%83%A6%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%83%E3%83%89%E7%A9%BA%E9%96%93" title="ユークリッド空間" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Euklidsk_rom" title="Euklidsk rom" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Przestrze%C5%84_euklidesowa" title="Przestrzeń euklidesowa" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Espa%C3%A7o_euclidiano" title="Espaço euclidiano" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%BE_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%BE" title="Евклидово пространство" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Evklidski_prostor" title="Evklidski prostor" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%95%D1%83%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%80" title="Еуклидов простор" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Euklidinen_avaruus" title="Euklidinen avaruus" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Euklidiskt_rum" title="Euklidiskt rum" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Espasyong_maka-Euclid" title="Espasyong maka-Euclid" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/%C3%96klid_uzay%C4%B1" title="Öklid uzayı" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D1%96%D0%B4%D1%96%D0%B2_%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%96%D1%80" title="Евклідів простір" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Kh%C3%B4ng_gian_Euclide" title="Không gian Euclide" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%A9%BA%E9%97%B4" title="欧几里得空间" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 5 February 2013 at 10:00.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Euclidean_space" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1073 in 0.156 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

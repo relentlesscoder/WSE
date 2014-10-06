@@ -1,0 +1,1148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Calculus - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Calculus&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Calculus&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Calculus","wgTitle":"Calculus","wgCurRevisionId":538106073,"wgArticleId":5176,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia indefinitely move-protected pages","Articles needing additional references from October 2011","All articles needing additional references","Use dmy dates from June 2011","Calculus"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Calculus","wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"d472aa67f48d5d7becfb7ee27c30de38","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":5176,"title":"Calculus","namespace":0,"categories":["All articles needing additional references","Articles needing additional references from October 2011","Calculus","Use dmy dates from June 2011","Wikipedia indefinitely move-protected pages"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Calculus skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Calculus</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article is about the branch of mathematics.  For other uses, see <a href="Calculus_(disambiguation)" title="Calculus (disambiguation)">Calculus (disambiguation)</a>.</div>
+<table class="vertical-navbox nowraplinks plainlist" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;width:17.0em;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><strong class="selflink">Calculus</strong></th>
+</tr>
+<tr>
+<td class="" style="padding:0.3em 0.4em 0.3em;font-weight:bold;border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;">
+<ul>
+<li><a href="Fundamental_theorem_of_calculus" title="Fundamental theorem of calculus">Fundamental theorem</a></li>
+<li><a href="Limit_of_a_function" title="Limit of a function">Limits of functions</a></li>
+<li><a href="Continuous_function" title="Continuous function">Continuity</a></li>
+<li><a href="Mean_value_theorem" title="Mean value theorem">Mean value theorem</a></li>
+<li><a href="Rolle's_theorem" title="Rolle's theorem">Rolle's theorem</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;padding-top:0.8em;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><span style="font-size:110%;"><a href="Differential_calculus" title="Differential calculus">Differential calculus</a></span></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; border-top:1px solid #aaa;;">
+<div style="padding-bottom:0.4em;"><i><b>Definitions</b></i>
+<ul>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.15em;"><a href="Derivative" title="Derivative">Derivative</a>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;">(<a href="Fr%C3%A9chet_derivative" title="Fréchet derivative">Fréchet</a></span></li>
+<li style=""><span style="font-size:85%;"><a href="G%C3%A2teaux_derivative" title="Gâteaux derivative">Gâteaux</a></span></li>
+</ul>
+</div>
+</div>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;"><a href="Radon%E2%80%93Nikodym_derivative" title="Radon–Nikodym derivative" class="mw-redirect">Radon–Nikodym</a></span></li>
+<li style=""><span style="font-size:85%;"><a href="Q-derivative" title="Q-derivative">q</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Generalizations_of_the_derivative" title="Generalizations of the derivative">Generalizations</a></li>
+<li style=""><a href="Differential_(infinitesimal)" title="Differential (infinitesimal)">Infinitesimal</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Differential_of_a_function" title="Differential of a function">Differential of a function</a></li>
+</ul>
+</div>
+<div style="padding-bottom:0.4em;"><i><b>Concepts</b></i>
+<ul>
+<li><a href="Notation_for_differentiation" title="Notation for differentiation">Notation</a></li>
+<li><a href="Second_derivative" title="Second derivative">Second</a>&#160;/ <a href="Third_derivative" title="Third derivative">Third derivative</a></li>
+<li><a href="Change_of_variables" title="Change of variables">Change of variables</a></li>
+<li><a href="Implicit_function" title="Implicit function">Implicit differentiation</a></li>
+<li><a href="Related_rates" title="Related rates">Related rates</a></li>
+<li><a href="Taylor's_theorem" title="Taylor's theorem">Taylor's theorem</a></li>
+</ul>
+</div>
+<div><i><b><a href="Differentiation_rules" title="Differentiation rules">Rules and identities</a></b></i>
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Power_rule" title="Power rule">Power</a></li>
+<li style=""><a href="Product_rule" title="Product rule">Product</a></li>
+<li style=""><a href="Quotient_rule" title="Quotient rule">Quotient</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Sum_rule_in_differentiation" title="Sum rule in differentiation">Sum</a></li>
+<li style=""><a href="Chain_rule" title="Chain rule">Chain</a></li>
+<li style=""><a href="Fa%C3%A0_di_Bruno's_formula" title="Faà di Bruno's formula">di Bruno formula</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><span style="font-size:110%;"><a href="Integral" title="Integral">Integral calculus</a></span></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; border-top:1px solid #aaa;;">
+<div style="padding-bottom:0.4em;"><i><b>Definitions</b></i>
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Integral" title="Integral">Definite</a></li>
+<li style=""><a href="Antiderivative" title="Antiderivative">Indefinite <span style="font-size:85%;">(anti)</span></a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Improper_integral" title="Improper integral">Improper</a></li>
+<li style=""><a href="Riemann_integral" title="Riemann integral">Riemann</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Lebesgue_integration" title="Lebesgue integration">Lebesgue integration</a></li>
+<li><a href="Methods_of_contour_integration" title="Methods of contour integration">Contour integration</a></li>
+</ul>
+</div>
+<div style="padding-bottom:0.4em;"><i><b>Integration by...</b></i>
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Integration_by_parts" title="Integration by parts">parts</a></li>
+<li style=""><a href="Disk_integration" title="Disk integration">disks</a></li>
+<li style=""><a href="Shell_integration" title="Shell integration">shells</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Integration_by_substitution" title="Integration by substitution">substitution</a> (<a href="Trigonometric_substitution" title="Trigonometric substitution">trigonometric</a>)</li>
+<li><a href="Partial_fractions_in_integration" title="Partial fractions in integration">partial fractions</a></li>
+<li><a href="Order_of_integration_(calculus)" title="Order of integration (calculus)">changing order</a></li>
+<li><a href="Integration_by_reduction_formulae" title="Integration by reduction formulae">reduction formulae</a></li>
+</ul>
+</div>
+<div><i><b><a href="Lists_of_integrals" title="Lists of integrals">Lists of integrals</a></b></i></div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><span style="font-size:110%;"><a href="Series_(mathematics)" title="Series (mathematics)">Series</a></span></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; border-top:1px solid #aaa;;">
+<div style="padding-bottom:0.4em;">
+<ul>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.0em;"><a href="Geometric_series" title="Geometric series">Geometric</a><br />
+<span style="font-size:85%;">(<a href="Arithmetico-geometric_sequence" title="Arithmetico-geometric sequence">arithmetico-geometric</a>)</span></div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Harmonic_series_(mathematics)" title="Harmonic series (mathematics)">Harmonic</a></li>
+<li style=""><a href="Alternating_series" title="Alternating series">Alternating</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Power_series" title="Power series">Power</a></li>
+<li style=""><a href="Binomial_series" title="Binomial series">Binomial</a></li>
+<li style=""><a href="Taylor_series" title="Taylor series">Taylor</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div><i><b><a href="Convergence_tests" title="Convergence tests">Convergence tests</a></b></i>
+<ul>
+<li><a href="Term_test" title="Term test">Limit of the summand <span style="font-size:85%;">(term test)</span></a></li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Ratio_test" title="Ratio test">Ratio</a></li>
+<li style=""><a href="Root_test" title="Root test">Root</a></li>
+<li style=""><a href="Integral_test" title="Integral test" class="mw-redirect">Integral</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Direct_comparison_test" title="Direct comparison test">Comparison</a></li>
+<li style=""><a href="Alternating_series_test" title="Alternating series test">Alternating series</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><span style="font-size:110%;"><a href="Vector_calculus" title="Vector calculus">Vector calculus</a></span></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; border-top:1px solid #aaa;;">
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Gradient" title="Gradient">Gradient</a></li>
+<li style=""><a href="Divergence" title="Divergence">Divergence</a></li>
+<li style=""><a href="Curl_(mathematics)" title="Curl (mathematics)">Curl</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Laplace_operator" title="Laplace operator">Laplace operator <span style="font-size:85%;">(Laplacian)</span></a></li>
+<li><a href="Gradient_theorem" title="Gradient theorem">Gradient theorem</a></li>
+<li><a href="Green's_theorem" title="Green's theorem">Green's</a>&#160;/ <a href="Stokes'_theorem" title="Stokes' theorem">Stokes' theorem</a></li>
+<li><a href="Divergence_theorem" title="Divergence theorem">Divergence theorem</a></li>
+<li><a href="Directional_derivative" title="Directional derivative">Directional derivative</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><span style="font-size:110%;"><a href="Multivariable_calculus" title="Multivariable calculus">Multivariable</a></span></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; border-top:1px solid #aaa;;">
+<div style="padding-bottom:0.4em;"><i><b>Formalisms</b></i>
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Matrix_calculus" title="Matrix calculus">Matrix</a></li>
+<li style=""><a href="Tensor_calculus" title="Tensor calculus">Tensor</a></li>
+<li style=""><a href="Exterior_derivative" title="Exterior derivative">Exterior</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Geometric_calculus" title="Geometric calculus">Geometric</a></li>
+</ul>
+</div>
+<div><i><b>Definitions</b></i>
+<ul>
+<li><a href="Partial_derivative" title="Partial derivative">Partial derivative</a></li>
+<li><a href="Multiple_integral" title="Multiple integral">Multiple integral</a></li>
+<li><a href="Line_integral" title="Line integral">Line</a>&#160;/ <a href="Surface_integral" title="Surface integral">Surface</a>&#160;/ <a href="Volume_integral" title="Volume integral">Volume integral</a></li>
+<li><a href="Jacobian_matrix_and_determinant" title="Jacobian matrix and determinant">Jacobian</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><span style="font-size:110%;">Specialized</span></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; border-top:1px solid #aaa;;">
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Fractional_calculus" title="Fractional calculus">Fractional</a></li>
+<li style=""><a href="Stochastic_calculus" title="Stochastic calculus">Stochastic</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Calculus_of_variations" title="Calculus of variations">Variational</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Calculus" title="Template:Calculus"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Calculus" title="Template talk:Calculus"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Calculus&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Calculus</b> (<a href="Latin" title="Latin">Latin</a>, <i><a href="http://en.wiktionary.org/wiki/en:calculus#Latin" class="extiw" title="wikt:en:calculus">calculus</a></i>, a small stone used for counting) is a branch of <a href="Mathematics" title="Mathematics">mathematics</a> focused on <a href="Limit_(mathematics)" title="Limit (mathematics)">limits</a>, <a href="Function_(mathematics)" title="Function (mathematics)">functions</a>, <a href="Derivative" title="Derivative">derivatives</a>, <a href="Integral" title="Integral">integrals</a>, and <a href="Series_(mathematics)" title="Series (mathematics)">infinite series</a>. It has two major branches, <a href="Differential_calculus" title="Differential calculus">differential calculus</a> and <a href="Integral" title="Integral">integral</a> calculus, which are related by the <a href="Fundamental_theorem_of_calculus" title="Fundamental theorem of calculus">fundamental theorem of calculus</a>. Calculus is the study of change,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> in the same way that <a href="Geometry" title="Geometry">geometry</a> is the study of shape and <a href="Algebra" title="Algebra">algebra</a> is the study of operations and their application to solving equations. Calculus has widespread uses in <a href="Science" title="Science">science</a>, <a href="Economics" title="Economics">economics</a>, and <a href="Engineering" title="Engineering">engineering</a> and can solve many problems that <a href="Elementary_algebra" title="Elementary algebra">algebra</a> alone cannot.</p>
+<p>This subject is a major part of modern <a href="Mathematics_education" title="Mathematics education">mathematics education</a>. A course in calculus is a gateway to other, more advanced courses in mathematics devoted to the study of functions and limits, broadly called <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a>.</p>
+<p>Calculus has historically been called "the calculus of <a href="Infinitesimal" title="Infinitesimal">infinitesimals</a>", or "<a href="Infinitesimal_calculus" title="Infinitesimal calculus">infinitesimal calculus</a>". More generally, <i>calculus</i> (plural <i>calculi</i>) refers to any method or system of calculation guided by the symbolic manipulation of <a href="Expression_(mathematics)" title="Expression (mathematics)">expressions</a>. Some examples of other well-known calculi are <a href="Propositional_calculus" title="Propositional calculus">propositional calculus</a>, <a href="Variational_calculus" title="Variational calculus" class="mw-redirect">variational calculus</a>, <a href="Lambda_calculus" title="Lambda calculus">lambda calculus</a>, <a href="Pi_calculus" title="Pi calculus" class="mw-redirect">pi calculus</a>, and <a href="Join_calculus" title="Join calculus" class="mw-redirect">join calculus</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Ancient"><span class="tocnumber">1.1</span> <span class="toctext">Ancient</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Medieval"><span class="tocnumber">1.2</span> <span class="toctext">Medieval</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Modern"><span class="tocnumber">1.3</span> <span class="toctext">Modern</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Foundations"><span class="tocnumber">1.4</span> <span class="toctext">Foundations</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Significance"><span class="tocnumber">1.5</span> <span class="toctext">Significance</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Principles"><span class="tocnumber">2</span> <span class="toctext">Principles</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Limits_and_infinitesimals"><span class="tocnumber">2.1</span> <span class="toctext">Limits and infinitesimals</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Differential_calculus"><span class="tocnumber">2.2</span> <span class="toctext">Differential calculus</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Leibniz_notation"><span class="tocnumber">2.3</span> <span class="toctext">Leibniz notation</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Integral_calculus"><span class="tocnumber">2.4</span> <span class="toctext">Integral calculus</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Fundamental_theorem"><span class="tocnumber">2.5</span> <span class="toctext">Fundamental theorem</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Applications"><span class="tocnumber">3</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Lists"><span class="tocnumber">4.1</span> <span class="toctext">Lists</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Related_topics"><span class="tocnumber">4.2</span> <span class="toctext">Related topics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="#Notes"><span class="tocnumber">5.1</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#Books"><span class="tocnumber">5.2</span> <span class="toctext">Books</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Other_resources"><span class="tocnumber">6</span> <span class="toctext">Other resources</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#Further_reading"><span class="tocnumber">6.1</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Online_books"><span class="tocnumber">6.2</span> <span class="toctext">Online books</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="History_of_calculus" title="History of calculus">History of calculus</a></div>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=2.php.html" title="Edit section: Ancient">edit</a>]</span> <span class="mw-headline" id="Ancient">Ancient</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/200px-GodfreyKneller-IsaacNewton-1689.jpg" width="200" height="275" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/300px-GodfreyKneller-IsaacNewton-1689.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/400px-GodfreyKneller-IsaacNewton-1689.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a> developed the use of calculus in his <a href="Newton's_laws_of_motion" title="Newton's laws of motion">laws of motion</a> and <a href="Gravitation" title="Gravitation">gravitation</a>.</div>
+</div>
+</div>
+<p>The ancient period introduced some of the ideas that led to <a href="Integral" title="Integral">integral</a> calculus, but does not seem to have developed these ideas in a rigorous and systematic way. Calculations of volumes and areas, one goal of integral calculus, can be found in the <a href="Egyptian_mathematics" title="Egyptian mathematics">Egyptian</a> <a href="Moscow_Mathematical_Papyrus" title="Moscow Mathematical Papyrus">Moscow papyrus</a> (c. 1820 BC), but the formulas are mere instructions, with no indication as to method, and some of them are wrong.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> From the age of <a href="Greek_mathematics" title="Greek mathematics">Greek mathematics</a>, <a href="Eudoxus_of_Cnidus" title="Eudoxus of Cnidus">Eudoxus</a> (c. 408−355 BC) used the <a href="Method_of_exhaustion" title="Method of exhaustion">method of exhaustion</a>, which foreshadows the concept of the limit, to calculate areas and volumes, while <a href="Archimedes" title="Archimedes">Archimedes</a> (c. 287−212 BC) <a href="Archimedes'_use_of_infinitesimals" title="Archimedes' use of infinitesimals" class="mw-redirect">developed this idea further</a>, inventing <a href="Heuristics" title="Heuristics" class="mw-redirect">heuristics</a> which resemble the methods of integral calculus.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> The <a href="Method_of_exhaustion" title="Method of exhaustion">method of exhaustion</a> was later reinvented in <a href="Chinese_mathematics" title="Chinese mathematics">China</a> by <a href="Liu_Hui" title="Liu Hui">Liu Hui</a> in the 3rd century AD in order to find the area of a circle.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> In the 5th century AD, <a href="Zu_Chongzhi" title="Zu Chongzhi">Zu Chongzhi</a> established a method that would later be called <a href="Cavalieri's_principle" title="Cavalieri's principle">Cavalieri's principle</a> to find the volume of a <a href="Sphere" title="Sphere">sphere</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> Indian astronomer and mathematician <a href="Bh%C4%81skara_II" title="Bhāskara II">Bhāskara II</a> also contributed to calculus. He was perhaps the first to conceive the differential coefficient and differential calculus.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=3.php.html" title="Edit section: Medieval">edit</a>]</span> <span class="mw-headline" id="Medieval">Medieval</span></h3>
+<p>In the 14th century, Indian mathematician <a href="Madhava_of_Sangamagrama" title="Madhava of Sangamagrama">Madhava of Sangamagrama</a> and the <a href="Kerala_school_of_astronomy_and_mathematics" title="Kerala school of astronomy and mathematics">Kerala school of astronomy and mathematics</a> stated components of calculus such as the <a href="Taylor_series" title="Taylor series">Taylor series</a>, <a href="Infinite_series" title="Infinite series" class="mw-redirect">infinite series</a> approximations, an <a href="Integral_test_for_convergence" title="Integral test for convergence">integral test for convergence</a>, early forms of differentiation, term by term integration, iterative methods for solutions of non-linear equations, and the theory that the area under a curve is its integral. The <i><a href="Yuktibh%C4%81%E1%B9%A3%C4%81" title="Yuktibhāṣā">Yuktibhāṣā</a></i> is considered to be the first text on calculus.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=4.php.html" title="Edit section: Modern">edit</a>]</span> <span class="mw-headline" id="Modern">Modern</span></h3>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Calculus&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(October 2011)</i></small> </span></td>
+</tr>
+</table>
+<table class="toccolours" style="float: right; margin-left: 0.5em; margin-right: 0.5em; font-size: 84%; background:#white; color:black; width:30em; max-width: 30%;" cellspacing="5">
+<tr>
+<td style="text-align: left;">"The calculus was the first achievement of modern mathematics and it is difficult to overestimate its importance. I think it defines more unequivocally than anything else the inception of modern mathematics, and the system of mathematical analysis, which is its logical development, still constitutes the greatest technical advance in exact thinking." —<a href="John_von_Neumann" title="John von Neumann">John von Neumann</a><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></td>
+</tr>
+</table>
+<p>In Europe, the foundational work was a treatise due to <a href="Bonaventura_Cavalieri" title="Bonaventura Cavalieri">Bonaventura Cavalieri</a>, who argued that volumes and areas should be computed as the sums of the volumes and areas of infinitesimally thin cross-sections. The ideas were similar to Archimedes' in <a href="Archimedes'_use_of_infinitesimals" title="Archimedes' use of infinitesimals" class="mw-redirect">The Method</a>, but this treatise was lost until the early part of the twentieth century. Cavalieri's work was not well respected since his methods could lead to erroneous results, and the infinitesimal quantities he introduced were disreputable at first.</p>
+<p>The formal study of calculus brought together Cavalieri's infinitesimals with the <a href="Calculus_of_finite_differences" title="Calculus of finite differences" class="mw-redirect">calculus of finite differences</a> developed in Europe at around the same time. <a href="Pierre_de_Fermat" title="Pierre de Fermat">Pierre de Fermat</a>, claiming that he borrowed from <a href="Diophantus" title="Diophantus">Diophantus</a>, introduced the concept of <a href="Adequality" title="Adequality">adequality</a>, which represented equality up to an infinitesimal error term.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> The combination was achieved by <a href="John_Wallis" title="John Wallis">John Wallis</a>, <a href="Isaac_Barrow" title="Isaac Barrow">Isaac Barrow</a>, and <a href="James_Gregory_(astronomer_and_mathematician)" title="James Gregory (astronomer and mathematician)" class="mw-redirect">James Gregory</a>, the latter two proving the <a href="Fundamental_theorem_of_calculus" title="Fundamental theorem of calculus">second fundamental theorem of calculus</a> around 1670.</p>
+<p>The <a href="Product_rule" title="Product rule">product rule</a> and <a href="Chain_rule" title="Chain rule">chain rule</a>, the notion of <a href="Higher_derivative" title="Higher derivative" class="mw-redirect">higher derivatives</a>, <a href="Taylor_series" title="Taylor series">Taylor series</a>, and <a href="Analytical_function" title="Analytical function" class="mw-redirect">analytical functions</a> were introduced by <a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a> in an idiosyncratic notation which he used to solve problems of <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a>. In his works, Newton rephrased his ideas to suit the mathematical idiom of the time, replacing calculations with infinitesimals by equivalent geometrical arguments which were considered beyond reproach. He used the methods of calculus to solve the problem of planetary motion, the shape of the surface of a rotating fluid, the oblateness of the earth, the motion of a weight sliding on a <a href="Cycloid" title="Cycloid">cycloid</a>, and many other problems discussed in his <i><a href="Philosophi%C3%A6_Naturalis_Principia_Mathematica" title="Philosophiæ Naturalis Principia Mathematica">Principia Mathematica</a></i> (1687). In other work, he developed series expansions for functions, including fractional and irrational powers, and it was clear that he understood the principles of the <a href="Taylor_series" title="Taylor series">Taylor series</a>. He did not publish all these discoveries, and at this time infinitesimal methods were still considered disreputable.</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Gottfried_Wilhelm_von_Leibniz.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gottfried_Wilhelm_von_Leibniz.jpg/200px-Gottfried_Wilhelm_von_Leibniz.jpg" width="200" height="253" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gottfried_Wilhelm_von_Leibniz.jpg/300px-Gottfried_Wilhelm_von_Leibniz.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/6/6a/Gottfried_Wilhelm_von_Leibniz.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Gottfried_Wilhelm_von_Leibniz.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Gottfried Wilhelm Leibniz</a> was the first to publish his results on the development of calculus.</div>
+</div>
+</div>
+<p>These ideas were arranged into a true calculus of infinitesimals by <a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Gottfried Wilhelm Leibniz</a>, who was originally accused of <a href="Plagiarism" title="Plagiarism">plagiarism</a> by Newton.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> He is now regarded as an independent inventor of and contributor to calculus. His contribution was to provide a clear set of rules for working with infinitesimal quantities, allowing the computation of second and higher derivatives, and providing the <a href="Product_rule" title="Product rule">product rule</a> and <a href="Chain_rule" title="Chain rule">chain rule</a>, in their differential and integral forms. Unlike Newton, Leibniz paid a lot of attention to the formalism, often spending days determining appropriate symbols for concepts.</p>
+<p><a href="Gottfried_Leibniz" title="Gottfried Leibniz" class="mw-redirect">Leibniz</a> and <a href="Isaac_Newton" title="Isaac Newton">Newton</a> are usually both credited with the invention of calculus. Newton was the first to apply calculus to general <a href="Physics" title="Physics">physics</a> and Leibniz developed much of the notation used in calculus today. The basic insights that both Newton and Leibniz provided were the laws of differentiation and integration, second and higher derivatives, and the notion of an approximating polynomial series. By Newton's time, the fundamental theorem of calculus was known.</p>
+<p>When Newton and Leibniz first published their results, there was <a href="../Newton_v._Leibniz_calculus_controversy" title="Newton v. Leibniz calculus controversy" class="mw-redirect">great controversy</a> over which mathematician (and therefore which country) deserved credit. Newton derived his results first, but Leibniz published first. Newton claimed Leibniz stole ideas from his unpublished notes, which Newton had shared with a few members of the <a href="Royal_Society" title="Royal Society">Royal Society</a>. This controversy divided English-speaking mathematicians from continental mathematicians for many years, to the detriment of English mathematics. A careful examination of the papers of Leibniz and Newton shows that they arrived at their results independently, with Leibniz starting first with integration and Newton with differentiation. Today, both Newton and Leibniz are given credit for developing calculus independently. It is Leibniz, however, who gave the new discipline its name. Newton called his calculus "<a href="Method_of_fluxions" title="Method of fluxions" class="mw-redirect">the science of fluxions</a>".</p>
+<p>Since the time of Leibniz and Newton, many mathematicians have contributed to the continuing development of calculus. One of the first and most complete works on finite and infinitesimal analysis was written in 1748 by <a href="Maria_Gaetana_Agnesi" title="Maria Gaetana Agnesi">Maria Gaetana Agnesi</a>.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Maria_Gaetana_Agnesi.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Maria_Gaetana_Agnesi.jpg/150px-Maria_Gaetana_Agnesi.jpg" width="150" height="174" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Maria_Gaetana_Agnesi.jpg/225px-Maria_Gaetana_Agnesi.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/57/Maria_Gaetana_Agnesi.jpg/300px-Maria_Gaetana_Agnesi.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Maria_Gaetana_Agnesi.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Maria_Gaetana_Agnesi" title="Maria Gaetana Agnesi">Maria Gaetana Agnesi</a></div>
+</div>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=5.php.html" title="Edit section: Foundations">edit</a>]</span> <span class="mw-headline" id="Foundations">Foundations</span></h3>
+<p>In calculus, <i>foundations</i> refers to the <a href="Rigorous#Mathematical_rigour" title="Rigorous" class="mw-redirect">rigorous</a> development of a subject from precise axioms and definitions. In early calculus the use of <a href="Infinitesimal" title="Infinitesimal">infinitesimal</a> quantities was thought unrigorous, and was fiercely criticized by a number of authors, most notably <a href="Michel_Rolle" title="Michel Rolle">Michel Rolle</a> and <a href="George_Berkeley" title="George Berkeley">Bishop Berkeley</a>. Berkeley famously described infinitesimals as the <a href="Ghosts_of_departed_quantities" title="Ghosts of departed quantities" class="mw-redirect">ghosts of departed quantities</a> in his book <i><a href="The_Analyst" title="The Analyst">The Analyst</a></i> in 1734. A recent study argues that Leibnizian calculus was more solidly grounded than Berkeley's <a href="Empiricism" title="Empiricism">empiricist</a> critique thereof.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> Working out a rigorous foundation for calculus occupied mathematicians for much of the century following Newton and Leibniz and is still to some extent an active area of research today.</p>
+<p>Several mathematicians, including <a href="Colin_Maclaurin" title="Colin Maclaurin">Maclaurin</a>, tried to prove the soundness of using infinitesimals, but it would not be until 150 years later when, due to the work of <a href="Augustin_Louis_Cauchy" title="Augustin Louis Cauchy" class="mw-redirect">Cauchy</a> and <a href="Karl_Weierstrass" title="Karl Weierstrass">Weierstrass</a>, a way was finally found to avoid mere "notions" of infinitely small quantities. The foundations of differential and integral calculus had been laid. In Cauchy's writing, we find a broad range of foundational approaches, including a definition of <a href="Continuous_function" title="Continuous function">continuity</a> in terms of infinitesimals, and a (somewhat imprecise) prototype of an <a href="(%CE%B5,_%CE%B4)-definition_of_limit" title="(ε, δ)-definition of limit">(ε, δ)-definition of limit</a> in the definition of differentiation. In his work Weierstrass formalized the concept of <a href="Limit_of_a_function" title="Limit of a function">limit</a> and eliminated infinitesimals. Following the work of Weierstrass, it eventually became common to base calculus on limits instead of infinitesimal quantities. <a href="Bernhard_Riemann" title="Bernhard Riemann">Bernhard Riemann</a> used these ideas to give a precise definition of the integral. It was also during this period that the ideas of calculus were generalized to <a href="Euclidean_space" title="Euclidean space">Euclidean space</a> and the <a href="Complex_plane" title="Complex plane">complex plane</a>.</p>
+<p>In modern mathematics, the foundations of calculus are included in the field of <a href="Real_analysis" title="Real analysis">real analysis</a>, which contains full definitions and <a href="Mathematical_proof" title="Mathematical proof">proofs</a> of the theorems of calculus. The reach of calculus has also been greatly extended. <a href="Henri_Lebesgue" title="Henri Lebesgue">Henri Lebesgue</a> invented <a href="Measure_theory" title="Measure theory" class="mw-redirect">measure theory</a> and used it to define integrals of all but the most pathological functions. <a href="Laurent_Schwartz" title="Laurent Schwartz">Laurent Schwartz</a> introduced <a href="Distribution_(mathematics)" title="Distribution (mathematics)">Distributions</a>, which can be used to take the derivative of any function whatsoever.</p>
+<p>Limits are not the only rigorous approach to the foundation of calculus. Another way is to use <a href="Abraham_Robinson" title="Abraham Robinson">Abraham Robinson</a>'s <a href="Non-standard_analysis" title="Non-standard analysis">non-standard analysis</a>. Robinson's approach, developed in the 1960s, uses technical machinery from <a href="Mathematical_logic" title="Mathematical logic">mathematical logic</a> to augment the real number system with <a href="Infinitesimal" title="Infinitesimal">infinitesimal</a> and <a href="Infinity" title="Infinity">infinite</a> numbers, as in the original Newton-Leibniz conception. The resulting numbers are called <a href="Hyperreal_number" title="Hyperreal number">hyperreal numbers</a>, and they can be used to give a Leibniz-like development of the usual rules of calculus.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=6.php.html" title="Edit section: Significance">edit</a>]</span> <span class="mw-headline" id="Significance">Significance</span></h3>
+<p>While some of the ideas of calculus had been developed earlier in <a href="Egyptian_mathematics" title="Egyptian mathematics">Egypt</a>, <a href="Greek_mathematics" title="Greek mathematics">Greece</a>, <a href="Chinese_mathematics" title="Chinese mathematics">China</a>, <a href="Indian_mathematics" title="Indian mathematics">India</a>, <a href="Islamic_mathematics" title="Islamic mathematics" class="mw-redirect">Iraq, Persia</a>, and <a href="Japanese_mathematics" title="Japanese mathematics">Japan</a>, the modern use of calculus began in <a href="Europe" title="Europe">Europe</a>, during the 17th century, when <a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a> and <a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Gottfried Wilhelm Leibniz</a> built on the work of earlier mathematicians to introduce its basic principles. The development of calculus was built on earlier concepts of instantaneous motion and area underneath curves.</p>
+<p>Applications of differential calculus include computations involving <a href="Velocity" title="Velocity">velocity</a> and <a href="Acceleration" title="Acceleration">acceleration</a>, the <a href="Slope" title="Slope">slope</a> of a curve, and <a href="Mathematical_optimization" title="Mathematical optimization">optimization</a>. Applications of integral calculus include computations involving <a href="Area" title="Area">area</a>, <a href="Volume" title="Volume">volume</a>, <a href="Arc_length" title="Arc length">arc length</a>, <a href="Center_of_mass" title="Center of mass">center of mass</a>, <a href="Work_(physics)" title="Work (physics)">work</a>, and <a href="Pressure" title="Pressure">pressure</a>. More advanced applications include <a href="Power_series" title="Power series">power series</a> and <a href="Fourier_series" title="Fourier series">Fourier series</a>.</p>
+<p>Calculus is also used to gain a more precise understanding of the nature of space, time, and motion. For centuries, mathematicians and philosophers wrestled with paradoxes involving <a href="Division_by_zero" title="Division by zero">division by zero</a> or sums of infinitely many numbers. These questions arise in the study of <a href="Motion_(physics)" title="Motion (physics)">motion</a> and <a href="Area" title="Area">area</a>. The <a href="Ancient_Greek" title="Ancient Greek">ancient Greek</a> <a href="Philosopher" title="Philosopher">philosopher</a> <a href="Zeno_of_Elea" title="Zeno of Elea">Zeno of Elea</a> gave several famous examples of such <a href="Zeno's_paradoxes" title="Zeno's paradoxes">paradoxes</a>. Calculus provides tools, especially the <a href="Limit_(mathematics)" title="Limit (mathematics)">limit</a> and the <a href="Infinite_series" title="Infinite series" class="mw-redirect">infinite series</a>, which resolve the paradoxes.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=7.php.html" title="Edit section: Principles">edit</a>]</span> <span class="mw-headline" id="Principles">Principles</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=8.php.html" title="Edit section: Limits and infinitesimals">edit</a>]</span> <span class="mw-headline" id="Limits_and_infinitesimals">Limits and infinitesimals</span></h3>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Limit_of_a_function" title="Limit of a function">Limit of a function</a>, <a href="Infinitesimal" title="Infinitesimal">Infinitesimal</a>, and <a href="Infinitesimal_Calculus" title="Infinitesimal Calculus" class="mw-redirect">Infinitesimal Calculus</a></div>
+<p>Calculus is usually developed by working with very small quantities. Historically, the first method of doing so was by <a href="Infinitesimal" title="Infinitesimal">infinitesimals</a>. These are objects which can be treated like numbers but which are, in some sense, "infinitely small". An infinitesimal number <i>dx</i> could be greater than 0, but less than any number in the sequence 1, 1/2, 1/3, ... and less than any positive <a href="Real_number" title="Real number">real number</a>. Any integer multiple of an infinitesimal is still infinitely small, i.e., infinitesimals do not satisfy the <a href="Archimedean_property" title="Archimedean property">Archimedean property</a>. From this point of view, calculus is a collection of techniques for manipulating infinitesimals. This approach fell out of favor in the 19th century because it was difficult to make the notion of an infinitesimal precise. However, the concept was revived in the 20th century with the introduction of <a href="Non-standard_analysis" title="Non-standard analysis">non-standard analysis</a> and <a href="Smooth_infinitesimal_analysis" title="Smooth infinitesimal analysis">smooth infinitesimal analysis</a>, which provided solid foundations for the manipulation of infinitesimals.</p>
+<p>In the 19th century, infinitesimals were replaced by <a href="Limit_of_a_function" title="Limit of a function">limits</a>. Limits describe the value of a <a href="Function_(mathematics)" title="Function (mathematics)">function</a> at a certain input in terms of its values at nearby input. They capture small-scale behavior, just like infinitesimals, but use the ordinary <a href="Real_number" title="Real number">real number system</a>. In this treatment, calculus is a collection of techniques for manipulating certain limits. Infinitesimals get replaced by very small numbers, and the infinitely small behavior of the function is found by taking the limiting behavior for smaller and smaller numbers. Limits are the easiest way to provide rigorous foundations for calculus, and for this reason they are the standard approach.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=9.php.html" title="Edit section: Differential calculus">edit</a>]</span> <span class="mw-headline" id="Differential_calculus">Differential calculus</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Differential_calculus" title="Differential calculus">Differential calculus</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Tangent_derivative_calculusdia.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tangent_derivative_calculusdia.svg/300px-Tangent_derivative_calculusdia.svg.png" width="300" height="207" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tangent_derivative_calculusdia.svg/450px-Tangent_derivative_calculusdia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Tangent_derivative_calculusdia.svg/600px-Tangent_derivative_calculusdia.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Tangent_derivative_calculusdia.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Tangent line at (<i>x</i>, <i>f</i>(<i>x</i>)). The derivative <i>f′</i>(<i>x</i>) of a curve at a point is the slope (rise over run) of the line tangent to that curve at that point.</div>
+</div>
+</div>
+<p>Differential calculus is the study of the definition, properties, and applications of the <a href="Derivative" title="Derivative">derivative</a> of a function. The process of finding the derivative is called <i>differentiation</i>. Given a function and a point in the domain, the derivative at that point is a way of encoding the small-scale behavior of the function near that point. By finding the derivative of a function at every point in its domain, it is possible to produce a new function, called the <i>derivative function</i> or just the <i>derivative</i> of the original function. In mathematical jargon, the derivative is a <a href="Linear_operator" title="Linear operator" class="mw-redirect">linear operator</a> which inputs a function and outputs a second function. This is more abstract than many of the processes studied in elementary algebra, where functions usually input a number and output another number. For example, if the doubling function is given the input three, then it outputs six, and if the squaring function is given the input three, then it outputs nine. The derivative, however, can take the squaring function as an input. This means that the derivative takes all the information of the squaring function—such as that two is sent to four, three is sent to nine, four is sent to sixteen, and so on—and uses this information to produce another function. (The function it produces turns out to be the doubling function.)</p>
+<p>The most common symbol for a derivative is an apostrophe-like mark called <a href="Prime_(symbol)" title="Prime (symbol)">prime</a>. Thus, the derivative of the function of <i>f</i> is <i>f′</i>, pronounced "f prime." For instance, if <i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup> is the squaring function, then <i>f′</i>(<i>x</i>) = 2<i>x</i> is its derivative, the doubling function.</p>
+<p>If the input of the function represents time, then the derivative represents change with respect to time. For example, if <i>f</i> is a function that takes a time as input and gives the position of a ball at that time as output, then the derivative of <i>f</i> is how the position is changing in time, that is, it is the <a href="Velocity" title="Velocity">velocity</a> of the ball.</p>
+<p>If a function is <a href="Linear_function" title="Linear function">linear</a> (that is, if the <a href="Graph_of_a_function" title="Graph of a function">graph</a> of the function is a straight line), then the function can be written as <span class="nowrap"><i>y</i> = <i>mx</i> + <i>b</i></span>, where <i>x</i> is the independent variable, <i>y</i> is the dependent variable, <i>b</i> is the <i>y</i>-intercept, and:</p>
+<dl>
+<dd><img class="tex" alt="m= \frac{\text{rise}}{\text{run}}= \frac{\text{change in } y}{\text{change in } x} = \frac{\Delta y}{\Delta x}." src="http://upload.wikimedia.org/math/3/0/4/304b59b78bd5e0c3eaa87742fdfe9bbe.png" /></dd>
+</dl>
+<p>This gives an exact value for the slope of a straight line. If the graph of the function is not a straight line, however, then the change in <i>y</i> divided by the change in <i>x</i> varies. Derivatives give an exact meaning to the notion of change in output with respect to change in input. To be concrete, let <i>f</i> be a function, and fix a point <i>a</i> in the domain of <i>f</i>. (<i>a</i>, <i>f</i>(<i>a</i>)) is a point on the graph of the function. If <i>h</i> is a number close to zero, then <i>a</i> + <i>h</i> is a number close to <i>a</i>. Therefore (<i>a</i> + <i>h</i>, <i>f</i>(<i>a</i> + <i>h</i>)) is close to (<i>a</i>, <i>f</i>(<i>a</i>)). The slope between these two points is</p>
+<dl>
+<dd><img class="tex" alt="m = \frac{f(a+h) - f(a)}{(a+h) - a} = \frac{f(a+h) - f(a)}{h}." src="http://upload.wikimedia.org/math/6/e/3/6e389045846757b62c4fd64b913ac9d4.png" /></dd>
+</dl>
+<p>This expression is called a <i>difference quotient</i>. A line through two points on a curve is called a <i>secant line</i>, so <i>m</i> is the slope of the secant line between (<i>a</i>, <i>f</i>(<i>a</i>)) and (<i>a</i> + <i>h</i>, <i>f</i>(<i>a</i> + <i>h</i>)). The secant line is only an approximation to the behavior of the function at the point <i>a</i> because it does not account for what happens between <i>a</i> and <i>a</i> + <i>h</i>. It is not possible to discover the behavior at <i>a</i> by setting <i>h</i> to zero because this would require dividing by zero, which is impossible. The derivative is defined by taking the <a href="Limit_(mathematics)" title="Limit (mathematics)">limit</a> as <i>h</i> tends to zero, meaning that it considers the behavior of <i>f</i> for all small values of <i>h</i> and extracts a consistent value for the case when <i>h</i> equals zero:</p>
+<dl>
+<dd><img class="tex" alt="\lim_{h \to 0}{f(a+h) - f(a)\over{h}}." src="http://upload.wikimedia.org/math/c/e/9/ce948a7cc04a731fcc4c2f977fc5ab80.png" /></dd>
+</dl>
+<p>Geometrically, the derivative is the slope of the <a href="Tangent_line" title="Tangent line" class="mw-redirect">tangent line</a> to the graph of <i>f</i> at <i>a</i>. The tangent line is a limit of secant lines just as the derivative is a limit of difference quotients. For this reason, the derivative is sometimes called the slope of the function <i>f</i>.</p>
+<p>Here is a particular example, the derivative of the squaring function at the input 3. Let <i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup> be the squaring function.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Sec2tan.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Sec2tan.gif/300px-Sec2tan.gif" width="300" height="289" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Sec2tan.gif/450px-Sec2tan.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/3/34/Sec2tan.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Sec2tan.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The derivative <i>f′</i>(<i>x</i>) of a curve at a point is the slope of the line tangent to that curve at that point. This slope is determined by considering the limiting value of the slopes of secant lines. Here the function involved (drawn in red) is <i>f</i>(<i>x</i>) = <i>x</i><sup>3</sup> − <i>x</i>. The tangent line (in green) which passes through the point (−3/2, −15/8) has a slope of 23/4. Note that the vertical and horizontal scales in this image are different.</div>
+</div>
+</div>
+<dl>
+<dd><img class="tex" alt="\begin{align}f'(3) &amp;=\lim_{h \to 0}{(3+h)^2 - 3^2\over{h}} \\
+&amp;=\lim_{h \to 0}{9 + 6h + h^2 - 9\over{h}} \\
+&amp;=\lim_{h \to 0}{6h + h^2\over{h}} \\
+&amp;=\lim_{h \to 0} (6 + h) \\
+&amp;= 6.
+\end{align}
+" src="http://upload.wikimedia.org/math/c/0/2/c02db6c01faf190bf9119e2628ed315d.png" /></dd>
+</dl>
+<p>The slope of tangent line to the squaring function at the point (3,9) is 6, that is to say, it is going up six times as fast as it is going to the right. The limit process just described can be performed for any point in the domain of the squaring function. This defines the <i>derivative function</i> of the squaring function, or just the <i>derivative</i> of the squaring function for short. A similar computation to the one above shows that the derivative of the squaring function is the doubling function.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=10.php.html" title="Edit section: Leibniz notation">edit</a>]</span> <span class="mw-headline" id="Leibniz_notation">Leibniz notation</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Leibniz's_notation" title="Leibniz's notation">Leibniz's notation</a></div>
+<p>A common notation, introduced by Leibniz, for the derivative in the example above is</p>
+<dl>
+<dd><img class="tex" alt="
+\begin{align}
+y&amp;=x^2 \\
+\frac{dy}{dx}&amp;=2x.
+\end{align}
+" src="http://upload.wikimedia.org/math/c/1/c/c1c8e029fc2bca0aaa6211885343463a.png" /></dd>
+</dl>
+<p>In an approach based on limits, the symbol <i>dy/dx</i> is to be interpreted not as the quotient of two numbers but as a shorthand for the limit computed above. Leibniz, however, did intend it to represent the quotient of two infinitesimally small numbers, <i>dy</i> being the infinitesimally small change in <i>y</i> caused by an infinitesimally small change <i>dx</i> applied to <i>x</i>. We can also think of <i>d/dx</i> as a differentiation operator, which takes a function as an input and gives another function, the derivative, as the output. For example:</p>
+<dl>
+<dd><img class="tex" alt="
+\frac{d}{dx}(x^2)=2x.
+" src="http://upload.wikimedia.org/math/c/0/9/c09dbf4483158a99ca3500cb19203572.png" /></dd>
+</dl>
+<p>In this usage, the <i>dx</i> in the denominator is read as "with respect to x". Even when calculus is developed using limits rather than infinitesimals, it is common to manipulate symbols like <i>dx</i> and <i>dy</i> as if they were real numbers; although it is possible to avoid such manipulations, they are sometimes notationally convenient in expressing operations such as the <a href="Total_derivative" title="Total derivative">total derivative</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=11.php.html" title="Edit section: Integral calculus">edit</a>]</span> <span class="mw-headline" id="Integral_calculus">Integral calculus</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Integral" title="Integral">Integral</a></div>
+<p><i>Integral calculus</i> is the study of the definitions, properties, and applications of two related concepts, the <i>indefinite integral</i> and the <i>definite integral</i>. The process of finding the value of an integral is called <i>integration</i>. In technical language, integral calculus studies two related <a href="Linear_operator" title="Linear operator" class="mw-redirect">linear operators</a>.</p>
+<p>The <i>indefinite integral</i> is the <i><a href="Antiderivative" title="Antiderivative">antiderivative</a></i>, the inverse operation to the derivative. <i>F</i> is an indefinite integral of <i>f</i> when <i>f</i> is a derivative of <i>F</i>. (This use of lower- and upper-case letters for a function and its indefinite integral is common in calculus.)</p>
+<p>The <i>definite integral</i> inputs a function and outputs a number, which gives the algebraic sum of areas between the graph of the input and the <a href="X-axis" title="X-axis" class="mw-redirect">x-axis</a>. The technical definition of the definite integral is the <a href="Limit_(mathematics)" title="Limit (mathematics)">limit</a> of a sum of areas of rectangles, called a <a href="Riemann_sum" title="Riemann sum">Riemann sum</a>.</p>
+<p>A motivating example is the distances traveled in a given time.</p>
+<dl>
+<dd><img class="tex" alt="\mathrm{Distance} = \mathrm{Speed} \cdot \mathrm{Time}" src="http://upload.wikimedia.org/math/3/9/5/3952cfbfb2edb4d7601d1e1bc8a2481f.png" /></dd>
+</dl>
+<p>If the speed is constant, only multiplication is needed, but if the speed changes, then we need a more powerful method of finding the distance. One such method is to approximate the distance traveled by breaking up the time into many short intervals of time, then multiplying the time elapsed in each interval by one of the speeds in that interval, and then taking the sum (a <a href="Riemann_sum" title="Riemann sum">Riemann sum</a>) of the approximate distance traveled in each interval. The basic idea is that if only a short time elapses, then the speed will stay more or less the same. However, a Riemann sum only gives an approximation of the distance traveled. We must take the limit of all such Riemann sums to find the exact distance traveled.</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:282px;"><a href="http://en.wikipedia.org/wiki/File:Integral_as_region_under_curve.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Integral_as_region_under_curve.svg/280px-Integral_as_region_under_curve.svg.png" width="280" height="246" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Integral_as_region_under_curve.svg/420px-Integral_as_region_under_curve.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Integral_as_region_under_curve.svg/560px-Integral_as_region_under_curve.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Integral_as_region_under_curve.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Integration can be thought of as measuring the area under a curve, defined by <i>f</i>(<i>x</i>), between two points (here <i>a</i> and <i>b</i>).</div>
+</div>
+</div>
+<p>If <i>f(x)</i> in the diagram on the left represents speed as it varies over time, the distance traveled (between the times represented by <i>a</i> and <i>b</i>) is the area of the shaded region <i>s</i>.</p>
+<p>To approximate that area, an intuitive method would be to divide up the distance between <i>a</i> and <i>b</i> into a number of equal segments, the length of each segment represented by the symbol <i>Δx</i>. For each small segment, we can choose one value of the function <i>f</i>(<i>x</i>). Call that value <i>h</i>. Then the area of the rectangle with base <i>Δx</i> and height <i>h</i> gives the distance (time <i>Δx</i> multiplied by speed <i>h</i>) traveled in that segment. Associated with each segment is the average value of the function above it, <i>f(x)</i>=h. The sum of all such rectangles gives an approximation of the area between the axis and the curve, which is an approximation of the total distance traveled. A smaller value for <i>Δx</i> will give more rectangles and in most cases a better approximation, but for an exact answer we need to take a limit as <i>Δx</i> approaches zero.</p>
+<p>The symbol of integration is <img class="tex" alt="\int \," src="http://upload.wikimedia.org/math/0/9/b/09b51ce4b5d77f40b7ca997765f9baea.png" />, an elongated <i>S</i> (the S stands for "sum"). The definite integral is written as:</p>
+<dl>
+<dd><img class="tex" alt="\int_a^b f(x)\, dx." src="http://upload.wikimedia.org/math/1/9/a/19a0fe4f869ec4b82f44a57d7c4bf714.png" /></dd>
+</dl>
+<p>and is read "the integral from <i>a</i> to <i>b</i> of <i>f</i>-of-<i>x</i> with respect to <i>x</i>." The Leibniz notation <i>dx</i> is intended to suggest dividing the area under the curve into an infinite number of rectangles, so that their width <i>Δx</i> becomes the infinitesimally small <i>dx</i>. In a formulation of the calculus based on limits, the notation</p>
+<dl>
+<dd><img class="tex" alt="\int_a^b \ldots\, dx" src="http://upload.wikimedia.org/math/5/f/f/5ff77e7f7488cf25e06ef817554e288b.png" /></dd>
+</dl>
+<p>is to be understood as an operator that takes a function as an input and gives a number, the area, as an output; <i>dx</i> is not a number, and is not being multiplied by <i>f(x)</i>.</p>
+<p>The indefinite integral, or antiderivative, is written:</p>
+<dl>
+<dd><img class="tex" alt="\int f(x)\, dx." src="http://upload.wikimedia.org/math/f/d/0/fd018836770dd637ce06b05c5591b00b.png" /></dd>
+</dl>
+<p>Functions differing by only a constant have the same derivative, and it can be shown that the antiderivative of a given function is actually a family of functions differing only by a constant. Since the derivative of the function <i>y</i> = <i>x</i>² + <i>C</i>, where <i>C</i> is any constant, is <i>y′</i> = 2<i>x</i>, the antiderivative of the latter is given by:</p>
+<dl>
+<dd><img class="tex" alt="\int 2x\, dx = x^2 + C." src="http://upload.wikimedia.org/math/e/c/9/ec92ae41df80abcfafda1860e6719c25.png" /></dd>
+</dl>
+<p>An undetermined constant like <i>C</i> in the antiderivative is known as a <a href="Constant_of_integration" title="Constant of integration">constant of integration</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=12.php.html" title="Edit section: Fundamental theorem">edit</a>]</span> <span class="mw-headline" id="Fundamental_theorem">Fundamental theorem</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Fundamental_theorem_of_calculus" title="Fundamental theorem of calculus">Fundamental theorem of calculus</a></div>
+<p>The <a href="Fundamental_theorem_of_calculus" title="Fundamental theorem of calculus">fundamental theorem of calculus</a> states that differentiation and integration are inverse operations. More precisely, it relates the values of antiderivatives to definite integrals. Because it is usually easier to compute an antiderivative than to apply the definition of a definite integral, the Fundamental Theorem of Calculus provides a practical way of computing definite integrals. It can also be interpreted as a precise statement of the fact that differentiation is the inverse of integration.</p>
+<p>The Fundamental Theorem of Calculus states: If a function <i>f</i> is <a href="Continuous_function" title="Continuous function">continuous</a> on the interval [<i>a</i>, <i>b</i> ] and if <i>F</i> is a function whose derivative is <i>f</i> on the interval (<i>a</i>, <i>b</i> ), then</p>
+<dl>
+<dd><img class="tex" alt="\int_{a}^{b} f(x)\,dx = F(b) - F(a)." src="http://upload.wikimedia.org/math/6/1/f/61f36d98755743b096c536d6bc5aa726.png" /></dd>
+</dl>
+<p>Furthermore, for every <i>x</i> in the interval (<i>a</i>, <i>b</i> ),</p>
+<dl>
+<dd><img class="tex" alt="\frac{d}{dx}\int_a^x f(t)\, dt = f(x)." src="http://upload.wikimedia.org/math/0/3/0/0302486962619ed1831cc4d8f54235a7.png" /></dd>
+</dl>
+<p>This realization, made by both <a href="Isaac_Newton" title="Isaac Newton">Newton</a> and <a href="Gottfried_Leibniz" title="Gottfried Leibniz" class="mw-redirect">Leibniz</a>, who based their results on earlier work by <a href="Isaac_Barrow" title="Isaac Barrow">Isaac Barrow</a>, was key to the massive proliferation of analytic results after their work became known. The fundamental theorem provides an algebraic method of computing many definite integrals—without performing limit processes—by finding formulas for <a href="Antiderivative" title="Antiderivative">antiderivatives</a>. It is also a prototype solution of a <a href="Differential_equation" title="Differential equation">differential equation</a>. Differential equations relate an unknown function to its derivatives, and are ubiquitous in the sciences.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=13.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/220px-NautilusCutawayLogarithmicSpiral.jpg" width="220" height="166" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/330px-NautilusCutawayLogarithmicSpiral.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/NautilusCutawayLogarithmicSpiral.jpg/440px-NautilusCutawayLogarithmicSpiral.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:NautilusCutawayLogarithmicSpiral.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The <a href="Logarithmic_spiral" title="Logarithmic spiral">logarithmic spiral</a> of the <a href="Nautilus" title="Nautilus">Nautilus shell</a> is a classical image used to depict the growth and change related to calculus</div>
+</div>
+</div>
+<p>Calculus is used in every branch of the physical sciences, <a href="Actuarial_science" title="Actuarial science">actuarial science</a>, computer science, statistics, engineering, economics, business, medicine, <a href="Demography" title="Demography">demography</a>, and in other fields wherever a problem can be <a href="Mathematical_model" title="Mathematical model">mathematically modeled</a> and an <a href="Optimization_(mathematics)" title="Optimization (mathematics)" class="mw-redirect">optimal</a> solution is desired. It allows one to go from (non-constant) rates of change to the total change or vice versa, and many times in studying a problem we know one and are trying to find the other.</p>
+<p><a href="Physics" title="Physics">Physics</a> makes particular use of calculus; all concepts in <a href="Classical_mechanics" title="Classical mechanics">classical mechanics</a> and <a href="Electromagnetism" title="Electromagnetism">electromagnetism</a> are interrelated through calculus. The <a href="Mass" title="Mass">mass</a> of an object of known <a href="Density" title="Density">density</a>, the <a href="Moment_of_inertia" title="Moment of inertia">moment of inertia</a> of objects, as well as the total energy of an object within a conservative field can be found by the use of calculus. An example of the use of calculus in mechanics is <a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newton's second law of motion</a>: historically stated it expressly uses the term "rate of change" which refers to the derivative saying <i>The</i> <b>rate of change</b> <i>of momentum of a body is equal to the resultant force acting on the body and is in the same direction.</i> Commonly expressed today as Force&#160;=&#160;Mass&#160;×&#160;acceleration, it involves differential calculus because acceleration is the time derivative of velocity or second time derivative of trajectory or spatial position. Starting from knowing how an object is accelerating, we use calculus to derive its path.</p>
+<p>Maxwell's theory of <a href="Electromagnetism" title="Electromagnetism">electromagnetism</a> and <a href="Albert_Einstein" title="Albert Einstein">Einstein</a>'s theory of <a href="General_relativity" title="General relativity">general relativity</a> are also expressed in the language of differential calculus. Chemistry also uses calculus in determining reaction rates and radioactive decay. In biology, population dynamics starts with reproduction and death rates to model population changes.</p>
+<p>Calculus can be used in conjunction with other mathematical disciplines. For example, it can be used with <a href="Linear_algebra" title="Linear algebra">linear algebra</a> to find the "best fit" linear approximation for a set of points in a domain. Or it can be used in <a href="Probability_theory" title="Probability theory">probability theory</a> to determine the probability of a continuous random variable from an assumed density function. In <a href="Analytic_geometry" title="Analytic geometry">analytic geometry</a>, the study of graphs of functions, calculus is used to find high points and low points (maxima and minima), slope, <a href="Concave_function" title="Concave function">concavity</a> and <a href="Inflection_points" title="Inflection points" class="mw-redirect">inflection points</a>.</p>
+<p><a href="Green's_Theorem" title="Green's Theorem" class="mw-redirect">Green's Theorem</a>, which gives the relationship between a line integral around a simple closed curve C and a double integral over the plane region D bounded by C, is applied in an instrument known as a <a href="Planimeter" title="Planimeter">planimeter</a>, which is used to calculate the area of a flat surface on a drawing. For example, it can be used to calculate the amount of area taken up by an irregularly shaped flower bed or swimming pool when designing the layout of a piece of property.</p>
+<p><a href="../../w/index-title=Discrete_Green's_Theorem&action=edit&redlink=1.php.html" class="new" title="Discrete Green's Theorem (page does not exist)">Discrete Green's Theorem</a>, which gives the relationship between a double integral of a function around a simple closed rectangular curve <i>C</i> and a linear combination of the antiderivative's values at corner points along the edge of the curve, allows fast calculation of sums of values in rectangular domains. For example, it can be used to efficiently calculate sums of rectangular domains in images, in order to rapidly extract features and detect object - see also the <a href="Summed_area_table" title="Summed area table">summed area table</a> algorithm.</p>
+<p>In the realm of medicine, calculus can be used to find the optimal branching angle of a blood vessel so as to maximize flow. From the decay laws for a particular drug's elimination from the body, it's used to derive dosing laws. In nuclear medicine, it's used to build models of radiation transport in targeted tumor therapies.</p>
+<p>In economics, calculus allows for the determination of maximal profit by providing a way to easily calculate both <a href="Marginal_cost" title="Marginal cost">marginal cost</a> and <a href="Marginal_revenue" title="Marginal revenue">marginal revenue</a>.</p>
+<p>Calculus is also used to find approximate solutions to equations; in practice it's the standard way to solve differential equations and do root finding in most applications. Examples are methods such as <a href="Newton's_method" title="Newton's method">Newton's method</a>, <a href="Fixed_point_iteration" title="Fixed point iteration" class="mw-redirect">fixed point iteration</a>, and <a href="Linear_approximation" title="Linear approximation">linear approximation</a>. For instance, spacecraft use a variation of the <a href="Euler_method" title="Euler method">Euler method</a> to approximate curved courses within zero gravity environments.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics  portal</a></td>
+</tr>
+<tr valign="middle">
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_kmplot.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/28px-Nuvola_apps_kmplot.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/42px-Nuvola_apps_kmplot.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/56px-Nuvola_apps_kmplot.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Analysis" title="Portal:Analysis">Analysis  portal</a></td>
+</tr>
+</table>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Outline_of_calculus" title="Outline of calculus">Outline of calculus</a></div>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=15.php.html" title="Edit section: Lists">edit</a>]</span> <span class="mw-headline" id="Lists">Lists</span></h3>
+<ul>
+<li><a href="List_of_calculus_topics" title="List of calculus topics">List of calculus topics</a></li>
+<li><a href="List_of_derivatives_and_integrals_in_alternative_calculi" title="List of derivatives and integrals in alternative calculi">List of derivatives and integrals in alternative calculi</a></li>
+<li><a href="List_of_differentiation_identities" title="List of differentiation identities" class="mw-redirect">List of differentiation identities</a></li>
+<li><a href="List_of_publications_in_mathematics#Calculus" title="List of publications in mathematics" class="mw-redirect">Publications in calculus</a></li>
+<li><a href="Table_of_integrals" title="Table of integrals" class="mw-redirect">Table of integrals</a></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=16.php.html" title="Edit section: Related topics">edit</a>]</span> <span class="mw-headline" id="Related_topics">Related topics</span></h3>
+<ul>
+<li><a href="Calculus_of_finite_differences" title="Calculus of finite differences" class="mw-redirect">Calculus of finite differences</a></li>
+<li><a href="Calculus_with_polynomials" title="Calculus with polynomials" class="mw-redirect">Calculus with polynomials</a></li>
+<li><a href="Complex_analysis" title="Complex analysis">Complex analysis</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equation</a></li>
+<li><a href="Differential_geometry_and_topology" title="Differential geometry and topology" class="mw-redirect">Differential geometry</a></li>
+<li><i><a href="Elementary_Calculus__An_Infinitesimal_Approach" title="Elementary Calculus: An Infinitesimal Approach">Elementary Calculus: An Infinitesimal Approach</a></i></li>
+<li><a href="Fourier_series" title="Fourier series">Fourier series</a></li>
+<li><a href="Integral_equation" title="Integral equation">Integral equation</a></li>
+<li><a href="Mathematical_analysis" title="Mathematical analysis">Mathematical analysis</a></li>
+<li><a href="Multivariable_calculus" title="Multivariable calculus">Multivariable calculus</a></li>
+<li><a href="Non-classical_analysis" title="Non-classical analysis">Non-classical analysis</a></li>
+<li><a href="Non-standard_analysis" title="Non-standard analysis">Non-standard analysis</a></li>
+<li><a href="Non-standard_calculus" title="Non-standard calculus">Non-standard calculus</a></li>
+<li><a href="Precalculus" title="Precalculus">Precalculus</a> (<a href="Mathematics_education" title="Mathematics education">mathematical education</a>)</li>
+<li><a href="Product_integral" title="Product integral">Product integral</a></li>
+<li><a href="Stochastic_calculus" title="Stochastic calculus">Stochastic calculus</a></li>
+<li><a href="Taylor_series" title="Taylor series">Taylor series</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=17.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=18.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h3>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFLatorreKenellyReedBiggers2007">Latorre, Donald R.; Kenelly, John W.; Reed, Iris B.; Biggers, Sherry (2007), <a rel="nofollow" class="external text" href="http://books.google.com/books?id=bQhX-3k0LS8C"><i>Calculus Concepts: An Applied Approach to the Mathematics of Change</i></a>, Cengage Learning, p.&#160;2, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-618-78981-2" title="Special:BookSources/0-618-78981-2">0-618-78981-2</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/books?id=bQhX-3k0LS8C">http://books.google.com/books?id=bQhX-3k0LS8C</a></span></span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=bQhX-3k0LS8C&pg=PA2">Chapter 1, p 2</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Morris Kline, <i>Mathematical thought from ancient to modern times</i>, Vol. I</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Archimedes, <i>Method</i>, in <i>The Works of Archimedes</i> <a href="Special_BookSources/9780521661607" class="internal mw-magiclink-isbn">ISBN 978-0-521-66160-7</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation Journal">Dun, Liu; Fan, Dainian; Cohen, Robert Sonné (1966). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=jaQH6_8Ju-MC"><i>A comparison of Archimdes' and Liu Hui's studies of circles</i></a>. Chinese studies in the history and philosophy of science and technology. <b>130</b>. Springer. p.&#160;279. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-7923-3463-9" title="Special:BookSources/0-7923-3463-9">0-7923-3463-9</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=jaQH6_8Ju-MC">http://books.google.com/books?id=jaQH6_8Ju-MC</a></span>.</span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=jaQH6_8Ju-MC&pg=PA279">Chapter , p. 279</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation book">Zill, Dennis G.; Wright, Scott; Wright, Warren S. (2009). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=R3Hk4Uhb1Z0C"><i>Calculus: Early Transcendentals</i></a> (3 ed.). Jones &amp; Bartlett Learning. p.&#160;xxvii. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-7637-5995-3" title="Special:BookSources/0-7637-5995-3">0-7637-5995-3</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=R3Hk4Uhb1Z0C">http://books.google.com/books?id=R3Hk4Uhb1Z0C</a></span>.</span>, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=R3Hk4Uhb1Z0C&pg=PR27">Extract of page 27</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/HistTopics/Indian_mathematics.html">http://www-history.mcs.st-andrews.ac.uk/HistTopics/Indian_mathematics.html</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">von Neumann, J., "The Mathematician", in Heywood, R. B., ed., <i>The Works of the Mind</i>, University of Chicago Press, 1947, pp. 180–196. Reprinted in Bródy, F., Vámos, T., eds., <i>The Neumann Compedium</i>, World Scientific Publishing Co. Pte. Ltd., 1995, <a href="Special_BookSources/9810222017" class="internal mw-magiclink-isbn">ISBN 981-02-2201-7</a>, pp. 618–626.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a href="Andr%C3%A9_Weil" title="André Weil">André Weil</a>: Number theory. An approach through history. From Hammurapi to Legendre. Birkhauser Boston, Inc., Boston, MA, 1984, <a href="Special_BookSources/0817645659" class="internal mw-magiclink-isbn">ISBN 0-8176-4565-9</a>, p. 28.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Leibniz, Gottfried Wilhelm. The Early Mathematical Manuscripts of Leibniz. Cosimo, Inc., 2008. Page 228. <a rel="nofollow" class="external text" href="http://books.google.com/books?hl=en&lr=&id=7d8_4WPc9SMC&oi=fnd&pg=PA3&dq=Gottfried+Wilhelm+Leibniz+accused+of+plagiarism+by+Newton&ots=09h9BdTlbE&sig=hu5tNKpBJxHcpj8U3kR_T2bZqrY#v=onepage&amp;q=plagairism&amp;f=false%7COnline">Copy</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation web">Unlu, Elif (April 1995). <a rel="nofollow" class="external text" href="http://www.agnesscott.edu/lriddle/women/agnesi.htm">"Maria Gaetana Agnesi"</a>. Agnes Scott College<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.agnesscott.edu/lriddle/women/agnesi.htm">http://www.agnesscott.edu/lriddle/women/agnesi.htm</a></span>.</span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFKatzSherry2012"><a href="Mikhail_Katz" title="Mikhail Katz">Katz, Mikhail</a>; Sherry, David (2012), "Leibniz’s Infinitesimals: Their Fictionality, Their Modern Implementations, and Their Foes from Berkeley to Russell and Beyond", <i><a href="Erkenntnis" title="Erkenntnis">Erkenntnis</a></i>, <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/1205.0174">1205.0174</a>, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/s10670-012-9370-y">10.1007/s10670-012-9370-y</a></span>.</span></li>
+</ol>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=19.php.html" title="Edit section: Books">edit</a>]</span> <span class="mw-headline" id="Books">Books</span></h3>
+<div class="refbegin references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li><a href="Ron_Larson_(mathematician)" title="Ron Larson (mathematician)" class="mw-redirect">Larson, Ron</a>, Bruce H. Edwards (2010). "Calculus", 9th ed., Brooks Cole Cengage Learning. <a href="Special_BookSources/9780547167022" class="internal mw-magiclink-isbn">ISBN 978-0-547-16702-2</a></li>
+<li>McQuarrie, Donald A. (2003). <i>Mathematical Methods for Scientists and Engineers</i>, University Science Books. <a href="Special_BookSources/9781891389245" class="internal mw-magiclink-isbn">ISBN 978-1-891389-24-5</a></li>
+<li><a href="James_Stewart_(mathematician)" title="James Stewart (mathematician)">Stewart, James</a> (2008). <i>Calculus: Early Transcendentals</i>, 6th ed., Brooks Cole Cengage Learning. <a href="Special_BookSources/9780495011668" class="internal mw-magiclink-isbn">ISBN 978-0-495-01166-8</a></li>
+<li><a href="../George_B._Thomas" title="George B. Thomas">Thomas, George B.</a>, Maurice D. Weir, <a href="Joel_Hass" title="Joel Hass">Joel Hass</a>, Frank R. Giordano (2008), "Calculus", 11th ed., Addison-Wesley. <a href="Special_BookSources/032148987X" class="internal mw-magiclink-isbn">ISBN 0-321-48987-X</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=20.php.html" title="Edit section: Other resources">edit</a>]</span> <span class="mw-headline" id="Other_resources">Other resources</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=21.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h3>
+<div class="refbegin references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li><a href="Carl_Benjamin_Boyer" title="Carl Benjamin Boyer">Boyer, Carl Benjamin</a> (1949). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=KLQSHUW8FnUC&printsec=frontcover"><i>The History of the Calculus and its Conceptual Development</i></a>. Hafner. Dover edition 1959, <a href="Special_BookSources/0486605094" class="internal mw-magiclink-isbn">ISBN 0-486-60509-4</a></li>
+<li><a href="Richard_Courant" title="Richard Courant">Courant, Richard</a> <a href="Special_BookSources/9783540650584" class="internal mw-magiclink-isbn">ISBN 978-3-540-65058-4</a> <i>Introduction to calculus and analysis 1.</i></li>
+<li><a href="Edmund_Landau" title="Edmund Landau">Edmund Landau</a>. <a href="Special_BookSources/0821828304" class="internal mw-magiclink-isbn">ISBN 0-8218-2830-4</a> <i>Differential and Integral Calculus</i>, <a href="American_Mathematical_Society" title="American Mathematical Society">American Mathematical Society</a>.</li>
+<li>Robert A. Adams. (1999). <a href="Special_BookSources/9780201396072" class="internal mw-magiclink-isbn">ISBN 978-0-201-39607-2</a> <i>Calculus: A complete course</i>.</li>
+<li>Albers, Donald J.; Richard D. Anderson and Don O. Loftsgaarden, ed. (1986) <i>Undergraduate Programs in the Mathematics and Computer Sciences: The 1985-1986 Survey</i>, Mathematical Association of America No. 7.</li>
+<li><a href="John_Lane_Bell" title="John Lane Bell">John Lane Bell</a>: <i>A Primer of Infinitesimal Analysis</i>, Cambridge University Press, 1998. <a href="Special_BookSources/9780521624015" class="internal mw-magiclink-isbn">ISBN 978-0-521-62401-5</a>. Uses <a href="Synthetic_differential_geometry" title="Synthetic differential geometry">synthetic differential geometry</a> and nilpotent infinitesimals.</li>
+<li><a href="Florian_Cajori" title="Florian Cajori">Florian Cajori</a>, "The History of Notations of the Calculus." <i>Annals of Mathematics</i>, 2nd Ser., Vol. 25, No. 1 (Sep., 1923), pp.&#160;1–46.</li>
+<li>Leonid P. Lebedev and Michael J. Cloud: "Approximating Perfection: a Mathematician's Journey into the World of Mechanics, Ch. 1: The Tools of Calculus", Princeton Univ. Press, 2004.</li>
+<li><a href="Cliff_Pickover" title="Cliff Pickover" class="mw-redirect">Cliff Pickover</a>. (2003). <a href="Special_BookSources/9780471269878" class="internal mw-magiclink-isbn">ISBN 978-0-471-26987-8</a> <i>Calculus and Pizza: A Math Cookbook for the Hungry Mind</i>.</li>
+<li><a href="Michael_Spivak" title="Michael Spivak">Michael Spivak</a>. (September 1994). <a href="Special_BookSources/9780914098898" class="internal mw-magiclink-isbn">ISBN 978-0-914098-89-8</a> <i>Calculus</i>. Publish or Perish publishing.</li>
+<li><a href="../Tom_M._Apostol" title="Tom M. Apostol">Tom M. Apostol</a>. (1967). <a href="Special_BookSources/9780471000051" class="internal mw-magiclink-isbn">ISBN 978-0-471-00005-1</a> <i>Calculus, Volume 1, One-Variable Calculus with an Introduction to Linear Algebra</i>. Wiley.</li>
+<li><a href="../Tom_M._Apostol" title="Tom M. Apostol">Tom M. Apostol</a>. (1969). <a href="Special_BookSources/9780471000075" class="internal mw-magiclink-isbn">ISBN 978-0-471-00007-5</a> <i>Calculus, Volume 2, Multi-Variable Calculus and Linear Algebra with Applications</i>. Wiley.</li>
+<li><a href="../Silvanus_P._Thompson" title="Silvanus P. Thompson">Silvanus P. Thompson</a> and <a href="Martin_Gardner" title="Martin Gardner">Martin Gardner</a>. (1998). <a href="Special_BookSources/9780312185480" class="internal mw-magiclink-isbn">ISBN 978-0-312-18548-0</a> <i>Calculus Made Easy</i>.</li>
+<li><a href="Mathematical_Association_of_America" title="Mathematical Association of America">Mathematical Association of America</a>. (1988). <i>Calculus for a New Century; A Pump, Not a Filter</i>, The Association, Stony Brook, NY. ED 300 252.</li>
+<li>Thomas/Finney. (1996). <a href="Special_BookSources/9780201531749" class="internal mw-magiclink-isbn">ISBN 978-0-201-53174-9</a> <i>Calculus and Analytic geometry 9th</i>, Addison Wesley.</li>
+<li>Weisstein, Eric W. <a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/SecondFundamentalTheoremofCalculus.html">"Second Fundamental Theorem of Calculus."</a> From MathWorld—A Wolfram Web Resource.</li>
+<li>Howard Anton,Irl Bivens,Stephen Davis:"Calculus",John Willey and Sons Pte. Ltd.,2002.<a href="Special_BookSources/9788126512591" class="internal mw-magiclink-isbn">ISBN 978-81-265-1259-1</a></li>
+</ul>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=22.php.html" title="Edit section: Online books">edit</a>]</span> <span class="mw-headline" id="Online_books">Online books</span></h3>
+<div class="refbegin references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2;">
+<ul>
+<li>Boelkins, M. (2012). "<i>Active Calculus: a free, open text</i>". Retrieved 1 Feb 2013 from <a rel="nofollow" class="external free" href="http://gvsu.edu/s/km">http://gvsu.edu/s/km</a></li>
+<li>Crowell, B. (2003). "<i>Calculus</i>" Light and Matter, Fullerton. Retrieved 6 May 2007 from <a rel="nofollow" class="external free" href="http://www.lightandmatter.com/calc/calc.pdf">http://www.lightandmatter.com/calc/calc.pdf</a></li>
+<li>Garrett, P. (2006). "<i>Notes on first year calculus</i>" University of Minnesota. Retrieved 6 May 2007 from <a rel="nofollow" class="external text" href="http://www.math.umn.edu/~garrett/calculus/first_year/notes.pdf">http://www.math.umn.edu/~garrett/calculus/first_year/notes.pdf</a></li>
+<li>Faraz, H. (2006). "<i>Understanding Calculus</i>" Retrieved 6 May 2007 from Understanding Calculus, URL <a rel="nofollow" class="external free" href="http://www.understandingcalculus.com/">http://www.understandingcalculus.com/</a> (HTML only)</li>
+<li>Keisler, H. J. (2000). "<i>Elementary Calculus: An Approach Using Infinitesimals</i>" Retrieved 29 August 2010 from <a rel="nofollow" class="external text" href="http://www.math.wisc.edu/~keisler/calc.html">http://www.math.wisc.edu/~keisler/calc.html</a></li>
+<li>Mauch, S. (2004). "<i>Sean's Applied Math Book</i>" California Institute of Technology. Retrieved 6 May 2007 from <a rel="nofollow" class="external text" href="http://www.cacr.caltech.edu/~sean/applied_math.pdf">http://www.cacr.caltech.edu/~sean/applied_math.pdf</a></li>
+<li>Sloughter, Dan (2000). "<i>Difference Equations to Differential Equations: An introduction to calculus</i>". Retrieved 17 March 2009 from <a rel="nofollow" class="external free" href="http://synechism.org/drupal/de2de/">http://synechism.org/drupal/de2de/</a></li>
+<li>Stroyan, K.D. (2004). "<i>A brief introduction to infinitesimal calculus</i>" University of Iowa. Retrieved 6 May 2007 from <a rel="nofollow" class="external free" href="http://www.math.uiowa.edu/~stroyan/InfsmlCalculus/InfsmlCalc.htm">http://www.math.uiowa.edu/~stroyan/InfsmlCalculus/InfsmlCalc.htm</a> (HTML only)</li>
+<li>Strang, G. (1991). "<i>Calculus</i>" Massachusetts Institute of Technology. Retrieved 6 May 2007 from <a rel="nofollow" class="external free" href="http://ocw.mit.edu/ans7870/resources/Strang/strangtext.htm">http://ocw.mit.edu/ans7870/resources/Strang/strangtext.htm</a></li>
+<li>Smith, William V. (2001). "<i>The Calculus</i>" Retrieved 4 July 2008 <a rel="nofollow" class="external autonumber" href="http://www.math.byu.edu/~smithw/Calculus/">[1]</a> (HTML only).</li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Calculus&action=edit&section=23.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata plainlinks mbox-small" style="padding:0.25em 0.5em 0.5em 0.75em;border:1px solid #aaa;background:#f9f9f9;">
+<tr style="height:25px;">
+<td colspan="2" style="padding-bottom:0.5em;border-bottom:1px solid #aaa;margin:auto;text-align:center;">Find more about <b>Calculus</b> at Wikipedia's <a href="Wikipedia_Wikimedia_sister_projects" title="Wikipedia:Wikimedia sister projects">sister projects</a></td>
+</tr>
+<tr style="height:25px;">
+<td style="padding-top:0.75em;"><a href="http://en.wiktionary.org/wiki/Special:Search/Calculus" title="Search Wiktionary"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/23px-Wiktionary-logo-en.svg.png" width="23" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/35px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/46px-Wiktionary-logo-en.svg.png 2x" /></a></td>
+<td style="padding-top:0.75em;"><a href="http://en.wiktionary.org/wiki/Special:Search/Calculus" class="extiw" title="wikt:Special:Search/Calculus">Definitions and translations</a> from Wiktionary</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://commons.wikimedia.org/wiki/Special:Search/Calculus" title="Search Commons"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" width="18" height="25" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/28px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/37px-Commons-logo.svg.png 2x" /></a></td>
+<td><a href="http://commons.wikimedia.org/wiki/Special:Search/Calculus" class="extiw" title="commons:Special:Search/Calculus">Media</a> from Commons</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikiversity.org/wiki/Special:Search/Calculus" title="Search Wikiversity"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/25px-Wikiversity-logo-en.svg.png" width="25" height="23" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/38px-Wikiversity-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/50px-Wikiversity-logo-en.svg.png 2x" /></a></td>
+<td><a href="http://en.wikiversity.org/wiki/Special:Search/Calculus" class="extiw" title="v:Special:Search/Calculus">Learning resources</a> from Wikiversity</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikinews.org/wiki/Special:Search/Calculus" title="Search Wikinews"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/25px-Wikinews-logo.svg.png" width="25" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/38px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/50px-Wikinews-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikinews.org/wiki/Special:Search/Calculus" class="extiw" title="n:Special:Search/Calculus">News stories</a> from Wikinews</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikiquote.org/wiki/Special:Search/Calculus" title="Search Wikiquote"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/21px-Wikiquote-logo.svg.png" width="21" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/32px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/42px-Wikiquote-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikiquote.org/wiki/Special:Search/Calculus" class="extiw" title="q:Special:Search/Calculus">Quotations</a> from Wikiquote</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikisource.org/wiki/Special:Search/Calculus" title="Search Wikisource"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png" width="24" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/36px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/48px-Wikisource-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikisource.org/wiki/Special:Search/Calculus" class="extiw" title="s:Special:Search/Calculus">Source texts</a> from Wikisource</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikibooks.org/wiki/Special:Search/Calculus" title="Search Wikibooks"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/25px-Wikibooks-logo.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/38px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/50px-Wikibooks-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikibooks.org/wiki/Special:Search/Calculus" class="extiw" title="b:Special:Search/Calculus">Textbooks</a> from Wikibooks</td>
+</tr>
+</table>
+<ul>
+<li><span class="citation mathworld" id="Reference-Mathworld-Calculus"><a href="../Eric_W._Weisstein" title="Eric W. Weisstein">Weisstein, Eric W.</a>, "<a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/Calculus.html">Calculus</a>" from <a href="MathWorld" title="MathWorld">MathWorld</a>.</span></li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/encyclopedia/TopicsOnCalculus.html">Topics on Calculus</a> at <a href="PlanetMath" title="PlanetMath">PlanetMath</a></li>
+<li><a rel="nofollow" class="external text" href="http://djm.cc/library/Calculus_Made_Easy_Thompson.pdf">Calculus Made Easy (1914) by Silvanus P. Thompson</a> Full text in PDF</li>
+<li><a rel="nofollow" class="external text" href="http://www.bbc.co.uk/programmes/b00mrfwq">Calculus</a> on <a href="In_Our_Time_(BBC_Radio_4)" title="In Our Time (BBC Radio 4)"><i>In Our Time</i></a> at the <a href="BBC" title="BBC">BBC</a>. (<a rel="nofollow" class="external text" href="http://www.bbc.co.uk/iplayer/console/b00mrfwq/In_Our_Time_Calculus">listen now</a>)</li>
+</ul>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.calculus.org">Calculus.org: The Calculus page</a> at University of California, Davis&#160;– contains resources and links to other sites</li>
+<li><a rel="nofollow" class="external text" href="http://cow.math.temple.edu/">COW: Calculus on the Web</a> at Temple University&#160;– contains resources ranging from pre-calculus and associated algebra</li>
+<li><a rel="nofollow" class="external text" href="http://www.economics.soton.ac.uk/staff/aldrich/Calculus%20and%20Analysis%20Earliest%20Uses.htm">Earliest Known Uses of Some of the Words of Mathematics: Calculus &amp; Analysis</a></li>
+<li><a rel="nofollow" class="external text" href="http://integrals.wolfram.com/">Online Integrator (WebMathematica)</a> from Wolfram Research</li>
+<li><a rel="nofollow" class="external text" href="http://www.ericdigests.org/pre-9217/calculus.htm">The Role of Calculus in College Mathematics</a> from ERICDigests.org</li>
+<li><a rel="nofollow" class="external text" href="http://ocw.mit.edu/OcwWeb/Mathematics/index.htm">OpenCourseWare Calculus</a> from the <a href="Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=Infinitesimal_calculus&oldid=18648">Infinitesimal Calculus</a>&#160;– an article on its historical development, in Encyclopedia of Mathematics, Michiel Hazewinkel ed. .</li>
+<li><a rel="nofollow" class="external text" href="http://ocw.nd.edu/mathematics/elements-of-calculus-i">Elements of Calculus I</a> and <a rel="nofollow" class="external text" href="http://ocw.nd.edu/mathematics/calculus-ii-for-business">Calculus II for Business</a>, <a href="OpenCourseWare" title="OpenCourseWare">OpenCourseWare</a> from the <a href="University_of_Notre_Dame" title="University of Notre Dame">University of Notre Dame</a> with activities, exams and interactive applets.</li>
+<li><a rel="nofollow" class="external text" href="http://math.mit.edu/~djk/calculus_beginners/">Calculus for Beginners and Artists</a> by Daniel Kleitman, MIT</li>
+<li><a rel="nofollow" class="external text" href="http://www.math.ucdavis.edu/~kouba/ProblemsList.html">Calculus Problems and Solutions</a> by D. A. Kouba</li>
+<li><a rel="nofollow" class="external text" href="http://calculus.solved-problems.com/">Solved problems in calculus</a></li>
+<li><a rel="nofollow" class="external text" href="http://cincalculus.com/">Video explanations and solved problems in calculus</a> Raymond, CUNY</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><strong class="selflink">Calculus</strong>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><span id="interwiki-id-fa"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 9337/1000000
+Preprocessor generated node count: 62594/1500000
+Post-expand include size: 115142/2048000 bytes
+Template argument size: 59604/2048000 bytes
+Highest expansion depth: 18/40
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:5176-0!0!0!!en!4!* and timestamp 20130213211132 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Calculus&oldid=538106073.php.html">http://en.wikipedia.org/w/index.php?title=Calculus&amp;oldid=538106073</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Calculus" title="Category:Calculus">Calculus</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_indefinitely_move-protected_pages" title="Category:Wikipedia indefinitely move-protected pages">Wikipedia indefinitely move-protected pages</a></li><li><a href="Category_Articles_needing_additional_references_from_October_2011" title="Category:Articles needing additional references from October 2011">Articles needing additional references from October 2011</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_Use_dmy_dates_from_June_2011" title="Category:Use dmy dates from June 2011">Use dmy dates from June 2011</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Calculus&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Calculus.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Calculus"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Calculus&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Calculus&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Calculus" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Calculus" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Calculus&oldid=538106073.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Calculus&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Calculus&id=538106073.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Calculus.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Calculus&oldid=538106073&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Calculus&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-am"><a href="http://am.wikipedia.org/wiki/%E1%8A%AB%E1%88%8D%E1%8A%A9%E1%88%88%E1%88%B5" title="ካልኩለስ" lang="am" hreflang="am">አማርኛ</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Calculo" title="Calculo" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D9%81%D8%A7%D8%B6%D9%84_%D9%88%D8%AA%D9%83%D8%A7%D9%85%D9%84" title="تفاضل وتكامل" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%B8" title="ক্যালকুলাস" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Kalkulus" title="Kalkulus" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Po%C4%8Det" title="Počet" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Analysis" title="Analysis" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%91%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%B9%CE%BA%CF%8C%CF%82_%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82" title="Απειροστικός λογισμός" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Kalkulo" title="Kalkulo" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal" title="Cálculo infinitesimal" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8_%D8%AF%DB%8C%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D9%84_%D9%88_%D8%A7%D9%86%D8%AA%DA%AF%D8%B1%D8%A7%D9%84" title="حساب دیفرانسیل و انتگرال" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Calcul_infinit%C3%A9simal" title="Calcul infinitésimal" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ga"><a href="http://ga.wikipedia.org/wiki/Calcalas" title="Calcalas" lang="ga" hreflang="ga">Gaeilge</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" title="微積分" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%97%D7%A9%D7%91%D7%95%D7%9F_%D7%90%D7%99%D7%A0%D7%A4%D7%99%D7%A0%D7%99%D7%98%D7%A1%D7%99%D7%9E%D7%9C%D7%99" title="חשבון אינפיניטסימלי" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%B2%E0%A4%A8" title="कलन" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Kalkulus" title="Kalkulus" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Kalkulo" title="Kalkulo" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/%C3%96rsm%C3%A6%C3%B0areikningur" title="Örsmæðareikningur" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Calcolo_infinitesimale" title="Calcolo infinitesimale" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6" title="微分積分学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-jv"><a href="http://jv.wikipedia.org/wiki/Kalkulus" title="Kalkulus" lang="jv" hreflang="jv">Basa Jawa</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%AF%B8%EC%A0%81%EB%B6%84%ED%95%99" title="미적분학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Calculus" title="Calculus" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%95%E0%B4%B2%E0%B4%A8%E0%B4%82" title="കലനം" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%B2%E0%A4%A8" title="कलन" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Kalkulus" title="Kalkulus" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Kalkulus" title="Kalkulus" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pa"><a href="http://pa.wikipedia.org/wiki/%E0%A8%B9%E0%A8%BF%E0%A8%B8%E0%A8%BE%E0%A8%AC_%E0%A8%A6%E0%A8%BF%E0%A8%AB%E0%A8%B0%E0%A9%87%E0%A8%A8%E0%A8%B8%E0%A9%80%E0%A8%86%E0%A8%B2_%E0%A8%85%E0%A8%A4%E0%A9%87_%E0%A8%87%E0%A8%A8%E0%A8%A4%E0%A9%87%E0%A8%97%E0%A8%B0%E0%A8%BE%E0%A8%B2" title="ਹਿਸਾਬ ਦਿਫਰੇਨਸੀਆਲ ਅਤੇ ਇਨਤੇਗਰਾਲ" lang="pa" hreflang="pa">ਪੰਜਾਬੀ</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/C%C3%A1lculo" title="Cálculo" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-qu"><a href="http://qu.wikipedia.org/wiki/Yupaylliy" title="Yupaylliy" lang="qu" hreflang="qu">Runa Simi</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Математический анализ" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sco"><a href="http://sco.wikipedia.org/wiki/Calculus" title="Calculus" lang="sco" hreflang="sco">Scots</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B6%9A%E0%B6%BD%E0%B6%B1%E0%B6%BA" title="කලනය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Calculus" title="Calculus" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-ss"><a href="http://ss.wikipedia.org/wiki/Calculus" title="Calculus" lang="ss" hreflang="ss">SiSwati</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" title="நுண்கணிதம்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%84%E0%B8%A5%E0%B8%84%E0%B8%B9%E0%B8%A5%E0%B8%B1%E0%B8%AA" title="แคลคูลัส" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Kalkulo" title="Kalkulo" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Kalk%C3%BCl%C3%BCs" title="Kalkülüs" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D9%86" title="حسابان" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Vi_t%C3%ADch_ph%C3%A2n" title="Vi tích phân" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Kalkulo" title="Kalkulo" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6" title="微积分学" lang="zh" hreflang="zh">中文</a></li>
+			<li class="interwiki-zh-min-nan"><a href="http://zh-min-nan.wikipedia.org/wiki/B%C3%AE-chek-hun" title="Bî-chek-hun" lang="zh-min-nan" hreflang="zh-min-nan">Bân-lâm-gú</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" title="微積分" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="wbc-editpage"><a href="http://wikidata.org/wiki/Special:ItemByTitle/enwiki/Calculus" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 21:11.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Calculus" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1037 in 0.201 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

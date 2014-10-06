@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Algebraic geometry - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Algebraic_geometry&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Algebraic_geometry&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algebraic_geometry","wgTitle":"Algebraic geometry","wgCurRevisionId":538035919,"wgArticleId":1997,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles that are too technical from December 2011","All articles that are too technical","Articles needing expert attention from December 2011","All articles needing expert attention","Articles needing additional references from February 2011","All articles needing additional references","Algebraic geometry"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Algebraic_geometry","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"a2474f904cce7a94ef58e6c9d4261f3f","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":1997,"title":"Algebraic geometry","namespace":0,"categories":["Algebraic geometry","All articles needing additional references","All articles needing expert attention","All articles that are too technical","Articles needing additional references from February 2011","Articles needing expert attention from December 2011","Wikipedia articles that are too technical from December 2011"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Algebraic_geometry skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Algebraic geometry</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Geometric_algebra" title="Geometric algebra">Geometric algebra</a>, an application of clifford algebra to geometry.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Togliatti_surface.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Togliatti_surface.png/220px-Togliatti_surface.png" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Togliatti_surface.png/330px-Togliatti_surface.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Togliatti_surface.png/440px-Togliatti_surface.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Togliatti_surface.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+This <a href="Togliatti_surface" title="Togliatti surface">Togliatti surface</a> is an <a href="Algebraic_surface" title="Algebraic surface">algebraic surface</a> of degree five. The picture represents a portion of its real locus</div>
+</div>
+</div>
+<table class="vertical-navbox nowraplinks" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><a href="Geometry" title="Geometry">Geometry</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;"><a href="http://en.wikipedia.org/wiki/File:P._Oxy._I_29.jpg" class="image"><img alt="P. Oxy. I 29.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/220px-P._Oxy._I_29.jpg" width="220" height="134" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/330px-P._Oxy._I_29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/440px-P._Oxy._I_29.jpg 2x" /></a>
+<div style="padding-top:0.2em;line-height:1.2em;"><a href="Oxyrhynchus_papyrus" title="Oxyrhynchus papyrus" class="mw-redirect">Oxyrhynchus papyrus</a> (P.Oxy. I 29) showing fragment of <a href="Euclid's_Elements" title="Euclid's Elements">Euclid's <i>Elements</i></a></div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;"><a href="History_of_geometry" title="History of geometry">History of geometry</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Branches</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">Non-Euclidean geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Analytic_geometry" title="Analytic geometry">Analytic geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Differential_geometry" title="Differential geometry">Differential geometry</a> ·<a href="Projective_geometry" title="Projective geometry">Projective geometry</a>· <strong class="selflink">Algebraic geometry</strong></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Research areas</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><strong class="selflink">Algebraic geometry</strong>&#160;<span style="font-weight:bold;">·</span>  <a href="Differential_geometry" title="Differential geometry">Differential geometry</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Symplectic_geometry" title="Symplectic geometry">Symplectic geometry</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Important concepts</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Point_(geometry)" title="Point (geometry)">Point</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Line_(geometry)" title="Line (geometry)">Line</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Perpendicular" title="Perpendicular">Perpendicular</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Parallel_(geometry)" title="Parallel (geometry)">Parallel</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Line_segment" title="Line segment">Line segment</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Ray_(geometry)" title="Ray (geometry)" class="mw-redirect">Ray</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Plane_(geometry)" title="Plane (geometry)">Plane</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Length" title="Length">Length</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Area" title="Area">Area</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Volume" title="Volume">Volume</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Vertex_(geometry)" title="Vertex (geometry)">Vertex</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Angle" title="Angle">Angle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Congruence_(geometry)" title="Congruence (geometry)">Congruence</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Similarity_(geometry)" title="Similarity (geometry)">Similarity</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Polygon" title="Polygon">Polygon</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Triangle" title="Triangle">Triangle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Altitude_(triangle)" title="Altitude (triangle)">Altitude</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Hypotenuse" title="Hypotenuse">Hypotenuse</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Quadrilateral" title="Quadrilateral">Quadrilateral</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Trapezoid" title="Trapezoid">Trapezoid</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Kite_(geometry)" title="Kite (geometry)">Kite</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Parallelogram" title="Parallelogram">Parallelogram</a> (<a href="Rhomboid" title="Rhomboid">Rhomboid</a>, <a href="Rectangle" title="Rectangle">Rectangle</a>, <a href="Rhombus" title="Rhombus">Rhombus</a>, <a href="Square_(geometry)" title="Square (geometry)" class="mw-redirect">Square</a>)&#160;<span style="font-weight:bold;">·</span>  <a href="Diagonal" title="Diagonal">Diagonal</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Symmetry" title="Symmetry">Symmetry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Curve" title="Curve">Curve</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Circle" title="Circle">Circle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Area_of_a_disk" title="Area of a disk">Area of a disk</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Circumference" title="Circumference">Circumference</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Diameter" title="Diameter">Diameter</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Cylinder_(geometry)" title="Cylinder (geometry)">Cylinder</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Sphere" title="Sphere">Sphere</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Pyramid_(geometry)" title="Pyramid (geometry)">Pyramid</a>&#160;<span style="font-weight:bold;">·</span> <a href="Dimension" title="Dimension" class="mw-redirect">Dimensions</a> (<a href="One-dimensional_space" title="One-dimensional space">one</a>, <a href="Two-dimensional_space" title="Two-dimensional space">two</a>, <a href="Three-dimensional_space" title="Three-dimensional space">three</a>, <a href="Four-dimensional_space" title="Four-dimensional space">four</a>)</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Geometers</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Aryabhata" title="Aryabhata">Aryabhata</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ahmes" title="Ahmes">Ahmes</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Apollonius_of_Perga" title="Apollonius of Perga">Apolonius</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Archimedes" title="Archimedes">Archimedes</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Baudhayana" title="Baudhayana">Baudhayana</a> &#160;<span style="font-weight:bold;">·</span> <a href="Janos_Bolyai" title="Janos Bolyai" class="mw-redirect">Bolyai</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Brahmagupta" title="Brahmagupta">Brahmagupta</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Euclid" title="Euclid">Euclid</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Pythagoras" title="Pythagoras">Pythagoras</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Omar_Khayy%C3%A1m" title="Omar Khayyám">Khayyám</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ren%C3%A9_Descartes" title="René Descartes">Descartes</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Blaise_Pascal" title="Blaise Pascal">Pascal</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Leonhard_Euler" title="Leonhard Euler">Euler</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ibn_al-Yasamin" title="Ibn al-Yasamin">Ibn al-Yasamin</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Jye%E1%B9%A3%E1%B9%ADhadeva" title="Jyeṣṭhadeva">Jyeṣṭhadeva</a> &#160;<span style="font-weight:bold;">·</span>  <a href="K%C4%81ty%C4%81yana" title="Kātyāyana">Kātyāyana</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Nikolai_Lobachevsky" title="Nikolai Lobachevsky">Lobachevsky</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Manava" title="Manava">Manava</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Minggatu" title="Minggatu">Minggatu</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Bernhard_Riemann" title="Bernhard Riemann">Riemann</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Felix_Klein" title="Felix Klein">Klein</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Parameshvara" title="Parameshvara">Parameshvara</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Henri_Poincar%C3%A9" title="Henri Poincaré">Poincaré</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Sijzi" title="Sijzi">Sijzi</a> &#160;<span style="font-weight:bold;">·</span>  <a href="David_Hilbert" title="David Hilbert">Hilbert</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Hermann_Minkowski" title="Hermann Minkowski">Minkowski</a> &#160;<span style="font-weight:bold;">·</span>  <a href="%C3%89lie_Cartan" title="Élie Cartan">Cartan</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Oswald_Veblen" title="Oswald Veblen">Veblen</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Sakabe_K%C5%8Dhan" title="Sakabe Kōhan">Sakabe Kōhan</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Mikhail_Leonidovich_Gromov" title="Mikhail Leonidovich Gromov">Gromov</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Michael_Atiyah" title="Michael Atiyah">Atiyah</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Virasena" title="Virasena">Virasena</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Yang_Hui" title="Yang Hui">Yang Hui</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Yasuaki_Aida" title="Yasuaki Aida">Yasuaki Aida</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Zhang_Heng" title="Zhang Heng">Zhang Heng</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_General_geometry" title="Template:General geometry"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_General_geometry&action=edit&redlink=1.php.html" class="new" title="Template talk:General geometry (page does not exist)"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_General_geometry&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Algebraic geometry</b> is a branch of <a href="Mathematics" title="Mathematics">mathematics</a>, classically studying properties of the sets of zeros of <a href="Polynomial_equations" title="Polynomial equations" class="mw-redirect">polynomial equations</a>. Modern algebraic geometry is based on more abstract techniques of <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a>, especially <a href="Commutative_algebra" title="Commutative algebra">commutative algebra</a>, with the language and the problems of <a href="Geometry" title="Geometry">geometry</a>.</p>
+<p>The fundamental objects of study in algebraic geometry are <a href="Algebraic_variety" title="Algebraic variety">algebraic varieties</a>, which are geometric manifestations of <a href="Solution_set" title="Solution set">solutions</a> of <a href="Systems_of_polynomial_equations" title="Systems of polynomial equations" class="mw-redirect">systems of polynomial equations</a>. Examples of the most studied classes of algebraic varieties are: <a href="Plane_algebraic_curve" title="Plane algebraic curve" class="mw-redirect">plane algebraic curves</a>, which include <a href="Line_(geometry)" title="Line (geometry)">lines</a>, <a href="Circle" title="Circle">circles</a>, <a href="Parabola" title="Parabola">parabolas</a>, <a href="Ellipse" title="Ellipse">ellipses</a>, <a href="Hyperbola" title="Hyperbola">hyperbolas</a>, <a href="Cubic_curve" title="Cubic curve" class="mw-redirect">cubic curves</a> like <a href="Elliptic_curve" title="Elliptic curve">elliptic curves</a> and quartic curves like <a href="Lemniscate_of_Bernoulli" title="Lemniscate of Bernoulli">lemniscates</a>, and <a href="Cassini_oval" title="Cassini oval">Cassini ovals</a>. A point of the plane belongs to an algebraic curve if its coordinates satisfy a given polynomial equation. Basic questions involve the study of the points of special interest like the <a href="Singular_point_of_a_curve" title="Singular point of a curve">singular points</a>, the <a href="Inflection_point" title="Inflection point">inflection points</a> and the <a href="Point_at_infinity" title="Point at infinity">points at infinity</a>. More advanced questions involve the <a href="Topology" title="Topology">topology</a> of the curve and relations between the curves given by different equations.</p>
+<p>Algebraic geometry occupies a central place in modern mathematics and has multiple conceptual connections with such diverse fields as <a href="Complex_analysis" title="Complex analysis">complex analysis</a>, <a href="Topology" title="Topology">topology</a> and <a href="Number_theory" title="Number theory">number theory</a>. Initially a study of <a href="Systems_of_polynomial_equations" title="Systems of polynomial equations" class="mw-redirect">systems of polynomial equations</a> in several variables, the subject of algebraic geometry starts where <a href="Equation_solving" title="Equation solving">equation solving</a> leaves off, and it becomes even more important to understand the intrinsic properties of the totality of solutions of a system of equations, than to find a specific solution; this leads into some of the deepest areas in all of mathematics, both conceptually and in terms of technique.</p>
+<p>In the 20th century, algebraic geometry has split into several subareas.</p>
+<ul>
+<li>The main stream of algebraic geometry is devoted to the study of the complex points of the algebraic varieties and more generally to the points with coordinates in an <a href="Algebraically_closed_field" title="Algebraically closed field">algebraically closed field</a>.</li>
+<li>The study of the points of an algebraic variety with coordinates in the field of the <a href="Rational_number" title="Rational number">rational numbers</a> or in a <a href="Number_field" title="Number field" class="mw-redirect">number field</a> became <a href="Arithmetic_geometry" title="Arithmetic geometry" class="mw-redirect">arithmetic geometry</a> (or more classically Diophantine geometry), a subfield of <a href="Algebraic_number_theory" title="Algebraic number theory">algebraic number theory</a>.</li>
+<li>The study of the real points of an algebraic variety is the subject of <a href="Real_algebraic_geometry" title="Real algebraic geometry">real algebraic geometry</a>.</li>
+<li>A large part of <a href="Singularity_theory" title="Singularity theory">singularity theory</a> is devoted to the singularities of algebraic varieties.</li>
+<li>With the rise of the computers, a <a href="#Computational_algebraic_geometry">computational algebraic geometry</a> area has emerged, which lies at the intersection of algebraic geometry and <a href="Computer_algebra" title="Computer algebra" class="mw-redirect">computer algebra</a>. It consists essentially in developing <a href="Algorithms" title="Algorithms" class="mw-redirect">algorithms</a> and <a href="Software" title="Software">software</a> for studying and finding the properties of explicitly given algebraic varieties.</li>
+</ul>
+<p>Much of the development of the main stream of algebraic geometry in the 20th century occurred within an abstract algebraic framework, with increasing emphasis being placed on "intrinsic" properties of algebraic varieties not dependent on any particular way of embedding the variety in an ambient coordinate space; this parallels developments in <a href="Topology" title="Topology">topology</a>, <a href="Differential_geometry" title="Differential geometry">differential</a> and <a href="Complex_geometry" title="Complex geometry">complex geometry</a>. One key achievement of this abstract algebraic geometry is <a href="Grothendieck" title="Grothendieck" class="mw-redirect">Grothendieck</a>'s <a href="Scheme_theory" title="Scheme theory" class="mw-redirect">scheme theory</a> which allows one to use <a href="Sheaf_theory" title="Sheaf theory" class="mw-redirect">sheaf theory</a> to study algebraic varieties in a way which is very similar to its use in the study of <a href="Differential_manifold" title="Differential manifold" class="mw-redirect">differential</a> and <a href="Complex_manifold" title="Complex manifold">analytic manifolds</a>. This is obtained by extending the notion of point: In classical algebraic geometry, a point of an affine variety may be identified, through <a href="Hilbert's_Nullstellensatz" title="Hilbert's Nullstellensatz">Hilbert's Nullstellensatz</a>, with a <a href="Maximal_ideal" title="Maximal ideal">maximal ideal</a> of the <a href="Coordinate_ring" title="Coordinate ring" class="mw-redirect">coordinate ring</a>, while the points of the corresponding affine scheme are all prime ideals of this ring. This means that a point of such a scheme may be either a usual point or a subvariety. This approach also enables a unification of the language and the tools of classical algebraic geometry, mainly concerned with complex points, and of algebraic number theory. <a href="Wiles's_proof_of_Fermat's_Last_Theorem" title="Wiles's proof of Fermat's Last Theorem">Wiles's proof</a> of the longstanding conjecture called <a href="Fermat's_last_theorem" title="Fermat's last theorem" class="mw-redirect">Fermat's last theorem</a> is an example of the power of this approach.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Basic_notions"><span class="tocnumber">1</span> <span class="toctext">Basic notions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Zeros_of_simultaneous_polynomials"><span class="tocnumber">1.1</span> <span class="toctext">Zeros of simultaneous polynomials</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Affine_varieties"><span class="tocnumber">1.2</span> <span class="toctext">Affine varieties</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Regular_functions"><span class="tocnumber">1.3</span> <span class="toctext">Regular functions</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Morphism_of_affine_varieties"><span class="tocnumber">1.4</span> <span class="toctext">Morphism of affine varieties</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Rational_function_and_birational_equivalence"><span class="tocnumber">1.5</span> <span class="toctext">Rational function and birational equivalence</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Projective_variety"><span class="tocnumber">1.6</span> <span class="toctext">Projective variety</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Real_algebraic_geometry"><span class="tocnumber">2</span> <span class="toctext">Real algebraic geometry</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Computational_algebraic_geometry"><span class="tocnumber">3</span> <span class="toctext">Computational algebraic geometry</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Gr.C3.B6bner_basis"><span class="tocnumber">3.1</span> <span class="toctext">Gröbner basis</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Cylindrical_Algebraic_Decomposition_.28CAD.29"><span class="tocnumber">3.2</span> <span class="toctext">Cylindrical Algebraic Decomposition (CAD)</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Asymptotic_complexity_vs._practical_efficiency"><span class="tocnumber">3.3</span> <span class="toctext">Asymptotic complexity vs. practical efficiency</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Abstract_modern_viewpoint"><span class="tocnumber">4</span> <span class="toctext">Abstract modern viewpoint</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#History"><span class="tocnumber">5</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#Prehistory:_before_the_19th_century"><span class="tocnumber">5.1</span> <span class="toctext">Prehistory: before the 19th century</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#19th_and_early_20th_century"><span class="tocnumber">5.2</span> <span class="toctext">19th and early 20th century</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#20th_century"><span class="tocnumber">5.3</span> <span class="toctext">20th century</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Applications"><span class="tocnumber">6</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=1.php.html" title="Edit section: Basic notions">edit</a>]</span> <span class="mw-headline" id="Basic_notions">Basic notions</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=2.php.html" title="Edit section: Zeros of simultaneous polynomials">edit</a>]</span> <span class="mw-headline" id="Zeros_of_simultaneous_polynomials">Zeros of simultaneous polynomials</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Slanted_circle.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Slanted_circle.png/200px-Slanted_circle.png" width="200" height="205" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Slanted_circle.png/300px-Slanted_circle.png 1.5x, //upload.wikimedia.org/wikipedia/commons/9/90/Slanted_circle.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Slanted_circle.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Sphere and slanted circle</div>
+</div>
+</div>
+<p>In classical algebraic geometry, the main objects of interest are the vanishing sets of collections of <a href="Polynomial" title="Polynomial">polynomials</a>, meaning the set of all points that simultaneously satisfy one or more <a href="Systems_of_polynomial_equations" title="Systems of polynomial equations" class="mw-redirect">polynomial equations</a>. For instance, the two-dimensional <a href="Sphere" title="Sphere">sphere</a> in three-dimensional <a href="Euclidean_space" title="Euclidean space">Euclidean space</a> <b>R</b><sup>3</sup> could be defined as the set of all points (<i>x</i>,<i>y</i>,<i>z</i>) with</p>
+<dl>
+<dd><img class="tex" alt="x^2+y^2+z^2-1=0.\," src="http://upload.wikimedia.org/math/8/d/e/8def08202fd6e920e5fe03b76708822f.png" /></dd>
+</dl>
+<p>A "slanted" circle in <b>R</b><sup>3</sup> can be defined as the set of all points (<i>x</i>,<i>y</i>,<i>z</i>) which satisfy the two polynomial equations</p>
+<dl>
+<dd><img class="tex" alt="x^2+y^2+z^2-1=0,\," src="http://upload.wikimedia.org/math/2/e/2/2e2a96eaa39241b282cf07161f28da3a.png" /></dd>
+<dd><img class="tex" alt="x+y+z=0.\," src="http://upload.wikimedia.org/math/7/7/1/771a9353e8719692503c3b641f7f736e.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=3.php.html" title="Edit section: Affine varieties">edit</a>]</span> <span class="mw-headline" id="Affine_varieties">Affine varieties</span></h3>
+<p>First we start with a <a href="Field_(mathematics)" title="Field (mathematics)">field</a> <i>k</i>. In classical algebraic geometry, this field was always the complex numbers <b>C</b>, but many of the same results are true if we assume only that <i>k</i> is <a href="Algebraically_closed_field" title="Algebraically closed field">algebraically closed</a>. We consider the <a href="Affine_space" title="Affine space">affine space</a> of dimension <i>n</i> over <i>k</i>, denoted <b>A</b><sup>n</sup>(<i>k</i>) (or more simply <b>A</b><sup><i>n</i></sup>, when <i>k</i> is clear from the context). When one fixes a coordinates system, one may identify <b>A</b><sup>n</sup>(<i>k</i>) with <i>k</i><sup><i>n</i></sup>. The purpose of not working with <i>k</i><sup><i>n</i></sup> is to emphasize that one "forgets" the vector space structure that <i>k</i><sup>n</sup> carries.</p>
+<p>A function <i>f</i>&#160;: <b>A</b><sup><i>n</i></sup> → <b>A</b><sup>1</sup> is said to be <i>polynomial</i> (or <i>regular</i>) if it can be written as a polynomial, that is, if there is a polynomial <i>p</i> in <i>k</i>[<i>x</i><sub>1</sub>,...,<i>x</i><sub><i>n</i></sub>] such that <i>f</i>(<i>M</i>) = <i>p</i>(<i>t</i><sub>1</sub>,...,<i>t</i><sub><i>n</i></sub>) for every point <i>M</i> with coordinates (<i>t</i><sub>1</sub>,...,<i>t</i><sub><i>n</i></sub>) in <b>A</b><sup><i>n</i></sup>. The property of a function to be polynomial (or regular) does not depend on the choice of a coordinate system in <b>A</b><sup><i>n</i></sup>.</p>
+<p>Regular functions on affine <i>n</i>-space are thus exactly the same as polynomials over <i>k</i> in <i>n</i> variables. We will refer to the set of all regular functions on <b>A</b><sup><i>n</i></sup> as <i>k</i>[<b>A</b><sup><i>n</i></sup>].</p>
+<p>We say that a polynomial <i>vanishes</i> at a point if evaluating it at that point gives zero. Let <i>S</i> be a set of polynomials in <i>k</i>[<b>A</b><sup>n</sup>]. The <i>vanishing set of S</i> (or <i>vanishing locus</i>) is the set <i>V</i>(<i>S</i>) of all points in <b>A</b><sup><i>n</i></sup> where every polynomial in <i>S</i> vanishes. In other words,</p>
+<dl>
+<dd><img class="tex" alt="V(S) = \{(t_1,\dots,t_n)|\forall p\in S, p(t_1,\dots,t_n) = 0\}.\," src="http://upload.wikimedia.org/math/7/d/f/7dfd0f30500372580d9908a4576da9b6.png" /></dd>
+</dl>
+<p>A subset of <b>A</b><sup><i>n</i></sup> which is <i>V</i>(<i>S</i>), for some <i>S</i>, is called an <i>algebraic set</i>. The <i>V</i> stands for <i>variety</i> (a specific type of algebraic set to be defined below).</p>
+<p>Given a subset <i>U</i> of <b>A</b><sup><i>n</i></sup>, can one recover the set of polynomials which generate it? If <i>U</i> is <i>any</i> subset of <b>A</b><sup><i>n</i></sup>, define <i>I</i>(<i>U</i>) to be the set of all polynomials whose vanishing set contains <i>U</i>. The <i>I</i> stands for <a href="Ideal_(ring_theory)" title="Ideal (ring theory)">ideal</a>: if two polynomials <i>f</i> and <i>g</i> both vanish on <i>U</i>, then <i>f</i>+<i>g</i> vanishes on <i>U</i>, and if <i>h</i> is any polynomial, then <i>hf</i> vanishes on <i>U</i>, so <i>I</i>(<i>U</i>) is always an ideal of <i>k</i>[<b>A</b><sup><i>n</i></sup>].</p>
+<p>Two natural questions to ask are:</p>
+<ul>
+<li>Given a subset <i>U</i> of <b>A</b><sup><i>n</i></sup>, when is <i>U</i> = <i>V</i>(<i>I</i>(<i>U</i>))?</li>
+<li>Given a set <i>S</i> of polynomials, when is <i>S</i> = <i>I</i>(<i>V</i>(<i>S</i>))?</li>
+</ul>
+<p>The answer to the first question is provided by introducing the <a href="Zariski_topology" title="Zariski topology">Zariski topology</a>, a topology on <b>A</b><sup><i>n</i></sup> whose closed sets are the algebraic sets, and which directly reflects the algebraic structure of <i>k</i>[<b>A</b><sup><i>n</i></sup>]. Then <i>U</i> = <i>V</i>(<i>I</i>(<i>U</i>)) if and only if <i>U</i> is an algebraic set or equivalently a Zariski-closed set. The answer to the second question is given by <a href="Hilbert's_Nullstellensatz" title="Hilbert's Nullstellensatz">Hilbert's Nullstellensatz</a>. In one of its forms, it says that <i>I</i>(<i>V</i>(<i>S</i>)) is the <a href="Radical_of_an_ideal" title="Radical of an ideal">radical</a> of the ideal generated by <i>S</i>. In more abstract language, there is a <a href="Galois_connection" title="Galois connection">Galois connection</a>, giving rise to two <a href="Closure_operator" title="Closure operator">closure operators</a>; they can be identified, and naturally play a basic role in the theory; the <a href="Galois_connection#Examples" title="Galois connection">example</a> is elaborated at Galois connection.</p>
+<p>For various reasons we may not always want to work with the entire ideal corresponding to an algebraic set <i>U</i>. <a href="Hilbert's_basis_theorem" title="Hilbert's basis theorem">Hilbert's basis theorem</a> implies that ideals in <i>k</i>[<b>A</b><sup><i>n</i></sup>] are always finitely generated.</p>
+<p>An algebraic set is called <i><a href="Irreducible_component" title="Irreducible component">irreducible</a></i> if it cannot be written as the union of two smaller algebraic sets. Any algebraic set is a finite union of irreducible algebraic sets and this decomposition is unique. Thus its elements are called the <i>irreducible components</i> of the algebraic set. An irreducible algebraic set is also called a <i><a href="Algebraic_variety" title="Algebraic variety">variety</a></i>. It turns out that an algebraic set is a variety if and only if it may be defined as the vanishing set of a <a href="Prime_ideal" title="Prime ideal">prime ideal</a> of the polynomial ring.</p>
+<p>Some authors do not make a clear distinction between algebraic sets and varieties and use <i>irreducible variety</i> to make the distinction when needed.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=4.php.html" title="Edit section: Regular functions">edit</a>]</span> <span class="mw-headline" id="Regular_functions">Regular functions</span></h3>
+<p>Just as <a href="Continuous_function" title="Continuous function">continuous functions</a> are the natural maps on <a href="Topological_space" title="Topological space">topological spaces</a> and <a href="Smooth_function" title="Smooth function">smooth functions</a> are the natural maps on <a href="Differentiable_manifold" title="Differentiable manifold">differentiable manifolds</a>, there is a natural class of functions on an algebraic set, called <i>regular functions</i> or <i>polynomial functions</i>. A regular function on an algebraic set <i>V</i> contained in <b>A</b><sup>n</sup> is the restriction to <i>V</i> of a regular function on <b>A</b><sup>n</sup>. For an algebraic set defined on the field of the complex numbers, the regular functions are smooth and even <a href="Analytic_function" title="Analytic function">analytic</a>.</p>
+<p>It may seem unnaturally restrictive to require that a regular function always extend to the ambient space, but it is very similar to the situation in a <a href="Normal_space" title="Normal space">normal</a> <a href="Topological_space" title="Topological space">topological space</a>, where the <a href="Tietze_extension_theorem" title="Tietze extension theorem">Tietze extension theorem</a> guarantees that a continuous function on a closed subset always extends to the ambient topological space.</p>
+<p>Just as with the regular functions on affine space, the regular functions on <i>V</i> form a ring, which we denote by <i>k</i>[<i>V</i>]. This ring is called the <i>coordinate ring of V</i>.</p>
+<p>Since regular functions on V come from regular functions on <b>A</b><sup>n</sup>, there is a relationship between the coordinate rings. Specifically, if a regular function on <i>V</i> is the restriction of two functions <i>f</i> and <i>g</i> in <i>k</i>[<b>A</b><sup>n</sup>], then <i>f</i>&#160;−&#160;<i>g</i> is a polynomial function which is null on <i>V</i> and thus belongs to <i>I</i>(<i>V</i>). Thus <i>k</i>[<i>V</i>] may be identified with <i>k</i>[<b>A</b><sup>n</sup>]/<i>I</i>(<i>V</i>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=5.php.html" title="Edit section: Morphism of affine varieties">edit</a>]</span> <span class="mw-headline" id="Morphism_of_affine_varieties">Morphism of affine varieties</span></h3>
+<p>Using regular functions from an affine variety to <b>A</b><sup>1</sup>, we can define regular maps from one affine variety to another. First we will define a regular map from a variety into affine space: Let <i>V</i> be a variety contained in <b>A</b><sup>n</sup>. Choose <i>m</i> regular functions on <i>V</i>, and call them <i>f</i><sub>1</sub>, ..., <i>f</i><sub><i>m</i></sub>. We define a <i>regular map</i> <i>f</i> from <i>V</i> to <b>A</b><sup>m</sup> by letting <i>f</i> = (<i>f</i><sub>1</sub>, ..., <i>f</i><sub><i>m</i></sub>). In other words, each <i>f</i><sub><i>i</i></sub> determines one coordinate of the <a href="Range_(mathematics)" title="Range (mathematics)">range</a> of <i>f</i>.</p>
+<p>If <i>V</i>' is a variety contained in <b>A</b><sup>m</sup>, we say that <i>f</i> is a <i>regular map</i> from <i>V</i> to <i>V</i>' if the range of <i>f</i> is contained in <i>V</i>'.</p>
+<p>The definition of the regular maps apply also to algebraic sets. The regular maps are also called <i>morphisms</i>, as they make the collection of all affine algebraic sets into a <a href="Category_theory" title="Category theory">category</a>, where the objects are the affine algebraic sets and the <a href="Morphism" title="Morphism">morphisms</a> are the regular maps. The affine varieties is a subcategory of the category of the algebraic sets.</p>
+<p>Given a regular map <i>g</i> from <i>V</i> to <i>V</i>' and a regular function <i>f</i> of <i>k</i>[<i>V</i>'], then <i>f</i>∘<i>g</i>∈<i>k</i>[<i>V</i>]. The map <i>f</i>→<i>f</i>∘<i>g</i> is a <a href="Ring_homomorphism" title="Ring homomorphism">ring homomorphism</a> from <i>k</i>[<i>V</i>'] to <i>k</i>[<i>V</i>]. Conversely, every ring homomorphism from <i>k</i>[<i>V</i>'] to <i>k</i>[<i>V</i>] defines a regular map from <i>V</i> to <i>V</i>'. This defines an <a href="Equivalence_of_categories" title="Equivalence of categories">equivalence of categories</a> between the category of algebraic sets and the <a href="Dual_(category_theory)" title="Dual (category theory)">opposite category</a> of the finitely generated <a href="Reduced_ring" title="Reduced ring">reduced</a> <i>k</i>-algebras. This equivalence is one of the starting points of <a href="Scheme_theory" title="Scheme theory" class="mw-redirect">scheme theory</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=6.php.html" title="Edit section: Rational function and birational equivalence">edit</a>]</span> <span class="mw-headline" id="Rational_function_and_birational_equivalence">Rational function and birational equivalence</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Rational_mapping" title="Rational mapping">Rational mapping</a></div>
+<p>Contrarily to the preceding ones, this section concerns only varieties and not algebraic sets. On the other hand the definitions extend naturally to projective varieties (next section), as an affine variety and its projective completion have the same field of functions.</p>
+<p>If <i>V</i> is an affine variety, its coordinate ring is an <a href="Integral_domain" title="Integral domain">integral domain</a> and has thus a <a href="Field_of_fractions" title="Field of fractions">field of fractions</a> which is denoted <i>k</i>(<i>V</i>) and called the <i>field of the rational functions</i> on <i>V</i> or, shortly, the <i><a href="Function_field_of_an_algebraic_variety" title="Function field of an algebraic variety">function field</a></i> of <i>V</i>. Its elements are the restrictions to <i>V</i> of the <a href="Rational_function" title="Rational function">rational functions</a> over the affine space containing <i>V</i>. The <a href="Domain_of_a_function" title="Domain of a function">domain</a> of a rational function <i>f</i> is not <i>V</i> but the <a href="Complement_(set_theory)" title="Complement (set theory)">complement</a> of the subvariety (a hypersurface) where the denominator of <i>f</i> vanishes.</p>
+<p>Like for regular maps, one may define a <i>rational map</i> from a variety <i>V</i> to a variety <i>V</i>'. Like for the regular maps, the rational maps from <i>V</i> to <i>V</i>' may be identified to the <a href="Ring_homomorphism" title="Ring homomorphism">field homomorphisms</a> from <i>k</i>(<i>V</i>') to <i>k</i>(<i>V</i>).</p>
+<p>Two affine varieties are <i>birationally equivalent</i> if there two rational functions between them which are <a href="Function_inverse" title="Function inverse" class="mw-redirect">inverse</a> one to the other in the regions where both are defined. Equivalently, they are birationally equivalent if their function fields are isomorphic.</p>
+<p>An affine variety is a <i><a href="Rational_variety" title="Rational variety">rational variety</a></i> if it is birationally equivalent to an affine space. This means that the variety admits a rational parameterization. For example, the circle of equation <i>x</i>^2&#160;+&#160;<i>y</i>^2&#160;−&#160;1&#160;=&#160;0 is a rational curve, as it has the parameterization</p>
+<dl>
+<dd><img class="tex" alt="x=\frac{2\,t}{1+t^2}" src="http://upload.wikimedia.org/math/0/1/7/0173dd41f3d7f8ad4a460c41c71a0ded.png" /></dd>
+<dd><img class="tex" alt="y=\frac{1-t^2}{1+t^2}\,," src="http://upload.wikimedia.org/math/3/3/8/338da6a31fb933ef4316d826d5f7c968.png" /></dd>
+</dl>
+<p>which may also be viewed as a rational map from the line to the circle.</p>
+<p>The problem of <a href="Resolution_of_singularities" title="Resolution of singularities">resolution of singularities</a> is to know if every algebraic variety is birationally equivalent to a variety whose projective completion is nonsingular (see also <a href="Smooth_completion" title="Smooth completion">smooth completion</a>). It has been positively solved in characteristic 0 by <a href="Heisuke_Hironaka" title="Heisuke Hironaka">Heisuke Hironaka</a> in 1964 and is yet unsolved in finite characteristic.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=7.php.html" title="Edit section: Projective variety">edit</a>]</span> <span class="mw-headline" id="Projective_variety">Projective variety</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Algebraic_geometry_of_projective_spaces" title="Algebraic geometry of projective spaces">Algebraic geometry of projective spaces</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Parabola_&_cubic_curve_in_projective_space.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Parabola_&_cubic_curve_in_projective_space.png/300px-Parabola_&_cubic_curve_in_projective_space.png" width="300" height="225" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Parabola_%26_cubic_curve_in_projective_space.png/450px-Parabola_%26_cubic_curve_in_projective_space.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Parabola_%26_cubic_curve_in_projective_space.png/600px-Parabola_%26_cubic_curve_in_projective_space.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Parabola_&_cubic_curve_in_projective_space.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+parabola (<i>y</i>&#160;=&#160;<i>x</i><sup>2</sup>, red) and cubic (<i>y</i>&#160;=&#160;<i>x</i><sup>3</sup>, blue) in projective space</div>
+</div>
+</div>
+<p>Many properties of the affine varieties depend on their behaviour "at infinity".</p>
+<p>For example, consider the variety <i>V</i>(<i>y</i>&#160;−&#160;<i>x</i><sup>2</sup>). If we draw it, we get a <a href="Parabola" title="Parabola">parabola</a>. As <i>x</i> increases, the slope of the line from the origin to the point (<i>x</i>,&#160;<i>x</i><sup>2</sup>) becomes larger and larger. As <i>x</i> decreases, the slope of the same line becomes smaller and smaller.</p>
+<p>Compare this to the variety <i>V</i>(<i>y</i>&#160;−&#160;<i>x</i><sup>3</sup>). This is a <a href="Cubic_curve" title="Cubic curve" class="mw-redirect">cubic curve</a>. As <i>x</i> increases, the slope of the line from the origin to the point (<i>x</i>,&#160;<i>x</i><sup>3</sup>) becomes larger and larger just as before. But unlike before, as <i>x</i> decreases, the slope of the same line again becomes larger and larger. So the behavior "at infinity" of <i>V</i>(<i>y</i>&#160;−&#160;<i>x</i><sup>3</sup>) is different from the behavior "at infinity" of <i>V</i>(<i>y</i>&#160;−&#160;<i>x</i><sup>2</sup>).</p>
+<p>The consideration of the <i>projective completion</i> of the two curves, which is their prolongation "at infinity" in the <a href="Projective_plane" title="Projective plane">projective plane</a>, allows to quantify this difference: the point at infinity of the parabola is a <a href="Regular_point_of_an_algebraic_variety" title="Regular point of an algebraic variety" class="mw-redirect">regular point</a>, whose tangent is the <a href="Line_at_infinity" title="Line at infinity">line at infinity</a>, while the point at infinity of the cubic curve is a <a href="Cusp_(singularity)" title="Cusp (singularity)">cusp</a>. Also, both curves are rational, as they are parameterized by <i>x</i>, and <a href="Riemann-Roch_theorem_for_algebraic_curves" title="Riemann-Roch theorem for algebraic curves" class="mw-redirect">Riemann-Roch theorem</a> implies that the cubic curve must have a singularity, which must be at infinity, as all its points in the affine space are regular.</p>
+<p>Thus many of the properties of the algebraic varieties, including birational equivalence and all the topological properties depends on the behavior "at infinity" and, thus imply to study the varieties in the projective space. Furthermore, the introduction of projective techniques made many theorems in algebraic geometry simpler and sharper: For example, <a href="B%C3%A9zout's_theorem" title="Bézout's theorem">Bézout's theorem</a> on the number of intersection points between two varieties can be stated in its sharpest form only in projective space. For these reasons, projective space plays a fundamental role in algebraic geometry.</p>
+<p>Nowadays, the <i><a href="Projective_space" title="Projective space">projective space</a></i> <b>P</b><sup><i>n</i></sup> of dimension <i>n</i> is usually defined as the set of the lines passing through a point, considered as the origin, in the affine space of dimension <i>n</i>+1, or equivalently to the set of the vector lines in a vector space of dimension <i>n</i>+1. When a coordinate system has been chosen in the space of dimension <i>n</i>+1, all the points of a line have the same set of coordinates, up to the multiplication by an element of <i>k</i>. This defines the <a href="Homogeneous_coordinates" title="Homogeneous coordinates">homogeneous coordinates</a> of a point of <b>P</b><sup><i>n</i></sup> as a sequence of <i>n</i>+1 elements of the base field <i>k</i>, defined up to the multiplication by a nonzero element of <i>k</i> (the same for the whole sequence).</p>
+<p>Given a polynomial in <i>n</i>+1 variables, it vanishes at all the point of a line passing through the origin if and only if it is <a href="Homogeneous_polynomial" title="Homogeneous polynomial">homogeneous</a>. In this case, one says that the polynomial <i>vanishes</i> at the corresponding point of <b>P</b><sup><i>n</i></sup>. This allows to define a <i>projective algebraic set</i> in <b>P</b><sup><i>n</i></sup> as the set <i>V</i>(<i>f</i><sub>1</sub>, ..., <i>f</i><sub><i>k</i></sub>) where vanishes a finite set of homogeneous polynomials {<i>f</i><sub>1</sub>, ..., <i>f</i><sub><i>k</i></sub>}. Like for affine algebraic sets, there is a bijection between the projective algebraic sets and the reduced <a href="Homogeneous_ideal" title="Homogeneous ideal" class="mw-redirect">homogeneous ideals</a> which define them. The <i>projective varieties</i> are the projective algebraic sets whose defining ideal is prime. In other words, a projective variety is a projective algebraic set, whose <a href="Homogeneous_coordinate_ring" title="Homogeneous coordinate ring">homogeneous coordinate ring</a> is an <a href="Integral_domain" title="Integral domain">integral domain</a>, the <i>projective coordinates ring</i> being defined as the quotient of the graded ring or the polynomials in <i>n</i>+1 variables by the homogeneous (reduced) ideal defining the variety. Every projective algebraic set may be uniquely decomposed into a finite union of projective varieties.</p>
+<p>The only regular functions which may be defined properly on a projective variety are the constant functions. Thus this notion is not used in projective situations. On the other hand the <i>field of the rational functions</i> or <i>function field</i> is a useful notion, which, similarly as in the affine case, is defined as the set of the quotients of two homogeneous elements of the same degree in the homogeneous coordinate ring.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=8.php.html" title="Edit section: Real algebraic geometry">edit</a>]</span> <span class="mw-headline" id="Real_algebraic_geometry">Real algebraic geometry</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Real_algebraic_geometry" title="Real algebraic geometry">Real algebraic geometry</a></div>
+<p>The real algebraic geometry is the study of the real points of the algebraic geometry.</p>
+<p>The fact that the field of the reals number is an <a href="Ordered_field" title="Ordered field">ordered field</a> may not be occulted in such a study. For example, the curve of equation <img class="tex" alt="x^2+y^2-a=0" src="http://upload.wikimedia.org/math/d/b/9/db9f6a841626aa47de70ff274447e5b5.png" /> is a circle if <img class="tex" alt=" a&gt;0" src="http://upload.wikimedia.org/math/3/2/3/323c5f97105643bc61e288fe596194ca.png" />, but does not have any real point if <img class="tex" alt=" a&lt;0" src="http://upload.wikimedia.org/math/c/f/8/cf8298b0e273301afdd921e7e4cf6c2b.png" />. It follows that real algebraic geometry is not only the study of the real algebraic varieties, but has been generalized to the study of the <i>semi-algebraic sets</i>, which are the solutions of systems of polynomial equations and polynomial inequalities. For example, a branch of the <a href="Hyperbola" title="Hyperbola">hyperbola</a> of equation <img class="tex" alt="x y-1 = 0" src="http://upload.wikimedia.org/math/b/0/a/b0ac57fca74cda97aa3923ca6139bddf.png" /> is not an algebraic variety, but is a semi-algebraic set defined by <img class="tex" alt="x y-1=0" src="http://upload.wikimedia.org/math/b/0/a/b0ac57fca74cda97aa3923ca6139bddf.png" /> and <img class="tex" alt="x&gt;0" src="http://upload.wikimedia.org/math/8/8/7/887fb68a10cbd4369b27c90bee0334d8.png" /> or by <img class="tex" alt="x y-1=0" src="http://upload.wikimedia.org/math/b/0/a/b0ac57fca74cda97aa3923ca6139bddf.png" /> and <img class="tex" alt="x+y&gt;0" src="http://upload.wikimedia.org/math/e/7/b/e7b1a333a0ca298455e81902a9db4fb3.png" />.</p>
+<p>One of the challenging problems of real algebraic geometry is the unsolved <a href="Hilbert's_sixteenth_problem" title="Hilbert's sixteenth problem">Hilbert's sixteenth problem</a>: Decide which respective positions are possible for the ovals of a nonsingular plane curve of degree 8.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=9.php.html" title="Edit section: Computational algebraic geometry">edit</a>]</span> <span class="mw-headline" id="Computational_algebraic_geometry">Computational algebraic geometry</span></h2>
+<p>One may date the origin of computational algebraic geometry to meeting EUROSAM'79 (International Symposium on Symbolic and Algebraic Manipulation) held at Marseilles, France in June 1979. At this meeting,</p>
+<ul>
+<li>Dennis S. Arnon showed that <a href="../../w/index-title=George_E._Collins&action=edit&redlink=1.php.html" class="new" title="George E. Collins (page does not exist)">George E. Collins</a>'s <a href="Cylindrical_algebraic_decomposition" title="Cylindrical algebraic decomposition">Cylindrical algebraic decomposition</a> (CAD) allows to compute the topology of the semi-algebraic sets,</li>
+<li><a href="Bruno_Buchberger" title="Bruno Buchberger">Bruno Buchberger</a> presented the <a href="Gr%C3%B6bner_basis" title="Gröbner basis">Gröbner bases</a> and his algorithm to compute them,</li>
+<li><a href="Daniel_Lazard" title="Daniel Lazard">Daniel Lazard</a> presented a new algorithm for solving systems of homogeneous polynomial equations with a <a href="Computational_complexity" title="Computational complexity" class="mw-redirect">computational complexity</a> which is essentially polynomial in the expected number of solutions and thus simply exponential in the number of the unknowns. This algorithm is strongly related with <a href="Francis_Sowerby_Macaulay" title="Francis Sowerby Macaulay">Macaulay</a>'s <a href="../../w/index-title=Multivariate_resultant&action=edit&redlink=1.php.html" class="new" title="Multivariate resultant (page does not exist)">multivariate resultant</a>.</li>
+</ul>
+<p>Since then, most results in this area are related to one or several of these items either by using or improving one of these algorithms, or by finding algorithms whose complexity is simply exponential in the number of the variables.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=10.php.html" title="Edit section: Gröbner basis">edit</a>]</span> <span class="mw-headline" id="Gr.C3.B6bner_basis">Gröbner basis</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Gr%C3%B6bner_basis" title="Gröbner basis">Gröbner basis</a></div>
+<p>A <a href="Gr%C3%B6bner_basis" title="Gröbner basis">Gröbner basis</a> is a system of generators of a polynomial <a href="Ideal_(ring_theory)" title="Ideal (ring theory)">ideal</a> whose computation allows to deduce many properties of the affine algebraic variety defined by the ideal.</p>
+<p>Given an ideal <i>I</i> defining an algebraic set <i>V</i>:</p>
+<ul>
+<li><i>V</i> is empty (over an algebraically closed extension of the basis field), if and only if the Gröbner basis for any monomial ordering is reduced to {1}.</li>
+<li>By mean of the <a href="Hilbert_series" title="Hilbert series" class="mw-redirect">Hilbert series</a> one may compute the <a href="Dimension_of_an_algebraic_variety" title="Dimension of an algebraic variety">dimension</a> and the <a href="Degree_of_an_algebraic_variety" title="Degree of an algebraic variety">degree</a> of <i>V</i> from any Gröbner basis of <i>I</i> for a monomial ordering refining the total degree.</li>
+<li>If the dimension of <i>V</i> is 0, one may compute the points (finite in number) of <i>V</i> from any Gröbner basis of <i>I</i> (see <a href="Systems_of_polynomial_equations" title="Systems of polynomial equations" class="mw-redirect">systems of polynomial equations</a>.</li>
+<li>A Gröbner basis computation allows to remove from <i>V</i> all irreducible components which are contained in a given hyper surface.</li>
+<li>A Gröbner basis computation allows to compute the Zariski closure of the image of <i>V</i> by the projection on the <i>k</i> first coordinates, and the subset of the image where the projection is not proper.</li>
+<li>More generally Gröbner basis computations allows to compute the Zariski closure of the image and the <a href="Critical_point_(mathematics)" title="Critical point (mathematics)">critical points</a> of a rational function of <i>V</i> into another affine variety.</li>
+</ul>
+<p>Gröbner basis computations do not allow to compute directly the primary decomposition of <i>I</i> nor the prime ideals defining the irreducible components of <i>V</i>, but most algorithms for this involve Gröbner basis computation. The algorithms which are not based on Gröbner bases use <a href="Regular_chain" title="Regular chain">regular chains</a> but may need Gröbner bases in some exceptional situations.</p>
+<p>Gröbner base are deemed to be difficult to compute. In fact they may contain, in the worst case, polynomials whose degree is doubly exponential in the number of variables and a number of polynomials which is also doubly exponential. However, this is only a worst case complexity, and the complexity bound of Lazard's algorithm of 1979 may frequently apply. <a href="Faug%C3%A8re's_F4_and_F5_algorithms" title="Faugère's F4 and F5 algorithms">Faugère's F4 and F5 algorithms</a> realize this complexity, as F5 algorithm may be viewed as an improvement of Lazard's 1979 algorithm. It follows that the best implementations allow to compute almost routinely with algebraic sets of degree more than 100. This means that, presently, the difficulty of computing a Gröbner basis is strongly related to the intrinsic difficulty of the problem.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=11.php.html" title="Edit section: Cylindrical Algebraic Decomposition (CAD)">edit</a>]</span> <span class="mw-headline" id="Cylindrical_Algebraic_Decomposition_.28CAD.29">Cylindrical Algebraic Decomposition (CAD)</span></h3>
+<p>CAD is an algorithm which has been introduced in 1973 by G. Collins to implement with an acceptable complexity <a href="Alfred_Tarski" title="Alfred Tarski">Tarski</a>'s theorem on <a href="Quantifier_elimination" title="Quantifier elimination">quantifier elimination</a> over the real numbers.</p>
+<p>This theorem concerns the formulas of the <a href="First-order_logic" title="First-order logic">first-order logic</a> whose atomic formulas are polynomial equalities or inequalities between polynomials with real coefficients. These formulas are thus the formulas which may be constructed from the atomic formulas by the logical operators <i>and</i> (∧), <i>or</i> (∨), <i>not</i> (¬), <i>for all</i> (∀) and <i>exists</i> (∃). Tarski's theorem asserts that, from such a formula, one may compute an equivalent formula without quantifier (∀, ∃).</p>
+<p>The complexity of CAD is doubly exponential in the number of variables. This means that CAD allow, in theory, to solve every problem of real algebraic geometry which may be expressed by such a formula, that is almost every problem concerning explicitly given varieties and semi-algebraic sets.</p>
+<p>While Gröbner basis computation has doubly exponential complexity only in rare cases, CAD has almost always this high complexity. This implies that, unless if most polynomials appearing in the input are linear, it may not solve problems with more than four variables.</p>
+<p>Since 1973, most of the research on this subject is devoted either to improve CAD or to find alternate algorithms in special cases of general interest.</p>
+<p>As an example of the state of art, there are efficient algorithms to find at least a point in every connected component of a semi-algebraic set, and thus to test if a semi-algebraic set is empty. On the other hand CAD is yet, in practice, the best algorithm to count the number of connected components.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=12.php.html" title="Edit section: Asymptotic complexity vs. practical efficiency">edit</a>]</span> <span class="mw-headline" id="Asymptotic_complexity_vs._practical_efficiency">Asymptotic complexity vs. practical efficiency</span></h3>
+<p>The basic general algorithms of computational geometry have a double exponential worst case <a href="Computational_complexity" title="Computational complexity" class="mw-redirect">complexity</a>. More precisely, if <i>d</i> is the maximal degree of the input polynomials and <i>n</i> the number of variables, their complexity is at most <img class="tex" alt="d^{2^{c n}}" src="http://upload.wikimedia.org/math/5/d/6/5d6961dcdfdf36b5eca16e0ff75080f5.png" /> for some constant <i>c</i>, and, for some inputs, the complexity is at least <img class="tex" alt="d^{2^{c' n}}" src="http://upload.wikimedia.org/math/f/e/1/fe134216d1a52a0d58fc22302c2b036e.png" /> for another constant <i>c</i>′.</p>
+<p>During the last 20 years of 20th century, various algorithms have been introduced to solve specific subproblems with a better complexity. Most of these algorithms have a complexity <img class="tex" alt="d^{O(n^2)}" src="http://upload.wikimedia.org/math/3/7/f/37fa7c2808a37f6b21a5bd88ad57596c.png" />.</p>
+<p>Among these algorithms which solve a sub problem of the problems solved by Gröbner bases, one may cite <i>testing if an affine variety is empty</i> and <i>solving nonhomogeneous polynomial systems which have a finite number of solutions.</i> Such algorithms are rarely implemented because, on most entries <a href="Faug%C3%A8re's_F4_and_F5_algorithms" title="Faugère's F4 and F5 algorithms">Faugère's F4 and F5 algorithms</a> have a better practical efficiency and probably a similar or better complexity (<i>probably</i> because the evaluation of the complexity of Gröbner basis algorithms on a particular class of entries is a difficult task which has be done only in few special cases).</p>
+<p>The main algorithms of real algebraic geometry which solve a problem solved by CAD are related to the topology of semi-algebraic sets. One may cite <i>counting the number of connected components</i>, <i>testing if two points are in the same components</i> or <i>computing a <a href="../../w/index-title=Whitney_stratification&action=edit&redlink=1.php.html" class="new" title="Whitney stratification (page does not exist)">Whitney stratification</a> of a real algebraic set</i>. They have a complexity of <img class="tex" alt="d^{O(n^2)}" src="http://upload.wikimedia.org/math/3/7/f/37fa7c2808a37f6b21a5bd88ad57596c.png" />, but the constant involved by <i>O</i> notation is so high that using them to solve any nontrivial problem effectively solved by CAD, is impossible even if one could use all the existing computing power in the world. Therefore these algorithms have never been implemented and this is an active research area to search for algorithms with have together a good asymptotic complexity and a good practical efficiency.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=13.php.html" title="Edit section: Abstract modern viewpoint">edit</a>]</span> <span class="mw-headline" id="Abstract_modern_viewpoint">Abstract modern viewpoint</span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-technical" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>may be too <a href="http://en.wiktionary.org/wiki/technical#Adjective" class="extiw" title="wikt:technical">technical</a> for most readers to understand</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Algebraic_geometry&action=edit.php.html">improve</a> this article to <a href="Wikipedia_Make_technical_articles_understandable" title="Wikipedia:Make technical articles understandable">make it understandable to non-experts</a>, without removing the technical details. The <a href="Talk_Algebraic_geometry" title="Talk:Algebraic geometry">talk page</a> may contain suggestions.</span> <small><i>(December 2011)</i></small> </span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>does not <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(February 2011)</i></small> </span></td>
+</tr>
+</table>
+<p>The modern approaches to algebraic geometry redefine and effectively extend the range of basic objects in various levels of generality to schemes, <a href="Formal_scheme" title="Formal scheme">formal schemes</a>, <a href="../../w/index-title=Ind-scheme&action=edit&redlink=1.php.html" class="new" title="Ind-scheme (page does not exist)">ind-schemes</a>, <a href="Algebraic_space" title="Algebraic space">algebraic spaces</a>, <a href="Algebraic_stack" title="Algebraic stack">algebraic stacks</a> and so on. The need for this arises already from the useful ideas within theory of varieties, e.g. the formal functions of Zariski can be accommodated by introducing nilpotent elements in structure rings; considering spaces of loops and arcs, constructing quotients by group actions and developing formal grounds for natural intersection theory and deformation theory lead to some of the further extensions.</p>
+<p>Most remarkably, in late 1950s, algebraic varieties were subsumed into <a href="Alexander_Grothendieck" title="Alexander Grothendieck">Alexander Grothendieck</a>'s concept of a <a href="Scheme_(mathematics)" title="Scheme (mathematics)">scheme</a>. Their local objects are affine schemes or prime spectra which are locally ringed spaces which form a category which is antiequivalent to the category of commutative unital rings, extending the duality between the category of affine algebraic varieties over a field <i>k</i>, and the category of finitely generated reduced <i>k</i>-algebras. The gluing is along Zariski topology; one can glue within the category of locally ringed spaces, but also, using the Yoneda embedding, within the more abstract category of presheaves of sets over the category of affine schemes. The Zariski topology in the set theoretic sense is then replaced by a Zariski topology in the sense of <a href="Grothendieck_topology" title="Grothendieck topology">Grothendieck topology</a>. Grothendieck introduced Grothendieck topologies having in mind more exotic but geometrically finer and more sensitive examples than the crude Zariski topology, namely the <a href="%C3%89tale_topology" title="Étale topology">étale topology</a>, and the two flat Grothendieck topologies: ffpf and fpqc; nowadays some other examples became prominent including <a href="Nisnevich_topology" title="Nisnevich topology">Nisnevich topology</a>. Sheaves can be furthermore generalized to stacks in the sense of Grothendieck, usually with some additional representability conditions leading to Artin stacks and, even finer, Deligne-Mumford stacks, both often called algebraic stacks.</p>
+<p>Sometimes other algebraic sites replace the category of affine schemes. For example, <a href="Nikolai_Durov" title="Nikolai Durov">Nikolai Durov</a> has introduced commutative algebraic monads as a generalization of local objects in a generalized algebraic geometry. Versions of a tropical geometry, of an absolute geometry over a field of one element and an algebraic analogue of Arakelov's geometry were realized in this setup.</p>
+<p>Another formal generalization is possible to <a href="Universal_algebraic_geometry" title="Universal algebraic geometry">Universal algebraic geometry</a> in which every <a href="Variety_(universal_algebra)" title="Variety (universal algebra)">variety of algebra</a> has its own algebraic geometry. The term <i>variety of algebra</i> should not be confused with <i>algebraic variety</i>.</p>
+<p>The language of schemes, stacks and generalizations has proved to be a valuable way of dealing with geometric concepts and became cornerstones of modern algebraic geometry.</p>
+<p>Algebraic stacks can be further generalized and for many practical questions like deformation theory and intersection theory, this is often the most natural approach. One can extend the <a href="Grothendieck_site" title="Grothendieck site" class="mw-redirect">Grothendieck site</a> of affine schemes to a <a href="Higher_category_theory" title="Higher category theory">higher categorical</a> site of derived affine schemes, by replacing the commutative rings with an infinity category of differential graded commutative algebras, or of simplicial commutative rings or a similar category with an appropriate variant of a Grothendieck topology. One can also replace presheaves of sets by presheaves of simplicial sets (or of infinity groupoids). Then, in presence of an appropriate homotopic machinery one can develop a notion of derived stack as such a presheaf on the infinity category of derived affine schemes, which is satifsying certain infinite categorical version of a sheaf axiom (and to be algebraic, inductively a sequence of representability conditions). Quillen model categories, Segal categories and <a href="Quasicategory" title="Quasicategory" class="mw-redirect">quasicategories</a> are some of the most often used tools to formalize this yielding the <i>derived algebraic geometry</i>, introduced by the school of <a href="../../w/index-title=Carlos_Simpson&action=edit&redlink=1.php.html" class="new" title="Carlos Simpson (page does not exist)">Carlos Simpson</a>, including Andre Hirschowitz, <a href="../../w/index-title=Bertrand_To%C3%ABn&action=edit&redlink=1.php.html" class="new" title="Bertrand Toën (page does not exist)">Bertrand Toën</a>, Gabrielle Vezzosi, Michel Vaquié and others; and developed further by <a href="Jacob_Lurie" title="Jacob Lurie">Jacob Lurie</a>, <a href="../../w/index-title=Bertrand_To%C3%ABn&action=edit&redlink=1.php.html" class="new" title="Bertrand Toën (page does not exist)">Bertrand Toën</a>, and <a href="../../w/index-title=Gabrielle_Vezzosi&action=edit&redlink=1.php.html" class="new" title="Gabrielle Vezzosi (page does not exist)">Gabrielle Vezzosi</a>. Another (noncommutative) version of derived algebraic geometry, using A-infinity categories has been developed from early 1990-s by <a href="Maxim_Kontsevich" title="Maxim Kontsevich">Maxim Kontsevich</a> and followers.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=14.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=15.php.html" title="Edit section: Prehistory: before the 19th century">edit</a>]</span> <span class="mw-headline" id="Prehistory:_before_the_19th_century">Prehistory: before the 19th century</span></h3>
+<p>Some of the roots of algebraic geometry date back to the work of the <a href="Hellenistic_Greece" title="Hellenistic Greece">Hellenistic Greeks</a> from the 5th century BC. The <a href="Delian_problem" title="Delian problem" class="mw-redirect">Delian problem</a>, for instance, was to construct a length <i>x</i> so that the cube of side <i>x</i> contained the same volume as the rectangular box <i>a</i><sup>2</sup><i>b</i> for given sides <i>a</i> and <i>b</i>. <a href="Menechmus" title="Menechmus" class="mw-redirect">Menechmus</a> (circa 350 BC) considered the problem geometrically by intersecting the pair of plane conics <i>ay</i>&#160;=&#160;<i>x</i><sup>2</sup> and <i>xy</i>&#160;=&#160;<i>ab</i>.<sup id="cite_ref-Dieudonn.C3.A9_1-0" class="reference"><a href="#cite_note-Dieudonn.C3.A9-1"><span>[</span>1<span>]</span></a></sup> The later work, in the 3rd century BC, of <a href="Archimedes" title="Archimedes">Archimedes</a> and <a href="Apollonius_of_Perga" title="Apollonius of Perga">Apollonius</a> studied more systematically problems on <a href="Conic_sections" title="Conic sections" class="mw-redirect">conic sections</a>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> and also involved the use of coordinates.<sup id="cite_ref-Dieudonn.C3.A9_1-1" class="reference"><a href="#cite_note-Dieudonn.C3.A9-1"><span>[</span>1<span>]</span></a></sup> The <a href="Mathematics_in_medieval_Islam" title="Mathematics in medieval Islam">Arab mathematicians</a> were able to solve by purely algebraic means certain cubic equations, and then to interpret the results geometrically. This was done, for instance, by <a href="Ibn_al-Haytham" title="Ibn al-Haytham" class="mw-redirect">Ibn al-Haytham</a> in the 10th century AD.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Subsequently, <a href="Persian_people" title="Persian people">Persian</a> mathematician <a href="Omar_Khayy%C3%A1m" title="Omar Khayyám">Omar Khayyám</a> (born 1048 A.D.) discovered the general method of solving <a href="Cubic_equation" title="Cubic equation" class="mw-redirect">cubic equations</a> by intersecting a parabola with a circle.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> Each of these early developments in algebraic geometry dealt with questions of finding and describing the intersections of algebraic curves.</p>
+<p>Such techniques of applying geometrical constructions to algebraic problems were also adopted by a number of <a href="Renaissance" title="Renaissance">Renaissance</a> mathematicians such as <a href="Gerolamo_Cardano" title="Gerolamo Cardano">Gerolamo Cardano</a> and <a href="Niccol%C3%B2_Fontana_Tartaglia" title="Niccolò Fontana Tartaglia">Niccolò Fontana "Tartaglia"</a> on their studies of the cubic equation. The geometrical approach to construction problems, rather than the algebraic one, was favored by most 16th and 17th century mathematicians, notably <a href="Blaise_Pascal" title="Blaise Pascal">Blaise Pascal</a> who argued against the use of algebraic and analytical methods in geometry.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> The French mathematicians <a href="Franciscus_Vieta" title="Franciscus Vieta" class="mw-redirect">Franciscus Vieta</a> and later <a href="Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> and <a href="Pierre_de_Fermat" title="Pierre de Fermat">Pierre de Fermat</a> revolutionized the conventional way of thinking about construction problems through the introduction of <a href="Coordinate_geometry" title="Coordinate geometry" class="mw-redirect">coordinate geometry</a>. They were interested primarily in the properties of <i>algebraic curves</i>, such as those defined by <a href="Diophantine_equations" title="Diophantine equations" class="mw-redirect">Diophantine equations</a> (in the case of Fermat), and the algebraic reformulation of the classical Greek works on conics and cubics (in the case of Descartes).</p>
+<p>During the same period, Blaise Pascal and <a href="G%C3%A9rard_Desargues" title="Gérard Desargues">Gérard Desargues</a> approached geometry from a different perspective, developing the <a href="Synthetic_geometry" title="Synthetic geometry">synthetic</a> notions of <a href="Projective_geometry" title="Projective geometry">projective geometry</a>. Pascal and Desargues also studied curves, but from the purely geometrical point of view: the analog of the Greek <i>ruler and compass construction</i>. Ultimately, the <a href="Analytic_geometry" title="Analytic geometry">analytic geometry</a> of Descartes and Fermat won out, for it supplied the 18th century mathematicians with concrete quantitative tools needed to study physical problems using the new calculus of <a href="Isaac_Newton" title="Isaac Newton">Newton</a> and <a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a>. However, by the end of the 18th century, most of the algebraic character of coordinate geometry was subsumed by the <i>calculus of infinitesimals</i> of <a href="Joseph_Louis_Lagrange" title="Joseph Louis Lagrange">Lagrange</a> and <a href="Leonard_Euler" title="Leonard Euler" class="mw-redirect">Euler</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=16.php.html" title="Edit section: 19th and early 20th century">edit</a>]</span> <span class="mw-headline" id="19th_and_early_20th_century">19th and early 20th century</span></h3>
+<p>It took the simultaneous 19th century developments of <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean geometry</a> and <a href="Abelian_integral" title="Abelian integral">Abelian integrals</a> in order to bring the old algebraic ideas back into the geometrical fold. The first of these new developments was seized up by <a href="Edmond_Laguerre" title="Edmond Laguerre">Edmond Laguerre</a> and <a href="Arthur_Cayley" title="Arthur Cayley">Arthur Cayley</a>, who attempted to ascertain the generalized metric properties of projective space. Cayley introduced the idea of <i>homogeneous polynomial forms</i>, and more specifically <a href="Quadratic_form" title="Quadratic form">quadratic forms</a>, on projective space. Subsequently, <a href="Felix_Klein" title="Felix Klein">Felix Klein</a> studied projective geometry (along with other sorts of geometry) from the viewpoint that the geometry on a space is encoded in a certain class of <a href="Transformation_group" title="Transformation group" class="mw-redirect">transformations</a> on the space. By the end of the 19th century, projective geometers were studying more general kinds of transformations on figures in projective space. Rather than the projective linear transformations which were normally regarded as giving the fundamental <a href="Kleinian_geometry" title="Kleinian geometry" class="mw-redirect">Kleinian geometry</a> on projective space, they concerned themselves also with the higher degree <a href="Birational_transformation" title="Birational transformation" class="mw-redirect">birational transformations</a>. This weaker notion of congruence would later lead members of the 20th century <a href="Italian_school_of_algebraic_geometry" title="Italian school of algebraic geometry">Italian school of algebraic geometry</a> to classify <a href="Algebraic_surface" title="Algebraic surface">algebraic surfaces</a> up to <a href="Birational_isomorphism" title="Birational isomorphism" class="mw-redirect">birational isomorphism</a>.</p>
+<p>The second early 19th century development, that of Abelian integrals, would lead <a href="Bernhard_Riemann" title="Bernhard Riemann">Bernhard Riemann</a> to the development of <a href="Riemann_surface" title="Riemann surface">Riemann surfaces</a>.</p>
+<p>In the same period began the algebraization of the algebraic geometry through <a href="Commutative_algebra" title="Commutative algebra">commutative algebra</a>. The prominent results in this direction are <a href="David_Hilbert" title="David Hilbert">David Hilbert</a>'s <a href="Hilbert's_basis_theorem" title="Hilbert's basis theorem">basis theorem</a> and <a href="Nullstellensatz" title="Nullstellensatz" class="mw-redirect">Nullstellensatz</a>, which are the basis of the connexion between algebraic geometry and commutative algebra, and <a href="Francis_Sowerby_Macaulay" title="Francis Sowerby Macaulay">Francis Sowerby Macaulay</a>'s <a href="../../w/index-title=Multivariate_resultant&action=edit&redlink=1.php.html" class="new" title="Multivariate resultant (page does not exist)">multivariate resultant</a>, which is the basis of <a href="Elimination_theory" title="Elimination theory">elimination theory</a>. Probably because of the size of the computation which is implied by multivariate resultant, elimination theory has been forgotten during the middle of 20th century before to be renewed by <a href="Singularity_theory" title="Singularity theory">singularity theory</a> and computational algebraic geometry.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=17.php.html" title="Edit section: 20th century">edit</a>]</span> <span class="mw-headline" id="20th_century">20th century</span></h3>
+<p><a href="../B._L._van_der_Waerden" title="B. L. van der Waerden" class="mw-redirect">B. L. van der Waerden</a>, <a href="Oscar_Zariski" title="Oscar Zariski">Oscar Zariski</a> and <a href="Andr%C3%A9_Weil" title="André Weil">André Weil</a> developed a foundation for algebraic geometry based on contemporary <a href="Commutative_algebra" title="Commutative algebra">commutative algebra</a>, including <a href="Valuation_theory" title="Valuation theory" class="mw-redirect">valuation theory</a> and the theory of <a href="Ideal_(ring_theory)" title="Ideal (ring theory)">ideals</a>. One of the goals was to gives a rigorous framework for proving the results of <a href="Italian_school_of_algebraic_geometry" title="Italian school of algebraic geometry">Italian school of algebraic geometry</a>. In particular, this school used systematically the notion of <a href="Generic_point" title="Generic point">generic point</a> without any precise definition, which was first given by these authors during the 1930s.</p>
+<p>In the 1950s and 1960s <a href="Jean-Pierre_Serre" title="Jean-Pierre Serre">Jean-Pierre Serre</a> and <a href="Alexander_Grothendieck" title="Alexander Grothendieck">Alexander Grothendieck</a> recast the foundations making use of <a href="Sheaf_theory" title="Sheaf theory" class="mw-redirect">sheaf theory</a>. Later, from about 1960, and largely spearheaded by Grothendieck, the idea of <a href="Scheme_(mathematics)" title="Scheme (mathematics)">schemes</a> was worked out, in conjunction with a very refined apparatus of <a href="Homological_algebra" title="Homological algebra">homological techniques</a>. After a decade of rapid development the field stabilized in the 1970s, and new applications were made, both to <a href="Number_theory" title="Number theory">number theory</a> and to more classical geometric questions on algebraic varieties, <a href="Singularity_theory" title="Singularity theory">singularities</a> and <a href="Moduli_space" title="Moduli space">moduli</a>.</p>
+<p>An important class of varieties, not easily understood directly from their defining equations, are the <a href="Abelian_variety" title="Abelian variety">abelian varieties</a>, which are the projective varieties whose points form an abelian <a href="Group_(mathematics)" title="Group (mathematics)">group</a>. The prototypical examples are the <a href="Elliptic_curve" title="Elliptic curve">elliptic curves</a>, which have a rich theory. They were instrumental in the proof of <a href="Fermat's_last_theorem" title="Fermat's last theorem" class="mw-redirect">Fermat's last theorem</a> and are also used in <a href="Elliptic_curve_cryptography" title="Elliptic curve cryptography">elliptic curve cryptography</a>.</p>
+<p>In parallel with the abstract trend of the algebraic geometry, which is concerned with general statements about varieties, methods for effective computation with concretely-given varieties have also been developed, which lead to the new area of computational algebraic geometry. One of the founding methods of this area is the theory of <a href="Gr%C3%B6bner_basis" title="Gröbner basis">Gröbner bases</a>, introduced by <a href="Bruno_Buchberger" title="Bruno Buchberger">Bruno Buchberger</a> in 1965. Another founding method, more specially devoted to real algebraic geometry, is the <a href="Cylindrical_algebraic_decomposition" title="Cylindrical algebraic decomposition">cylindrical algebraic decomposition</a>, introduced by <a href="../../w/index-title=George_E._Collins&action=edit&redlink=1.php.html" class="new" title="George E. Collins (page does not exist)">George E. Collins</a> in 1973.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=18.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h2>
+<p>Algebraic geometry now finds application in <a href="Algebraic_statistics" title="Algebraic statistics">statistics</a>,<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> <a href="Control_theory" title="Control theory">control theory</a>,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> <sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> <a href="Robotics" title="Robotics">robotics</a>,<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> <a href="Algebraic_geometric_code" title="Algebraic geometric code" class="mw-redirect">error-correcting codes</a>,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> <a href="Computational_phylogenetics" title="Computational phylogenetics">phylogenetics</a><sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> and <a href="Geometric_modelling" title="Geometric modelling" class="mw-redirect">geometric modelling</a>.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> There are also connections to <a href="Homological_mirror_symmetry" title="Homological mirror symmetry">string theory</a>,<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> <a href="Game_theory" title="Game theory">game theory</a>,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> <a href="Matching_(graph_theory)" title="Matching (graph theory)">graph matchings</a>,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> <a href="Soliton" title="Soliton">solitons</a><sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> and <a href="Integer_programming" title="Integer programming">integer programming</a>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=19.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Algebraic_statistics" title="Algebraic statistics">Algebraic statistics</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">Differential geometry</a></li>
+<li><a href="Geometric_algebra" title="Geometric algebra">Geometric algebra</a></li>
+<li><a href="Glossary_of_archaic_terms_in_algebraic_geometry" title="Glossary of archaic terms in algebraic geometry" class="mw-redirect">Glossary of archaic terms in algebraic geometry</a></li>
+<li><a href="Intersection_theory" title="Intersection theory">Intersection theory</a></li>
+<li><a href="List_of_publications_in_mathematics#Algebraic_geometry" title="List of publications in mathematics" class="mw-redirect">Important publications in algebraic geometry</a></li>
+<li><a href="List_of_algebraic_surfaces" title="List of algebraic surfaces" class="mw-redirect">List of algebraic surfaces</a></li>
+<li><a href="Noncommutative_algebraic_geometry" title="Noncommutative algebraic geometry">Noncommutative algebraic geometry</a></li>
+<li><a href="Differential_algebraic_geometry" title="Differential algebraic geometry">Differential algebraic geometry</a></li>
+<li><a href="Real_algebraic_geometry" title="Real algebraic geometry">Real algebraic geometry</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=20.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Dieudonn.C3.A9-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-Dieudonn.C3.A9_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Dieudonn.C3.A9_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation Journal"><a href="Jean_Dieudonn%C3%A9" title="Jean Dieudonné">Dieudonné, Jean</a> (1972). "The historical development of algebraic geometry". <i>The American Mathematical Monthly</i> <b>79</b> (8): 827–866. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/2317664">10.2307/2317664</a>. <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/2317664">2317664</a>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Kline, M. (1972) <i>Mathematical Thought from Ancient to Modern Times</i> (Volume 1). Oxford University Press. pp. 108, 90.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Kline, M. (1972) <i>Mathematical Thought from Ancient to Modern Times</i> (Volume 1). Oxford University Press. p. 193.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Kline, M. (1972) <i>Mathematical Thought from Ancient to Modern Times</i> (Volume 1). Oxford University Press. pp. 193–195.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Kline, M. (1972) <i>Mathematical Thought from Ancient to Modern Times</i> (Volume 1). Oxford University Press. p. 279.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">A witness of this oblivion is the fact that <a href="Van_der_Waerden" title="Van der Waerden" class="mw-redirect">Van der Waerden</a> has removed the chapter on elimination theory from the third edition (and all the subsequent ones) if his treatise <i>Moderne algebra</i> (in German).</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Mathias Drton, Bernd Sturmfels, Seth Sullivant (2009), <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=TytYUTy5V_IC">Lectures on Algebraic Statistics</a> Springer, <a href="Special_BookSources/9783764389048" class="internal mw-magiclink-isbn">ISBN 978-3-7643-8904-8</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Peter L. Falb (1990), <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=oJGYPwAACAAJ&">Methods of algebraic geometry in control theory</a>, Birkhäuser, <a href="Special_BookSources/9783764334543" class="internal mw-magiclink-isbn">ISBN 978-3-7643-3454-3</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Allen Tannenbaum (1982), Invariance and Systems Theory: Algebraic and Geometric Aspects, Lecture Notes in Mathematics, volume 845, Springer-Verlag, ISBN13 9783540105657</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">J. M. Selig (205), <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=GUuzE0Wi10QC">Geometric fundamentals of robotics</a>, Springer, <a href="Special_BookSources/9780387208749" class="internal mw-magiclink-isbn">ISBN 978-0-387-20874-9</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Michael A. Tsfasman, Serge G. Vlăduț, Dmitry Nogin (2007), <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=o2sA-wzDBLkC">Algebraic geometric codes: basic notions</a>, AMS Bookstore, <a href="Special_BookSources/9780821843062" class="internal mw-magiclink-isbn">ISBN 978-0-8218-4306-2</a></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Barry A. Cipra (2007), <a rel="nofollow" class="external text" href="http://siam.org/pdf/news/1146.pdf">Algebraic Geometers See Ideal Approach to Biology</a>, SIAM News, Volume 40, Number 6</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Bert Jüttler, <a href="Ragni_Piene" title="Ragni Piene">Ragni Piene</a> (2007) <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=1wNGq87gWykC">Geometric modeling and algebraic geometry</a>, Springer, <a href="Special_BookSources/9783540721840" class="internal mw-magiclink-isbn">ISBN 978-3-540-72184-0</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">David A. Cox, Sheldon Katz (1999) <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=vwL4ZewC81MC">Mirror symmetry and algebraic geometry</a>, AMS Bookstore, <a href="Special_BookSources/9780821821275" class="internal mw-magiclink-isbn">ISBN 978-0-8218-2127-5</a></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation Journal">Blume, L. E.; Zame, W. R. (1994). <a rel="nofollow" class="external text" href="http://econwpa.wustl.edu/econ-wp/game/papers/9309/9309001.pdf">"The algebraic geometry of perfect and sequential equilibrium"</a>. <i><a href="Econometrica" title="Econometrica">Econometrica</a></i> <b>62</b> (4): 783–794. <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/2951732">2951732</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://econwpa.wustl.edu/econ-wp/game/papers/9309/9309001.pdf">http://econwpa.wustl.edu/econ-wp/game/papers/9309/9309001.pdf</a></span>.</span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation Journal">Richard Kenyon; Andrei Okounkov; Scott Sheffield (2003). "Dimers and Amoebae". <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/math-ph/0311005">math-ph/0311005</a>&#160;[<a rel="nofollow" class="external text" href="http://arxiv.org/archive/math-ph">math-ph</a>].</span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">IM Krichever and PG Grinevich, Algebraic geometry methods in soliton theory, Chapter 14 of <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=eO_PAAAAIAAJ">Soliton theory</a>, Allan P. Fordy, Manchester University Press ND, 1990, <a href="Special_BookSources/9780719014918" class="internal mw-magiclink-isbn">ISBN 978-0-7190-1491-8</a></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">David A. Cox, Bernd Sturmfels, Dinesh N. Manocha (1997 <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=fe0MJEPDwzAC">Applications of computational algebraic geometry</a>, AMS Bookstore, <a href="Special_BookSources/9780821807507" class="internal mw-magiclink-isbn">ISBN 978-0-8218-0750-7</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_geometry&action=edit&section=21.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<p>A classical textbook, predating schemes:</p>
+<ul>
+<li><span class="citation book"><a href="../W._V._D._Hodge" title="W. V. D. Hodge">W. V. D. Hodge</a>; <a href="Daniel_Pedoe" title="Daniel Pedoe">Daniel Pedoe</a> (1994). <i>Methods of Algebraic Geometry: Volume 1</i>. <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-46900-7" title="Special:BookSources/0-521-46900-7">0-521-46900-7</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0796.14001&format=complete">0796.14001</a>.</span></li>
+<li><span class="citation book"><a href="../W._V._D._Hodge" title="W. V. D. Hodge">W. V. D. Hodge</a>; <a href="Daniel_Pedoe" title="Daniel Pedoe">Daniel Pedoe</a> (1994). <i>Methods of Algebraic Geometry: Volume 2</i>. <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-46901-5" title="Special:BookSources/0-521-46901-5">0-521-46901-5</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0796.14002&format=complete">0796.14002</a>.</span></li>
+<li><span class="citation book"><a href="../W._V._D._Hodge" title="W. V. D. Hodge">W. V. D. Hodge</a>; <a href="Daniel_Pedoe" title="Daniel Pedoe">Daniel Pedoe</a> (1994). <i>Methods of Algebraic Geometry: Volume 3</i>. <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-46775-6" title="Special:BookSources/0-521-46775-6">0-521-46775-6</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0796.14003&format=complete">0796.14003</a>.</span></li>
+</ul>
+<p>Modern textbooks that do not use the language of schemes:</p>
+<ul>
+<li><span class="citation book"><a href="Phillip_Griffiths" title="Phillip Griffiths">Phillip Griffiths</a>; <a href="Joe_Harris_(mathematician)" title="Joe Harris (mathematician)">Joe Harris</a> (1994). <i>Principles of Algebraic Geometry</i>. <a href="Wiley-Interscience" title="Wiley-Interscience" class="mw-redirect">Wiley-Interscience</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-05059-8" title="Special:BookSources/0-471-05059-8">0-471-05059-8</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0836.14001&format=complete">0836.14001</a>.</span></li>
+<li><span class="citation book"><a href="Joe_Harris_(mathematician)" title="Joe Harris (mathematician)">Joe Harris</a> (1995). <i>Algebraic Geometry: A First Course</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-97716-3" title="Special:BookSources/0-387-97716-3">0-387-97716-3</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0779.14001&format=complete">0779.14001</a>.</span></li>
+<li><span class="citation book"><a href="David_Mumford" title="David Mumford">David Mumford</a> (1995). <i>Algebraic Geometry I: Complex Projective Varieties</i> (2nd ed.). <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-540-58657-1" title="Special:BookSources/3-540-58657-1">3-540-58657-1</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0821.14001&format=complete">0821.14001</a>.</span></li>
+<li><span class="citation book"><a href="Miles_Reid" title="Miles Reid">Miles Reid</a> (1988). <i>Undergraduate Algebraic Geometry</i>. <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-35662-8" title="Special:BookSources/0-521-35662-8">0-521-35662-8</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0701.14001&format=complete">0701.14001</a>.</span></li>
+<li><span class="citation book"><a href="Igor_Shafarevich" title="Igor Shafarevich">Igor Shafarevich</a> (1995). <i>Basic Algebraic Geometry I: Varieties in Projective Space</i> (2nd ed.). <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-54812-2" title="Special:BookSources/0-387-54812-2">0-387-54812-2</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0797.14001&format=complete">0797.14001</a>.</span></li>
+</ul>
+<p>Textbooks in computational algebraic geometry</p>
+<ul>
+<li><span class="citation book">David A. Cox; John Little, Donal O'Shea (1997). <i>Ideals, Varieties, and Algorithms</i> (second ed.). <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-94680-2" title="Special:BookSources/0-387-94680-2">0-387-94680-2</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0861.13012&format=complete">0861.13012</a>.</span></li>
+</ul>
+<ul>
+<li><span class="citation book">Saugata Basu; Richard Pollack, Marie-Françoise Roy (2006). <a rel="nofollow" class="external text" href="http://perso.univ-rennes1.fr/marie-francoise.roy/bpr-ed2-posted1.html"><i>Algorithms in real algebraic geometry</i></a>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://perso.univ-rennes1.fr/marie-francoise.roy/bpr-ed2-posted1.html">http://perso.univ-rennes1.fr/marie-francoise.roy/bpr-ed2-posted1.html</a></span>.</span></li>
+</ul>
+<ul>
+<li><span class="citation book">Laureano González-Vega, Tómas Recio (1996). <i>Algorithms in algebraic geometry and applications</i>. Birkhaüser.</span></li>
+</ul>
+<ul>
+<li><span class="citation book">Mohamed Elkadi, Bernard Mourrain, Ragni Piene (2006). <i>Algebraic geometry and geometric modeling</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>.</span></li>
+</ul>
+<ul>
+<li><span class="citation book">Alicia Dickenstein (2008). <i>Algorithms in algebraic geometry</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>.</span></li>
+</ul>
+<ul>
+<li><span class="citation book">David A. Cox, John B. Little, Donal O'Shea (1998). <i>Using algebraic geometry</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>.</span></li>
+</ul>
+<ul>
+<li><span class="citation book">Bob F. Caviness, Jeremy R. Johnson (1998). <i>Quantifier elimination and cylindrical algebraic decomposition</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>.</span></li>
+</ul>
+<p>Textbooks and references for schemes:</p>
+<ul>
+<li><span class="citation book"><a href="David_Eisenbud" title="David Eisenbud">David Eisenbud</a>; <a href="Joe_Harris_(mathematician)" title="Joe Harris (mathematician)">Joe Harris</a> (1998). <i>The Geometry of Schemes</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-98637-5" title="Special:BookSources/0-387-98637-5">0-387-98637-5</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0960.14002&format=complete">0960.14002</a>.</span></li>
+<li><span class="citation book"><a href="Alexander_Grothendieck" title="Alexander Grothendieck">Alexander Grothendieck</a> (1960). <i><a href="%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique" title="Éléments de géométrie algébrique">Éléments de géométrie algébrique</a></i>. <a href="Publications_Math%C3%A9matiques_de_l'IH%C3%89S" title="Publications Mathématiques de l'IHÉS">Publications Mathématiques de l'IHÉS</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0118.36206&format=complete">0118.36206</a>.</span></li>
+<li><span class="citation book"><a href="Alexander_Grothendieck" title="Alexander Grothendieck">Alexander Grothendieck</a> (1971). <i><a href="%C3%89l%C3%A9ments_de_g%C3%A9om%C3%A9trie_alg%C3%A9brique" title="Éléments de géométrie algébrique">Éléments de géométrie algébrique</a></i>. <b>1</b> (2nd ed.). <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-540-05113-9" title="Special:BookSources/3-540-05113-9">3-540-05113-9</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0203.23301&format=complete">0203.23301</a>.</span></li>
+<li><span class="citation book"><a href="Robin_Hartshorne" title="Robin Hartshorne">Robin Hartshorne</a> (1977). <i><a href="Hartshorne's_Algebraic_Geometry" title="Hartshorne's Algebraic Geometry" class="mw-redirect">Algebraic Geometry</a></i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-90244-9" title="Special:BookSources/0-387-90244-9">0-387-90244-9</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0367.14001&format=complete">0367.14001</a>.</span></li>
+<li><span class="citation book"><a href="David_Mumford" title="David Mumford">David Mumford</a> (1999). <i>The Red Book of Varieties and Schemes: Includes the Michigan Lectures (1974) on Curves and Their Jacobians</i> (2nd ed.). <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-540-63293-X" title="Special:BookSources/3-540-63293-X">3-540-63293-X</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0945.14001&format=complete">0945.14001</a>.</span></li>
+</ul>
+<ul>
+<li><span class="citation book"><a href="Igor_Shafarevich" title="Igor Shafarevich">Igor Shafarevich</a> (1995). <i>Basic Algebraic Geometry II: Schemes and complex manifolds.</i> (2nd ed.). <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-540-57554-5" title="Special:BookSources/3-540-57554-5">3-540-57554-5</a>. <a href="Zentralblatt_MATH" title="Zentralblatt MATH">Zbl</a>&#160;<a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0797.14002&format=complete">0797.14002</a>.</span></li>
+</ul>
+<p>On the Internet:</p>
+<ul>
+<li>Kevin R. Coombes: <a rel="nofollow" class="external text" href="http://odin.mdacc.tmc.edu/~krcoombes/agathos/index.html"><i>Algebraic Geometry: A Total Hypertext Online System</i></a>. In construction; currently of very limited use for self study.</li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/encyclopedia/AlgebraicGeometry.html"><i>Algebraic geometry</i></a> entry on <a rel="nofollow" class="external text" href="http://planetmath.org/">PlanetMath</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><strong class="selflink">algebraic</strong></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 16297/1000000
+Preprocessor generated node count: 52958/1500000
+Post-expand include size: 150519/2048000 bytes
+Template argument size: 73909/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1997-0!0!0!!en!4!* and timestamp 20130213122926 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Algebraic_geometry&oldid=538035919.php.html">http://en.wikipedia.org/w/index.php?title=Algebraic_geometry&amp;oldid=538035919</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Algebraic_geometry" title="Category:Algebraic geometry">Algebraic geometry</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_articles_that_are_too_technical_from_December_2011" title="Category:Wikipedia articles that are too technical from December 2011">Wikipedia articles that are too technical from December 2011</a></li><li><a href="Category_All_articles_that_are_too_technical" title="Category:All articles that are too technical">All articles that are too technical</a></li><li><a href="Category_Articles_needing_expert_attention_from_December_2011" title="Category:Articles needing expert attention from December 2011">Articles needing expert attention from December 2011</a></li><li><a href="Category_All_articles_needing_expert_attention" title="Category:All articles needing expert attention">All articles needing expert attention</a></li><li><a href="Category_Articles_needing_additional_references_from_February_2011" title="Category:Articles needing additional references from February 2011">Articles needing additional references from February 2011</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Algebraic+geometry&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Algebraic+geometry.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Algebraic_geometry"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Algebraic_geometry&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Algebraic_geometry&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Algebraic_geometry" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Algebraic_geometry" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Algebraic_geometry&oldid=538035919.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Algebraic_geometry&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Algebraic_geometry&id=538035919.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Algebraic+geometry.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Algebraic+geometry&oldid=538035919&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Algebraic_geometry&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%AC%D8%A8%D8%B1%D9%8A%D8%A9" title="هندسة جبرية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D1%96%D1%87%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%D1%8F" title="Алгебраічная геаметрыя" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D1%96%D1%87%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%B0%D0%BC%D1%8D%D1%82%D1%80%D1%8B%D1%8F" title="Альгебраічная геамэтрыя" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Алгебрична геометрия" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Mentoniezh_aljebrek" title="Mentoniezh aljebrek" lang="br" hreflang="br">Brezhoneg</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Geometria_algebraica" title="Geometria algebraica" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Algebraick%C3%A1_geometrie" title="Algebraická geometrie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Algebraische_Geometrie" title="Algebraische Geometrie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%91%CE%BB%CE%B3%CE%B5%CE%B2%CF%81%CE%B9%CE%BA%CE%AE_%CE%B3%CE%B5%CF%89%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1" title="Αλγεβρική γεωμετρία" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Geometr%C3%ADa_algebraica" title="Geometría algebraica" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Algebra_geometrio" title="Algebra geometrio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Geometria_aljebraiko" title="Geometria aljebraiko" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D9%87_%D8%AC%D8%A8%D8%B1%DB%8C" title="هندسه جبری" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_alg%C3%A9brique" title="Géométrie algébrique" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%8C%80%EC%88%98%EA%B8%B0%ED%95%98%ED%95%99" title="대수기하학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Algebarska_geometrija" title="Algebarska geometrija" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Geometri_aljabar" title="Geometri aljabar" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Geometria_algebrica" title="Geometria algebrica" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%92%D7%90%D7%95%D7%9E%D7%98%D7%A8%D7%99%D7%94_%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%99%D7%AA" title="גאומטריה אלגברית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9A%E1%83%92%E1%83%94%E1%83%91%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%92%E1%83%94%E1%83%9D%E1%83%9B%E1%83%94%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90" title="ალგებრული გეომეტრია" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%BB%D1%8B%D2%9B_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Алгебралық геометрия" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-ky"><a href="http://ky.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%BB%D1%8B%D0%BA_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Алгебралык геометрия" lang="ky" hreflang="ky">Кыргызча</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Geometri_Algebra" title="Geometri Algebra" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mn"><a href="http://mn.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%BB%D0%B8%D0%B3_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80" title="Алгебрлиг геометр" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Algebra%C3%AFsche_meetkunde" title="Algebraïsche meetkunde" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E4%BB%A3%E6%95%B0%E5%B9%BE%E4%BD%95%E5%AD%A6" title="代数幾何学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Algebraisk_geometri" title="Algebraisk geometri" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Algebraisk_geometri" title="Algebraisk geometri" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Geometria_algebraiczna" title="Geometria algebraiczna" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Geometria_alg%C3%A9brica" title="Geometria algébrica" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Geometrie_algebric%C4%83" title="Geometrie algebrică" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Алгебраическая геометрия" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/Giomitr%C3%ACa_alg%C3%A8bbrica" title="Giomitrìa algèbbrica" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Algebraick%C3%A1_geometria" title="Algebraická geometria" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D0%B0%D1%80%D1%81%D0%BA%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%98%D0%B0" title="Алгебарска геометрија" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Algebrallinen_geometria" title="Algebrallinen geometria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Algebraisk_geometri" title="Algebraisk geometri" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4_%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" title="இயற்கணித வடிவவியல்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Cebirsel_geometri" title="Cebirsel geometri" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%8F" title="Алгебрична геометрія" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E6%95%B0%E5%87%A0%E4%BD%95" title="代数几何" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 12:29.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Algebraic_geometry" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1059 in 0.128 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wireless Application Protocol - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Wireless_Application_Protocol&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Wireless_Application_Protocol&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Wireless_Application_Protocol","wgTitle":"Wireless Application Protocol","wgCurRevisionId":537752127,"wgArticleId":10174473,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with dead external links","Articles with dead external links from June 2011","Articles with weasel words from June 2010","Articles needing additional references from April 2011","All articles needing additional references","Articles needing additional references from November 2010","Articles with specifically marked weasel-worded phrases from October 2009","All articles that may contain original research","Articles that may contain original research from October 2009","All articles with unsourced statements","Articles with unsourced statements from August 2011","Articles with unsourced statements from May 2011","Articles with dead external links from March 2010","Articles with unsourced statements from October 2009","All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from June 2010","Articles containing potentially dated statements from 2009","All articles containing potentially dated statements","Open Mobile Alliance standards","Internet protocols","OSI protocols","Mobile telecommunications standards"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wireless_Application_Protocol","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"2df03d1a4c874e7133eef4e9c3adc9e9","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":10174473,"title":"Wireless Application Protocol","namespace":0,"categories":["All articles containing potentially dated statements","All articles needing additional references","All articles that may contain original research","All articles with dead external links","All articles with specifically marked weasel-worded phrases","All articles with unsourced statements","Articles containing potentially dated statements from 2009","Articles needing additional references from April 2011","Articles needing additional references from November 2010","Articles that may contain original research from October 2009","Articles with dead external links from June 2011","Articles with dead external links from March 2010","Articles with specifically marked weasel-worded phrases from June 2010","Articles with specifically marked weasel-worded phrases from October 2009","Articles with unsourced statements from August 2011","Articles with unsourced statements from May 2011","Articles with unsourced statements from October 2009","Articles with weasel words from June 2010","Internet protocols","Mobile telecommunications standards","OSI protocols","Open Mobile Alliance standards"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Wireless_Application_Protocol skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wireless Application Protocol</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Wireless_access_point" title="Wireless access point">Wireless access point</a>.</div>
+<table class="metadata plainlinks ambox ambox-content ambox-Weasel" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>contains <a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect">weasel words</a>: vague phrasing that often accompanies <a href="Wikipedia_Neutral_point_of_view" title="Wikipedia:Neutral point of view">biased</a> or <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">unverifiable</a> information</b>. <span class="hide-when-compact">Such statements should be <a href="Wikipedia_Avoid_weasel_words#Improving_weasel-worded_statements" title="Wikipedia:Avoid weasel words" class="mw-redirect">clarified or removed</a>.</span> <small><i>(June 2010)</i></small> </span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>needs additional citations for verification</b>. <span class="hide-when-compact">Relevant discussion may be found on the <a href="Talk_Wireless_Application_Protocol#yes" title="Talk:Wireless Application Protocol">talk page</a>. Please help <a class="external text" href="../../w/index-title=Wireless_Application_Protocol&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(April 2011)</i></small> </span></td>
+</tr>
+</table>
+<p><b>Wireless Application Protocol</b> (<b>WAP</b>) is a <a href="Technical_standard" title="Technical standard">technical standard</a> for accessing information over a mobile <a href="Wireless_network" title="Wireless network">wireless network</a>. A WAP browser is a <a href="Web_browser" title="Web browser">web browser</a> for <a href="Mobile_device" title="Mobile device">mobile devices</a> such as <a href="Mobile_phones" title="Mobile phones" class="mw-redirect">mobile phones</a> that uses the protocol.</p>
+<p>Before the introduction of WAP, mobile service providers had limited opportunities to offer interactive data services, but needed interactivity to support <a href="Internet" title="Internet">Internet</a> and <a href="WWW" title="WWW" class="mw-redirect">Web</a> applications such as:</p>
+<ul>
+<li><a href="Email" title="Email">Email</a> by mobile phone</li>
+<li>Tracking of stock-market prices</li>
+<li>Sports results</li>
+<li>News headlines</li>
+<li>Music downloads</li>
+</ul>
+<p>The Japanese <a href="I-mode" title="I-mode">i-mode</a> system offers another major competing wireless data protocol.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Technical_specifications"><span class="tocnumber">1</span> <span class="toctext">Technical specifications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Wireless_Application_Environment_.28WAE.29"><span class="tocnumber">1.1</span> <span class="toctext">Wireless Application Environment (WAE)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#WAP_Push"><span class="tocnumber">2.1</span> <span class="toctext">WAP Push</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#WAP_2.0"><span class="tocnumber">2.2</span> <span class="toctext">WAP 2.0</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Commercial_status"><span class="tocnumber">3</span> <span class="toctext">Commercial status</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Europe"><span class="tocnumber">3.1</span> <span class="toctext">Europe</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Asia"><span class="tocnumber">3.2</span> <span class="toctext">Asia</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#USA"><span class="tocnumber">3.3</span> <span class="toctext">USA</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Spin-off_technologies"><span class="tocnumber">3.4</span> <span class="toctext">Spin-off technologies</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Criticism"><span class="tocnumber">4</span> <span class="toctext">Criticism</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Protocol_design_lessons_from_WAP"><span class="tocnumber">5</span> <span class="toctext">Protocol design lessons from WAP</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=1.php.html" title="Edit section: Technical specifications">edit</a>]</span> <span class="mw-headline" id="Technical_specifications">Technical specifications</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-Unreferenced" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>does not <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">cite</a> any <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references or sources</a></b>. <span class="hide-when-compact">Please help improve this section by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be challenged and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(November 2010)</i></small> </span></td>
+</tr>
+</table>
+<table class="vertical-navbox nowraplinks" cellspacing="5" cellpadding="0" style="float:right;clear:right;width:auto;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;background-color:#ccccff"><a href="OSI_model" title="OSI model">The OSI model</a></th>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">7 <a href="Application_layer" title="Application layer">Application layer</a></th>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">6 <a href="Presentation_layer" title="Presentation layer">Presentation layer</a></th>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">5 <a href="Session_layer" title="Session layer">Session layer</a></th>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">4 <a href="Transport_layer" title="Transport layer">Transport layer</a></th>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">3 <a href="Network_layer" title="Network layer">Network layer</a></th>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">2 <a href="Data_link_layer" title="Data link layer">Data link layer</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em; text-align:left;">
+<ul>
+<li><a href="Logical_link_control" title="Logical link control">LLC sublayer</a></li>
+<li><a href="Media_access_control" title="Media access control">MAC sublayer</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;text-align:left;">1 <a href="Physical_layer" title="Physical layer">Physical layer</a></th>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_OSI_model" title="Template:OSI model"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_OSI_model" title="Template talk:OSI model"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_OSI_model&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>The WAP standard described a <a href="Protocol_suite" title="Protocol suite" class="mw-redirect">protocol suite</a> allowing the interoperability of WAP equipment and software with different network technologies, such as <a href="GSM" title="GSM">GSM</a> and <a href="IS-95" title="IS-95">IS-95</a> (also known as <a href="CDMA" title="CDMA" class="mw-redirect">CDMA</a>).</p>
+<table class="wikitable">
+<tr>
+<td>Wireless Application Environment (WAE)</td>
+<td rowspan="6">WAP protocol suite</td>
+</tr>
+<tr>
+<td>Wireless Session Protocol (WSP)</td>
+</tr>
+<tr>
+<td>Wireless Transaction Protocol (WTP)</td>
+</tr>
+<tr>
+<td>Wireless Transport Layer Security (WTLS)</td>
+</tr>
+<tr>
+<td>Wireless Datagram Protocol (WDP)</td>
+</tr>
+<tr>
+<td>*** Any Wireless Data Network ***</td>
+</tr>
+</table>
+<p>The bottom-most protocol in the suite, the <a href="WAP_Datagram_Protocol" title="WAP Datagram Protocol">WAP Datagram Protocol</a> (WDP), functions as an adaptation layer that makes every data network look a bit like <a href="User_Datagram_Protocol" title="User Datagram Protocol">UDP</a> to the upper layers by providing unreliable transport of data with two 16-bit port numbers (origin and destination). All the upper layers view WDP as one and the same protocol, which has several "technical realizations" on top of other "data bearers" such as <a href="SMS" title="SMS" class="mw-redirect">SMS</a>, <a href="USSD" title="USSD" class="mw-redirect">USSD</a>, etc. On native IP bearers such as <a href="GPRS" title="GPRS" class="mw-redirect">GPRS</a>, <a href="UMTS" title="UMTS" class="mw-redirect">UMTS</a> packet-radio service, or <a href="Point-to-Point_Protocol" title="Point-to-Point Protocol" class="mw-redirect">PPP</a> on top of a circuit-switched data connection, WDP is in fact exactly UDP.</p>
+<p><a href="Wireless_Transport_Layer_Security" title="Wireless Transport Layer Security">WTLS</a>, an optional layer, provides a <a href="Public-key_cryptography" title="Public-key cryptography">public-key cryptography</a>-based security mechanism similar to <a href="Transport_Layer_Security" title="Transport Layer Security">TLS</a>.</p>
+<p><a href="Wireless_transaction_protocol" title="Wireless transaction protocol">WTP</a> provides transaction support (reliable request/response) adapted to the wireless world. WTP supports more effectively than <a href="Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a> the problem of packet loss, which occurs commonly in 2G wireless technologies in most radio conditions, but is misinterpreted by TCP as network congestion.</p>
+<p>Finally, one can think of <a href="Wireless_Session_Protocol" title="Wireless Session Protocol">WSP</a> initially as a compressed version of <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a>.</p>
+<p>This protocol suite allows a terminal to transmit requests that have an <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a> or <a href="HTTPS" title="HTTPS" class="mw-redirect">HTTPS</a> equivalent to a <a href="WAP_gateway" title="WAP gateway">WAP gateway</a>; the gateway translates requests into plain HTTP.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=2.php.html" title="Edit section: Wireless Application Environment (WAE)">edit</a>]</span> <span class="mw-headline" id="Wireless_Application_Environment_.28WAE.29">Wireless Application Environment (WAE)</span></h3>
+<p>The WAE space defines application-specific markup languages.</p>
+<p>For WAP version 1.X, the primary language of the WAE is <a href="Wireless_Markup_Language" title="Wireless Markup Language">Wireless Markup Language</a> (WML). In WAP 2.0, the primary markup language is <a href="XHTML_Mobile_Profile" title="XHTML Mobile Profile">XHTML Mobile Profile</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=3.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>The <a href="WAP_Forum" title="WAP Forum" class="mw-redirect">WAP Forum</a> dates from 1997. It aimed primarily to bring together the various wireless technologies in a standardised protocol.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>In 2002 the WAP Forum was consolidated<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from October 2009">by whom?</span></a></i>]</sup> (along with many other forums of the industry) into <a href="Open_Mobile_Alliance" title="Open Mobile Alliance">Open Mobile Alliance</a> (OMA]).<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=4.php.html" title="Edit section: WAP Push">edit</a>]</span> <span class="mw-headline" id="WAP_Push">WAP Push</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:WAP_Push_Process.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/WAP_Push_Process.jpg/300px-WAP_Push_Process.jpg" width="300" height="225" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/WAP_Push_Process.jpg/450px-WAP_Push_Process.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f2/WAP_Push_Process.jpg/600px-WAP_Push_Process.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:WAP_Push_Process.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+WAP Push Process</div>
+</div>
+</div>
+<p>WAP Push was incorporated into the specification to allow WAP content to be pushed to the mobile handset with minimum user intervention. A WAP Push is basically a specially encoded message which includes a link to a WAP address.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>WAP Push was specified on top of <a href="WAP_Datagram_Protocol" title="WAP Datagram Protocol">WAP Datagram Protocol</a> (WDP); as such, it can be delivered over any WDP-supported bearer, such as GPRS or SMS.<sup id="cite_ref-wap_push_4-0" class="reference"><a href="#cite_note-wap_push-4"><span>[</span>4<span>]</span></a></sup> Most GSM networks have a wide range of modified processors, but GPRS activation from the network is not generally supported, so WAP Push messages have to be delivered on top of the SMS bearer.</p>
+<p>On receiving a WAP Push, a WAP 1.2 (or later) -enabled handset will automatically give the user the option to access the WAP content. This is also known as WAP Push SI (<a href="Service_Indication" title="Service Indication" class="mw-redirect">Service Indication</a>).<sup id="cite_ref-wap_push_4-1" class="reference"><a href="#cite_note-wap_push-4"><span>[</span>4<span>]</span></a></sup> A variant, known as WAP Push SL (<a href="Service_Loading" title="Service Loading" class="mw-redirect">Service Loading</a>), directly opens the browser to display the WAP content, without user interaction. Since this behaviour raises security concerns, some handsets handle WAP Push SL messages in the same way as SI, by providing user interaction.</p>
+<p>The network entity that processes WAP Pushes and delivers them over an IP or SMS Bearer is known as a <a href="Push_Proxy_Gateway" title="Push Proxy Gateway">Push Proxy Gateway</a> (PPG).<sup id="cite_ref-wap_push_4-2" class="reference"><a href="#cite_note-wap_push-4"><span>[</span>4<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=5.php.html" title="Edit section: WAP 2.0">edit</a>]</span> <span class="mw-headline" id="WAP_2.0">WAP 2.0</span></h3>
+<p>A re-engineered 2.0 version was released in 2002. It uses a cut-down version of <a href="XHTML" title="XHTML">XHTML</a> with end-to-end <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a>, dropping the gateway and custom protocol suite used to communicate with it. A WAP gateway can be used in conjunction with WAP 2.0; however, in this scenario, it is used as a standard proxy server. The WAP gateway's role would then shift from one of translation to adding additional information to each request. This would be configured by the operator and could include telephone numbers, location, billing information, and handset information.</p>
+<p>Mobile devices process <a href="XHTML_Mobile_Profile" title="XHTML Mobile Profile">XHTML Mobile Profile</a> (XHTML MP), the markup language defined in WAP 2.0. It is a subset of <a href="XHTML" title="XHTML">XHTML</a> and a superset of <a href="XHTML_Basic" title="XHTML Basic">XHTML Basic</a>. A version of cascading style sheets (<a href="Cascading_Style_Sheets" title="Cascading Style Sheets">CSS</a>) called WAP CSS is supported by XHTML MP.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=6.php.html" title="Edit section: Commercial status">edit</a>]</span> <span class="mw-headline" id="Commercial_status">Commercial status</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=7.php.html" title="Edit section: Europe">edit</a>]</span> <span class="mw-headline" id="Europe">Europe</span></h3>
+<p>Marketers <a href="Hyperbole" title="Hyperbole">hyped</a> WAP at the time of its introduction,<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> leading users to expect WAP to have the performance of fixed (non-mobile) <a href="Internet_access" title="Internet access">Internet access</a>. <a href="BT_Cellnet" title="BT Cellnet" class="mw-redirect">BT Cellnet</a>, one of the UK <a href="Telephone_company" title="Telephone company">telecoms</a>, ran an advertising campaign depicting a cartoon WAP user <i>surfing</i> through a <i><a href="Neuromancer" title="Neuromancer">Neuromancer</a></i>-like "information space".<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> In terms of speed, ease of use, appearance and interoperability, the reality fell far short of expectations when the first handsets became available in 1999.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> This led to the wide usage of sardonic phrases such as "Worthless Application Protocol",<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> "Wait And Pay",<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> and so on.</p>
+<p>Critics advanced several explanations for the early failure of WAP, possibly<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_No_original_research" title="Wikipedia:No original research"><span title="The material in the vicinity of this tag may be based upon unreliable original research from October 2009">original research?</span></a></i>]</sup> not realizing that it was a United Kingdom product which had to comply with the laws of European nations. An example is the requirement to utilize an <a href="ITU" title="ITU" class="mw-redirect">ITU</a> message-type that is specific to the French language with appropriate character conversions being deployed by the WAP message transmit-and-receive software.</p>
+<p>Between 2003 and 2004 WAP made a stronger resurgence with the introduction of wireless services (such as Vodafone Live!, T-Mobile T-Zones and other easily accessible services). Operator revenues were generated by transfer of GPRS and UMTS data, which is a different business model than that used by the traditional Web sites and <a href="ISP" title="ISP" class="mw-redirect">ISPs</a>. According to the Mobile Data Association, WAP traffic in the UK doubled from 2003 to 2004.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p>
+<p>As of 2012, WAP use has largely disappeared. All modern handsets support full HTML, and do not use any kind of WAP markup. The list of handsets supporting HTML is extensive, and includes all Android handsets, all Blackberry devices, all versions of the iPhone handset, all devices running Windows Phone, and many Nokia handsets. WAP has not been the mainstream technology for web on mobile for a number of years.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2011">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=8.php.html" title="Edit section: Asia">edit</a>]</span> <span class="mw-headline" id="Asia">Asia</span></h3>
+<p>Unlike in Europe, WAP has seen huge success in Japan. While the largest operator <a href="NTT_DoCoMo" title="NTT DoCoMo">NTT DoCoMo</a> has famously disdained WAP in favor of its in-house system <a href="I-mode" title="I-mode">i-mode</a>, rival operators <a href="KDDI" title="KDDI">KDDI</a> (<a href="Au_(mobile_phone_operator)" title="Au (mobile phone operator)" class="mw-redirect">au</a>) and <a href="SoftBank_Mobile" title="SoftBank Mobile">SoftBank Mobile</a> (previously <a href="Vodafone_Japan" title="Vodafone Japan" class="mw-redirect">Vodafone Japan</a>) have both successfully deployed WAP technology. In particular, J-Phone's <a href="Sha-Mail" title="Sha-Mail">Sha-Mail</a> picture mail and Java (<a href="JSCL" title="JSCL" class="mw-redirect">JSCL</a>) services<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from May 2011">citation needed</span></a></i>]</sup>, as well as (<a href="Au_(mobile_phone_operator)" title="Au (mobile phone operator)" class="mw-redirect">au</a>)'s chakuuta/chakumovie (ringtone song/ringtone movie) services are based on WAP. After being shadowed by the initial success of i-mode, the two smaller Japanese operators have been gaining market share from DoCoMo since Spring 2001.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=9.php.html" title="Edit section: USA">edit</a>]</span> <span class="mw-headline" id="USA">USA</span></h3>
+<p>The adoption of WAP in the <a href="United_States_of_America" title="United States of America" class="mw-redirect">US</a> suffered because many cell phone providers required separate activation and additional fees for data support, and also because telecommunications companies have sought to limit data access to only approved data providers operating under license of the signal carrier.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2011">citation needed</span></a></i>]</sup></p>
+<p>In recognition of the problem, the U.S. <a href="Federal_Communications_Commission" title="Federal Communications Commission">Federal Communications Commission</a> (FCC) issued an order on 31 July 2007 which mandated that licensees of the 22-megahertz wide "Upper 700 MHz C Block" spectrum will have to implement a wireless platform which allows customers, device manufacturers, third-party application developers, and others to use any device or application of their choice when operating on this particular licensed network band.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup><sup class="noprint Inline-Template"><span title="&#160;since March 2010" style="white-space: nowrap;">[<i><a href="Wikipedia_Link_rot" title="Wikipedia:Link rot">dead link</a></i>]</span></sup> <sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=10.php.html" title="Edit section: Spin-off technologies">edit</a>]</span> <span class="mw-headline" id="Spin-off_technologies">Spin-off technologies</span></h3>
+<p>Spin-off technologies, such as <a href="Multimedia_Messaging_Service" title="Multimedia Messaging Service">Multimedia Messaging Service</a> (MMS), a combination of WAP and SMS, have further driven the protocol. An enhanced appreciation of device diversity, supported by the concomitant changes to WAP content to become more device-specific rather aiming at a lowest common denominator, allowed for more usable and compelling content. As a result, the adoption rate of WAP technology is rising.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2009">citation needed</span></a></i>]</sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=11.php.html" title="Edit section: Criticism">edit</a>]</span> <span class="mw-headline" id="Criticism">Criticism</span></h2>
+<p>Commentators have criticized several aspects of <a href="Wireless_Markup_Language" title="Wireless Markup Language">Wireless Markup Language</a> (WML) and WAP. Technical criticisms include:</p>
+<ul>
+<li>The <a href="Idiosyncrasy" title="Idiosyncrasy">idiosyncratic</a> WML language: WML cut users off from the conventional <a href="HTML" title="HTML">HTML</a> Web, leaving only native WAP content and Web-to-WAP proxi-content available to WAP users. However, others argue<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from June 2010">who?</span></a></i>]</sup> that technology at that stage would simply not have been able to give access to anything but custom-designed content which was the sole purpose of WAP and its simple, reduced complexity interface as the citizens of many nations are not connected to the web at the present time and have to use government funded and controlled portals to WAP and similar non-complex services.</li>
+<li>Under-specification of terminal requirements: The early WAP standards included many optional features and under-specified requirements, which meant that compliant devices would not necessarily interoperate properly. This resulted in great variability in the actual behavior of phones, principally because WAP-service implementers and mobile-phone manufacturers did not<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2009">citation needed</span></a></i>]</sup> obtain a copy of the standards or the correct hardware and the standard software modules. As an example, some phone models would not accept a page more than 1 Kb in size; others would downright crash. The user interface of devices was also underspecified: as an example, accesskeys (e.g., the ability to press '4' to access directly the fourth link in a list) were variously implemented depending on phone models (sometimes with the accesskey number automatically displayed by the browser next to the link, sometimes without it, and sometimes accesskeys were not implemented at all).</li>
+<li>Constrained user interface capabilities: Terminals with small black-and-white screens and few buttons, like the early WAP terminals, face difficulties in presenting a lot of information to their user, which compounded the other problems: one would have had to be extra careful in designing the user interface on such a resource-constrained device which was the real concept of WAP.</li>
+<li>Lack of good authoring tools: The problems above might have succumbed in the face of a WML authoring tool that would have allowed content providers to easily publish content that would interoperate flawlessly with many models, adapting the pages presented to the <a href="User-Agent" title="User-Agent" class="mw-redirect">User-Agent</a> type. However, the development kits which existed did not provide such a general capability. Developing for the web was easy: with a text editor and a web browser, anybody could get started, thanks also to the forgiving nature of most desktop browser rendering engines. By contrast, the stringent requirements of the WML specifications, the variability in terminals, and the demands of testing on various wireless terminals, along with the lack of widely available desktop authoring and emulation tools, considerably lengthened the time required to complete most projects. As of 2009<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=Wireless_Application_Protocol&action=edit.php.html">[update]</a></sup>, however, with many mobile devices supporting XHTML, and programs such as Adobe Go Live and Dreamweaver offering improved web-authoring tools, it is becoming easier to create content, accessible by many new devices.</li>
+<li>Lack of user agent profiling tools: It quickly became nearly impossible for web hosts to determine if a request came from a mobile device, or from a larger more capable device. No useful profiling or database of device capabilities were built into the specifications in the unauthorized non-compliant products.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2011">citation needed</span></a></i>]</sup></li>
+</ul>
+<p>Other criticisms address the wireless carriers' particular implementations of WAP:</p>
+<ul>
+<li>Neglect of content providers: Some wireless carriers had assumed a "build it and they will come" strategy, meaning that they would just provide the transport of data as well as the terminals, and then wait for content providers to publish their services on the Internet and make their investment in WAP useful. However, content providers received little help or incentive to go through the complicated route of development. Others, notably in Japan (cf. below), had a more thorough dialogue with their content-provider community, which was then replicated in modern, more successful WAP services such as <a href="I-mode" title="I-mode">i-mode</a> in Japan or the <a rel="nofollow" class="external text" href="http://www.gallery.fr/">Gallery</a> service in France.</li>
+<li>Lack of openness: Many wireless carriers sold their WAP services as "open", in that they allowed users to reach any service expressed in WML and published on the Internet. However, they also made sure that the first page that clients accessed was their own "wireless portal", which they controlled very closely. Some carriers also turned off editing or accessing the address bar in the device's browser. To facilitate users wanting to go off deck, an address bar on a <a href="Form_(web)" title="Form (web)" class="mw-redirect">form</a> on a page linked off the hard coded home page page was provided. It makes it easier for carriers to implement filtering of off deck WML sites by URLs or to disable the address bar in the future if the carrier decides to switch all users to a walled garden model. Given the difficulty in typing up fully qualified <a href="Uniform_Resource_Locator" title="Uniform Resource Locator" class="mw-redirect">URLs</a> on a phone keyboard, most users would give up going "off portal" or out of the <a href="Walled_garden_(media)" title="Walled garden (media)" class="mw-redirect">walled garden</a>; by not letting third parties put their own entries on the operators' wireless portal, some<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from October 2009">who?</span></a></i>]</sup> contend that operators cut themselves off from a valuable opportunity. On the other hand, some operators<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from October 2009">which?</span></a></i>]</sup> argue that their customers would have wanted them to manage the experience and, on such a constrained device, avoid giving access to too many services.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2011">citation needed</span></a></i>]</sup></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=12.php.html" title="Edit section: Protocol design lessons from WAP">edit</a>]</span> <span class="mw-headline" id="Protocol_design_lessons_from_WAP">Protocol design lessons from WAP</span></h2>
+<p>The original WAP model provided a simple platform for access to web-like WML services and e-mail using mobile phones in Europe and the SE Asian regions. As of 2009<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=Wireless_Application_Protocol&action=edit.php.html">[update]</a></sup> it continues with a considerable user base. The later versions of WAP, primarily targeting the United States market, were designed<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from October 2009">by whom?</span></a></i>]</sup> for a different requirement - to enable full web XHTML access using mobile devices with a higher specification and cost, and with a higher degree of software complexity.</p>
+<p>Considerable discussion has addressed the question whether the WAP protocol design was appropriate. Some<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from June 2010">who?</span></a></i>]</sup> have suggested that the bandwidth-sparing simple interface of <a href="Gopher_(protocol)" title="Gopher (protocol)">Gopher</a> would be a better match for mobile phones and Personal digital assistants (PDAs).<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></p>
+<p>The initial design of WAP specifically aimed at protocol independence across a range of different protocols (SMS, IP over <a href="Point-to-Point_Protocol" title="Point-to-Point Protocol" class="mw-redirect">PPP</a> over a circuit switched bearer, IP over GPRS, etc.). This has led to a protocol considerably more complex than an approach directly over IP might have caused.</p>
+<p>Most controversial, especially for many from the IP side, was the design of WAP over IP. WAP's transmission layer protocol, WTP, uses its own retransmission mechanisms over <a href="User_Datagram_Protocol" title="User Datagram Protocol">UDP</a> to attempt to solve the problem of the inadequacy of TCP over high-packet-loss networks.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2011">citation needed</span></a></i>]</sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=13.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href=".mobi" title=".mobi">.mobi</a></li>
+<li><a href="I-mode" title="I-mode">i-mode</a></li>
+<li><a href="Microbrowser" title="Microbrowser" class="mw-redirect">Microbrowser</a></li>
+<li><a href="Mobile_development" title="Mobile development" class="mw-redirect">Mobile development</a></li>
+<li><a href="Mobile_web" title="Mobile web" class="mw-redirect">Mobile web</a></li>
+<li><a href="RuBee" title="RuBee">RuBee</a></li>
+<li><a href="WAP_Identity_Module" title="WAP Identity Module">WAP Identity Module</a></li>
+<li><a href="Wireless_Internet_Protocol" title="Wireless Internet Protocol">Wireless Internet Protocol</a></li>
+<li><a href="Wireless_transaction_protocol" title="Wireless transaction protocol">Wireless transaction protocol</a></li>
+<li><a href="WURFL" title="WURFL">WURFL</a></li>
+<li><a href="Wikipedia_WAP_access" title="Wikipedia:WAP access" class="mw-redirect">Wikipedia access via WAP</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=14.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://inspiredbloggers.blogspot.com/2004/12/brief-history-of-wap_110252445307049372.html">"A brief History of WAP"</a>. <i>HCI blog</i>. December 8, 2004<span class="printonly">. <a rel="nofollow" class="external free" href="http://inspiredbloggers.blogspot.com/2004/12/brief-history-of-wap_110252445307049372.html">http://inspiredbloggers.blogspot.com/2004/12/brief-history-of-wap_110252445307049372.html</a></span><span class="reference-accessdate">. Retrieved August 5, 2011</span>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.openmobilealliance.org/AboutOMA/FAQ.aspx">OMA: Frequently Asked Questions</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.mxtelecom.com/uk/mmsg/wap">MX Telecom: WAP Push</a></span></li>
+<li id="cite_note-wap_push-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-wap_push_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-wap_push_4-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-wap_push_4-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://developer.openwave.com/docs/wappush_tech_overview.pdf">Openwave: WAP Push Technology Overview</a><sup class="noprint Inline-Template"><span title="&#160;since June 2011" style="white-space: nowrap;">[<i><a href="Wikipedia_Link_rot" title="Wikipedia:Link rot">dead link</a></i>]</span></sup></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.computing.co.uk/vnunet/analysis/2131787/wap-call-unanswered">Will Wap's call go unanswered?</a> vnunet.com, 2 June 2000</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://networks.silicon.com/mobile/0,39024665,11020593,00.htm">Silicon.com: BT Cellnet rapped over 'misleading' WAP ads</a> Published 3 November 2000, retrieved 17 September 2008</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://press.nokia.com/PR/199902/777256_5.html">http://press.nokia.com/PR/199902/777256_5.html</a> Nokia 7110 Press Release</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.filibeto.org/mobile/firmware.html">http://www.filibeto.org/mobile/firmware.html</a> Nokia 7110 first public firmware revision date</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.theglobeandmail.com/servlet/story/RTGAM.20050915.gtsripbutters15/BNStory/Technology/Troubleshooter">The Globe and Mail: "Survivor's guide to wireless wonkery", 23 September 2005</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.itweb.co.za/sections/interviews/sammichel/michel001114.asp">IT Web: "A RIVR runs through it", 14 November 2000</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.builderau.com.au/news/soa/UK-WAP-usage-doubles-in-12-months/0,339028227,339130400,00.htm">Builder.au 2004/08/10: UK WAP usage doubles in 12 months</a></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.icmrindia.org/business%20Updates/micro%20casestudies/Business%20Strategy/MCBS0031.htm">IMCR: NTT DoCoMo Inc.: Leadership Position in Japanese Mobile Market under Threat?</a> Retrieved 17 September 2008</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">U.S. Federal Communications Commission.<a rel="nofollow" class="external text" href="http://www.fcc.gov/073107/700mhz_news_release_073107.pdf">"FCC Revises 700 MHz Rules To Advance Interoperable Public Safety Communications And Promote Wireless Broadband Deployment"</a>, July 31, 2007. Accessed October 8, 2007.</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Alternate link to <a rel="nofollow" class="external text" href="http://www.govtech.com/gt/128168">"FCC Revises 700 MHz Rules To Advance Interoperable Public Safety Communications And Promote Wireless Broadband Deployment"</a></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.wired.com/news/technology/0,1282,62988,00.html">Wired News: Gopher: Underground Technology</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Wireless_Application_Protocol&action=edit&section=15.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.openmobilealliance.org/">Open Mobile Alliance</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.openmobilealliance.org/Technical/wapindex.aspx">OMA – Wireless Application Protocol Downloads</a> (specification documents in PDF format)</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mobile_phones" title="Template:Mobile phones"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mobile_phones" title="Template talk:Mobile phones"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mobile_phones&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Mobile_phone" title="Mobile phone">Mobile phones</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Mobile_phone_features" title="Mobile phone features">Features</a></li>
+<li><a href="History_of_mobile_phones" title="History of mobile phones">History</a></li>
+<li><a href="GSM" title="GSM">GSM</a></li>
+<li><a href="Mobile_operating_system" title="Mobile operating system">OS</a></li>
+<li><a href="Mobile_security" title="Mobile security">Security</a></li>
+<li><a href="GSM_services" title="GSM services">Services</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Applications</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Airplane_mode" title="Airplane mode">Airplane mode</a></li>
+<li><a href="Mobile_application_development" title="Mobile application development">Application development</a></li>
+<li><a href="List_of_mobile_software_distribution_platforms" title="List of mobile software distribution platforms">Application distribution</a></li>
+<li><a href="Mobile_banking" title="Mobile banking">Banking</a></li>
+<li><a href="Mobile_blogging" title="Mobile blogging">Blogging</a></li>
+<li><a href="Mobile_commerce" title="Mobile commerce">Commerce</a></li>
+<li><a href="Mobile_content" title="Mobile content">Content</a></li>
+<li><a href="Mobile_gambling" title="Mobile gambling">Gambling</a></li>
+<li><a href="Mobile_game" title="Mobile game">Gaming</a></li>
+<li><a href="MHealth" title="MHealth">Health</a></li>
+<li><a href="Mobile_instant_messaging" title="Mobile instant messaging">Instant messaging</a></li>
+<li><a href="MLearning" title="MLearning">Learning</a></li>
+<li><a href="Mobile_local_search" title="Mobile local search">Local search</a></li>
+<li><a href="Mobile_phone_tracking" title="Mobile phone tracking">Location tracking</a></li>
+<li><a href="Telephone_tapping" title="Telephone tapping">Telephone tapping</a></li>
+<li><a href="Mobile_marketing" title="Mobile marketing">Marketing</a></li>
+<li><a href="Multimedia_Messaging_Service" title="Multimedia Messaging Service">MMS</a></li>
+<li><a href="Mobile_music" title="Mobile music">Music</a></li>
+<li><a href="Mobile_news" title="Mobile news">News</a></li>
+<li><a href="Mobile_payment" title="Mobile payment">Payment</a></li>
+<li><a href="Mobile_content" title="Mobile content">Publishing</a></li>
+<li><a href="Push_email" title="Push email">Push email</a></li>
+<li><a href="Android_rooting" title="Android rooting">Rooting</a></li>
+<li><a href="SMS" title="SMS" class="mw-redirect">SMS</a></li>
+<li><a href="Mobile_telephony" title="Mobile telephony">Telephony</a></li>
+<li><a href="Text_messaging" title="Text messaging">Text messaging</a></li>
+<li><a href="Mobile_ticketing" title="Mobile ticketing">Ticketing</a></li>
+<li><a href="Mobile_Web" title="Mobile Web">Web</a></li>
+<li><a href="Mobile_cloud_computing" title="Mobile cloud computing">Cloud computing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Category_Mobile_phone_culture" title="Category:Mobile phone culture">Culture</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Mobile_phone_charm" title="Mobile phone charm">Charms</a></li>
+<li><a href="Mobile_comic" title="Mobile comic">Comics</a></li>
+<li><a href="Mobile_dating" title="Mobile dating">Dating</a></li>
+<li><a href="Japanese_mobile_phone_culture" title="Japanese mobile phone culture">Japanese mobile phone culture</a></li>
+<li><a href="Cell_phone_novel" title="Cell phone novel">Novels</a></li>
+<li><a href="Ringtone" title="Ringtone">Ringtones</a></li>
+<li><a href="SMS_language" title="SMS language">Txtspk</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Mobile_device" title="Mobile device">Devices</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="IOS_Jailbreaking" title="IOS Jailbreaking" class="mw-redirect">iOS Jailbreaking</a>
+<ul>
+<li><a href="IOS" title="IOS">iOS</a></li>
+<li><a href="IPhone" title="IPhone">iPhone</a></li>
+<li><a href="IPhone_3G" title="IPhone 3G">iPhone 3G</a></li>
+<li><a href="IPhone_3GS" title="IPhone 3GS">iPhone 3GS</a></li>
+<li><a href="IPhone_4" title="IPhone 4">iPhone 4</a></li>
+<li><a href="IPhone_4S" title="IPhone 4S">iPhone 4S</a></li>
+<li><a href="IPhone_5" title="IPhone 5">iPhone 5</a></li>
+</ul>
+</li>
+<li><a href="Rooting_(Android_OS)" title="Rooting (Android OS)" class="mw-redirect">Rooting</a>
+<ul>
+<li><a href="Nexus_S" title="Nexus S">Nexus S</a></li>
+<li><a href="Nexus_One" title="Nexus One">Nexus One</a></li>
+<li><a href="HTC_Dream" title="HTC Dream">HTC Dream</a></li>
+<li>See also <a href="Replicant_(operating_system)" title="Replicant (operating system)">Replicant (OS)</a></li>
+</ul>
+</li>
+<li><a href="List_of_open_source_mobile_phones" title="List of open source mobile phones">List of open source mobile phones</a></li>
+<li><a href="Smartphone#Market_share" title="Smartphone">Smartphone market share</a></li>
+<li><a href="Comparison_of_Android_devices" title="Comparison of Android devices">Comparison of Android devices</a></li>
+<li><a href="Comparison_of_smartphones" title="Comparison of smartphones">Comparison of smartphones</a></li>
+<li><a href="Category_Mobile_phone_manufacturers" title="Category:Mobile phone manufacturers">Manufacturers</a></li>
+<li><a href="Camera_phone" title="Camera phone">Camera phone</a></li>
+<li><a href="Feature_phone" title="Feature phone">Feature phone</a></li>
+<li><a href="Mobile_phone_form_factor" title="Mobile phone form factor">Form factors</a> (<a href="Flip_(form)" title="Flip (form)">Flip</a>)</li>
+<li><a href="Smartphone" title="Smartphone">Smartphone</a></li>
+<li><a href="List_of_Windows_Phone_devices" title="List of Windows Phone devices">List of Windows Phone devices</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Environmental health</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="BlackBerry_thumb" title="BlackBerry thumb">BlackBerry thumb</a></li>
+<li><a href="Electronic_waste" title="Electronic waste">Electronic waste</a></li>
+<li><a href="Phantom_ringing" title="Phantom ringing" class="mw-redirect">Phantom ringing</a></li>
+<li><a href="Mobile_phone_radiation_and_health" title="Mobile phone radiation and health">Radiation and health</a></li>
+<li><a href="Mobile_phone_recycling" title="Mobile phone recycling">Recycling</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Law</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Carrier_IQ" title="Carrier IQ">Carrier IQ</a></li>
+<li><a href="Mobile_phones_and_driving_safety" title="Mobile phones and driving safety">Driving safety</a></li>
+<li><a href="Legality_of_recording_by_civilians" title="Legality of recording by civilians">Legality of recording by civilians</a></li>
+<li><a href="Photography_and_the_law" title="Photography and the law">Photography and the law</a></li>
+<li><a href="Texting_while_driving" title="Texting while driving">Texting while driving</a></li>
+<li><a href="Mobile_phones_in_prison" title="Mobile phones in prison">Mobile phones in prison</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Networking</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Channel_capacity" title="Channel capacity">Channel capacity</a></li>
+<li><a href="Cellular_frequencies" title="Cellular frequencies">Frequencies</a></li>
+<li><a href="List_of_mobile_network_operators" title="List of mobile network operators">Network operators</a></li>
+<li><a href="Mobile_phone_signal" title="Mobile phone signal">Signal</a></li>
+<li><a href="Subscriber_identity_module" title="Subscriber identity module">SIM</a></li>
+<li><a href="Comparison_of_mobile_phone_standards" title="Comparison of mobile phone standards">Standards comparison</a></li>
+<li><a href="Mobile_VoIP" title="Mobile VoIP">VoIP</a></li>
+<li><strong class="selflink">WAP</strong></li>
+<li><a href="XHTML_Mobile_Profile" title="XHTML Mobile Profile">XHTML-MP</a></li>
+</ul>
+<ul>
+<li>Generations: <a href="Mobile_radio_telephone" title="Mobile radio telephone">0G</a></li>
+<li><a href="1G" title="1G">1G</a></li>
+<li><a href="2G" title="2G">2G</a></li>
+<li><a href="3G" title="3G">3G</a></li>
+<li><a href="4G" title="4G">4G</a></li>
+<li><a href="5G" title="5G">5G</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Open_Mobile_Alliance_standards" title="Template:Open Mobile Alliance standards"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Open_Mobile_Alliance_standards" title="Template talk:Open Mobile Alliance standards"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Open_Mobile_Alliance_standards&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Standards of <a href="Open_Mobile_Alliance" title="Open Mobile Alliance">Open Mobile Alliance</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standards</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="FUMO" title="FUMO">FUMO</a></li>
+<li><a href="Multimedia_Messaging_Service" title="Multimedia Messaging Service">MMS</a></li>
+<li><a href="OMA_BCAST" title="OMA BCAST">OMA BCAST</a></li>
+<li><a href="OMA_Client_Provisioning" title="OMA Client Provisioning">OMA CP</a></li>
+<li><a href="OMA_Device_Management" title="OMA Device Management">OMA DM</a></li>
+<li><a href="OMA_DRM" title="OMA DRM">OMA DRM</a></li>
+<li><a href="../../w/index-title=OMA_Data_Synchronization&action=edit&redlink=1.php.html" class="new" title="OMA Data Synchronization (page does not exist)">OMA DS</a></li>
+<li><a href="OMA_Instant_Messaging_and_Presence_Service" title="OMA Instant Messaging and Presence Service">OMA IMPS</a> / <a href="Wireless_Village" title="Wireless Village">Wireless Village</a></li>
+<li><a href="../../w/index-title=OMA_PoC&action=edit&redlink=1.php.html" class="new" title="OMA PoC (page does not exist)">OMA PoC</a></li>
+<li><a href="OMA_Presence_SIMPLE" title="OMA Presence SIMPLE">OMA Presence SIMPLE</a></li>
+<li><a href="OMA_Service_Environment" title="OMA Service Environment">OMA SE</a></li>
+<li><a href="../../w/index-title=OMA_SIMPLE_IM&action=edit&redlink=1.php.html" class="new" title="OMA SIMPLE IM (page does not exist)">OMA SIMPLE IM</a></li>
+<li><strong class="selflink">WAP</strong></li>
+<li><a href="Wireless_Application_Protocol_Bitmap_Format" title="Wireless Application Protocol Bitmap Format">WBMP</a></li>
+<li><a href="WBXML" title="WBXML">WBXML</a></li>
+<li><a href="Wireless_Markup_Language" title="Wireless Markup Language">WML</a></li>
+<li><a href="WMLScript" title="WMLScript">WMLScript</a></li>
+<li><a href="Wireless_Session_Protocol" title="Wireless Session Protocol">WSP</a></li>
+<li><a href="Wireless_transaction_protocol" title="Wireless transaction protocol">WTP</a></li>
+<li><a href="XHTML_Mobile_Profile" title="XHTML Mobile Profile">XHTML Mobile Profile</a></li>
+<li><a href="Mobile_Location_Protocol" title="Mobile Location Protocol">MLP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Draft standards</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="SCOMO" title="SCOMO">SCOMO</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><span class="citation foldoc">This article is based on material taken from the <a href="Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a> prior to 1 November 2008 and incorporated under the "relicensing" terms of the <a href="GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a>, version 1.3 or later.</span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 9627/1000000
+Preprocessor generated node count: 32815/1500000
+Post-expand include size: 114537/2048000 bytes
+Template argument size: 42880/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 23/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:10174473-0!*!0!!en!4!* and timestamp 20130213124508 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wireless_Application_Protocol&oldid=537752127.php.html">http://en.wikipedia.org/w/index.php?title=Wireless_Application_Protocol&amp;oldid=537752127</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Open_Mobile_Alliance_standards" title="Category:Open Mobile Alliance standards">Open Mobile Alliance standards</a></li><li><a href="Category_Internet_protocols" title="Category:Internet protocols">Internet protocols</a></li><li><a href="Category_OSI_protocols" title="Category:OSI protocols">OSI protocols</a></li><li><a href="Category_Mobile_telecommunications_standards" title="Category:Mobile telecommunications standards">Mobile telecommunications standards</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_dead_external_links" title="Category:All articles with dead external links">All articles with dead external links</a></li><li><a href="Category_Articles_with_dead_external_links_from_June_2011" title="Category:Articles with dead external links from June 2011">Articles with dead external links from June 2011</a></li><li><a href="Category_Articles_with_weasel_words_from_June_2010" title="Category:Articles with weasel words from June 2010">Articles with weasel words from June 2010</a></li><li><a href="Category_Articles_needing_additional_references_from_April_2011" title="Category:Articles needing additional references from April 2011">Articles needing additional references from April 2011</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_Articles_needing_additional_references_from_November_2010" title="Category:Articles needing additional references from November 2010">Articles needing additional references from November 2010</a></li><li><a href="Category_Articles_with_specifically_marked_weasel-worded_phrases_from_October_2009" title="Category:Articles with specifically marked weasel-worded phrases from October 2009">Articles with specifically marked weasel-worded phrases from October 2009</a></li><li><a href="Category_All_articles_that_may_contain_original_research" title="Category:All articles that may contain original research">All articles that may contain original research</a></li><li><a href="Category_Articles_that_may_contain_original_research_from_October_2009" title="Category:Articles that may contain original research from October 2009">Articles that may contain original research from October 2009</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_August_2011" title="Category:Articles with unsourced statements from August 2011">Articles with unsourced statements from August 2011</a></li><li><a href="Category_Articles_with_unsourced_statements_from_May_2011" title="Category:Articles with unsourced statements from May 2011">Articles with unsourced statements from May 2011</a></li><li><a href="Category_Articles_with_dead_external_links_from_March_2010" title="Category:Articles with dead external links from March 2010">Articles with dead external links from March 2010</a></li><li><a href="Category_Articles_with_unsourced_statements_from_October_2009" title="Category:Articles with unsourced statements from October 2009">Articles with unsourced statements from October 2009</a></li><li><a href="Category_All_articles_with_specifically_marked_weasel-worded_phrases" title="Category:All articles with specifically marked weasel-worded phrases">All articles with specifically marked weasel-worded phrases</a></li><li><a href="Category_Articles_with_specifically_marked_weasel-worded_phrases_from_June_2010" title="Category:Articles with specifically marked weasel-worded phrases from June 2010">Articles with specifically marked weasel-worded phrases from June 2010</a></li><li><a href="Category_Articles_containing_potentially_dated_statements_from_2009" title="Category:Articles containing potentially dated statements from 2009">Articles containing potentially dated statements from 2009</a></li><li><a href="Category_All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wireless+Application+Protocol&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wireless+Application+Protocol.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Wireless_Application_Protocol"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Wireless_Application_Protocol&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wireless_Application_Protocol&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wireless_Application_Protocol" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wireless_Application_Protocol" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wireless_Application_Protocol&oldid=537752127.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wireless_Application_Protocol&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Wireless_Application_Protocol&id=537752127.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wireless+Application+Protocol.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wireless+Application+Protocol&oldid=537752127&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wireless_Application_Protocol&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%88%D8%AA%D9%88%D9%83%D9%88%D9%84_%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA_%D8%A7%D9%84%D9%84%D8%A7%D8%B3%D9%84%D9%83%D9%8A%D8%A9" title="بروتوكول التطبيقات اللاسلكية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%B8_%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A8_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%9F%E0%A7%8B%E0%A6%95%E0%A6%B2" title="ওয়্যারলেস অ্যাপ্লিকেশন প্রোটোকল" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/WAP" title="WAP" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Traadita_rakenduste_protokoll" title="Traadita rakenduste protokoll" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/WAP" title="WAP" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%BE%D8%B1%D9%88%D8%AA%DA%A9%D9%84_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C_%D8%A8%DB%8C%E2%80%8C%D8%B3%DB%8C%D9%85" title="پروتکل کاربردی بی‌سیم" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Protocole_WAP" title="Protocole WAP" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C" title="무선 애플리케이션 프로토콜" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A4%B2%E0%A5%87%E0%A4%B8_%E0%A4%8D%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A5%87%E0%A4%B6%E0%A4%A8_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%9F%E0%A5%8B%E0%A4%95%E0%A5%89%E0%A4%B2" title="वायरलेस ऍप्लिकेशन प्रोटोकॉल" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/Wap" title="Wap" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/WAP" title="WAP" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/WAP" title="WAP" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-lmo"><a href="http://lmo.wikipedia.org/wiki/WAP" title="WAP" lang="lmo" hreflang="lmo">Lumbaart</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/WAP" title="WAP" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/WAP" title="WAP" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/WAP" title="WAP" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/WAP" title="WAP" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/WAP" title="WAP" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Wireless_Application_Protocol" title="Wireless Application Protocol" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-te"><a href="http://te.wikipedia.org/wiki/%E0%B0%B5%E0%B1%88%E0%B0%B0%E0%B1%8D%E0%B0%B2%E0%B1%86%E0%B0%B8%E0%B1%8D_%E0%B0%85%E0%B0%AA%E0%B1%8D%E0%B0%B2%E0%B0%BF%E0%B0%95%E0%B1%87%E0%B0%B7%E0%B0%A8%E0%B1%8D_%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B1%8B%E0%B0%9F%E0%B1%8B%E0%B0%95%E0%B0%BE%E0%B0%B2%E0%B1%8D" title="వైర్లెస్ అప్లికేషన్ ప్రోటోకాల్" lang="te" hreflang="te">తెలుగు</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Kablosuz_uygulama_protokol%C3%BC" title="Kablosuz uygulama protokolü" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_%D0%B1%D0%B5%D0%B7%D0%B4%D1%80%D0%BE%D1%82%D0%BE%D0%B2%D0%B8%D1%85_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC" title="Протокол бездротових програм" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/WAP" title="WAP" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%97%A0%E7%BA%BF%E5%BA%94%E7%94%A8%E5%8D%8F%E8%AE%AE" title="无线应用协议" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 12:45.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wireless_Application_Protocol" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1021 in 0.189 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

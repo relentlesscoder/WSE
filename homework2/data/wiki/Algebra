@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Algebra - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algebra","wgTitle":"Algebra","wgCurRevisionId":537411164,"wgArticleId":18716923,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles with inconsistent citation formats","Wikipedia indefinitely move-protected pages","Wikipedia semi-protected pages","Articles containing Arabic language text","Algebra","Article Feedback 5 Additional Articles"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Algebra","wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"3d463540ffb9dcd4813ef6d62a2193eb","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":18716923,"title":"Algebra","namespace":0,"categories":["Algebra","Article Feedback 5 Additional Articles","Articles containing Arabic language text","Articles with inconsistent citation formats","Wikipedia indefinitely move-protected pages","Wikipedia semi-protected pages"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Algebra skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Algebra</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article provides a broad overview of 'Algebra'. For other uses, see <a href="Algebra_(disambiguation)" title="Algebra (disambiguation)">Algebra (disambiguation)</a>. For practical instruction, see <a href="http://en.wikibooks.org/wiki/Algebra" class="extiw" title="b:Algebra">Algebra</a> on <a href="Wikibooks" title="Wikibooks">Wikibooks</a>.</div>
+<div class="dablink">"Algebraist" redirects here. For the novel by Iain M. Banks, see <a href="The_Algebraist" title="The Algebraist">The Algebraist</a>.</div>
+<div class="metadata topicon nopopups" id="protected-icon" style="display:none; right:55px;"><a href="Wikipedia_Protection_policy#semi" title="This article is semi-protected."><img alt="Page semi-protected" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/30px-Padlock-silver.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/40px-Padlock-silver.svg.png 2x" /></a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Right_concoid.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Right_concoid.svg/200px-Right_concoid.svg.png" width="200" height="214" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Right_concoid.svg/300px-Right_concoid.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/af/Right_concoid.svg/400px-Right_concoid.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Right_concoid.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Three-dimensional <a href="Right_conoid" title="Right conoid">right conoid</a> surface plot, described by the elementary algebraic trigonometrical equations
+<center><img class="tex" alt="x=v \times \cos(u)" src="http://upload.wikimedia.org/math/1/b/d/1bdfe41fc8f5dc171fff4a021f53b47a.png" />, <img class="tex" alt="y=v \times \sin(u)" src="http://upload.wikimedia.org/math/f/b/0/fb055b6fe987df10523e1ec2108e215e.png" />, <img class="tex" alt="z=2 \times \sin(u)" src="http://upload.wikimedia.org/math/0/5/2/052954b6623ddf1af137faf258f9eb79.png" /></center>
+</div>
+</div>
+</div>
+<p><b>Algebra</b> is a discipline within mathematics, but for historical reasons, the word "algebra" has three meanings<sup id="cite_ref-4th_meaning_1-0" class="reference"><a href="#cite_note-4th_meaning-1"><span>[</span>1<span>]</span></a></sup> as a bare word, depending on the context. The word also constitutes various terms in mathematics, showing more variation in the meaning. This article gives a broad overview of them, including the history.</p>
+<p>As a single word, "algebra" can mean:<sup id="cite_ref-4th_meaning_1-1" class="reference"><a href="#cite_note-4th_meaning-1"><span>[</span>1<span>]</span></a></sup></p>
+<ul>
+<li>Use of letters and symbols to represent values and their relations, especially for solving <a href="Equations" title="Equations" class="mw-redirect">equations</a>. This is also called "<a href="Elementary_algebra" title="Elementary algebra">elementary algebra</a>". Historically, this was the meaning in pure mathematics too, like seen in "<a href="Fundamental_theorem_of_algebra" title="Fundamental theorem of algebra">fundamental theorem of algebra</a>", but not now.</li>
+<li>In modern <a href="Pure_mathematics" title="Pure mathematics">pure mathematics</a>,
+<ul>
+<li>a major branch of mathematics which studies relations and operations. It's sometimes called <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a>, or "modern algebra" to distinguish it from elementary algebra.</li>
+<li>a mathematical structure as a "linear" <a href="Ring_(mathematics)" title="Ring (mathematics)">ring</a>, is also called "algebra," or sometimes "<a href="Algebra_over_a_field" title="Algebra over a field">algebra over a field</a>", to distinguish it from its generalizations.</li>
+</ul>
+</li>
+</ul>
+<p>The adjective "<b>algebraic</b>" usually means relation to abstract algebra, as in "<a href="Algebraic_structure" title="Algebraic structure">algebraic structure</a>". But in some cases it refers to equation solving, reflecting the evolution of the field.</p>
+<p><a href="Elementary_algebra" title="Elementary algebra">Elementary algebra</a>, often part of the curriculum in <a href="Secondary_education" title="Secondary education">secondary education</a>, introduces the concept of <a href="Variable_(mathematics)" title="Variable (mathematics)">variables</a> representing <a href="Number" title="Number">numbers</a>. Statements based on these variables are manipulated using the rules of operations that apply to numbers, such as <a href="Addition" title="Addition">addition</a>. This can be done for a variety of reasons, including <a href="Equation_solving" title="Equation solving">equation solving</a>.</p>
+<p>Algebra as a branch of <a href="Mathematics" title="Mathematics">mathematics</a> is much broader than elementary algebra, studying what happens, beyond arithmetics of normal numbers, when different rules of <a href="Operation_(mathematics)" title="Operation (mathematics)">operations</a> and <a href="Relation_(mathematics)" title="Relation (mathematics)" class="mw-redirect">relations</a> are used. It leads to constructions and concepts arising from them, including <a href="Term_(mathematics)" title="Term (mathematics)">terms</a>, <a href="Polynomial" title="Polynomial">polynomials</a>, <a href="Equation" title="Equation">equations</a>. When the rules of addition and <a href="Multiplication" title="Multiplication">multiplication</a> are generalized, their precise definitions lead to the notions of <a href="Algebraic_structure" title="Algebraic structure">algebraic structures</a> such as <a href="Group_(mathematics)" title="Group (mathematics)">groups</a>, <a href="Ring_(mathematics)" title="Ring (mathematics)">rings</a> and <a href="Field_(mathematics)" title="Field (mathematics)">fields</a>, studied in the area of mathematics called <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a>.</p>
+<p>Algebra is one of the main branches of <a href="Pure_mathematics" title="Pure mathematics">pure mathematics</a>, together with <a href="Geometry" title="Geometry">geometry</a>, <a href="Mathematical_analysis" title="Mathematical analysis">analysis</a>, <a href="Topology" title="Topology">topology</a>, <a href="Combinatorics" title="Combinatorics">combinatorics</a>, and <a href="Number_theory" title="Number theory">number theory</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Topics_containing_the_word_.22algebra.22"><span class="tocnumber">2</span> <span class="toctext">Topics containing the word "algebra"</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Elementary_algebra"><span class="tocnumber">3</span> <span class="toctext">Elementary algebra</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Polynomials"><span class="tocnumber">3.1</span> <span class="toctext">Polynomials</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Teaching_algebra"><span class="tocnumber">3.2</span> <span class="toctext">Teaching algebra</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Abstract_algebra"><span class="tocnumber">4</span> <span class="toctext">Abstract algebra</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Groups"><span class="tocnumber">4.1</span> <span class="toctext">Groups</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Rings_and_fields"><span class="tocnumber">4.2</span> <span class="toctext">Rings and fields</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2> <span class="mw-headline" id="History">History</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="History_of_elementary_algebra" title="History of elementary algebra">History of elementary algebra</a> and <a href="Timeline_of_algebra" title="Timeline of algebra">Timeline of algebra</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg/220px-Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg" width="220" height="348" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/2/23/Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Image-Al-Kit%C4%81b_al-mu%E1%B8%ABta%E1%B9%A3ar_f%C4%AB_%E1%B8%A5is%C4%81b_al-%C4%9Fabr_wa-l-muq%C4%81bala.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A page from <a href="Muhammad_ibn_Musa_al-Khwarizmi" title="Muhammad ibn Musa al-Khwarizmi" class="mw-redirect">Al-Khwārizmī</a>'s <i><a href="The_Compendious_Book_on_Calculation_by_Completion_and_Balancing" title="The Compendious Book on Calculation by Completion and Balancing">al-Kitāb al-muḫtaṣar fī ḥisāb al-ğabr wa-l-muqābala</a></i></div>
+</div>
+</div>
+<p>The roots of algebra can be traced to the ancient <a href="Babylonian_mathematics" title="Babylonian mathematics">Babylonians</a>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> who developed an advanced arithmetical system with which they were able to do calculations in an <a href="Algorithm" title="Algorithm">algorithmic</a> fashion. The Babylonians developed formulas to calculate solutions for problems typically solved today by using <a href="Linear_equation" title="Linear equation">linear equations</a>, <a href="Quadratic_equation" title="Quadratic equation">quadratic equations</a>, and <a href="Indeterminate_equation" title="Indeterminate equation">indeterminate linear equations</a>. By contrast, most <a href="Egyptian_mathematics" title="Egyptian mathematics">Egyptians</a> of this era, as well as <a href="Greek_mathematics" title="Greek mathematics">Greek</a> and <a href="Chinese_mathematics" title="Chinese mathematics">Chinese mathematics</a> in the <a href="1st_millennium_BC" title="1st millennium BC">1st millennium BC</a>, usually solved such equations by geometric methods, such as those described in the <i><a href="Rhind_Mathematical_Papyrus" title="Rhind Mathematical Papyrus">Rhind Mathematical Papyrus</a></i>, <a href="Euclid's_Elements" title="Euclid's Elements">Euclid's <i>Elements</i></a>, and <i><a href="The_Nine_Chapters_on_the_Mathematical_Art" title="The Nine Chapters on the Mathematical Art">The Nine Chapters on the Mathematical Art</a></i>. The geometric work of the Greeks, typified in the <i>Elements</i>, provided the framework for generalizing formulae beyond the solution of particular problems into more general systems of stating and solving equations, although this would not be realized until <a href="Mathematics_in_medieval_Islam" title="Mathematics in medieval Islam">mathematics developed in medieval Islam</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>By the time of <a href="Plato" title="Plato">Plato</a>, <a href="Greek_mathematics" title="Greek mathematics">Greek mathematics</a> had undergone a drastic change. The <a href="Ancient_Greece" title="Ancient Greece">Greeks</a> created a geometric algebra where terms were represented by sides of geometric objects, usually lines, that had letters associated with them.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> <a href="Diophantus" title="Diophantus">Diophantus</a> (3rd century AD), sometimes called "the father of algebra", was an <a href="Alexandria" title="Alexandria">Alexandrian</a> <a href="Greek_mathematics" title="Greek mathematics">Greek mathematician</a> and the author of a series of books called <i><a href="Arithmetica" title="Arithmetica">Arithmetica</a></i>. These texts deal with solving <a href="Algebraic_equation" title="Algebraic equation">algebraic equations</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<p>The word <i>algebra</i> comes from the <a href="Arabic_language" title="Arabic language">Arabic language</a> (<span lang="ar" xml:lang="ar">الجبر</span> <i><span title="Arabic transliteration" class="Unicode" style="white-space:normal; text-decoration: none">al-jabr</span></i> "restoration") and much of its methods from <a href="Islamic_mathematics" title="Islamic mathematics" class="mw-redirect">Arabic/Islamic mathematics</a>. Earlier traditions discussed above had a direct influence on <a href="Muhammad_ibn_M%C5%ABs%C4%81_al-Khw%C4%81rizm%C4%AB" title="Muhammad ibn Mūsā al-Khwārizmī" class="mw-redirect">Muhammad ibn Mūsā al-Khwārizmī</a> (c. 780–850). He later wrote <i><a href="The_Compendious_Book_on_Calculation_by_Completion_and_Balancing" title="The Compendious Book on Calculation by Completion and Balancing">The Compendious Book on Calculation by Completion and Balancing</a></i>, which established algebra as a mathematical discipline that is independent of <a href="Geometry" title="Geometry">geometry</a> and <a href="Arithmetic" title="Arithmetic">arithmetic</a>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>The <a href="Hellenistic_civilization" title="Hellenistic civilization" class="mw-redirect">Hellenistic</a> mathematicians <a href="Hero_of_Alexandria" title="Hero of Alexandria">Hero of Alexandria</a> and <a href="Diophantus" title="Diophantus">Diophantus</a> <sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> as well as <a href="Indian_mathematics" title="Indian mathematics">Indian mathematicians</a> such as <a href="Brahmagupta" title="Brahmagupta">Brahmagupta</a> continued the traditions of Egypt and Babylon, though Diophantus' <i><a href="Arithmetica" title="Arithmetica">Arithmetica</a></i> and Brahmagupta's <i><a href="Brahmasphutasiddhanta" title="Brahmasphutasiddhanta" class="mw-redirect">Brahmasphutasiddhanta</a></i> are on a higher level.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> For example, the first complete arithmetic solution (including zero and negative solutions) to <a href="Quadratic_equation" title="Quadratic equation">quadratic equations</a> was described by Brahmagupta in his book <i>Brahmasphutasiddhanta</i>. Later, Arabic and Muslim mathematicians developed algebraic methods to a much higher degree of sophistication. Although Diophantus and the Babylonians used mostly special <i>ad hoc</i> methods to solve equations, Al-Khwarizmi contribution was fundamental. He solved linear and quadratic equations without algebraic symbolism, <a href="Negative_numbers" title="Negative numbers" class="mw-redirect">negative numbers</a> or <a href="Zero" title="Zero" class="mw-redirect">zero</a>, thus he has to distinguish several types of equations.<sup id="cite_ref-Meri2004_9-0" class="reference"><a href="#cite_note-Meri2004-9"><span>[</span>9<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Gerolamo_Cardano_(colour).jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Gerolamo_Cardano_(colour).jpg/200px-Gerolamo_Cardano_(colour).jpg" width="200" height="258" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/2/2f/Gerolamo_Cardano_%28colour%29.jpg/300px-Gerolamo_Cardano_%28colour%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/2/2f/Gerolamo_Cardano_%28colour%29.jpg/400px-Gerolamo_Cardano_%28colour%29.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Gerolamo_Cardano_(colour).jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+In 1545, the Italian mathematician <a href="Girolamo_Cardano" title="Girolamo Cardano" class="mw-redirect">Girolamo Cardano</a> published <i><a href="Ars_Magna_(Gerolamo_Cardano)" title="Ars Magna (Gerolamo Cardano)">Ars magna</a></i> -<i>The great art</i>, a 40-chapter masterpiece in which he gave for the first time a method for solving the general <a href="Quartic_equation" title="Quartic equation" class="mw-redirect">quartic equation</a>.</div>
+</div>
+</div>
+<p>The <a href="Greeks" title="Greeks">Greek</a> mathematician <a href="Diophantus" title="Diophantus">Diophantus</a> has traditionally been known as the "father of algebra" but in more recent times there is much debate over whether al-Khwarizmi, who founded the discipline of <i>al-jabr</i>, deserves that title instead.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> Those who support Diophantus point to the fact that the algebra found in <i>Al-Jabr</i> is slightly more elementary than the algebra found in <i>Arithmetica</i> and that <i>Arithmetica</i> is syncopated while <i>Al-Jabr</i> is fully rhetorical.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> Those who support Al-Khwarizmi point to the fact that he introduced the methods of "<a href="Reduction_(mathematics)" title="Reduction (mathematics)">reduction</a>" and "balancing" (the transposition of subtracted terms to the other side of an equation, that is, the cancellation of <a href="Like_terms" title="Like terms">like terms</a> on opposite sides of the equation) which the term <i>al-jabr</i> originally referred to,<sup id="cite_ref-Boyer-229_12-0" class="reference"><a href="#cite_note-Boyer-229-12"><span>[</span>12<span>]</span></a></sup> and that he gave an exhaustive explanation of solving quadratic equations,<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> supported by geometric proofs, while treating algebra as an independent discipline in its own right.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> His algebra was also no longer concerned "with a series of <a href="Problem" title="Problem">problems</a> to be resolved, but an <a href="Expository_writing" title="Expository writing">exposition</a> which starts with primitive terms in which the combinations must give all possible prototypes for equations, which henceforward explicitly constitute the true object of study". He also studied an equation for its own sake and "in a generic manner, insofar as it does not simply emerge in the course of solving a problem, but is specifically called on to define an infinite class of problems".<sup id="cite_ref-Rashed-Armstrong_15-0" class="reference"><a href="#cite_note-Rashed-Armstrong-15"><span>[</span>15<span>]</span></a></sup></p>
+<p>The Persian mathematician <a href="Omar_Khayyam" title="Omar Khayyam" class="mw-redirect">Omar Khayyam</a> is credited with identifying the foundations of <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a> and found the general geometric solution of the <a href="Cubic_equation" title="Cubic equation" class="mw-redirect">cubic equation</a>. Another Persian mathematician, <a href="Sharaf_al-D%C4%ABn_al-T%C5%ABs%C4%AB" title="Sharaf al-Dīn al-Tūsī" class="mw-redirect">Sharaf al-Dīn al-Tūsī</a>, found algebraic and numerical solutions to various cases of cubic equations.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> He also developed the concept of a <a href="Function_(mathematics)" title="Function (mathematics)">function</a>.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> The Indian mathematicians <a href="Mahavira_(mathematician)" title="Mahavira (mathematician)" class="mw-redirect">Mahavira</a> and <a href="Bhaskara_II" title="Bhaskara II" class="mw-redirect">Bhaskara II</a>, the Persian mathematician <a href="Al-Karaji" title="Al-Karaji">Al-Karaji</a>,<sup id="cite_ref-Boyer_al-Karkhi_ax2n_18-0" class="reference"><a href="#cite_note-Boyer_al-Karkhi_ax2n-18"><span>[</span>18<span>]</span></a></sup> and the Chinese mathematician <a href="Zhu_Shijie" title="Zhu Shijie">Zhu Shijie</a>, solved various cases of cubic, <a href="Quartic_equation" title="Quartic equation" class="mw-redirect">quartic</a>, <a href="Quintic_equation" title="Quintic equation" class="mw-redirect">quintic</a> and higher-order <a href="Polynomial" title="Polynomial">polynomial</a> equations using numerical methods. In the 13th century, the solution of a cubic equation by <a href="Fibonacci" title="Fibonacci">Fibonacci</a> is representative of the beginning of a revival in European algebra. As the Islamic world was declining, the European world was ascending. And it is here that algebra was further developed.</p>
+<p><a href="Fran%C3%A7ois_Vi%C3%A8te" title="François Viète">François Viète</a>’s work at the close of the 16th century marks the start of the classical discipline of algebra. In 1637, <a href="Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> published <i><a href="La_G%C3%A9om%C3%A9trie" title="La Géométrie">La Géométrie</a></i>, inventing <a href="Analytic_geometry" title="Analytic geometry">analytic geometry</a> and introducing modern algebraic notation. Another key event in the further development of algebra was the general algebraic solution of the cubic and quartic equations, developed in the mid-16th century. The idea of a <a href="Determinant" title="Determinant">determinant</a> was developed by <a href="Japanese_mathematics" title="Japanese mathematics">Japanese mathematician</a> <a href="Kowa_Seki" title="Kowa Seki" class="mw-redirect">Kowa Seki</a> in the 17th century, followed independently by <a href="Gottfried_Leibniz" title="Gottfried Leibniz" class="mw-redirect">Gottfried Leibniz</a> ten years later, for the purpose of solving systems of simultaneous linear equations using <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrices</a>. <a href="Gabriel_Cramer" title="Gabriel Cramer">Gabriel Cramer</a> also did some work on matrices and determinants in the 18th century. Permutations were studied by <a href="Joseph_Lagrange" title="Joseph Lagrange" class="mw-redirect">Joseph Lagrange</a> in his 1770 paper <i>Réflexions sur la résolution algébrique des équations</i> devoted to solutions of algebraic equations, in which he introduced <a href="Resolvent_(Galois_theory)" title="Resolvent (Galois theory)">Lagrange resolvents</a>. <a href="Paolo_Ruffini" title="Paolo Ruffini">Paolo Ruffini</a> was the first person to develop the theory of <a href="Permutation_group" title="Permutation group">permutation groups</a>, and like his predecessors, also in the context of solving algebraic equations.</p>
+<p><a href="Abstract_algebra" title="Abstract algebra">Abstract algebra</a> was developed in the 19th century, deriving from the interest in solving equations, initially focusing on what is now called <a href="Galois_theory" title="Galois theory">Galois theory</a>, and on <a href="Constructible_number" title="Constructible number">constructibility</a> issues.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> The "<a href="Abstract_algebra#Modern_algebra" title="Abstract algebra">modern algebra</a>" has deep nineteenth-century roots in the work, for example, of <a href="Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a> and <a href="Leopold_Kronecker" title="Leopold Kronecker">Leopold Kronecker</a> and profound interconnections with other branches of mathematics such as <a href="Algebraic_number_theory" title="Algebraic number theory">algebraic number theory</a> and <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup> <a href="George_Peacock" title="George Peacock">George Peacock</a> was the founder of axiomatic thinking in arithmetic and algebra. <a href="Augustus_De_Morgan" title="Augustus De Morgan">Augustus De Morgan</a> discovered <a href="Relation_algebra" title="Relation algebra">relation algebra</a> in his <i>Syllabus of a Proposed System of Logic</i>. <a href="Josiah_Willard_Gibbs" title="Josiah Willard Gibbs">Josiah Willard Gibbs</a> developed an algebra of vectors in three-dimensional space, and <a href="Arthur_Cayley" title="Arthur Cayley">Arthur Cayley</a> developed an algebra of matrices (this is a noncommutative algebra).<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p>
+<h2> <span class="mw-headline" id="Topics_containing_the_word_.22algebra.22">Topics containing the word "algebra"</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Algebra_(disambiguation)" title="Algebra (disambiguation)">algebra (disambiguation)</a></div>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">Elementary algebra</a>, in which the properties of operations on the <a href="Real_number" title="Real number">real number system</a> are recorded using symbols as "place holders" to denote <a href="Constant_(mathematics)" title="Constant (mathematics)">constants</a> and <a href="Variable_(mathematics)" title="Variable (mathematics)">variables</a>, and the rules governing <a href="Mathematical_expression" title="Mathematical expression" class="mw-redirect">mathematical expressions</a> and <a href="Equation" title="Equation">equations</a> involving these symbols are studied. This is usually taught at school under the title <i>algebra</i> (or <i>intermediate algebra</i> and <i>college algebra</i> in subsequent years). University-level courses in group theory may also be called <i>elementary algebra</i>.</li>
+<li><a href="Abstract_algebra" title="Abstract algebra">Abstract algebra</a>, sometimes also called <i>modern algebra</i>, in which <a href="Algebraic_structure" title="Algebraic structure">algebraic structures</a> such as <a href="Group_(mathematics)" title="Group (mathematics)">groups</a>, <a href="Ring_(mathematics)" title="Ring (mathematics)">rings</a> and <a href="Field_(mathematics)" title="Field (mathematics)">fields</a> are <a href="Axiomatization" title="Axiomatization" class="mw-redirect">axiomatically</a> defined and investigated.</li>
+<li><a href="Linear_algebra" title="Linear algebra">Linear algebra</a>, in which the specific properties of <a href="Vector_space" title="Vector space">vector spaces</a> are studied (including <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrices</a>). Linear algebra developed from the study of linear equations.</li>
+<li><a href="Universal_algebra" title="Universal algebra">Universal algebra</a>, in which properties common to all algebraic structures are studied.</li>
+<li><a href="Algebraic_number_theory" title="Algebraic number theory">Algebraic number theory</a>, in which the properties of numbers are studied through algebraic systems. <a href="Number_theory" title="Number theory">Number theory</a> inspired much of the original abstraction in algebra.</li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a>, a branch of geometry, in its primitive form specifying curves and surfaces by solutions of polynomials equations.</li>
+<li><a href="Algebraic_combinatorics" title="Algebraic combinatorics">Algebraic combinatorics</a>, in which abstract algebraic methods are used to study combinatorial questions.</li>
+</ul>
+<p>Many mathematical structures are called <b>algebras</b>.</p>
+<ul>
+<li><a href="Algebra_over_a_field" title="Algebra over a field">Algebra over a field</a> or more generally <a href="Algebra_(ring_theory)" title="Algebra (ring theory)">Algebra over a ring</a>.<br />
+Algebra over a field is not only the concern in abstract algebra, but its <a href="Analysis_(mathematics)" title="Analysis (mathematics)" class="mw-redirect">analytic</a> structure is also important in the field of <a href="Functional_analysis" title="Functional analysis">functional analysis</a>.</li>
+<li>In <a href="Measure_theory" title="Measure theory" class="mw-redirect">measure theory</a>,
+<ul>
+<li><a href="Sigma-algebra" title="Sigma-algebra">Sigma-algebra</a></li>
+<li><a href="Algebra_over_a_set" title="Algebra over a set" class="mw-redirect">Algebra over a set</a></li>
+</ul>
+</li>
+<li>In <a href="Category_theory" title="Category theory">category theory</a>
+<ul>
+<li><a href="F-algebra" title="F-algebra">F-algebra</a> and <a href="F-coalgebra" title="F-coalgebra">F-coalgebra</a></li>
+<li><a href="T-algebra" title="T-algebra" class="mw-redirect">T-algebra</a></li>
+</ul>
+</li>
+<li>In <a href="Logic" title="Logic">logic</a>,
+<ul>
+<li><a href="Relational_algebra" title="Relational algebra">Relational algebra</a>, in which a set of <a href="Finitary_relation" title="Finitary relation">finitary relations</a> that is <a href="Closure_(mathematics)" title="Closure (mathematics)">closed</a> under certain operators.</li>
+<li><a href="Boolean_algebra" title="Boolean algebra">Boolean algebra</a>, a structure which consists of only two value, 0 and 1. See also <a href="Boolean_algebra_(structure)" title="Boolean algebra (structure)">Boolean algebra (structure)</a>.</li>
+<li><a href="Heyting_algebra" title="Heyting algebra">Heyting algebra</a></li>
+</ul>
+</li>
+</ul>
+<h2> <span class="mw-headline" id="Elementary_algebra">Elementary algebra</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Elementary_algebra" title="Elementary algebra">Elementary algebra</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Algebraic_equation_notation.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/b/be/Algebraic_equation_notation.svg/220px-Algebraic_equation_notation.svg.png" width="220" height="129" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Algebraic_equation_notation.svg/330px-Algebraic_equation_notation.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Algebraic_equation_notation.svg/440px-Algebraic_equation_notation.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Algebraic_equation_notation.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Algebraic expression notation: 1 - Power (exponent), 2 - Coefficient, 3 - term, 4 - operator, 5 - constant term, <i>x y c</i> - variables/constants</div>
+</div>
+</div>
+<p><b>Elementary algebra</b> is the most basic form of algebra. It is taught to students who are presumed to have no knowledge of <a href="Mathematics" title="Mathematics">mathematics</a> beyond the basic principles of <a href="Arithmetic" title="Arithmetic">arithmetic</a>. In arithmetic, only <a href="Number" title="Number">numbers</a> and their arithmetical operations (such as +, −, ×, ÷) occur. In algebra, numbers are often denoted by symbols (such as <i>a</i>, <i>n</i>, <i>x</i>, <i>y</i> or <i>z</i>). This is useful because:</p>
+<ul>
+<li>It allows the general formulation of arithmetical laws (such as <i>a</i> + <i>b</i> = <i>b</i> + <i>a</i> for all <i>a</i> and <i>b</i>), and thus is the first step to a systematic exploration of the properties of the <a href="Real_number" title="Real number">real number system</a>.</li>
+<li>It allows the reference to "unknown" numbers, the formulation of <a href="Equation" title="Equation">equations</a> and the study of how to solve these. (For instance, "Find a number <i>x</i> such that 3<i>x</i> + 1 = 10" or going a bit further "Find a number <i>x</i> such that <i>ax</i> + <i>b</i> = <i>c</i>". This step leads to the conclusion that it is not the nature of the specific numbers that allows us to solve it, but that of the operations involved.)</li>
+<li>It allows the formulation of <a href="Function_(mathematics)" title="Function (mathematics)">functional</a> relationships. (For instance, "If you sell <i>x</i> tickets, then your profit will be 3<i>x</i> − 10 dollars, or <i>f</i>(<i>x</i>) = 3<i>x</i> − 10, where <i>f</i> is the function, and <i>x</i> is the number to which the function is applied".)</li>
+</ul>
+<h3> <span class="mw-headline" id="Polynomials">Polynomials</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:172px;"><a href="http://en.wikipedia.org/wiki/File:Polynomialdeg3.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polynomialdeg3.svg/170px-Polynomialdeg3.svg.png" width="170" height="170" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polynomialdeg3.svg/255px-Polynomialdeg3.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polynomialdeg3.svg/340px-Polynomialdeg3.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Polynomialdeg3.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The <a href="Graph_of_a_function" title="Graph of a function">graph</a> of a polynomial function of degree 3.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Polynomial" title="Polynomial">Polynomial</a></div>
+<p>A <b>polynomial</b> is an <a href="Expression_(mathematics)" title="Expression (mathematics)">expression</a> that is constructed from one or more <a href="Variable_(mathematics)" title="Variable (mathematics)">variables</a> and constants, using only the operations of addition, subtraction, and multiplication (where repeated multiplication of the same variable is conventionally denoted as <a href="Exponentiation" title="Exponentiation">exponentiation</a> with a constant nonnegative integer exponent). For example, <i>x</i><sup>2</sup> + 2<i>x</i> − 3 is a polynomial in the single variable <i>x</i>.</p>
+<p>An important class of problems in algebra is <a href="Factorization" title="Factorization">factorization</a> of polynomials, that is, expressing a given polynomial as a product of other polynomials. The example polynomial above can be factored as (<i>x</i> − 1)(<i>x</i> + 3). A related class of problems is finding algebraic expressions for the <a href="Root_of_a_function" title="Root of a function" class="mw-redirect">roots</a> of a polynomial in a single variable.</p>
+<h3> <span class="mw-headline" id="Teaching_algebra">Teaching algebra</span></h3>
+<div class="rellink boilerplate seealso">See also: <a href="Mathematics_education" title="Mathematics education">Mathematics education</a></div>
+<p>It has been suggested that elementary algebra should be taught as young as eleven years old,<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> though in recent years it is more common for public lessons to begin at the eighth grade level (≈&#160;13&#160;y.o.&#160;±) in the United States.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup></p>
+<p>Since 1997, <a href="Virginia_Tech" title="Virginia Tech">Virginia Tech</a> and some other universities have begun using a personalized model of teaching algebra that combines instant feedback from specialized computer software with one-on-one and small group tutoring, which has reduced costs and increased student achievement.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup></p>
+<h2> <span class="mw-headline" id="Abstract_algebra">Abstract algebra</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Abstract_algebra" title="Abstract algebra">Abstract algebra</a> and <a href="Algebraic_structure" title="Algebraic structure">Algebraic structure</a></div>
+<p><b>Abstract algebra</b> extends the familiar concepts found in elementary algebra and <a href="Arithmetic" title="Arithmetic">arithmetic</a> of <a href="Number" title="Number">numbers</a> to more general concepts. Here are listed fundamental concepts in abstract algebra.</p>
+<p><b><a href="Set_(mathematics)" title="Set (mathematics)">Sets</a></b>: Rather than just considering the different types of <a href="Number" title="Number">numbers</a>, abstract algebra deals with the more general concept of <i>sets</i>: a collection of all objects (called <a href="Element_(mathematics)" title="Element (mathematics)">elements</a>) selected by property, specific for the set. All collections of the familiar types of numbers are sets. Other examples of sets include the set of all two-by-two <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrices</a>, the set of all second-degree <a href="Polynomials" title="Polynomials" class="mw-redirect">polynomials</a> (<i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i>), the set of all two dimensional <a href="Vector_(geometric)" title="Vector (geometric)" class="mw-redirect">vectors</a> in the plane, and the various <a href="Finite_groups" title="Finite groups" class="mw-redirect">finite groups</a> such as the <a href="Cyclic_group" title="Cyclic group">cyclic groups</a> which are the group of integers <a href="Modular_arithmetic" title="Modular arithmetic">modulo</a> <i>n</i>. <a href="Set_theory" title="Set theory">Set theory</a> is a branch of <a href="Logic" title="Logic">logic</a> and not technically a branch of algebra.</p>
+<p><b><a href="Binary_operation" title="Binary operation">Binary operations</a></b>: The notion of <a href="Addition" title="Addition">addition</a> (+) is abstracted to give a <i>binary operation</i>, ∗ say. The notion of binary operation is meaningless without the set on which the operation is defined. For two elements <i>a</i> and <i>b</i> in a set <i>S</i>, <i>a</i> ∗ <i>b</i> is another element in the set; this condition is called <a href="Closure_(mathematics)" title="Closure (mathematics)">closure</a>. <a href="Addition" title="Addition">Addition</a> (+), <a href="Subtraction" title="Subtraction">subtraction</a> (-), <a href="Multiplication" title="Multiplication">multiplication</a> (×), and <a href="Division_(mathematics)" title="Division (mathematics)">division</a> (÷) can be binary operations when defined on different sets, as is addition and multiplication of matrices, vectors, and polynomials.</p>
+<p><b><a href="Identity_element" title="Identity element">Identity elements</a></b>: The numbers zero and one are abstracted to give the notion of an <i>identity element</i> for an operation. Zero is the identity element for addition and one is the identity element for multiplication. For a general binary operator ∗ the identity element <i>e</i> must satisfy <i>a</i> ∗ <i>e</i> = <i>a</i> and <i>e</i> ∗ <i>a</i> = <i>a</i>. This holds for addition as <i>a</i> + 0 = <i>a</i> and 0 + <i>a</i> = <i>a</i> and multiplication <i>a</i> × 1 = <i>a</i> and 1 × <i>a</i> = <i>a</i>. Not all sets and operator combinations have an identity element; for example, the positive natural numbers (1, 2, 3, ...) have no identity element for addition.</p>
+<p><b><a href="Inverse_elements" title="Inverse elements" class="mw-redirect">Inverse elements</a></b>: The negative numbers give rise to the concept of <i>inverse elements</i>. For addition, the inverse of <i>a</i> is written −<i>a</i>, and for multiplication the inverse is written <i>a</i><sup>−1</sup>. A general two-sided inverse element <i>a</i><sup>−1</sup> satisfies the property that <i>a</i> ∗ <i>a</i><sup>−1</sup> = 1 and <i>a</i><sup>−1</sup> ∗ <i>a</i> = 1 .</p>
+<p><b><a href="Associativity" title="Associativity" class="mw-redirect">Associativity</a></b>: Addition of integers has a property called associativity. That is, the grouping of the numbers to be added does not affect the sum. For example: <span class="nowrap">(2 + 3) + 4 = 2 + (3 + 4)</span>. In general, this becomes (<i>a</i> ∗ <i>b</i>) ∗ <i>c</i> = <i>a</i> ∗ (<i>b</i> ∗ <i>c</i>). This property is shared by most binary operations, but not subtraction or division or <a href="Octonion_multiplication" title="Octonion multiplication" class="mw-redirect">octonion multiplication</a>.</p>
+<p><b><a href="Commutative_operation" title="Commutative operation" class="mw-redirect">Commutativity</a></b>: Addition and multiplication of real numbers are both commutative. That is, the order of the numbers does not affect the result. For example: 2 + 3 = 3 + 2. In general, this becomes <i>a</i> ∗ <i>b</i> = <i>b</i> ∗ <i>a</i>. This property does not hold for all binary operations. For example, <a href="Matrix_multiplication" title="Matrix multiplication">matrix multiplication</a> and <a href="Quaternion" title="Quaternion">quaternion multiplication</a> are both non-commutative.</p>
+<h3> <span class="mw-headline" id="Groups">Groups</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Group_(mathematics)" title="Group (mathematics)">Group (mathematics)</a></div>
+<div class="rellink boilerplate seealso">See also: <a href="Group_theory" title="Group theory">Group theory</a>&#160;and <a href="Examples_of_groups" title="Examples of groups">Examples of groups</a></div>
+<p>Combining the above concepts gives one of the most important structures in mathematics: a <b><a href="Group_(mathematics)" title="Group (mathematics)">group</a></b>. A group is a combination of a set <i>S</i> and a single <a href="Binary_operation" title="Binary operation">binary operation</a> ∗, defined in any way you choose, but with the following properties:</p>
+<ul>
+<li>An identity element <i>e</i> exists, such that for every member <i>a</i> of <i>S</i>, <i>e</i> ∗ <i>a</i> and <i>a</i> ∗ <i>e</i> are both identical to <i>a</i>.</li>
+<li>Every element has an inverse: for every member <i>a</i> of <i>S</i>, there exists a member <i>a</i><sup>−1</sup> such that <i>a</i> ∗ <i>a</i><sup>−1</sup> and <i>a</i><sup>−1</sup> ∗ <i>a</i> are both identical to the identity element.</li>
+<li>The operation is associative: if <i>a</i>, <i>b</i> and <i>c</i> are members of <i>S</i>, then (<i>a</i> ∗ <i>b</i>) ∗ <i>c</i> is identical to <i>a</i> ∗ (<i>b</i> ∗ <i>c</i>).</li>
+</ul>
+<p>If a group is also <a href="Commutativity" title="Commutativity" class="mw-redirect">commutative</a>—that is, for any two members <i>a</i> and <i>b</i> of <i>S</i>, <i>a</i> ∗ <i>b</i> is identical to <i>b</i> ∗ <i>a</i>—then the group is said to be <a href="Abelian_group" title="Abelian group">abelian</a>.</p>
+<p>For example, the set of integers under the operation of addition is a group. In this group, the identity element is 0 and the inverse of any element <i>a</i> is its negation, −<i>a</i>. The associativity requirement is met, because for any integers <i>a</i>, <i>b</i> and <i>c</i>, (<i>a</i> + <i>b</i>) + <i>c</i> = <i>a</i> + (<i>b</i> + <i>c</i>)</p>
+<p>The nonzero <a href="Rational_number" title="Rational number">rational numbers</a> form a group under multiplication. Here, the identity element is 1, since 1 × <i>a</i> = <i>a</i> × 1 = <i>a</i> for any rational number <i>a</i>. The inverse of <i>a</i> is 1/<i>a</i>, since <i>a</i> × 1/<i>a</i> = 1.</p>
+<p>The integers under the multiplication operation, however, do not form a group. This is because, in general, the multiplicative inverse of an integer is not an integer. For example, 4 is an integer, but its multiplicative inverse is ¼, which is not an integer.</p>
+<p>The theory of groups is studied in <a href="Group_theory" title="Group theory">group theory</a>. A major result in this theory is the <a href="Classification_of_finite_simple_groups" title="Classification of finite simple groups">classification of finite simple groups</a>, mostly published between about 1955 and 1983, which separates the <a href="Finite_set" title="Finite set">finite</a> <a href="Simple_group" title="Simple group">simple groups</a> into roughly 30 basic types.</p>
+<p><a href="Semigroup" title="Semigroup">Semigroups</a>, <a href="Quasigroup" title="Quasigroup">quasigroups</a>, and <a href="Monoid" title="Monoid">monoids</a> are structures similar to groups, but more general. They comprise a set and a closed binary operation, but do not necessarily satisfy the other conditions. A <a href="Semigroup" title="Semigroup">semigroup</a> has an <i>associative</i> binary operation, but might not have an identity element. A <a href="Monoid" title="Monoid">monoid</a> is a semigroup which does have an identity but might not have an inverse for every element. A <a href="Quasigroup" title="Quasigroup">quasigroup</a> satisfies a requirement that any element can be turned into any other by either a unique left-multiplication or right-multiplication; however the binary operation might not be associative.</p>
+<p>All groups are monoids, and all monoids are semigroups.</p>
+<table class="wikitable">
+<tr>
+<td colspan="11">Examples</td>
+</tr>
+<tr>
+<th>Set:</th>
+<td colspan="2"><a href="Natural_numbers" title="Natural numbers" class="mw-redirect">Natural numbers</a> <b>N</b></td>
+<td colspan="2"><a href="Integers" title="Integers" class="mw-redirect">Integers</a> <b>Z</b></td>
+<td colspan="4"><a href="Rational_numbers" title="Rational numbers" class="mw-redirect">Rational numbers</a> <b>Q</b> (also <a href="Real_numbers" title="Real numbers" class="mw-redirect">real</a> <b>R</b> and <a href="Complex_numbers" title="Complex numbers" class="mw-redirect">complex</a> <b>C</b> numbers)</td>
+<td colspan="2">Integers <a href="Modular_arithmetic" title="Modular arithmetic">modulo</a> 3: <b>Z</b><sub>3</sub> = {0, 1, 2}</td>
+</tr>
+<tr>
+<th>Operation</th>
+<td>+</td>
+<td>× (w/o zero)</td>
+<td>+</td>
+<td>× (w/o zero)</td>
+<td>+</td>
+<td>−</td>
+<td>× (w/o zero)</td>
+<td>÷ (w/o zero)</td>
+<td>+</td>
+<td>× (w/o zero)</td>
+</tr>
+<tr>
+<th>Closed</th>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Identity</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>N/A</td>
+<td>1</td>
+<td>N/A</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Inverse</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>−<i>a</i></td>
+<td>N/A</td>
+<td>−<i>a</i></td>
+<td>N/A</td>
+<td>1/<i>a</i></td>
+<td>N/A</td>
+<td>0, 2, 1, respectively</td>
+<td>N/A, 1, 2, respectively</td>
+</tr>
+<tr>
+<td>Associative</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Commutative</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Structure</td>
+<td><a href="Monoid" title="Monoid">monoid</a></td>
+<td><a href="Monoid" title="Monoid">monoid</a></td>
+<td><a href="Abelian_group" title="Abelian group">abelian group</a></td>
+<td><a href="Monoid" title="Monoid">monoid</a></td>
+<td><a href="Abelian_group" title="Abelian group">abelian group</a></td>
+<td><a href="Quasigroup" title="Quasigroup">quasigroup</a></td>
+<td><a href="Abelian_group" title="Abelian group">abelian group</a></td>
+<td><a href="Quasigroup" title="Quasigroup">quasigroup</a></td>
+<td><a href="Abelian_group" title="Abelian group">abelian group</a></td>
+<td><a href="Abelian_group" title="Abelian group">abelian group</a> (<b>Z</b><sub>2</sub>)</td>
+</tr>
+</table>
+<h3> <span class="mw-headline" id="Rings_and_fields">Rings and fields</span></h3>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Ring_(mathematics)" title="Ring (mathematics)">ring (mathematics)</a> and <a href="Field_(mathematics)" title="Field (mathematics)">field (mathematics)</a></div>
+<div class="rellink boilerplate seealso">See also: <a href="Ring_theory" title="Ring theory">Ring theory</a>, <a href="Glossary_of_ring_theory" title="Glossary of ring theory">Glossary of ring theory</a>, <a href="Field_theory_(mathematics)" title="Field theory (mathematics)">Field theory (mathematics)</a>,&#160;and <a href="Glossary_of_field_theory" title="Glossary of field theory">glossary of field theory</a></div>
+<p>Groups just have one binary operation. To fully explain the behaviour of the different types of numbers, structures with two operators need to be studied. The most important of these are <a href="Ring_(mathematics)" title="Ring (mathematics)">rings</a>, and <a href="Field_(mathematics)" title="Field (mathematics)">fields</a>.</p>
+<p>A <b><a href="Ring_(mathematics)" title="Ring (mathematics)">ring</a></b> has two binary operations (+) and (×), with × distributive over +. Under the first operator (+) it forms an <i>abelian group</i>. Under the second operator (×) it is associative, but it does not need to have identity, or inverse, so division is not required. The additive (+) identity element is written as 0 and the additive inverse of <i>a</i> is written as −<i>a</i>.</p>
+<p><b><a href="Distributivity" title="Distributivity" class="mw-redirect">Distributivity</a></b> generalises the <i>distributive law</i> for numbers, and specifies the order in which the operators should be applied, (called the <a href="Order_of_operations" title="Order of operations">precedence</a>). For the integers <span class="nowrap">(<i>a</i> + <i>b</i>) × <i>c</i> = <i>a</i> × <i>c</i> + <i>b</i> × <i>c</i></span> and <span class="nowrap"><i>c</i> × (<i>a</i> + <i>b</i>) = <i>c</i> × <i>a</i> + <i>c</i> × <i>b</i>,</span> and × is said to be <i>distributive</i> over +.</p>
+<p>The integers are an example of a ring. The integers have additional properties which make it an <b><a href="Integral_domain" title="Integral domain">integral domain</a></b>.</p>
+<p>A <b><a href="Field_(mathematics)" title="Field (mathematics)">field</a></b> is a <i>ring</i> with the additional property that all the elements excluding 0 form an <i>abelian group</i> under ×. The multiplicative (×) identity is written as 1 and the multiplicative inverse of <i>a</i> is written as <i>a</i><sup>−1</sup>.</p>
+<p>The rational numbers, the real numbers and the complex numbers are all examples of fields.</p>
+<h2> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Arithmetic_symbols.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/28px-Arithmetic_symbols.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/42px-Arithmetic_symbols.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/56px-Arithmetic_symbols.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Algebra" title="Portal:Algebra">Algebra  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Outline_of_algebra" title="Outline of algebra">Outline of algebra</a></li>
+<li><a href="Outline_of_linear_algebra" title="Outline of linear algebra" class="mw-redirect">Outline of linear algebra</a></li>
+</ul>
+<h2> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-4th_meaning-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-4th_meaning_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-4th_meaning_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">There is another definition of the word "algebra" in the field of <a href="Universal_algebra" title="Universal algebra">universal algebra</a>.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation book">Struik, Dirk J. (1987). <i>A Concise History of Mathematics</i>. New York: Dover Publications. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0486602559" title="Special:BookSources/0486602559">0486602559</a>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="#CITEREFBoyer1991">Boyer 1991</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "Europe in the Middle Ages" p. 258) "In the arithmetical theorems in Euclid's <i>Elements</i> VII-IX, numbers had been represented by line segments to which letters had been had been attached, and the geometric proofs in al-Khwarizmi's <i>Algebra</i> made use of lettered diagrams; but all coefficients in the equations used in the <i>Algebra</i> are specific numbers, whether represented by numerals or written out in words. The idea of generality is implied in al-Khwarizmi's exposition, but he had no scheme for expressing algebraically the general propositions that are so readily available in geometry."</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation book"><a href="Florian_Cajori" title="Florian Cajori">Cajori, Florian</a> (2010). <a rel="nofollow" class="external text" href="http://books.google.com/?id=gZ2Us3F7dSwC&pg=PA34&dq#v=onepage&amp;q=&amp;f=false"><i>A History of Elementary Mathematics – With Hints on Methods of Teaching</i></a>. p.&#160;34. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-4460-2221-8" title="Special:BookSources/1-4460-2221-8">1-4460-2221-8</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=gZ2Us3F7dSwC&pg=PA34&dq#v=onepage&amp;q=&amp;f=false">http://books.google.com/?id=gZ2Us3F7dSwC&amp;pg=PA34&amp;dq#v=onepage&amp;q=&amp;f=false</a></span>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation Journal" id="CITEREFRoshdi_Rashed2009">Roshdi Rashed (November 2009). <i>Al Khwarizmi: The Beginnings of Algebra</i>. <a href="Saqi_Books" title="Saqi Books">Saqi Books</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-86356-430-5" title="Special:BookSources/0-86356-430-5">0-86356-430-5</a></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://library.thinkquest.org/25672/diiophan.htm">Diophantus, Father of Algebra</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.algebra.com/algebra/about/history/">History of Algebra</a></span></li>
+<li id="cite_note-Meri2004-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Meri2004_9-0">^</a></b></span> <span class="reference-text"><span class="citation book">Josef W. Meri (2004). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=H-k9oc9xsuAC&pg=PA31"><i>Medieval Islamic Civilization</i></a>. Psychology Press. p.&#160;31. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-415-96690-0" title="Special:BookSources/978-0-415-96690-0">978-0-415-96690-0</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=H-k9oc9xsuAC&pg=PA31">http://books.google.com/books?id=H-k9oc9xsuAC&amp;pg=PA31</a></span><span class="reference-accessdate">. Retrieved 25 November 2012</span>.</span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation book">Boyer, Carl B. (1991). <i>A History of Mathematics</i> (Second ed.). Wiley. pp.&#160;178, 181. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0471543977" title="Special:BookSources/0471543977">0471543977</a>.</span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation book">Boyer, Carl B. (1991). <i>A History of Mathematics</i> (Second ed.). Wiley. p.&#160;228. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0471543977" title="Special:BookSources/0471543977">0471543977</a>.</span></span></li>
+<li id="cite_note-Boyer-229-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Boyer-229_12-0">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "The Arabic Hegemony" p. 229) "It is not certain just what the terms <i>al-jabr</i> and <i>muqabalah</i> mean, but the usual interpretation is similar to that implied in the translation above. The word <i>al-jabr</i> presumably meant something like "restoration" or "completion" and seems to refer to the transposition of subtracted terms to the other side of an equation; the word <i>muqabalah</i> is said to refer to "reduction" or "balancing" – that is, the cancellation of like terms on opposite sides of the equation."</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "The Arabic Hegemony" p. 230) "The six cases of equations given above exhaust all possibilities for linear and quadratic equations having positive root. So systematic and exhaustive was al-Khwarizmi's exposition that his readers must have had little difficulty in mastering the solutions."</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Gandz and Saloman (1936), <i>The sources of al-Khwarizmi's algebra</i>, Osiris i, p. 263–277: "In a sense, Khwarizmi is more entitled to be called "the father of algebra" than Diophantus because Khwarizmi is the first to teach algebra in an elementary form and for its own sake, Diophantus is primarily concerned with the theory of numbers".</span></li>
+<li id="cite_note-Rashed-Armstrong-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-Rashed-Armstrong_15-0">^</a></b></span> <span class="reference-text"><span class="citation book" id="CITEREFRashedArmstrong1994">Rashed, R.; Armstrong, Angela (1994). <i>The Development of Arabic Mathematics</i>. <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>. pp.&#160;11–2. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-7923-2565-6" title="Special:BookSources/0-7923-2565-6">0-7923-2565-6</a>. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/29181926">29181926</a></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation"><a href="../John_J._O'Connor_(mathematician)" title="John J. O'Connor (mathematician)" class="mw-redirect">O'Connor, John J.</a>; <a href="../Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Al-Tusi_Sharaf.html">"Sharaf al-Din al-Muzaffar al-Tusi"</a>, <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Al-Tusi_Sharaf.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Al-Tusi_Sharaf.html</a></span></span>.</span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><span class="citation Journal" id="CITEREFVictor_J._KatzBarton2007">Victor J. Katz, Bill Barton; Barton, Bill (October 2007). "Stages in the History of Algebra with Implications for Teaching". <i>Educational Studies in Mathematics</i> (<a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer Netherlands</a>) <b>66</b> (2): 185–201 [192]. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/s10649-006-9023-7">10.1007/s10649-006-9023-7</a></span></span></li>
+<li id="cite_note-Boyer_al-Karkhi_ax2n-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-Boyer_al-Karkhi_ax2n_18-0">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "The Arabic Hegemony" p. 239) "Abu'l Wefa was a capable algebraist as well as a trigonometer. [...] His successor al-Karkhi evidently used this translation to become an Arabic disciple of Diophantus – but without Diophantine analysis! [...] In particular, to al-Karkhi is attributed the first numerical solution of equations of the form ax<sup>2n</sup> + bx<sup>n</sup> = c (only equations with positive roots were considered),"</span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">"<a rel="nofollow" class="external text" href="http://www.math.hawaii.edu/~lee/algebra/history.html">The Origins of Abstract Algebra</a>". University of Hawaii Mathematics Department.</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">"<a rel="nofollow" class="external text" href="http://www.msri.org/calendar/workshops/WorkshopInfo/245/show_workshop">The History of Algebra in the Nineteenth and Twentieth Centuries</a>". Mathematical Sciences Research Institute.</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">"<a rel="nofollow" class="external text" href="http://www.cambridge.org/catalogue/catalogue.asp?ISBN=9781108005043">The Collected Mathematical Papers</a>".Cambridge University Press.</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://query.nytimes.com/mem/archive-free/pdf?res=F10714FB395E12738DDDAF0994DF405B848CF1D3">"Hull's Algebra"</a> (<a href="Pdf" title="Pdf" class="mw-redirect">pdf</a>). <i>New York Times</i>. July 16, 1904<span class="printonly">. <a rel="nofollow" class="external free" href="http://query.nytimes.com/mem/archive-free/pdf?res=F10714FB395E12738DDDAF0994DF405B848CF1D3">http://query.nytimes.com/mem/archive-free/pdf?res=F10714FB395E12738DDDAF0994DF405B848CF1D3</a></span><span class="reference-accessdate">. Retrieved September 21, 2012</span>.</span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation web">Quaid, Libby (September 22, 2008). <a rel="nofollow" class="external text" href="http://www.usatoday.com/news/nation/2008-09-22-357650952_x.htm">"Kids misplaced in algebra"</a> (Report). <i><a href="Associated_Press" title="Associated Press">Associated Press</a></i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.usatoday.com/news/nation/2008-09-22-357650952_x.htm">http://www.usatoday.com/news/nation/2008-09-22-357650952_x.htm</a></span><span class="reference-accessdate">. Retrieved September 23, 2012</span>.</span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><span class="citation news">Hamilton, Reeve (7 September 2012). <a rel="nofollow" class="external text" href="http://www.nytimes.com/2012/09/07/us/ut-arlington-adopts-new-way-to-tackle-algebra.html">"THE TEXAS TRIBUNE; U.T.-Arlington Adopts New Way to Tackle Algebra"</a>. <i>The New York Times</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.nytimes.com/2012/09/07/us/ut-arlington-adopts-new-way-to-tackle-algebra.html">http://www.nytimes.com/2012/09/07/us/ut-arlington-adopts-new-way-to-tackle-algebra.html</a></span><span class="reference-accessdate">. Retrieved 10 September 2012</span>.</span></span></li>
+</ol>
+</div>
+<h2> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFBoyer1991"><a href="Carl_Benjamin_Boyer" title="Carl Benjamin Boyer">Boyer, Carl B.</a> (1991), <i>A History of Mathematics</i> (Second Edition ed.), John Wiley &amp; Sons, Inc., <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-54397-7" title="Special:BookSources/0-471-54397-7">0-471-54397-7</a></span></li>
+<li>Donald R. Hill, <i>Islamic Science and Engineering</i> (Edinburgh University Press, 1994).</li>
+<li>Ziauddin Sardar, Jerry Ravetz, and Borin Van Loon, <i>Introducing Mathematics</i> (Totem Books, 1999).</li>
+<li>George Gheverghese Joseph, <i>The Crest of the Peacock: Non-European Roots of Mathematics</i> (<a href="Penguin_Books" title="Penguin Books">Penguin Books</a>, 2000).</li>
+<li>John J O'Connor and Edmund F Robertson, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Indexes/Algebra.html"><i>History Topics: Algebra Index</i></a>. In <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i> (<a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a>, 2005).</li>
+<li>I.N. Herstein: <i>Topics in Algebra</i>. <a href="Special_BookSources/047102371X" class="internal mw-magiclink-isbn">ISBN 0-471-02371-X</a></li>
+<li>R.B.J.T. Allenby: <i>Rings, Fields and Groups</i>. <a href="Special_BookSources/0340544406" class="internal mw-magiclink-isbn">ISBN 0-340-54440-6</a></li>
+<li><a href="../L._Euler" title="L. Euler" class="mw-redirect">L. Euler</a>: <i><a rel="nofollow" class="external text" href="http://web.mat.bham.ac.uk/C.J.Sangwin/euler/">Elements of Algebra</a></i>, <a href="Special_BookSources/9781899618736" class="internal mw-magiclink-isbn">ISBN 978-1-899618-73-6</a></li>
+<li><span class="citation book"><a href="Isaac_Asimov" title="Isaac Asimov">Asimov, Isaac</a> (1961). <i>Realm of Algebra</i>. Houghton Mifflin.</span></li>
+</ul>
+<h2> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/37px-Wiktionary-logo-en.svg.png" width="37" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/55px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/73px-Wiktionary-logo-en.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Look up <i><b><a href="http://en.wiktionary.org/wiki/algebra" class="extiw" title="wiktionary:algebra">algebra</a></b></i> in Wiktionary, the free dictionary.</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has more on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Special:Search/Algebra" class="extiw" title="wikibooks:Special:Search/Algebra">Algebra</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.khanacademy.org/math/algebra">Khan Academy: Conceptual videos and worked examples</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.khanacademy.org/math/algebra/introduction-to-algebra/overview_hist_alg/v/origins-of-algebra">Khan Academy: Origins of Algebra, free online micro lectures</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.gresham.ac.uk/event.asp?PageId=45&EventId=620">4000 Years of Algebra</a>, lecture by Robin Wilson, at <a href="Gresham_College" title="Gresham College">Gresham College</a>, October 17, 2007 (available for MP3 and MP4 download, as well as a text file).</li>
+<li><a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/algebra">Algebra</a> entry by Vaughan Pratt in the <i><a href="Stanford_Encyclopedia_of_Philosophy" title="Stanford Encyclopedia of Philosophy">Stanford Encyclopedia of Philosophy</a></i></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><strong class="selflink">Algebra</strong>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Algebra-footer" title="Template:Algebra-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_Algebra-footer&action=edit&redlink=1.php.html" class="new" title="Template talk:Algebra-footer (page does not exist)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Algebra-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Major topics in <strong class="selflink">Algebra</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">Elementary algebra</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">Abstract algebra</a></li>
+<li><a href="Commutative_algebra" title="Commutative algebra">Commutative algebra</a></li>
+<li><a href="Order_theory" title="Order theory">Order theory</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="K-theory" title="K-theory">K-theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Algebraic_structure" title="Algebraic structure">Algebraic structures</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Group_(mathematics)" title="Group (mathematics)">Group</a> – <a href="Group_theory" title="Group theory">Group theory</a></li>
+<li><a href="Ring_(mathematics)" title="Ring (mathematics)">Ring</a> – <a href="Ring_theory" title="Ring theory">Ring theory</a></li>
+<li><a href="Field_(mathematics)" title="Field (mathematics)">Field</a> – <a href="Field_theory_(mathematics)" title="Field theory (mathematics)">Field theory</a></li>
+<li><a href="Universal_algebra" title="Universal algebra">Universal algebra</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Linear_algebra" title="Linear algebra">Linear algebra</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Matrix_(mathematics)" title="Matrix (mathematics)">Matrix</a> – <a href="Matrix_(mathematics)" title="Matrix (mathematics)">Matrix theory</a></li>
+<li><a href="Coordinate_vector" title="Coordinate vector">Vector</a> – <a href="Vector_space" title="Vector space">Vector space</a></li>
+<li><a href="Inner_product" title="Inner product" class="mw-redirect">Inner product</a> – <a href="Inner_product_space" title="Inner product space">Inner product space</a></li>
+<li><a href="Hilbert_space" title="Hilbert space">Hilbert space</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Lists</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_abstract_algebra_topics" title="List of abstract algebra topics">Abstract algebra topics</a></li>
+<li><a href="Outline_of_algebraic_structures" title="Outline of algebraic structures">Algebraic structures</a></li>
+<li><a href="List_of_group_theory_topics" title="List of group theory topics">Group theory topics</a></li>
+<li><a href="List_of_linear_algebra_topics" title="List of linear algebra topics">Linear algebra topics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Glossaries</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Glossary_of_field_theory" title="Glossary of field theory">Field theory</a></li>
+<li><a href="Glossary_of_group_theory" title="Glossary of group theory">Group theory</a></li>
+<li><a href="Glossary_of_linear_algebra" title="Glossary of linear algebra" class="mw-redirect">Linear algrebra</a></li>
+<li><a href="Glossary_of_ring_theory" title="Glossary of ring theory">Ring theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div><b><a href="Portal_Algebra" title="Portal:Algebra">Portal</a></b></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 10842/1000000
+Preprocessor generated node count: 52203/1500000
+Post-expand include size: 75260/2048000 bytes
+Template argument size: 26507/2048000 bytes
+Highest expansion depth: 17/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:18716923-0!0!0!!en!4!* and timestamp 20130209174819 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Algebra&oldid=537411164.php.html">http://en.wikipedia.org/w/index.php?title=Algebra&amp;oldid=537411164</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Algebra" title="Category:Algebra">Algebra</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_with_inconsistent_citation_formats" title="Category:Articles with inconsistent citation formats">Articles with inconsistent citation formats</a></li><li><a href="Category_Wikipedia_indefinitely_move-protected_pages" title="Category:Wikipedia indefinitely move-protected pages">Wikipedia indefinitely move-protected pages</a></li><li><a href="Category_Wikipedia_semi-protected_pages" title="Category:Wikipedia semi-protected pages">Wikipedia semi-protected pages</a></li><li><a href="Category_Articles_containing_Arabic_language_text" title="Category:Articles containing Arabic language text">Articles containing Arabic language text</a></li><li><a href="Category_Article_Feedback_5_Additional_Articles" title="Category:Article Feedback 5 Additional Articles">Article Feedback 5 Additional Articles</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Algebra&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Algebra.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Algebra"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="../../w/index-title=Algebra&action=edit.php.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Algebra&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Algebra" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Algebra" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Algebra&oldid=537411164.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Algebra&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Algebra&id=537411164.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Algebra.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Algebra&oldid=537411164&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Algebra&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-kbd"><a href="http://kbd.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D1%8D" title="Алгебрэ" lang="kbd" hreflang="kbd">Адыгэбзэ</a></li>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Algebra" title="Algebra" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ang"><a href="http://ang.wikipedia.org/wiki/R%C4%ABma%C8%9Diefun%C8%9D" title="Rīmaȝiefunȝ" lang="ang" hreflang="ang">Ænglisc</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1" title="جبر" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Alchebra" title="Alchebra" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/%C3%81lxebra" title="Álxebra" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/C%C9%99br" title="Cəbr" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" title="বীজগণিত" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-zh-min-nan"><a href="http://zh-min-nan.wikipedia.org/wiki/T%C4%81i-s%C3%B2%CD%98" title="Tāi-sò͘" lang="zh-min-nan" hreflang="zh-min-nan">Bân-lâm-gú</a></li>
+			<li class="interwiki-ba"><a href="http://ba.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="ba" hreflang="ba">Башҡортса</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Альгебра" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Algebra" title="Algebra" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/%C3%80lgebra" title="Àlgebra" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Algebra" title="Algebra" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-co"><a href="http://co.wikipedia.org/wiki/Algebra" title="Algebra" lang="co" hreflang="co">Corsu</a></li>
+			<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/Algebra" title="Algebra" lang="cy" hreflang="cy">Cymraeg</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Algebra" title="Algebra" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Algebra" title="Algebra" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Algebra" title="Algebra" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%86%CE%BB%CE%B3%CE%B5%CE%B2%CF%81%CE%B1" title="Άλγεβρα" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-eml"><a href="http://eml.wikipedia.org/wiki/Algebra" title="Algebra" lang="eml" hreflang="eml">Emiliàn e rumagnòl</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/%C3%81lgebra" title="Álgebra" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Algebro" title="Algebro" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Aljebra" title="Aljebra" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1" title="جبر" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-hif"><a href="http://hif.wikipedia.org/wiki/Algebra" title="Algebra" lang="hif" hreflang="hif">Fiji Hindi</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Alg%C3%A8bre" title="Algèbre" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-fy"><a href="http://fy.wikipedia.org/wiki/Algebra" title="Algebra" lang="fy" hreflang="fy">Frysk</a></li>
+			<li class="interwiki-gd"><a href="http://gd.wikipedia.org/wiki/Ailseabra" title="Ailseabra" lang="gd" hreflang="gd">Gàidhlig</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/%C3%81lxebra" title="Álxebra" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/%E4%BB%A3%E6%95%B8" title="代數" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%8C%80%EC%88%98%ED%95%99" title="대수학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D5%80%D5%A1%D5%B6%D6%80%D5%A1%D5%B0%D5%A1%D5%B7%D5%AB%D5%BE" title="Հանրահաշիվ" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%80%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" title="बीजगणित" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Algebra" title="Algebra" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Algebro" title="Algebro" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Aljabar" title="Aljabar" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-ia"><a href="http://ia.wikipedia.org/wiki/Algebra" title="Algebra" lang="ia" hreflang="ia">Interlingua</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Algebra" title="Algebra" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Algebra" title="Algebra" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%94" title="אלגברה" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-jv"><a href="http://jv.wikipedia.org/wiki/Aljabar" title="Aljabar" lang="jv" hreflang="jv">Basa Jawa</a></li>
+			<li class="interwiki-kn"><a href="http://kn.wikipedia.org/wiki/%E0%B2%AC%E0%B3%80%E0%B2%9C%E0%B2%97%E0%B2%A3%E0%B2%BF%E0%B2%A4" title="ಬೀಜಗಣಿತ" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9A%E1%83%92%E1%83%94%E1%83%91%E1%83%A0%E1%83%90" title="ალგებრა" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-sw"><a href="http://sw.wikipedia.org/wiki/Aljebra" title="Aljebra" lang="sw" hreflang="sw">Kiswahili</a></li>
+			<li class="interwiki-ht"><a href="http://ht.wikipedia.org/wiki/Alj%C3%A8b" title="Aljèb" lang="ht" hreflang="ht">Kreyòl ayisyen</a></li>
+			<li class="interwiki-ky"><a href="http://ky.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="ky" hreflang="ky">Кыргызча</a></li>
+			<li class="interwiki-lo"><a href="http://lo.wikipedia.org/wiki/%E0%BA%9E%E0%BA%B6%E0%BA%94%E0%BA%8A%E0%BA%B0%E0%BA%84%E0%BA%B0%E0%BA%99%E0%BA%B4%E0%BA%94" title="ພຶດຊະຄະນິດ" lang="lo" hreflang="lo">ລາວ</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Algebra" title="Algebra" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Algebra" title="Algebra" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Algebra" title="Algebra" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-lij"><a href="http://lij.wikipedia.org/wiki/Algebra" title="Algebra" lang="lij" hreflang="lij">Ligure</a></li>
+			<li class="interwiki-jbo"><a href="http://jbo.wikipedia.org/wiki/alxebra" title="alxebra" lang="jbo" hreflang="jbo">Lojban</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Algebra" title="Algebra" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-mg"><a href="http://mg.wikipedia.org/wiki/Aljebra" title="Aljebra" lang="mg" hreflang="mg">Malagasy</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%AC%E0%B5%80%E0%B4%9C%E0%B4%97%E0%B4%A3%E0%B4%BF%E0%B4%A4%E0%B4%82" title="ബീജഗണിതം" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-mt"><a href="http://mt.wikipedia.org/wiki/Al%C4%A1ebra" title="Alġebra" lang="mt" hreflang="mt">Malti</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%AC%E0%A5%80%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" title="बीजगणित" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-arz"><a href="http://arz.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1" title="جبر" lang="arz" hreflang="arz">مصرى</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Algebra" title="Algebra" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mwl"><a href="http://mwl.wikipedia.org/wiki/%C3%81lgebra" title="Álgebra" lang="mwl" hreflang="mwl">Mirandés</a></li>
+			<li class="interwiki-my"><a href="http://my.wikipedia.org/wiki/%E1%80%A1%E1%80%80%E1%80%B9%E1%80%81%E1%80%9B%E1%80%AC%E1%80%9E%E1%80%84%E1%80%BA%E1%80%B9%E1%80%81%E1%80%BB%E1%80%AC" title="အက္ခရာသင်္ချာ" lang="my" hreflang="my">မြန်မာဘာသာ</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Algebra" title="Algebra" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ne"><a href="http://ne.wikipedia.org/wiki/%E0%A4%AC%E0%A4%BF%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" title="बिजगणित" lang="ne" hreflang="ne">नेपाली</a></li>
+			<li class="interwiki-new"><a href="http://new.wikipedia.org/wiki/%E0%A4%AC%E0%A5%80%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" title="बीजगणित" lang="new" hreflang="new">नेपाल भाषा</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E4%BB%A3%E6%95%B0%E5%AD%A6" title="代数学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Algebra" title="Algebra" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Algebra" title="Algebra" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Algebra" title="Algebra" lang="nov" hreflang="nov">Novial</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Alg%C3%A8bra" title="Algèbra" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-uz"><a href="http://uz.wikipedia.org/wiki/Algebra" title="Algebra" lang="uz" hreflang="uz">Oʻzbekcha</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D8%A7" title="الجبرا" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-ps"><a href="http://ps.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D8%A8%D8%B1" title="الجبر" lang="ps" hreflang="ps">پښتو</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/%C3%80lgebra" title="Àlgebra" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Algebra" title="Algebra" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/%C3%81lgebra" title="Álgebra" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Algebr%C4%83" title="Algebră" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-qu"><a href="http://qu.wikipedia.org/wiki/Qillqanancha_kamay" title="Qillqanancha kamay" lang="qu" hreflang="qu">Runa Simi</a></li>
+			<li class="interwiki-rue"><a href="http://rue.wikipedia.org/wiki/%D0%90%D0%BB%D2%91%D0%B5%D0%B1%D1%80%D0%B0" title="Алґебра" lang="rue" hreflang="rue">Русиньскый</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sah"><a href="http://sah.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="sah" hreflang="sah">Саха тыла</a></li>
+			<li class="interwiki-sco"><a href="http://sco.wikipedia.org/wiki/Algebra" title="Algebra" lang="sco" hreflang="sco">Scots</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Algjebra" title="Algjebra" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/%C3%80lgibbra" title="Àlgibbra" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%93%E0%B6%A2_%E0%B6%9C%E0%B6%AB%E0%B7%92%E0%B6%AD%E0%B6%BA" title="වීජ ගණිතය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Algebra" title="Algebra" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Algebra" title="Algebra" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Algebra" title="Algebra" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-so"><a href="http://so.wikipedia.org/wiki/Aljebra" title="Aljebra" lang="so" hreflang="so">Soomaaliga</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Algebra" title="Algebra" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Algebra" title="Algebra" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Algebra" title="Algebra" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Alhebra" title="Alhebra" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" title="இயற்கணிதம்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-tt"><a href="http://tt.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="tt" hreflang="tt">Татарча/tatarça</a></li>
+			<li class="interwiki-te"><a href="http://te.wikipedia.org/wiki/%E0%B0%AC%E0%B1%80%E0%B0%9C%E0%B0%97%E0%B0%A3%E0%B0%BF%E0%B0%A4%E0%B0%82" title="బీజగణితం" lang="te" hreflang="te">తెలుగు</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B8%8A%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95" title="พีชคณิต" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tg"><a href="http://tg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="tg" hreflang="tg">Тоҷикӣ</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Cebir" title="Cebir" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-tk"><a href="http://tk.wikipedia.org/wiki/Algebra" title="Algebra" lang="tk" hreflang="tk">Türkmençe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Алгебра" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D8%A7" title="الجبرا" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vec"><a href="http://vec.wikipedia.org/wiki/%C3%80lgebra" title="Àlgebra" lang="vec" hreflang="vec">Vèneto</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91" title="Đại số" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-fiu-vro"><a href="http://fiu-vro.wikipedia.org/wiki/Alg%C3%B5bra" title="Algõbra" lang="fiu-vro" hreflang="fiu-vro">Võro</a></li>
+			<li class="interwiki-zh-classical"><a href="http://zh-classical.wikipedia.org/wiki/%E4%BB%A3%E6%95%B8%E5%AD%B8" title="代數學" lang="zh-classical" hreflang="zh-classical">文言</a></li>
+			<li class="interwiki-vls"><a href="http://vls.wikipedia.org/wiki/Algebra" title="Algebra" lang="vls" hreflang="vls">West-Vlams</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Alhebra" title="Alhebra" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-yi"><a href="http://yi.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%A2%D7%91%D7%A8%D7%A2" title="אלגעברע" lang="yi" hreflang="yi">ייִדיש</a></li>
+			<li class="interwiki-yo"><a href="http://yo.wikipedia.org/wiki/%C3%81lj%E1%BA%B9%CC%81br%C3%A0" title="Áljẹ́brà" lang="yo" hreflang="yo">Yorùbá</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/%E4%BB%A3%E6%95%B8%E5%AD%B8" title="代數學" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-bat-smg"><a href="http://bat-smg.wikipedia.org/wiki/Algebra" title="Algebra" lang="bat-smg" hreflang="bat-smg">Žemaitėška</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E6%95%B0" title="代数" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 9 February 2013 at 17:48.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Algebra" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","mobile.desktop","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1106 in 0.202 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

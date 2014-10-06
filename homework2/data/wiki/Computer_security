@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Computer security - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Computer_security&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Computer_security&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Computer_security","wgTitle":"Computer security","wgCurRevisionId":537717211,"wgArticleId":7398,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from September 2010","All articles needing additional references","Wikipedia articles needing style editing from November 2012","All articles needing style editing","All articles that may contain original research","Articles that may contain original research from December 2010","Wikipedia articles needing clarification from February 2009","All articles with unsourced statements","Articles with unsourced statements from August 2010","Articles with unsourced statements from December 2010","Articles with unsourced statements from April 2009","Articles with limited geographic scope from December 2010","Pages in non-existent country centric categories","Articles needing cleanup from November 2010","All articles needing cleanup","Cleanup tagged articles without a reason field from November 2010","Wikipedia pages needing cleanup from November 2010","Articles lacking in-text citations from September 2010","All articles lacking in-text citations","Computer security","E-commerce","Secure communication","Computer network security","Crime prevention","National security"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Computer_security","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"47c2d14575a9f5cbc0c17512d4da046f","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":7398,"title":"Computer security","namespace":0,"categories":["All articles lacking in-text citations","All articles needing additional references","All articles needing cleanup","All articles needing style editing","All articles that may contain original research","All articles with unsourced statements","Articles lacking in-text citations from September 2010","Articles needing additional references from September 2010","Articles needing cleanup from November 2010","Articles that may contain original research from December 2010","Articles with limited geographic scope from December 2010","Articles with unsourced statements from April 2009","Articles with unsourced statements from August 2010","Articles with unsourced statements from December 2010","Cleanup tagged articles without a reason field from November 2010","Computer network security","Computer security","Crime prevention","E-commerce","National security","Pages in non-existent country centric categories","Secure communication","Wikipedia articles needing clarification from February 2009","Wikipedia articles needing style editing from November 2012","Wikipedia pages needing cleanup from November 2010"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Computer_security skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Computer security</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article is about computer security through design and engineering.  For computer security exploits and defenses, see <a href="Computer_insecurity" title="Computer insecurity">computer insecurity</a>.</div>
+<table class="vertical-navbox nowraplinks" cellspacing="5" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;background:#ffc0c0"><strong class="selflink">Computer security</strong></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="plainlist" style="margin-left: 0em;">
+<ul>
+<li><a href="Security-focused_operating_system" title="Security-focused operating system">Secure operating systems</a></li>
+<li><a href="Security_by_design" title="Security by design" class="mw-redirect">Security by design</a></li>
+<li><a href="Secure_coding" title="Secure coding">Secure coding</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;background:#ffc0c0; font-size:larger;"><a href="Computer_insecurity" title="Computer insecurity">Computer insecurity</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;text-align:left">
+<ul>
+<li><a href="Vulnerability_(computing)" title="Vulnerability (computing)">Vulnerability</a>
+<ul>
+<li><a href="Eavesdropping" title="Eavesdropping">Eavesdropping</a></li>
+</ul>
+</li>
+<li><a href="Exploit_(computer_security)" title="Exploit (computer security)">Exploits</a>
+<ul>
+<li><a href="Trojan_horse_(computing)" title="Trojan horse (computing)">Trojans</a></li>
+<li><a href="Computer_virus" title="Computer virus">Viruses</a> and <a href="Computer_worm" title="Computer worm">worms</a></li>
+<li><a href="Denial_of_service" title="Denial of service" class="mw-redirect">Denial of service</a></li>
+</ul>
+</li>
+<li><a href="Payload_(computing)" title="Payload (computing)">Payloads</a>
+<ul>
+<li><a href="Rootkit" title="Rootkit">Rootkits</a></li>
+<li><a href="Keylogger" title="Keylogger" class="mw-redirect">Keyloggers</a></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Computer_security" title="Template:Computer security"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Computer_security" title="Template talk:Computer security"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Computer_security&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Computer_security&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(September 2010)</i></small> </span></td>
+</tr>
+</table>
+<table class="metadata plainlinks ambox ambox-style ambox-essay-like" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>is written like a <a href="Wikipedia_What_Wikipedia_is_not#PUBLISHER" title="Wikipedia:What Wikipedia is not">personal reflection or essay</a> rather than an encyclopedic description of the subject</b>. <span class="hide-when-compact">Please <a class="external text" href="../../w/index-title=Computer_security&action=edit.php.html">help improve it</a> by rewriting it in an <a href="Wikipedia_Encyclopedic_style" title="Wikipedia:Encyclopedic style" class="mw-redirect">encyclopedic style</a>.</span> <small><i>(November 2012)</i></small> </span></td>
+</tr>
+</table>
+<p><b>Computer security</b> is <a href="Information_security" title="Information security">information security</a> as applied to <a href="Computer" title="Computer">computers</a> and networks.</p>
+<p>The field covers all the processes and mechanisms by which computer-based equipment, information and services are protected from unintended or unauthorized access, change or destruction. Computer security also includes protection from unplanned events and natural disasters.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Security_by_design"><span class="tocnumber">1</span> <span class="toctext">Security by design</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Security_architecture"><span class="tocnumber">2</span> <span class="toctext">Security architecture</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Hardware_mechanisms_that_protect_computers_and_data"><span class="tocnumber">3</span> <span class="toctext">Hardware mechanisms that protect computers and data</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Secure_operating_systems"><span class="tocnumber">4</span> <span class="toctext">Secure operating systems</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Secure_coding"><span class="tocnumber">5</span> <span class="toctext">Secure coding</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Capabilities_and_access_control_lists"><span class="tocnumber">6</span> <span class="toctext">Capabilities and access control lists</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Applications"><span class="tocnumber">7</span> <span class="toctext">Applications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Cloud_computing_security"><span class="tocnumber">7.1</span> <span class="toctext">Cloud computing security</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Aviation"><span class="tocnumber">7.2</span> <span class="toctext">Aviation</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Notable_system_accidents"><span class="tocnumber">7.2.1</span> <span class="toctext">Notable system accidents</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Cybersecurity_breach_stories"><span class="tocnumber">8</span> <span class="toctext">Cybersecurity breach stories</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Computer_security_policy"><span class="tocnumber">9</span> <span class="toctext">Computer security policy</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#United_States"><span class="tocnumber">9.1</span> <span class="toctext">United States</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#Cybersecurity_Act_of_2010"><span class="tocnumber">9.1.1</span> <span class="toctext">Cybersecurity Act of 2010</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#International_Cybercrime_Reporting_and_Cooperation_Act"><span class="tocnumber">9.1.2</span> <span class="toctext">International Cybercrime Reporting and Cooperation Act</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Protecting_Cyberspace_as_a_National_Asset_Act_of_2010"><span class="tocnumber">9.1.3</span> <span class="toctext">Protecting Cyberspace as a National Asset Act of 2010</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#White_House_proposes_cybersecurity_legislation"><span class="tocnumber">9.1.4</span> <span class="toctext">White House proposes cybersecurity legislation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="#Germany"><span class="tocnumber">9.2</span> <span class="toctext">Germany</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#Berlin_starts_National_Cyber_Defense_Initiative"><span class="tocnumber">9.2.1</span> <span class="toctext">Berlin starts National Cyber Defense Initiative</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-20"><a href="#Hacking_Back"><span class="tocnumber">9.3</span> <span class="toctext">Hacking Back</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Terminology"><span class="tocnumber">10</span> <span class="toctext">Terminology</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Legal_issues_and_global_regulation"><span class="tocnumber">11</span> <span class="toctext">Legal issues and global regulation</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Notes"><span class="tocnumber">12</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#See_also"><span class="tocnumber">13</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#References"><span class="tocnumber">14</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#External_links"><span class="tocnumber">15</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=1.php.html" title="Edit section: Security by design">edit</a>]</span> <span class="mw-headline" id="Security_by_design">Security by design</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Security_by_design" title="Security by design" class="mw-redirect">Security by design</a></div>
+<p>One approach to computer security is to consider security as one of the base features.</p>
+<p>Some of the techniques in this approach include:</p>
+<ul>
+<li>The <a href="Principle_of_least_privilege" title="Principle of least privilege">principle of least privilege</a>, where each part of the system has only the privileges that are needed for its function. That way even if an <a href="Attacker" title="Attacker">attacker</a> gains access to that part, they have only limited access to the whole system.</li>
+<li><a href="Automated_theorem_proving" title="Automated theorem proving">Automated theorem proving</a> to prove the correctness of crucial software subsystems.</li>
+<li><a href="Code_review" title="Code review">Code reviews</a> and <a href="Unit_testing" title="Unit testing">unit testing</a> are approaches to make modules more secure where formal correctness proofs are not possible</li>
+<li><a href="Defense_in_depth_(computing)" title="Defense in depth (computing)">Defense in depth</a>", where the design is such that more than one subsystem needs to be violated to compromise the integrity of the system and the information it holds.</li>
+<li>Default secure settings, and design to "fail secure" rather than "fail insecure" (see <a href="Fail-safe" title="Fail-safe">fail-safe</a> for the equivalent in <a href="Safety_engineering" title="Safety engineering">safety engineering</a>). Ideally, a secure system should require a deliberate, conscious, knowledgeable and free decision on the part of legitimate authorities in order to make it insecure.</li>
+<li><a href="Audit_trail" title="Audit trail">Audit trails</a> tracking system activity, so that when a security breach occurs, the mechanism and extent of the breach can be determined. Storing audit trails remotely, where they can only be appended to, can keep intruders from covering their tracks.</li>
+<li><a href="Full_disclosure" title="Full disclosure">Full disclosure</a> to ensure that when bugs are found the "<a href="Vulnerability_(computing)" title="Vulnerability (computing)">window of vulnerability</a>" is kept as short as possible.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=2.php.html" title="Edit section: Security architecture">edit</a>]</span> <span class="mw-headline" id="Security_architecture">Security architecture</span></h2>
+<p>Security Architecture can be defined as the design artifacts that describe how the security controls (security countermeasures) are positioned, and how they relate to the overall information technology architecture. These controls serve to maintain the system's quality attributes: <a href="Confidentiality" title="Confidentiality">confidentiality</a>, <a href="Integrity" title="Integrity">integrity</a>, <a href="Availability" title="Availability">availability</a>, <a href="Accountability" title="Accountability">accountability</a> and <a href="Assurance_services" title="Assurance services">assurance services</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=3.php.html" title="Edit section: Hardware mechanisms that protect computers and data">edit</a>]</span> <span class="mw-headline" id="Hardware_mechanisms_that_protect_computers_and_data">Hardware mechanisms that protect computers and data</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Computer_security_compromised_by_hardware_failure" title="Computer security compromised by hardware failure">Computer security compromised by hardware failure</a></div>
+<p>Hardware based or assisted computer security offers an alternative to software-only computer security. Devices such as <a href="Dongle" title="Dongle">dongles</a>, case intrusion detection, drive locks, or disabling USB ports, or CD ROM Drives may be considered more secure due to the physical access required in order to be compromised<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_No_original_research" title="Wikipedia:No original research"><span title="The material in the vicinity of this tag may be based upon unreliable original research from December 2010">original research?</span></a></i>]</sup>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=4.php.html" title="Edit section: Secure operating systems">edit</a>]</span> <span class="mw-headline" id="Secure_operating_systems">Secure operating systems</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Security-focused_operating_system" title="Security-focused operating system">Security-focused operating system</a></div>
+<p>One use of the term computer security refers to technology to implement a secure <a href="Operating_system" title="Operating system">operating system</a>. Much of this technology is based on science developed in the 1980s and used to produce what may be some of the most impenetrable operating systems ever. Though still valid, the technology is in limited use today, primarily because it imposes some changes to system management and also because it is not widely understood. Such ultra-strong secure operating systems are based on <a href="Operating_system_kernel" title="Operating system kernel" class="mw-redirect">operating system kernel</a> technology that can guarantee that certain security policies are absolutely enforced in an operating environment. An example of such a <a href="Computer_security_policy" title="Computer security policy">Computer security policy</a> is the <a href="Bell-LaPadula_model" title="Bell-LaPadula model" class="mw-redirect">Bell-LaPadula model</a>. The strategy is based on a coupling of special <a href="Microprocessor" title="Microprocessor">microprocessor</a> hardware features, often involving the <a href="Memory_management_unit" title="Memory management unit">memory management unit</a>, to a special correctly implemented operating system kernel. This forms the foundation for a secure operating system which, if certain critical parts are designed and implemented correctly, can ensure the absolute impossibility of penetration by hostile elements. This capability is enabled because the configuration not only imposes a security policy, but in theory completely protects itself from corruption. Ordinary operating systems, on the other hand, lack the features that assure this maximal level of security. The design methodology to produce such secure systems is precise, deterministic and logical.</p>
+<p>Systems designed with such methodology represent the state of the art<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="The text in the vicinity of this tag needs clarification or removal of jargon from February 2009">clarification needed</span></a></i>]</sup> of computer security although products using such security are not widely known. In sharp contrast to most kinds of software, they meet specifications with verifiable certainty comparable to specifications for size, weight and power. Secure operating systems designed this way are used primarily to protect national security information, military secrets, and the data of international financial institutions. These are very powerful security tools and very few secure operating systems have been certified at the highest level (<a href="Trusted_Computer_System_Evaluation_Criteria" title="Trusted Computer System Evaluation Criteria">Orange Book</a> A-1) to operate over the range of "Top Secret" to "unclassified" (including Honeywell SCOMP, USAF SACDIN, NSA Blacker and Boeing MLS LAN.) The assurance of security depends not only on the soundness of the design strategy, but also on the assurance of correctness of the implementation, and therefore there are degrees of security strength defined for COMPUSEC. The <a href="Common_Criteria" title="Common Criteria">Common Criteria</a> quantifies security strength of products in terms of two components, security functionality and assurance level (such as EAL levels), and these are specified in a <a href="Protection_Profile" title="Protection Profile">Protection Profile</a> for requirements and a <a href="Security_Target" title="Security Target">Security Target</a> for product descriptions. None of these ultra-high assurance secure general purpose operating systems have been produced for decades or certified under Common Criteria.</p>
+<p>In USA parlance, the term High Assurance usually suggests the system has the right security functions that are implemented robustly enough to protect DoD and DoE classified information. Medium assurance suggests it can protect less valuable information, such as income tax information. Secure operating systems designed to meet medium robustness levels of security functionality and assurance have seen wider use within both government and commercial markets. Medium robust systems may provide the same security functions as high assurance secure operating systems but do so at a lower assurance level (such as Common Criteria levels EAL4 or EAL5). Lower levels mean we can be less certain that the security functions are implemented flawlessly, and therefore less dependable. These systems are found in use on web servers, guards, database servers, and management hosts and are used not only to protect the data stored on these systems but also to provide a high level of protection for network connections and routing services.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=5.php.html" title="Edit section: Secure coding">edit</a>]</span> <span class="mw-headline" id="Secure_coding">Secure coding</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Secure_coding" title="Secure coding">Secure coding</a></div>
+<p>If the operating environment is not based on a secure operating system capable of maintaining a domain for its own execution, and capable of protecting application code from malicious subversion, and capable of protecting the system from subverted code, then high degrees of security are understandably not possible. While such secure operating systems are possible and have been implemented, most commercial systems fall in a 'low security' category because they rely on features not supported by secure operating systems (like portability, and others). In low security operating environments, applications must be relied on to participate in their own protection. There are 'best effort' secure coding practices that can be followed to make an application more resistant to malicious subversion.</p>
+<p>In commercial environments, the majority of software subversion <a href="Vulnerability_(computing)" title="Vulnerability (computing)">vulnerabilities</a> result from a few known kinds of coding defects. Common software defects include <a href="Buffer_overflows" title="Buffer overflows" class="mw-redirect">buffer overflows</a>, <a href="Format_string_vulnerabilities" title="Format string vulnerabilities" class="mw-redirect">format string vulnerabilities</a>, <a href="Integer_overflow" title="Integer overflow">integer overflow</a>, and <a href="Code_injection" title="Code injection">code/command injection</a>. These defects can be used to cause the target system to execute putative data. However, the "data" contain executable instructions, allowing the attacker to gain control of the processor.</p>
+<p>Some common languages such as C and C++ are vulnerable to all of these defects (see <a rel="nofollow" class="external text" href="http://www.cert.org/books/secure-coding">Seacord, <i>"Secure Coding in C and C++"</i></a>). Other languages, such as Java, are more resistant to some of these defects, but are still prone to code/command injection and other software defects which facilitate subversion.</p>
+<p>Recently another bad coding practice has come under scrutiny; <a href="Dangling_pointer" title="Dangling pointer">dangling pointers</a>. The first known exploit for this particular problem was presented in July 2007. Before this publication the problem was known but considered to be academic and not practically exploitable.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Unfortunately, there is no theoretical model of "secure coding" practices, nor is one practically achievable, insofar as the code (ideally, read-only) and data (generally read/write) generally tends to have some form of defect.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=6.php.html" title="Edit section: Capabilities and access control lists">edit</a>]</span> <span class="mw-headline" id="Capabilities_and_access_control_lists">Capabilities and access control lists</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Access_control_list" title="Access control list">Access control list</a> and <a href="Capability_(computers)" title="Capability (computers)" class="mw-redirect">Capability (computers)</a></div>
+<p>Within computer systems, two security models capable of enforcing privilege separation are <a href="Access_control_list" title="Access control list">access control lists</a> (ACLs) and <a href="Capability-based_security" title="Capability-based security">capability-based security</a>. The semantics of ACLs have been proven to be insecure in many situations, for example, the <a href="Confused_deputy_problem" title="Confused deputy problem">confused deputy problem</a>. It has also been shown that the promise of ACLs of giving access to an object to only one person can never be guaranteed in practice. Both of these problems are resolved by capabilities. This does not mean practical flaws exist in all ACL-based systems, but only that the designers of certain utilities must take responsibility to ensure that they do not introduce flaws.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2010">citation needed</span></a></i>]</sup></p>
+<p>Capabilities have been mostly restricted to research <a href="Operating_system" title="Operating system">operating systems</a> and commercial OSs still use ACLs. Capabilities can, however, also be implemented at the language level, leading to a style of programming that is essentially a refinement of standard object-oriented design. An open source project in the area is the <a href="E_programming_language" title="E programming language" class="mw-redirect">E language</a>.</p>
+<p>The most secure computers are those not connected to the Internet and shielded from any interference. In the real world, the most secure systems are <a href="Operating_system" title="Operating system">operating systems</a> where <a href="Security" title="Security">security</a> is not an add-on.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=7.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h2>
+<p>Computer security is critical in almost any technology-driven industry which operates on computer systems. The issues of computer based systems and addressing their countless vulnerabilities are an integral part of maintaining an operational industry.<sup id="cite_ref-FAA_Computer_Security_3-0" class="reference"><a href="#cite_note-FAA_Computer_Security-3"><span>[</span>3<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=8.php.html" title="Edit section: Cloud computing security">edit</a>]</span> <span class="mw-headline" id="Cloud_computing_security">Cloud computing security</span></h3>
+<p>Security in the cloud is challenging<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from December 2010">citation needed</span></a></i>]</sup>, due to varied degrees of security features and management schemes within the cloud entitites. In this connection one logical protocol base need to evolve so that the entire gamut of components operates synchronously and securely<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_No_original_research" title="Wikipedia:No original research"><span title="The material in the vicinity of this tag may be based upon unreliable original research from December 2010">original research?</span></a></i>]</sup>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=9.php.html" title="Edit section: Aviation">edit</a>]</span> <span class="mw-headline" id="Aviation">Aviation</span></h3>
+<p>The aviation industry is especially important when analyzing computer security because the involved risks include human life, expensive equipment, cargo, and transportation infrastructure. Security can be compromised by hardware and software malpractice, human error, and faulty operating environments. Threats that exploit computer vulnerabilities can stem from sabotage, espionage, industrial competition, terrorist attack, mechanical malfunction, and human error.<sup id="cite_ref-Computer_Security_in_Aviation_4-0" class="reference"><a href="#cite_note-Computer_Security_in_Aviation-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>The consequences of a successful deliberate or inadvertent misuse of a computer system in the aviation industry range from loss of confidentiality to loss of system integrity, which may lead to more serious concerns such as data theft or loss, network and <a href="Air_traffic_control" title="Air traffic control">air traffic control</a> outages, which in turn can lead to airport closures, loss of aircraft, loss of passenger life. <a href="Military" title="Military">Military</a> systems that control munitions can pose an even greater risk.</p>
+<p>A proper attack does not need to be very high tech or well funded; for a power outage at an airport alone can cause repercussions worldwide.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> One of the easiest and, arguably, the most difficult to trace security vulnerabilities is achievable by transmitting unauthorized communications over specific radio frequencies. These transmissions may spoof air traffic controllers or simply disrupt communications altogether. These incidents are very common, having altered flight courses of commercial aircraft and caused panic and confusion in the past.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from April 2009">citation needed</span></a></i>]</sup> Controlling aircraft over oceans is especially dangerous because radar surveillance only extends 175 to 225 miles offshore. Beyond the radar's sight controllers must rely on periodic radio communications with a third party.</p>
+<p>Lightning, power fluctuations, surges, <a href="Brownout_(electricity)" title="Brownout (electricity)">brownouts</a>, blown fuses, and various other power outages instantly disable all computer systems, since they are dependent on an electrical source. Other accidental and intentional faults have caused significant disruption of safety critical systems throughout the last few decades and dependence on reliable communication and electrical power only jeopardizes computer safety.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from April 2009">citation needed</span></a></i>]</sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=10.php.html" title="Edit section: Notable system accidents">edit</a>]</span> <span class="mw-headline" id="Notable_system_accidents">Notable system accidents</span></h4>
+<p>In 1994, over a hundred intrusions were made by unidentified hackers into the Rome Laboratory, the US Air Force's main command and research facility. Using <a href="Trojan_horse_(computing)" title="Trojan horse (computing)">trojan horse</a> viruses, hackers were able to obtain unrestricted access to Rome's networking systems and remove traces of their activities. The intruders were able to obtain classified files, such as air tasking order systems data and furthermore able to penetrate connected networks of <a href="National_Aeronautics_and_Space_Administration" title="National Aeronautics and Space Administration" class="mw-redirect">National Aeronautics and Space Administration</a>'s Goddard Space Flight Center, Wright-Patterson Air Force Base, some Defense contractors, and other private sector organizations, by posing as a trusted Rome center user.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=11.php.html" title="Edit section: Cybersecurity breach stories">edit</a>]</span> <span class="mw-headline" id="Cybersecurity_breach_stories">Cybersecurity breach stories</span></h2>
+<p>One true story that shows what mainstream <a href="Generative_programming" title="Generative programming" class="mw-redirect">generative</a> technology leads to in terms of online security breaches is the story of the Internet's first <a href="Computer_worm" title="Computer worm">worm</a>.</p>
+<p>In 1988, 60,000 computers were connected to the Internet, but not all of them were PCs. Most were mainframes, minicomputers and professional workstations. On November 2, 1988, the computers acted strangely. They started to slow down, because they were running a malicious code that demanded processor time and that spread itself to other computers. The purpose of such software was to transmit a copy to the machines and run in parallel with existing software and repeat all over again. It exploited a flaw in a common e-mail transmission program running on a computer by rewriting it to facilitate its entrance or it guessed users' password, because, at that time, passwords were simple (e.g. username 'harry' with a password '...harry') or were obviously related to a list of 432 common passwords tested at each computer.<sup id="cite_ref-multiple_7-0" class="reference"><a href="#cite_note-multiple-7"><span>[</span>7<span>]</span></a></sup></p>
+<p>The software was traced back to 23 year old <a href="Cornell_University" title="Cornell University">Cornell University</a> graduate student <a href="Robert_Tappan_Morris,_Jr." title="Robert Tappan Morris, Jr." class="mw-redirect">Robert Tappan Morris, Jr.</a>. When questioned about the motive for his actions, Morris said 'he wanted to count how many machines were connected to the Internet'.<sup id="cite_ref-multiple_7-1" class="reference"><a href="#cite_note-multiple-7"><span>[</span>7<span>]</span></a></sup> His explanation was verified with his code, but it turned out to be buggy, nevertheless.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=12.php.html" title="Edit section: Computer security policy">edit</a>]</span> <span class="mw-headline" id="Computer_security_policy">Computer security policy</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-globalize" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="Globe icon." src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_globe_content.svg/48px-Ambox_globe_content.svg.png" width="48" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_globe_content.svg/73px-Ambox_globe_content.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_globe_content.svg/97px-Ambox_globe_content.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">The examples and perspective in this section <b>may not represent a <a href="Wikipedia_WikiProject_Countering_systemic_bias" title="Wikipedia:WikiProject Countering systemic bias">worldwide view</a> of the subject</b>. <span class="hide-when-compact">Please <a class="external text" href="../../w/index-title=Computer_security&action=edit.php.html">improve this article</a> and discuss the issue on the <a href="Talk_Computer_security" title="Talk:Computer security">talk page</a>.</span> <small><i>(December 2010)</i></small> </span></td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=13.php.html" title="Edit section: United States">edit</a>]</span> <span class="mw-headline" id="United_States">United States</span></h3>
+<h4><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=14.php.html" title="Edit section: Cybersecurity Act of 2010">edit</a>]</span> <span class="mw-headline" id="Cybersecurity_Act_of_2010">Cybersecurity Act of 2010</span></h4>
+<p>On April 1, 2009, Senator <a href="Jay_Rockefeller" title="Jay Rockefeller">Jay Rockefeller</a> (D-WV) introduced the "Cybersecurity Act of 2009 - S. 773" (<a rel="nofollow" class="external text" href="http://www.opencongress.org/bill/111-s773/text">full text</a>) in the <a href="United_States_Senate" title="United States Senate">Senate</a>; the bill, co-written with Senators <a href="Evan_Bayh" title="Evan Bayh">Evan Bayh</a> (D-IN), <a href="Barbara_Mikulski" title="Barbara Mikulski">Barbara Mikulski</a> (D-MD), <a href="Bill_Nelson" title="Bill Nelson">Bill Nelson</a> (D-FL), and <a href="Olympia_Snowe" title="Olympia Snowe">Olympia Snowe</a> (R-ME), was referred to the <a href="Committee_on_Commerce,_Science,_and_Transportation" title="Committee on Commerce, Science, and Transportation" class="mw-redirect">Committee on Commerce, Science, and Transportation</a>, which approved a revised version of the same bill (the "Cybersecurity Act of 2010") on March 24, 2010.<sup id="cite_ref-computerworldapproval_8-0" class="reference"><a href="#cite_note-computerworldapproval-8"><span>[</span>8<span>]</span></a></sup> The bill seeks to increase collaboration between the public and the private sector on cybersecurity issues, especially those private entities that own infrastructures that are critical to national security interests (the bill quotes <a href="../John_O._Brennan" title="John O. Brennan">John Brennan</a>, the Assistant to the President for Homeland Security and Counterterrorism: "our nation’s security and economic prosperity depend on the security, stability, and integrity of communications and <a href="Information_infrastructure" title="Information infrastructure" class="mw-redirect">information infrastructure</a> that are largely privately owned and globally operated" and talks about the country's response to a "cyber-<a href="Hurricane_Katrina" title="Hurricane Katrina">Katrina</a>".<sup id="cite_ref-cybersecurity2010_9-0" class="reference"><a href="#cite_note-cybersecurity2010-9"><span>[</span>9<span>]</span></a></sup>), increase public awareness on cybersecurity issues, and foster and fund cybersecurity research. Some of the most controversial parts of the bill include Paragraph 315, which grants the <a href="President_of_the_United_States" title="President of the United States">President</a> the right to "order the limitation or shutdown of Internet traffic to and from any compromised Federal Government or United States critical infrastructure information system or network."<sup id="cite_ref-cybersecurity2010_9-1" class="reference"><a href="#cite_note-cybersecurity2010-9"><span>[</span>9<span>]</span></a></sup> The <a href="Electronic_Frontier_Foundation" title="Electronic Frontier Foundation">Electronic Frontier Foundation</a>, an international <a href="Non-profit" title="Non-profit" class="mw-redirect">non-profit</a> <a href="Digital_rights" title="Digital rights">digital rights</a> advocacy and legal organization based in the <a href="United_States" title="United States">United States</a>, characterized the bill as promoting a "potentially dangerous approach that favors the dramatic over the sober response".<sup id="cite_ref-notsober_10-0" class="reference"><a href="#cite_note-notsober-10"><span>[</span>10<span>]</span></a></sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=15.php.html" title="Edit section: International Cybercrime Reporting and Cooperation Act">edit</a>]</span> <span class="mw-headline" id="International_Cybercrime_Reporting_and_Cooperation_Act">International Cybercrime Reporting and Cooperation Act</span></h4>
+<p>On March 25, 2010, Representative <a href="Yvette_Clarke" title="Yvette Clarke">Yvette Clarke</a> (D-NY) introduced the "International Cybercrime Reporting and Cooperation Act - H.R.4962" (<a rel="nofollow" class="external text" href="http://www.opencongress.org/bill/111-h4962/text">full text</a>) in the <a href="United_States_House_of_Representatives" title="United States House of Representatives">House of Representatives</a>; the bill, co-sponsored by seven other representatives (among whom only one <a href="Republican_Party_(United_States)" title="Republican Party (United States)">Republican</a>), was referred to three <a href="United_States_congressional_committee" title="United States congressional committee">House committees</a>.<sup id="cite_ref-reportingandcooperation_11-0" class="reference"><a href="#cite_note-reportingandcooperation-11"><span>[</span>11<span>]</span></a></sup> The bill seeks to make sure that the administration keeps <a href="United_States_Congress" title="United States Congress">Congress</a> informed on information infrastructure, <a href="Cybercrime" title="Cybercrime" class="mw-redirect">cybercrime</a>, and end-user protection worldwide. It also "directs the President to give priority for assistance to improve legal, judicial, and enforcement capabilities with respect to cybercrime to countries with low information and communications technology levels of development or utilization in their critical infrastructure, telecommunications systems, and financial industries"<sup id="cite_ref-reportingandcooperation_11-1" class="reference"><a href="#cite_note-reportingandcooperation-11"><span>[</span>11<span>]</span></a></sup> as well as to develop an action plan and an annual compliance assessment for countries of "cyber concern".<sup id="cite_ref-reportingandcooperation_11-2" class="reference"><a href="#cite_note-reportingandcooperation-11"><span>[</span>11<span>]</span></a></sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=16.php.html" title="Edit section: Protecting Cyberspace as a National Asset Act of 2010">edit</a>]</span> <span class="mw-headline" id="Protecting_Cyberspace_as_a_National_Asset_Act_of_2010">Protecting Cyberspace as a National Asset Act of 2010</span></h4>
+<p>On June 19, 2010, <a href="United_States_Senate" title="United States Senate">United States Senator</a> <a href="Joe_Lieberman" title="Joe Lieberman">Joe Lieberman</a> (I-CT) introduced a bill called "Protecting Cyberspace as a National Asset Act of 2010 - S.3480" (<a rel="nofollow" class="external text" href="http://hsgac.senate.gov/public/index.cfm?FuseAction=Files.View&FileStore_id=4ee63497-ca5b-4a4b-9bba-04b7f4cb0123">full text in pdf</a>), which he co-wrote with Senator <a href="Susan_Collins" title="Susan Collins">Susan Collins</a> (R-ME) and Senator <a href="Thomas_Carper" title="Thomas Carper" class="mw-redirect">Thomas Carper</a> (D-DE). If signed into law, this controversial bill, which the American media dubbed the "<i><a href="Kill_switch#Cybersecurity_policy" title="Kill switch">Kill switch bill</a></i>", would grant the <a href="President_of_the_United_States" title="President of the United States">President</a> emergency powers over the Internet. However, all three co-authors of the bill issued a statement claiming that instead, the bill "[narrowed] existing broad Presidential authority to take over telecommunications networks".<sup id="cite_ref-nokillswitch_12-0" class="reference"><a href="#cite_note-nokillswitch-12"><span>[</span>12<span>]</span></a></sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=17.php.html" title="Edit section: White House proposes cybersecurity legislation">edit</a>]</span> <span class="mw-headline" id="White_House_proposes_cybersecurity_legislation">White House proposes cybersecurity legislation</span></h4>
+<p>On May 12, 2011, the White House sent Congress a proposed cybersecurity law designed to force companies to do more to fend off cyberattacks, a threat that has been reinforced by recent reports about vulnerabilities in systems used in power and water utilities.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=18.php.html" title="Edit section: Germany">edit</a>]</span> <span class="mw-headline" id="Germany">Germany</span></h3>
+<h4><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=19.php.html" title="Edit section: Berlin starts National Cyber Defense Initiative">edit</a>]</span> <span class="mw-headline" id="Berlin_starts_National_Cyber_Defense_Initiative">Berlin starts National Cyber Defense Initiative</span></h4>
+<p>On June 16, 2011, the German Minister for Home Affairs, officially opened the new German NCAZ (National Center for Cyber Defense) <a href="http://de.wikipedia.org/wiki/Nationales_Cyber-Abwehrzentrum" class="extiw" title="de:Nationales Cyber-Abwehrzentrum">de:Nationales Cyber-Abwehrzentrum</a>, which is located in Bonn. The NCAZ closely cooperates with BSI (Federal Office for Information Security) <a href="http://de.wikipedia.org/wiki/Bundesamt_f%C3%BCr_Sicherheit_in_der_Informationstechnik" class="extiw" title="de:Bundesamt für Sicherheit in der Informationstechnik">de:Bundesamt für Sicherheit in der Informationstechnik</a>, BKA (Federal Police Organisation) <a href="http://de.wikipedia.org/wiki/Bundeskriminalamt_(Deutschland)" class="extiw" title="de:Bundeskriminalamt (Deutschland)">de:Bundeskriminalamt (Deutschland)</a>, BND (Federal Intelligence Service) <a href="http://de.wikipedia.org/wiki/Bundesnachrichtendienst" class="extiw" title="de:Bundesnachrichtendienst">de:Bundesnachrichtendienst</a>, MAD (Military Intelligence Service) <a href="http://de.wikipedia.org/wiki/Amt_f%C3%BCr_den_Milit%C3%A4rischen_Abschirmdienst" class="extiw" title="de:Amt für den Militärischen Abschirmdienst">de:Amt für den Militärischen Abschirmdienst</a> and other national organisations in Germany taking care of national security aspects. According to the Minister the primary task of the new organisation founded on Feb. 23, 2011, is to detect and prevent attacks against the national infrastructure and mentioned incidents like <a href="Stuxnet" title="Stuxnet">Stuxnet</a> <a href="http://de.wikipedia.org/wiki/Stuxnet" class="extiw" title="de:Stuxnet">de:Stuxnet</a></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=20.php.html" title="Edit section: Hacking Back">edit</a>]</span> <span class="mw-headline" id="Hacking_Back">Hacking Back</span></h3>
+<p>There has been a significant debate regarding the legality of hacking back against digital attackers (who attempt to or successfully breach an individual's, entity's, or nation's computer). The arguments for such counter-attacks are based on notions of equity, active defense, vigilantism, and the minutiae of the <a href="Computer_Fraud_and_Abuse_Act" title="Computer Fraud and Abuse Act">Computer Fraud and Abuse Act</a> (CFAA). The arguments against it are majorly based on the legal definition of intrusion and unauthorized access, as defined by the CFAA. The debate is ongoing.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=21.php.html" title="Edit section: Terminology">edit</a>]</span> <span class="mw-headline" id="Terminology">Terminology</span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-Cleanup" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>may require <a href="Wikipedia_Cleanup" title="Wikipedia:Cleanup">cleanup</a> to meet Wikipedia's <a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">quality standards</a></b>. <span class="hide-when-compact">No <a href="Template_Cleanup/doc" title="Template:Cleanup/doc">cleanup reason</a> has been specified. Please help <a class="external text" href="../../w/index-title=Computer_security&action=edit.php.html">improve this section</a> if you can.</span> <small><i>(November 2010)</i></small> </span></td>
+</tr>
+</table>
+<p>The following terms used in engineering secure systems are explained below.</p>
+<ul>
+<li><a href="Authentication" title="Authentication">Authentication</a> techniques can be used to ensure that communication end-points are who they say they are.</li>
+<li><a href="Automated_theorem_proving" title="Automated theorem proving">Automated theorem proving</a> and other verification tools can enable critical algorithms and code used in secure systems to be mathematically proven to meet their specifications.</li>
+<li><a href="Capability_(computers)" title="Capability (computers)" class="mw-redirect">Capability</a> and <a href="Access_control_list" title="Access control list">access control list</a> techniques can be used to ensure privilege separation and mandatory access control. <a href="index.html#Capabilities_vs._ACLs" title="Computer security">This section</a> discusses their use.</li>
+<li><a href="Chain_of_trust" title="Chain of trust">Chain of trust</a> techniques can be used to attempt to ensure that all software loaded has been certified as authentic by the system's designers.</li>
+<li><a href="Cryptography" title="Cryptography">Cryptographic</a> techniques can be used to defend data in transit between systems, reducing the probability that data exchanged between systems can be intercepted or modified.</li>
+<li><a href="Firewall_(computing)" title="Firewall (computing)">Firewalls</a> can provide some protection from online intrusion.</li>
+</ul>
+<ul>
+<li>A <a href="Microkernel#Microkernel" title="Microkernel">microkernel</a> is a carefully crafted, deliberately small corpus of software that underlies the operating system <i>per se</i> and is used solely to provide very low-level, very precisely defined primitives upon which an operating system can be developed. A simple example with considerable didactic value is the early '90s GEMSOS (Gemini Computers), which provided extremely low-level primitives, such as "segment" management, atop which an operating system could be built. The theory (in the case of "segments") was that—rather than have the operating system itself worry about mandatory access separation by means of military-style labeling—it is safer if a low-level, independently scrutinized module can be charged <b>solely</b> with the management of individually labeled segments, be they memory "segments" or file system "segments" or executable text "segments." If software below the visibility of the operating system is (as in this case) charged with labeling, there is no theoretically viable means for a clever hacker to subvert the labeling scheme, since the operating system <i>per se</i> does <b>not</b> provide mechanisms for interfering with labeling: the operating system is, essentially, a client (an "application," arguably) atop the microkernel and, as such, subject to its restrictions.</li>
+</ul>
+<ul>
+<li><a href="End_point_security" title="End point security" class="mw-redirect">Endpoint Security</a> software helps networks to prevent data theft and virus infection through portable storage devices, such as USB drives.</li>
+</ul>
+<ul>
+<li>Confidentiality is the nondisclosure of information except to another authorized person.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></li>
+</ul>
+<ul>
+<li>Data Integrity is the accuracy and consistency of stored data, indicated by an absence of any alteration in data between two updates of a data record.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></li>
+</ul>
+<p><i>Some of the following items may belong to the <a href="Computer_insecurity" title="Computer insecurity">computer insecurity</a> article:</i></p>
+<div id="unpatched"></div>
+<ul>
+<li>Access <a href="Authorization" title="Authorization">authorization</a> restricts access to a computer to group of users through the use of <a href="Authentication" title="Authentication">authentication</a> systems. These systems can protect either the whole computer – such as through an interactive <a href="Login" title="Login">login</a> screen – or individual services, such as an <a href="File_Transfer_Protocol" title="File Transfer Protocol">FTP</a> server. There are many methods for identifying and authenticating users, such as <a href="Password" title="Password">passwords</a>, <a href="Identification_card" title="Identification card" class="mw-redirect">identification cards</a>, and, more recently, <a href="Smart_card" title="Smart card">smart cards</a> and <a href="Biometric" title="Biometric" class="mw-redirect">biometric</a> systems.</li>
+<li><a href="Anti-virus_software" title="Anti-virus software" class="mw-redirect">Anti-virus software</a> consists of computer programs that attempt to identify, thwart and eliminate <a href="Computer_viruses" title="Computer viruses" class="mw-redirect">computer viruses</a> and other malicious software (<a href="Malware" title="Malware">malware</a>).</li>
+<li><a href="Application_software" title="Application software">Applications</a> with known security flaws should not be run. Either leave it turned off until it can be patched or otherwise fixed, or delete it and replace it with some other application. Publicly known flaws are the main entry used by <a href="Computer_worm" title="Computer worm">worms</a> to automatically break into a system and then spread to other systems connected to it. The security website <a href="Secunia" title="Secunia">Secunia</a> provides a search tool for unpatched known flaws in popular products.</li>
+<li><a href="Backup" title="Backup">Backups</a> are a way of securing information; they are another copy of all the important computer files kept in another location. These files are kept on hard disks, <a href="CD-R" title="CD-R">CD-Rs</a>, <a href="CD-RW" title="CD-RW">CD-RWs</a>, and <a href="Magnetic_tape_data_storage" title="Magnetic tape data storage">tapes</a>. Suggested locations for backups are a fireproof, waterproof, and heat proof safe, or in a separate, offsite location than that in which the original files are contained. Some individuals and companies also keep their backups in <a href="Safe_deposit_box" title="Safe deposit box">safe deposit boxes</a> inside <a href="Bank_vault" title="Bank vault">bank vaults</a>. There is also a fourth option, which involves using one of the <a href="File_hosting_service" title="File hosting service">file hosting services</a> that backs up files over the <a href="Internet" title="Internet">Internet</a> for both business and individuals.
+<ul>
+<li>Backups are also important for reasons other than security. Natural disasters, such as earthquakes, hurricanes, or tornadoes, may strike the building where the computer is located. The building can be on fire, or an explosion may occur. There needs to be a recent backup at an alternate secure location, in case of such kind of disaster. Further, it is recommended that the alternate location be placed where the same disaster would not affect both locations. Examples of alternate disaster recovery sites being compromised by the same disaster that affected the primary site include having had a primary site in <a href="World_Trade_Center" title="World Trade Center">World Trade Center</a> I and the recovery site in <a href="7_World_Trade_Center" title="7 World Trade Center">7 World Trade Center</a>, both of which were destroyed in the <a href="9/11" title="9/11" class="mw-redirect">9/11</a> attack, and having one's primary site and recovery site in the same coastal region, which leads to both being vulnerable to hurricane damage (for example, primary site in New Orleans and recovery site in <a href="Jefferson_Parish" title="Jefferson Parish" class="mw-redirect">Jefferson Parish</a>, both of which were hit by <a href="Hurricane_Katrina" title="Hurricane Katrina">Hurricane Katrina</a> in 2005). The backup media should be moved between the geographic sites in a secure manner, in order to prevent them from being stolen.</li>
+</ul>
+</li>
+</ul>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Encryption_-_decryption.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Encryption_-_decryption.svg/300px-Encryption_-_decryption.svg.png" width="300" height="83" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Encryption_-_decryption.svg/450px-Encryption_-_decryption.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Encryption_-_decryption.svg/600px-Encryption_-_decryption.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Encryption_-_decryption.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Cryptography" title="Cryptography">Cryptographic</a> techniques involve transforming information, scrambling it so it becomes unreadable during transmission. The intended recipient can unscramble the message, but eavesdroppers cannot, ideally.</div>
+</div>
+</div>
+<ul>
+<li><a href="Encryption" title="Encryption">Encryption</a> is used to protect the message from the eyes of others. <a href="Cryptography" title="Cryptography">Cryptographically</a> secure <a href="Cipher" title="Cipher">ciphers</a> are designed to make any practical attempt of <a href="Cryptanalysis" title="Cryptanalysis">breaking</a> infeasible. <a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key</a> ciphers are suitable for bulk encryption using <a href="Shared_key" title="Shared key" class="mw-redirect">shared keys</a>, and <a href="Public-key_encryption" title="Public-key encryption" class="mw-redirect">public-key encryption</a> using <a href="Digital_certificate" title="Digital certificate" class="mw-redirect">digital certificates</a> can provide a practical solution for the problem of securely communicating when no key is shared in advance.</li>
+<li><a href="Firewall_(networking)" title="Firewall (networking)" class="mw-redirect">Firewalls</a> are systems that help protect computers and computer networks from attack and subsequent intrusion by restricting the network traffic that can pass through them, based on a set of system administrator-defined rules.</li>
+<li><a href="Honeypot_(computing)" title="Honeypot (computing)">Honey pots</a> are computers that are either intentionally or unintentionally left vulnerable to attack by crackers. They can be used to catch crackers or fix vulnerabilities.</li>
+<li><a href="Intrusion-detection_system" title="Intrusion-detection system" class="mw-redirect">Intrusion-detection systems</a> can scan a network for people that are on the network but who should not be there or are doing things that they should not be doing, for example trying a lot of passwords to gain access to the network.</li>
+<li><a href="Ping_(networking_utility)" title="Ping (networking utility)">Pinging</a> The ping application can be used by potential crackers to find if an IP address is reachable. If a cracker finds a computer, they can try a port scan to detect and attack services on that computer.</li>
+<li><a href="Social_engineering_(computer_security)" title="Social engineering (computer security)" class="mw-redirect">Social engineering</a> awareness keeps employees aware of the dangers of social engineering and/or having a policy in place to prevent social engineering can reduce successful breaches of the network and servers.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=22.php.html" title="Edit section: Legal issues and global regulation">edit</a>]</span> <span class="mw-headline" id="Legal_issues_and_global_regulation">Legal issues and global regulation</span></h2>
+<p>One of the main challenges to and main complaints about the antivirus industry is the lack of global web regulations, a global base of common rules to judge, and eventually punish, <a href="Cyber_crimes" title="Cyber crimes" class="mw-redirect">cyber crimes</a> and <a href="Cyber_criminals" title="Cyber criminals" class="mw-redirect">cyber criminals</a>. In fact, nowadays, even if an antivirus firm locates the cyber criminal behind the creation of a particular <a href="Virus_(computer)" title="Virus (computer)" class="mw-redirect">virus</a> or piece of <a href="Malware" title="Malware">malware</a> or again one form of <a href="Cyber-Attacks" title="Cyber-Attacks">cyber attack</a>, often the local authorities cannot take action die to lack of laws under which to prosecute.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> This is mainly caused by the fact that mostly every country has an own regulation about <a href="Cyber_crimes" title="Cyber crimes" class="mw-redirect">cyber crimes</a>.</p>
+<p>"[Computer viruses] switch from one country to another, from one jurisdiction to another — moving around the world, using the fact that we don't have the capability to globally police operations like this. So the Internet is as if someone [had] given free plane tickets to all the online criminals of the world."<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> (<a href="Mikko_Hypp%C3%B6nen" title="Mikko Hyppönen">Mikko Hyppönen</a>)</p>
+<p>Due to some of the <a href="European_Union" title="European Union">European</a>'s antivirus firms (e.g. <a href="Avira" title="Avira">Avira</a>, <a href="BullGuard" title="BullGuard">BullGuard</a>, <a href="F-Secure" title="F-Secure">F-Secure</a>, <a href="FRISK_Software_International" title="FRISK Software International">Frisk</a>, <a href="Panda_Security" title="Panda Security">Panda</a>, <a href="TG_Soft" title="TG Soft">TG Soft</a>, <a href="Comparison_of_antivirus_software" title="Comparison of antivirus software">...</a>) to solve this problem, the <a href="European_Commission" title="European Commission">European Commission</a> has decided to establish the <a href="European_Cybercrime_Centre" title="European Cybercrime Centre">European Cybercrime Centre</a>(EC3).<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup> The EC3 effectively opened on 1 January 2013 and will be the focal point in the EU's fight against cyber crime, contributing to faster reaction to online crimes. It will support member states and the EU's institutions in building an operational and analytical capacity for investigations, as well as cooperation with international partners.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=23.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://opensecurityarchitecture.com">Definitions: IT Security Architecture</a>. SecurityArchitecture.org, Jan, 2006</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://searchsecurity.techtarget.com/originalContent/0,289142,sid14_gci1265116,00.html">New hacking technique exploits common programming error</a>. SearchSecurity.com, July 2007</span></li>
+<li id="cite_note-FAA_Computer_Security-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-FAA_Computer_Security_3-0">^</a></b></span> <span class="reference-text">J. C. Willemssen, "FAA Computer Security". GAO/T-AIMD-00-330. Presented at Committee on Science, House of Representatives, 2000.</span></li>
+<li id="cite_note-Computer_Security_in_Aviation-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Computer_Security_in_Aviation_4-0">^</a></b></span> <span class="reference-text">P. G. Neumann, "Computer Security in Aviation," presented at International Conference on Aviation Safety and Security in the 21st Century, White House Commission on Safety and Security, 1997.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">J. Zellan, Aviation Security. Hauppauge, NY: Nova Science, 2003, pp. 65–70.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.fas.org/irp/gao/aim96084.htm">Information Security</a>. United States Department of Defense, 1986</span></li>
+<li id="cite_note-multiple-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-multiple_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-multiple_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Jonathan Zittrain, 'The Future of The Internet', Penguin Books, 2008</span></li>
+<li id="cite_note-computerworldapproval-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-computerworldapproval_8-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.computerworld.com/s/article/9174065/Cybersecurity_bill_passes_first_hurdle">Cybersecurity bill passes first hurdle</a>, Computer World, March 24, 2010. Retrieved on June 26, 2010.</span></li>
+<li id="cite_note-cybersecurity2010-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-cybersecurity2010_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-cybersecurity2010_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.opencongress.org/bill/111-s773/text">Cybersecurity Act of 2009</a>, OpenCongress.org, April 1, 2009. Retrieved on June 26, 2010.</span></li>
+<li id="cite_note-notsober-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-notsober_10-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.eff.org/deeplinks/2009/04/cybersecurity-act">Federal Authority Over the Internet? The Cybersecurity Act of 2009</a>, eff.org, April 10, 2009. Retrieved on June 26, 2010.</span></li>
+<li id="cite_note-reportingandcooperation-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-reportingandcooperation_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-reportingandcooperation_11-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-reportingandcooperation_11-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.opencongress.org/bill/111-h4962/show">H.R.4962 - International Cybercrime Reporting and Cooperation Act</a>, OpenCongress.org. Retrieved on June 26, 2010.</span></li>
+<li id="cite_note-nokillswitch-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-nokillswitch_12-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.informationweek.com/news/government/security/showArticle.jhtml?articleID=225701368&subSection=News">Senators Say Cybersecurity Bill Has No 'Kill Switch'</a>, informationweek.com, June 24, 2010. Retrieved on June 25, 2010.</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">Declan McCullagh, CNET. "<a rel="nofollow" class="external text" href="http://news.cnet.com/8301-31921_3-20062277-281.html?part=rss&subj=news&tag=2547-1_3-0-20">White House proposes cybersecurity legislation</a>." May 12, 2011. Retrieved May 12, 2011.</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Justin P. Webb, Cybercrime Review. "<a rel="nofollow" class="external text" href="http://www.cybercrimereview.com/2012/10/hacking-back-are-you-authorized.html">Hacking Back - are you authorized? A discussion of whether it's an invitation to federal prison or a justified reaction/strategy?</a>." October 16, 2012. Retrieved January 5, 2013.</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://medical-dictionary.thefreedictionary.com/confidentiality">"Confidentiality"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://medical-dictionary.thefreedictionary.com/confidentiality">http://medical-dictionary.thefreedictionary.com/confidentiality</a></span><span class="reference-accessdate">. Retrieved 2011-10-31</span>.</span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.businessdictionary.com/definition/data-integrity.html">"Data Integrity"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.businessdictionary.com/definition/data-integrity.html">http://www.businessdictionary.com/definition/data-integrity.html</a></span><span class="reference-accessdate">. Retrieved 2011-10-31</span>.</span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html">"Mikko Hypponen: Fighting viruses, defending the net"</a>. TED<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html">http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html</a></span>.</span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=0TMFRO66Wv4">"Mikko Hypponen - Behind Enemy Lines"</a>. Hack In The Box Security Conference<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=0TMFRO66Wv4">http://www.youtube.com/watch?v=0TMFRO66Wv4</a></span>.</span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html">"Mikko Hypponen: Fighting viruses, defending the net"</a>. TED<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html">http://www.ted.com/talks/mikko_hypponen_fighting_viruses_defending_the_net.html</a></span>.</span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.virusbtn.com/news/2013/01_09.xml?rss">"European Cybercrime Centre set for launch"</a>. VirusBulletin<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.virusbtn.com/news/2013/01_09.xml?rss">http://www.virusbtn.com/news/2013/01_09.xml?rss</a></span>.</span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="https://www.europol.europa.eu/ec3">"European Cybercrime Centre (EC3)"</a>. Europol<span class="printonly">. <a rel="nofollow" class="external free" href="https://www.europol.europa.eu/ec3">https://www.europol.europa.eu/ec3</a></span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=24.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:transparent;table-layout:fixed;">
+<tr valign="top">
+<td>
+<div style="margin-right:20px;">
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Monitor_padlock.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Monitor_padlock.svg/31px-Monitor_padlock.svg.png" width="31" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Monitor_padlock.svg/46px-Monitor_padlock.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Monitor_padlock.svg/61px-Monitor_padlock.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Computer_security" title="Portal:Computer security">Computer security  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Attack_tree" title="Attack tree">Attack tree</a></li>
+<li><a href="Authentication" title="Authentication">Authentication</a></li>
+<li><a href="Authorization" title="Authorization">Authorization</a></li>
+<li><a href="CAPTCHA" title="CAPTCHA">CAPTCHA</a></li>
+<li><a href="CERT_Coordination_Center" title="CERT Coordination Center">CERT</a></li>
+<li><a href="Cloud_computing_security" title="Cloud computing security">Cloud computing security</a></li>
+<li><a href="Computer_insecurity" title="Computer insecurity">Computer insecurity</a></li>
+<li><a href="Computer_security_model" title="Computer security model">Computer security model</a></li>
+<li><a href="Computer_security_compromised_by_hardware_failure" title="Computer security compromised by hardware failure">Computer security compromised by hardware failure</a></li>
+<li><a href="Content_security" title="Content security" class="mw-redirect">Content security</a></li>
+<li><a href="Countermeasure_(computer)" title="Countermeasure (computer)">Countermeasure (computer)</a></li>
+<li><a href="Cryptography" title="Cryptography">Cryptography</a></li>
+<li><a href="Cyber_security_standards" title="Cyber security standards">Cyber security standards</a></li>
+<li><a href="Dancing_pigs" title="Dancing pigs">Dancing pigs</a></li>
+<li><a href="Data_loss_prevention_products" title="Data loss prevention products" class="mw-redirect">Data loss prevention products</a></li>
+<li><a href="Data_security" title="Data security">Data security</a></li>
+<li><a href="Differentiated_security" title="Differentiated security">Differentiated security</a></li>
+<li><a href="Disk_encryption" title="Disk encryption">Disk encryption</a></li>
+<li><a href="Exploit_(computer_security)" title="Exploit (computer security)">Exploit (computer security)</a></li>
+<li><a href="Fault_tolerance" title="Fault tolerance" class="mw-redirect">Fault tolerance</a></li>
+<li><a href="Firewall_(networking)" title="Firewall (networking)" class="mw-redirect">Firewalls</a></li>
+<li><a href="Full_disclosure" title="Full disclosure">Full disclosure</a></li>
+<li><a href="Human-computer_interaction_(security)" title="Human-computer interaction (security)" class="mw-redirect">Human-computer interaction (security)</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div style="margin-right: 20px;">
+<ul>
+<li><a href="Identity_management" title="Identity management">Identity management</a></li>
+<li><a href="Information_Leak_Prevention" title="Information Leak Prevention" class="mw-redirect">Information Leak Prevention</a></li>
+<li><a href="Information_security" title="Information security">Information security</a></li>
+<li><a href="Internet_privacy" title="Internet privacy">Internet privacy</a></li>
+<li><a href="ISO/IEC_15408" title="ISO/IEC 15408" class="mw-redirect">ISO/IEC 15408</a></li>
+<li><a href="IT_risk" title="IT risk">IT risk</a></li>
+<li><a href="Kish_cypher" title="Kish cypher">Kish cypher</a></li>
+<li><a href="Mobile_security" title="Mobile security">Mobile security</a></li>
+<li><a href="Network_Security_Toolkit" title="Network Security Toolkit">Network Security Toolkit</a></li>
+<li><a href="Network_security" title="Network security">Network security</a></li>
+<li><a href="Open_security" title="Open security">Open security</a></li>
+<li><a href="OWASP" title="OWASP">OWASP</a></li>
+<li><a href="Penetration_test" title="Penetration test">Penetration test</a></li>
+<li><a href="Physical_information_security" title="Physical information security">Physical information security</a></li>
+<li><a href="Physical_security" title="Physical security">Physical security</a></li>
+<li><a href="Presumed_security" title="Presumed security">Presumed security</a></li>
+<li><a href="Privacy_software" title="Privacy software">Privacy software</a></li>
+<li><a href="Proactive_Cyber_Defence" title="Proactive Cyber Defence">Proactive Cyber Defence</a></li>
+<li><a href="Sandbox_(computer_security)" title="Sandbox (computer security)">Sandbox (computer security)</a></li>
+<li><a href="Security_Architecture" title="Security Architecture" class="mw-redirect">Security Architecture</a></li>
+<li><a href="Separation_of_protection_and_security" title="Separation of protection and security">Separation of protection and security</a></li>
+<li><a href="Threat_(computer)" title="Threat (computer)">Threat (computer)</a></li>
+<li><a href="Vulnerability_(computing)" title="Vulnerability (computing)">Vulnerability (computing)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=25.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-More_footnotes" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section includes a <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">list of references</a>, but <b>its sources remain unclear because it has insufficient <a href="Wikipedia_INCITE" title="Wikipedia:INCITE" class="mw-redirect">inline citations</a></b>. <span class="hide-when-compact">Please help to <a href="Wikipedia_WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="Wikipedia_When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span> <small><i>(September 2010)</i></small> </span></td>
+</tr>
+</table>
+<div class="references-small">
+<ul>
+<li><a href="../Ross_J._Anderson" title="Ross J. Anderson">Ross J. Anderson</a>: <cite><a rel="nofollow" class="external text" href="http://www.cl.cam.ac.uk/~rja14/book.html">Security Engineering: A Guide to Building Dependable Distributed Systems</a></cite>, <a href="Special_BookSources/0471389226" class="internal mw-magiclink-isbn">ISBN 0-471-38922-6</a></li>
+<li><a href="../../w/index-title=Morrie_Gasser&action=edit&redlink=1.php.html" class="new" title="Morrie Gasser (page does not exist)">Morrie Gasser</a>: <a rel="nofollow" class="external text" href="http://cs.unomaha.edu/~stanw/gasserbook.pdf"><cite>Building a secure computer system</cite></a> <a href="Special_BookSources/0442230222" class="internal mw-magiclink-isbn">ISBN 0-442-23022-2</a>, 1988</li>
+<li>Stephen Haag, Maeve Cummings, Donald McCubbrey, Alain Pinsonneault, Richard Donovan: <cite>Management Information Systems for the information age</cite>, <a href="Special_BookSources/0070911207" class="internal mw-magiclink-isbn">ISBN 0-07-091120-7</a></li>
+<li><a href="../../w/index-title=E._Stewart_Lee&action=edit&redlink=1.php.html" class="new" title="E. Stewart Lee (page does not exist)">E. Stewart Lee</a>: <a rel="nofollow" class="external text" href="http://www.cl.cam.ac.uk/~mgk25/lee-essays.pdf"><cite>Essays about Computer Security</cite></a> Cambridge, 1999</li>
+<li><a href="../Peter_G._Neumann" title="Peter G. Neumann">Peter G. Neumann</a>: <a rel="nofollow" class="external text" href="http://www.csl.sri.com/neumann/chats4.pdf"><cite>Principled Assuredly Trustworthy Composable Architectures</cite></a> 2004</li>
+<li><a href="../../w/index-title=Paul_A._Karger&action=edit&redlink=1.php.html" class="new" title="Paul A. Karger (page does not exist)">Paul A. Karger</a>, <a href="../Roger_R._Schell" title="Roger R. Schell">Roger R. Schell</a>: <a rel="nofollow" class="external text" href="http://www.acsac.org/2002/papers/classic-multics.pdf"><cite>Thirty Years Later: Lessons from the Multics Security Evaluation</cite></a>, IBM white paper.</li>
+<li><a href="Bruce_Schneier" title="Bruce Schneier">Bruce Schneier</a>: <cite>Secrets &amp; Lies: Digital Security in a Networked World</cite>, <a href="Special_BookSources/0471253111" class="internal mw-magiclink-isbn">ISBN 0-471-25311-1</a></li>
+<li><a href="../Robert_C._Seacord" title="Robert C. Seacord">Robert C. Seacord</a>: <cite>Secure Coding in C and C++</cite>. Addison Wesley, September, 2005. <a href="Special_BookSources/0321335724" class="internal mw-magiclink-isbn">ISBN 0-321-33572-4</a></li>
+<li><a href="Clifford_Stoll" title="Clifford Stoll">Clifford Stoll</a>: <cite>Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage</cite>, Pocket Books, <a href="Special_BookSources/0743411463" class="internal mw-magiclink-isbn">ISBN 0-7434-1146-3</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.springer.com/computer/communications/book/978-1-4419-0165-1"><i>Network Infrastructure Security</i></a>, Angus Wong and Alan Yeung, Springer, 2009.</li>
+<li><a href="../../w/index-title=John_R._Vacca&action=edit&redlink=1.php.html" class="new" title="John R. Vacca (page does not exist)">John R. Vacca</a> (ed.): <cite>Computer and information security handbook</cite>, Morgan Kaufmann Publishers, 2009</li>
+</ul>
+<ul>
+<li><a href="../../w/index-title=Maj._Dawood_Fateh_-_Cyber_Intelligence_2012&action=edit&redlink=1.php.html" class="new" title="Maj. Dawood Fateh - Cyber Intelligence 2012 (page does not exist)">Maj. Dawood Fateh - Cyber Intelligence 2012</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_security&action=edit&section=26.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.dmoz.org/Computers/Security/Advisories_and_Patches/">Security advisories links</a> from the <a href="Open_Directory_Project" title="Open Directory Project">Open Directory Project</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.securityincidents.org/">The Repository of Industrial Security Incidents</a></li>
+</ul>
+<p><span id="interwiki-pl-fa"></span></p>
+</div>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 9489/1000000
+Preprocessor generated node count: 31001/1500000
+Post-expand include size: 70960/2048000 bytes
+Template argument size: 30605/2048000 bytes
+Highest expansion depth: 22/40
+Expensive parser function count: 16/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:7398-0!*!0!!en!4!* and timestamp 20130211153256 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Computer_security&oldid=537717211.php.html">http://en.wikipedia.org/w/index.php?title=Computer_security&amp;oldid=537717211</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Computer_security" title="Category:Computer security">Computer security</a></li><li><a href="Category_E-commerce" title="Category:E-commerce">E-commerce</a></li><li><a href="Category_Secure_communication" title="Category:Secure communication">Secure communication</a></li><li><a href="Category_Computer_network_security" title="Category:Computer network security">Computer network security</a></li><li><a href="Category_Crime_prevention" title="Category:Crime prevention">Crime prevention</a></li><li><a href="Category_National_security" title="Category:National security">National security</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_needing_additional_references_from_September_2010" title="Category:Articles needing additional references from September 2010">Articles needing additional references from September 2010</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_Wikipedia_articles_needing_style_editing_from_November_2012" title="Category:Wikipedia articles needing style editing from November 2012">Wikipedia articles needing style editing from November 2012</a></li><li><a href="Category_All_articles_needing_style_editing" title="Category:All articles needing style editing">All articles needing style editing</a></li><li><a href="Category_All_articles_that_may_contain_original_research" title="Category:All articles that may contain original research">All articles that may contain original research</a></li><li><a href="Category_Articles_that_may_contain_original_research_from_December_2010" title="Category:Articles that may contain original research from December 2010">Articles that may contain original research from December 2010</a></li><li><a href="Category_Wikipedia_articles_needing_clarification_from_February_2009" title="Category:Wikipedia articles needing clarification from February 2009">Wikipedia articles needing clarification from February 2009</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_August_2010" title="Category:Articles with unsourced statements from August 2010">Articles with unsourced statements from August 2010</a></li><li><a href="Category_Articles_with_unsourced_statements_from_December_2010" title="Category:Articles with unsourced statements from December 2010">Articles with unsourced statements from December 2010</a></li><li><a href="Category_Articles_with_unsourced_statements_from_April_2009" title="Category:Articles with unsourced statements from April 2009">Articles with unsourced statements from April 2009</a></li><li><a href="Category_Articles_with_limited_geographic_scope_from_December_2010" title="Category:Articles with limited geographic scope from December 2010">Articles with limited geographic scope from December 2010</a></li><li><a href="Category_Pages_in_non-existent_country_centric_categories" title="Category:Pages in non-existent country centric categories">Pages in non-existent country centric categories</a></li><li><a href="Category_Articles_needing_cleanup_from_November_2010" title="Category:Articles needing cleanup from November 2010">Articles needing cleanup from November 2010</a></li><li><a href="Category_All_articles_needing_cleanup" title="Category:All articles needing cleanup">All articles needing cleanup</a></li><li><a href="Category_Cleanup_tagged_articles_without_a_reason_field_from_November_2010" title="Category:Cleanup tagged articles without a reason field from November 2010">Cleanup tagged articles without a reason field from November 2010</a></li><li><a href="Category_Wikipedia_pages_needing_cleanup_from_November_2010" title="Category:Wikipedia pages needing cleanup from November 2010">Wikipedia pages needing cleanup from November 2010</a></li><li><a href="Category_Articles_lacking_in-text_citations_from_September_2010" title="Category:Articles lacking in-text citations from September 2010">Articles lacking in-text citations from September 2010</a></li><li><a href="Category_All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Computer+security&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Computer+security.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Computer_security"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Computer_security&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Computer_security&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Computer_security" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Computer_security" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Computer_security&oldid=537717211.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Computer_security&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Computer_security&id=537717211.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Computer+security.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Computer+security&oldid=537717211&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Computer_security&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A3%D9%85%D9%86_%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8" title="أمن الحاسوب" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0_%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE" title="কম্পিউটারের নিরাপত্তা" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B0_%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D1%81%D1%82" title="Компютърна сигурност" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Sigurnost_ra%C4%8Dunara" title="Sigurnost računara" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Seguretat_inform%C3%A0tica" title="Seguretat informàtica" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4%8Dov%C3%A1_bezpe%C4%8Dnost" title="Počítačová bezpečnost" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Seguridad_inform%C3%A1tica" title="Seguridad informática" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Komputila_sekureco" title="Komputila sekureco" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Segurtasun_informatiko" title="Segurtasun informatiko" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%A7%D9%85%D9%86%DB%8C%D8%AA_%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D9%87%E2%80%8C%D8%A7%DB%8C" title="امنیت رایانه‌ای" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_des_syst%C3%A8mes_d'information" title="Sécurité des systèmes d'information" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%EB%B3%B4%EC%95%88" title="컴퓨터 보안" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%B0_%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE" title="कंप्यूटर सुरक्षा" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Ra%C4%8Dunalna_sigurnost" title="Računalna sigurnost" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Keamanan_komputer" title="Keamanan komputer" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Sicurezza_informatica" title="Sicurezza informatica" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%91%D7%98%D7%97%D7%AA_%D7%9E%D7%97%D7%A9%D7%91_%D7%90%D7%99%D7%A9%D7%99_%D7%91%D7%A8%D7%A9%D7%AA" title="אבטחת מחשב אישי ברשת" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Computerbeveiliging" title="Computerbeveiliging" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3" title="コンピュータセキュリティ" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Bezpiecze%C5%84stwo_teleinformatyczne" title="Bezpieczeństwo teleinformatyczne" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Seguran%C3%A7a_de_computadores" title="Segurança de computadores" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Securitate_(calculatoare)" title="Securitate (calculatoare)" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Computer_security" title="Computer security" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4%8Dov%C3%A1_bezpe%C4%8Dnos%C5%A5" title="Počítačová bezpečnosť" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%A0%D0%B0%D1%87%D1%83%D0%BD%D0%B0%D1%80%D1%81%D0%BA%D0%B0_%D0%B1%D0%B5%D0%B7%D0%B1%D1%98%D0%B5%D0%B4%D0%BD%D0%BE%D1%81%D1%82" title="Рачунарска безбједност" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Kyberturvallisuus" title="Kyberturvallisuus" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Datas%C3%A4kerhet" title="Datasäkerhet" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-te"><a href="http://te.wikipedia.org/wiki/%E0%B0%95%E0%B0%82%E0%B0%AA%E0%B1%8D%E0%B0%AF%E0%B1%82%E0%B0%9F%E0%B0%B0%E0%B1%8D_%E0%B0%AD%E0%B0%A6%E0%B1%8D%E0%B0%B0%E0%B0%A4" title="కంప్యూటర్ భద్రత" lang="te" hreflang="te">తెలుగు</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8" title="计算机安全" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 February 2013 at 15:32.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Computer_security" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1076 in 0.206 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

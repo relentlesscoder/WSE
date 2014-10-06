@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Lorenz cipher - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Lorenz_cipher&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Lorenz_cipher&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lorenz_cipher","wgTitle":"Lorenz cipher","wgCurRevisionId":530317862,"wgArticleId":301173,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Cryptographic hardware","Encryption devices","World War II military equipment of Germany","Signals intelligence of World War II","Broken stream ciphers"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lorenz_cipher","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"371513d46f5264b0dc22e2e776197b3f","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":301173,"title":"Lorenz cipher","namespace":0,"categories":["Broken stream ciphers","Cryptographic hardware","Encryption devices","Signals intelligence of World War II","World War II military equipment of Germany"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lorenz_cipher skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lorenz cipher</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:282px;"><a href="http://en.wikipedia.org/wiki/File:Lorenz-SZ42-2.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/280px-Lorenz-SZ42-2.jpg" width="280" height="208" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/420px-Lorenz-SZ42-2.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/560px-Lorenz-SZ42-2.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Lorenz-SZ42-2.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The Lorenz SZ42 machine with its covers removed.</div>
+</div>
+</div>
+<p>The <b>Lorenz SZ40</b>, <b>SZ42A</b> and <b>SZ42B</b> (<i>SZ</i> for <i>Schlüsselzusatz</i>, meaning "cipher attachment") were German <a href="Rotor_machine" title="Rotor machine">rotor</a> <a href="Stream_cipher" title="Stream cipher">stream cipher</a> machines used by the <a href="Wehrmacht" title="Wehrmacht">German Army</a> during <a href="World_War_II" title="World War II">World War II</a>. They were developed by C. Lorenz AG in <a href="Berlin" title="Berlin">Berlin</a>. They implemented a <a href="Gilbert_Vernam#The_Vernam_cipher" title="Gilbert Vernam">Vernam</a> <a href="Stream_cipher" title="Stream cipher">stream cipher</a>. British <a href="Cryptographer" title="Cryptographer" class="mw-redirect">cryptographers</a>, who referred to encrypted German <a href="Electrical_telegraph" title="Electrical telegraph">teleprinter</a> traffic as <a href="Fish_(cryptography)" title="Fish (cryptography)"><i>Fish</i></a>, dubbed the machine and its traffic <i><b>Tunny</b></i>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>The SZ machines were in-line attachments to standard Lorenz <a href="Teleprinter" title="Teleprinter">teleprinters</a>. An experimental link using SZ40 machines was started in June 1941. The enhanced SZ42 machines were brought into substantial use from mid-1942 onwards for high-level communications between the <a href="Oberkommando_der_Wehrmacht" title="Oberkommando der Wehrmacht">German High Command</a> in Berlin, and Army Commands throughout occupied Europe.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> The more advanced SZ42A came in to routine use in February 1943 and the SZ42B in June 1944.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p><a href="Wireless_telegraphy" title="Wireless telegraphy">Wireless telegraphy</a> (WT) rather than land-line circuits was used for this traffic.<sup id="cite_ref-GRoT11A4_4-0" class="reference"><a href="#cite_note-GRoT11A4-4"><span>[</span>4<span>]</span></a></sup> These non-<a href="Morse_code" title="Morse code">Morse</a> (NoMo) messages were picked up by Britain's <a href="Y-stations" title="Y-stations">Y-stations</a> at <a href="Knockholt" title="Knockholt">Knockholt</a> and <a href="Denmark_Hill" title="Denmark Hill">Denmark Hill</a> and sent to <a href="Government_Communications_Headquarters#Government_Code_and_Cypher_School" title="Government Communications Headquarters">Government Code and Cypher School</a> at <a href="Bletchley_Park" title="Bletchley Park">Bletchley Park</a> (BP). Some were deciphered using hand methods before the process was partially automated, first with <a href="Heath_Robinson_(codebreaking_machine)" title="Heath Robinson (codebreaking machine)">Robinson machines</a> and then with the <a href="Colossus_computer" title="Colossus computer">Colossus computers</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> The deciphered messages made an important contribution to <i><a href="Ultra" title="Ultra">Ultra</a></i> <a href="Military_intelligence" title="Military intelligence">military intelligence</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#The_Vernam_cipher"><span class="tocnumber">1</span> <span class="toctext">The Vernam cipher</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Structure"><span class="tocnumber">2</span> <span class="toctext">Structure</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Operation"><span class="tocnumber">3</span> <span class="toctext">Operation</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Cryptanalysis"><span class="tocnumber">4</span> <span class="toctext">Cryptanalysis</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Interception"><span class="tocnumber">4.1</span> <span class="toctext">Interception</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Code_breaking"><span class="tocnumber">4.2</span> <span class="toctext">Code breaking</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Decryption_machines:_world.27s_first_programmable_computer"><span class="tocnumber">4.3</span> <span class="toctext">Decryption machines: world's first programmable computer</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Testery_executives_and_Tunny_codebreakers"><span class="tocnumber">4.4</span> <span class="toctext">Testery executives and Tunny codebreakers</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Further_reading"><span class="tocnumber">8</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=1.php.html" title="Edit section: The Vernam cipher">edit</a>]</span> <span class="mw-headline" id="The_Vernam_cipher">The Vernam cipher</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Gilbert_Vernam" title="Gilbert Vernam">Gilbert Vernam</a></div>
+<p><a href="Gilbert_Vernam" title="Gilbert Vernam">Gilbert Vernam</a> was an <a href="AT&T_Corporation" title="AT&amp;T Corporation">AT&amp;T</a> <a href="Bell_Labs" title="Bell Labs">Bell Labs</a> research engineer who, in 1917, invented a cipher system that used the <a href="Boolean_algebra_(logic)" title="Boolean algebra (logic)" class="mw-redirect">Boolean</a> <a href="Exclusive_or" title="Exclusive or">"exclusive or" (XOR)</a> function, symbolised by ⊕.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> This is represented by the following "<a href="Truth_table" title="Truth table">truth table</a>", where 1 represents "true" and 0 represents "false".</p>
+<table class="wikitable" style="margin: 1em auto 1em auto">
+<tr bgcolor="#DDEEFF" align="center">
+<td colspan="2"><b>INPUT</b></td>
+<td><b>OUTPUT</b></td>
+</tr>
+<tr bgcolor="#DDEEFF" align="center">
+<td><i><b>A</b></i></td>
+<td><i><b>B</b></i></td>
+<td><b><i>A</i> ⊕<i>B</i></b></td>
+</tr>
+<tr bgcolor="#DDFFDD" align="center">
+<td><b>0</b></td>
+<td><b>0</b></td>
+<td><b>0</b></td>
+</tr>
+<tr bgcolor="#DDFFDD" align="center">
+<td><b>0</b></td>
+<td><b>1</b></td>
+<td><b>1</b></td>
+</tr>
+<tr bgcolor="#DDFFDD" align="center">
+<td><b>1</b></td>
+<td><b>0</b></td>
+<td><b>1</b></td>
+</tr>
+<tr bgcolor="#DDFFDD" align="center">
+<td><b>1</b></td>
+<td><b>1</b></td>
+<td><b>0</b></td>
+</tr>
+</table>
+<p>Other names for this function are: Not equal (NEQ), <a href="Modular_arithmetic" title="Modular arithmetic">modulo</a> 2 addition (without 'carry') and modulo 2 subtraction (without 'borrow').</p>
+<p>Vernam's cipher is a <a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a>, i.e. the same <a href="Key_(cryptography)" title="Key (cryptography)">key</a> is used both to encipher <a href="Plaintext" title="Plaintext">plaintext</a> to produce the <a href="Ciphertext" title="Ciphertext">ciphertext</a> and to decipher ciphertext to yield the original plaintext:</p>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>Plaintext ⊕ Key = Ciphertext</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>and:</p>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>Ciphertext ⊕ Key = Plaintext</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>This produces the essential reciprocity that allows the same machine with the same settings to be used for both enciphering and deciphering.</p>
+<p>Vernam's idea was to use conventional telegraphy practice with a paper tape of the plaintext combined with a paper tape of the key. Each key tape would have been unique (a one-time tape), but generating and distributing such tapes presented considerable practical difficulties. In the 1920s four men in different countries invented rotor cipher machines to produce a key stream to act instead of a tape.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> The 1940 Lorenz SZ40/42 was one of these.<sup id="cite_ref-GRoT11B10_8-0" class="reference"><a href="#cite_note-GRoT11B10-8"><span>[</span>8<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=2.php.html" title="Edit section: Structure">edit</a>]</span> <span class="mw-headline" id="Structure">Structure</span></h2>
+<p>The logical functioning of the Tunny system was worked out well before the Bletchley Park cryptanalysts saw one of the machines—which only happened in 1945, shortly before the allied victory in Europe.<sup id="cite_ref-Sale_9-0" class="reference"><a href="#cite_note-Sale-9"><span>[</span>9<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:342px;"><a href="http://en.wikipedia.org/wiki/File:SZ42-6-wheels-lightened.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/SZ42-6-wheels-lightened.jpg/340px-SZ42-6-wheels-lightened.jpg" width="340" height="255" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/39/SZ42-6-wheels-lightened.jpg/510px-SZ42-6-wheels-lightened.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/39/SZ42-6-wheels-lightened.jpg/680px-SZ42-6-wheels-lightened.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:SZ42-6-wheels-lightened.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The Lorenz SZ machines had 12 wheels each with a different number of cams (or "pins").
+<table class="wikitable" border="1" style="margin: 1em auto 1em auto">
+<tr>
+<th>Wheel number</th>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+<tr>
+<th>BP wheel name<sup id="cite_ref-GRoT11B6_10-0" class="reference"><a href="#cite_note-GRoT11B6-10"><span>[</span>10<span>]</span></a></sup></th>
+<td align="center"><img class="tex" alt="\psi" src="http://upload.wikimedia.org/math/1/9/d/19df1c2726ed43128440c1157f72a937.png" /><sub>1</sub></td>
+<td align="center"><img class="tex" alt="\psi" src="http://upload.wikimedia.org/math/1/9/d/19df1c2726ed43128440c1157f72a937.png" /><sub>2</sub></td>
+<td align="center"><img class="tex" alt="\psi" src="http://upload.wikimedia.org/math/1/9/d/19df1c2726ed43128440c1157f72a937.png" /><sub>3</sub></td>
+<td align="center"><img class="tex" alt="\psi" src="http://upload.wikimedia.org/math/1/9/d/19df1c2726ed43128440c1157f72a937.png" /><sub>4</sub></td>
+<td align="center"><img class="tex" alt="\psi" src="http://upload.wikimedia.org/math/1/9/d/19df1c2726ed43128440c1157f72a937.png" /><sub>5</sub></td>
+<td align="center"><img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" />37</td>
+<td align="center"><img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" />61</td>
+<td align="center"><img class="tex" alt="\chi" src="http://upload.wikimedia.org/math/7/9/c/79c40dd2b43f3c03eaf88b5fc4c199b8.png" /><sub>1</sub></td>
+<td align="center"><img class="tex" alt="\chi" src="http://upload.wikimedia.org/math/7/9/c/79c40dd2b43f3c03eaf88b5fc4c199b8.png" /><sub>2</sub></td>
+<td align="center"><img class="tex" alt="\chi" src="http://upload.wikimedia.org/math/7/9/c/79c40dd2b43f3c03eaf88b5fc4c199b8.png" /><sub>3</sub></td>
+<td align="center"><img class="tex" alt="\chi" src="http://upload.wikimedia.org/math/7/9/c/79c40dd2b43f3c03eaf88b5fc4c199b8.png" /><sub>4</sub></td>
+<td align="center"><img class="tex" alt="\chi" src="http://upload.wikimedia.org/math/7/9/c/79c40dd2b43f3c03eaf88b5fc4c199b8.png" /><sub>5</sub></td>
+</tr>
+<tr>
+<th>Number of cams (pins)</th>
+<td>43</td>
+<td>47</td>
+<td>51</td>
+<td>53</td>
+<td>59</td>
+<td>37</td>
+<td>61</td>
+<td>41</td>
+<td>31</td>
+<td>29</td>
+<td>26</td>
+<td>23</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>The SZ machine served as an in-line attachment to a standard Lorenz teleprinter. It had a metal base 19&#160;in (48&#160;cm) × 15.5&#160;in (39&#160;cm) and was 17&#160;in (43&#160;cm) high.<sup id="cite_ref-GRoT11B10_8-1" class="reference"><a href="#cite_note-GRoT11B10-8"><span>[</span>8<span>]</span></a></sup> The teleprinter characters consisted of five data <a href="Bit" title="Bit">bits</a>, encoded in the <a href="Baudot_code#ITA2" title="Baudot code">International Telegraphy Alphabet No. 2 (ITA2)</a>. The enciphering machine generated a <a href="Pseudorandom_number_generator" title="Pseudorandom number generator">pseudorandom</a> character-by-character key that was XOR-ed with the input characters to form the output characters.<sup id="cite_ref-GRoT11B6_10-1" class="reference"><a href="#cite_note-GRoT11B6-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>Each of the five bits (or "impulses") of the key for each character was generated by the relevant wheels in two parts of the machine. The Bletchley Park analysts called these the <img class="tex" alt="\chi" src="http://upload.wikimedia.org/math/7/9/c/79c40dd2b43f3c03eaf88b5fc4c199b8.png" /> ("<a href="Chi_(letter)" title="Chi (letter)"><i>chi</i></a>") wheels, and the <img class="tex" alt="\psi" src="http://upload.wikimedia.org/math/1/9/d/19df1c2726ed43128440c1157f72a937.png" /> ("<a href="Psi_(letter)" title="Psi (letter)"><i>psi</i></a>") wheels. Each wheel had a series of cams (or "pins") around them. These cams could be set in a raised (active) or lowered (inactive) position. In the raised position they generated a '1', in the lowered position they generated a '0'.</p>
+<p>The <i>chi</i> wheels all moved on one position for each character. The <i>psi</i> wheels also all moved together, but not after each character. Their movement was controlled by the two <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" /> ("<a href="Mu_(letter)" title="Mu (letter)"><i>mu</i></a>") or "motor" wheels.<sup id="cite_ref-GRoT11B7_11-0" class="reference"><a href="#cite_note-GRoT11B7-11"><span>[</span>11<span>]</span></a></sup> The SZ40 <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" />61 wheel moved one position with each character, but the <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" />37 wheel moved on only when the cam on the <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" />61 wheel was in the active position. If the cam on the <img class="tex" alt="\mu" src="http://upload.wikimedia.org/math/b/7/2/b72bb92668acc30b4474caff40274044.png" />37 wheel was in the active position, all five <i>psi</i> wheels then moved.<sup id="cite_ref-GRoT11B7_11-1" class="reference"><a href="#cite_note-GRoT11B7-11"><span>[</span>11<span>]</span></a></sup> The SZ42A and SZ42B models had additional complexity to this mechanism, known at Bletchley Park as <i>Limitations</i>.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p>
+<p>The key stream generated by the SZ machines thus had a <i>chi</i> component and a <i>psi</i> component that were combined together with the XOR function. Symbolically, the key that was combined with the plaintext for enciphering—or with the ciphertext for deciphering—can be represented as follows.<sup id="cite_ref-GRoT11B7_11-2" class="reference"><a href="#cite_note-GRoT11B7-11"><span>[</span>11<span>]</span></a></sup></p>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>
+<dl>
+<dd>Key = <i>Chi</i>-Key ⊕ <i>Psi</i>-Key</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>The number of cams on each wheel equalled the number of impulses needed to cause them to complete a full rotation. It should be noted that these numbers are all <a href="Coprime" title="Coprime" class="mw-redirect">co-prime</a> with each other, giving the longest possible time before the pattern repeated. With a total of 501 cams this equals 2<sup>501</sup> which is approximately 10<sup>151</sup>, an astronomically large number.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> However, if the five impulses are considered independently, the numbers are much more manageable. The <a href="Multiplication" title="Multiplication">product</a> of the rotation period of any pair of <i>chi</i> wheels gives numbers between 41×31=1271 and 26×23=598.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=3.php.html" title="Edit section: Operation">edit</a>]</span> <span class="mw-headline" id="Operation">Operation</span></h2>
+<p>Each "Tunny" link had four SZ machines with a transmitting and a receiving teleprinter at each end. For enciphering and deciphering to work, the transmitting and receiving machines had to be set up identically. There were two components to this; setting the patterns of cams on the wheels and rotating the wheels for the start of enciphering a message. The cam settings were changed less frequently before the Summer of 1944. The <i>psi</i> wheel cams were initially only changed quarterly, but later monthly, the <i>chi</i> wheels were changed monthly but the motor wheel patterns were changed daily. From 1 August 1944, all wheel patterns were changed daily.<sup id="cite_ref-GRoT11E14_14-0" class="reference"><a href="#cite_note-GRoT11E14-14"><span>[</span>14<span>]</span></a></sup></p>
+<p>Initially the wheel settings for a message were sent to the receiving end by means of a 12-letter <a href="Cryptanalysis#Indicator" title="Cryptanalysis">indicator</a> sent un-enciphered, the letters being associated with wheel positions in a book. In October 1942 this was changed to the use of a book of single-use settings in what was known as the QEP book. The last two digits of the QEP book entry were sent for the receiving operator to look up in his copy of the QEP book and set his machine's wheels. Each book contained one hundred or more combinations. Once all the combinations in a QEP book had been used it was replaced by a new one.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> The message settings should never have been re-used, but on occasion they were, providing a "depth", which could be utilised by a cryptanalyst.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></p>
+<p>As was normal telegraphy practice, messages of any length were keyed into a <a href="Teleprinter" title="Teleprinter">teleprinter</a> with a <a href="Punched_tape" title="Punched tape">paper tape</a> perforator. The typical sequence of operations would be that the sending operator would punch up the message, make contact with the receiving operator, use the <i>EIN / AUS</i> switch on the SZ machine to connect it into the circuit, and then run the tape through the reader.<sup id="cite_ref-GRoT11B10_8-2" class="reference"><a href="#cite_note-GRoT11B10-8"><span>[</span>8<span>]</span></a></sup> At the receiving end, the operator would similarly connect his SZ machine into the circuit and the output would be printed up on a continuous sticky tape. Because this was the practice, the plaintext did not contain the characters for "carriage return", "line feed" or the null (blank tape, 00000) character.<sup id="cite_ref-GRoT11A4_4-1" class="reference"><a href="#cite_note-GRoT11A4-4"><span>[</span>4<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=4.php.html" title="Edit section: Cryptanalysis">edit</a>]</span> <span class="mw-headline" id="Cryptanalysis">Cryptanalysis</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Cryptanalysis_of_the_Lorenz_cipher" title="Cryptanalysis of the Lorenz cipher">Cryptanalysis of the Lorenz cipher</a></div>
+<p>British cryptographers at <a href="Bletchley_Park" title="Bletchley Park">Bletchley Park</a> had deduced the operation of the machine by January 1942 without ever having seen a Lorenz machine, a feat made possible by a mistake made by a German operator.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=5.php.html" title="Edit section: Interception">edit</a>]</span> <span class="mw-headline" id="Interception">Interception</span></h3>
+<p>Tunny traffic was known by <a href="Y_Service" title="Y Service" class="mw-redirect">Y Station</a> operators used to listening to <a href="Morse_code" title="Morse code">Morse code</a> transmission as "new music". Its interception was originally concentrated at the Foreign Office Y Station operated by the <a href="Metropolitan_Police" title="Metropolitan Police" class="mw-redirect">Metropolitan Police</a> at <a href="Denmark_Hill" title="Denmark Hill">Denmark Hill</a> in <a href="Camberwell" title="Camberwell">Camberwell</a>, London. But due to lack of resources at this time (~1941), it was given a low priority. A new Y Station, <a href="Knockholt" title="Knockholt">Knockholt</a> in <a href="Kent" title="Kent">Kent</a>, was later constructed specifically to intercept Tunny traffic so that the messages could be efficiently recorded and sent to Bletchley Park.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> The head of Y station, <a href="../../w/index-title=Harold_Kenworthy&action=edit&redlink=1.php.html" class="new" title="Harold Kenworthy (page does not exist)">Harold Kenworthy</a>, moved to head up Knockholt. He was later promoted to head the Foreign Office Research and Development Establishment (F.O.R.D.E).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=6.php.html" title="Edit section: Code breaking">edit</a>]</span> <span class="mw-headline" id="Code_breaking">Code breaking</span></h3>
+<p>On 30 August 1941, a message of some 4,000 characters was transmitted from <a href="Athens" title="Athens">Athens</a> to <a href="Vienna" title="Vienna">Vienna</a>. However, the message was not received correctly at the other end, so (after the recipient sent an unencoded request for retransmission, which let the codebreakers know what was happening) the message was retransmitted with the same key settings (HQIBPEXEZMUG); a forbidden practice. Moreover, the second time the operator made a number of small alterations to the message, such as using abbreviations, making the second message somewhat shorter. From these two related ciphertexts, known to cryptanalysts as a <a href="Cryptanalysis#Depth" title="Cryptanalysis">depth</a>, the veteran cryptanalyst <a href="John_Tiltman" title="John Tiltman">Brigadier John Tiltman</a> in the Research Section teased out the two plaintexts and hence the <a href="Keystream" title="Keystream">keystream</a>. Then, after three months of the Research Section failing to diagnose the machine from the almost 4,000 characters of key, the task was handed to mathematician <a href="../W._T._Tutte" title="W. T. Tutte">Bill Tutte</a>. He applied a technique that he had been taught in his cryptographic training, of writing out the key by hand and looking for repetitions. Tutte did this with the original teleprinter 5-bit <a href="Baudot_code" title="Baudot code">Baudot codes</a>, which led him to his initial breakthrough of recognising a 41 character repetition.<sup id="cite_ref-Sale_9-1" class="reference"><a href="#cite_note-Sale-9"><span>[</span>9<span>]</span></a></sup><sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> Over the following two months up to January 1942, Tutte and colleagues worked out the complete logical structure of the cipher machine. This remarkable piece of <a href="Reverse_engineering" title="Reverse engineering">reverse engineering</a> was later described as "one of the greatest intellectual feats of World War II".<sup id="cite_ref-Sale_9-2" class="reference"><a href="#cite_note-Sale-9"><span>[</span>9<span>]</span></a></sup></p>
+<p>After this cracking of Tunny, a special team of code breakers was set up under <a href="Ralph_Tester" title="Ralph Tester">Ralph Tester</a>, most initially transferred from <a href="Alan_Turing" title="Alan Turing">Alan Turing</a>'s <a href="Hut_8" title="Hut 8">Hut 8</a>. The team became known as the <a href="Testery" title="Testery">Testery</a>. It performed the bulk of the subsequent work in breaking Tunny messages, but was aided by machines in the complementary section under <a href="Max_Newman" title="Max Newman">Max Newman</a> known as the <a href="Newmanry" title="Newmanry">Newmanry</a>.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=7.php.html" title="Edit section: Decryption machines: world's first programmable computer">edit</a>]</span> <span class="mw-headline" id="Decryption_machines:_world.27s_first_programmable_computer">Decryption machines: world's first programmable computer</span></h3>
+<p>Several complex machines were built by the British to aid the attack on Tunny. The first was the <a href="British_Tunny" title="British Tunny" class="mw-redirect">British Tunny</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup> This machine was designed by Bletchley Park, based on the <a href="Reverse_engineering" title="Reverse engineering">reverse engineering</a> work done by Tiltman's team in the Testery, to emulate the Lorenz Cipher Machine. When the pin wheel settings were found by the Testery, the Tunny machine was set up and run so that the messages could be printed.</p>
+<p>A family of machines known as "<a href="Heath_Robinson_(codebreaking_machine)" title="Heath Robinson (codebreaking machine)">Robinsons</a>" were built for the Newmanry. These used two <a href="Paper_tape" title="Paper tape" class="mw-redirect">paper tapes</a>, along with logic circuitry, to find the settings of the <i>chi</i> pin wheels of the Lorenz machine.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> The Robinsons had major problems keeping the two paper tapes synchronized and were relatively slow, reading only 2000 characters per second.</p>
+<p>The most important machine was the <a href="Colossus_computer" title="Colossus computer">Colossus</a> of which ten were in use by the war's end. They were the world's first large-scale programmable electronic digital <a href="Computer" title="Computer">computers</a>, the first becoming operational in December 1943. These were developed by senior engineer <a href="Tommy_Flowers" title="Tommy Flowers">Tommy Flowers</a> at the <a href="Post_Office_Research_Station" title="Post Office Research Station">Post Office Research Station</a> at <a href="Dollis_Hill" title="Dollis Hill">Dollis Hill</a> in London. Like the later <a href="ENIAC" title="ENIAC">ENIAC</a> of 1946, Colossus did not have a <a href="Stored_program" title="Stored program" class="mw-redirect">stored program</a>, and was programmed through plugboards and jumper cables. It was faster, more reliable and more capable than the Robinsons, so speeding up the process of finding the Lorenz <i>chi</i> pin wheel settings. Since Colossus generated the putative keys electronically, it only had to read one tape. It did so with an optical reader which, at 5000 characters per second, was driven much faster than the Robinsons' and meant that the tape travelled at almost 30 miles per hour (48 kph).<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> This, and the clocking of the electronics from the optically read paper tape sprocket holes, completely eliminated the Robinsons' synchronisation problems.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=8.php.html" title="Edit section: Testery executives and Tunny codebreakers">edit</a>]</span> <span class="mw-headline" id="Testery_executives_and_Tunny_codebreakers">Testery executives and Tunny codebreakers</span></h3>
+<ul>
+<li><a href="Ralph_Tester" title="Ralph Tester">Ralph Tester</a> linguist and head of Testery</li>
+<li><a href="Jerry_Roberts" title="Jerry Roberts">Jerry Roberts</a> shift-leader, linguist and senior codebreaker</li>
+<li><a href="../../w/index-title=Peter_Ericsson&action=edit&redlink=1.php.html" class="new" title="Peter Ericsson (page does not exist)">Peter Ericsson</a> shift-leader, linguist and senior codebreaker</li>
+<li><a href="../../w/index-title=Victor_Masters&action=edit&redlink=1.php.html" class="new" title="Victor Masters (page does not exist)">Victor Masters</a> shift-leader</li>
+<li><a href="Denis_Oswald" title="Denis Oswald">Denis Oswald</a> linguist and senior codebreaker</li>
+<li><a href="Peter_Hilton" title="Peter Hilton">Peter Hilton</a> codebreaker and mathematician</li>
+<li><a href="Peter_Benenson" title="Peter Benenson">Peter Benenson</a> codebreaker</li>
+<li><a href="../../w/index-title=Peter_Edgerley&action=edit&redlink=1.php.html" class="new" title="Peter Edgerley (page does not exist)">Peter Edgerley</a> codebreaker</li>
+<li><a href="John_Christie" title="John Christie">John Christie</a> codebreaker</li>
+<li><a href="../../w/index-title=John_Thompson_(cryptographer)&action=edit&redlink=1.php.html" class="new" title="John Thompson (cryptographer) (page does not exist)">John Thompson</a> codebreaker</li>
+<li><a href="Roy_Jenkins" title="Roy Jenkins">Roy Jenkins</a> codebreaker</li>
+<li><a href="../../w/index-title=Tom_Colvill&action=edit&redlink=1.php.html" class="new" title="Tom Colvill (page does not exist)">Tom Colvill</a> general manager</li>
+</ul>
+<p>By the end of the war, the Testery had grown to 9 cryptographers, 24 ATS girls with a total staff of 118, organised in 3 shifts working round the clock.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=9.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Enigma_machine" title="Enigma machine">Enigma machine</a></li>
+<li><a href="Newmanry" title="Newmanry">Newmanry</a></li>
+<li><a href="Testery" title="Testery">Testery</a></li>
+<li><a href="STURGEON_(cryptography)" title="STURGEON (cryptography)" class="mw-redirect">Sturgeon</a></li>
+<li><a href="Turingery" title="Turingery">Turingery</a></li>
+<li><a href="Cryptanalysis_of_the_Lorenz_cipher" title="Cryptanalysis of the Lorenz cipher">Cryptanalysis of the Lorenz cipher</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=10.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a href="#CITEREFHinsley1993">Hinsley 1993</a>, p.&#160;141</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a href="#CITEREFHinsley1993">Hinsley 1993</a>, p.&#160;142</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="#CITEREFCopeland2006">Copeland 2006</a>, pp.&#160;38, 39</span></li>
+<li id="cite_note-GRoT11A4-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-GRoT11A4_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-GRoT11A4_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;4 of <i>German Tunny</i></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a href="#CITEREFGood1993">Good 1993</a>, pp.&#160;160–165</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a href="#CITEREFKlein">Klein</a>, p.&#160;2</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a href="#CITEREFKlein">Klein</a>, p.&#160;3</span></li>
+<li id="cite_note-GRoT11B10-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-GRoT11B10_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-GRoT11B10_8-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-GRoT11B10_8-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;10 of <i>German Tunny</i></span></li>
+<li id="cite_note-Sale-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-Sale_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Sale_9-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Sale_9-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><span class="citation" id="CITEREFSale"><a href="Anthony_Sale" title="Anthony Sale" class="mw-redirect">Sale, Tony</a>, <a rel="nofollow" class="external text" href="http://www.codesandciphers.org.uk/lorenz/fish.htm"><i>The Lorenz Cipher and how Bletchley Park broke it</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.codesandciphers.org.uk/lorenz/fish.htm">http://www.codesandciphers.org.uk/lorenz/fish.htm</a></span><span class="reference-accessdate">, retrieved 21 October 2010</span></span></span></li>
+<li id="cite_note-GRoT11B6-10"><span class="mw-cite-backlink">^ <a href="#cite_ref-GRoT11B6_10-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-GRoT11B6_10-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;6 of <i>German Tunny</i></span></li>
+<li id="cite_note-GRoT11B7-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-GRoT11B7_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-GRoT11B7_11-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-GRoT11B7_11-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;7 of <i>German Tunny</i></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;8 of <i>German Tunny</i></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a href="#CITEREFChurchhouse2002">Churchhouse 2002</a>, p.&#160;158</span></li>
+<li id="cite_note-GRoT11E14-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-GRoT11E14_14-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;14 of <i>German Tunny</i></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a href="#CITEREFCopeland2006">Copeland 2006</a>, p.&#160;45</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a href="#CITEREFChurchhouse2002">Churchhouse 2002</a>, p.&#160;34</span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a href="#CITEREFGoodMichieTimms1945">Good, Michie &amp; Timms 1945</a>, p.&#160;281 in <i>Knockholt</i></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><a href="#CITEREFTutte1998">Tutte 1998</a>, pp.&#160;356, 357</span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a href="#CITEREFRoberts2009">Roberts 2009</a></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a href="#CITEREFHalton1993">Halton 1993</a></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.theregister.co.uk/2011/05/26/bletchley_park_tunny_rebuild_project/">Bletchley Park completes epic Tunny machine</a> The Register, <a rel="nofollow" class="external text" href="http://www.theregister.co.uk/2011/05/26/">26th May 2011</a>, Accessed may 2011</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a href="#CITEREFCopeland2006">Copeland 2006</a>, p.&#160;66</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a href="#CITEREFFlowers2006">Flowers 2006</a>, p.&#160;100</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=11.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFChurchhouse2002">Churchhouse, Robert (2002), <i>Codes and Ciphers: Julius Caesar, the Enigma and the Internet</i>, Cambridge: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-00890-7" title="Special:BookSources/978-0-521-00890-7">978-0-521-00890-7</a></span></li>
+<li><span class="citation" id="CITEREFCopeland2006"><a href="Jack_Copeland" title="Jack Copeland">Copeland, B. Jack</a>, ed. (2006), <i>Colossus: The Secrets of Bletchley Park's Codebreaking Computers</i>, Oxford: Oxford University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-19-284055-4" title="Special:BookSources/978-0-19-284055-4">978-0-19-284055-4</a></span></li>
+<li><span class="citation" id="CITEREFCopeland2006"><a href="Jack_Copeland" title="Jack Copeland">Copeland, Jack</a> (2006), <i>The German Tunny Machine</i></span> in <a href="#CITEREFCopeland2006">Copeland 2006</a>, pp.&#160;36–51</li>
+<li><span class="citation" id="CITEREFCopeland2006"><a href="Jack_Copeland" title="Jack Copeland">Copeland, Jack</a> (2006), <i>Machine against Machine</i></span> in <a href="#CITEREFCopeland2006">Copeland 2006</a>, pp.&#160;64–77</li>
+<li><a href="../Donald_W._Davies" title="Donald W. Davies" class="mw-redirect">Davies, Donald W.</a>, <i>The Lorenz Cipher Machine SZ42</i>, (reprinted in <i>Selections from Cryptologia: History, People, and Technology</i>, Artech House, Norwood, 1998)</li>
+<li><span class="citation" id="CITEREFFlowers2006"><a href="Tommy_Flowers" title="Tommy Flowers">Flowers, Thomas H.</a> (2006), <i>Colossus</i></span> in <a href="#CITEREFCopeland2006">Copeland 2006</a>, pp.&#160;91–100</li>
+<li><span class="citation" id="CITEREFGood1993"><a href="../I._J._Good" title="I. J. Good">Good, Jack</a> (1993), <i>Enigma and Fish</i></span> in <a href="#CITEREFHinsleyStripp1993">Hinsley &amp; Stripp 1993</a>, pp.&#160;149–166</li>
+<li><span class="citation" id="CITEREFGoodMichieTimms1945"><a href="../I._J._Good" title="I. J. Good">Good, Jack</a>; <a href="Donald_Michie" title="Donald Michie">Michie, Donald</a>; Timms, Geoffrey (1945), <a rel="nofollow" class="external text" href="http://www.alanturing.net/turing_archive/archive/index/tunnyreportindex.html"><i>General Report on Tunny: With Emphasis on Statistical Methods</i></a>, UK Public Record Office HW 25/4 and HW 25/5<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.alanturing.net/turing_archive/archive/index/tunnyreportindex.html">http://www.alanturing.net/turing_archive/archive/index/tunnyreportindex.html</a></span><span class="reference-accessdate">, retrieved 15 September 2010</span></span> That version is a facsimile copy, but there is a transcript of much of this document in '.pdf' format at: <span class="citation" id="CITEREFSale2001"><a href="Anthony_Sale" title="Anthony Sale" class="mw-redirect">Sale, Tony</a> (2001), <a rel="nofollow" class="external text" href="http://www.codesandciphers.org.uk/documents/newman/newman.pdf"><i>Part of the "General Report on Tunny", the Newmanry History, formatted by Tony Sale</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.codesandciphers.org.uk/documents/newman/newman.pdf">http://www.codesandciphers.org.uk/documents/newman/newman.pdf</a></span><span class="reference-accessdate">, retrieved 20 September 2010</span></span>, and a web transcript of Part 1 at: <span class="citation" id="CITEREFEllsbury">Ellsbury, Graham, <a rel="nofollow" class="external text" href="http://www.ellsbury.com/tunny/tunny-001.htm"><i>General Report on Tunny With Emphasis on Statistical Methods</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.ellsbury.com/tunny/tunny-001.htm">http://www.ellsbury.com/tunny/tunny-001.htm</a></span><span class="reference-accessdate">, retrieved 3 November 2010</span></span></li>
+<li><span class="citation" id="CITEREFHalton1993">Halton, Ken (1993), <i>The Tunny Machine</i></span> in <a href="#CITEREFHinsleyStripp1993">Hinsley &amp; Stripp 1993</a>, pp.&#160;167–174</li>
+<li><span class="citation" id="CITEREFHinsleyStripp1993"><a href="Harry_Hinsley" title="Harry Hinsley">Hinsley, F.H.</a>; Stripp, Alan, eds. (1993) [1992], <i>Codebreakers: The inside story of Bletchley Park</i>, Oxford: Oxford University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-19-280132-6" title="Special:BookSources/978-0-19-280132-6">978-0-19-280132-6</a></span></li>
+<li><span class="citation" id="CITEREFHinsley1993"><a href="Harry_Hinsley" title="Harry Hinsley">Hinsley, F.H.</a> (1993), <i>An introduction to Fish</i></span> in <a href="#CITEREFHinsleyStripp1993">Hinsley &amp; Stripp 1993</a>, pp.&#160;141–148</li>
+<li><span class="citation" id="CITEREFKlein">Klein, Melville, <a rel="nofollow" class="external text" href="http://www.nsa.gov/about/_files/cryptologic_heritage/publications/misc/tsec_kw26.pdf"><i>Securing Record Communication: The TSEC/KW-26</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.nsa.gov/about/_files/cryptologic_heritage/publications/misc/tsec_kw26.pdf">http://www.nsa.gov/about/_files/cryptologic_heritage/publications/misc/tsec_kw26.pdf</a></span><span class="reference-accessdate">, retrieved 17 September 2010</span></span></li>
+<li><span class="citation" id="CITEREFRoberts2006"><a href="Jerry_Roberts" title="Jerry Roberts">Roberts, Jerry</a> (2006), <i>Major Tester's Section</i></span> in <a href="#CITEREFCopeland2006">Copeland 2006</a>, pp.&#160;249–259</li>
+<li><span class="citation" id="CITEREFRoberts2009"><a href="Jerry_Roberts" title="Jerry Roberts">Roberts, Jerry</a> (2009) (iTunes U), <a rel="nofollow" class="external text" href="http://www.ucl.ac.uk/news/news-articles/0903/09031601"><i>My Top-Secret Codebreaking During World War II: The Last British Survivor of Bletchley Park’s Testery</i></a>, University College London<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.ucl.ac.uk/news/news-articles/0903/09031601">http://www.ucl.ac.uk/news/news-articles/0903/09031601</a></span></span></li>
+<li><span class="citation" id="CITEREFTutte1998"><a href="../W._T._Tutte" title="W. T. Tutte">Tutte, W. T.</a> (19 June 1998), <a rel="nofollow" class="external text" href="http://www.usna.edu/Users/math/wdj/papers/cryptoday/tutte_fish.pdf"><i>Fish and I</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.usna.edu/Users/math/wdj/papers/cryptoday/tutte_fish.pdf">http://www.usna.edu/Users/math/wdj/papers/cryptoday/tutte_fish.pdf</a></span><span class="reference-accessdate">, retrieved 7 April 2012</span></span> Transcript of a lecture given by Prof. Tutte at the <a href="University_of_Waterloo" title="University of Waterloo">University of Waterloo</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.alanturing.net/turing_archive/archive/b/B06/BO6-092.html">Entry for "Tunny"</a> in the <a href="GC&CS" title="GC&amp;CS" class="mw-redirect">GC&amp;CS</a> <i>Cryptographic Dictionary</i></li>
+<li><a rel="nofollow" class="external text" href="http://www.codesandciphers.org.uk/lorenz/fish.htm">The Lorenz Cipher and how Bletchley Park broke it</a> by Tony Sale</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=12.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li>Stephen Budiansky, <i>Battle of Wits</i> (Free Press, New York, 2000). Contains a short but informative section (pages 312–315) describing the operation of Tunny, and how it was attacked.</li>
+<li>Paul Gannon, <i>Colossus: Bletchley Park's Greatest Secret</i> (Atlantic Books, 2006). Using recently declassified material and dealing exclusively with the efforts to break into Tunny. Clears up many previous misconceptions about Fish traffic, the Lorenz cipher machine and Colossus.</li>
+<li>F. H. Hinsley, Alan Stripp, <i>Codebreakers: The Inside Story of Bletchley Park</i> (<a href="Oxford_University_Press" title="Oxford University Press">Oxford University Press</a>, 1993). Contains a lengthy section (pages 139–192) about Tunny, the British attack on it, and the British replicas of the Lorenz machine.</li>
+<li><span class="citation" id="CITEREFSmall1944">Small, Albert W. (1944), <a rel="nofollow" class="external text" href="http://www.codesandciphers.org.uk/documents/small/smallix.HTM"><i>The Special Fish Report</i></a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.codesandciphers.org.uk/documents/small/smallix.HTM">http://www.codesandciphers.org.uk/documents/small/smallix.HTM</a></span><span class="reference-accessdate">, retrieved 21 September 2010</span></span></li>
+<li>Michael Smith, <i>Station X: Decoding Nazi Secrets</i> (TV Books, New York, 2001). Contains a lengthy section (pages 183–202) about Tunny and the British attack on it.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Lorenz_cipher&action=edit&section=13.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.codesandciphers.org.uk/lorenz/index.htm">Lorenz ciphers and the Colossus</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.eclipse.net/~dhamer/lorenz.htm">Information on Lorenz</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.jproc.ca/crypto/tunny.html">Photographs and description of Tunny</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.cimt.plymouth.ac.uk/resources/codes/lorenz/default.htm">Simplified Lorenz Cipher Toolkit</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_machines" title="Template:Cryptography machines"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_machines" title="Template talk:Cryptography machines"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_machines&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Cipher machines</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Rotor_machine" title="Rotor machine">Rotor machines</a>:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Combined_Cipher_Machine" title="Combined Cipher Machine">CCM</a></li>
+<li><a href="Enigma_machine" title="Enigma machine">Enigma</a></li>
+<li>M – 125 <a href="Fialka" title="Fialka">Fialka</a></li>
+<li><a href="Hebern_rotor_machine" title="Hebern rotor machine">Hebern</a></li>
+<li><a href="HX-63" title="HX-63">HX-63</a></li>
+<li><a href="KL-7" title="KL-7">KL-7</a></li>
+<li><a href="Lacida" title="Lacida">Lacida</a></li>
+<li><a href="M-325" title="M-325">M-325</a></li>
+<li><a href="Mercury_(cipher_machine)" title="Mercury (cipher machine)">Mercury</a></li>
+<li><a href="NEMA_(machine)" title="NEMA (machine)">NEMA</a></li>
+<li><a href="OMI_cryptograph" title="OMI cryptograph">OMI</a></li>
+<li><a href="Portex" title="Portex">Portex</a></li>
+<li><a href="Red_(cipher_machine)" title="Red (cipher machine)">RED</a></li>
+<li><a href="SIGABA" title="SIGABA">SIGABA</a></li>
+<li><a href="SIGCUM" title="SIGCUM">SIGCUM</a></li>
+<li><a href="BID/60" title="BID/60">Singlet</a></li>
+<li><a href="Typex" title="Typex">Typex</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Mechanical:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Jefferson_disk" title="Jefferson disk">Bazeries cylinder</a></li>
+<li><a href="C-36_(cipher_machine)" title="C-36 (cipher machine)">C-36</a></li>
+<li><a href="C-52_(cipher_machine)" title="C-52 (cipher machine)">C-52</a></li>
+<li><a href="CD-57" title="CD-57">CD-57</a></li>
+<li><a href="Cipher_disk" title="Cipher disk">Cipher disk</a></li>
+<li><a href="HC-9" title="HC-9">HC-9</a></li>
+<li><a href="Kryha" title="Kryha">Kryha</a></li>
+<li><a href="Jefferson_disk" title="Jefferson disk">Jefferson disk</a></li>
+<li><a href="M-94" title="M-94">M-94</a></li>
+<li><a href="M-209" title="M-209">M-209</a></li>
+<li><a href="Reihenschieber" title="Reihenschieber">Reihenschieber</a></li>
+<li><a href="Scytale" title="Scytale">Scytale</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Teleprinter:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="5-UCO" title="5-UCO">5-UCO</a></li>
+<li><a href="BID_770" title="BID 770">BID 770</a></li>
+<li><a href="DUDEK" title="DUDEK">DUDEK</a></li>
+<li><a href="KW-26" title="KW-26">KW-26</a></li>
+<li><a href="KW-37" title="KW-37">KW-37</a></li>
+<li><strong class="selflink">Lorenz SZ 40/42</strong></li>
+<li><a href="Siemens_and_Halske_T52" title="Siemens and Halske T52">Siemens and Halske T52</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Secure_voice" title="Secure voice">Secure voice</a>:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="BID_150" title="BID 150">BID 150</a></li>
+<li><a href="FASCINATOR" title="FASCINATOR">FASCINATOR</a></li>
+<li><a href="KY-3" title="KY-3">KY-3</a></li>
+<li><a href="KY-57" title="KY-57">KY-57</a></li>
+<li><a href="KY-58" title="KY-58">KY-58</a></li>
+<li><a href="KY-68" title="KY-68">KY-68</a></li>
+<li><a href="OMNI_(SCIP)" title="OMNI (SCIP)">OMNI</a></li>
+<li><a href="Secure_Communications_Interoperability_Protocol" title="Secure Communications Interoperability Protocol">SCIP</a></li>
+<li><a href="Sect%C3%A9ra_Secure_Module" title="Sectéra Secure Module">Sectéra Secure Module</a></li>
+<li><a href="SIGSALY" title="SIGSALY">SIGSALY</a></li>
+<li><a href="Secure_Terminal_Equipment" title="Secure Terminal Equipment">STE</a></li>
+<li><a href="STU-II" title="STU-II">STU-II</a></li>
+<li><a href="STU-III" title="STU-III">STU-III</a></li>
+<li><a href="VINSON" title="VINSON">VINSON</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Miscellaneous:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="JADE" title="JADE">JADE</a></li>
+<li><a href="KG-84" title="KG-84">KG-84</a></li>
+<li><a href="KL-43" title="KL-43">KL-43</a></li>
+<li><a href="Noreen" title="Noreen">Noreen</a></li>
+<li><a href="Purple_(cipher_machine)" title="Purple (cipher machine)">PURPLE</a></li>
+<li><a href="Pinwheel_(cryptography)" title="Pinwheel (cryptography)">Pinwheel</a></li>
+<li><a href="Rockex" title="Rockex">Rockex</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 14848/1000000
+Preprocessor generated node count: 31187/1500000
+Post-expand include size: 104015/2048000 bytes
+Template argument size: 42082/2048000 bytes
+Highest expansion depth: 22/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:301173-0!0!0!!en!4!* and timestamp 20130127143729 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Lorenz_cipher&oldid=530317862.php.html">http://en.wikipedia.org/w/index.php?title=Lorenz_cipher&amp;oldid=530317862</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Cryptographic_hardware" title="Category:Cryptographic hardware">Cryptographic hardware</a></li><li><a href="Category_Encryption_devices" title="Category:Encryption devices">Encryption devices</a></li><li><a href="Category_World_War_II_military_equipment_of_Germany" title="Category:World War II military equipment of Germany">World War II military equipment of Germany</a></li><li><a href="Category_Signals_intelligence_of_World_War_II" title="Category:Signals intelligence of World War II">Signals intelligence of World War II</a></li><li><a href="Category_Broken_stream_ciphers" title="Category:Broken stream ciphers">Broken stream ciphers</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Lorenz+cipher&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Lorenz+cipher.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Lorenz_cipher"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Lorenz_cipher&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Lorenz_cipher&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Lorenz_cipher" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Lorenz_cipher" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Lorenz_cipher&oldid=530317862.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Lorenz_cipher&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Lorenz_cipher&id=530317862.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Lorenz+cipher.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Lorenz+cipher&oldid=530317862&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Lorenz_cipher&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Lorenz-Schl%C3%BCsselmaschine" title="Lorenz-Schlüsselmaschine" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/C%C3%B3digo_Lorenz" title="Código Lorenz" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Machine_de_Lorenz" title="Machine de Lorenz" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Lorenz_(cifratrice)" title="Lorenz (cifratrice)" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Lorenz-machine" title="Lorenz-machine" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Lorenz-chiffer" title="Lorenz-chiffer" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Maszyna_Lorenza" title="Maszyna Lorenza" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Lorenz_SZ_40/42" title="Lorenz SZ 40/42" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%9B%D0%BE%D1%80%D0%B5%D0%BD%D1%86%D0%B0" title="Машина Лоренца" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Lorenz_SZ_40/42" title="Lorenz SZ 40/42" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Lorenz_SZ-40/42" title="Lorenz SZ-40/42" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Lorenz_SZ40/42" title="Lorenz SZ40/42" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0_%D0%9B%D0%BE%D1%80%D0%B5%D0%BD%D1%86%D0%B0" title="Машина Лоренца" lang="uk" hreflang="uk">Українська</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 29 December 2012 at 16:55.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Lorenz_cipher" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1022 in 0.119 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

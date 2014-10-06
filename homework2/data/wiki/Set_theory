@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Set theory - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Set_theory&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Set_theory&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Set_theory","wgTitle":"Set theory","wgCurRevisionId":538098524,"wgArticleId":27553,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from December 2011","Set theory","Formal methods","Mathematical logic"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Set_theory","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"78512654a523765d22c428de766d0d59","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":27553,"title":"Set theory","namespace":0,"categories":["All articles with unsourced statements","Articles with unsourced statements from December 2011","Formal methods","Mathematical logic","Set theory"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Set_theory skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Set theory</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article is about the branch of mathematics.  For musical set theory, see <a href="Set_theory_(music)" title="Set theory (music)">Set theory (music)</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Venn_A_intersect_B.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/220px-Venn_A_intersect_B.svg.png" width="220" height="157" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/330px-Venn_A_intersect_B.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/440px-Venn_A_intersect_B.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Venn_A_intersect_B.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="Venn_diagram" title="Venn diagram">Venn diagram</a> illustrating the <a href="Intersection_(set_theory)" title="Intersection (set theory)">intersection</a> of two <a href="Set_(mathematics)" title="Set (mathematics)">sets</a>.</div>
+</div>
+</div>
+<p><b>Set theory</b> is the branch of <a href="Mathematics" title="Mathematics">mathematics</a> that studies <a href="Set_(mathematics)" title="Set (mathematics)">sets</a>, which are collections of objects. Although any type of object can be collected into a set, set theory is applied most often to objects that are relevant to mathematics. The language of set theory can be used in the definitions of nearly all <a href="Mathematical_objects" title="Mathematical objects" class="mw-redirect">mathematical objects</a>.</p>
+<p>The modern study of set theory was initiated by <a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a> and <a href="Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a> in the 1870s. After the discovery of <a href="Paradoxes_of_set_theory" title="Paradoxes of set theory">paradoxes</a> in <a href="Naive_set_theory" title="Naive set theory">naive set theory</a>, numerous <a href="Axiomatic_system" title="Axiomatic system">axiom systems</a> were proposed in the early twentieth century, of which the <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel axioms</a>, with the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a>, are the best-known.</p>
+<p>Set theory is commonly employed as a <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundational system for mathematics</a>, particularly in the form of <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> with the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a>. Beyond its foundational role, set theory is a branch of <a href="Mathematics" title="Mathematics">mathematics</a> in its own right, with an active research community. Contemporary research into set theory includes a diverse collection of topics, ranging from the structure of the <a href="Real_number" title="Real number">real number</a> line to the study of the <a href="Consistency" title="Consistency">consistency</a> of <a href="Large_cardinal" title="Large cardinal">large cardinals</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Basic_concepts_and_notation"><span class="tocnumber">2</span> <span class="toctext">Basic concepts and notation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Some_ontology"><span class="tocnumber">3</span> <span class="toctext">Some ontology</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Axiomatic_set_theory"><span class="tocnumber">4</span> <span class="toctext">Axiomatic set theory</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Applications"><span class="tocnumber">5</span> <span class="toctext">Applications</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Areas_of_study"><span class="tocnumber">6</span> <span class="toctext">Areas of study</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Combinatorial_set_theory"><span class="tocnumber">6.1</span> <span class="toctext">Combinatorial set theory</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Descriptive_set_theory"><span class="tocnumber">6.2</span> <span class="toctext">Descriptive set theory</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Fuzzy_set_theory"><span class="tocnumber">6.3</span> <span class="toctext">Fuzzy set theory</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Inner_model_theory"><span class="tocnumber">6.4</span> <span class="toctext">Inner model theory</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Large_cardinals"><span class="tocnumber">6.5</span> <span class="toctext">Large cardinals</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Determinacy"><span class="tocnumber">6.6</span> <span class="toctext">Determinacy</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Forcing"><span class="tocnumber">6.7</span> <span class="toctext">Forcing</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Cardinal_invariants"><span class="tocnumber">6.8</span> <span class="toctext">Cardinal invariants</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Set-theoretic_topology"><span class="tocnumber">6.9</span> <span class="toctext">Set-theoretic topology</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Objections_to_set_theory_as_a_foundation_for_mathematics"><span class="tocnumber">7</span> <span class="toctext">Objections to set theory as a foundation for mathematics</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Notes"><span class="tocnumber">9</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Further_reading"><span class="tocnumber">10</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#External_links"><span class="tocnumber">11</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:162px;"><a href="http://en.wikipedia.org/wiki/File:Georg_Cantor_1894.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Georg_Cantor_1894.jpg/160px-Georg_Cantor_1894.jpg" width="160" height="230" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Georg_Cantor_1894.jpg/240px-Georg_Cantor_1894.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/7/73/Georg_Cantor_1894.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Georg_Cantor_1894.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Georg Cantor</div>
+</div>
+</div>
+<p>Mathematical topics typically emerge and evolve through interactions among many researchers. Set theory, however, was founded by a single paper in 1874 by <a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a>: "On a Characteristic Property of All Real Algebraic Numbers".<sup id="cite_ref-cantor1874_1-0" class="reference"><a href="#cite_note-cantor1874-1"><span>[</span>1<span>]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Since the 5th century BC, beginning with <a href="Greek_mathematics" title="Greek mathematics">Greek</a> mathematician <a href="Zeno_of_Elea" title="Zeno of Elea">Zeno of Elea</a> in the West and early <a href="Indian_mathematics" title="Indian mathematics">Indian mathematicians</a> in the East, mathematicians had struggled with the concept of <a href="Infinity" title="Infinity">infinity</a>. Especially notable is the work of <a href="Bernard_Bolzano" title="Bernard Bolzano">Bernard Bolzano</a> in the first half of the 19th century.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Modern understanding of infinity began in 1867–71, with Cantor's work on number theory. An 1872 meeting between Cantor and <a href="Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a> influenced Cantor's thinking and culminated in Cantor's 1874 paper.</p>
+<p>Cantor's work initially polarized the mathematicians of his day. While <a href="Karl_Weierstrass" title="Karl Weierstrass">Karl Weierstrass</a> and Dedekind supported Cantor, <a href="Leopold_Kronecker" title="Leopold Kronecker">Leopold Kronecker</a>, now seen as a founder of <a href="Mathematical_constructivism" title="Mathematical constructivism" class="mw-redirect">mathematical constructivism</a>, did not. Cantorian set theory eventually became widespread, due to the utility of Cantorian concepts, such as <a href="One-to-one_correspondence" title="One-to-one correspondence" class="mw-redirect">one-to-one correspondence</a> among sets, his proof that there are more <a href="Real_number" title="Real number">real numbers</a> than integers, and the "infinity of infinities" ("<a href="../../w/index-title=Cantor's_paradise&action=edit&redlink=1.php.html" class="new" title="Cantor's paradise (page does not exist)">Cantor's paradise</a>") resulting from the <a href="Power_set" title="Power set">power set</a> operation. This utility of set theory led to the article "Mengenlehre" contributed in 1898 by <a href="Arthur_Schoenflies" title="Arthur Schoenflies" class="mw-redirect">Arthur Schoenflies</a> to <a href="Klein's_encyclopedia" title="Klein's encyclopedia">Klein's encyclopedia</a>.</p>
+<p>The next wave of excitement in set theory came around 1900, when it was discovered that Cantorian set theory gave rise to several contradictions, called <a href="Antinomy" title="Antinomy">antinomies</a> or <a href="Paradox" title="Paradox">paradoxes</a>. <a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a> and <a href="Ernst_Zermelo" title="Ernst Zermelo">Ernst Zermelo</a> independently found the simplest and best known paradox, now called <a href="Russell's_paradox" title="Russell's paradox">Russell's paradox</a>: consider "the set of all sets that are not members of themselves", which leads to a contradiction since it must be a member of itself, and not a member of itself. In 1899 Cantor had himself posed the question "What is the <a href="Cardinal_number" title="Cardinal number">cardinal number</a> of the set of all sets?", and obtained a related paradox. Russell used his paradox as a theme in his 1903 review of continental mathematics in his <i><a href="The_Principles_of_Mathematics" title="The Principles of Mathematics">The Principles of Mathematics</a></i>.</p>
+<p>The momentum of set theory was such that debate on the paradoxes did not lead to its abandonment. The work of <a href="Zermelo" title="Zermelo" class="mw-redirect">Zermelo</a> in 1908 and <a href="Abraham_Fraenkel" title="Abraham Fraenkel">Abraham Fraenkel</a> in 1922 resulted in the set of axioms <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a>, which became the most commonly used set of axioms for set theory. The work of <a href="Real_analysis" title="Real analysis">analysts</a> such as <a href="Henri_Lebesgue" title="Henri Lebesgue">Henri Lebesgue</a> demonstrated the great mathematical utility of set theory, which has since become woven into the fabric of modern mathematics. Set theory is commonly used as a foundational system, although in some areas <a href="Category_theory" title="Category theory">category theory</a> is thought to be a preferred foundation.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=2.php.html" title="Edit section: Basic concepts and notation">edit</a>]</span> <span class="mw-headline" id="Basic_concepts_and_notation">Basic concepts and notation</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Set_(mathematics)" title="Set (mathematics)">Set (mathematics)</a> and <a href="Algebra_of_sets" title="Algebra of sets">Algebra of sets</a></div>
+<p>Set theory begins with a fundamental <a href="Binary_relation" title="Binary relation">binary relation</a> between an object <span class="texhtml"><i>o</i></span> and a set <span class="texhtml"><i>A</i></span>. If <span class="texhtml"><i>o</i></span> is a <b><a href="Set_membership" title="Set membership" class="mw-redirect">member</a></b> (or <b>element</b>) of <span class="texhtml"><i>A</i></span>, write <span class="texhtml"><i>o</i> ∈ <i>A</i></span>. Since sets are objects, the membership relation can relate sets as well.</p>
+<p>A derived <a href="Binary_relation" title="Binary relation">binary relation</a> between two sets is the subset relation, also called <b>set inclusion</b>. If all the members of set <span class="texhtml"><i>A</i></span> are also members of set <span class="texhtml"><i>B</i></span>, then <span class="texhtml"><i>A</i></span> is a <b><a href="Subset" title="Subset">subset</a></b> of <span class="texhtml"><i>B</i></span>, denoted <span class="texhtml"><i>A</i> ⊆ <i>B</i></span>. For example, <span class="texhtml">{1,2}</span> is a subset of <span class="texhtml">{1,2,3}</span> , but <span class="texhtml">{1,4}</span> is not. From this definition, it is clear that a set is a subset of itself; for cases where one wishes to rule out this, the term <b><a href="Proper_subset" title="Proper subset" class="mw-redirect">proper subset</a></b> is defined. <span class="texhtml"><i>A</i></span> is called a <b>proper subset</b> of <span class="texhtml"><i>B</i></span> if and only if <span class="texhtml"><i>A</i></span> is a subset of <span class="texhtml"><i>B</i></span>, but <span class="texhtml"><i>B</i></span> is <b>not</b> a subset of <span class="texhtml"><i>A</i></span>.</p>
+<p>Just as <a href="Arithmetic" title="Arithmetic">arithmetic</a> features <a href="Binary_operation" title="Binary operation">binary operations</a> on <a href="Number" title="Number">numbers</a>, set theory features binary operations on sets. The:</p>
+<ul>
+<li><b><a href="Union_(set_theory)" title="Union (set theory)">Union</a></b> of the sets <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>B</i></span>, denoted <span class="texhtml"><i>A</i> ∪ <i>B</i></span>, is the set of all objects that are a member of <span class="texhtml"><i>A</i></span>, or <span class="texhtml"><i>B</i></span>, or both. The union of <span class="texhtml">{1, 2, 3}</span> and <span class="texhtml">{2, 3, 4}</span> is the set <span class="texhtml">{1, 2, 3, 4}</span> .</li>
+<li><b><a href="Intersection_(set_theory)" title="Intersection (set theory)">Intersection</a></b> of the sets <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>B</i></span>, denoted <span class="texhtml"><i>A</i> ∩ <i>B</i></span>, is the set of all objects that are members of both <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>B</i></span>. The intersection of <span class="texhtml">{1, 2, 3}</span> and <span class="texhtml">{2, 3, 4}</span> is the set <span class="texhtml">{2, 3}</span> .</li>
+<li><b><a href="Set_difference" title="Set difference" class="mw-redirect">Set difference</a></b> of <span class="texhtml"><i>U</i></span> and <span class="texhtml"><i>A</i></span>, denoted <span class="texhtml"><i>U</i> \ <i>A</i></span>, is the set of all members of <span class="texhtml"><i>U</i></span> that are not members of <span class="texhtml"><i>A</i></span>. The set difference <span class="texhtml">{1,2,3} \ {2,3,4}</span> is <span class="texhtml">{1}</span> , while, conversely, the set difference <span class="texhtml">{2,3,4} \ {1,2,3}</span> is <span class="texhtml">{4}</span> . When <span class="texhtml"><i>A</i></span> is a subset of <span class="texhtml"><i>U</i></span>, the set difference <span class="texhtml"><i>U</i> \ <i>A</i></span> is also called the <b><a href="Complement_(set_theory)" title="Complement (set theory)">complement</a></b> of <span class="texhtml"><i>A</i></span> in <span class="texhtml"><i>U</i></span>. In this case, if the choice of <span class="texhtml"><i>U</i></span> is clear from the context, the notation <span class="texhtml"><i>A</i><sup><i>c</i></sup></span> is sometimes used instead of <span class="texhtml"><i>U</i> \ <i>A</i></span>, particularly if <span class="texhtml"><i>U</i></span> is a <a href="Universal_set" title="Universal set">universal set</a> as in the study of <a href="Venn_diagram" title="Venn diagram">Venn diagrams</a>.</li>
+<li><b><a href="Symmetric_difference" title="Symmetric difference">Symmetric difference</a></b> of sets <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>B</i></span>, denoted <span class="texhtml"><i>A</i> △ <i>B</i></span> or <span class="texhtml"><i>A</i> ⊖ <i>B</i></span>, is the set of all objects that are a member of exactly one of <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>B</i></span> (elements which are in one of the sets, but not in both). For instance, for the sets <span class="texhtml">{1,2,3}</span> and <span class="texhtml">{2,3,4}</span> , the symmetric difference set is <span class="texhtml">{1,4}</span> . It is the set difference of the union and the intersection, <span class="texhtml">(<i>A</i> ∪ <i>B</i>) \ (<i>A</i> ∩ <i>B</i>)</span> or <span class="texhtml">(<i>A</i> \ <i>B</i>) ∪ (<i>B</i> \ <i>A</i>)</span>.</li>
+<li><b><a href="Cartesian_product" title="Cartesian product">Cartesian product</a></b> of <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>B</i></span>, denoted <span class="texhtml"><i>A</i> × <i>B</i></span>, is the set whose members are all possible <a href="Ordered_pair" title="Ordered pair">ordered pairs</a> <span class="texhtml">(<i>a</i>,<i>b</i>)</span> where <span class="texhtml"><i>a</i></span> is a member of <span class="texhtml"><i>A</i></span> and <span class="texhtml"><i>b</i></span> is a member of <span class="texhtml"><i>B</i></span>. The cartesian product of <span class="nowrap">{1, 2} and {red, white} is {(1, red), (1, white), (2, red), (2, white)}.</span></li>
+<li><b><a href="Power_set" title="Power set">Power set</a></b> of a set <span class="texhtml"><i>A</i></span> is the set whose members are all possible subsets of <span class="texhtml"><i>A</i></span>. For example, the power set of <span class="texhtml">{1, 2}</span> is <span class="texhtml">{ {}, {1}, {2}, {1,2} }</span> .</li>
+</ul>
+<p>Some basic sets of central importance are the <a href="Empty_set" title="Empty set">empty set</a> (the unique set containing no elements), the set of <a href="Natural_number" title="Natural number">natural numbers</a>, and the set of <a href="Real_number" title="Real number">real numbers</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=3.php.html" title="Edit section: Some ontology">edit</a>]</span> <span class="mw-headline" id="Some_ontology">Some ontology</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Von_Neumann_universe" title="Von Neumann universe">von Neumann universe</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Von_Neumann_Hierarchy.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Von_Neumann_Hierarchy.svg/300px-Von_Neumann_Hierarchy.svg.png" width="300" height="310" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Von_Neumann_Hierarchy.svg/450px-Von_Neumann_Hierarchy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/50/Von_Neumann_Hierarchy.svg/600px-Von_Neumann_Hierarchy.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Von_Neumann_Hierarchy.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An initial segment of the von Neumann hierarchy.</div>
+</div>
+</div>
+<p>A set is <a href="Pure_set" title="Pure set" class="mw-redirect">pure</a> if all of its members are sets, all members of its members are sets, and so on. For example, the set containing only the empty set is a nonempty pure set. In modern set theory, it is common to restrict attention to the <b><a href="Von_Neumann_universe" title="Von Neumann universe">von Neumann universe</a></b> of pure sets, and many systems of axiomatic set theory are designed to axiomatize the pure sets only. There are many technical advantages to this restriction, and little generality is lost, since essentially all mathematical concepts can be modeled by pure sets. Sets in the von Neumann universe are organized into a <a href="Cumulative_hierarchy" title="Cumulative hierarchy" class="mw-redirect">cumulative hierarchy</a>, based on how deeply their members, members of members, etc. are nested. Each set in this hierarchy is assigned (by <a href="Transfinite_recursion" title="Transfinite recursion" class="mw-redirect">transfinite recursion</a>) an <a href="Ordinal_number" title="Ordinal number">ordinal number</a> α, known as its <b>rank</b>. The rank of a pure set X is defined to be the <a href="Least_upper_bound" title="Least upper bound" class="mw-redirect">least upper bound</a> of all <a href="Successor_ordinal" title="Successor ordinal">successors</a> of ranks of members of X. For example, the empty set is assigned rank 0, while the set containing only the empty set is assigned rank 1. For each ordinal α, the set <i>V</i><sub>α</sub> is defined to consist of all pure sets with rank less than α. The entire von Neumann universe is denoted <i>V</i>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=4.php.html" title="Edit section: Axiomatic set theory">edit</a>]</span> <span class="mw-headline" id="Axiomatic_set_theory">Axiomatic set theory</span></h2>
+<p>Elementary set theory can be studied informally and intuitively, and so can be taught in primary schools using <a href="Venn_diagram" title="Venn diagram">Venn diagrams</a>. The intuitive approach tacitly assumes that a set may be formed from the class of all objects satisfying any particular defining condition. This assumption gives rise to paradoxes, the simplest and best known of which are <a href="Russell's_paradox" title="Russell's paradox">Russell's paradox</a> and the <a href="Burali-Forti_paradox" title="Burali-Forti paradox">Burali-Forti paradox</a>. Axiomatic set theory was originally devised to rid set theory of such paradoxes.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>The most widely studied systems of axiomatic set theory imply that all sets form a <a href="Cumulative_hierarchy" title="Cumulative hierarchy" class="mw-redirect">cumulative hierarchy</a>. Such systems come in two flavors, those whose <a href="Ontology" title="Ontology">ontology</a> consists of:</p>
+<ul>
+<li><i>Sets alone</i>. This includes the most common axiomatic set theory, <b><a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> (ZFC)</b>, which includes the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a>. Fragments of ZFC include:
+<ul>
+<li><a href="Zermelo_set_theory" title="Zermelo set theory">Zermelo set theory</a>, which replaces the <a href="Axiom_schema_of_replacement" title="Axiom schema of replacement">axiom schema of replacement</a> with that of <a href="Axiom_schema_of_separation" title="Axiom schema of separation" class="mw-redirect">separation</a>;</li>
+<li><a href="General_set_theory" title="General set theory">General set theory</a>, a small fragment of <a href="Zermelo_set_theory" title="Zermelo set theory">Zermelo set theory</a> sufficient for the <a href="Peano_axioms" title="Peano axioms">Peano axioms</a> and <a href="Finite_set" title="Finite set">finite sets</a>;</li>
+<li><a href="Kripke-Platek_set_theory" title="Kripke-Platek set theory" class="mw-redirect">Kripke-Platek set theory</a>, which omits the axioms of infinity, <a href="Axiom_of_power_set" title="Axiom of power set">powerset</a>, and <a href="Axiom_of_choice" title="Axiom of choice">choice</a>, and weakens the axiom schemata of <a href="Axiom_schema_of_separation" title="Axiom schema of separation" class="mw-redirect">separation</a> and <a href="Axiom_schema_of_replacement" title="Axiom schema of replacement">replacement</a>.</li>
+</ul>
+</li>
+<li><i>Sets and <a href="Proper_class" title="Proper class" class="mw-redirect">proper classes</a></i>. These include <a href="Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory" title="Von Neumann–Bernays–Gödel set theory">Von Neumann–Bernays–Gödel set theory</a>, which has the same strength as <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a> for theorems about sets alone, and <a href="Morse-Kelley_set_theory" title="Morse-Kelley set theory" class="mw-redirect">Morse-Kelley set theory</a> and <a href="Tarski%E2%80%93Grothendieck_set_theory" title="Tarski–Grothendieck set theory">Tarski–Grothendieck set theory</a>, both of which are stronger than ZFC.</li>
+</ul>
+<p>The above systems can be modified to allow <b><a href="Urelement" title="Urelement">urelements</a></b>, objects that can be members of sets but that are not themselves sets and do not have any members.</p>
+<p>The systems of <b><a href="New_Foundations" title="New Foundations">New Foundations</a> NFU</b> (allowing <a href="Urelement" title="Urelement">urelements</a>) and <b>NF</b> (lacking them) are not based on a cumulative hierarchy. NF and NFU include a "set of everything," relative to which every set has a complement. In these systems urelements matter, because NF, but not NFU, produces sets for which the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a> does not hold.</p>
+<p>Systems of <a href="Constructive_set_theory" title="Constructive set theory">constructive set theory</a>, such as CST, CZF, and IZF, embed their set axioms in <a href="Intuitionistic_logic" title="Intuitionistic logic">intuitionistic logic</a> instead of <a href="First_order_logic" title="First order logic" class="mw-redirect">first order logic</a>. Yet other systems accept standard <a href="First_order_logic" title="First order logic" class="mw-redirect">first order logic</a> but feature a nonstandard membership relation. These include <a href="Rough_set" title="Rough set">rough set theory</a> and <a href="Fuzzy_set_theory" title="Fuzzy set theory" class="mw-redirect">fuzzy set theory</a>, in which the value of an <a href="Atomic_formula" title="Atomic formula">atomic formula</a> embodying the membership relation is not simply <b>True</b> or <b>False</b>. The <a href="Boolean-valued_model" title="Boolean-valued model">Boolean-valued models</a> of <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a> are a related subject.</p>
+<p>An enrichment of <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a> called <a href="Internal_Set_Theory" title="Internal Set Theory" class="mw-redirect">Internal Set Theory</a> was proposed by <a href="Edward_Nelson" title="Edward Nelson">Edward Nelson</a> in 1977.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=5.php.html" title="Edit section: Applications">edit</a>]</span> <span class="mw-headline" id="Applications">Applications</span></h2>
+<p>Many mathematical concepts can be defined precisely using only set theoretic concepts. For example, mathematical structures as diverse as <a href="Graph_(mathematics)" title="Graph (mathematics)">graphs</a>, <a href="Manifolds" title="Manifolds" class="mw-redirect">manifolds</a>, <a href="Ring_(mathematics)" title="Ring (mathematics)">rings</a>, and <a href="Vector_space" title="Vector space">vector spaces</a> can all be defined as sets satisfying various (axiomatic) properties. <a href="Equivalence_relation" title="Equivalence relation">Equivalence</a> and <a href="Order_relation" title="Order relation" class="mw-redirect">order relations</a> are ubiquitous in mathematics, and the theory of mathematical <a href="Relation_(mathematics)" title="Relation (mathematics)" class="mw-redirect">relations</a> can be described in set theory.</p>
+<p>Set theory is also a promising foundational system for much of mathematics. Since the publication of the first volume of <i><a href="Principia_Mathematica" title="Principia Mathematica">Principia Mathematica</a></i>, it has been claimed that most or even all mathematical theorems can be derived using an aptly designed set of axioms for set theory, augmented with many definitions, using <a href="First_order_logic" title="First order logic" class="mw-redirect">first</a> or <a href="Second_order_logic" title="Second order logic" class="mw-redirect">second order logic</a>. For example, properties of the <a href="Natural_number" title="Natural number">natural</a> and <a href="Real_number" title="Real number">real numbers</a> can be derived within set theory, as each number system can be identified with a set of <a href="Equivalence_class" title="Equivalence class">equivalence classes</a> under a suitable <a href="Equivalence_relation" title="Equivalence relation">equivalence relation</a> whose field is some <a href="Infinite_set" title="Infinite set">infinite set</a>.</p>
+<p>Set theory as a foundation for <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a>, <a href="Topology" title="Topology">topology</a>, <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a>, and <a href="Discrete_mathematics" title="Discrete mathematics">discrete mathematics</a> is likewise uncontroversial; mathematicians accept that (in principle) theorems in these areas can be derived from the relevant definitions and the axioms of set theory. Few full derivations of complex mathematical theorems from set theory have been formally verified, however, because such formal derivations are often much longer than the natural language proofs mathematicians commonly present. One verification project, <a href="Metamath" title="Metamath">Metamath</a>, includes derivations of more than 10,000 theorems starting from the <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a> axioms and using <a href="First_order_logic" title="First order logic" class="mw-redirect">first order logic</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=6.php.html" title="Edit section: Areas of study">edit</a>]</span> <span class="mw-headline" id="Areas_of_study">Areas of study</span></h2>
+<p>Set theory is a major area of research in mathematics, with many interrelated subfields.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=7.php.html" title="Edit section: Combinatorial set theory">edit</a>]</span> <span class="mw-headline" id="Combinatorial_set_theory">Combinatorial set theory</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Infinitary_combinatorics" title="Infinitary combinatorics">Infinitary combinatorics</a></div>
+<p><b>Combinatorial set theory</b> concerns extensions of finite <a href="Combinatorics" title="Combinatorics">combinatorics</a> to infinite sets. This includes the study of <a href="Cardinal_arithmetic" title="Cardinal arithmetic" class="mw-redirect">cardinal arithmetic</a> and the study of extensions of <a href="Ramsey's_theorem" title="Ramsey's theorem">Ramsey's theorem</a> such as the <a href="Erd%C5%91s%E2%80%93Rado_theorem" title="Erdős–Rado theorem">Erdős–Rado theorem</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=8.php.html" title="Edit section: Descriptive set theory">edit</a>]</span> <span class="mw-headline" id="Descriptive_set_theory">Descriptive set theory</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Descriptive_set_theory" title="Descriptive set theory">Descriptive set theory</a></div>
+<p><b>Descriptive set theory</b> is the study of subsets of the <a href="Real_line" title="Real line">real line</a> and, more generally, subsets of <a href="Polish_space" title="Polish space">Polish spaces</a>. It begins with the study of <a href="Pointclass" title="Pointclass">pointclasses</a> in the <a href="Borel_hierarchy" title="Borel hierarchy">Borel hierarchy</a> and extends to the study of more complex hierarchies such as the <a href="Projective_hierarchy" title="Projective hierarchy">projective hierarchy</a> and the <a href="Wadge_hierarchy" title="Wadge hierarchy">Wadge hierarchy</a>. Many properties of <a href="Borel_set" title="Borel set">Borel sets</a> can be established in ZFC, but proving these properties hold for more complicated sets requires additional axioms related to determinacy and large cardinals.</p>
+<p>The field of <a href="Effective_descriptive_set_theory" title="Effective descriptive set theory">effective descriptive set theory</a> is between set theory and <a href="Recursion_theory" title="Recursion theory" class="mw-redirect">recursion theory</a>. It includes the study of <a href="Lightface_pointclass" title="Lightface pointclass" class="mw-redirect">lightface pointclasses</a>, and is closely related to <a href="Hyperarithmetical_theory" title="Hyperarithmetical theory">hyperarithmetical theory</a>. In many cases, results of classical descriptive set theory have effective versions; in some cases, new results are obtained by proving the effective version first and then extending ("relativizing") it to make it more broadly applicable.</p>
+<p>A recent area of research concerns <a href="Borel_equivalence_relation" title="Borel equivalence relation">Borel equivalence relations</a> and more complicated definable <a href="Equivalence_relation" title="Equivalence relation">equivalence relations</a>. This has important applications to the study of <a href="Invariant_(mathematics)" title="Invariant (mathematics)">invariants</a> in many fields of mathematics.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=9.php.html" title="Edit section: Fuzzy set theory">edit</a>]</span> <span class="mw-headline" id="Fuzzy_set_theory">Fuzzy set theory</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Fuzzy_set_theory" title="Fuzzy set theory" class="mw-redirect">Fuzzy set theory</a></div>
+<p>In set theory as <a href="Georg_Cantor" title="Georg Cantor">Cantor</a> defined and <a href="Zermelo" title="Zermelo" class="mw-redirect">Zermelo</a> and <a href="Fraenkel" title="Fraenkel" class="mw-redirect">Fraenkel</a> axiomatized, an object is either a member of a set or not. In <a href="Fuzzy_set_theory" title="Fuzzy set theory" class="mw-redirect">fuzzy set theory</a> this condition was relaxed by <a href="../Lotfi_A._Zadeh" title="Lotfi A. Zadeh">Lotfi A. Zadeh</a> so an object has a <i>degree of membership</i> in a set, a number between 0 and 1. For example, the degree of membership of a person in the set of "tall people" is more flexible than a simple yes or no answer and can be a real number such as 0.75.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=10.php.html" title="Edit section: Inner model theory">edit</a>]</span> <span class="mw-headline" id="Inner_model_theory">Inner model theory</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Inner_model_theory" title="Inner model theory">Inner model theory</a></div>
+<p>An <b>inner model</b> of Zermelo–Fraenkel set theory (ZF) is a transitive <a href="Proper_class" title="Proper class" class="mw-redirect">class</a> that includes all the ordinals and satisfies all the axioms of ZF. The canonical example is the <a href="Constructible_universe" title="Constructible universe">constructible universe</a> <i>L</i> developed by Gödel. One reason that the study of inner models is of interest is that it can be used to prove consistency results. For example, it can be shown that regardless of whether a model <i>V</i> of ZF satisfies the <a href="Continuum_hypothesis" title="Continuum hypothesis">continuum hypothesis</a> or the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a>, the inner model <i>L</i> constructed inside the original model will satisfy both the generalized continuum hypothesis and the axiom of choice. Thus the assumption that ZF is consistent (has at least one model) implies that ZF together with these two principles is consistent.</p>
+<p>The study of inner models is common in the study of <a href="Axiom_of_determinacy" title="Axiom of determinacy">determinacy</a> and <a href="Large_cardinal" title="Large cardinal">large cardinals</a>, especially when considering axioms such as the axiom of determinacy that contradict the axiom of choice. Even if a fixed model of set theory satisfies the axiom of choice, it is possible for an inner model to fail to satisfy the axiom of choice. For example, the existence of sufficiently large cardinals implies that there is an inner model satisfying the axiom of determinacy (and thus not satisfying the axiom of choice).<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=11.php.html" title="Edit section: Large cardinals">edit</a>]</span> <span class="mw-headline" id="Large_cardinals">Large cardinals</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Large_cardinal_property" title="Large cardinal property" class="mw-redirect">Large cardinal property</a></div>
+<p>A <b>large cardinal</b> is a cardinal number with an extra property. Many such properties are studied, including <a href="Inaccessible_cardinal" title="Inaccessible cardinal">inaccessible cardinals</a>, <a href="Measurable_cardinal" title="Measurable cardinal">measurable cardinals</a>, and many more. These properties typically imply the cardinal number must be very large, with the existence of a cardinal with the specified property unprovable in Zermelo-Fraenkel set theory.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=12.php.html" title="Edit section: Determinacy">edit</a>]</span> <span class="mw-headline" id="Determinacy">Determinacy</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Determinacy" title="Determinacy">Determinacy</a></div>
+<p><b>Determinacy</b> refers to the fact that, under appropriate assumptions, certain two-player games of perfect information are determined from the start in the sense that one player must have a winning strategy. The existence of these strategies has important consequences in descriptive set theory, as the assumption that a broader class of games is determined often implies that a broader class of sets will have a topological property. The <a href="Axiom_of_determinacy" title="Axiom of determinacy">axiom of determinacy</a> (AD) is an important object of study; although incompatible with the axiom of choice, AD implies that all subsets of the real line are well behaved (in particular, measurable and with the perfect set property). AD can be used to prove that the <a href="Wadge_degree" title="Wadge degree" class="mw-redirect">Wadge degrees</a> have an elegant structure.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=13.php.html" title="Edit section: Forcing">edit</a>]</span> <span class="mw-headline" id="Forcing">Forcing</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Forcing_(mathematics)" title="Forcing (mathematics)">Forcing (mathematics)</a></div>
+<p><a href="Paul_Cohen_(mathematician)" title="Paul Cohen (mathematician)">Paul Cohen</a> invented the method of <a href="Forcing_(mathematics)" title="Forcing (mathematics)">forcing</a> while searching for a <a href="Model_theory" title="Model theory">model</a> of <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a> in which the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a> or the <a href="Continuum_hypothesis" title="Continuum hypothesis">continuum hypothesis</a> fails. Forcing adjoins to some given model of set theory additional sets in order to create a larger model with properties determined (i.e. "forced") by the construction and the original model. For example, Cohen's construction adjoins additional subsets of the <a href="Natural_number" title="Natural number">natural numbers</a> without changing any of the <a href="Cardinal_number" title="Cardinal number">cardinal numbers</a> of the original model. Forcing is also one of two methods for proving <a href="Consistency_(mathematical_logic)" title="Consistency (mathematical logic)" class="mw-redirect">relative consistency</a> by finitistic methods, the other method being <a href="Boolean-valued_model" title="Boolean-valued model">Boolean-valued models</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=14.php.html" title="Edit section: Cardinal invariants">edit</a>]</span> <span class="mw-headline" id="Cardinal_invariants">Cardinal invariants</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Cardinal_invariant" title="Cardinal invariant" class="mw-redirect">Cardinal invariant</a></div>
+<p>A <b>cardinal invariant</b> is a property of the real line measured by a cardinal number. For example, a well-studied invariant is the smallest cardinality of a collection of <a href="Meagre_set" title="Meagre set">meagre sets</a> of reals whose union is the entire real line. These are invariants in the sense that any two isomorphic models of set theory must give the same cardinal for each invariant. Many cardinal invariants have been studied, and the relationships between them are often complex and related to axioms of set theory.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=15.php.html" title="Edit section: Set-theoretic topology">edit</a>]</span> <span class="mw-headline" id="Set-theoretic_topology">Set-theoretic topology</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Set-theoretic_topology" title="Set-theoretic topology">Set-theoretic topology</a></div>
+<p><b>Set-theoretic topology</b> studies questions of <a href="General_topology" title="General topology">general topology</a> that are set-theoretic in nature or that require advanced methods of set theory for their solution. Many of these theorems are independent of ZFC, requiring stronger axioms for their proof. A famous problem is the <a href="Moore_space_(topology)" title="Moore space (topology)">normal Moore space question</a>, a question in general topology that was the subject of intense research. The answer to the normal Moore space question was eventually proved to be independent of ZFC.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=16.php.html" title="Edit section: Objections to set theory as a foundation for mathematics">edit</a>]</span> <span class="mw-headline" id="Objections_to_set_theory_as_a_foundation_for_mathematics">Objections to set theory as a foundation for mathematics</span></h2>
+<p>From set theory's inception, some mathematicians <a href="Controversy_over_Cantor's_theory" title="Controversy over Cantor's theory">have objected to it</a> as a <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundation for mathematics</a>. The most common objection to set theory, one <a href="Kronecker" title="Kronecker" class="mw-redirect">Kronecker</a> voiced in set theory's earliest years, starts from the <a href="Mathematical_constructivism" title="Mathematical constructivism" class="mw-redirect">constructivist</a> view that mathematics is loosely related to computation. If this view is granted, then the treatment of infinite sets, both in <a href="Naive_set_theory" title="Naive set theory">naive</a> and in axiomatic set theory, introduces into mathematics methods and objects that are not computable even in principle. <a href="Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Ludwig Wittgenstein</a> questioned the way <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> handled infinities.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from December 2011">citation needed</span></a></i>]</sup> Wittgenstein's views about the foundations of mathematics were later criticised by <a href="Georg_Kreisel" title="Georg Kreisel">Georg Kreisel</a> and <a href="Paul_Bernays" title="Paul Bernays">Paul Bernays</a>, and investigated by <a href="Crispin_Wright" title="Crispin Wright">Crispin Wright</a>, among others.</p>
+<p><a href="Category_theory" title="Category theory">Category theorists</a> have proposed <a href="Topos_theory" title="Topos theory" class="mw-redirect">topos theory</a> as an alternative to traditional axiomatic set theory. Topos theory can interpret various alternatives to that theory, such as <a href="Mathematical_constructivism" title="Mathematical constructivism" class="mw-redirect">constructivism</a>, finite set theory, and <a href="Turing_Machine" title="Turing Machine" class="mw-redirect">computable</a> set theory.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=17.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Venn0001.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/32px-Venn0001.svg.png" width="32" height="23" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/48px-Venn0001.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/64px-Venn0001.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Set_theory" title="Portal:Set theory">Set theory  portal</a></td>
+</tr>
+<tr valign="middle">
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="List_of_set_theory_topics" title="List of set theory topics">List of set theory topics</a></li>
+<li><a href="Set_theory_(music)" title="Set theory (music)">Musical set theory</a> concerns the application of <a href="Combinatorics" title="Combinatorics">combinatorics</a> and <a href="Group_theory" title="Group theory">group theory</a> to music; beyond the fact that it uses <a href="Finite_set" title="Finite set">finite sets</a> it has nothing to do with mathematical set theory of any kind. In the last two decades, <a href="Transformational_music_theory" title="Transformational music theory" class="mw-redirect">transformational theory</a> in music has taken the concepts of mathematical set theory more rigorously (see Lewin 1987).</li>
+<li><a href="Relational_model" title="Relational model">Relational model</a> — Borrows from Set Theory.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=18.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-cantor1874-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-cantor1874_1-0">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFCantor1874"><a href="Georg_Cantor" title="Georg Cantor">Cantor, Georg</a> (1874), <a rel="nofollow" class="external text" href="http://www.digizeitschriften.de/main/dms/img/?PPN=GDZPPN002155583">"Ueber eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen"</a>, <i><a href="Journal_f%C3%BCr_die_reine_und_angewandte_Mathematik" title="Journal für die reine und angewandte Mathematik" class="mw-redirect">J. Reine Angew. Math.</a></i> <b>77</b>: 258–262<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.digizeitschriften.de/main/dms/img/?PPN=GDZPPN002155583">http://www.digizeitschriften.de/main/dms/img/?PPN=GDZPPN002155583</a></span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFJohnson1972">Johnson, Philip (1972), <i>A History of Set Theory</i>, Prindle, Weber &amp; Schmidt, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-87150-154-6" title="Special:BookSources/0-87150-154-6">0-87150-154-6</a></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFBolzano1975"><a href="Bernard_Bolzano" title="Bernard Bolzano">Bolzano, Bernard</a> (1975), Berg, Jan, ed., <i>Einleitung zur Größenlehre und erste Begriffe der allgemeinen Größenlehre</i>, Bernard-Bolzano-Gesamtausgabe, edited by Eduard Winter et al., <b>Vol. II, A, 7</b>, Stuttgart, Bad Cannstatt: Friedrich Frommann Verlag, p.&#160;152, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/3-7728-0466-7" title="Special:BookSources/3-7728-0466-7">3-7728-0466-7</a></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">In his 1925, <a href="John_von_Neumann" title="John von Neumann">John von Neumann</a> observed that "set theory in its first, "naive" version, due to Cantor, led to contradictions. These are the well-known <a href="Antinomy" title="Antinomy">antinomies</a> of the set of all sets that do not contain themselves (Russell), of the set of all transfinte ordinal numbers (Burali-Forti), and the set of all finitely definable real numbers (Richard)." He goes on to observe that two "tendencies" were attempting to "rehabilitate" set theory. Of the first effort, exemplified by <a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a>, <a href="Julius_K%C3%B6nig" title="Julius König" class="mw-redirect">Julius König</a>, <a href="Hermann_Weyl" title="Hermann Weyl">Hermann Weyl</a> and <a href="../L._E._J._Brouwer" title="L. E. J. Brouwer" class="mw-redirect">L. E. J. Brouwer</a>, von Neumann called the "overall effect of their activity . . . devastating". With regards to the axiomatic method employed by second group composed of <a href="Zermelo" title="Zermelo" class="mw-redirect">Zermelo</a>, <a href="Abraham_Fraenkel" title="Abraham Fraenkel">Abraham Fraenkel</a> and <a href="Arthur_Moritz_Schoenflies" title="Arthur Moritz Schoenflies">Arthur Moritz Schoenflies</a>, von Neumann worried that "We see only that the known modes of inference leading to the antinomies fail, but who knows where there are not others?" and he set to the task, "in the spirit of the second group", to "produce, by means of a finite number of purely formal operations . . . all the sets that we want to see formed" but not allow for the antinomies. (All quotes from von Neumann 1925 reprinted in van Heijenoort, Jean (1967, third printing 1976), "From Frege to Gödel: A Source Book in Mathematical Logic, 1979–1931", Harvard University Press, Cambridge MA, <a href="Special_BookSources/0674324498" class="internal mw-magiclink-isbn">ISBN 0-674-32449-8</a> (pbk). A synopsis of the history, written by van Heijenoort, can be found in the comments that precede von Neumann's 1925.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFJech2003"><a href="Thomas_Jech" title="Thomas Jech">Jech, Thomas</a> (2003), <i>Set Theory: Third Millennium Edition</i>, Springer Monographs in Mathematics, Berlin, New York: <a href="Springer-Verlag" title="Springer-Verlag" class="mw-redirect">Springer-Verlag</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-3-540-44085-7" title="Special:BookSources/978-3-540-44085-7">978-3-540-44085-7</a></span>, p. 642.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFFerroOmodeoSchwartz1980">Ferro, A.; Omodeo, E. G.; Schwartz, J. T. (1980), "Decision procedures for elementary sublanguages of set theory. I. Multi-level syllogistic and some extensions", <i><a href="Communications_on_Pure_and_Applied_Mathematics" title="Communications on Pure and Applied Mathematics">Comm. Pure Appl. Math.</a></i> <b>33</b> (5): 599–608, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1002/cpa.3160330503">10.1002/cpa.3160330503</a></span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=19.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li><a href="Keith_Devlin" title="Keith Devlin">Devlin, Keith</a>, 1993. <i>The Joy of Sets</i> (2nd ed.). Springer Verlag, <a href="Special_BookSources/0387940944" class="internal mw-magiclink-isbn">ISBN 0-387-94094-4</a></li>
+<li>Ferreirós, Jose, 2007 (1999). <i>Labyrinth of Thought: A history of set theory and its role in modern mathematics</i>. Basel, Birkhäuser. <a href="Special_BookSources/9783764383497" class="internal mw-magiclink-isbn">ISBN 978-3-7643-8349-7</a></li>
+<li>Johnson, Philip, 1972. <i>A History of Set Theory</i>. Prindle, Weber &amp; Schmidt <a href="Special_BookSources/0871501546" class="internal mw-magiclink-isbn">ISBN 0-87150-154-6</a></li>
+<li><a href="Kenneth_Kunen" title="Kenneth Kunen">Kunen, Kenneth</a>, 1980. <i><a href="Set_Theory__An_Introduction_to_Independence_Proofs" title="Set Theory: An Introduction to Independence Proofs">Set Theory: An Introduction to Independence Proofs</a></i>. North-Holland, <a href="Special_BookSources/0444854010" class="internal mw-magiclink-isbn">ISBN 0-444-85401-0</a>.</li>
+<li>Potter, Michael, 2004. <i>Set Theory and Its Philosophy: A Critical Introduction</i>. <a href="Oxford_University_Press" title="Oxford University Press">Oxford University Press</a>.</li>
+<li>Tiles, Mary, 2004 (1989). <i>The Philosophy of Set Theory: An Historical Introduction to Cantor's Paradise</i>. <a href="Dover_Publications" title="Dover Publications">Dover Publications</a>.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Set_theory&action=edit&section=20.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has a book on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Set_Theory" class="extiw" title="wikibooks:Set Theory">Set Theory</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has a book on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Discrete_mathematics/Set_theory" class="extiw" title="wikibooks:Discrete mathematics/Set theory">Discrete mathematics/Set theory</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a href="Matthew_Foreman" title="Matthew Foreman">Foreman, Michael</a>, <a href="Akihiro_Kanamori" title="Akihiro Kanamori">Akihiro Kanamori</a>, eds. <i><a rel="nofollow" class="external text" href="http://handbook.assafrinot.com/">Handbook of Set Theory.</a></i> 3 vols., 2010. Each chapter surveys some aspect of contemporary research in set theory. Does not cover established elementary set theory, on which see Devlin (1993).</li>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/s084750">"Set theory"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/s084750">http://www.encyclopediaofmath.org/index.php?title=p/s084750</a></span></span></li>
+<li><a href="Thomas_Jech" title="Thomas Jech">Jech, Thomas</a> (2002). "<a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/set-theory/">Set Theory</a>", <i>Stanford Encyclopedia of Philosophy</i>.</li>
+<li><a href="Arthur_Schoenflies" title="Arthur Schoenflies" class="mw-redirect">Schoenflies, Arthur</a> (1898). <a rel="nofollow" class="external text" href="http://www.archive.org/stream/encyklomath101encyrich#page/n229">Mengenlehre</a> in <a href="Klein's_encyclopedia" title="Klein's encyclopedia">Klein's encyclopedia</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://spoirier.lautre.net/en/">Sylvain Poirier</a> <a rel="nofollow" class="external text" href="http://settheory.net">Set Theory and the Foundations of Mathematics</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><strong class="selflink">Set theory</strong></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Logic" title="Template:Logic"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Logic" title="Template talk:Logic"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Logic&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Logic" title="Logic">Logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Overview</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Academic areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Argumentation_theory" title="Argumentation theory">Argumentation theory</a></li>
+<li><a href="Axiology" title="Axiology">Axiology</a></li>
+<li><a href="Critical_thinking" title="Critical thinking">Critical thinking</a></li>
+<li><a href="Computability_theory" title="Computability theory">Computability theory</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="History_of_logic" title="History of logic">History of logic</a></li>
+<li><a href="Informal_logic" title="Informal logic">Informal logic</a></li>
+<li><a href="Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></li>
+<li><a href="Mathematics" title="Mathematics">Mathematics</a></li>
+<li><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+<li><a href="Model_theory" title="Model theory">Model theory</a></li>
+<li><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></li>
+<li><a href="Philosophy" title="Philosophy">Philosophy</a></li>
+<li><a href="Philosophy_of_logic" title="Philosophy of logic">Philosophy of logic</a></li>
+<li><a href="Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><a href="Proof_theory" title="Proof theory">Proof theory</a></li>
+<li><strong class="selflink">Set theory</strong></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Foundations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Abductive_reasoning" title="Abductive reasoning">Abduction</a></li>
+<li><a href="Analytic%E2%80%93synthetic_distinction" title="Analytic–synthetic distinction">Analytic truth</a></li>
+<li><a href="Antinomy" title="Antinomy">Antinomy</a></li>
+<li><a href="A_priori_and_a_posteriori" title="A priori and a posteriori">A priori</a></li>
+<li><a href="Deductive_reasoning" title="Deductive reasoning">Deduction</a></li>
+<li><a href="Definition" title="Definition">Definition</a></li>
+<li><a href="Description" title="Description">Description</a></li>
+<li><a href="Inductive_reasoning" title="Inductive reasoning">Induction</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Logical_form" title="Logical form">Logical form</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Logical_truth" title="Logical truth">Logical truth</a></li>
+<li><a href="Name" title="Name">Name</a></li>
+<li><a href="Necessary_and_sufficient_condition" title="Necessary and sufficient condition" class="mw-redirect">Necessity</a></li>
+<li><a href="Meaning_(linguistics)" title="Meaning (linguistics)">Meaning</a></li>
+<li><a href="Paradox" title="Paradox">Paradox</a></li>
+<li><a href="Possible_world" title="Possible world">Possible world</a></li>
+<li><a href="Presupposition" title="Presupposition">Presupposition</a></li>
+<li><a href="Probability" title="Probability">Probability</a></li>
+<li><a href="Reason" title="Reason">Reason</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Reference" title="Reference">Reference</a></li>
+<li><a href="Semantics" title="Semantics">Semantics</a></li>
+<li><a href="Statement_(logic)" title="Statement (logic)">Statement</a></li>
+<li><a href="Strict_implication" title="Strict implication" class="mw-redirect">Strict implication</a></li>
+<li><a href="Substitution_(logic)" title="Substitution (logic)">Substitution</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Truth" title="Truth">Truth</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Critical_thinking" title="Critical thinking">Critical thinking</a><br />
+<a href="Informal_logic" title="Informal logic">Informal logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Philosophical_analysis" title="Philosophical analysis">Analysis</a></li>
+<li><a href="Ambiguity" title="Ambiguity">Ambiguity</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Belief" title="Belief">Belief</a></li>
+<li><a href="Bias" title="Bias">Bias</a></li>
+<li><a href="Credibility" title="Credibility">Credibility</a></li>
+<li><a href="Evidence" title="Evidence">Evidence</a></li>
+<li><a href="Explanation" title="Explanation">Explanation</a></li>
+<li><a href="Explanatory_power" title="Explanatory power">Explanatory power</a></li>
+<li><a href="Fact" title="Fact">Fact</a></li>
+<li><a href="Fallacy" title="Fallacy">Fallacy</a></li>
+<li><a href="Inquiry" title="Inquiry">Inquiry</a></li>
+<li><a href="Opinion" title="Opinion">Opinion</a></li>
+<li><a href="Occam's_razor" title="Occam's razor">Parsimony</a></li>
+<li><a href="Premise" title="Premise">Premise</a></li>
+<li><a href="Propaganda" title="Propaganda">Propaganda</a></li>
+<li><a href="Prudence" title="Prudence">Prudence</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Relevance" title="Relevance">Relevance</a></li>
+<li><a href="Rhetoric" title="Rhetoric">Rhetoric</a></li>
+<li><a href="Rigour" title="Rigour">Rigor</a></li>
+<li><a href="Vagueness" title="Vagueness">Vagueness</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Philosophy_of_logic" title="Philosophy of logic">Theories of<br />
+deduction</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Constructivism_(mathematics)" title="Constructivism (mathematics)">Constructivism</a></li>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+<li><a href="Fictionalism" title="Fictionalism">Fictionalism</a></li>
+<li><a href="Finitism" title="Finitism">Finitism</a></li>
+<li><a href="Formalism_(mathematics)" title="Formalism (mathematics)">Formalism</a></li>
+<li><a href="Intuitionism" title="Intuitionism">Intuitionism</a></li>
+<li><a href="Logical_atomism" title="Logical atomism">Logical atomism</a></li>
+<li><a href="Logicism" title="Logicism">Logicism</a></li>
+<li><a href="Nominalism" title="Nominalism">Nominalism</a></li>
+<li><a href="Platonic_realism" title="Platonic realism">Platonic realism</a></li>
+<li><a href="Pragmatism" title="Pragmatism">Pragmatism</a></li>
+<li><a href="Philosophical_realism" title="Philosophical realism">Realism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li style=""><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+</ul>
+</div>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cantor's_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+<li><a href="Entscheidungsproblem" title="Entscheidungsproblem">Church's theorem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church's thesis</a></li>
+<li><a href="Consistency" title="Consistency">Consistency</a></li>
+<li><a href="Effective_method" title="Effective method">Effective method</a></li>
+<li><a href="Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></li>
+<li><a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a></li>
+<li><a href="G%C3%B6del's_incompleteness_theorems" title="Gödel's incompleteness theorems">Gödel's incompleteness theorems</a></li>
+<li><a href="Soundness" title="Soundness">Soundness</a></li>
+<li><a href="Completeness" title="Completeness">Completeness</a></li>
+<li><a href="Decidability_(logic)" title="Decidability (logic)">Decidability</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a></li>
+<li><a href="Metatheorem" title="Metatheorem">Metatheorem</a></li>
+<li><a href="Satisfiability" title="Satisfiability">Satisfiability</a></li>
+<li><a href="Independence_(mathematical_logic)" title="Independence (mathematical logic)">Independence</a></li>
+<li><a href="Type%E2%80%93token_distinction" title="Type–token distinction">Type–token distinction</a></li>
+<li><a href="Use%E2%80%93mention_distinction" title="Use–mention distinction">Use–mention distinction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="Formation_rule" title="Formation rule">Formation rule</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="Well-formed_formula" title="Well-formed formula">Well-formed formula</a></li>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Element_(mathematics)" title="Element (mathematics)">Element</a></li>
+<li><a href="Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li><a href="Classical_logic" title="Classical logic">Classical logic</a></li>
+<li><a href="Axiom" title="Axiom">Axiom</a></li>
+<li><a href="Natural_deduction" title="Natural deduction">Natural deduction</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Finitary_relation" title="Finitary relation">Relation</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Axiomatic_system" title="Axiomatic system">Axiomatic system</a></li>
+<li><a href="Type_theory" title="Type theory">Type theory</a></li>
+<li><a href="Symbol_(formal)" title="Symbol (formal)">Symbol</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Term_logic" title="Term logic">Traditional logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Proposition" title="Proposition">Proposition</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+<li><a href="Cogency" title="Cogency">Cogency</a></li>
+<li><a href="Syllogism" title="Syllogism">Syllogism</a></li>
+<li><a href="Square_of_opposition" title="Square of opposition">Square of opposition</a></li>
+<li><a href="Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a><br />
+<a href="Boolean_algebra" title="Boolean algebra">Boolean logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Boolean_function" title="Boolean function">Boolean functions</a></li>
+<li><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a></li>
+<li><a href="Propositional_formula" title="Propositional formula">Propositional formula</a></li>
+<li><a href="Logical_connective" title="Logical connective">Logical connectives</a></li>
+<li><a href="Truth_table" title="Truth table">Truth tables</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Predicate_logic" title="Predicate logic">Predicate logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="First-order_logic" title="First-order logic">First-order</a></li>
+<li><a href="Quantification" title="Quantification">Quantifiers</a></li>
+<li><a href="Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a></li>
+<li><a href="Second-order_logic" title="Second-order logic">Second-order</a></li>
+<li><a href="Monadic_predicate_calculus" title="Monadic predicate calculus">Monadic predicate calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><strong class="selflink">Set theory</strong></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Empty_set" title="Empty set">Empty set</a></li>
+<li><a href="Enumeration" title="Enumeration">Enumeration</a></li>
+<li><a href="Extensionality" title="Extensionality">Extensionality</a></li>
+<li><a href="Finite_set" title="Finite set">Finite set</a></li>
+<li><a href="Function_(mathematics)" title="Function (mathematics)">Function</a></li>
+<li><a href="Subset" title="Subset">Subset</a></li>
+<li><a href="Power_set" title="Power set">Power set</a></li>
+<li><a href="Countable_set" title="Countable set">Countable set</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Domain_of_a_function" title="Domain of a function">Domain</a></li>
+<li><a href="Range_(mathematics)" title="Range (mathematics)">Range</a></li>
+<li><a href="Ordered_pair" title="Ordered pair">Ordered pair</a></li>
+<li><a href="Uncountable_set" title="Uncountable set">Uncountable set</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Model_theory" title="Model theory">Model theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="Non-standard_model" title="Non-standard model">Non-standard model</a></li>
+<li><a href="Finite_model_theory" title="Finite model theory">Finite model theory</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Proof_theory" title="Proof theory">Proof theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computability_theory" title="Computability theory">Computability theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Recursion" title="Recursion">Recursion</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Recursively_enumerable_set" title="Recursively enumerable set">Recursively enumerable set</a></li>
+<li><a href="Decision_problem" title="Decision problem">Decision problem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a></li>
+<li><a href="Computable_function" title="Computable function">Computable function</a></li>
+<li><a href="Primitive_recursive_function" title="Primitive recursive function">Primitive recursive function</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Non-classical_logic" title="Non-classical logic">Non-classical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Modal_logic" title="Modal logic">Modal logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Modal_logic#Alethic_modalities" title="Modal logic">Alethic</a></li>
+<li><a href="Modal_operator#Axiological" title="Modal operator">Axiologic</a></li>
+<li><a href="Deontic_logic" title="Deontic logic">Deontic</a></li>
+<li><a href="Doxastic_logic" title="Doxastic logic">Doxastic</a></li>
+<li><a href="Epistemic_modal_logic" title="Epistemic modal logic">Epistemic</a></li>
+<li><a href="Temporal_logic" title="Temporal logic">Temporal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Intuitionism" title="Intuitionism">Intuitionism</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li>
+<li><a href="Constructive_analysis" title="Constructive analysis">Constructive analysis</a></li>
+<li><a href="Heyting_arithmetic" title="Heyting arithmetic">Heyting arithmetic</a></li>
+<li><a href="Intuitionistic_type_theory" title="Intuitionistic type theory">Intuitionistic type theory</a></li>
+<li><a href="Constructive_set_theory" title="Constructive set theory">Constructive set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Degree_of_truth" title="Degree of truth">Degree of truth</a></li>
+<li><a href="Fuzzy_rule" title="Fuzzy rule">Fuzzy rule</a></li>
+<li><a href="Fuzzy_set" title="Fuzzy set">Fuzzy set</a></li>
+<li><a href="Fuzzy_finite_element" title="Fuzzy finite element">Fuzzy finite element</a></li>
+<li><a href="Fuzzy_set_operations" title="Fuzzy set operations">Fuzzy set operations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Substructural_logic" title="Substructural logic">Substructural logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structural_rule" title="Structural rule">Structural rule</a></li>
+<li><a href="Relevance_logic" title="Relevance logic">Relevance logic</a></li>
+<li><a href="Linear_logic" title="Linear logic">Linear logic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Paraconsistent_logic" title="Paraconsistent logic">Paraconsistent logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Description_logic" title="Description logic">Description logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ontology" title="Ontology">Ontology</a></li>
+<li><a href="Ontology_language" title="Ontology language">Ontology language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logicians" title="List of logicians">Logicians</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Alan_Ross_Anderson" title="Alan Ross Anderson">Anderson</a></li>
+<li><a href="Aristotle" title="Aristotle">Aristotle</a></li>
+<li><a href="Averroes" title="Averroes">Averroes</a></li>
+<li><a href="Avicenna" title="Avicenna">Avicenna</a></li>
+<li><a href="Alexander_Bain" title="Alexander Bain">Bain</a></li>
+<li><a href="Jon_Barwise" title="Jon Barwise">Barwise</a></li>
+<li><a href="Paul_Bernays" title="Paul Bernays">Bernays</a></li>
+<li><a href="George_Boole" title="George Boole">Boole</a></li>
+<li><a href="George_Boolos" title="George Boolos">Boolos</a></li>
+<li><a href="Georg_Cantor" title="Georg Cantor">Cantor</a></li>
+<li><a href="Rudolf_Carnap" title="Rudolf Carnap">Carnap</a></li>
+<li><a href="Alonzo_Church" title="Alonzo Church">Church</a></li>
+<li><a href="Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="Haskell_Curry" title="Haskell Curry">Curry</a></li>
+<li><a href="Augustus_De_Morgan" title="Augustus De Morgan">De Morgan</a></li>
+<li><a href="Gottlob_Frege" title="Gottlob Frege">Frege</a></li>
+<li><a href="Peter_Geach" title="Peter Geach">Geach</a></li>
+<li><a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gentzen</a></li>
+<li><a href="Kurt_G%C3%B6del" title="Kurt Gödel">Gödel</a></li>
+<li><a href="David_Hilbert" title="David Hilbert">Hilbert</a></li>
+<li><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Kleene</a></li>
+<li><a href="Saul_Kripke" title="Saul Kripke">Kripke</a></li>
+<li><a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a></li>
+<li><a href="Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Löwenheim</a></li>
+<li><a href="Giuseppe_Peano" title="Giuseppe Peano">Peano</a></li>
+<li><a href="Charles_Sanders_Peirce" title="Charles Sanders Peirce">Peirce</a></li>
+<li><a href="Hilary_Putnam" title="Hilary Putnam">Putnam</a></li>
+<li><a href="Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Quine</a></li>
+<li><a href="Bertrand_Russell" title="Bertrand Russell">Russell</a></li>
+<li><a href="Ernst_Schr%C3%B6der" title="Ernst Schröder">Schröder</a></li>
+<li><a href="Duns_Scotus" title="Duns Scotus">Scotus</a></li>
+<li><a href="Thoralf_Skolem" title="Thoralf Skolem">Skolem</a></li>
+<li><a href="Raymond_Smullyan" title="Raymond Smullyan">Smullyan</a></li>
+<li><a href="Alfred_Tarski" title="Alfred Tarski">Tarski</a></li>
+<li><a href="Alan_Turing" title="Alan Turing">Turing</a></li>
+<li><a href="Alfred_North_Whitehead" title="Alfred North Whitehead">Whitehead</a></li>
+<li><a href="William_of_Ockham" title="William of Ockham">William of Ockham</a></li>
+<li><a href="Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Wittgenstein</a></li>
+<li><a href="Ernst_Zermelo" title="Ernst Zermelo">Zermelo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Lists</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Index_of_logic_articles" title="Index of logic articles">Index of logic articles</a></li>
+<li><a href="List_of_mathematical_logic_topics" title="List of mathematical logic topics">Mathematical logic</a></li>
+<li><a href="List_of_Boolean_algebra_topics" title="List of Boolean algebra topics">Boolean algebra</a></li>
+<li><a href="List_of_set_theory_topics" title="List of set theory topics">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_logicians" title="List of logicians">Logicians</a></li>
+<li><a href="List_of_rules_of_inference" title="List of rules of inference">Rules of inference</a></li>
+<li><a href="List_of_paradoxes" title="List of paradoxes">Paradoxes</a></li>
+<li><a href="List_of_fallacies" title="List of fallacies">Fallacies</a></li>
+<li><a href="List_of_logic_symbols" title="List of logic symbols">Logic symbols</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logic_symbols" title="List of logic symbols">Common logical symbols</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<div style="font-size:130%;">
+<p><a href="Ampersand" title="Ampersand">&amp;</a>&#160; &#160; <a href="Vel_(symbol)" title="Vel (symbol)">∨</a>&#160; &#160; <a href="Negation" title="Negation">¬</a>&#160; &#160; <a href="Tilde" title="Tilde">~</a>&#160; &#160; <a href="Arrow_(symbol)" title="Arrow (symbol)">→</a>&#160; &#160; <a href="Horseshoe_(symbol)" title="Horseshoe (symbol)">⊃</a>&#160; &#160; <a href="Triple_bar" title="Triple bar">≡</a>&#160; &#160; <a href="Sheffer_stroke" title="Sheffer stroke"><span class="Unicode">|</span></a>&#160; &#160; <a href="Turned_A" title="Turned A">∀</a>&#160; &#160; <a href="Turned_E" title="Turned E">∃</a>&#160; &#160; <a href="Tee_(symbol)" title="Tee (symbol)">⊤</a>&#160; &#160; <a href="Up_tack" title="Up tack">⊥</a>&#160; &#160; <a href="Turnstile_(symbol)" title="Turnstile (symbol)">⊢</a>&#160; &#160; <a href="Double_turnstile" title="Double turnstile">⊨</a>&#160; &#160; <a href="Therefore_sign" title="Therefore sign">∴</a>&#160; &#160; <a href="Therefore_sign#Related_signs" title="Therefore sign">∵</a></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><a href="Portal_Logic" title="Portal:Logic">Portal</a></li>
+<li><a href="Category_Logic" title="Category:Logic">Category</a></li>
+<li><a href="Outline_of_logic" title="Outline of logic">Outline</a></li>
+<li><a href="Wikipedia_WikiProject_Logic" title="Wikipedia:WikiProject Logic">WikiProject</a></li>
+<li><a href="Wikipedia_talk_WikiProject_Logic" title="Wikipedia talk:WikiProject Logic">Talk</a></li>
+<li><a class="external text" href="../../w/index-title=Special_Recentchangeslinked&target=Template_Logic&hidebots=0.php.html">changes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="3">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Set_theory" title="Template:Set theory"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_Set_theory&action=edit&redlink=1.php.html" class="new" title="Template talk:Set theory (page does not exist)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Set_theory&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><strong class="selflink">Set theory</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Axioms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Axiom_of_choice" title="Axiom of choice">Axiom of choice</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" style="width:0%;padding:0px 0px 0px 2px;" rowspan="11">
+<div><a href="Venn_diagram" title="Venn diagram"><img alt="Venn diagram of set intersection." src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/80px-Venn_A_intersect_B.svg.png" width="80" height="57" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/120px-Venn_A_intersect_B.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Venn_A_intersect_B.svg/160px-Venn_A_intersect_B.svg.png 2x" /></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Binary_operation" title="Binary operation">Binary operations</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cartesian_product" title="Cartesian product">Cartesian product</a></li>
+<li><a href="Intersection_(set_theory)" title="Intersection (set theory)">Intersection</a></li>
+<li><a href="Complement_(set_theory)" title="Complement (set theory)">Set difference</a></li>
+<li><a href="Symmetric_difference" title="Symmetric difference">Symmetric difference</a></li>
+<li><a href="Union_(set_theory)" title="Union (set theory)">Union</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cardinality" title="Cardinality">Cardinality</a></li>
+<li><a href="Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li><a href="Complement_(set_theory)" title="Complement (set theory)">Complement</a></li>
+<li><a href="Element_(mathematics)" title="Element (mathematics)">Element (mathematics)</a></li>
+<li><a href="Bijection" title="Bijection">One-to-one correspondence</a></li>
+<li><a href="Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Set_(mathematics)" title="Set (mathematics)">Sets</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Countable_set" title="Countable set">Countable set</a></li>
+<li><a href="Empty_set" title="Empty set">Empty set</a></li>
+<li><a href="Finite_set" title="Finite set">Finite set</a></li>
+<li><a href="Fuzzy_set" title="Fuzzy set">Fuzzy set</a></li>
+<li><a href="Infinite_set" title="Infinite set">Infinite set</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Subset" title="Subset">Subset</a></li>
+<li><a href="Uncountable_set" title="Uncountable set">Uncountable set</a></li>
+<li><a href="Universal_set" title="Universal set">Universal set</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Theories</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cantor's_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+<li><a href="Naive_set_theory" title="Naive set theory">Naive set theory</a></li>
+<li><a href="Paradoxes_of_set_theory" title="Paradoxes of set theory">Paradoxes</a></li>
+<li><a href="Russell's_paradox" title="Russell's paradox">Russell's paradox</a></li>
+<li><a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">People</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a></li>
+<li><a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a></li>
+<li><a href="Ernst_Zermelo" title="Ernst Zermelo">Ernst Zermelo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 11071/1000000
+Preprocessor generated node count: 42993/1500000
+Post-expand include size: 227839/2048000 bytes
+Template argument size: 125893/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:27553-0!*!0!!en!4!* and timestamp 20130213202122 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Set_theory&oldid=538098524.php.html">http://en.wikipedia.org/w/index.php?title=Set_theory&amp;oldid=538098524</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Set_theory" title="Category:Set theory">Set theory</a></li><li><a href="Category_Formal_methods" title="Category:Formal methods">Formal methods</a></li><li><a href="Category_Mathematical_logic" title="Category:Mathematical logic">Mathematical logic</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_December_2011" title="Category:Articles with unsourced statements from December 2011">Articles with unsourced statements from December 2011</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Set+theory&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Set+theory.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Set_theory"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Set_theory&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Set_theory&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Set_theory" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Set_theory" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Set_theory&oldid=538098524.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Set_theory&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Set_theory&id=538098524.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Set+theory.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Set+theory&oldid=538098524&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Set_theory&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-am"><a href="http://am.wikipedia.org/wiki/%E1%88%A5%E1%8A%90_%E1%88%B5%E1%89%A5%E1%88%B5%E1%89%A5" title="ሥነ ስብስብ" lang="am" hreflang="am">አማርኛ</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Teor%C3%ADa_de_conchuntos" title="Teoría de conchuntos" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A7%D8%AA" title="نظرية المجموعات" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/%C3%87oxluqlar_n%C9%99z%C9%99riyy%C9%99si" title="Çoxluqlar nəzəriyyəsi" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bat-smg"><a href="http://bat-smg.wikipedia.org/wiki/Aibiu_teuor%C4%97j%C4%97" title="Aibiu teuorėjė" lang="bat-smg" hreflang="bat-smg">Žemaitėška</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%A2%D1%8D%D0%BE%D1%80%D1%8B%D1%8F_%D0%BC%D0%BD%D0%BE%D1%81%D1%82%D0%B2%D0%B0%D1%9E" title="Тэорыя мностваў" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%A2%D1%8D%D0%BE%D1%80%D1%8B%D1%8F_%D0%BC%D0%BD%D0%BE%D1%81%D1%82%D0%B2%D0%B0%D1%9E" title="Тэорыя мностваў" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0%D1%82%D0%B0" title="Теория на множествата" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%87%E0%A6%9F_%E0%A6%A4%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%AC" title="সেট তত্ত্ব" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Teorienn_an_teskado%C3%B9" title="Teorienn an teskadoù" lang="br" hreflang="br">Brezhoneg</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Teorija_skupova" title="Teorija skupova" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Teoria_de_conjunts" title="Teoria de conjunts" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Teorie_mno%C5%BEin" title="Teorie množin" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-cv"><a href="http://cv.wikipedia.org/wiki/%D0%9D%D1%83%D0%BC%D0%B0%D0%B9%D0%BB%C4%83%D1%85_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D0%B9%C4%95" title="Нумайлăх теорийĕ" lang="cv" hreflang="cv">Чӑвашла</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/M%C3%A6ngdel%C3%A6re" title="Mængdelære" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Mengenlehre" title="Mengenlehre" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1_%CF%83%CF%85%CE%BD%CF%8C%CE%BB%CF%89%CE%BD" title="Θεωρία συνόλων" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Aroteorio" title="Aroteorio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Teor%C3%ADa_de_conjuntos" title="Teoría de conjuntos" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Hulgateooria" title="Hulgateooria" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Multzo-teoria" title="Multzo-teoria" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%D9%87_%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87%E2%80%8C%D9%87%D8%A7" title="نظریه مجموعه‌ها" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Joukko-oppi" title="Joukko-oppi" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-fiu-vro"><a href="http://fiu-vro.wikipedia.org/wiki/Hulgateooria" title="Hulgateooria" lang="fiu-vro" hreflang="fiu-vro">Võro</a></li>
+			<li class="interwiki-fo"><a href="http://fo.wikipedia.org/wiki/Mongdarl%C3%A6ra" title="Mongdarlæra" lang="fo" hreflang="fo">Føroyskt</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Th%C3%A9orie_des_ensembles" title="Théorie des ensembles" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-fur"><a href="http://fur.wikipedia.org/wiki/Teorie_dai_insiemis" title="Teorie dai insiemis" lang="fur" hreflang="fur">Furlan</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Teor%C3%ADa_de_conxuntos" title="Teoría de conxuntos" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%A7%D7%91%D7%95%D7%A6%D7%95%D7%AA" title="תורת הקבוצות" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%AE%E0%A5%81%E0%A4%9A%E0%A5%8D%E0%A4%9A%E0%A4%AF_%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4" title="समुच्चय सिद्धान्त" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Teorija_skupova" title="Teorija skupova" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Halmazelm%C3%A9let" title="Halmazelmélet" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D4%B2%D5%A1%D5%A6%D5%B4%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6%D5%B6%D5%A5%D6%80%D5%AB_%D5%BF%D5%A5%D5%BD%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" title="Բազմությունների տեսություն" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Teori_himpunan" title="Teori himpunan" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Ensemblo-teorio" title="Ensemblo-teorio" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Mengjafr%C3%A6%C3%B0i" title="Mengjafræði" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Teoria_degli_insiemi" title="Teoria degli insiemi" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E9%9B%86%E5%90%88%E8%AB%96" title="集合論" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-jv"><a href="http://jv.wikipedia.org/wiki/T%C3%A9ori_himpunan" title="Téori himpunan" lang="jv" hreflang="jv">Basa Jawa</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%A1%E1%83%98%E1%83%9B%E1%83%A0%E1%83%90%E1%83%95%E1%83%9A%E1%83%94%E1%83%97%E1%83%90_%E1%83%97%E1%83%94%E1%83%9D%E1%83%A0%E1%83%98%E1%83%90" title="სიმრავლეთა თეორია" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%96%D0%B8%D1%8B%D0%BD%D0%B4%D0%B0%D1%80_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D1%81%D1%8B" title="Жиындар теориясы" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%A7%91%ED%95%A9%EB%A1%A0" title="집합론" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Theoria_copiarum" title="Theoria copiarum" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lmo"><a href="http://lmo.wikipedia.org/wiki/Teur%C3%ADa_di_cungjuunt" title="Teuría di cungjuunt" lang="lmo" hreflang="lmo">Lumbaart</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Kopu_teorija" title="Kopu teorija" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B0%D1%82%D0%B0" title="Теорија на множествата" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%97%E0%B4%A3%E0%B4%B8%E0%B4%BF%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B4%82" title="ഗണസിദ്ധാന്തം" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A4%BE%E0%A4%A6" title="संचप्रवाद" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Teori_set" title="Teori set" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-new"><a href="http://new.wikipedia.org/wiki/%E0%A4%B8%E0%A5%87%E0%A4%9F_%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4" title="सेट सिद्धान्त" lang="new" hreflang="new">नेपाल भाषा</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Verzamelingenleer" title="Verzamelingenleer" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Mengdel%C3%A6re" title="Mengdelære" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Mengdel%C3%A6re" title="Mengdelære" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Ensemble-teorie" title="Ensemble-teorie" lang="nov" hreflang="nov">Novial</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Teoria_deis_ensembles" title="Teoria deis ensembles" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-or"><a href="http://or.wikipedia.org/wiki/%E0%AC%B8%E0%AD%87%E0%AC%9F_%E0%AC%A4%E0%AC%A4%E0%AD%8D%E0%AC%A4%E0%AD%8D%E0%AC%B5" title="ସେଟ ତତ୍ତ୍ଵ" lang="or" hreflang="or">ଓଡ଼ିଆ</a></li>
+			<li class="interwiki-pfl"><a href="http://pfl.wikipedia.org/wiki/Mengelea" title="Mengelea" lang="pfl" hreflang="pfl">Pälzisch</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Teoria_mnogo%C5%9Bci" title="Teoria mnogości" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Teor%C3%ACa_dj'ansem" title="Teorìa dj'ansem" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D8%B3%DB%8C%D9%B9_%D8%AA%DA%BE%DB%8C%D9%88%D8%B1%DB%8C" title="سیٹ تھیوری" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Teoria_dos_conjuntos" title="Teoria dos conjuntos" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Teoria_mul%C8%9Bimilor" title="Teoria mulțimilor" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2" title="Теория множеств" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-rue"><a href="http://rue.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD" title="Теорія множин" lang="rue" hreflang="rue">Русиньскый</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Teorija_skupova" title="Teorija skupova" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B6%9A%E0%B7%94%E0%B6%BD%E0%B6%9A_%E0%B7%80%E0%B7%8F%E0%B6%AF%E0%B6%BA" title="කුලක වාදය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Set_theory" title="Set theory" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Te%C3%B3ria_mno%C5%BE%C3%ADn" title="Teória množín" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Teorija_mno%C5%BEic" title="Teorija množic" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D1%81%D0%BA%D1%83%D0%BF%D0%BE%D0%B2%D0%B0" title="Теорија скупова" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/M%C3%A4ngdteori" title="Mängdteori" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%A3%E0%AE%95%E0%AF%8D_%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%81" title="கணக் கோட்பாடு" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B9%80%E0%B8%8B%E0%B8%95" title="ทฤษฎีเซต" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/K%C3%BCmeler_kuram%C4%B1" title="Kümeler kuramı" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-tt"><a href="http://tt.wikipedia.org/wiki/%D0%9A%D2%AF%D0%BF%D0%BB%D0%B5%D0%BA_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D1%81%D0%B5" title="Күплек теориясе" lang="tt" hreflang="tt">Татарча/tatarça</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D0%BC%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD" title="Теорія множин" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%DB%82_%D8%B7%D8%A7%D9%82%D9%85" title="نظریۂ طاقم" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_t%E1%BA%ADp_h%E1%BB%A3p" title="Lý thuyết tập hợp" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-vo"><a href="http://vo.wikipedia.org/wiki/Konletateor" title="Konletateor" lang="vo" hreflang="vo">Volapük</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Teyorya_set" title="Teyorya set" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-yi"><a href="http://yi.wikipedia.org/wiki/%D7%A1%D7%9B%D7%95%D7%9E%D7%A2%D7%9F_%D7%98%D7%A2%D7%90%D7%A8%D7%99%D7%A2" title="סכומען טעאריע" lang="yi" hreflang="yi">ייִדיש</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论" lang="zh" hreflang="zh">中文</a></li>
+			<li class="interwiki-zh-classical"><a href="http://zh-classical.wikipedia.org/wiki/%E9%9B%86%E8%AB%96" title="集論" lang="zh-classical" hreflang="zh-classical">文言</a></li>
+			<li class="interwiki-zh-min-nan"><a href="http://zh-min-nan.wikipedia.org/wiki/Chi%CC%8Dp-ha%CC%8Dp-l%C5%ABn" title="Chi̍p-ha̍p-lūn" lang="zh-min-nan" hreflang="zh-min-nan">Bân-lâm-gú</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/%E9%9B%86%E5%90%88%E8%AB%96" title="集合論" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="wbc-editpage"><a href="http://wikidata.org/wiki/Special:ItemByTitle/enwiki/Set%20theory" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 20:21.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Set_theory" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1092 in 0.207 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

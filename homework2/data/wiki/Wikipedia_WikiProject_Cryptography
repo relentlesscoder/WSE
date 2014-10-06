@@ -1,0 +1,2821 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wikipedia:WikiProject Cryptography - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:WikiProject_Cryptography","wgTitle":"WikiProject Cryptography","wgCurRevisionId":529570995,"wgArticleId":610347,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Semi-active WikiProjects","WikiProject Cryptography","Technology WikiProjects","WikiProject Computer science","WikiProject Mathematics","WikiProject Telecommunications"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:WikiProject_Cryptography","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"f7100d25c4ab58cadbb0a2ec6e9d1641","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":610347,"title":"Wikipedia:WikiProject Cryptography","namespace":4,"categories":["Semi-active WikiProjects","Technology WikiProjects","WikiProject Computer science","WikiProject Cryptography","WikiProject Mathematics","WikiProject Telecommunications"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-4 ns-subject page-Wikipedia_WikiProject_Cryptography skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wikipedia:WikiProject Cryptography</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="plainlinks ombox ombox-notice hlist" style="">
+<tr>
+<td class="mbox-image"><a href="http://en.wikipedia.org/wiki/File:People_icon.svg" class="image"><img alt="People icon.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/45px-People_icon.svg.png" width="45" height="45" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/68px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/90px-People_icon.svg.png 2x" /></a></td>
+<td class="mbox-text" style=""><b>This <a href="Wikipedia_WikiProject" title="Wikipedia:WikiProject">WikiProject</a> is believed to be semi-active.</b> Activity is slower than it once was. If you are not currently a member of the project, please consider joining it to help. See <a href="Wikipedia_INACTIVEWP" title="Wikipedia:INACTIVEWP" class="mw-redirect">the WikiProject Guide</a> for advice on reviving an inactive WikiProject.<br />
+<small>Feel free to remove this tag if activity resumes or if this tag was placed in error. If almost no activity occurs in this WikiProject, consider replacing this tag with {{<a href="Template_WikiProject_status" title="Template:WikiProject status">WikiProject status</a>|Inactive}}.</small><br />
+<ul>
+<li><small><a href="Wikipedia_WikiProject_Council/Guide" title="Wikipedia:WikiProject Council/Guide">Guide to WikiProjects</a></small></li>
+<li><small><a href="Wikipedia_WikiProject_Council/Directory" title="Wikipedia:WikiProject Council/Directory">Directory of WikiProjects</a></small></li>
+</ul>
+</td>
+<td class="mbox-imageright">
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: 0; padding: 1px; text-align: center; line-height: 1.1em">
+<tr>
+<th style="border: none; background: transparent;"><span id="WP:CRYPT"></span><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcut</a>:<br />
+<a href="Wikipedia_CRYPT" title="Wikipedia:CRYPT" class="mw-redirect">WP:CRYPT</a></small></th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>The aim of <b>WikiProject Cryptography</b> is to help editors working on <a href="Cryptography" title="Cryptography">cryptography</a> articles by providing a repository of information and resources, and providing a <a href="Wikipedia_talk_WikiProject_Cryptography" title="Wikipedia talk:WikiProject Cryptography">place for discussions</a> that affect more than one article. See also the <a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography WikiPortal</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Lists_and_categories"><span class="tocnumber">1</span> <span class="toctext">Lists and categories</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Editor_oriented_lists"><span class="tocnumber">1.1</span> <span class="toctext">Editor oriented lists</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Reader_oriented_lists"><span class="tocnumber">1.2</span> <span class="toctext">Reader oriented lists</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Featured_articles_and_Good_articles"><span class="tocnumber">2</span> <span class="toctext">Featured articles and Good articles</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Summaries"><span class="tocnumber">3</span> <span class="toctext">Summaries</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Some_open_tasks"><span class="tocnumber">4</span> <span class="toctext">Some open tasks</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Discussions"><span class="tocnumber">5</span> <span class="toctext">Discussions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Active"><span class="tocnumber">5.1</span> <span class="toctext">Active</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Inactive"><span class="tocnumber">5.2</span> <span class="toctext">Inactive</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Participants"><span class="tocnumber">6</span> <span class="toctext">Participants</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Stats"><span class="tocnumber">7</span> <span class="toctext">Stats</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Cryptography_in_other_Wikimedia_projects"><span class="tocnumber">8</span> <span class="toctext">Cryptography in other Wikimedia projects</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Free_content"><span class="tocnumber">9</span> <span class="toctext">Free content</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Other_Internet_content"><span class="tocnumber">10</span> <span class="toctext">Other Internet content</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Other_cryptography_encyclopedias"><span class="tocnumber">11</span> <span class="toctext">Other cryptography encyclopedias</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Templates"><span class="tocnumber">12</span> <span class="toctext">Templates</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Article_talk_page"><span class="tocnumber">12.1</span> <span class="toctext">Article talk page</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#.7B.7BInfobox_block_cipher.7D.7D"><span class="tocnumber">12.2</span> <span class="toctext">{{Infobox block cipher}}</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#.7B.7Bcrypto-stub.7D.7D"><span class="tocnumber">12.3</span> <span class="toctext">{{crypto-stub}}</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#.7B.7BUser_WikiProject_Cryptography.7D.7D"><span class="tocnumber">12.4</span> <span class="toctext">{{User WikiProject Cryptography}}</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Navigational_templates"><span class="tocnumber">13</span> <span class="toctext">Navigational templates</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#The_main_crypto_navigation_box"><span class="tocnumber">13.1</span> <span class="toctext">The main crypto navigation box</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#.7B.7BCrypto_navbox.7D.7D"><span class="tocnumber">13.2</span> <span class="toctext">{{Crypto navbox}}</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#.7B.7BCrypto_navbox_.7C_block_.7C_stream.7D.7D"><span class="tocnumber">13.3</span> <span class="toctext">{{Crypto navbox | block | stream}}</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#.7B.7BCrypto_navbox_.7C_block.7D.7D"><span class="tocnumber">13.4</span> <span class="toctext">{{Crypto navbox | block}}</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#.7B.7BCrypto_navbox_.7C_stream.7D.7D"><span class="tocnumber">13.5</span> <span class="toctext">{{Crypto navbox | stream}}</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#.7B.7BCrypto_navbox_.7C_public-key.7D.7D"><span class="tocnumber">13.6</span> <span class="toctext">{{Crypto navbox | public-key}}</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#.7B.7BCrypto_navbox_.7C_hash.7D.7D"><span class="tocnumber">13.7</span> <span class="toctext">{{Crypto navbox | hash}}</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#.7B.7BCrypto_navbox_.7C_machines.7D.7D"><span class="tocnumber">13.8</span> <span class="toctext">{{Crypto navbox | machines}}</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#.7B.7BCrypto_navbox_.7C_classical.7D.7D"><span class="tocnumber">13.9</span> <span class="toctext">{{Crypto navbox | classical}}</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Deprecated_templates"><span class="tocnumber">13.10</span> <span class="toctext">Deprecated templates</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#.7B.7BCryptography_portal.7D.7D_or_.7B.7BPortal.7CCryptography.7D.7D"><span class="tocnumber">13.11</span> <span class="toctext">{{Cryptography portal}} or {{Portal|Cryptography}}</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-33"><a href="#External_links"><span class="tocnumber">14</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=1.php.html" title="Edit section: Lists and categories">edit</a>]</span> <span class="mw-headline" id="Lists_and_categories">Lists and categories</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=2.php.html" title="Edit section: Editor oriented lists">edit</a>]</span> <span class="mw-headline" id="Editor_oriented_lists">Editor oriented lists</span></h3>
+<ul>
+<li><a href="List_of_cryptography_topics/index.html" title="Wikipedia:WikiProject Cryptography/List of cryptography topics" class="mw-redirect">Wikipedia:WikiProject Cryptography/List of cryptography topics</a> – Should list all cryptography related articles so please add any new articles to this list. That makes the nifty tool <b><a href="Special_RecentChangesLinked/Index_of_cryptography_articles" title="Special:RecentChangesLinked/Index of cryptography articles">Recent changes in articles about cryptography</a></b> work properly.</li>
+</ul>
+<ul>
+<li><a href="User_Matt_Crypto/Crypto_redirects" title="User:Matt Crypto/Crypto redirects">Redirects for cryptography pages</a></li>
+</ul>
+<ul>
+<li><a href="http://commons.wikimedia.org/wiki/Category:Cryptography" class="extiw" title="commons:Category:Cryptography">Category:Cryptography</a> – Crypto images on Wikimedia Commons. (Note that new images should preferably be uploaded to Commons so they can be used in all language Wikipedias.)</li>
+</ul>
+<ul>
+<li><a href="List_of_images/index.html" title="Wikipedia:WikiProject Cryptography/List of images" class="mw-redirect">/List of images</a> – List of cryptography images.</li>
+</ul>
+<ul>
+<li><a href="Category_WikiProject_Cryptography" title="Category:WikiProject Cryptography">Category:WikiProject Cryptography</a> – Should contain all pages within the WikiProject Cryptography.</li>
+</ul>
+<ul>
+<li><a href="Category_Cryptography_articles_needing_expert_attention" title="Category:Cryptography articles needing expert attention">Category:Cryptography articles needing expert attention</a></li>
+</ul>
+<ul>
+<li><a href="Category_Cryptography_stubs" title="Category:Cryptography stubs">Category:Cryptography stubs</a></li>
+</ul>
+<ul>
+<li><a href="New_articles/index.html" title="Wikipedia:WikiProject Cryptography/New articles">Recently created articles on cryptography</a> – The robot <a href="User_AlexNewArtBot" title="User:AlexNewArtBot">AlexNewArtBot</a> searches for newly created articles several times a week. If they contain any cryptography related words the bot lists those articles here.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=3.php.html" title="Edit section: Reader oriented lists">edit</a>]</span> <span class="mw-headline" id="Reader_oriented_lists">Reader oriented lists</span></h3>
+<ul>
+<li><a href="Topics_in_cryptography" title="Topics in cryptography" class="mw-redirect">Topics in cryptography</a> – An annotated list of cryptography topics</li>
+</ul>
+<ul>
+<li><a href="Books_on_cryptography" title="Books on cryptography">Books on cryptography</a> – An annotated list of suggested readings.</li>
+</ul>
+<ul>
+<li><a href="List_of_cryptographers" title="List of cryptographers">List of cryptographers</a> – An annotated list of cryptographers.</li>
+</ul>
+<ul>
+<li><a href="Category_Cryptography" title="Category:Cryptography">Category:Cryptography</a> – Should contain all cryptography articles (most of course in subcategories).</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=4.php.html" title="Edit section: Featured articles and Good articles">edit</a>]</span> <span class="mw-headline" id="Featured_articles_and_Good_articles">Featured articles and Good articles</span></h2>
+<p>See <a href="Featured/index.html" title="Wikipedia:WikiProject Cryptography/Featured">/Featured</a> for the subproject concerning bringing articles to <a href="Wikipedia_WIAFA" title="Wikipedia:WIAFA" class="mw-redirect">featured status</a> or <a href="Wikipedia_WIAGA" title="Wikipedia:WIAGA" class="mw-redirect">good article status</a>.</p>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/File:Featured_article_star.svg" class="image"><img alt="Featured article star.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/15px-Featured_article_star.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/23px-Featured_article_star.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/30px-Featured_article_star.svg.png 2x" /></a> <b><a href="Caesar_cipher" title="Caesar cipher">Caesar cipher</a></b></li>
+<li><a href="http://en.wikipedia.org/wiki/File:Featured_article_star.svg" class="image"><img alt="Featured article star.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/15px-Featured_article_star.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/23px-Featured_article_star.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/30px-Featured_article_star.svg.png 2x" /></a> <b><a href="Cryptography" title="Cryptography">Cryptography</a></b></li>
+<li><a href="http://en.wikipedia.org/wiki/File:Featured_article_star.svg" class="image"><img alt="Featured article star.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/15px-Featured_article_star.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/23px-Featured_article_star.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/30px-Featured_article_star.svg.png 2x" /></a> <b><a href="OpenBSD" title="OpenBSD">OpenBSD</a></b></li>
+<li><a href="http://en.wikipedia.org/wiki/File:Featured_article_star.svg" class="image"><img alt="Featured article star.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/15px-Featured_article_star.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/23px-Featured_article_star.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/30px-Featured_article_star.svg.png 2x" /></a> <b><a href="ROT13" title="ROT13">ROT13</a></b></li>
+<li><a href="http://en.wikipedia.org/wiki/File:Symbol_support_vote.svg" class="image"><img alt="Symbol support vote.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/15px-Symbol_support_vote.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/23px-Symbol_support_vote.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/94/Symbol_support_vote.svg/30px-Symbol_support_vote.svg.png 2x" /></a> <b><a href="Stuart_Milner-Barry" title="Stuart Milner-Barry">Stuart Milner-Barry</a></b></li>
+<li><a href="http://en.wikipedia.org/wiki/File:Featured_article_star.svg" class="image"><img alt="Featured article star.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/15px-Featured_article_star.svg.png" width="15" height="15" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/23px-Featured_article_star.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Featured_article_star.svg/30px-Featured_article_star.svg.png 2x" /></a> <b><a href="Marian_Rejewski" title="Marian Rejewski">Marian Rejewski</a></b></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=5.php.html" title="Edit section: Summaries">edit</a>]</span> <span class="mw-headline" id="Summaries">Summaries</span></h2>
+<p>The following are monthly summaries of activity within the WikiProject:</p>
+<ul>
+<li><a href="February_2005/index.html" title="Wikipedia:WikiProject Cryptography/February 2005">/February 2005</a></li>
+<li><a href="March_2005/index.html" title="Wikipedia:WikiProject Cryptography/March 2005">/March 2005</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=6.php.html" title="Edit section: Some open tasks">edit</a>]</span> <span class="mw-headline" id="Some_open_tasks">Some open tasks</span></h2>
+<table style="text-align: full; width: 100%" border="1" cellpadding="0">
+<tr>
+<th style="text-align: center;" colspan="2"><b>Current tasks for <strong class="selflink">Wikipedia:WikiProject Cryptography</strong></b>
+<div align="right"><small class="editlink noprint plainlinksneverexpand"><a class="external text" href="../../w/index-title=Template_CryptographyTasks&action=edit.php.html">edit</a></small></div>
+</th>
+</tr>
+<tr>
+<td width="50">
+<p><a href="http://en.wikipedia.org/wiki/File:Clipboard.svg" class="image"><img alt="Clipboard.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Clipboard.svg/48px-Clipboard.svg.png" width="48" height="48" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/1f/Clipboard.svg/72px-Clipboard.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/1f/Clipboard.svg/96px-Clipboard.svg.png 2x" /></a></p>
+</td>
+<td>
+<table class="navbox collapsible collapsed" style="text-align: left; border: 0px; margin-top: 0.2em;">
+<tr>
+<th style="background-color: #BBBBBB; font-weight:normal;">
+<ul>
+<li><b>Improvement to <a href="Wikipedia_FA" title="Wikipedia:FA" class="mw-redirect">featured</a> or <a href="Wikipedia_GA" title="Wikipedia:GA" class="mw-redirect">good article</a> status:</b></li>
+</ul>
+</th>
+</tr>
+<tr>
+<td style="border: solid 1px silver; padding: 8px; background-color: white;">
+<ul>
+<li>Current GA/FA articles: <a href="Alan_Turing" title="Alan Turing">Alan Turing</a></li>
+<li>Potential GA/FA candidate articles:
+<ul>
+<li>Hash functions: <a href="SMASH_(hash)" title="SMASH (hash)">SMASH (hash)</a></li>
+<li>Block cipher misc topics: <a href="IAPM_(mode)" title="IAPM (mode)">IAPM (mode)</a></li>
+<li>Cryptanalysis: <a href="Frequency_analysis" title="Frequency analysis">frequency analysis</a></li>
+<li>Crypto systems: <a href="Purple_code" title="Purple code" class="mw-redirect">purple code</a></li>
+<li>Cryptographic tools: <a href="Digital_signature" title="Digital signature">digital signature</a>, <a href="One_time_pad" title="One time pad" class="mw-redirect">one time pad</a>, <a href="Grille_(cryptography)" title="Grille (cryptography)">grille (cryptography)</a>, <a href="Secret_sharing" title="Secret sharing">secret sharing</a>, <a href="Substitution_cipher" title="Substitution cipher">substitution cipher</a>, <a href="Lattice-based_cryptography" title="Lattice-based cryptography">Lattice-based cryptography</a></li>
+<li>Cryptology software: <a href="Anonymous_remailer" title="Anonymous remailer">anonymous remailer</a>, <a href="Pretty_good_privacy" title="Pretty good privacy" class="mw-redirect">pretty good privacy</a></li>
+<li>Cryptographers:</li>
+<li>Miscellaneous:</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<table class="navbox collapsible collapsed" style="text-align: left; border: 0px; margin-top: 0.2em;">
+<tr>
+<th style="background-color: #BBBBBB; font-weight:normal;">
+<ul>
+<li><b>Start from scratch:</b> &#160;&#160;&#160;&#160;&#160;&#160;&#160;</li>
+</ul>
+</th>
+</tr>
+<tr>
+<td style="border: solid 1px silver; padding: 8px; background-color: white;">
+<ul>
+<li>
+<ul>
+<li>Theory: <a href="../../w/index-title=Computational_boundedness&action=edit&redlink=1.php.html" class="new" title="Computational boundedness (page does not exist)">Computational boundedness</a>,</li>
+<li>Hash functions:</li>
+<li>Historical cryptography: <a href="../../w/index-title=TELWA&action=edit&redlink=1.php.html" class="new" title="TELWA (page does not exist)">TELWA</a>, <a href="Hut_3" title="Hut 3" class="mw-redirect">Hut 3</a>, <a href="Hut_4" title="Hut 4" class="mw-redirect">Hut 4</a>
+<ul>
+<li>Cipher machines: <a href="../../w/index-title=Alvis_(cipher_machine)&action=edit&redlink=1.php.html" class="new" title="Alvis (cipher machine) (page does not exist)">Alvis (cipher machine)</a>, <a href="../../w/index-title=SIGTOT&action=edit&redlink=1.php.html" class="new" title="SIGTOT (page does not exist)">SIGTOT</a>, <a href="../../w/index-title=B-211&action=edit&redlink=1.php.html" class="new" title="B-211 (page does not exist)">B-211</a> or <a href="../../w/index-title=B-21_(cryptography)&action=edit&redlink=1.php.html" class="new" title="B-21 (cryptography) (page does not exist)">B-21 (cryptography)</a>, <a href="../../w/index-title=OMI_(machine)&action=edit&redlink=1.php.html" class="new" title="OMI (machine) (page does not exist)">OMI (machine)</a>, <a href="../../w/index-title=Siemens_SFM_T43&action=edit&redlink=1.php.html" class="new" title="Siemens SFM T43 (page does not exist)">Siemens SFM T43</a>, <a href="../../w/index-title=SA-1_(cryptography)&action=edit&redlink=1.php.html" class="new" title="SA-1 (cryptography) (page does not exist)">SA-1 (cryptography)</a>, <a href="../../w/index-title=BC-543&action=edit&redlink=1.php.html" class="new" title="BC-543 (page does not exist)">BC-543</a>, <a href="../../w/index-title=BC-38&action=edit&redlink=1.php.html" class="new" title="BC-38 (page does not exist)">BC-38</a>, <a href="../../w/index-title=Syko&action=edit&redlink=1.php.html" class="new" title="Syko (page does not exist)">Syko</a>, <a href="../../w/index-title=CORAL&action=edit&redlink=1.php.html" class="new" title="CORAL (page does not exist)">CORAL</a>, <a href="../../w/index-title=PENELOPE&action=edit&redlink=1.php.html" class="new" title="PENELOPE (page does not exist)">PENELOPE</a></li>
+</ul>
+</li>
+<li>Stream ciphers: <a href="../../w/index-title=Fast_correlation_attack&action=edit&redlink=1.php.html" class="new" title="Fast correlation attack (page does not exist)">Fast correlation attack</a>, <a href="../../w/index-title=HBB_(cipher)&action=edit&redlink=1.php.html" class="new" title="HBB (cipher) (page does not exist)">HBB (cipher)</a></li>
+<li>Block ciphers: <a href="../../w/index-title=Vino_(cipher)&action=edit&redlink=1.php.html" class="new" title="Vino (cipher) (page does not exist)">Vino (cipher)</a>, <a href="../../w/index-title=BKSQ&action=edit&redlink=1.php.html" class="new" title="BKSQ (page does not exist)">BKSQ</a>, <a href="../../w/index-title=Manta_(cipher)&action=edit&redlink=1.php.html" class="new" title="Manta (cipher) (page does not exist)">Manta (cipher)</a></li>
+<li>Block cipher misc topics: <a href="../../w/index-title=XECB&action=edit&redlink=1.php.html" class="new" title="XECB (page does not exist)">XECB</a></li>
+<li>Block cipher cryptanalysis: <a href="../../w/index-title=Yoyo_game&action=edit&redlink=1.php.html" class="new" title="Yoyo game (page does not exist)">Yoyo game</a></li>
+<li>Cryptographers: <small><a href="../../w/index-title=Joan_Clarke&action=edit&redlink=1.php.html" class="new" title="Joan Clarke (page does not exist)">Joan Clarke</a>, <a href="../../w/index-title=Francis_James_Fasson&action=edit&redlink=1.php.html" class="new" title="Francis James Fasson (page does not exist)">Francis James Fasson</a>, <a href="../../w/index-title=Vladimir_Hall_Furman&action=edit&redlink=1.php.html" class="new" title="Vladimir Hall Furman (page does not exist)">Vladimir Hall Furman</a>, <a href="../../w/index-title=Joos_Scott_Vandewalle&action=edit&redlink=1.php.html" class="new" title="Joos Scott Vandewalle (page does not exist)">Joos Scott Vandewalle</a>, <a href="../../w/index-title=Toshio_Tokita&action=edit&redlink=1.php.html" class="new" title="Toshio Tokita (page does not exist)">Toshio Tokita</a>, <a href="../../w/index-title=Henri_Murphy_Gilbert&action=edit&redlink=1.php.html" class="new" title="Henri Murphy Gilbert (page does not exist)">Henri Murphy Gilbert</a>, <a href="../../w/index-title=Helena_Handschuh&action=edit&redlink=1.php.html" class="new" title="Helena Handschuh (page does not exist)">Helena Handschuh</a>, <a href="../../w/index-title=Antoon_Bosselaers&action=edit&redlink=1.php.html" class="new" title="Antoon Bosselaers (page does not exist)">Antoon Bosselaers</a>, <a href="../../w/index-title=Christophe_De_Canni%C3%A8re&action=edit&redlink=1.php.html" class="new" title="Christophe De Cannière (page does not exist)">Christophe De Cannière</a>, <a href="../../w/index-title=Joseph_Lano&action=edit&redlink=1.php.html" class="new" title="Joseph Lano (page does not exist)">Joseph Lano</a>, <a href="../../w/index-title=H%C3%A5vard_Raddum&action=edit&redlink=1.php.html" class="new" title="Håvard Raddum (page does not exist)">Håvard Raddum</a>, <a href="../../w/index-title=Michael_Wiener_(cryptographer)&action=edit&redlink=1.php.html" class="new" title="Michael Wiener (cryptographer) (page does not exist)">Michael Wiener (cryptographer)</a></small></li>
+<li>Misc: <a href="../../w/index-title=Elementary_cryptography&action=edit&redlink=1.php.html" class="new" title="Elementary cryptography (page does not exist)">Elementary cryptography</a></li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<table class="navbox collapsible collapsed" style="text-align: left; border: 0px; margin-top: 0.2em;">
+<tr>
+<th style="background-color: #BBBBBB; font-weight:normal;">
+<ul>
+<li><b>Expansion / stubs:</b></li>
+</ul>
+</th>
+</tr>
+<tr>
+<td style="border: solid 1px silver; padding: 8px; background-color: white;">
+<p>see: <a href="Category_Cryptography_stubs" title="Category:Cryptography stubs">Category:Cryptography stubs</a></p>
+</td>
+</tr>
+</table>
+<table class="navbox collapsible collapsed" style="text-align: left; border: 0px; margin-top: 0.2em;">
+<tr>
+<th style="background-color: #BBBBBB; font-weight:normal;">
+<ul>
+<li><b>Verification:</b></li>
+</ul>
+</th>
+</tr>
+<tr>
+<td style="border: solid 1px silver; padding: 8px; background-color: white;">
+<ul>
+<li>
+<ul>
+<li>None currently</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+<table class="navbox collapsible collapsed" style="text-align: left; border: 0px; margin-top: 0.2em;">
+<tr>
+<th style="background-color: #BBBBBB; font-weight:normal;">
+<ul>
+<li><b>Images:</b></li>
+</ul>
+</th>
+</tr>
+<tr>
+<td style="border: solid 1px silver; padding: 8px; background-color: white;">
+<ul>
+<li>
+<ul>
+<li>None currently</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br /></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=7.php.html" title="Edit section: Discussions">edit</a>]</span> <span class="mw-headline" id="Discussions">Discussions</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=8.php.html" title="Edit section: Active">edit</a>]</span> <span class="mw-headline" id="Active">Active</span></h3>
+<ul>
+<li>Most discussions are done on the <a href="Wikipedia_talk_WikiProject_Cryptography" title="Wikipedia talk:WikiProject Cryptography">talk page</a> of this page.</li>
+<li><a href="Featured/index.html" title="Wikipedia:WikiProject Cryptography/Featured">/Featured</a> – articles which may be suitable for <a href="Wikipedia_Featured_articles" title="Wikipedia:Featured articles">Wikipedia:Featured articles</a></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=9.php.html" title="Edit section: Inactive">edit</a>]</span> <span class="mw-headline" id="Inactive">Inactive</span></h3>
+<ul>
+<li><a href="Wikipedia_WikiReader/Cryptography" title="Wikipedia:WikiReader/Cryptography">Wikipedia:WikiReader/Cryptography</a> – Discussion about a publishable set of cryptography articles.</li>
+<li><a href="Cipher_vs_Cypher/index.html" title="Wikipedia:WikiProject Cryptography/Cipher vs Cypher">/Cipher vs Cypher</a> – A discussion of "cipher" and "cypher" spellings.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=10.php.html" title="Edit section: Participants">edit</a>]</span> <span class="mw-headline" id="Participants">Participants</span></h2>
+<p>If you're interested in editing cryptography articles, you might like to add yourself to this list, possibly with some information on what you know about / like to work on. New additions at the bottom, please.</p>
+<p>You might also consider adding yourself to the <a href="Category_WikiProject_Cryptography_participants" title="Category:WikiProject Cryptography participants">Category:WikiProject Cryptography participants</a>. See instructions on that category page for how to do it. However, note that that does not get you onto the list here and that the list here has advantages in that you can add a short description of interests.</p>
+<ol>
+<li><span><a href="User_Matt_Crypto" title="User:Matt Crypto">Matt Crypto</a>&#160;<span class="plainlinks">(<a href="User_talk_Matt_Crypto" title="User talk:Matt Crypto">talk</a>&#160;<b>·</b> <a href="Special_Contributions/Matt_Crypto" title="Special:Contributions/Matt Crypto">contribs</a>)</span></span> — <s><a href="Block_cipher" title="Block cipher">block ciphers</a></s> anything I'm not too dim to understand, but particularly World War II-era crypto.</li>
+<li><a href="User_Arvindn" title="User:Arvindn">Arvindn</a> - theory of cryptography</li>
+<li><a href="User_Ww" title="User:Ww">ww</a></li>
+<li><a href="User_Imran" title="User:Imran">Imran</a></li>
+<li><a href="User_Dante_Alighieri" title="User:Dante Alighieri">Dante Alighieri</a> | <a href="User_talk_Dante_Alighieri" title="User talk:Dante Alighieri">Talk</a> - drafted after dozens of edits related to restructuring of <a href="Enigma" title="Enigma">Enigma</a> page.</li>
+<li><a href="../../w/index-title=User_Jdcc&action=edit&redlink=1.php.html" class="new" title="User:Jdcc (page does not exist)">Jon</a></li>
+<li><a href="User_Nealmcb" title="User:Nealmcb">NealMcB</a></li>
+<li><a href="User_AntS" title="User:AntS">AntS</a></li>
+<li><a href="User_Decrypt3" title="User:Decrypt3">Decrypt3</a> - it's why I chose the username.</li>
+<li><a href="User_Peter_Hendrickson" title="User:Peter Hendrickson">Peter Hendrickson</a></li>
+<li><a href="User_CryptoDerk" title="User:CryptoDerk">CryptoDerk</a> - number theory, galois fields, discrete log, elliptic curves</li>
+<li><a href="User_Cryptosmith" title="User:Cryptosmith">Cryptosmith</a> - crypto engineering, network protocols</li>
+<li><a href="User_ClementSeveillac" title="User:ClementSeveillac">Clement Seveillac</a> - general crypto, crypto software, PKI, smart cards</li>
+<li><a href="User_Ciphergoth2" title="User:Ciphergoth2">ciphergoth</a></li>
+<li><a href="User_Schnolle" title="User:Schnolle">Schnolle</a> - <a href="Public_key_infrastructure" title="Public key infrastructure" class="mw-redirect">PKI</a> related.</li>
+<li><a href="User_Chris_Peikert" title="User:Chris Peikert">Chris Peikert</a> - theoretical crypto (zero-knowledge, multiparty computation, etc.), intersection of coding theory and crypto</li>
+<li><a href="User_Jnc" title="User:Jnc">Noel</a> - mostly interested in the history of cryptography, particularly its influence on WWII, but also have some interest in Internet-related stuff</li>
+<li><a href="User_Ral315" title="User:Ral315">ral315</a> -- I'm an amateur mathematician, freshman in college, and creator of the <a href="../../w/index-title=Wikipedia_Wikiportal_Mathematics&action=edit&redlink=1.php.html" class="new" title="Wikipedia:Wikiportal/Mathematics (page does not exist)">Math WikiPortal</a>. Check it out sometime!</li>
+<li><a href="User_Ram_Moskovitz" title="User:Ram Moskovitz">Ram Moskovitz</a> PKI, software distribution security, DRM, CA Operations</li>
+<li><a href="User_Julian_Krause" title="User:Julian Krause">Julian Krause</a> Computer Science Major, interested in all types of cryptography and math.</li>
+<li><a href="User_ArnoldReinhold" title="User:ArnoldReinhold">Arnold Reinhold</a></li>
+<li><a href="User_Vesta" title="User:Vesta">Levi</a> CS also, computer security-related, can also make images and diagrams.</li>
+<li><a href="User_E=MC%5E2" title="User:E=MC^2">E=MC^2</a> Nothing really in particular</li>
+<li><a href="../../w/index-title=User_Istanton&action=edit&redlink=1.php.html" class="new" title="User:Istanton (page does not exist)">I Stanton</a> anything, particularily math related.</li>
+<li><a href="User_Dachshund" title="User:Dachshund">Dachshund</a> - elliptic curves, applied crypto</li>
+<li><a href="User_Jonelo" title="User:Jonelo">jonelo</a> - security, one way hash algorithms</li>
+<li><a href="User_Nahaj" title="User:Nahaj">Nahaj</a> - Implementation issues, Validation issues (Author of the <i>first</i> open source government validated (US, Canada) SHA-1 implmentation, 2000 (two months ago a second such validation appeared, OpenSSL))</li>
+<li><a href="User_Ruptor" title="User:Ruptor">Sir Ruptor</a> <a href="User_talk_Ruptor" title="User talk:Ruptor">(Talk)</a> — <a href="Block_cipher" title="Block cipher">block ciphers</a>, <a href="Stream_cipher" title="Stream cipher">stream ciphers</a>, <a href="Hash_function" title="Hash function">hash functions</a> <a href="Cryptanalysis" title="Cryptanalysis">cryptanalysis</a>, stream cipher components (<a href="LFSR" title="LFSR" class="mw-redirect">LFSR</a>, <a href="NLFSR" title="NLFSR">NLFSR</a>, <a href="NLPFSR" title="NLPFSR" class="mw-redirect">NLPFSR</a>, etc.), <a href="Key-agreement_protocol" title="Key-agreement protocol">secure key exchange protocols</a>, <a href="Reverse_engineering" title="Reverse engineering">reverse engineering</a> related topics</li>
+<li><a href="User_Davidgothberg" title="User:Davidgothberg">David Göthberg</a> - I used to work with and teach crypto in embedded systems. That is, how to use crypto in cars and other machinery. Back in the 90's I was part of a team that designed a "trusted computing system" for the cars of a big car manufacturer. So far I have mostly written hash related articles and made hash related diagrams. I am mostly interested in crypto from a programmer and protocol point of view and I like to make diagrams. I am not a math guy or cryptanalyst.</li>
+<li><a href="Elonka_Dunin" title="Elonka Dunin">Elonka Dunin</a> (also <a href="User_Elonka" title="User:Elonka">User:Elonka</a>) - Famous unsolved codes, history of cryptography, pencil and paper techniques, steganography, Al Qaeda codes, encrypted sculptures, cryptography in pop culture, code challenges</li>
+<li><a href="User_Meekohi" title="User:Meekohi">Meekohi</a></li>
+<li><a href="../../w/index-title=User_Batman900&action=edit&redlink=1.php.html" class="new" title="User:Batman900 (page does not exist)">Batman900</a> - <a href="Diffie-Hellman_problem" title="Diffie-Hellman problem" class="mw-redirect">Diffie-Hellman problem</a>, <a href="Crowds" title="Crowds">Crowds</a>, <a href="Degree_of_anonymity" title="Degree of anonymity">Degree of anonymity</a>; I am an undergraduate and am studying security at UVA, I am interested in anonymity/cryptography/number theory.</li>
+<li><a href="User_Quarl" title="User:Quarl">Quarl</a> <sup>(<a href="User_talk_Quarl" title="User talk:Quarl">talk</a>)</sup></li>
+<li><a href="User_DRLB" title="User:DRLB">DRLB</a> - <a href="ECC" title="ECC">ECC</a>, <a href="Provable_security" title="Provable security">Provable security</a>.</li>
+<li><a href="User_Mangojuice" title="User:Mangojuice">Mangojuice</a> <a href="User_talk_Mangojuice" title="User talk:Mangojuice">(Talk)</a> — theoretical aspects, multiple areas.</li>
+<li><a href="User_MagusMind" title="User:MagusMind">MagusMind</a> - theoretical crypto</li>
+<li><a href="User_William_Allen_Simpson" title="User:William Allen Simpson">William Allen Simpson</a> — practical applications</li>
+<li><a href="../../w/index-title=User_Detach&action=edit&redlink=1.php.html" class="new" title="User:Detach (page does not exist)">detach</a> - Applying symmetric ciphers in programs, different modes of operation, used blowfish (CBC) and XTEA, would want to put more effort in research other area's</li>
+<li><a href="User_Dr1819" title="User:Dr1819">Dr1819</a> - Random number generation, public/private key cryptography</li>
+<li><a href="User_Silmarillion" title="User:Silmarillion">Silmarillion</a></li>
+<li><a href="User_Thehumph" title="User:Thehumph">Thehumph</a> - general cryptography</li>
+<li><a href="User_talk_The_editor1" title="User talk:The editor1">the editor1</a><sup>(<a href="User_The_editor1" title="User:The editor1">my page</a>)</sup></li>
+<li><a href="User_Kaine_I" title="User:Kaine I">Kaine I</a> - dreamer of cryptography, general cryptography/cryptoanalysis</li>
+<li><a href="User_Msoos" title="User:Msoos">Msoos</a> - My field is computer security + cryptography. I am willing to proofread and correct articles.</li>
+<li><a href="User_Raymondofrish" title="User:Raymondofrish">Raymondofrish</a> - I'm working on a thesis on some <a href="Integer_factorization" title="Integer factorization">large integer factorization</a> methods.</li>
+<li><a href="User_Stevebkk" title="User:Stevebkk">Stevebkk</a> - historical ciphers</li>
+<li><a href="User_Wintermute314" title="User:Wintermute314">Wintermute314</a> — <a href="Digital_signature" title="Digital signature">Digital signature</a>, <a href="Time_stamp" title="Time stamp" class="mw-redirect">Time stamp</a></li>
+<li><a href="../../w/index-title=User_Jamescarr&action=edit&redlink=1.php.html" class="new" title="User:Jamescarr (page does not exist)">jim</a> -crypto v/v</li>
+<li><a href="User_David4286" title="User:David4286">David4286</a> - I like all kinds of things, I'm particularly interested in various forms of cryptanalysis.</li>
+<li><a href="User_S2z" title="User:S2z">S2z</a> - Interests include number theory, information theory and cryptanalysis.</li>
+<li><a href="User_Shoseido" title="User:Shoseido">Shoseido</a> - Digital Signature.</li>
+<li><a href="User_Autarch" title="User:Autarch">Autarch</a> - classical and modern cryptanalysis. I started entries on <a href="Military_Cryptanalytics" title="Military Cryptanalytics">Military Cryptanalytics</a> and <a href="../Lambros_D._Callimahos" title="Lambros D. Callimahos">Lambros D. Callimahos</a>.</li>
+<li><a href="User_Intgr" title="User:Intgr">Intgr</a></li>
+<li><a href="User_Maxt" title="User:Maxt">Maxt</a> — Theoretical and applied cryptography, cryptology, partially cryptanalysis, cryptographic software.</li>
+<li><a href="User_Dylan_Lake" title="User:Dylan Lake">Dylan Lake</a></li>
+<li><a href="../User_Hut_8.5" title="User:Hut 8.5">Hut 8.5</a> - history of cryptography, classical cryptography</li>
+<li><a href="User_Ntsimp" title="User:Ntsimp">Ntsimp</a> - I know a lot about the math, but I'm most interested in the <a href="Cryptanalysis" title="Cryptanalysis">cryptanalysis</a> of <a href="Block_cipher" title="Block cipher">block ciphers</a></li>
+<li><a href="User_Sandmouse" title="User:Sandmouse">sandmouse</a> I'm fascinated with all types of ciphers...</li>
+<li><a href="User_Rrfayette" title="User:Rrfayette">FactsOnly</a> - Fun Stuff</li>
+<li>—<font style="background:white"><a href="User_Randfan" title="User:Randfan"><font color="darkblue" face="Vivaldi" size="1">Rand</font></a><a href="User_talk_Randfan" title="User talk:Randfan"><font color="darkred" face="Times" size="1">fan</font></a><font style="background:lightpink" size="3"><a href="User_Randfan/links" title="User:Randfan/links">!</a><a href="User_Randfan/Esperanza" title="User:Randfan/Esperanza"><font face="FlutedGermanica" color="green" style="background:pink" size="3">!</font></a></font></font> 16:54, 18 November 2006 (UTC) -I like this stuff, but am not really good at this stuff.</li>
+<li><span><a href="User_RashBold" title="User:RashBold">RashBold</a>&#160;<span class="plainlinks">(<a href="User_talk_RashBold" title="User talk:RashBold">talk</a>&#160;<b>·</b> <a href="Special_Contributions/RashBold" title="Special:Contributions/RashBold">contribs</a>)</span></span> - general interest in ciphers, especially 20th century.</li>
+<li><a href="User_VaporOne" title="User:VaporOne">Vapor One</a> - General interest in covert communication.</li>
+<li><a href="User_Limn" title="User:Limn">Limn</a> - Just about all things cryptography-related.</li>
+<li><a href="../../w/index-title=User_Sean_Amoss&action=edit&redlink=1.php.html" class="new" title="User:Sean Amoss (page does not exist)">Sean</a></li>
+<li><a href="User_Lighthead" title="User:Lighthead">Lighthead</a> <a href="User_talk_Lighthead" title="User talk:Lighthead"><sup>þ</sup></a> - Interested in all kinds of coding, especially codes that are beneath our awareness in terms of psychology.</li>
+<li><a href="../../w/index-title=User_Samrsharma&action=edit&redlink=1.php.html" class="new" title="User:Samrsharma (page does not exist)">Samrsharma</a> - All kinds of cryptography.</li>
+<li><a href="http://es.wikipedia.org/wiki/Usuario:AchedDamiman" class="extiw" title="es:Usuario:AchedDamiman">AchedDamiman</a> 00:22, 23 May 2007 (UTC) Codemaker and Codebreaker Ultra-Pro.</li>
+<li><a href="User_Blokhead" title="User:Blokhead">Blokhead</a> - theoretical foundations based on computational complexity: formal definitions, computational hardness assumptions, protocols with provable security</li>
+<li><a href="User_ParanoidMike" title="User:ParanoidMike">ParanoidMike</a> - EFS, RMS, BitLocker, Windows PKI, cryptographic risks and mitigations</li>
+<li><a href="User_Trekphiler" title="User:Trekphiler">Trekphiler</a> - mostly WWI- &amp; WW2-era applications &amp; impacts.</li>
+<li><a href="User_XDanielx" title="User:XDanielx">xDanielx</a> - Algorithm comparison &amp; analysis, etc.</li>
+<li><a href="User_Ronyz" title="User:Ronyz">Ronyz</a> - Modern Cryptography.</li>
+<li><a href="../../w/index-title=User_Counterforensics&action=edit&redlink=1.php.html" class="new" title="User:Counterforensics (page does not exist)">Counterforensics</a> - do cryptologic research for a living.</li>
+<li><a href="User_IanHarvey" title="User:IanHarvey">Ian Harvey</a> - design commercial <a href="Hardware_Security_Module" title="Hardware Security Module" class="mw-redirect">Hardware Security Modules</a> for a living.</li>
+<li><a href="User_Ivan_Akira" title="User:Ivan Akira">Ivan Akira</a> <a href="User_talk_Ivan_Akira" title="User talk:Ivan Akira">(talk)</a> - I like encryption algorithm and want to help in this project.</li>
+<li><a href="User_Sv1xv" title="User:Sv1xv">SV1XV</a> <a href="User_talk_Sv1xv" title="User talk:Sv1xv">(talk)</a> - General interest in classical (paper &amp; pencil) cryptography. User of <a href="PGP" title="PGP">PGP</a>.</li>
+<li><a href="User_Protonk" title="User:Protonk">Protonk</a> (<a href="User_talk_Protonk" title="User talk:Protonk">talk</a>) General Interest. No vocational experience.</li>
+<li><a href="User_Decateron" title="User:Decateron">Decateron</a> - Interested in number theory, logic, and computability. Both historical and contemporary cryptography.</li>
+<li><a href="User_NoDepositNoReturn" title="User:NoDepositNoReturn">NoDepositNoReturn</a> - general cryptography theory and practice, modern cryptography, traffic analysis and anonymity.</li>
+<li><a href="User_Hvigorita" title="User:Hvigorita">Howard Vigorita</a> - Algorithm analysis and optimization</li>
+<li>-- <a href="User_Tinucherian" title="User:Tinucherian"><b><em style="font-family:Kristen ITC;color:#ff0000">TinuCherian</em></b></a> <sup><a href="User_talk_Tinucherian" title="User talk:Tinucherian">(Wanna Talk?)</a></sup> - 06:45, 27 June 2008 (UTC) Crypography related to computers and computing</li>
+<li><a href="User_Melab-1" title="User:Melab-1">Melab-1</a> 00:53, 8 July 2008 (UTC)~</li>
+<li><a href="User_KSinitski" title="User:KSinitski">KSinitski</a> - financial transactions cryptography, cryptographic key management.</li>
+<li><a href="../../w/index-title=User_Thedjatclubrock&action=edit&redlink=1.php.html" class="new" title="User:Thedjatclubrock (page does not exist)">Thedjatclubrock</a> - Interested in Cryptography.</li>
+<li><a href="User_Noah_Salzman" title="User:Noah Salzman">Noah Salzman</a> — General interest in cryptography and security</li>
+<li><a href="User_DocDeel516" title="User:DocDeel516" class="mw-redirect">DocDeel516</a> - Mathematics, theoretical physics, anything of the such. Cryptography historian.</li>
+<li><a href="User_TedColes" title="User:TedColes">TedColes</a> Cryptography up to the end of WWII</li>
+<li><a href="User_Gavia_immer" title="User:Gavia immer">Gavia immer</a> modern cryptography, security proofs, and real-world implementations</li>
+<li><a href="User_Kcrao" title="User:Kcrao">Kcrao</a> Software developer working on 802.11 drivers and protocol implementations. I have worked on several 802.11 related security protocols and supplicants. My interests include PKI, various EAP methods, SSL/TLS, 802.11i, etc</li>
+<li><a href="User_CryptoTech" title="User:CryptoTech">CryptoTech</a> VHDL and C implementations of crytographic algorithms, Secure communication protocols, Cryptanalysis of communication systems</li>
+<li><a href="User_Chrismiceli" title="User:Chrismiceli">Chrismiceli</a> Authentication, signatures, anti-computer forensics</li>
+<li><a href="User_Jarhed" title="User:Jarhed">Jarhed</a> Business application of cryptography, especially PKI and SSL</li>
+<li><a href="User_Akashssp" title="User:Akashssp">Kumar</a> A little bit on Lattice Based Cryptography, its history and history of other cryptographic schemes in general.</li>
+<li><a href="User_Vishayv" title="User:Vishayv">Vishay Vanjani</a> IPSEC,SSL,SSH</li>
+<li><span><a href="User_BigK_HeX" title="User:BigK HeX">BigK HeX</a>&#160;<span class="plainlinks">(<a href="User_talk_BigK_HeX" title="User talk:BigK HeX">talk</a>&#160;<b>·</b> <a href="Special_Contributions/BigK_HeX" title="Special:Contributions/BigK HeX">contribs</a>)</span></span></li>
+<li><span><a href="User_Htonl" title="User:Htonl">Htonl</a>&#160;<span class="plainlinks">(<a href="User_talk_Htonl" title="User talk:Htonl">talk</a>&#160;<b>·</b> <a href="Special_Contributions/Htonl" title="Special:Contributions/Htonl">contribs</a>)</span></span> - hash functions, maybe a little lattice-based stuff and ECC</li>
+<li><span><a href="User_Nageh" title="User:Nageh">Nageh</a>&#160;<span class="plainlinks">(<a href="User_talk_Nageh" title="User talk:Nageh">talk</a>&#160;<b>·</b> <a href="Special_Contributions/Nageh" title="Special:Contributions/Nageh">contribs</a>)</span></span> Everything from theory to protocol design. 21:15, 2 September 2010 (UTC)</li>
+<li><a href="User_Charlesreid1" title="User:Charlesreid1">charlesreid1</a> Computational aspects of cryptography, practical cryptography (computer networks, file encryption, etc.), number theory</li>
+<li><a href="User_Doctorhook" title="User:Doctorhook">Doctorhook</a> Number theory related to cryptography, mathematical aspects of cryptography, history of cryptography, assorted other random stuff</li>
+<li><a href="User_Guymacon" title="User:Guymacon" class="mw-redirect">Guymacon</a> Researcher in the area of low cost, low energy use, high computational power custom hardware suitable for massively parallel brute force attacks.</li>
+<li><a href="User_FrankFlanagan" title="User:FrankFlanagan">Frank Flanagan</a> Hardware public key systems, side channel attacks</li>
+<li><a href="User_Hawk777" title="User:Hawk777">Hawk777</a> I'm a computer science student working in systems and security; my area of expertise is modern cryptography in the area of protocols (not so much primitives).</li>
+<li><a href="User_JCAla" title="User:JCAla">JCAla</a></li>
+<li><a href="User_OKelly" title="User:OKelly" class="mw-redirect">OKelly</a></li>
+<li><a href="User_Flexdream" title="User:Flexdream">Flexdream</a> Applications of cryptography.</li>
+<li><a href="../../w/index-title=User_Dewey420&action=edit&redlink=1.php.html" class="new" title="User:Dewey420 (page does not exist)">Dewey420</a></li>
+<li><a href="User_The_Grumpy_Hacker" title="User:The Grumpy Hacker">The Grumpy Hacker</a> (<a href="User_talk_The_Grumpy_Hacker" title="User talk:The Grumpy Hacker">talk</a>) 17:00, 5 October 2012 (UTC) // "I'm interested in all kinds of astronomy."</li>
+<li><a href="User_RobertHannah89" title="User:RobertHannah89">RobertHannah89</a> - Modern cryptography, complexity theory, etc. referencing articles, adding important or interesting results, etc. 07:57, 12 October 2012 (UTC)</li>
+<li><a href="User_Irahulpandey" title="User:Irahulpandey">irahulpandey</a></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=11.php.html" title="Edit section: Stats">edit</a>]</span> <span class="mw-headline" id="Stats">Stats</span></h2>
+<ul>
+<li><a href="User_Securiger/Crypto_Stubs" title="User:Securiger/Crypto Stubs">Snapshot of cryptography article sizes</a></li>
+<li><a href="User_Matt_Crypto/Crypto_hits_March-2004" title="User:Matt Crypto/Crypto hits March-2004">Popularity stats for cryptography pages in March 2004</a></li>
+<li><a href="User_Matt_Crypto/CryptoStats/ArticleHits" title="User:Matt Crypto/CryptoStats/ArticleHits">Various stats for cryptography pages in October 2004</a></li>
+</ul>
+<table class="wikitable">
+<tr>
+<th>Date</th>
+<th>Total number of articles</th>
+<th>Number of stubs<sup>1</sup></th>
+</tr>
+<tr>
+<td>23/March/04</td>
+<td>319</td>
+<td>85</td>
+</tr>
+<tr>
+<td>12/April/04</td>
+<td>355</td>
+<td>100</td>
+</tr>
+<tr>
+<td>3/May/04</td>
+<td>414</td>
+<td>119</td>
+</tr>
+<tr>
+<td>11/June/04</td>
+<td>500</td>
+<td>165</td>
+</tr>
+<tr>
+<td>13/October/04</td>
+<td>605</td>
+<td>178</td>
+</tr>
+<tr>
+<td>11/March/05</td>
+<td>692</td>
+<td>176</td>
+</tr>
+<tr>
+<td>2/February/06</td>
+<td>978</td>
+<td>235</td>
+</tr>
+</table>
+<p>[1] "Stubs" are defined as articles with less than 1000 characters. Articles are counted from <a href="List_of_cryptography_topics" title="List of cryptography topics" class="mw-redirect">List of cryptography topics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=12.php.html" title="Edit section: Cryptography in other Wikimedia projects">edit</a>]</span> <span class="mw-headline" id="Cryptography_in_other_Wikimedia_projects">Cryptography in other Wikimedia projects</span></h2>
+<ul>
+<li><a href="http://de.wikipedia.org/wiki/Wikipedia:WikiProjekt_Kryptologie" class="extiw" title="de:Wikipedia:WikiProjekt Kryptologie">WikiProjekt Kryptologie (German)</a></li>
+<li><a href="http://fr.wikipedia.org/wiki/Projet:Cryptologie" class="extiw" title="fr:Projet:Cryptologie">Projet Cryptologie (French)</a></li>
+<li><a href="http://en.wikibooks.org/wiki/Cryptography" class="extiw" title="wikibooks:Cryptography">Wikibooks Cryptography</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=13.php.html" title="Edit section: Free content">edit</a>]</span> <span class="mw-headline" id="Free_content">Free content</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.gnupg.org/gph/en/manual.html">The GNU Privacy handbook</a> (GFDL)</li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/encyclopedia/CryptographyAndNumberTheory.html">PlanetMath article on Cryptography and Number Theory</a> (GFDL)</li>
+<li><a rel="nofollow" class="external text" href="http://cryptome.org/cracking-des/cracking-des.htm">Cracking DES</a> (<a href="Public_domain" title="Public domain">public domain</a>, apart from a couple of chapters which reproduce published papers)</li>
+<li><a rel="nofollow" class="external text" href="http://csrc.nist.gov/publications/fips/">NIST documents on Cryptography, mostly the FIPS standards</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.vectorsite.net/ttcode.html">Greg Goebel's <b>Codes, Ciphers, &amp; Codebreaking</b></a> — <a href="Public_domain" title="Public domain">public domain</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://www.cryptodox.com.nyud.net">CryptoDox</a> — crypto wiki licensed under the GNU Free Documentation License</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=14.php.html" title="Edit section: Other Internet content">edit</a>]</span> <span class="mw-headline" id="Other_Internet_content">Other Internet content</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.cacr.math.uwaterloo.ca/hac/">The Handbook of Applied Cryptography</a> — standard academic cryptography reference, available for download in PDF form (for free).</li>
+<li><a rel="nofollow" class="external text" href="http://www.rsasecurity.com/rsalabs/faq/index.html">RSA Laboratories' FAQ About today's cryptography</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.quadibloc.com/crypto/jscrypt.htm">Savard's glossary</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ciphersbyritter.com/GLOSSARY.HTM">Ritter's Crypto Glossary and Dictionary of Technical Cryptography</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.adastral.ucl.ac.uk/~helger/crypto/">Helger's cryptography pointers</a></li>
+<li>The <a href="FreeS/WAN" title="FreeS/WAN">FreeS/WAN</a> project's documentation includes a <a rel="nofollow" class="external text" href="http://www.freeswan.org/freeswan_trees/freeswan-2.06/doc/glossary.html">glossary</a>, <a rel="nofollow" class="external text" href="http://www.freeswan.org/freeswan_trees/freeswan-2.06/doc/biblio.html">bibliography</a>, some <a rel="nofollow" class="external text" href="http://www.freeswan.org/freeswan_trees/freeswan-2.06/doc/web.html#security">web links</a> and a discussion of the <a rel="nofollow" class="external text" href="http://www.freeswan.org/freeswan_trees/freeswan-2.06/doc/politics.html">politics of cryptography</a>.</li>
+</ul>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.jproc.ca/crypto/menu.html">Good descriptions of cryptography machines</a>
+<ul>
+<li>Note: It seems we are unable to use this author's photographic material — even under the US <a href="Fair_use" title="Fair use">Fair use</a> (UK Fair dealing) provisions — as the author derives commercial benefit from their sale and has denied WP a right to use. The author was approached in April 2004 regarding incorporating his written material into Wikipedia under the GFDL and declined.</li>
+</ul>
+</li>
+<li><a rel="nofollow" class="external text" href="http://www.itsecurity.com/dictionary/dictionary.htm">The ITsecurity.com Dictionary+ of Information Security</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.everything2.com/index.pl?node=Cryptology">Everything2's coverage of Cryptology topics</a>; <a rel="nofollow" class="external text" href="http://www.everything2.com/index.pl?node=Everything2%20Crypto%20Project">their Crypto project</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.disappearing-inc.com/"><i>Cyclopedia Cryptologia</i></a> — "<i>an online encyclopedia of cryptographic protocols. There will be coverage of a few related topics such as encryption/decryption algorithms and a few historical references, but for the most part, the intent here is to be a reference on cryptographic protocols.</i>"</li>
+<li><a rel="nofollow" class="external text" href="http://rechten.uvt.nl/koops/cryptolaw/">Crypto law survey</a>, a survey of existing and proposed laws and regulations on cryptography</li>
+<li><a rel="nofollow" class="external text" href="http://www.cs.auckland.ac.nz/~pgut001/tutorial/index.html">Crypto tutorial</a> — by <a href="Peter_Gutmann" title="Peter Gutmann">Peter Gutmann</a></li>
+<li>see also www.qwika.com (search, say, for cryptography) for other Wikis with content in this area</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=15.php.html" title="Edit section: Other cryptography encyclopedias">edit</a>]</span> <span class="mw-headline" id="Other_cryptography_encyclopedias">Other cryptography encyclopedias</span></h2>
+<ul>
+<li>David E. Newton's <i>Encyclopedia of Cryptology</i> (<a href="Special_BookSources/0874367727" class="internal mw-magiclink-isbn">ISBN 0874367727</a>), 1998, has over 550 articles with an overall slant on the history of cryptography, but plenty of modern topics included as well.</li>
+</ul>
+<ul>
+<li>The <i>Encyclopedia of Cryptography and Security</i> 684 pages, (Aug 10, 2005), Springer (<a href="Special_BookSources/038723473X" class="internal mw-magiclink-isbn">ISBN 038723473X</a>) <a rel="nofollow" class="external autonumber" href="http://www.win.tue.nl/~henkvt/Content.html">[1]</a>, <a rel="nofollow" class="external autonumber" href="http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-156-22-35889811-0,00.html">[2]</a> has some notable cryptographers contributing (e.g. <a href="Eli_Biham" title="Eli Biham">Eli Biham</a> writing <a href="Differential_cryptanalysis" title="Differential cryptanalysis">Differential cryptanalysis</a>, <a href="Joan_Daemen" title="Joan Daemen">Joan Daemen</a> and <a href="Vincent_Rijmen" title="Vincent Rijmen">Vincent Rijmen</a> writing <a href="Rijndael" title="Rijndael" class="mw-redirect">Rijndael</a>). 460 articles with a technical summary / academic focus. 2500 references cited.</li>
+</ul>
+<ul>
+<li><i>Microsoft® Encyclopedia of Security</i>, 800 pages (May 14, 2003), Microsoft Press International, <a href="Special_BookSources/0735618771" class="internal mw-magiclink-isbn">ISBN 0735618771</a>. (<a rel="nofollow" class="external text" href="http://www.microsoft.com/mspress/books/toc/6429.asp">Table of contents</a>). While covering the entire field of security, it has entries on a number of crypto topics.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=16.php.html" title="Edit section: Templates">edit</a>]</span> <span class="mw-headline" id="Templates">Templates</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=17.php.html" title="Edit section: Article talk page">edit</a>]</span> <span class="mw-headline" id="Article_talk_page">Article talk page</span></h3>
+<p><a href="Template_CryptographyProject" title="Template:CryptographyProject" class="mw-redirect"></a> We might wish to tag the Talk: pages of articles which are directly about cryptography with a notice about this WikiProject. For this purpose, there is <b>{{<a href="Template_WikiProject_Cryptography" title="Template:WikiProject Cryptography">WikiProject Cryptography</a>}}</b>, which expands to the following:</p>
+<table class="tmbox tmbox-notice collapsible innercollapse wpb">
+<tr class="wpb-header">
+<td style="text-align:right; padding:0.3em 1em 0.3em 0.3em; width:50%; font-weight:bold;"><strong class="selflink">WikiProject Cryptography</strong> / <a href="Wikipedia_WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">Computer science</a>&#160;</td>
+<th style="text-align:left; width:50%; padding:0.3em 0.3em 0.3em 0;"><span style="display:none; speak:none;">&#160;</span></th>
+<td class="mbox-empty-cell"><span class="metadata" style="display:none; speak:none;"><span class="wpb-project">Cryptography</span><span class="wpb-project_link">Wikipedia:WikiProject Cryptography</span><span class="wpb-banner_name">Template:WikiProject Cryptography</span><span class="wpb-assessment_cat">Cryptography articles</span></span></td>
+</tr>
+<tr>
+<td class="mbox-text" style="padding:3px 0 3px 5px;" colspan="2">
+<table style="background:transparent; border:none; padding:0; width:100%;" cellspacing="0">
+<tr>
+<td class="mbox-image" style="padding:2px 0;"><a href="http://en.wikipedia.org/wiki/File:Crypto_key.svg" class="image"><img alt="WikiProject icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/64px-Crypto_key.svg.png" width="64" height="33" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/96px-Crypto_key.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/128px-Crypto_key.svg.png 2x" /></a></td>
+<td class="mbox-text">
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Crypto_key.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/32px-Crypto_key.svg.png" width="32" height="17" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/48px-Crypto_key.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/64px-Crypto_key.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography  portal</a></td>
+</tr>
+</table>
+</div>
+<div class="noprint plainlinks hlist navbar mini" style="float:right; clear:right; margin:-1em 0.1em; display:none;">
+<ul>
+<li class="nv-view"><a href="Template_WikiProject_Cryptography" title="Template:WikiProject Cryptography"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_WikiProject_Cryptography" title="Template talk:WikiProject Cryptography"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_WikiProject_Cryptography&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+This article is within the scope of <b><strong class="selflink">WikiProject Cryptography</strong></b>, a collaborative effort to improve the coverage of <a href="Cryptography" title="Cryptography">Cryptography</a> on Wikipedia. If you would like to participate, please visit the project page, where you can join the <a href="Wikipedia_talk_WikiProject_Cryptography" title="Wikipedia talk:WikiProject Cryptography">discussion</a> and see a list of open tasks.</td>
+<td class="mbox-empty-cell"></td>
+</tr>
+<tr>
+<td class="assess assess-" style="text-align:center; white-space:nowrap; font-weight:bold; background:transparent;"><span style="display:none;" title="Unknown"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Symbol_question.svg/16px-Symbol_question.svg.png" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/e/e0/Symbol_question.svg/24px-Symbol_question.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/e/e0/Symbol_question.svg/32px-Symbol_question.svg.png 2x" /></span>&#160;<a href="Category_Unassessed_Cryptography_articles" title="Category:Unassessed Cryptography articles">???</a>&#160;</td>
+<td class="mbox-text" colspan="2">This article has not yet received a rating on the <a href="Wikipedia_Version_1.0_Editorial_Team/Assessment#Quality_scale" title="Wikipedia:Version 1.0 Editorial Team/Assessment">quality scale</a>.</td>
+</tr>
+<tr>
+<td class="import import-unknown" style="text-align:center; white-space:nowrap; font-weight:bold; background:transparent;">&#160;<a href="Category_Unknown-importance_Cryptography_articles" title="Category:Unknown-importance Cryptography articles">???</a>&#160;</td>
+<td class="mbox-text" colspan="2">This article has not yet received a rating on the <a href="Wikipedia_Version_1.0_Editorial_Team/Release_Version_Criteria#Importance_of_topic" title="Wikipedia:Version 1.0 Editorial Team/Release Version Criteria">importance scale</a>.</td>
+</tr>
+<tr>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:LampFlowchart.svg" class="image"><img alt="Taskforce icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/18px-LampFlowchart.svg.png" width="18" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/28px-LampFlowchart.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/37px-LampFlowchart.svg.png 2x" /></a></div>
+</div>
+</td>
+<td class="mbox-text" colspan="2">This article is supported by <b><a href="Wikipedia_WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">WikiProject Computer science</a></b>.</td>
+</tr>
+<tr>
+<td colspan="3" style="padding:0;">
+<table style="width:100%; background:transparent;">
+<tr>
+<td class="mbox-image" style="padding:2px 0 0 0; min-width:64px;"><span style="display:none;">&#160;</span></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td class="mbox-empty-cell"></td>
+</tr>
+</table>
+<dl>
+<dd><i>Discussion at: <a href="Wikipedia_talk_WikiProject_Cryptography/WikiProject_Notice" title="Wikipedia talk:WikiProject Cryptography/WikiProject Notice">/WikiProject Notice</a></i></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=18.php.html" title="Edit section: {{Infobox block cipher}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BInfobox_block_cipher.7D.7D"><a href="Template_Infobox_block_cipher" title="Template:Infobox block cipher" class="mw-redirect">{{Infobox block cipher}}</a></span></h3>
+<dl>
+<dd><i>Discussion at: <a href="Template_talk_Infobox_block_cipher" title="Template talk:Infobox block cipher" class="mw-redirect">Template talk:Infobox block cipher</a>.</i></dd>
+</dl>
+<p>Currently trialling <a href="Template_Infobox_block_cipher" title="Template:Infobox block cipher" class="mw-redirect">Template:Infobox block cipher</a> on <a href="Advanced_Encryption_Standard" title="Advanced Encryption Standard">AES</a>, <a href="Blowfish_(cipher)" title="Blowfish (cipher)">Blowfish</a>, <a href="DEAL" title="DEAL">DEAL</a>, <a href="Data_Encryption_Standard" title="Data Encryption Standard">DES</a>, <a href="FEAL" title="FEAL">FEAL</a>, <a href="GOST_28147-89" title="GOST 28147-89" class="mw-redirect">GOST</a>, <a href="IDEA" title="IDEA" class="mw-redirect">IDEA</a>, <a href="LOKI97" title="LOKI97">LOKI97</a>, <a href="MISTY1" title="MISTY1">MISTY1</a>, <a href="RC2" title="RC2">RC2</a>, <a href="RC5" title="RC5">RC5</a>, <a href="Serpent_(cipher)" title="Serpent (cipher)">Serpent</a>, <a href="Square_(cipher)" title="Square (cipher)">Square</a>, <a href="Tiny_Encryption_Algorithm" title="Tiny Encryption Algorithm">TEA</a>, <a href="Triple_DES" title="Triple DES">Triple DES</a>, <a href="Twofish" title="Twofish">Twofish</a>, <a href="XTEA" title="XTEA">XTEA</a></p>
+<p>(Would) Need to apply to: <a href="3-Way" title="3-Way">3-Way</a>, <a href="Camellia_(cipher)" title="Camellia (cipher)">Camellia</a>, <a href="CAST-128" title="CAST-128">CAST-128</a>, <a href="CAST-256" title="CAST-256">CAST-256</a>, <a href="CMEA_(cipher)" title="CMEA (cipher)" class="mw-redirect">CMEA</a>, <a href="DES-X" title="DES-X">DES-X</a>, <a href="GDES" title="GDES">GDES</a>, <a href="Iraqi_block_cipher" title="Iraqi block cipher">Iraqi block cipher</a>, <a href="KASUMI_(block_cipher)" title="KASUMI (block cipher)" class="mw-redirect">KASUMI</a>, <a href="Khafre_(cipher)" title="Khafre (cipher)" class="mw-redirect">Khafre</a>, <a href="KHAZAD" title="KHAZAD">KHAZAD</a>, <a href="Khufu_(cipher)" title="Khufu (cipher)" class="mw-redirect">Khufu</a>, <a href="LOKI" title="LOKI">LOKI89/91</a>, <a href="Lucifer_(cipher)" title="Lucifer (cipher)">Lucifer</a>, <a href="MAGENTA_(cipher)" title="MAGENTA (cipher)" class="mw-redirect">MAGENTA</a>, <a href="MARS" title="MARS" class="mw-redirect">MARS</a>, <a href="MMB" title="MMB">MMB</a>, <a href="NewDES" title="NewDES">NewDES</a>, <a href="Red_Pike_(cipher)" title="Red Pike (cipher)">Red Pike</a>, <a href="S-1" title="S-1" class="mw-redirect">S-1</a>, <a href="SAFER" title="SAFER">SAFER</a>, <a href="SHARK" title="SHARK">SHARK</a>, <a href="Skipjack_(cipher)" title="Skipjack (cipher)">Skipjack</a>, <a href="RC6" title="RC6">RC6</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=19.php.html" title="Edit section: {{crypto-stub}}">edit</a>]</span> <span class="mw-headline" id=".7B.7Bcrypto-stub.7D.7D"><a href="Template_Crypto-stub" title="Template:Crypto-stub">{{crypto-stub}}</a></span></h3>
+<p>Instead of {{stub}}, you might want to use {{crypto-stub}}. One advantage is that <a href="Category_Cryptography_stubs" title="Category:Cryptography stubs">Category:Cryptography stubs</a> gives a list of all the cryptography-related stubs. The message is:</p>
+<table class="metadata plainlinks stub" style="background: transparent;">
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/File:Nuvola_apps_password.png" class="image"><img alt="Stub icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nuvola_apps_password.png/35px-Nuvola_apps_password.png" width="35" height="35" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nuvola_apps_password.png/53px-Nuvola_apps_password.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nuvola_apps_password.png/70px-Nuvola_apps_password.png 2x" /></a></td>
+<td><i>This cryptography-related article is a <a href="Wikipedia_Stub" title="Wikipedia:Stub">stub</a>. You can help Wikipedia by <a class="external text" href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit.php.html">expanding it</a>.</i>
+<div class="noprint plainlinks hlist navbar mini" style="position: absolute; right: 15px; display: none;">
+<ul>
+<li class="nv-view"><a href="Template_Crypto-stub" title="Template:Crypto-stub"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Crypto-stub" title="Template talk:Crypto-stub"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Crypto-stub&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=20.php.html" title="Edit section: {{User WikiProject Cryptography}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BUser_WikiProject_Cryptography.7D.7D"><a href="Template_User_WikiProject_Cryptography" title="Template:User WikiProject Cryptography">{{User WikiProject Cryptography}}</a></span></h3>
+<p>If you add this userbox to your userpage you get automatically included in the <a href="Category_WikiProject_Cryptography_participants" title="Category:WikiProject Cryptography participants">Category:WikiProject Cryptography participants</a>. It produces:</p>
+<div style="float:left; border:1px solid #4848FF; margin:1px; width:238px;" class="wikipediauserbox">
+<table style="border-collapse:collapse; width:238px; margin-bottom:0; background:#ff0">
+<tr>
+<th style="border:0; width:45px; height:45px; background:white; text-align:center; font-size:14pt; color:black; padding:0 1px 0 0; line-height:1.25em; vertical-align: middle;"><a href="http://en.wikipedia.org/wiki/File:Crypto_key.svg" class="image"><img alt="Crypto key.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/45px-Crypto_key.svg.png" width="45" height="23" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/68px-Crypto_key.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/90px-Crypto_key.svg.png 2x" /></a></th>
+<td style="border:0; text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:black; vertical-align: middle;">This user is a participant in <b><strong class="selflink">WikiProject Cryptography</strong></b>.</td>
+</tr>
+</table>
+</div>
+<p><br clear="all" />
+&#160;</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=21.php.html" title="Edit section: Navigational templates">edit</a>]</span> <span class="mw-headline" id="Navigational_templates">Navigational templates</span></h2>
+<p>Cryptography has some navigational elements to make it easier for a reader to find related topics.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=22.php.html" title="Edit section: The main crypto navigation box">edit</a>]</span> <span class="mw-headline" id="The_main_crypto_navigation_box">The main crypto navigation box</span></h3>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=23.php.html" title="Edit section: {{Crypto navbox}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox.7D.7D"><a href="Template_Crypto_navbox" title="Template:Crypto navbox" class="mw-redirect">{{Crypto navbox}}</a></span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p>This template is the main crypto navigation box. It can be added to the bottom of any cryptography article. This template also has some magic so it can include one or more of the specialised crypto navigation boxes inside the same frame.</p>
+<p>To only use this template alone add this code to the bottom of an article:</p>
+<dl>
+<dd><code>{{crypto navbox}}</code></dd>
+</dl>
+<p>If you want it to also show for instance the specialised navigation box about stream ciphers then give it the "stream" parameter, like this:</p>
+<dl>
+<dd><code>{{crypto navbox | stream}}</code></dd>
+</dl>
+<p>You can also add several boxes in it, like this:</p>
+<dl>
+<dd><code>{{crypto navbox | block | stream}}</code></dd>
+</dl>
+<p>Note that the parameters come sort of in backwards order. In the example above the stream cipher box will be on top, followed by the block cipher box and then with the main crypto "navbox" at the bottom.</p>
+<p>Here is an invalid example since "navbox" should not be a parameter but instead is part of the address of this template:</p>
+<dl>
+<dd><code><strike>{{crypto stream | navbox}}</strike></code></dd>
+</dl>
+<p>The available specialised boxes are:</p>
+<dl>
+<dd><a href="Template_Crypto_block" title="Template:Crypto block" class="mw-redirect">block</a>, <a href="Template_Crypto_stream" title="Template:Crypto stream" class="mw-redirect">stream</a>, <a href="Template_Crypto_public-key" title="Template:Crypto public-key" class="mw-redirect">public-key</a>, <a href="Template_Crypto_hash" title="Template:Crypto hash" class="mw-redirect">hash</a>, <a href="Template_Crypto_machines" title="Template:Crypto machines" class="mw-redirect">machines</a>, <a href="Template_Crypto_classical" title="Template:Crypto classical" class="mw-redirect">classical</a></dd>
+</dl>
+<p>For more details about these navigation boxes please see the description on the page of the <a href="Template_Crypto_navbox" title="Template:Crypto navbox" class="mw-redirect">main crypto navigation box</a> itself. Below are examples of usage with the specialised boxes.</p>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=24.php.html" title="Edit section: {{Crypto navbox | block | stream}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_block_.7C_stream.7D.7D">{{Crypto navbox | block | stream}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_block" title="Template:Cryptography block"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_block" title="Template talk:Cryptography block"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_block&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Block_cipher" title="Block cipher">Block ciphers</a> (<a href="Block_cipher_security_summary" title="Block cipher security summary" class="mw-redirect">security summary</a>)</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Common<br />
+algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Advanced_Encryption_Standard" title="Advanced Encryption Standard">AES</a></li>
+<li><a href="Blowfish_(cipher)" title="Blowfish (cipher)">Blowfish</a></li>
+<li><a href="Data_Encryption_Standard" title="Data Encryption Standard">DES</a></li>
+<li><a href="Triple_DES" title="Triple DES">Triple DES</a></li>
+<li><a href="Serpent_(cipher)" title="Serpent (cipher)">Serpent</a></li>
+<li><a href="Twofish" title="Twofish">Twofish</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Less common<br />
+algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Camellia_(cipher)" title="Camellia (cipher)">Camellia</a></li>
+<li><a href="CAST-128" title="CAST-128">CAST-128</a></li>
+<li><a href="International_Data_Encryption_Algorithm" title="International Data Encryption Algorithm">IDEA</a></li>
+<li><a href="RC2" title="RC2">RC2</a></li>
+<li><a href="RC5" title="RC5">RC5</a></li>
+<li><a href="SEED" title="SEED">SEED</a></li>
+<li><a href="Skipjack_(cipher)" title="Skipjack (cipher)">Skipjack</a></li>
+<li><a href="Tiny_Encryption_Algorithm" title="Tiny Encryption Algorithm">TEA</a></li>
+<li><a href="XTEA" title="XTEA">XTEA</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other<br />
+algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="3-Way" title="3-Way">3-Way</a></li>
+<li><a href="Akelarre_(cipher)" title="Akelarre (cipher)">Akelarre</a></li>
+<li><a href="Anubis_(cipher)" title="Anubis (cipher)">Anubis</a></li>
+<li><a href="ARIA_(cipher)" title="ARIA (cipher)">ARIA</a></li>
+<li><a href="BaseKing" title="BaseKing">BaseKing</a></li>
+<li><a href="BassOmatic" title="BassOmatic">BassOmatic</a></li>
+<li><a href="BATON" title="BATON">BATON</a></li>
+<li><a href="BEAR_and_LION_ciphers" title="BEAR and LION ciphers">BEAR and LION</a></li>
+<li><a href="CAST-256" title="CAST-256">CAST-256</a></li>
+<li><a href="CIKS-1" title="CIKS-1">CIKS-1</a></li>
+<li><a href="CIPHERUNICORN-A" title="CIPHERUNICORN-A">CIPHERUNICORN-A</a></li>
+<li><a href="CIPHERUNICORN-E" title="CIPHERUNICORN-E">CIPHERUNICORN-E</a></li>
+<li><a href="CLEFIA" title="CLEFIA">CLEFIA</a></li>
+<li><a href="Cellular_Message_Encryption_Algorithm" title="Cellular Message Encryption Algorithm">CMEA</a></li>
+<li><a href="Cobra_ciphers" title="Cobra ciphers">Cobra</a></li>
+<li><a href="COCONUT98" title="COCONUT98">COCONUT98</a></li>
+<li><a href="Crab_(cipher)" title="Crab (cipher)">Crab</a></li>
+<li><a href="Cryptomeria_cipher" title="Cryptomeria cipher">Cryptomeria/C2</a></li>
+<li><a href="CRYPTON" title="CRYPTON">CRYPTON</a></li>
+<li><a href="CS-Cipher" title="CS-Cipher">CS-Cipher</a></li>
+<li><a href="DEAL" title="DEAL">DEAL</a></li>
+<li><a href="DES-X" title="DES-X">DES-X</a></li>
+<li><a href="DFC_(cipher)" title="DFC (cipher)">DFC</a></li>
+<li><a href="E2_(cipher)" title="E2 (cipher)">E2</a></li>
+<li><a href="FEAL" title="FEAL">FEAL</a></li>
+<li><a href="FEA-M" title="FEA-M">FEA-M</a></li>
+<li><a href="FROG" title="FROG">FROG</a></li>
+<li><a href="GDES" title="GDES">G-DES</a></li>
+<li><a href="GOST_(block_cipher)" title="GOST (block cipher)">GOST</a></li>
+<li><a href="Grand_Cru_(cipher)" title="Grand Cru (cipher)">Grand Cru</a></li>
+<li><a href="Hasty_Pudding_cipher" title="Hasty Pudding cipher">Hasty Pudding cipher</a></li>
+<li><a href="Hierocrypt" title="Hierocrypt">Hierocrypt</a></li>
+<li><a href="ICE_(cipher)" title="ICE (cipher)">ICE</a></li>
+<li><a href="Idea_NXT" title="Idea NXT">IDEA NXT</a></li>
+<li><a href="Intel_Cascade_Cipher" title="Intel Cascade Cipher">Intel Cascade Cipher</a></li>
+<li><a href="Iraqi_block_cipher" title="Iraqi block cipher">Iraqi</a></li>
+<li><a href="KASUMI_(block_cipher)" title="KASUMI (block cipher)" class="mw-redirect">KASUMI</a></li>
+<li><a href="KeeLoq" title="KeeLoq">KeeLoq</a></li>
+<li><a href="KHAZAD" title="KHAZAD">KHAZAD</a></li>
+<li><a href="Khufu_and_Khafre" title="Khufu and Khafre">Khufu and Khafre</a></li>
+<li><a href="KN-Cipher" title="KN-Cipher">KN-Cipher</a></li>
+<li><a href="Ladder-DES" title="Ladder-DES">Ladder-DES</a></li>
+<li><a href="Libelle_(cipher)" title="Libelle (cipher)">Libelle</a></li>
+<li><a href="LOKI97" title="LOKI97">LOKI97</a></li>
+<li><a href="LOKI" title="LOKI">LOKI89/91</a></li>
+<li><a href="Lucifer_(cipher)" title="Lucifer (cipher)">Lucifer</a></li>
+<li><a href="M6_(cipher)" title="M6 (cipher)">M6</a></li>
+<li><a href="M8_(cipher)" title="M8 (cipher)">M8</a></li>
+<li><a href="MacGuffin_(cipher)" title="MacGuffin (cipher)">MacGuffin</a></li>
+<li><a href="Madryga" title="Madryga">Madryga</a></li>
+<li><a href="MAGENTA" title="MAGENTA">MAGENTA</a></li>
+<li><a href="MARS_(cryptography)" title="MARS (cryptography)">MARS</a></li>
+<li><a href="Mercy_(cipher)" title="Mercy (cipher)">Mercy</a></li>
+<li><a href="MESH_(cipher)" title="MESH (cipher)">MESH</a></li>
+<li><a href="MISTY1" title="MISTY1">MISTY1</a></li>
+<li><a href="MMB" title="MMB">MMB</a></li>
+<li><a href="MULTI2" title="MULTI2">MULTI2</a></li>
+<li><a href="MultiSwap" title="MultiSwap">MultiSwap</a></li>
+<li><a href="New_Data_Seal" title="New Data Seal">New Data Seal</a></li>
+<li><a href="NewDES" title="NewDES">NewDES</a></li>
+<li><a href="Nimbus_(cipher)" title="Nimbus (cipher)">Nimbus</a></li>
+<li><a href="NOEKEON" title="NOEKEON">NOEKEON</a></li>
+<li><a href="NUSH" title="NUSH">NUSH</a></li>
+<li><a href="PRESENT_(cipher)" title="PRESENT (cipher)">PRESENT</a></li>
+<li><a href="Q_(cipher)" title="Q (cipher)">Q</a></li>
+<li><a href="RC6" title="RC6">RC6</a></li>
+<li><a href="REDOC" title="REDOC">REDOC</a></li>
+<li><a href="Red_Pike_(cipher)" title="Red Pike (cipher)">Red Pike</a></li>
+<li><a href="S-1_block_cipher" title="S-1 block cipher">S-1</a></li>
+<li><a href="SAFER" title="SAFER">SAFER</a></li>
+<li><a href="SAVILLE" title="SAVILLE">SAVILLE</a></li>
+<li><a href="SC2000" title="SC2000">SC2000</a></li>
+<li><a href="SHACAL" title="SHACAL">SHACAL</a></li>
+<li><a href="SHARK" title="SHARK">SHARK</a></li>
+<li><a href="SMS4" title="SMS4">SMS4</a></li>
+<li><a href="Spectr-H64" title="Spectr-H64">Spectr-H64</a></li>
+<li><a href="Square_(cipher)" title="Square (cipher)">Square</a></li>
+<li><a href="SXAL/MBAL" title="SXAL/MBAL">SXAL/MBAL</a></li>
+<li><a href="Threefish" title="Threefish">Threefish</a></li>
+<li><a href="Treyfer" title="Treyfer">Treyfer</a></li>
+<li><a href="UES_(cipher)" title="UES (cipher)">UES</a></li>
+<li><a href="Xenon_(cipher)" title="Xenon (cipher)">Xenon</a></li>
+<li><a href="Xmx" title="Xmx">xmx</a></li>
+<li><a href="XXTEA" title="XXTEA">XXTEA</a></li>
+<li><a href="Zodiac_(cipher)" title="Zodiac (cipher)">Zodiac</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Design</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Feistel_cipher" title="Feistel cipher">Feistel network</a></li>
+<li><a href="Key_schedule" title="Key schedule">Key schedule</a></li>
+<li><a href="Product_cipher" title="Product cipher">Product cipher</a></li>
+<li><a href="S-box" title="S-box">S-box</a></li>
+<li><a href="Permutation_box" title="Permutation box">P-box</a></li>
+<li><a href="Substitution-permutation_network" title="Substitution-permutation network">SPN</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Attack<br />
+(<a href="Cryptanalysis" title="Cryptanalysis">cryptanalysis</a>)</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Brute_force_attack" title="Brute force attack" class="mw-redirect">Brute force</a></li>
+<li><a href="Meet-in-the-middle_attack" title="Meet-in-the-middle attack">MITM</a></li>
+<li><a href="Linear_cryptanalysis" title="Linear cryptanalysis">Linear</a></li>
+<li><a href="Differential_cryptanalysis" title="Differential cryptanalysis">Differential</a> (<a href="Impossible_differential_cryptanalysis" title="Impossible differential cryptanalysis">Impossible</a></li>
+<li><a href="Truncated_differential_cryptanalysis" title="Truncated differential cryptanalysis">Truncated</a></li>
+<li><a href="Higher-order_differential_cryptanalysis" title="Higher-order differential cryptanalysis">Higher-order</a>)</li>
+<li><a href="Integral_cryptanalysis" title="Integral cryptanalysis">Integral</a></li>
+<li><a href="Boomerang_attack" title="Boomerang attack">Boomerang</a></li>
+<li><a href="Mod_n_cryptanalysis" title="Mod n cryptanalysis">Mod <i>n</i></a></li>
+<li><a href="Related-key_attack" title="Related-key attack">Related-key</a></li>
+<li><a href="Slide_attack" title="Slide attack">Slide</a></li>
+<li><a href="Rotational_cryptanalysis" title="Rotational cryptanalysis">Rotational</a></li>
+<li><a href="Timing_attack" title="Timing attack">Timing</a></li>
+<li><a href="XSL_attack" title="XSL attack">XSL</a></li>
+<li><a href="Interpolation_attack" title="Interpolation attack">Interpolation</a></li>
+<li><a href="Partitioning_cryptanalysis" title="Partitioning cryptanalysis">Partitioning</a></li>
+<li><a href="Davies'_attack" title="Davies' attack">Davies'</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standardization</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Advanced_Encryption_Standard_process" title="Advanced Encryption Standard process">AES process</a></li>
+<li><a href="CRYPTREC" title="CRYPTREC">CRYPTREC</a></li>
+<li><a href="NESSIE" title="NESSIE">NESSIE</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Misc</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Avalanche_effect" title="Avalanche effect">Avalanche effect</a></li>
+<li><a href="Block_size_(cryptography)" title="Block size (cryptography)">Block size</a></li>
+<li><a href="Initialization_vector" title="Initialization vector">Initialization vector</a></li>
+<li><a href="Key_size" title="Key size">Key size</a></li>
+<li><a href="Block_cipher_modes_of_operation" title="Block cipher modes of operation">Modes of operation</a></li>
+<li><a href="Padding_(cryptography)" title="Padding (cryptography)">Padding</a></li>
+<li><a href="Piling-up_lemma" title="Piling-up lemma">Piling-up lemma</a></li>
+<li><a href="Weak_key" title="Weak key">Weak key</a></li>
+<li><a href="EFF_DES_cracker" title="EFF DES cracker">EFF DES cracker</a></li>
+<li><a href="Key_whitening" title="Key whitening">Key whitening</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_stream" title="Template:Cryptography stream"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_stream" title="Template talk:Cryptography stream"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_stream&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Stream_cipher" title="Stream cipher">Stream ciphers</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Widely used ciphers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="RC4" title="RC4">RC4</a></li>
+<li><a href="Block_cipher_modes_of_operation" title="Block cipher modes of operation">Block ciphers in stream mode</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="ESTREAM" title="ESTREAM">eSTREAM</a> Portfolio</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Software</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="HC-256" title="HC-256">HC-256</a></li>
+<li><a href="Rabbit_(cipher)" title="Rabbit (cipher)">Rabbit</a></li>
+<li><a href="Salsa20" title="Salsa20">Salsa20</a>/12</li>
+<li><a href="SOSEMANUK" title="SOSEMANUK">SOSEMANUK</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Hardware</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Grain_(cipher)" title="Grain (cipher)">Grain</a></li>
+<li><a href="MICKEY" title="MICKEY">MICKEY</a></li>
+<li><a href="Trivium_(cipher)" title="Trivium (cipher)">Trivium</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other ciphers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="A5/1" title="A5/1">A5/1</a></li>
+<li><a href="A5/2" title="A5/2">A5/2</a></li>
+<li><a href="E0_(cipher)" title="E0 (cipher)">E0</a></li>
+<li><a href="FISH_(cipher)" title="FISH (cipher)">FISH</a></li>
+<li><a href="ISAAC_(cipher)" title="ISAAC (cipher)">ISAAC</a></li>
+<li><a href="MUGI" title="MUGI">MUGI</a></li>
+<li><a href="Panama_(cipher)" title="Panama (cipher)" class="mw-redirect">Panama</a></li>
+<li><a href="Phelix" title="Phelix">Phelix</a></li>
+<li><a href="Pike_(cipher)" title="Pike (cipher)">Pike</a></li>
+<li><a href="Py_(cipher)" title="Py (cipher)">Py</a></li>
+<li><a href="QUAD_(cipher)" title="QUAD (cipher)">QUAD</a></li>
+<li><a href="Scream_(cipher)" title="Scream (cipher)">Scream</a></li>
+<li><a href="SEAL_(cipher)" title="SEAL (cipher)">SEAL</a></li>
+<li><a href="SNOW" title="SNOW">SNOW</a></li>
+<li><a href="SOBER" title="SOBER">SOBER</a></li>
+<li><a href="SOBER-128" title="SOBER-128">SOBER-128</a></li>
+<li><a href="VEST" title="VEST">VEST</a></li>
+<li><a href="WAKE_(cipher)" title="WAKE (cipher)">WAKE</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Theory</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Shift_register" title="Shift register">Shift register</a></li>
+<li><a href="Linear_feedback_shift_register" title="Linear feedback shift register">LFSR</a></li>
+<li><a href="NLFSR" title="NLFSR">NLFSR</a></li>
+<li><a href="Shrinking_generator" title="Shrinking generator">Shrinking generator</a></li>
+<li><a href="T-function" title="T-function">T-function</a></li>
+<li><a href="Initialization_vector" title="Initialization vector">IV</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Attacks</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Correlation_attack" title="Correlation attack">Correlation attack</a></li>
+<li><a href="Correlation_immunity" title="Correlation immunity">Correlation immunity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=25.php.html" title="Edit section: {{Crypto navbox | block}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_block.7D.7D">{{Crypto navbox | block}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_block" title="Template:Cryptography block"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_block" title="Template talk:Cryptography block"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_block&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Block_cipher" title="Block cipher">Block ciphers</a> (<a href="Block_cipher_security_summary" title="Block cipher security summary" class="mw-redirect">security summary</a>)</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Common<br />
+algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Advanced_Encryption_Standard" title="Advanced Encryption Standard">AES</a></li>
+<li><a href="Blowfish_(cipher)" title="Blowfish (cipher)">Blowfish</a></li>
+<li><a href="Data_Encryption_Standard" title="Data Encryption Standard">DES</a></li>
+<li><a href="Triple_DES" title="Triple DES">Triple DES</a></li>
+<li><a href="Serpent_(cipher)" title="Serpent (cipher)">Serpent</a></li>
+<li><a href="Twofish" title="Twofish">Twofish</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Less common<br />
+algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Camellia_(cipher)" title="Camellia (cipher)">Camellia</a></li>
+<li><a href="CAST-128" title="CAST-128">CAST-128</a></li>
+<li><a href="International_Data_Encryption_Algorithm" title="International Data Encryption Algorithm">IDEA</a></li>
+<li><a href="RC2" title="RC2">RC2</a></li>
+<li><a href="RC5" title="RC5">RC5</a></li>
+<li><a href="SEED" title="SEED">SEED</a></li>
+<li><a href="Skipjack_(cipher)" title="Skipjack (cipher)">Skipjack</a></li>
+<li><a href="Tiny_Encryption_Algorithm" title="Tiny Encryption Algorithm">TEA</a></li>
+<li><a href="XTEA" title="XTEA">XTEA</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other<br />
+algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="3-Way" title="3-Way">3-Way</a></li>
+<li><a href="Akelarre_(cipher)" title="Akelarre (cipher)">Akelarre</a></li>
+<li><a href="Anubis_(cipher)" title="Anubis (cipher)">Anubis</a></li>
+<li><a href="ARIA_(cipher)" title="ARIA (cipher)">ARIA</a></li>
+<li><a href="BaseKing" title="BaseKing">BaseKing</a></li>
+<li><a href="BassOmatic" title="BassOmatic">BassOmatic</a></li>
+<li><a href="BATON" title="BATON">BATON</a></li>
+<li><a href="BEAR_and_LION_ciphers" title="BEAR and LION ciphers">BEAR and LION</a></li>
+<li><a href="CAST-256" title="CAST-256">CAST-256</a></li>
+<li><a href="CIKS-1" title="CIKS-1">CIKS-1</a></li>
+<li><a href="CIPHERUNICORN-A" title="CIPHERUNICORN-A">CIPHERUNICORN-A</a></li>
+<li><a href="CIPHERUNICORN-E" title="CIPHERUNICORN-E">CIPHERUNICORN-E</a></li>
+<li><a href="CLEFIA" title="CLEFIA">CLEFIA</a></li>
+<li><a href="Cellular_Message_Encryption_Algorithm" title="Cellular Message Encryption Algorithm">CMEA</a></li>
+<li><a href="Cobra_ciphers" title="Cobra ciphers">Cobra</a></li>
+<li><a href="COCONUT98" title="COCONUT98">COCONUT98</a></li>
+<li><a href="Crab_(cipher)" title="Crab (cipher)">Crab</a></li>
+<li><a href="Cryptomeria_cipher" title="Cryptomeria cipher">Cryptomeria/C2</a></li>
+<li><a href="CRYPTON" title="CRYPTON">CRYPTON</a></li>
+<li><a href="CS-Cipher" title="CS-Cipher">CS-Cipher</a></li>
+<li><a href="DEAL" title="DEAL">DEAL</a></li>
+<li><a href="DES-X" title="DES-X">DES-X</a></li>
+<li><a href="DFC_(cipher)" title="DFC (cipher)">DFC</a></li>
+<li><a href="E2_(cipher)" title="E2 (cipher)">E2</a></li>
+<li><a href="FEAL" title="FEAL">FEAL</a></li>
+<li><a href="FEA-M" title="FEA-M">FEA-M</a></li>
+<li><a href="FROG" title="FROG">FROG</a></li>
+<li><a href="GDES" title="GDES">G-DES</a></li>
+<li><a href="GOST_(block_cipher)" title="GOST (block cipher)">GOST</a></li>
+<li><a href="Grand_Cru_(cipher)" title="Grand Cru (cipher)">Grand Cru</a></li>
+<li><a href="Hasty_Pudding_cipher" title="Hasty Pudding cipher">Hasty Pudding cipher</a></li>
+<li><a href="Hierocrypt" title="Hierocrypt">Hierocrypt</a></li>
+<li><a href="ICE_(cipher)" title="ICE (cipher)">ICE</a></li>
+<li><a href="Idea_NXT" title="Idea NXT">IDEA NXT</a></li>
+<li><a href="Intel_Cascade_Cipher" title="Intel Cascade Cipher">Intel Cascade Cipher</a></li>
+<li><a href="Iraqi_block_cipher" title="Iraqi block cipher">Iraqi</a></li>
+<li><a href="KASUMI_(block_cipher)" title="KASUMI (block cipher)" class="mw-redirect">KASUMI</a></li>
+<li><a href="KeeLoq" title="KeeLoq">KeeLoq</a></li>
+<li><a href="KHAZAD" title="KHAZAD">KHAZAD</a></li>
+<li><a href="Khufu_and_Khafre" title="Khufu and Khafre">Khufu and Khafre</a></li>
+<li><a href="KN-Cipher" title="KN-Cipher">KN-Cipher</a></li>
+<li><a href="Ladder-DES" title="Ladder-DES">Ladder-DES</a></li>
+<li><a href="Libelle_(cipher)" title="Libelle (cipher)">Libelle</a></li>
+<li><a href="LOKI97" title="LOKI97">LOKI97</a></li>
+<li><a href="LOKI" title="LOKI">LOKI89/91</a></li>
+<li><a href="Lucifer_(cipher)" title="Lucifer (cipher)">Lucifer</a></li>
+<li><a href="M6_(cipher)" title="M6 (cipher)">M6</a></li>
+<li><a href="M8_(cipher)" title="M8 (cipher)">M8</a></li>
+<li><a href="MacGuffin_(cipher)" title="MacGuffin (cipher)">MacGuffin</a></li>
+<li><a href="Madryga" title="Madryga">Madryga</a></li>
+<li><a href="MAGENTA" title="MAGENTA">MAGENTA</a></li>
+<li><a href="MARS_(cryptography)" title="MARS (cryptography)">MARS</a></li>
+<li><a href="Mercy_(cipher)" title="Mercy (cipher)">Mercy</a></li>
+<li><a href="MESH_(cipher)" title="MESH (cipher)">MESH</a></li>
+<li><a href="MISTY1" title="MISTY1">MISTY1</a></li>
+<li><a href="MMB" title="MMB">MMB</a></li>
+<li><a href="MULTI2" title="MULTI2">MULTI2</a></li>
+<li><a href="MultiSwap" title="MultiSwap">MultiSwap</a></li>
+<li><a href="New_Data_Seal" title="New Data Seal">New Data Seal</a></li>
+<li><a href="NewDES" title="NewDES">NewDES</a></li>
+<li><a href="Nimbus_(cipher)" title="Nimbus (cipher)">Nimbus</a></li>
+<li><a href="NOEKEON" title="NOEKEON">NOEKEON</a></li>
+<li><a href="NUSH" title="NUSH">NUSH</a></li>
+<li><a href="PRESENT_(cipher)" title="PRESENT (cipher)">PRESENT</a></li>
+<li><a href="Q_(cipher)" title="Q (cipher)">Q</a></li>
+<li><a href="RC6" title="RC6">RC6</a></li>
+<li><a href="REDOC" title="REDOC">REDOC</a></li>
+<li><a href="Red_Pike_(cipher)" title="Red Pike (cipher)">Red Pike</a></li>
+<li><a href="S-1_block_cipher" title="S-1 block cipher">S-1</a></li>
+<li><a href="SAFER" title="SAFER">SAFER</a></li>
+<li><a href="SAVILLE" title="SAVILLE">SAVILLE</a></li>
+<li><a href="SC2000" title="SC2000">SC2000</a></li>
+<li><a href="SHACAL" title="SHACAL">SHACAL</a></li>
+<li><a href="SHARK" title="SHARK">SHARK</a></li>
+<li><a href="SMS4" title="SMS4">SMS4</a></li>
+<li><a href="Spectr-H64" title="Spectr-H64">Spectr-H64</a></li>
+<li><a href="Square_(cipher)" title="Square (cipher)">Square</a></li>
+<li><a href="SXAL/MBAL" title="SXAL/MBAL">SXAL/MBAL</a></li>
+<li><a href="Threefish" title="Threefish">Threefish</a></li>
+<li><a href="Treyfer" title="Treyfer">Treyfer</a></li>
+<li><a href="UES_(cipher)" title="UES (cipher)">UES</a></li>
+<li><a href="Xenon_(cipher)" title="Xenon (cipher)">Xenon</a></li>
+<li><a href="Xmx" title="Xmx">xmx</a></li>
+<li><a href="XXTEA" title="XXTEA">XXTEA</a></li>
+<li><a href="Zodiac_(cipher)" title="Zodiac (cipher)">Zodiac</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Design</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Feistel_cipher" title="Feistel cipher">Feistel network</a></li>
+<li><a href="Key_schedule" title="Key schedule">Key schedule</a></li>
+<li><a href="Product_cipher" title="Product cipher">Product cipher</a></li>
+<li><a href="S-box" title="S-box">S-box</a></li>
+<li><a href="Permutation_box" title="Permutation box">P-box</a></li>
+<li><a href="Substitution-permutation_network" title="Substitution-permutation network">SPN</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Attack<br />
+(<a href="Cryptanalysis" title="Cryptanalysis">cryptanalysis</a>)</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Brute_force_attack" title="Brute force attack" class="mw-redirect">Brute force</a></li>
+<li><a href="Meet-in-the-middle_attack" title="Meet-in-the-middle attack">MITM</a></li>
+<li><a href="Linear_cryptanalysis" title="Linear cryptanalysis">Linear</a></li>
+<li><a href="Differential_cryptanalysis" title="Differential cryptanalysis">Differential</a> (<a href="Impossible_differential_cryptanalysis" title="Impossible differential cryptanalysis">Impossible</a></li>
+<li><a href="Truncated_differential_cryptanalysis" title="Truncated differential cryptanalysis">Truncated</a></li>
+<li><a href="Higher-order_differential_cryptanalysis" title="Higher-order differential cryptanalysis">Higher-order</a>)</li>
+<li><a href="Integral_cryptanalysis" title="Integral cryptanalysis">Integral</a></li>
+<li><a href="Boomerang_attack" title="Boomerang attack">Boomerang</a></li>
+<li><a href="Mod_n_cryptanalysis" title="Mod n cryptanalysis">Mod <i>n</i></a></li>
+<li><a href="Related-key_attack" title="Related-key attack">Related-key</a></li>
+<li><a href="Slide_attack" title="Slide attack">Slide</a></li>
+<li><a href="Rotational_cryptanalysis" title="Rotational cryptanalysis">Rotational</a></li>
+<li><a href="Timing_attack" title="Timing attack">Timing</a></li>
+<li><a href="XSL_attack" title="XSL attack">XSL</a></li>
+<li><a href="Interpolation_attack" title="Interpolation attack">Interpolation</a></li>
+<li><a href="Partitioning_cryptanalysis" title="Partitioning cryptanalysis">Partitioning</a></li>
+<li><a href="Davies'_attack" title="Davies' attack">Davies'</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standardization</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Advanced_Encryption_Standard_process" title="Advanced Encryption Standard process">AES process</a></li>
+<li><a href="CRYPTREC" title="CRYPTREC">CRYPTREC</a></li>
+<li><a href="NESSIE" title="NESSIE">NESSIE</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Misc</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Avalanche_effect" title="Avalanche effect">Avalanche effect</a></li>
+<li><a href="Block_size_(cryptography)" title="Block size (cryptography)">Block size</a></li>
+<li><a href="Initialization_vector" title="Initialization vector">Initialization vector</a></li>
+<li><a href="Key_size" title="Key size">Key size</a></li>
+<li><a href="Block_cipher_modes_of_operation" title="Block cipher modes of operation">Modes of operation</a></li>
+<li><a href="Padding_(cryptography)" title="Padding (cryptography)">Padding</a></li>
+<li><a href="Piling-up_lemma" title="Piling-up lemma">Piling-up lemma</a></li>
+<li><a href="Weak_key" title="Weak key">Weak key</a></li>
+<li><a href="EFF_DES_cracker" title="EFF DES cracker">EFF DES cracker</a></li>
+<li><a href="Key_whitening" title="Key whitening">Key whitening</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=26.php.html" title="Edit section: {{Crypto navbox | stream}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_stream.7D.7D">{{Crypto navbox | stream}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_stream" title="Template:Cryptography stream"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_stream" title="Template talk:Cryptography stream"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_stream&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Stream_cipher" title="Stream cipher">Stream ciphers</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Widely used ciphers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="RC4" title="RC4">RC4</a></li>
+<li><a href="Block_cipher_modes_of_operation" title="Block cipher modes of operation">Block ciphers in stream mode</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="ESTREAM" title="ESTREAM">eSTREAM</a> Portfolio</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Software</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="HC-256" title="HC-256">HC-256</a></li>
+<li><a href="Rabbit_(cipher)" title="Rabbit (cipher)">Rabbit</a></li>
+<li><a href="Salsa20" title="Salsa20">Salsa20</a>/12</li>
+<li><a href="SOSEMANUK" title="SOSEMANUK">SOSEMANUK</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Hardware</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Grain_(cipher)" title="Grain (cipher)">Grain</a></li>
+<li><a href="MICKEY" title="MICKEY">MICKEY</a></li>
+<li><a href="Trivium_(cipher)" title="Trivium (cipher)">Trivium</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other ciphers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="A5/1" title="A5/1">A5/1</a></li>
+<li><a href="A5/2" title="A5/2">A5/2</a></li>
+<li><a href="E0_(cipher)" title="E0 (cipher)">E0</a></li>
+<li><a href="FISH_(cipher)" title="FISH (cipher)">FISH</a></li>
+<li><a href="ISAAC_(cipher)" title="ISAAC (cipher)">ISAAC</a></li>
+<li><a href="MUGI" title="MUGI">MUGI</a></li>
+<li><a href="Panama_(cipher)" title="Panama (cipher)" class="mw-redirect">Panama</a></li>
+<li><a href="Phelix" title="Phelix">Phelix</a></li>
+<li><a href="Pike_(cipher)" title="Pike (cipher)">Pike</a></li>
+<li><a href="Py_(cipher)" title="Py (cipher)">Py</a></li>
+<li><a href="QUAD_(cipher)" title="QUAD (cipher)">QUAD</a></li>
+<li><a href="Scream_(cipher)" title="Scream (cipher)">Scream</a></li>
+<li><a href="SEAL_(cipher)" title="SEAL (cipher)">SEAL</a></li>
+<li><a href="SNOW" title="SNOW">SNOW</a></li>
+<li><a href="SOBER" title="SOBER">SOBER</a></li>
+<li><a href="SOBER-128" title="SOBER-128">SOBER-128</a></li>
+<li><a href="VEST" title="VEST">VEST</a></li>
+<li><a href="WAKE_(cipher)" title="WAKE (cipher)">WAKE</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Theory</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Shift_register" title="Shift register">Shift register</a></li>
+<li><a href="Linear_feedback_shift_register" title="Linear feedback shift register">LFSR</a></li>
+<li><a href="NLFSR" title="NLFSR">NLFSR</a></li>
+<li><a href="Shrinking_generator" title="Shrinking generator">Shrinking generator</a></li>
+<li><a href="T-function" title="T-function">T-function</a></li>
+<li><a href="Initialization_vector" title="Initialization vector">IV</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Attacks</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Correlation_attack" title="Correlation attack">Correlation attack</a></li>
+<li><a href="Correlation_immunity" title="Correlation immunity">Correlation immunity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=27.php.html" title="Edit section: {{Crypto navbox | public-key}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_public-key.7D.7D">{{Crypto navbox | public-key}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_public-key" title="Template:Cryptography public-key"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_public-key" title="Template talk:Cryptography public-key"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_public-key&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Benaloh_cryptosystem" title="Benaloh cryptosystem">Benaloh</a></li>
+<li><a href="Blum%E2%80%93Goldwasser_cryptosystem" title="Blum–Goldwasser cryptosystem">Blum–Goldwasser</a></li>
+<li><a href="Cayley%E2%80%93Purser_algorithm" title="Cayley–Purser algorithm">Cayley–Purser</a></li>
+<li><a href="CEILIDH" title="CEILIDH">CEILIDH</a></li>
+<li><a href="Cramer%E2%80%93Shoup_cryptosystem" title="Cramer–Shoup cryptosystem">Cramer–Shoup</a></li>
+<li><a href="Damg%C3%A5rd%E2%80%93Jurik_cryptosystem" title="Damgård–Jurik cryptosystem">Damgård–Jurik</a></li>
+<li><a href="Diffie%E2%80%93Hellman_key_exchange" title="Diffie–Hellman key exchange">DH</a></li>
+<li><a href="Digital_Signature_Algorithm" title="Digital Signature Algorithm">DSA</a></li>
+<li><a href="Efficient_Probabilistic_Public-Key_Encryption_Scheme" title="Efficient Probabilistic Public-Key Encryption Scheme">EPOC</a></li>
+<li><a href="Elliptic_curve_Diffie%E2%80%93Hellman" title="Elliptic curve Diffie–Hellman">ECDH</a></li>
+<li><a href="Elliptic_Curve_DSA" title="Elliptic Curve DSA">ECDSA</a></li>
+<li><a href="Encrypted_key_exchange" title="Encrypted key exchange">EKE</a></li>
+<li><a href="ElGamal_encryption" title="ElGamal encryption">ElGamal</a>
+<ul>
+<li><a href="ElGamal_signature_scheme" title="ElGamal signature scheme">signature scheme</a></li>
+</ul>
+</li>
+<li><a href="GMR_(cryptography)" title="GMR (cryptography)">GMR</a></li>
+<li><a href="Goldwasser%E2%80%93Micali_cryptosystem" title="Goldwasser–Micali cryptosystem">Goldwasser–Micali</a></li>
+<li><a href="Hidden_Field_Equations" title="Hidden Field Equations">HFE</a></li>
+<li><a href="Integrated_Encryption_Scheme" title="Integrated Encryption Scheme">IES</a></li>
+<li><a href="Lamport_signature" title="Lamport signature">Lamport</a></li>
+<li><a href="McEliece_cryptosystem" title="McEliece cryptosystem">McEliece</a></li>
+<li><a href="Merkle%E2%80%93Hellman_knapsack_cryptosystem" title="Merkle–Hellman knapsack cryptosystem">Merkle–Hellman</a></li>
+<li><a href="MQV" title="MQV">MQV</a></li>
+<li><a href="Naccache%E2%80%93Stern_cryptosystem" title="Naccache–Stern cryptosystem">Naccache–Stern</a></li>
+<li><a href="NTRUEncrypt" title="NTRUEncrypt">NTRUEncrypt</a></li>
+<li><a href="NTRUSign" title="NTRUSign">NTRUSign</a></li>
+<li><a href="Paillier_cryptosystem" title="Paillier cryptosystem">Paillier</a></li>
+<li><a href="Rabin_cryptosystem" title="Rabin cryptosystem">Rabin</a></li>
+<li><a href="RSA_(algorithm)" title="RSA (algorithm)">RSA</a></li>
+<li><a href="Okamoto%E2%80%93Uchiyama_cryptosystem" title="Okamoto–Uchiyama cryptosystem">Okamoto–Uchiyama</a></li>
+<li><a href="Schnorr_signature" title="Schnorr signature">Schnorr</a></li>
+<li><a href="Schmidt%E2%80%93Samoa_cryptosystem" title="Schmidt–Samoa cryptosystem" class="mw-redirect">Schmidt–Samoa</a></li>
+<li><a href="SPEKE_(cryptography)" title="SPEKE (cryptography)">SPEKE</a></li>
+<li><a href="Secure_Remote_Password_protocol" title="Secure Remote Password protocol">SRP</a></li>
+<li><a href="Station-to-Station_protocol" title="Station-to-Station protocol">STS</a></li>
+<li><a href="Three-pass_protocol" title="Three-pass protocol">Three-pass protocol</a></li>
+<li><a href="XTR" title="XTR">XTR</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Theory</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Discrete_logarithm" title="Discrete logarithm">Discrete logarithm</a></li>
+<li><a href="Elliptic_curve_cryptography" title="Elliptic curve cryptography">Elliptic curve cryptography</a></li>
+<li><a href="RSA_problem" title="RSA problem">RSA problem</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standardization</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="../../w/index-title=ANS_X9F1&action=edit&redlink=1.php.html" class="new" title="ANS X9F1 (page does not exist)">ANS X9F1</a></li>
+<li><a href="CRYPTREC" title="CRYPTREC">CRYPTREC</a></li>
+<li><a href="IEEE_P1363" title="IEEE P1363">IEEE P1363</a></li>
+<li><a href="NESSIE" title="NESSIE">NESSIE</a></li>
+<li><a href="NSA_Suite_B_Cryptography" title="NSA Suite B Cryptography">NSA Suite B</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Digital_signature" title="Digital signature">Digital signature</a></li>
+<li><a href="Optimal_asymmetric_encryption_padding" title="Optimal asymmetric encryption padding">OAEP</a></li>
+<li><a href="Public_key_fingerprint" title="Public key fingerprint">Fingerprint</a></li>
+<li><a href="Public_key_infrastructure" title="Public key infrastructure" class="mw-redirect">PKI</a></li>
+<li><a href="Web_of_trust" title="Web of trust">Web of trust</a></li>
+<li><a href="Key_size" title="Key size">Key size</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=28.php.html" title="Edit section: {{Crypto navbox | hash}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_hash.7D.7D">{{Crypto navbox | hash}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_hash" title="Template:Cryptography hash"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_hash" title="Template talk:Cryptography hash"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_hash&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash functions</a> and <a href="Message_authentication_code" title="Message authentication code">message authentication codes (MACs)</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Common functions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="MD5" title="MD5">MD5</a></li>
+<li><a href="SHA-1" title="SHA-1">SHA-1</a></li>
+<li><a href="SHA-2" title="SHA-2">SHA-2</a></li>
+<li><a href="SHA-3" title="SHA-3">SHA-3/Keccak</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Functions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Fast_Syndrome_Based_Hash" title="Fast Syndrome Based Hash">FSB</a></li>
+<li><a href="Elliptic_curve_only_hash" title="Elliptic curve only hash">ECOH</a></li>
+<li><a href="GOST_(hash_function)" title="GOST (hash function)">GOST</a></li>
+<li><a href="HAS-160" title="HAS-160">HAS-160</a></li>
+<li><a href="HAVAL" title="HAVAL">HAVAL</a></li>
+<li><a href="LM_hash" title="LM hash">LM hash</a></li>
+<li><a href="MDC-2" title="MDC-2">MDC-2</a></li>
+<li><a href="MD2_(cryptography)" title="MD2 (cryptography)">MD2</a></li>
+<li><a href="MD4" title="MD4">MD4</a></li>
+<li><a href="MD6" title="MD6">MD6</a></li>
+<li><a href="N-Hash" title="N-Hash">N-Hash</a></li>
+<li><a href="RadioGat%C3%BAn" title="RadioGatún">RadioGatún</a></li>
+<li><a href="RIPEMD" title="RIPEMD">RIPEMD</a></li>
+<li><a href="Snefru" title="Snefru">Snefru</a></li>
+<li><a href="SWIFFT" title="SWIFFT">SWIFFT</a></li>
+<li><a href="Tiger_(cryptography)" title="Tiger (cryptography)">Tiger</a></li>
+<li><a href="Very_smooth_hash" title="Very smooth hash">VSH</a></li>
+<li><a href="Whirlpool_(cryptography)" title="Whirlpool (cryptography)">WHIRLPOOL</a></li>
+<li><a href="Crypt_(Unix)#Library_Function" title="Crypt (Unix)">crypt(3)</a> (DES)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="NIST_hash_function_competition" title="NIST hash function competition">SHA-3 finalists</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="BLAKE_(hash_function)" title="BLAKE (hash function)">BLAKE</a></li>
+<li><a href="Gr%C3%B8stl" title="Grøstl">Grøstl</a></li>
+<li><a href="JH_(hash_function)" title="JH (hash function)">JH</a></li>
+<li><a href="Skein_(hash_function)" title="Skein (hash function)">Skein</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">MAC algorithms</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Data_Authentication_Algorithm" title="Data Authentication Algorithm">DAA</a></li>
+<li><a href="CBC-MAC" title="CBC-MAC">CBC-MAC</a></li>
+<li><a href="HMAC" title="HMAC" class="mw-redirect">HMAC</a></li>
+<li><a href="One-key_MAC" title="One-key MAC">OMAC</a>/<a href="CMAC" title="CMAC">CMAC</a></li>
+<li><a href="PMAC_(cryptography)" title="PMAC (cryptography)">PMAC</a></li>
+<li><a href="VMAC" title="VMAC">VMAC</a></li>
+<li><a href="UMAC" title="UMAC">UMAC</a></li>
+<li><a href="Poly1305-AES" title="Poly1305-AES">Poly1305-AES</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Authenticated_encryption" title="Authenticated encryption">Authenticated<br />
+encryption</a> modes</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="CCM_mode" title="CCM mode">CCM</a></li>
+<li><a href="CWC_mode" title="CWC mode">CWC</a></li>
+<li><a href="EAX_mode" title="EAX mode">EAX</a></li>
+<li><a href="Galois/Counter_Mode" title="Galois/Counter Mode">GCM</a></li>
+<li><a href="IAPM_(mode)" title="IAPM (mode)">IAPM</a></li>
+<li><a href="OCB_mode" title="OCB mode">OCB</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Attacks</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Collision_attack" title="Collision attack">Collision attack</a></li>
+<li><a href="Preimage_attack" title="Preimage attack">Preimage attack</a></li>
+<li><a href="Birthday_attack" title="Birthday attack">Birthday attack</a></li>
+<li><a href="Brute_force_attack" title="Brute force attack" class="mw-redirect">Brute force attack</a></li>
+<li><a href="Rainbow_table" title="Rainbow table">Rainbow table</a></li>
+<li><a href="Distinguishing_attack" title="Distinguishing attack">Distinguishing attack</a></li>
+<li><a href="Side-channel_attack" title="Side-channel attack" class="mw-redirect">Side-channel attack</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Misc.</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Avalanche_effect" title="Avalanche effect">Avalanche effect</a></li>
+<li><a href="Collision_(computer_science)" title="Collision (computer science)">Hash collision</a></li>
+<li><a href="Merkle%E2%80%93Damg%C3%A5rd_construction" title="Merkle–Damgård construction">Merkle–Damgård construction</a></li>
+<li><a href="Salt_(cryptography)" title="Salt (cryptography)">Salt</a></li>
+<li><a href="Hash_function_security_summary" title="Hash function security summary">Security summary</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standardization</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="CRYPTREC" title="CRYPTREC">CRYPTREC</a></li>
+<li><a href="NESSIE" title="NESSIE">NESSIE</a></li>
+<li><a href="NIST_hash_function_competition" title="NIST hash function competition">NIST hash function competition</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=29.php.html" title="Edit section: {{Crypto navbox | machines}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_machines.7D.7D">{{Crypto navbox | machines}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_machines" title="Template:Cryptography machines"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_machines" title="Template talk:Cryptography machines"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_machines&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Cipher machines</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Rotor_machine" title="Rotor machine">Rotor machines</a>:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Combined_Cipher_Machine" title="Combined Cipher Machine">CCM</a></li>
+<li><a href="Enigma_machine" title="Enigma machine">Enigma</a></li>
+<li>M – 125 <a href="Fialka" title="Fialka">Fialka</a></li>
+<li><a href="Hebern_rotor_machine" title="Hebern rotor machine">Hebern</a></li>
+<li><a href="HX-63" title="HX-63">HX-63</a></li>
+<li><a href="KL-7" title="KL-7">KL-7</a></li>
+<li><a href="Lacida" title="Lacida">Lacida</a></li>
+<li><a href="M-325" title="M-325">M-325</a></li>
+<li><a href="Mercury_(cipher_machine)" title="Mercury (cipher machine)">Mercury</a></li>
+<li><a href="NEMA_(machine)" title="NEMA (machine)">NEMA</a></li>
+<li><a href="OMI_cryptograph" title="OMI cryptograph">OMI</a></li>
+<li><a href="Portex" title="Portex">Portex</a></li>
+<li><a href="Red_(cipher_machine)" title="Red (cipher machine)">RED</a></li>
+<li><a href="SIGABA" title="SIGABA">SIGABA</a></li>
+<li><a href="SIGCUM" title="SIGCUM">SIGCUM</a></li>
+<li><a href="BID/60" title="BID/60">Singlet</a></li>
+<li><a href="Typex" title="Typex">Typex</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Mechanical:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Jefferson_disk" title="Jefferson disk">Bazeries cylinder</a></li>
+<li><a href="C-36_(cipher_machine)" title="C-36 (cipher machine)">C-36</a></li>
+<li><a href="C-52_(cipher_machine)" title="C-52 (cipher machine)">C-52</a></li>
+<li><a href="CD-57" title="CD-57">CD-57</a></li>
+<li><a href="Cipher_disk" title="Cipher disk">Cipher disk</a></li>
+<li><a href="HC-9" title="HC-9">HC-9</a></li>
+<li><a href="Kryha" title="Kryha">Kryha</a></li>
+<li><a href="Jefferson_disk" title="Jefferson disk">Jefferson disk</a></li>
+<li><a href="M-94" title="M-94">M-94</a></li>
+<li><a href="M-209" title="M-209">M-209</a></li>
+<li><a href="Reihenschieber" title="Reihenschieber">Reihenschieber</a></li>
+<li><a href="Scytale" title="Scytale">Scytale</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Teleprinter:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="5-UCO" title="5-UCO">5-UCO</a></li>
+<li><a href="BID_770" title="BID 770">BID 770</a></li>
+<li><a href="DUDEK" title="DUDEK">DUDEK</a></li>
+<li><a href="KW-26" title="KW-26">KW-26</a></li>
+<li><a href="KW-37" title="KW-37">KW-37</a></li>
+<li><a href="Lorenz_cipher" title="Lorenz cipher">Lorenz SZ 40/42</a></li>
+<li><a href="Siemens_and_Halske_T52" title="Siemens and Halske T52">Siemens and Halske T52</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Secure_voice" title="Secure voice">Secure voice</a>:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="BID_150" title="BID 150">BID 150</a></li>
+<li><a href="FASCINATOR" title="FASCINATOR">FASCINATOR</a></li>
+<li><a href="KY-3" title="KY-3">KY-3</a></li>
+<li><a href="KY-57" title="KY-57">KY-57</a></li>
+<li><a href="KY-58" title="KY-58">KY-58</a></li>
+<li><a href="KY-68" title="KY-68">KY-68</a></li>
+<li><a href="OMNI_(SCIP)" title="OMNI (SCIP)">OMNI</a></li>
+<li><a href="Secure_Communications_Interoperability_Protocol" title="Secure Communications Interoperability Protocol">SCIP</a></li>
+<li><a href="Sect%C3%A9ra_Secure_Module" title="Sectéra Secure Module">Sectéra Secure Module</a></li>
+<li><a href="SIGSALY" title="SIGSALY">SIGSALY</a></li>
+<li><a href="Secure_Terminal_Equipment" title="Secure Terminal Equipment">STE</a></li>
+<li><a href="STU-II" title="STU-II">STU-II</a></li>
+<li><a href="STU-III" title="STU-III">STU-III</a></li>
+<li><a href="VINSON" title="VINSON">VINSON</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Miscellaneous:</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="JADE" title="JADE">JADE</a></li>
+<li><a href="KG-84" title="KG-84">KG-84</a></li>
+<li><a href="KL-43" title="KL-43">KL-43</a></li>
+<li><a href="Noreen" title="Noreen">Noreen</a></li>
+<li><a href="Purple_(cipher_machine)" title="Purple (cipher machine)">PURPLE</a></li>
+<li><a href="Pinwheel_(cryptography)" title="Pinwheel (cryptography)">Pinwheel</a></li>
+<li><a href="Rockex" title="Rockex">Rockex</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=30.php.html" title="Edit section: {{Crypto navbox | classical}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCrypto_navbox_.7C_classical.7D.7D">{{Crypto navbox | classical}}</span></h3>
+<p>It produces:</p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_classical" title="Template:Cryptography classical"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_classical" title="Template talk:Cryptography classical"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_classical&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Classical_cipher" title="Classical cipher">Classical cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Ciphers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="ADFGVX_cipher" title="ADFGVX cipher">ADFGVX</a></li>
+<li><a href="Affine_cipher" title="Affine cipher">Affine</a></li>
+<li><a href="Alberti_cipher" title="Alberti cipher">Alberti</a></li>
+<li><a href="Atbash" title="Atbash">Atbash</a></li>
+<li><a href="Autokey_cipher" title="Autokey cipher">Autokey</a></li>
+<li><a href="Bifid_cipher" title="Bifid cipher">Bifid</a></li>
+<li><a href="Book_cipher" title="Book cipher">Book</a></li>
+<li><a href="Caesar_cipher" title="Caesar cipher">Caesar</a></li>
+<li><a href="Chaocipher" title="Chaocipher">Chaocipher</a></li>
+<li><a href="Dvorak_encoding" title="Dvorak encoding">Dvorak</a></li>
+<li><a href="Four-square_cipher" title="Four-square cipher">Four-square</a></li>
+<li><a href="Great_Cipher" title="Great Cipher">Great</a></li>
+<li><a href="Hill_cipher" title="Hill cipher">Hill</a></li>
+<li><a href="Vatsyayana_cipher" title="Vatsyayana cipher">Kama Sutra</a></li>
+<li><a href="Keyword_cipher" title="Keyword cipher">Keyword</a></li>
+<li><a href="Nihilist_cipher" title="Nihilist cipher">Nihilist</a></li>
+<li><a href="One-time_pad" title="One-time pad">One-time pad</a></li>
+<li><a href="Permutation_cipher" title="Permutation cipher">Permutation</a></li>
+<li><a href="Pigpen_cipher" title="Pigpen cipher">Pigpen</a></li>
+<li><a href="Playfair_cipher" title="Playfair cipher">Playfair</a></li>
+<li><a href="Polyalphabetic_cipher" title="Polyalphabetic cipher">Polyalphabetic</a></li>
+<li><a href="Polybius_square" title="Polybius square">Polybius</a></li>
+<li><a href="Rail_Fence_Cipher" title="Rail Fence Cipher">Rail Fence</a></li>
+<li><a href="Rasterschl%C3%BCssel_44" title="Rasterschlüssel 44">Rasterschlüssel 44</a></li>
+<li><a href="Reihenschieber" title="Reihenschieber">Reihenschieber</a></li>
+<li><a href="Reservehandverfahren" title="Reservehandverfahren">Reservehandverfahren</a></li>
+<li><a href="ROT13" title="ROT13">ROT13</a></li>
+<li><a href="Running_key_cipher" title="Running key cipher">Running key</a></li>
+<li><a href="Scytale" title="Scytale">Scytale</a></li>
+<li><a href="Smithy_code" title="Smithy code">Smithy code</a></li>
+<li><a href="Solitaire_(cipher)" title="Solitaire (cipher)">Solitaire</a></li>
+<li><a href="Straddling_checkerboard" title="Straddling checkerboard" class="mw-redirect">Straddling checkerboard</a></li>
+<li><a href="Substitution_cipher" title="Substitution cipher">Substitution</a></li>
+<li><a href="Tap_code" title="Tap code">Tap code</a></li>
+<li><a href="Transposition_cipher" title="Transposition cipher">Transposition</a></li>
+<li><a href="Trifid_cipher" title="Trifid cipher">Trifid</a></li>
+<li><a href="Two-square_cipher" title="Two-square cipher">Two-square</a></li>
+<li><a href="VIC_cipher" title="VIC cipher">VIC cipher</a></li>
+<li><a href="Vigen%C3%A8re_cipher" title="Vigenère cipher">Vigenère</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Cryptanalysis</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Frequency_analysis" title="Frequency analysis">Frequency analysis</a></li>
+<li><a href="Index_of_coincidence" title="Index of coincidence">Index of coincidence</a></li>
+<li><a href="Kasiski_examination" title="Kasiski examination">Kasiski examination</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Miscellaneous</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cryptogram" title="Cryptogram">Cryptogram</a></li>
+<li><a href="Bacon's_cipher" title="Bacon's cipher">Bacon</a></li>
+<li><a href="Scytale" title="Scytale">Scytale</a></li>
+<li><a href="Straddling_checkerboard" title="Straddling checkerboard" class="mw-redirect">Straddling checkerboard</a></li>
+<li><a href="Tabula_recta" title="Tabula recta">Tabula recta</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Cryptography_navbox" title="Template:Cryptography navbox"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Cryptography_navbox" title="Template talk:Cryptography navbox"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Cryptography_navbox&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<span style="float:right;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Cryptography" title="Cryptography">Cryptography</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_cryptography" title="History of cryptography">History of cryptography</a></li>
+<li><a href="Cryptanalysis" title="Cryptanalysis">Cryptanalysis</a></li>
+<li><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography portal</a></li>
+<li><a href="Outline_of_cryptography" title="Outline of cryptography">Outline of cryptography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Symmetric-key_algorithm" title="Symmetric-key algorithm">Symmetric-key algorithm</a></li>
+<li><a href="Block_cipher" title="Block cipher">Block cipher</a></li>
+<li><a href="Stream_cipher" title="Stream cipher">Stream cipher</a></li>
+<li><a href="Public-key_cryptography" title="Public-key cryptography">Public-key cryptography</a></li>
+<li><a href="Cryptographic_hash_function" title="Cryptographic hash function">Cryptographic hash function</a></li>
+<li><a href="Message_authentication_code" title="Message authentication code">Message authentication code</a></li>
+<li><a href="Cryptographically_secure_pseudorandom_number_generator" title="Cryptographically secure pseudorandom number generator">Random numbers</a></li>
+<li><a href="Steganography" title="Steganography">Steganography</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br clear="all" /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=31.php.html" title="Edit section: Deprecated templates">edit</a>]</span> <span class="mw-headline" id="Deprecated_templates">Deprecated templates</span></h3>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=32.php.html" title="Edit section: {{Cryptography portal}} or {{Portal|Cryptography}}">edit</a>]</span> <span class="mw-headline" id=".7B.7BCryptography_portal.7D.7D_or_.7B.7BPortal.7CCryptography.7D.7D"><a href="../../w/index-title=Template_Cryptography_portal&action=edit&redlink=1.php.html" class="new" title="Template:Cryptography portal (page does not exist)">{{Cryptography portal}} or {{Portal|Cryptography}}</a></span></h3>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Crypto_key.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/32px-Crypto_key.svg.png" width="32" height="17" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/48px-Crypto_key.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/65/Crypto_key.svg/64px-Crypto_key.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Cryptography" title="Portal:Cryptography">Cryptography  portal</a></td>
+</tr>
+</table>
+</div>
+<p>To inform users about the <a href="Portal_Cryptography" title="Portal:Cryptography">cryptography portal</a> we had this template that could be placed in the "See also" section of articles. However we now recommend using the <a href="Template_Crypto_navbox" title="Template:Crypto navbox" class="mw-redirect">{{Crypto navbox}}</a> instead.</p>
+<p><br clear="all" /></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit&section=33.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a href="http://toolserver.org/~dispenser/cgi-bin/transcluded_changes.py/Template:WikiProject_Cryptography" class="extiw" title="tools:~dispenser/cgi-bin/transcluded changes.py/Template:WikiProject Cryptography">Wikiproject Watchlist - WikiProject Cryptography</a></li>
+</ul>
+<table style="width: 100%; background-color: transparent; border-collapse: collapse; margin-bottom: 0.5em; margin-top: 0.5em">
+<tr>
+<td style="width: 33%; margin-right: 12px; vertical-align: center; text-align: center; border: 1px solid silver; background-color: transparent">
+<p><span style="padding-left: .5em; padding-right: .5em; width: 18px; height: 18px"><a href="http://en.wikipedia.org/wiki/File:People_icon.svg" class="image" title="Directory"><img alt="Directory" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/20px-People_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/30px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/40px-People_icon.svg.png 2x" /></a></span> <span><b><a href="Wikipedia_WikiProject_Council/Directory" title="Wikipedia:WikiProject Council/Directory">Directory of WikiProjects</a></b></span></p>
+</td>
+<td style="width: auto">&#160;</td>
+<td style="width: 33%; margin-left: 1%; vertical-align: center; text-align: center; border: 1px solid silver; background-color: transparent">
+<p><span style="padding-left: .5em; padding-right: .5em; width: 18px; height: 18px"><a href="http://en.wikipedia.org/wiki/File:WikiProject_Council.svg" class="image" title="Council"><img alt="Council" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/WikiProject_Council.svg/20px-WikiProject_Council.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/WikiProject_Council.svg/30px-WikiProject_Council.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/WikiProject_Council.svg/40px-WikiProject_Council.svg.png 2x" /></a></span> <span><b><a href="Wikipedia_WikiProject_Council" title="Wikipedia:WikiProject Council">WikiProject Council</a></b></span></p>
+</td>
+<td style="width: auto">&#160;</td>
+<td style="width: 33%; margin-right: 12px; vertical-align: center; text-align:center; border:1px solid silver; background-color: transparent">
+<p><span style="padding-left: .5em; padding-right: .5em; width: 18px; height: 18px"><a href="http://en.wikipedia.org/wiki/File:Book_icoline.svg" class="image" title="Guide"><img alt="Guide" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Book_icoline.svg/20px-Book_icoline.svg.png" width="20" height="11" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Book_icoline.svg/30px-Book_icoline.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Book_icoline.svg/40px-Book_icoline.svg.png 2x" /></a></span> <span><b><a href="Wikipedia_WikiProject_Council/Guide" title="Wikipedia:WikiProject Council/Guide">Guide to WikiProjects</a></b></span></p>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 13265/1000000
+Preprocessor generated node count: 35441/1500000
+Post-expand include size: 536885/2048000 bytes
+Template argument size: 277416/2048000 bytes
+Highest expansion depth: 24/40
+Expensive parser function count: 5/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:610347-0!*!0!!en!4!* and timestamp 20130122175929 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&oldid=529570995.php.html">http://en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Cryptography&amp;oldid=529570995</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Semi-active_WikiProjects" title="Category:Semi-active WikiProjects">Semi-active WikiProjects</a></li><li><a href="Category_WikiProject_Cryptography" title="Category:WikiProject Cryptography">WikiProject Cryptography</a></li><li><a href="Category_Technology_WikiProjects" title="Category:Technology WikiProjects">Technology WikiProjects</a></li><li><a href="Category_WikiProject_Computer_science" title="Category:WikiProject Computer science">WikiProject Computer science</a></li><li><a href="Category_WikiProject_Mathematics" title="Category:WikiProject Mathematics">WikiProject Mathematics</a></li><li><a href="Category_WikiProject_Telecommunications" title="Category:WikiProject Telecommunications">WikiProject Telecommunications</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_WikiProject+Cryptography&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_WikiProject+Cryptography.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-project" class="selected"><span><a href="index.html"  title="View the project page [c]" accesskey="c">Project page</a></span></li>
+					<li  id="ca-talk"><span><a href="Wikipedia_talk_WikiProject_Cryptography"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wikipedia_WikiProject_Cryptography" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wikipedia_WikiProject_Cryptography" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&oldid=529570995.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wikipedia_WikiProject+Cryptography.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wikipedia_WikiProject+Cryptography&oldid=529570995&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wikipedia_WikiProject_Cryptography&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Wikipedie:WikiProjekt_Kryptologie" title="Wikipedie:WikiProjekt Kryptologie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Wikipedia:WikiProjekt_Kryptologie" title="Wikipedia:WikiProjekt Kryptologie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Projet:Cryptologie" title="Projet:Cryptologie" lang="fr" hreflang="fr">Français</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 December 2012 at 08:37.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wikipedia:WikiProject_Cryptography" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1086 in 0.207 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

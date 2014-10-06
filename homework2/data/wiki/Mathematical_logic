@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Mathematical logic - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Mathematical_logic&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Mathematical_logic&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mathematical_logic","wgTitle":"Mathematical logic","wgCurRevisionId":535382967,"wgArticleId":19636,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing more detailed references","Mathematical logic"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Mathematical_logic","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"99adb0330355e7c0a705d9b28526daf4","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":19636,"title":"Mathematical logic","namespace":0,"categories":["Articles needing more detailed references","Mathematical logic"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Mathematical_logic skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Mathematical logic</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Mathematical logic</b> (also known as <b>symbolic logic</b>) is a subfield of <a href="Mathematics" title="Mathematics">mathematics</a> with close connections to the <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a>, <a href="Theoretical_computer_science" title="Theoretical computer science">theoretical computer science</a> and <a href="Philosophical_logic" title="Philosophical logic">philosophical logic</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> The field includes both the mathematical study of <a href="Logic" title="Logic">logic</a> and the applications of formal logic to other areas of mathematics. The unifying themes in mathematical logic include the study of the expressive power of <a href="Formal_system" title="Formal system">formal systems</a> and the deductive power of formal <a href="Mathematical_proof" title="Mathematical proof">proof</a> systems.</p>
+<p>Mathematical logic is often divided into the fields of <a href="Set_theory" title="Set theory">set theory</a>, <a href="Model_theory" title="Model theory">model theory</a>, <a href="Recursion_theory" title="Recursion theory" class="mw-redirect">recursion theory</a>, and <a href="Proof_theory" title="Proof theory">proof theory</a>. These areas share basic results on logic, particularly <a href="First-order_logic" title="First-order logic">first-order logic</a>, and <a href="Definable_set" title="Definable set">definability</a>. In computer science (particularly in the <a href="ACM_Computing_Classification_System" title="ACM Computing Classification System">ACM Classification</a>) mathematical logic encompasses additional topics not detailed in this article; see <a href="Logic_in_computer_science" title="Logic in computer science">logic in computer science</a> for those.</p>
+<p>Since its inception, mathematical logic has both contributed to, and has been motivated by, the study of <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a>. This study began in the late 19th century with the development of <a href="Axiom" title="Axiom">axiomatic</a> frameworks for <a href="Geometry" title="Geometry">geometry</a>, <a href="Arithmetic" title="Arithmetic">arithmetic</a>, and <a href="Analysis" title="Analysis">analysis</a>. In the early 20th century it was shaped by <a href="David_Hilbert" title="David Hilbert">David Hilbert</a>'s <a href="Hilbert's_program" title="Hilbert's program">program</a> to prove the consistency of foundational theories. Results of <a href="Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a>, <a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gerhard Gentzen</a>, and others provided partial resolution to the program, and clarified the issues involved in proving consistency. Work in set theory showed that almost all ordinary mathematics can be formalized in terms of sets, although there are some theorems that cannot be proven in common axiom systems for set theory. Contemporary work in the foundations of mathematics often focuses on establishing which parts of mathematics can be formalized in particular formal systems (as in <a href="Reverse_mathematics" title="Reverse mathematics">reverse mathematics</a>) rather than trying to find theories in which all of mathematics can be developed.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Subfields_and_scope"><span class="tocnumber">1</span> <span class="toctext">Subfields and scope</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Early_history"><span class="tocnumber">2.1</span> <span class="toctext">Early history</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#19th_century"><span class="tocnumber">2.2</span> <span class="toctext">19th century</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#Foundational_theories"><span class="tocnumber">2.2.1</span> <span class="toctext">Foundational theories</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#20th_century"><span class="tocnumber">2.3</span> <span class="toctext">20th century</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#Set_theory_and_paradoxes"><span class="tocnumber">2.3.1</span> <span class="toctext">Set theory and paradoxes</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Symbolic_logic"><span class="tocnumber">2.3.2</span> <span class="toctext">Symbolic logic</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Beginnings_of_the_other_branches"><span class="tocnumber">2.3.3</span> <span class="toctext">Beginnings of the other branches</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Formal_logical_systems"><span class="tocnumber">3</span> <span class="toctext">Formal logical systems </span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#First-order_logic"><span class="tocnumber">3.1</span> <span class="toctext">First-order logic</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Other_classical_logics"><span class="tocnumber">3.2</span> <span class="toctext">Other classical logics</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Nonclassical_and_modal_logic"><span class="tocnumber">3.3</span> <span class="toctext">Nonclassical and modal logic</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Algebraic_logic"><span class="tocnumber">3.4</span> <span class="toctext">Algebraic logic</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Set_theory"><span class="tocnumber">4</span> <span class="toctext">Set theory</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Model_theory"><span class="tocnumber">5</span> <span class="toctext">Model theory</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Recursion_theory"><span class="tocnumber">6</span> <span class="toctext">Recursion theory</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="#Algorithmically_unsolvable_problems"><span class="tocnumber">6.1</span> <span class="toctext">Algorithmically unsolvable problems</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Proof_theory_and_constructive_mathematics"><span class="tocnumber">7</span> <span class="toctext">Proof theory and constructive mathematics</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Connections_with_computer_science"><span class="tocnumber">8</span> <span class="toctext">Connections with computer science</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Foundations_of_mathematics"><span class="tocnumber">9</span> <span class="toctext">Foundations of mathematics</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#See_also"><span class="tocnumber">10</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Notes"><span class="tocnumber">11</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#Undergraduate_texts"><span class="tocnumber">12.1</span> <span class="toctext">Undergraduate texts</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Graduate_texts"><span class="tocnumber">12.2</span> <span class="toctext">Graduate texts</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Research_papers.2C_monographs.2C_texts.2C_and_surveys"><span class="tocnumber">12.3</span> <span class="toctext">Research papers, monographs, texts, and surveys</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Classical_papers.2C_texts.2C_and_collections"><span class="tocnumber">12.4</span> <span class="toctext">Classical papers, texts, and collections</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-29"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=1.php.html" title="Edit section: Subfields and scope">edit</a>]</span> <span class="mw-headline" id="Subfields_and_scope">Subfields and scope</span></h2>
+<p>The <i>Handbook of Mathematical Logic</i> makes a rough division of contemporary mathematical logic into four areas:</p>
+<ol>
+<li><a href="Set_theory" title="Set theory">set theory</a></li>
+<li><a href="Model_theory" title="Model theory">model theory</a></li>
+<li><a href="Recursion_theory" title="Recursion theory" class="mw-redirect">recursion theory</a>, and</li>
+<li><a href="Proof_theory" title="Proof theory">proof theory</a> and <a href="Constructive_mathematics" title="Constructive mathematics" class="mw-redirect">constructive mathematics</a> (considered as parts of a single area).</li>
+</ol>
+<p>Each area has a distinct focus, although many techniques and results are shared among multiple areas. The borderlines amongst these fields, and the lines separating mathematical logic and other fields of mathematics, are not always sharp. <a href="G%C3%B6del's_incompleteness_theorem" title="Gödel's incompleteness theorem" class="mw-redirect">Gödel's incompleteness theorem</a> marks not only a milestone in recursion theory and proof theory, but has also led to <a href="L%C3%B6b's_theorem" title="Löb's theorem">Löb's theorem</a> in modal logic. The method of <a href="Forcing_(mathematics)" title="Forcing (mathematics)">forcing</a> is employed in set theory, model theory, and recursion theory, as well as in the study of intuitionistic mathematics.</p>
+<p>The mathematical field of <a href="Category_theory" title="Category theory">category theory</a> uses many formal axiomatic methods, and includes the study of <a href="Categorical_logic" title="Categorical logic">categorical logic</a>, but category theory is not ordinarily considered a subfield of mathematical logic. Because of its applicability in diverse fields of mathematics, mathematicians including <a href="Saunders_Mac_Lane" title="Saunders Mac Lane">Saunders Mac Lane</a> have proposed category theory as a foundational system for mathematics, independent of set theory. These foundations use <a href="Topos" title="Topos">toposes</a>, which resemble generalized models of set theory that may employ classical or nonclassical logic.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=2.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>Mathematical logic emerged in the mid-19th century as a subfield of mathematics independent of the traditional study of logic (<a href="#CITEREFFerreir.C3.B3s2001">Ferreirós 2001</a>, p.&#160;443). Before this emergence, logic was studied with <a href="Rhetoric" title="Rhetoric">rhetoric</a>, through the <a href="Syllogism" title="Syllogism">syllogism</a>, and with <a href="Philosophy" title="Philosophy">philosophy</a>. The first half of the 20th century saw an explosion of fundamental results, accompanied by vigorous debate over the foundations of mathematics.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=3.php.html" title="Edit section: Early history">edit</a>]</span> <span class="mw-headline" id="Early_history">Early history</span></h3>
+<div class="rellink">Further information: <a href="History_of_logic" title="History of logic">History of logic</a></div>
+<p>Theories of logic were developed in many cultures in history, including <a href="Logic_in_China" title="Logic in China">China</a>, <a href="Logic_in_India" title="Logic in India" class="mw-redirect">India</a>, <a href="Logic_in_Greece" title="Logic in Greece" class="mw-redirect">Greece</a> and the <a href="Logic_in_Islamic_philosophy" title="Logic in Islamic philosophy">Islamic world</a>. In 18th century Europe, attempts to treat the operations of formal logic in a symbolic or algebraic way had been made by philosophical mathematicians including <a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a> and <a href="Johann_Heinrich_Lambert" title="Johann Heinrich Lambert">Lambert</a>, but their labors remained isolated and little known.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=4.php.html" title="Edit section: 19th century">edit</a>]</span> <span class="mw-headline" id="19th_century">19th century</span></h3>
+<p>In the middle of the nineteenth century, <a href="George_Boole" title="George Boole">George Boole</a> and then <a href="Augustus_De_Morgan" title="Augustus De Morgan">Augustus De Morgan</a> presented systematic mathematical treatments of logic. Their work, building on work by algebraists such as <a href="George_Peacock" title="George Peacock">George Peacock</a>, extended the traditional Aristotelian doctrine of logic into a sufficient framework for the study of <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a>&#160;(<a href="#CITEREFKatz1998">Katz 1998</a>, p.&#160;686).</p>
+<p><a href="Charles_Sanders_Peirce" title="Charles Sanders Peirce">Charles Sanders Peirce</a> built upon the work of Boole to develop a logical system for relations and quantifiers, which he published in several papers from 1870 to 1885. <a href="Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a> presented an independent development of logic with quantifiers in his <i><a href="Begriffsschrift" title="Begriffsschrift">Begriffsschrift</a></i>, published in 1879, a work generally considered as marking a turning point in the history of logic. Frege's work remained obscure, however, until <a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a> began to promote it near the turn of the century. The two-dimensional notation Frege developed was never widely adopted and is unused in contemporary texts.</p>
+<p>From 1890 to 1905, <a href="Ernst_Schr%C3%B6der" title="Ernst Schröder">Ernst Schröder</a> published <i>Vorlesungen über die Algebra der Logik</i> in three volumes. This work summarized and extended the work of Boole, De Morgan, and Peirce, and was a comprehensive reference to symbolic logic as it was understood at the end of the 19th century.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=5.php.html" title="Edit section: Foundational theories">edit</a>]</span> <span class="mw-headline" id="Foundational_theories">Foundational theories</span></h4>
+<p>Concerns that mathematics had not been built on a proper foundation led to the development of axiomatic systems for fundamental areas of mathematics such as arithmetic, analysis, and geometry.</p>
+<p>In logic, the term <i>arithmetic</i> refers to the theory of the <a href="Natural_number" title="Natural number">natural numbers</a>. <a href="Giuseppe_Peano" title="Giuseppe Peano">Giuseppe Peano</a> (<a href="#CITEREFPeano1888">1888</a>) published a set of axioms for arithmetic that came to bear his name (<a href="Peano_axioms" title="Peano axioms">Peano axioms</a>), using a variation of the logical system of Boole and Schröder but adding quantifiers. Peano was unaware of Frege's work at the time. Around the same time <a href="Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a> showed that the natural numbers are uniquely characterized by their <a href="Mathematical_induction" title="Mathematical induction">induction</a> properties. Dedekind (<a href="#CITEREFDedekind1888">1888</a>) proposed a different characterization, which lacked the formal logical character of Peano's axioms. Dedekind's work, however, proved theorems inaccessible in Peano's system, including the uniqueness of the set of natural numbers (up to isomorphism) and the recursive definitions of addition and multiplication from the <a href="Successor_function" title="Successor function">successor function</a> and mathematical induction.</p>
+<p>In the mid-19th century, flaws in Euclid's axioms for geometry became known (<a href="#CITEREFKatz1998">Katz 1998</a>, p.&#160;774). In addition to the independence of the <a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a>, established by <a href="Nikolai_Lobachevsky" title="Nikolai Lobachevsky">Nikolai Lobachevsky</a> in 1826 (<a href="#CITEREFLobachevsky1840">Lobachevsky 1840</a>), mathematicians discovered that certain theorems taken for granted by Euclid were not in fact provable from his axioms. Among these is the theorem that a line contains at least two points, or that circles of the same radius whose centers are separated by that radius must intersect. Hilbert (<a href="#CITEREFHilbert1899">1899</a>) developed a complete set of <a href="Hilbert's_axioms" title="Hilbert's axioms">axioms for geometry</a>, building on <a href="Pasch's_axiom" title="Pasch's axiom">previous work</a> by Pasch (<a href="#CITEREFPasch1882">1882</a>). The success in axiomatizing geometry motivated Hilbert to seek complete axiomatizations of other areas of mathematics, such as the natural numbers and the <a href="Real_line" title="Real line">real line</a>. This would prove to be a major area of research in the first half of the 20th century.</p>
+<p>The 19th century saw great advances in the theory of <a href="Real_analysis" title="Real analysis">real analysis</a>, including theories of convergence of functions and <a href="Fourier_series" title="Fourier series">Fourier series</a>. Mathematicians such as <a href="Karl_Weierstrass" title="Karl Weierstrass">Karl Weierstrass</a> began to construct functions that stretched intuition, such as <a href="Continuous,_nowhere_differentiable_function" title="Continuous, nowhere differentiable function" class="mw-redirect">nowhere-differentiable continuous functions</a>. Previous conceptions of a function as a rule for computation, or a smooth graph, were no longer adequate. Weierstrass began to advocate the <a href="Arithmetization_of_analysis" title="Arithmetization of analysis">arithmetization of analysis</a>, which sought to axiomatize analysis using properties of the natural numbers. The modern <a href="(%CE%B5,_%CE%B4)-definition_of_limit" title="(ε, δ)-definition of limit">(ε, δ)-definition of limit</a> and <a href="Continuous_function" title="Continuous function">continuous functions</a> was already developed by <a href="Bernard_Bolzano" title="Bernard Bolzano">Bolzano</a> in 1817 (<a href="#CITEREFFelscher2000">Felscher 2000</a>), but remained relatively unknown. <a href="Cauchy" title="Cauchy" class="mw-redirect">Cauchy</a> in 1821 defined continuity in terms of <a href="Infinitesimal" title="Infinitesimal">infinitesimals</a> (see Cours d'Analyse, page 34). In 1858, Dedekind proposed a definition of the real numbers in terms of <a href="Dedekind_cuts" title="Dedekind cuts" class="mw-redirect">Dedekind cuts</a> of rational numbers <a href="#CITEREFDedekind1872">(Dedekind 1872)</a>, a definition still employed in contemporary texts.</p>
+<p><a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a> developed the fundamental concepts of infinite set theory. His early results developed the theory of <a href="Cardinality" title="Cardinality">cardinality</a> and proved that the reals and the natural numbers have different cardinalities (Cantor 1874). Over the next twenty years, Cantor developed a theory of <a href="Transfinite_number" title="Transfinite number">transfinite numbers</a> in a series of publications. In 1891, he published a new proof of the uncountability of the real numbers that introduced the <a href="Cantor's_diagonal_argument" title="Cantor's diagonal argument">diagonal argument</a>, and used this method to prove <a href="Cantor's_theorem" title="Cantor's theorem">Cantor's theorem</a> that no set can have the same cardinality as its <a href="Powerset" title="Powerset" class="mw-redirect">powerset</a>. Cantor believed that every set could be well-ordered, but was unable to produce a proof for this result, leaving it as an open problem in 1895 (<a href="#CITEREFKatz1998">Katz 1998, p.&#160;807</a>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=6.php.html" title="Edit section: 20th century">edit</a>]</span> <span class="mw-headline" id="20th_century">20th century</span></h3>
+<p>In the early decades of the 20th century, the main areas of study were set theory and formal logic. The discovery of paradoxes in informal set theory caused some to wonder whether mathematics itself is inconsistent, and to look for proofs of consistency.</p>
+<p>In 1900, <a href="David_Hilbert" title="David Hilbert">Hilbert</a> posed a famous list of <a href="Hilbert's_problems" title="Hilbert's problems">23 problems</a> for the next century. The first two of these were to resolve the <a href="Continuum_hypothesis" title="Continuum hypothesis">continuum hypothesis</a> and prove the consistency of elementary arithmetic, respectively; the tenth was to produce a method that could decide whether a multivariate polynomial equation over the <a href="Integer" title="Integer">integers</a> has a solution. Subsequent work to resolve these problems shaped the direction of mathematical logic, as did the effort to resolve Hilbert's <i><a href="Entscheidungsproblem" title="Entscheidungsproblem">Entscheidungsproblem</a></i>, posed in 1928. This problem asked for a procedure that would decide, given a formalized mathematical statement, whether the statement is true or false.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=7.php.html" title="Edit section: Set theory and paradoxes">edit</a>]</span> <span class="mw-headline" id="Set_theory_and_paradoxes">Set theory and paradoxes</span></h4>
+<p><a href="Ernst_Zermelo" title="Ernst Zermelo">Ernst Zermelo</a> (<a href="#CITEREFZermelo1904">1904</a>) gave a proof that every set could be well-ordered, a result <a href="Georg_Cantor" title="Georg Cantor">Georg Cantor</a> had been unable to obtain. To achieve the proof, Zermelo introduced the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a>, which drew heated debate and research among mathematicians and the pioneers of set theory. The immediate criticism of the method led Zermelo to publish a second exposition of his result, directly addressing criticisms of his proof (<a href="#CITEREFZermelo1908a">Zermelo 1908a</a>). This paper led to the general acceptance of the axiom of choice in the mathematics community.</p>
+<p>Skepticism about the axiom of choice was reinforced by recently discovered paradoxes in naive set theory. <a href="Cesare_Burali-Forti" title="Cesare Burali-Forti">Cesare Burali-Forti</a> (<a href="#CITEREFBurali-Forti1897">1897</a>) was the first to state a paradox: the <a href="Burali-Forti_paradox" title="Burali-Forti paradox">Burali-Forti paradox</a> shows that the collection of all <a href="Ordinal_number" title="Ordinal number">ordinal numbers</a> cannot form a set. Very soon thereafter, <a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a> discovered <a href="Russell's_paradox" title="Russell's paradox">Russell's paradox</a> in 1901, and <a href="Jules_Richard" title="Jules Richard">Jules Richard</a> (<a href="#CITEREFRichard1905">1905</a>) discovered <a href="Richard's_paradox" title="Richard's paradox">Richard's paradox</a>.</p>
+<p>Zermelo (<a href="#CITEREFZermelo1908b">1908b</a>) provided the first set of axioms for set theory. These axioms, together with the additional <a href="Axiom_of_replacement" title="Axiom of replacement" class="mw-redirect">axiom of replacement</a> proposed by <a href="Abraham_Fraenkel" title="Abraham Fraenkel">Abraham Fraenkel</a>, are now called <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> (ZF). Zermelo's axioms incorporated the principle of <a href="Limitation_of_size" title="Limitation of size">limitation of size</a> to avoid Russell's paradox.</p>
+<p>In 1910, the first volume of <i><a href="Principia_Mathematica" title="Principia Mathematica">Principia Mathematica</a></i> by Russell and <a href="Alfred_North_Whitehead" title="Alfred North Whitehead">Alfred North Whitehead</a> was published. This seminal work developed the theory of functions and cardinality in a completely formal framework of <a href="Type_theory" title="Type theory">type theory</a>, which Russell and Whitehead developed in an effort to avoid the paradoxes. <i>Principia Mathematica</i> is considered one of the most influential works of the 20th century, although the framework of type theory did not prove popular as a foundational theory for mathematics (<a href="#CITEREFFerreir.C3.B3s2001">Ferreirós 2001</a>, p.&#160;445).</p>
+<p>Fraenkel (<a href="#CITEREFFraenkel1922">1922</a>) proved that the axiom of choice cannot be proved from the remaining axioms of Zermelo's set theory with <a href="Urelements" title="Urelements" class="mw-redirect">urelements</a>. Later work by <a href="Paul_Cohen_(mathematician)" title="Paul Cohen (mathematician)">Paul Cohen</a> (<a href="#CITEREFCohen1966">1966</a>) showed that the addition of urelements is not needed, and the axiom of choice is unprovable in ZF. Cohen's proof developed the method of <a href="Forcing_(mathematics)" title="Forcing (mathematics)">forcing</a>, which is now an important tool for establishing <a href="Independence_result" title="Independence result" class="mw-redirect">independence results</a> in set theory.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=8.php.html" title="Edit section: Symbolic logic">edit</a>]</span> <span class="mw-headline" id="Symbolic_logic">Symbolic logic</span></h4>
+<p><a href="Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Leopold Löwenheim</a> (<a href="#CITEREFL.C3.B6wenheim1915">1915</a>) and <a href="Thoralf_Skolem" title="Thoralf Skolem">Thoralf Skolem</a> (<a href="#CITEREFSkolem1920">1920</a>) obtained the <a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a>, which says that first-order logic cannot control the cardinalities of infinite structures. Skolem realized that this theorem would apply to first-order formalizations of set theory, and that it implies any such formalization has a <a href="Countable" title="Countable" class="mw-redirect">countable</a> <a href="Structure_(mathematical_logic)" title="Structure (mathematical logic)">model</a>. This counterintuitive fact became known as <a href="Skolem's_paradox" title="Skolem's paradox">Skolem's paradox</a>.</p>
+<p>In his doctoral thesis, <a href="Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a> (<a href="#CITEREFG.C3.B6del1929">1929</a>) proved the <a href="Completeness_theorem" title="Completeness theorem" class="mw-redirect">completeness theorem</a>, which establishes a correspondence between syntax and semantics in <a href="First-order_logic" title="First-order logic">first-order logic</a>. Gödel used the completeness theorem to prove the <a href="Compactness_theorem" title="Compactness theorem">compactness theorem</a>, demonstrating the finitary nature of first-order <a href="Logical_consequence" title="Logical consequence">logical consequence</a>. These results helped establish first-order logic as the dominant logic used by mathematicians.</p>
+<p>In 1931, Gödel published <i><a href="On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems" title="On Formally Undecidable Propositions of Principia Mathematica and Related Systems">On Formally Undecidable Propositions of Principia Mathematica and Related Systems</a></i>, which proved the incompleteness (in a different meaning of the word) of all sufficiently strong, effective first-order theories. This result, known as <a href="G%C3%B6del's_incompleteness_theorem" title="Gödel's incompleteness theorem" class="mw-redirect">Gödel's incompleteness theorem</a>, establishes severe limitations on axiomatic foundations for mathematics, striking a strong blow to Hilbert's program. It showed the impossibility of providing a consistency proof of arithmetic within any formal theory of arithmetic. Hilbert, however, did not acknowledge the importance of the incompleteness theorem for some time.</p>
+<p>Gödel's theorem shows that a consistency proof of any sufficiently strong, effective axiom system cannot be obtained in the system itself, if the system is consistent, nor in any weaker system. This leaves open the possibility of consistency proofs that cannot be formalized within the system they consider. Gentzen (<a href="#CITEREFGentzen1936">1936</a>) proved the consistency of arithmetic using a finitistic system together with a principle of <a href="Transfinite_induction" title="Transfinite induction">transfinite induction</a>. Gentzen's result introduced the ideas of <a href="Cut_elimination" title="Cut elimination" class="mw-redirect">cut elimination</a> and <a href="Proof-theoretic_ordinal" title="Proof-theoretic ordinal" class="mw-redirect">proof-theoretic ordinals</a>, which became key tools in proof theory. Gödel (<a href="#CITEREFG.C3.B6del1958">1958</a>) gave a different consistency proof, which reduces the consistency of classical arithmetic to that of intutitionistic arithmetic in higher types.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=9.php.html" title="Edit section: Beginnings of the other branches">edit</a>]</span> <span class="mw-headline" id="Beginnings_of_the_other_branches">Beginnings of the other branches</span></h4>
+<p><a href="Alfred_Tarski" title="Alfred Tarski">Alfred Tarski</a> developed the basics of <a href="Model_theory" title="Model theory">model theory</a>.</p>
+<p>Beginning in 1935, a group of prominent mathematicians collaborated under the pseudonym <a href="Nicolas_Bourbaki" title="Nicolas Bourbaki">Nicolas Bourbaki</a> to publish a series of encyclopedic mathematics texts. These texts, written in an austere and axiomatic style, emphasized rigorous presentation and set-theoretic foundations. Terminology coined by these texts, such as the words <a href="Bijection,_injection,_and_surjection" title="Bijection, injection, and surjection" class="mw-redirect"><i>bijection</i>, <i>injection</i>, and <i>surjection</i></a>, and the set-theoretic foundations the texts employed, were widely adopted throughout mathematics.</p>
+<p>The study of computability came to be known as recursion theory, because early formalizations by Gödel and Kleene relied on recursive definitions of functions.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> When these definitions were shown equivalent to Turing's formalization involving Turing machines, it became clear that a new concept – the <a href="Computable_function" title="Computable function">computable function</a> – had been discovered, and that this definition was robust enough to admit numerous independent characterizations. In his work on the incompleteness theorems in 1931, Gödel lacked a rigorous concept of an effective formal system; he immediately realized that the new definitions of computability could be used for this purpose, allowing him to state the incompleteness theorems in generality that could only be implied in the original paper.</p>
+<p>Numerous results in recursion theory were obtained in the 1940s by <a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Stephen Cole Kleene</a> and <a href="Emil_Leon_Post" title="Emil Leon Post">Emil Leon Post</a>. Kleene (<a href="#CITEREFKleene1943">1943</a>) introduced the concepts of relative computability, foreshadowed by Turing (<a href="#CITEREFTuring1939">1939</a>), and the <a href="Arithmetical_hierarchy" title="Arithmetical hierarchy">arithmetical hierarchy</a>. Kleene later generalized recursion theory to higher-order functionals. Kleene and Kreisel studied formal versions of intuitionistic mathematics, particularly in the context of proof theory.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=10.php.html" title="Edit section: Formal logical systems">edit</a>]</span> <span class="mw-headline" id="Formal_logical_systems">Formal logical systems <span id="Formal_logic"></span></span></h2>
+<p>At its core, mathematical logic deals with mathematical concepts expressed using formal <a href="Logical_system" title="Logical system" class="mw-redirect">logical systems</a>. These systems, though they differ in many details, share the common property of considering only expressions in a fixed formal language, or signature. The systems of <a href="Propositional_logic" title="Propositional logic" class="mw-redirect">propositional logic</a> and <a href="First-order_logic" title="First-order logic">first-order logic</a> are the most widely studied today, because of their applicability to <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a> and because of their desirable proof-theoretic properties.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Stronger classical logics such as <a href="Second-order_logic" title="Second-order logic">second-order logic</a> or <a href="Infinitary_logic" title="Infinitary logic">infinitary logic</a> are also studied, along with nonclassical logics such as <a href="Intuitionistic_logic" title="Intuitionistic logic">intuitionistic logic</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=11.php.html" title="Edit section: First-order logic">edit</a>]</span> <span class="mw-headline" id="First-order_logic">First-order logic</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="First-order_logic" title="First-order logic">First-order logic</a></div>
+<p><b>First-order logic</b> is a particular <a href="Logical_system" title="Logical system" class="mw-redirect">formal system of logic</a>. Its <a href="Syntax" title="Syntax">syntax</a> involves only finite expressions as well-formed formulas, while its <a href="Semantics" title="Semantics">semantics</a> are characterized by the limitation of all <a href="Quantifiers" title="Quantifiers" class="mw-redirect">quantifiers</a> to a fixed <a href="Domain_of_discourse" title="Domain of discourse">domain of discourse</a>.</p>
+<p>Early results about formal logic established limitations of first-order logic. The <a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a> (1919) showed that if a set of sentences in a countable first-order language has an infinite model then it has at least one model of each infinite cardinality. This shows that it is impossible for a set of first-order axioms to characterize the natural numbers, the real numbers, or any other infinite structure up to <a href="Isomorphism" title="Isomorphism">isomorphism</a>. As the goal of early foundational studies was to produce axiomatic theories for all parts of mathematics, this limitation was particularly stark.</p>
+<p><a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a> (<a href="#CITEREFG.C3.B6del1929">Gödel 1929</a>) established the equivalence between semantic and syntactic definitions of <a href="Logical_consequence" title="Logical consequence">logical consequence</a> in first-order logic. It shows that if a particular sentence is true in every model that satisfies a particular set of axioms, then there must be a finite deduction of the sentence from the axioms. The <a href="Compactness_theorem" title="Compactness theorem">compactness theorem</a> first appeared as a lemma in Gödel's proof of the completeness theorem, and it took many years before logicians grasped its significance and began to apply it routinely. It says that a set of sentences has a model <a href="If_and_only_if" title="If and only if">if and only if</a> every finite subset has a model, or in other words that an inconsistent set of formulas must have a finite inconsistent subset. The completeness and compactness theorems allow for sophisticated analysis of logical consequence in first-order logic and the development of <a href="Model_theory" title="Model theory">model theory</a>, and they are a key reason for the prominence of first-order logic in mathematics.</p>
+<p><a href="G%C3%B6del's_incompleteness_theorems" title="Gödel's incompleteness theorems">Gödel's incompleteness theorems</a> (<a href="#CITEREFG.C3.B6del1931">Gödel 1931</a>) establish additional limits on first-order axiomatizations. The <b>first incompleteness theorem</b> states that for any sufficiently strong, effectively given logical system there exists a statement which is true but not provable within that system. Here a logical system is effectively given if it is possible to decide, given any formula in the language of the system, whether the formula is an axiom. A logical system is sufficiently strong if it can express the <a href="Peano_axioms" title="Peano axioms">Peano axioms</a>. When applied to first-order logic, the first incompleteness theorem implies that any sufficiently strong, consistent, effective first-order theory has models that are not <a href="Elementary_substructure" title="Elementary substructure" class="mw-redirect">elementarily equivalent</a>, a stronger limitation than the one established by the Löwenheim–Skolem theorem. The <b>second incompleteness theorem</b> states that no sufficiently strong, consistent, effective axiom system for arithmetic can prove its own consistency, which has been interpreted to show that Hilbert's program cannot be completed.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=12.php.html" title="Edit section: Other classical logics">edit</a>]</span> <span class="mw-headline" id="Other_classical_logics">Other classical logics</span></h3>
+<p>Many logics besides first-order logic are studied. These include <a href="Infinitary_logics" title="Infinitary logics" class="mw-redirect">infinitary logics</a>, which allow for formulas to provide an infinite amount of information, and <a href="Higher-order_logic" title="Higher-order logic">higher-order logics</a>, which include a portion of set theory directly in their semantics.</p>
+<p>The most well studied infinitary logic is <img class="tex" alt="L_{\omega_1,\omega}" src="http://upload.wikimedia.org/math/5/b/3/5b3e5714836226ae1bc535c538b38774.png" />. In this logic, quantifiers may only be nested to finite depths, as in first-order logic, but formulas may have finite or countably infinite conjunctions and disjunctions within them. Thus, for example, it is possible to say that an object is a whole number using a formula of <img class="tex" alt="L_{\omega_1,\omega}" src="http://upload.wikimedia.org/math/5/b/3/5b3e5714836226ae1bc535c538b38774.png" /> such as</p>
+<dl>
+<dd><img class="tex" alt="(x = 0) \lor (x = 1) \lor (x = 2) \lor \cdots." src="http://upload.wikimedia.org/math/7/a/a/7aa80f950fdf2b1148456c4afeab11f8.png" /></dd>
+</dl>
+<p>Higher-order logics allow for quantification not only of elements of the domain of discourse, but subsets of the domain of discourse, sets of such subsets, and other objects of higher type. The semantics are defined so that, rather than having a separate domain for each higher-type quantifier to range over, the quantifiers instead range over all objects of the appropriate type. The logics studied before the development of first-order logic, for example Frege's logic, had similar set-theoretic aspects. Although higher-order logics are more expressive, allowing complete axiomatizations of structures such as the natural numbers, they do not satisfy analogues of the completeness and compactness theorems from first-order logic, and are thus less amenable to proof-theoretic analysis.</p>
+<p>Another type of logics are <a href="../../w/index-title=Fixed-point_logic&action=edit&redlink=1.php.html" class="new" title="Fixed-point logic (page does not exist)">fixed-point logics</a> that allow <a href="Inductive_definition" title="Inductive definition" class="mw-redirect">inductive definitions</a>, like one writes for <a href="Primitive_recursive_function" title="Primitive recursive function">primitive recursive functions</a>.</p>
+<p>One can formally define an extension of first-order logic — a notion which encompasses all logics in this section because they behave like first-order logic in certain fundamental ways, but does not encompass all logics in general, e.g. it does not encompass intuitionistic, modal or <a href="Fuzzy_logic" title="Fuzzy logic">fuzzy logic</a>. <a href="Lindstr%C3%B6m's_theorem" title="Lindström's theorem">Lindström's theorem</a> implies that the only extension of first-order logic satisfying both the <a href="Compactness_theorem" title="Compactness theorem">compactness theorem</a> and the Downward <a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a> is first-order logic.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=13.php.html" title="Edit section: Nonclassical and modal logic">edit</a>]</span> <span class="mw-headline" id="Nonclassical_and_modal_logic">Nonclassical and modal logic</span></h3>
+<p><a href="Modal_logic" title="Modal logic">Modal logics</a> include additional modal operators, such as an operator which states that a particular formula is not only true, but necessarily true. Although modal logic is not often used to axiomatize mathematics, it has been used to study the properties of first-order provability (<a href="#CITEREFSolovay1976">Solovay 1976</a>) and set-theoretic forcing (<a href="#CITEREFHamkinsL.C3.B6we">Hamkins and Löwe 2007</a>).</p>
+<p><a href="Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a> was developed by Heyting to study Brouwer's program of intuitionism, in which Brouwer himself avoided formalization. Intuitionistic logic specifically does not include the <a href="Law_of_the_excluded_middle" title="Law of the excluded middle" class="mw-redirect">law of the excluded middle</a>, which states that each sentence is either true or its negation is true. Kleene's work with the proof theory of intuitionistic logic showed that constructive information can be recovered from intuitionistic proofs. For example, any provably total function in intuitionistic arithmetic is <a href="Computable" title="Computable" class="mw-redirect">computable</a>; this is not true in classical theories of arithmetic such as <a href="Peano_arithmetic" title="Peano arithmetic" class="mw-redirect">Peano arithmetic</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=14.php.html" title="Edit section: Algebraic logic">edit</a>]</span> <span class="mw-headline" id="Algebraic_logic">Algebraic logic</span></h3>
+<p><a href="Algebraic_logic" title="Algebraic logic">Algebraic logic</a> uses the methods of <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a> to study the semantics of formal logics. A fundamental example is the use of <a href="Boolean_algebra_(structure)" title="Boolean algebra (structure)">Boolean algebras</a> to represent <a href="Truth_value" title="Truth value">truth values</a> in classical propositional logic, and the use of <a href="Heyting_algebra" title="Heyting algebra">Heyting algebras</a> to represent truth values in intuitionistic propositional logic. Stronger logics, such as first-order logic and higher-order logic, are studied using more complicated algebraic structures such as <a href="Cylindric_algebra" title="Cylindric algebra">cylindric algebras</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=15.php.html" title="Edit section: Set theory">edit</a>]</span> <span class="mw-headline" id="Set_theory">Set theory</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Set_theory" title="Set theory">Set theory</a></div>
+<p><b><a href="Set_theory" title="Set theory">Set theory</a></b> is the study of <a href="Set_(mathematics)" title="Set (mathematics)">sets</a>, which are abstract collections of objects. Many of the basic notions, such as ordinal and cardinal numbers, were developed informally by Cantor before formal axiomatizations of set theory were developed. The first such axiomatization, due to Zermelo (<a href="#CITEREFZermelo1908b">1908b</a>), was extended slightly to become <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> (ZF), which is now the most widely used foundational theory for mathematics.</p>
+<p>Other formalizations of set theory have been proposed, including <a href="Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory" title="Von Neumann–Bernays–Gödel set theory">von Neumann–Bernays–Gödel set theory</a> (NBG), <a href="Morse%E2%80%93Kelley_set_theory" title="Morse–Kelley set theory">Morse–Kelley set theory</a> (MK), and <a href="New_Foundations" title="New Foundations">New Foundations</a> (NF). Of these, ZF, NBG, and MK are similar in describing a <a href="Cumulative_hierarchy" title="Cumulative hierarchy" class="mw-redirect">cumulative hierarchy</a> of sets. New Foundations takes a different approach; it allows objects such as the set of all sets at the cost of restrictions on its set-existence axioms. The system of <a href="Kripke%E2%80%93Platek_set_theory" title="Kripke–Platek set theory">Kripke–Platek set theory</a> is closely related to generalized recursion theory.</p>
+<p>Two famous statements in set theory are the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a> and the <a href="Continuum_hypothesis" title="Continuum hypothesis">continuum hypothesis</a>. The axiom of choice, first stated by Zermelo (<a href="#CITEREFZermelo1904">1904</a>), was proved independent of ZF by Fraenkel (<a href="#CITEREFFraenkel1922">1922</a>), but has come to be widely accepted by mathematicians. It states that given a collection of nonempty sets there is a single set <i>C</i> that contains exactly one element from each set in the collection. The set <i>C</i> is said to "choose" one element from each set in the collection. While the ability to make such a choice is considered obvious by some, since each set in the collection is nonempty, the lack of a general, concrete rule by which the choice can be made renders the axiom nonconstructive. <a href="Stefan_Banach" title="Stefan Banach">Stefan Banach</a> and <a href="Alfred_Tarski" title="Alfred Tarski">Alfred Tarski</a> (1924) showed that the axiom of choice can be used to decompose a solid ball into a finite number of pieces which can then be rearranged, with no scaling, to make two solid balls of the original size. This theorem, known as the <a href="Banach%E2%80%93Tarski_paradox" title="Banach–Tarski paradox">Banach–Tarski paradox</a>, is one of many counterintuitive results of the axiom of choice.</p>
+<p>The continuum hypothesis, first proposed as a conjecture by Cantor, was listed by David Hilbert as one of his 23 problems in 1900. Gödel showed that the continuum hypothesis cannot be disproven from the axioms of Zermelo–Fraenkel set theory (with or without the axiom of choice), by developing the <a href="Constructible_universe" title="Constructible universe">constructible universe</a> of set theory in which the continuum hypothesis must hold. In 1963, <a href="Paul_Cohen_(mathematician)" title="Paul Cohen (mathematician)">Paul Cohen</a> showed that the continuum hypothesis cannot be proven from the axioms of Zermelo–Fraenkel set theory (<a href="#CITEREFCohen1966">Cohen 1966</a>). This independence result did not completely settle Hilbert's question, however, as it is possible that new axioms for set theory could resolve the hypothesis. Recent work along these lines has been conducted by <a href="../W._Hugh_Woodin" title="W. Hugh Woodin">W. Hugh Woodin</a>, although its importance is not yet clear (<a href="#CITEREFWoodin2001">Woodin 2001</a>).</p>
+<p>Contemporary research in set theory includes the study of <a href="Large_cardinal" title="Large cardinal">large cardinals</a> and <a href="Determinacy" title="Determinacy">determinacy</a>. Large cardinals are <a href="Cardinal_numbers" title="Cardinal numbers" class="mw-redirect">cardinal numbers</a> with particular properties so strong that the existence of such cardinals cannot be proved in ZFC. The existence of the smallest large cardinal typically studied, an <a href="Inaccessible_cardinal" title="Inaccessible cardinal">inaccessible cardinal</a>, already implies the consistency of ZFC. Despite the fact that large cardinals have extremely high <a href="Cardinality" title="Cardinality">cardinality</a>, their existence has many ramifications for the structure of the real line. <i>Determinacy</i> refers to the possible existence of winning strategies for certain two-player games (the games are said to be <i>determined</i>). The existence of these strategies implies structural properties of the real line and other <a href="Polish_space" title="Polish space">Polish spaces</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=16.php.html" title="Edit section: Model theory">edit</a>]</span> <span class="mw-headline" id="Model_theory">Model theory</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Model_theory" title="Model theory">Model theory</a></div>
+<p><b><a href="Model_theory" title="Model theory">Model theory</a></b> studies the models of various formal theories. Here a <a href="Theory_(mathematical_logic)" title="Theory (mathematical logic)">theory</a> is a set of formulas in a particular formal logic and <a href="Signature_(logic)" title="Signature (logic)">signature</a>, while a <a href="Structure_(mathematical_logic)" title="Structure (mathematical logic)">model</a> is a structure that gives a concrete interpretation of the theory. Model theory is closely related to <a href="Universal_algebra" title="Universal algebra">universal algebra</a> and <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a>, although the methods of model theory focus more on logical considerations than those fields.</p>
+<p>The set of all models of a particular theory is called an <a href="Elementary_class" title="Elementary class">elementary class</a>; classical model theory seeks to determine the properties of models in a particular elementary class, or determine whether certain classes of structures form elementary classes.</p>
+<p>The method of <a href="Quantifier_elimination" title="Quantifier elimination">quantifier elimination</a> can be used to show that definable sets in particular theories cannot be too complicated. Tarski (<a href="#CITEREFTarski1948">1948</a>) established quantifier elimination for <a href="Real-closed_field" title="Real-closed field" class="mw-redirect">real-closed fields</a>, a result which also shows the theory of the field of real numbers is <a href="Decidable_set" title="Decidable set" class="mw-redirect">decidable</a>. (He also noted that his methods were equally applicable to algebraically closed fields of arbitrary characteristic.) A modern subfield developing from this is concerned with <a href="O-minimal_theory" title="O-minimal theory">o-minimal structures</a>.</p>
+<p><a href="Morley's_categoricity_theorem" title="Morley's categoricity theorem">Morley's categoricity theorem</a>, proved by <a href="../Michael_D._Morley" title="Michael D. Morley">Michael D. Morley</a> (1965), states that if a first-order theory in a countable language is categorical in some uncountable cardinality, i.e. all models of this cardinality are isomorphic, then it is categorical in all uncountable cardinalities.</p>
+<p>A trivial consequence of the <a href="Continuum_hypothesis" title="Continuum hypothesis">continuum hypothesis</a> is that a complete theory with less than continuum many nonisomorphic countable models can have only countably many. <a href="Vaught_conjecture" title="Vaught conjecture">Vaught's conjecture</a>, named after <a href="Robert_Lawson_Vaught" title="Robert Lawson Vaught">Robert Lawson Vaught</a>, says that this is true even independently of the continuum hypothesis. Many special cases of this conjecture have been established.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=17.php.html" title="Edit section: Recursion theory">edit</a>]</span> <span class="mw-headline" id="Recursion_theory">Recursion theory</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Recursion_theory" title="Recursion theory" class="mw-redirect">Recursion theory</a></div>
+<p><b><a href="Recursion_theory" title="Recursion theory" class="mw-redirect">Recursion theory</a></b>, also called <b>computability theory</b>, studies the properties of <a href="Computable_function" title="Computable function">computable functions</a> and the <a href="Turing_degree" title="Turing degree">Turing degrees</a>, which divide the uncomputable functions into sets which have the same level of uncomputability. Recursion theory also includes the study of generalized computability and definability. Recursion theory grew from the work of <a href="Alonzo_Church" title="Alonzo Church">Alonzo Church</a> and <a href="Alan_Turing" title="Alan Turing">Alan Turing</a> in the 1930s, which was greatly extended by <a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Kleene</a> and <a href="Emil_Leon_Post" title="Emil Leon Post">Post</a> in the 1940s.</p>
+<p>Classical recursion theory focuses on the computability of functions from the natural numbers to the natural numbers. The fundamental results establish a robust, canonical class of computable functions with numerous independent, equivalent characterizations using <a href="Turing_machine" title="Turing machine">Turing machines</a>, <a href="Lambda_calculus" title="Lambda calculus">λ calculus</a>, and other systems. More advanced results concern the structure of the Turing degrees and the <a href="Lattice_(order)" title="Lattice (order)">lattice</a> of <a href="Recursively_enumerable_set" title="Recursively enumerable set">recursively enumerable sets</a>.</p>
+<p>Generalized recursion theory extends the ideas of recursion theory to computations that are no longer necessarily finite. It includes the study of computability in higher types as well as areas such as <a href="Hyperarithmetical_theory" title="Hyperarithmetical theory">hyperarithmetical theory</a> and <a href="Alpha_recursion_theory" title="Alpha recursion theory">α-recursion theory</a>.</p>
+<p>Contemporary research in recursion theory includes the study of applications such as <a href="Algorithmic_randomness" title="Algorithmic randomness" class="mw-redirect">algorithmic randomness</a>, <a href="Computable_model_theory" title="Computable model theory">computable model theory</a>, and <a href="Reverse_mathematics" title="Reverse mathematics">reverse mathematics</a>, as well as new results in pure recursion theory.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=18.php.html" title="Edit section: Algorithmically unsolvable problems">edit</a>]</span> <span class="mw-headline" id="Algorithmically_unsolvable_problems">Algorithmically unsolvable problems</span></h3>
+<p>An important subfield of recursion theory studies algorithmic unsolvability; a <a href="Decision_problem" title="Decision problem">decision problem</a> or <a href="Function_problem" title="Function problem">function problem</a> is <b>algorithmically unsolvable</b> if there is no possible computable algorithm which returns the correct answer for all legal inputs to the problem. The first results about unsolvability, obtained independently by Church and Turing in 1936, showed that the <a href="Entscheidungsproblem" title="Entscheidungsproblem">Entscheidungsproblem</a> is algorithmically unsolvable. Turing proved this by establishing the unsolvability of the <a href="Halting_problem" title="Halting problem">halting problem</a>, a result with far-ranging implications in both recursion theory and computer science.</p>
+<p>There are many known examples of undecidable problems from ordinary mathematics. The <a href="Word_problem_for_groups" title="Word problem for groups">word problem for groups</a> was proved algorithmically unsolvable by <a href="Pyotr_Novikov" title="Pyotr Novikov">Pyotr Novikov</a> in 1955 and independently by W. Boone in 1959. The <a href="Busy_beaver" title="Busy beaver">busy beaver</a> problem, developed by <a href="Tibor_Rad%C3%B3" title="Tibor Radó">Tibor Radó</a> in 1962, is another well-known example.</p>
+<p><a href="Hilbert's_tenth_problem" title="Hilbert's tenth problem">Hilbert's tenth problem</a> asked for an algorithm to determine whether a multivariate polynomial equation with integer coefficients has a solution in the integers. Partial progress was made by <a href="Julia_Robinson" title="Julia Robinson">Julia Robinson</a>, <a href="Martin_Davis" title="Martin Davis">Martin Davis</a> and <a href="Hilary_Putnam" title="Hilary Putnam">Hilary Putnam</a>. The algorithmic unsolvability of the problem was proved by <a href="Yuri_Matiyasevich" title="Yuri Matiyasevich">Yuri Matiyasevich</a> in 1970 (Davis 1973).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=19.php.html" title="Edit section: Proof theory and constructive mathematics">edit</a>]</span> <span class="mw-headline" id="Proof_theory_and_constructive_mathematics">Proof theory and constructive mathematics</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Proof_theory" title="Proof theory">Proof theory</a></div>
+<p><b><a href="Proof_theory" title="Proof theory">Proof theory</a></b> is the study of formal proofs in various logical deduction systems. These proofs are represented as formal mathematical objects, facilitating their analysis by mathematical techniques. Several deduction systems are commonly considered, including <a href="Hilbert-style_deduction_system" title="Hilbert-style deduction system" class="mw-redirect">Hilbert-style deduction systems</a>, systems of <a href="Natural_deduction" title="Natural deduction">natural deduction</a>, and the <a href="Sequent_calculus" title="Sequent calculus">sequent calculus</a> developed by Gentzen.</p>
+<p>The study of <b>constructive mathematics</b>, in the context of mathematical logic, includes the study of systems in non-classical logic such as intuitionistic logic, as well as the study of <a href="Impredicativity" title="Impredicativity">predicative</a> systems. An early proponent of predicativism was <a href="Hermann_Weyl" title="Hermann Weyl">Hermann Weyl</a>, who showed it is possible to develop a large part of real analysis using only predicative methods (Weyl 1918).</p>
+<p>Because proofs are entirely finitary, whereas truth in a structure is not, it is common for work in constructive mathematics to emphasize provability. The relationship between provability in classical (or nonconstructive) systems and provability in intuitionistic (or constructive, respectively) systems is of particular interest. Results such as the <a href="G%C3%B6del%E2%80%93Gentzen_negative_translation" title="Gödel–Gentzen negative translation" class="mw-redirect">Gödel–Gentzen negative translation</a> show that it is possible to embed (or <i>translate</i>) classical logic into intuitionistic logic, allowing some properties about intuitionistic proofs to be transferred back to classical proofs.</p>
+<p>Recent developments in proof theory include the study of <a href="Proof_mining" title="Proof mining">proof mining</a> by <a href="Ulrich_Kohlenbach" title="Ulrich Kohlenbach">Ulrich Kohlenbach</a> and the study of <a href="Proof-theoretic_ordinal" title="Proof-theoretic ordinal" class="mw-redirect">proof-theoretic ordinals</a> by Michael Rathjen.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=20.php.html" title="Edit section: Connections with computer science">edit</a>]</span> <span class="mw-headline" id="Connections_with_computer_science">Connections with computer science</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a></div>
+<p>The study of <a href="Computability_theory_(computer_science)" title="Computability theory (computer science)" class="mw-redirect">computability theory in computer science</a> is closely related to the study of computability in mathematical logic. There is a difference of emphasis, however. Computer scientists often focus on concrete programming languages and <a href="Feasible_computability" title="Feasible computability" class="mw-redirect">feasible computability</a>, while researchers in mathematical logic often focus on computability as a theoretical concept and on noncomputability.</p>
+<p>The theory of <a href="Program_semantics" title="Program semantics" class="mw-redirect">semantics of programming languages</a> is related to <a href="Model_theory" title="Model theory">model theory</a>, as is <a href="Program_verification" title="Program verification" class="mw-redirect">program verification</a> (in particular, <a href="Model_checking" title="Model checking">model checking</a>). The <a href="Curry%E2%80%93Howard_isomorphism" title="Curry–Howard isomorphism" class="mw-redirect">Curry–Howard isomorphism</a> between proofs and programs relates to <a href="Proof_theory" title="Proof theory">proof theory</a>, especially <a href="Intuitionistic_logic" title="Intuitionistic logic">intuitionistic logic</a>. Formal calculi such as the <a href="Lambda_calculus" title="Lambda calculus">lambda calculus</a> and <a href="Combinatory_logic" title="Combinatory logic">combinatory logic</a> are now studied as idealized <a href="Programming_languages" title="Programming languages" class="mw-redirect">programming languages</a>.</p>
+<p>Computer science also contributes to mathematics by developing techniques for the automatic checking or even finding of proofs, such as <a href="Automated_theorem_proving" title="Automated theorem proving">automated theorem proving</a> and <a href="Logic_programming" title="Logic programming">logic programming</a>.</p>
+<p><a href="Descriptive_complexity_theory" title="Descriptive complexity theory">Descriptive complexity theory</a> relates logics to <a href="Computational_complexity" title="Computational complexity" class="mw-redirect">computational complexity</a>. The first significant result in this area, <a href="Fagin's_theorem" title="Fagin's theorem">Fagin's theorem</a> (1974) established that <a href="NP_(complexity)" title="NP (complexity)">NP</a> is precisely the set of languages expressible by sentences of existential <a href="Second-order_logic" title="Second-order logic">second-order logic</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=21.php.html" title="Edit section: Foundations of mathematics">edit</a>]</span> <span class="mw-headline" id="Foundations_of_mathematics">Foundations of mathematics</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></div>
+<p>In the 19th century, mathematicians became aware of logical gaps and inconsistencies in their field. It was shown that <a href="Euclid" title="Euclid">Euclid</a>'s axioms for geometry, which had been taught for centuries as an example of the axiomatic method, were incomplete. The use of <a href="Infinitesimal" title="Infinitesimal">infinitesimals</a>, and the very definition of <a href="Function_(mathematics)" title="Function (mathematics)">function</a>, came into question in analysis, as pathological examples such as Weierstrass' nowhere-<a href="Differentiable" title="Differentiable" class="mw-redirect">differentiable</a> continuous function were discovered.</p>
+<p>Cantor's study of arbitrary infinite sets also drew criticism. <a href="Leopold_Kronecker" title="Leopold Kronecker">Leopold Kronecker</a> famously stated "God made the integers; all else is the work of man," endorsing a return to the study of finite, concrete objects in mathematics. Although Kronecker's argument was carried forward by constructivists in the 20th century, the mathematical community as a whole rejected them. <a href="David_Hilbert" title="David Hilbert">David Hilbert</a> argued in favor of the study of the infinite, saying "No one shall expel us from the Paradise that Cantor has created."</p>
+<p>Mathematicians began to search for axiom systems that could be used to formalize large parts of mathematics. In addition to removing ambiguity from previously-naive terms such as function, it was hoped that this axiomatization would allow for consistency proofs. In the 19th century, the main method of proving the consistency of a set of axioms was to provide a model for it. Thus, for example, <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean geometry</a> can be proved consistent by defining <i>point</i> to mean a point on a fixed sphere and <i>line</i> to mean a <a href="Great_circle" title="Great circle">great circle</a> on the sphere. The resulting structure, a model of <a href="Elliptic_geometry" title="Elliptic geometry">elliptic geometry</a>, satisfies the axioms of plane geometry except the parallel postulate.</p>
+<p>With the development of formal logic, Hilbert asked whether it would be possible to prove that an axiom system is consistent by analyzing the structure of possible proofs in the system, and showing through this analysis that it is impossible to prove a contradiction. This idea led to the study of <a href="Proof_theory" title="Proof theory">proof theory</a>. Moreover, Hilbert proposed that the analysis should be entirely concrete, using the term <i>finitary</i> to refer to the methods he would allow but not precisely defining them. This project, known as <a href="Hilbert's_program" title="Hilbert's program">Hilbert's program</a>, was seriously affected by Gödel's incompleteness theorems, which show that the consistency of formal theories of arithmetic cannot be established using methods formalizable in those theories. Gentzen showed that it is possible to produce a proof of the consistency of arithmetic in a finitary system augmented with axioms of <a href="Transfinite_induction" title="Transfinite induction">transfinite induction</a>, and the techniques he developed to so do were seminal in proof theory.</p>
+<p>A second thread in the history of foundations of mathematics involves <a href="Nonclassical_logic" title="Nonclassical logic" class="mw-redirect">nonclassical logics</a> and <a href="Constructive_mathematics" title="Constructive mathematics" class="mw-redirect">constructive mathematics</a>. The study of constructive mathematics includes many different programs with various definitions of <i>constructive</i>. At the most accommodating end, proofs in ZF set theory that do not use the axiom of choice are called constructive by many mathematicians. More limited versions of constructivism limit themselves to <a href="Natural_numbers" title="Natural numbers" class="mw-redirect">natural numbers</a>, <a href="Number-theoretic_function" title="Number-theoretic function" class="mw-redirect">number-theoretic functions</a>, and sets of natural numbers (which can be used to represent real numbers, facilitating the study of <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a>). A common idea is that a concrete means of computing the values of the function must be known before the function itself can be said to exist.</p>
+<p>In the early 20th century, <a href="Luitzen_Egbertus_Jan_Brouwer" title="Luitzen Egbertus Jan Brouwer">Luitzen Egbertus Jan Brouwer</a> founded <a href="Intuitionism" title="Intuitionism">intuitionism</a> as a philosophy of mathematics. This philosophy, poorly understood at first, stated that in order for a mathematical statement to be true to a mathematician, that person must be able to <i>intuit</i> the statement, to not only believe its truth but understand the reason for its truth. A consequence of this definition of truth was the rejection of the <a href="Law_of_the_excluded_middle" title="Law of the excluded middle" class="mw-redirect">law of the excluded middle</a>, for there are statements that, according to Brouwer, could not be claimed to be true while their negations also could not be claimed true. Brouwer's philosophy was influential, and the cause of bitter disputes among prominent mathematicians. Later, Kleene and Kreisel would study formalized versions of intuitionistic logic (Brouwer rejected formalization, and presented his work in unformalized natural language). With the advent of the <a href="BHK_interpretation" title="BHK interpretation" class="mw-redirect">BHK interpretation</a> and <a href="Kripke_model" title="Kripke model" class="mw-redirect">Kripke models</a>, intuitionism became easier to reconcile with classical mathematics.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=22.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Logical_connectives_Hasse_diagram.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logical_connectives_Hasse_diagram.svg/20px-Logical_connectives_Hasse_diagram.svg.png" width="20" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logical_connectives_Hasse_diagram.svg/30px-Logical_connectives_Hasse_diagram.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Logical_connectives_Hasse_diagram.svg/39px-Logical_connectives_Hasse_diagram.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Logic" title="Portal:Logic">Logic  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Knowledge_representation" title="Knowledge representation" class="mw-redirect">Knowledge representation</a></li>
+<li><a href="List_of_mathematical_logic_topics" title="List of mathematical logic topics">List of mathematical logic topics</a></li>
+<li><a href="List_of_computability_and_complexity_topics" title="List of computability and complexity topics">List of computability and complexity topics</a></li>
+<li><a href="List_of_set_theory_topics" title="List of set theory topics">List of set theory topics</a></li>
+<li><a href="List_of_first-order_theories" title="List of first-order theories">List of first-order theories</a></li>
+<li><a href="Logic_symbols" title="Logic symbols" class="mw-redirect">Logic symbols</a></li>
+<li><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=23.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Undergraduate texts include Boolos, Burgess, and Jeffrey <a href="#CITEREFBoolosBurgessJeffrey2002">(2002)</a>, <a href="Herbert_Enderton" title="Herbert Enderton">Enderton</a> <a href="#CITEREFEnderton2001">(2001)</a>, and Mendelson <a href="#CITEREFMendelson1997">(1997)</a>. A classic graduate text by Shoenfield <a href="#CITEREFShoenfield2001">(2001)</a> first appeared in 1967.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">A detailed study of this terminology is given by Soare (<a href="#CITEREFSoare1996">1996</a>).</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Ferreirós (<a href="#CITEREFFerreir.C3.B3s2001">2001</a>) surveys the rise of first-order logic over other formal logics in the early 20th century.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=24.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=25.php.html" title="Edit section: Undergraduate texts">edit</a>]</span> <span class="mw-headline" id="Undergraduate_texts">Undergraduate texts</span></h3>
+<ul>
+<li><span class="citation" id="CITEREFWalicki2011">Walicki, Michał (2011), <i>Introduction to Mathematical Logic</i>, Singapore: <a href="World_Scientific_Publishing" title="World Scientific Publishing" class="mw-redirect">World Scientific Publishing</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="../Special_BookSources/978-981-4343-87-9_(pb.)" title="Special:BookSources/978-981-4343-87-9 (pb.)">978-981-4343-87-9 (pb.)</a></span>.</li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFBoolosBurgessJeffrey2002"><a href="George_Boolos" title="George Boolos">Boolos, George</a>; Burgess, John; <a href="Richard_Jeffrey" title="Richard Jeffrey">Jeffrey, Richard</a> (2002), <i>Computability and Logic</i> (4th ed.), Cambridge: <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="../Special_BookSources/978-0-521-00758-0_(pb.)" title="Special:BookSources/978-0-521-00758-0 (pb.)">978-0-521-00758-0 (pb.)</a></span>.</li>
+<li><span class="citation" id="CITEREFEnderton2001">Enderton, Herbert (2001), <i>A mathematical introduction to logic</i> (2nd ed.), Boston, MA: <a href="Academic_Press" title="Academic Press">Academic Press</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-12-238452-3" title="Special:BookSources/978-0-12-238452-3">978-0-12-238452-3</a></span>.</li>
+<li><span class="citation" id="CITEREFHamilton1988">Hamilton, A.G. (1988), <i>Logic for Mathematicians</i> (2nd ed.), Cambridge: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-36865-0" title="Special:BookSources/978-0-521-36865-0">978-0-521-36865-0</a></span>.</li>
+<li><span class="citation" id="CITEREFEbbinghausFlumThomas1994">Ebbinghaus, H.-D.; Flum, J.; Thomas, W. (1994), <a rel="nofollow" class="external text" href="http://www.springer.com/mathematics/book/978-0-387-94258-2"><i>Mathematical Logic</i></a> (2nd ed.), <a href="New_York_City" title="New York City">New York</a>: <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-94258-0" title="Special:BookSources/0-387-94258-0">0-387-94258-0</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.springer.com/mathematics/book/978-0-387-94258-2">http://www.springer.com/mathematics/book/978-0-387-94258-2</a></span></span>.</li>
+<li><span class="citation" id="CITEREFKatz1964">Katz, Robert (1964), <i>Axiomatic Analysis</i>, Boston, MA: <a href="../D._C._Heath_and_Company" title="D. C. Heath and Company">D. C. Heath and Company</a></span>.</li>
+<li><span class="citation" id="CITEREFMendelson1997">Mendelson, Elliott (1997), <i>Introduction to Mathematical Logic</i> (4th ed.), London: <a href="Chapman_&_Hall" title="Chapman &amp; Hall">Chapman &amp; Hall</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-412-80830-2" title="Special:BookSources/978-0-412-80830-2">978-0-412-80830-2</a></span>.</li>
+<li><span class="citation" id="CITEREFRautenberg2010"><a href="Wolfgang_Rautenberg" title="Wolfgang Rautenberg">Rautenberg, Wolfgang</a> (2010), <a rel="nofollow" class="external text" href="http://www.springerlink.com/content/978-1-4419-1220-6/"><i>A Concise Introduction to Mathematical Logic</i></a> (3rd ed.), <a href="New_York_City" title="New York City">New York</a>: <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer Science+Business Media</a>, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/978-1-4419-1221-3">10.1007/978-1-4419-1221-3</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-4419-1220-6" title="Special:BookSources/978-1-4419-1220-6">978-1-4419-1220-6</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.springerlink.com/content/978-1-4419-1220-6/">http://www.springerlink.com/content/978-1-4419-1220-6/</a></span></span>.</li>
+<li><span class="citation" id="CITEREFSchwichtenberg2003.E2.80.932004">Schwichtenberg, Helmut (2003–2004), <a rel="nofollow" class="external text" href="http://www.mathematik.uni-muenchen.de/~schwicht/lectures/logic/ws03/ml.pdf"><i>Mathematical Logic</i></a>, Munich, Germany: Mathematisches Institut der Universität München<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.mathematik.uni-muenchen.de/~schwicht/lectures/logic/ws03/ml.pdf">http://www.mathematik.uni-muenchen.de/~schwicht/lectures/logic/ws03/ml.pdf</a></span></span>.</li>
+<li>Shawn Hedman, <i>A first course in logic: an introduction to model theory, proof theory, computability, and complexity</i>, Oxford University Press, 2004, <a href="Special_BookSources/0198529813" class="internal mw-magiclink-isbn">ISBN 0-19-852981-3</a>. Covers logics in close relation with <a href="Computability_theory" title="Computability theory">computability theory</a> and <a href="Computational_complexity_theory" title="Computational complexity theory">complexity theory</a></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=26.php.html" title="Edit section: Graduate texts">edit</a>]</span> <span class="mw-headline" id="Graduate_texts">Graduate texts</span></h3>
+<ul>
+<li><span class="citation" id="CITEREFAndrews2002">Andrews, Peter B. (2002), <i>An Introduction to Mathematical Logic and Type Theory: To Truth Through Proof</i> (2nd ed.), Boston: Kluwer Academic Publishers, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-4020-0763-7" title="Special:BookSources/978-1-4020-0763-7">978-1-4020-0763-7</a></span>.</li>
+<li><span class="citation" id="CITEREFBarwise1989">Barwise, Jon, ed. (1989), <i>Handbook of Mathematical Logic</i>, Studies in Logic and the Foundations of Mathematics, <a href="Elsevier" title="Elsevier">North Holland</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-444-86388-1" title="Special:BookSources/978-0-444-86388-1">978-0-444-86388-1</a></span>.</li>
+<li><span class="citation" id="CITEREFHodges1997"><a href="Wilfrid_Hodges" title="Wilfrid Hodges">Hodges, Wilfrid</a> (1997), <i>A shorter model theory</i>, Cambridge: <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-58713-6" title="Special:BookSources/978-0-521-58713-6">978-0-521-58713-6</a></span>.</li>
+<li><span class="citation" id="CITEREFJech2003"><a href="Thomas_Jech" title="Thomas Jech">Jech, Thomas</a> (2003), <i>Set Theory: Millennium Edition</i>, Springer Monographs in Mathematics, Berlin, New York: <a href="Springer-Verlag" title="Springer-Verlag" class="mw-redirect">Springer-Verlag</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-3-540-44085-7" title="Special:BookSources/978-3-540-44085-7">978-3-540-44085-7</a></span>.</li>
+<li><span class="citation" id="CITEREFShoenfield2001">Shoenfield, Joseph R. (2001) [1967], <i>Mathematical Logic</i> (2nd ed.), <a href="A_K_Peters" title="A K Peters" class="mw-redirect">A K Peters</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-56881-135-2" title="Special:BookSources/978-1-56881-135-2">978-1-56881-135-2</a></span>.</li>
+<li><span class="citation" id="CITEREFTroelstraSchwichtenberg2000"><a href="../A._S._Troelstra" title="A. S. Troelstra" class="mw-redirect">Troelstra, Anne Sjerp</a>; Schwichtenberg, Helmut (2000), <i>Basic Proof Theory</i>, Cambridge Tracts in Theoretical Computer Science (2nd ed.), Cambridge: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-521-77911-1" title="Special:BookSources/978-0-521-77911-1">978-0-521-77911-1</a></span>.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=27.php.html" title="Edit section: Research papers, monographs, texts, and surveys">edit</a>]</span> <span class="mw-headline" id="Research_papers.2C_monographs.2C_texts.2C_and_surveys">Research papers, monographs, texts, and surveys</span></h3>
+<ul>
+<li><span class="citation" id="CITEREFCohen1966">Cohen, P. J. (1966), <i>Set Theory and the Continuum Hypothesis</i>, Menlo Park, CA: W. A. Benjamin</span>.</li>
+<li><span class="citation" id="CITEREFDavis1973"><a href="Martin_Davis" title="Martin Davis">Davis, Martin</a> (1973), "Hilbert's tenth problem is unsolvable", <i><a href="American_Mathematical_Monthly" title="American Mathematical Monthly">The American Mathematical Monthly</a></i> (The American Mathematical Monthly, Vol. 80, No. 3) <b>80</b> (3): 233–269, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/2318447">10.2307/2318447</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/2318447">2318447</a></span>, reprinted as an appendix in Martin Davis, Computability and Unsolvability, Dover reprint 1982. <a rel="nofollow" class="external text" href="http://links.jstor.org/sici?sici=0002-9890(197303)80:3%3C233:HTPIU%3E2.0.CO;2-E">JStor</a></li>
+<li><span class="citation" id="CITEREFFelscher2000">Felscher, Walter (2000), "Bolzano, Cauchy, Epsilon, Delta", <i>The American Mathematical Monthly</i> (The American Mathematical Monthly, Vol. 107, No. 9) <b>107</b> (9): 844–862, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/2695743">10.2307/2695743</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/2695743">2695743</a></span>. <a rel="nofollow" class="external text" href="http://links.jstor.org/sici?sici=0002-9890(200011)107:9%3C844:BCED%3E2.0.CO;2-L">JSTOR</a></li>
+<li><span class="citation" id="CITEREFFerreir.C3.B3s2001">Ferreirós, José (2001), "The Road to Modern Logic-An Interpretation", <i>Bulletin of Symbolic Logic</i> (The Bulletin of Symbolic Logic, Vol. 7, No. 4) <b>7</b> (4): 441–484, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/2687794">10.2307/2687794</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/2687794">2687794</a></span>. <a rel="nofollow" class="external text" href="http://links.jstor.org/sici?sici=1079-8986(200112)7:4%3C441:TRTMLI%3E2.0.CO;2-O">JStor</a></li>
+<li><span class="citation" id="CITEREFHamkinsL.C3.B6we">Hamkins, Joel David; Löwe, Benedikt, "The modal logic of forcing", <i>Transactions of the American Mathematical Society</i></span>, to appear. <a rel="nofollow" class="external text" href="http://www.ams.org/tran/0000-000-00/S0002-9947-07-04297-3/home.html">Electronic posting by the journal</a></li>
+<li><span class="citation" id="CITEREFKatz1998">Katz, Victor J. (1998), <i>A History of Mathematics</i>, Addison–Wesley, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-321-01618-1" title="Special:BookSources/0-321-01618-1">0-321-01618-1</a></span>.</li>
+<li><span class="citation" id="CITEREFMorley1965"><a href="../Michael_D._Morley" title="Michael D. Morley">Morley, Michael</a> (1965), "Categoricity in Power", <i><a href="Transactions_of_the_American_Mathematical_Society" title="Transactions of the American Mathematical Society">Transactions of the American Mathematical Society</a></i> (Transactions of the American Mathematical Society, Vol. 114, No. 2) <b>114</b> (2): 514–538, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/1994188">10.2307/1994188</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/1994188">1994188</a></span>.</li>
+<li><span class="citation" id="CITEREFSoare1996">Soare, Robert I. (1996), "Computability and recursion", <i>Bulletin of Symbolic Logic</i> (The Bulletin of Symbolic Logic, Vol. 2, No. 3) <b>2</b> (3): 284–321, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/420992">10.2307/420992</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/420992">420992</a></span>.</li>
+<li><span class="citation" id="CITEREFSolovay1976"><a href="../Robert_M._Solovay" title="Robert M. Solovay">Solovay, Robert M.</a> (1976), "Provability Interpretations of Modal Logic", <i>Israel Journal of Mathematics</i> <b>25</b> (3–4): 287–304, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF02757006">10.1007/BF02757006</a></span>.</li>
+<li><span class="citation" id="CITEREFWoodin2001"><a href="../W._Hugh_Woodin" title="W. Hugh Woodin">Woodin, W. Hugh</a> (2001), "The Continuum Hypothesis, Part I", <i>Notices of the American Mathematical Society</i> <b>48</b> (6)</span>. <a rel="nofollow" class="external text" href="http://www.ams.org/notices/200106/fea-woodin.pdf">PDF</a></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=28.php.html" title="Edit section: Classical papers, texts, and collections">edit</a>]</span> <span class="mw-headline" id="Classical_papers.2C_texts.2C_and_collections">Classical papers, texts, and collections</span></h3>
+<ul>
+<li><span class="citation" id="CITEREFBurali-Forti1897">Burali-Forti, Cesare (1897), <i>A question on transfinite numbers</i></span>, reprinted in van Heijenoort 1976, pp.&#160;104–111.</li>
+<li><span class="citation" id="CITEREFDedekind1872">Dedekind, Richard (1872), <i>Stetigkeit und irrationale Zahlen</i></span>. English translation of title: "Consistency and irrational numbers".</li>
+<li><span class="citation" id="CITEREFDedekind1888">Dedekind, Richard (1888), <i>Was sind und was sollen die Zahlen?</i></span> <i>Two English translations:</i>
+<ul>
+<li>1963 (1901). <i>Essays on the Theory of Numbers</i>. Beman, W. W., ed. and trans. Dover.</li>
+<li>1996. In <i>From Kant to Hilbert: A Source Book in the Foundations of Mathematics</i>, 2 vols, Ewald, William B., ed., <a href="Oxford_University_Press" title="Oxford University Press">Oxford University Press</a>: 787–832.</li>
+</ul>
+</li>
+<li><span class="citation" id="CITEREFFraenkel1922">Fraenkel, Abraham A. (1922), "Der Begriff 'definit' und die Unabhängigkeit des Auswahlsaxioms", <i>Sitzungsberichte der Preussischen Akademie der Wissenschaften, Physikalisch-mathematische Klasse</i>, pp.&#160;253–257</span> (German), reprinted in English translation as "The notion of 'definite' and the independence of the axiom of choice", van Heijenoort 1976, pp.&#160;284–289.</li>
+</ul>
+<ul>
+<li>Frege Gottlob (1879), <i><a href="Begriffsschrift" title="Begriffsschrift">Begriffsschrift</a>, eine der arithmetischen nachgebildete Formelsprache des reinen Denkens</i>. Halle a. S.: Louis Nebert. Translation: <i>Concept Script, a formal language of pure thought modelled upon that of arithmetic</i>, by S. Bauer-Mengelberg in <a href="Jean_Van_Heijenoort" title="Jean Van Heijenoort" class="mw-redirect">Jean Van Heijenoort</a>, ed., 1967. <i>From Frege to Gödel: A Source Book in Mathematical Logic, 1879–1931</i>. Harvard University Press.</li>
+<li>Frege Gottlob (1884), <i>Die Grundlagen der Arithmetik: eine logisch-mathematische Untersuchung über den Begriff der Zahl</i>. Breslau: W. Koebner. Translation: <a href="../J._L._Austin" title="J. L. Austin">J. L. Austin</a>, 1974. <i>The Foundations of Arithmetic: A logico-mathematical enquiry into the concept of number</i>, 2nd ed. Blackwell.</li>
+</ul>
+<ul>
+<li><span class="citation" id="CITEREFGentzen1936"><a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gentzen, Gerhard</a> (1936), "Die Widerspruchsfreiheit der reinen Zahlentheorie", <i>Mathematische Annalen</i> <b>112</b>: 132–213, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01565428">10.1007/BF01565428</a></span>, reprinted in English translation in Gentzen's <i>Collected works</i>, M. E. Szabo, ed., North-Holland, Amsterdam, 1969.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources"><span title="The text preceding this tag needs specification from September 2009">specify</span></a></i>]</sup></li>
+<li><span class="citation" id="CITEREFG.C3.B6del1929">Gödel, Kurt (1929), <i>Über die Vollständigkeit des Logikkalküls</i>, doctoral dissertation, University Of Vienna</span>. English translation of title: "Completeness of the logical calculus".</li>
+<li><span class="citation" id="CITEREFG.C3.B6del1930">Gödel, Kurt (1930), "Die Vollständigkeit der Axiome des logischen Funktionen-kalküls", <i>Monatshefte für Mathematik und Physik</i> <b>37</b>: 349–360, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01696781">10.1007/BF01696781</a></span>. English translation of title: "The completeness of the axioms of the calculus of logical functions".</li>
+<li><span class="citation" id="CITEREFG.C3.B6del1931">Gödel, Kurt (1931), "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I", <i>Monatshefte für Mathematik und Physik</i> <b>38</b> (1): 173–198, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01700692">10.1007/BF01700692</a></span>, see <a href="On_Formally_Undecidable_Propositions_of_Principia_Mathematica_and_Related_Systems" title="On Formally Undecidable Propositions of Principia Mathematica and Related Systems">On Formally Undecidable Propositions of Principia Mathematica and Related Systems</a> for details on English translations.</li>
+<li><span class="citation" id="CITEREFG.C3.B6del1958">Gödel, Kurt (1958), "Über eine bisher noch nicht benützte Erweiterung des finiten Standpunktes", <i>Dialectica. International Journal of Philosophy</i> <b>12</b> (3–4): 280–287, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1111/j.1746-8361.1958.tb01464.x">10.1111/j.1746-8361.1958.tb01464.x</a></span>, reprinted in English translation in Gödel's <i>Collected Works</i>, vol II, Soloman Feferman et al., eds. Oxford University Press, 1990.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources"><span title="The text preceding this tag needs specification from September 2009">specify</span></a></i>]</sup></li>
+<li><span class="citation" id="CITEREFvan_Heijenoort1967.2C_1976_3rd_printing_with_corrections"><a href="Jean_van_Heijenoort" title="Jean van Heijenoort">van Heijenoort, Jean</a>, ed. (1967, 1976 3rd printing with corrections), <i>From Frege to Gödel: A Source Book in Mathematical Logic, 1879–1931</i> (3rd ed.), Cambridge, Mass: Harvard University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-674-32449-8" title="Special:BookSources/0-674-32449-8">0-674-32449-8</a>, (pbk.)</span></li>
+<li><span class="citation" id="CITEREFHilbert1899">Hilbert, David (1899), <i>Grundlagen der Geometrie</i>, Leipzig: Teubner</span>, English 1902 edition (<i>The Foundations of Geometry</i>) republished 1980, Open Court, Chicago.</li>
+<li><span class="citation" id="CITEREFDavid1929">David, Hilbert (1929), "Probleme der Grundlegung der Mathematik", <i>Mathematische Annalen</i> <b>102</b>: 1–9, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01782335">10.1007/BF01782335</a></span>. Lecture given at the International Congress of Mathematicians, 3 September 1928. Published in English translation as "The Grounding of Elementary Number Theory", in Mancosu 1998, pp.&#160;266–273.</li>
+<li><span class="citation" id="CITEREFKleene1943"><a href="Stephen_Kleene" title="Stephen Kleene" class="mw-redirect">Kleene, Stephen Cole</a> (1943), "Recursive Predicates and Quantifiers", <i>American Mathematical Society Transactions</i> (Transactions of the American Mathematical Society, Vol. 53, No. 1) <b>54</b> (1): 41–73, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/1990131">10.2307/1990131</a>, <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/1990131">1990131</a></span>.</li>
+<li><span class="citation" id="CITEREFLobachevsky1840"><a href="Nikolai_Lobachevsky" title="Nikolai Lobachevsky">Lobachevsky, Nikolai</a> (1840), <i>Geometrishe Untersuchungen zur Theorie der Parellellinien</i></span> (German). Reprinted in English translation as "Geometric Investigations on the Theory of Parallel Lines" in <i>Non-Euclidean Geometry</i>, Robert Bonola (ed.), Dover, 1955. <a href="Special_BookSources/0486600270" class="internal mw-magiclink-isbn">ISBN 0-486-60027-0</a></li>
+<li><span class="citation" id="CITEREFL.C3.B6wenheim1915"><a href="Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Löwenheim, Leopold</a> (1915), "Über Möglichkeiten im Relativkalkül", <i>Mathematische Annalen</i> <b>76</b> (4): 447–470, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01458217">10.1007/BF01458217</a>, <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/0025-5831">0025-5831</a></span> (German). Translated as "On possibilities in the calculus of relatives" in <a href="Jean_van_Heijenoort" title="Jean van Heijenoort">Jean van Heijenoort</a>, 1967. <i>A Source Book in Mathematical Logic, 1879–1931</i>. Harvard Univ. Press: 228–251.</li>
+<li><span class="citation" id="CITEREFMancosu1998">Mancosu, Paolo, ed. (1998), <i>From Brouwer to Hilbert. The Debate on the Foundations of Mathematics in the 1920s</i>, Oxford: Oxford University Press</span>.</li>
+<li><span class="citation" id="CITEREFPasch1882">Pasch, Moritz (1882), <i>Vorlesungen über neuere Geometrie</i></span>.</li>
+<li><span class="citation" id="CITEREFPeano1888">Peano, Giuseppe (1888), <i>Arithmetices principia, nova methodo exposita</i></span> (Italian), excerpt reprinted in English stranslation as "The principles of arithmetic, presented by a new method", van Heijenoort 1976, pp.&#160;83&#160;97.</li>
+<li><span class="citation" id="CITEREFRichard1905">Richard, Jules (1905), "Les principes des mathématiques et le problème des ensembles", <i>Revue générale des sciences pures et appliquées</i> <b>16</b>: 541</span> (French), reprinted in English translation as "The principles of mathematics and the problems of sets", van Heijenoort 1976, pp.&#160;142–144.</li>
+<li><span class="citation" id="CITEREFSkolem1920"><a href="Thoralf_Skolem" title="Thoralf Skolem">Skolem, Thoralf</a> (1920), "Logisch-kombinatorische Untersuchungen über die Erfüllbarkeit oder Beweisbarkeit mathematischer Sätze nebst einem Theoreme über dichte Mengen", <i>Videnskapsselskapet Skrifter, I. Matematisk-naturvidenskabelig Klasse</i> <b>6</b>: 1–36</span>.</li>
+<li><span class="citation" id="CITEREFTarski1948"><a href="Alfred_Tarski" title="Alfred Tarski">Tarski, Alfred</a> (1948), <i>A decision method for elementary algebra and geometry</i>, Santa Monica, California: <a href="RAND_Corporation" title="RAND Corporation">RAND Corporation</a></span></li>
+<li><span class="citation" id="CITEREFTuring1939"><a href="../A._M._Turing" title="A. M. Turing" class="mw-redirect">Turing, Alan M.</a> (1939), "Systems of Logic Based on Ordinals", <i><a href="Proceedings_of_the_London_Mathematical_Society" title="Proceedings of the London Mathematical Society" class="mw-redirect">Proceedings of the London Mathematical Society</a></i> <b>45</b> (2): 161–228, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1112/plms/s2-45.1.161">10.1112/plms/s2-45.1.161</a></span></li>
+<li><span class="citation" id="CITEREFZermelo1904">Zermelo, Ernst (1904), "Beweis, daß jede Menge wohlgeordnet werden kann", <i>Mathematische Annalen</i> <b>59</b> (4): 514–516, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01445300">10.1007/BF01445300</a></span> (German), reprinted in English translation as "Proof that every set can be well-ordered", van Heijenoort 1976, pp.&#160;139–141.</li>
+<li><span class="citation" id="CITEREFZermelo1908a">Zermelo, Ernst (1908a), "Neuer Beweis für die Möglichkeit einer Wohlordnung", <i><a href="Mathematische_Annalen" title="Mathematische Annalen">Mathematische Annalen</a></i> <b>65</b>: 107–128, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01450054">10.1007/BF01450054</a>, <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/0025-5831">0025-5831</a></span> (German), reprinted in English translation as "A new proof of the possibility of a well-ordering", van Heijenoort 1976, pp.&#160;183–198.</li>
+<li><span class="citation" id="CITEREFZermelo1908b">Zermelo, Ernst (1908b), "Untersuchungen über die Grundlagen der Mengenlehre", <i>Mathematische Annalen</i> <b>65</b> (2): 261–281, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01449999">10.1007/BF01449999</a></span>.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Mathematical_logic&action=edit&section=29.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/m062660">"Mathematical logic"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/m062660">http://www.encyclopediaofmath.org/index.php?title=p/m062660</a></span></span></li>
+<li><a rel="nofollow" class="external text" href="http://settheory.net/world">Logic and set theory around the world</a></li>
+<li><a rel="nofollow" class="external text" href="http://home.swipnet.se/~w-33552/logic/home/index.htm">Polyvalued logic</a> and <a rel="nofollow" class="external text" href="http://www.quantrelog.se/pvlmatrix/index_main.htm">Quantity Relation Logic</a></li>
+<li><i><a rel="nofollow" class="external text" href="http://www.fecundity.com/logic/">forall x: an introduction to formal logic</a></i>, by <a href="../../w/index-title=P.D._Magnus&action=edit&redlink=1.php.html" class="new" title="P.D. Magnus (page does not exist)">P.D. Magnus</a>, is a free textbook.</li>
+<li><i><a rel="nofollow" class="external text" href="http://euclid.trentu.ca/math/sb/pcml/">A Problem Course in Mathematical Logic</a></i>, by Stefan Bilaniuk, is another free textbook.</li>
+<li>Detlovs, Vilnis, and Podnieks, Karlis (University of Latvia) <i><a rel="nofollow" class="external text" href="http://www.ltn.lv/~podnieks/mlog/ml.htm">Introduction to Mathematical Logic.</a></i> A hyper-textbook.</li>
+<li><a href="Stanford_Encyclopedia_of_Philosophy" title="Stanford Encyclopedia of Philosophy">Stanford Encyclopedia of Philosophy</a>: <a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/logic-classical/">Classical Logic</a> – by <a href="Stewart_Shapiro" title="Stewart Shapiro">Stewart Shapiro</a>.</li>
+<li>Stanford Encyclopedia of Philosophy: <a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/modeltheory-fo/">First-order Model Theory</a> – by <a href="Wilfrid_Hodges" title="Wilfrid Hodges">Wilfrid Hodges</a>.</li>
+<li>The <a rel="nofollow" class="external text" href="http://www.ucl.ac.uk/philosophy/LPSG/">London Philosophy Study Guide</a> offers many suggestions on what to read, depending on the student's familiarity with the subject:
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.ucl.ac.uk/philosophy/LPSG/MathLogic.htm">Mathematical Logic</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ucl.ac.uk/philosophy/LPSG/SetTheory.htm">Set Theory &amp; Further Logic</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ucl.ac.uk/philosophy/LPSG/PhilMath.htm">Philosophy of Mathematics</a></li>
+</ul>
+</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><strong class="selflink">Logic</strong></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Logic" title="Template:Logic"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Logic" title="Template talk:Logic"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Logic&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Logic" title="Logic">Logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Overview</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Academic areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Argumentation_theory" title="Argumentation theory">Argumentation theory</a></li>
+<li><a href="Axiology" title="Axiology">Axiology</a></li>
+<li><a href="Critical_thinking" title="Critical thinking">Critical thinking</a></li>
+<li><a href="Computability_theory" title="Computability theory">Computability theory</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="History_of_logic" title="History of logic">History of logic</a></li>
+<li><a href="Informal_logic" title="Informal logic">Informal logic</a></li>
+<li><a href="Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a></li>
+<li><strong class="selflink">Mathematical logic</strong></li>
+<li><a href="Mathematics" title="Mathematics">Mathematics</a></li>
+<li><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+<li><a href="Model_theory" title="Model theory">Model theory</a></li>
+<li><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></li>
+<li><a href="Philosophy" title="Philosophy">Philosophy</a></li>
+<li><a href="Philosophy_of_logic" title="Philosophy of logic">Philosophy of logic</a></li>
+<li><a href="Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><a href="Proof_theory" title="Proof theory">Proof theory</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Foundations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Abductive_reasoning" title="Abductive reasoning">Abduction</a></li>
+<li><a href="Analytic%E2%80%93synthetic_distinction" title="Analytic–synthetic distinction">Analytic truth</a></li>
+<li><a href="Antinomy" title="Antinomy">Antinomy</a></li>
+<li><a href="A_priori_and_a_posteriori" title="A priori and a posteriori">A priori</a></li>
+<li><a href="Deductive_reasoning" title="Deductive reasoning">Deduction</a></li>
+<li><a href="Definition" title="Definition">Definition</a></li>
+<li><a href="Description" title="Description">Description</a></li>
+<li><a href="Inductive_reasoning" title="Inductive reasoning">Induction</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Logical_form" title="Logical form">Logical form</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Logical_truth" title="Logical truth">Logical truth</a></li>
+<li><a href="Name" title="Name">Name</a></li>
+<li><a href="Necessary_and_sufficient_condition" title="Necessary and sufficient condition" class="mw-redirect">Necessity</a></li>
+<li><a href="Meaning_(linguistics)" title="Meaning (linguistics)">Meaning</a></li>
+<li><a href="Paradox" title="Paradox">Paradox</a></li>
+<li><a href="Possible_world" title="Possible world">Possible world</a></li>
+<li><a href="Presupposition" title="Presupposition">Presupposition</a></li>
+<li><a href="Probability" title="Probability">Probability</a></li>
+<li><a href="Reason" title="Reason">Reason</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Reference" title="Reference">Reference</a></li>
+<li><a href="Semantics" title="Semantics">Semantics</a></li>
+<li><a href="Statement_(logic)" title="Statement (logic)">Statement</a></li>
+<li><a href="Strict_implication" title="Strict implication" class="mw-redirect">Strict implication</a></li>
+<li><a href="Substitution_(logic)" title="Substitution (logic)">Substitution</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Truth" title="Truth">Truth</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Critical_thinking" title="Critical thinking">Critical thinking</a><br />
+<a href="Informal_logic" title="Informal logic">Informal logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Philosophical_analysis" title="Philosophical analysis">Analysis</a></li>
+<li><a href="Ambiguity" title="Ambiguity">Ambiguity</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Belief" title="Belief">Belief</a></li>
+<li><a href="Bias" title="Bias">Bias</a></li>
+<li><a href="Credibility" title="Credibility">Credibility</a></li>
+<li><a href="Evidence" title="Evidence">Evidence</a></li>
+<li><a href="Explanation" title="Explanation">Explanation</a></li>
+<li><a href="Explanatory_power" title="Explanatory power">Explanatory power</a></li>
+<li><a href="Fact" title="Fact">Fact</a></li>
+<li><a href="Fallacy" title="Fallacy">Fallacy</a></li>
+<li><a href="Inquiry" title="Inquiry">Inquiry</a></li>
+<li><a href="Opinion" title="Opinion">Opinion</a></li>
+<li><a href="Occam's_razor" title="Occam's razor">Parsimony</a></li>
+<li><a href="Premise" title="Premise">Premise</a></li>
+<li><a href="Propaganda" title="Propaganda">Propaganda</a></li>
+<li><a href="Prudence" title="Prudence">Prudence</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Relevance" title="Relevance">Relevance</a></li>
+<li><a href="Rhetoric" title="Rhetoric">Rhetoric</a></li>
+<li><a href="Rigour" title="Rigour">Rigor</a></li>
+<li><a href="Vagueness" title="Vagueness">Vagueness</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Philosophy_of_logic" title="Philosophy of logic">Theories of<br />
+deduction</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Constructivism_(mathematics)" title="Constructivism (mathematics)">Constructivism</a></li>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+<li><a href="Fictionalism" title="Fictionalism">Fictionalism</a></li>
+<li><a href="Finitism" title="Finitism">Finitism</a></li>
+<li><a href="Formalism_(mathematics)" title="Formalism (mathematics)">Formalism</a></li>
+<li><a href="Intuitionism" title="Intuitionism">Intuitionism</a></li>
+<li><a href="Logical_atomism" title="Logical atomism">Logical atomism</a></li>
+<li><a href="Logicism" title="Logicism">Logicism</a></li>
+<li><a href="Nominalism" title="Nominalism">Nominalism</a></li>
+<li><a href="Platonic_realism" title="Platonic realism">Platonic realism</a></li>
+<li><a href="Pragmatism" title="Pragmatism">Pragmatism</a></li>
+<li><a href="Philosophical_realism" title="Philosophical realism">Realism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li style=""><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+</ul>
+</div>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cantor's_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+<li><a href="Entscheidungsproblem" title="Entscheidungsproblem">Church's theorem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church's thesis</a></li>
+<li><a href="Consistency" title="Consistency">Consistency</a></li>
+<li><a href="Effective_method" title="Effective method">Effective method</a></li>
+<li><a href="Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></li>
+<li><a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a></li>
+<li><a href="G%C3%B6del's_incompleteness_theorems" title="Gödel's incompleteness theorems">Gödel's incompleteness theorems</a></li>
+<li><a href="Soundness" title="Soundness">Soundness</a></li>
+<li><a href="Completeness" title="Completeness">Completeness</a></li>
+<li><a href="Decidability_(logic)" title="Decidability (logic)">Decidability</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a></li>
+<li><a href="Metatheorem" title="Metatheorem">Metatheorem</a></li>
+<li><a href="Satisfiability" title="Satisfiability">Satisfiability</a></li>
+<li><a href="Independence_(mathematical_logic)" title="Independence (mathematical logic)">Independence</a></li>
+<li><a href="Type%E2%80%93token_distinction" title="Type–token distinction">Type–token distinction</a></li>
+<li><a href="Use%E2%80%93mention_distinction" title="Use–mention distinction">Use–mention distinction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><strong class="selflink">Mathematical logic</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="Formation_rule" title="Formation rule">Formation rule</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="Well-formed_formula" title="Well-formed formula">Well-formed formula</a></li>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Element_(mathematics)" title="Element (mathematics)">Element</a></li>
+<li><a href="Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li><a href="Classical_logic" title="Classical logic">Classical logic</a></li>
+<li><a href="Axiom" title="Axiom">Axiom</a></li>
+<li><a href="Natural_deduction" title="Natural deduction">Natural deduction</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Finitary_relation" title="Finitary relation">Relation</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Axiomatic_system" title="Axiomatic system">Axiomatic system</a></li>
+<li><a href="Type_theory" title="Type theory">Type theory</a></li>
+<li><a href="Symbol_(formal)" title="Symbol (formal)">Symbol</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Term_logic" title="Term logic">Traditional logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Proposition" title="Proposition">Proposition</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+<li><a href="Cogency" title="Cogency">Cogency</a></li>
+<li><a href="Syllogism" title="Syllogism">Syllogism</a></li>
+<li><a href="Square_of_opposition" title="Square of opposition">Square of opposition</a></li>
+<li><a href="Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a><br />
+<a href="Boolean_algebra" title="Boolean algebra">Boolean logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Boolean_function" title="Boolean function">Boolean functions</a></li>
+<li><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a></li>
+<li><a href="Propositional_formula" title="Propositional formula">Propositional formula</a></li>
+<li><a href="Logical_connective" title="Logical connective">Logical connectives</a></li>
+<li><a href="Truth_table" title="Truth table">Truth tables</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Predicate_logic" title="Predicate logic">Predicate logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="First-order_logic" title="First-order logic">First-order</a></li>
+<li><a href="Quantification" title="Quantification">Quantifiers</a></li>
+<li><a href="Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a></li>
+<li><a href="Second-order_logic" title="Second-order logic">Second-order</a></li>
+<li><a href="Monadic_predicate_calculus" title="Monadic predicate calculus">Monadic predicate calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Set_theory" title="Set theory">Set theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Empty_set" title="Empty set">Empty set</a></li>
+<li><a href="Enumeration" title="Enumeration">Enumeration</a></li>
+<li><a href="Extensionality" title="Extensionality">Extensionality</a></li>
+<li><a href="Finite_set" title="Finite set">Finite set</a></li>
+<li><a href="Function_(mathematics)" title="Function (mathematics)">Function</a></li>
+<li><a href="Subset" title="Subset">Subset</a></li>
+<li><a href="Power_set" title="Power set">Power set</a></li>
+<li><a href="Countable_set" title="Countable set">Countable set</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Domain_of_a_function" title="Domain of a function">Domain</a></li>
+<li><a href="Range_(mathematics)" title="Range (mathematics)">Range</a></li>
+<li><a href="Ordered_pair" title="Ordered pair">Ordered pair</a></li>
+<li><a href="Uncountable_set" title="Uncountable set">Uncountable set</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Model_theory" title="Model theory">Model theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="Non-standard_model" title="Non-standard model">Non-standard model</a></li>
+<li><a href="Finite_model_theory" title="Finite model theory">Finite model theory</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Proof_theory" title="Proof theory">Proof theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computability_theory" title="Computability theory">Computability theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Recursion" title="Recursion">Recursion</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Recursively_enumerable_set" title="Recursively enumerable set">Recursively enumerable set</a></li>
+<li><a href="Decision_problem" title="Decision problem">Decision problem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a></li>
+<li><a href="Computable_function" title="Computable function">Computable function</a></li>
+<li><a href="Primitive_recursive_function" title="Primitive recursive function">Primitive recursive function</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Non-classical_logic" title="Non-classical logic">Non-classical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Modal_logic" title="Modal logic">Modal logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Modal_logic#Alethic_modalities" title="Modal logic">Alethic</a></li>
+<li><a href="Modal_operator#Axiological" title="Modal operator">Axiologic</a></li>
+<li><a href="Deontic_logic" title="Deontic logic">Deontic</a></li>
+<li><a href="Doxastic_logic" title="Doxastic logic">Doxastic</a></li>
+<li><a href="Epistemic_modal_logic" title="Epistemic modal logic">Epistemic</a></li>
+<li><a href="Temporal_logic" title="Temporal logic">Temporal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Intuitionism" title="Intuitionism">Intuitionism</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li>
+<li><a href="Constructive_analysis" title="Constructive analysis">Constructive analysis</a></li>
+<li><a href="Heyting_arithmetic" title="Heyting arithmetic">Heyting arithmetic</a></li>
+<li><a href="Intuitionistic_type_theory" title="Intuitionistic type theory">Intuitionistic type theory</a></li>
+<li><a href="Constructive_set_theory" title="Constructive set theory">Constructive set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Degree_of_truth" title="Degree of truth">Degree of truth</a></li>
+<li><a href="Fuzzy_rule" title="Fuzzy rule">Fuzzy rule</a></li>
+<li><a href="Fuzzy_set" title="Fuzzy set">Fuzzy set</a></li>
+<li><a href="Fuzzy_finite_element" title="Fuzzy finite element">Fuzzy finite element</a></li>
+<li><a href="Fuzzy_set_operations" title="Fuzzy set operations">Fuzzy set operations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Substructural_logic" title="Substructural logic">Substructural logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structural_rule" title="Structural rule">Structural rule</a></li>
+<li><a href="Relevance_logic" title="Relevance logic">Relevance logic</a></li>
+<li><a href="Linear_logic" title="Linear logic">Linear logic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Paraconsistent_logic" title="Paraconsistent logic">Paraconsistent logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Description_logic" title="Description logic">Description logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ontology" title="Ontology">Ontology</a></li>
+<li><a href="Ontology_language" title="Ontology language">Ontology language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logicians" title="List of logicians">Logicians</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Alan_Ross_Anderson" title="Alan Ross Anderson">Anderson</a></li>
+<li><a href="Aristotle" title="Aristotle">Aristotle</a></li>
+<li><a href="Averroes" title="Averroes">Averroes</a></li>
+<li><a href="Avicenna" title="Avicenna">Avicenna</a></li>
+<li><a href="Alexander_Bain" title="Alexander Bain">Bain</a></li>
+<li><a href="Jon_Barwise" title="Jon Barwise">Barwise</a></li>
+<li><a href="Paul_Bernays" title="Paul Bernays">Bernays</a></li>
+<li><a href="George_Boole" title="George Boole">Boole</a></li>
+<li><a href="George_Boolos" title="George Boolos">Boolos</a></li>
+<li><a href="Georg_Cantor" title="Georg Cantor">Cantor</a></li>
+<li><a href="Rudolf_Carnap" title="Rudolf Carnap">Carnap</a></li>
+<li><a href="Alonzo_Church" title="Alonzo Church">Church</a></li>
+<li><a href="Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="Haskell_Curry" title="Haskell Curry">Curry</a></li>
+<li><a href="Augustus_De_Morgan" title="Augustus De Morgan">De Morgan</a></li>
+<li><a href="Gottlob_Frege" title="Gottlob Frege">Frege</a></li>
+<li><a href="Peter_Geach" title="Peter Geach">Geach</a></li>
+<li><a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gentzen</a></li>
+<li><a href="Kurt_G%C3%B6del" title="Kurt Gödel">Gödel</a></li>
+<li><a href="David_Hilbert" title="David Hilbert">Hilbert</a></li>
+<li><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Kleene</a></li>
+<li><a href="Saul_Kripke" title="Saul Kripke">Kripke</a></li>
+<li><a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a></li>
+<li><a href="Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Löwenheim</a></li>
+<li><a href="Giuseppe_Peano" title="Giuseppe Peano">Peano</a></li>
+<li><a href="Charles_Sanders_Peirce" title="Charles Sanders Peirce">Peirce</a></li>
+<li><a href="Hilary_Putnam" title="Hilary Putnam">Putnam</a></li>
+<li><a href="Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Quine</a></li>
+<li><a href="Bertrand_Russell" title="Bertrand Russell">Russell</a></li>
+<li><a href="Ernst_Schr%C3%B6der" title="Ernst Schröder">Schröder</a></li>
+<li><a href="Duns_Scotus" title="Duns Scotus">Scotus</a></li>
+<li><a href="Thoralf_Skolem" title="Thoralf Skolem">Skolem</a></li>
+<li><a href="Raymond_Smullyan" title="Raymond Smullyan">Smullyan</a></li>
+<li><a href="Alfred_Tarski" title="Alfred Tarski">Tarski</a></li>
+<li><a href="Alan_Turing" title="Alan Turing">Turing</a></li>
+<li><a href="Alfred_North_Whitehead" title="Alfred North Whitehead">Whitehead</a></li>
+<li><a href="William_of_Ockham" title="William of Ockham">William of Ockham</a></li>
+<li><a href="Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Wittgenstein</a></li>
+<li><a href="Ernst_Zermelo" title="Ernst Zermelo">Zermelo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Lists</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Index_of_logic_articles" title="Index of logic articles">Index of logic articles</a></li>
+<li><a href="List_of_mathematical_logic_topics" title="List of mathematical logic topics">Mathematical logic</a></li>
+<li><a href="List_of_Boolean_algebra_topics" title="List of Boolean algebra topics">Boolean algebra</a></li>
+<li><a href="List_of_set_theory_topics" title="List of set theory topics">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_logicians" title="List of logicians">Logicians</a></li>
+<li><a href="List_of_rules_of_inference" title="List of rules of inference">Rules of inference</a></li>
+<li><a href="List_of_paradoxes" title="List of paradoxes">Paradoxes</a></li>
+<li><a href="List_of_fallacies" title="List of fallacies">Fallacies</a></li>
+<li><a href="List_of_logic_symbols" title="List of logic symbols">Logic symbols</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logic_symbols" title="List of logic symbols">Common logical symbols</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<div style="font-size:130%;">
+<p><a href="Ampersand" title="Ampersand">&amp;</a>&#160; &#160; <a href="Vel_(symbol)" title="Vel (symbol)">∨</a>&#160; &#160; <a href="Negation" title="Negation">¬</a>&#160; &#160; <a href="Tilde" title="Tilde">~</a>&#160; &#160; <a href="Arrow_(symbol)" title="Arrow (symbol)">→</a>&#160; &#160; <a href="Horseshoe_(symbol)" title="Horseshoe (symbol)">⊃</a>&#160; &#160; <a href="Triple_bar" title="Triple bar">≡</a>&#160; &#160; <a href="Sheffer_stroke" title="Sheffer stroke"><span class="Unicode">|</span></a>&#160; &#160; <a href="Turned_A" title="Turned A">∀</a>&#160; &#160; <a href="Turned_E" title="Turned E">∃</a>&#160; &#160; <a href="Tee_(symbol)" title="Tee (symbol)">⊤</a>&#160; &#160; <a href="Up_tack" title="Up tack">⊥</a>&#160; &#160; <a href="Turnstile_(symbol)" title="Turnstile (symbol)">⊢</a>&#160; &#160; <a href="Double_turnstile" title="Double turnstile">⊨</a>&#160; &#160; <a href="Therefore_sign" title="Therefore sign">∴</a>&#160; &#160; <a href="Therefore_sign#Related_signs" title="Therefore sign">∵</a></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><a href="Portal_Logic" title="Portal:Logic">Portal</a></li>
+<li><a href="Category_Logic" title="Category:Logic">Category</a></li>
+<li><a href="Outline_of_logic" title="Outline of logic">Outline</a></li>
+<li><a href="Wikipedia_WikiProject_Logic" title="Wikipedia:WikiProject Logic">WikiProject</a></li>
+<li><a href="Wikipedia_talk_WikiProject_Logic" title="Wikipedia talk:WikiProject Logic">Talk</a></li>
+<li><a class="external text" href="../../w/index-title=Special_Recentchangeslinked&target=Template_Logic&hidebots=0.php.html">changes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 34963/1000000
+Preprocessor generated node count: 44717/1500000
+Post-expand include size: 334929/2048000 bytes
+Template argument size: 155683/2048000 bytes
+Highest expansion depth: 17/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:19636-0!0!0!!en!4!* and timestamp 20130212154413 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Mathematical_logic&oldid=535382967.php.html">http://en.wikipedia.org/w/index.php?title=Mathematical_logic&amp;oldid=535382967</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Mathematical_logic" title="Category:Mathematical logic">Mathematical logic</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_needing_more_detailed_references" title="Category:Articles needing more detailed references">Articles needing more detailed references</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Mathematical+logic&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Mathematical+logic.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Mathematical_logic"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Mathematical_logic&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Mathematical_logic&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Mathematical_logic" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Mathematical_logic" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Mathematical_logic&oldid=535382967.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Mathematical_logic&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Mathematical_logic&id=535382967.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Mathematical+logic.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Mathematical+logic&oldid=535382967&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Mathematical_logic&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%85%D9%86%D8%B7%D9%82_%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A" title="منطق رياضي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Riyazi_m%C9%99ntiq" title="Riyazi məntiq" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D1%87%D0%BD%D0%B0%D1%8F_%D0%BB%D0%BE%D0%B3%D1%96%D0%BA%D0%B0" title="Матэматычная логіка" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D1%87%D0%BD%D0%B0%D1%8F_%D0%BB%D1%91%D0%B3%D1%96%D0%BA%D0%B0" title="Матэматычная лёгіка" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0_%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0" title="Математическа логика" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Matemati%C4%8Dka_logika" title="Matematička logika" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/L%C3%B2gica_matem%C3%A0tica" title="Lògica matemàtica" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Matematick%C3%A1_logika" title="Matematická logika" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Mathematische_Logik" title="Mathematische Logik" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Matemaatiline_loogika" title="Matemaatiline loogika" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9C%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE_%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AE" title="Μαθηματική λογική" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica" title="Lógica matemática" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Matematika_logiko" title="Matematika logiko" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%85%D9%86%D8%B7%D9%82_%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C" title="منطق ریاضی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Logique_math%C3%A9matique" title="Logique mathématique" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gd"><a href="http://gd.wikipedia.org/wiki/Rianas_matamataigeach" title="Rianas matamataigeach" lang="gd" hreflang="gd">Gàidhlig</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%88%98%EB%A6%AC%EB%85%BC%EB%A6%AC%ED%95%99" title="수리논리학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D5%84%D5%A1%D5%A9%D5%A5%D5%B4%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1%D5%AF%D5%A1%D5%B6_%D5%BF%D6%80%D5%A1%D5%B4%D5%A1%D5%A2%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" title="Մաթեմատիկական տրամաբանություն" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%95%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0" title="गणितीय तर्कशास्त्र" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Matemati%C4%8Dka_logika" title="Matematička logika" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Matematikala_logiko" title="Matematikala logiko" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Logika_matematika" title="Logika matematika" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Logica_matematica" title="Logica matematica" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%92%D7%99%D7%A7%D7%94_%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%AA" title="לוגיקה מתמטית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%90%E1%83%97%E1%83%94%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9A%E1%83%9D%E1%83%92%E1%83%98%E1%83%99%E1%83%90" title="მათემატიკური ლოგიკა" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Matem%C4%81tisk%C4%81_lo%C4%A3ika" title="Matemātiskā loģika" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lij"><a href="http://lij.wikipedia.org/wiki/Logica_Matematica" title="Logica Matematica" lang="lij" hreflang="lij">Ligure</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Matematikai_logika" title="Matematikai logika" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BA%D0%B0_%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0" title="Математичка логика" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Logik_matematik" title="Logik matematik" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Wiskundige_logica" title="Wiskundige logica" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E6%95%B0%E7%90%86%E8%AB%96%E7%90%86%E5%AD%A6" title="数理論理学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Predikatslogikk" title="Predikatslogikk" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Matematisk_logikk" title="Matematisk logikk" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Logika_matematyczna" title="Logika matematyczna" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/L%C3%B3gica_matem%C3%A1tica" title="Lógica matemática" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Logic%C4%83_matematic%C4%83" title="Logică matematică" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0" title="Математическая логика" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Logjika_matematikore" title="Logjika matematikore" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B6%9C%E0%B6%AB%E0%B7%92%E0%B6%AD%E0%B6%B8%E0%B6%BA_%E0%B6%AD%E0%B6%BB%E0%B7%8A%E0%B6%9A%E0%B6%AB%E0%B6%BA" title="ගණිතමය තර්කණය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Matematick%C3%A1_logika" title="Matematická logika" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Matemati%C4%8Dna_logika" title="Matematična logika" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BA%D0%B0_%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0" title="Математичка логика" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Matemati%C4%8Dka_logika" title="Matematička logika" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Matematisk_logik" title="Matematisk logik" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Matematikal_na_lohika" title="Matematikal na lohika" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%81%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C" title="คณิตตรรกศาสตร์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tg"><a href="http://tg.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BD%D1%82%D0%B8%D2%9B%D0%B8_%D1%80%D0%B8%D1%91%D0%B7%D3%A3" title="Мантиқи риёзӣ" lang="tg" hreflang="tg">Тоҷикӣ</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Matematiksel_mant%C4%B1k" title="Matematiksel mantık" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B0_%D0%BB%D0%BE%D0%B3%D1%96%D0%BA%D0%B0" title="Математична логіка" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA%DB%8C_%D9%85%D9%86%D8%B7%D9%82" title="ریاضیاتی منطق" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Logic_to%C3%A1n" title="Logic toán" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/%E6%95%B8%E5%AD%B8%E9%82%8F%E8%BC%AF" title="數學邏輯" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 28 January 2013 at 18:52.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Mathematical_logic" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1055 in 0.201 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Non-Euclidean geometry - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Non-Euclidean_geometry&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Non-Euclidean_geometry&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Non-Euclidean_geometry","wgTitle":"Non-Euclidean geometry","wgCurRevisionId":537234057,"wgArticleId":58610,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from January 2013","Articles with unsourced statements from November 2012","Non-Euclidean geometry"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Non-Euclidean_geometry","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"6cc7025f9e129c269e04ad6ffc5cfe5d","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":58610,"title":"Non-Euclidean geometry","namespace":0,"categories":["All articles with unsourced statements","Articles with unsourced statements from January 2013","Articles with unsourced statements from November 2012","Non-Euclidean geometry"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Non-Euclidean_geometry skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Non-Euclidean geometry</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:402px;"><a href="http://en.wikipedia.org/wiki/File:Noneuclid.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Noneuclid.svg/400px-Noneuclid.svg.png" width="400" height="101" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Noneuclid.svg/600px-Noneuclid.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/78/Noneuclid.svg/800px-Noneuclid.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Noneuclid.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<center>Behavior of lines with a common perpendicular in each of the three types of geometry</center>
+</div>
+</div>
+</div>
+<table class="vertical-navbox nowraplinks" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><a href="Geometry" title="Geometry">Geometry</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;"><a href="http://en.wikipedia.org/wiki/File:P._Oxy._I_29.jpg" class="image"><img alt="P. Oxy. I 29.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/220px-P._Oxy._I_29.jpg" width="220" height="134" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/330px-P._Oxy._I_29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/440px-P._Oxy._I_29.jpg 2x" /></a>
+<div style="padding-top:0.2em;line-height:1.2em;"><a href="Oxyrhynchus_papyrus" title="Oxyrhynchus papyrus" class="mw-redirect">Oxyrhynchus papyrus</a> (P.Oxy. I 29) showing fragment of <a href="Euclid's_Elements" title="Euclid's Elements">Euclid's <i>Elements</i></a></div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;"><a href="History_of_geometry" title="History of geometry">History of geometry</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Branches</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>&#160;<span style="font-weight:bold;">·</span>  <strong class="selflink">Non-Euclidean geometry</strong>&#160;<span style="font-weight:bold;">·</span>  <a href="Analytic_geometry" title="Analytic geometry">Analytic geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Differential_geometry" title="Differential geometry">Differential geometry</a> ·<a href="Projective_geometry" title="Projective geometry">Projective geometry</a>· <a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Research areas</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Differential_geometry" title="Differential geometry">Differential geometry</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Symplectic_geometry" title="Symplectic geometry">Symplectic geometry</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Important concepts</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Point_(geometry)" title="Point (geometry)">Point</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Line_(geometry)" title="Line (geometry)">Line</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Perpendicular" title="Perpendicular">Perpendicular</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Parallel_(geometry)" title="Parallel (geometry)">Parallel</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Line_segment" title="Line segment">Line segment</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Ray_(geometry)" title="Ray (geometry)" class="mw-redirect">Ray</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Plane_(geometry)" title="Plane (geometry)">Plane</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Length" title="Length">Length</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Area" title="Area">Area</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Volume" title="Volume">Volume</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Vertex_(geometry)" title="Vertex (geometry)">Vertex</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Angle" title="Angle">Angle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Congruence_(geometry)" title="Congruence (geometry)">Congruence</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Similarity_(geometry)" title="Similarity (geometry)">Similarity</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Polygon" title="Polygon">Polygon</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Triangle" title="Triangle">Triangle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Altitude_(triangle)" title="Altitude (triangle)">Altitude</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Hypotenuse" title="Hypotenuse">Hypotenuse</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Quadrilateral" title="Quadrilateral">Quadrilateral</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Trapezoid" title="Trapezoid">Trapezoid</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Kite_(geometry)" title="Kite (geometry)">Kite</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Parallelogram" title="Parallelogram">Parallelogram</a> (<a href="Rhomboid" title="Rhomboid">Rhomboid</a>, <a href="Rectangle" title="Rectangle">Rectangle</a>, <a href="Rhombus" title="Rhombus">Rhombus</a>, <a href="Square_(geometry)" title="Square (geometry)" class="mw-redirect">Square</a>)&#160;<span style="font-weight:bold;">·</span>  <a href="Diagonal" title="Diagonal">Diagonal</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Symmetry" title="Symmetry">Symmetry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Curve" title="Curve">Curve</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Circle" title="Circle">Circle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Area_of_a_disk" title="Area of a disk">Area of a disk</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Circumference" title="Circumference">Circumference</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Diameter" title="Diameter">Diameter</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Cylinder_(geometry)" title="Cylinder (geometry)">Cylinder</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Sphere" title="Sphere">Sphere</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Pyramid_(geometry)" title="Pyramid (geometry)">Pyramid</a>&#160;<span style="font-weight:bold;">·</span> <a href="Dimension" title="Dimension" class="mw-redirect">Dimensions</a> (<a href="One-dimensional_space" title="One-dimensional space">one</a>, <a href="Two-dimensional_space" title="Two-dimensional space">two</a>, <a href="Three-dimensional_space" title="Three-dimensional space">three</a>, <a href="Four-dimensional_space" title="Four-dimensional space">four</a>)</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Geometers</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Aryabhata" title="Aryabhata">Aryabhata</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ahmes" title="Ahmes">Ahmes</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Apollonius_of_Perga" title="Apollonius of Perga">Apolonius</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Archimedes" title="Archimedes">Archimedes</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Baudhayana" title="Baudhayana">Baudhayana</a> &#160;<span style="font-weight:bold;">·</span> <a href="Janos_Bolyai" title="Janos Bolyai" class="mw-redirect">Bolyai</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Brahmagupta" title="Brahmagupta">Brahmagupta</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Euclid" title="Euclid">Euclid</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Pythagoras" title="Pythagoras">Pythagoras</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Omar_Khayy%C3%A1m" title="Omar Khayyám">Khayyám</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ren%C3%A9_Descartes" title="René Descartes">Descartes</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Blaise_Pascal" title="Blaise Pascal">Pascal</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Leonhard_Euler" title="Leonhard Euler">Euler</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ibn_al-Yasamin" title="Ibn al-Yasamin">Ibn al-Yasamin</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Jye%E1%B9%A3%E1%B9%ADhadeva" title="Jyeṣṭhadeva">Jyeṣṭhadeva</a> &#160;<span style="font-weight:bold;">·</span>  <a href="K%C4%81ty%C4%81yana" title="Kātyāyana">Kātyāyana</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Nikolai_Lobachevsky" title="Nikolai Lobachevsky">Lobachevsky</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Manava" title="Manava">Manava</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Minggatu" title="Minggatu">Minggatu</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Bernhard_Riemann" title="Bernhard Riemann">Riemann</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Felix_Klein" title="Felix Klein">Klein</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Parameshvara" title="Parameshvara">Parameshvara</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Henri_Poincar%C3%A9" title="Henri Poincaré">Poincaré</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Sijzi" title="Sijzi">Sijzi</a> &#160;<span style="font-weight:bold;">·</span>  <a href="David_Hilbert" title="David Hilbert">Hilbert</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Hermann_Minkowski" title="Hermann Minkowski">Minkowski</a> &#160;<span style="font-weight:bold;">·</span>  <a href="%C3%89lie_Cartan" title="Élie Cartan">Cartan</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Oswald_Veblen" title="Oswald Veblen">Veblen</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Sakabe_K%C5%8Dhan" title="Sakabe Kōhan">Sakabe Kōhan</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Mikhail_Leonidovich_Gromov" title="Mikhail Leonidovich Gromov">Gromov</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Michael_Atiyah" title="Michael Atiyah">Atiyah</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Virasena" title="Virasena">Virasena</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Yang_Hui" title="Yang Hui">Yang Hui</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Yasuaki_Aida" title="Yasuaki Aida">Yasuaki Aida</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Zhang_Heng" title="Zhang Heng">Zhang Heng</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_General_geometry" title="Template:General geometry"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_General_geometry&action=edit&redlink=1.php.html" class="new" title="Template talk:General geometry (page does not exist)"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_General_geometry&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, <b>non-Euclidean geometry</b> is a small set of geometries based on <a href="Axiom" title="Axiom">axioms</a> closely related to those specifying <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>. As Euclidean geometry lies at the intersection of <a href="Metric_geometry" title="Metric geometry" class="mw-redirect">metric geometry</a> and <a href="Affine_geometry" title="Affine geometry">affine geometry</a>, non-Euclidean geometry arises when either the metric requirement is relaxed, or the <a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a> is set aside. In the latter case one obtains <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic geometry</a> and <a href="Elliptic_geometry" title="Elliptic geometry">elliptic geometry</a>, the traditional non-Euclidean geometries. When the metric requirement is relaxed, then there are affine planes associated with the <a href="#Planar_algebras">planar algebras</a> which give rise to <a href="#Kinematic_geometries">kinematic geometries</a> that have also been called non-Euclidean geometry.</p>
+<p>The essential difference between the metric geometries is the nature of <a href="Parallel_(geometry)" title="Parallel (geometry)">parallel</a> lines. <a href="Euclid" title="Euclid">Euclid</a>'s fifth postulate, the <a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a>, is equivalent to <a href="Playfair's_Postulate" title="Playfair's Postulate" class="mw-redirect">Playfair's postulate</a>, which states that, within a two-dimensional plane, for any given line <i>ℓ</i> and a point <i>A</i>, which is not on <i>ℓ</i>, there is exactly one line through <i>A</i> that does not intersect <i>ℓ</i>. In hyperbolic geometry, by contrast, there are <a href="Infinite_set" title="Infinite set">infinitely</a> many lines through <i>A</i> not intersecting <i>ℓ</i>, while in elliptic geometry, any line through <i>A</i> intersects <i>ℓ</i> (see the entries on <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic geometry</a>, <a href="Elliptic_geometry" title="Elliptic geometry">elliptic geometry</a>, and <a href="Absolute_geometry" title="Absolute geometry">absolute geometry</a> for more information).</p>
+<p>Another way to describe the differences between these geometries is to consider two straight lines indefinitely extended in a two-dimensional plane that are both <a href="Perpendicular" title="Perpendicular">perpendicular</a> to a third line:</p>
+<ul>
+<li>In Euclidean geometry the lines remain at a constant <a href="Distance" title="Distance">distance</a> from each other even if extended to infinity, and are known as parallels.</li>
+<li>In hyperbolic geometry they "curve away" from each other, increasing in distance as one moves further from the points of intersection with the common perpendicular; these lines are often called ultraparallels.</li>
+<li>In elliptic geometry the lines "curve toward" each other and intersect.</li>
+</ul>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Early_history"><span class="tocnumber">1.1</span> <span class="toctext">Early history</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Creation_of_non-Euclidean_geometry"><span class="tocnumber">1.2</span> <span class="toctext">Creation of non-Euclidean geometry</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Terminology"><span class="tocnumber">1.3</span> <span class="toctext">Terminology</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Axiomatic_basis_of_non-Euclidean_geometry"><span class="tocnumber">2</span> <span class="toctext">Axiomatic basis of non-Euclidean geometry</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Models_of_non-Euclidean_geometry"><span class="tocnumber">3</span> <span class="toctext">Models of non-Euclidean geometry</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Elliptic_geometry"><span class="tocnumber">3.1</span> <span class="toctext">Elliptic geometry</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Hyperbolic_geometry"><span class="tocnumber">3.2</span> <span class="toctext">Hyperbolic geometry</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Uncommon_properties"><span class="tocnumber">4</span> <span class="toctext">Uncommon properties</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Importance"><span class="tocnumber">5</span> <span class="toctext">Importance</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Planar_algebras"><span class="tocnumber">6</span> <span class="toctext">Planar algebras</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Kinematic_geometries"><span class="tocnumber">7</span> <span class="toctext">Kinematic geometries</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Fiction"><span class="tocnumber">8</span> <span class="toctext">Fiction</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">9</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Notes"><span class="tocnumber">10</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#References"><span class="tocnumber">11</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#External_links"><span class="tocnumber">12</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=2.php.html" title="Edit section: Early history">edit</a>]</span> <span class="mw-headline" id="Early_history">Early history</span></h3>
+<p>While <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>, named after the <a href="Greek_mathematics" title="Greek mathematics">Greek mathematician</a> <a href="Euclid" title="Euclid">Euclid</a>, includes some of the oldest known mathematics, non-Euclidean geometries were not widely accepted as legitimate until the 19th century.</p>
+<p>The debate that eventually led to the discovery of the non-Euclidean geometries began almost as soon as Euclid's work <i><a href="Euclid's_Elements" title="Euclid's Elements">Elements</a></i> was written. In the <i>Elements</i>, Euclid began with a limited number of assumptions (23 definitions, five common notions, and five postulates) and sought to prove all the other results (<a href="Proposition" title="Proposition">propositions</a>) in the work. The most notorious of the postulates is often referred to as "Euclid's Fifth Postulate," or simply the "<a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a>", which in Euclid's original formulation is:</p>
+<blockquote>
+<p>If a straight line falls on two straight lines in such a manner that the interior angles on the same side are together less than two right angles, then the straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles.</p>
+</blockquote>
+<p>Other mathematicians have devised simpler forms of this property (see <i><a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a></i> for equivalent statements). Regardless of the form of the postulate, however, it consistently appears to be more complicated than Euclid's other postulates (which include, for example, "Between any two points a straight line may be drawn").</p>
+<p>For at least a thousand years, <a href="Geometer" title="Geometer" class="mw-redirect">geometers</a> were troubled by the disparate complexity of the fifth postulate, and believed it could be proved as a theorem from the other four. Many attempted to find a <a href="Proof_by_contradiction" title="Proof by contradiction">proof by contradiction</a>, including <a href="Persian_people" title="Persian people">Persian</a> mathematicians <a href="Ibn_al-Haytham" title="Ibn al-Haytham" class="mw-redirect">Ibn al-Haytham</a> (Alhazen, 11th century),<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> <a href="Omar_Khayy%C3%A1m" title="Omar Khayyám">Omar Khayyám</a> (12th century) and <a href="Nas%C4%ABr_al-D%C4%ABn_al-T%C5%ABs%C4%AB" title="Nasīr al-Dīn al-Tūsī" class="mw-redirect">Nasīr al-Dīn al-Tūsī</a> (13th century), and the <a href="Italy" title="Italy">Italian</a> mathematician <a href="Giovanni_Girolamo_Saccheri" title="Giovanni Girolamo Saccheri">Giovanni Girolamo Saccheri</a> (18th century).</p>
+<p>The theorems of Ibn al-Haytham, Khayyam and al-Tusi on <a href="Quadrilateral" title="Quadrilateral">quadrilaterals</a>, including the <a href="Lambert_quadrilateral" title="Lambert quadrilateral">Lambert quadrilateral</a> and <a href="Saccheri_quadrilateral" title="Saccheri quadrilateral">Saccheri quadrilateral</a>, were "the first few theorems of the <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic</a> and the <a href="Elliptical_geometry" title="Elliptical geometry" class="mw-redirect">elliptic geometries</a>." These theorems along with their alternative postulates, such as <a href="Playfair's_axiom" title="Playfair's axiom">Playfair's axiom</a>, played an important role in the later development of non-Euclidean geometry. These early attempts at challenging the fifth postulate had a considerable influence on its development among later European geometers, including <a href="Witelo" title="Witelo">Witelo</a>, <a href="Levi_ben_Gerson" title="Levi ben Gerson" class="mw-redirect">Levi ben Gerson</a>, <a href="Alfonso" title="Alfonso">Alfonso</a>, <a href="John_Wallis" title="John Wallis">John Wallis</a> and Saccheri.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> All of these early attempts made at trying to formulate non-Euclidean geometry however provided flawed proofs of the parallel postulate, containing assumptions that were essentially equivalent to the parallel postulate. These early attempts did, however, provide some early properties of the hyperbolic and elliptic geometries.</p>
+<p>Khayyam, for example, tried to derive it from an equivalent postulate he formulated from "the principles of the Philosopher" (<a href="Aristotle" title="Aristotle">Aristotle</a>): "<i>Two convergent straight lines intersect and it is impossible for two convergent straight lines to diverge in the direction in which they converge.</i>"<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Khayyam then considered the three cases right, obtuse, and acute that the summit angles of a Saccheri quadrilateral can take and after proving a number of theorems about them, he correctly refuted the obtuse and acute cases based on his postulate and hence derived the classic postulate of Euclid which he didn't realize was equivalent to his own postulate. Another example is al-Tusi's son, Sadr al-Din (sometimes known as "Pseudo-Tusi"), who wrote a book on the subject in 1298, based on al-Tusi's later thoughts, which presented another hypothesis equivalent to the parallel postulate. "He essentially revised both the Euclidean system of axioms and postulates and the proofs of many propositions from the <i>Elements</i>."<sup id="cite_ref-Katz_4-0" class="reference"><a href="#cite_note-Katz-4"><span>[</span>4<span>]</span></a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> His work was published in <a href="Rome" title="Rome">Rome</a> in 1594 and was studied by European geometers, including Saccheri<sup id="cite_ref-Katz_4-1" class="reference"><a href="#cite_note-Katz-4"><span>[</span>4<span>]</span></a></sup> who criticised this work as well as that of Wallis.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p><a href="Giordano_Vitale" title="Giordano Vitale">Giordano Vitale</a>, in his book <i>Euclide restituo</i> (1680, 1686), used the Saccheri quadrilateral to prove that if three points are equidistant on the base AB and the summit CD, then AB and CD are everywhere equidistant.</p>
+<p>In a work titled <i>Euclides ab Omni Naevo Vindicatus</i> (<i>Euclid Freed from All Flaws</i>), published in 1733, Saccheri quickly discarded elliptic geometry as a possibility (some others of Euclid's axioms must be modified for elliptic geometry to work) and set to work proving a great number of results in hyperbolic geometry. He finally reached a point where he believed that his results demonstrated the impossibility of hyperbolic geometry. His claim seems to have been based on Euclidean presuppositions, because no <i>logical</i> contradiction was present. In this attempt to prove Euclidean geometry he instead unintentionally discovered a new viable geometry, but did not realize it.</p>
+<p>In 1766 <a href="Johann_Heinrich_Lambert" title="Johann Heinrich Lambert">Johann Lambert</a> wrote, but did not publish, <i>Theorie der Parallellinien</i> in which he attempted, as Saccheri did, to prove the fifth postulate. He worked with a figure that today we call a <i>Lambert quadrilateral</i>, a quadrilateral with three right angles (can be considered half of a Saccheri quadrilateral). He quickly eliminated the possibility that the fourth angle is obtuse, as had Saccheri and Khayyam, and then proceeded to prove many theorems under the assumption of an acute angle. Unlike Saccheri, he never felt that he had reached a contradiction with this assumption. He had proved the non-Euclidean result that the sum of the angles in a triangle increases as the area of the triangle decreases, and this led him to speculate on the possibility of a model of the acute case on a sphere of imaginary radius. He did not carry this idea any further.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<p>At this time it was widely believed that the universe worked according to the principles of Euclidean geometry.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=3.php.html" title="Edit section: Creation of non-Euclidean geometry">edit</a>]</span> <span class="mw-headline" id="Creation_of_non-Euclidean_geometry">Creation of non-Euclidean geometry</span></h3>
+<p>The beginning of the 19th century would finally witness decisive steps in the creation of non-Euclidean geometry. Around 1818, <a href="../../w/index-title=Ferdinand_Karl_Schweikart&action=edit&redlink=1.php.html" class="new" title="Ferdinand Karl Schweikart (page does not exist)">Schweikart</a><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from January 2013">citation needed</span></a></i>]</sup> and then, around 1830, the <a href="Hungary" title="Hungary">Hungarian</a> mathematician <a href="J%C3%A1nos_Bolyai" title="János Bolyai">János Bolyai</a> and the <a href="Russia" title="Russia">Russian</a> mathematician <a href="Nikolai_Ivanovich_Lobachevsky" title="Nikolai Ivanovich Lobachevsky" class="mw-redirect">Nikolai Ivanovich Lobachevsky</a> separately published treatises on hyperbolic geometry. (Schweikart did not publish his work, his contribution was discovered much later.) Consequently, hyperbolic geometry is called Bolyai-Lobachevskian geometry, as both mathematicians, independent of each other, are the basic authors of non-Euclidean geometry. <a href="Carl_Gauss" title="Carl Gauss" class="mw-redirect">Gauss</a> mentioned to Bolyai's father, when shown the younger Bolyai's work, that he had developed such a geometry several years before,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> though he did not publish. While Lobachevsky created a non-Euclidean geometry by negating the parallel postulate, Bolyai worked out a geometry where both the Euclidean and the hyperbolic geometry are possible depending on a parameter k. Bolyai ends his work by mentioning that it is not possible to decide through mathematical reasoning alone if the geometry of the physical universe is Euclidean or non-Euclidean; this is a task for the physical sciences.</p>
+<p><a href="Bernhard_Riemann" title="Bernhard Riemann">Bernhard Riemann</a>, in a famous lecture in 1854, founded the field of <a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a>, discussing in particular the ideas now called <a href="Manifold" title="Manifold">manifolds</a>, <a href="Riemannian_metric" title="Riemannian metric" class="mw-redirect">Riemannian metric</a>, and <a href="Curvature" title="Curvature">curvature</a>. He constructed an infinite family of geometries which are not Euclidean by giving a formula for a family of Riemannian metrics on the unit ball in <a href="Euclidean_space" title="Euclidean space">Euclidean space</a>. The simplest of these is called <a href="Elliptic_geometry" title="Elliptic geometry">elliptic geometry</a> and it is considered to be a non-Euclidean geometry due to its lack of parallel lines.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=4.php.html" title="Edit section: Terminology">edit</a>]</span> <span class="mw-headline" id="Terminology">Terminology</span></h3>
+<p>It was Gauss who coined the term "non-euclidean geometry".<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> He was referring to his own work which today we call <i>hyperbolic geometry</i>. Several modern authors still consider "non-euclidean geometry" and "hyperbolic geometry" to be synonyms. In 1871, <a href="Felix_Klein" title="Felix Klein">Felix Klein</a>, by adapting a metric discussed by <a href="Arthur_Cayley" title="Arthur Cayley">Arthur Cayley</a> in 1852, was able to bring metric properties into a projective setting and was therefore able to unify the treatments of hyperbolic, euclidean and elliptic geometry under the umbrella of <a href="Projective_geometry" title="Projective geometry">projective geometry</a>.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> Klein is responsible for the terms "hyperbolic" and "elliptic" (in his system he called Euclidean geometry "parabolic", a term which has not survived the test of time). His influence has led to the current usage of the term "non-euclidean geometry" to mean either "hyperbolic" or "elliptic" geometry.</p>
+<p>There are some mathematicians who would extend the list of geometries that should be called "non-euclidean" in various ways.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> In other disciplines, most notably <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a>, the term "non-euclidean" is often taken to mean <i>not</i> Euclidean.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=5.php.html" title="Edit section: Axiomatic basis of non-Euclidean geometry">edit</a>]</span> <span class="mw-headline" id="Axiomatic_basis_of_non-Euclidean_geometry">Axiomatic basis of non-Euclidean geometry</span></h2>
+<p>Euclidean geometry can be axiomatically described in several ways. Unfortunately, Euclid's original system of five postulates (axioms) is not one of these as his proofs relied on several unstated assumptions which should also have been taken as axioms. <a href="Hilbert's_axioms" title="Hilbert's axioms">Hilbert's system</a> consisting of 20 axioms<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> most closely follows the approach of Euclid and provides the justification for all of Euclid's proofs. Other systems, using different sets of <a href="Primitive_notion" title="Primitive notion">undefined terms</a> obtain the same geometry by different paths. In all approaches, however, there is an axiom which is logically equivalent to Euclid's fifth postulate, the parallel postulate. <a href="David_Hilbert" title="David Hilbert">Hilbert</a> uses the Playfair axiom form, while <a href="Garrett_Birkhoff" title="Garrett Birkhoff">Birkhoff</a>, for instance, uses the axiom which says that "there exists a pair of similar but not congruent triangles." In any of these systems, removal of the one axiom which is equivalent to the parallel postulate, in whatever form it takes, and leaving all the other axioms intact, produces <a href="Absolute_geometry" title="Absolute geometry">absolute geometry</a>. As the first 28 propositions of Euclid (in <i>The Elements</i>) do not require the use of the parallel postulate or anything equivalent to it, they are all true statements in absolute geometry.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<p>To obtain a non-Euclidean geometry, the parallel postulate (or its equivalent) <i>must</i> be replaced by its <a href="Negation" title="Negation">negation</a>. Negating the <a href="Playfair's_axiom" title="Playfair's axiom">Playfair's axiom</a> form, since it is a compound statement (... there exists one and only one ...), can be done in two ways. Either there will exist more than one line through the point parallel to the given line or there will exist no lines through the point parallel to the given line. In the first case, replacing the parallel postulate (or its equivalent) with the statement "In a plane, given a point P and a line <i>ℓ</i> not passing through P, there exist two lines through P which do not meet <i>ℓ</i>" and keeping all the other axioms, yields <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic geometry</a>.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> The second case is not dealt with as easily. Simply replacing the parallel postulate with the statement, "In a plane, given a point P and a line <i>ℓ</i> not passing through P, all the lines through P meet <i>ℓ</i>", does not give a consistent set of axioms. This follows since parallel lines exist in absolute geometry,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> but this statement says that there are no parallel lines. This problem was known (in a different guise) to Khayyam, Saccheri and Lambert and was the basis for their rejecting what was known as the "obtuse angle case". In order to obtain a consistent set of axioms which includes this axiom about having no parallel lines, some of the other axioms must be tweaked. The adjustments to be made depend upon the axiom system being used. Among others these tweaks will have the effect of modifying Euclid's second postulate from the statement that line segments can be extended indefinitely to the statement that lines are unbounded. <a href="Riemann" title="Riemann" class="mw-redirect">Riemann</a>'s <a href="Elliptic_geometry" title="Elliptic geometry">elliptic geometry</a> emerges as the most natural geometry satisfying this axiom.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=6.php.html" title="Edit section: Models of non-Euclidean geometry">edit</a>]</span> <span class="mw-headline" id="Models_of_non-Euclidean_geometry">Models of non-Euclidean geometry</span></h2>
+<div class="rellink boilerplate seealso">For more details on this topic, see <a href="Models_of_non-Euclidean_geometry" title="Models of non-Euclidean geometry">Models of non-Euclidean geometry</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:352px;"><a href="http://en.wikipedia.org/wiki/File:Triangles_(spherical_geometry).jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Triangles_(spherical_geometry).jpg/350px-Triangles_(spherical_geometry).jpg" width="350" height="288" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Triangles_%28spherical_geometry%29.jpg/525px-Triangles_%28spherical_geometry%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/97/Triangles_%28spherical_geometry%29.jpg/700px-Triangles_%28spherical_geometry%29.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Triangles_(spherical_geometry).jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+On a sphere, the sum of the angles of a triangle is not equal to 180°. The surface of a sphere is not a Euclidean space, but locally the laws of the Euclidean geometry are good approximations. In a small triangle on the face of the earth, the sum of the angles is very nearly 180°.</div>
+</div>
+</div>
+<p>Two dimensional Euclidean geometry is <a href="Model_(abstract)" title="Model (abstract)" class="mw-redirect">modelled</a> by our notion of a "flat <a href="Plane_(mathematics)" title="Plane (mathematics)" class="mw-redirect">plane</a>."</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=7.php.html" title="Edit section: Elliptic geometry">edit</a>]</span> <span class="mw-headline" id="Elliptic_geometry">Elliptic geometry</span></h3>
+<p>The simplest model for <a href="Elliptic_geometry" title="Elliptic geometry">elliptic geometry</a> is a sphere, where lines are "<a href="Great_circle" title="Great circle">great circles</a>" (such as the <a href="Equator" title="Equator">equator</a> or the <a href="Meridian_(geography)" title="Meridian (geography)">meridians</a> on a <a href="Globe" title="Globe">globe</a>), and points opposite each other (called <a href="Antipodal_points" title="Antipodal points" class="mw-redirect">antipodal points</a>) are identified (considered to be the same). This is also one of the standard models of the <a href="Real_projective_plane" title="Real projective plane">real projective plane</a>. The difference is that as a model of elliptic geometry a metric is introduced permitting the measurement of lengths and angles, while as a model of the projective plane there is no such metric.</p>
+<p>In the elliptic model, for any given line <i>ℓ</i> and a point <i>A</i>, which is not on <i>ℓ</i>, all lines through <i>A</i> will intersect <i>ℓ</i>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=8.php.html" title="Edit section: Hyperbolic geometry">edit</a>]</span> <span class="mw-headline" id="Hyperbolic_geometry">Hyperbolic geometry</span></h3>
+<p>Even after the work of Lobachevsky, Gauss, and Bolyai, the question remained: does such a model exist for <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic geometry</a>? The model for <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic geometry</a> was answered by <a href="Eugenio_Beltrami" title="Eugenio Beltrami">Eugenio Beltrami</a>, in 1868, who first showed that a surface called the <a href="Pseudosphere" title="Pseudosphere">pseudosphere</a> has the appropriate <a href="Curvature" title="Curvature">curvature</a> to model a portion of <a href="Hyperbolic_space" title="Hyperbolic space">hyperbolic space</a>, and in a second paper in the same year, defined the <a href="Klein_model" title="Klein model" class="mw-redirect">Klein model</a> which models the entirety of hyperbolic space, and used this to show that Euclidean geometry and hyperbolic geometry were <a href="Equiconsistency" title="Equiconsistency">equiconsistent</a>, so that hyperbolic geometry was <a href="Logically_consistent" title="Logically consistent" class="mw-redirect">logically consistent</a> if and only if Euclidean geometry was. (The reverse implication follows from the <a href="Horosphere" title="Horosphere">horosphere</a> model of Euclidean geometry.)</p>
+<p>In the hyperbolic model, within a two-dimensional plane, for any given line <i>ℓ</i> and a point <i>A</i>, which is not on <i>ℓ</i>, there are <a href="Infinite_set" title="Infinite set">infinitely</a> many lines through <i>A</i> that do not intersect <i>ℓ</i>.</p>
+<p>In these models the concepts of non-Euclidean geometries are being represented by Euclidean objects in a Euclidean setting. This introduces a perceptual distortion wherein the straight lines of the non-Euclidean geometry are being represented by Euclidean curves which visually bend. This "bending" is not a property of the non-Euclidean lines, only an artifice of the way they are being represented.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=9.php.html" title="Edit section: Uncommon properties">edit</a>]</span> <span class="mw-headline" id="Uncommon_properties">Uncommon properties</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:172px;"><a href="http://en.wikipedia.org/wiki/File:Lambert_quadrilateral.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lambert_quadrilateral.svg/170px-Lambert_quadrilateral.svg.png" width="170" height="135" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lambert_quadrilateral.svg/255px-Lambert_quadrilateral.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/84/Lambert_quadrilateral.svg/340px-Lambert_quadrilateral.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Lambert_quadrilateral.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<center>Lambert quadrilateral in hyperbolic geometry</center>
+</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Saccheri_quads.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Saccheri_quads.svg/150px-Saccheri_quads.svg.png" width="150" height="375" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Saccheri_quads.svg/225px-Saccheri_quads.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Saccheri_quads.svg/300px-Saccheri_quads.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Saccheri_quads.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<center>Saccheri quadrilaterals in the three geometries</center>
+</div>
+</div>
+</div>
+<p>Euclidean and non-Euclidean geometries naturally have many similar properties, namely those which do not depend upon the nature of parallelism. This commonality is the subject of <a href="Absolute_geometry" title="Absolute geometry">absolute geometry</a> (also called <i>neutral geometry</i>). However, the properties which distinguish one geometry from the others are the ones which have historically received the most attention.</p>
+<p>Besides the behavior of lines with respect to a common perpendicular, mentioned in the introduction, we also have the following:</p>
+<ul>
+<li>A <a href="Lambert_quadrilateral" title="Lambert quadrilateral">Lambert quadrilateral</a> is a quadrilateral which has three right angles. The fourth angle of a Lambert quadrilateral is <a href="Acute_angle" title="Acute angle" class="mw-redirect">acute</a> if the geometry is hyperbolic, a <a href="Right_angle" title="Right angle">right angle</a> if the geometry is Euclidean or <a href="Obtuse_angle" title="Obtuse angle" class="mw-redirect">obtuse</a> if the geometry is elliptic. Consequently, <a href="Rectangle" title="Rectangle">rectangles</a> exist only in Euclidean geometry.</li>
+</ul>
+<ul>
+<li>A <a href="Saccheri_quadrilateral" title="Saccheri quadrilateral">Saccheri quadrilateral</a> is a quadrilateral which has two sides of equal length, both perpendicular to a side called the <i>base</i>. The other two angles of a Saccheri quadrilateral are called the <i>summit angles</i> and they have equal measure. The summit angles of a Saccheri quadrilateral are acute if the geometry is hyperbolic, right angles if the geometry is Euclidean and obtuse angles if the geometry is elliptic.</li>
+</ul>
+<ul>
+<li>The sum of the measures of the angles of any triangle is less than 180° if the geometry is hyperbolic, equal to 180° if the geometry is Euclidean, and greater than 180° if the geometry is elliptic. The <i>defect</i> of a triangle is the numerical value (180° - sum of the measures of the angles of the triangle). This result may also be stated as: the defect of triangles in hyperbolic geometry is positive, the defect of triangles in Euclidean geometry is zero, and the defect of triangles in elliptic geometry is negative.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=10.php.html" title="Edit section: Importance">edit</a>]</span> <span class="mw-headline" id="Importance">Importance</span></h2>
+<p>Non-Euclidean geometry is an example of a <a href="Paradigm_shift" title="Paradigm shift">paradigm shift</a> in the <a href="History_of_science" title="History of science">history of science</a>.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> Before the models of a non-Euclidean plane were presented by Beltrami, Klein, and Poincaré, Euclidean geometry stood unchallenged as the <a href="Mathematical_model" title="Mathematical model">mathematical model</a> of <a href="Space" title="Space">space</a>. Furthermore, since the substance of the subject in <a href="Synthetic_geometry" title="Synthetic geometry">synthetic geometry</a> was a chief exhibit of rationality, the Euclidean point of view represented absolute authority.</p>
+<p>The discovery of the non-Euclidean geometries had a ripple effect which went far beyond the boundaries of mathematics and science. The philosopher <a href="Immanuel_Kant" title="Immanuel Kant">Immanuel Kant</a>'s treatment of human knowledge had a special role for geometry. It was his prime example of synthetic a priori knowledge; not derived from the senses nor deduced through logic — our knowledge of space was a truth that we were born with. Unfortunately for Kant, his concept of this unalterably true geometry was Euclidean. Theology was also affected by the change from absolute truth to relative truth in mathematics that was a result of this paradigm shift.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup></p>
+<p>The existence of non-Euclidean geometries impacted the "intellectual life" of <a href="Victorian_England" title="Victorian England" class="mw-redirect">Victorian England</a> in many ways<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> and in particular was one of the leading factors that caused a re-examination of the teaching of geometry based on <a href="Euclid's_Elements" title="Euclid's Elements">Euclid's Elements</a>. This curriculum issue was hotly debated at the time and was even the subject of a play, <i>Euclid and his Modern Rivals</i>, written by <a href="Lewis_Carroll" title="Lewis Carroll">Lewis Carroll</a>, the author of <a href="Alice's_Adventures_in_Wonderland" title="Alice's Adventures in Wonderland">Alice in Wonderland</a>.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=11.php.html" title="Edit section: Planar algebras">edit</a>]</span> <span class="mw-headline" id="Planar_algebras">Planar algebras</span></h2>
+<p>In <a href="Analytic_geometry" title="Analytic geometry">analytic geometry</a> a <a href="Plane_(geometry)" title="Plane (geometry)">plane</a> is described with <a href="Cartesian_coordinate" title="Cartesian coordinate" class="mw-redirect">Cartesian coordinates</a>&#160;: <i>C</i> = {(<i>x,y</i>)&#160;: <i>x</i>, <i>y</i> in R}. The <a href="Point_(geometry)" title="Point (geometry)">points</a> are sometimes identified with complex numbers <i>z</i> = <i>x</i> + <i>y</i> ε where the square of ε is in {−1, 0, +1}. The Euclidean plane corresponds to the case ε<sup>2</sup> = −1 since the modulus of <i>z</i> is given by</p>
+<dl>
+<dd><img class="tex" alt="z z^\ast = (x + y \epsilon) (x - y \epsilon) = x^2 + y^2" src="http://upload.wikimedia.org/math/f/d/7/fd7431ff725a2ac07fc4f650ea43121d.png" /></dd>
+</dl>
+<p>and this quantity is the square of the <a href="Euclidean_distance" title="Euclidean distance">Euclidean distance</a> between <i>z</i> and the origin. For instance, {<i>z</i>&#160;: <i>z z</i>* = 1} is the <a href="Unit_circle" title="Unit circle">unit circle</a>.</p>
+<p>For planar algebra, non-Euclidean geometry arises in the other cases. When <img class="tex" alt="\epsilon ^2 = +1" src="http://upload.wikimedia.org/math/7/e/8/7e884aeee8a96805f82190b136e0b5da.png" />, then <i>z</i> is a <a href="Split-complex_number" title="Split-complex number">split-complex number</a> and conventionally j replaces epsilon. Then</p>
+<dl>
+<dd><img class="tex" alt="z z^\ast = (x + yj) (x - yj) = x^2 - y^2 \!" src="http://upload.wikimedia.org/math/6/c/0/6c0b0662ba8ffdeed90467faef034a30.png" /></dd>
+</dl>
+<p>and {<i>z</i>&#160;: <i>z z</i>* = 1} is the <a href="Unit_hyperbola" title="Unit hyperbola">unit hyperbola</a>.</p>
+<p>When <img class="tex" alt="\epsilon ^2 = 0" src="http://upload.wikimedia.org/math/0/8/9/0898cb27b29884ea732657ee069e44d2.png" />, then <i>z</i> is a <a href="Dual_number" title="Dual number">dual number</a>.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p>
+<p>This approach to non-Euclidean geometry explains the non-Euclidean angles: the parameters of <a href="Slope" title="Slope">slope</a> in the dual number plane and <a href="Hyperbolic_angle" title="Hyperbolic angle">hyperbolic angle</a> in the split-complex plane correspond to <a href="Angle" title="Angle">angle</a> in Euclidean geometry. Indeed, they each arise in <a href="Polar_decomposition#Alternative_planar_decompositions" title="Polar decomposition">polar decomposition</a> of a complex number z.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=12.php.html" title="Edit section: Kinematic geometries">edit</a>]</span> <span class="mw-headline" id="Kinematic_geometries">Kinematic geometries</span></h2>
+<p>Hyperbolic geometry found an application in <a href="Kinematics" title="Kinematics">kinematics</a> with the <a href="Cosmology" title="Cosmology">cosmology</a> introduced by <a href="Herman_Minkowski" title="Herman Minkowski" class="mw-redirect">Herman Minkowski</a> in 1908. Minkowski introduced terms like <a href="Worldline" title="Worldline" class="mw-redirect">worldline</a> and <a href="Proper_time" title="Proper time">proper time</a> into <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a>. He realized that the <a href="Submanifold" title="Submanifold">submanifold</a>, of events one moment of proper time into the future, could be considered a <a href="Hyperbolic_space" title="Hyperbolic space">hyperbolic space</a> of three dimensions.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup><sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup> Already in the 1890s <a href="Alexander_Macfarlane" title="Alexander Macfarlane">Alexander Macfarlane</a> was charting this submanifold through his <a href="Alexander_Macfarlane#Algebra_of_Physics" title="Alexander Macfarlane">Algebra of Physics</a> and <a href="Hyperbolic_quaternion" title="Hyperbolic quaternion">hyperbolic quaternions</a>, though Macfarlane didn’t use cosmological language as Minkowski did in 1908. The relevant structure is now called the <a href="Hyperboloid_model" title="Hyperboloid model">hyperboloid model</a> of hyperbolic geometry.</p>
+<p>The non-Euclidean planar algebras support kinematic geometries in the plane. For instance, the <a href="Split-complex_number" title="Split-complex number">split-complex number</a> <i>z</i> = e<sup><i>a</i>j</sup> can represent a spacetime event one moment into the future of a <a href="Frame_of_reference" title="Frame of reference">frame of reference</a> of <a href="Rapidity" title="Rapidity">rapidity</a> a. Furthermore, multiplication by <i>z</i> amounts to a <a href="Lorentz_boost" title="Lorentz boost" class="mw-redirect">Lorentz boost</a> mapping the frame with rapidity zero to that with rapidity <i>a</i>.</p>
+<p>Kinematic study makes use of the <a href="Dual_number" title="Dual number">dual numbers</a> <img class="tex" alt="z = x + y \epsilon, \quad \epsilon^2 = 0," src="http://upload.wikimedia.org/math/1/7/3/173ffb46abda08a603338f85d86c9ab9.png" /> to represent the classical description of motion in <a href="Absolute_time_and_space" title="Absolute time and space">absolute time and space</a>: The equations <img class="tex" alt="x^\prime = x + vt,\quad t^\prime = t" src="http://upload.wikimedia.org/math/3/8/1/3816e4c057a54d7fc172edcd07a52aab.png" /> are equivalent to a <a href="Shear_mapping" title="Shear mapping">shear mapping</a> in linear algebra:</p>
+<dl>
+<dd><img class="tex" alt="\begin{pmatrix}x' \\ t' \end{pmatrix} = \begin{pmatrix}1 &amp; v \\ 0 &amp; 1 \end{pmatrix}\begin{pmatrix}x \\ t \end{pmatrix}." src="http://upload.wikimedia.org/math/a/1/e/a1ea199f869597213b04d13a3c1504cb.png" /></dd>
+</dl>
+<p>With dual numbers the mapping is <img class="tex" alt="t^\prime + x^\prime \epsilon = (1 + v \epsilon)(t + x \epsilon) = t + (x + vt)\epsilon." src="http://upload.wikimedia.org/math/0/3/0/03033dda8c63b6b644038b95c17d23ae.png" /><sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup></p>
+<p>Another view of <a href="Special_relativity" title="Special relativity">special relativity</a> as a non-Euclidean geometry was advanced by <a href="Edwin_Bidwell_Wilson" title="Edwin Bidwell Wilson">E. B. Wilson</a> and <a href="Gilbert_Lewis" title="Gilbert Lewis">Gilbert Lewis</a> in <i>Proceedings of the <a href="American_Academy_of_Arts_and_Sciences" title="American Academy of Arts and Sciences">American Academy of Arts and Sciences</a></i> in 1912. They revamped the analytic geometry implicit in the split-complex number algebra into <a href="Synthetic_geometry" title="Synthetic geometry">synthetic geometry</a> of premises and deductions.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26"><span>[</span>26<span>]</span></a></sup><sup id="cite_ref-27" class="reference"><a href="#cite_note-27"><span>[</span>27<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=13.php.html" title="Edit section: Fiction">edit</a>]</span> <span class="mw-headline" id="Fiction">Fiction</span></h2>
+<p>Non-Euclidean geometry often makes appearances in works of <a href="Science_fiction" title="Science fiction">science fiction</a> and <a href="Fantasy" title="Fantasy">fantasy</a>.</p>
+<p>In 1895 <a href="../H._G._Wells" title="H. G. Wells">H. G. Wells</a> published the short story <i>The Remarkable Case of Davidson’s Eyes</i>. To appreciate this story one should know how <a href="Antipodal_points" title="Antipodal points" class="mw-redirect">antipodal points</a> on a sphere are identified in a model of the elliptic plane. In the story, in the midst of a thunderstorm, Sidney Davidson sees "Waves and a remarkably neat schooner" while working in an electrical laboratory at Harlow Technical College. At the story’s close Davidson proves to have witnessed H.M.S. <i>Fulmar</i> off <a href="Antipodes_Island" title="Antipodes Island" class="mw-redirect">Antipodes Island</a>.</p>
+<p>Non-Euclidean geometry is sometimes connected with the influence of the 20th century <a href="Horror_fiction" title="Horror fiction">horror fiction</a> writer <a href="../H._P._Lovecraft" title="H. P. Lovecraft">H. P. Lovecraft</a>. In his works, many unnatural things follow their own unique laws of geometry: In Lovecraft's <a href="Cthulhu_Mythos" title="Cthulhu Mythos">Cthulhu Mythos</a>, the sunken city of <a href="R'lyeh" title="R'lyeh">R'lyeh</a> is characterized by its non-Euclidean geometry. It is heavily implied this is achieved as a side effect of not following the natural laws of this universe rather than simply using an alternate geometric model, as the sheer innate wrongness of it is said to be capable of driving those who look upon it insane.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from November 2012">citation needed</span></a></i>]</sup></p>
+<p>The main character in <a href="Robert_Pirsig" title="Robert Pirsig" class="mw-redirect">Robert Pirsig</a>'s <i><a href="Zen_and_the_Art_of_Motorcycle_Maintenance" title="Zen and the Art of Motorcycle Maintenance">Zen and the Art of Motorcycle Maintenance</a></i> mentioned Riemannian Geometry on multiple occasions.</p>
+<p>In <i><a href="The_Brothers_Karamazov" title="The Brothers Karamazov">The Brothers Karamazov</a></i>, Dostoevsky discusses non-Euclidean geometry through his main character Ivan.</p>
+<p>Christopher Priest's <i><a href="The_Inverted_World_(novel)" title="The Inverted World (novel)">The Inverted World</a></i> describes the struggle of living on a planet with the form of a rotating <a href="Pseudosphere" title="Pseudosphere">pseudosphere</a>.</p>
+<p>Robert Heinlein's <i><a href="The_Number_of_the_Beast_(novel)" title="The Number of the Beast (novel)">The Number of the Beast</a></i> utilizes non-Euclidean geometry to explain instantaneous transport through space and time and between parallel and fictional universes.</p>
+<p>Alexander Bruce's <i><a href="Antichamber" title="Antichamber">Antichamber</a></i> uses non-Euclidean geometry to create a brilliant, minimal, <a href="../M._C._Escher" title="M. C. Escher">Escher</a>-like world, where geometry and space follow unfamiliar rules.</p>
+<p>In the <a href="Renegade_Legion" title="Renegade Legion">Renegade Legion</a> <a href="Science_fiction" title="Science fiction">science fiction</a> setting for <a href="FASA" title="FASA">FASA</a>'s <a href="Wargame_(video_games)" title="Wargame (video games)">wargame</a>, <a href="Role-playing-game" title="Role-playing-game" class="mw-redirect">role-playing-game</a> and fiction, <a href="Faster-than-light_travel" title="Faster-than-light travel" class="mw-redirect">faster-than-light travel</a> and communications is possible through the use of Hsieh Ho's Polydimensional Non-Euclidean Geometry, published sometime in the middle of the twenty-second century.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<table class="multicol" style="border-collapse: collapse; padding: 0px; border: 0px; background:transparent; width:100%;">
+<tr>
+<td width="33%" align="left" valign="top">
+<ul>
+<li><a href="Hyperbolic_space" title="Hyperbolic space">Hyperbolic space</a></li>
+<li><a href="Projective_geometry" title="Projective geometry">Projective geometry</a></li>
+<li><a href="Schopenhauer's_criticism_of_the_proofs_of_the_Parallel_Postulate" title="Schopenhauer's criticism of the proofs of the Parallel Postulate" class="mw-redirect">Schopenhauer's criticism of the proofs of the Parallel Postulate</a></li>
+<li><a href="Lenart_Sphere" title="Lenart Sphere" class="mw-redirect">Lenart Sphere</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=15.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFEder2000">Eder, Michelle (2000), <a rel="nofollow" class="external text" href="http://www.math.rutgers.edu/~cherlin/History/Papers2000/eder.html"><i>Views of Euclid's Parallel Postulate in Ancient Greece and in Medieval Islam</i></a>, <a href="Rutgers_University" title="Rutgers University">Rutgers University</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.math.rutgers.edu/~cherlin/History/Papers2000/eder.html">http://www.math.rutgers.edu/~cherlin/History/Papers2000/eder.html</a></span><span class="reference-accessdate">, retrieved 2008-01-23</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Boris A. Rosenfeld &amp; Adolf P. Youschkevitch, "Geometry", p. 470, in Roshdi Rashed &amp; Régis Morelon (1996), <i><a href="Encyclopedia_of_the_History_of_Arabic_Science" title="Encyclopedia of the History of Arabic Science">Encyclopedia of the History of Arabic Science</a></i>, Vol. 2, pp. 447–494, <a href="Routledge" title="Routledge">Routledge</a>, London and New York:</span>
+<blockquote class="templatequote">
+<div class="Bug6200"><span class="reference-text">"Three scientists, Ibn al-Haytham, Khayyam and al-Tusi, had made the most considerable contribution to this branch of geometry whose importance came to be completely recognized only in the nineteenth century. In essence their propositions concerning the properties of quadrangles which they considered assuming that some of the angles of these figures were acute of obtuse, embodied the first few theorems of the hyperbolic and the elliptic geometries. Their other proposals showed that various geometric statements were equivalent to the Euclidean postulate V. It is extremely important that these scholars established the mutual connection between this postulate and the sum of the angles of a triangle and a quadrangle. By their works on the theory of parallel lines Arab mathematicians directly influenced the relevant investiagtions of their European couterparts. The first European attempt to prove the postulate on parallel lines – made by <a href="Witelo" title="Witelo">Witelo</a>, the Polish scientists of the thirteenth century, while revising <a href="Ibn_al-Haytham" title="Ibn al-Haytham" class="mw-redirect">Ibn al-Haytham</a>'s <i><a href="Book_of_Optics" title="Book of Optics">Book of Optics</a></i> (<i>Kitab al-Manazir</i>) – was undoubtedly prompted by Arabic sources. The proofs put forward in the fourteenth century by the Jewish scholar <a href="Levi_ben_Gerson" title="Levi ben Gerson" class="mw-redirect">Levi ben Gerson</a>, who lived in southern France, and by the above-mentioned Alfonso from Spain directly border on Ibn al-Haytham's demonstration. Above, we have demonstrated that <i>Pseudo-Tusi's Exposition of Euclid</i> had stimulated borth J. Wallis's and G. <a href="Saccheri" title="Saccheri" class="mw-redirect">Saccheri</a>'s studies of the theory of parallel lines."</span></div>
+</blockquote>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Boris A. Rosenfeld &amp; Adolf P. Youschkevitch (1996), "Geometry", p. 467, in Roshdi Rashed &amp; Régis Morelon (1996), <i><a href="Encyclopedia_of_the_History_of_Arabic_Science" title="Encyclopedia of the History of Arabic Science">Encyclopedia of the History of Arabic Science</a></i>, Vol. 2, pp. 447–494, <a href="Routledge" title="Routledge">Routledge</a>, <a href="Special_BookSources/0415124115" class="internal mw-magiclink-isbn">ISBN 0-415-12411-5</a></span></li>
+<li id="cite_note-Katz-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-Katz_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Katz_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Victor J. Katz (1998), <i>History of Mathematics: An Introduction</i>, p. 270–271, <a href="Addison%E2%80%93Wesley" title="Addison–Wesley" class="mw-redirect">Addison–Wesley</a>, <a href="Special_BookSources/0321016181" class="internal mw-magiclink-isbn">ISBN 0-321-01618-1</a>:</span>
+<blockquote>
+<p><span class="reference-text">"But in a manuscript probably written by his son Sadr al-Din in 1298, based on Nasir al-Din's later thoughts on the subject, there is a new argument based on another hypothesis, also equivalent to Euclid's, [...] The importance of this latter work is that it was published in Rome in 1594 and was studied by European geometers. In particular, it became the starting point for the work of Saccheri and ultimately for the discovery of non-Euclidean geometry."</span></p>
+</blockquote>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Boris A. Rosenfeld and Adolf P. Youschkevitch (1996), "Geometry", in Roshdi Rashed, ed., <i><a href="Encyclopedia_of_the_History_of_Arabic_Science" title="Encyclopedia of the History of Arabic Science">Encyclopedia of the History of Arabic Science</a></i>, Vol. 2, p. 447–494 [469], <a href="Routledge" title="Routledge">Routledge</a>, London and New York:</span>
+<blockquote class="templatequote">
+<div class="Bug6200"><span class="reference-text">"In <i>Pseudo-Tusi's Exposition of Euclid</i>, [...] another statement is used instead of a postulate. It was independent of the Euclidean postulate V and easy to prove. [...] He essentially revised both the Euclidean system of axioms and postulates and the proofs of many propositions from the <i>Elements</i>."</span></div>
+</blockquote>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Saccheri.html">MacTutor's Giovanni Girolamo Saccheri</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation web">O'Connor, J.J.; Robertson, E.F. <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Lambert.html">"Johann Heinrich Lambert"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Lambert.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Lambert.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2011</span>.</span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">In the letter to Wolfgang (Farkas) Bolyai of March 6, 1832 Gauss claims to have worked on the problem for thirty or thirty-five years (<a href="#CITEREFFaber1983">Faber 1983</a>, pg. 162). In his 1824 letter to Taurinus (<a href="#CITEREFFaber1983">Faber 1983</a>, pg. 158) he claimed that he had been working on the problem for over 30 years and provided enough detail to show that he actually had worked out the details. According to <a href="#CITEREFFaber1983">Faber (1983</a>, pg. 156) it wasn't until around 1813 that Gauss had come to accept the existence of a new geometry.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">However, other axioms besides the parallel postulate must be changed in order to make this a feasible geometry.</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Felix Klein, <i>Elementary Mathematics from an Advanced Standpoint: Geometry</i>, Dover, 1948 (reprint of English translation of 3rd Edition, 1940. First edition in German, 1908) pg. 176</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">F. Klein, Über die sogenannte nichteuklidische Geometrie, <i>Mathematische Annalen</i>, <b>4</b>(1871).</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">for instance, <a href="#CITEREFManning1963">Manning 1963</a> and Yaglom 1968</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text">a 21<sup>st</sup> axiom appeared in the French translation of Hilbert's <i>Grundlagen der Geometrie</i> according to <a href="#CITEREFSmart1997">Smart 1997</a>, pg. 416</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">(<a href="#CITEREFSmart1997">Smart 1997</a>, pg.366)</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">while only two lines are postulated, it is easily shown that there must be an infinite number of such lines.</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text">Book I Proposition 27 of Euclid's <i>Elements</i></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">see (<a href="#CITEREFTrudeau1987">Trudeau 1987</a>)</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text">Imre Toth, "Gott und Geometrie: Eine viktorianische Kontroverse," <i>Evolutionstheorie und ihre Evolution</i>, Dieter Henrich, ed. (Schriftenreihe der Universität Regensburg, band 7, 1982) pp. 141–204.</span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">(<a href="#CITEREFRichards1988">Richards 1988</a>)</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a href="Lewis_Carroll" title="Lewis Carroll">Lewis Carroll</a>, see reference below.</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text">Yaglom 1968</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text">Richard C. Tolman (2004) Theory of Relativity of Motion, page 194, §180 Non-Euclidean angle, §181 Kinematical interpretation of angle in terms of velocity</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">Herman Minkowski (1908–9). <a href="http://en.wikisource.org/wiki/Space_and_Time" class="extiw" title="s:Space and Time">"Space and Time"</a> (Wikisource).</span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">Scott Walter (1999) <a rel="nofollow" class="external text" href="http://www.univ-nancy2.fr/DepPhilo/walter/papers/nes.pdf">Non-Euclidean Style of Special Relativity</a></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a href="Isaak_Yaglom" title="Isaak Yaglom">Isaak Yaglom</a> (1979) A simple non-Euclidean geometry and its physical basis&#160;: an elementary account of Galilean geometry and the Galilean principle of relativity, Springer <a href="Special_BookSources/0387903321" class="internal mw-magiclink-isbn">ISBN 0-387-90332-1</a></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a href="../Edwin_B._Wilson" title="Edwin B. Wilson" class="mw-redirect">Edwin B. Wilson</a> &amp; <a href="../Gilbert_N._Lewis" title="Gilbert N. Lewis">Gilbert N. Lewis</a> (1912) "The Space-time Manifold of Relativity. The Non-Euclidean Geometry of Mechanics and Electromagnetics" Proceedings of the <a href="American_Academy_of_Arts_and_Sciences" title="American Academy of Arts and Sciences">American Academy of Arts and Sciences</a> 48:387–507</span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.webcitation.org/5koAax8ct">Synthetic Spacetime</a>, a digest of the axioms used, and theorems proved, by Wilson and Lewis. Archived by <a href="WebCite" title="WebCite">WebCite</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=16.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><a href="../../w/index-title=Lavenda_Bernard&action=edit&redlink=1.php.html" class="new" title="Lavenda Bernard (page does not exist)">Lavenda Bernard</a>, (2012) " A New Perspective on Relativity&#160;: An Odyssey In Non-Euclidean Geometries", pp 696, <a href="Special_BookSources/9789814340489" class="internal mw-magiclink-isbn">ISBN 9789814340489</a>.</li>
+<li><span class="smallcaps" style="font-variant:small-caps;">A'Campo, Norbert and Papadopoulos, Athanase</span>, (2012) <i>Notes on hyperbolic geometry</i>, in: Strasbourg Master class on Geometry, pp.&#160;1–182, IRMA Lectures in Mathematics and Theoretical Physics, Vol. 18, Zürich: European Mathematical Society (EMS), 461 pages, SBN <a href="Special_BookSources/9783037191057" class="internal mw-magiclink-isbn">ISBN 978-3-03719-105-7</a>, DOI 10.4171/105.</li>
+<li>Anderson, James W. <i>Hyperbolic Geometry</i>, second edition, Springer, 2005</li>
+<li>Beltrami, Eugenio <i>Teoria fondamentale degli spazî di curvatura costante</i>, Annali. di Mat., ser II 2 (1868), 232–255</li>
+<li><span class="citation" id="CITEREFBlumenthal1980">Blumenthal, Leonard M. (1980), <i>A Modern View of Geometry</i>, New York: Dover, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-486-63962-2" title="Special:BookSources/0-486-63962-2">0-486-63962-2</a></span></li>
+<li><a href="Lewis_Carroll" title="Lewis Carroll">Carroll, Lewis</a> <i>Euclid and His Modern Rivals</i>, New York: Barnes and Noble, 2009 (reprint) <a href="Special_BookSources/9781435123489" class="internal mw-magiclink-isbn">ISBN 978-1-4351-2348-9</a></li>
+<li><a href="../H._S._M._Coxeter" title="H. S. M. Coxeter" class="mw-redirect">H. S. M. Coxeter</a> (1942) <i>Non-Euclidean Geometry</i>, <a href="University_of_Toronto_Press" title="University of Toronto Press">University of Toronto Press</a>, reissued 1998 by <a href="Mathematical_Association_of_America" title="Mathematical Association of America">Mathematical Association of America</a>, <a href="Special_BookSources/0883855224" class="internal mw-magiclink-isbn">ISBN 0-88385-522-4</a>.</li>
+<li><span class="citation" id="CITEREFFaber1983">Faber, Richard L. (1983), <i>Foundations of Euclidean and Non-Euclidean Geometry</i>, New York: Marcel Dekker, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8247-1748-1" title="Special:BookSources/0-8247-1748-1">0-8247-1748-1</a></span></li>
+<li>Jeremy Gray (1989) <i>Ideas of Space: Euclidean, Non-Euclidean, and Relativistic</i>, 2nd edition, <a href="Clarendon_Press" title="Clarendon Press" class="mw-redirect">Clarendon Press</a>.</li>
+<li>Greenberg, Marvin Jay <i>Euclidean and Non-Euclidean Geometries: Development and History</i>, 4th ed., New York: W. H. Freeman, 2007. <a href="Special_BookSources/0716799480" class="internal mw-magiclink-isbn">ISBN 0-7167-9948-0</a></li>
+<li><a href="Morris_Kline" title="Morris Kline">Morris Kline</a> (1972) <i>Mathematical Thought from Ancient to Modern Times</i>, Chaper 36 Non-Euclidean Geometry, pp 861–81, <a href="Oxford_University_Press" title="Oxford University Press">Oxford University Press</a>.</li>
+<li><a href="Nikolai_Lobachevsky" title="Nikolai Lobachevsky">Nikolai Lobachevsky</a> (2010) <i>Pangeometry</i>, Translator and Editor: A. Papadopoulos, Heritage of European Mathematics Series, Vol. 4, <a href="European_Mathematical_Society" title="European Mathematical Society">European Mathematical Society</a>.</li>
+<li><span class="citation" id="CITEREFManning1963">Manning, Henry Parker (1963), <i>Introductory Non-Euclidean Geometry</i>, New York: Dover</span></li>
+<li><span class="citation book">Meschkowski, Herbert (1964). <i>Noneuclidean Geometry</i>. New York: Academic Press.</span></li>
+<li>Milnor, John W. (1982) <i><a rel="nofollow" class="external text" href="http://projecteuclid.org/euclid.bams/1183548588">Hyperbolic geometry: The first 150 years</a></i>, Bull. Amer. Math. Soc. (N.S.) Volume 6, Number 1, pp.&#160;9–24.</li>
+<li><span class="citation" id="CITEREFRichards1988">Richards, Joan L. (1988), <i>Mathematical Visions: The Pursuit of Geometry in Victorian England</i>, Boston: Academic Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-12-587445-6" title="Special:BookSources/0-12-587445-6">0-12-587445-6</a></span></li>
+<li><span class="citation" id="CITEREFSmart1997">Smart, James R. (1997), <i>Modern Geometries (5th Ed.)</i>, Pacific Grove: Brooks/Cole, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-534-35188-3" title="Special:BookSources/0-534-35188-3">0-534-35188-3</a></span></li>
+<li><a href="Ian_Stewart_(mathematician)" title="Ian Stewart (mathematician)">Stewart, Ian</a> <cite><i><a href="Flatterland" title="Flatterland">Flatterland</a></i></cite>. New York: Perseus Publishing, 2001. <a href="Special_BookSources/073820675X" class="internal mw-magiclink-isbn">ISBN 0-7382-0675-X</a> (softcover)</li>
+<li><a href="John_Stillwell" title="John Stillwell">John Stillwell</a> (1996) <i>Sources of Hyperbolic Geometry</i>, <a href="American_Mathematical_Society" title="American Mathematical Society">American Mathematical Society</a> <a href="Special_BookSources/0821805290" class="internal mw-magiclink-isbn">ISBN 0-8218-0529-0</a> .</li>
+<li><span class="citation" id="CITEREFTrudeau1987">Trudeau, Richard J. (1987), <i>The Non-Euclidean Revolution</i>, Boston: Birkhauser, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8176-3311-1" title="Special:BookSources/0-8176-3311-1">0-8176-3311-1</a></span></li>
+<li><a href="Isaak_Yaglom" title="Isaak Yaglom">Isaak Yaglom</a> (1968) <i>Complex Numbers in Geometry</i>, translated by E. Primrose from 1963 Russian original, appendix "Non-Euclidean geometries in the plane and complex numbers", pp 195–219, <a href="Academic_Press" title="Academic Press">Academic Press</a>, N.Y.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Non-Euclidean_geometry&action=edit&section=17.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li>Roberto Bonola (1912) <a rel="nofollow" class="external text" href="http://www.archive.org/details/noneuclideangeom00bonorich">Non-Euclidean Geometry</a>, Open Court, Chicago.</li>
+<li><a rel="nofollow" class="external text" href="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Non-Euclidean_geometry.html">MacTutor Archive article on non-Euclidean geometry</a></li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/?op=getobj&from=objects&id=4669">Non-euclidean geometry</a>, <a href="PlanetMath" title="PlanetMath">PlanetMath.org</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php/Non-Euclidean_geometries">Non-Euclidean geometries</a> from <i>Encyclopedia of Math</i> of <a href="European_Mathematical_Society" title="European Mathematical Society">European Mathematical Society</a> and <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer Science+Business Media</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.webcitation.org/5koAax8ct">Synthetic Spacetime</a>, a digest of the axioms used, and theorems proved, by Wilson and Lewis. Archived by <a href="WebCite" title="WebCite">WebCite</a>.</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Positivism" title="Template:Positivism"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Positivism" title="Template talk:Positivism"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Positivism&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Positivism" title="Positivism">Positivism</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Positivist<br />
+perspectives</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Empiricism" title="Empiricism">Empiricism</a></li>
+<li><a href="Scientism" title="Scientism">Scientism</a></li>
+<li><a href="Antihumanism" title="Antihumanism">Antihumanism</a></li>
+<li><a href="Rationalism" title="Rationalism">Rationalism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Declinations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Logical_positivism" title="Logical positivism">Logical positivism</a> within <a href="Analytic_philosophy" title="Analytic philosophy">Analytic philosophy</a></li>
+<li><a href="Postpositivism" title="Postpositivism">Postpositivism</a></li>
+<li><a href="Sociological_positivism" title="Sociological positivism" class="mw-redirect">Sociological positivism</a></li>
+<li><a href="Legal_positivism" title="Legal positivism">Legal positivism</a></li>
+<li><a href="Leopold_von_Ranke" title="Leopold von Ranke">Rankean historical positivism</a></li>
+<li><a href="Ernst_Mach" title="Ernst Mach">Machian positivism</a> (Empirio-criticism)</li>
+<li><a href="Positivism_in_Poland" title="Positivism in Poland">Polish positivism</a></li>
+<li><a href="Alexander_Bogdanov" title="Alexander Bogdanov">Russian positivism</a> (Empiriomonism)</li>
+<li><a href="Positivism_(international_relations)" title="Positivism (international relations)">Positivism in international relations</a></li>
+<li><a href="Positivist_school" title="Positivist school">Positivist school of criminology</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Main concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Consilience" title="Consilience">Consilience</a></li>
+<li><a href="Verificationism" title="Verificationism">Verificationism</a></li>
+<li><a href="Inductive_reasoning" title="Inductive reasoning">Induction</a></li>
+<li><a href="Evidence" title="Evidence">Evidence</a></li>
+<li><a href="Theory_of_justification" title="Theory of justification">Justificationism</a></li>
+<li><a href="Pseudoscience" title="Pseudoscience">Pseudoscience</a></li>
+<li><a href="Metaphysics" title="Metaphysics">Elimination of metaphysics</a></li>
+<li><a href="Demarcation_problem" title="Demarcation problem">Demarcation</a></li>
+<li><a href="Unity_of_science" title="Unity of science">Unity of science</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Antitheses</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Antipositivism" title="Antipositivism">Antipositivism</a></li>
+<li><a href="Humanities" title="Humanities">Humanities</a></li>
+<li><i><a href="Geisteswissenschaft" title="Geisteswissenschaft">Geisteswissenschaft</a></i></li>
+<li><a href="Human_science" title="Human science">Human science</a></li>
+<li><a href="Hermeneutics" title="Hermeneutics">Hermeneutics</a></li>
+<li><a href="Critical_theory" title="Critical theory">Critical theory</a></li>
+<li><a href="Historicism" title="Historicism">Historicism</a></li>
+<li><a href="Historism" title="Historism">Historism</a></li>
+<li><a href="Reflectivism" title="Reflectivism">Reflectivism</a></li>
+<li><a href="Confirmation_holism" title="Confirmation holism">Confirmation holism</a></li>
+<li><a href="Falsifiability" title="Falsifiability">Falsifiability</a></li>
+<li><a href="Problem_of_induction" title="Problem of induction">The problem of induction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Debate</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Related debates<br />
+over method</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Methodenstreit" title="Methodenstreit"><i>Methodenstreit</i> of economics</a> (1890s)</li>
+<li><i><a href="Werturteilsstreit" title="Werturteilsstreit">Werturteilsstreit</a></i> (1909)</li>
+<li><i><a href="Positivism_dispute" title="Positivism dispute">Positivismusstreit</a></i> (1960s)</li>
+<li><a href="Science_wars" title="Science wars">Science Wars</a> (1990s)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Contributions</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="The_Course_in_Positive_Philosophy" title="The Course in Positive Philosophy">The Course in Positive Philosophy</a></i> (1830)</li>
+<li><i><a href="A_General_View_of_Positivism" title="A General View of Positivism">A General View of Positivism</a></i> (1848)</li>
+<li><i><a href="Ernst_Mach" title="Ernst Mach">The Analysis of Sensations</a></i> (1886)</li>
+<li><i><a href="The_Logic_of_Modern_Physics" title="The Logic of Modern Physics">The Logic of Modern Physics</a></i> (1927)</li>
+<li><i><a href="Language,_Truth,_and_Logic" title="Language, Truth, and Logic">Language, Truth, and Logic</a></i> (1936)</li>
+<li><i><a href="The_Two_Cultures" title="The Two Cultures">The Two Cultures</a></i> (1959)</li>
+<li><i><a href="The_Universe_in_a_Nutshell" title="The Universe in a Nutshell">The Universe in a Nutshell</a></i> (2001)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Proponents</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Auguste_Comte" title="Auguste Comte">Auguste Comte</a></li>
+<li><a href="%C3%89mile_Durkheim" title="Émile Durkheim">Émile Durkheim</a></li>
+<li><a href="Richard_Avenarius" title="Richard Avenarius">Richard Avenarius</a></li>
+<li><a href="Vienna_Circle" title="Vienna Circle">Vienna Circle</a></li>
+<li><a href="Berlin_Circle" title="Berlin Circle">Berlin Circle</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Criticism</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="Materialism_and_Empirio-criticism" title="Materialism and Empirio-criticism">Materialism and Empirio-criticism</a></i> (1909)</li>
+<li><i><a href="History_and_Class_Consciousness" title="History and Class Consciousness">History and Class Consciousness</a></i> (1923)</li>
+<li><i><a href="The_Logic_of_Scientific_Discovery" title="The Logic of Scientific Discovery">The Logic of Scientific Discovery</a></i> (1934)</li>
+<li><i><a href="The_Poverty_of_Historicism" title="The Poverty of Historicism">The Poverty of Historicism</a></i> (1936)</li>
+<li><i><a href="World_Hypotheses" title="World Hypotheses">World Hypotheses</a></i> (1942)</li>
+<li><i><a href="Two_Dogmas_of_Empiricism" title="Two Dogmas of Empiricism">Two Dogmas of Empiricism</a></i> (1951)</li>
+<li><i><a href="Truth_and_Method" title="Truth and Method">Truth and Method</a></i> (1960)</li>
+<li><i><a href="Conjectures_and_Refutations" title="Conjectures and Refutations">Conjectures and Refutations</a></i> (1963)</li>
+<li><i><a href="One-Dimensional_Man" title="One-Dimensional Man">One-Dimensional Man</a></i> (1964)</li>
+<li><i><a href="J%C3%BCrgen_Habermas#Major_works" title="Jürgen Habermas">Knowledge and Human Interests</a></i> (1968)</li>
+<li><i><a href="../E._P._Thompson#Freelance_polemicist" title="E. P. Thompson">The Poverty of Theory</a></i> (1978)</li>
+<li><i><a href="Constructive_empiricism" title="Constructive empiricism">The Scientific Image</a></i> (1980)</li>
+<li><i><a href="McCloskey_critique" title="McCloskey critique">The Rhetoric of Economics</a></i> (1986)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Critics</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Wilhelm_Dilthey" title="Wilhelm Dilthey">Wilhelm Dilthey</a></li>
+<li><a href="Max_Weber" title="Max Weber">Max Weber</a></li>
+<li><a href="Gaston_Bachelard" title="Gaston Bachelard">Gaston Bachelard</a></li>
+<li><a href="Gy%C3%B6rgy_Luk%C3%A1cs" title="György Lukács">György Lukács</a></li>
+<li><a href="Theodor_Adorno" title="Theodor Adorno" class="mw-redirect">Theodor Adorno</a></li>
+<li><a href="Hans-Georg_Gadamer" title="Hans-Georg Gadamer">Hans-Georg Gadamer</a></li>
+<li><a href="Karl_Popper" title="Karl Popper">Karl Popper</a></li>
+<li><a href="Thomas_Kuhn" title="Thomas Kuhn">Thomas Kuhn</a></li>
+<li><a href="Paul_Feyerabend" title="Paul Feyerabend">Paul Feyerabend</a></li>
+<li><a href="Mario_Bunge" title="Mario Bunge">Mario Bunge</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Contended<br />
+concepts</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Truth" title="Truth">Truth</a></li>
+<li><a href="Knowledge" title="Knowledge">Knowledge</a></li>
+<li><i><a href="Verstehen" title="Verstehen">Verstehen</a></i></li>
+<li><a href="Phronesis" title="Phronesis">Phronesis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Related<br />
+<a href="Paradigm_shift" title="Paradigm shift">paradigm shifts</a> in the<br />
+<a href="History_of_science" title="History of science">history of science</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Non-Euclidean geometry</strong> (1830s)</li>
+<li><a href="Heisenberg_uncertainty_principle" title="Heisenberg uncertainty principle" class="mw-redirect">Heisenberg uncertainty principle</a> (1927)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Related topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Epistemology" title="Epistemology">Epistemology</a></li>
+<li><a href="Philosophy_of_science" title="Philosophy of science">Philosophy of science</a> (<a href="Deductive-nomological_model" title="Deductive-nomological model">Deductive-nomological model</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Ramsey_sentences" title="Ramsey sentences">Ramsey sentences</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Sense_data" title="Sense data">Theory of sense-data</a>)</li>
+<li><a href="Critical_rationalism" title="Critical rationalism">Critical rationalism</a></li>
+<li><a href="Sociology" title="Sociology">Sociology</a></li>
+<li><a href="Social_science" title="Social science">Social science</a></li>
+<li><a href="Criticism_of_science" title="Criticism of science">Criticism of science</a></li>
+<li><a href="Objectivity_(science)" title="Objectivity (science)">Objectivity in science</a></li>
+<li><a href="Relationship_between_religion_and_science" title="Relationship between religion and science">Relationship between religion and science</a></li>
+<li><a href="Nomothetic_and_idiographic" title="Nomothetic and idiographic">Nomothetic–idiographic distinction</a></li>
+<li><a href="Qualitative_research" title="Qualitative research">Qualitative research</a></li>
+<li><a href="Phenomenalism" title="Phenomenalism">Phenomenalism</a></li>
+<li><a href="Epistemological_idealism" title="Epistemological idealism">Epistemological idealism</a></li>
+<li><a href="Operationalization" title="Operationalization">Operationalism</a></li>
+<li><a href="Instrumentalism" title="Instrumentalism">Instrumentalism</a></li>
+<li><a href="Behavioralism" title="Behavioralism">Behavioralism</a></li>
+<li><a href="Structuralism" title="Structuralism">Structuralism</a></li>
+<li><a href="Structural_functionalism" title="Structural functionalism">Structural functionalism</a></li>
+<li><a href="Structuration" title="Structuration">Structuration</a></li>
+<li><a href="Holism#In_anthropology" title="Holism">Holism in anthropology</a></li>
+<li><a href="Naturalism_(literature)" title="Naturalism (literature)">Naturalism in literature</a></li>
+<li><a href="Modernism" title="Modernism">Modernism</a></li>
+<li><a href="Flag_of_Brazil" title="Flag of Brazil">Flag of Brazil</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 9764/1000000
+Preprocessor generated node count: 56659/1500000
+Post-expand include size: 137525/2048000 bytes
+Template argument size: 71465/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:58610-0!0!0!!en!4!* and timestamp 20130213025521 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Non-Euclidean_geometry&oldid=537234057.php.html">http://en.wikipedia.org/w/index.php?title=Non-Euclidean_geometry&amp;oldid=537234057</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Non-Euclidean_geometry" title="Category:Non-Euclidean geometry">Non-Euclidean geometry</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_January_2013" title="Category:Articles with unsourced statements from January 2013">Articles with unsourced statements from January 2013</a></li><li><a href="Category_Articles_with_unsourced_statements_from_November_2012" title="Category:Articles with unsourced statements from November 2012">Articles with unsourced statements from November 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Non-Euclidean+geometry&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Non-Euclidean+geometry.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Non-Euclidean_geometry"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Non-Euclidean_geometry&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Non-Euclidean_geometry&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Non-Euclidean_geometry" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Non-Euclidean_geometry" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Non-Euclidean_geometry&oldid=537234057.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Non-Euclidean_geometry&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Non-Euclidean_geometry&id=537234057.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Non-Euclidean+geometry.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Non-Euclidean+geometry&oldid=537234057&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Non-Euclidean_geometry&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D9%84%D8%A7%D8%A5%D9%82%D9%84%D9%8A%D8%AF%D9%8A%D8%A9" title="هندسة لاإقليدية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/Xeometr%C3%ADes_non_eucl%C3%ADdees" title="Xeometríes non euclídees" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B5%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Неевклидова геометрия" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Geometria_no_euclidiana" title="Geometria no euclidiana" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Neeukleidovsk%C3%A1_geometrie" title="Neeukleidovská geometrie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Ikke-euklidisk_geometri" title="Ikke-euklidisk geometri" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Nichteuklidische_Geometrie" title="Nichteuklidische Geometrie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Geometr%C3%ADa_no_euclidiana" title="Geometría no euclidiana" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D9%87_%D9%86%D8%A7%D8%A7%D9%82%D9%84%DB%8C%D8%AF%D8%B3%DB%8C" title="هندسه نااقلیدسی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_non_euclidienne" title="Géométrie non euclidienne" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%B9%84%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C_%EA%B8%B0%ED%95%98%ED%95%99" title="비유클리드 기하학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Geometri_non-Euklides" title="Geometri non-Euklides" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/%C3%93evkl%C3%AD%C3%B0sk_r%C3%BAmfr%C3%A6%C3%B0i" title="Óevklíðsk rúmfræði" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Geometria_non_euclidea" title="Geometria non euclidea" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%92%D7%90%D7%95%D7%9E%D7%98%D7%A8%D7%99%D7%94_%D7%9C%D7%90-%D7%90%D7%95%D7%A7%D7%9C%D7%99%D7%93%D7%99%D7%AA" title="גאומטריה לא-אוקלידית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%90%E1%83%A0%E1%83%90%E1%83%94%E1%83%95%E1%83%99%E1%83%9A%E1%83%98%E1%83%93%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%92%E1%83%94%E1%83%9D%E1%83%9B%E1%83%94%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90" title="არაევკლიდური გეომეტრია" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Nemeuklideszi_geometria" title="Nemeuklideszi geometria" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Niet-euclidische_meetkunde" title="Niet-euclidische meetkunde" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E9%9D%9E%E3%83%A6%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%83%E3%83%89%E5%B9%BE%E4%BD%95%E5%AD%A6" title="非ユークリッド幾何学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Ikke-euklidsk_geometri" title="Ikke-euklidsk geometri" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Ikkje-evklidsk_geometri" title="Ikkje-evklidsk geometri" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Geometria_nieeuklidesowa" title="Geometria nieeuklidesowa" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Geometria_n%C3%A3o_euclidiana" title="Geometria não euclidiana" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Geometrii_neeuclidiene" title="Geometrii neeuclidiene" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B5%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Неевклидова геометрия" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Non-Euclidean_geometry" title="Non-Euclidean geometry" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Neeuklidovsk%C3%A1_geometria" title="Neeuklidovská geometria" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Neevklidska_geometrija" title="Neevklidska geometrija" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/Neeuklidska_geometrija" title="Neeuklidska geometrija" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Ep%C3%A4euklidinen_geometria" title="Epäeuklidinen geometria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Icke-euklidisk_geometri" title="Icke-euklidisk geometri" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9D%D0%B5%D0%B5%D0%B2%D0%BA%D0%BB%D1%96%D0%B4%D0%BE%D0%B2%D0%B0_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%8F" title="Неевклідова геометрія" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/H%C3%ACnh_h%E1%BB%8Dc_phi_Euclid" title="Hình học phi Euclid" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="非欧几里得几何" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 8 February 2013 at 15:11.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Non-Euclidean_geometry" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1081 in 2.771 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

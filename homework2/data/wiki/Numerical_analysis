@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Numerical analysis - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Numerical_analysis&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Numerical_analysis&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Numerical_analysis","wgTitle":"Numerical analysis","wgCurRevisionId":537020605,"wgArticleId":21506,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from July 2012","Articles with German language external links","Numerical analysis","Mathematical physics","Computational science"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Numerical_analysis","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"4ea4ad59bed4ea1b43daaa196802d9e5","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":21506,"title":"Numerical analysis","namespace":0,"categories":["Articles with German language external links","Computational science","Mathematical physics","Numerical analysis","Use dmy dates from July 2012"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Numerical_analysis skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Numerical analysis</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ybc7289-bw.jpg/250px-Ybc7289-bw.jpg" width="250" height="233" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/0/0b/Ybc7289-bw.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Ybc7289-bw.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Babylonian clay tablet YBC 7289 (c. 1800–1600 BC) with annotations. The approximation of the <a href="Square_root_of_2" title="Square root of 2">square root of 2</a> is four <a href="Sexagesimal" title="Sexagesimal">sexagesimal</a> figures, which is about six <a href="Decimal" title="Decimal">decimal</a> figures. 1 + 24/60 + 51/60<sup>2</sup> + 10/60<sup>3</sup> = 1.41421296...<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></div>
+</div>
+</div>
+<p><b>Numerical analysis</b> is the study of <a href="Algorithm" title="Algorithm">algorithms</a> that use numerical <a href="Approximation" title="Approximation">approximation</a> (as opposed to general <a href="Symbolic_computation" title="Symbolic computation">symbolic manipulations</a>) for the problems of <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a> (as distinguished from <a href="Discrete_mathematics" title="Discrete mathematics">discrete mathematics</a>).</p>
+<p>One of the earliest mathematical writings is a Babylonian tablet from the Yale Babylonian Collection (YBC 7289), which gives a sexagesimal numerical approximation of <img class="tex" alt="\sqrt{2}" src="http://upload.wikimedia.org/math/e/f/5/ef5590434a387b3c4427e09d5b08baaf.png" />, the length of the diagonal in a unit square. Being able to compute the sides of a triangle (and hence, being able to compute square roots) is extremely important, for instance, in carpentry and construction.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Numerical analysis continues this long tradition of practical mathematical calculations. Much like the Babylonian approximation of <img class="tex" alt="\sqrt{2}" src="http://upload.wikimedia.org/math/e/f/5/ef5590434a387b3c4427e09d5b08baaf.png" />, modern numerical analysis does not seek exact answers, because exact answers are often impossible to obtain in practice. Instead, much of numerical analysis is concerned with obtaining approximate solutions while maintaining reasonable bounds on errors.</p>
+<p>Numerical analysis naturally finds applications in all fields of engineering and the physical sciences, but in the 21st&#160;century, the life sciences and even the arts have adopted elements of scientific computations. <a href="Ordinary_differential_equation" title="Ordinary differential equation">Ordinary differential equations</a> appear in the <a href="Celestial_mechanics" title="Celestial mechanics">movement of heavenly bodies (planets, stars and galaxies)</a>; <a href="Numerical_linear_algebra" title="Numerical linear algebra">numerical linear algebra</a> is important for data analysis; <a href="Stochastic_differential_equation" title="Stochastic differential equation">stochastic differential equations</a> and <a href="Markov_chain" title="Markov chain">Markov chains</a> are essential in simulating living cells for medicine and biology.</p>
+<p>Before the advent of modern computers numerical methods often depended on hand <a href="Interpolation" title="Interpolation">interpolation</a> in large printed tables. Since the mid 20th century, computers calculate the required functions instead. These same interpolation formulas nevertheless continue to be used as part of the software <a href="Algorithms" title="Algorithms" class="mw-redirect">algorithms</a> for solving <a href="Differential_equations" title="Differential equations" class="mw-redirect">differential equations</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#General_introduction"><span class="tocnumber">1</span> <span class="toctext">General introduction</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#History"><span class="tocnumber">1.1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Direct_and_iterative_methods"><span class="tocnumber">1.2</span> <span class="toctext">Direct and iterative methods</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#Discretization_and_numerical_integration"><span class="tocnumber">1.2.1</span> <span class="toctext">Discretization and numerical integration</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-5"><a href="#Discretization"><span class="tocnumber">1.3</span> <span class="toctext">Discretization</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Generation_and_propagation_of_errors"><span class="tocnumber">2</span> <span class="toctext">Generation and propagation of errors</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Round-off"><span class="tocnumber">2.1</span> <span class="toctext">Round-off</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Truncation_and_discretization_error"><span class="tocnumber">2.2</span> <span class="toctext">Truncation and discretization error</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Numerical_stability_and_well-posed_problems"><span class="tocnumber">2.3</span> <span class="toctext">Numerical stability and well-posed problems</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Areas_of_study"><span class="tocnumber">3</span> <span class="toctext">Areas of study</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Computing_values_of_functions"><span class="tocnumber">3.1</span> <span class="toctext">Computing values of functions</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Interpolation.2C_extrapolation.2C_and_regression"><span class="tocnumber">3.2</span> <span class="toctext">Interpolation, extrapolation, and regression</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Solving_equations_and_systems_of_equations"><span class="tocnumber">3.3</span> <span class="toctext">Solving equations and systems of equations</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Solving_eigenvalue_or_singular_value_problems"><span class="tocnumber">3.4</span> <span class="toctext">Solving eigenvalue or singular value problems</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Optimization"><span class="tocnumber">3.5</span> <span class="toctext">Optimization</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Evaluating_integrals"><span class="tocnumber">3.6</span> <span class="toctext">Evaluating integrals</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Differential_equations"><span class="tocnumber">3.7</span> <span class="toctext">Differential equations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Software"><span class="tocnumber">4</span> <span class="toctext">Software</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=1.php.html" title="Edit section: General introduction">edit</a>]</span> <span class="mw-headline" id="General_introduction">General introduction</span></h2>
+<p>The overall goal of the field of numerical analysis is the design and analysis of techniques to give approximate but accurate solutions to hard problems, the variety of which is suggested by the following.</p>
+<ul>
+<li>Advanced numerical methods are essential in making <a href="Numerical_weather_prediction" title="Numerical weather prediction">numerical weather prediction</a> feasible.</li>
+<li>Computing the trajectory of a spacecraft requires the accurate numerical solution of a system of <a href="Ordinary_differential_equation" title="Ordinary differential equation">ordinary differential equations</a>.</li>
+<li>Car companies can improve the crash safety of their vehicles by using computer simulations of car crashes. Such simulations essentially consist of solving <a href="Partial_differential_equation" title="Partial differential equation">partial differential equations</a> numerically.</li>
+<li><a href="Hedge_fund" title="Hedge fund">Hedge funds</a> (private investment funds) use tools from all fields of numerical analysis to attempt to calculate the value of stocks and derivatives more precisely than other market participants.</li>
+<li>Airlines use sophisticated optimization algorithms to decide ticket prices, airplane and crew assignments and fuel needs. Historically, such algorithms were developed within the overlapping field of <a href="Operations_research" title="Operations research">operations research</a>.</li>
+<li>Insurance companies use numerical programs for <a href="Actuary" title="Actuary">actuarial</a> analysis.</li>
+</ul>
+<p>The rest of this section outlines several important themes of numerical analysis.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=2.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h3>
+<p>The field of numerical analysis predates the invention of modern computers by many centuries. <a href="Linear_interpolation" title="Linear interpolation">Linear interpolation</a> was already in use more than 2000 years ago. Many great mathematicians of the past were preoccupied by numerical analysis, as is obvious from the names of important algorithms like <a href="Newton's_method" title="Newton's method">Newton's method</a>, <a href="Lagrange_polynomial" title="Lagrange polynomial">Lagrange interpolation polynomial</a>, <a href="Gaussian_elimination" title="Gaussian elimination">Gaussian elimination</a>, or <a href="Euler's_method" title="Euler's method" class="mw-redirect">Euler's method</a>.</p>
+<p>To facilitate computations by hand, large books were produced with formulas and tables of data such as interpolation points and function coefficients. Using these tables, often calculated out to 16 decimal places or more for some functions, one could look up values to plug into the formulas given and achieve very good numerical estimates of some functions. The canonical work in the field is the <a href="NIST" title="NIST" class="mw-redirect">NIST</a> publication edited by <a href="Abramowitz_and_Stegun" title="Abramowitz and Stegun">Abramowitz and Stegun</a>, a 1000-plus page book of a very large number of commonly used formulas and functions and their values at many points. The function values are no longer very useful when a computer is available, but the large listing of formulas can still be very handy.</p>
+<p>The <a href="Mechanical_calculator" title="Mechanical calculator">mechanical calculator</a> was also developed as a tool for hand computation. These calculators evolved into electronic computers in the 1940s, and it was then found that these computers were also useful for administrative purposes. But the invention of the computer also influenced the field of numerical analysis, since now longer and more complicated calculations could be done.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=3.php.html" title="Edit section: Direct and iterative methods">edit</a>]</span> <span class="mw-headline" id="Direct_and_iterative_methods">Direct and iterative methods</span></h3>
+<table class="wikitable" style="float: right; width: 250px; margin-left: 1em;">
+<tr>
+<td>
+<p><b>Direct vs iterative methods</b></p>
+<p>Consider the problem of solving</p>
+<dl>
+<dd>3<i>x</i><sup>3</sup> + 4 = 28</dd>
+</dl>
+<p>for the unknown quantity <i>x</i>.</p>
+<table style="margin:auto;">
+<caption>Direct method</caption>
+<tr>
+<td></td>
+<td>3<i>x</i><sup>3</sup> + 4 = 28.</td>
+</tr>
+<tr>
+<td><i>Subtract 4</i></td>
+<td>3<i>x</i><sup>3</sup> = 24.</td>
+</tr>
+<tr>
+<td><i>Divide by 3</i></td>
+<td><i>x</i><sup>3</sup> = 8.</td>
+</tr>
+<tr>
+<td><i>Take cube roots</i></td>
+<td><i>x</i> = 2.</td>
+</tr>
+</table>
+<p>For the iterative method, apply the <a href="Bisection_method" title="Bisection method">bisection method</a> to <i>f</i>(<i>x</i>) = 3<i>x</i><sup>3</sup> − 24. The initial values are <i>a</i> = 0, <i>b</i> = 3, <i>f</i>(<i>a</i>) = −24, <i>f</i>(<i>b</i>) = 57.</p>
+<table style="margin:auto;">
+<caption>Iterative method</caption>
+<tr>
+<th><i>a</i></th>
+<th><i>b</i></th>
+<th>mid</th>
+<th><i>f</i>(mid)</th>
+</tr>
+<tr>
+<td>0</td>
+<td>3</td>
+<td>1.5</td>
+<td>−13.875</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>3</td>
+<td>2.25</td>
+<td>10.17...</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>2.25</td>
+<td>1.875</td>
+<td>−4.22...</td>
+</tr>
+<tr>
+<td>1.875</td>
+<td>2.25</td>
+<td>2.0625</td>
+<td>2.32...</td>
+</tr>
+</table>
+<p>We conclude from this table that the solution is between 1.875 and 2.0625. The algorithm might return any number in that range with an error less than 0.2.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=4.php.html" title="Edit section: Discretization and numerical integration">edit</a>]</span> <span class="mw-headline" id="Discretization_and_numerical_integration">Discretization and numerical integration</span></h4>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:Schumacher_(Ferrari)_in_practice_at_USGP_2005.jpg" class="image"><img alt="Schumacher (Ferrari) in practice at USGP 2005.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Schumacher_(Ferrari)_in_practice_at_USGP_2005.jpg/125px-Schumacher_(Ferrari)_in_practice_at_USGP_2005.jpg" width="125" height="49" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Schumacher_%28Ferrari%29_in_practice_at_USGP_2005.jpg/188px-Schumacher_%28Ferrari%29_in_practice_at_USGP_2005.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Schumacher_%28Ferrari%29_in_practice_at_USGP_2005.jpg/250px-Schumacher_%28Ferrari%29_in_practice_at_USGP_2005.jpg 2x" /></a></div>
+<p>In a two hour race, we have measured the speed of the car at three instants and recorded them in the following table.</p>
+<table style="margin:auto;">
+<tr>
+<th>Time</th>
+<td>0:20</td>
+<td>1:00</td>
+<td>1:40</td>
+</tr>
+<tr>
+<th>km/h</th>
+<td>140</td>
+<td>150</td>
+<td>180</td>
+</tr>
+</table>
+<p>A <b>discretization</b> would be to say that the speed of the car was constant from 0:00 to 0:40, then from 0:40 to 1:20 and finally from 1:20 to 2:00. For instance, the total distance traveled in the first 40 minutes is approximately (2/3h&#160;×&#160;140&#160;km/h)&#160;=&#160;93.3&#160;km. This would allow us to estimate the total distance traveled as 93.3&#160;km + 100&#160;km + 120&#160;km = 313.3&#160;km, which is an example of <b>numerical integration</b> (see below) using a <a href="Riemann_sum" title="Riemann sum">Riemann sum</a>, because displacement is the <a href="Integral" title="Integral">integral</a> of velocity.</p>
+<p><b>Ill posed problem</b>: Take the function <i>f</i>(<i>x</i>) = 1/(<i>x</i>&#160;−&#160;1). Note that <i>f</i>(1.1) = 10 and <i>f</i>(1.001) = 1000: a change in <i>x</i> of less than 0.1 turns into a change in <i>f</i>(<i>x</i>) of nearly 1000. Evaluating <i>f</i>(<i>x</i>) near <i>x</i> = 1 is an ill-conditioned problem.</p>
+<p><b>Well-posed problem</b>: By contrast, the function <img class="tex" alt="f(x)=\sqrt{x}" src="http://upload.wikimedia.org/math/9/5/2/9522bb26ab3c9c2630ba6f2f72828378.png" /> is continuous and so evaluating it is well-posed, at least for <i>x</i> being not close to zero.</p>
+</td>
+</tr>
+</table>
+<p>Direct methods compute the solution to a problem in a finite number of steps. These methods would give the precise answer if they were performed in <a href="Computer_numbering_formats" title="Computer numbering formats" class="mw-redirect">infinite precision arithmetic</a>. Examples include <a href="Gaussian_elimination" title="Gaussian elimination">Gaussian elimination</a>, the <a href="QR_algorithm" title="QR algorithm">QR</a> factorization method for solving <a href="System_of_linear_equations" title="System of linear equations">systems of linear equations</a>, and the <a href="Simplex_method" title="Simplex method" class="mw-redirect">simplex method</a> of <a href="Linear_programming" title="Linear programming">linear programming</a>. In practice, <a href="Floating_point" title="Floating point">finite precision</a> is used and the result is an approximation of the true solution (assuming <a href="Numerically_stable" title="Numerically stable" class="mw-redirect">stability</a>).</p>
+<p>In contrast to direct methods, <a href="Iterative_method" title="Iterative method">iterative methods</a> are not expected to terminate in a number of steps. Starting from an initial guess, iterative methods form successive approximations that <a href="Limit_of_a_sequence" title="Limit of a sequence">converge</a> to the exact solution only in the limit. A <a href="Convergence_test" title="Convergence test" class="mw-redirect">convergence test</a> is specified in order to decide when a sufficiently accurate solution has (hopefully) been found. Even using infinite precision arithmetic these methods would not reach the solution within a finite number of steps (in general). Examples include <a href="Newton's_method" title="Newton's method">Newton's method</a>, the <a href="Bisection_method" title="Bisection method">bisection method</a>, and <a href="Jacobi_iteration" title="Jacobi iteration" class="mw-redirect">Jacobi iteration</a>. In computational matrix algebra, iterative methods are generally needed for large problems.</p>
+<p>Iterative methods are more common than direct methods in numerical analysis. Some methods are direct in principle but are usually used as though they were not, e.g. <a href="GMRES" title="GMRES" class="mw-redirect">GMRES</a> and the <a href="Conjugate_gradient_method" title="Conjugate gradient method">conjugate gradient method</a>. For these methods the number of steps needed to obtain the exact solution is so large that an approximation is accepted in the same manner as for an iterative method.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=5.php.html" title="Edit section: Discretization">edit</a>]</span> <span class="mw-headline" id="Discretization">Discretization</span></h3>
+<p>Furthermore, continuous problems must sometimes be replaced by a discrete problem whose solution is known to approximate that of the continuous problem; this process is called <i><a href="Discretization" title="Discretization">discretization</a></i>. For example, the solution of a <a href="Differential_equation" title="Differential equation">differential equation</a> is a <a href="Function_(mathematics)" title="Function (mathematics)">function</a>. This function must be represented by a finite amount of data, for instance by its value at a finite number of points at its domain, even though this domain is a continuum.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=6.php.html" title="Edit section: Generation and propagation of errors">edit</a>]</span> <span class="mw-headline" id="Generation_and_propagation_of_errors">Generation and propagation of errors</span></h2>
+<p>The study of errors forms an important part of numerical analysis. There are several ways in which error can be introduced in the solution of the problem.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=7.php.html" title="Edit section: Round-off">edit</a>]</span> <span class="mw-headline" id="Round-off">Round-off</span></h3>
+<p><a href="Round-off_error" title="Round-off error">Round-off errors</a> arise because it is impossible to represent all <a href="Real_number" title="Real number">real numbers</a> exactly on a machine with finite memory (which is what all practical <a href="Digital_computer" title="Digital computer" class="mw-redirect">digital computers</a> are).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=8.php.html" title="Edit section: Truncation and discretization error">edit</a>]</span> <span class="mw-headline" id="Truncation_and_discretization_error">Truncation and discretization error</span></h3>
+<p><a href="Truncation" title="Truncation">Truncation</a> errors are committed when an iterative method is terminated or a mathematical procedure is approximated, and the approximate solution differs from the exact solution. Similarly, discretization induces a <a href="Discretization_error" title="Discretization error">discretization error</a> because the solution of the discrete problem does not coincide with the solution of the continuous problem. For instance, in the iteration in the sidebar to compute the solution of <img class="tex" alt="''3x^3+4=28''" src="http://upload.wikimedia.org/math/7/f/c/7fc39b157013e2fa700bf3df22b320ba.png" />, after 10 or so iterations, we conclude that the root is roughly 1.99 (for example). We therefore have a truncation error of 0.01.</p>
+<p>Once an error is generated, it will generally propagate through the calculation. For instance, we have already noted that the operation + on a calculator (or a computer) is inexact. It follows that a calculation of the type a+b+c+d+e is even more inexact.</p>
+<p>What does it mean when we say that the truncation error is created when we approximate a mathematical procedure? We know that to integrate a function exactly requires one to find the sum of infinite trapezoids. But numerically one can find the sum of only finite trapezoids, and hence the approximation of the mathematical procedure. Similarly, to differentiate a function, the differential element approaches to zero but numerically we can only choose a finite value of the differential element.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=9.php.html" title="Edit section: Numerical stability and well-posed problems">edit</a>]</span> <span class="mw-headline" id="Numerical_stability_and_well-posed_problems">Numerical stability and well-posed problems</span></h3>
+<p><a href="Numerical_stability" title="Numerical stability">Numerical stability</a> is an important notion in numerical analysis. An algorithm is called <i>numerically stable</i> if an error, whatever its cause, does not grow to be much larger during the calculation. This happens if the problem is <i><a href="Condition_number" title="Condition number">well-conditioned</a></i>, meaning that the solution changes by only a small amount if the problem data are changed by a small amount. To the contrary, if a problem is <i>ill-conditioned</i>, then any small error in the data will grow to be a large error.</p>
+<p>Both the original problem and the algorithm used to solve that problem can be <i>well-conditioned</i> and/or <i>ill-conditioned</i>, and any combination is possible.</p>
+<p>So an algorithm that solves a well-conditioned problem may be either numerically stable or numerically unstable. An art of numerical analysis is to find a stable algorithm for solving a well-posed mathematical problem. For instance, computing the square root of 2 (which is roughly 1.41421) is a well-posed problem. Many algorithms solve this problem by starting with an initial approximation <i>x</i><sub>1</sub> to <img class="tex" alt="\sqrt{2}" src="http://upload.wikimedia.org/math/e/f/5/ef5590434a387b3c4427e09d5b08baaf.png" />, for instance <i>x</i><sub>1</sub>=1.4, and then computing improved guesses <i>x</i><sub>2</sub>, <i>x</i><sub>3</sub>, etc.. One such method is the famous <a href="Babylonian_method" title="Babylonian method" class="mw-redirect">Babylonian method</a>, which is given by <i>x</i><sub><i>k</i>+1</sub> = <i>x<sub>k</sub></i>/2 + 1/<i>x<sub>k</sub></i>. Another iteration, which we will call Method X, is given by <i>x</i><sub><i>k</i> + 1</sub> = (<i>x</i><sub><i>k</i></sub><sup>2</sup>−2)<sup>2</sup> + <i>x</i><sub><i>k</i></sub>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> We have calculated a few iterations of each scheme in table form below, with initial guesses <i>x</i><sub>1</sub> = 1.4 and <i>x</i><sub>1</sub> = 1.42.</p>
+<table class="wikitable">
+<tr>
+<th>Babylonian</th>
+<th>Babylonian</th>
+<th>Method X</th>
+<th>Method X</th>
+</tr>
+<tr>
+<td><i>x</i><sub>1</sub> = 1.4</td>
+<td><i>x</i><sub>1</sub> = 1.42</td>
+<td><i>x</i><sub>1</sub> = 1.4</td>
+<td><i>x</i><sub>1</sub> = 1.42</td>
+</tr>
+<tr>
+<td><i>x</i><sub>2</sub> = 1.4142857...</td>
+<td><i>x</i><sub>2</sub> = 1.41422535...</td>
+<td><i>x</i><sub>2</sub> = 1.4016</td>
+<td><i>x</i><sub>2</sub> = 1.42026896</td>
+</tr>
+<tr>
+<td><i>x</i><sub>3</sub> = 1.414213564...</td>
+<td><i>x</i><sub>3</sub> = 1.41421356242...</td>
+<td><i>x</i><sub>3</sub> = 1.4028614...</td>
+<td><i>x</i><sub>3</sub> = 1.42056...</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><i>x</i><sub>1000000</sub> = 1.41421...</td>
+<td><i>x</i><sub>28</sub> = 7280.2284...</td>
+</tr>
+</table>
+<p>Observe that the Babylonian method converges fast regardless of the initial guess, whereas Method X converges extremely slowly with initial guess 1.4 and diverges for initial guess 1.42. Hence, the Babylonian method is numerically stable, while Method X is numerically unstable.</p>
+<dl>
+<dd><b>Numerical stability</b> is affected by the number of the significant digits the machine keeps on, if we use a machine that keeps on the first four floating-point digits, a good example on loss of significance is given by these two equivalent functions</dd>
+<dd><img class="tex" alt=" 
+f(x)=x\left(\sqrt{x+1}-\sqrt{x}\right)
+\text{ and } g(x)=\frac{x}{\sqrt{x+1}+\sqrt{x}}.
+" src="http://upload.wikimedia.org/math/a/4/8/a487c1513322c2a21f523250e1d87ad6.png" /></dd>
+<dd>If we compare the results of
+<dl>
+<dd><img class="tex" alt=" f(500)=500(\sqrt{501}-\sqrt{500})=500(22.3830-22.3607)=500(0.0223)=11.1500" src="http://upload.wikimedia.org/math/3/f/b/3fba4bb384934c66f292bd10298524a0.png" /></dd>
+</dl>
+</dd>
+<dd>and</dd>
+<dd><img class="tex" alt="
+\begin{alignat}{3}g(500)&amp;=\frac{500}{\sqrt{501}+\sqrt{500}}\\
+      &amp;=\frac{500}{22.3830+22.3607}\\
+      &amp;=\frac{500}{44.7437}=11.1748
+\end{alignat}
+" src="http://upload.wikimedia.org/math/2/9/6/2969d31e6a68f5bbfa773df0c0313da7.png" /></dd>
+<dd>by looking to the two above results, we realize that <b><a href="Loss_of_significance" title="Loss of significance">loss of significance</a></b> which is also called <b>Subtractive Cancelation</b> has a huge effect on the results, even though both functions are equivalent; to show that they are equivalent simply we need to start by f(x) and end with g(x), and so
+<dl>
+<dd><img class="tex" alt=" \begin{alignat}{4}
+f(x)&amp;=x(\sqrt{x+1}-\sqrt{x})\\
+    &amp; =x(\sqrt{x+1}-\sqrt{x})\frac{(\sqrt{x+1}+\sqrt{x})}{(\sqrt{x+1}+\sqrt{x})}\\
+    &amp;=x\frac{((\sqrt{x+1})^2-(\sqrt{x})^2)}{(\sqrt{x+1}+\sqrt{x})}
+    &amp;=\frac {x}{(\sqrt{x+1}+\sqrt{x})}
+\end{alignat}" src="http://upload.wikimedia.org/math/2/9/b/29b078f794f770db1031a1f1e6263966.png" /></dd>
+</dl>
+</dd>
+<dd>The true value for the result is 11.174755..., which is exactly <i>g</i>(500) = 11.1748 after rounding the result to 4 decimal digits.</dd>
+<dd>Now imagine that lots of terms like these functions are used in the program; the error will increase as one proceeds in the program, unless one uses the suitable formula of the two functions each time one evaluates either <i>f</i>(<i>x</i>), or <i>g</i>(<i>x</i>); the choice is dependent on the parity of&#160;<i>x</i>.</dd>
+</dl>
+<ul>
+<li>The example is taken from Mathew; Numerical methods using matlab, 3rd ed.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=10.php.html" title="Edit section: Areas of study">edit</a>]</span> <span class="mw-headline" id="Areas_of_study">Areas of study</span></h2>
+<p>The field of numerical analysis is divided into different disciplines according to the problem that is to be solved.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=11.php.html" title="Edit section: Computing values of functions">edit</a>]</span> <span class="mw-headline" id="Computing_values_of_functions">Computing values of functions</span></h3>
+<table class="wikitable" style="float: right; width: 250px; clear: right; margin-left: 1em;">
+<tr>
+<td>
+<p><b>Interpolation</b>: We have observed the temperature to vary from 20 degrees Celsius at 1:00 to 14 degrees at 3:00. A linear interpolation of this data would conclude that it was 17 degrees at 2:00 and 18.5 degrees at 1:30pm.</p>
+<p><b>Extrapolation</b>: If the <a href="Gross_domestic_product" title="Gross domestic product">gross domestic product</a> of a country has been growing an average of 5% per year and was 100 billion dollars last year, we might extrapolate that it will be 105 billion dollars this year.</p>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:Linear-regression.svg" class="image" title="A line through 20 points"><img alt="A line through 20 points" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/100px-Linear-regression.svg.png" width="100" height="80" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/150px-Linear-regression.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/12/Linear-regression.svg/200px-Linear-regression.svg.png 2x" /></a></div>
+<p><b>Regression</b>: In linear regression, given <i>n</i> points, we compute a line that passes as close as possible to those <i>n</i> points.</p>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:LemonadeJuly2006.JPG" class="image" title="How much for a glass of lemonade?"><img alt="How much for a glass of lemonade?" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/LemonadeJuly2006.JPG/100px-LemonadeJuly2006.JPG" width="100" height="107" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/LemonadeJuly2006.JPG/150px-LemonadeJuly2006.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/LemonadeJuly2006.JPG/200px-LemonadeJuly2006.JPG 2x" /></a></div>
+<p><b>Optimization</b>: Say you sell lemonade at a <a href="Lemonade_stand" title="Lemonade stand">lemonade stand</a>, and notice that at $1, you can sell 197 glasses of lemonade per day, and that for each increase of $0.01, you will sell one glass of lemonade less per day. If you could charge $1.485, you would maximize your profit, but due to the constraint of having to charge a whole cent amount, charging $1.49 per glass will yield the maximum income of $220.52 per day.</p>
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:Wind-particle.png" class="image" title="Wind direction in blue, true trajectory in black, Euler method in red."><img alt="Wind direction in blue, true trajectory in black, Euler method in red." src="http://upload.wikimedia.org/wikipedia/commons/e/ef/Wind-particle.png" width="94" height="101" /></a></div>
+<p><b>Differential equation</b>: If you set up 100 fans to blow air from one end of the room to the other and then you drop a feather into the wind, what happens? The feather will follow the air currents, which may be very complex. One approximation is to measure the speed at which the air is blowing near the feather every second, and advance the simulated feather as if it were moving in a straight line at that same speed for one second, before measuring the wind speed again. This is called the <a href="Euler_method" title="Euler method">Euler method</a> for solving an ordinary differential equation.</p>
+</td>
+</tr>
+</table>
+<p>One of the simplest problems is the evaluation of a function at a given point. The most straightforward approach, of just plugging in the number in the formula is sometimes not very efficient. For polynomials, a better approach is using the <a href="Horner_scheme" title="Horner scheme" class="mw-redirect">Horner scheme</a>, since it reduces the necessary number of multiplications and additions. Generally, it is important to estimate and control <a href="Round-off_error" title="Round-off error">round-off errors</a> arising from the use of <a href="Floating_point" title="Floating point">floating point</a> arithmetic.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=12.php.html" title="Edit section: Interpolation, extrapolation, and regression">edit</a>]</span> <span class="mw-headline" id="Interpolation.2C_extrapolation.2C_and_regression">Interpolation, extrapolation, and regression</span></h3>
+<p><a href="Interpolation" title="Interpolation">Interpolation</a> solves the following problem: given the value of some unknown function at a number of points, what value does that function have at some other point between the given points?</p>
+<p><a href="Extrapolation" title="Extrapolation">Extrapolation</a> is very similar to interpolation, except that now we want to find the value of the unknown function at a point which is outside the given points.</p>
+<p><a href="Regression_analysis" title="Regression analysis">Regression</a> is also similar, but it takes into account that the data is imprecise. Given some points, and a measurement of the value of some function at these points (with an error), we want to determine the unknown function. The <a href="Least_squares" title="Least squares">least squares</a>-method is one popular way to achieve this.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=13.php.html" title="Edit section: Solving equations and systems of equations">edit</a>]</span> <span class="mw-headline" id="Solving_equations_and_systems_of_equations">Solving equations and systems of equations</span></h3>
+<p>Another fundamental problem is computing the solution of some given equation. Two cases are commonly distinguished, depending on whether the equation is linear or not. For instance, the equation <img class="tex" alt="2x+5=3" src="http://upload.wikimedia.org/math/6/a/d/6addb4231b6b95ba2827813909131f1d.png" /> is linear while <img class="tex" alt="2x^2+5=3" src="http://upload.wikimedia.org/math/e/1/0/e107b975a6de6706fcc09a83b6ce7f4c.png" /> is not.</p>
+<p>Much effort has been put in the development of methods for solving <a href="Systems_of_linear_equations" title="Systems of linear equations" class="mw-redirect">systems of linear equations</a>. Standard direct methods, i.e., methods that use some <a href="Matrix_decomposition" title="Matrix decomposition">matrix decomposition</a> are <a href="Gaussian_elimination" title="Gaussian elimination">Gaussian elimination</a>, <a href="LU_decomposition" title="LU decomposition">LU decomposition</a>, <a href="Cholesky_decomposition" title="Cholesky decomposition">Cholesky decomposition</a> for <a href="Symmetric_matrix" title="Symmetric matrix">symmetric</a> (or <a href="Hermitian_matrix" title="Hermitian matrix">hermitian</a>) and <a href="Positive-definite_matrix" title="Positive-definite matrix">positive-definite matrix</a>, and <a href="QR_decomposition" title="QR decomposition">QR decomposition</a> for non-square matrices. <a href="Iterative_method" title="Iterative method">Iterative methods</a> such as the <a href="Jacobi_method" title="Jacobi method">Jacobi method</a>, <a href="Gauss%E2%80%93Seidel_method" title="Gauss–Seidel method">Gauss–Seidel method</a>, <a href="Successive_over-relaxation" title="Successive over-relaxation">successive over-relaxation</a> and <a href="Conjugate_gradient_method" title="Conjugate gradient method">conjugate gradient method</a> are usually preferred for large systems. General iterative methods can be developed using a <a href="Matrix_splitting" title="Matrix splitting">matrix splitting</a>.</p>
+<p><a href="Root-finding_algorithm" title="Root-finding algorithm">Root-finding algorithms</a> are used to solve nonlinear equations (they are so named since a root of a function is an argument for which the function yields zero). If the function is <a href="Derivative" title="Derivative">differentiable</a> and the derivative is known, then <a href="Newton's_method" title="Newton's method">Newton's method</a> is a popular choice. <a href="Linearization" title="Linearization">Linearization</a> is another technique for solving nonlinear equations.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=14.php.html" title="Edit section: Solving eigenvalue or singular value problems">edit</a>]</span> <span class="mw-headline" id="Solving_eigenvalue_or_singular_value_problems">Solving eigenvalue or singular value problems</span></h3>
+<p>Several important problems can be phrased in terms of <a href="Eigenvalue_decomposition" title="Eigenvalue decomposition" class="mw-redirect">eigenvalue decompositions</a> or <a href="Singular_value_decomposition" title="Singular value decomposition">singular value decompositions</a>. For instance, the <a href="Image_compression" title="Image compression">spectral image compression</a> algorithm<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> is based on the singular value decomposition. The corresponding tool in statistics is called <a href="Principal_component_analysis" title="Principal component analysis">principal component analysis</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=15.php.html" title="Edit section: Optimization">edit</a>]</span> <span class="mw-headline" id="Optimization">Optimization</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Mathematical_optimization" title="Mathematical optimization">Mathematical optimization</a></div>
+<p>Optimization problems ask for the point at which a given function is maximized (or minimized). Often, the point also has to satisfy some <a href="Constraint_(mathematics)" title="Constraint (mathematics)">constraints</a>.</p>
+<p>The field of optimization is further split in several subfields, depending on the form of the objective function and the constraint. For instance, <a href="Linear_programming" title="Linear programming">linear programming</a> deals with the case that both the objective function and the constraints are linear. A famous method in linear programming is the <a href="Simplex_method" title="Simplex method" class="mw-redirect">simplex method</a>.</p>
+<p>The method of <a href="Lagrange_multipliers" title="Lagrange multipliers" class="mw-redirect">Lagrange multipliers</a> can be used to reduce optimization problems with constraints to unconstrained optimization problems.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=16.php.html" title="Edit section: Evaluating integrals">edit</a>]</span> <span class="mw-headline" id="Evaluating_integrals">Evaluating integrals</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Numerical_integration" title="Numerical integration">Numerical integration</a></div>
+<p>Numerical integration, in some instances also known as numerical <a href="Quadrature_(mathematics)" title="Quadrature (mathematics)">quadrature</a>, asks for the value of a definite <a href="Integral" title="Integral">integral</a>. Popular methods use one of the <a href="Newton%E2%80%93Cotes_formulas" title="Newton–Cotes formulas">Newton–Cotes formulas</a> (like the midpoint rule or <a href="Simpson's_rule" title="Simpson's rule">Simpson's rule</a>) or <a href="Gaussian_quadrature" title="Gaussian quadrature">Gaussian quadrature</a>. These methods rely on a "divide and conquer" strategy, whereby an integral on a relatively large set is broken down into integrals on smaller sets. In higher dimensions, where these methods become prohibitively expensive in terms of computational effort, one may use <a href="Monte_Carlo_method" title="Monte Carlo method">Monte Carlo</a> or <a href="Quasi-Monte_Carlo_method" title="Quasi-Monte Carlo method">quasi-Monte Carlo methods</a> (see <a href="Monte_Carlo_integration" title="Monte Carlo integration">Monte Carlo integration</a>), or, in modestly large dimensions, the method of <a href="Sparse_grid" title="Sparse grid">sparse grids</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=17.php.html" title="Edit section: Differential equations">edit</a>]</span> <span class="mw-headline" id="Differential_equations">Differential equations</span></h3>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Numerical_ordinary_differential_equations" title="Numerical ordinary differential equations" class="mw-redirect">Numerical ordinary differential equations</a> and <a href="Numerical_partial_differential_equations" title="Numerical partial differential equations">Numerical partial differential equations</a></div>
+<p>Numerical analysis is also concerned with computing (in an approximate way) the solution of <a href="Differential_equation" title="Differential equation">differential equations</a>, both ordinary differential equations and <a href="Partial_differential_equation" title="Partial differential equation">partial differential equations</a>.</p>
+<p>Partial differential equations are solved by first discretizing the equation, bringing it into a finite-dimensional subspace. This can be done by a <a href="Finite_element_method" title="Finite element method">finite element method</a>, a <a href="Finite_difference" title="Finite difference">finite difference</a> method, or (particularly in engineering) a <a href="Finite_volume_method" title="Finite volume method" class="mw-redirect">finite volume method</a>. The theoretical justification of these methods often involves theorems from <a href="Functional_analysis" title="Functional analysis">functional analysis</a>. This reduces the problem to the solution of an algebraic equation.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=18.php.html" title="Edit section: Software">edit</a>]</span> <span class="mw-headline" id="Software">Software</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="List_of_numerical_analysis_software" title="List of numerical analysis software">List of numerical analysis software</a> and <a href="Comparison_of_numerical_analysis_software" title="Comparison of numerical analysis software">Comparison of numerical analysis software</a></div>
+<p>Since the late twentieth century, most algorithms are implemented in a variety of programming languages. The <a href="Netlib" title="Netlib">Netlib</a> repository contains various collections of software routines for numerical problems, mostly in <a href="Fortran" title="Fortran">Fortran</a> and <a href="C_(programming_language)" title="C (programming language)">C</a>. Commercial products implementing many different numerical algorithms include the <a href="IMSL_Numerical_Libraries" title="IMSL Numerical Libraries">IMSL</a> and <a href="Numerical_Algorithms_Group" title="Numerical Algorithms Group">NAG</a> libraries; a free alternative is the <a href="GNU_Scientific_Library" title="GNU Scientific Library">GNU Scientific Library</a>.</p>
+<p>There are several popular numerical computing applications such as <a href="MATLAB" title="MATLAB">MATLAB</a>, <a href="S-PLUS" title="S-PLUS">S-PLUS</a>, <a href="LabVIEW" title="LabVIEW">LabVIEW</a>, and <a href="IDL_(programming_language)" title="IDL (programming language)">IDL</a> as well as free and open source alternatives such as <a href="FreeMat" title="FreeMat">FreeMat</a>, <a href="Scilab" title="Scilab">Scilab</a>, <a href="GNU_Octave" title="GNU Octave">GNU Octave</a> (similar to Matlab), <a href="IT++" title="IT++">IT++</a> (a C++ library), <a href="R_(programming_language)" title="R (programming language)">R</a> (similar to S-PLUS) and certain variants of <a href="Python_(programming_language)" title="Python (programming language)">Python</a>. Performance varies widely: while vector and matrix operations are usually fast, scalar loops may vary in speed by more than an order of magnitude.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<p>Many <a href="Computer_algebra_system" title="Computer algebra system">computer algebra systems</a> such as <a href="Mathematica" title="Mathematica">Mathematica</a> also benefit from the availability of <a href="Arbitrary_precision_arithmetic" title="Arbitrary precision arithmetic" class="mw-redirect">arbitrary precision arithmetic</a> which can provide more accurate results.</p>
+<p>Also, any <a href="Spreadsheet" title="Spreadsheet">spreadsheet</a> software can be used to solve simple problems relating to numerical analysis.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=19.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Scientific_computing" title="Scientific computing" class="mw-redirect">Scientific computing</a></li>
+<li><a href="List_of_numerical_analysis_topics" title="List of numerical analysis topics">List of numerical analysis topics</a></li>
+<li><a href="Gram-Schmidt_process" title="Gram-Schmidt process" class="mw-redirect">Gram-Schmidt process</a></li>
+<li><a href="Numerical_differentiation" title="Numerical differentiation">Numerical differentiation</a></li>
+<li><a href="Symbolic-numeric_computation" title="Symbolic-numeric computation">Symbolic-numeric computation</a></li>
+<li><a href="Analysis_of_algorithms" title="Analysis of algorithms">Analysis of algorithms</a></li>
+<li><a href="Numerical_Recipes" title="Numerical Recipes">Numerical Recipes</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=20.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://it.stlawu.edu/~dmelvill/mesomath/tablets/YBC7289.html">Photograph, illustration, and description of the <i>root(2)</i> tablet from the Yale Babylonian Collection</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">The New Zealand Qualification authority specifically mentions this skill in document 13004 version 2, dated 17 October 2003 titled <a rel="nofollow" class="external text" href="http://www.nzqa.govt.nz/nqfdocs/units/pdf/13004.pdf">CARPENTRY THEORY: Demonstrate knowledge of setting out a building</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">This is a <a href="Fixed_point_iteration" title="Fixed point iteration" class="mw-redirect">fixed point iteration</a> for the equation <img class="tex" alt="x=(x^2-2)^2+x=f(x)" src="http://upload.wikimedia.org/math/6/7/0/670ac762fcd3a7c270a20484b46de0d8.png" />, whose solutions include <img class="tex" alt="\sqrt{2}" src="http://upload.wikimedia.org/math/e/f/5/ef5590434a387b3c4427e09d5b08baaf.png" />. The iterates always move to the right since <img class="tex" alt="f(x)\geq x" src="http://upload.wikimedia.org/math/6/6/c/66cb64301ce1edf081d4b0334dccf50d.png" />. Hence <img class="tex" alt="x_1=1.4&lt;\sqrt{2}" src="http://upload.wikimedia.org/math/4/2/5/425aff0be7f69032d93178f69b3a6321.png" /> converges and <img class="tex" alt="x_1=1.42&gt;\sqrt{2}" src="http://upload.wikimedia.org/math/3/f/a/3fad752567ce9a606755ff0652a46058.png" /> diverges.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://online.redwoods.cc.ca.us/instruct/darnold/maw/single.htm">The Singular Value Decomposition and Its Applications in Image Compression</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.sciviews.org/benchmark/">Speed comparison of various number crunching packages</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.scientificweb.com/ncrunch/ncrunch5.pdf">Comparison of mathematical programs for data analysis</a> Stefan Steinhaus, ScientificWeb.com</span></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=21.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation book">Gilat, Amos (2004). <i>MATLAB: An Introduction with Applications</i> (2nd edition ed.). John Wiley &amp; Sons. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-69420-7" title="Special:BookSources/0-471-69420-7">0-471-69420-7</a>.</span></li>
+<li><span class="citation book"><a href="../Francis_B._Hildebrand" title="Francis B. Hildebrand">Hildebrand, F. B.</a> (1974). <i>Introduction to Numerical Analysis</i> (2nd edition ed.). McGraw-Hill. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-07-028761-9" title="Special:BookSources/0-07-028761-9">0-07-028761-9</a>.</span></li>
+<li><span class="citation book">Leader, Jeffery J. (2004). <i>Numerical Analysis and Scientific Computation</i>. Addison Wesley. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-201-73499-0" title="Special:BookSources/0-201-73499-0">0-201-73499-0</a>.</span></li>
+<li>Trefethen, Lloyd N. (2006). <a rel="nofollow" class="external text" href="http://people.maths.ox.ac.uk/trefethen/NAessay.pdf">"Numerical analysis"</a>, 20 pages. In: Timothy Gowers and June Barrow-Green (editors), <i>Princeton Companion of Mathematics</i>, Princeton University Press.</li>
+<li><span class="citation book">Higham, Nicholas J. (1966). <i>Accuracy and Stability of Numerical Algorithms (Society for Industrial and Applied Mathematics, <a href="Special_BookSources/0898713552" class="internal mw-magiclink-isbn">ISBN 0-89871-355-2</a>)</i>.</span></li>
+<li><span class="citation book">Gene F. Golub and Charles F. van Loan (1986). <i>Matrix Computations, Third Edition (Johns Hopkins University Press, ISBN 0-8018-5413)</i>.</span></li>
+<li><span class="citation book">J.H. Wilkinson M.A., D. Sc. (1965)). <i>The Algebraic Eigenvalue Problem (Clarendon Press)</i>.</span></li>
+<li><span class="citation Journal">Kahan, W. [1972]. <i>“A survey of error-analysis,” in Info. Processing 71 (Proc. IFIP Congress 71 in Ljubljana), vol. 2, pp. 1214–39, North-Holland Publishing, Amsterdam</i>.</span> (examples of the importance of accurate arithmetic).</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Numerical_analysis&action=edit&section=22.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has more on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Special:Search/Numerical_analysis" class="extiw" title="wikibooks:Special:Search/Numerical analysis">Numerical analysis</a></b></i></td>
+</tr>
+</table>
+<p><b>Journals</b></p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www-gdz.sub.uni-goettingen.de/cgi-bin/digbib.cgi?PPN362160546">Numerische Mathematik</a>, volumes 1-66, Springer, 1959-1994 (searchable; pages are images). <span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(English)</span> <span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(German)</span></li>
+<li><a rel="nofollow" class="external text" href="http://www.springerlink.com/content/0029-599X">Numerische Mathematik at SpringerLink</a>, volumes 1-112, Springer, 1959–2009</li>
+<li><a rel="nofollow" class="external text" href="http://siamdl.aip.org/dbt/dbt.jsp?KEY=SJNAAM">SIAM Journal on Numerical Analysis</a>, volumes 1-47, SIAM, 1964–2009</li>
+</ul>
+<p><b>Software and Code</b></p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://people.sc.fsu.edu/~tomek/Fortran/num_meth.html">Numerical methods for Fortran programmers</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.apropos-logic.com/nc/">Java Number Cruncher</a> features free, downloadable code samples that graphically illustrate common numerical algorithms</li>
+<li><a rel="nofollow" class="external text" href="http://www.ifh.uni-karlsruhe.de/people/fenton/Lectures.html">Excel Implementations</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.akiti.ca/Mathfxns.html">Several Numerical Mathematical Utilities (in Javascript)</a></li>
+</ul>
+<p><b>Online Texts</b></p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.nr.com/oldverswitcher.html"><i>Numerical Recipes</i></a>, William H. Press (free, downloadable previous editions)</li>
+<li><a rel="nofollow" class="external text" href="http://kr.cs.ait.ac.th/~radok/math/mat7/stepsa.htm#Numerical%20Analysis"><i>First Steps in Numerical Analysis</i></a>, R.J.Hosking, S.Joe, D.C.Joyce, and J.C.Turner</li>
+<li><a rel="nofollow" class="external text" href="http://ece.uwaterloo.ca/~dwharder/NumericalAnalysis/"><i>Numerical Analysis for Engineering</i></a>, D. W. Harder</li>
+<li><a rel="nofollow" class="external text" href="http://www.phy.ornl.gov/csep/CSEP/TEXTOC.html"><i>CSEP</i> (Computational Science Education Project)</a>, <a href="../U.S._Department_of_Energy" title="U.S. Department of Energy" class="mw-redirect">U.S. Department of Energy</a></li>
+</ul>
+<p><b>Online Course Material</b></p>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.damtp.cam.ac.uk/user/fdl/people/sd103/lectures/nummeth98/index.htm#L_1_Title_Page">Numerical Methods</a>, Stuart Dalziel <a href="University_of_Cambridge" title="University of Cambridge">University of Cambridge</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.math.upenn.edu/~wilf/DeturckWilf.pdf">Lectures on Numerical Analysis</a>, Dennis Deturck and Herbert S. Wilf <a href="University_of_Pennsylvania" title="University of Pennsylvania">University of Pennsylvania</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ifh.uni-karlsruhe.de/people/fenton/LectureNotes/Numerical-Methods.pdf">Numerical methods</a>, John D. Fenton <a href="University_of_Karlsruhe" title="University of Karlsruhe" class="mw-redirect">University of Karlsruhe</a></li>
+<li><a rel="nofollow" class="external text" href="http://numericalmethods.eng.usf.edu/">Numerical Methods for Science, Technology, Engineering and Mathematics</a>, Autar Kaw <a href="University_of_South_Florida" title="University of South Florida">University of South Florida</a></li>
+<li><a rel="nofollow" class="external text" href="http://math.fullerton.edu/mathews/numerical.html">Numerical Analysis Project</a>, John H. Mathews <a href="California_State_University,_Fullerton" title="California State University, Fullerton">California State University, Fullerton</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.math.jct.ac.il/~naiman/nm/">Numerical Methods - Online Course</a>, Aaron Naiman <a href="Jerusalem_College_of_Technology" title="Jerusalem College of Technology">Jerusalem College of Technology</a></li>
+<li><a rel="nofollow" class="external text" href="http://www-teaching.physics.ox.ac.uk/computing/NumericalMethods/NMfP.pdf">Numerical Methods for Physicists</a>, Anthony O’Hare <a href="Oxford_University" title="Oxford University" class="mw-redirect">Oxford University</a></li>
+<li><a rel="nofollow" class="external text" href="http://kr.cs.ait.ac.th/~radok/math/mat7/stepsa.htm#Numerical%20Analysis">Lectures in Numerical Analysis</a>, R. Radok <a href="Mahidol_University" title="Mahidol University">Mahidol University</a></li>
+<li><a rel="nofollow" class="external text" href="http://ocw.mit.edu/courses/mechanical-engineering/2-993j-introduction-to-numerical-analysis-for-engineering-13-002j-spring-2005/">Introduction to Numerical Analysis for Engineering</a>, Henrik Schmidt <a href="Massachusetts_Institute_of_Technology" title="Massachusetts Institute of Technology">Massachusetts Institute of Technology</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><strong class="selflink">Numerical analysis</strong></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Physics-footer" title="Template:Physics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Physics-footer" title="Template talk:Physics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Physics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Branches of <a href="Physics" title="Physics">physics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Applied_physics" title="Applied physics">Applied physics</a></li>
+<li><a href="Experimental_physics" title="Experimental physics">Experimental physics</a></li>
+<li><a href="Theoretical_physics" title="Theoretical physics">Theoretical physics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Energy" title="Energy">Energy</a> and <a href="Motion_(physics)" title="Motion (physics)">motion</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Classical_mechanics" title="Classical mechanics">Classical mechanics</a>
+<ul>
+<li><a href="Lagrangian_mechanics" title="Lagrangian mechanics">Lagrangian mechanics</a></li>
+<li><a href="Hamiltonian_mechanics" title="Hamiltonian mechanics">Hamiltonian mechanics</a></li>
+</ul>
+</li>
+<li><a href="Continuum_mechanics" title="Continuum mechanics">Continuum mechanics</a></li>
+<li><a href="Celestial_mechanics" title="Celestial mechanics">Celestial mechanics</a></li>
+<li><a href="Statistical_mechanics" title="Statistical mechanics">Statistical mechanics</a></li>
+<li><a href="Thermodynamics" title="Thermodynamics">Thermodynamics</a></li>
+<li><a href="Fluid_mechanics" title="Fluid mechanics">Fluid mechanics</a></li>
+<li><a href="Quantum_mechanics" title="Quantum mechanics">Quantum mechanics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Wave" title="Wave">Waves</a> and <a href="Field_(physics)" title="Field (physics)">fields</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Gravitation" title="Gravitation">Gravitation</a></li>
+<li><a href="Electromagnetism" title="Electromagnetism">Electromagnetism</a></li>
+<li><a href="Quantum_field_theory" title="Quantum field theory">Quantum field theory</a></li>
+<li><a href="Theory_of_relativity" title="Theory of relativity">Relativity</a>
+<ul>
+<li><a href="Special_relativity" title="Special relativity">Special relativity</a></li>
+<li><a href="General_relativity" title="General relativity">General relativity</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;">Physical sciences<br />
+and <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Accelerator_physics" title="Accelerator physics">Accelerator physics</a></li>
+<li><a href="Acoustics" title="Acoustics">Acoustics</a></li>
+<li><a href="Astrophysics" title="Astrophysics">Astrophysics</a>
+<ul>
+<li><a href="Heliophysics" title="Heliophysics">Heliophysics</a></li>
+<li><a href="Nuclear_astrophysics" title="Nuclear astrophysics">Nuclear astrophysics</a></li>
+<li><a href="Solar_physics" title="Solar physics">Solar physics</a></li>
+<li><a href="Space_physics" title="Space physics">Space physics</a></li>
+<li><a href="Stellar_physics" title="Stellar physics">Stellar physics</a></li>
+</ul>
+</li>
+<li><a href="Atomic,_molecular,_and_optical_physics" title="Atomic, molecular, and optical physics">Atomic, molecular, and optical physics</a></li>
+<li><a href="Chemical_physics" title="Chemical physics">Chemical physics</a></li>
+<li><a href="Computational_physics" title="Computational physics">Computational physics</a></li>
+<li><a href="Condensed_matter_physics" title="Condensed matter physics">Condensed matter physics</a>
+<ul>
+<li><a href="Solid-state_physics" title="Solid-state physics">Solid-state physics</a></li>
+</ul>
+</li>
+<li><a href="Digital_physics" title="Digital physics">Digital physics</a></li>
+<li><a href="Engineering_physics" title="Engineering physics">Engineering physics</a></li>
+<li><a href="Material_physics" title="Material physics">Material physics</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Nuclear_physics" title="Nuclear physics">Nuclear physics</a></li>
+<li><a href="Optics" title="Optics">Optics</a>
+<ul>
+<li><a href="Nonlinear_optics" title="Nonlinear optics">Nonlinear optics</a></li>
+<li><a href="Quantum_optics" title="Quantum optics">Quantum optics</a></li>
+</ul>
+</li>
+<li><a href="Particle_physics" title="Particle physics">Particle physics</a>
+<ul>
+<li><a href="Astroparticle_physics" title="Astroparticle physics">Astroparticle physics</a></li>
+<li><a href="Phenomenology_(particle_physics)" title="Phenomenology (particle physics)">Phenomenology</a></li>
+</ul>
+</li>
+<li><a href="Plasma_(physics)" title="Plasma (physics)">Plasma</a></li>
+<li><a href="Polymer_physics" title="Polymer physics">Polymer physics</a></li>
+<li><a href="Statistical_physics" title="Statistical physics">Statistical physics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;">Physics and <a href="Biology" title="Biology">biology</a>&#160;/<br />
+<a href="Geology" title="Geology">geology</a>&#160;/ <a href="Economics" title="Economics">economics</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Biophysics" title="Biophysics">Biophysics</a>
+<ul>
+<li><a href="Biomechanics" title="Biomechanics">Biomechanics</a></li>
+<li><a href="Medical_physics" title="Medical physics">Medical physics</a></li>
+<li><a href="Neurophysics" title="Neurophysics">Neurophysics</a></li>
+</ul>
+</li>
+<li><a href="Agrophysics" title="Agrophysics">Agrophysics</a>
+<ul>
+<li><a href="Soil_physics" title="Soil physics">Soil physics</a></li>
+</ul>
+</li>
+<li><a href="Atmospheric_physics" title="Atmospheric physics">Atmospheric physics</a></li>
+<li><a href="Econophysics" title="Econophysics">Econophysics</a></li>
+<li><a href="Geophysics" title="Geophysics">Geophysics</a></li>
+<li><a href="Psychophysics" title="Psychophysics">Psychophysics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 5305/1000000
+Preprocessor generated node count: 29203/1500000
+Post-expand include size: 44338/2048000 bytes
+Template argument size: 15836/2048000 bytes
+Highest expansion depth: 18/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:21506-0!0!0!!en!4!* and timestamp 20130210192202 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Numerical_analysis&oldid=537020605.php.html">http://en.wikipedia.org/w/index.php?title=Numerical_analysis&amp;oldid=537020605</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Numerical_analysis" title="Category:Numerical analysis">Numerical analysis</a></li><li><a href="Category_Mathematical_physics" title="Category:Mathematical physics">Mathematical physics</a></li><li><a href="Category_Computational_science" title="Category:Computational science">Computational science</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Use_dmy_dates_from_July_2012" title="Category:Use dmy dates from July 2012">Use dmy dates from July 2012</a></li><li><a href="Category_Articles_with_German_language_external_links" title="Category:Articles with German language external links">Articles with German language external links</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Numerical+analysis&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Numerical+analysis.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Numerical_analysis"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Numerical_analysis&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Numerical_analysis&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Numerical_analysis" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Numerical_analysis" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Numerical_analysis&oldid=537020605.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Numerical_analysis&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Numerical_analysis&id=537020605.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Numerical+analysis.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Numerical+analysis&oldid=537020605&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Numerical_analysis&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Numeriese_analise" title="Numeriese analise" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D8%AD%D9%84%D9%8A%D9%84_%D8%B9%D8%AF%D8%AF%D9%8A" title="تحليل عددي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Anal%C3%ADs_numerica" title="Analís numerica" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%92%D1%8B%D0%BB%D1%96%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0" title="Вылічальная матэматыка" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%92%D1%8B%D0%BB%D1%96%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0" title="Вылічальная матэматыка" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A7%D0%B8%D1%81%D0%BB%D0%B5%D0%BD_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Числен анализ" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BF%E0%A6%95_%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%B2%E0%A7%87%E0%A6%B7%E0%A6%A3" title="সাংখ্যিক বিশ্লেষণ" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/An%C3%A0lisi_num%C3%A8rica" title="Anàlisi numèrica" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Numerick%C3%A1_matematika" title="Numerická matematika" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Numerisk_analyse" title="Numerisk analyse" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Numerische_Mathematik" title="Numerische Mathematik" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Arvutusmatemaatika" title="Arvutusmatemaatika" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE_%CE%B1%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7" title="Αριθμητική ανάλυση" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/An%C3%A1lisis_num%C3%A9rico" title="Análisis numérico" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Cifereca_analitiko" title="Cifereca analitiko" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA_%D8%B9%D8%AF%D8%AF%DB%8C" title="محاسبات عددی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Analyse_num%C3%A9rique" title="Analyse numérique" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/An%C3%A1lise_num%C3%A9rica" title="Análise numérica" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%88%98%EC%B9%98_%ED%95%B4%EC%84%9D" title="수치 해석" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%86%E0%A4%82%E0%A4%95%E0%A4%BF%E0%A4%95_%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%B7%E0%A4%A3" title="आंकिक विश्लेषण" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Numeri%C4%8Dka_analiza" title="Numerička analiza" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Analisis_numeris" title="Analisis numeris" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Analisi_numerica" title="Analisi numerica" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%9C%D7%99%D7%96%D7%94_%D7%A0%D7%95%D7%9E%D7%A8%D7%99%D7%AA" title="אנליזה נומרית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%A0%E1%83%98%E1%83%AA%E1%83%AE%E1%83%95%E1%83%98%E1%83%97%E1%83%98_%E1%83%90%E1%83%9C%E1%83%90%E1%83%9A%E1%83%98%E1%83%96%E1%83%98" title="რიცხვითი ანალიზი" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%95%D1%81%D0%B5%D0%BF%D1%82%D0%B5%D1%83_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%D1%81%D1%8B" title="Есептеу математикасы" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Analysis_numerica" title="Analysis numerica" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Skai%C4%8Diavimo_metodai" title="Skaičiavimo metodai" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Numerikus_anal%C3%ADzis" title="Numerikus analízis" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B4%82%E0%B4%96%E0%B5%8D%E0%B4%AF%E0%B4%BE%E0%B4%B5%E0%B4%BF%E0%B4%B6%E0%B4%95%E0%B4%B2%E0%B4%A8%E0%B4%82" title="സംഖ്യാവിശകലനം" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Analisis_berangka" title="Analisis berangka" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mn"><a href="http://mn.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BE%D0%BD_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Тоон анализ" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Numerieke_wiskunde" title="Numerieke wiskunde" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E6%95%B0%E5%80%A4%E8%A7%A3%E6%9E%90" title="数値解析" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Numerisk_analyse" title="Numerisk analyse" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Numerisk_analyse" title="Numerisk analyse" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Analisi_numerica" title="Analisi numerica" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D9%86%D9%85%D8%A8%D8%B1%DB%8C_%D8%A7%D9%86%DB%8C%D9%84%DB%8C%D8%B3%D8%B2" title="نمبری انیلیسز" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Analiza_numeryczna" title="Analiza numeryczna" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/An%C3%A1lise_num%C3%A9rica" title="Análise numérica" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Analiz%C4%83_numeric%C4%83" title="Analiză numerică" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%92%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Вычислительная математика" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sc"><a href="http://sc.wikipedia.org/wiki/An%C3%A0lisi_num%C3%A8rica" title="Anàlisi numèrica" lang="sc" hreflang="sc">Sardu</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B7%83%E0%B6%82%E0%B6%9B%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F%E0%B6%B8%E0%B6%BA_%E0%B7%80%E0%B7%92%E0%B7%81%E0%B7%8A%E0%B6%BD%E0%B7%9A%E0%B7%82%E0%B6%AB%E0%B6%BA" title="සංඛ්‍යාමය විශ්ලේෂණය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Numerical_analysis" title="Numerical analysis" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Numerick%C3%A1_matematika" title="Numerická matematika" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Numeri%C4%8Dna_matematika" title="Numerična matematika" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9D%D1%83%D0%BC%D0%B5%D1%80%D0%B8%D1%87%D0%BA%D0%B0_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0" title="Нумеричка анализа" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Numeri%C4%8Dka_analiza" title="Numerička analiza" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/Analisis_numeris" title="Analisis numeris" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Numeerinen_analyysi" title="Numeerinen analyysi" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Ber%C3%A4kningsvetenskap" title="Beräkningsvetenskap" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Numerikal_na_analisis" title="Numerikal na analisis" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%8E%E0%AE%A3%E0%AF%8D%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D_%E0%AE%AA%E0%AE%95%E0%AF%81%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" title="எண்சார் பகுப்பியல்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Say%C4%B1sal_y%C3%B6ntemler" title="Sayısal yöntemler" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9E%D0%B1%D1%87%D0%B8%D1%81%D0%BB%D1%8E%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Обчислювальна математика" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%B9%D8%AF%D8%AF%DB%8C_%D8%AA%D8%AD%D9%84%DB%8C%D9%84" title="عددی تحلیل" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Gi%E1%BA%A3i_t%C3%ADch_s%E1%BB%91" title="Giải tích số" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Ihapnon_nga_analisis" title="Ihapnon nga analisis" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 10 February 2013 at 19:22.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Numerical_analysis" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1094 in 0.176 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

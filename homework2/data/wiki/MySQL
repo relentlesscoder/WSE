@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>MySQL - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=MySQL&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=MySQL&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"MySQL","wgTitle":"MySQL","wgCurRevisionId":537956779,"wgArticleId":19545,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from October 2012","Articles containing potentially dated statements from April 2009","All articles containing potentially dated statements","Articles with unsourced statements from August 2011","Wikipedia articles needing clarification from January 2012","Articles with unsourced statements from April 2012","Articles containing potentially dated statements from December 2010","Commons category template with no category set","Use dmy dates from October 2012","MySQL","1995 software","Free database management systems","Sun Microsystems software","Oracle software","Linux database-related software","Cross-platform software","Client-server database management systems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"MySQL","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"0453afa2eaee5b733c53ab8887196565","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":19545,"title":"MySQL","namespace":0,"categories":["1995 software","All articles containing potentially dated statements","All articles with unsourced statements","Articles containing potentially dated statements from April 2009","Articles containing potentially dated statements from December 2010","Articles with unsourced statements from April 2012","Articles with unsourced statements from August 2011","Articles with unsourced statements from October 2012","Client-server database management systems","Commons category template with no category set","Cross-platform software","Free database management systems","Linux database-related software","MySQL","Oracle software","Sun Microsystems software","Use dmy dates from October 2012","Wikipedia articles needing clarification from January 2012"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-MySQL skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">MySQL</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox vevent" cellspacing="3" style="border-spacing: 3px; width:22em;">
+<caption class="summary" style="">MySQL</caption>
+<tr class="">
+<td colspan="2" class="" style="text-align:center;"><a href="http://en.wikipedia.org/wiki/File:MySQL.svg" class="image"><img alt="MySQL.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/180px-MySQL.svg.png" width="180" height="93" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/270px-MySQL.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/360px-MySQL.svg.png 2x" /></a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_developer" title="Software developer">Developer(s)</a></th>
+<td class="" style=""><a href="Oracle_Corporation" title="Oracle Corporation">Oracle</a> (formerly <a href="Sun_Microsystems" title="Sun Microsystems">Sun</a>, formerly <a href="MySQL_AB" title="MySQL AB">MySQL AB</a>)</td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Initial release</th>
+<td class="" style=""><span class="mw-formatted-date" title="1995-05-23">23 May 1995</span><span style="display:none">&#160;(<span class="dtstart">1995-05-23</span>)</span></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
+<td class="" style="">5.6.10 / 5&#160;February&#160;2013<span class="noprint">; 7 days ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2013-02-05</span>)</span><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_release_life_cycle" title="Software release life cycle">Preview release</a></th>
+<td class="" style="">5.6.9 / 11&#160;December&#160;2012<span class="noprint">; 2 months ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2012-12-11</span>)</span><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Written in</th>
+<td class="" style=""><a href="C_(programming_language)" title="C (programming language)">C</a>, <a href="C++" title="C++">C++</a><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Operating_system" title="Operating system">Operating system</a></th>
+<td class="" style=""><a href="Cross-platform" title="Cross-platform">Cross-platform</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Available in</th>
+<td class="" style="">English</td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="List_of_software_categories" title="List of software categories">Type</a></th>
+<td class="" style=""><a href="Relational_database_management_system" title="Relational database management system">RDBMS</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_license" title="Software license">License</a></th>
+<td class="" style=""><a href="GNU_General_Public_License" title="GNU General Public License">GNU General Public License</a> (version 2) or proprietary <a href="EULA" title="EULA" class="mw-redirect">EULA</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Website</th>
+<td class="" style=""><a rel="nofollow" class="external text" href="http://www.mysql.com/">www.mysql.com</a><br />
+<a rel="nofollow" class="external text" href="http://dev.mysql.com/">dev.mysql.com</a></td>
+</tr>
+</table>
+<p><b>MySQL</b> (<span class="nowrap"><small>pron.:</small> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'m' in 'my'" style="border-bottom:1px dotted">m</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/aɪ/ long 'i' in 'bide'" style="border-bottom:1px dotted">aɪ</span></a></span> <span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ˌ/ secondary stress follows" style="border-bottom:1px dotted">ˌ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ɛ/ short 'e' in 'bed'" style="border-bottom:1px dotted">ɛ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'s' in 'sigh'" style="border-bottom:1px dotted">s</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'k' in 'kind'" style="border-bottom:1px dotted">k</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/juː/ long 'u' in 'cute'" style="border-bottom:1px dotted">juː</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ˈ/ primary stress follows" style="border-bottom:1px dotted">ˈ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ɛ/ short 'e' in 'bed'" style="border-bottom:1px dotted">ɛ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'l' in 'lie'" style="border-bottom:1px dotted">l</span></a></span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span></span> "My S-Q-L",<sup id="cite_ref-whatismysql_4-0" class="reference"><a href="#cite_note-whatismysql-4"><span>[</span>4<span>]</span></a></sup> officially, but also called <span class="nowrap"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'m' in 'my'" style="border-bottom:1px dotted">m</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/aɪ/ long 'i' in 'bide'" style="border-bottom:1px dotted">aɪ</span></a></span> <span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ˈ/ primary stress follows" style="border-bottom:1px dotted">ˈ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'s' in 'sigh'" style="border-bottom:1px dotted">s</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/iː/ long 'e' in 'bead'" style="border-bottom:1px dotted">iː</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'k' in 'kind'" style="border-bottom:1px dotted">k</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'w' in 'wind'" style="border-bottom:1px dotted">w</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/əl/ 'le' in 'bottle'" style="border-bottom:1px dotted">əl</span></a></span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span></span> "My Sequel") is the world's most used<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> open source <a href="Relational_database_management_system" title="Relational database management system">relational database management system</a> (RDBMS)<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> as of 2008 that runs as a server providing multi-user access to a number of databases.</p>
+<p>It is named after co-founder <a href="Michael_Widenius" title="Michael Widenius">Michael Widenius</a>' daughter, My.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> The <a href="SQL" title="SQL">SQL</a> phrase stands for Structured Query Language.<sup id="cite_ref-whatismysql_4-1" class="reference"><a href="#cite_note-whatismysql-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>The MySQL development project has made its <a href="Source_code" title="Source code">source code</a> available under the terms of the <a href="GNU_General_Public_License" title="GNU General Public License">GNU General Public License</a>, as well as under a variety of <a href="Proprietary_software" title="Proprietary software">proprietary</a> agreements. MySQL was owned and sponsored by a single <a href="Business" title="Business">for-profit</a> firm, the <a href="Sweden" title="Sweden">Swedish</a> company <a href="MySQL_AB" title="MySQL AB">MySQL AB</a>, now owned by <a href="Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a>.<sup id="cite_ref-sunacquire_8-0" class="reference"><a href="#cite_note-sunacquire-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>MySQL is a popular choice of database for use in web applications, and is a central component of the widely used <a href="LAMP_(software_bundle)" title="LAMP (software bundle)">LAMP</a> open source web application software stack (and other <a href="List_of_AMP_packages" title="List of AMP packages" class="mw-redirect">'AMP'</a> stacks). LAMP is an acronym for "<a href="Linux" title="Linux">Linux</a>, <a href="Apache_HTTP_Server" title="Apache HTTP Server">Apache</a>, MySQL, <a href="Perl" title="Perl">Perl</a>/<a href="PHP" title="PHP">PHP</a>/<a href="Python_(programming_language)" title="Python (programming language)">Python</a>." <a href="Free_software" title="Free software">Free-software</a>-open source projects that require a full-featured database management system often use MySQL.</p>
+<p>For commercial use, several paid editions are available, and offer additional functionality. Applications which use MySQL databases include: <a href="TYPO3" title="TYPO3">TYPO3</a>, <a href="Joomla" title="Joomla">Joomla</a>, <a href="WordPress" title="WordPress">WordPress</a>, <a href="PhpBB" title="PhpBB">phpBB</a>, <a href="MyBB" title="MyBB">MyBB</a>, <a href="Drupal" title="Drupal">Drupal</a> and other software. MySQL is also used in many high-profile, large-scale <a href="World_Wide_Web" title="World Wide Web">World Wide Web</a> products, including <a href="List_of_Wikipedias" title="List of Wikipedias">Wikipedia</a>,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> <a href="Google" title="Google">Google</a><sup id="cite_ref-mysqlatgoogle_10-0" class="reference"><a href="#cite_note-mysqlatgoogle-10"><span>[</span>10<span>]</span></a></sup><sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> (though not for searches), <a href="Facebook" title="Facebook">Facebook</a>,<sup id="cite_ref-mysqlatfacebook_12-0" class="reference"><a href="#cite_note-mysqlatfacebook-12"><span>[</span>12<span>]</span></a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> <a href="Twitter" title="Twitter">Twitter</a>,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> <a href="Flickr" title="Flickr">Flickr</a>,<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> <a href="Nokia" title="Nokia">Nokia.com</a>,<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> and <a href="YouTube" title="YouTube">YouTube</a>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Interfaces"><span class="tocnumber">1</span> <span class="toctext">Interfaces</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Graphical"><span class="tocnumber">1.1</span> <span class="toctext">Graphical</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Command_line"><span class="tocnumber">1.2</span> <span class="toctext">Command line</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Programming"><span class="tocnumber">1.3</span> <span class="toctext">Programming</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Features"><span class="tocnumber">2</span> <span class="toctext">Features</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Limitations"><span class="tocnumber">2.1</span> <span class="toctext">Limitations</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Deployment"><span class="tocnumber">2.2</span> <span class="toctext">Deployment</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Cloud_deployment"><span class="tocnumber">2.3</span> <span class="toctext">Cloud deployment</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#Community"><span class="tocnumber">3</span> <span class="toctext">Community</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Related_projects"><span class="tocnumber">3.1</span> <span class="toctext">Related projects</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#History"><span class="tocnumber">4</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Milestones"><span class="tocnumber">4.1</span> <span class="toctext">Milestones</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Versions"><span class="tocnumber">4.2</span> <span class="toctext">Versions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=1.php.html" title="Edit section: Interfaces">edit</a>]</span> <span class="mw-headline" id="Interfaces">Interfaces</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Mysqlwb-homepage.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mysqlwb-homepage.png/220px-Mysqlwb-homepage.png" width="220" height="154" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mysqlwb-homepage.png/330px-Mysqlwb-homepage.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Mysqlwb-homepage.png/440px-Mysqlwb-homepage.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Mysqlwb-homepage.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="MySQL_Workbench" title="MySQL Workbench">MySQL Workbench</a> in Windows</div>
+</div>
+</div>
+<p>MySQL is a <a href="Relational_database_management_system" title="Relational database management system">relational database management system</a> (RDBMS), and ships with no <a href="Graphical_user_interface" title="Graphical user interface">GUI</a> tools to administer MySQL databases or manage data contained within the databases. Users may use the included <a href="Command_line" title="Command line" class="mw-redirect">command line</a> tools,<sup id="cite_ref-mysql_.E2.80.94_The_MySQL_Command-Line_Tool_19-0" class="reference"><a href="#cite_note-mysql_.E2.80.94_The_MySQL_Command-Line_Tool-19"><span>[</span>19<span>]</span></a></sup><sup id="cite_ref-mysqladmin_-_the_MySQL_command-line_tool_20-0" class="reference"><a href="#cite_note-mysqladmin_-_the_MySQL_command-line_tool-20"><span>[</span>20<span>]</span></a></sup> or use MySQL "front-ends", desktop software and web applications that create and manage MySQL databases, build database structures, back up data, inspect status, and work with data records.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup><sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup><sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup><sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup> The official set of MySQL front-end tools, <a href="MySQL_Workbench" title="MySQL Workbench">MySQL Workbench</a> is actively developed by Oracle, and is freely available for use.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=2.php.html" title="Edit section: Graphical">edit</a>]</span> <span class="mw-headline" id="Graphical">Graphical</span></h3>
+<p>The official <a href="MySQL_Workbench" title="MySQL Workbench">MySQL Workbench</a> is a free integrated environment developed by MySQL AB, that enables users to graphically administer MySQL databases and visually design database structures. MySQL Workbench replaces the previous package of software, <a href="MySQL_GUI_Tools" title="MySQL GUI Tools" class="mw-redirect">MySQL GUI Tools</a>. Similar to other third-party packages, but still considered the authoritative MySQL front end, MySQL Workbench lets users manage database design &amp; modeling, SQL development (replacing MySQL Query Browser) and Database administration (replacing MySQL Administrator).</p>
+<p>MySQL Workbench is available in two editions, the regular <a href="Free_and_open_source_software" title="Free and open source software">free and open source</a> <i>Community Edition</i> which may be downloaded from the MySQL website, and the proprietary <i>Standard Edition</i> which extends and improves the feature set of the Community Edition.</p>
+<p>Third-party proprietary and free graphical administration applications (or "front ends") are available that integrate with MySQL and enable users to work with database structure and data visually. Some well-known front ends, in alphabetical order, are:</p>
+<ul>
+<li><a href="Adminer" title="Adminer">Adminer</a>&#160;– a free MySQL front end written in one PHP script, capable of managing multiple databases, with many <a href="Cascading_Style_Sheets" title="Cascading Style Sheets">CSS</a> skins available.</li>
+<li><a href="DaDaBIK" title="DaDaBIK">DaDaBIK</a>&#160;– a customizable <a href="Create,_read,_update_and_delete" title="Create, read, update and delete">CRUD</a> front-end to MySQL. Written in PHP. Commercial.</li>
+<li><a href="DBEdit" title="DBEdit">DBEdit</a>&#160;– a free front end for MySQL and other databases.</li>
+<li><a href="Devart#Database_tools_for_MySQL" title="Devart">dbForge GUI Tools</a>&#160;— a set of tools for database management that includes separate applications for schema comparison and synchronization, data comparison and synchronization, and building queries.</li>
+<li><a href="HeidiSQL" title="HeidiSQL">HeidiSQL</a>&#160;– a full featured free front end that runs on <a href="Windows" title="Windows" class="mw-redirect">Windows</a>, and can connect to local or remote MySQL servers to manage databases, tables, column structure, and individual data records. Also supports specialised GUI features for date/time fields and enumerated multiple-value fields.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26"><span>[</span>26<span>]</span></a></sup></li>
+<li><a href="LibreOffice" title="LibreOffice">LibreOffice Base</a>&#160;- LibreOffice Base allows the creation and management of databases, preparation of forms and reports that provide end users easy access to data. Like Access, it can be used as a front-end for various database systems, including Access databases (JET), ODBC data sources, and MySQL or <a href="PostgreSQL" title="PostgreSQL">PostgreSQL</a>.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27"><span>[</span>27<span>]</span></a></sup></li>
+<li><a href="Navicat" title="Navicat">Navicat</a>&#160;– a series of proprietary graphical database management applications, developed for Windows, Macintosh and Linux.</li>
+<li><a href="../OpenOffice.org" title="OpenOffice.org" class="mw-redirect">OpenOffice.org</a>&#160;– <a href="../OpenOffice.org_Base" title="OpenOffice.org Base" class="mw-redirect">OpenOffice.org Base</a> can manage MySQL databases if the entire suite is installed. Free and open-source.</li>
+<li><a href="PhpMyAdmin" title="PhpMyAdmin">phpMyAdmin</a>&#160;– a free Web-based front end widely installed<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup> by <a href="Web_hosting_service" title="Web hosting service">Web hosts</a>, since it is developed in PHP and is included in the LAMP stack, <a href="MAMP" title="MAMP">MAMP</a>, and <a href="WAMP" title="WAMP">WAMP</a> software bundle installers.</li>
+<li><a href="SQLBuddy" title="SQLBuddy">SQLBuddy</a>&#160;- a free Web-based front end, developed in PHP.</li>
+<li><a rel="nofollow" class="external text" href="http://www.sequelpro.com/">Sequel Pro</a> - a free, open-source front end for <a href="Mac_OS_X" title="Mac OS X" class="mw-redirect">Mac OS X</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://code.google.com/p/sqlyog/">SQLYog</a> - a free community-developed UI for MySQL.</li>
+<li><a href="TOAD_(software)" title="TOAD (software)" class="mw-redirect">Toad for MySQL</a>&#160;– a free development and administration front end for MySQL from <a href="Quest_Software" title="Quest Software">Quest Software</a></li>
+</ul>
+<p>Other available proprietary MySQL front ends include <a href="DbForge_Studio_for_MySQL" title="DbForge Studio for MySQL">dbForge Studio for MySQL</a>, DBStudio, <a href="Epictetus_Database_Client" title="Epictetus Database Client">Epictetus</a>, <a href="Oracle_SQL_Developer" title="Oracle SQL Developer">Oracle SQL Developer</a>, SchemaBank, <a href="SQLPro_SQL_Client" title="SQLPro SQL Client">SQLPro SQL Client</a>, <a href="Toad_Data_Modeler" title="Toad Data Modeler">Toad Data Modeler</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=3.php.html" title="Edit section: Command line">edit</a>]</span> <span class="mw-headline" id="Command_line">Command line</span></h3>
+<p>MySQL ships with many <a href="Command_line" title="Command line" class="mw-redirect">command line</a> tools, from which the main interface is 'mysql' client.<sup id="cite_ref-mysql_.E2.80.94_The_MySQL_Command-Line_Tool_19-1" class="reference"><a href="#cite_note-mysql_.E2.80.94_The_MySQL_Command-Line_Tool-19"><span>[</span>19<span>]</span></a></sup><sup id="cite_ref-mysqladmin_-_the_MySQL_command-line_tool_20-1" class="reference"><a href="#cite_note-mysqladmin_-_the_MySQL_command-line_tool-20"><span>[</span>20<span>]</span></a></sup> Third-parties have also developed tools to manage, optimize, monitor and backup a MySQL server, some listed below. All these tools work on *NIX type operating systems, and some of them also on Windows.</p>
+<ul>
+<li>Maatkit - a cross-platform toolkit for MySQL, <a href="PostgreSQL" title="PostgreSQL">PostgreSQL</a> and <a href="Memcached" title="Memcached">Memcached</a>, developed in <a href="Perl" title="Perl">Perl</a>.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28"><span>[</span>28<span>]</span></a></sup> Maatkit can be used to prove replication is working correctly, fix corrupted data, automate repetitive tasks, and speed up servers. Maatkit is included with several <a href="GNU/Linux" title="GNU/Linux" class="mw-redirect">GNU/Linux</a> distributions such as <a href="CentOS" title="CentOS">CentOS</a> and <a href="Debian" title="Debian">Debian</a> and packages are available for <a href="Fedora_(operating_system)" title="Fedora (operating system)">Fedora</a> and <a href="Ubuntu_(operating_system)" title="Ubuntu (operating system)">Ubuntu</a> as well. As of late 2011, Maatkit is no longer developed, but <a href="Percona" title="Percona">Percona</a> has continued development under the Percona Toolkit brand.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29"><span>[</span>29<span>]</span></a></sup></li>
+</ul>
+<ul>
+<li>XtraBackup - Open Source MySQL hot backup software. Some notable features include hot, non-locking backups for InnoDB storage, incremental backups, streaming, parallel-compressed backups, throttling based on the number of IO operations per second, etc.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30"><span>[</span>30<span>]</span></a></sup></li>
+</ul>
+<ul>
+<li>MySQL::Replication - a replacement for MySQL's built-in replication, developed in <a href="Perl" title="Perl">Perl</a>.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31"><span>[</span>31<span>]</span></a></sup> MySQL::Replication can be used to create a peer-to-peer, multi-master MySQL replication network.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=4.php.html" title="Edit section: Programming">edit</a>]</span> <span class="mw-headline" id="Programming">Programming</span></h3>
+<p>MySQL works on many different <a href="System_platform" title="System platform" class="mw-redirect">system platforms</a>, including <a href="AIX_operating_system" title="AIX operating system" class="mw-redirect">AIX</a>, <a href="BSD/OS" title="BSD/OS">BSDi</a>, <a href="FreeBSD" title="FreeBSD">FreeBSD</a>, <a href="HP-UX" title="HP-UX">HP-UX</a>, <a href="EComStation" title="EComStation">eComStation</a>, <a href="IBM_i5/OS" title="IBM i5/OS" class="mw-redirect">i5/OS</a>, <a href="IRIX" title="IRIX">IRIX</a>, Linux, <a href="Mac_OS_X" title="Mac OS X" class="mw-redirect">Mac OS X</a>, <a href="Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a>, <a href="NetBSD" title="NetBSD">NetBSD</a>, <a href="Novell_NetWare" title="Novell NetWare" class="mw-redirect">Novell NetWare</a>, <a href="OpenBSD" title="OpenBSD">OpenBSD</a>, <a href="OpenSolaris" title="OpenSolaris">OpenSolaris</a>, <a href="OS/2" title="OS/2">OS/2</a> Warp, <a href="QNX" title="QNX">QNX</a>, <a href="Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a>, <a href="Symbian" title="Symbian">Symbian</a>, <a href="SunOS" title="SunOS">SunOS</a>, <a href="SCO_OpenServer" title="SCO OpenServer">SCO OpenServer</a>, SCO <a href="UnixWare" title="UnixWare">UnixWare</a>, <a href="Sanos" title="Sanos">Sanos</a> and <a href="Tru64" title="Tru64" class="mw-redirect">Tru64</a>. A port of MySQL to <a href="OpenVMS" title="OpenVMS">OpenVMS</a> also exists.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32"><span>[</span>32<span>]</span></a></sup></p>
+<p>MySQL is written in <a href="C_(programming_language)" title="C (programming language)">C</a> and <a href="C++" title="C++">C++</a>. Its SQL parser is written in <a href="Yacc" title="Yacc">yacc</a>, and a home-brewed <a href="Lexical_analysis" title="Lexical analysis">lexical analyzer</a>.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33"><span>[</span>33<span>]</span></a></sup> Many <a href="Programming_language" title="Programming language">programming languages</a> with language-specific <a href="Application_programming_interface" title="Application programming interface">APIs</a> include <a href="Library_(computing)" title="Library (computing)">libraries</a> for accessing MySQL databases. These include MySQL Connector/Net for integration with Microsoft's <a href="Visual_Studio" title="Visual Studio" class="mw-redirect">Visual Studio</a> (languages such as <a href="C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> and <a href="Visual_Basic" title="Visual Basic">VB</a> are most commonly used) and the JDBC driver for Java. In addition, an <a href="ODBC" title="ODBC">ODBC</a> interface called <a href="MyODBC" title="MyODBC">MyODBC</a> allows additional programming languages that support the ODBC interface to communicate with a MySQL database, such as <a href="Active_Server_Pages" title="Active Server Pages">ASP</a> or <a href="Adobe_ColdFusion" title="Adobe ColdFusion">ColdFusion</a>. The <a href="HTSQL" title="HTSQL">HTSQL</a> - <a href="Uniform_resource_locator" title="Uniform resource locator">URL</a>-based query method also ships with a MySQL adapter, allowing direct interaction between a MySQL database and any web client via structured URLs.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=5.php.html" title="Edit section: Features">edit</a>]</span> <span class="mw-headline" id="Features">Features</span></h2>
+<p>As of April 2009<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=MySQL&action=edit.php.html">[update]</a></sup>, MySQL offered MySQL 5.1 in two different variants: the open source MySQL Community Server and the commercial <a href="MySQL_Enterprise" title="MySQL Enterprise">Enterprise Server</a>. MySQL 5.5 is offered under the same licences.<sup id="cite_ref-34" class="reference"><a href="#cite_note-34"><span>[</span>34<span>]</span></a></sup> They have a common code base and include the following features:</p>
+<ul>
+<li>A broad subset of <a href="SQL_1999" title="SQL:1999">ANSI SQL 99</a>, as well as extensions</li>
+<li>Cross-platform support</li>
+<li><a href="Stored_procedure" title="Stored procedure">Stored procedures</a></li>
+<li><a href="Database_trigger" title="Database trigger">Triggers</a></li>
+<li><a href="Cursor_(databases)" title="Cursor (databases)">Cursors</a></li>
+<li>Updatable <a href="View_(database)" title="View (database)">Views</a></li>
+<li><a href="Information_schema" title="Information schema">Information schema</a></li>
+<li>Strict mode (ensures MySQL does not truncate or otherwise modify data to conform to an underlying data type, when an incompatible value is inserted into that type)</li>
+<li><a href="X/Open_XA" title="X/Open XA">X/Open XA</a> <a href="Distributed_transaction_processing" title="Distributed transaction processing" class="mw-redirect">distributed transaction processing</a> (DTP) support; <a href="Two-phase-commit_protocol" title="Two-phase-commit protocol" class="mw-redirect">two phase commit</a> as part of this, using Oracle's <a href="InnoDB" title="InnoDB">InnoDB</a> engine</li>
+<li>Independent <a href="Storage_engine" title="Storage engine" class="mw-redirect">storage engines</a> (<a href="MyISAM" title="MyISAM">MyISAM</a> for read speed, InnoDB for transactions and <a href="Referential_integrity" title="Referential integrity">referential integrity</a>, <a href="MySQL_Archive" title="MySQL Archive">MySQL Archive</a> for storing historical data in little space)</li>
+<li>Transactions with the InnoDB, and Cluster storage engines; savepoints with InnoDB</li>
+<li><a href="Secure_Sockets_Layer" title="Secure Sockets Layer" class="mw-redirect">SSL</a> support</li>
+<li>Query <a href="Cache_(computing)" title="Cache (computing)">caching</a></li>
+<li>Sub-<a href="Select_(SQL)" title="Select (SQL)">SELECTs</a> (i.e. nested SELECTs)</li>
+<li>Replication support (i.e. Master-Master Replication &amp; Master-Slave Replication) with one master per slave, many slaves per master, no automatic support for multiple masters per slave.</li>
+<li>Full-text <a href="Index_(database)" title="Index (database)" class="mw-redirect">indexing</a> and searching using MyISAM engine</li>
+<li>Embedded database library</li>
+<li><a href="Unicode" title="Unicode">Unicode</a> support (however prior to 5.5.3 <a href="UTF-8" title="UTF-8">UTF-8</a> and <a href="UTF-16/UCS-2" title="UTF-16/UCS-2" class="mw-redirect">UCS-2</a> encoded strings are limited to the <a href="Basic_Multilingual_Plane" title="Basic Multilingual Plane" class="mw-redirect">BMP</a>, in 5.5.3 and later use utf8mb4 for full unicode support)</li>
+<li><a href="Atomicity,_consistency,_isolation,_durability" title="Atomicity, consistency, isolation, durability" class="mw-redirect">ACID</a> compliance when using transaction capable storage engines (InnoDB and Cluster)<sup id="cite_ref-35" class="reference"><a href="#cite_note-35"><span>[</span>35<span>]</span></a></sup></li>
+<li>Partitioned tables with pruning of partitions in optimizer</li>
+<li><a href="Shared-nothing" title="Shared-nothing" class="mw-redirect">Shared-nothing</a> clustering through <a href="MySQL_Cluster" title="MySQL Cluster">MySQL Cluster</a></li>
+<li>Hot backup (via <tt>mysqlhotcopy</tt>) under certain conditions<sup id="cite_ref-36" class="reference"><a href="#cite_note-36"><span>[</span>36<span>]</span></a></sup></li>
+<li>Multiple storage engines, allowing one to choose the one that is most effective for each table in the application (in MySQL 5.0, storage engines must be compiled in; in MySQL 5.1, storage engines can be dynamically loaded at <a href="Run_time_(program_lifecycle_phase)" title="Run time (program lifecycle phase)">run time</a>):
+<ul>
+<li>Native storage engines (MyISAM, <a href="Falcon_(storage_engine)" title="Falcon (storage engine)">Falcon</a>, Merge, Memory (heap), <a href="MySQL_Federated" title="MySQL Federated">Federated</a>, Archive, <a href="Comma-separated_values" title="Comma-separated values">CSV</a>, Blackhole, Cluster, EXAMPLE, <a href="Maria_(storage_engine)" title="Maria (storage engine)" class="mw-redirect">Maria</a>, and InnoDB, which was made the default as of 5.5)</li>
+<li>Partner-developed storage engines (<a href="SolidDB" title="SolidDB">solidDB</a>, NitroEDB, <a href="../../w/index-title=ScaleDB&action=edit&redlink=1.php.html" class="new" title="ScaleDB (page does not exist)">ScaleDB</a>, TokuDB, <a href="Infobright" title="Infobright">Infobright</a> (formerly Brighthouse), <a href="Kickfire" title="Kickfire">Kickfire</a>, <a href="XtraDB" title="XtraDB" class="mw-redirect">XtraDB</a>, <a href="IBM_DB2" title="IBM DB2">IBM DB2</a>).<sup id="cite_ref-37" class="reference"><a href="#cite_note-37"><span>[</span>37<span>]</span></a></sup> InnoDB used to be a partner-developed storage engine, but with recent acquisitions, <a href="Oracle_Corporation" title="Oracle Corporation">Oracle</a> now owns both MySQL core and InnoDB.</li>
+<li>Community-developed storage engines (<a href="../../w/index-title=Memcache_engine&action=edit&redlink=1.php.html" class="new" title="Memcache engine (page does not exist)">memcache engine</a>, <a href="Web_server" title="Web server">httpd</a>, PBXT, <a href="../../w/index-title=Revision_Engine&action=edit&redlink=1.php.html" class="new" title="Revision Engine (page does not exist)">Revision Engine</a>)</li>
+<li>Custom storage engines</li>
+</ul>
+</li>
+<li>Commit grouping, gathering multiple transactions from multiple connections together to increase the number of commits per second. (PostgreSQL has an advanced form of this functionality<sup id="cite_ref-38" class="reference"><a href="#cite_note-38"><span>[</span>38<span>]</span></a></sup>)</li>
+</ul>
+<p>The developers release monthly versions of the MySQL Server. The sources can be obtained from MySQL's website or from MySQL's <a href="Bazaar_(software)" title="Bazaar (software)" class="mw-redirect">Bazaar</a> repository, both under the GPL license.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=6.php.html" title="Edit section: Limitations">edit</a>]</span> <span class="mw-headline" id="Limitations">Limitations</span></h3>
+<p>Like other <a href="SQL#Cross-vendor_portability" title="SQL">SQL databases</a>, MySQL does not currently comply with the full SQL standard for some of the implemented functionality, including foreign key references when using some storage engines other than the 'standard' InnoDB.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39"><span>[</span>39<span>]</span></a></sup></p>
+<p>Triggers are currently limited to one per action / timing, i.e. maximum one after insert and one before insert on the same table.<sup id="cite_ref-dev.mysql.com_40-0" class="reference"><a href="#cite_note-dev.mysql.com-40"><span>[</span>40<span>]</span></a></sup> There are no triggers on views.<sup id="cite_ref-dev.mysql.com_40-1" class="reference"><a href="#cite_note-dev.mysql.com-40"><span>[</span>40<span>]</span></a></sup></p>
+<p>MySQL, like most other <a href="Database_transaction" title="Database transaction">transactional</a> relational databases, is strongly limited by hard disk performance. This is especially true in terms of write latency.<sup id="cite_ref-41" class="reference"><a href="#cite_note-41"><span>[</span>41<span>]</span></a></sup> Given the recent appearance of very affordable consumer grade SATA interface <a href="Solid-state_drive" title="Solid-state drive">Solid-state drives</a> that offer zero <a href="Latency_(engineering)#Mechanical_latency" title="Latency (engineering)">mechanical latency</a>, a fivefold speedup over even an eight drive RAID array can be had for a smaller investment.<sup id="cite_ref-42" class="reference"><a href="#cite_note-42"><span>[</span>42<span>]</span></a></sup><sup id="cite_ref-43" class="reference"><a href="#cite_note-43"><span>[</span>43<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=7.php.html" title="Edit section: Deployment">edit</a>]</span> <span class="mw-headline" id="Deployment">Deployment</span></h3>
+<p>MySQL can be built and installed manually from source code, but this can be tedious so it is more commonly installed from a binary package unless special customizations are required. On most Linux distributions the <a href="Package_management_system" title="Package management system">package management system</a> can download and install MySQL with minimal effort, though further configuration is often required to adjust security and optimization settings.</p>
+<p>Though MySQL began as a low-end alternative to more powerful proprietary databases, it has gradually evolved to support higher-scale needs as well. It is still most commonly used in small to medium scale single-server deployments, either as a component in a <a href="LAMP_(software_bundle)" title="LAMP (software bundle)">LAMP</a>-based web application or as a standalone database server. Much of MySQL's appeal originates in its relative simplicity and ease of use, which is enabled by an ecosystem of open source tools such as phpMyAdmin. In the medium range, MySQL can be scaled by deploying it on more powerful hardware, such as a multi-processor server with gigabytes of memory.</p>
+<p>There are however limits to how far performance can scale on a single server, so on larger scales, multi-server MySQL deployments are required to provide improved performance and reliability. A typical high-end configuration can include a powerful master database which handles data write operations and is <a href="Database_replication" title="Database replication" class="mw-redirect">replicated</a> to multiple slaves that handle all read operations.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44"><span>[</span>44<span>]</span></a></sup> The master server synchronizes continually with its slaves so in the event of failure a slave can be promoted to become the new master, minimizing downtime. Further improvements in performance can be achieved by caching the results from database queries in memory using <a href="Memcached" title="Memcached">memcached</a>, or breaking down a database into smaller chunks called <a href="Shard_(database_architecture)" title="Shard (database architecture)">shards</a> which can be spread across a number of distributed server clusters.<sup id="cite_ref-45" class="reference"><a href="#cite_note-45"><span>[</span>45<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=8.php.html" title="Edit section: Cloud deployment">edit</a>]</span> <span class="mw-headline" id="Cloud_deployment">Cloud deployment</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Cloud_database" title="Cloud database">Cloud database</a></div>
+<p>MySQL can also be run on <a href="Cloud_computing" title="Cloud computing">cloud computing</a> platforms such as <a href="Amazon_EC2" title="Amazon EC2" class="mw-redirect">Amazon EC2</a>. Listed below are some common deployment models for MySQL on the cloud:</p>
+<ul>
+<li><a href="Virtual_Machine" title="Virtual Machine" class="mw-redirect">Virtual Machine</a> Image - cloud users can upload a machine image of their own with MySQL installed, or use a ready-made machine image with an optimized installation of MySQL on it, such as the one provided by Amazon EC2.<sup id="cite_ref-46" class="reference"><a href="#cite_note-46"><span>[</span>46<span>]</span></a></sup></li>
+<li>MySQL as a Service - some cloud platforms offer MySQL "as a service". In this configuration, application owners do not have to install and maintain the MySQL database on their own. Instead, the database service provider takes responsibility for installing and maintaining the database, and application owners pay according to their usage.<sup id="cite_ref-readwriteweb_47-0" class="reference"><a href="#cite_note-readwriteweb-47"><span>[</span>47<span>]</span></a></sup> Notable cloud-based MySQL services are the <a href="Amazon_Relational_Database_Service" title="Amazon Relational Database Service">Amazon Relational Database Service</a>, and the <a href="Xeround" title="Xeround">Xeround Cloud Database</a>, which runs on EC2, <a href="Rackspace" title="Rackspace">Rackspace</a>, <a href="HP_Cloud_Services" title="HP Cloud Services">HP Cloud</a>, and <a href="Heroku" title="Heroku">Heroku</a>.</li>
+<li>Managed MySQL cloud hosting - the database is not offered as a service, but the cloud provider hosts the database and manages it on the application owner's behalf. As of 2011, of the major cloud providers, only Terremark and Rackspace offer managed hosting for MySQL databases.<sup id="cite_ref-48" class="reference"><a href="#cite_note-48"><span>[</span>48<span>]</span></a></sup><sup id="cite_ref-49" class="reference"><a href="#cite_note-49"><span>[</span>49<span>]</span></a></sup></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=9.php.html" title="Edit section: Community">edit</a>]</span> <span class="mw-headline" id="Community">Community</span></h2>
+<p>The MySQL server software itself and the client libraries use <a href="Dual_license" title="Dual license" class="mw-redirect">dual-licensing</a> distribution. They are offered under GPL version 2,<sup id="cite_ref-50" class="reference"><a href="#cite_note-50"><span>[</span>50<span>]</span></a></sup> beginning from 28 June 2000<sup id="cite_ref-51" class="reference"><a href="#cite_note-51"><span>[</span>51<span>]</span></a></sup> (which in 2009 has been extended with a <a href="Alternative_terms_for_free_software" title="Alternative terms for free software">FLOSS</a> License Exception)<sup id="cite_ref-52" class="reference"><a href="#cite_note-52"><span>[</span>52<span>]</span></a></sup> or to use a proprietary license.<sup id="cite_ref-53" class="reference"><a href="#cite_note-53"><span>[</span>53<span>]</span></a></sup></p>
+<p>Support can be obtained from the official manual.<sup id="cite_ref-54" class="reference"><a href="#cite_note-54"><span>[</span>54<span>]</span></a></sup> Free support additionally is available in different IRC channels and forums. Oracle offers paid support via its MySQL Enterprise products. They differ in the scope of services and in price. Additionally, a number of third party organisations exist to provide support and services, including SkySQL Ab and Percona.</p>
+<p>MySQL has received positive reviews, and reviewers noticed it "performs extremely well in the average case." and that the "developer interfaces are there, and the documentation (not to mention feedback in the real world via Web sites and the like) is very, very good".<sup id="cite_ref-55" class="reference"><a href="#cite_note-55"><span>[</span>55<span>]</span></a></sup> It has also been tested to be a "fast, stable and true multi-user, multi-threaded sql database server".<sup id="cite_ref-56" class="reference"><a href="#cite_note-56"><span>[</span>56<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=10.php.html" title="Edit section: Related projects">edit</a>]</span> <span class="mw-headline" id="Related_projects">Related projects</span></h3>
+<ul>
+<li><a href="Drizzle_(database_server)" title="Drizzle (database server)">Drizzle</a>&#160;– a fork targeted at the web-infrastructure and cloud computing markets. The developers of the product describe it as a "smaller, slimmer and (hopefully) faster version of MySQL". As such is planned to have many common MySQL features stripped out, including stored procedures, query cache, prepared statements, views, and triggers. This is a partial rewrite of the server that does not maintain compatibility with MySQL.</li>
+<li><a href="MariaDB" title="MariaDB">MariaDB</a>&#160;– a community-developed branch of the MySQL database, the impetus being the community maintenance of its free status under GPL as opposed to any uncertainty of MySQL license status under its current ownership by Oracle. The intent also being to maintain high fidelity with MySQL, ensuring a "drop-in" replacement capability with library binary equivalency and exact matching with MySQL APIs and commands. It includes the <a href="XtraDB" title="XtraDB" class="mw-redirect">XtraDB</a> storage engine as a replacement for InnoDB.</li>
+<li><a href="Percona_Server" title="Percona Server" class="mw-redirect">Percona Server</a>&#160;– a fork that includes the XtraDB storage engine. It is an enhanced version of MySQL that is fully compatible, and deviates as little as possible from it, while still providing beneficial new features, better performance, and improved instrumentation for analysis of performance and usage.</li>
+<li><a href="../../w/index-title=OurDelta&action=edit&redlink=1.php.html" class="new" title="OurDelta (page does not exist)">OurDelta</a>&#160;– No longer maintained. It was a fork compiled with various patches, including patches from MariaDB, Percona, and Google, and a storage engine called OQGRAPH.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=11.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>On 15 June 2001, <a href="NuSphere" title="NuSphere">NuSphere</a> sued MySQL AB, TcX DataKonsult AB and its original authors Michael ("Monty") Widenius and David Axmark in U.S District Court in Boston for “breach of contract, tortious interference with third party contracts and relationships and unfair competition”.<sup id="cite_ref-57" class="reference"><a href="#cite_note-57"><span>[</span>57<span>]</span></a></sup> <sup id="cite_ref-58" class="reference"><a href="#cite_note-58"><span>[</span>58<span>]</span></a></sup></p>
+<p>In 2002, MySQL AB sued Progress NuSphere for <a href="Copyright_infringement" title="Copyright infringement">copyright</a> and <a href="Trademark_infringement" title="Trademark infringement">trademark infringement</a> in <a href="../U.S._District_Court_for_the_District_of_Massachusetts" title="U.S. District Court for the District of Massachusetts" class="mw-redirect">United States district court</a>. NuSphere had allegedly violated MySQL's copyright by linking MySQL's GPL'ed code with NuSphere Gemini table without being in compliance with the license. After a preliminary hearing before Judge Patti Saris on 27 February 2002, the parties entered settlement talks and eventually settled.<sup id="cite_ref-59" class="reference"><a href="#cite_note-59"><span>[</span>59<span>]</span></a></sup> After the hearing, <a href="Free_Software_Foundation" title="Free Software Foundation">FSF</a> commented that "Judge Saris made clear that she sees the GNU GPL to be an enforceable and binding license."<sup id="cite_ref-60" class="reference"><a href="#cite_note-60"><span>[</span>60<span>]</span></a></sup></p>
+<p>In October 2005, Oracle Corporation acquired <a href="Innobase" title="Innobase">Innobase</a> OY, the <a href="Finland" title="Finland">Finnish</a> company that developed the third-party InnoDB storage engine that allows MySQL to provide such functionality as transactions and <a href="Foreign_key" title="Foreign key">foreign keys</a>. After the acquisition, an Oracle <a href="News_release" title="News release" class="mw-redirect">press release</a> mentioned that the contracts that make the company's software available to <a href="MySQL_AB" title="MySQL AB">MySQL AB</a> would be due for renewal (and presumably renegotiation) some time in 2006.<sup id="cite_ref-61" class="reference"><a href="#cite_note-61"><span>[</span>61<span>]</span></a></sup> During the MySQL Users Conference in April 2006, MySQL issued a press release that confirmed that MySQL and Innobase OY agreed to a "multi-year" extension of their licensing agreement.<sup id="cite_ref-62" class="reference"><a href="#cite_note-62"><span>[</span>62<span>]</span></a></sup></p>
+<p>In February 2006, Oracle Corporation acquired <a href="Sleepycat_Software" title="Sleepycat Software">Sleepycat Software</a>,<sup id="cite_ref-63" class="reference"><a href="#cite_note-63"><span>[</span>63<span>]</span></a></sup> makers of the <a href="Berkeley_DB" title="Berkeley DB">Berkeley DB</a>, a database engine providing the basis for another MySQL storage engine. This had little effect, as Berkeley DB was not widely used, and was dropped (due to lack of use) in MySQL 5.1.12, a pre-GA release of MySQL 5.1 released in October 2006.<sup id="cite_ref-64" class="reference"><a href="#cite_note-64"><span>[</span>64<span>]</span></a></sup></p>
+<p>In January 2008, Sun Microsystems bought MySQL for $1 billion.<sup id="cite_ref-65" class="reference"><a href="#cite_note-65"><span>[</span>65<span>]</span></a></sup></p>
+<p>In April 2009, Oracle Corporation entered into an agreement to purchase Sun Microsystems,<sup id="cite_ref-66" class="reference"><a href="#cite_note-66"><span>[</span>66<span>]</span></a></sup> then owners of MySQL copyright and trademark. Sun's board of directors unanimously approved the deal, it was also approved by Sun's shareholders, and by the U.S. government on 20 August 2009.<sup id="cite_ref-67" class="reference"><a href="#cite_note-67"><span>[</span>67<span>]</span></a></sup> On 14 December 2009, Oracle pledged to continue to enhance MySQL<sup id="cite_ref-68" class="reference"><a href="#cite_note-68"><span>[</span>68<span>]</span></a></sup> as it had done for the previous four years.</p>
+<p>A movement against Oracle's acquisition of MySQL, to "Save MySQL"<sup id="cite_ref-69" class="reference"><a href="#cite_note-69"><span>[</span>69<span>]</span></a></sup> from Oracle was started by one of the MySQL founders, <a href="Monty_Widenius" title="Monty Widenius" class="mw-redirect">Monty Widenius</a>. The petition of 50,000+ developers and users called upon the European Commission to block approval of the acquisition. At the same time, several Free Software <a href="Opinion_leadership" title="Opinion leadership">opinion leaders</a> (including <a href="Eben_Moglen" title="Eben Moglen">Eben Moglen</a>, <a href="Pamela_Jones" title="Pamela Jones">Pamela Jones</a> of <a href="Groklaw" title="Groklaw">Groklaw</a>, <a href="../../w/index-title=Jan_Wildeboer&action=edit&redlink=1.php.html" class="new" title="Jan Wildeboer (page does not exist)">Jan Wildeboer</a> and <a href="Carlo_Piana" title="Carlo Piana">Carlo Piana</a>, who also acted as co-counsel in the merger regulation procedure) advocated for the unconditional approval of the merger.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2011">citation needed</span></a></i>]</sup> As part of the negotiations with the European Commission, Oracle committed that MySQL server will continue until at least 2015 to use the dual-licensing strategy long used by MySQL AB, with commercial and GPL versions available. The antitrust of the EU had been "pressuring it to divest MySQL as a condition for approval of the merger". But, as revealed by <a href="Wikileaks" title="Wikileaks" class="mw-redirect">Wikileaks</a>, the US Department of Justice and Antitrust, at the request of Oracle, pressured the EU to unconditionally approve the merger.<sup id="cite_ref-70" class="reference"><a href="#cite_note-70"><span>[</span>70<span>]</span></a></sup> The European Commission eventually unconditionally approved Oracle's acquisition of MySQL on 21 January 2010.<sup id="cite_ref-71" class="reference"><a href="#cite_note-71"><span>[</span>71<span>]</span></a></sup></p>
+<p>In January 2009, prior to Oracle's acquisition of MySQL, Monty Widenius started a GPL-only fork, <a href="MariaDB" title="MariaDB">MariaDB</a>. MariaDB is based on the same code base as MySQL server 5.1 and strives to maintain compatibility with Oracle-provided versions.<sup id="cite_ref-72" class="reference"><a href="#cite_note-72"><span>[</span>72<span>]</span></a></sup></p>
+<p>In August 2012, TechCrunch's Alex Williams reported that Oracle was holding back MySQL Server test cases, a move that he concluded indicated that Oracle is attempting to kill the product.<sup id="cite_ref-73" class="reference"><a href="#cite_note-73"><span>[</span>73<span>]</span></a></sup> Percona also reported that Oracle is no longer synchronizing their changes with the public source repositories.<sup id="cite_ref-74" class="reference"><a href="#cite_note-74"><span>[</span>74<span>]</span></a></sup> Widenius called this a breach of the agreement that Oracle entered into with the EU as a condition of their acquisition of Sun.<sup id="cite_ref-75" class="reference"><a href="#cite_note-75"><span>[</span>75<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=12.php.html" title="Edit section: Milestones">edit</a>]</span> <span class="mw-headline" id="Milestones">Milestones</span></h3>
+<p>Notable milestones in MySQL development include:</p>
+<ul>
+<li>Original development of MySQL by Michael Widenius and <a href="David_Axmark" title="David Axmark">David Axmark</a> beginning in 1994<sup id="cite_ref-76" class="reference"><a href="#cite_note-76"><span>[</span>76<span>]</span></a></sup></li>
+<li>First internal release on 23 May 1995</li>
+<li>Version 3.19: End of 1996, from www.tcx.se</li>
+<li>Version 3.20: January 1997</li>
+<li>Windows version was released on 8 January 1998 for Windows 95 and NT</li>
+<li>Version 3.21: production release 1998, from www.mysql.com</li>
+<li>Version 3.22: alpha, beta from 1998</li>
+<li>Version 3.23: beta from June 2000, production release 22 January 2001<sup id="cite_ref-77" class="reference"><a href="#cite_note-77"><span>[</span>77<span>]</span></a></sup></li>
+<li>Version 4.0: beta from August 2002, production release March 2003 (<a href="Set_operations_(SQL)" title="Set operations (SQL)">unions</a>)</li>
+<li>Version 4.01: beta from August 2003, Jyoti<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="The text in the vicinity of this tag needs clarification or removal of jargon from January 2012">clarification needed</span></a></i>]</sup><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from April 2012">citation needed</span></a></i>]</sup> adopts MySQL for database tracking</li>
+<li>Version 4.1: beta from June 2004, production release October 2004 (<a href="R-tree" title="R-tree">R-trees</a> and <a href="B-tree" title="B-tree">B-trees</a>, subqueries, prepared statements)</li>
+<li>Version 5.0: beta from March 2005, production release October 2005 (cursors, stored procedures, triggers, views, <a href="Database_transaction" title="Database transaction">XA transactions</a>)</li>
+</ul>
+<dl>
+<dd>The developer of the Federated Storage Engine states that "The Federated Storage Engine is a <a href="Proof_of_concept" title="Proof of concept">proof-of-concept</a> storage engine",<sup id="cite_ref-78" class="reference"><a href="#cite_note-78"><span>[</span>78<span>]</span></a></sup> but the main distributions of MySQL version 5.0 included it and turned it on by default. Documentation of some of the short-comings appears in "MySQL Federated Tables: The Missing Manual".<sup id="cite_ref-79" class="reference"><a href="#cite_note-79"><span>[</span>79<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li><a href="Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> acquired <a href="MySQL_AB" title="MySQL AB">MySQL AB</a> in 2008.<sup id="cite_ref-80" class="reference"><a href="#cite_note-80"><span>[</span>80<span>]</span></a></sup></li>
+<li>Version 5.1: production release 27 November 2008 (event scheduler, <a href="Partition_(database)" title="Partition (database)">partitioning</a>, plugin API, row-based replication, <a href="Server_log" title="Server log">server log</a> tables)</li>
+</ul>
+<dl>
+<dd>Version 5.1 contained 20 known crashing and wrong result bugs in addition to the 35 present in version 5.0 <i>(almost all fixed as of release 5.1.51)</i>.<sup id="cite_ref-81" class="reference"><a href="#cite_note-81"><span>[</span>81<span>]</span></a></sup></dd>
+<dd>MySQL 5.1 and 6.0 showed poor performance when used for <a href="Data_warehousing" title="Data warehousing" class="mw-redirect">data warehousing</a>&#160;— partly due to its inability to utilize multiple CPU cores for processing a single query.<sup id="cite_ref-82" class="reference"><a href="#cite_note-82"><span>[</span>82<span>]</span></a></sup></dd>
+</dl>
+<ul>
+<li>Oracle acquired Sun Microsystems on 27 January 2010.<sup id="cite_ref-83" class="reference"><a href="#cite_note-83"><span>[</span>83<span>]</span></a></sup></li>
+<li>MySQL Server 5.5 is currently generally available (as of December 2010<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=MySQL&action=edit.php.html">[update]</a></sup>). Enhancements and features include:
+<ul>
+<li>The default storage engine is InnoDB, which supports transactions and referential integrity constraints.</li>
+<li>Improved InnoDB I/O subsystem<sup id="cite_ref-84" class="reference"><a href="#cite_note-84"><span>[</span>84<span>]</span></a></sup></li>
+<li>Improved <a href="Symmetric_multiprocessing" title="Symmetric multiprocessing">SMP</a> support<sup id="cite_ref-85" class="reference"><a href="#cite_note-85"><span>[</span>85<span>]</span></a></sup></li>
+<li>Semisynchronous replication.</li>
+<li>SIGNAL and RESIGNAL statement in compliance with the SQL standard.</li>
+<li>Support for supplementary Unicode character sets utf16, utf32, and utf8mb4.</li>
+<li>New options for user-defined partitioning.</li>
+</ul>
+</li>
+</ul>
+<p>MySQL Server 6.0.11-alpha was announced<sup id="cite_ref-86" class="reference"><a href="#cite_note-86"><span>[</span>86<span>]</span></a></sup> on 22 May 2009 as the last release of the 6.0 line. Future MySQL Server development uses a New Release Model. Features developed for 6.0 are being incorporated into future releases.</p>
+<p>MySQL 5.6, a development milestone release, was announced at the MySQL users conference 2011. New features include performance improvements to the <a href="Query_optimizer" title="Query optimizer">query optimizer</a>, higher transactional throughput in InnoDB, new <a href="NoSQL_(concept)" title="NoSQL (concept)" class="mw-redirect">NoSQL</a>-style memcached APIs, improvements to partitioning for querying and managing very large tables, improvements to replication and better performance monitoring by expanding the data available through the PERFORMANCE_SCHEMA.<sup id="cite_ref-87" class="reference"><a href="#cite_note-87"><span>[</span>87<span>]</span></a></sup> In July further previews with a BINLOG API, group commit, and InnoDB full text searching were released.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=13.php.html" title="Edit section: Versions">edit</a>]</span> <span class="mw-headline" id="Versions">Versions</span></h3>
+<p><map name="timeline_f7365183b27e60578bbb50160ffc04cf" id="timeline_f7365183b27e60578bbb50160ffc04cf"></map><img usemap="#timeline_f7365183b27e60578bbb50160ffc04cf" src="http://upload.wikimedia.org/wikipedia/en/timeline/f7365183b27e60578bbb50160ffc04cf.png" /> <sup id="cite_ref-88" class="reference"><a href="#cite_note-88"><span>[</span>88<span>]</span></a></sup><sup id="cite_ref-89" class="reference"><a href="#cite_note-89"><span>[</span>89<span>]</span></a></sup><sup id="cite_ref-90" class="reference"><a href="#cite_note-90"><span>[</span>90<span>]</span></a></sup><sup id="cite_ref-91" class="reference"><a href="#cite_note-91"><span>[</span>91<span>]</span></a></sup><sup id="cite_ref-92" class="reference"><a href="#cite_note-92"><span>[</span>92<span>]</span></a></sup><sup id="cite_ref-93" class="reference"><a href="#cite_note-93"><span>[</span>93<span>]</span></a></sup><sup id="cite_ref-94" class="reference"><a href="#cite_note-94"><span>[</span>94<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Computer-aj_aj_ashton_01.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/42px-Computer-aj_aj_ashton_01.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/56px-Computer-aj_aj_ashton_01.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Free_software" title="Portal:Free software">Free software  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="Comparison_of_database_tools" title="Comparison of database tools">Comparison of database tools</a></li>
+<li><a href="Comparison_of_MySQL_database_engines" title="Comparison of MySQL database engines">Comparison of MySQL database engines</a></li>
+<li><a href="Comparison_of_relational_database_management_systems" title="Comparison of relational database management systems">Comparison of relational database management systems</a></li>
+<li><a href="Firebird_(database_server)" title="Firebird (database server)">Firebird (database server)</a></li>
+<li><a href="HSQLDB" title="HSQLDB">HSQLDB</a> (used by <a href="LibreOffice" title="LibreOffice">LibreOffice</a> and OpenOffice)</li>
+<li><a href="Ingres_(database)" title="Ingres (database)">Ingres (database)</a></li>
+<li><a href="Oracle_RDBMS" title="Oracle RDBMS" class="mw-redirect">Oracle RDBMS</a></li>
+<li><a href="Solution_stack" title="Solution stack">Solution stack</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=15.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web">"MySQL Enterprise Edition is available for MySQL 5.6". <i>MySQL 5.5 Reference Manual</i>. <a href="Oracle_Corporation" title="Oracle Corporation">Oracle</a>. 5 February 2013.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.6/en/news-5-6-x.html">"Changes in Release 5.6.x (Development)"</a>. <i>MySQL 5.6 Reference Manual</i>. Oracle. 11 November 2012<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.6/en/news-5-6-x.html">http://dev.mysql.com/doc/refman/5.6/en/news-5-6-x.html</a></span><span class="reference-accessdate">. Retrieved 11 December 2012</span>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.ohloh.net/p/mysql/analyses/latest">"MySQL: Project Summary"</a>. <i>Ohloh</i>. Black Duck Software<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ohloh.net/p/mysql/analyses/latest">http://www.ohloh.net/p/mysql/analyses/latest</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-whatismysql-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-whatismysql_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-whatismysql_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.1/en/what-is-mysql.html">"What is MySQL?"</a>. <i>MySQL 5.1 Reference Manual</i>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.1/en/what-is-mysql.html">http://dev.mysql.com/doc/refman/5.1/en/what-is-mysql.html</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>. "The official way to pronounce “MySQL” is “My Ess Que Ell” (not “my sequel”)"</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/why-mysql/marketshare/">"Market Share"</a>. <i>Why MySQL?</i>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/why-mysql/marketshare/">http://www.mysql.com/why-mysql/marketshare/</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation web">Schumacher, Robin; Lentz, Arjen. <a rel="nofollow" class="external text" href="http://web.archive.org/web/20110606013619/http:/dev.mysql.com/tech-resources/articles/dispelling-the-myths.html">"Dispelling the Myths"</a>. <a href="MySQL_AB" title="MySQL AB">MySQL AB</a>. Archived from <a rel="nofollow" class="external text" href="http://dev.mysql.com/tech-resources/articles/dispelling-the-myths.html">the original</a> on 6 June 2011<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20110606013619/http:/dev.mysql.com/tech-resources/articles/dispelling-the-myths.html">http://web.archive.org/web/20110606013619/http://dev.mysql.com/tech-resources/articles/dispelling-the-myths.html</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.1/en/history.html">"History of MySQL"</a>. <i>MySQL 5.1 Reference Manual</i>. MySQL AB<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.1/en/history.html">http://dev.mysql.com/doc/refman/5.1/en/history.html</a></span><span class="reference-accessdate">. Retrieved 26 August 2011</span>.</span></span></li>
+<li id="cite_note-sunacquire-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-sunacquire_8-0">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20080228025123/http:/www.sun.com/aboutsun/pr/2008-02/sunflash.20080226.1.xml">"Sun Microsystems Announces Completion of MySQL Acquisition; Paves Way for Secure, Open Source Platform to Power the Network Economy"</a> (Press release). Sun Microsystems. 26 February 2008. Archived from <a rel="nofollow" class="external text" href="http://www.sun.com/aboutsun/pr/2008-02/sunflash.20080226.1.xml">the original</a> on 28 February 2008<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20080228025123/http:/www.sun.com/aboutsun/pr/2008-02/sunflash.20080226.1.xml">http://web.archive.org/web/20080228025123/http://www.sun.com/aboutsun/pr/2008-02/sunflash.20080226.1.xml</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation web"><a class="external text" href="http://meta.wikimedia.org/wiki/Wikimedia_servers#System_architecture">"Wikimedia servers&#160;— System architecture"</a>. <i>Wikimedia Meta-Wiki</i>. Wikimedia Foundation<span class="printonly">. <a class="external free" href="http://meta.wikimedia.org/wiki/Wikimedia_servers#System_architecture">http://meta.wikimedia.org/wiki/Wikimedia_servers#System_architecture</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-mysqlatgoogle-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-mysqlatgoogle_10-0">^</a></b></span> <span class="reference-text"><span class="citation web">Urlocker, M. Zack (13 December 2005). <a rel="nofollow" class="external text" href="http://zurlocker.typepad.com/theopenforce/2005/12/googles_use_of_.html">"Google Runs MySQL"</a>. <i>The Open Force</i>. M. Zack Urlocker<span class="printonly">. <a rel="nofollow" class="external free" href="http://zurlocker.typepad.com/theopenforce/2005/12/googles_use_of_.html">http://zurlocker.typepad.com/theopenforce/2005/12/googles_use_of_.html</a></span><span class="reference-accessdate">. Retrieved 3 August 2010</span>. "AdWords was built using the MySQL database"</span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation news">Claburn, Thomas (24 April 2007). <a rel="nofollow" class="external text" href="http://www.informationweek.com/google-releases-improved-mysql-code/199201237">"Google Releases Improved MySQL Code"</a>. <i>InformationWeek</i> (CPM Media)<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.informationweek.com/google-releases-improved-mysql-code/199201237">http://www.informationweek.com/google-releases-improved-mysql-code/199201237</a></span><span class="reference-accessdate">. Retrieved 30 November 2008</span>.</span></span></li>
+<li id="cite_note-mysqlatfacebook-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-mysqlatfacebook_12-0">^</a></b></span> <span class="reference-text"><span class="citation audio-visual">Callaghan, Mark (13 April 2010). <a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=Zofzid6xIZ4"><i>MySQL at Facebook</i></a>. Google<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=Zofzid6xIZ4">http://www.youtube.com/watch?v=Zofzid6xIZ4</a></span><span class="reference-accessdate">. Retrieved 3 August 2010</span>. "x,000 servers, ... Master-slave replication, InnoDB"</span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation web">Sobel, Jason (21 December 2007). <a rel="nofollow" class="external text" href="http://blog.facebook.com/blog.php?post=7899307130">"Keeping Up"</a>. <i>The Facebook Blog</i>. Facebook<span class="printonly">. <a rel="nofollow" class="external free" href="http://blog.facebook.com/blog.php?post=7899307130">http://blog.facebook.com/blog.php?post=7899307130</a></span><span class="reference-accessdate">. Retrieved 30 October 2008</span>.</span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web">Malik, Om (25 April 2008). <a rel="nofollow" class="external text" href="http://gigaom.com/2008/04/25/facebooks-insatiable-hunger-for-hardware/">"Facebook’s Insatiable Hunger for Hardware"</a>. <i><a href="GigaOM" title="GigaOM">GigaOM</a></i>. GigaOmniMedia<span class="printonly">. <a rel="nofollow" class="external free" href="http://gigaom.com/2008/04/25/facebooks-insatiable-hunger-for-hardware/">http://gigaom.com/2008/04/25/facebooks-insatiable-hunger-for-hardware/</a></span><span class="reference-accessdate">. Retrieved 30 October 2008</span>.</span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation audio-visual">Cole, Jeremy (14 April 2011). <a rel="nofollow" class="external text" href="http://www.youtube.com/watch?v=5cKTP36HVgI"><i>Big and Small Data at @Twitter</i></a>. Google<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.youtube.com/watch?v=5cKTP36HVgI">http://www.youtube.com/watch?v=5cKTP36HVgI</a></span><span class="reference-accessdate">. Retrieved 20 October 2011</span>.</span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/customers/view/?id=720">"MySQL Customer: Flickr"</a>. <i>MySQL Customers</i>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/customers/view/?id=720">http://www.mysql.com/customers/view/?id=720</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/customers/view/?id=579">"MySQL Customer: Nokia"</a>. <i>MySQL Customers</i>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/customers/view/?id=579">http://www.mysql.com/customers/view/?id=579</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/customers/view/?id=750">"MySQL Customer: YouTube"</a>. <i>MySQL Customers</i>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/customers/view/?id=750">http://www.mysql.com/customers/view/?id=750</a></span><span class="reference-accessdate">. Retrieved 17 September 2012</span>.</span></span></li>
+<li id="cite_note-mysql_.E2.80.94_The_MySQL_Command-Line_Tool-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-mysql_.E2.80.94_The_MySQL_Command-Line_Tool_19-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-mysql_.E2.80.94_The_MySQL_Command-Line_Tool_19-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.5/en/mysql.html">mysql — The MySQL Command-Line Tool</a>, MySQL Reference Manual</span></li>
+<li id="cite_note-mysqladmin_-_the_MySQL_command-line_tool-20"><span class="mw-cite-backlink">^ <a href="#cite_ref-mysqladmin_-_the_MySQL_command-line_tool_20-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-mysqladmin_-_the_MySQL_command-line_tool_20-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.5/en/mysqladmin.html">mysqladmin - the MySQL command-line tool</a>, MySQL Reference Manual</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.0/en/programs-client.html">MySQL Client Programs</a>, MySQL Reference Manual</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.sqlmaestro.com/products/mysql/">MySQL Tools Family</a>, SQLMaestro Group</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.webyog.com/en/">MySQL GUI Tools</a>, WebYog</span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.heidisql.com/">HeidiSQL</a>, HeidiSQL MySQL GUI</span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://dev.mysql.com/downloads/workbench/">MySQL Workbench</a>, MySQL Downloads</span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.heidisql.com/screenshots.php?which=grideditors">"HeidiSQL Grid editing features"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.heidisql.com/screenshots.php?which=grideditors">http://www.heidisql.com/screenshots.php?which=grideditors</a></span>.</span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.libreoffice.org/features/base/">"LibreOffice Base"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.libreoffice.org/features/base/">http://www.libreoffice.org/features/base/</a></span><span class="reference-accessdate">. Retrieved 5 January 2012</span>.</span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><span class="citation web">Home. <a rel="nofollow" class="external text" href="http://www.maatkit.org/">"Maatkit website"</a>. Maatkit.org<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.maatkit.org/">http://www.maatkit.org/</a></span><span class="reference-accessdate">. Retrieved 5 November 2012</span>.</span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.percona.com/software/percona-toolkit">Percona Toolkit</a>, Percona Software</span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.percona.com/doc/percona-xtrabackup/index.html">"XtraBackup"</a>. Percona<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.percona.com/doc/percona-xtrabackup/index.html">http://www.percona.com/doc/percona-xtrabackup/index.html</a></span><span class="reference-accessdate">. Retrieved 19 January 2013</span>.</span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><span class="citation web">Home. <a rel="nofollow" class="external text" href="https://github.com/alfie/MySQL--Replication">"MySQL::Replication"</a>. Opera Software<span class="printonly">. <a rel="nofollow" class="external free" href="https://github.com/alfie/MySQL--Replication">https://github.com/alfie/MySQL--Replication</a></span><span class="reference-accessdate">. Retrieved 11 December 2012</span>.</span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><span class="citation web">Jean-François Piéronne. <a rel="nofollow" class="external text" href="http://www.pi-net.dyndns.org/anonymous/kits/">"PCSI Kits of Open Source Software for OpenVMS"</a>. Pi-net.dyndns.org<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.pi-net.dyndns.org/anonymous/kits/">http://www.pi-net.dyndns.org/anonymous/kits/</a></span><span class="reference-accessdate">. Retrieved 8 June 2009</span>.</span></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/internals/en/index.html">"MySQL Internals Manual"</a>. Dev.mysql.com. 4 March 2009<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/internals/en/index.html">http://dev.mysql.com/doc/internals/en/index.html</a></span><span class="reference-accessdate">. Retrieved 8 June 2009</span>.</span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/products/which-edition.html">"Which Should I Use: MySQL Enterprise or MySQL Community Server?"</a>. MySQL AB<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/products/which-edition.html">http://www.mysql.com/products/which-edition.html</a></span><span class="reference-accessdate">. Retrieved 8 April 2009</span>.</span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/innodb/1.1/en/glossary.html#glos_acid">"MySQL&#160;:: InnoDB 1.1 for MySQL 5.5 User’s Guide&#160;:: C InnoDB Glossary&#160;:: ACID"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/innodb/1.1/en/glossary.html#glos_acid">http://dev.mysql.com/doc/innodb/1.1/en/glossary.html#glos_acid</a></span><span class="reference-accessdate">. Retrieved 5 January 2011</span>.</span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.1/en/mysqlhotcopy.html">"4.6.9. mysqlhotcopy - A Database Backup Program"</a>. <i>MySQL 5.1 Reference Manual</i>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.1/en/mysqlhotcopy.html">http://dev.mysql.com/doc/refman/5.1/en/mysqlhotcopy.html</a></span><span class="reference-accessdate">. Retrieved 23 September 2009</span>. "mysqlhotcopy is a Perl script [...]. It uses Lock Tables, Flush Tables, and cp or scp to make a database backup quickly [...] but it can be run only on the same machine where the database directories are located. mysqlhotcopy works only for backing up MyISAM and Archive tables. It runs on Unix and NetWare."</span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://solutions.mysql.com/engines/ibm_db2_storage_engine.html">"The DB2 for i (IBMDB2I) Storage Engine for MySQL on IBM i"</a>. MySQL<span class="printonly">. <a rel="nofollow" class="external free" href="http://solutions.mysql.com/engines/ibm_db2_storage_engine.html">http://solutions.mysql.com/engines/ibm_db2_storage_engine.html</a></span><span class="reference-accessdate">. Retrieved 18 January 2010</span>.</span></span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://planet.mysql.com/entry/?id=26651">"Group commit in PostgreSQL"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://planet.mysql.com/entry/?id=26651">http://planet.mysql.com/entry/?id=26651</a></span><span class="reference-accessdate">. Retrieved 8 April 2012</span>.</span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.6/en/innodb-foreign-key-constraints.html">"dev.mysql.com"</a>. dev.mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.6/en/innodb-foreign-key-constraints.html">http://dev.mysql.com/doc/refman/5.6/en/innodb-foreign-key-constraints.html</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-dev.mysql.com-40"><span class="mw-cite-backlink">^ <a href="#cite_ref-dev.mysql.com_40-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-dev.mysql.com_40-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.6/en/create-trigger.html">"dev.mysql.com"</a>. dev.mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.6/en/create-trigger.html">http://dev.mysql.com/doc/refman/5.6/en/create-trigger.html</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://blogs.oracle.com/realneel/entry/mysql_innodb_zfs_best_practices">"MySQL Innodb ZFS Best Practices."</a></span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.mysqlperformanceblog.com/2012/09/11/intel-ssd-910-vs-hdd-raid-in-tpcc-mysql-benchmark/">"Intel SSD 910 vs HDD RAID in tpcc-mysql benchmark."</a></span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text">Matsunobu, Yoshinori. <a rel="nofollow" class="external text" href="http://www.slideshare.net/matsunobu/ssd-deployment-strategies-for-mysql">"SSD Deployment Strategies for MySQL."</a> <i>Sun Microsystems</i>, 15 April 2010.</span></li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.facebook.com/note.php?note_id=126049465932">"The future of replication in MySQL"</a>. Facebook<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.facebook.com/note.php?note_id=126049465932">http://www.facebook.com/note.php?note_id=126049465932</a></span><span class="reference-accessdate">. Retrieved 9 December 2009</span>.</span></span></li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.codefutures.com/dbshards-cloud/">"Database Sharding"</a>. Code Futures<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.codefutures.com/dbshards-cloud/">http://www.codefutures.com/dbshards-cloud/</a></span><span class="reference-accessdate">. Retrieved 9 December 2009</span>.</span></span></li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://aws.amazon.com/articles/1663">"Running MySQL on Amazon EC2 with EBS (Elastic Block Store)"</a>. <i><a href="Amazon_Web_Services" title="Amazon Web Services">Amazon Web Services</a></i><span class="printonly">. <a rel="nofollow" class="external free" href="http://aws.amazon.com/articles/1663">http://aws.amazon.com/articles/1663</a></span><span class="reference-accessdate">. Retrieved 5 February 2013</span>.</span></span></li>
+<li id="cite_note-readwriteweb-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-readwriteweb_47-0">^</a></b></span> <span class="reference-text"><span class="citation web">Finley, Klint. <a rel="nofollow" class="external text" href="http://www.readwriteweb.com/cloud/2011/01/7-cloud-based-database-service.php">"7 Cloud-Based Database Services"</a>. <i><a rel="nofollow" class="external text" href="http://www.readwriteweb.com">ReadWriteWeb</a></i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.readwriteweb.com/cloud/2011/01/7-cloud-based-database-service.php">http://www.readwriteweb.com/cloud/2011/01/7-cloud-based-database-service.php</a></span><span class="reference-accessdate">. Retrieved 9 November 2011</span>.</span></span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.rackspace.com/managed_hosting/services/database/mysql/">"MySQL Server Support at Rackspace"</a>. <i>Rackspace.com</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.rackspace.com/managed_hosting/services/database/mysql/">http://www.rackspace.com/managed_hosting/services/database/mysql/</a></span><span class="reference-accessdate">. Retrieved 10 November 2011</span>.</span></span></li>
+<li id="cite_note-49"><span class="mw-cite-backlink"><b><a href="#cite_ref-49">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.terremark.com/services/infrastructure-cloud-services/managed-hosting/managed-hosting-service.aspx">"Managed Hosting - Terremark"</a>. <i>Terremark.com</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.terremark.com/services/infrastructure-cloud-services/managed-hosting/managed-hosting-service.aspx">http://www.terremark.com/services/infrastructure-cloud-services/managed-hosting/managed-hosting-service.aspx</a></span>.</span></span></li>
+<li id="cite_note-50"><span class="mw-cite-backlink"><b><a href="#cite_ref-50">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/products/licensing/opensource-license.html">"Oracle&#160;:: MySQL Open Source License"</a>. Mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/products/licensing/opensource-license.html">http://www.mysql.com/products/licensing/opensource-license.html</a></span><span class="reference-accessdate">. Retrieved 8 June 2009</span>.</span></span></li>
+<li id="cite_note-51"><span class="mw-cite-backlink"><b><a href="#cite_ref-51">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20010812012244/http:/www.mysql.com/news/article-23.html">"MySQL GOES GPL"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.mysql.com/news/article-23.html">the original</a> on 12 August 2001<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20010812012244/http:/www.mysql.com/news/article-23.html">http://web.archive.org/web/20010812012244/http://www.mysql.com/news/article-23.html</a></span>.</span></span></li>
+<li id="cite_note-52"><span class="mw-cite-backlink"><b><a href="#cite_ref-52">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/company/legal/licensing/foss-exception.html">"Oracle&#160;:: FLOSS License Exception"</a>. Mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/company/legal/licensing/foss-exception.html">http://www.mysql.com/company/legal/licensing/foss-exception.html</a></span><span class="reference-accessdate">. Retrieved 8 June 2009</span>.</span></span></li>
+<li id="cite_note-53"><span class="mw-cite-backlink"><b><a href="#cite_ref-53">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysql.com/company/legal/licensing/commercial-license.html">"Oracle&#160;:: MySQL Commercial License"</a>. Mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/company/legal/licensing/commercial-license.html">http://www.mysql.com/company/legal/licensing/commercial-license.html</a></span><span class="reference-accessdate">. Retrieved 8 June 2009</span>.</span></span></li>
+<li id="cite_note-54"><span class="mw-cite-backlink"><b><a href="#cite_ref-54">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.5/en/index.html">MySQL Support Manual</a>, MySQL Developers</span></li>
+<li id="cite_note-55"><span class="mw-cite-backlink"><b><a href="#cite_ref-55">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://review.techworld.com/applications/346/mysql-50-open-source-database/">Review of MySQL Server 5.0</a>, Techworld.com, November 2005</span></li>
+<li id="cite_note-56"><span class="mw-cite-backlink"><b><a href="#cite_ref-56">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://community.linuxmint.com/software/view/mysql-server">MySQL Server Review</a>, LinuxMint.com</span></li>
+<li id="cite_note-57"><span class="mw-cite-backlink"><b><a href="#cite_ref-57">^</a></b></span> <span class="reference-text"><span class="citation web">Basil, Tom (4 September 2001). <a rel="nofollow" class="external text" href="http://no.spam.ee/~tonu/mysql/tombasil.txt">"Eyewitness account: "Monty Widenius, International Fugitive""</a>. <i>MySQL Life mailing list</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://no.spam.ee/~tonu/mysql/tombasil.txt">http://no.spam.ee/~tonu/mysql/tombasil.txt</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-58"><span class="mw-cite-backlink"><b><a href="#cite_ref-58">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20010717185237/http:/mysql.com/news/article-75.html">"FAQ on MySQL vs. NuSphere Dispute"</a>. MySQL AB. 13 July 2001. Archived from <a rel="nofollow" class="external text" href="http://mysql.com/news/article-75.html">the original</a> on 17 July 2001<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20010717185237/http:/mysql.com/news/article-75.html">http://web.archive.org/web/20010717185237/http://mysql.com/news/article-75.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-59"><span class="mw-cite-backlink"><b><a href="#cite_ref-59">^</a></b></span> <span class="reference-text"><cite><i>Progress Software Corporation v. MySQL AB</i></cite>, <a rel="nofollow" class="external text" href="http://scholar.google.com/scholar_case?case=13584730711160488510">195 F. Supp. 2d 328</a> (D. Mass. 2002).</span></li>
+<li id="cite_note-60"><span class="mw-cite-backlink"><b><a href="#cite_ref-60">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://www.gnu.org/press/2002-03-01-pi-MySQL.html">"Judge Saris defers GNU GPL Questions for Trial in MySQL vs. Progress Software"</a> (Press release). Free Software Foundation. 1 March 2002<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.gnu.org/press/2002-03-01-pi-MySQL.html">http://www.gnu.org/press/2002-03-01-pi-MySQL.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-61"><span class="mw-cite-backlink"><b><a href="#cite_ref-61">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://www.oracle.com/us/corporate/press/016679_EN">"Oracle Announces the Acquisition of Open Source Software Company, Innobase"</a> (Press release). Oracle. 7 October 2005. <a rel="nofollow" class="external text" href="http://web.archive.org/web/20110720225615/http:/www.oracle.com/us/corporate/press/016679_EN">Archived</a> from the original on 20 July 2011<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.oracle.com/us/corporate/press/016679_EN">http://www.oracle.com/us/corporate/press/016679_EN</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-62"><span class="mw-cite-backlink"><b><a href="#cite_ref-62">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20110623190958/http:/www.mysql.com/news-and-events/generate-article.php?id=2006_21">"MySQL to Promote New Open Source DB Engines from its Partners and Dev Community"</a> (Press release). MySQL AB. 26 April 2006. Archived from <a rel="nofollow" class="external text" href="http://www.mysql.com/news-and-events/press-release/release_2006_21.html">the original</a> on 23 June 2011<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20110623190958/http:/www.mysql.com/news-and-events/generate-article.php?id=2006_21">http://web.archive.org/web/20110623190958/http://www.mysql.com/news-and-events/generate-article.php?id=2006_21</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-63"><span class="mw-cite-backlink"><b><a href="#cite_ref-63">^</a></b></span> <span class="reference-text"><span class="citation web">Babcock, Charles (14 February 2006). <a rel="nofollow" class="external text" href="http://www.informationweek.com/software/showArticle.jhtml?articleID=180200853">"Oracle Buys Sleepycat, Is JBoss Next?"</a>. <i>InformationWeek</i>. CPM Media<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.informationweek.com/software/showArticle.jhtml?articleID=180200853">http://www.informationweek.com/software/showArticle.jhtml?articleID=180200853</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-64"><span class="mw-cite-backlink"><b><a href="#cite_ref-64">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.1/en/news-5-1-12.html">"Changes in MySQL 5.1.12"</a>. <i>MySQL 5.1 Reference Manual</i>. MySQL AB. 24 October 2006<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.1/en/news-5-1-12.html">http://dev.mysql.com/doc/refman/5.1/en/news-5-1-12.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-65"><span class="mw-cite-backlink"><b><a href="#cite_ref-65">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://www.mysql.com/news-and-events/sun-to-acquire-mysql.html">"Sun Microsystems Announces Agreement to Acquire MySQL, Developer of the World's Most Popular Open Source Database"</a> (Press release). MySQL AB. 16 January 2008. <a rel="nofollow" class="external text" href="http://web.archive.org/web/20110718044718/http:/mysql.com/news-and-events/sun-to-acquire-mysql.html">Archived</a> from the original on 18 July 2011<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysql.com/news-and-events/sun-to-acquire-mysql.html">http://www.mysql.com/news-and-events/sun-to-acquire-mysql.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-66"><span class="mw-cite-backlink"><b><a href="#cite_ref-66">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20090422033454/http:/www.sun.com/aboutsun/pr/2009-04/sunflash.20090420.1.xml">"Oracle to Buy Sun"</a> (Press release). Sun Microsystems. 20 April 2009. Archived from <a rel="nofollow" class="external text" href="http://www.sun.com/aboutsun/pr/2009-04/sunflash.20090420.1.xml">the original</a> on 22 April 2009<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20090422033454/http:/www.sun.com/aboutsun/pr/2009-04/sunflash.20090420.1.xml">http://web.archive.org/web/20090422033454/http://www.sun.com/aboutsun/pr/2009-04/sunflash.20090420.1.xml</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-67"><span class="mw-cite-backlink"><b><a href="#cite_ref-67">^</a></b></span> <span class="reference-text"><span class="citation news">Thomasch, Paul; Finkle, Jim (20 August 2009). <a rel="nofollow" class="external text" href="http://www.reuters.com/articlebssTechMediaTelecomNews/idUSN2053486920090820">"Oracle wins U.S. approval to buy Sun Microsystems"</a>. Reuters<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.reuters.com/articlebssTechMediaTelecomNews/idUSN2053486920090820">http://www.reuters.com/articlebssTechMediaTelecomNews/idUSN2053486920090820</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-68"><span class="mw-cite-backlink"><b><a href="#cite_ref-68">^</a></b></span> <span class="reference-text"><span class="citation web">Whitney, Lance (14 December 2009). <a rel="nofollow" class="external text" href="http://news.cnet.com/8301-1001_3-10414686-92.html">"Oracle pledges to play well with MySQL"</a>. <i>CNET</i>. CBS Interactive<span class="printonly">. <a rel="nofollow" class="external free" href="http://news.cnet.com/8301-1001_3-10414686-92.html">http://news.cnet.com/8301-1001_3-10414686-92.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-69"><span class="mw-cite-backlink"><b><a href="#cite_ref-69">^</a></b></span> <span class="reference-text"><span class="citation web">Michael, Widenius (12 December 2009). <a rel="nofollow" class="external text" href="http://monty-says.blogspot.com/2009/12/help-saving-mysql.html">"Help saving MySQL"</a>. <i>Monty Says</i>. Google<span class="printonly">. <a rel="nofollow" class="external free" href="http://monty-says.blogspot.com/2009/12/help-saving-mysql.html">http://monty-says.blogspot.com/2009/12/help-saving-mysql.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-70"><span class="mw-cite-backlink"><b><a href="#cite_ref-70">^</a></b></span> <span class="reference-text"><span class="citation web">Kanaracus, Chris (30 August 2011). <a rel="nofollow" class="external text" href="http://www.pcworld.com/article/239132/wikileaks_cable_offers_new_insights_into_oraclesun_deal.html">"Wikileaks Cable Offers New Insights Into Oracle-Sun Deal"</a>. <i>PC World</i>. IDG<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.pcworld.com/article/239132/wikileaks_cable_offers_new_insights_into_oraclesun_deal.html">http://www.pcworld.com/article/239132/wikileaks_cable_offers_new_insights_into_oraclesun_deal.html</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-71"><span class="mw-cite-backlink"><b><a href="#cite_ref-71">^</a></b></span> <span class="reference-text"><span class="citation pressrelease"><a rel="nofollow" class="external text" href="http://europa.eu/rapid/pressReleasesAction.do?reference=IP/10/40">"Mergers: Commission clears Oracle's proposed acquisition of Sun Microsystems"</a> (Press release). European Union. 21 January 2010<span class="printonly">. <a rel="nofollow" class="external free" href="http://europa.eu/rapid/pressReleasesAction.do?reference=IP/10/40">http://europa.eu/rapid/pressReleasesAction.do?reference=IP/10/40</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-72"><span class="mw-cite-backlink"><b><a href="#cite_ref-72">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://askmonty.org/wiki/MariaDB_versus_MySQL">"MariaDB versus MySQL - Compatibility"</a>. <i>AskMonty Knowledgebase</i>. Monty Program. 30 July 2010<span class="printonly">. <a rel="nofollow" class="external free" href="http://askmonty.org/wiki/MariaDB_versus_MySQL">http://askmonty.org/wiki/MariaDB_versus_MySQL</a></span><span class="reference-accessdate">. Retrieved 16 September 2012</span>.</span></span></li>
+<li id="cite_note-73"><span class="mw-cite-backlink"><b><a href="#cite_ref-73">^</a></b></span> <span class="reference-text"><span class="citation web">Williams, Alex (18 August 2012). <a rel="nofollow" class="external text" href="http://techcrunch.com/2012/08/18/oracle-makes-more-moves-to-kill-open-source-mysql/">"Oracle Makes More Moves To Kill Open Source MySQL"</a>. <i>TechCrunch</i>. AOL<span class="printonly">. <a rel="nofollow" class="external free" href="http://techcrunch.com/2012/08/18/oracle-makes-more-moves-to-kill-open-source-mysql/">http://techcrunch.com/2012/08/18/oracle-makes-more-moves-to-kill-open-source-mysql/</a></span><span class="reference-accessdate">. Retrieved 16 October 2012</span>.</span></span></li>
+<li id="cite_note-74"><span class="mw-cite-backlink"><b><a href="#cite_ref-74">^</a></b></span> <span class="reference-text"><span class="citation web">Smith, Stewart (16 August 2012). <a rel="nofollow" class="external text" href="http://www.mysqlperformanceblog.com/2012/08/16/where-to-get-a-bzr-tree-of-the-latest-mysql-releases/">"Where to get a BZR tree of the latest MySQL releases"</a>. <i>MySQL Performance Blog</i>. Percona<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysqlperformanceblog.com/2012/08/16/where-to-get-a-bzr-tree-of-the-latest-mysql-releases/">http://www.mysqlperformanceblog.com/2012/08/16/where-to-get-a-bzr-tree-of-the-latest-mysql-releases/</a></span><span class="reference-accessdate">. Retrieved 16 October 2012</span>.</span></span></li>
+<li id="cite_note-75"><span class="mw-cite-backlink"><b><a href="#cite_ref-75">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.theregister.co.uk/2012/11/29/monty_oracle_eu_promises/">"Monty on broken MySQL promises: Oracle's going to fork it up."</a></span></li>
+<li id="cite_note-76"><span class="mw-cite-backlink"><b><a href="#cite_ref-76">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.w3resource.com/mysql/mysql-tutorials.php">"Five Questions With Michael Widenius - Founder And Original Developer of MySQL"</a>. w3resource.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.w3resource.com/mysql/mysql-tutorials.php">http://www.w3resource.com/mysql/mysql-tutorials.php</a></span><span class="reference-accessdate">. Retrieved 13 October 2012</span>.</span></span></li>
+<li id="cite_note-77"><span class="mw-cite-backlink"><b><a href="#cite_ref-77">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://web.archive.org/web/20010815175526/http:/www.mysql.com/news/article-54.html">"MySQL 3.23 Declared Stable"</a>. Archived from <a rel="nofollow" class="external text" href="http://www.mysql.com/news/article-54.html">the original</a> on 15 August 2001<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20010815175526/http:/www.mysql.com/news/article-54.html">http://web.archive.org/web/20010815175526/http://www.mysql.com/news/article-54.html</a></span>.</span></span></li>
+<li id="cite_note-78"><span class="mw-cite-backlink"><b><a href="#cite_ref-78">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://capttofu.livejournal.com/5798.html">"Capttofu: FederatedX Pluggable Storage Engine Released!"</a>. Capttofu.livejournal.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://capttofu.livejournal.com/5798.html">http://capttofu.livejournal.com/5798.html</a></span><span class="reference-accessdate">. Retrieved 3 April 2009</span>.</span></span></li>
+<li id="cite_note-79"><span class="mw-cite-backlink"><b><a href="#cite_ref-79">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.oreillynet.com/pub/a/databases/2006/08/10/mysql-federated-tables.html">"Oreillynet.com"</a>. Oreillynet.com. 9 October 2008<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.oreillynet.com/pub/a/databases/2006/08/10/mysql-federated-tables.html">http://www.oreillynet.com/pub/a/databases/2006/08/10/mysql-federated-tables.html</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-80"><span class="mw-cite-backlink"><b><a href="#cite_ref-80">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://techcrunch.com/2008/01/16/sun-picks-up-mysql-for-1-billion-open-source-is-a-legitimate-business-model/">"Sun Picks Up MySQL For $1 Billion; Open Source Is A Legitimate Business Model"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://techcrunch.com/2008/01/16/sun-picks-up-mysql-for-1-billion-open-source-is-a-legitimate-business-model/">http://techcrunch.com/2008/01/16/sun-picks-up-mysql-for-1-billion-open-source-is-a-legitimate-business-model/</a></span><span class="reference-accessdate">. Retrieved 13 October 2012</span>.</span></span></li>
+<li id="cite_note-81"><span class="mw-cite-backlink"><b><a href="#cite_ref-81">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.planetmysql.org/entry.php?id=16232">"Archives - Oops, we did it again (MySQL 5.1 released as GA with crashing bugs)"</a>. Planet MySQL. 29 November 2008<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.planetmysql.org/entry.php?id=16232">http://www.planetmysql.org/entry.php?id=16232</a></span><span class="reference-accessdate">. Retrieved 5 February 2013</span>.</span></span></li>
+<li id="cite_note-82"><span class="mw-cite-backlink"><b><a href="#cite_ref-82">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mysqlperformanceblog.com/2008/04/10/tpc-h-run-on-mysql-51-and-60/">"TPC-H Run on MySQL 5.1 and 6.0 | MySQL Performance Blog"</a>. MySQL Performance Blog<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mysqlperformanceblog.com/2008/04/10/tpc-h-run-on-mysql-51-and-60/">http://www.mysqlperformanceblog.com/2008/04/10/tpc-h-run-on-mysql-51-and-60/</a></span><span class="reference-accessdate">. Retrieved 8 June 2009</span>.</span></span></li>
+<li id="cite_note-83"><span class="mw-cite-backlink"><b><a href="#cite_ref-83">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.oracle.com/us/sun/index.htm">"Oracle.com"</a>. Oracle.com. 7 September 2010<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.oracle.com/us/sun/index.htm">http://www.oracle.com/us/sun/index.htm</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-84"><span class="mw-cite-backlink"><b><a href="#cite_ref-84">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.5/en/innodb-io-changes.html">"dev.mysql.com"</a>. dev.mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.5/en/innodb-io-changes.html">http://dev.mysql.com/doc/refman/5.5/en/innodb-io-changes.html</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-85"><span class="mw-cite-backlink"><b><a href="#cite_ref-85">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.5/en/smp-improvements.html">"dev.mysql.com"</a>. dev.mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.5/en/smp-improvements.html">http://dev.mysql.com/doc/refman/5.5/en/smp-improvements.html</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-86"><span class="mw-cite-backlink"><b><a href="#cite_ref-86">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://lists.mysql.com/packagers/418">"MySQL Lists: packagers: MySQL 6.0.11 Alpha has been released!"</a>. Lists.mysql.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://lists.mysql.com/packagers/418">http://lists.mysql.com/packagers/418</a></span><span class="reference-accessdate">. Retrieved 1 February 2012</span>.</span></span></li>
+<li id="cite_note-87"><span class="mw-cite-backlink"><b><a href="#cite_ref-87">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/tech-resources/articles/whats-new-in-mysql-5.6.html">"What's New in MySQL 5.6"</a>. MySQL Developer Zone<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/tech-resources/articles/whats-new-in-mysql-5.6.html">http://dev.mysql.com/tech-resources/articles/whats-new-in-mysql-5.6.html</a></span><span class="reference-accessdate">. Retrieved 21 April 2011</span>.</span></span></li>
+<li id="cite_note-88"><span class="mw-cite-backlink"><b><a href="#cite_ref-88">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/4.1/en/news-3-23-x.html">"B.3. Changes in Release 3.23.x (Lifecycle Support Ended)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/4.1/en/news-3-23-x.html">http://dev.mysql.com/doc/refman/4.1/en/news-3-23-x.html</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+<li id="cite_note-89"><span class="mw-cite-backlink"><b><a href="#cite_ref-89">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/4.1/en/news-4-0-x.html">"B.2. Changes in Release 4.0.x (Lifecycle Support Ended)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/4.1/en/news-4-0-x.html">http://dev.mysql.com/doc/refman/4.1/en/news-4-0-x.html</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+<li id="cite_note-90"><span class="mw-cite-backlink"><b><a href="#cite_ref-90">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/4.1/en/news-4-1-x.html">"B.1. Changes in Release 4.1.x (Lifecycle Support Ended)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/4.1/en/news-4-1-x.html">http://dev.mysql.com/doc/refman/4.1/en/news-4-1-x.html</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+<li id="cite_note-91"><span class="mw-cite-backlink"><b><a href="#cite_ref-91">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.0/en/news-5-0-x.html#news-5-0-x">"C.1. Changes in Release 5.0.x (Lifecycle Support Ended)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.0/en/news-5-0-x.html#news-5-0-x">http://dev.mysql.com/doc/refman/5.0/en/news-5-0-x.html#news-5-0-x</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+<li id="cite_note-92"><span class="mw-cite-backlink"><b><a href="#cite_ref-92">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.1/en/news-5-1-x.html#news-5-1-x">"C.1. Changes in Release 5.1.x (Production)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.1/en/news-5-1-x.html#news-5-1-x">http://dev.mysql.com/doc/refman/5.1/en/news-5-1-x.html#news-5-1-x</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+<li id="cite_note-93"><span class="mw-cite-backlink"><b><a href="#cite_ref-93">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.5/en/news-5-5-x.html#news-5-5-x">"C.1. Changes in Release 5.5.x (Production)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.5/en/news-5-5-x.html#news-5-5-x">http://dev.mysql.com/doc/refman/5.5/en/news-5-5-x.html#news-5-5-x</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+<li id="cite_note-94"><span class="mw-cite-backlink"><b><a href="#cite_ref-94">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://dev.mysql.com/doc/refman/5.6/en/news-5-6-x.html#news-5-6-x">"C.1. Changes in Release 5.6.x (Development)"</a>. Oracle<span class="printonly">. <a rel="nofollow" class="external free" href="http://dev.mysql.com/doc/refman/5.6/en/news-5-6-x.html#news-5-6-x">http://dev.mysql.com/doc/refman/5.6/en/news-5-6-x.html#news-5-6-x</a></span><span class="reference-accessdate">. Retrieved 24 August 2010</span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=MySQL&action=edit&section=16.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has more on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Special:Search/MySQL" class="extiw" title="wikibooks:Special:Search/MySQL">MySQL</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:MySQL" class="extiw" title="commons:Category:MySQL">MySQL</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><span class="official website"><a rel="nofollow" class="external text" href="http://www.mysql.com/">Official website</a></span></li>
+<li><a rel="nofollow" class="external text" href="http://www.oracle.com/us/products/mysql/index.html">MySQL site at Oracle.com</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.planetmysql.org">Planet MySQL</a> - an aggregation of MySQL-related blogs</li>
+<li><a rel="nofollow" class="external text" href="http://blogs.oracle.com/MySQL/">MySQL Blog</a></li>
+<li><a rel="nofollow" class="external text" href="http://intruders.tv/en-tech/mysql-co-founder-david-axmark-on-sun-s-billion-dollar-acquisition/">Interview with David Axmark, MySQL co-founder</a> Video</li>
+<li><a rel="nofollow" class="external text" href="http://www.dmoz.org/Computers/Software/Databases/MySQL/">MySQL</a> at the <a href="Open_Directory_Project" title="Open Directory Project">Open Directory Project</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_MySQL" title="Template:MySQL"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_MySQL&action=edit&redlink=1.php.html" class="new" title="Template talk:MySQL (page does not exist)"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_MySQL&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><strong class="selflink">MySQL</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Editions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">MySQL</strong></li>
+<li><a href="MySQL_Enterprise" title="MySQL Enterprise">MySQL Enterprise</a></li>
+<li><a href="MySQL_Cluster" title="MySQL Cluster">MySQL Cluster</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">MySQL tools</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="MySQL_Workbench" title="MySQL Workbench">MySQL Workbench</a></li>
+<li><a href="SQLyog" title="SQLyog">SQLyog</a></li>
+<li><a href="PhpMyAdmin" title="PhpMyAdmin">phpMyAdmin</a></li>
+<li><a href="HeidiSQL" title="HeidiSQL">HeidiSQL</a></li>
+<li><a href="Navicat" title="Navicat">Navicat</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Storage engines</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="MyISAM" title="MyISAM">MyISAM</a></li>
+<li><a href="Falcon_(storage_engine)" title="Falcon (storage engine)">Falcon</a></li>
+<li><a href="InnoDB" title="InnoDB">InnoDB</a></li>
+<li><a href="MySQL_Federated" title="MySQL Federated">MySQL Federated</a></li>
+<li><a href="MySQL_Archive" title="MySQL Archive">MySQL Archive</a></li>
+<li><a href="Aria_(storage_engine)" title="Aria (storage engine)">Aria</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Fork_(software_development)" title="Fork (software development)">Forks</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Drizzle_(database_server)" title="Drizzle (database server)">Drizzle</a></li>
+<li><a href="MariaDB" title="MariaDB">MariaDB</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Sun_Microsystems" title="Template:Sun Microsystems"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Sun_Microsystems" title="Template talk:Sun Microsystems"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Sun_Microsystems&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Sun_Microsystems" title="Sun Microsystems">Sun Microsystems</a> <span style="font-size:85%;">(acquired by <a href="Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a>, 2010)</span></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Hardware</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Sun-1" title="Sun-1">Sun-1</a></li>
+<li><a href="Sun-2" title="Sun-2">Sun-2</a></li>
+<li><a href="Sun-3" title="Sun-3">Sun-3</a></li>
+<li><a href="Sun386i" title="Sun386i">Sun386i</a></li>
+<li><a href="Sun-4" title="Sun-4">Sun-4</a></li>
+<li><a href="SPARCstation" title="SPARCstation">SPARCstation</a></li>
+<li><a href="Sun_Netra" title="Sun Netra">Netra</a></li>
+<li><a href="Sun_Ultra_series" title="Sun Ultra series">Ultra</a></li>
+<li><a href="Sun_Enterprise" title="Sun Enterprise">Enterprise</a></li>
+<li><a href="Sun_Blade" title="Sun Blade">Sun Blade</a></li>
+<li><a href="Sun_Fire" title="Sun Fire">Sun Fire</a></li>
+<li><a href="SPARC_Enterprise" title="SPARC Enterprise">SPARC Enterprise</a></li>
+<li><a href="SPARC" title="SPARC">SPARC</a></li>
+<li><a href="JavaStation" title="JavaStation">JavaStation</a></li>
+<li><a href="Sun_Ray" title="Sun Ray">Sun Ray</a></li>
+<li><a href="Sun_Modular_Datacenter" title="Sun Modular Datacenter">Sun Modular Datacenter</a></li>
+<li><a href="Category_Sun_Microsystems_hardware" title="Category:Sun Microsystems hardware"><i>more...</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Software</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="SunOS" title="SunOS">SunOS</a></li>
+<li><a href="Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a></li>
+<li><a href="Network_Information_Service" title="Network Information Service">NIS</a> (<a href="NIS+" title="NIS+">+</a>)</li>
+<li><a href="Network_File_System_(protocol)" title="Network File System (protocol)" class="mw-redirect">NFS</a></li>
+<li><a href="ZFS" title="ZFS">ZFS</a></li>
+<li><a href="SunView" title="SunView">SunView</a></li>
+<li><a href="NeWS" title="NeWS">NeWS</a></li>
+<li><a href="OpenWindows" title="OpenWindows">OpenWindows</a></li>
+<li><a href="Java_Desktop_System" title="Java Desktop System" class="mw-redirect">Java Desktop System</a></li>
+<li><a href="Sun_Studio_(software)" title="Sun Studio (software)" class="mw-redirect">Sun Studio</a></li>
+<li><a href="Java_(Sun)" title="Java (Sun)" class="mw-redirect">Java</a></li>
+<li><a href="StarOffice" title="StarOffice">StarOffice</a></li>
+<li><a href="IPlanet" title="IPlanet">iPlanet</a>/<a href="Sun_ONE" title="Sun ONE">Sun ONE</a>/<a href="Java_Enterprise_System" title="Java Enterprise System" class="mw-redirect">Java Enterprise System</a></li>
+<li><a href="Sun_Secure_Global_Desktop" title="Sun Secure Global Desktop">Sun Secure Global Desktop</a></li>
+<li><strong class="selflink">MySQL</strong></li>
+<li><a href="Sun_xVM" title="Sun xVM">Sun xVM</a></li>
+<li><a href="GlassFish" title="GlassFish">GlassFish</a></li>
+<li><a href="Category_Sun_Microsystems_software" title="Category:Sun Microsystems software"><i>more...</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Storage</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="StorageTek" title="StorageTek" class="mw-redirect">StorageTek</a></li>
+<li><a href="Sun_Open_Storage" title="Sun Open Storage">Sun Open Storage</a></li>
+<li><a href="QFS" title="QFS">QFS</a></li>
+<li><a href="ZFS" title="ZFS">ZFS</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">High-performance computing</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Sun_Cloud" title="Sun Cloud">Sun Cloud</a></li>
+<li><a href="Sun_Constellation_System" title="Sun Constellation System">Sun Constellation System</a></li>
+<li><a href="Sun_Visualization_System" title="Sun Visualization System">Sun Visualization System</a></li>
+<li><a href="Oracle_Grid_Engine" title="Oracle Grid Engine">Sun Grid Engine</a></li>
+<li><a href="Lustre_(file_system)" title="Lustre (file system)">Lustre</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Research</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Sun_Microsystems_Laboratories" title="Sun Microsystems Laboratories">Sun Labs</a></li>
+<li><a href="PicoJava" title="PicoJava">picoJava</a></li>
+<li><a href="Fortress_(programming_language)" title="Fortress (programming language)">Fortress</a></li>
+<li><a href="Project_Looking_Glass" title="Project Looking Glass">Project Looking Glass</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Education and recognition</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Sun_Certified_Professional" title="Sun Certified Professional" class="mw-redirect">SCPs</a></li>
+<li><a href="List_of_notable_Sun_Microsystems_employees" title="List of notable Sun Microsystems employees" class="mw-redirect">List of notable employees</a></li>
+<li><a href="BlueJ" title="BlueJ">BlueJ</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Community</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="CDDL" title="CDDL" class="mw-redirect">CDDL</a></li>
+<li><a href="Java_Community_Process" title="Java Community Process">Java Community Process</a></li>
+<li><a href="NetBeans" title="NetBeans">NetBeans</a></li>
+<li><a href="OpenOffice" title="OpenOffice">OpenOffice.org</a></li>
+<li><a href="OpenSolaris" title="OpenSolaris">OpenSolaris</a></li>
+<li><a href="OpenSPARC" title="OpenSPARC">OpenSPARC</a></li>
+<li><a href="OpenJDK" title="OpenJDK">OpenJDK</a></li>
+<li><a href="Open_Source_University_Meetup" title="Open Source University Meetup">OSUM</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Oracle" title="Template:Oracle"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Oracle" title="Template talk:Oracle"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Oracle&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Oracle_Corporation" title="Oracle Corporation">Oracle Corporation</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Corporation" title="Corporation">Corporate</a> <a href="Board_of_directors" title="Board of directors">directors</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="../../w/index-title=Jeffrey_Berg&action=edit&redlink=1.php.html" class="new" title="Jeffrey Berg (page does not exist)">Jeffrey Berg</a></li>
+<li><a href="../../w/index-title=H._Raymond_Bingham&action=edit&redlink=1.php.html" class="new" title="H. Raymond Bingham (page does not exist)">H. Raymond Bingham</a></li>
+<li><a href="Michael_Boskin" title="Michael Boskin">Michael Boskin</a></li>
+<li><a href="../Safra_A._Catz" title="Safra A. Catz">Safra A. Catz</a></li>
+<li><a href="Larry_Ellison" title="Larry Ellison">Larry Ellison</a></li>
+<li><a href="H%C3%A9ctor_Garc%C3%ADa-Molina" title="Héctor García-Molina">Héctor García-Molina</a></li>
+<li><a href="Joseph_Grundfest" title="Joseph Grundfest">Joseph Grundfest</a></li>
+<li><a href="../Jeffrey_O._Henley" title="Jeffrey O. Henley">Jeffrey O. Henley</a></li>
+<li><a href="Mark_Hurd" title="Mark Hurd">Mark Hurd</a></li>
+<li><a href="Jack_Kemp" title="Jack Kemp">Jack F. Kemp</a></li>
+<li><a href="../../w/index-title=Donald_L._Lucas&action=edit&redlink=1.php.html" class="new" title="Donald L. Lucas (page does not exist)">Donald L. Lucas</a></li>
+<li><a href="../Naomi_O._Seligman" title="Naomi O. Seligman">Naomi O. Seligman</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Mergers_and_acquisitions" title="Mergers and acquisitions">Acquisitions</a> (<a href="List_of_acquisitions_by_Oracle" title="List of acquisitions by Oracle">list</a>)</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Sun_Microsystems" title="Sun Microsystems">Sun</a></li>
+<li><a href="PeopleSoft" title="PeopleSoft">PeopleSoft</a></li>
+<li><a href="Hyperion_Solutions" title="Hyperion Solutions" class="mw-redirect">Hyperion</a></li>
+<li><a href="Siebel_Systems" title="Siebel Systems">Siebel</a></li>
+<li><a href="BEA_Systems" title="BEA Systems">BEA</a></li>
+<li><a href="JD_Edwards" title="JD Edwards">JD Edwards</a></li>
+<li><a href="RightNow_Technologies" title="RightNow Technologies">RightNow</a></li>
+<li><a href="Virtual_Iron" title="Virtual Iron">Virtual Iron</a></li>
+<li><a href="Timesten" title="Timesten" class="mw-redirect">Timesten</a></li>
+<li><a href="../../w/index-title=Retek&action=edit&redlink=1.php.html" class="new" title="Retek (page does not exist)">Retek</a></li>
+<li><a href="Sunopsis" title="Sunopsis">Sunopsis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Database_management_system" title="Database management system">DBMS</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Oracle_Database" title="Oracle Database">Oracle Database</a></li>
+<li><strong class="selflink">MySQL</strong></li>
+<li><a href="InnoDB" title="InnoDB">InnoDB</a></li>
+<li><a href="Berkeley_DB" title="Berkeley DB">Berkeley DB</a></li>
+<li><a href="Timesten" title="Timesten" class="mw-redirect">Timesten</a></li>
+<li><a href="Oracle_Rdb" title="Oracle Rdb">Rdb</a></li>
+<li><a href="Essbase" title="Essbase">Essbase</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Programming_language" title="Programming language">Programming languages</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Java_(programming_language)" title="Java (programming language)">Java</a></li>
+<li><a href="PL/SQL" title="PL/SQL">PL/SQL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Integrated_development_environment" title="Integrated development environment">IDE</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="JDeveloper" title="JDeveloper">JDeveloper</a></li>
+<li><a href="Oracle_Forms" title="Oracle Forms">Forms</a></li>
+<li><a href="NetBeans" title="NetBeans">NetBeans</a></li>
+<li><a href="Oracle_Application_Express" title="Oracle Application Express">Apex</a></li>
+<li><a href="Oracle_SQL_Developer" title="Oracle SQL Developer">SQL Developer</a></li>
+<li><a href="Sun_Studio_(software)" title="Sun Studio (software)" class="mw-redirect">Solaris Studio</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Middleware_(distributed_applications)" title="Middleware (distributed applications)">Middleware</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="WebLogic" title="WebLogic" class="mw-redirect">WebLogic</a></li>
+<li><a href="Oracle_Coherence" title="Oracle Coherence">Coherence</a></li>
+<li><a href="Tuxedo_(software)" title="Tuxedo (software)">Tuxedo</a></li>
+<li><a href="GlassFish" title="GlassFish">GlassFish</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Operating_system" title="Operating system">Operating systems</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Oracle_Linux" title="Oracle Linux">Oracle Linux</a></li>
+<li><a href="Solaris_(operating_system)" title="Solaris (operating system)">Oracle Solaris</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computer_hardware" title="Computer hardware">Computer hardware</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Sun_Fire" title="Sun Fire">Sun Fire</a></li>
+<li><a href="SPARC" title="SPARC">SPARC</a></li>
+<li><a href="StorageTek" title="StorageTek" class="mw-redirect">StorageTek</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computer_appliance" title="Computer appliance">Computer appliances</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Oracle_Exadata" title="Oracle Exadata">Oracle Exadata</a></li>
+<li><a href="Oracle_Exalogic" title="Oracle Exalogic">Oracle Exalogic</a></li>
+<li><a href="../../w/index-title=Oracle_Exalytics&action=edit&redlink=1.php.html" class="new" title="Oracle Exalytics (page does not exist)">Oracle Exalytics</a></li>
+<li><a href="Oracle_Big_Data_Appliance" title="Oracle Big Data Appliance">Big Data Appliance</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Education and recognition</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Oracle_Certification_Program" title="Oracle Certification Program">Oracle Certification Program</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><b>Annual revenue</b> $37.12 billion <a href="United_States_dollar" title="United States dollar">USD</a>&#160;(2012)</li>
+<li><b>Employees</b> 117,229</li>
+<li><b>Stock symbol</b> ORCL</li>
+<li><b>Website</b> <a rel="nofollow" class="external text" href="http://www.oracle.com/">www.oracle.com</a></li>
+</ul>
+<ul>
+<li><img alt="Category" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" /> <b><a href="Category_Oracle_Corporation" title="Category:Oracle Corporation">Category</a></b></li>
+<li><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" /> <a href="http://commons.wikimedia.org/wiki/Category:Oracle_Corporation" class="extiw" title="commons:Category:Oracle Corporation"><b>Commons</b></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 50984/1000000
+Preprocessor generated node count: 81688/1500000
+Post-expand include size: 267941/2048000 bytes
+Template argument size: 116804/2048000 bytes
+Highest expansion depth: 28/40
+Expensive parser function count: 9/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:19545-0!*!0!default!!en!4!* and timestamp 20130212234620 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=MySQL&oldid=537956779.php.html">http://en.wikipedia.org/w/index.php?title=MySQL&amp;oldid=537956779</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_MySQL" title="Category:MySQL">MySQL</a></li><li><a href="Category_1995_software" title="Category:1995 software">1995 software</a></li><li><a href="Category_Free_database_management_systems" title="Category:Free database management systems">Free database management systems</a></li><li><a href="Category_Sun_Microsystems_software" title="Category:Sun Microsystems software">Sun Microsystems software</a></li><li><a href="Category_Oracle_software" title="Category:Oracle software">Oracle software</a></li><li><a href="Category_Linux_database-related_software" title="Category:Linux database-related software">Linux database-related software</a></li><li><a href="Category_Cross-platform_software" title="Category:Cross-platform software">Cross-platform software</a></li><li><a href="Category_Client-server_database_management_systems" title="Category:Client-server database management systems">Client-server database management systems</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_October_2012" title="Category:Articles with unsourced statements from October 2012">Articles with unsourced statements from October 2012</a></li><li><a href="Category_Articles_containing_potentially_dated_statements_from_April_2009" title="Category:Articles containing potentially dated statements from April 2009">Articles containing potentially dated statements from April 2009</a></li><li><a href="Category_All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_August_2011" title="Category:Articles with unsourced statements from August 2011">Articles with unsourced statements from August 2011</a></li><li><a href="Category_Wikipedia_articles_needing_clarification_from_January_2012" title="Category:Wikipedia articles needing clarification from January 2012">Wikipedia articles needing clarification from January 2012</a></li><li><a href="Category_Articles_with_unsourced_statements_from_April_2012" title="Category:Articles with unsourced statements from April 2012">Articles with unsourced statements from April 2012</a></li><li><a href="Category_Articles_containing_potentially_dated_statements_from_December_2010" title="Category:Articles containing potentially dated statements from December 2010">Articles containing potentially dated statements from December 2010</a></li><li><a href="Category_Commons_category_template_with_no_category_set" title="Category:Commons category template with no category set">Commons category template with no category set</a></li><li><a href="Category_Use_dmy_dates_from_October_2012" title="Category:Use dmy dates from October 2012">Use dmy dates from October 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=MySQL&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=MySQL.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_MySQL"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=MySQL&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=MySQL&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/MySQL" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/MySQL" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=MySQL&oldid=537956779.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=MySQL&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=MySQL&id=537956779.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=MySQL.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=MySQL&oldid=537956779&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=MySQL&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/MySQL" title="MySQL" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%85%D8%A7%D9%8A_%D8%A5%D8%B3_%D9%83%D9%8A%D9%88_%D8%A5%D9%84" title="ماي إس كيو إل" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/MySQL" title="MySQL" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/MySQL" title="MySQL" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/MySQL" title="MySQL" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/MySQL" title="MySQL" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/MySQL" title="MySQL" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/MySQL" title="MySQL" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/MySQL" title="MySQL" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/MySQL" title="MySQL" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/MySQL" title="MySQL" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/MySQL" title="MySQL" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/MySQL" title="MySQL" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/MySQL" title="MySQL" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%85%D8%A7%DB%8C%E2%80%8C%D8%A7%D8%B3%E2%80%8C%DA%A9%DB%8C%D9%88%D8%A7%D9%84" title="مای‌اس‌کیوال" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/MySQL" title="MySQL" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ga"><a href="http://ga.wikipedia.org/wiki/MySQL" title="MySQL" lang="ga" hreflang="ga">Gaeilge</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/MySQL" title="MySQL" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/MySQL" title="MySQL" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/MySQL" title="MySQL" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/MySQL" title="MySQL" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/MySQL" title="MySQL" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/MySQL" title="MySQL" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/MySQL" title="MySQL" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/MySQL" title="MySQL" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-ku"><a href="http://ku.wikipedia.org/wiki/MySQL" title="MySQL" lang="ku" hreflang="ku">Kurdî</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/MySQL" title="MySQL" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/MySQL" title="MySQL" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/MySQL" title="MySQL" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/MySQL" title="MySQL" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-mg"><a href="http://mg.wikipedia.org/wiki/MySQL" title="MySQL" lang="mg" hreflang="mg">Malagasy</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%AE%E0%B5%88%E0%B4%8E%E0%B4%B8%E0%B5%8D%E0%B4%95%E0%B5%8D%E0%B4%AF%E0%B5%81%E0%B4%8E%E0%B5%BD" title="മൈഎസ്ക്യുഎൽ" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/MySQL" title="MySQL" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mn"><a href="http://mn.wikipedia.org/wiki/MySQL" title="MySQL" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interwiki-my"><a href="http://my.wikipedia.org/wiki/MySQL" title="MySQL" lang="my" hreflang="my">မြန်မာဘာသာ</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/MySQL" title="MySQL" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/MySQL" title="MySQL" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/MySQL" title="MySQL" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-uz"><a href="http://uz.wikipedia.org/wiki/MySQL" title="MySQL" lang="uz" hreflang="uz">Oʻzbekcha</a></li>
+			<li class="interwiki-km"><a href="http://km.wikipedia.org/wiki/MySQL" title="MySQL" lang="km" hreflang="km">ភាសាខ្មែរ</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/MySQL" title="MySQL" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/MySQL" title="MySQL" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/MySQL" title="MySQL" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/MySQL" title="MySQL" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/MySQL" title="MySQL" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/MySQL" title="MySQL" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/MySQL" title="MySQL" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/MySQL" title="MySQL" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/MySQL" title="MySQL" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/MySQL" title="MySQL" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AF%88%E0%AE%9A%E0%AF%80%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81%E0%AE%B5%E0%AF%86%E0%AE%B2%E0%AF%8D" title="மைசீக்குவெல்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-kab"><a href="http://kab.wikipedia.org/wiki/MySQL" title="MySQL" lang="kab" hreflang="kab">Taqbaylit</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AD%E0%B8%AA%E0%B8%84%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%AD%E0%B8%A5" title="มายเอสคิวเอล" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/MySQL" title="MySQL" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-tk"><a href="http://tk.wikipedia.org/wiki/MySQL" title="MySQL" lang="tk" hreflang="tk">Türkmençe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/MySQL" title="MySQL" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/MySQL" title="MySQL" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/MySQL" title="MySQL" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/MySQL" title="MySQL" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 February 2013 at 23:46.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/MySQL" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1071 in 0.181 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Access control - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Access_control&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Access_control&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Access_control","wgTitle":"Access control","wgCurRevisionId":536869802,"wgArticleId":40684,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from February 2012","All articles lacking in-text citations","All articles with unsourced statements","Articles with unsourced statements from February 2012","Access control","Identity management","Computer security","Perimeter security"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Access_control","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"ff842833a3adad1b905b0f2624c7a033","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":40684,"title":"Access control","namespace":0,"categories":["Access control","All articles lacking in-text citations","All articles with unsourced statements","Articles lacking in-text citations from February 2012","Articles with unsourced statements from February 2012","Computer security","Identity management","Perimeter security"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Access_control skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Access control</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For access control on a <a href="Highway" title="Highway">highway</a>, see <a href="Limited-access_highway" title="Limited-access highway" class="mw-redirect">limited-access highway</a>.  For standardized forms of names in a library catalog, see <a href="Authority_control" title="Authority control">authority control</a>.</div>
+<table class="metadata plainlinks ambox ambox-style ambox-More_footnotes" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article includes a <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">list of references</a>, but <b>its sources remain unclear because it has insufficient <a href="Wikipedia_INCITE" title="Wikipedia:INCITE" class="mw-redirect">inline citations</a></b>. <span class="hide-when-compact">Please help to <a href="Wikipedia_WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by <a href="Wikipedia_When_to_cite" title="Wikipedia:When to cite">introducing</a> more precise citations.</span> <small><i>(February 2012)</i></small> </span></td>
+</tr>
+</table>
+<p><b>Access control</b> is the selective restriction of access to a place or other <a href="Resource" title="Resource">resource</a>. The act of <i>accessing</i> may mean consuming, entering, or using. Permission to access a resource is called <i><a href="Authorization" title="Authorization">authorization</a></i>.</p>
+<p><a href="Lock_(device)" title="Lock (device)">Locks</a> and <a href="Login" title="Login">login credentials</a> are two analogous mechanisms of access control.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Physical_security"><span class="tocnumber">1</span> <span class="toctext">Physical security</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Access_control_system_operation"><span class="tocnumber">1.1</span> <span class="toctext">Access control system operation</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Credential"><span class="tocnumber">1.2</span> <span class="toctext">Credential</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Access_control_system_components"><span class="tocnumber">1.3</span> <span class="toctext">Access control system components</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Access_control_topology"><span class="tocnumber">1.4</span> <span class="toctext">Access control topology</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Types_of_readers"><span class="tocnumber">1.5</span> <span class="toctext">Types of readers</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Access_control_system_topologies"><span class="tocnumber">1.6</span> <span class="toctext">Access control system topologies</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Security_risks"><span class="tocnumber">1.7</span> <span class="toctext">Security risks</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#The_need-to-know_principle"><span class="tocnumber">1.7.1</span> <span class="toctext">The need-to-know principle</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Computer_security"><span class="tocnumber">2</span> <span class="toctext">Computer security</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Authorization"><span class="tocnumber">2.1</span> <span class="toctext">Authorization</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Identification_and_authentication_.28I.26A.29"><span class="tocnumber">2.2</span> <span class="toctext">Identification and authentication (I&amp;A)</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Access_Approval"><span class="tocnumber">2.3</span> <span class="toctext">Access Approval</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Accountability"><span class="tocnumber">2.4</span> <span class="toctext">Accountability</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Access_control_models"><span class="tocnumber">2.5</span> <span class="toctext">Access control models</span></a>
+<ul>
+<li class="toclevel-3 tocsection-16"><a href="#Attribute-based_access_control"><span class="tocnumber">2.5.1</span> <span class="toctext">Attribute-based access control</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Discretionary_access_control"><span class="tocnumber">2.5.2</span> <span class="toctext">Discretionary access control</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Mandatory_access_control"><span class="tocnumber">2.5.3</span> <span class="toctext">Mandatory access control</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#Role-based_access_control"><span class="tocnumber">2.5.4</span> <span class="toctext">Role-based access control</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Telecommunication"><span class="tocnumber">3</span> <span class="toctext">Telecommunication</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Public_policy"><span class="tocnumber">4</span> <span class="toctext">Public policy</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=1.php.html" title="Edit section: Physical security">edit</a>]</span> <span class="mw-headline" id="Physical_security">Physical security</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Physical_security" title="Physical security">Physical security</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:NewYorkCitySubwayEntranceInterior.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/NewYorkCitySubwayEntranceInterior.jpg/220px-NewYorkCitySubwayEntranceInterior.jpg" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/NewYorkCitySubwayEntranceInterior.jpg/330px-NewYorkCitySubwayEntranceInterior.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/55/NewYorkCitySubwayEntranceInterior.jpg/440px-NewYorkCitySubwayEntranceInterior.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:NewYorkCitySubwayEntranceInterior.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Underground entrance to the <a href="New_York_City" title="New York City">New York City</a> Subway system</div>
+</div>
+</div>
+<p>Geographical access control may be enforced by personnel (e.g., <a href="Border_guard" title="Border guard">border guard</a>, <a href="Bouncer_(doorman)" title="Bouncer (doorman)">bounder</a>, <a href="Ticket_(admission)" title="Ticket (admission)">ticket</a> checker), or with a device such as a <a href="Turnstile" title="Turnstile">turnstile</a>. There may be <a href="Fence" title="Fence">fences</a> to avoid circumventing this access control. An alternative of access control in the strict sense (physically controlling access itself) is a system of checking authorized presence, see e.g. <a href="Ticket_controller_(transportation)" title="Ticket controller (transportation)" class="mw-redirect">Ticket controller (transportation)</a>. A variant is exit control, e.g. of a shop (checkout) or a country.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>the term access control refers to the practice of restricting entrance to a property, a building, or a room to <a href="Authorized" title="Authorized" class="mw-redirect">authorized</a> persons. Physical access control can be achieved by a human (a guard, bouncer, or receptionist), through mechanical means such as locks and keys, or through technological means such as access control systems like the <a href="Mantrap" title="Mantrap">mantrap</a>. Within these environments, <a href="../../w/index-title=Physical_key_management&action=edit&redlink=1.php.html" class="new" title="Physical key management (page does not exist)">physical key management</a> may also be employed as a means of further managing and monitoring access to mechanically keyed areas or access to certain small assets.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Physical access control is a matter of who, where, and when. An access control system determines who is allowed to enter or exit, where they are allowed to exit or enter, and when they are allowed to enter or exit. Historically this was partially accomplished through keys and locks. When a door is locked only someone with a key can enter through the door depending on how the lock is configured. Mechanical locks and keys do not allow restriction of the key holder to specific times or dates. Mechanical locks and keys do not provide records of the key used on any specific door and the keys can be easily copied or transferred to an unauthorized person. When a mechanical key is lost or the key holder is no longer authorized to use the protected area, the locks must be re-keyed.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Electronic access control uses computers to solve the limitations of mechanical locks and keys. A wide range of <a href="Credentials" title="Credentials" class="mw-redirect">credentials</a> can be used to replace mechanical keys. The electronic access control system grants access based on the credential presented. When access is granted, the door is unlocked for a predetermined time and the transaction is recorded. When access is refused, the door remains locked and the attempted access is recorded. The system will also monitor the door and alarm if the door is forced open or held open too long after being unlocked.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=2.php.html" title="Edit section: Access control system operation">edit</a>]</span> <span class="mw-headline" id="Access_control_system_operation">Access control system operation</span></h3>
+<p>When a credential is presented to a reader, the reader sends the credential’s information, usually a number, to a control panel, a highly reliable processor. The control panel compares the credential's number to an access control list, grants or denies the presented request, and sends a transaction log to a database. When access is denied based on the access control list, the door remains locked. If there is a match between the credential and the access control list, the control panel operates a relay that in turn unlocks the door. The control panel also ignores a door open signal to prevent an alarm. Often the reader provides feedback, such as a flashing red LED for an access denied and a flashing green LED for an access granted.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>The above description illustrates a single factor transaction. Credentials can be passed around, thus subverting the access control list. For example, Alice has access rights to the <a href="Server_room" title="Server room">server room</a> but Bob does not. Alice either gives Bob her credential or Bob takes it; he now has access to the server room. To prevent this, <a href="Two-factor_authentication" title="Two-factor authentication">two-factor authentication</a> can be used. In a two factor transaction, the presented credential and a second factor are needed for access to be granted; another factor can be a PIN, a second credential, operator intervention, or a biometric input.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>There are three types (factors) of authenticating information:<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<ul>
+<li>something the user knows, e.g. a password, pass-phrase or PIN</li>
+<li>something the user has, such as smart card</li>
+<li>something the user is, such as fingerprint, verified by biometric measurement</li>
+</ul>
+<p>Passwords are a common means of verifying a user's identity before access is given to information systems. In addition, a fourth factor of authentication is now recognized: someone you know, where another person who knows you can provide a human element of authentication in situations where systems have been set up to allow for such scenarios. For example, a user may have their password, but have forgotten their smart card. In such a scenario, if the user is known to designated cohorts, the cohorts may provide their smart card and password in combination with the extant factor of the user in question and thus provide two factors for the user with missing credential, and three factors overall to allow access.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:)</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=3.php.html" title="Edit section: Credential">edit</a>]</span> <span class="mw-headline" id="Credential">Credential</span></h3>
+<p>A credential is a physical/tangible object, a piece of knowledge, or a facet of a person's physical being, that enables an individual access to a given physical facility or computer-based information system. Typically, credentials can be something you know (such as number or PIN), something you have (such as an <a href="Access_badge" title="Access badge">access badge</a>), something you are (such as a biometric feature) or some combination of these items. The typical credential is an access card, key fob, or other key. There are many card technologies including magnetic stripe, bar code, Wiegand, 125&#160;kHz proximity, 26 bit card-swipe, contact smart cards, and <a href="Contactless_smart_card" title="Contactless smart card">contactless smart cards</a>. Also available are key-fobs which are more compact than ID cards and attach to a key ring. Typical biometric technologies include fingerprint, facial recognition, iris recognition, retinal scan, voice, and hand geometry.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=4.php.html" title="Edit section: Access control system components">edit</a>]</span> <span class="mw-headline" id="Access_control_system_components">Access control system components</span></h3>
+<p>An access control point, which can be a <a href="Door" title="Door">door</a>, turnstile, parking gate, elevator, or other physical barrier where granting access can be electronically controlled. Typically the access point is a door. An electronic access control door can contain several elements. At its most basic there is a stand-alone electric lock. The lock is unlocked by an operator with a switch. To automate this, operator intervention is replaced by a reader. The reader could be a keypad where a code is entered, it could be a <a href="Card_reader" title="Card reader">card reader</a>, or it could be a biometric reader. Readers do not usually make an access decision but send a card number to an access control panel that verifies the number against an access list. To monitor the door position a magnetic door switch is used. In concept the door switch is not unlike those on refrigerators or car doors. Generally only entry is controlled and exit is uncontrolled. In cases where exit is also controlled a second reader is used on the opposite side of the door. In cases where exit is not controlled, free exit, a device called a request-to-exit (RTE) is used. Request-to-exit devices can be a push-button or a motion detector. When the button is pushed or the motion detector detects motion at the door, the door alarm is temporarily ignored while the door is opened. Exiting a door without having to electrically unlock the door is called mechanical free egress. This is an important safety feature. In cases where the lock must be electrically unlocked on exit, the request-to-exit device also unlocks the door.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=5.php.html" title="Edit section: Access control topology">edit</a>]</span> <span class="mw-headline" id="Access_control_topology">Access control topology</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_door_wiring.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Access_control_door_wiring.png/220px-Access_control_door_wiring.png" width="220" height="230" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Access_control_door_wiring.png/330px-Access_control_door_wiring.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/10/Access_control_door_wiring.png/440px-Access_control_door_wiring.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_door_wiring.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Typical access control door wiring</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Intelligent_access_control_door_wiring.PNG" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Intelligent_access_control_door_wiring.PNG/220px-Intelligent_access_control_door_wiring.PNG" width="220" height="216" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Intelligent_access_control_door_wiring.PNG/330px-Intelligent_access_control_door_wiring.PNG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/Intelligent_access_control_door_wiring.PNG/440px-Intelligent_access_control_door_wiring.PNG 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Intelligent_access_control_door_wiring.PNG" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control door wiring when using intelligent readers</div>
+</div>
+</div>
+<p>Access control decisions are made by comparing the credential to an access control list. This lookup can be done by a host or server, by an access control panel, or by a reader. The development of access control systems has seen a steady push of the lookup out from a central host to the edge of the system, or the reader. The predominant topology circa 2009 is hub and spoke with a control panel as the hub and the readers as the spokes. The lookup and control functions are by the control panel. The spokes communicate through a serial connection; usually RS485. Some manufactures are pushing the decision making to the edge by placing a controller at the door. The controllers are IP enabled and connect to a host and database using standard networks.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=6.php.html" title="Edit section: Types of readers">edit</a>]</span> <span class="mw-headline" id="Types_of_readers">Types of readers</span></h3>
+<p>Access control readers may be classified by functions they are able to perform<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>Basic (non-intelligent) readers: simply read card number or PIN and forward it to a control panel. In case of biometric identification, such readers output ID number of a user. Typically <a href="Wiegand_interface" title="Wiegand interface">Wiegand protocol</a> is used for transmitting data to the control panel, but other options such as RS-232, RS-485 and Clock/Data are not uncommon. This is the most popular type of access control readers. Examples of such readers are RF Tiny by RFLOGICS, ProxPoint by HID, and P300 by Farpointe Data.</li>
+<li>Semi-intelligent readers: have all inputs and outputs necessary to control door hardware (lock, door contact, exit button), but do not make any access decisions. When a user presents a card or enters PIN, the reader sends information to the main controller and waits for its response. If the connection to the main controller is interrupted, such readers stop working or function in a degraded mode. Usually semi-intelligent readers are connected to a control panel via an <a href="EIA-485" title="EIA-485" class="mw-redirect">RS-485</a> bus. Examples of such readers are InfoProx Lite IPL200 by CEM Systems and AP-510 by Apollo.</li>
+<li>Intelligent readers: have all inputs and outputs necessary to control door hardware, they also have memory and processing power necessary to make access decisions independently. Same as semi-intelligent readers they are connected to a control panel via an RS-485 bus. The control panel sends configuration updates and retrieves events from the readers. Examples of such readers could be InfoProx IPO200 by CEM Systems and AP-500 by Apollo. There is also a new generation of intelligent readers referred to as "<a href="IP_reader" title="IP reader">IP readers</a>". Systems with IP readers usually do not have traditional control panels and readers communicate directly to PC that acts as a host. Examples of such readers are PowerNet IP Reader by <a rel="nofollow" class="external text" href="http://www.isonas.com">Isonas Security Systems</a>, ID08 by Solus has the built in webservice to make it user friendly, Edge ER40 reader by HID Global, LogLock and UNiLOCK by ASPiSYS Ltd, BioEntry Plus reader by Suprema Inc. and 4G V-Station by <a href="Bioscrypt_Inc." title="Bioscrypt Inc.">Bioscrypt Inc.</a></li>
+</ul>
+<p>Some readers may have additional features such as LCD and function buttons for data collection purposes (i.e. clock-in/clock-out events for attendance reports), camera/speaker/microphone for intercom, and smart card read/write support.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Access control readers may also be classified by the type of <a href="Card_reader" title="Card reader">identification technology</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=7.php.html" title="Edit section: Access control system topologies">edit</a>]</span> <span class="mw-headline" id="Access_control_system_topologies">Access control system topologies</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_serial_controllers.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Access_control_topologies_serial_controllers.png/220px-Access_control_topologies_serial_controllers.png" width="220" height="109" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Access_control_topologies_serial_controllers.png/330px-Access_control_topologies_serial_controllers.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Access_control_topologies_serial_controllers.png/440px-Access_control_topologies_serial_controllers.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_serial_controllers.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control system using serial controllers</div>
+</div>
+</div>
+<p><b>1. Serial controllers.</b> Controllers are connected to a host PC via a serial <a href="EIA-485" title="EIA-485" class="mw-redirect">RS-485</a> communication line (or via 20mA <a href="Current_loop" title="Current loop">current loop</a> in some older systems). External RS-232/485 converters or internal RS-485 cards have to be installed as standard PCs do not have RS-485 communication ports.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup> Advantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>RS-485 standard allows long cable runs, up to 4000 feet (1200 m)</li>
+<li>Relatively short response time. The maximum number of devices on an RS-485 line is limited to 32, which means that the host can frequently request status updates from each device and display events almost in real time.</li>
+<li>High reliability and security as the communication line is not shared with any other systems.</li>
+</ul>
+<p>Disadvantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>RS-485 does not allow Star-type wiring unless splitters are used</li>
+<li>RS-485 is not well suited for transferring large amounts of data (i.e. configuration and users). The highest possible throughput is 115.2 kbit/s, but in most system it is downgraded to 56.2 kbit/s or less to increase reliability.</li>
+<li>RS-485 does not allow the host PC to communicate with several controllers connected to the same port simultaneously. Therefore in large systems transfers of configuration and users to controllers may take a very long time and interfere with normal operations.</li>
+<li>Controllers cannot initiate communication in case of an alarm. The host PC acts as a master on the RS-485 communication line and controllers have to wait until they are polled.</li>
+<li>Special serial switches are required in order to build a redundant host PC setup.</li>
+<li>Separate RS-485 lines have to be installed instead of using an already existing network infrastructure.</li>
+<li>Cable that meets RS-485 standards is significantly more expensive than regular Category 5 UTP network cable.</li>
+<li>Operation of the system is highly dependent on the host PC. In case the host PC fails, events from controllers are not retrieved and functions that require interaction between controllers (i.e. anti-passback) stop working.</li>
+</ul>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_main_controller_a.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Access_control_topologies_main_controller_a.png/220px-Access_control_topologies_main_controller_a.png" width="220" height="126" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Access_control_topologies_main_controller_a.png/330px-Access_control_topologies_main_controller_a.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Access_control_topologies_main_controller_a.png/440px-Access_control_topologies_main_controller_a.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_main_controller_a.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control system using serial main and sub-controllers</div>
+</div>
+</div>
+<p><b>2. Serial main and sub-controllers.</b> All door hardware is connected to sub-controllers (a.k.a. door controllers or door interfaces). Sub-controllers usually do not make access decisions, and forward all requests to the main controllers. Main controllers usually support from 16 to 32 sub-controllers. Advantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>Work load on the host PC is significantly reduced, because it only needs to communicate with a few main controllers.</li>
+<li>The overall cost of the system is lower, as sub-controllers are usually simple and inexpensive devices.</li>
+<li>All other advantages listed in the first paragraph apply.</li>
+</ul>
+<p>Disadvantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>Operation of the system is highly dependent on main controllers. In case one of the main controllers fails, events from its sub-controllers are not retrieved and functions that require interaction between sub controllers (i.e. anti-passback) stop working.</li>
+<li>Some models of sub-controllers (usually lower cost) have no memory and processing power to make access decisions independently. If the main controller fails, sub-controllers change to degraded mode in which doors are either completely locked or unlocked and no events are recorded. Such sub-controllers should be avoided or used only in areas that do not require high security.</li>
+<li>Main controllers tend to be expensive, therefore such topology is not very well suited for systems with multiple remote locations that have only a few doors.</li>
+<li>All other RS-485-related disadvantages listed in the first paragraph apply.</li>
+</ul>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_main_controller_b.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Access_control_topologies_main_controller_b.png/220px-Access_control_topologies_main_controller_b.png" width="220" height="86" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Access_control_topologies_main_controller_b.png/330px-Access_control_topologies_main_controller_b.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Access_control_topologies_main_controller_b.png/440px-Access_control_topologies_main_controller_b.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_main_controller_b.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control system using serial main controller and intelligent readers</div>
+</div>
+</div>
+<p><b>3. Serial main controllers &amp; intelligent readers.</b> All door hardware is connected directly to intelligent or semi-intelligent readers. Readers usually do not make access decisions, and forward all requests to the main controller. Only if the connection to the main controller is unavailable, the readers use their internal database to make access decisions and record events. Semi-intelligent reader that have no database and cannot function without the main controller should be used only in areas that do not require high security. Main controllers usually support from 16 to 64 readers. All advantages and disadvantages are the same as the ones listed in the second paragraph.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_terminal_servers.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Access_control_topologies_terminal_servers.png/220px-Access_control_topologies_terminal_servers.png" width="220" height="346" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Access_control_topologies_terminal_servers.png/330px-Access_control_topologies_terminal_servers.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Access_control_topologies_terminal_servers.png/440px-Access_control_topologies_terminal_servers.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_terminal_servers.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control systems using serial controllers and terminal servers</div>
+</div>
+</div>
+<p><b>4. Serial controllers with terminal servers.</b> In spite of the rapid development and increasing use of computer networks, access control manufacturers remained conservative and did not rush to introduce network-enabled products. When pressed for solutions with network connectivity, many chose the option requiring less efforts: addition of a <a href="Terminal_server" title="Terminal server">terminal server</a>, a device that converts serial data for transmission via LAN or WAN. Advantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>Allows utilizing existing network infrastructure for connecting separate segments of the system.</li>
+<li>Provides convenient solution in cases when installation of an RS-485 line would be difficult or impossible.</li>
+</ul>
+<p>Disadvantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>Increases complexity of the system.</li>
+<li>Creates additional work for installers: usually terminal servers have to be configured independently, not through the interface of the access control software.</li>
+<li>Serial communication link between the controller and the terminal server acts as a bottleneck: even though the data between the host PC and the terminal server travels at the 10/100/1000Mbit/s network speed it then slows down to the serial speed of 112.5 kbit/s or less. There are also additional delays introduced in the process of conversion between serial and network data.</li>
+</ul>
+<p>All RS-485-related advantages and disadvantages also apply.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_IP_master.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Access_control_topologies_IP_master.png/220px-Access_control_topologies_IP_master.png" width="220" height="240" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Access_control_topologies_IP_master.png/330px-Access_control_topologies_IP_master.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/95/Access_control_topologies_IP_master.png/440px-Access_control_topologies_IP_master.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_IP_master.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control system using network-enabled main controllers</div>
+</div>
+</div>
+<p><b>5. Network-enabled main controllers.</b> The topology is nearly the same as described in the second and third paragraphs. The same advantages and disadvantages apply, but the on-board network interface offers a couple valuable improvements. Transmission of configuration and users to the main controllers is faster and may be done in parallel. This makes the system more responsive and does not interrupt normal operations. No special hardware is required in order to achieve redundant host PC setup: in case the primary host PC fails, the secondary host PC may start polling network controllers. The disadvantages introduced by terminal servers (listed in the fourth paragraph) are also eliminated.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_IP_controller.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Access_control_topologies_IP_controller.png/220px-Access_control_topologies_IP_controller.png" width="220" height="103" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Access_control_topologies_IP_controller.png/330px-Access_control_topologies_IP_controller.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Access_control_topologies_IP_controller.png/440px-Access_control_topologies_IP_controller.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_IP_controller.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control system using IP controllers</div>
+</div>
+</div>
+<p><b>6. <a href="IP_access_controller" title="IP access controller">IP controllers</a>.</b> Controllers are connected to a host PC via Ethernet LAN or WAN. Advantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>An existing network infrastructure is fully utilized, there is no need to install new communication lines.</li>
+<li>There are no limitations regarding the number of controllers (32 per line in case of RS-485).</li>
+<li>Special RS-485 installation, termination, grounding and troubleshooting knowledge is not required.</li>
+<li>Communication with controllers may be done at the full network speed, which is important if transferring a lot of data (databases with thousands of users, possibly including biometric records).</li>
+<li>In case of an alarm controllers may initiate connection to the host PC. This ability is important in large systems because it allows to reduce network traffic caused by unnecessary polling.</li>
+<li>Simplifies installation of systems consisting of multiple sites separated by large distances. Basic Internet link is sufficient to establish connections to remote locations.</li>
+<li>Wide selection of standard network equipment is available to provide connectivity in different situations (fiber, wireless, VPN, dual path, PoE)</li>
+</ul>
+<p>Disadvantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>The system becomes susceptible to network related problems, such as delays in case of heavy traffic and network equipment failures.</li>
+<li>Access controllers and workstations may become accessible to hackers if the network of the organization is not well protected. This threat may be eliminated by physically separating the access control network from the network of the organization. Also it should be noted that most IP controllers utilize either Linux platform or proprietary operating systems, which makes them more difficult to hack. Industry standard data encryption is also used.</li>
+<li>Maximum distance from a hub or a switch to the controller (if using a copper cable) is 100 meters (330&#160;ft).</li>
+<li>Operation of the system is dependent on the host PC. In case the host PC fails, events from controllers are not retrieved and functions that require interaction between controllers (i.e. anti-passback) stop working. Some controllers, however, have a peer-to-peer communication option in order to reduce dependency on the host PC.</li>
+</ul>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_IP_reader.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Access_control_topologies_IP_reader.png/220px-Access_control_topologies_IP_reader.png" width="220" height="81" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Access_control_topologies_IP_reader.png/330px-Access_control_topologies_IP_reader.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Access_control_topologies_IP_reader.png/440px-Access_control_topologies_IP_reader.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_topologies_IP_reader.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control system using IP readers</div>
+</div>
+</div>
+<p><b>7. <a href="IP_reader" title="IP reader">IP readers</a>.</b> Readers are connected to a host PC via Ethernet LAN or WAN. Advantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>Most IP readers are PoE capable. This feature makes it very easy to provide battery backed power to the entire system, including the locks and various types of detectors (if used).</li>
+<li>IP readers eliminate the need for controller enclosures.</li>
+<li>There is no wasted capacity when using IP readers (i.e. a 4-door controller would have 25% unused capacity if it was controlling only 3 doors).</li>
+<li>IP reader systems scale easily: there is no need to install new main or sub-controllers.</li>
+<li>Failure of one IP reader does not affect any other readers in the system.</li>
+</ul>
+<p>Disadvantages<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>In order to be used in high-security areas IP readers require special input/output modules to eliminate the possibility of intrusion by accessing lock and/or exit button wiring. Not all IP reader manufacturers have such modules available.</li>
+<li>Being more sophisticated than basic readers, IP readers are also more expensive and sensitive, therefore they should not be installed outdoors in areas with harsh weather conditions or high possibility of vandalism, unless specifically designed for exterior installation. A few manufacturers make such models.</li>
+</ul>
+<p>The advantages and disadvantages of IP controllers apply to the IP readers as well.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=8.php.html" title="Edit section: Security risks">edit</a>]</span> <span class="mw-headline" id="Security_risks">Security risks</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Access_control_door_wiring_io_module.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Access_control_door_wiring_io_module.png/220px-Access_control_door_wiring_io_module.png" width="220" height="226" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Access_control_door_wiring_io_module.png/330px-Access_control_door_wiring_io_module.png 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f2/Access_control_door_wiring_io_module.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Access_control_door_wiring_io_module.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Access control door wiring when using intelligent readers and IO module</div>
+</div>
+</div>
+<p>The most common security risk of intrusion of an access control system is simply following a legitimate user through a door. Often the legitimate user will hold the door for the intruder. This risk can be minimized through security awareness training of the user population or more active means such as turnstiles. In very high security applications this risk is minimized by using a sally port, sometimes called a security vestibule or mantrap where operator intervention is required presumably to assure valid identification.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>The second most common risk is from levering the door open. This is surprisingly simple and effective on most doors. The lever could be as small as a screw driver or big as a crow bar. Fully implemented access control systems include forced door monitoring alarms. These vary in effectiveness usually failing from high false positive alarms, poor database configuration, or lack of active intrusion monitoring.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Similar to levering is crashing through cheap partition walls. In shared tenant spaces the divisional wall is a vulnerability. Along the same lines is breaking sidelights.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Spoofing locking hardware is fairly simple and more elegant than levering. A strong magnet can operate the solenoid controlling bolts in electric locking hardware. Motor locks, more prevalent in Europe than in the US, are also susceptible to this attack using a donut shaped magnet. It is also possible to manipulate the power to the lock either by removing or adding current.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Access cards themselves have proven vulnerable to sophisticated attacks. Enterprising hackers have built portable readers that capture the card number from a user’s proximity card. The hacker simply walks by the user, reads the card, and then presents the number to a reader securing the door. This is possible because card numbers are sent in the clear, no encryption being used.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Finally, most electric locking hardware still have mechanical keys as a fail-over. Mechanical key locks are vulnerable to <a href="Lock_bumping" title="Lock bumping">bumping</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=9.php.html" title="Edit section: The need-to-know principle">edit</a>]</span> <span class="mw-headline" id="The_need-to-know_principle">The need-to-know principle</span></h4>
+<p>The need to know principle can be enforced with user access controls and authorization procedures and its objective is to ensure that only authorized individuals gain access to information or systems necessary to undertake their duties. See <a href="Principle_of_least_privilege" title="Principle of least privilege">Principle of least privilege</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=10.php.html" title="Edit section: Computer security">edit</a>]</span> <span class="mw-headline" id="Computer_security">Computer security</span></h2>
+<p>In <a href="Computer_security" title="Computer security">computer security</a>, general access control includes <a href="Authorization" title="Authorization">authorization</a>, <a href="Authentication" title="Authentication">authentication</a>, access approval and <a href="Audit_trail" title="Audit trail">audit</a>. A more narrow definition of access control is to only cover access approval, whereby the system makes a decision to grant or reject an access request from an already authenticated subject, based on what the subject is authorized to access. Authentication and access control are often combined into a single operation, so that access is approved based on successful authentication, or based on an anonymous access token. Authentication methods and tokens include <a href="Password" title="Password">passwords</a>, biometric scans, physical <a href="Lock_(device)" title="Lock (device)">keys</a>, electronic keys and devices, hidden paths, social barriers, and monitoring by humans and automated systems.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>In any access control model, the entities that can perform actions in the system are called <i>subjects</i>, and the entities representing resources to which access may need to be controlled are called <i>objects</i> (see also <a href="Access_Control_Matrix" title="Access Control Matrix">Access Control Matrix</a>). Subjects and objects should both be considered as software entities, rather than as human users: any human user can only have an effect on the system via the software entities that they control.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Although some systems equate subjects with <i>user&#160;IDs</i>, so that all processes started by a user by default have the same authority, this level of control is not fine-grained enough to satisfy the <a href="Principle_of_least_privilege" title="Principle of least privilege">Principle of least privilege</a>, and arguably is responsible for the prevalence of <a href="Malware" title="Malware">malware</a> in such systems (see <a href="Computer_insecurity" title="Computer insecurity">computer insecurity</a>).<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>In some models, for example the <a href="Object-capability_model" title="Object-capability model">object-capability model</a>, any software entity can potentially act as both a subject and object.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Access control models used by current systems tend to fall into one of two classes: those based on <a href="Capability-based_security" title="Capability-based security">capabilities</a> and those based on <a href="Access_control_lists" title="Access control lists" class="mw-redirect">access control lists</a> (ACLs). In a capability-based model, holding an unforgettable reference or <i>capability</i> to an object provides access to the object (roughly analogous to how possession of your house key grants you access to your house); access is conveyed to another party by transmitting such a capability over a secure channel. In an ACL-based model, a subject's access to an object depends on whether its identity is on a list associated with the object (roughly analogous to how a bouncer at a private party would check your ID to see if your name is on the guest list); access is conveyed by editing the list. (Different ACL systems have a variety of different conventions regarding who or what is responsible for editing the list and how it is edited.)<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Both capability-based and ACL-based models have mechanisms to allow access rights to be granted to all members of a <i>group</i> of subjects (often the group is itself modeled as a subject).<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Access control systems provide the essential services of <i>authorization</i>, <i>identification and authentication</i> (<i>I&amp;A</i>), <i>access approval</i>, and <i>accountability</i> where<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li>authorization is to specify what a subject can do;</li>
+<li>identification and authentication enforces that only legitimate subjects can log on to a system;</li>
+<li>access approval is to grant access during operations, by association of users with the resources that they are allowed to access based on the authorization policy;</li>
+<li>accountability identifies what a subject (or all subjects associated with a user) did.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=11.php.html" title="Edit section: Authorization">edit</a>]</span> <span class="mw-headline" id="Authorization">Authorization</span></h3>
+<p><a href="Authorization" title="Authorization">Authorization</a> is act of defining access rights for subjects. An authorization policy specifies the operations that subjects are allowed to execute on the system.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Most modern operating systems implement authorization policies as formal sets of permissions that are variations or extensions of three basic types of access:<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<ul>
+<li>Read (R): The subject can
+<ul>
+<li>Read file contents</li>
+<li>List directory contents</li>
+</ul>
+</li>
+<li>Write (W): The subject can change the contents of a file or directory with the following tasks:
+<ul>
+<li>Add</li>
+<li>Create</li>
+<li>Delete</li>
+<li>Rename</li>
+</ul>
+</li>
+<li>Execute (X): If the file is a program, the subject can cause the program to be run. (In Unix systems, the 'execute' permission doubles as a 'traverse directory' permission when granted for a directory.)</li>
+</ul>
+<p>These rights and permissions are implemented differently in systems based on <i><a href="Discretionary_access_control" title="Discretionary access control">discretionary access control</a></i> (<i>DAC</i>) and <i><a href="Mandatory_access_control" title="Mandatory access control">mandatory access control</a></i> (<i>MAC</i>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=12.php.html" title="Edit section: Identification and authentication (I&amp;A)">edit</a>]</span> <span class="mw-headline" id="Identification_and_authentication_.28I.26A.29">Identification and authentication (I&amp;A)</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Authentication" title="Authentication">Authentication</a></div>
+<p>Identification and authentication (I&amp;A) is the process of verifying that an identity is bound to the entity that makes an assertion or claim of identity. The I&amp;A process assumes that there was an initial validation of the identity, commonly called identity proofing. Various methods of identity proofing are available ranging from in person validation using government issued identification to anonymous methods that allow the claimant to remain anonymous, but known to the system if they return. The method used for identity proofing and validation should provide an assurance level commensurate with the intended use of the identity within the system. Subsequently, the entity asserts an identity together with an authenticator as a means for validation. The only requirements for the identifier is that it must be unique within its security domain.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Authenticators are commonly based on at least one of the following four factors<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>:</p>
+<ul>
+<li><i>Something you know</i>, such as a password or a personal identification number (PIN). This assumes that only the owner of the account knows the password or PIN needed to access the account.</li>
+<li><i>Something you have</i>, such as a <a href="Smart_card" title="Smart card">smart card</a> or <a href="Security_token" title="Security token">security token</a>. This assumes that only the owner of the account has the necessary smart card or token needed to unlock the account.</li>
+<li><i>Something you are</i>, such as fingerprint, voice, retina, or iris characteristics.</li>
+<li><i>Where you are</i>, for example inside or outside a company firewall, or proximity of login location to a personal GPS device.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=13.php.html" title="Edit section: Access Approval">edit</a>]</span> <span class="mw-headline" id="Access_Approval">Access Approval</span></h3>
+<p>Access approval is the function that actually grants or rejects access during operations <sup id="cite_ref-Gollmann-2011_2-0" class="reference"><a href="#cite_note-Gollmann-2011-2"><span>[</span>2<span>]</span></a></sup>).</p>
+<p>During access approval the system compares the formal representation of the authorization policy with the access request to determine whether the request shall be granted or rejected.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=14.php.html" title="Edit section: Accountability">edit</a>]</span> <span class="mw-headline" id="Accountability">Accountability</span></h3>
+<p>Accountability uses such system components as <i>audit trails</i> (records) and <i>logs</i> to associate a subject with its actions. The information recorded should be sufficient to map the subject to a controlling user. Audit trails and logs are important for<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<ul>
+<li>Detecting security violations</li>
+<li>Re-creating security incidents</li>
+</ul>
+<p>If no one is regularly reviewing your logs and they are not maintained in a secure and consistent manner, they may not be admissible as evidence.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>Many systems can generate automated reports based on certain predefined criteria or thresholds, known as clipping levels<i>. For example, a clipping level may be set to generate a report for the following:<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></i></p>
+<ul>
+<li>More than three failed logon attempts in a given period</li>
+<li>Any attempt to use a disabled user account</li>
+</ul>
+<p>These reports help a system administrator or security administrator to more easily identify possible break-in attempts.</p>
+<p>Definition of: clipping level <a rel="nofollow" class="external autonumber" href="http://www.pcmag.com/encyclopedia_term/0,2542,t=clipping+level&i=39821,00.asp">[1]</a> A disk's ability to maintain its magnetic properties and hold its content. A high-quality level range is 65-70%; low quality is below 55%.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=15.php.html" title="Edit section: Access control models">edit</a>]</span> <span class="mw-headline" id="Access_control_models">Access control models</span></h3>
+<p>Access control models are sometimes categorized as either discretionary or non-discretionary. The three most widely recognized models are Discretionary Access Control (DAC), Mandatory Access Control (MAC), and Role Based Access Control (RBAC). MAC is non-discretionary.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=16.php.html" title="Edit section: Attribute-based access control">edit</a>]</span> <span class="mw-headline" id="Attribute-based_access_control">Attribute-based access control</span></h4>
+<p>In <a href="Attribute_Based_Access_Control" title="Attribute Based Access Control">attribute-based access control</a> (ABAC), access is granted not based on the rights of the subject associated with a user after authentication, but based on attributes of the user. The user has to prove so called claims about his attributes to the access control engine. An attribute-based access control policy specifies which claims need to be satisfied in order to grant access to an object. For instance the claim could be "older than 18" . Any user that can prove this claim is granted access. Users can be anonymous as authentication and identification are not strictly required. One does however require means for proving claims anonymously. This can for instance be achieved using <a href="Digital_credential#Anonymous_digital_credentials" title="Digital credential">anonymous credentials</a><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup>. <a href="XACML" title="XACML">XACML</a> (extensible access control markup language) is a standard for attribute-based access control. XACML 3.0 was standardized in January 2013.<sup id="cite_ref-xacml30standard_3-0" class="reference"><a href="#cite_note-xacml30standard-3"><span>[</span>3<span>]</span></a></sup></p>
+<h4><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=17.php.html" title="Edit section: Discretionary access control">edit</a>]</span> <span class="mw-headline" id="Discretionary_access_control">Discretionary access control</span></h4>
+<p><a href="Discretionary_access_control" title="Discretionary access control">Discretionary access control</a> (DAC) is a policy determined by the owner of an object. The owner decides who is allowed to access the object and what privileges they have.</p>
+<p>Two important concepts in DAC are<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<ul>
+<li>File and data ownership: Every object in the system has an <i>owner</i>. In most DAC systems, each object's initial owner is the subject that caused it to be created. The access policy for an object is determined by its owner.</li>
+<li>Access rights and permissions: These are the controls that an owner can assign to other subjects for specific resources.</li>
+</ul>
+<p>Access controls may be discretionary in <a href="Access_control_list" title="Access control list">ACL-based</a> or <a href="Capability-based_security" title="Capability-based security">capability-based</a> access control systems. (In capability-based systems, there is usually no explicit concept of 'owner', but the creator of an object has a similar degree of control over its access policy.)</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=18.php.html" title="Edit section: Mandatory access control">edit</a>]</span> <span class="mw-headline" id="Mandatory_access_control">Mandatory access control</span></h4>
+<p><a href="Mandatory_access_control" title="Mandatory access control">Mandatory access control</a> refers to allowing access to a resource if and only if rules exist that allow a given user to access the resource. It is difficult to manage but its use is usually justified when used to protect highly sensitive information. Examples include certain government and military information. Management is often simplified (over what can be required) if the information can be protected using hierarchical access control, or by implementing sensitivity labels. What makes the method "mandatory" is the use of either rules or sensitivity labels.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<ul>
+<li>Sensitivity labels: In such a system subjects and objects must have labels assigned to them. A subject's sensitivity label specifies its level of trust. An object's sensitivity label specifies the level of trust required for access. In order to access a given object, the subject must have a sensitivity level equal to or higher than the requested object.</li>
+<li>Data import and export: Controlling the import of information from other systems and export to other systems (including printers) is a critical function of these systems, which must ensure that sensitivity labels are properly maintained and implemented so that sensitive information is appropriately protected at all times.</li>
+</ul>
+<p>Two methods are commonly used for applying mandatory access control:<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<ul>
+<li><a href="../../w/index-title=Rule-based_access_control&action=edit&redlink=1.php.html" class="new" title="Rule-based access control (page does not exist)">Rule-based</a> (or label-based) access control: This type of control further defines specific conditions for access to a requested object. A Mandatory Access Control system implements a simple form of rule-based access control to determine whether access should be granted or denied by matching:
+<ul>
+<li>An object's sensitivity label</li>
+<li>A subject's sensitivity label</li>
+</ul>
+</li>
+<li><a href="Lattice-based_access_control" title="Lattice-based access control">Lattice-based access control</a>: These can be used for complex access control decisions involving multiple objects and/or subjects. A lattice model is a mathematical structure that defines greatest lower-bound and least upper-bound values for a pair of elements, such as a subject and an object.</li>
+</ul>
+<p>Few systems implement MAC; <a href="XTS-400" title="XTS-400">XTS-400</a> and <a href="SELinux" title="SELinux" class="mw-redirect">SELinux</a> are examples of systems that do. The computer system at the company in the film <i><a href="Tron" title="Tron">Tron</a></i> is an example from the prior century.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=19.php.html" title="Edit section: Role-based access control">edit</a>]</span> <span class="mw-headline" id="Role-based_access_control">Role-based access control</span></h4>
+<p><a href="Role-based_access_control" title="Role-based access control">Role-based access control</a> (RBAC) is an access policy determined by the system, not the owner. RBAC is used in commercial applications and also in military systems, where multi-level security requirements may also exist. RBAC differs from DAC in that DAC allows users to control access to their resources, while in RBAC, access is controlled at the system level, outside of the user's control. Although RBAC is non-discretionary, it can be distinguished from MAC primarily in the way permissions are handled. MAC controls read and write permissions based on a user's clearance level and additional labels. RBAC controls collections of permissions that may include complex operations such as an e-commerce transaction, or may be as simple as read or write. A role in RBAC can be viewed as a set of permissions.</p>
+<p>Three primary rules are defined for RBAC:</p>
+<ol>
+<li>Role assignment: A subject can execute a transaction only if the subject has selected or been assigned a role.</li>
+<li>Role authorization: A subject's active role must be authorized for the subject. With rule 1 above, this rule ensures that users can take on only roles for which they are authorized.</li>
+<li>Transaction authorization: A subject can execute a transaction only if the transaction is authorized for the subject's active role. With rules 1 and 2, this rule ensures that users can execute only transactions for which they are authorized.</li>
+</ol>
+<p>Additional constraints may be applied as well, and roles can be combined in a hierarchy where higher-level roles subsume permissions owned by sub-roles.</p>
+<p>Most IT vendors offer RBAC in one or more products.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=20.php.html" title="Edit section: Telecommunication">edit</a>]</span> <span class="mw-headline" id="Telecommunication">Telecommunication</span></h2>
+<p>In <a href="Telecommunication" title="Telecommunication">telecommunication</a>, the term <i>access control</i> is defined in U.S. <a href="Federal_Standard_1037C" title="Federal Standard 1037C">Federal Standard 1037C</a><sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> with the following meanings:</p>
+<ol>
+<li>A <a href="Service_feature" title="Service feature" class="mw-redirect">service feature</a> or technique used to permit or deny use of the components of a communication <a href="System" title="System">system</a>.</li>
+<li>A technique used to define or restrict the rights of individuals or application programs to obtain <a href="Data" title="Data">data</a> from, or place data onto, a <a href="Data_storage_device" title="Data storage device">storage device</a>.</li>
+<li>The definition or restriction of the rights of individuals or application programs to obtain data from, or place data into, a <a href="Data_storage_device" title="Data storage device">storage device</a>.</li>
+<li>The process of limiting access to the resources of an <a href="Automated_information_system" title="Automated information system">AIS</a> to authorized users, programs, processes, or other systems.</li>
+<li>That function performed by the resource controller that allocates system resources to satisfy <a href="User_(telecommunications)" title="User (telecommunications)">user</a> requests.</li>
+</ol>
+<p>This definition depends on several other technical terms from Federal Standard 1037C.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=21.php.html" title="Edit section: Public policy">edit</a>]</span> <span class="mw-headline" id="Public_policy">Public policy</span></h2>
+<p>In <a href="Policy" title="Policy">public policy</a>, access control to restrict access to systems ("<a href="Authorization" title="Authorization">authorization</a>") or to track or monitor behavior within systems ("<a href="Accountability" title="Accountability">accountability</a>") is an implementation feature of using <a href="Trusted_systems" title="Trusted systems" class="mw-redirect">trusted systems</a> for <a href="Security" title="Security">security</a> or <a href="Social_control" title="Social control">social control</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=22.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<table class="multicol" style="border-collapse: collapse; padding: 0px; border: 0px; background:transparent; width:100%;">
+<tr>
+<td align="left" valign="top">
+<ul>
+<li><a href="Access_badge" title="Access badge">Access badge</a></li>
+<li><a href="Alarm_devices" title="Alarm devices" class="mw-redirect">Alarm devices</a></li>
+<li><a href="Alarm_management" title="Alarm management">Alarm management</a></li>
+<li><a href="Bank_vault" title="Bank vault">Bank vault</a></li>
+<li><a href="Biometrics" title="Biometrics">Biometrics</a></li>
+<li><a href="Burglar_alarm" title="Burglar alarm">Burglar alarm</a></li>
+<li><a href="Card_reader" title="Card reader">Card reader</a></li>
+<li><a href="Castle" title="Castle">Castle</a></li>
+<li><a href="Common_Access_Card" title="Common Access Card">Common Access Card</a></li>
+<li><a href="Computer_security" title="Computer security">Computer security</a></li>
+<li><a href="Credential" title="Credential">Credential</a></li>
+<li><a href="Door_security" title="Door security">Door security</a></li>
+<li><a href="Electronic_lock" title="Electronic lock">Electronic lock</a></li>
+<li><a href="Fortification" title="Fortification">Fortification</a></li>
+</ul>
+</td>
+<td align="left" valign="top">
+<ul>
+<li><a href="Htaccess" title="Htaccess" class="mw-redirect">Htaccess</a></li>
+<li><a href="Identity_management" title="Identity management">Identity management</a></li>
+<li><a href="ID_Card" title="ID Card" class="mw-redirect">ID Card</a></li>
+<li><a href="IP_access_controller" title="IP access controller">IP Controller</a></li>
+<li><a href="IP_reader" title="IP reader">IP reader</a></li>
+<li><a href="Key_(lock)#key_card" title="Key (lock)">Key cards</a></li>
+<li><a href="Key_management" title="Key management">key management</a></li>
+<li><a href="Lock_smithing" title="Lock smithing" class="mw-redirect">Lock smithing</a></li>
+<li><a href="Lock_picking" title="Lock picking">Lock picking</a></li>
+<li><a href="Logical_security" title="Logical security">Logical security</a></li>
+<li><a href="Magnetic_stripe_card" title="Magnetic stripe card">Magnetic stripe card</a></li>
+<li><a href="Mantrap" title="Mantrap">Mantrap</a></li>
+<li><a href="Optical_turnstile" title="Optical turnstile">Optical turnstile</a></li>
+<li><a href="Photo_identification" title="Photo identification">Photo identification</a></li>
+<li><a href="Physical_Security_Professional" title="Physical Security Professional">Physical Security Professional</a></li>
+</ul>
+</td>
+<td align="left" valign="top">
+<ul>
+<li><a href="Prison" title="Prison">Prison</a></li>
+<li><a href="Proximity_card" title="Proximity card">Proximity card</a></li>
+<li><a href="Razor_wire" title="Razor wire" class="mw-redirect">Razor wire</a></li>
+<li><a href="Safe" title="Safe">Safe</a></li>
+<li><a href="Safe-cracking" title="Safe-cracking">Safe-cracking</a></li>
+<li><a href="Security" title="Security">Security</a></li>
+<li><a href="Security_engineering" title="Security engineering">Security engineering</a></li>
+<li><a href="Security_lighting" title="Security lighting">Security lighting</a></li>
+<li><a href="Security_Management" title="Security Management" class="mw-redirect">Security Management</a></li>
+<li><a href="Security_policy" title="Security policy">Security policy</a></li>
+<li><a href="Smart_card" title="Smart card">Smart card</a></li>
+<li><a href="Swipe_card" title="Swipe card" class="mw-redirect">Swipe card</a></li>
+<li><a href="Wiegand_effect" title="Wiegand effect">Wiegand effect</a></li>
+<li><a href="XACML" title="XACML">XACML</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=23.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web">Federal Financial Institutions Examination Council (2008). <a rel="nofollow" class="external text" href="http://www.ffiec.gov/pdf/authentication_guidance.pdf">"Authentication in an Internet Banking Environment"</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.ffiec.gov/pdf/authentication_guidance.pdf">http://www.ffiec.gov/pdf/authentication_guidance.pdf</a></span><span class="reference-accessdate">. Retrieved 2009-12-31</span>.</span></span></li>
+<li id="cite_note-Gollmann-2011-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-Gollmann-2011_2-0">^</a></b></span> <span class="reference-text">Dieter Gollmann. Computer Security, 3rd ed. Wiley Publishing, 2011, p.&#160;387, bottom</span></li>
+<li id="cite_note-xacml30standard-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-xacml30standard_3-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://lists.oasis-open.org/archives/xacml/201301/msg00017.html">eXtensible Access Control Markup Language (XACML) V3.0 approved as an OASIS Standard</a>, eXtensible Access Control Markup Language (XACML) V3.0 approved as an OASIS Standard.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.its.bldrdoc.gov/fs-1037/other/a.pdf">http://www.its.bldrdoc.gov/fs-1037/other/a.pdf</a></span></li>
+</ol>
+</div>
+<ul>
+<li>U.S. <a href="Federal_Standard_1037C" title="Federal Standard 1037C">Federal Standard 1037C</a></li>
+<li>U.S. <a href="MIL-STD-188" title="MIL-STD-188">MIL-STD-188</a></li>
+<li>U.S. <a href="National_Information_Systems_Security_Glossary" title="National Information Systems Security Glossary" class="mw-redirect">National Information Systems Security Glossary</a></li>
+<li>Harris, Shon, All-in-one CISSP Exam Guide, 6th Edition, McGraw Hill Osborne, Emeryville, California, 2012.</li>
+<li>"Integrated Security Systems Design" - Butterworth/Heinenmann - 2007 - Thomas L. Norman, CPP/PSP/CSC Author</li>
+<li><a rel="nofollow" class="external text" href="http://www.gosac-n.org">Government Open Source Access Control—Next Generation (GOSAC-N)</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Access_control&action=edit&section=24.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://xml.coverpages.org/xacml.html">eXtensible Access Control Markup Language.</a> An OASIS standard language/model for access control. Also <a href="XACML" title="XACML">XACML</a>.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 23941/1000000
+Preprocessor generated node count: 19381/1500000
+Post-expand include size: 179157/2048000 bytes
+Template argument size: 79400/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 51/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:40684-0!*!0!!en!4!* and timestamp 20130206131957 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Access_control&oldid=536869802.php.html">http://en.wikipedia.org/w/index.php?title=Access_control&amp;oldid=536869802</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Access_control" title="Category:Access control">Access control</a></li><li><a href="Category_Identity_management" title="Category:Identity management">Identity management</a></li><li><a href="Category_Computer_security" title="Category:Computer security">Computer security</a></li><li><a href="Category_Perimeter_security" title="Category:Perimeter security">Perimeter security</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_lacking_in-text_citations_from_February_2012" title="Category:Articles lacking in-text citations from February 2012">Articles lacking in-text citations from February 2012</a></li><li><a href="Category_All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_February_2012" title="Category:Articles with unsourced statements from February 2012">Articles with unsourced statements from February 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Access+control&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Access+control.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Access_control"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Access_control&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Access_control&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Access_control" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Access_control" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Access_control&oldid=536869802.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Access_control&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Access_control&id=536869802.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Access+control.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Access+control&oldid=536869802&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Access_control&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%B7%D8%B1%D8%A9_%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84" title="سيطرة الوصول" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B8_%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B2" title="এক্সেস কন্ট্রোল" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Control_d'acc%C3%A9s" title="Control d'accés" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Zugriffskontrolle" title="Zugriffskontrolle" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%DA%A9%D9%86%D8%AA%D8%B1%D9%84_%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C" title="کنترل دسترسی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Contr%C3%B4le_d'acc%C3%A8s" title="Contrôle d'accès" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%A0%91%EA%B7%BC_%EC%A0%9C%EC%96%B4" title="접근 제어" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Pengaturan_akses" title="Pengaturan akses" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D2%9A%D0%B0%D1%82%D1%8B%D0%BD%D0%B0%D1%81_%D2%9B%D2%B1%D1%80%D1%83%D0%B4%D1%8B_%D0%B1%D0%B0%D2%9B%D1%8B%D0%BB%D0%B0%D1%83" title="Қатынас құруды бақылау" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Toegangscontrole" title="Toegangscontrole" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E5%88%B6%E5%BE%A1" title="アクセス制御" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Adgangskontroll" title="Adgangskontroll" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Kontrola_dost%C4%99pu" title="Kontrola dostępu" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Controle_de_acesso" title="Controle de acesso" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F_%D0%B8_%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC" title="Система контроля и управления доступом" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Kontrolli_i_hyrjes" title="Kontrolli i hyrjes" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Access_control" title="Access control" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/%C3%85tkomstkontroll" title="Åtkomstkontroll" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%90%D0%B2%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_(%D0%B2%D0%B5%D0%B1)" title="Автентифікація (веб)" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%B1%D8%B3%D8%A7%D8%A6%DB%8C_%D8%A7%D9%86%D8%B6%D8%A8%D8%A7%D8%B7" title="رسائی انضباط" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/%C4%90i%E1%BB%81u_khi%E1%BB%83n_truy_c%E1%BA%ADp" title="Điều khiển truy cập" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6" title="存取控制" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 6 February 2013 at 13:19.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Access_control" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1109 in 0.155 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

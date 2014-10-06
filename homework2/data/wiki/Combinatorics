@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Combinatorics - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Combinatorics&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Combinatorics&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Combinatorics","wgTitle":"Combinatorics","wgCurRevisionId":538035580,"wgArticleId":5170,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Combinatorics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Combinatorics","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"ba075775f3d0d87bae59ec5dd5cde8d5","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":5170,"title":"Combinatorics","namespace":0,"categories":["Combinatorics"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Combinatorics skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Combinatorics</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Combinatoriality" title="Combinatoriality">combinatoriality</a>.</div>
+<p><b>Combinatorics</b> is a branch of <a href="Mathematics" title="Mathematics">mathematics</a> concerning the study of finite or <a href="Countable_set" title="Countable set">countable</a> <a href="Discrete_mathematics" title="Discrete mathematics">discrete</a> <a href="Mathematical_structure" title="Mathematical structure">structures</a>. Aspects of combinatorics include counting the structures of a given kind and size (<a href="Enumerative_combinatorics" title="Enumerative combinatorics">enumerative combinatorics</a>), deciding when certain criteria can be met, and constructing and analyzing objects meeting the criteria (as in <a href="Combinatorial_design" title="Combinatorial design">combinatorial designs</a> and <a href="Matroid" title="Matroid">matroid</a> theory), finding "largest", "smallest", or "optimal" objects (<a href="Extremal_combinatorics" title="Extremal combinatorics">extremal combinatorics</a> and <a href="Combinatorial_optimization" title="Combinatorial optimization">combinatorial optimization</a>), and studying combinatorial structures arising in an <a href="Algebra" title="Algebra">algebraic</a> context, or applying algebraic techniques to combinatorial problems (<a href="Algebraic_combinatorics" title="Algebraic combinatorics">algebraic combinatorics</a>).</p>
+<p>Combinatorial problems arise in many areas of pure mathematics, notably in <a href="Algebra" title="Algebra">algebra</a>, <a href="Probability_theory" title="Probability theory">probability theory</a>, <a href="Topology" title="Topology">topology</a>, and <a href="Geometry" title="Geometry">geometry</a>,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> and combinatorics also has many applications in <a href="Optimization_(mathematics)" title="Optimization (mathematics)" class="mw-redirect">optimization</a>, <a href="Computer_science" title="Computer science">computer science</a>, <a href="Ergodic_theory" title="Ergodic theory">ergodic theory</a> and <a href="Statistical_physics" title="Statistical physics">statistical physics</a>. Many combinatorial questions have historically been considered in isolation, giving an <i>ad hoc</i> solution to a problem arising in some mathematical context. In the later twentieth century, however, powerful and general theoretical methods were developed, making combinatorics into an independent branch of mathematics in its own right. One of the oldest and most accessible parts of combinatorics is <a href="Graph_theory" title="Graph theory">graph theory</a>, which also has numerous natural connections to other areas. Combinatorics is used frequently in <a href="Computer_science" title="Computer science">computer science</a> to obtain formulas and estimates in the <a href="Analysis_of_algorithms" title="Analysis of algorithms">analysis of algorithms</a>.</p>
+<p>A <a href="Mathematician" title="Mathematician">mathematician</a> who studies combinatorics is called a <i>combinatorialist</i>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Approaches_and_subfields_of_combinatorics"><span class="tocnumber">2</span> <span class="toctext">Approaches and subfields of combinatorics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Enumerative_combinatorics"><span class="tocnumber">2.1</span> <span class="toctext">Enumerative combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Analytic_combinatorics"><span class="tocnumber">2.2</span> <span class="toctext">Analytic combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Partition_theory"><span class="tocnumber">2.3</span> <span class="toctext">Partition theory</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Graph_theory"><span class="tocnumber">2.4</span> <span class="toctext">Graph theory</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Design_theory"><span class="tocnumber">2.5</span> <span class="toctext">Design theory</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Finite_geometry"><span class="tocnumber">2.6</span> <span class="toctext">Finite geometry</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Order_theory"><span class="tocnumber">2.7</span> <span class="toctext">Order theory</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Matroid_theory"><span class="tocnumber">2.8</span> <span class="toctext">Matroid theory</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Extremal_combinatorics"><span class="tocnumber">2.9</span> <span class="toctext">Extremal combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Probabilistic_combinatorics"><span class="tocnumber">2.10</span> <span class="toctext">Probabilistic combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Algebraic_combinatorics"><span class="tocnumber">2.11</span> <span class="toctext">Algebraic combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Combinatorics_on_words"><span class="tocnumber">2.12</span> <span class="toctext">Combinatorics on words</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Geometric_combinatorics"><span class="tocnumber">2.13</span> <span class="toctext">Geometric combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Topological_combinatorics"><span class="tocnumber">2.14</span> <span class="toctext">Topological combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Arithmetic_combinatorics"><span class="tocnumber">2.15</span> <span class="toctext">Arithmetic combinatorics</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Infinitary_combinatorics"><span class="tocnumber">2.16</span> <span class="toctext">Infinitary combinatorics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Related_fields"><span class="tocnumber">3</span> <span class="toctext">Related fields</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Combinatorial_optimization"><span class="tocnumber">3.1</span> <span class="toctext">Combinatorial optimization</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Coding_theory"><span class="tocnumber">3.2</span> <span class="toctext">Coding theory</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Discrete_and_computational_geometry"><span class="tocnumber">3.3</span> <span class="toctext">Discrete and computational geometry</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Combinatorics_and_dynamical_systems"><span class="tocnumber">3.4</span> <span class="toctext">Combinatorics and dynamical systems</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Combinatorics_and_physics"><span class="tocnumber">3.5</span> <span class="toctext">Combinatorics and physics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#Notes"><span class="tocnumber">5</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-28"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Plain-bob-minor_2.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Plain-bob-minor_2.png/150px-Plain-bob-minor_2.png" width="150" height="234" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Plain-bob-minor_2.png/225px-Plain-bob-minor_2.png 1.5x, //upload.wikimedia.org/wikipedia/commons/0/0b/Plain-bob-minor_2.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Plain-bob-minor_2.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An example of <a href="Change_ringing" title="Change ringing">change ringing</a> (with six bells), one of the earliest nontrivial results in Graph Theory.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="History_of_combinatorics" title="History of combinatorics">History of combinatorics</a></div>
+<p>Basic combinatorial concepts and enumerative results appeared throughout the <a href="Ancient_history" title="Ancient history">ancient world</a>. In 6th century BCE, <a href="Physician" title="Physician">physician</a> <a href="Sushruta" title="Sushruta" class="mw-redirect">Sushruta</a> asserts in <a href="Sushruta_Samhita" title="Sushruta Samhita">Sushruta Samhita</a> that 63 combinations can be made out of 6 different tastes, taken one at a time, two at a time, etc., thus computing all 2<sup>6</sup>-1 possibilities. <a href="Ancient_Greece" title="Ancient Greece">Greek</a> <a href="Historian" title="Historian">historian</a> <a href="Plutarch" title="Plutarch">Plutarch</a> discusses an argument between <a href="Chrysippus" title="Chrysippus">Chrysippus</a> (3rd century BCE) and <a href="Hipparchus" title="Hipparchus">Hipparchus</a> (2nd century BCE) of a rather delicate enumerative problem, which was later shown to be related to <a href="Schr%C3%B6der_number" title="Schröder number">Schröder numbers</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> In the <i><a href="Ostomachion" title="Ostomachion">Ostomachion</a></i>, <a href="Archimedes" title="Archimedes">Archimedes</a> (3rd century BCE) considers a <a href="Tiling_puzzle" title="Tiling puzzle">tiling puzzle</a>.</p>
+<p>In the <a href="Middle_Ages" title="Middle Ages">Middle Ages</a>, combinatorics continued to be studied, largely outside of the <a href="European_civilization" title="European civilization">European civilization</a>. The <a href="India" title="India">Indian</a> mathematician <a href="Mah%C4%81v%C4%ABra_(mathematician)" title="Mahāvīra (mathematician)">Mahāvīra</a> (c. 850) provided formulae for the number of permutations and combinations,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> and these formulas may have been familiar to Indian mathematicians as early as the 6th century CE.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> The <a href="Philosopher" title="Philosopher">philosopher</a> and <a href="Astronomer" title="Astronomer">astronomer</a> Rabbi <a href="Abraham_ibn_Ezra" title="Abraham ibn Ezra">Abraham ibn Ezra</a> (c. 1140) established the symmetry of <a href="Binomial_coefficient" title="Binomial coefficient">binomial coefficients</a>, while a closed formula was obtained later by the <a href="Talmudist" title="Talmudist" class="mw-redirect">talmudist</a> and <a href="Mathematician" title="Mathematician">mathematician</a> <a href="Levi_ben_Gerson" title="Levi ben Gerson" class="mw-redirect">Levi ben Gerson</a> (better known as Gersonides), in 1321.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> The arithmetical triangle— a graphical diagram showing relationships among the binomial coefficients— was presented by mathematicians in treatises dating as far back as the 10th century, and would eventually become known as <a href="Pascal's_triangle" title="Pascal's triangle">Pascal's triangle</a>. Later, in <a href="Medieval_England" title="Medieval England" class="mw-redirect">Medieval England</a>, <a href="Campanology" title="Campanology">campanology</a> provided examples of what is now known as <a href="Hamiltonian_cycle" title="Hamiltonian cycle" class="mw-redirect">Hamiltonian cycles</a> in certain <a href="Cayley_graph" title="Cayley graph">Cayley graphs</a> on permutations.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>During the <a href="Renaissance" title="Renaissance">Renaissance</a>, together with the rest of mathematics and the <a href="Science" title="Science">sciences</a>, combinatorics enjoyed a rebirth. Works of <a href="Blaise_Pascal" title="Blaise Pascal">Pascal</a>, <a href="Isaac_Newton" title="Isaac Newton">Newton</a>, <a href="Jacob_Bernoulli" title="Jacob Bernoulli">Jacob Bernoulli</a> and <a href="Leonard_Euler" title="Leonard Euler" class="mw-redirect">Euler</a> became foundational in the emerging field. In the modern times, the works by <a href="James_Joseph_Sylvester" title="James Joseph Sylvester">J. J. Sylvester</a> (late 19th century) and <a href="Percy_Alexander_MacMahon" title="Percy Alexander MacMahon">Percy MacMahon</a> (early 20th century) laid the foundation for <a href="Enumerative_combinatorics" title="Enumerative combinatorics">enumerative</a> and <a href="Algebraic_combinatorics" title="Algebraic combinatorics">algebraic combinatorics</a>. <a href="Graph_theory" title="Graph theory">Graph theory</a> also enjoyed an explosion of interest at the same time, especially in connection with the <a href="Four_color_problem" title="Four color problem" class="mw-redirect">four color problem</a>.</p>
+<p>In the second half of 20th century, combinatorics enjoyed a rapid growth, which led to establishment of dozens of new journals and conferences in the subject.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> In part, the growth was spurred by new connections and applications to other fields, ranging from algebra to probability, from functional analysis to number theory, etc. These connections shed the boundaries between combinatorics and parts of mathematics and theoretical computer science, but at the same time led to a partial fragmentation of the field.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=2.php.html" title="Edit section: Approaches and subfields of combinatorics">edit</a>]</span> <span class="mw-headline" id="Approaches_and_subfields_of_combinatorics">Approaches and subfields of combinatorics</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=3.php.html" title="Edit section: Enumerative combinatorics">edit</a>]</span> <span class="mw-headline" id="Enumerative_combinatorics">Enumerative combinatorics</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:322px;"><a href="http://en.wikipedia.org/wiki/File:Catalan_4_leaves_binary_tree_example.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Catalan_4_leaves_binary_tree_example.svg/320px-Catalan_4_leaves_binary_tree_example.svg.png" width="320" height="44" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Catalan_4_leaves_binary_tree_example.svg/480px-Catalan_4_leaves_binary_tree_example.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Catalan_4_leaves_binary_tree_example.svg/640px-Catalan_4_leaves_binary_tree_example.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Catalan_4_leaves_binary_tree_example.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Five <a href="Binary_tree" title="Binary tree">binary trees</a> on three <a href="Vertex_(graph_theory)" title="Vertex (graph theory)">vertices</a>, an example of <a href="Catalan_number" title="Catalan number">Catalan numbers</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Enumerative_combinatorics" title="Enumerative combinatorics">Enumerative combinatorics</a></div>
+<p>Enumerative combinatorics is the most classical area of combinatorics, and concentrates on counting the number of certain combinatorial objects. Although counting the number of elements in a set is a rather broad <a href="Mathematical_problem" title="Mathematical problem">mathematical problem</a>, many of the problems that arise in applications have a relatively simple combinatorial description. <a href="Fibonacci_numbers" title="Fibonacci numbers" class="mw-redirect">Fibonacci numbers</a> is the basic example of a problem in enumerative combinatorics. The <a href="Twelvefold_way" title="Twelvefold way">twelvefold way</a> provides a unified framework for counting <a href="Permutations" title="Permutations" class="mw-redirect">permutations</a>, <a href="Combinations" title="Combinations" class="mw-redirect">combinations</a> and <a href="Partition_of_a_set" title="Partition of a set">partitions</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=4.php.html" title="Edit section: Analytic combinatorics">edit</a>]</span> <span class="mw-headline" id="Analytic_combinatorics">Analytic combinatorics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Analytic_combinatorics" title="Analytic combinatorics">Analytic combinatorics</a></div>
+<p>Analytic combinatorics concerns the enumeration of combinatorial structures using tools from <a href="Complex_analysis" title="Complex analysis">complex analysis</a> and <a href="Probability_theory" title="Probability theory">probability theory</a>. In contrast with enumerative combinatorics which uses explicit combinatorial formulae and <a href="Generating_functions" title="Generating functions" class="mw-redirect">generating functions</a> to describe the results, analytic combinatorics aims at obtaining <a href="Asymptotic_analysis" title="Asymptotic analysis">asymptotic formulae</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=5.php.html" title="Edit section: Partition theory">edit</a>]</span> <span class="mw-headline" id="Partition_theory">Partition theory</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Partition3D.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Partition3D.svg/150px-Partition3D.svg.png" width="150" height="113" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/14/Partition3D.svg/225px-Partition3D.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/14/Partition3D.svg/300px-Partition3D.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Partition3D.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="Plane_partition" title="Plane partition">plane partition</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Partition_(number_theory)" title="Partition (number theory)">Partition theory</a></div>
+<p>Partition theory studies various enumeration and asymptotic problems related to <a href="Integer_partition" title="Integer partition" class="mw-redirect">integer partitions</a>, and is closely related to <a href="Q-series" title="Q-series" class="mw-redirect">q-series</a>, <a href="Special_functions" title="Special functions">special functions</a> and <a href="Orthogonal_polynomials" title="Orthogonal polynomials">orthogonal polynomials</a>. Originally a part of <a href="Number_theory" title="Number theory">number theory</a> and <a href="Analysis" title="Analysis">analysis</a>, it is now considered a part of combinatorics or an independent field. It incorporates the <a href="Bijective_proof" title="Bijective proof">bijective approach</a> and various tools in analysis, <a href="Analytic_number_theory" title="Analytic number theory">analytic number theory</a>, and has connections with <a href="Statistical_mechanics" title="Statistical mechanics">statistical mechanics</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=6.php.html" title="Edit section: Graph theory">edit</a>]</span> <span class="mw-headline" id="Graph_theory">Graph theory</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Petersen1_tiny.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Petersen1_tiny.svg/150px-Petersen1_tiny.svg.png" width="150" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Petersen1_tiny.svg/225px-Petersen1_tiny.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Petersen1_tiny.svg/300px-Petersen1_tiny.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Petersen1_tiny.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Petersen_graph" title="Petersen graph">Petersen graph</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Graph_theory" title="Graph theory">Graph theory</a></div>
+<p>Graphs are basic objects in combinatorics. The questions range from counting (e.g., the number of graphs on <i>n</i> vertices with <i>k</i> edges) to structural (e.g., which graphs contain Hamiltonian cycles) to algebraic questions (e.g., given a graph G and two numbers x and y, does the <a href="Tutte_polynomial" title="Tutte polynomial">Tutte polynomial</a> T<sub>G</sub>(x,y) have a combinatorial interpretation?). It should be noted that while there are very strong connections between graph theory and combinatorics, these two are sometimes thought of as separate subjects.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=7.php.html" title="Edit section: Design theory">edit</a>]</span> <span class="mw-headline" id="Design_theory">Design theory</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Combinatorial_design" title="Combinatorial design">Combinatorial design</a></div>
+<p>Design theory is a study of <a href="Combinatorial_design" title="Combinatorial design">combinatorial designs</a>, which are collections of subsets with certain <a href="Set_intersection" title="Set intersection" class="mw-redirect">intersection</a> properties. <a href="Block_design" title="Block design">Block designs</a> are combinatorial designs of a special type. This area is one of the oldest parts of combinatorics, such as in <a href="Kirkman's_schoolgirl_problem" title="Kirkman's schoolgirl problem">Kirkman's schoolgirl problem</a> proposed in 1850. The solution of the problem is a special case of a <a href="Steiner_system" title="Steiner system">Steiner system</a>, which systems play an important role in the <a href="Classification_of_finite_simple_groups" title="Classification of finite simple groups">classification of finite simple groups</a>. The area has further connections to coding theory and geometric combinatorics.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=8.php.html" title="Edit section: Finite geometry">edit</a>]</span> <span class="mw-headline" id="Finite_geometry">Finite geometry</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Finite_geometry" title="Finite geometry">Finite geometry</a></div>
+<p>Finite geometry is the study of <a href="Geometry" title="Geometry">geometric systems</a> having only a finite number of points. Structures analogous to those found in continuous geometries (<a href="Euclidean_plane" title="Euclidean plane" class="mw-redirect">Euclidean plane</a>, <a href="Real_projective_space" title="Real projective space">real projective space</a>, etc.) but defined combinatorially are the main items studied. This area provides a rich source of examples for <a href="Combinatorial_design" title="Combinatorial design">Design theory</a>. It should not be confused with Discrete geometry (<a href="Combinatorial_geometry" title="Combinatorial geometry" class="mw-redirect">Combinatorial geometry</a>).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=9.php.html" title="Edit section: Order theory">edit</a>]</span> <span class="mw-headline" id="Order_theory">Order theory</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Hasse_diagram_of_powerset_of_3.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hasse_diagram_of_powerset_of_3.svg/150px-Hasse_diagram_of_powerset_of_3.svg.png" width="150" height="114" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hasse_diagram_of_powerset_of_3.svg/225px-Hasse_diagram_of_powerset_of_3.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hasse_diagram_of_powerset_of_3.svg/300px-Hasse_diagram_of_powerset_of_3.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Hasse_diagram_of_powerset_of_3.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Hasse_diagram" title="Hasse diagram">Hasse diagram</a> of the <a href="Power_set" title="Power set">powerset</a> of {x,y,z} ordered by <a href="Inclusion_map" title="Inclusion map">inclusion</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Order_theory" title="Order theory">Order theory</a></div>
+<p>Order theory is the study of <a href="Partially_ordered_sets" title="Partially ordered sets" class="mw-redirect">partially ordered sets</a>, both finite and infinite. Various examples of partial orders appear in <a href="Abstract_algebra" title="Abstract algebra">algebra</a>, geometry, number theory and throughout combinatorics and graph theory. Notable classes and examples of partial orders include <a href="Lattice_(order)" title="Lattice (order)">lattices</a> and <a href="Boolean_algebras" title="Boolean algebras" class="mw-redirect">Boolean algebras</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=10.php.html" title="Edit section: Matroid theory">edit</a>]</span> <span class="mw-headline" id="Matroid_theory">Matroid theory</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Matroid_theory" title="Matroid theory" class="mw-redirect">Matroid theory</a></div>
+<p>Matroid theory abstracts part of <a href="Geometry" title="Geometry">geometry</a>. It studies the properties of sets (usually, finite sets) of vectors in a <a href="Vector_space" title="Vector space">vector space</a> that do not depend on the particular coefficients in a <a href="Linear_independence" title="Linear independence">linear dependence</a> relation. Not only the structure but also enumerative properties belong to matroid theory. Matroid theory was introduced by <a href="Hassler_Whitney" title="Hassler Whitney">Hassler Whitney</a> and studied as a part of the order theory. It is now an independent field of study with a number of connections with other parts of combinatorics.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=11.php.html" title="Edit section: Extremal combinatorics">edit</a>]</span> <span class="mw-headline" id="Extremal_combinatorics">Extremal combinatorics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Extremal_combinatorics" title="Extremal combinatorics">Extremal combinatorics</a></div>
+<p>Extremal combinatorics studies extremal questions on <a href="Set_system" title="Set system" class="mw-redirect">set systems</a>. The types of questions addressed in this case are about the largest possible graph which satisfies certain properties. For example, the largest triangle-free graph on <i>2n</i> vertices is a <a href="Complete_bipartite_graph" title="Complete bipartite graph">complete bipartite graph</a> <i>K<sub>n,n</sub></i>. Often it is too hard even to find the extremal answer <i>f</i>(<i>n</i>) exactly and one can only give an <a href="Asymptotic_analysis" title="Asymptotic analysis">asymptotic estimate</a>.</p>
+<p><a href="Ramsey_theory" title="Ramsey theory">Ramsey theory</a> is another part of extremal combinatorics. It states that any <a href="Sufficiently_large" title="Sufficiently large">sufficiently large</a> configuration will contain some sort of order. It is an advanced generalization of the <a href="Pigeonhole_principle" title="Pigeonhole principle">pigeonhole principle</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=12.php.html" title="Edit section: Probabilistic combinatorics">edit</a>]</span> <span class="mw-headline" id="Probabilistic_combinatorics">Probabilistic combinatorics</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Self_avoiding_walk.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Self_avoiding_walk.svg/150px-Self_avoiding_walk.svg.png" width="150" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Self_avoiding_walk.svg/225px-Self_avoiding_walk.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Self_avoiding_walk.svg/300px-Self_avoiding_walk.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Self_avoiding_walk.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Self-avoiding_walk" title="Self-avoiding walk">Self-avoiding walk</a> in a <a href="Lattice_graph" title="Lattice graph">square grid graph</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Probabilistic_method" title="Probabilistic method">Probabilistic method</a></div>
+<p>In probabilistic combinatorics, the questions are of the following type: what is the probability of a certain property for a random discrete object, such as a <a href="Random_graph" title="Random graph">random graph</a>? For instance, what is the average number of triangles in a random graph? Probabilistic methods are also used to determine the existence of combinatorial objects with certain prescribed properties (for which explicit examples might be difficult to find), simply by observing that the probability of randomly selecting an object with those properties is greater than 0. This approach (often referred to as <i>the</i> <a href="Probabilistic_method" title="Probabilistic method">probabilistic method</a>) proved highly effective in applications to extremal combinatorics and graph theory. A closely related area is the study of finite <a href="Markov_chains" title="Markov chains" class="mw-redirect">Markov chains</a>, especially on combinatorial objects. Here again probabilistic tools are used to estimate the <a href="Markov_chain_mixing_time" title="Markov chain mixing time">mixing time</a>.</p>
+<p>Often associated with <a href="Paul_Erd%C5%91s" title="Paul Erdős">Paul Erdős</a>, who did the pioneer work on the subject, probabilistic combinatorics was traditionally viewed as a set of tools to study problems in other parts of combinatorics. However, with the growth of applications to <a href="Analysis_of_algorithms" title="Analysis of algorithms">analysis of algorithms</a> in <a href="Computer_science" title="Computer science">computer science</a>, as well as classical probability, <a href="Additive_number_theory" title="Additive number theory">additive</a> and <a href="Probabilistic_number_theory" title="Probabilistic number theory">probabilistic number theory</a>, the area recently grew to become an independent field of combinatorics.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=13.php.html" title="Edit section: Algebraic combinatorics">edit</a>]</span> <span class="mw-headline" id="Algebraic_combinatorics">Algebraic combinatorics</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Young_diagram_for_541_partition.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Young_diagram_for_541_partition.svg/150px-Young_diagram_for_541_partition.svg.png" width="150" height="90" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Young_diagram_for_541_partition.svg/225px-Young_diagram_for_541_partition.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Young_diagram_for_541_partition.svg/300px-Young_diagram_for_541_partition.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Young_diagram_for_541_partition.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Young_diagram" title="Young diagram" class="mw-redirect">Young diagram</a> of a <a href="Partition_(number_theory)" title="Partition (number theory)">partition</a> (5,4,1).</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Algebraic_combinatorics" title="Algebraic combinatorics">Algebraic combinatorics</a></div>
+<p>Algebraic combinatorics is an area of <a href="Mathematics" title="Mathematics">mathematics</a> that employs methods of <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a>, notably <a href="Group_theory" title="Group theory">group theory</a> and <a href="Representation_theory" title="Representation theory">representation theory</a>, in various combinatorial contexts and, conversely, applies combinatorial techniques to problems in <a href="Abstract_algebra" title="Abstract algebra">algebra</a>. Within the last decade or so, algebraic combinatorics came to be seen more expansively as the area of mathematics where the interaction of combinatorial and algebraic methods is particularly strong and significant. One of the fastest developing subfields within algebraic combinatorics is <a href="Combinatorial_commutative_algebra" title="Combinatorial commutative algebra">combinatorial commutative algebra</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=14.php.html" title="Edit section: Combinatorics on words">edit</a>]</span> <span class="mw-headline" id="Combinatorics_on_words">Combinatorics on words</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:212px;"><a href="http://en.wikipedia.org/wiki/File:Morse-Thue_sequence.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Morse-Thue_sequence.gif/210px-Morse-Thue_sequence.gif" width="210" height="38" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Morse-Thue_sequence.gif/315px-Morse-Thue_sequence.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/f/f1/Morse-Thue_sequence.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Morse-Thue_sequence.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Construction of a <a href="Thue-Morse_sequence" title="Thue-Morse sequence" class="mw-redirect">Thue-Morse infinite word</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Combinatorics_on_words" title="Combinatorics on words">Combinatorics on words</a></div>
+<p>Combinatorics on words deals with <a href="Formal_language" title="Formal language">formal languages</a>. It arose independently within several branches of mathematics, including <a href="Number_theory" title="Number theory">number theory</a>, <a href="Group_theory" title="Group theory">group theory</a> and <a href="Probability" title="Probability">probability</a>. It has applications to enumerative combinatorics, <a href="Fractal_analysis" title="Fractal analysis">fractal analysis</a>, <a href="Theoretical_computer_science" title="Theoretical computer science">theoretical computer science</a>, <a href="Automata_theory" title="Automata theory">automata theory</a> and <a href="Linguistics" title="Linguistics">linguistics</a>. While many applications are new, the classical <a href="Chomsky%E2%80%93Sch%C3%BCtzenberger_hierarchy" title="Chomsky–Schützenberger hierarchy" class="mw-redirect">Chomsky–Schützenberger hierarchy</a> of classes of <a href="Formal_grammar" title="Formal grammar">formal grammars</a> is perhaps the best known result in the field.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=15.php.html" title="Edit section: Geometric combinatorics">edit</a>]</span> <span class="mw-headline" id="Geometric_combinatorics">Geometric combinatorics</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Icosahedron.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Icosahedron.svg/150px-Icosahedron.svg.png" width="150" height="144" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Icosahedron.svg/225px-Icosahedron.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Icosahedron.svg/300px-Icosahedron.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Icosahedron.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An <a href="Icosahedron" title="Icosahedron">icosahedron</a>.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Geometric_combinatorics" title="Geometric combinatorics">Geometric combinatorics</a></div>
+<p>Geometric combinatorics is related to <a href="Convex_geometry" title="Convex geometry">convex</a> and <a href="Discrete_geometry" title="Discrete geometry">discrete geometry</a>, in particular <a href="Polyhedral_combinatorics" title="Polyhedral combinatorics">polyhedral combinatorics</a>. It asks, for example, how many faces of each dimension can a <a href="Convex_polytope" title="Convex polytope">convex polytope</a> have. <a href="Metric_geometry" title="Metric geometry" class="mw-redirect">Metric</a> properties of polytopes play an important role as well, e.g. the <a href="Cauchy's_theorem_(geometry)" title="Cauchy's theorem (geometry)">Cauchy theorem</a> on rigidity of convex polytopes. Special polytopes are also considered, such as <a href="Permutohedron" title="Permutohedron">permutohedra</a>, <a href="Associahedron" title="Associahedron">associahedra</a> and <a href="Birkhoff_polytope" title="Birkhoff polytope">Birkhoff polytopes</a>. We should note that <a href="Combinatorial_geometry" title="Combinatorial geometry" class="mw-redirect">combinatorial geometry</a> is an old fashioned name for discrete geometry.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=16.php.html" title="Edit section: Topological combinatorics">edit</a>]</span> <span class="mw-headline" id="Topological_combinatorics">Topological combinatorics</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Necklace_cropped.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Necklace_cropped.png/150px-Necklace_cropped.png" width="150" height="137" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Necklace_cropped.png/225px-Necklace_cropped.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Necklace_cropped.png/300px-Necklace_cropped.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Necklace_cropped.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Necklace_splitting_problem" title="Necklace splitting problem">Splitting a necklace</a> with two cuts.</div>
+</div>
+</div>
+<div class="rellink relarticle mainarticle">Main article: <a href="Topological_combinatorics" title="Topological combinatorics">Topological combinatorics</a></div>
+<p>Combinatorial analogs of concepts and methods in <a href="Topology" title="Topology">topology</a> are used to study <a href="Graph_coloring" title="Graph coloring">graph coloring</a>, <a href="Fair_division" title="Fair division">fair division</a>, <a href="Partition_of_a_set" title="Partition of a set">partitions</a>, <a href="Partially_ordered_set" title="Partially ordered set">partially ordered sets</a>, <a href="Decision_tree" title="Decision tree">decision trees</a>, <a href="Necklace_problem" title="Necklace problem">necklace problems</a> and <a href="Discrete_Morse_theory" title="Discrete Morse theory">discrete Morse theory</a>. It should not be confused with <a href="Combinatorial_topology" title="Combinatorial topology">combinatorial topology</a> which is an older name for <a href="Algebraic_topology" title="Algebraic topology">algebraic topology</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=17.php.html" title="Edit section: Arithmetic combinatorics">edit</a>]</span> <span class="mw-headline" id="Arithmetic_combinatorics">Arithmetic combinatorics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Arithmetic_combinatorics" title="Arithmetic combinatorics">Arithmetic combinatorics</a></div>
+<p>Arithmetic combinatorics arose out of the interplay between <a href="Number_theory" title="Number theory">number theory</a>, combinatorics, <a href="Ergodic_theory" title="Ergodic theory">ergodic theory</a> and <a href="Harmonic_analysis" title="Harmonic analysis">harmonic analysis</a>. It is about combinatorial estimates associated with arithmetic operations (addition, subtraction, multiplication, and division). <i>Additive combinatorics</i> refers to the special case when only the operations of addition and subtraction are involved. One important technique in arithmetic combinatorics is the <a href="Ergodic_theory" title="Ergodic theory">ergodic theory</a> of <a href="Dynamical_system" title="Dynamical system">dynamical systems</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=18.php.html" title="Edit section: Infinitary combinatorics">edit</a>]</span> <span class="mw-headline" id="Infinitary_combinatorics">Infinitary combinatorics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Infinitary_combinatorics" title="Infinitary combinatorics">Infinitary combinatorics</a></div>
+<p>Infinitary combinatorics, or combinatorial set theory, is an extension of ideas in combinatorics to infinite sets. It is a part of <a href="Set_theory" title="Set theory">set theory</a>, an area of <a href="Mathematical_logic" title="Mathematical logic">mathematical logic</a>, but uses tools and ideas from both set theory and extremal combinatorics.</p>
+<p><a href="Gian-Carlo_Rota" title="Gian-Carlo Rota">Gian-Carlo Rota</a> used the name <i>continuous combinatorics</i><sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> to describe <a href="Probability" title="Probability">probability</a> and <a href="Measure_theory" title="Measure theory" class="mw-redirect">measure theory</a>, since there are many analogies between <i>counting</i> and <i>measure</i>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=19.php.html" title="Edit section: Related fields">edit</a>]</span> <span class="mw-headline" id="Related_fields">Related fields</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Kissing-3d.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kissing-3d.png/150px-Kissing-3d.png" width="150" height="155" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kissing-3d.png/225px-Kissing-3d.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kissing-3d.png/300px-Kissing-3d.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Kissing-3d.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Kissing_number" title="Kissing number" class="mw-redirect">Kissing spheres</a> are connected to both <a href="Coding_theory" title="Coding theory">coding theory</a> and <a href="Discrete_geometry" title="Discrete geometry">discrete geometry</a>.</div>
+</div>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=20.php.html" title="Edit section: Combinatorial optimization">edit</a>]</span> <span class="mw-headline" id="Combinatorial_optimization">Combinatorial optimization</span></h3>
+<p><a href="Combinatorial_optimization" title="Combinatorial optimization">Combinatorial optimization</a> is the study of optimization on discrete and combinatorial objects. It started as a part of combinatorics and graph theory, but is now viewed as a branch of applied mathematics and computer science, related to <a href="Operations_research" title="Operations research">operations research</a>, <a href="Analysis_of_algorithms" title="Analysis of algorithms">algorithm theory</a> and <a href="Computational_complexity_theory" title="Computational complexity theory">computational complexity theory</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=21.php.html" title="Edit section: Coding theory">edit</a>]</span> <span class="mw-headline" id="Coding_theory">Coding theory</span></h3>
+<p><a href="Coding_theory" title="Coding theory">Coding theory</a> started as a part of design theory with early combinatorial constructions of <a href="Error-correcting_code" title="Error-correcting code" class="mw-redirect">error-correcting codes</a>. The main idea of the subject is to design efficient and reliable methods of data transmission. It is now a large field of study, part of <a href="Information_theory" title="Information theory">information theory</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=22.php.html" title="Edit section: Discrete and computational geometry">edit</a>]</span> <span class="mw-headline" id="Discrete_and_computational_geometry">Discrete and computational geometry</span></h3>
+<p><a href="Discrete_geometry" title="Discrete geometry">Discrete geometry</a> (also called combinatorial geometry) also began a part of combinatorics, with early results on <a href="Convex_polytope" title="Convex polytope">convex polytopes</a> and <a href="Kissing_number" title="Kissing number" class="mw-redirect">kissing numbers</a>. With the emergence of applications of discrete geometry to <a href="Computational_geometry" title="Computational geometry">computational geometry</a>, these two fields partially merged and became a separate field of study. There remain many connections with geometric and topological combinatorics, which themselves can be viewed as outgrowths of the early discrete geometry.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=23.php.html" title="Edit section: Combinatorics and dynamical systems">edit</a>]</span> <span class="mw-headline" id="Combinatorics_and_dynamical_systems">Combinatorics and dynamical systems</span></h3>
+<p><a href="Combinatorics_and_dynamical_systems" title="Combinatorics and dynamical systems">Combinatorial aspects of dynamical systems</a> is another emerging field. Here dynamical systems can be defined on combinatorial objects. See for example <a href="Graph_dynamical_system" title="Graph dynamical system">graph dynamical system</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=24.php.html" title="Edit section: Combinatorics and physics">edit</a>]</span> <span class="mw-headline" id="Combinatorics_and_physics">Combinatorics and physics</span></h3>
+<p>There are increasing interactions between <a href="Combinatorics_and_physics" title="Combinatorics and physics">combinatorics and physics</a>, particularly <a href="Statistical_physics" title="Statistical physics">statistical physics</a>. Examples include an exact solution of the <a href="Ising_model" title="Ising model">Ising model</a>, and a connection between the <a href="Potts_model" title="Potts model">Potts model</a> on one hand, and the <a href="Chromatic_polynomial" title="Chromatic polynomial">chromatic</a> and <a href="Tutte_polynomial" title="Tutte polynomial">Tutte polynomials</a> on the other hand.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=25.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Combinatorial_biology" title="Combinatorial biology">Combinatorial biology</a></li>
+<li><a href="Combinatorial_chemistry" title="Combinatorial chemistry">Combinatorial chemistry</a></li>
+<li><a href="Combinatorial_data_analysis" title="Combinatorial data analysis">Combinatorial data analysis</a></li>
+<li><a href="Combinatorial_game_theory" title="Combinatorial game theory">Combinatorial game theory</a></li>
+<li><a href="Combinatorial_group_theory" title="Combinatorial group theory">Combinatorial group theory</a></li>
+<li><a href="Phylogenetics" title="Phylogenetics">Phylogenetics</a></li>
+<li><a href="List_of_combinatorics_topics" title="List of combinatorics topics" class="mw-redirect">List of combinatorics topics</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=26.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Björner and Stanley, p. 2</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a href="../Richard_P._Stanley" title="Richard P. Stanley">R.P. Stanley</a>, "Hipparchus, Plutarch, Schröder, and Hough", <i>Amer. Math. Monthly</i> <b>104</b> (1997), no. 4, 344-350.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">L. Habsieger, M. Kazarian, S. Lando, On the second number of Plutarch, <i>Amer. Math. Monthly</i> <b>105</b> (1998), no. 5, 446.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation"><a href="../John_J._O'Connor_(mathematician)" title="John J. O'Connor (mathematician)" class="mw-redirect">O'Connor, John J.</a>; <a href="../Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Mahavira.html">"Combinatorics"</a>, <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Mahavira.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Mahavira.html</a></span></span>.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFPuttaswamy2000">Puttaswamy, T. K. (2000), <a rel="nofollow" class="external text" href="http://books.google.com/books?id=2hTyfurOH8AC&printsec=frontcover#v=onepage&amp;q&amp;f=false">"The mathematical contributions of ancient Indian mathematicians"</a>, in Selin, Helaine, <i>Mathematics Across Cultures: The History of Non-Western Mathematics</i>, Netherlands: Kluwer Academic Publishers, p.&#160;417, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-402-00260-2" title="Special:BookSources/978-1-402-00260-2">978-1-402-00260-2</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/books?id=2hTyfurOH8AC&printsec=frontcover#v=onepage&amp;q&amp;f=false">http://books.google.com/books?id=2hTyfurOH8AC&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false</a></span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">N.L. Biggs, The roots of combinatorics, <i>Historia Mathematica</i> 6 (1979), 109-136.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://ncertbooks.prashanthellina.com/class_11.Mathematics.Mathematics/Ch-07(Permutation%20and%20Combinations%20FINAL%20%2004.01.06).pdf">History of Combinatorics</a>, chapter in a textbook.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Arthur T. White, ”Ringing the Cosets,” <i>Amer. Math. Monthly</i> <b>94</b> (1987), no. 8, 721-746; Arthur T. White, ”Fabian Stedman: The First Group Theorist?,” <i>Amer. Math. Monthly</i> <b>103</b> (1996), no. 9, 771-778.</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">See <a rel="nofollow" class="external text" href="http://www.combinatorics.net/journals/">Journals in Combinatorics and Related Fields</a> and <a rel="nofollow" class="external text" href="http://www.combinatorics.net/conf/">Conferences on Combinatorics</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.math.gatech.edu/~sanders/graphtheory/writings/2-digit.html">2-Digit MSC Comparison</a>, by Daniel P. Sanders.</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://faculty.uml.edu/dklain/cpc.pdf">Continuous and profinite combinatorics</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=27.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Björner, A. and Stanley, R.P., <a rel="nofollow" class="external text" href="http://www-math.mit.edu/~rstan/papers/comb.pdf"><i>A Combinatorial Miscellany</i></a></li>
+<li>Graham, R.L., Groetschel M., and Lovász L., eds. (1996). <i>Handbook of Combinatorics</i>, Volumes 1 and 2. Elsevier (North-Holland), Amsterdam, and MIT Press, Cambridge, Mass. <a href="Special_BookSources/026207169X" class="internal mw-magiclink-isbn">ISBN 0-262-07169-X</a>.</li>
+<li>Lindner, Charles C. and Christopher A. Rodger (eds.) <i>Design Theory</i>, CRC-Press; 1st. edition (October 31, 1997). <a href="Special_BookSources/0849339863" class="internal mw-magiclink-isbn">ISBN 0-8493-3986-3</a>.</li>
+<li>van Lint, J.H., and Wilson, R.M. (2001). <i>A Course in Combinatorics</i>, 2nd Edition. Cambridge University Press. <a href="Special_BookSources/0521803403" class="internal mw-magiclink-isbn">ISBN 0-521-80340-3</a>.</li>
+<li><a href="../Richard_P._Stanley" title="Richard P. Stanley">Stanley, Richard P.</a> (1997, 1999). <a rel="nofollow" class="external text" href="http://www-math.mit.edu/~rstan/ec/"><i>Enumerative Combinatorics</i>, Volumes 1 and 2</a>. <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="Special_BookSources/0521553091" class="internal mw-magiclink-isbn">ISBN 0-521-55309-1</a>, <a href="Special_BookSources/0521560691" class="internal mw-magiclink-isbn">ISBN 0-521-56069-1</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://encyclopedia.jrank.org/CLI_COM/COMBINATORIAL_ANALYSIS.html">Combinatorial Analysis</a> – an article in <a href="Encyclop%C3%A6dia_Britannica_Eleventh_Edition" title="Encyclopædia Britannica Eleventh Edition">Encyclopædia Britannica Eleventh Edition</a></li>
+<li>Riordan, John (1958). <i>An Introduction to Combinatorial Analysis</i>, Wiley &amp; Sons, New York (republished).</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Combinatorics&action=edit&section=28.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Combinatorics" class="extiw" title="commons:Category:Combinatorics">Combinatorics</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/37px-Wiktionary-logo-en.svg.png" width="37" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/55px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/73px-Wiktionary-logo-en.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Look up <i><b><a href="http://en.wiktionary.org/wiki/combinatorics" class="extiw" title="wiktionary:combinatorics">combinatorics</a></b></i> in Wiktionary, the free dictionary.</td>
+</tr>
+</table>
+<ul>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/c023250">"Combinatorial analysis"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/c023250">http://www.encyclopediaofmath.org/index.php?title=p/c023250</a></span></span></li>
+<li><a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/Combinatorics.html">Combinatorics</a>, a <a href="MathWorld" title="MathWorld">MathWorld</a> article with many references.</li>
+<li><a rel="nofollow" class="external text" href="http://www.mathpages.com/home/icombina.htm">Combinatorics</a>, from a <i>MathPages.com</i> portal.</li>
+<li><a rel="nofollow" class="external text" href="http://www.combinatorics.net/Resources/hyper/Hyperbook.aspx">The Hyperbook of Combinatorics</a>, a collection of math articles links.</li>
+<li><a rel="nofollow" class="external text" href="http://www.dpmms.cam.ac.uk/~wtg10/2cultures.pdf">The Two Cultures of Mathematics</a> by W. T. Gowers, article on problem solving vs theory building</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><strong class="selflink">Combinatorics</strong></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 3716/1000000
+Preprocessor generated node count: 25143/1500000
+Post-expand include size: 34567/2048000 bytes
+Template argument size: 13658/2048000 bytes
+Highest expansion depth: 17/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:5170-0!*!0!!en!4!* and timestamp 20130213122545 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Combinatorics&oldid=538035580.php.html">http://en.wikipedia.org/w/index.php?title=Combinatorics&amp;oldid=538035580</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Combinatorics" title="Category:Combinatorics">Combinatorics</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Combinatorics&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Combinatorics.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Combinatorics"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Combinatorics&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Combinatorics&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Combinatorics" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Combinatorics" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Combinatorics&oldid=538035580.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Combinatorics&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Combinatorics&id=538035580.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Combinatorics.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Combinatorics&oldid=538035580&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Combinatorics&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-am"><a href="http://am.wikipedia.org/wiki/%E1%88%A5%E1%8A%90_%E1%8C%A5%E1%88%9D%E1%88%A8%E1%89%B5" title="ሥነ ጥምረት" lang="am" hreflang="am">አማርኛ</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D9%81%D9%82%D9%8A%D8%A7%D8%AA" title="توافقيات" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%B1%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D1%8B%D0%BA%D0%B0" title="Камбінаторыка" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%B1%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D1%8B%D0%BA%D0%B0" title="Камбінаторыка" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбинаторика" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Combinat%C3%B2ria" title="Combinatòria" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cv"><a href="http://cv.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбинаторика" lang="cv" hreflang="cv">Чӑвашла</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Kombinatorik" title="Kombinatorik" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Kombinatorik" title="Kombinatorik" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Kombinatoorika" title="Kombinatoorika" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%A3%CF%85%CE%BD%CE%B4%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AE" title="Συνδυαστική" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Combinatoria" title="Combinatoria" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Kombinatoriko" title="Kombinatoriko" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Konbinatoria" title="Konbinatoria" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%DB%8C%D8%A7%D8%AA" title="ترکیبیات" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Combinatoire" title="Combinatoire" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Combinatoria" title="Combinatoria" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/%E7%B5%84%E5%90%88%E6%95%B8%E5%AD%B8" title="組合數學" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%A1%B0%ED%95%A9%EB%A1%A0" title="조합론" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D4%BF%D5%B8%D5%B4%D5%A2%D5%AB%D5%B6%D5%A1%D5%BF%D5%B8%D6%80%D5%AB%D5%AF%D5%A1" title="Կոմբինատորիկա" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%9A%E0%A4%AF-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%AF" title="क्रमचय-संचय" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Kombinatoriko" title="Kombinatoriko" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Talningarfr%C3%A6%C3%B0i" title="Talningarfræði" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Combinatoria" title="Combinatoria" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%9E%D7%91%D7%99%D7%A0%D7%98%D7%95%D7%A8%D7%99%D7%A7%D7%94" title="קומבינטוריקה" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбинаторика" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Kombinatorik" title="Kombinatorik" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Combinatoriek" title="Combinatoriek" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E7%B5%84%E5%90%88%E3%81%9B%E6%95%B0%E5%AD%A6" title="組合せ数学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Kombinatorikk" title="Kombinatorikk" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Kombinatorikk" title="Kombinatorikk" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Kombinatoryka" title="Kombinatoryka" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Combinat%C3%B3ria" title="Combinatória" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Combinatoric%C4%83" title="Combinatorică" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбинаторика" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sah"><a href="http://sah.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбинаторика" lang="sah" hreflang="sah">Саха тыла</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Combinatorics" title="Combinatorics" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0_%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" title="Комбинаторна математика" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Kombinatoriikka" title="Kombinatoriikka" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Kombinatorik" title="Kombinatorik" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%87%E0%AE%B0%E0%AF%8D%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D_(%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D)" title="சேர்வியல் (கணிதம்)" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94" title="คณิตศาสตร์เชิงการจัด" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Kombinatorik" title="Kombinatorik" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-tk"><a href="http://tk.wikipedia.org/wiki/Kombinatorika" title="Kombinatorika" lang="tk" hreflang="tk">Türkmençe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B1%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%B0" title="Комбінаторика" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%AA%D8%A7%D9%84%DB%8C%D9%81%DB%8C%D8%A7%D8%AA" title="تالیفیات" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/To%C3%A1n_h%E1%BB%8Dc_t%E1%BB%95_h%E1%BB%A3p" title="Toán học tổ hợp" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-bat-smg"><a href="http://bat-smg.wikipedia.org/wiki/Kuomb%C4%97natuor%C4%97ka" title="Kuombėnatuorėka" lang="bat-smg" hreflang="bat-smg">Žemaitėška</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6" title="组合数学" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 12:25.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Combinatorics" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1098 in 0.181 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

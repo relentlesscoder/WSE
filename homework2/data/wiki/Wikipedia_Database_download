@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wikipedia:Database download - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Wikipedia_Database_download&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Wikipedia_Database_download&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.geshi.local%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:Database_download","wgTitle":"Database download","wgCurRevisionId":537677366,"wgArticleId":68321,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia downloads","Wikipedia database reports"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:Database_download","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"d39ebfda6f2ee12423bb6591e184f2d0","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":68321,"title":"Wikipedia:Database download","namespace":4,"categories":["Wikipedia database reports","Wikipedia downloads"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-robots {line-height: normal;}
+.source-robots li, .source-robots pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for robots
+ * CSS class: source-robots, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.robots.source-robots .de1, .robots.source-robots .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;}
+.robots.source-robots  {font-family:monospace;}
+.robots.source-robots .imp {font-weight: bold; color: red;}
+.robots.source-robots li, .robots.source-robots .li1 {font-weight: normal; vertical-align:top;}
+.robots.source-robots .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.robots.source-robots .li2 {font-weight: bold; vertical-align:top;}
+.robots.source-robots .kw1 {color: #b1b100;}
+.robots.source-robots .co1 {color: #808080; font-style: italic;}
+.robots.source-robots .es0 {color: #000099; font-weight: bold;}
+.robots.source-robots .br0 {color: #66cc66;}
+.robots.source-robots .sy0 {color: #66cc66;}
+.robots.source-robots .st0 {color: #ff0000;}
+.robots.source-robots .nu0 {color: #cc66cc;}
+.robots.source-robots .ln-xtra, .robots.source-robots li.ln-xtra, .robots.source-robots div.ln-xtra {background-color: #ffc;}
+.robots.source-robots span.xtra { display:block; }
+
+/*]]>*/
+</style><script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-4 ns-subject page-Wikipedia_Database_download skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wikipedia:Database download</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For scheduling, related tools etc., see <a href="http://meta.wikimedia.org/wiki/Data_dumps" class="extiw" title="m:Data dumps">m:Data dumps</a>.</div>
+<div style="position: relative; top: -3em;"><span id="WP:DD"></span><span id="WP:DUMP"></span><span id="WP:DUMPS"></span></div>
+<table class="shortcutbox noprint" style="float: right; border: 1px solid #aaa; background: #fff; margin: .3em .3em .3em 1em; padding: 3px; text-align: center;">
+<tr>
+<th style="border: none; background: transparent;" class="plainlist"><small><a href="Wikipedia_Shortcut" title="Wikipedia:Shortcut">Shortcuts</a>:</small>
+<ul>
+<li><small><a href="Wikipedia_DD" title="Wikipedia:DD" class="mw-redirect">WP:DD</a></small></li>
+<li><small><a href="Wikipedia_DUMP" title="Wikipedia:DUMP" class="mw-redirect">WP:DUMP</a></small></li>
+<li><small><a href="Wikipedia_DUMPS" title="Wikipedia:DUMPS" class="mw-redirect">WP:DUMPS</a></small></li>
+</ul>
+</th>
+</tr>
+</table>
+<p>Wikipedia offers free copies of all available content to interested users. These databases can be used for <a href="Wikipedia_Mirrors_and_forks" title="Wikipedia:Mirrors and forks">mirroring</a>, personal use, informal backups, offline use or database queries (such as for <a href="Wikipedia_Maintenance" title="Wikipedia:Maintenance">Wikipedia:Maintenance</a>). All text content is multi-licensed under the <a href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" title="Wikipedia:Text of Creative Commons Attribution-ShareAlike 3.0 Unported License">Creative Commons Attribution-ShareAlike 3.0 License</a> (CC-BY-SA) and the <a href="Wikipedia_Text_of_the_GNU_Free_Documentation_License" title="Wikipedia:Text of the GNU Free Documentation License">GNU Free Documentation License</a> (GFDL). Images and other files are available under <a href="Wikipedia_Image_copyright_tags" title="Wikipedia:Image copyright tags" class="mw-redirect">different terms</a>, as detailed on their description pages. For our advice about complying with these licenses, see <a href="Wikipedia_Copyrights" title="Wikipedia:Copyrights">Wikipedia:Copyrights</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Where_do_I_get..."><span class="tocnumber">1</span> <span class="toctext">Where do I get...</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#English-language_Wikipedia"><span class="tocnumber">1.1</span> <span class="toctext">English-language Wikipedia</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Other_languages"><span class="tocnumber">1.2</span> <span class="toctext">Other languages</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Where_are_images_and_uploaded_files"><span class="tocnumber">2</span> <span class="toctext">Where are images and uploaded files</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Dealing_with_compressed_files"><span class="tocnumber">3</span> <span class="toctext">Dealing with compressed files</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Dealing_with_large_files"><span class="tocnumber">4</span> <span class="toctext">Dealing with large files</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#File_system_limits"><span class="tocnumber">4.1</span> <span class="toctext">File system limits</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Operating_system_limits"><span class="tocnumber">4.2</span> <span class="toctext">Operating system limits</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Tips"><span class="tocnumber">4.3</span> <span class="toctext">Tips</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Why_not_just_retrieve_data_from_wikipedia.org_at_runtime.3F"><span class="tocnumber">5</span> <span class="toctext">Why not just retrieve data from wikipedia.org at runtime?</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Please_do_not_use_a_web_crawler"><span class="tocnumber">5.1</span> <span class="toctext">Please do not use a web crawler</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#Sample_blocked_crawler_email"><span class="tocnumber">5.1.1</span> <span class="toctext">Sample blocked crawler email</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#Doing_SQL_queries_on_the_current_database_dump"><span class="tocnumber">5.2</span> <span class="toctext">Doing SQL queries on the current database dump</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#Database_schema"><span class="tocnumber">6</span> <span class="toctext">Database schema</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#SQL_schema"><span class="tocnumber">6.1</span> <span class="toctext">SQL schema</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#XML_schema"><span class="tocnumber">6.2</span> <span class="toctext">XML schema</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#Help_parsing_dumps_for_use_in_scripts"><span class="tocnumber">7</span> <span class="toctext">Help parsing dumps for use in scripts</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Help_importing_dumps_into_MySQL"><span class="tocnumber">8</span> <span class="toctext">Help importing dumps into MySQL</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Static_HTML_tree_dumps_for_mirroring_or_CD_distribution"><span class="tocnumber">9</span> <span class="toctext">Static HTML tree dumps for mirroring or CD distribution</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Kiwix"><span class="tocnumber">9.1</span> <span class="toctext">Kiwix</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Okawix"><span class="tocnumber">9.2</span> <span class="toctext">Okawix</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Aard_Dictionary"><span class="tocnumber">9.3</span> <span class="toctext">Aard Dictionary</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#E-book"><span class="tocnumber">9.4</span> <span class="toctext">E-book</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#Dynamic_HTML_generation_from_a_local_XML_database_dump"><span class="tocnumber">10</span> <span class="toctext">Dynamic HTML generation from a local XML database dump</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#Offline_wikipedia_reader"><span class="tocnumber">10.1</span> <span class="toctext">Offline wikipedia reader</span></a>
+<ul>
+<li class="toclevel-3 tocsection-26"><a href="#Main_features"><span class="tocnumber">10.1.1</span> <span class="toctext">Main features</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-27"><a href="#WikiFilter"><span class="tocnumber">10.2</span> <span class="toctext">WikiFilter</span></a>
+<ul>
+<li class="toclevel-3 tocsection-28"><a href="#WikiFilter_system_requirements"><span class="tocnumber">10.2.1</span> <span class="toctext">WikiFilter system requirements</span></a></li>
+<li class="toclevel-3 tocsection-29"><a href="#How_to_set_up_WikiFilter"><span class="tocnumber">10.2.2</span> <span class="toctext">How to set up WikiFilter</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-30"><a href="#WikiTaxi"><span class="tocnumber">10.3</span> <span class="toctext">WikiTaxi</span></a>
+<ul>
+<li class="toclevel-3 tocsection-31"><a href="#WikiTaxi_system_requirements"><span class="tocnumber">10.3.1</span> <span class="toctext">WikiTaxi system requirements</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="#WikiTaxi_usage"><span class="tocnumber">10.3.2</span> <span class="toctext">WikiTaxi usage</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-33"><a href="#BzReader_and_MzReader_.28for_Windows.29"><span class="tocnumber">10.4</span> <span class="toctext">BzReader and MzReader (for Windows)</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#EPWING"><span class="tocnumber">10.5</span> <span class="toctext">EPWING</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-35"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-36"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-37"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=1.php.html" title="Edit section: Where do I get...">edit</a>]</span> <span class="mw-headline" id="Where_do_I_get...">Where do I get...</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=2.php.html" title="Edit section: English-language Wikipedia">edit</a>]</span> <span class="mw-headline" id="English-language_Wikipedia">English-language Wikipedia</span></h3>
+<ul>
+<li>Dumps from any Wikimedia Foundation project: <a class="external free" href="http://dumps.wikimedia.org/">http://dumps.wikimedia.org/</a></li>
+<li>English Wikipedia dumps in SQL and XML: <a class="external free" href="http://dumps.wikimedia.org/enwiki/">http://dumps.wikimedia.org/enwiki/</a>
+<ul>
+<li><b><a class="external text" href="http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2">pages-articles.xml.bz2</a> – Current revisions only, no talk or user pages. (This is probably the one you want. The size of the 3 January 2013 dump is approximately 9.0 GB compressed).</b>
+<ul>
+<li>As these files are quite large, please consider using a BitTorrent download to reduce the load on our servers. See <a href="http://meta.wikimedia.org/wiki/data_dump_torrents" class="extiw" title="meta:data dump torrents">meta:data dump torrents</a> for more information.</li>
+<li><a rel="nofollow" class="external text" href="http://thepiratebay.org/torrent/6956223">Unofficial torrent</a> (2012) with <a href="Wikipedia_Project_namespace" title="Wikipedia:Project namespace">Wikipedia:Project namespace</a> removed and packaged with <a rel="nofollow" class="external text" href="http://www.wikitaxi.org/">WikiTaxi</a> for easy browsing. dc966fb7760c40621e0b203ba075d233d68375a8 is the <a href="Magnet_URI_scheme#URN.2C_containing_hash_.28xt.29" title="Magnet URI scheme">info hash</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://dl.dropbox.com/u/104454345/enwiki-20130102-pages-articles.xml.bz2.torrent">Unofficial Torrent</a> (2013) with <a href="Wikipedia_Project_namespace" title="Wikipedia:Project namespace">Wikipedia:Project namespace</a> removed. 343EB051D4F9339D3F8FD34B470D9AEACBFB0E58 is the <a href="Magnet_URI_scheme#URN.2C_containing_hash_.28xt.29" title="Magnet URI scheme">info hash</a>.</li>
+</ul>
+</li>
+<li>pages-meta-current.xml.bz2 – Current revisions only, all pages (including talk)</li>
+<li>abstract.xml.gz – page abstracts</li>
+<li>all_titles_in_ns0.gz – Article titles only</li>
+<li>SQL files for the pages and links are also available</li>
+<li>All revisions, all pages: <b>These files expand to <a href="Terabyte" title="Terabyte">multiple terabytes</a> of text. Please only download these if you know you can cope with this quantity of data.</b> Go to <a class="external text" href="http://dumps.wikimedia.org/enwiki/latest/">Latest Dumps</a> and look out for all the files that have 'pages-meta-history' in their name.</li>
+</ul>
+</li>
+<li>To download a subset of the database in XML format, such as a specific category or a list of articles see: <a href="Special_Export" title="Special:Export">Special:Export</a>, usage of which is described at <a href="Help_Export" title="Help:Export">Help:Export</a>.</li>
+<li>Wiki front-end software: <a href="MediaWiki" title="MediaWiki">MediaWiki</a> <a class="external autonumber" href="http://www.mediawiki.org">[1]</a>.</li>
+<li>Database backend software: You want to download <a href="MySQL" title="MySQL">MySQL</a>.</li>
+<li>Image dumps: See below.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=3.php.html" title="Edit section: Other languages">edit</a>]</span> <span class="mw-headline" id="Other_languages">Other languages</span></h3>
+<p>In the <a class="external free" href="http://dumps.wikimedia.org/">http://dumps.wikimedia.org/</a> directory you will find the latest SQL and XML dumps for the projects, not just English. For example, (others exist, just select the appropriate <a href="List_of_ISO_639-1_codes" title="List of ISO 639-1 codes">two letter language code</a> and the appropriate project):</p>
+<ul>
+<li><b>Arabic</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/arwiki/">http://dumps.wikimedia.org/arwiki/</a></li>
+<li><b>Dutch</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/nlwiki/">http://dumps.wikimedia.org/nlwiki/</a></li>
+<li><b>English</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/enwiki/">http://dumps.wikimedia.org/enwiki/</a></li>
+<li><b>French</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/frwiki/">http://dumps.wikimedia.org/frwiki/</a></li>
+<li><b>German</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/dewiki/">http://dumps.wikimedia.org/dewiki/</a></li>
+<li><b>Italian</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/itwiki/">http://dumps.wikimedia.org/itwiki/</a></li>
+<li><b>Polish</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/plwiki/">http://dumps.wikimedia.org/plwiki/</a></li>
+<li><b>Portuguese</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/ptwiki/">http://dumps.wikimedia.org/ptwiki/</a></li>
+<li><b>Russian</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/ruwiki/">http://dumps.wikimedia.org/ruwiki/</a></li>
+<li><b>Spanish</b> Wikipedia dumps: <a class="external free" href="http://dumps.wikimedia.org/eswiki/">http://dumps.wikimedia.org/eswiki/</a></li>
+</ul>
+<p>Some other directories (e.g. simple, nostalgia) exist, with the same structure.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=4.php.html" title="Edit section: Where are images and uploaded files">edit</a>]</span> <span class="mw-headline" id="Where_are_images_and_uploaded_files">Where are images and uploaded files</span></h2>
+<p>Images and other uploaded media are available from mirrors in addition to being served directly from Wikimedia servers. Bulk download is currently (as of September 2012) available from mirrors but not offered directly from Wikimedia servers. See the <a href="http://meta.wikimedia.org/wiki/Mirroring_Wikimedia_project_XML_dumps#Media" class="extiw" title="m:Mirroring Wikimedia project XML dumps">list of current mirrors</a>.</p>
+<p>Unlike most article text, images are not necessarily licensed under the GFDL &amp; CC-BY-SA-3.0. They may be under one of many <a href="Wikipedia_Image_copyright_tags/Free_licenses" title="Wikipedia:Image copyright tags/Free licenses" class="mw-redirect">free licenses</a>, in the <a href="Wikipedia_Image_copyright_tags/Public_domain" title="Wikipedia:Image copyright tags/Public domain" class="mw-redirect">public domain</a>, believed to be <a href="Wikipedia_Image_copyright_tags/Fair_use" title="Wikipedia:Image copyright tags/Fair use" class="mw-redirect">fair use</a>, or even copyright infringements (which should be <a href="Wikipedia_IFD" title="Wikipedia:IFD" class="mw-redirect">deleted</a>). In particular, use of fair use images outside the context of Wikipedia or similar works may be illegal. Images under most licenses require a credit, and possibly other attached copyright information. This information is included in image description pages, which are part of the text dumps available from <a class="external text" href="http://dumps.wikimedia.org/">dumps.wikimedia.org</a>. In conclusion, download these images at your own risk (<a class="external text" href="http://dumps.wikimedia.org/legal.html">Legal</a>)</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=5.php.html" title="Edit section: Dealing with compressed files">edit</a>]</span> <span class="mw-headline" id="Dealing_with_compressed_files">Dealing with compressed files</span></h2>
+<p>Compressed dump files are significantly compressed, thus after uncompressed will take up <b>large</b> amounts of drive space. The following are programs that can be used to uncompress bzip2 (<a href=".bz2" title=".bz2" class="mw-redirect">.bz2</a>) and <a href=".7z" title=".7z" class="mw-redirect">.7z</a> files.</p>
+<dl>
+<dt><a href="Microsoft_Windows" title="Microsoft Windows">Windows</a></dt>
+</dl>
+<p>Windows does not ship with a bzip2 decompressor program. The following can be used to decompress bzip2 files.</p>
+<ul>
+<li><a rel="nofollow" class="external text" href="ftp://sources.redhat.com/pub/bzip2/v102/bzip2-102-x86-win32.exe">bzip2 (command-line)</a> (from <a rel="nofollow" class="external text" href="http://sources.redhat.com/bzip2/">here</a>) is available for free under a BSD license.</li>
+<li><a href="7-Zip" title="7-Zip">7-Zip</a> is available for free under a <a href="GNU_Lesser_General_Public_License" title="GNU Lesser General Public License">LGPL</a> license.</li>
+<li><a href="WinRAR" title="WinRAR">WinRAR</a></li>
+<li><a href="WinZip" title="WinZip">WinZip</a></li>
+</ul>
+<dl>
+<dt><a href="Macintosh" title="Macintosh">Mac</a></dt>
+</dl>
+<p>MacOS X ships with the command-line bzip2 tool.</p>
+<dl>
+<dt><a href="GNU/Linux" title="GNU/Linux" class="mw-redirect">GNU/Linux</a></dt>
+</dl>
+<p>GNU/Linux ships with the command-line bzip2 tool.</p>
+<dl>
+<dt><a href="Berkeley_Software_Distribution" title="Berkeley Software Distribution">BSD</a></dt>
+</dl>
+<p>Some BSD systems ship with the command-line bzip2 tool as part of the operating system. Others, such as <a href="OpenBSD" title="OpenBSD">OpenBSD</a>, provide it as a package which must first be installed.</p>
+<dl>
+<dt>Notes</dt>
+</dl>
+<ol>
+<li>Some older versions of bzip2 may not be able to handle files larger than 2GB, so make sure you have the latest version if you experience any problems.</li>
+<li>Some older archives are compressed with gzip, which is compatible with PKZIP (the most common Windows format).</li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=6.php.html" title="Edit section: Dealing with large files">edit</a>]</span> <span class="mw-headline" id="Dealing_with_large_files">Dealing with large files</span></h2>
+<p>As files grow in size, so does the likelihood they will exceed some limitation of a computing device. Each operating system, file system, hard storage device, and software (application) has a maximum file size limit. Each one of these will likely have a different maximum file size limit, but the lowest limit of all of them will become the file size limit for a storage device.</p>
+<p>The older the software in a computing device, the more likely it will have a 2GB file limit somewhere in the system. This is due to older software using 32-bit integers for file indexing, which limits file sizes to 2^31 bytes (2GB) (for signed integers), or 2^32 (4GB) (for unsigned integers). Older <a href="C_(programming_language)" title="C (programming language)">C</a> <a href="Library_(computing)" title="Library (computing)">programming libraries</a> have this 2 or 4GB limitation, but the newer file libraries have been converted to 64-bit integers thus supporting file sizes up to 2^63 or 2^64 bytes (8 or 16 <a href="Exabyte" title="Exabyte">EB</a>).</p>
+<p>Prior to starting a download of a large file, it is recommended that a person checks the storage device to ensure its file system can support files of such a large size, and check the amount of free space to ensure that it can hold the downloaded file.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=7.php.html" title="Edit section: File system limits">edit</a>]</span> <span class="mw-headline" id="File_system_limits">File system limits</span></h3>
+<p>There are two limits for a file system; the file system size limit, and the file size limit. In general, since the file size limit is less than the file system limit, then the larger file system limits are a moot point. A large percentage of users assume they can create files up to the size of their storage device, but are wrong in their assumption. For example, a 16GB storage device formatted as FAT32 file system has a file limit of 4GB for any single file. The following is a list of the most common file systems, and see <a href="Comparison_of_file_systems#Limits" title="Comparison of file systems">Comparison of file systems</a> for additional detailed information.</p>
+<dl>
+<dt><a href="Microsoft_Windows" title="Microsoft Windows">Windows</a></dt>
+</dl>
+<ul>
+<li><a href="File_Allocation_Table" title="File Allocation Table">FAT16</a> supports files up to 4<a href="Gigabyte" title="Gigabyte">GB</a>. FAT16 is the factory format of smaller <a href="USB" title="USB" class="mw-redirect">USB</a> drives and all <a href="Secure_Digital" title="Secure Digital">SD</a> cards that are 2GB or smaller.</li>
+<li><a href="File_Allocation_Table" title="File Allocation Table">FAT32</a> supports files up to 4GB. FAT32 is the factory format of larger <a href="USB" title="USB" class="mw-redirect">USB</a> drives and all <a href="Secure_Digital" title="Secure Digital">SDHC</a> cards that are 4GB or larger.</li>
+<li><a href="ExFAT" title="ExFAT">exFAT</a> supports files up to 127<a href="Petabyte" title="Petabyte">PB</a>. exFAT is the factory format of all <a href="Secure_Digital" title="Secure Digital">SDXC</a> cards.</li>
+<li><a href="NTFS" title="NTFS">NTFS</a> supports files up to 16<a href="Terrabyte" title="Terrabyte" class="mw-redirect">TB</a>. NTFS is the default file system for <a href="Microsoft_Windows" title="Microsoft Windows">Windows</a> computers, including Windows 2000, Windows XP, and all their successors to date.</li>
+</ul>
+<dl>
+<dt><a href="Macintosh" title="Macintosh">Mac</a></dt>
+</dl>
+<ul>
+<li><a href="HFS_Plus" title="HFS Plus">HFS+</a> supports files up to 8<a href="Exabyte" title="Exabyte">EB</a> on <a href="Mac_OS_X" title="Mac OS X" class="mw-redirect">Mac OS X</a> 10.2+ and <a href="IOS_(Apple)" title="IOS (Apple)" class="mw-redirect">iOS</a>. HFS+ is the default file system for <a href="Macintosh" title="Macintosh">Mac</a> computers.</li>
+</ul>
+<dl>
+<dt><a href="Linux" title="Linux">Linux</a></dt>
+</dl>
+<ul>
+<li><a href="Ext2" title="Ext2">ext2</a> and <a href="Ext3" title="Ext3">ext3</a> supports files up to 16GB, but up to 2TB with larger block sizes. See <a rel="nofollow" class="external free" href="http://www.suse.com/~aj/linux_lfs.html">http://www.suse.com/~aj/linux_lfs.html</a> for more information.</li>
+<li><a href="Ext4" title="Ext4">ext4</a> supports files up to 16TB (using 4KB block size). (<a rel="nofollow" class="external text" href="https://fedoraproject.org/wiki/Features/F17Ext4Above16T">limitation removed in e2fsprogs-1.42 (2012)</a>)</li>
+<li><a href="XFS" title="XFS">XFS</a> supports files up to 8EB.</li>
+<li><a href="ReiserFS" title="ReiserFS">ReiserFS</a> supports files up to 1EB (8TB on 32-bit systems).</li>
+<li><a href="JFS_(file_system)" title="JFS (file system)">JFS</a> supports files up to 4PB.</li>
+<li><a href="Btrfs" title="Btrfs">Btrfs</a> supports files up to 16EB</li>
+<li><a href="NILFS" title="NILFS">NILFS</a> supports files up to 8EB</li>
+<li><a href="YAFFS" title="YAFFS">YAFFS2</a> supports files up to 2GB.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=8.php.html" title="Edit section: Operating system limits">edit</a>]</span> <span class="mw-headline" id="Operating_system_limits">Operating system limits</span></h3>
+<p>Each operating system has internal file system limit for file size and drive size, which is independent of the file system or physical media. If the operating system has any limits lower than the file system or physical media, then the O/S limits will be the real limit.</p>
+<dl>
+<dt><a href="Microsoft_Windows" title="Microsoft Windows">Windows</a></dt>
+</dl>
+<ul>
+<li>For Windows 95/98/ME, there is a 4GB limit for all file sizes.</li>
+</ul>
+<dl>
+<dt><a href="Linux" title="Linux">Linux</a></dt>
+</dl>
+<ul>
+<li>For 32-bit Kernel 2.4.x systems, there is a 2TB limit for all file systems.</li>
+<li>For 64-bit Kernel 2.4.x systems, there is a 8EB limit for all file systems.</li>
+<li>For 32-bit Kernel 2.6.x systems without option CONFIG_LBD, there is a 2TB limit for all file systems.</li>
+<li>For 32-bit Kernel 2.6.x systems with option CONFIG_LBD and all 64-bit Kernel 2.6.x systems, there is a 8ZB limit for all file systems.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></li>
+</ul>
+<dl>
+<dt><a href="Google" title="Google">Google</a> <a href="Android_(operating_system)" title="Android (operating system)">Android</a></dt>
+</dl>
+<p>Google Android is based upon Linux, which determines its base limits.</p>
+<ul>
+<li>Internal Storage:
+<ul>
+<li>For <a href="Android_(operating_system)" title="Android (operating system)">Android</a> 2.3 and later, uses the <a href="Ext4" title="Ext4">ext4</a> file system.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></li>
+<li>For <a href="Android_(operating_system)" title="Android (operating system)">Android</a> 2.2 and earlier, uses the <a href="YAFFS" title="YAFFS">YAFFS2</a> file system.</li>
+</ul>
+</li>
+<li>External Storage Slots:
+<ul>
+<li>All Android devices should support FAT16, FAT32, ext2 file systems.</li>
+<li>Android 2.3 and later supports ext4 file system.</li>
+</ul>
+</li>
+</ul>
+<dl>
+<dt><a href="Apple_Inc." title="Apple Inc.">Apple</a> <a href="IOS_(Apple)" title="IOS (Apple)" class="mw-redirect">iOS</a> (see <a href="List_of_iOS_devices" title="List of iOS devices">List of iOS devices</a>)</dt>
+</dl>
+<ul>
+<li>All devices support <a href="HFS_Plus" title="HFS Plus">HFS+</a> for internal storage. No devices have external storage slots.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=9.php.html" title="Edit section: Tips">edit</a>]</span> <span class="mw-headline" id="Tips">Tips</span></h3>
+<dl>
+<dt>Detect corrupted files</dt>
+</dl>
+<p>It is recommended that you check the <a href="MD5" title="MD5">MD5</a> sums (provided in a file in the download directory) to make sure your download was complete and accurate. You can check this by running the "md5sum" command on the files you downloaded. Given how large the files are, this may take some time to calculate. Due to the technical details of how files are stored, <i>file sizes</i> may be reported differently on different filesystems, and so are not necessarily reliable. Also, you may have experienced corruption during the download, though this is unlikely.</p>
+<dl>
+<dt>Reformatting external USB drives</dt>
+</dl>
+<p>If you plan to download Wikipedia Dump files to one computer and use an external <a href="USB_Flash_Drive" title="USB Flash Drive" class="mw-redirect">USB Flash Drive</a> or <a href="USB_Hard_Drive" title="USB Hard Drive" class="mw-redirect">Hard Drive</a> to copy them to other computers, then you will run into the 4GB FAT32 file size limitation issue. To work around this issue, reformat the &gt;4GB USB Drive to a file system that supports larger file sizes. If you are working exclusively with Windows XP/Vista/7 computers, then reformat your USB Drive to NTFS file system. <a rel="nofollow" class="external text" href="http://www.fs-driver.org/">Windows ext2 driver</a></p>
+<dl>
+<dt>Linux and Unix</dt>
+</dl>
+<p>If you seem to be hitting the 2GB limit, try using <a href="Wget" title="Wget">wget</a> version 1.10 or greater, <a href="CURL" title="CURL">cURL</a> version 7.11.1-1 or greater, or a recent version of <a href="Lynx_(web_browser)" title="Lynx (web browser)">lynx</a> (using -dump). Also, you can resume downloads (for example wget -c).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=10.php.html" title="Edit section: Why not just retrieve data from wikipedia.org at runtime?">edit</a>]</span> <span class="mw-headline" id="Why_not_just_retrieve_data_from_wikipedia.org_at_runtime.3F">Why not just retrieve data from <a href="../index.html" class="extiw" title="w:">wikipedia.org</a> at runtime?</span></h2>
+<p>Suppose you are building a piece of software that at certain points displays information that came from Wikipedia. If you want your program to display the information in a different way than can be seen in the live version, you'll probably need the wikicode that is used to enter it, instead of the finished HTML.</p>
+<p>Also if you want to get all of the data, you'll probably want to transfer it in the most efficient way that's possible. The wikipedia.org servers need to do quite a bit of work to convert the wikicode into HTML. That's time consuming both for you and for the wikipedia.org servers, so simply spidering all pages is not the way to go.</p>
+<p>To access any article in XML, one at a time, access <a href="Special_Export/Title_of_the_article" title="Special:Export/Title of the article">Special:Export/Title of the article</a>.</p>
+<p>Read more about this at <a href="Special_Export" title="Special:Export">Special:Export</a>.</p>
+<p>Please be aware that live mirrors of Wikipedia that are dynamically loaded from the Wikimedia servers are prohibited. Please see <a href="Wikipedia_Mirrors_and_forks" title="Wikipedia:Mirrors and forks">Wikipedia:Mirrors and forks</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=11.php.html" title="Edit section: Please do not use a web crawler">edit</a>]</span> <span class="mw-headline" id="Please_do_not_use_a_web_crawler">Please do not use a web crawler</span></h3>
+<p>Please do not use a <a href="Web_crawler" title="Web crawler">web crawler</a> to download large numbers of articles. Aggressive crawling of the server can cause a dramatic slow-down of Wikipedia.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=12.php.html" title="Edit section: Sample blocked crawler email">edit</a>]</span> <span class="mw-headline" id="Sample_blocked_crawler_email">Sample blocked crawler email</span></h4>
+<dl>
+<dd>IP address <i>nnn.nnn.nnn.nnn</i> was retrieving up to 50 pages per second from wikipedia.org addresses. Robots.txt has a rate limit of one per second set using the Crawl-delay setting. Please respect that setting. If you must exceed it a little, do so only during the least busy times shown in our site load graphs at <b><a class="external free" href="http://stats.wikimedia.org/EN/ChartsWikipediaZZ.htm">http://stats.wikimedia.org/EN/ChartsWikipediaZZ.htm</a></b>. It's worth noting that to crawl the whole site at one hit per second will take several weeks. The originating IP is now blocked or will be shortly. Please contact us if you want it unblocked. Please don't try to circumvent it - we'll just block your whole IP range.</dd>
+</dl>
+<dl>
+<dd>If you want information on how to get our content more efficiently, we offer a variety of methods, including weekly database dumps which you can load into MySQL and crawl locally at any rate you find convenient. Tools are also available which will do that for you as often as you like once you have the infrastructure in place. More details are available at <a class="external free" href="index.html">http://en.wikipedia.org/wiki/Wikipedia:Database_download</a>.</dd>
+</dl>
+<dl>
+<dd>Instead of an email reply you may prefer to visit #mediawiki at irc.freenode.net to discuss your options with our team.</dd>
+</dl>
+<p>Note that the robots.txt currently has a commented out Crawl-delay:</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr">
+<div class="robots source-robots">
+<pre class="de1">
+ <span class="co1">## *at least* 1 second please. preferably more :D</span>
+ <span class="co1">## we're disabling this experimentally 11-09-2006</span>
+ <span class="co1">#Crawl-delay: 1</span>
+</pre></div>
+</div>
+<p>Please be sure to use an intelligent non-zero delay regardless.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=13.php.html" title="Edit section: Doing SQL queries on the current database dump">edit</a>]</span> <span class="mw-headline" id="Doing_SQL_queries_on_the_current_database_dump">Doing SQL queries on the current database dump</span></h3>
+<p>You can do SQL queries on the current database dump (as a replacement for the disabled <a href="Special_Asksql" class="new" title="Special:Asksql (page does not exist)">Special:Asksql</a> page).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=14.php.html" title="Edit section: Database schema">edit</a>]</span> <span class="mw-headline" id="Database_schema">Database schema</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=15.php.html" title="Edit section: SQL schema">edit</a>]</span> <span class="mw-headline" id="SQL_schema">SQL schema</span></h3>
+<p><i>See also: <a href="http://www.mediawiki.org/wiki/Manual:Database_layout" class="extiw" title="mw:Manual:Database layout">mw:Manual:Database layout</a></i></p>
+<p>The sql file used to initialize a MediaWiki database can be found <a class="external text" href="http://svn.wikimedia.org/viewvc/mediawiki/trunk/phase3/maintenance/tables.sql?view=markup">here</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=16.php.html" title="Edit section: XML schema">edit</a>]</span> <span class="mw-headline" id="XML_schema">XML schema</span></h3>
+<p>The XML schema for each dump is defined at the top of the file.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=17.php.html" title="Edit section: Help parsing dumps for use in scripts">edit</a>]</span> <span class="mw-headline" id="Help_parsing_dumps_for_use_in_scripts">Help parsing dumps for use in scripts</span></h2>
+<ul>
+<li><a href="Wikipedia_Computer_help_desk/ParseMediaWikiDump" title="Wikipedia:Computer help desk/ParseMediaWikiDump">Wikipedia:Computer help desk/ParseMediaWikiDump</a> describes the <a href="Perl" title="Perl">Perl</a> Parse::MediaWikiDump library, which can parse XML dumps.</li>
+<li><a rel="nofollow" class="external text" href="http://www.cs.technion.ac.il/~gabr/resources/code/wikiprep">Wikipedia preprocessor (wikiprep.pl)</a> is a <a href="Perl" title="Perl">Perl</a> script that preprocesses raw XML dumps and builds link tables, category hierarchies, collects anchor text for each article etc.</li>
+<li><a rel="nofollow" class="external text" href="http://github.com/svick/Wikipedia-SQl-dump-parser">Wikipedia SQL dump parser</a> is a .NET library to read MySQL dumps without the need to use MySQL database</li>
+<li><a rel="nofollow" class="external text" href="http://github.com/newca12/dictionary-builder">Dictionary Builder</a> is a Java program which is able to parse XML dumps and extract entries in files</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=18.php.html" title="Edit section: Help importing dumps into MySQL">edit</a>]</span> <span class="mw-headline" id="Help_importing_dumps_into_MySQL">Help importing dumps into MySQL</span></h2>
+<p>See:</p>
+<ul>
+<li><a href="http://www.mediawiki.org/wiki/Manual:Importing_XML_dumps" class="extiw" title="mw:Manual:Importing XML dumps">mw:Manual:Importing XML dumps</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Importing_a_Wikipedia_database_dump_into_MediaWiki" class="extiw" title="m:Importing a Wikipedia database dump into MediaWiki">m:Importing a Wikipedia database dump into MediaWiki</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=19.php.html" title="Edit section: Static HTML tree dumps for mirroring or CD distribution">edit</a>]</span> <span class="mw-headline" id="Static_HTML_tree_dumps_for_mirroring_or_CD_distribution">Static HTML tree dumps for mirroring or CD distribution</span></h2>
+<p>MediaWiki 1.5 includes routines to dump a wiki to HTML, rendering the HTML with the same parser used on a live wiki. As the following page states, putting one of these dumps on the web unmodified will constitute a trademark violation. They are intended for private viewing in an intranet or desktop installation.</p>
+<p><br /></p>
+<ul>
+<li>The static version of Wikipedia created by Wikimedia: <a class="external free" href="http://static.wikipedia.org/">http://static.wikipedia.org/</a> Feb. 11, 2013 - This is apparently offline now. There was no content.</li>
+<li><a rel="nofollow" class="external text" href="http://www.tommasoconforti.com/">Wiki2static</a> (site down as of October 2005<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=Database_download&action=edit.php.html">[update]</a></sup>) <b>was</b> an experimental program set up by <a href="User_Alfio" title="User:Alfio">User:Alfio</a> to generate html dumps, inclusive of images, search function and alphabetical index. At the linked site experimental dumps and the script itself can be downloaded. As an example it was used to generate these copies of <a rel="nofollow" class="external text" href="http://fixedreference.org/en/20040424/wikipedia/Main_Page">English WikiPedia 24 April 04</a>, <a rel="nofollow" class="external text" href="http://fixedreference.org/simple/20040501/wikipedia/Main_Page">Simple WikiPedia 1 May 04</a>(old database) format and <a rel="nofollow" class="external text" href="http://july.fixedreference.org/en/20040724/wikipedia/Main_Page">English WikiPedia 24 July 04</a><a rel="nofollow" class="external text" href="http://july.fixedreference.org/simple/20040724/wikipedia/Main_Page">Simple WikiPedia 24 July 04</a>, <a rel="nofollow" class="external text" href="http://july.fixedreference.org/fr/20040727/wikipedia/Accueil">WikiPedia Francais 27 Juillet 2004</a> (new format). <a href="User_BozMo" title="User:BozMo">BozMo</a> uses a version to generate periodic static copies at <a rel="nofollow" class="external text" href="http://fixedreference.org/">fixed reference</a>.</li>
+<li>If you want to draft a traditional website in Mediawiki and dump it to HTML format, you might want to try <a rel="nofollow" class="external text" href="http://barnesc.blogspot.com/2005/10/mw2html-export-mediawiki-to-static.html">mw2html</a> by <a href="User_Connelly" title="User:Connelly">User:Connelly</a>.</li>
+<li>If you'd like to help develop dump-to-static HTML tools, please drop us a note on <a href="Wikipedia_Mailing_lists" title="Wikipedia:Mailing lists">the developers' mailing list</a>.</li>
+</ul>
+<p><b>See also:</b></p>
+<ul>
+<li><a href="http://www.mediawiki.org/wiki/Alternative_parsers" class="extiw" title="mw:Alternative parsers">mw:Alternative parsers</a> lists some other not working options for getting static HTML dumps</li>
+<li><a href="Wikipedia_Snapshots" title="Wikipedia:Snapshots">Wikipedia:Snapshots</a></li>
+<li><a href="Wikipedia_TomeRaider_database" title="Wikipedia:TomeRaider database">Wikipedia:TomeRaider database</a></li>
+<li><a rel="nofollow" class="external free" href="http://sdict.com">http://sdict.com</a> hosts a January 2007 snapshot in the open source Sdictionary .dct format</li>
+<li><a rel="nofollow" class="external free" href="http://ahuv.net/wikipedia">http://ahuv.net/wikipedia</a> hosts October 2010 processed snapshot in the freeware MDict .mdx format</li>
+</ul>
+<p><br /></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=20.php.html" title="Edit section: Kiwix">edit</a>]</span> <span class="mw-headline" id="Kiwix">Kiwix</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Kiwix_0.9_alpha1_screenshot_en.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kiwix_0.9_alpha1_screenshot_en.png/300px-Kiwix_0.9_alpha1_screenshot_en.png" width="300" height="238" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kiwix_0.9_alpha1_screenshot_en.png/450px-Kiwix_0.9_alpha1_screenshot_en.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Kiwix_0.9_alpha1_screenshot_en.png/600px-Kiwix_0.9_alpha1_screenshot_en.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Kiwix_0.9_alpha1_screenshot_en.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Screenshot of the version 0.9 (<a rel="nofollow" class="external text" href="http://tmp.kiwix.org/scr/kiwix_current_version_screencast.ogv">screencast</a>)</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Kiwix_0.9_beta5_library_screenshot.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kiwix_0.9_beta5_library_screenshot.png/300px-Kiwix_0.9_beta5_library_screenshot.png" width="300" height="248" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kiwix_0.9_beta5_library_screenshot.png/450px-Kiwix_0.9_beta5_library_screenshot.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Kiwix_0.9_beta5_library_screenshot.png/600px-Kiwix_0.9_beta5_library_screenshot.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Kiwix_0.9_beta5_library_screenshot.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Screenshot of the Kiwix internal library</div>
+</div>
+</div>
+<p><a href="Kiwix" title="Kiwix">Kiwix</a> is an offline reader for web content which runs on Windows, Mac OSX and GNU/Linux. It's especially thought to make Wikipedia available offline. This is done by reading the content of the project stored in a file format <a rel="nofollow" class="external text" href="http://www.openzim.org">ZIM</a>, a high compressed open format with additional meta-data.</p>
+<ul>
+<li>Pure ZIM reader</li>
+<li>case and diacritics insensitive full text search engine</li>
+<li>Bookmarks &amp; Notes</li>
+<li>kiwix-serve: ZIM HTTP server</li>
+<li>PDF/HTML export</li>
+<li>Multilingual (User interface localised in more than 80 languages)</li>
+<li>Search suggestions</li>
+<li>Zim index capacity</li>
+<li>Support for MacOSX / Linux / Windows</li>
+<li>DVD/USB launcher for Windows (autorun)</li>
+<li>Tabs</li>
+<li>Integrated content manager/downloader</li>
+</ul>
+<dl>
+<dt>See also</dt>
+</dl>
+<ul>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(English)</span> <a rel="nofollow" class="external text" href="http://download.kiwix.org/portable/wikipedia_en_wp1.zip">Kiwix + 40.000 articles big WP1 selection</a> (<a rel="nofollow" class="external text" href="http://download.kiwix.org/portable/wikipedia_en_wp1.zip.torrent">torrent</a>)(~4GB)</li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(English)</span> <a rel="nofollow" class="external text" href="http://download.kiwix.org/portable/wikipedia_en_for_schools.zip">Kiwix + Wikipedia for schools selection</a> (<a rel="nofollow" class="external text" href="http://download.kiwix.org/portable/wikipedia_en_for_schools.zip.torrent">torrent</a>) (~3GB)</li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(English)</span> <span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(French)</span> <span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(Spanish)</span> <a rel="nofollow" class="external text" href="http://www.kiwix.org">Official Web site</a></li>
+<li><a rel="nofollow" class="external text" href="http://planet.kiwix.org">RSS/Atom Planet</a></li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(English)</span> <a rel="nofollow" class="external text" href="http://microblog.kiwix.org">Follow our last improvements...</a></li>
+</ul>
+<ul>
+<li>Please be aware: in Kiwix version "0.9-beta5-win" changing the selected folder in "Preferences", the contents of that folder will be deleted if the selected folder contains files or data. Please do not use a personal folder, and make a new empty folder.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=21.php.html" title="Edit section: Okawix">edit</a>]</span> <span class="mw-headline" id="Okawix">Okawix</span></h3>
+<p>Provides Wikipedia pages with images.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=22.php.html" title="Edit section: Aard Dictionary">edit</a>]</span> <span class="mw-headline" id="Aard_Dictionary">Aard Dictionary</span></h3>
+<p>Offline wikipedia reader. No images. Cross-Platform for Windows, Mac, Linux, Android, Maemo. Runs on rooted Nook eBooks.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=23.php.html" title="Edit section: E-book">edit</a>]</span> <span class="mw-headline" id="E-book">E-book</span></h3>
+<p>The <a rel="nofollow" class="external text" href="http://wiki-as-ebook.sourceforge.net/">wiki-as-ebook</a> store provides ebooks created from a large set of Wikipedia articles with grayscale images for e-book-readers (2013).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=24.php.html" title="Edit section: Dynamic HTML generation from a local XML database dump">edit</a>]</span> <span class="mw-headline" id="Dynamic_HTML_generation_from_a_local_XML_database_dump">Dynamic HTML generation from a local XML database dump</span></h2>
+<p>Instead of converting a database dump file to many pieces of static HTML, one can also use a dynamic HTML generator. Browsing a wiki page is just like browsing a Wiki site, but the content is fetched and converted from a local dump file upon request from the browser.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=25.php.html" title="Edit section: Offline wikipedia reader">edit</a>]</span> <span class="mw-headline" id="Offline_wikipedia_reader">Offline wikipedia reader</span></h3>
+<p>(for Mac OS X, GNU/Linux, FreeBSD/OpenBSD/NetBSD, and other Unices)</p>
+<p>The <a rel="nofollow" class="external text" href="http://owi.sourceforge.net/">offline-wikipedia project</a> provides a very effective way to get an offline version of wikipedia. It uses entirely <a href="Free_software" title="Free software">free software</a>. Packages are available for <a href="Ubuntu_(operating_system)" title="Ubuntu (operating system)">Ubuntu</a> and soon for other <a href="Linux_distribution" title="Linux distribution">Linux distributions</a>.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=26.php.html" title="Edit section: Main features">edit</a>]</span> <span class="mw-headline" id="Main_features">Main features</span></h4>
+<ol>
+<li>Very fast searching</li>
+<li>Keyword (actually, title words) based searching</li>
+<li>Search produces multiple possible articles: you can choose amongst them</li>
+<li>LaTeX based rendering for mathematical formulae</li>
+<li>Minimal space requirements: the original .bz2 file plus the index</li>
+<li>Very fast installation (a matter of hours) compared to loading the dump into MySQL</li>
+</ol>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=27.php.html" title="Edit section: WikiFilter">edit</a>]</span> <span class="mw-headline" id="WikiFilter">WikiFilter</span></h3>
+<p><a rel="nofollow" class="external text" href="http://wikifilter.sourceforge.net/">WikiFilter</a> is a program which allows you to browse over 100 dump files without visiting a Wiki site.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=28.php.html" title="Edit section: WikiFilter system requirements">edit</a>]</span> <span class="mw-headline" id="WikiFilter_system_requirements">WikiFilter system requirements</span></h4>
+<ul>
+<li>A recent Windows version (WinXP is fine; Win98 and WinME won't work because they don't have NTFS support)</li>
+<li>A fair bit of hard drive space (To install you will need about 12 - 15 Gigabytes; afterwards you will only need about 10 Gigabytes)</li>
+</ul>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=29.php.html" title="Edit section: How to set up WikiFilter">edit</a>]</span> <span class="mw-headline" id="How_to_set_up_WikiFilter">How to set up WikiFilter</span></h4>
+<ol>
+<li>Start downloading a Wikipedia database dump file such as an <a class="external text" href="http://download.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2">English Wikipedia dump</a>. It is best to use a download manager such as <a href="GetRight" title="GetRight">GetRight</a> so you can resume downloading the file even if your computer crashes or is shut down during the download.</li>
+<li>Download XAMPPLITE from <a rel="nofollow" class="external autonumber" href="http://sourceforge.net/project/showfiles.php?group_id=61776&package_id=89552">[2]</a> (you must get the 1.5.0 version for it to work). Make sure to pick the file whose filename ends with .exe</li>
+<li>Install/extract it to C:\XAMPPLITE.</li>
+<li>Download WikiFilter 2.3 from this site: <a rel="nofollow" class="external free" href="https://sourceforge.net/projects/wikifilter">https://sourceforge.net/projects/wikifilter</a>. You will have a choice of files to download, so make sure that you pick the 2.3 version. Extract it to C:\WIKIFILTER.</li>
+<li>Copy the WikiFilter.so into your C:\XAMPPLITE\apache\modules folder.</li>
+<li>Edit your C:\xampplite\apache\conf\httpd.conf file, and add the following line:
+<ul>
+<li>LoadModule WikiFilter_module "C:/XAMPPLITE/apache/modules/WikiFilter.so"</li>
+</ul>
+</li>
+<li>When your Wikipedia file has finished downloading, uncompress it into your C:\WIKIFILTER folder. (I used WinRAR <a rel="nofollow" class="external free" href="http://www.rarlab.com/">http://www.rarlab.com/</a> demo version - BitZipper <a rel="nofollow" class="external free" href="http://www.bitzipper.com/winrar.html">http://www.bitzipper.com/winrar.html</a> works well too.)</li>
+<li>Run WikiFilter (WikiIndex.exe), and go to your C:\WIKIFILTER folder, and drag and drop the XML file into the window, click Load, then Start.</li>
+<li>After it finishes, exit the window, and go to your C:\XAMPPLITE folder. Run the setup_xampp.bat file to configure xampp.</li>
+<li>When you finish with that, run the Xampp-Control.exe file, and start apache.</li>
+<li>Browse to <a rel="nofollow" class="external free" href="http://localhost/wiki">http://localhost/wiki</a> and see if it works
+<ul>
+<li>If it doesn't work, see the <a rel="nofollow" class="external text" href="http://sourceforge.net/forum/forum.php?forum_id=495411">forums</a>.</li>
+</ul>
+</li>
+</ol>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=30.php.html" title="Edit section: WikiTaxi">edit</a>]</span> <span class="mw-headline" id="WikiTaxi">WikiTaxi</span></h3>
+<p><a rel="nofollow" class="external text" href="http://www.wikitaxi.org">WikiTaxi</a> is an offline-reader for wikis in MediaWiki format. It enables users to search and browse popular wikis like Wikipedia, Wikiquote, or WikiNews, without being connected to the Internet. WikiTaxi works well with different languages like English, German, Turkish, and others but has a problem with right-to-left language scripts.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=31.php.html" title="Edit section: WikiTaxi system requirements">edit</a>]</span> <span class="mw-headline" id="WikiTaxi_system_requirements">WikiTaxi system requirements</span></h4>
+<ul>
+<li>Any Windows version starting from Windows 95 or later. Large File support (greater than 4 GB) for the huge wikis (English only at the time of this writing).</li>
+<li>It also works on Linux with <a href="Wine_(software)" title="Wine (software)">Wine</a>.</li>
+<li>16 MB RAM minimum for the WikiTaxi reader, 128 MB recommended for the importer (more for speed).</li>
+<li>Storage space for the WikiTaxi database. This requires about 11.7 GiB for the English Wikipedia (as of 5 April 2011), 2 GB for German, less for other Wikis. These figures are likely to grow in the future.</li>
+</ul>
+<h4><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=32.php.html" title="Edit section: WikiTaxi usage">edit</a>]</span> <span class="mw-headline" id="WikiTaxi_usage">WikiTaxi usage</span></h4>
+<ol>
+<li>Download WikiTaxi and extract to an empty folder. No installation is otherwise required.</li>
+<li>Download the XML database dump (*.xml.bz2) of your favorite wiki.</li>
+<li>Run WikiTaxi_Importer.exe to import the database dump into a WikiTaxi database. The importer takes care to uncompress the dump as it imports, so make sure to save your drive space and do not uncompress beforehand.</li>
+<li>When the import is finished, start up WikiTaxi.exe and open the generated database file. You can start searching, browsing, and reading immediately.</li>
+<li>After a successful import, the XML dump file is no longer needed and can be deleted to reclaim disk space.</li>
+<li>To update an offline Wiki for WikiTaxi, download and import a more recent database dump.</li>
+</ol>
+<p>For WikiTaxi reading, only two files are required: WikiTaxi.exe and the .taxi database. Copy them to any storage device (memory stick or memory card) or burn them to a CD or DVD and take your Wikipedia with you wherever you go!</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=33.php.html" title="Edit section: BzReader and MzReader (for Windows)">edit</a>]</span> <span class="mw-headline" id="BzReader_and_MzReader_.28for_Windows.29">BzReader and MzReader (for Windows)</span></h3>
+<p><a rel="nofollow" class="external text" href="http://code.google.com/p/bzreader/">BzReader</a> is an offline Wikipedia reader with fast search capabilities. It renders the Wiki text into HTML and doesn't need to decompress the database. Requires Microsoft .NET framework 2.0.</p>
+<p><a rel="nofollow" class="external text" href="http://homepage.ntlworld.com/bharat.vadera/MzReader/">MzReader</a> by <a href="User_talk_Mun206" title="User talk:Mun206">Mun206</a> works with (though is not affiliated with) BzReader, and allows further rendering of wikicode into better HTML, including an interpretation of the monobook skin. It aims to make pages more readable. Requires Microsoft Visual Basic 6.0 Runtime, which is not supplied with the download. Also requires Inet Control and Internet Controls (Internet Explorer 6 ActiveX), which are packaged with the download.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=34.php.html" title="Edit section: EPWING">edit</a>]</span> <span class="mw-headline" id="EPWING">EPWING</span></h3>
+<p>Offline Wikipedia database in EPWING dictionary format, which is common in Japan, can be read including images and other some rendering limitations for tables, on any systems where a reader is available. There are many free and commercial readers for Windows/Mobile, MacOSX/iOS (Mac, iPhone, iPad), Android, Unix/Linux/BSD, DOS, and Java-based browser applications.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=35.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="DBpedia" title="DBpedia">DBpedia</a></li>
+<li><a href="WikiReader" title="WikiReader">WikiReader</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Export" class="extiw" title="m:Export">m:Export</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Help:Downloading_pages" class="extiw" title="m:Help:Downloading pages">m:Help:Downloading pages</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Import" class="extiw" title="m:Import">m:Import</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Data_dumps#Tools" class="extiw" title="meta:Data dumps">Meta:Data dumps#Tools</a>, for related tools, e.g. extractors and "dump readers"</li>
+<li><a href="Wikipedia_Wikipedia-CD/Download" title="Wikipedia:Wikipedia-CD/Download" class="mw-redirect">Wikipedia:Wikipedia-CD/Download</a></li>
+<li><a href="Wikipedia_Size_of_Wikipedia" title="Wikipedia:Size of Wikipedia">Wikipedia:Size of Wikipedia</a></li>
+<li><a href="http://meta.wikimedia.org/wiki/Mirroring_Wikimedia_project_XML_dumps" class="extiw" title="meta:Mirroring Wikimedia project XML dumps">meta:Mirroring Wikimedia project XML dumps</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=36.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.suse.com/~aj/linux_lfs.html">Large File Support in Linux</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.h-online.com/open/news/item/Android-2-3-Gingerbread-to-use-Ext4-file-system-1152775.html">Android 2.2 and before used YAFFS file system; December 14, 2010.</a></span></li>
+</ol>
+<h2><span class="editsection">[<a href="../../w/index-title=Wikipedia_Database_download&action=edit&section=37.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a class="external text" href="http://download.wikimedia.org/">Wikimedia Downloads</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://dammit.lt/wikistats/">Domas visits logs</a> (<a rel="nofollow" class="external text" href="http://infodisiac.com/blog/2010/07/wikimedia-page-views-some-good-and-bad-news/">read this!</a>). Also, <a rel="nofollow" class="external text" href="http://www.archive.org/details/wikipedia_visitor_stats_200712">old data</a> in <a href="Internet_Archive" title="Internet Archive">the Internet Archive</a>.</li>
+<li><a class="external text" href="http://meta.wikimedia.org/wiki/Mailing_lists/Overview">Wikimedia mailing lists</a> archives.</li>
+<li><a href="User_Emijrp/Wikipedia_Archive" title="User:Emijrp/Wikipedia Archive">User:Emijrp/Wikipedia Archive</a>. An effort to find all the Wiki[mp]edia available data, and to encourage people to download it and save it around the globe.</li>
+<li><a rel="nofollow" class="external text" href="http://code.google.com/p/wikiteam/source/browse/trunk/wikipediadownloader.py">Script to download all Wikipedia 7z dumps</a>.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1201/1000000
+Preprocessor generated node count: 6431/1500000
+Post-expand include size: 6935/2048000 bytes
+Template argument size: 642/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:68321-0!*!0!!en!4!* and timestamp 20130211090147 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wikipedia_Database_download&oldid=537677366.php.html">http://en.wikipedia.org/w/index.php?title=Wikipedia:Database_download&amp;oldid=537677366</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Wikipedia_downloads" title="Category:Wikipedia downloads">Wikipedia downloads</a></li><li><a href="Category_Wikipedia_database_reports" title="Category:Wikipedia database reports">Wikipedia database reports</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Database+download&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wikipedia_Database+download.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-project" class="selected"><span><a href="index.html"  title="View the project page [c]" accesskey="c">Project page</a></span></li>
+					<li  id="ca-talk"><span><a href="Wikipedia_talk_Database_download"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Wikipedia_Database_download&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wikipedia_Database_download&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wikipedia_Database_download" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wikipedia_Database_download" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wikipedia_Database_download&oldid=537677366.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wikipedia_Database_download&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wikipedia_Database+download.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wikipedia_Database+download&oldid=537677366&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wikipedia_Database_download&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%A1%D0%B2%D0%B0%D0%BB%D1%8F%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%A3%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F" title="Уикипедия:Сваляне на Уикипедия" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Hilfe:Download" title="Hilfe:Download" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%92%CE%B9%CE%BA%CE%B9%CF%80%CE%B1%CE%AF%CE%B4%CE%B5%CE%B9%CE%B1:Database_download" title="Βικιπαίδεια:Database download" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Wikipedia:Descargas" title="Wikipedia:Descargas" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Wikip%C3%A9dia:T%C3%A9l%C3%A9charger_la_base_de_donn%C3%A9es" title="Wikipédia:Télécharger la base de données" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC:%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C" title="위키백과:데이터베이스 다운로드" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Wikipedia:Wikipedia_bahasa_Indonesia_versi_offline" title="Wikipedia:Wikipedia bahasa Indonesia versi offline" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Aiuto:Analisi_del_database" title="Aiuto:Analisi del database" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Vikipedija:Atsisiuntimas" title="Vikipedija:Atsisiuntimas" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/Wikipedia:%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89" title="Wikipedia:データベースダウンロード" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Wikipedia:Baza_danych" title="Wikipedia:Baza danych" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Ajuda:Guia_de_consulta_e_reprodu%C3%A7%C3%A3o/download" title="Ajuda:Guia de consulta e reprodução/download" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%9A%D0%B0%D0%BA_%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8E_%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D0%B8" title="Википедия:Как сделать копию Википедии" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Wikipedia:Tietokannan_lataus" title="Wikipedia:Tietokannan lataus" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Wikipedia:Databasnerladdning" title="Wikipedia:Databasnerladdning" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%BF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%BF%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%80%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AE%BE:%E0%AE%AA%E0%AE%A4%E0%AE%BF%E0%AE%B5%E0%AE%BF%E0%AE%B1%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D" title="விக்கிப்பீடியா:பதிவிறக்கம்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Vikipedi:Veritaban%C4%B1_indirme" title="Vikipedi:Veritabanı indirme" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%92%D0%B8%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D0%B8_%D0%B1%D0%B0%D0%B7%D1%83_%D0%B4%D0%B0%D0%BD%D0%B8%D1%85" title="Вікіпедія:Викачати базу даних" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD" title="Wikipedia:数据库下载" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 February 2013 at 09:01.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wikipedia:Database_download" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1019 in 0.138 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

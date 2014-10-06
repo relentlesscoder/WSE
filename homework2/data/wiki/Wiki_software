@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Wiki software - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Wiki_software&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Wiki_software&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Wiki_software","wgTitle":"Wiki software","wgCurRevisionId":534268325,"wgArticleId":33164,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking reliable references from September 2011","All articles lacking reliable references","All articles with unsourced statements","Articles with unsourced statements from August 2012","Wiki software","Wikis","Web portals","Information technology management"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wiki_software","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"59aa2aaeae440fb9443f25546f5140d1","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":33164,"title":"Wiki software","namespace":0,"categories":["All articles lacking reliable references","All articles with unsourced statements","Articles lacking reliable references from September 2011","Articles with unsourced statements from August 2012","Information technology management","Web portals","Wiki software","Wikis"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Wiki_software skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Wiki software</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content ambox-Primary_sources" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>relies on <a href="Wikipedia_Verifiability" title="Wikipedia:Verifiability">references</a> to <a href="Wikipedia_No_original_research#Primary.2C_secondary_and_tertiary_sources" title="Wikipedia:No original research">primary sources</a></b>. <span class="hide-when-compact">Please add references to <a href="Wikipedia_No_original_research#Primary.2C_secondary_and_tertiary_sources" title="Wikipedia:No original research">secondary or tertiary sources</a>.</span> <small><i>(September 2011)</i></small> </span></td>
+</tr>
+</table>
+<p><b>Wiki software</b> (also known as a <b>wiki engine</b> or <b>wiki application</b><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2012">citation needed</span></a></i>]</sup>) is <a href="Collaborative_software" title="Collaborative software">collaborative software</a> that runs a <a href="Wiki" title="Wiki">wiki</a>, i.e., a <a href="Website" title="Website">website</a> that allows users to create and collaboratively edit <a href="Web_page" title="Web page">web pages</a> via a <a href="Web_browser" title="Web browser">web browser</a>. A wiki system is usually a <a href="Web_application" title="Web application">web application</a> that runs on one or more <a href="Web_server" title="Web server">web servers</a>. The content, including all current and previous revisions, is usually stored in either a <a href="File_system" title="File system">file system</a> or a <a href="Database" title="Database">database</a>.</p>
+<p>Wiki software was invented and first created by programmer <a href="Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a> in 1995. There are currently dozens of actively maintained wiki engines, in a variety of programming languages, including both <a href="Open_source" title="Open source">open source</a> and <a href="Proprietary_software" title="Proprietary software">proprietary</a> applications.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Types_of_usage"><span class="tocnumber">2</span> <span class="toctext">Types of usage</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Public_wikis"><span class="tocnumber">2.1</span> <span class="toctext">Public wikis</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Enterprise_wikis"><span class="tocnumber">2.2</span> <span class="toctext">Enterprise wikis</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Personal_wikis"><span class="tocnumber">2.3</span> <span class="toctext">Personal wikis</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Editing"><span class="tocnumber">3</span> <span class="toctext">Editing</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Hosted_application"><span class="tocnumber">4</span> <span class="toctext">Hosted application</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Additional_features"><span class="tocnumber">5</span> <span class="toctext">Additional features</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Content-management_features"><span class="tocnumber">5.1</span> <span class="toctext">Content-management features</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Scripting"><span class="tocnumber">5.2</span> <span class="toctext">Scripting</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Semantic_annotation"><span class="tocnumber">5.3</span> <span class="toctext">Semantic annotation</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Mobile_access"><span class="tocnumber">5.4</span> <span class="toctext">Mobile access</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Offline_viewing_and_editing"><span class="tocnumber">5.5</span> <span class="toctext">Offline viewing and editing</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="History_of_wikis" title="History of wikis">History of wikis</a></div>
+<p>The first wiki application, <a href="WikiWikiWeb" title="WikiWikiWeb">WikiWikiWeb</a>, was created by American computer programmer <a href="Ward_Cunningham" title="Ward Cunningham">Ward Cunningham</a> in 1994 and launched on c2.com in 1995.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> "WikiWikiWeb" was also the name of the wiki that ran on the software, and in the first years of wikis' existence there was no great distinction made between the contents of wikis and the software they ran on, possibly because almost every wiki ran on its own customized software. The WikiWikiWeb software was later renamed "WikiBase".</p>
+<p>Over the next 10 years, many more wiki applications were written, in a variety of programming languages. After 2005, there began to be a move toward increasing consolidation and standardization: many less-popular wiki applications were gradually abandoned, and fewer new applications were created. Relatively few of the wiki engines currently in use were created after 2006.</p>
+<p>Wiki functionality has also been added to existing <a href="Content_management_system" title="Content management system">content management systems</a>, such as <a href="Microsoft_SharePoint" title="Microsoft SharePoint">Microsoft SharePoint</a> and <a href="Drupal" title="Drupal">Drupal</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=2.php.html" title="Edit section: Types of usage">edit</a>]</span> <span class="mw-headline" id="Types_of_usage">Types of usage</span></h2>
+<p>There are essentially three types of usage for wiki software: public-facing wikis with a potentially large community of readers and editors, private <a href="Enterprise_wiki" title="Enterprise wiki" class="mw-redirect">enterprise wikis</a> for data management by corporations and other organizations, and <a href="Personal_wiki" title="Personal wiki">personal wikis</a>, meant to be used by a single person to manage notes, and usually run on a desktop. Some wiki software is specifically geared for one of the usage types, while other software can be used for all three, but contains functionality, either in its core or through plugins, that help with one or more of the usage types.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=3.php.html" title="Edit section: Public wikis">edit</a>]</span> <span class="mw-headline" id="Public_wikis">Public wikis</span></h3>
+<p>Public wikis are wikis that can be read by anyone; usually (though not always), they can be edited by anyone as well, though sometimes registration is required. Among public wikis, <a href="MediaWiki" title="MediaWiki">MediaWiki</a> is the dominant software: it powers the world's most popular public wiki, <a href="Wikipedia" title="Wikipedia">Wikipedia</a>, as well as the most popular wiki farm, <a href="Wikia" title="Wikia">Wikia</a>, and it is the most popular software in use on other public wikis as well.<sup id="cite_ref-wikiindex_3-0" class="reference"><a href="#cite_note-wikiindex-3"><span>[</span>3<span>]</span></a></sup> Other wiki engines used regularly for public wikis include <a href="MoinMoin" title="MoinMoin">MoinMoin</a> and <a href="PmWiki" title="PmWiki">PmWiki</a>, along with many others.<sup id="cite_ref-wikiindex_3-1" class="reference"><a href="#cite_note-wikiindex-3"><span>[</span>3<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=4.php.html" title="Edit section: Enterprise wikis">edit</a>]</span> <span class="mw-headline" id="Enterprise_wikis">Enterprise wikis</span></h3>
+<p><a href="Enterprise_software" title="Enterprise software">Enterprise</a> wiki software is software meant to be used in a corporate (or organizational) context,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> especially to enhance internal <a href="Knowledge_sharing" title="Knowledge sharing">knowledge sharing</a>. It tends to have a greater emphasis on features like access control, integration with other software, and <a href="Document_management_system" title="Document management system">document management</a>. Most proprietary wiki applications specifically market themselves as enterprise solutions, including <a href="Confluence_(software)" title="Confluence (software)">Confluence</a>, <a href="Socialtext" title="Socialtext">Socialtext</a>, <a href="Jive_(software)" title="Jive (software)">Jive</a>, <a href="SamePage" title="SamePage">SamePage</a>, and <a href="Traction_TeamPage" title="Traction TeamPage">Traction TeamPage</a>. In addition, some <a href="Open_source" title="Open source">open source</a> wiki applications also describe themselves as enterprise solutions, including <a href="XWiki" title="XWiki">XWiki</a>, which is also an <a href="Application_wiki" title="Application wiki" class="mw-redirect">application wiki</a>, <a href="Foswiki" title="Foswiki">Foswiki</a>, which calls itself "the free and open source enterprise collaboration platform",<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> and <a href="TWiki" title="TWiki">TWiki</a>, which calls itself "the Open Source Enterprise Wiki".<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> Some open-source wiki applications, though they do not specifically bill themselves as enterprise solutions, have marketing materials geared for enterprise users, like <a href="Tiki_Wiki_CMS_Groupware" title="Tiki Wiki CMS Groupware">Tiki Wiki CMS Groupware</a><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> and <a href="MediaWiki" title="MediaWiki">MediaWiki</a>.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> Many other wiki applications have also been used within enterprises.</p>
+<p>Among the many companies and government organizations that use wikis internally are <a href="Adobe_Systems" title="Adobe Systems">Adobe Systems</a>, <a href="../Amazon.com" title="Amazon.com">Amazon.com</a>, <a href="Intel" title="Intel">Intel</a>, <a href="Microsoft" title="Microsoft">Microsoft</a> and the <a href="Intellipedia" title="Intellipedia">United States intelligence community</a>.</p>
+<p>Within organizations, wikis may either add to or replace centrally managed <a href="Content_management_system" title="Content management system">content management systems</a>. Their decentralized nature allows them, in principle, to disseminate needed information across an organization more rapidly and more cheaply than a centrally controlled knowledge repository. Wikis can also be used for <a href="Document_management" title="Document management" class="mw-redirect">document management</a>, <a href="Project_management" title="Project management">project management</a>, <a href="Customer_relationship_management" title="Customer relationship management">customer relationship management</a>, <a href="Enterprise_resource_planning" title="Enterprise resource planning">enterprise resource planning</a>, and many other kinds of data management.</p>
+<p>Features of wikis specifically helpful to a corporation include:</p>
+<ul>
+<li>Allows entering information, via quick-and-easy-to-create pages, containing links to other corporate information systems like people directories, CMS, applications, and thus to facilitate the build up of knowledge bases.</li>
+<li>Avoids <a href="E-mail" title="E-mail" class="mw-redirect">e-mail</a> overload. Wikis allow all relevant information to be shared by people working on a given project. Conversely, only the wiki users interested in a given project need look at its associated wiki pages, in contrast to high-traffic mailing lists which may burden subscribers with many messages, regardless of their relevance. It is also very useful for the project manager to have all the communication stored in one place, which allows them to link the responsibility for every action taken to a particular team member.</li>
+<li>Organizes information. Wikis allow users to structure new and existing information. Like editable content, the structure of data is sometimes also editable by users.</li>
+<li>Builds consensus. Wikis allows structuring the expression of views, on a topic being considered by authors, on the same page. This feature is very useful when writing documentation, preparing presentations, when author opinions differ, and so on.</li>
+<li>Access levels by rights and roles. Users can be denied access to view and/or edit given pages, depending upon their department or role within the organization.</li>
+<li>Knowledge management with comprehensive searches. This includes document and project management, as well as using a wiki as a knowledge repository useful during times of employee turnover, retirement and so on.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=5.php.html" title="Edit section: Personal wikis">edit</a>]</span> <span class="mw-headline" id="Personal_wikis">Personal wikis</span></h3>
+<p>Software that is specifically designed for running personal wikis includes NotePub, Pimki and <a href="Tomboy_(software)" title="Tomboy (software)">Tomboy</a>. Other, more general, wiki applications have components geared for individual users, including MoinMoin, which offers a "DesktopEdition".<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=6.php.html" title="Edit section: Editing">edit</a>]</span> <span class="mw-headline" id="Editing">Editing</span></h2>
+<p>Most wiki software uses a special syntax, known as <a href="Wiki_markup" title="Wiki markup">wiki markup</a>, for users to format the text, instead of requiring them to enter in HTML. Some wiki applications also include a <a href="WYSIWYG" title="WYSIWYG">WYSIWYG</a> editor, either instead of or in addition to the wiki markup editing.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=7.php.html" title="Edit section: Hosted application">edit</a>]</span> <span class="mw-headline" id="Hosted_application">Hosted application</span></h2>
+<p>There are a variety of <a href="Wiki_hosting_service" title="Wiki hosting service">wiki hosting services</a>, otherwise known as wiki farms, that host users' wikis on a server. Some wiki software is only available in hosted form: <a href="PBworks" title="PBworks">PBworks</a>, <a href="Wetpaint" title="Wetpaint">Wetpaint</a> and <a href="Wikispaces" title="Wikispaces">Wikispaces</a> are all examples of wiki hosting services that run on code that is only available on those sites. Other wiki software is available in both hosted and downloadable form, including Confluence, Socialtext, MediaWiki (available on Wikia and EditThis.info, among other sites) and <a href="XWiki" title="XWiki">XWiki</a> (see also <a rel="nofollow" class="external text" href="http://www.xwiki.com/xwiki/bin/view/Offer/XWikiCloud">XWiki Cloud</a>).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=8.php.html" title="Edit section: Additional features">edit</a>]</span> <span class="mw-headline" id="Additional_features">Additional features</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=9.php.html" title="Edit section: Content-management features">edit</a>]</span> <span class="mw-headline" id="Content-management_features">Content-management features</span></h3>
+<p>Wiki software can include features that come with traditional <a href="Content_management_system" title="Content management system">content management systems</a>, such as calendars, to-do lists, <a href="Blog" title="Blog">blogs</a> and discussion forums. All of these can either be stored via versioned wiki pages, or simply be a separate piece of functionality. Software that supports blogs with wiki-style editing and versioning is sometimes known as "bliki" software.</p>
+<p><a href="Tiki_Wiki_CMS_Groupware" title="Tiki Wiki CMS Groupware">Tiki Wiki CMS Groupware</a> is an example of wiki software that is designed to support such features at its core. Many of the enterprise wiki applications, such as TWiki, Confluence and SharePoint, also support such features, as do open-source applications like MediaWiki and XWiki, via plugins.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=10.php.html" title="Edit section: Scripting">edit</a>]</span> <span class="mw-headline" id="Scripting">Scripting</span></h3>
+<p>Some wiki applications let users embed scripting-style calls into wiki pages, which are processed by the wiki's parser and run either when the page is saved or when it is displayed. <a href="XWiki" title="XWiki">XWiki</a>&#160;and MediaWiki are examples of such an application.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p>
+<p>Specifically <a href="XWiki" title="XWiki">XWiki</a>&#160;offers support for the following scripting languages: Groovy, Velocity, Ruby, Python, PHP or more generally any JSR223 scripting language.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=11.php.html" title="Edit section: Semantic annotation">edit</a>]</span> <span class="mw-headline" id="Semantic_annotation">Semantic annotation</span></h3>
+<p>Wiki software can let users store data via the wiki, in a way that can be exported via the <a href="Semantic_Web" title="Semantic Web">Semantic Web</a>, or queried internally within the wiki. A wiki that allows such annotation is known as a <a href="Semantic_wiki" title="Semantic wiki">semantic wiki</a>. The current best-known semantic wiki software is <a href="Semantic_MediaWiki" title="Semantic MediaWiki">Semantic MediaWiki</a>, a plugin to <a href="MediaWiki" title="MediaWiki">MediaWiki</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=12.php.html" title="Edit section: Mobile access">edit</a>]</span> <span class="mw-headline" id="Mobile_access">Mobile access</span></h3>
+<p>Some wiki software has special handling for accessing by mobile devices, such as <a href="Mobile_phone" title="Mobile phone">mobile phones</a>. This is usually done by displaying conservative HTML coding.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=13.php.html" title="Edit section: Offline viewing and editing">edit</a>]</span> <span class="mw-headline" id="Offline_viewing_and_editing">Offline viewing and editing</span></h3>
+<p>Various approaches to providing wiki functionality when the user is not online have been tried. For users who need to simply read the wiki's content when offline, a copy of the content can often be made easily; in the case of <a href="Wikipedia" title="Wikipedia">Wikipedia</a>, <a href="CD-ROM" title="CD-ROM">CD-ROMs</a> and printed versions have been made of parts of Wikipedia's content.</p>
+<p>Allowing offline editing, however (where the changes are synchronized when the user is back online), is a much more difficult process. One approach to doing this is using a <a href="Distributed_revision_control_system" title="Distributed revision control system" class="mw-redirect">distributed revision control system</a> as a <a href="Backend" title="Backend" class="mw-redirect">backend</a> of the wiki, in <a href="Peer-to-peer" title="Peer-to-peer">peer-to-peer</a> style. With this approach, there is no central store of the wiki's content; instead, every user keeps a complete copy of the wiki locally, and the software handles merging and propagating of changes when they are made. This is the approach taken by the <a href="Ikiwiki" title="Ikiwiki">ikiwiki</a> engine (which can use the distributed revision control system <a href="Git_(software)" title="Git (software)">Git</a> as its back-end), and <a href="Code_Co-op" title="Code Co-op">Code Co-op</a> (a distributed revision control system that includes a wiki component).</p>
+<p>There has also been research done on allowing Wikipedia to be run as a decentralized wiki,<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> and on modifying the application XWiki to function in this way.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Collaborative_editing" title="Collaborative editing">Collaborative editing</a></li>
+<li><a href="Comparison_of_wiki_software" title="Comparison of wiki software">Comparison of wiki software</a></li>
+<li><a href="Enterprise_portal" title="Enterprise portal">Enterprise portal</a></li>
+<li><a href="Enterprise_social_software" title="Enterprise social software">Enterprise social software</a></li>
+<li><a href="List_of_collaborative_software" title="List of collaborative software">List of collaborative software</a></li>
+<li><a href="List_of_wiki_software" title="List of wiki software">List of wiki software</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=15.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><i>The Wiki Way. Quick collaboration on the Web</i>, Addison-Wesley (April 2001) <a href="Special_BookSources/020171499X" class="internal mw-magiclink-isbn">ISBN 0-201-71499-X</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://drupal.org/project/drupalwiki">Drupal Wiki project</a></span></li>
+<li id="cite_note-wikiindex-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-wikiindex_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-wikiindex_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://wikiindex.org/Special:BrowseData/All?_single&Status%5B0%5D=Active&Status%5B1%5D=New&Status%5B2%5D=Vibrant">Breakdown of active wikis on WikiIndex</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.infoworld.com/d/developer-world/year-enterprise-wiki-305">Year of the enterprise Wiki: Lightweight Web collaboration gets down to business</a> Jon Udell | <i><a href="InfoWorld" title="InfoWorld">InfoWorld</a></i> | December 30, 2004</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://foswiki.org/">Foswiki homepage</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://twiki.org/">TWiki homepage</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://tiki.org/Enterprise">Tiki in the enterprise</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.mediawiki.org/wiki/MediaWiki_is_a_corporate_solution">MediaWiki is a corporate solution</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://moinmo.in/DesktopEdition">MoinMoin: About DesktopEdition</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://platform.xwiki.org/xwiki/bin/view/Features/Applications">XWiki: Applications &amp; Extensions</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFC_Anslow.2C_D_Riehle2007">C Anslow, D Riehle (2007), <a rel="nofollow" class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.2458&rep=rep1&type=pdf"><i>Lightweight End-User Programming with Wikis</i></a>, SAP Research<span class="printonly">, <a rel="nofollow" class="external free" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.2458&rep=rep1&type=pdf">http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.131.2458&amp;rep=rep1&amp;type=pdf</a></span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.cio.com/article/19955/Socialtext_Optimizes_Wiki_for_Mobile_Users?contentId=19955&slug=&">Socialtext Optimizes Wiki for Mobile Users</a>, CIO Magazine, April 5, 2006, retrieved 2008-09-20</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.tuaw.com/2007/07/15/w2-a-little-iphone-wiki/">W2: a little iPhone wiki</a>, tuaw, July 15, 2007, retrieved 2008-09-20</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.globule.org/publi/DWECWH_webist2007.html">A Decentralized Wiki Engine for Collaborative Wikipedia Hosting</a>, Guido Urdaneta, Guillaume Pierre and Maarten van Steen, <i>Proceedings of the 3rd International Conference on Web Information Systems and Technology (WEBIST)</i>, March 2007</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.globule.org/publi/WWADH_comnet2009.html">Wikipedia Workload Analysis for Decentralized Hosting</a>, Guido Urdaneta, Guillaume Pierre, Maarten van Steen, <i>Elsevier Computer Networks 53(11)</i>, pp. 1830-1845, July 2009</span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://concerto.xwiki.com/xwiki/bin/view/Main/WebHome">XWiki Concerto Project homepage</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=16.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="refbegin" style="">
+<ul>
+<li>Andersen, Espen (2005). <a rel="nofollow" class="external text" href="http://www.espen.com/papers/Andersen-2005-corpwikis.pdf">Using Wikis in a Corporate Context</a>. In <i>Handbuch E-Learning</i>. A. Hohenstein and K. Wilbers (eds). Cologne, WoltersKluwer. 5.8: 15.</li>
+<li>Guy, Marieke (2006). <a rel="nofollow" class="external text" href="http://www.ariadne.ac.uk/issue49/guy/">Wiki or Won't He? A Tale of Public Sector Wikis</a>. Ariadne Issue 49.</li>
+<li>Grzeganek, K.; Frost, I.; Gross, D (2011). <a rel="nofollow" class="external text" href="http://www.community-of-knowledge.de/article/spoilt-for-choice-wiki-software-for-knowledge-management-in-organisations/">Spoilt for Choice - Wiki Software for Knowledge Management in Organisations</a>. Community of Knowledge.</li>
+</ul>
+</div>
+<p>-</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Wiki_software&action=edit&section=17.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.wikimatrix.org">WikiMatrix: Comparing Multiple Wiki Engines Side-by-Side</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.onlamp.com/pub/a/onlamp/2004/11/04/which_wiki.html">Comparison of different wiki software</a> (Article, November 2004)</li>
+<li><a rel="nofollow" class="external text" href="http://www.infoworld.com/article/07/01/05/02TCwiki_1.html">"Wikis evolve as collaboration tools"</a>: <i><a href="InfoWorld" title="InfoWorld">InfoWorld</a></i> January 2007 review of proprietary enterprise wiki software</li>
+<li><a rel="nofollow" class="external text" href="http://www.wikisym.org/ws2006/proceedings/p99.pdf">"Corporate Wiki Users: Results of a Survey"</a>: 2006 survey of 168 corporate wiki users</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Wiki_topics" title="Template:Wiki topics"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Wiki_topics" title="Template talk:Wiki topics"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Wiki_topics&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Wiki" title="Wiki">Wikis</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Types</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Personal_wiki" title="Personal wiki">Personal</a></li>
+<li><a href="Semantic_wiki" title="Semantic wiki">Semantic</a></li>
+<li><a href="Wiki_hosting_service" title="Wiki hosting service">Wiki farm</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Components</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Software</strong></li>
+<li><a href="Wiki_markup" title="Wiki markup">Markup</a></li>
+<li><a href="Interwiki_links" title="Interwiki links">Interwiki links</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Lists</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_wikis" title="List of wikis">Wikis</a></li>
+<li><a href="List_of_wiki_software" title="List of wiki software">Software</a></li>
+<li><a href="List_of_Wiki_markups" title="List of Wiki markups">Markups and parsers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Comparisons</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Comparison_of_wiki_software" title="Comparison of wiki software">Software</a></li>
+<li><a href="Comparison_of_wiki_farms" title="Comparison of wiki farms" class="mw-redirect">Wiki farms</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">See also</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_wikis" title="History of wikis">History of wikis</a></li>
+<li><a href="Creole_(markup)" title="Creole (markup)">Creole</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Wiki_software" title="Template:Wiki software"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Wiki_software" title="Template talk:Wiki software"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Wiki_software&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><strong class="selflink">Wiki software</strong></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href=".NET_Framework" title=".NET Framework">.NET</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="FlexWiki" title="FlexWiki">FlexWiki</a></li>
+<li><a href="Microsoft_SharePoint" title="Microsoft SharePoint">Microsoft SharePoint</a></li>
+<li><a href="ThoughtFarmer" title="ThoughtFarmer">ThoughtFarmer</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Java_(programming_language)" title="Java (programming language)">Java</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Confluence_(software)" title="Confluence (software)">Confluence</a></li>
+<li><a href="JAMWiki" title="JAMWiki">JAMWiki</a></li>
+<li><a href="Jive_(software)" title="Jive (software)">Jive</a></li>
+<li><a href="SamePage" title="SamePage">SamePage</a></li>
+<li><a href="Traction_TeamPage" title="Traction TeamPage">Traction TeamPage</a></li>
+<li><a href="XWiki" title="XWiki">XWiki</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Perl" title="Perl">Perl</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ikiwiki" title="Ikiwiki">ikiwiki</a></li>
+<li><a href="TWiki" title="TWiki">TWiki</a></li>
+<li><a href="UseModWiki" title="UseModWiki">UseModWiki</a></li>
+<li><a href="Foswiki" title="Foswiki">Foswiki</a></li>
+<li><a href="Aneuch" title="Aneuch">Aneuch</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="PHP" title="PHP">PHP</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="DokuWiki" title="DokuWiki">DokuWiki</a></li>
+<li><a href="MediaWiki" title="MediaWiki">MediaWiki</a></li>
+<li><a href="MindTouch" title="MindTouch">MindTouch</a></li>
+<li><a href="PhpWiki" title="PhpWiki">PhpWiki</a></li>
+<li><a href="PmWiki" title="PmWiki">PmWiki</a></li>
+<li><a href="Tiki_Wiki_CMS_Groupware" title="Tiki Wiki CMS Groupware">Tiki Wiki CMS Groupware</a></li>
+<li><a href="WackoWiki" title="WackoWiki">WackoWiki</a></li>
+<li><a href="WikkaWiki" title="WikkaWiki">WikkaWiki</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Python_(programming_language)" title="Python (programming language)">Python</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="MoinMoin" title="MoinMoin">MoinMoin</a></li>
+<li><a href="Trac" title="Trac">Trac</a></li>
+<li><a href="Zwiki" title="Zwiki">Zwiki</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Redmine" title="Redmine">Redmine</a></li>
+<li><a href="Wagn_(software)" title="Wagn (software)">Wagn</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other languages</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="CLiki" title="CLiki">CLiki</a> (<a href="Common_Lisp" title="Common Lisp">Common Lisp</a>)</li>
+<li><a href="Gitit_(software)" title="Gitit (software)">Gitit</a> (<a href="Haskell_(programming_language)" title="Haskell (programming language)">Haskell</a>)</li>
+<li><a href="TiddlyWiki" title="TiddlyWiki">TiddlyWiki</a> (<a href="JavaScript" title="JavaScript">JavaScript</a>)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Wiki_software" title="Category:Wiki software">Category</a></b></li>
+<li><b><a href="Comparison_of_wiki_software" title="Comparison of wiki software">Comparison</a></b></li>
+<li><b><a href="List_of_wiki_software" title="List of wiki software">List</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_WebManTools" title="Template:WebManTools"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_WebManTools" title="Template talk:WebManTools"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_WebManTools&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Website management</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Overselling" title="Overselling">Overselling</a></li>
+<li><a href="Web_document" title="Web document">Web document</a></li>
+<li><a href="Web_content" title="Web content">Web content</a></li>
+<li><a href="Web_content_lifecycle" title="Web content lifecycle">Web content lifecycle</a></li>
+<li><a href="Web_hosting_service" title="Web hosting service">Web hosting service</a></li>
+<li><a href="Web_server" title="Web server">Web server</a></li>
+<li><a href="Webmaster" title="Webmaster">Webmaster</a></li>
+<li><a href="Website_governance" title="Website governance">Website governance</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Web_hosting_control_panel" title="Web hosting control panel">Web hosting control panels</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Comparison_of_web_hosting_control_panels" title="Comparison of web hosting control panels">Comparison of control panels</a></li>
+<li><a href="AlternC" title="AlternC">AlternC</a></li>
+<li><a href="Baifox" title="Baifox">Baifox</a></li>
+<li><a href="CPanel" title="CPanel">cPanel</a></li>
+<li><a href="DirectAdmin" title="DirectAdmin">DirectAdmin</a></li>
+<li><a href="Domain_Technologie_Control" title="Domain Technologie Control">Domain Technologie Control</a></li>
+<li><a href="Froxlor" title="Froxlor">Froxlor</a></li>
+<li><a href="GNUPanel" title="GNUPanel">GNUPanel</a></li>
+<li><a href="H-Sphere" title="H-Sphere">H-Sphere</a></li>
+<li><a href="I-MSCP" title="I-MSCP">i-MSCP</a></li>
+<li><a href="InterWorx" title="InterWorx">InterWorx</a></li>
+<li><a href="ISPConfig" title="ISPConfig">ISPConfig</a></li>
+<li><a href="IspCP" title="IspCP">ispCP</a></li>
+<li><a href="Kloxo" title="Kloxo">Kloxo</a></li>
+<li><a href="Plesk" title="Plesk">Plesk</a></li>
+<li><a href="SysCP" title="SysCP">SysCP</a></li>
+<li><a href="Usermin" title="Usermin">Usermin</a></li>
+<li><a href="Webmin" title="Webmin">Webmin</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Domain_name" title="Domain name">Domain name</a> managers and <a href="Domain_name_registrar" title="Domain name registrar">registrars</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Afilias" title="Afilias">Afilias</a></li>
+<li><a href="AusRegistry" title="AusRegistry">AusRegistry</a></li>
+<li><a href="BigRock" title="BigRock">BigRock</a></li>
+<li><a href="../CZ.NIC" title="CZ.NIC">CZ.NIC</a></li>
+<li><a href="Canadian_Internet_Registration_Authority" title="Canadian Internet Registration Authority">CIRA</a></li>
+<li><a href="China_Internet_Network_Information_Center" title="China Internet Network Information Center">CNNIC</a></li>
+<li><a href="DENIC" title="DENIC">DENIC</a></li>
+<li><a href="DNS_Belgium" title="DNS Belgium">DNS Belgium</a></li>
+<li><a href="Domainz" title="Domainz">Domainz</a></li>
+<li><a href="Dynadot" title="Dynadot">Dynadot</a></li>
+<li><a href="ENom" title="ENom">eNom</a></li>
+<li><a href="Gandi" title="Gandi">Gandi</a></li>
+<li><a href="Go_Daddy" title="Go Daddy">Go Daddy</a></li>
+<li><a href="Hover_(domain_registrar)" title="Hover (domain registrar)">Hover</a></li>
+<li><a href="Melbourne_IT" title="Melbourne IT">Melbourne IT</a></li>
+<li><a href="Museum_Domain_Management_Association" title="Museum Domain Management Association">Museum Domain Management Association</a></li>
+<li><a href="../Name.com" title="Name.com">Name.com</a></li>
+<li><a href="Namecheap" title="Namecheap">Namecheap</a></li>
+<li><a href="Network_Solutions" title="Network Solutions">Network Solutions</a></li>
+<li><a href="NeuStar" title="NeuStar" class="mw-redirect">NeuStar</a></li>
+<li><a href="NIC_M%C3%A9xico" title="NIC México">NIC México</a></li>
+<li><a href="../OLM.net" title="OLM.net">OLM.net</a></li>
+<li><a href="../Register.com" title="Register.com">Register.com</a></li>
+<li><a href="Tucows" title="Tucows">Tucows</a></li>
+<li><a href="../Web.com" title="Web.com">Web.com</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Web_content_management_system" title="Web content management system">Web content management system</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Conference_management_system" title="Conference management system">Conference management system</a></li>
+<li><a href="Document_management_system" title="Document management system">Document management system</a></li>
+<li><strong class="selflink">Wiki software</strong></li>
+<li><a href="Blog_software" title="Blog software">Blog software</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 3258/1000000
+Preprocessor generated node count: 27446/1500000
+Post-expand include size: 50654/2048000 bytes
+Template argument size: 12386/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:33164-0!*!0!!en!4!* and timestamp 20130210092258 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Wiki_software&oldid=534268325.php.html">http://en.wikipedia.org/w/index.php?title=Wiki_software&amp;oldid=534268325</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Wiki_software" title="Category:Wiki software">Wiki software</a></li><li><a href="Category_Wikis" title="Category:Wikis">Wikis</a></li><li><a href="Category_Web_portals" title="Category:Web portals">Web portals</a></li><li><a href="Category_Information_technology_management" title="Category:Information technology management">Information technology management</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_lacking_reliable_references_from_September_2011" title="Category:Articles lacking reliable references from September 2011">Articles lacking reliable references from September 2011</a></li><li><a href="Category_All_articles_lacking_reliable_references" title="Category:All articles lacking reliable references">All articles lacking reliable references</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_August_2012" title="Category:Articles with unsourced statements from August 2012">Articles with unsourced statements from August 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Wiki+software&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Wiki+software.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Wiki_software"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Wiki_software&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Wiki_software&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Wiki_software" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Wiki_software" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Wiki_software&oldid=534268325.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Wiki_software&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Wiki_software&id=534268325.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Wiki+software.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Wiki+software&oldid=534268325&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Wiki_software&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D9%88%D9%8A%D9%83%D9%8A" title="برنامج ويكي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Programari_viqui" title="Programari viqui" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Enterprise_Wiki" title="Enterprise Wiki" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Software_para_wikis" title="Software para wikis" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C_%D8%B4%D8%B1%DA%A9%D8%AA%DB%8C" title="ویکی شرکتی" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Moteur_de_wiki" title="Moteur de wiki" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9C%84%ED%82%A4_%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4" title="위키 소프트웨어" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Software_wiki" title="Software wiki" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Wikisoftware" title="Wikisoftware" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%82%AD%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2" title="ウィキソフトウェア" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Software_wiki" title="Software wiki" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8-%D0%B4%D0%B2%D0%B8%D0%B6%D0%BE%D0%BA" title="Вики-движок" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Wikiprogramvara" title="Wikiprogramvara" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Wiki_software" title="Wiki software" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%81%E0%B8%B4%E0%B8%8B%E0%B8%AD%E0%B8%9F%E0%B8%95%E0%B9%8C%E0%B9%81%E0%B8%A7%E0%B8%A3%E0%B9%8C" title="วิกิซอฟต์แวร์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D9%88%DB%8C%DA%A9%DB%8C_%D9%85%D8%B5%D9%86%D8%B9_%D9%84%D8%B7%DB%8C%D9%81" title="ویکی مصنع لطیف" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/Wiki%E5%BC%95%E6%93%8E" title="Wiki引擎" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 22 January 2013 at 03:04.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Wiki_software" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1091 in 0.157 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

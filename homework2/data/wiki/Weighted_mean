@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Weighted mean - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Weighted_mean&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Weighted_mean&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Weighted_mean","wgTitle":"Weighted mean","wgCurRevisionId":537828803,"wgArticleId":33274,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Means","Mathematical analysis","Summary statistics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Weighted_mean","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"1a15fd30664c4c3a7f3a83a366253c34","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":33274,"title":"Weighted mean","namespace":0,"categories":["Mathematical analysis","Means","Summary statistics"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Weighted_mean skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Weighted mean</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>The <b>weighted mean</b> is similar to an <a href="Arithmetic_mean" title="Arithmetic mean">arithmetic mean</a> (the most common type of <a href="Average" title="Average">average</a>), where instead of each of the data points contributing equally to the final average, some data points contribute more than others. The notion of weighted mean plays a role in <a href="Descriptive_statistics" title="Descriptive statistics">descriptive statistics</a> and also occurs in a more general form in several other areas of mathematics.</p>
+<p>If all the weights are equal, then the weighted mean is the same as the <a href="Arithmetic_mean" title="Arithmetic mean">arithmetic mean</a>. While weighted means generally behave in a similar fashion to arithmetic means, they do have a few <a href="Counterintuitive" title="Counterintuitive">counterintuitive</a> properties, as captured for instance in <a href="Simpson's_paradox" title="Simpson's paradox">Simpson's paradox</a>.</p>
+<p>The term <b>weighted average</b> usually refers to a weighted arithmetic mean, but weighted versions of other means can also be calculated, such as the <a href="Weighted_geometric_mean" title="Weighted geometric mean">weighted geometric mean</a> and the <a href="Weighted_harmonic_mean" title="Weighted harmonic mean" class="mw-redirect">weighted harmonic mean</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Examples"><span class="tocnumber">1</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Basic_example"><span class="tocnumber">1.1</span> <span class="toctext">Basic example</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Convex_combination_example"><span class="tocnumber">1.2</span> <span class="toctext">Convex combination example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Mathematical_definition"><span class="tocnumber">2</span> <span class="toctext">Mathematical definition</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Statistical_properties"><span class="tocnumber">3</span> <span class="toctext">Statistical properties</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Dealing_with_variance"><span class="tocnumber">4</span> <span class="toctext">Dealing with variance</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Correcting_for_over-_or_under-dispersion"><span class="tocnumber">4.1</span> <span class="toctext">Correcting for over- or under-dispersion</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Weighted_sample_variance"><span class="tocnumber">5</span> <span class="toctext">Weighted sample variance</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Vector-valued_estimates"><span class="tocnumber">6</span> <span class="toctext">Vector-valued estimates</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Accounting_for_correlations"><span class="tocnumber">7</span> <span class="toctext">Accounting for correlations</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Decreasing_strength_of_interactions"><span class="tocnumber">8</span> <span class="toctext">Decreasing strength of interactions</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Exponentially_decreasing_weights"><span class="tocnumber">9</span> <span class="toctext">Exponentially decreasing weights</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Weighted_averages_of_functions"><span class="tocnumber">10</span> <span class="toctext">Weighted averages of functions</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Notes"><span class="tocnumber">12</span> <span class="toctext">Notes</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#Further_reading"><span class="tocnumber">12.1</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#External_links"><span class="tocnumber">13</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=1.php.html" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h2>
+<p>The following examples are designed to introduce this topic to those with only basic math skills.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=2.php.html" title="Edit section: Basic example">edit</a>]</span> <span class="mw-headline" id="Basic_example">Basic example</span></h3>
+<p>Given two school classes, one with 20 students, and one with 30 students, the grades in each class on a test were:</p>
+<dl>
+<dd>Morning class = 62, 67, 71, 74, 76, 77, 78, 79, 79, 80, 80, 81, 81, 82, 83, 84, 86, 89, 93, 98</dd>
+</dl>
+<dl>
+<dd>Afternoon class = 81, 82, 83, 84, 85, 86, 87, 87, 88, 88, 89, 89, 89, 90, 90, 90, 90, 91, 91, 91, 92, 92, 93, 93, 94, 95, 96, 97, 98, 99</dd>
+</dl>
+<p>The straight average for the morning class is 80 and the straight average of the afternoon class is 90. The straight average of 80 and 90 is 85, the mean of the two class means. However, this does not account for the difference in number of students in each class, hence the value of 85 does not reflect the average student grade (independent of class). The average student grade can be obtained by averaging all the grades, without regard to classes (add all the grades up and divide by the total number of students):</p>
+<dl>
+<dd><img class="tex" alt="
+\bar{x} = \frac{4300}{50} = 86.
+" src="http://upload.wikimedia.org/math/c/7/8/c7825a930b3a21f2aabec61b1a030121.png" /></dd>
+</dl>
+<p>Or, this can be accomplished by weighting the class means by the number of students in each class (using a weighted mean of the class means):</p>
+<dl>
+<dd><img class="tex" alt="\bar{x} = \frac{(20\times80) + (30\times90)}{20 + 30} = 86." src="http://upload.wikimedia.org/math/b/5/b/b5b8a706faefde9801750516d55e1f58.png" /></dd>
+</dl>
+<p>Thus, the weighted mean makes it possible to find the average student grade in the case where only the class means and the number of students in each class are available.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=3.php.html" title="Edit section: Convex combination example">edit</a>]</span> <span class="mw-headline" id="Convex_combination_example">Convex combination example</span></h3>
+<p>Since only the <i>relative</i> weights are relevant, any weighted mean can be expressed using coefficients that sum to one. Such a linear combination is called a <a href="Convex_combination" title="Convex combination">convex combination</a>.</p>
+<p>Using the previous example, we would get the following:</p>
+<dl>
+<dd><img class="tex" alt="
+\frac{20}{20 + 30} = 0.4\,
+" src="http://upload.wikimedia.org/math/d/4/3/d43c6cf44b2214babeffb0230c3c8203.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="
+\frac{30}{20 + 30} = 0.6\,
+" src="http://upload.wikimedia.org/math/a/1/9/a195407c002ee0720e3080576f7db4b0.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="
+\bar{x} = \frac{(0.4\times80) + (0.6\times90)}{0.4 + 0.6} = 86.
+" src="http://upload.wikimedia.org/math/7/a/d/7adbc879b3b734c615dcfcae5474adb8.png" /></dd>
+</dl>
+<p>This simplifies to:</p>
+<dl>
+<dd><img class="tex" alt="
+\bar{x} = (0.4\times80) + (0.6\times90) = 86.
+" src="http://upload.wikimedia.org/math/2/3/e/23e46c1993e330841da3ffc1c55013e6.png" /></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=4.php.html" title="Edit section: Mathematical definition">edit</a>]</span> <span class="mw-headline" id="Mathematical_definition">Mathematical definition</span></h2>
+<p>Formally, the weighted mean of a <a href="Non-empty_set" title="Non-empty set" class="mw-redirect">non-empty set</a> of data</p>
+<dl>
+<dd><img class="tex" alt="\{x_1, x_2, \dots , x_n\}," src="http://upload.wikimedia.org/math/a/a/d/aad737d03922c2f1a7679de74d093bbb.png" /></dd>
+</dl>
+<p>with non-negative <a href="Weight_function" title="Weight function">weights</a></p>
+<dl>
+<dd><img class="tex" alt="\{w_1, w_2, \dots, w_n\}," src="http://upload.wikimedia.org/math/3/8/2/382dd27e5aa173c18cf16981adbc162e.png" /></dd>
+</dl>
+<p>is the quantity</p>
+<dl>
+<dd><img class="tex" alt="\bar{x} = \frac{ \sum_{i=1}^n w_i x_i}{\sum_{i=1}^n w_i},
+" src="http://upload.wikimedia.org/math/7/7/e/77e81870295807c0fa0c16c631e90a20.png" /></dd>
+</dl>
+<p>which means:</p>
+<dl>
+<dd><img class="tex" alt="
+\bar{x} = \frac{w_1 x_1 + w_2 x_2 + \cdots + w_n x_n}{w_1 + w_2 + \cdots + w_n}.
+" src="http://upload.wikimedia.org/math/7/5/c/75c5cdcd4fd787649fe5cd279de40ef2.png" /></dd>
+</dl>
+<p>Therefore data elements with a high weight contribute more to the weighted mean than do elements with a low weight. The weights cannot be negative. Some may be zero, but not all of them (since division by zero is not allowed).</p>
+<p>The formulas are simplified when the weights are normalized such that they sum up to <img class="tex" alt="1" src="http://upload.wikimedia.org/math/c/4/c/c4ca4238a0b923820dcc509a6f75849b.png" />, i.e. <img class="tex" alt=" \sum_{i=1}^n {w_i} = 1" src="http://upload.wikimedia.org/math/c/a/2/ca21e7c7a7a3b663e1f669709814d336.png" />. For such normalized weights the weighted mean is simply <img class="tex" alt="\bar {x} = \sum_{i=1}^n {w_i x_i}" src="http://upload.wikimedia.org/math/e/3/5/e350e3176c360cdf94246d722de602ae.png" />.</p>
+<p>Note that one can always normalize the weights by making the following transformation on the weights <img class="tex" alt="w_i' = \frac{w_i}{\sum_{j=1}^n{w_j}}" src="http://upload.wikimedia.org/math/e/0/7/e073ae524415244a427c40fa118c0e80.png" />. Using the normalized weight yields the same results as when using the original weights. Indeed,</p>
+<dl>
+<dd><img class="tex" alt="\bar{x} = \sum_{i=1}^n w'_i x_i= \sum_{i=1}^n \frac{w_i}{\sum_{j=1}^n w_j} x_i = \frac{ \sum_{i=1}^n w_i x_i}{\sum_{j=1}^n w_j} = \frac{ \sum_{i=1}^n w_i x_i}{\sum_{i=1}^n w_i}.
+" src="http://upload.wikimedia.org/math/8/f/d/8fd11ff37b7f725011b601ad7da561ce.png" /></dd>
+</dl>
+<p>The common mean <img class="tex" alt="\frac {1}{n}\sum_{i=1}^n {x_i}" src="http://upload.wikimedia.org/math/a/b/4/ab4dc7f63078199792001deeb3d05e04.png" /> is a special case of the weighted mean where all data have equal weights, <img class="tex" alt="w_i=w" src="http://upload.wikimedia.org/math/5/4/9/5499eeb0efd8f9f841107c74039e0236.png" />. When the weights are normalized then <img class="tex" alt="w_i'=\frac{1}{n}." src="http://upload.wikimedia.org/math/4/4/8/448ee63f56e412535a6d99b297d3e441.png" /></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=5.php.html" title="Edit section: Statistical properties">edit</a>]</span> <span class="mw-headline" id="Statistical_properties">Statistical properties</span></h2>
+<p>The weighted sample mean, <img class="tex" alt="\bar{x}" src="http://upload.wikimedia.org/math/8/4/7/84790e2b15a305120bc3fbeb4a4eeb4f.png" />, with normalized weights (weights summing to one) is itself a random variable. Its expected value and standard deviation are related to the expected values and standard deviations of the observations as follows,</p>
+<p>If the observations have expected values</p>
+<dl>
+<dd><img class="tex" alt="E(x_i )=\bar {x_i}," src="http://upload.wikimedia.org/math/8/f/f/8ff290703366b42a0f8cd7128b33b03b.png" /></dd>
+</dl>
+<p>then the weighted sample mean has expectation</p>
+<dl>
+<dd><img class="tex" alt="E(\bar{x}) = \sum_{i=1}^n {w_i \bar{x_i}}. " src="http://upload.wikimedia.org/math/8/d/f/8dfd7e99d9426a47211bf21c5105f0f9.png" /></dd>
+</dl>
+<p>Particularly, if the expectations of all observations are equal, <img class="tex" alt="\bar {x_i}=c" src="http://upload.wikimedia.org/math/0/2/4/02472659a88158fe9f2d47267dbe3a48.png" />, then the expectation of the weighted sample mean will be the same,</p>
+<dl>
+<dd><img class="tex" alt="E(\bar{x})= c. \, " src="http://upload.wikimedia.org/math/d/7/7/d77ba9172e37e0ff17031bb5b6cfdcb4.png" /></dd>
+</dl>
+<p>For uncorrelated observations with standard deviations <img class="tex" alt="\sigma_i" src="http://upload.wikimedia.org/math/0/3/9/0391322d4f282758a0f844b56a2e6072.png" />, the weighted sample mean has standard deviation</p>
+<dl>
+<dd><img class="tex" alt=" \sigma(\bar x)= \sqrt {\sum_{i=1}^n {w_i^2 \sigma^2_i}}." src="http://upload.wikimedia.org/math/0/2/2/022efb448c1deda7e5e1650382cac3c1.png" /></dd>
+</dl>
+<p>Consequently, when the standard deviations of all observations are equal, <img class="tex" alt="\sigma_i=d" src="http://upload.wikimedia.org/math/2/e/1/2e1349bdc81c09d42f5efabdd0198779.png" />, the weighted sample mean will have standard deviation <img class="tex" alt="\sigma(\bar x)= d \sqrt {V_2}" src="http://upload.wikimedia.org/math/8/e/3/8e39ee7d957fa799f5700993b1043cd6.png" />. Here <img class="tex" alt="V_2" src="http://upload.wikimedia.org/math/4/9/2/4925ee5356b4ace0e28f0324cf3a81de.png" /> is the quantity</p>
+<dl>
+<dd><img class="tex" alt="V_2=\sum_{i=1}^n {w_i^2}," src="http://upload.wikimedia.org/math/7/0/5/70564c6dcb4ff9d8c42bb9ac6194517b.png" /></dd>
+</dl>
+<p>such that <img class="tex" alt="1/n \le V_2\le 1" src="http://upload.wikimedia.org/math/1/1/d/11d7674867a9838108bf15ebc9a47e27.png" />. It attains its minimum value for equal weights, and its maximum when all weights except one are zero. In the former case we have <img class="tex" alt=" \sigma(\bar x)=d/ \sqrt {n} " src="http://upload.wikimedia.org/math/1/c/c/1cca58441daf967f5a090a746d60d703.png" />, which is related to the <a href="Central_limit_theorem" title="Central limit theorem">central limit theorem</a>.</p>
+<p>Note that due to the fact that one can always transform non-normalized weights to normalized weights all formula in this section can be adapted to non-normalized weights by replacing all <img class="tex" alt="w_i" src="http://upload.wikimedia.org/math/d/f/c/dfc96001568235d60dc12dca4b32d260.png" /> by <img class="tex" alt="w_i' = \frac{w_i}{\sum_{i=1}^n{w_i}}" src="http://upload.wikimedia.org/math/d/6/b/d6b6f25fc39fa156e26d9dd931a7fef9.png" />.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=6.php.html" title="Edit section: Dealing with variance">edit</a>]</span> <span class="mw-headline" id="Dealing_with_variance">Dealing with variance</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Least_squares#Weighted_least_squares" title="Least squares">Least squares#Weighted least squares</a></div>
+<div class="rellink boilerplate seealso">See also: <a href="Linear_least_squares_(mathematics)#Weighted_linear_least_squares" title="Linear least squares (mathematics)">Linear least squares (mathematics)#Weighted linear least squares</a></div>
+<p>For the weighted mean of a list of data for which each element <img class="tex" alt="x_i\,\!" src="http://upload.wikimedia.org/math/6/e/d/6ed2bc3df66dd893aefb0808148ec57e.png" /> comes from a different <a href="Probability_distribution" title="Probability distribution">probability distribution</a> with known <a href="Variance" title="Variance">variance</a> <img class="tex" alt="{\sigma_i}^2\," src="http://upload.wikimedia.org/math/5/6/c/56cda30dbae4e428ef1049ba709bc7cc.png" />, one possible choice for the weights is given by:</p>
+<dl>
+<dd><img class="tex" alt="
+w_i = \frac{1}{\sigma_i^2}.
+" src="http://upload.wikimedia.org/math/5/0/f/50fbd8d05e899640116bcc5752805cf2.png" /></dd>
+</dl>
+<p>The weighted mean in this case is:</p>
+<dl>
+<dd><img class="tex" alt="
+\bar{x} = \frac{ \sum_{i=1}^n (x_i/{\sigma_i}^2)}{\sum_{i=1}^n (1/{\sigma_i}^2)},
+" src="http://upload.wikimedia.org/math/4/c/5/4c526f12af4b4be6b6948723add39164.png" /></dd>
+</dl>
+<p>and the variance of the weighted mean is:</p>
+<dl>
+<dd><img class="tex" alt="
+\sigma_{\bar{x}}^2 = \frac{ 1 }{\sum_{i=1}^n (1/{\sigma_i}^2)},
+" src="http://upload.wikimedia.org/math/2/d/9/2d9305307b6c4e63d5a00694f03dd73c.png" /></dd>
+</dl>
+<p>which reduces to <img class="tex" alt=" \sigma_{\bar{x}}^2 = \frac{ {\sigma_0}^2 }{n}" src="http://upload.wikimedia.org/math/0/d/8/0d8c0b11d46ef9dc4dfd4137ea3ef32b.png" />, when all <img class="tex" alt="\sigma_i = \sigma_0.\," src="http://upload.wikimedia.org/math/b/7/1/b71815aafe4aea8630fe7e730694376a.png" /></p>
+<p>The significance of this choice is that this weighted mean is the <a href="Maximum_likelihood_estimator" title="Maximum likelihood estimator" class="mw-redirect">maximum likelihood estimator</a> of the mean of the probability distributions under the assumption that they are independent and <a href="Normally_distributed" title="Normally distributed" class="mw-redirect">normally distributed</a> with the same mean.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=7.php.html" title="Edit section: Correcting for over- or under-dispersion">edit</a>]</span> <span class="mw-headline" id="Correcting_for_over-_or_under-dispersion">Correcting for <a href="Overdispersion" title="Overdispersion">over- or under-dispersion</a></span></h3>
+<p>Weighted means are typically used to find the weighted mean of experimental data, rather than theoretically generated data. In this case, there will be some error in the variance of each data point. Typically experimental errors may be underestimated due to the experimenter not taking into account all sources of error in calculating the variance of each data point. In this event, the variance in the weighted mean must be corrected to account for the fact that <img class="tex" alt="\chi^2" src="http://upload.wikimedia.org/math/3/f/1/3f1654642bee437631079661bd54ddc4.png" /> is too large. The correction that must be made is</p>
+<dl>
+<dd><img class="tex" alt="\sigma_{\bar{x}}^2 \rightarrow \sigma_{\bar{x}}^2 \chi^2_\nu \, " src="http://upload.wikimedia.org/math/2/2/0/22058a6c5e014b461d4eb84a361476ed.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="\chi^2_\nu" src="http://upload.wikimedia.org/math/c/8/b/c8ba80673a144d6d7330c8e504cfc322.png" /> is <img class="tex" alt="\chi^2" src="http://upload.wikimedia.org/math/3/f/1/3f1654642bee437631079661bd54ddc4.png" /> divided by the number of degrees of freedom, in this case <i>n</i>&#160;−&#160;1. This gives the variance in the weighted mean as:</p>
+<dl>
+<dd><img class="tex" alt=" \sigma_{\bar{x}}^2 = \frac{ 1 }{\sum_{i=1}^n 1/{\sigma_i}^2} \times \frac{1}{(n-1)} \sum_{i=1}^n \frac{ (x_i - \bar{x} )^2}{ \sigma_i^2 };" src="http://upload.wikimedia.org/math/c/0/4/c04ee1085e4dd9fbb922651adad5a07a.png" /></dd>
+</dl>
+<p>when all data variances are equal, <img class="tex" alt="\sigma_i = \sigma_0" src="http://upload.wikimedia.org/math/1/c/7/1c7cb6313fb89419d571fe2c8fedbc8e.png" />, they cancel out in the weighted mean variance, <img class="tex" alt="\sigma_{\bar{x}}^2" src="http://upload.wikimedia.org/math/d/d/c/ddcf626d49993dc3352eb172f5e72ec1.png" />, which then reduces to the <a href="Standard_error_of_the_mean" title="Standard error of the mean" class="mw-redirect">standard error of the mean</a> (squared), <img class="tex" alt="\sigma_{\bar{x}}^2 = \sigma^2/n" src="http://upload.wikimedia.org/math/a/3/2/a323249c6c586ee3d7fbe91dc2e55c44.png" />, in terms of the <a href="Sample_standard_deviation" title="Sample standard deviation">sample standard deviation</a> (squared), <img class="tex" alt="\sigma^2 = \sum_{i=1}^n (x_i - \bar{x} )^2 / (n-1)" src="http://upload.wikimedia.org/math/6/0/7/6070df9a930336638f14069a4acd3e89.png" />.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=8.php.html" title="Edit section: Weighted sample variance">edit</a>]</span> <span class="mw-headline" id="Weighted_sample_variance">Weighted sample variance</span></h2>
+<p>Typically when a mean is calculated it is important to know the <a href="Variance" title="Variance">variance</a> and <a href="Standard_deviation" title="Standard deviation">standard deviation</a> about that mean. When a weighted mean <img class="tex" alt="\mu^*" src="http://upload.wikimedia.org/math/a/f/b/afbb20d1b750249ec0ec13afd873c606.png" /> is used, the variance of the weighted sample is different from the variance of the unweighted sample. The <i>biased</i> weighted <a href="Sample_variance" title="Sample variance" class="mw-redirect">sample variance</a> is defined similarly to the normal <i>biased</i> sample variance:</p>
+<dl>
+<dd><img class="tex" alt="
+\sigma^2\ = \frac{ 
+  \sum_{i=1}^N{\left(x_i - \mu\right)^2} 
+}{ 
+ N 
+}
+" src="http://upload.wikimedia.org/math/b/3/3/b33e7a72c452cde6aa71d0b4887e7f8c.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="
+\sigma^2_\mathrm{weighted} = \frac{\sum_{i=1}^N w_i \left(x_i - \mu^*\right)^2 }{V_1}
+" src="http://upload.wikimedia.org/math/4/6/8/46822d1ef0fab62e4481210721187543.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="V_1 = \sum_{i=1}^n w_i" src="http://upload.wikimedia.org/math/0/8/b/08bf7733b7f3ba8563908274ae3a224b.png" />, which is 1 for normalized weights.</p>
+<p>For small samples, it is customary to use an <a href="Unbiased_estimator" title="Unbiased estimator" class="mw-redirect">unbiased estimator</a> for the population variance. In normal unweighted samples, the <i>N</i> in the denominator (corresponding to the sample size) is changed to <i>N</i>&#160;−&#160;1. While this is simple in unweighted samples, it is not straightforward when the sample is weighted.</p>
+<p>If each <img class="tex" alt="x_i" src="http://upload.wikimedia.org/math/0/5/e/05e42209d67fe1eb15a055e9d3b3770e.png" /> is drawn from a Gaussian distribution with variance <img class="tex" alt="1/w_i" src="http://upload.wikimedia.org/math/2/c/0/2c0313a2b4cd2f1d6b3271bbec295143.png" />, the unbiased estimator of a weighted population variance is given by <sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup>:</p>
+<dl>
+<dd><img class="tex" alt="
+s^2\ = \frac {V_1} {V_1^2-V_2} \sum_{i=1}^N w_i \left(x_i - \mu^*\right)^2,
+" src="http://upload.wikimedia.org/math/4/d/c/4dc836251a62e4eb16f957afc2be0da5.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="V_2 = \sum_{i=1}^n {w_i^2}" src="http://upload.wikimedia.org/math/d/a/6/da65860ec0c95793f7ba642eaa76f668.png" /> as introduced previously. The degrees of freedom of the weighted, unbiased sample variance vary accordingly from <i>N</i>&#160;−&#160;1 down to&#160;0.</p>
+<p>The standard deviation is simply the square root of the variance above.</p>
+<p>If all of the <img class="tex" alt="x_i" src="http://upload.wikimedia.org/math/0/5/e/05e42209d67fe1eb15a055e9d3b3770e.png" /> are drawn from the same distribution and the integer weights <img class="tex" alt="w_i" src="http://upload.wikimedia.org/math/d/f/c/dfc96001568235d60dc12dca4b32d260.png" /> indicate frequency of occurrence in the sample, then the unbiased estimator of the weighted population variance is given by</p>
+<dl>
+<dd><img class="tex" alt="
+s^2\ = \frac {1} {V_1 - 1} \sum_{i=1}^N w_i \left(x_i - \mu^*\right)^2,
+" src="http://upload.wikimedia.org/math/1/3/4/134a19eb5a80adb5c3f97bbebfc12d02.png" /></dd>
+</dl>
+<p>If all <img class="tex" alt="x_i" src="http://upload.wikimedia.org/math/0/5/e/05e42209d67fe1eb15a055e9d3b3770e.png" /> are unique, then <img class="tex" alt="N" src="http://upload.wikimedia.org/math/8/d/9/8d9c307cb7f3c4a32822a51922d1ceaa.png" /> counts the number of unique values, and <img class="tex" alt="V_1" src="http://upload.wikimedia.org/math/1/5/d/15df402d99d5ae494c0eec6b149b3dd9.png" /> counts the number of samples.</p>
+<p>For example, if values <img class="tex" alt="\{2, 2, 4, 5, 5, 5\}" src="http://upload.wikimedia.org/math/4/5/9/459fc9ef80156119183edba0965522c9.png" /> are drawn from the same distribution, then we can treat this set as an unweighted sample, or we can treat it as the weighted sample <img class="tex" alt="\{2, 4, 5\}" src="http://upload.wikimedia.org/math/7/2/3/7232910165f34d485c5d3884b6ed34af.png" /> with corresponding weights <img class="tex" alt="\{2, 1, 3\}" src="http://upload.wikimedia.org/math/a/5/c/a5c191a1e756701b689db42982040979.png" />, and we should get the same results.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=9.php.html" title="Edit section: Vector-valued estimates">edit</a>]</span> <span class="mw-headline" id="Vector-valued_estimates">Vector-valued estimates</span></h2>
+<p>The above generalizes easily to the case of taking the mean of vector-valued estimates. For example, estimates of position on a plane may have less certainty in one direction than another. As in the scalar case, the weighted mean of multiple estimates can provide a <a href="Maximum_likelihood" title="Maximum likelihood">maximum likelihood</a> estimate. We simply replace <img class="tex" alt="\sigma^2" src="http://upload.wikimedia.org/math/3/c/6/3c6a93fc922fbfa19aea78961760cefb.png" /> by the covariance matrix<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup>:</p>
+<dl>
+<dd><img class="tex" alt="
+W_i = \Sigma_i^{-1}.
+" src="http://upload.wikimedia.org/math/c/6/5/c6527f06af512826d50facf51cbd8d67.png" /></dd>
+</dl>
+<p>The weighted mean in this case is:</p>
+<dl>
+<dd><img class="tex" alt="
+\bar{\mathbf{x}} = \left(\sum_{i=1}^n \Sigma_i^{-1}\right)^{-1}\left(\sum_{i=1}^n \Sigma_i^{-1} \mathbf{x}_i\right),
+" src="http://upload.wikimedia.org/math/e/4/c/e4cbf11e0db60a04cb05072a940a973c.png" /></dd>
+</dl>
+<p>and the covariance of the weighted mean is:</p>
+<dl>
+<dd><img class="tex" alt="
+\Sigma_{\bar{\mathbf{x}}} = \left(\sum_{i=1}^n \Sigma_i^{-1}\right)^{-1},
+" src="http://upload.wikimedia.org/math/c/b/2/cb2d2327515f0f2c9c0927983d5f8712.png" /></dd>
+</dl>
+<p>For example, consider the weighted mean of the point [1 0] with high variance in the second component and [0 1] with high variance in the first component. Then</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{x}_1&#160;:= [1 0]^\top, \qquad \Sigma_1&#160;:= \begin{bmatrix}1 &amp; 0\\ 0 &amp; 100\end{bmatrix}" src="http://upload.wikimedia.org/math/6/0/9/609ca3b88cc6e29b2527930007674781.png" /></dd>
+<dd><img class="tex" alt="\mathbf{x}_2&#160;:= [0 1]^\top, \qquad \Sigma_2&#160;:= \begin{bmatrix}100 &amp; 0\\ 0 &amp; 1\end{bmatrix}" src="http://upload.wikimedia.org/math/c/2/5/c25422b48da0e7c638f63ab5a1e8bb88.png" /></dd>
+</dl>
+<p>then the weighted mean is:</p>
+<dl>
+<dd><img class="tex" alt="\bar{\mathbf{x}} = \left(\Sigma_1^{-1} + \Sigma_2^{-1}\right)^{-1} \left(\Sigma_1^{-1} \mathbf{x}_1 + \Sigma_2^{-1} \mathbf{x}_2\right)" src="http://upload.wikimedia.org/math/3/6/2/362624e1623e97557db90c6ef6e6a0f6.png" />
+<dl>
+<dd><img class="tex" alt="=\begin{bmatrix}  0.9901 &amp;0\\ 0&amp; 0.9901\end{bmatrix}\begin{bmatrix}1\\1\end{bmatrix} = \begin{bmatrix}0.9901 \\ 0.9901\end{bmatrix}" src="http://upload.wikimedia.org/math/f/e/8/fe860262acb8acd007496b325396e67c.png" /></dd>
+</dl>
+</dd>
+</dl>
+<p>which makes sense: the [1 0] estimate is "compliant" in the second component and the [0 1] estimate is compliant in the first component, so the weighted mean is nearly [1 1].</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=10.php.html" title="Edit section: Accounting for correlations">edit</a>]</span> <span class="mw-headline" id="Accounting_for_correlations">Accounting for correlations</span></h2>
+<p>In the general case, suppose that <img class="tex" alt="\mathbf{X}=[x_1,\dots,x_n]" src="http://upload.wikimedia.org/math/2/6/3/2636af2ccd97baf04c3d1bb68299694e.png" />, <img class="tex" alt="\mathbf{C}" src="http://upload.wikimedia.org/math/3/9/6/39652eaf6bb68bf9769f17cb8088fece.png" /> is the <a href="Covariance_matrix" title="Covariance matrix">covariance matrix</a> relating the quantities <img class="tex" alt="x_i" src="http://upload.wikimedia.org/math/0/5/e/05e42209d67fe1eb15a055e9d3b3770e.png" />, <img class="tex" alt="\bar{x}" src="http://upload.wikimedia.org/math/8/4/7/84790e2b15a305120bc3fbeb4a4eeb4f.png" /> is the common mean to be estimated, and <img class="tex" alt="\mathbf{W}" src="http://upload.wikimedia.org/math/1/9/9/1990b12fd270f7d985212dc61cf337af.png" /> is the <a href="Design_matrix" title="Design matrix">design matrix</a> [1, ..., 1] (of length <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" />). The <a href="Gauss%E2%80%93Markov_theorem" title="Gauss–Markov theorem">Gauss–Markov theorem</a> states that the estimate of the mean having minimum variance is given by:</p>
+<dl>
+<dd><img class="tex" alt="\sigma^2_\bar{x}=(\mathbf{W}^T \mathbf{C}^{-1} \mathbf{W})^{-1}," src="http://upload.wikimedia.org/math/0/2/5/02589cd8d3d9338b467f8f11138ed18e.png" /></dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><img class="tex" alt="\bar{x} = \sigma^2_\bar{x} (\mathbf{W}^T \mathbf{C}^{-1} \mathbf{X})." src="http://upload.wikimedia.org/math/0/b/5/0b5b2e22e8939461f6a485152de3c7d4.png" /></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=11.php.html" title="Edit section: Decreasing strength of interactions">edit</a>]</span> <span class="mw-headline" id="Decreasing_strength_of_interactions">Decreasing strength of interactions</span></h2>
+<p>Consider the time series of an independent variable <img class="tex" alt="x" src="http://upload.wikimedia.org/math/9/d/d/9dd4e461268c8034f5c8564e155c67a6.png" /> and a dependent variable <img class="tex" alt="y" src="http://upload.wikimedia.org/math/4/1/5/415290769594460e2e485922904f345d.png" />, with <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" /> observations sampled at discrete times <img class="tex" alt="t_i" src="http://upload.wikimedia.org/math/a/5/7/a578f93d86a9111f5900e4681f14ce16.png" />. In many common situations, the value of <img class="tex" alt="y" src="http://upload.wikimedia.org/math/4/1/5/415290769594460e2e485922904f345d.png" /> at time <img class="tex" alt="t_i" src="http://upload.wikimedia.org/math/a/5/7/a578f93d86a9111f5900e4681f14ce16.png" /> depends not only on <img class="tex" alt="x_i" src="http://upload.wikimedia.org/math/0/5/e/05e42209d67fe1eb15a055e9d3b3770e.png" /> but also on its past values. Commonly, the strength of this dependence decreases as the separation of observations in time increases. To model this situation, one may replace the independent variable by its sliding mean <img class="tex" alt="z" src="http://upload.wikimedia.org/math/f/b/a/fbade9e36a3f36d3d676c1b808451dd7.png" /> for a window size <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" />.</p>
+<dl>
+<dd><img class="tex" alt="
+z_k=\sum_{i=1}^m w_i x_{k+1-i}.
+" src="http://upload.wikimedia.org/math/f/b/6/fb6c73de6e95dafe7c23cbc35fa7c309.png" /></dd>
+</dl>
+<table class="wikitable">
+<caption><a href="Range_(statistics)" title="Range (statistics)">Range</a> weighted mean interpretation</caption>
+<tr>
+<th>Range (1–5)</th>
+<th>Weighted mean equivalence</th>
+</tr>
+<tr>
+<td>3.34–5.00</td>
+<td>Strong</td>
+</tr>
+<tr>
+<td>1.67–3.33</td>
+<td>Satisfactory</td>
+</tr>
+<tr>
+<td>0.00–1.66</td>
+<td>Weak</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=12.php.html" title="Edit section: Exponentially decreasing weights">edit</a>]</span> <span class="mw-headline" id="Exponentially_decreasing_weights">Exponentially decreasing weights</span></h2>
+<p>In the scenario described in the previous section, most frequently the decrease in interaction strength obeys a negative exponential law. If the observations are sampled at equidistant times, then exponential decrease is equivalent to decrease by a constant fraction <img class="tex" alt="0&lt;\Delta&lt;1" src="http://upload.wikimedia.org/math/d/c/b/dcb59a7576fefdb543c8289471b8d28b.png" /> at each time step. Setting <img class="tex" alt="w=1-\Delta" src="http://upload.wikimedia.org/math/e/f/9/ef90ea6a5d20906cf2a9f70ad162ddec.png" /> we can define <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" /> normalized weights by</p>
+<dl>
+<dd><img class="tex" alt="w_i=\frac {w^{i-1}}{V_1}" src="http://upload.wikimedia.org/math/b/8/d/b8d8f83c3e0cc4ac8f4fbf3e7e6f8c29.png" />,</dd>
+</dl>
+<p>where <img class="tex" alt="V_1" src="http://upload.wikimedia.org/math/1/5/d/15df402d99d5ae494c0eec6b149b3dd9.png" /> is the sum of the unnormalized weights. In this case <img class="tex" alt="V_1" src="http://upload.wikimedia.org/math/1/5/d/15df402d99d5ae494c0eec6b149b3dd9.png" /> is simply</p>
+<dl>
+<dd><img class="tex" alt="V_1=\sum_{i=1}^m{w^{i-1}} = \frac {1-w^{m}}{1-w}" src="http://upload.wikimedia.org/math/8/7/6/876439d1382cf24408a19d6cc9ce7e93.png" />,</dd>
+</dl>
+<p>approaching <img class="tex" alt="V_1=1/(1-w)" src="http://upload.wikimedia.org/math/5/6/7/567e9c883cde91246836c28d5aa1c00d.png" /> for large values of <img class="tex" alt="m" src="http://upload.wikimedia.org/math/6/f/8/6f8f57715090da2632453988d9a1501b.png" />.</p>
+<p>The damping constant <img class="tex" alt="w" src="http://upload.wikimedia.org/math/f/1/2/f1290186a5d0b1ceab27f4e77c0c5d68.png" /> must correspond to the actual decrease of interaction strength. If this cannot be determined from theoretical considerations, then the following properties of exponentially decreasing weights are useful in making a suitable choice: at step <img class="tex" alt="(1-w)^{-1}" src="http://upload.wikimedia.org/math/2/4/3/243542a672fc033ab6596313d8316a73.png" />, the weight approximately equals <img class="tex" alt="{e^{-1}}(1-w)=0.39(1-w)" src="http://upload.wikimedia.org/math/a/e/d/aed82a693a78c0e114e733778b2abdc2.png" />, the tail area the value <img class="tex" alt="e^{-1}" src="http://upload.wikimedia.org/math/4/5/8/458e3fa56394b091bc416d6764614171.png" />, the head area <img class="tex" alt="{1-e^{-1}}=0.61" src="http://upload.wikimedia.org/math/9/7/0/970663fd257c67f6f9db6a3d43eea82a.png" />. The tail area at step <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" /> is <img class="tex" alt="\le {e^{-n(1-w)}}" src="http://upload.wikimedia.org/math/b/8/7/b87a991b50342412d5203c4caae9126e.png" />. Where primarily the closest <img class="tex" alt="n" src="http://upload.wikimedia.org/math/7/b/8/7b8b965ad4bca0e41ab51de7b31363a1.png" /> observations matter and the effect of the remaining observations can be ignored safely, then choose <img class="tex" alt="w" src="http://upload.wikimedia.org/math/f/1/2/f1290186a5d0b1ceab27f4e77c0c5d68.png" /> such that the tail area is sufficiently small.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=13.php.html" title="Edit section: Weighted averages of functions">edit</a>]</span> <span class="mw-headline" id="Weighted_averages_of_functions">Weighted averages of functions</span></h2>
+<p>The concept of weighted average can be extended to functions.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Weighted averages of functions play an important role in the systems of weighted differential and integral calculus.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=14.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="column-count column-count-3" style="-moz-column-count: 3; -webkit-column-count: 3; column-count: 3;">
+<ul>
+<li><a href="Average" title="Average">Average</a></li>
+<li><a href="Mean" title="Mean">Mean</a></li>
+<li><a href="../../w/index-title=Distance-weighted_estimator&action=edit&redlink=1.php.html" class="new" title="Distance-weighted estimator (page does not exist)">Distance-weighted estimator</a></li>
+<li><a href="Summary_statistics" title="Summary statistics" class="mw-redirect">Summary statistics</a></li>
+<li><a href="Central_tendency" title="Central tendency">Central tendency</a></li>
+<li><a href="Weight_function" title="Weight function">Weight function</a></li>
+<li><a href="Weighted_least_squares" title="Weighted least squares" class="mw-redirect">Weighted least squares</a></li>
+<li><a href="Weighted_average_cost_of_capital" title="Weighted average cost of capital">Weighted average cost of capital</a></li>
+<li><a href="Weighting" title="Weighting">Weighting</a></li>
+<li><a href="Weighted_geometric_mean" title="Weighted geometric mean">Weighted geometric mean</a></li>
+<li><a href="Weighted_harmonic_mean" title="Weighted harmonic mean" class="mw-redirect">Weighted harmonic mean</a></li>
+<li><a href="Weighted_median" title="Weighted median">Weighted median</a></li>
+<li><a href="Standard_Deviation" title="Standard Deviation" class="mw-redirect">Standard Deviation</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=15.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.gnu.org/software/gsl/manual/html_node/Weighted-Samples.html">http://www.gnu.org/software/gsl/manual/html_node/Weighted-Samples.html</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation book">James, Frederick (2006). <i>Statistical Methods in Experimental Physics</i> (2nd ed.). Singapore: World Scientific. p.&#160;324. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/981-270-527-9" title="Special:BookSources/981-270-527-9">981-270-527-9</a>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">G. H. Hardy, J. E. Littlewood, and G. Pólya. <i>Inequalities</i> (2nd ed.), Cambridge University Press, <a href="Special_BookSources/9780521358804" class="internal mw-magiclink-isbn">ISBN 978-0-521-35880-4</a>, 1988.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Jane Grossman, Michael Grossman, Robert Katz. <a rel="nofollow" class="external text" href="http://books.google.com/books?as_brr=0&q=%22The+First+Systems+of+Weighted+Differential+and+Integral+Calculus%E2%80%8E%22&btnG=Search+Books,"><i>The First Systems of Weighted Differential and Integral Calculus</i></a>, <a href="Special_BookSources/0977117014" class="internal mw-magiclink-isbn">ISBN 0-9771170-1-4</a>, 1980.</span></li>
+</ol>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=16.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h3>
+<ul>
+<li><span class="citation book">Bevington, Philip R (1969). <i>Data Reduction and Error Analysis for the Physical Sciences</i>. New York, N.Y.: McGraw-Hill. <a href="OCLC" title="OCLC">OCLC</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/oclc/300283069">300283069</a>.</span></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Weighted_mean&action=edit&section=17.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><span class="citation mathworld" id="Reference-Mathworld-Weighted_Mean">David Terr, "<a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/WeightedMean.html">Weighted Mean</a>" from <a href="MathWorld" title="MathWorld">MathWorld</a>.</span></li>
+<li><a rel="nofollow" class="external text" href="http://ncalculators.com/statistics/weighted-mean-calculator.htm">Weighted Mean Calculation</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 2384/1000000
+Preprocessor generated node count: 16859/1500000
+Post-expand include size: 5815/2048000 bytes
+Template argument size: 1852/2048000 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:33274-0!0!0!!en!*!* and timestamp 20130212060203 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Weighted_mean&oldid=537828803.php.html">http://en.wikipedia.org/w/index.php?title=Weighted_mean&amp;oldid=537828803</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Means" title="Category:Means">Means</a></li><li><a href="Category_Mathematical_analysis" title="Category:Mathematical analysis">Mathematical analysis</a></li><li><a href="Category_Summary_statistics" title="Category:Summary statistics">Summary statistics</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Weighted+mean&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Weighted+mean.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Weighted_mean"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Weighted_mean&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Weighted_mean&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Weighted_mean" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Weighted_mean" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Weighted_mean&oldid=537828803.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Weighted_mean&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Weighted_mean&id=537828803.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Weighted+mean.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Weighted+mean&oldid=537828803&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Weighted_mean&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%88%D8%B3%D9%8A%D8%B7_%D9%88%D8%B2%D9%86%D9%8A" title="وسيط وزني" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Mitjana_ponderada" title="Mitjana ponderada" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/V%C3%A1%C5%BEen%C3%BD_pr%C5%AFm%C4%9Br" title="Vážený průměr" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Kaalutud_keskmine" title="Kaalutud keskmine" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Media_ponderada" title="Media ponderada" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/La%C5%ADpeza_aritmetika_meznombro" title="Laŭpeza aritmetika meznombro" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Batezbesteko_aritmetiko_haztatu" title="Batezbesteko aritmetiko haztatu" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Moyenne_pond%C3%A9r%C3%A9e" title="Moyenne pondérée" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Media_ponderada" title="Media ponderada" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%9E%D7%95%D7%A6%D7%A2_%D7%9E%D7%A9%D7%95%D7%A7%D7%9C%D7%9C" title="ממוצע משוקלל" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/S%C3%BAlyozott_%C3%A1tlag" title="Súlyozott átlag" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Gewogen_gemiddelde" title="Gewogen gemiddelde" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Vektet_gjennomsnitt" title="Vektet gjennomsnitt" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Media_peis%C3%A0" title="Media peisà" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/%C5%9Arednia_wa%C5%BCona" title="Średnia ważona" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5_%D0%B0%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%B2%D0%B7%D0%B2%D0%B5%D1%88%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5" title="Среднее арифметическое взвешенное" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Weighted_average" title="Weighted average" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/Weighted_mean" title="Weighted mean" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Painotettu_keskiarvo" title="Painotettu keskiarvo" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%8E%E0%AE%9F%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%9F%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%9F%E0%AF%8D%E0%AE%9F_%E0%AE%9A%E0%AE%B0%E0%AE%BE%E0%AE%9A%E0%AE%B0%E0%AE%BF" title="எடையிடப்பட்ட சராசரி" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/A%C4%9F%C4%B1rl%C4%B1kl%C4%B1_ortalama" title="Ağırlıklı ortalama" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%94_%D0%B7%D0%B2%D0%B0%D0%B6%D0%B5%D0%BD%D0%B5" title="Середнє зважене" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Trung_b%C3%ACnh_c%E1%BB%99ng_c%C3%B3_tr%E1%BB%8Dng_s%E1%BB%91" title="Trung bình cộng có trọng số" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%8A%A0%E6%AC%8A%E5%B9%B3%E5%9D%87%E6%95%B8" title="加權平均數" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 February 2013 at 06:02.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Weighted_mean" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1066 in 0.183 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

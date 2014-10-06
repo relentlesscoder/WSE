@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Complex analysis - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Complex_analysis&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Complex_analysis&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Complex_analysis","wgTitle":"Complex analysis","wgCurRevisionId":535720290,"wgArticleId":5759,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Complex analysis"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Complex_analysis","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"1bad31b6015a37ad47bbf762a06498e1","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":5759,"title":"Complex analysis","namespace":0,"categories":["Complex analysis"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Complex_analysis skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Complex analysis</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:231px;"><a href="http://en.wikipedia.org/wiki/File:Color_complex_plot.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Color_complex_plot.jpg/229px-Color_complex_plot.jpg" width="229" height="229" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Color_complex_plot.jpg/344px-Color_complex_plot.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Color_complex_plot.jpg/458px-Color_complex_plot.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Color_complex_plot.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Plot of the function <span class="texhtml"><i>f</i>(<i>x</i>) = (<i>x</i><sup>2</sup> − 1)(<i>x</i> − 2 − <i>i</i>)<sup>2</sup></span> <span class="texhtml">/ (<i>x</i><sup>2</sup> + 2 + 2<i>i</i>)</span>. The <a href="Hue" title="Hue">hue</a> represents the function <a href="Argument_(complex_analysis)" title="Argument (complex analysis)">argument</a>, while the <a href="Brightness" title="Brightness">brightness</a> represents the magnitude.</div>
+</div>
+</div>
+<p><b>Complex analysis</b>, traditionally known as the <b>theory of functions of a complex variable</b>, is the branch of <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a> that investigates <a href="Function_(mathematics)" title="Function (mathematics)">functions</a> of <a href="Complex_numbers" title="Complex numbers" class="mw-redirect">complex numbers</a>. It is useful in many branches of mathematics, including <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a>, <a href="Number_theory" title="Number theory">number theory</a>, <a href="Applied_mathematics" title="Applied mathematics">applied mathematics</a>; as well as in <a href="Physics" title="Physics">physics</a>, including <a href="Hydrodynamics" title="Hydrodynamics" class="mw-redirect">hydrodynamics</a>, <a href="Thermodynamics" title="Thermodynamics">thermodynamics</a>, <a href="Mechanical_engineering" title="Mechanical engineering">mechanical engineering</a> and <a href="Electrical_engineering" title="Electrical engineering">electrical engineering</a>.</p>
+<p><a href="../Murray_R._Spiegel" title="Murray R. Spiegel">Murray R. Spiegel</a> described complex analysis as "one of the most beautiful as well as useful branches of Mathematics".</p>
+<p>Complex analysis is particularly concerned with the <a href="Analytic_function" title="Analytic function">analytic functions</a> of complex variables (or, more generally, <a href="Meromorphic_function" title="Meromorphic function">meromorphic functions</a>). Because the separate <a href="Real_number" title="Real number">real</a> and <a href="Imaginary_number" title="Imaginary number">imaginary</a> parts of any analytic function must satisfy <a href="Laplace's_equation" title="Laplace's equation">Laplace's equation</a>, complex analysis is widely applicable to two-dimensional problems in <a href="Physics" title="Physics">physics</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Complex_functions"><span class="tocnumber">2</span> <span class="toctext">Complex functions</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Holomorphic_functions"><span class="tocnumber">3</span> <span class="toctext">Holomorphic functions</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Major_results"><span class="tocnumber">4</span> <span class="toctext">Major results</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#External_links"><span class="tocnumber">8</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Mandel_zoom_00_mandelbrot_set.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/300px-Mandel_zoom_00_mandelbrot_set.jpg" width="300" height="225" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/450px-Mandel_zoom_00_mandelbrot_set.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mandel_zoom_00_mandelbrot_set.jpg/600px-Mandel_zoom_00_mandelbrot_set.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Mandel_zoom_00_mandelbrot_set.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The <a href="Mandelbrot_set" title="Mandelbrot set">Mandelbrot set</a>, a <b><a href="Fractal" title="Fractal">fractal</a></b>.</div>
+</div>
+</div>
+<p>Complex analysis is one of the classical branches in mathematics with roots in the 19th century and just prior. Important mathematicians associated with complex analysis include <a href="Euler" title="Euler" class="mw-redirect">Euler</a>, <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a>, <a href="Riemann" title="Riemann" class="mw-redirect">Riemann</a>, <a href="Cauchy" title="Cauchy" class="mw-redirect">Cauchy</a>, <a href="Weierstrass" title="Weierstrass" class="mw-redirect">Weierstrass</a>, and many more in the 20th century. Complex analysis, in particular the theory of <a href="Conformal_mapping" title="Conformal mapping" class="mw-redirect">conformal mappings</a>, has many physical applications and is also used throughout <a href="Analytic_number_theory" title="Analytic number theory">analytic number theory</a>. In modern times, it has become very popular through a new boost from <a href="Complex_dynamics" title="Complex dynamics">complex dynamics</a> and the pictures of <a href="Fractal" title="Fractal">fractals</a> produced by iterating <a href="Holomorphic_functions" title="Holomorphic functions" class="mw-redirect">holomorphic functions</a>. Another important application of complex analysis is in <a href="String_theory" title="String theory">string theory</a> which studies conformal invariants in <a href="Quantum_field_theory" title="Quantum field theory">quantum field theory</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=2.php.html" title="Edit section: Complex functions">edit</a>]</span> <span class="mw-headline" id="Complex_functions">Complex functions</span></h2>
+<p>A complex function is one in which the <a href="Independent_variable" title="Independent variable" class="mw-redirect">independent variable</a> and the <a href="Dependent_variable" title="Dependent variable" class="mw-redirect">dependent variable</a> are both complex numbers. More precisely, a complex function is a function whose <a href="Domain_(mathematics)#Domain_of_a_function" title="Domain (mathematics)" class="mw-redirect">domain</a> and <a href="Range_(mathematics)" title="Range (mathematics)">range</a> are <a href="Subset" title="Subset">subsets</a> of the <a href="Complex_plane" title="Complex plane">complex plane</a>.</p>
+<p>For any complex function, both the independent variable and the dependent variable may be separated into <a href="Real_number" title="Real number">real</a> and <a href="Imaginary_number" title="Imaginary number">imaginary</a> parts:</p>
+<dl>
+<dd><img class="tex" alt="z = x + iy\," src="http://upload.wikimedia.org/math/d/9/b/d9b564a7f712e9e4f3ae75cf097dfce5.png" /> and</dd>
+<dd><img class="tex" alt="w = f(z) = u(x,y) + iv(x,y)\," src="http://upload.wikimedia.org/math/6/1/2/61283e82faa252bab7097e269989c3e8.png" /></dd>
+<dd>where <img class="tex" alt="x,y \in \mathbb{R}\," src="http://upload.wikimedia.org/math/7/1/5/71590d3f975cea63c4bf21ccf5cd0ed2.png" /> and <img class="tex" alt="u(x,y), v(x,y)\," src="http://upload.wikimedia.org/math/f/4/4/f44ab8ab0b8f9e41dd730ff57edfcc87.png" /> are real-valued functions.</dd>
+</dl>
+<p>In other words, the components of the function <i>f</i>(<i>z</i>),</p>
+<dl>
+<dd><img class="tex" alt="u = u(x,y)\," src="http://upload.wikimedia.org/math/a/8/6/a8635c6b7884498e0b5628d9d62fd53a.png" /> and</dd>
+<dd><img class="tex" alt="v = v(x,y),\," src="http://upload.wikimedia.org/math/c/6/9/c69868e45d6d14cd4abd361e01ec23d8.png" /></dd>
+</dl>
+<p>can be interpreted as real-valued functions of the two real variables, <i>x</i> and <i>y</i>.</p>
+<p>The basic concepts of complex analysis are often introduced by extending the elementary real functions (e.g., exponentials, logarithms, and trigonometric functions) into the complex domain.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=3.php.html" title="Edit section: Holomorphic functions">edit</a>]</span> <span class="mw-headline" id="Holomorphic_functions">Holomorphic functions</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Holomorphic_function" title="Holomorphic function">Holomorphic function</a></div>
+<p>Holomorphic functions are complex functions defined on an <a href="Open_set" title="Open set">open subset</a> of the complex plane that are <a href="Differentiable_function" title="Differentiable function">differentiable</a>. Complex differentiability has much stronger consequences than usual (real) differentiability. For instance, holomorphic functions are infinitely differentiable, whereas some real differentiable functions are not. Most elementary functions, including the <a href="Exponential_function" title="Exponential function">exponential function</a>, the <a href="Trigonometric_function" title="Trigonometric function" class="mw-redirect">trigonometric functions</a>, and all <a href="Polynomial" title="Polynomial">polynomial functions</a>, are holomorphic.</p>
+<p><i>See also</i>: <a href="Analytic_function" title="Analytic function">analytic function</a>, <a href="Holomorphic_sheaf" title="Holomorphic sheaf">holomorphic sheaf</a> and <a href="Vector_bundle" title="Vector bundle">vector bundles</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=4.php.html" title="Edit section: Major results">edit</a>]</span> <span class="mw-headline" id="Major_results">Major results</span></h2>
+<p>One central tool in complex analysis is the <a href="Line_integral" title="Line integral">line integral</a>. The integral around a closed path of a function that is holomorphic everywhere inside the area bounded by the closed path is always zero; this is the <a href="Cauchy_integral_theorem" title="Cauchy integral theorem" class="mw-redirect">Cauchy integral theorem</a>. The values of a holomorphic function inside a disk can be computed by a certain path integral on the disk's boundary (<a href="Cauchy's_integral_formula" title="Cauchy's integral formula">Cauchy's integral formula</a>). Path integrals in the complex plane are often used to determine complicated real integrals, and here the theory of <a href="Residue_(complex_analysis)" title="Residue (complex analysis)">residues</a> among others is useful (see <a href="Methods_of_contour_integration" title="Methods of contour integration">methods of contour integration</a>). If a function has a <i>pole</i> or <i>singularity</i> at some point, that is, at that point where its values "blow up" and have no finite boundary, then one can compute the function's residue at that pole. These residues can be used to compute path integrals involving the function; this is the content of the powerful <a href="Residue_theorem" title="Residue theorem">residue theorem</a>. The remarkable behavior of holomorphic functions near essential singularities is described by <a href="Picard_theorem#Big_Picard" title="Picard theorem">Picard's Theorem</a>. Functions that have only poles but no essential singularities are called <a href="Meromorphic" title="Meromorphic" class="mw-redirect">meromorphic</a>. <a href="Laurent_series" title="Laurent series">Laurent series</a> are similar to <a href="Taylor_series" title="Taylor series">Taylor series</a> but can be used to study the behavior of functions near singularities.</p>
+<p>A bounded function that is holomorphic in the entire complex plane must be constant; this is <a href="Liouville's_theorem_(complex_analysis)" title="Liouville's theorem (complex analysis)">Liouville's theorem</a>. It can be used to provide a natural and short proof for the <a href="Fundamental_Theorem_of_Algebra" title="Fundamental Theorem of Algebra" class="mw-redirect">fundamental theorem of algebra</a> which states that the <a href="Field_(mathematics)" title="Field (mathematics)">field</a> of complex numbers is <a href="Algebraically_closed_field" title="Algebraically closed field">algebraically closed</a>.</p>
+<p>If a function is holomorphic throughout a <a href="Connected_space" title="Connected space">connected</a> domain then its values are fully determined by its values on any smaller subdomain. The function on the larger domain is said to be <a href="Analytic_continuation" title="Analytic continuation">analytically continued</a> from its values on the smaller domain. This allows the extension of the definition of functions, such as the <a href="Riemann_zeta_function" title="Riemann zeta function">Riemann zeta function</a>, which are initially defined in terms of infinite sums that converge only on limited domains to almost the entire complex plane. Sometimes, as in the case of the <a href="Natural_logarithm" title="Natural logarithm">natural logarithm</a>, it is impossible to analytically continue a holomorphic function to a non-simply connected domain in the complex plane but it is possible to extend it to a holomorphic function on a closely related surface known as a <a href="Riemann_surface" title="Riemann surface">Riemann surface</a>.</p>
+<p>All this refers to complex analysis in one variable. There is also a very rich theory of <a href="Several_complex_variables" title="Several complex variables">complex analysis in more than one complex dimension</a> in which the analytic properties such as power series expansion carry over whereas most of the geometric properties of holomorphic functions in one complex dimension (such as <a href="Conformality" title="Conformality" class="mw-redirect">conformality</a>) do not carry over. The <a href="Riemann_mapping_theorem" title="Riemann mapping theorem">Riemann mapping theorem</a> about the conformal relationship of certain domains in the complex plane, which may be the most important result in the one-dimensional theory, fails dramatically in higher dimensions.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=5.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Complex_dynamics" title="Complex dynamics">Complex dynamics</a></li>
+<li><a href="List_of_complex_analysis_topics" title="List of complex analysis topics">List of complex analysis topics</a></li>
+<li><a href="Real_analysis" title="Real analysis">Real analysis</a></li>
+<li><a href="Runge's_theorem" title="Runge's theorem">Runge's theorem</a></li>
+<li><a href="Several_complex_variables" title="Several complex variables">Several complex variables</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=6.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;"></div>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=7.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Ahlfors.,<i>Complex Analysis</i> (McGraw-Hill).</li>
+<li>C. Carathéodory, <i>Theory of Functions of a Complex Variable</i> (Chelsea, New York). [2 volumes.]</li>
+<li><a href="Tristan_Needham" title="Tristan Needham">Needham T</a>., <i>Visual Complex Analysis</i> (Oxford, 1997).</li>
+<li><a href="Peter_Henrici_(mathematician)" title="Peter Henrici (mathematician)">Henrici P.</a>, <i>Applied and Computational Complex Analysis</i> (Wiley). [Three volumes: 1974, 1977, 1986.]</li>
+<li><a href="Erwin_Kreyszig" title="Erwin Kreyszig">Kreyszig, E.</a>, <i>Advanced Engineering Mathematics, 9 ed.</i>, Ch.13-18 (Wiley, 2006).</li>
+<li>A.I.Markushevich.,<i>Theory of Functions of a Complex Variable</i> (Prentice-Hall, 1965). [Three volumes.]</li>
+<li>Scheidemann, V., <i>Introduction to complex analysis in several variables</i> (Birkhauser, 2005)</li>
+<li>Shaw, W.T., <i>Complex Analysis with Mathematica</i> (Cambridge, 2006).</li>
+<li>Spiegel, Murray R. <i>Theory and Problems of Complex Variables - with an introduction to Conformal Mapping and its applications</i> (McGraw-Hill, 1964).</li>
+<li>Marsden &amp; Hoffman, <i>Basic complex analysis</i> (Freeman, 1999).</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Complex_analysis&action=edit&section=8.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.math.gatech.edu/~cain/winter99/complex.html">Complex Analysis -- textbook by George Cain</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.ima.umn.edu/~arnold/502.s97/">Complex analysis course web site</a> by <a href="../Douglas_N._Arnold" title="Douglas N. Arnold">Douglas N. Arnold</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.exampleproblems.com/wiki/index.php/Complex_Variables">Example problems in complex analysis</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.usfca.edu/vca/websites.html">A collection of links to programs for visualizing complex functions (and related)</a></li>
+<li><a rel="nofollow" class="external text" href="http://math.fullerton.edu/mathews/complex.html">Complex Analysis Project by John H. Mathews</a></li>
+<li><a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/ComplexAnalysis.html">Wolfram Research's MathWorld Complex Analysis Page</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.bigsigma.com/en/demo/tag/complex-functions">Complex function demos</a></li>
+<li><a rel="nofollow" class="external text" href="http://vadim-kataev.livejournal.com/135060.html">Application of Complex Functions in 2D Digital Image Transformation</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.saunalahti.fi/mattpaa/complex/complex.html">Complex Visualizer - Java applet for visualizing arbitrary complex functions</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.fortwain.com/complex.html">JavaScript complex function graphing tool</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.economics.soton.ac.uk/staff/aldrich/Calculus%20and%20Analysis%20Earliest%20Uses.htm">Earliest Known Uses of Some of the Words of Mathematics: Calculus &amp; Analysis</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 198/1000000
+Preprocessor generated node count: 1381/1500000
+Post-expand include size: 722/2048000 bytes
+Template argument size: 272/2048000 bytes
+Highest expansion depth: 7/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:5759-0!0!0!!en!4!* and timestamp 20130130175022 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Complex_analysis&oldid=535720290.php.html">http://en.wikipedia.org/w/index.php?title=Complex_analysis&amp;oldid=535720290</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Complex_analysis" title="Category:Complex analysis">Complex analysis</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Complex+analysis&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Complex+analysis.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Complex_analysis"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Complex_analysis&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Complex_analysis&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Complex_analysis" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Complex_analysis" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Complex_analysis&oldid=535720290.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Complex_analysis&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Complex_analysis&id=535720290.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Complex+analysis.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Complex+analysis&oldid=535720290&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Complex_analysis&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AA%D8%AD%D9%84%D9%8A%D9%84_%D8%B9%D9%82%D8%AF%D9%8A" title="تحليل عقدي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%BD_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Комплексен анализ" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/An%C3%A0lisi_complexa" title="Anàlisi complexa" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/Dadansoddi_Cymhlyg" title="Dadansoddi Cymhlyg" lang="cy" hreflang="cy">Cymraeg</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Funktionentheorie" title="Funktionentheorie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Kompleksmuutuja_funktsioonide_teooria" title="Kompleksmuutuja funktsioonide teooria" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9C%CE%B9%CE%B3%CE%B1%CE%B4%CE%B9%CE%BA%CE%AE_%CE%B1%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7" title="Μιγαδική ανάλυση" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/An%C3%A1lisis_complejo" title="Análisis complejo" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Kompleksa_analitiko" title="Kompleksa analitiko" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%A2%D9%86%D8%A7%D9%84%DB%8C%D8%B2_%D9%85%D8%AE%D8%AA%D9%84%D8%B7" title="آنالیز مختلط" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Analyse_complexe" title="Analyse complexe" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%B3%B5%EC%86%8C%ED%95%B4%EC%84%9D%ED%95%99" title="복소해석학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-os"><a href="http://os.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BE%D0%BD_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Комплексон анализ" lang="os" hreflang="os">Ирон</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Tvinnfallagreining" title="Tvinnfallagreining" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Analisi_complessa" title="Analisi complessa" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%9C%D7%99%D7%96%D7%94_%D7%9E%D7%A8%D7%95%D7%9B%D7%91%D7%AA" title="אנליזה מרוכבת" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9D%E1%83%9B%E1%83%9E%E1%83%9A%E1%83%94%E1%83%A5%E1%83%A1%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%90%E1%83%9C%E1%83%90%E1%83%9A%E1%83%98%E1%83%96%E1%83%98" title="კომპლექსური ანალიზი" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-lmo"><a href="http://lmo.wikipedia.org/wiki/An%C3%A0lisi_cumplessa" title="Anàlisi cumplessa" lang="lmo" hreflang="lmo">Lumbaart</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Komplex_anal%C3%ADzis" title="Komplex analízis" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mt"><a href="http://mt.wikipedia.org/wiki/Analisi_komplessa" title="Analisi komplessa" lang="mt" hreflang="mt">Malti</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Functietheorie" title="Functietheorie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E8%A4%87%E7%B4%A0%E8%A7%A3%E6%9E%90" title="複素解析" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Analiza_zespolona" title="Analiza zespolona" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/An%C3%A1lise_complexa" title="Análise complexa" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Analiza_complex%C4%83" title="Analiza complexă" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" title="Комплексный анализ" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Analiza_komplekse" title="Analiza komplekse" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B7%83%E0%B6%82%E0%B6%9A%E0%B7%93%E0%B6%BB%E0%B7%8A%E0%B6%AB_%E0%B7%80%E0%B7%92%E0%B7%81%E0%B7%8A%E0%B6%BD%E0%B7%9A%E0%B7%82%E0%B6%AB%E0%B6%BA" title="සංකීර්ණ විශ්ලේෂණය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Komplexn%C3%A1_anal%C3%BDza" title="Komplexná analýza" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D0%B0_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0" title="Комплексна анализа" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Funktioteoria" title="Funktioteoria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Komplex_analys" title="Komplex analys" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Karma%C5%9F%C4%B1k_analiz" title="Karmaşık analiz" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%BD%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D1%96%D0%B7" title="Комплексний аналіз" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Gi%E1%BA%A3i_t%C3%ADch_ph%E1%BB%A9c" title="Giải tích phức" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E8%A4%87%E5%88%86%E6%9E%90" title="複分析" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 30 January 2013 at 17:50.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Complex_analysis" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1071 in 0.178 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

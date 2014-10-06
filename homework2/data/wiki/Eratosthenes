@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Eratosthenes - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Eratosthenes&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Eratosthenes&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Eratosthenes","wgTitle":"Eratosthenes","wgCurRevisionId":535525641,"wgArticleId":46117,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Ancient Greek language text","Articles with hCards","All articles with unsourced statements","Articles with unsourced statements from October 2012","Articles needing additional references from March 2009","All articles needing additional references","Commons category template with no category set","All articles with dead external links","Articles with dead external links from November 2012","Wikipedia articles with authority control information","Wikipedia articles with VIAF identifiers","276 BC births","194 BC deaths","3rd-century BC Greek people","Deaths by starvation","Ancient Greek astronomers","Ancient Greek geographers","Ancient Greek music theorists","Ancient Greek mathematicians","Cyrenean Greeks","Hellenistic Egyptians","Number theorists","Geodesists","Librarians of Alexandria","Geometers","Ancient Greek poets","Ancient Greek athletes","3rd-century BC poets"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Eratosthenes","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"9b501afcb0d541a04d1bbe01c499280f","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":46117,"title":"Eratosthenes","namespace":0,"categories":["194 BC deaths","276 BC births","3rd-century BC Greek people","3rd-century BC poets","All articles needing additional references","All articles with dead external links","All articles with unsourced statements","Ancient Greek astronomers","Ancient Greek athletes","Ancient Greek geographers","Ancient Greek mathematicians","Ancient Greek music theorists","Ancient Greek poets","Articles containing Ancient Greek language text","Articles needing additional references from March 2009","Articles with dead external links from November 2012","Articles with hCards","Articles with unsourced statements from October 2012","Commons category template with no category set","Cyrenean Greeks","Deaths by starvation","Geodesists","Geometers","Hellenistic Egyptians","Librarians of Alexandria","Number theorists","Wikipedia articles with VIAF identifiers","Wikipedia articles with authority control information"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Eratosthenes skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Eratosthenes</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article is about the Greek scholar of the third century BC.  For the ancient Athenian statesman of the fifth century BC, see <a href="Eratosthenes_(statesman)" title="Eratosthenes (statesman)">Eratosthenes (statesman)</a>.</div>
+<table class="infobox biography vcard" cellspacing="3" style="border-spacing: 3px; width:22em;">
+<tr>
+<th colspan="2" class="" style="text-align:center; font-size:125%; font-weight:bold;"><span class="fn">Eratosthenes<br />
+(<span lang="grc" xml:lang="grc">Ἐρατοσθένης</span>)</span></th>
+</tr>
+<tr class="">
+<td colspan="2" class="" style="text-align:center;"><a href="http://en.wikipedia.org/wiki/File:Portrait_of_Eratosthenes.png" class="image"><img alt="Portrait of Eratosthenes" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Portrait_of_Eratosthenes.png/220px-Portrait_of_Eratosthenes.png" width="220" height="218" srcset="//upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png 1.5x, //upload.wikimedia.org/wikipedia/commons/a/a2/Portrait_of_Eratosthenes.png 2x" /></a><br />
+<span style="">Portrait of Eratosthenes</span></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left;">Born</th>
+<td class="" style="">276 BC<br />
+<span class="birthplace"><a href="Cyrene,_Libya" title="Cyrene, Libya">Cyrene</a></span></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left;">Died</th>
+<td class="" style="">194 BC<br />
+<span class="deathplace"><a href="Alexandria" title="Alexandria">Alexandria</a></span></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left;">Ethnicity</th>
+<td class="category" style="">Greek</td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left;">Occupation</th>
+<td class="role" style="">Scholar, librarian, poet and inventor</td>
+</tr>
+</table>
+<p><b>Eratosthenes of <a href="Cyrene,_Libya" title="Cyrene, Libya">Cyrene</a></b> (<a href="Ancient_Greek" title="Ancient Greek">Ancient Greek</a>: <span lang="grc" xml:lang="grc">Ἐρατοσθένης</span>, <small>IPA:&#160;</small><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_Greek" title="Help:IPA for Greek">[eratostʰénɛːs]</a></span>; <span class="nowrap"><small>English</small> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ɛr/ 'err' in 'merry'" style="border-bottom:1px dotted">ɛr</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ə/ 'a' in 'about'" style="border-bottom:1px dotted">ə</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ˈ/ primary stress follows" style="border-bottom:1px dotted">ˈ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'t' in 'tie'" style="border-bottom:1px dotted">t</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ɒ/ short 'o' in 'body'" style="border-bottom:1px dotted">ɒ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'s' in 'sigh'" style="border-bottom:1px dotted">s</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/θ/ 'th' in 'thigh'" style="border-bottom:1px dotted">θ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ə/ 'a' in 'about'" style="border-bottom:1px dotted">ə</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'n' in 'nigh'" style="border-bottom:1px dotted">n</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/iː/ long 'e' in 'bead'" style="border-bottom:1px dotted">iː</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="'z' in 'Zion'" style="border-bottom:1px dotted">z</span></a></span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span></span>; <span class="nowrap">c. 276 BC</span><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup>&#160;– <span class="nowrap">c. 195 BC</span><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup>) was a Greek <a href="Mathematician" title="Mathematician">mathematician</a>, <a href="Geographer" title="Geographer">geographer</a>, <a href="Poet" title="Poet">poet</a>, <a href="Sportsperson" title="Sportsperson">athlete</a><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from October 2012">citation needed</span></a></i>]</sup>, <a href="Astronomer" title="Astronomer">astronomer</a>, and music theorist.</p>
+<p>He was the first person to use the word "geography" in Greek and he invented the discipline of geography as we understand it.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> He invented a system of <a href="Latitude" title="Latitude">latitude</a> and <a href="Longitude" title="Longitude">longitude</a>.</p>
+<p>He was the first person to calculate the <a href="History_of_geodesy#Hellenic_world" title="History of geodesy">circumference of the earth</a> by using a measuring system using <a href="Stadion_(unit_of_length)" title="Stadion (unit of length)">stades</a>, or the length of stadiums during that time period (with remarkable accuracy). He was the first to calculate the <a href="Axial_tilt#Obliquity_of_the_ecliptic_.28Earth.27s_axial_tilt.29" title="Axial tilt">tilt of the Earth's axis</a> (also with remarkable accuracy). He may also have accurately calculated the <a href="Astronomical_unit" title="Astronomical unit">distance from the earth to the sun</a> and invented the <a href="Leap_day" title="Leap day" class="mw-redirect">leap day</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> He also created the first <a href="Ancient_world_maps#Eratosthenes" title="Ancient world maps" class="mw-redirect">map of the world</a> incorporating parallels and meridians within his cartographic depictions based on the available geographical knowledge of the era. In addition, Eratosthenes was the founder of scientific <a href="Chronology" title="Chronology">chronology</a>; he endeavored to fix the dates of the chief literary and political events from the conquest of <a href="Troy" title="Troy">Troy</a>.</p>
+<p>According to an entry<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> in the <a href="Suda" title="Suda">Suda</a> (a 10th century reference), his contemporaries nicknamed him <i>beta</i>, from the second letter of the Greek alphabet, because he supposedly proved himself to be the second best in the world in almost every field.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Life"><span class="tocnumber">1</span> <span class="toctext">Life</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Eratosthenes.27_measurement_of_the_Earth.27s_circumference"><span class="tocnumber">2</span> <span class="toctext">Eratosthenes' measurement of the Earth's circumference</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Other_astronomical_distances"><span class="tocnumber">3</span> <span class="toctext">Other astronomical distances</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Prime_numbers"><span class="tocnumber">4</span> <span class="toctext">Prime numbers</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Works"><span class="tocnumber">5</span> <span class="toctext">Works</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Things_named_after_Eratosthenes"><span class="tocnumber">6</span> <span class="toctext">Things named after Eratosthenes</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Further_reading"><span class="tocnumber">9</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=1.php.html" title="Edit section: Life">edit</a>]</span> <span class="mw-headline" id="Life">Life</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Mappa_di_Eratostene.jpg" class="image"><img alt="Eratosthenes' map of the world (194 B.C.)" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mappa_di_Eratostene.jpg/220px-Mappa_di_Eratostene.jpg" width="220" height="129" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mappa_di_Eratostene.jpg/330px-Mappa_di_Eratostene.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mappa_di_Eratostene.jpg/440px-Mappa_di_Eratostene.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Mappa_di_Eratostene.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+19th century reconstruction of Eratosthenes' map of the known world, <span class="nowrap"><a href="Circa" title="Circa">c.</a> 194 BC</span></div>
+</div>
+</div>
+<p>Eratosthenes was born in <a href="Cyrene_(city)" title="Cyrene (city)" class="mw-redirect">Cyrene</a> (in modern-day <a href="Libya" title="Libya">Libya</a>). He was the third chief librarian of the <a href="Great_Library_of_Alexandria" title="Great Library of Alexandria" class="mw-redirect">Great Library of Alexandria</a>, the center of science and learning in the ancient world, and died in <a href="Alexandria" title="Alexandria">Alexandria</a>, then the capital of <a href="Ptolemaic_Egypt" title="Ptolemaic Egypt" class="mw-redirect">Ptolemaic Egypt</a>.</p>
+<p>Eratosthenes studied in Alexandria, and claimed to have also studied for some years in <a href="Athens" title="Athens">Athens</a>. In 236&#160;BC, he was appointed by <a href="Ptolemy_III_of_Egypt" title="Ptolemy III of Egypt" class="mw-redirect">Ptolemy III Euergetes</a> as librarian of the <a href="Library_of_Alexandria" title="Library of Alexandria">Alexandrian library</a>, succeeding the second librarian, <a href="Apollonius_of_Rhodes" title="Apollonius of Rhodes">Apollonius of Rhodes</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> He made several important contributions to <a href="Mathematics" title="Mathematics">mathematics</a> and <a href="Science" title="Science">science</a>, and was a good friend to <a href="Archimedes" title="Archimedes">Archimedes</a>. Around 255&#160;BC, he invented the <a href="Armillary_sphere" title="Armillary sphere">armillary sphere</a>. In <i>On the Circular Motions of the Celestial Bodies</i>, <a href="Cleomedes" title="Cleomedes">Cleomedes</a> credited him with having calculated the <a href="Equator#Exact_length_of_the_Equator" title="Equator">Earth's circumference</a> around <a href="240s_BC" title="240s BC">240 BC</a>, using knowledge of the angle of <a href="Solar_elevation_angle" title="Solar elevation angle">elevation</a> of the <a href="Sun" title="Sun">sun</a> at noon on the <a href="Summer_solstice" title="Summer solstice">summer solstice</a> in Alexandria and on <a href="Elephantine" title="Elephantine">Elephantine</a> Island near <a href="Syene" title="Syene" class="mw-redirect">Syene</a> (now <a href="Aswan" title="Aswan">Aswan</a>, Egypt).</p>
+<p>Eratosthenes criticized <a href="Aristotle" title="Aristotle">Aristotle</a> for arguing that humanity was divided into Greeks and <a href="Barbarian" title="Barbarian">barbarians</a>, and that the Greeks should keep themselves racially pure, believing there was good and bad in every nation.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> By 195 BC, Eratosthenes became <a href="Blindness" title="Blindness">blind</a>. He died in 194&#160;BC at the age of 82.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=2.php.html" title="Edit section: Eratosthenes' measurement of the Earth's circumference">edit</a>]</span> <span class="mw-headline" id="Eratosthenes.27_measurement_of_the_Earth.27s_circumference">Eratosthenes' measurement of the Earth's circumference</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Eratosthenes.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Eratosthenes.png/220px-Eratosthenes.png" width="220" height="170" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Eratosthenes.png/330px-Eratosthenes.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/98/Eratosthenes.png/440px-Eratosthenes.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Eratosthenes.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Illustration showing a portion of the globe showing a part of the African continent. The sun beams shown as 2 rays hitting earth at Syene and Alexandria. Angle of sun beam and the gnomons (vertical sticks) is shown at Alexandria which allowed Eratosthenes' estimates of radius and circumference of Earth.</div>
+</div>
+</div>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Eratosthenes.svg" class="image"><img alt="illustration showing a portion of the globe showing a part of the African continent. The sun is shown and arrows indicate rays of the sun hitting earth. Rays or arrows point to Alexandria (labeled &quot;A&quot;) and Syrene (labeled &quot;S&quot;). Blue lines are drawn from A and S towards the equator. There is a line representing the Tropic of Cancer running to S. Two small curved arrows indicating a measurement are drawn from the Greek symbol phi. One ends midway between the blue lines from A and S and the other ends between the ray of light hitting A and an extension of the blue line passing through A into space." src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Eratosthenes.svg/250px-Eratosthenes.svg.png" width="250" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Eratosthenes.svg/375px-Eratosthenes.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/35/Eratosthenes.svg/500px-Eratosthenes.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Eratosthenes.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Measurements taken at Alexandria (A) and Syene (S)</div>
+</div>
+</div>
+<p>Eratosthenes calculated the <a href="Circumference" title="Circumference">circumference</a> of the <a href="Earth" title="Earth">Earth</a> without leaving Egypt. Eratosthenes knew that, on the summer solstice, at <a href="Noon#Solar_noon" title="Noon">local noon</a> in the Ancient Egyptian city of <a href="Swenet" title="Swenet" class="mw-redirect">Swenet</a> (known in Greek as Syene, and in the modern day as Aswan) on the <a href="Tropic_of_Cancer" title="Tropic of Cancer">Tropic of Cancer</a>, the sun would appear at the <a href="Zenith" title="Zenith">zenith</a>, directly overhead (he had been told that the shadow of someone looking down a deep well would block the reflection of the Sun at noon). Using a <a href="Gnomon" title="Gnomon">gnomon</a>, he measured the sun's angle of elevation at noon on the solstice in his hometown of Alexandria, and found it to be 1/50th of a circle (7°12') south of the <a href="Zenith" title="Zenith">zenith</a>. Assuming that the Earth was spherical (360°), and that Alexandria was due north of Syene, he concluded that the <a href="Meridian_arc" title="Meridian arc">meridian arc</a> distance from Alexandria to Syene must therefore be 1/50 = 7°12'/360°, and was therefore 1/50 of the total circumference of the Earth. His knowledge of the size of Egypt after many generations of <a href="Surveying" title="Surveying">surveying</a> trips for the Pharaonic bookkeepers gave a distance between the cities of 5,000 <a href="Stadion_(unit_of_length)" title="Stadion (unit of length)">stadia</a> (about 500 <a href="Geographical_mile" title="Geographical mile">geographical miles</a> or 927.7&#160;km). This distance was corroborated by inquiring about the time that it takes to travel from Syene to Alexandria by camel. He rounded the result to a final value of 700 stadia per degree, which implies a circumference of 252,000 stadia. The exact size of the stadion he used is frequently argued. The common <a href="Ancient_Greek_units_of_measurement#Length" title="Ancient Greek units of measurement">Attic stadion</a> was about 185&#160;m,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> which would imply a circumference of 46,620&#160;km, which is off the actual circumference by 16.3%; too large an error to be considered as 'accurate'. However, if we assume that Eratosthenes used the "Egyptian stadion"<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> of about 157.5&#160;m, his measurement turns out to be 39,690&#160;km, an error of less than 2%.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=3.php.html" title="Edit section: Other astronomical distances">edit</a>]</span> <span class="mw-headline" id="Other_astronomical_distances">Other astronomical distances</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This section <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Eratosthenes&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(March 2009)</i></small> </span></td>
+</tr>
+</table>
+<p><a href="Eusebius_of_Caesarea" title="Eusebius of Caesarea" class="mw-redirect">Eusebius of Caesarea</a> in his <i><a href="Preparation_for_the_Gospel" title="Preparation for the Gospel" class="mw-redirect">Preparatio Evangelica</a></i> includes a brief chapter of three sentences on celestial distances (<a rel="nofollow" class="external text" href="http://www.tertullian.org/fathers/eusebius_pe_15_book15.htm">Book XV</a>, Chapter 53). He states simply that Eratosthenes found the distance to the sun to be "<span lang="grc" xml:lang="grc">σταδίων μυριάδας τετρακοσίας και οκτωκισμυρίας</span>" (literally "of <a href="Stadia_(length)" title="Stadia (length)" class="mw-redirect">stadia</a> <a href="Myriad" title="Myriad">myriads</a> 400 and 80,000") and the distance to the moon to be 780,000 stadia. The expression for the distance to the sun has been translated either as 4,080,000 stadia (1903 translation by <a href="../../w/index-title=E._H._Gifford&action=edit&redlink=1.php.html" class="new" title="E. H. Gifford (page does not exist)">E. H. Gifford</a>), or as 804,000,000 stadia (edition of <a href="../../w/index-title=Edouard_des_Places&action=edit&redlink=1.php.html" class="new" title="Edouard des Places (page does not exist)">Edouard des Places</a>, dated 1974–1991). The meaning depends on whether Eusebius meant 400 myriad plus 80,000 or "400 and 80,000" myriad. With a stadium of 185 meters, 804,000,000 stadia is 149,000,000 kilometers, approximately the distance from the earth to the sun.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=4.php.html" title="Edit section: Prime numbers">edit</a>]</span> <span class="mw-headline" id="Prime_numbers">Prime numbers</span></h2>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Sieve_of_Eratosthenes" title="Sieve of Eratosthenes">Sieve of Eratosthenes</a> and <a href="Primality_test" title="Primality test">primality test</a></div>
+<p>Eratosthenes also proposed a simple <a href="Algorithm" title="Algorithm">algorithm</a> for finding <a href="Prime_numbers" title="Prime numbers" class="mw-redirect">prime numbers</a>. This algorithm is known in mathematics as the <a href="Sieve_of_Eratosthenes" title="Sieve of Eratosthenes">Sieve of Eratosthenes</a>.</p>
+<p>In mathematics, the sieve of Eratosthenes (Greek: κόσκινον Ἐρατοσθένους), one of a number of <a href="Generating_primes#Prime_sieves" title="Generating primes">prime number sieves</a>, is a simple, ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.e. not prime) the multiples of each prime, starting with the multiples of 2. The multiples of a given prime are generated starting from that prime, as a sequence of numbers with the same difference, equal to that prime, between consecutive numbers. This is the sieve's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=5.php.html" title="Edit section: Works">edit</a>]</span> <span class="mw-headline" id="Works">Works</span></h2>
+<ul>
+<li><i>Περὶ τῆς ἀναμετρήσεως τῆς γῆς</i> (<i>On the Measurement of the Earth</i>)<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> (lost, summarized by <a href="Cleomedes" title="Cleomedes">Cleomedes</a>)</li>
+<li><i>Geographica</i> (lost, criticized by <a href="Strabo" title="Strabo">Strabo</a>)</li>
+<li><i>Arsinoe</i> (a memoir of queen <a href="Arsinoe_III_of_Egypt" title="Arsinoe III of Egypt">Arsinoe</a>; lost; quoted by <a href="Athenaeus" title="Athenaeus">Athenaeus</a> in the <i><a href="Deipnosophistae" title="Deipnosophistae">Deipnosophistae</a></i>)</li>
+<li>A fragmentary collection of <a href="Hellenistic" title="Hellenistic" class="mw-redirect">Hellenistic</a> myths about the <a href="Constellation" title="Constellation">constellations</a>, called <i><a href="Catasterismi" title="Catasterismi">Catasterismi</a></i> (<i>Katasterismoi</i>), was attributed to Eratosthenes, perhaps to add to its credibility.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=6.php.html" title="Edit section: Things named after Eratosthenes">edit</a>]</span> <span class="mw-headline" id="Things_named_after_Eratosthenes">Things named after Eratosthenes</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:AS17-145-22285.jpg" class="image"><img alt="grayscale image of a crater on the moon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/AS17-145-22285.jpg/220px-AS17-145-22285.jpg" width="220" height="169" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/AS17-145-22285.jpg/330px-AS17-145-22285.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/AS17-145-22285.jpg/440px-AS17-145-22285.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:AS17-145-22285.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Eratosthenes_(crater)" title="Eratosthenes (crater)">Eratosthenes (crater)</a> on the moon</div>
+</div>
+</div>
+<ul>
+<li><a href="Eratosthenes_(crater)" title="Eratosthenes (crater)">Eratosthenes (crater)</a> on the <a href="Moon" title="Moon">moon</a></li>
+<li><a href="Eratosthenian" title="Eratosthenian">Eratosthenian</a> period in the <a href="Lunar_geologic_timescale" title="Lunar geologic timescale">lunar geologic timescale</a></li>
+<li><a href="Eratosthenes_Seamount" title="Eratosthenes Seamount">Eratosthenes Seamount</a> in the eastern Mediterranean Sea</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=7.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:BlankMap-World6.svg" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/03/BlankMap-World6.svg/32px-BlankMap-World6.svg.png" width="32" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/BlankMap-World6.svg/48px-BlankMap-World6.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/BlankMap-World6.svg/64px-BlankMap-World6.svg.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Atlas" title="Portal:Atlas">Atlas  portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="History_of_geodesy" title="History of geodesy">History of geodesy</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=8.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">The <a href="Suda" title="Suda">Suda</a> states that he was born in the 126th <a href="Olympiad" title="Olympiad">Olympiad</a>, (276–272&#160;BC). <a href="Strabo" title="Strabo">Strabo</a> (<i>Geography</i>, i.2.2), though, states that he was a "pupil" (γνωριμος) of <a href="Zeno_of_Citium" title="Zeno of Citium">Zeno of Citium</a> (who died 262&#160;BC), which would imply an earlier year-of-birth (<span class="nowrap">c. 285 BC</span>) since he is unlikely to have studied under him at the young age of 14. However, γνωριμος can also mean "acquaintance", and the year of Zeno's death is by no means definite. Cf. <i>Eratosthenes</i> entry in the <i><a href="Dictionary_of_Scientific_Biography" title="Dictionary of Scientific Biography">Dictionary of Scientific Biography</a></i> (1971)</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">The <a href="Suda" title="Suda">Suda</a> states he died at the age of 80, <a href="Censorinus" title="Censorinus">Censorinus</a> (<i>De die natali</i>, 15) at the age of 81, and <a href="Pseudo-Lucian" title="Pseudo-Lucian" class="mw-redirect">Pseudo-Lucian</a> (<i>Makrobioi</i>, 27) at the age of 82.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation book">Erastothenes (2010). <i>Eratosthenes' "Geography"</i>. Fragments collected and translated, with commentary and additional material by Duane W. Roller. <a href="Princeton_University_Press" title="Princeton University Press">Princeton University Press</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-691-14267-8" title="Special:BookSources/978-0-691-14267-8">978-0-691-14267-8</a>.</span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation web">Alfred, Randy (June 19, 2008). <a rel="nofollow" class="external text" href="http://www.wired.com/science/discoveries/news/2008/06/dayintech_0619">"June 19, 240 B.C.: The Earth Is Round, and It's This Big"</a>. <i>Wired</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.wired.com/science/discoveries/news/2008/06/dayintech_0619">http://www.wired.com/science/discoveries/news/2008/06/dayintech_0619</a></span>.</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Entry <span lang="grc" xml:lang="grc">ε</span> 2898</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">See also Asimov, Isaac. <i>Asimov's Biographical Encyclopedia of Science and Technology</i>, new revised edition. 1975. Entry #42, "Eratosthenes", Page 29. Pan Books Ltd, London. <a href="Special_BookSources/0330243233" class="internal mw-magiclink-isbn">ISBN 0-330-24323-3</a>. It was also asserted by Carl Sagan, 31 minutes into his Cosmos episode <i>The Shores of the Cosmic Ocean</i></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.oxfordreference.com/views/ENTRY.html?entry=t111.e2478&srn=2&ssid=223186397#FIRSTHIT">Oxford Reference</a> (subscription required)</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">* p439 Vol. 1 William Woodthorpe Tarn <i>Alexander the Great</i>. Vol. I, <i>Narrative</i>; Vol. II, <i>Sources and Studies0</i>. Cambridge: Cambridge University Press, 1948. (New ed., 2002 (paperback, <a href="Special_BookSources/0521531373" class="internal mw-magiclink-isbn">ISBN 0-521-53137-3</a>)).</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation Journal">Engels, Donald (Autumn 1984). "The Length of Eratosthenes' Stade". <i>American Journal of Philology</i> <b>106</b> (3): 298–311. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/295030">10.2307/295030</a>. <a href="JSTOR" title="JSTOR">JSTOR</a>&#160;<a rel="nofollow" class="external text" href="http://www.jstor.org/stable/295030">295030</a>.</span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation web">Isaac Moreno Gallo (3–6 November 2004). <a rel="nofollow" class="external text" href="http://web.archive.org/web/20070205033538/http:/traianus.rediris.es/topo01/surveying.pdf">"Roman Surveying"</a> (PDF). translated by Brian R. Bishop. Archived from <a rel="nofollow" class="external text" href="http://traianus.rediris.es/topo01/surveying.pdf">the original</a> on 2007-02-05<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20070205033538/http:/traianus.rediris.es/topo01/surveying.pdf">http://web.archive.org/web/20070205033538/http://traianus.rediris.es/topo01/surveying.pdf</a></span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">There is a huge volume of Eratosthenes-got-it-right literature based on attacking the applicability of the standard 185&#160;m stadium to his experiment. Among advocates: F. Hultsch, <i>Griechische und Römische Metrologie</i>, Berlin, 1882; E. Lehmann-Haupt, Stadion entry in <i>Paulys Real-Encyclopädie</i>, Stuttgart, 1929; I. Fischer, <i>Q. Jl. R. astr. Soc. 16.2</i>:152–167, 1975; Gulbekian (1987); Dutka (1993). The means employed include worrying various ratios of the stadium to the unstably defined "schoenus", or using a truncated passage from Pliny. (Gulbekian just computes the stadium from Eratosthenes' experiment instead of the reverse.) Nicastro (2008), however, uses statistical analysis of Eratosthenes' linear distances (as reported by Strabo) to establish a 95% probability that Eratosthenes used a stade between 153.5 and 162.4 meters, with the 185&#160;m "Attic" stade well outside the 3-sigma confidence interval. A disproportionality of literature exists because some professional scholars of ancient science have regarded such speculation as special pleading and so have not bothered to write extensively on the issue. Skeptical works include E. Bunbury's classic <i>History of Ancient Geography</i>, 1883; D. Dicks, <i>Geographical Fragments of Hipparchus</i>, University of London, 1960; O. Neugebauer, <i>History of Ancient Mathematical Astronomy</i>, Springer, 1975; J. Berggren and A. Jones, <i>Ptolemy's Geography</i>, Princeton, 2000. Some difficulties with the several arguments for Eratosthenes' exact correctness are discussed by <a href="Dennis_Rawlins" title="Dennis Rawlins">Rawlins</a> in 1982b page 218 and in his <a rel="nofollow" class="external text" href="http://www.dioi.org/cot.htm#fpfw">Contributions</a> and <a rel="nofollow" class="external text" href="http://www.dioi.org/gad.htm#rcgn">Distillate</a>. See also, at <a rel="nofollow" class="external autonumber" href="http://www.youtube.com/watch?v=WNq2hLEP6gw">[1]</a>, "The Shores of the Cosmic Ocean", chapter 1 of <i>Cosmos: A Personal Voyage</i>, a TV series by <a href="Carl_Sagan" title="Carl Sagan">Carl Sagan</a>, <a href="Ann_Druyan" title="Ann Druyan">Ann Druyan</a> and <a href="../../w/index-title=Steven_Sotter&action=edit&redlink=1.php.html" class="new" title="Steven Sotter (page does not exist)">Steven Sotter</a> (1978–1979), where a description of Eratosthenes' experiment is presented.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Mentioned by <a href="Hero_of_Alexandria" title="Hero of Alexandria">Hero of Alexandria</a> in his <i>Dioptra</i>. See p. 272, vol. 2, <i>Selections Illustrating the History of Greek Mathematics</i>, tr. Ivor Thomas, London: William Heinemann Ltd.; Cambridge, MA: Harvard University Press, 1957.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=9.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<div class="refbegin" style="">
+<ul>
+<li>Aujac, G. (2001). <i>Eratosthène de Cyrène, le pionier de la geographie</i>. Paris: Édition du CTHS. 224p.</li>
+<li><span class="citation book">Bulmer-Thomas, Ivor (1939-1940). <i>Selections Illustlating the History of Greek Mathematics</i>. Cambridge, MA: Harvard University Press.</span></li>
+<li>Cameron McPhail (2011). <a rel="nofollow" class="external text" href="http://otago.ourarchive.ac.nz/bitstream/handle/10523/1713/McPhailCameron2011MA.pdf?sequence=1"><i>Reconstructing Eratosthenes' Map of the World: a Study in Source Analysis</i>. A Thesis Submitted for the Degree of Master of Arts at the University of Otago</a>. Dunedin, New Zealand.</li>
+<li>Diller, A. (1934). “Geographical Latitudes in Eratosthenes, Hipparchus and Posidonius”. <i>Klio</i> <b>27(3)</b>: 258–269.</li>
+<li><span class="citation Journal">Dorofeeva, A. V. (1988). "Eratosthenes (ca. 276–194 B.C.)" (in Russian). <i>Mat. V Shkole</i> (4): i.</span></li>
+<li><span class="citation Journal">Dutka, J. (1993). "Eratosthenes' measurement of the Earth reconsidered". <i>Arch. Hist. Exact Sci.</i> <b>46</b> (1): 55–66. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF00387726">10.1007/BF00387726</a>.</span></li>
+<li><span class="citation Journal">El'natanov, B. A. (1983). "A brief outline of the history of the development of the sieve of Eratosthenes" (in Russian). <i>Istor.-Mat. Issled.</i> <b>27</b>: 238–259.</span></li>
+<li>Fischer, I. (1975). <a rel="nofollow" class="external text" href="http://articles.adsabs.harvard.edu/full/1975QJRAS..16..152F/0000152.000.html">"Another look at Eratosthenes' and Posidonius' determinations of the Earth’s circumference"</a>. <i>Quarterly Journal of the Royal Astronomical Society</i> <b>16</b>: 152—167.</li>
+<li><span class="citation Journal">Fowler, D. H.; Rawlins, Dennis (1983). "Eratosthenes' ratio for the obliquity of the ecliptic". <i>Isis</i> <b>74</b> (274): 556–562. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1086/353361">10.1086/353361</a>.</span></li>
+<li><span class="citation Journal">Fraser, P. M. (1970). "Eratosthenes of Cyrene". <i>Proceedings of the British Academy</i> <b>56</b>: 175–207.</span></li>
+<li><span class="citation book">Fraser, P. M. (1972). <i>Ptolemaic Alexandria</i>. Oxford: Clarendon Press.</span></li>
+<li>Geus K. (2002). <a rel="nofollow" class="external text" href="http://www.academia.edu/attachments/12860252/download_file"><i>Eratosthenes von Kyrene. Studien zur hellenistischen Kultur- und Wissenschaftgeschichte</i></a>. München: Verlag C.H. Beck. (Münchener Beiträge zur Papyrusforschung und antiken Rechtsgeschichte. Bd. 92) X, 412 S.</li>
+<li><span class="citation Journal">Goldstein, B. R. (1984). "Eratosthenes on the "measurement" of the earth". <i>Historia Math.</i> <b>11</b> (4): 411–416. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1016/0315-0860(84)90025-9">10.1016/0315-0860(84)90025-9</a>.</span></li>
+<li><span class="citation Journal">Gulbekian, E. (1987). "The origin and value of the stadion unit used by Eratosthenes in the third century B.C". <i>Arch. Hist. Exact Sci.</i> <b>37</b> (4): 359–363. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF00417008">10.1007/BF00417008</a>.</span></li>
+<li>Honigmann, E. (1929). <i>Die sieben Klimata und die πολεις επισημοι</i>. Eine Untersuchung zur Geschichte der Geographie und Astrologie in Altertum und Mittelalter. Heidelberg: Carl Winter’s Universitätsbuchhandlung. 247 S.</li>
+<li><span class="citation Journal">Knaack, G. (1907). "Eratosthenes". <i>Pauly–Wissowa VI</i>: 358–388.</span></li>
+<li><span class="citation Journal">Manna, F. (1986). "The Pentathlos of ancient science, Eratosthenes, first and only one of the "primes"" (in Italian). <i>Atti Accad. Pontaniana (N.S.)</i> <b>35</b>: 37–44.</span></li>
+<li><span class="citation Journal">Muwaf, A.; Philippou, A. N. (1981). "An Arabic version of Eratosthenes writing on mean proportionals". <i>J. Hist. Arabic Sci.</i> <b>5</b> (1–2): 174–147.</span></li>
+<li><span class="citation book">Nicastro, Nicholas (2008). <i>Circumference: Eratosthenes and the ancient quest to measure the globe</i>. New York: St. Martin's Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-312-37247-7" title="Special:BookSources/0-312-37247-7">0-312-37247-7</a>.</span></li>
+<li><span class="citation"><a href="../John_J._O'Connor_(mathematician)" title="John J. O'Connor (mathematician)" class="mw-redirect">O'Connor, John J.</a>; <a href="../Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Eratosthenes.html">"Eratosthenes"</a>, <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Eratosthenes.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Eratosthenes.html</a></span></span>.</li>
+<li>Marcotte, D. (1998). “La climatologie d’Ératosthène à Poséidonios: genèse d’une science humaine”. G. Argoud, J.Y. Guillaumin (eds.). <i>Sciences exactes et sciences appliquées à Alexandrie (IIIe siècle av J.C. – Ier ap J.C.)</i>. Saint Etienne: Publications de l'Université de Saint Etienne: 263–277.</li>
+<li><span class="citation book">Pfeiffer, Rudolf (1968). <i>History of Classical Scholarship From the Beginnings to the End of the Hellenistic Age</i>. Oxford: Clarendon Press.</span></li>
+<li><span class="citation Journal">Rawlins, D. (1982). "Eratosthenes' geodesy unraveled&#160;: was there a high-accuracy Hellenistic astronomy". <i>Isis</i> <b>73</b> (2): 259–265. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1086/352973">10.1086/352973</a>.</span></li>
+<li><span class="citation Journal">Rawlins, D. (1982). "The Eratosthenes – Strabo Nile map. Is it the earliest surviving instance of spherical cartography? Did it supply the 5000 stades arc for Eratosthenes' experiment?". <i>Arch. Hist. Exact Sci.</i> <b>26</b> (3): 211–219.</span></li>
+<li><span class="citation Journal">Rawlins, D. (2008). <a rel="nofollow" class="external text" href="http://www.dioi.org/vols/we0.pdf">"Eratothenes's large earth and tiny universe"</a> (PDF). <i>DIO</i> <b>14</b>: 3–12<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.dioi.org/vols/we0.pdf">http://www.dioi.org/vols/we0.pdf</a></span>.</span></li>
+<li><span class="citation book">Roller, Duane W. (2010). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=8peKyWK_SWsC"><i>Eratosthenes' Geography: Fragments collected and translated, with commentary and additional material</i></a>. Princeton: Princeton University Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-691-14267-8" title="Special:BookSources/978-0-691-14267-8">978-0-691-14267-8</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=8peKyWK_SWsC">http://books.google.com/books?id=8peKyWK_SWsC</a></span>.</span></li>
+<li>Shcheglov, D.A. (2004/2006). “Ptolemy’s System of Seven Climata and Eratosthenes’ Geography”. <i>Geographia Antiqua</i> <b>13</b>: 21–37.</li>
+<li>Shcheglov, D.A. (2006). “<a rel="nofollow" class="external text" href="http://www.academia.edu/191065/Eratosthenes_Parallel_of_Rhodes_and_the_History_of_the_System_of_Climata">Eratosthenes’ Parallel of Rhodes and the History of the System of Climata</a>”. <i>Klio</i> <b>88</b>: 351–359.</li>
+<li><span class="citation book">Strabo (1917). <i><a href="Geographica" title="Geographica">The Geography of Strabo</a></i>. Horace Leonard Jones, trans. New York: Putnam.</span></li>
+<li><span class="citation Journal">Taisbak, C. M. (1984). "Eleven eighty-thirds. Ptolemy's reference to Eratosthenes in Almagest I.12". <i>Centaurus</i> <b>27</b> (2): 165–167. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1984Cent...27..165T">1984Cent...27..165T</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1111/j.1600-0498.1984.tb00766.x">10.1111/j.1600-0498.1984.tb00766.x</a>.</span></li>
+<li>Thalamas, A. (1921). <i>La géographe d’Ératosthène</i>. Versailles.</li>
+<li><span class="citation book">Wolfer, E. P. (1954). <i>Eratosthenes von Kyrene als Mathematiker und Philosoph</i>. Groningen-Djakarta.</span></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Eratosthenes&action=edit&section=10.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Eratosthenes" class="extiw" title="commons:Category:Eratosthenes">Eratosthenes</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png" width="38" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/57px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/76px-Wikisource-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style=""><a href="Wikisource" title="Wikisource">Wikisource</a> has original works written by or about:<br />
+<center><i><b><a href="http://en.wikisource.org/wiki/Author:Eratosthenes" class="extiw" title="s:Author:Eratosthenes">Eratosthenes</a></b></i></center>
+</td>
+</tr>
+</table>
+<ul>
+<li>Bernhardy, Gottfried: "Eratosthenica" Berlin 1822 Reprinted Osnabruck 1968 (German text)</li>
+<li><a rel="nofollow" class="external text" href="http://www.wilbourhall.org/index.html#eratosthenes">Bernhardy, Gottfried: <i>Eratosthenica</i></a> Berlin, 1822 (PDF) (Latin/Greek)</li>
+<li><a rel="nofollow" class="external text" href="http://www.faust.fr.bw.schule.de/mhb/eratosiv.htm">Eratosthenes' sieve in Javascript</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.math.utah.edu/history/eratosthenes.html">Eratosthenes' sieve as a simple algorithm</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.math.utah.edu/~pa/Eratosthenes.html">About Eratosthenes' methods, including a Java applet</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.algonet.se/~sirius/eaae/aol/market/collabor/erathost">How to measure the earth with Eratosthenes' method</a><sup class="noprint Inline-Template"><span title="&#160;since November 2012" style="white-space: nowrap;">[<i><a href="Wikipedia_Link_rot" title="Wikipedia:Link rot">dead link</a></i>]</span></sup></li>
+<li><a rel="nofollow" class="external text" href="http://galileoandeinstein.physics.virginia.edu/lectures/gkastr1.html">How the Greeks estimated the distances to the moon and sun</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.pbs.org/wnet/hawking/cosmostar/html/cstars_eratho.html">Eratosthenes on PBS.org</a></li>
+<li><a rel="nofollow" class="external text" href="http://astrosun2.astro.cornell.edu/academics/courses/astro201/eratosthenes.htm">Measuring the earth with Eratosthenes' method</a></li>
+<li><a rel="nofollow" class="external text" href="http://aleph0.clarku.edu/~djoyce/mathhist/greece.html">List of ancient Greek mathematecians and contemporaries of Eratosthenes</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.newadvent.org/cathen/01303a.htm">New Advent Encyclopedia article on the Library of Alexandria</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.christopherhenden.com/previously/primenumbers/">Eratosthenes' sieve explored and visualised in Flash</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.quitebasic.com/prj/math/eratosthenes/">Eratosthenes' sieve in classic BASIC all-web based interactive programming environment</a></li>
+<li><a rel="nofollow" class="external text" href="http://lamap.inrp.fr/eratos/">Following in the footsteps of Eratosthenes</a>&#160;: project <a href="http://fr.wikipedia.org/wiki/La_main_%C3%A0_la_p%C3%A2te" class="extiw" title="fr:La main à la pâte">fr:La main à la pâte</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://www.phy.ntnu.edu.tw/ntnujava/htmltag.php?code=users.sgeducation.lookang.Eratostheneswee_pkg.EratosthenesweeApplet.class&name=Eratostheneswee&muid=14019">Open source Physics Computer Model about Eratosthenes estimation of radius and circumference of Earth</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Authority_control" title="Authority control">Authority control</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span class="uid"><a rel="nofollow" class="external text" href="http://www.worldcat.org/identities/lccn-n82-81073">WorldCat</a></span></li>
+<li><a href="Virtual_International_Authority_File" title="Virtual International Authority File">VIAF</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://viaf.org/viaf/69031816">69031816</a></span></li>
+<li><a href="Library_of_Congress_Control_Number" title="Library of Congress Control Number">LCCN</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://id.loc.gov/authorities/names/n82081073">n82081073</a></span></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="wikitable succession-box" style="margin:0.5em auto; font-size:95%;clear:both;">
+<tr style="text-align:center;">
+<td width="30%" align="center" rowspan="1">Preceded&#160;by<br />
+<span style="font-weight: bold"><a href="Apollonius_of_Rhodes" title="Apollonius of Rhodes">Apollonius of Rhodes</a></span></td>
+<td width="40%" style="text-align: center;" rowspan="1"><b>Head of the <a href="Library_of_Alexandria" title="Library of Alexandria">Library of Alexandria</a></b></td>
+<td width="30%" align="center" rowspan="1">Succeeded&#160;by<br />
+<span style="font-weight: bold"><a href="Aristophanes_of_Byzantium" title="Aristophanes of Byzantium">Aristophanes of Byzantium</a></span></td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Greek_astronomy" title="Template:Greek astronomy"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Greek_astronomy" title="Template talk:Greek astronomy"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Greek_astronomy&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Greek_astronomy" title="Greek astronomy">Greek astronomy</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Astronomers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Acoreus" title="Acoreus">Acoreus</a></li>
+<li><a href="Aglaonike" title="Aglaonike">Aglaonike</a></li>
+<li><a href="Agrippa_(astronomer)" title="Agrippa (astronomer)">Agrippa</a></li>
+<li><a href="Anaximander" title="Anaximander">Anaximander</a></li>
+<li><a href="Andronicus_of_Cyrrhus" title="Andronicus of Cyrrhus">Andronicus</a></li>
+<li><a href="Apollonius_of_Perga" title="Apollonius of Perga">Apollonius</a></li>
+<li><a href="Aratus" title="Aratus">Aratus</a></li>
+<li><a href="Aristarchus_of_Samos" title="Aristarchus of Samos">Aristarchus</a></li>
+<li><a href="Aristillus" title="Aristillus">Aristillus</a></li>
+<li><a href="Attalus_of_Rhodes" title="Attalus of Rhodes">Attalus</a></li>
+<li><a href="Autolycus_of_Pitane" title="Autolycus of Pitane">Autolycus</a></li>
+<li><a href="Bion_of_Abdera" title="Bion of Abdera">Bion</a></li>
+<li><a href="Callippus" title="Callippus">Callippus</a></li>
+<li><a href="Cleomedes" title="Cleomedes">Cleomedes</a></li>
+<li><a href="Cleostratus" title="Cleostratus">Cleostratus</a></li>
+<li><a href="Conon_of_Samos" title="Conon of Samos">Conon</a></li>
+<li><strong class="selflink">Eratosthenes</strong></li>
+<li><a href="Euctemon" title="Euctemon">Euctemon</a></li>
+<li><a href="Eudoxus_of_Cnidus" title="Eudoxus of Cnidus">Eudoxus</a></li>
+<li><a href="Geminus" title="Geminus">Geminus</a></li>
+<li><a href="Heraclides_Ponticus" title="Heraclides Ponticus">Heraclides</a></li>
+<li><a href="Hicetas" title="Hicetas">Hicetas</a></li>
+<li><a href="Hipparchus" title="Hipparchus">Hipparchus</a></li>
+<li><a href="Hippocrates_of_Chios" title="Hippocrates of Chios">Hippocrates of Chios</a></li>
+<li><a href="Hypsicles" title="Hypsicles">Hypsicles</a></li>
+<li><a href="Menelaus_of_Alexandria" title="Menelaus of Alexandria">Menelaus</a></li>
+<li><a href="Meton_of_Athens" title="Meton of Athens">Meton</a></li>
+<li><a href="Oenopides" title="Oenopides">Oenopides</a></li>
+<li><a href="Philip_of_Opus" title="Philip of Opus">Philip of Opus</a></li>
+<li><a href="Philolaus" title="Philolaus">Philolaus</a></li>
+<li><a href="Posidonius" title="Posidonius">Posidonius</a></li>
+<li><a href="Ptolemy" title="Ptolemy">Ptolemy</a></li>
+<li><a href="Pytheas" title="Pytheas">Pytheas</a></li>
+<li><a href="Seleucus_of_Seleucia" title="Seleucus of Seleucia">Seleucus</a></li>
+<li><a href="Sosigenes_of_Alexandria" title="Sosigenes of Alexandria">Sosigenes of Alexandria</a></li>
+<li><a href="Sosigenes_the_Peripatetic" title="Sosigenes the Peripatetic">Sosigenes the Peripatetic</a></li>
+<li><a href="Strabo" title="Strabo">Strabo</a></li>
+<li><a href="Thales" title="Thales">Thales</a></li>
+<li><a href="Theodosius_of_Bithynia" title="Theodosius of Bithynia">Theodosius</a></li>
+<li><a href="Theon_of_Alexandria" title="Theon of Alexandria">Theon of Alexandria</a></li>
+<li><a href="Theon_of_Smyrna" title="Theon of Smyrna">Theon of Smyrna</a></li>
+<li><a href="Timocharis" title="Timocharis">Timocharis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Works</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Almagest" title="Almagest"><i>Almagest</i> (Ptolemy)</a></li>
+<li><a href="On_Sizes_and_Distances" title="On Sizes and Distances"><i>On Sizes and Distances</i> (Hipparchus)</a></li>
+<li><a href="On_the_Sizes_and_Distances_(Aristarchus)" title="On the Sizes and Distances (Aristarchus)"><i>On the Sizes and Distances</i> (Aristarchus)</a></li>
+<li><a href="On_the_Heavens" title="On the Heavens"><i>On the Heavens</i> (Aristotle)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Instruments</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Antikythera_mechanism" title="Antikythera mechanism">Antikythera mechanism</a></li>
+<li><a href="Armillary_sphere" title="Armillary sphere">Armillary sphere</a></li>
+<li><a href="Astrolabe" title="Astrolabe">Astrolabe</a></li>
+<li><a href="Dioptra" title="Dioptra">Dioptra</a></li>
+<li><a href="Equatorial_ring" title="Equatorial ring">Equatorial ring</a></li>
+<li><a href="Gnomon" title="Gnomon">Gnomon</a></li>
+<li><a href="Mural_instrument" title="Mural instrument">Mural instrument</a></li>
+<li><a href="Triquetrum_(astronomy)" title="Triquetrum (astronomy)">Triquetrum</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Callippic_cycle" title="Callippic cycle">Callippic cycle</a></li>
+<li><a href="Celestial_spheres" title="Celestial spheres">Celestial spheres</a></li>
+<li><a href="Circle_of_latitude" title="Circle of latitude">Circle of latitude</a></li>
+<li><a href="Counter-Earth" title="Counter-Earth">Counter-Earth</a></li>
+<li><a href="Deferent_and_epicycle" title="Deferent and epicycle">Deferent and epicycle</a></li>
+<li><a href="Equant" title="Equant">Equant</a></li>
+<li><a href="Geocentric_model" title="Geocentric model">Geocentrism</a></li>
+<li><a href="Heliocentrism" title="Heliocentrism">Heliocentrism</a></li>
+<li><a href="Hipparchic_cycle" title="Hipparchic cycle">Hipparchic cycle</a></li>
+<li><a href="Metonic_cycle" title="Metonic cycle">Metonic cycle</a></li>
+<li><a href="Octaeteris" title="Octaeteris">Octaeteris</a></li>
+<li><a href="Solstice" title="Solstice">Solstice</a></li>
+<li><a href="Spherical_Earth" title="Spherical Earth">Spherical Earth</a></li>
+<li><a href="Sublunary_sphere" title="Sublunary sphere">Sublunary sphere</a></li>
+<li><a href="Zodiac" title="Zodiac">Zodiac</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Influences</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Babylonian_astronomy" title="Babylonian astronomy">Babylonian astronomy</a></li>
+<li><a href="Egyptian_astronomy" title="Egyptian astronomy">Egyptian astronomy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Influenced</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Science_in_Medieval_Western_Europe" title="Science in Medieval Western Europe" class="mw-redirect">European astronomy</a></li>
+<li><a href="Indian_astronomy" title="Indian astronomy">Indian astronomy</a></li>
+<li><a href="Astronomy_in_medieval_Islam" title="Astronomy in medieval Islam">Islamic astronomy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Greek_mathematics" title="Template:Greek mathematics"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Greek_mathematics" title="Template talk:Greek mathematics"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Greek_mathematics&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Greek_mathematics" title="Greek mathematics">Greek mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Mathematicians</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Anaxagoras" title="Anaxagoras">Anaxagoras</a></li>
+<li><a href="Anthemius_of_Tralles" title="Anthemius of Tralles">Anthemius</a></li>
+<li><a href="Archytas" title="Archytas">Archytas</a></li>
+<li><a href="Aristaeus_the_Elder" title="Aristaeus the Elder">Aristaeus the Elder</a></li>
+<li><a href="Aristarchus_of_Samos" title="Aristarchus of Samos">Aristarchus</a></li>
+<li><b><a href="Apollonius_of_Perga" title="Apollonius of Perga">Apollonius</a></b></li>
+<li><b><a href="Archimedes" title="Archimedes">Archimedes</a></b></li>
+<li><a href="Autolycus_of_Pitane" title="Autolycus of Pitane">Autolycus</a></li>
+<li><a href="Bion_of_Abdera" title="Bion of Abdera">Bion</a></li>
+<li><a href="Boethius" title="Boethius">Boethius</a></li>
+<li><a href="Bryson_of_Heraclea" title="Bryson of Heraclea">Bryson</a></li>
+<li><a href="Callippus" title="Callippus">Callippus</a></li>
+<li><a href="Carpus_of_Antioch" title="Carpus of Antioch">Carpus</a></li>
+<li><a href="Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="Cleomedes" title="Cleomedes">Cleomedes</a></li>
+<li><a href="Conon_of_Samos" title="Conon of Samos">Conon</a></li>
+<li><a href="Ctesibius" title="Ctesibius">Ctesibius</a></li>
+<li><a href="Democritus" title="Democritus">Democritus</a></li>
+<li><a href="Dicaearchus" title="Dicaearchus">Dicaearchus</a></li>
+<li><a href="Diocles_(mathematician)" title="Diocles (mathematician)">Diocles</a></li>
+<li><b><a href="Diophantus" title="Diophantus">Diophantus</a></b></li>
+<li><a href="Dinostratus" title="Dinostratus">Dinostratus</a></li>
+<li><a href="Dionysodorus" title="Dionysodorus">Dionysodorus</a></li>
+<li><a href="Domninus_of_Larissa" title="Domninus of Larissa">Domninus</a></li>
+<li><strong class="selflink">Eratosthenes</strong></li>
+<li><a href="Eudemus_of_Rhodes" title="Eudemus of Rhodes">Eudemus</a></li>
+<li><b><a href="Euclid" title="Euclid">Euclid</a></b></li>
+<li><b><a href="Eudoxus_of_Cnidus" title="Eudoxus of Cnidus">Eudoxus</a></b></li>
+<li><a href="Eutocius_of_Ascalon" title="Eutocius of Ascalon">Eutocius</a></li>
+<li><b><a href="Geminus" title="Geminus">Geminus</a></b></li>
+<li><b><a href="Hero_of_Alexandria" title="Hero of Alexandria">Heron</a></b></li>
+<li><b><a href="Hipparchus" title="Hipparchus">Hipparchus</a></b></li>
+<li><a href="Hippasus" title="Hippasus">Hippasus</a></li>
+<li><a href="Hippias" title="Hippias">Hippias</a></li>
+<li><b><a href="Hippocrates_of_Chios" title="Hippocrates of Chios">Hippocrates</a></b></li>
+<li><b><a href="Hypatia" title="Hypatia">Hypatia</a></b></li>
+<li><a href="Hypsicles" title="Hypsicles">Hypsicles</a></li>
+<li><a href="Isidore_of_Miletus" title="Isidore of Miletus">Isidore of Miletus</a></li>
+<li><a href="Leo_the_Mathematician" title="Leo the Mathematician">Leo the Mathematician</a></li>
+<li><a href="Marinus_of_Neapolis" title="Marinus of Neapolis">Marinus</a></li>
+<li><a href="Menaechmus" title="Menaechmus">Menaechmus</a></li>
+<li><b><a href="Menelaus_of_Alexandria" title="Menelaus of Alexandria">Menelaus</a></b></li>
+<li><a href="Metrodorus_(grammarian)" title="Metrodorus (grammarian)">Metrodorus</a></li>
+<li><b><a href="Nicomachus" title="Nicomachus">Nicomachus</a></b></li>
+<li><a href="Nicomedes_(mathematician)" title="Nicomedes (mathematician)">Nicomedes</a></li>
+<li><a href="Nicoteles_of_Cyrene" title="Nicoteles of Cyrene">Nicoteles</a></li>
+<li><a href="Oenopides" title="Oenopides">Oenopides</a></li>
+<li><b><a href="Pappus_of_Alexandria" title="Pappus of Alexandria">Pappus</a></b></li>
+<li><a href="Perseus_(geometer)" title="Perseus (geometer)">Perseus</a></li>
+<li><a href="Philolaus" title="Philolaus">Philolaus</a></li>
+<li><a href="Philon" title="Philon">Philon</a></li>
+<li><a href="Porphyry_(philosopher)" title="Porphyry (philosopher)">Porphyry</a></li>
+<li><a href="Posidonius" title="Posidonius">Posidonius</a></li>
+<li><a href="Proclus" title="Proclus">Proclus</a></li>
+<li><b><a href="Ptolemy" title="Ptolemy">Ptolemy</a></b></li>
+<li><b><a href="Pythagoras" title="Pythagoras">Pythagoras</a></b></li>
+<li><a href="Serenus_of_Antinouplis" title="Serenus of Antinouplis">Serenus</a></li>
+<li><a href="Simplicius_of_Cilicia" title="Simplicius of Cilicia">Simplicius</a></li>
+<li><a href="Sosigenes_of_Alexandria" title="Sosigenes of Alexandria">Sosigenes</a></li>
+<li><a href="Sporus_of_Nicaea" title="Sporus of Nicaea">Sporus</a></li>
+<li><b><a href="Thales" title="Thales">Thales</a></b></li>
+<li><a href="Theaetetus_(mathematician)" title="Theaetetus (mathematician)">Theaetetus</a></li>
+<li><a href="Theano_(philosopher)" title="Theano (philosopher)">Theano</a></li>
+<li><a href="Theodorus_of_Cyrene" title="Theodorus of Cyrene">Theodorus</a></li>
+<li><a href="Theodosius_of_Bithynia" title="Theodosius of Bithynia">Theodosius</a></li>
+<li><a href="Theon_of_Alexandria" title="Theon of Alexandria">Theon of Alexandria</a></li>
+<li><a href="Theon_of_Smyrna" title="Theon of Smyrna">Theon of Smyrna</a></li>
+<li><a href="Thymaridas" title="Thymaridas">Thymaridas</a></li>
+<li><a href="Xenocrates" title="Xenocrates">Xenocrates</a></li>
+<li><a href="Zeno_of_Elea" title="Zeno of Elea">Zeno of Elea</a></li>
+<li><a href="Zeno_of_Sidon" title="Zeno of Sidon">Zeno of Sidon</a></li>
+<li><a href="Zenodorus_(mathematician)" title="Zenodorus (mathematician)">Zenodorus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Treatises</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="Almagest" title="Almagest">Almagest</a></i></li>
+<li><a href="Archimedes_Palimpsest" title="Archimedes Palimpsest">Archimedes Palimpsest</a></li>
+<li><i><a href="Arithmetica" title="Arithmetica">Arithmetica</a></i></li>
+<li><a href="Apollonius_of_Perga#Conics" title="Apollonius of Perga"><i>Conics</i></a></li>
+<li><a href="Euclid's_Elements" title="Euclid's Elements"><i>Elements</i></a></li>
+<li><a href="On_the_Sizes_and_Distances_(Aristarchus)" title="On the Sizes and Distances (Aristarchus)"><i>On the Sizes and Distances</i> (Aristarchus)</a></li>
+<li><a href="On_Sizes_and_Distances" title="On Sizes and Distances"><i>On Sizes and Distances</i> (Hipparchus)</a></li>
+<li><a href="Autolycus_of_Pitane" title="Autolycus of Pitane"><i>On the Moving Sphere</i></a></li>
+<li><i><a href="The_Sand_Reckoner" title="The Sand Reckoner">The Sand Reckoner</a></i></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Centers</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cyrene,_Libya" title="Cyrene, Libya">Cyrene</a></li>
+<li><a href="Library_of_Alexandria" title="Library of Alexandria">Library of Alexandria</a></li>
+<li><a href="Platonic_Academy" title="Platonic Academy">Platonic Academy</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Influences</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Babylonian_mathematics" title="Babylonian mathematics">Babylonian mathematics</a></li>
+<li><a href="Egyptian_mathematics" title="Egyptian mathematics">Egyptian mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Influenced</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="History_of_mathematics#Rebirth_of_mathematics_in_Europe_.281100.E2.80.941400.29" title="History of mathematics">European mathematics</a></li>
+<li><a href="Indian_mathematics" title="Indian mathematics">Indian mathematics</a></li>
+<li><a href="Mathematics_in_medieval_Islam" title="Mathematics in medieval Islam">Mathematics in medieval Islam</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Tables</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Timetable_of_Greek_mathematicians" title="Timetable of Greek mathematicians">Timetable of Greek mathematicians</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Problems</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Problem_of_Apollonius" title="Problem of Apollonius">Problem of Apollonius</a></li>
+<li><a href="Squaring_the_circle" title="Squaring the circle">Squaring the circle</a></li>
+<li><a href="Doubling_the_cube" title="Doubling the cube">Doubling the cube</a></li>
+<li><a href="Angle_trisection" title="Angle trisection">Angle trisection</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="persondata" class="persondata" style="border:1px solid #aaa; display:none; speak:none;">
+<tr>
+<th colspan="2"><a href="Wikipedia_Persondata" title="Wikipedia:Persondata">Persondata</a></th>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Name</td>
+<td>Eratosthenes</td>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Alternative names</td>
+<td>Eratosthenes of Cyrene; Ἐρατοσθένης</td>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Short description</td>
+<td><a href="Greeks" title="Greeks">Greek</a> <a href="Mathematician" title="Mathematician">mathematician</a>, <a href="Poet" title="Poet">poet</a>, <a href="Sportsperson" title="Sportsperson">athlete</a>, <a href="Geographer" title="Geographer">geographer</a> and <a href="Astronomer" title="Astronomer">astronomer</a></td>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Date of birth</td>
+<td>276 BC</td>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Place of birth</td>
+<td><a href="Cyrene_(city)" title="Cyrene (city)" class="mw-redirect">Cyrene</a></td>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Date of death</td>
+<td>194 BC</td>
+</tr>
+<tr>
+<td class="persondata-label" style="color:#aaa;">Place of death</td>
+<td>Capital of Ptolemaic Egypt</td>
+</tr>
+</table>
+<p><span id="interwiki-de-fa"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 22959/1000000
+Preprocessor generated node count: 71920/1500000
+Post-expand include size: 138837/2048000 bytes
+Template argument size: 52698/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 4/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:46117-0!*!0!!en!4!* and timestamp 20130209084516 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Eratosthenes&oldid=535525641.php.html">http://en.wikipedia.org/w/index.php?title=Eratosthenes&amp;oldid=535525641</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_276_BC_births" title="Category:276 BC births">276 BC births</a></li><li><a href="Category_194_BC_deaths" title="Category:194 BC deaths">194 BC deaths</a></li><li><a href="Category_3rd-century_BC_Greek_people" title="Category:3rd-century BC Greek people">3rd-century BC Greek people</a></li><li><a href="Category_Deaths_by_starvation" title="Category:Deaths by starvation">Deaths by starvation</a></li><li><a href="Category_Ancient_Greek_astronomers" title="Category:Ancient Greek astronomers">Ancient Greek astronomers</a></li><li><a href="Category_Ancient_Greek_geographers" title="Category:Ancient Greek geographers">Ancient Greek geographers</a></li><li><a href="Category_Ancient_Greek_music_theorists" title="Category:Ancient Greek music theorists">Ancient Greek music theorists</a></li><li><a href="Category_Ancient_Greek_mathematicians" title="Category:Ancient Greek mathematicians">Ancient Greek mathematicians</a></li><li><a href="Category_Cyrenean_Greeks" title="Category:Cyrenean Greeks">Cyrenean Greeks</a></li><li><a href="Category_Hellenistic_Egyptians" title="Category:Hellenistic Egyptians">Hellenistic Egyptians</a></li><li><a href="Category_Number_theorists" title="Category:Number theorists">Number theorists</a></li><li><a href="Category_Geodesists" title="Category:Geodesists">Geodesists</a></li><li><a href="Category_Librarians_of_Alexandria" title="Category:Librarians of Alexandria">Librarians of Alexandria</a></li><li><a href="Category_Geometers" title="Category:Geometers">Geometers</a></li><li><a href="Category_Ancient_Greek_poets" title="Category:Ancient Greek poets">Ancient Greek poets</a></li><li><a href="Category_Ancient_Greek_athletes" title="Category:Ancient Greek athletes">Ancient Greek athletes</a></li><li><a href="Category_3rd-century_BC_poets" title="Category:3rd-century BC poets">3rd-century BC poets</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_containing_Ancient_Greek_language_text" title="Category:Articles containing Ancient Greek language text">Articles containing Ancient Greek language text</a></li><li><a href="Category_Articles_with_hCards" title="Category:Articles with hCards">Articles with hCards</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_October_2012" title="Category:Articles with unsourced statements from October 2012">Articles with unsourced statements from October 2012</a></li><li><a href="Category_Articles_needing_additional_references_from_March_2009" title="Category:Articles needing additional references from March 2009">Articles needing additional references from March 2009</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_Commons_category_template_with_no_category_set" title="Category:Commons category template with no category set">Commons category template with no category set</a></li><li><a href="Category_All_articles_with_dead_external_links" title="Category:All articles with dead external links">All articles with dead external links</a></li><li><a href="Category_Articles_with_dead_external_links_from_November_2012" title="Category:Articles with dead external links from November 2012">Articles with dead external links from November 2012</a></li><li><a href="Category_Wikipedia_articles_with_authority_control_information" title="Category:Wikipedia articles with authority control information">Wikipedia articles with authority control information</a></li><li><a href="Category_Wikipedia_articles_with_VIAF_identifiers" title="Category:Wikipedia articles with VIAF identifiers">Wikipedia articles with VIAF identifiers</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Eratosthenes&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Eratosthenes.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Eratosthenes"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Eratosthenes&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Eratosthenes&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Eratosthenes" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Eratosthenes" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Eratosthenes&oldid=535525641.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Eratosthenes&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Eratosthenes&id=535525641.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Eratosthenes.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Eratosthenes&oldid=535525641&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Eratosthenes&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A5%D8%B1%D8%A7%D8%AA%D9%88%D8%B3%D8%AA%D9%8A%D9%86%D8%B3" title="إراتوستينس" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/Erat%C3%B3stenes" title="Eratóstenes" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Eratosfen" title="Eratosfen" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%AD%D1%80%D0%B0%D1%82%D0%B0%D1%81%D1%84%D0%B5%D0%BD" title="Эратасфен" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%95%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%82%D0%B5%D0%BD" title="Ератостен" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bo"><a href="http://bo.wikipedia.org/wiki/%E0%BD%A8%E0%BD%BA%E0%BC%8B%E0%BD%A2%E0%BC%8B%E0%BD%90%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BD%B2%E0%BC%8B%E0%BD%90%E0%BD%BA%E0%BC%8B%E0%BD%93%E0%BD%BA%E0%BC%8B%E0%BD%A6%E0%BD%B2%E0%BC%8D" title="ཨེ་ར་ཐོ་སི་ཐེ་ནེ་སི།" lang="bo" hreflang="bo">བོད་ཡིག</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Eratosten" title="Eratosten" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="br" hreflang="br">Brezhoneg</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Erat%C3%B2stenes" title="Eratòstenes" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Eratosthen%C3%A9s_z_Kyr%C3%A9ny" title="Eratosthenés z Kyrény" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="cy" hreflang="cy">Cymraeg</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-dv"><a href="http://dv.wikipedia.org/wiki/%DE%87%DE%AC%DE%83%DE%A6%DE%93%DE%AE%DE%90%DE%B0%DE%8C%DE%A6%DE%82%DE%A9%DE%92%DE%B0" title="އެރަޓޮސްތަނީޒް" lang="dv" hreflang="dv">ދިވެހިބަސް</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%95%CF%81%CE%B1%CF%84%CE%BF%CF%83%CE%B8%CE%AD%CE%BD%CE%B7%CF%82_%CE%BF_%CE%9A%CF%85%CF%81%CE%B7%CE%BD%CE%B1%CE%AF%CE%BF%CF%82" title="Ερατοσθένης ο Κυρηναίος" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Erat%C3%B3stenes" title="Eratóstenes" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Eratosteno" title="Eratosteno" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Eratostenes" title="Eratostenes" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%A7%D8%B1%D8%A7%D8%AA%D9%88%D8%B3%D8%AA%D9%86" title="اراتوستن" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/%C3%89ratosth%C3%A8ne" title="Ératosthène" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Erat%C3%B3stenes" title="Eratóstenes" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4" title="에라토스테네스" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D4%B7%D6%80%D5%A1%D5%BF%D5%B8%D5%BD%D5%A9%D5%A5%D5%B6%D5%A5%D5%BD_%D4%BF%D5%AB%D6%80%D5%A5%D5%B6%D5%A1%D6%81%D5%AB" title="Էրատոսթենես Կիրենացի" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%B0%E0%A5%88%E0%A4%9F%E0%A5%8B%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%A8%E0%A4%BF%E0%A4%9C%E0%A4%BC" title="इरैटोस्थनिज़" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Eratosten" title="Eratosten" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Eratos%C3%BEenes" title="Eratosþenes" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Eratostene_di_Cirene" title="Eratostene di Cirene" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%98%D7%95%D7%A1%D7%AA%D7%A0%D7%A1" title="ארטוסתנס" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%94%E1%83%A0%E1%83%90%E1%83%A2%E1%83%9D%E1%83%A1%E1%83%97%E1%83%94%E1%83%9C%E1%83%94" title="ერატოსთენე" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%AD%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D0%BD" title="Эратосфен" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-sw"><a href="http://sw.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="sw" hreflang="sw">Kiswahili</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Eratosthenes_Cyrenaeus" title="Eratosthenes Cyrenaeus" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Eratostens" title="Eratostens" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Eratostenas" title="Eratostenas" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Eratoszthen%C3%A9sz_Pentatlosz" title="Eratoszthenész Pentatlosz" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%87%E0%B4%B1%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B5%8B%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B4%A8%E0%B5%80%E0%B4%B8%E0%B5%8D" title="ഇറത്തോസ്തനീസ്" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%87%E0%A4%B0%E0%A5%85%E0%A4%A5%E0%A5%8B%E0%A4%B8%E0%A4%BF%E0%A4%B8" title="इरॅथोसिस" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-arz"><a href="http://arz.wikipedia.org/wiki/%D8%A7%D8%B1%D8%A7%D8%AA%D9%88%D8%B3%D8%AB%D9%8A%D9%86%D8%B3" title="اراتوسثينس" lang="arz" hreflang="arz">مصرى</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%A9%E3%83%88%E3%82%B9%E3%83%86%E3%83%8D%E3%82%B9" title="エラトステネス" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D8%A7%D8%B1%D8%A7%D9%B9%D9%88%D8%B3%D8%AA%DA%BE%DB%8C%D9%86%D8%B2" title="اراٹوستھینز" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Erat%C3%B2stene" title="Eratòstene" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Eratostenes" title="Eratostenes" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Erat%C3%B3stenes" title="Eratóstenes" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Eratostene" title="Eratostene" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-rue"><a href="http://rue.wikipedia.org/wiki/%D0%95%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D0%BD_%D0%B7_%D0%9A%D1%96%D1%80%D0%B5%D0%BD%D1%8B" title="Ератосфен з Кірены" lang="rue" hreflang="rue">Русиньскый</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%AD%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D0%BD" title="Эратосфен" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Eratosteni" title="Eratosteni" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/Erat%C3%B2stini" title="Eratòstini" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Eratosthenes_z_Kyr%C3%A9ny" title="Eratosthenes z Kyrény" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Eratosten" title="Eratosten" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%95%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%82%D0%B5%D0%BD" title="Ератостен" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Eratosten" title="Eratosten" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Eratostenes" title="Eratostenes" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-tt"><a href="http://tt.wikipedia.org/wiki/%D0%AD%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D0%BD" title="Эратосфен" lang="tt" hreflang="tt">Татарча/tatarça</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%AD%E0%B8%A3%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%AA%E0%B9%80%E0%B8%97%E0%B8%99%E0%B8%B5%E0%B8%AA" title="เอราทอสเทนีส" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%95%D1%80%D0%B0%D1%82%D0%BE%D1%81%D1%84%D0%B5%D0%BD" title="Ератосфен" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-fiu-vro"><a href="http://fiu-vro.wikipedia.org/wiki/Eratosthenes" title="Eratosthenes" lang="fiu-vro" hreflang="fiu-vro">Võro</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC" title="埃拉托斯特尼" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 29 January 2013 at 15:17.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Eratosthenes" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1106 in 3.063 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

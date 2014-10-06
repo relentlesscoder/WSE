@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Rado graph - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf7" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Rado_graph&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Rado_graph&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Rado_graph","wgTitle":"Rado graph","wgCurRevisionId":534956260,"wgArticleId":7785594,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Individual graphs","Random graphs","Infinite graphs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Rado_graph","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"d261f5602475404a2192339346eb4a89","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"mbEmailEnabled":true,"mbUserEmail":false,"mbIsEmailConfirmationPending":false,"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":7785594,"title":"Rado graph","namespace":0,"categories":["Individual graphs","Infinite graphs","Random graphs"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf7/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Rado_graph skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Rado graph</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:362px;"><a href="http://en.wikipedia.org/wiki/File:Rado_graph.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rado_graph.svg/360px-Rado_graph.svg.png" width="360" height="166" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rado_graph.svg/540px-Rado_graph.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Rado_graph.svg/720px-Rado_graph.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Rado_graph.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The Rado graph, as numbered by <a href="#CITEREFRado1964">Rado (1964</a>).</div>
+</div>
+</div>
+<p>In the <a href="Mathematics" title="Mathematics">mathematical</a> field of <a href="Graph_theory" title="Graph theory">graph theory</a>, the <b>Rado graph</b>, also known as the <b>random graph</b> or the <b>Erdős–Rényi graph</b>, is the unique (<a href="Up_to" title="Up to">up to</a> <a href="Graph_isomorphism" title="Graph isomorphism">isomorphism</a>) <a href="Countable" title="Countable" class="mw-redirect">countable</a> graph <i>R</i> such that for every finite graph <i>G</i> and every vertex <i>v</i> of <i>G</i>, every embedding of <i>G</i>&#160;−&#160;<i>v</i> as an <a href="Induced_subgraph" title="Induced subgraph" class="mw-redirect">induced subgraph</a> of <i>R</i> can be extended to an embedding of <i>G</i> into <i>R</i>. As a result, the Rado graph contains all finite and countably infinite graphs as induced subgraphs.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Construction_via_binary_numbers"><span class="tocnumber">2</span> <span class="toctext">Construction via binary numbers</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Finding_isomorphic_subgraphs"><span class="tocnumber">3</span> <span class="toctext">Finding isomorphic subgraphs</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Uniqueness"><span class="tocnumber">4</span> <span class="toctext">Uniqueness</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Robustness_against_finite_changes"><span class="tocnumber">5</span> <span class="toctext">Robustness against finite changes</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Partition_property"><span class="tocnumber">6</span> <span class="toctext">Partition property</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Alternative_constructions"><span class="tocnumber">7</span> <span class="toctext">Alternative constructions</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Related_concepts"><span class="tocnumber">8</span> <span class="toctext">Related concepts</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Notes"><span class="tocnumber">9</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">10</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p>The Rado graph was introduced by <a href="Richard_Rado" title="Richard Rado">Richard Rado</a>&#160;(<a href="#CITEREFRado1964">1964</a>), although the symmetry properties of the same graph, constructed in a different way, had already been studied by <a href="#CITEREFErd.C5.91sR.C3.A9nyi1963">Erdős &amp; Rényi (1963</a>).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=2.php.html" title="Edit section: Construction via binary numbers">edit</a>]</span> <span class="mw-headline" id="Construction_via_binary_numbers">Construction via binary numbers</span></h2>
+<p><a href="#CITEREFRado1964">Rado (1964</a>) constructs the Rado graph as follows. He identifies the vertices of the graph with the <a href="Natural_number" title="Natural number">natural numbers</a> 0, 1, 2, ... An edge <i>xy</i> exists in the graph whenever either the <i>x</i>th bit of the <a href="Binary_numeral_system" title="Binary numeral system" class="mw-redirect">binary</a> representation of <i>y</i> is nonzero (in this case <img class="tex" alt="x&lt;y" src="http://upload.wikimedia.org/math/7/6/b/76b21541022906285e0f64ef49224f7c.png" />), or, symmetrically, if the <i>y</i>th bit of the binary representation of <i>x</i> is nonzero (in this case <img class="tex" alt="x&gt;y" src="http://upload.wikimedia.org/math/1/0/3/10342149cd04422c7be79506cb544ac5.png" />). Thus, for instance, the neighbors of vertex 0 consist of all odd-numbered vertices, while the neighbors of vertex 1 consist of vertex 0 (the only vertex whose bit in the binary representation of 1 is nonzero) and all vertices with numbers congruent to 2 or 3 modulo 4.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=3.php.html" title="Edit section: Finding isomorphic subgraphs">edit</a>]</span> <span class="mw-headline" id="Finding_isomorphic_subgraphs">Finding isomorphic subgraphs</span></h2>
+<p>The Rado graph satisfies the following extension property: for any finite disjoint sets of vertices <i>U</i> and <i>V</i>, there exists a vertex <i>x</i> connected to everything in <i>U</i>, and to nothing in <i>V</i>. For instance, let</p>
+<dl>
+<dd><img class="tex" alt="x=2^{1+\max(U\cup V)} + \sum_{u\in U} 2^u." src="http://upload.wikimedia.org/math/c/3/f/c3fe62742573063b8f7dbbe214b3903c.png" /></dd>
+</dl>
+<p>Then the nonzero bits in the binary representation of <i>x</i> cause it to be adjacent to everything in <i>U</i>. However, <i>x</i> has no nonzero bits in its binary representation corresponding to vertices in <i>V</i>, and <i>x</i> is so large that the <i>x</i>th bit of every element of <i>V</i> is zero. Thus, <i>x</i> is not adjacent to any vertex in <i>V</i>.</p>
+<p>This idea of finding vertices adjacent to everything in one subset and nonadjacent to everything in a second subset can be used to build up isomorphic copies of any finite or countably infinite graph <i>G</i>, one vertex at a time. For, let <i>G</i><sub><i>i</i></sub> denote the subgraph of <i>G</i> induced by its first <i>i</i> vertices, and suppose that <i>G</i><sub><i>i</i></sub> has already been identified as an induced subgraph of a subset <i>S</i> of the vertices of the Rado graph. Let <i>v</i> be the next vertex of <i>G</i>, let <i>U</i> be the neighbors of <i>v</i> in <i>G</i><sub><i>i</i></sub>, and let <i>V</i> be the non-neighbors of <i>v</i> in <i>G</i><sub><i>i</i></sub>. If <i>x</i> is a vertex of the Rado graph that is adjacent to every vertex in <i>U</i> and nonadjacent to every vertex in <i>V</i>, then <i>S</i>&#160;∪&#160;{<i>x</i>} induces a subgraph isomorphic to <i>G</i><sub><i>i</i>&#160;+&#160;1</sub>.</p>
+<p>By induction, starting from the <a href="Empty_graph" title="Empty graph" class="mw-redirect">0-vertex subgraph</a>, every finite or <a href="Countable_set" title="Countable set">countably infinite</a> graph is an induced subgraph of the Rado graph.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=4.php.html" title="Edit section: Uniqueness">edit</a>]</span> <span class="mw-headline" id="Uniqueness">Uniqueness</span></h2>
+<p>The Rado graph is, up to <a href="Graph_isomorphism" title="Graph isomorphism">graph isomorphism</a>, the only countable graph with the extension property. For, let <i>G</i> and <i>H</i> be two graphs with the extension property, let <i>G</i><sub><i>i</i></sub> and <i>H</i><sub><i>i</i></sub> be isomorphic induced subgraphs of <i>G</i> and <i>H</i> respectively, and let <i>g</i><sub><i>i</i></sub> and <i>h</i><sub><i>i</i></sub> be the first vertices in an enumeration of the vertices of <i>G</i> and <i>H</i> respectively that do not belong to <i>G</i><sub><i>i</i></sub> and <i>H</i><sub><i>i</i></sub>. Then, by applying the extension property twice, one can find isomorphic induced subgraphs <i>G</i><sub><i>i</i>&#160;+&#160;1</sub> and <i>H</i><sub><i>i</i>&#160;+&#160;1</sub> that include <i>g</i><sub><i>i</i></sub> and <i>h</i><sub><i>i</i></sub> together with all the vertices of the previous subgraphs. By repeating this process, one may build up a sequence of isomorphisms between induced subgraphs that eventually includes every vertex in <i>G</i> and <i>H</i>. Thus, by the <a href="Back-and-forth_method" title="Back-and-forth method">back-and-forth method</a>, <i>G</i> and <i>H</i> must be isomorphic.<sup id="cite_ref-cam_1-0" class="reference"><a href="#cite_note-cam-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>By applying the same construction to two isomorphic subgraphs of the Rado graph, it can be shown that the Rado graph is <i>ultrahomogeneous</i>: any isomorphism between any two induced subgraphs of the Rado graph extends to an <a href="Graph_automorphism" title="Graph automorphism">automorphism</a> of the entire Rado graph.<sup id="cite_ref-cam_1-1" class="reference"><a href="#cite_note-cam-1"><span>[</span>1<span>]</span></a></sup> In particular, there is an automorphism taking any ordered pair of adjacent vertices to any other such ordered pair, so the Rado graph is a <a href="Symmetric_graph" title="Symmetric graph">symmetric graph</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=5.php.html" title="Edit section: Robustness against finite changes">edit</a>]</span> <span class="mw-headline" id="Robustness_against_finite_changes">Robustness against finite changes</span></h2>
+<p>If a graph <i>G</i> is formed from the Rado graph by deleting any finite number of edges or vertices, or adding a finite number of edges, the change does not affect the extension property of the graph: for any pair of sets <i>U</i> and <i>V</i> it is still possible to find a vertex in the modified graph that is adjacent to everything in <i>U</i> and nonadjacent to everything in <i>V</i>, by adding the modified parts of <i>G</i> to <i>V</i> and applying the extension property in the unmodified Rado graph. Therefore, any finite modification of this type results in a graph that is isomorphic to the Rado graph.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=6.php.html" title="Edit section: Partition property">edit</a>]</span> <span class="mw-headline" id="Partition_property">Partition property</span></h2>
+<p>For any partition of the vertices of the Rado graph into two sets <i>A</i> and <i>B</i>, or more generally for any partition into finitely many subsets, at least one of the subgraphs induced by one of the partition sets is isomorphic to the whole Rado graph. <a href="#CITEREFCameron2001">Cameron (2001</a>) gives the following short proof: if none of the parts induces a subgraph isomorphic to the Rado graph, they all fail to have the extension property, and one can find pairs of sets <i>U</i><sub><i>i</i></sub> and <i>V</i><sub><i>i</i></sub> that cannot be extended within each subgraph. But then, the union of the sets <i>U</i><sub><i>i</i></sub> and the union of the sets <i>V</i><sub><i>i</i></sub> would form a set that could not be extended in the whole graph, contradicting the Rado graph's extension property. This property of being isomorphic to one of the induced subgraphs of any partition is held by only three countably infinite undirected graphs: the Rado graph, the <a href="Complete_graph" title="Complete graph">complete graph</a>, and the <a href="Empty_graph" title="Empty graph" class="mw-redirect">empty graph</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> <a href="#CITEREFBonatoCameronDeli.C4.872000">Bonato, Cameron &amp; Delić (2000</a>) and <a href="#CITEREFDiestelLeaderScottThomass.C3.A92007">Diestel et al. (2007</a>) investigate infinite <a href="Directed_graph" title="Directed graph">directed graphs</a> with the same partition property; all are formed by choosing orientations for the edges of the complete graph or the Rado graph.</p>
+<p>A related result concerns edge partitions instead of vertex partitions: for every partition of the edges of the Rado graph into finitely many sets, there is a subgraph isomorphic to the whole Rado graph that uses at most two of the colors. However, there may not necessarily exist an isomorphic subgraph that uses only one color of edges.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=7.php.html" title="Edit section: Alternative constructions">edit</a>]</span> <span class="mw-headline" id="Alternative_constructions">Alternative constructions</span></h2>
+<p>One may form an infinite graph in the <a href="Erd%C5%91s%E2%80%93R%C3%A9nyi_model" title="Erdős–Rényi model">Erdős–Rényi model</a> by choosing, independently and with probability 1/2 for each pair of vertices, whether to connect the two vertices by an edge. With probability 1 the resulting graph has the extension property, and is therefore isomorphic to the Rado graph. This construction also works if any fixed probability <i>p</i> not equal to 0 or 1 is used in place of 1/2. This result, shown by <a href="Paul_Erd%C5%91s" title="Paul Erdős">Paul Erdős</a> and <a href="Alfr%C3%A9d_R%C3%A9nyi" title="Alfréd Rényi">Alfréd Rényi</a> in 1963,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> justifies the <a href="Definite_article" title="Definite article" class="mw-redirect">definite article</a> in the common alternative name “the random graph” for the Rado graph: for finite graphs, repeatedly drawing a graph from the Erdős–Rényi model will often lead to different graphs, but for countably infinite graphs the model <a href="Almost_always" title="Almost always" class="mw-redirect">almost always</a> produces the same graph. Since one obtains the same random process by inverting all choices, the Rado graph is <a href="Self-complementary_graph" title="Self-complementary graph">self-complementary</a>.</p>
+<p>As <a href="#CITEREFCameron2001">Cameron (2001</a>) describes, the Rado graph may also be formed by a construction resembling that for <a href="Paley_graph" title="Paley graph">Paley graphs</a>. Take as the vertices of a graph all the <a href="Prime_number" title="Prime number">prime numbers</a> that are congruent to 1 modulo 4, and connect two vertices by an edge whenever one of the two numbers is a <a href="Quadratic_residue" title="Quadratic residue">quadratic residue</a> modulo the other (by <a href="Quadratic_reciprocity" title="Quadratic reciprocity">quadratic reciprocity</a> and the restriction of the vertices to primes congruent to 1 mod 4, this is a <a href="Symmetric_relation" title="Symmetric relation">symmetric relation</a>, so it defines an undirected graph). Then, for any sets <i>U</i> and <i>V</i>, by the <a href="Chinese_remainder_theorem" title="Chinese remainder theorem">Chinese remainder theorem</a>, the numbers that are quadratic resides modulo every prime in <i>U</i> and nonresidues modulo every prime in <i>V</i> form a periodic sequence, so by <a href="Dirichlet's_theorem_on_arithmetic_progressions" title="Dirichlet's theorem on arithmetic progressions">Dirichlet's theorem</a> on primes in arithmetic progressions this number-theoretic graph has the extension property.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=8.php.html" title="Edit section: Related concepts">edit</a>]</span> <span class="mw-headline" id="Related_concepts">Related concepts</span></h2>
+<p>Although the Rado graph is universal for induced subgraphs, it is not universal for <a href="Isometry" title="Isometry">isometric embeddings</a> of graphs: it has <a href="Diameter_(graph_theory)" title="Diameter (graph theory)" class="mw-redirect">diameter</a> two, and so any graph with larger diameter does not embed isometrically into it. Moss&#160;(<a href="#CITEREFMoss1989">1989</a>, <a href="#CITEREFMoss1991">1991</a>) has investigated universal graphs for isometric embedding; he finds a family of universal graphs, one for each possible finite graph diameter. The graph in his family with diameter two is the Rado graph.</p>
+<p>The universality property of the Rado graph can be extended to edge-colored graphs; that is, graphs in which the edges have been assigned to different color classes, but without the usual <a href="Edge_coloring" title="Edge coloring">edge coloring</a> requirement that each color class form a <a href="Matching_(graph_theory)" title="Matching (graph theory)">matching</a>. For any finite or countably infinite number of colors χ, there exists a unique countably-infinite χ-edge-colored graph <i>G</i><sub>χ</sub> such that every partial isomorphism of a χ-edge-colored finite graph can be extended to a full isomorphism. With this notation, the Rado graph is just <i>G</i><sub>1</sub>. <a href="#CITEREFTruss1985">Truss (1985</a>) investigates the automorphism groups of this more general family of graphs.</p>
+<p>From the <a href="Model_theory" title="Model theory">model theoretic</a> point of view, the Rado graph is an example of a <a href="Saturated_model" title="Saturated model">saturated model</a>.</p>
+<p>Shelah&#160;(<a href="#CITEREFShelah1984">1984</a>, <a href="#CITEREFShelah1990">1990</a>) investigates universal graphs for transfinite numbers of vertices.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=9.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-cam-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-cam_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-cam_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a href="#CITEREFCameron2001">Cameron (2001</a>).</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a href="#CITEREFCameron1990">Cameron (1990</a>); <a href="#CITEREFDiestelLeaderScottThomass.C3.A92007">Diestel et al. (2007</a>).</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="#CITEREFPouzetSauer1996">Pouzet &amp; Sauer (1996</a>).</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a href="#CITEREFErd.C5.91sR.C3.A9nyi1963">Erdős &amp; Rényi (1963</a>). Erdős and Rényi use the extension property of graphs formed in this way to show that they have many automorphisms, but do not observe the other properties implied by the extension property. They also observe that the extension property continues to hold for certain sequences of random choices in which different edges have different probabilities of being included.</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Rado_graph&action=edit&section=10.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation" id="CITEREFBonatoCameronDeli.C4.872000">Bonato, Anthony; <a href="Peter_Cameron_(mathematician)" title="Peter Cameron (mathematician)">Cameron, Peter</a>; Delić, Dejan (2000), <a rel="nofollow" class="external text" href="http://journals.cms.math.ca/cgi-bin/vault/view/bonato7404">"Tournaments and orders with the pigeonhole property"</a>, <i>Canadian Mathematical Bulletin</i> <b>43</b> (4): 397–405, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.4153/CMB-2000-047-6">10.4153/CMB-2000-047-6</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1793941">1793941</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://journals.cms.math.ca/cgi-bin/vault/view/bonato7404">http://journals.cms.math.ca/cgi-bin/vault/view/bonato7404</a></span></span>.</li>
+<li><span class="citation" id="CITEREFCameron1990">Cameron, Peter J. (1990), <i>Oligomorphic permutation groups</i>, London Mathematical Society Lecture Note Series, <b>152</b>, Cambridge: Cambridge University Press, p.&#160;viii+160, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-38836-8" title="Special:BookSources/0-521-38836-8">0-521-38836-8</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1066691">1066691</a></span>.</li>
+<li><span class="citation" id="CITEREFCameron1997">Cameron, Peter J. (1997), "The random graph", <i>The mathematics of Paul Erdős, II</i>, Algorithms Combin., <b>14</b>, Berlin: Springer, pp.&#160;333–351, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1425227">1425227</a></span>.</li>
+<li><span class="citation" id="CITEREFCameron2001">Cameron, Peter J. (2001), "The random graph revisited", <i>European Congress of Mathematics, Vol. I (Barcelona, 2000)</i>, Progr. Math., <b>201</b>, Basel: Birkhäuser, pp.&#160;267–274, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1905324">1905324</a></span>.</li>
+<li><span class="citation" id="CITEREFDiestelLeaderScottThomass.C3.A92007">Diestel, Reinhard; Leader, Imre; Scott, Alex; Thomassé, Stéphan (2007), "Partitions and orientations of the Rado graph", <i>Transactions of the American Mathematical Society</i> <b>359</b> (5): 2395–2405 (electronic), <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1090/S0002-9947-06-04086-4">10.1090/S0002-9947-06-04086-4</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=2276626">2276626</a></span>.</li>
+<li><span class="citation" id="CITEREFErd.C5.91sR.C3.A9nyi1963"><a href="Paul_Erd%C5%91s" title="Paul Erdős">Erdős, P.</a>; <a href="Alfr%C3%A9d_R%C3%A9nyi" title="Alfréd Rényi">Rényi, A.</a> (1963), "Asymmetric graphs", <i>Acta Mathematica Academiae Scientiarum Hungaricae</i> <b>14</b>: 295–315, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01895716">10.1007/BF01895716</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=0156334">0156334</a></span>.</li>
+<li><span class="citation" id="CITEREFMoss1989">Moss, Lawrence S. (1989), "Existence and nonexistence of universal graphs", <i>Polska Akademia Nauk. Fundamenta Mathematicae</i> <b>133</b> (1): 25–37, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1059159">1059159</a></span>.</li>
+<li><span class="citation" id="CITEREFMoss1991">Moss, Lawrence S. (1991), "The universal graphs of fixed finite diameter", <i>Graph theory, combinatorics, and applications. Vol. 2 (Kalamazoo, MI, 1988)</i>, Wiley-Intersci. Publ., New York: Wiley, pp.&#160;923–937, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1170834">1170834</a></span>.</li>
+<li><span class="citation" id="CITEREFPouzetSauer1996">Pouzet, Maurice; Sauer, Norbert (1996), "Edge partitions of the Rado graph", <i>Combinatorica</i> <b>16</b> (4): 505–520, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01271269">10.1007/BF01271269</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1433638">1433638</a></span>.</li>
+<li><span class="citation" id="CITEREFRado1964"><a href="Richard_Rado" title="Richard Rado">Rado, Richard</a> (1964), <a rel="nofollow" class="external text" href="http://matwbn.icm.edu.pl/ksiazki/aa/aa9/aa9133.pdf">"Universal graphs and universal functions"</a>, <i>Acta Arith.</i> <b>9</b>: 331–340<span class="printonly">, <a rel="nofollow" class="external free" href="http://matwbn.icm.edu.pl/ksiazki/aa/aa9/aa9133.pdf">http://matwbn.icm.edu.pl/ksiazki/aa/aa9/aa9133.pdf</a></span></span>.</li>
+<li><span class="citation" id="CITEREFShelah1984"><a href="Saharon_Shelah" title="Saharon Shelah">Shelah, Saharon</a> (1984), "On universal graphs without instances of CH", <i>Annals of Pure and Applied Logic</i> <b>26</b> (1): 75–87, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1016/0168-0072(84)90042-3">10.1016/0168-0072(84)90042-3</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=739914">739914</a></span>.</li>
+<li><span class="citation" id="CITEREFShelah1990"><a href="Saharon_Shelah" title="Saharon Shelah">Shelah, Saharon</a> (1990), "Universal graphs without instances of CH: revisited", <i>Israel Journal of Mathematics</i> <b>70</b> (1): 69–81, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF02807219">10.1007/BF02807219</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1057268">1057268</a></span>.</li>
+<li><span class="citation" id="CITEREFTruss1985">Truss, J. K. (1985), "The group of the countable universal graph", <i>Mathematical Proceedings of the Cambridge Philosophical Society</i> <b>98</b> (2): 213–245, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1017/S0305004100063428">10.1017/S0305004100063428</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=795890">795890</a></span>.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 10239/1000000
+Preprocessor generated node count: 22281/1500000
+Post-expand include size: 60276/2048000 bytes
+Template argument size: 15397/2048000 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:7785594-0!0!0!!en!4!* and timestamp 20130127155730 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Rado_graph&oldid=534956260.php.html">http://en.wikipedia.org/w/index.php?title=Rado_graph&amp;oldid=534956260</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Individual_graphs" title="Category:Individual graphs">Individual graphs</a></li><li><a href="Category_Random_graphs" title="Category:Random graphs">Random graphs</a></li><li><a href="Category_Infinite_graphs" title="Category:Infinite graphs">Infinite graphs</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Rado+graph&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Rado+graph.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Rado_graph"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Rado_graph&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Rado_graph&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C12_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Rado_graph" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Rado_graph" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Rado_graph&oldid=534956260.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Rado_graph&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Rado_graph&id=534956260.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Rado+graph.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Rado+graph&oldid=534956260&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Rado_graph&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 26 January 2013 at 09:06.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Rado_graph" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf7/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1028 in 1.373 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

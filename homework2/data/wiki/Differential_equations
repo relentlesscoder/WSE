@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Differential equation - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Differential_equation&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Differential_equation&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="canonical" href="Differential_equation" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Differential_equation","wgTitle":"Differential equation","wgCurRevisionId":536302600,"wgArticleId":1424309,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles lacking in-text citations from August 2009","All articles lacking in-text citations","Differential equations"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Differential_equation","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Differential_equations","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"925a5cde8cb942142bfc960eee9a957b","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":1424309,"title":"Differential equation","namespace":0,"categories":["All articles lacking in-text citations","Articles lacking in-text citations from August 2009","Differential equations"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Differential_equation skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Differential equation</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub">  (Redirected from <a href="../../w/index-title=Differential_equations&redirect=no.php.html" title="Differential equations">Differential equations</a>)</div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Difference_equation" title="Difference equation" class="mw-redirect">Difference equation</a>.</div>
+<table class="vertical-navbox nowraplinks hlist" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><strong class="selflink">Differential equations</strong></th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;"><a href="http://en.wikipedia.org/wiki/File:De_template.svg" class="image"><img alt="De template.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/De_template.svg/220px-De_template.svg.png" width="220" height="228" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/De_template.svg/330px-De_template.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/75/De_template.svg/440px-De_template.svg.png 2x" /></a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><i>Scope</i></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><b><a href="Natural_science" title="Natural science">Natural sciences</a> and <a href="Engineering" title="Engineering">engineering</a></b>
+<ul>
+<li><a href="Astronomy" title="Astronomy">Astronomy</a></li>
+<li><a href="Physics" title="Physics">Physics</a></li>
+<li><a href="Chemistry" title="Chemistry">Chemistry</a></li>
+<li><a href="Biology" title="Biology">Biology</a></li>
+<li><a href="Geology" title="Geology">Geology</a></li>
+</ul>
+<p><b><a href="Applied_maths" title="Applied maths" class="mw-redirect">Applied maths</a></b></p>
+<ul>
+<li><a href="Continuum_mechanics" title="Continuum mechanics">Continuum mechanics</a></li>
+<li><a href="Chaos_theory" title="Chaos theory">Chaos theory</a></li>
+<li><a href="Dynamical_systems" title="Dynamical systems" class="mw-redirect">Dynamical systems</a></li>
+</ul>
+<p><b><a href="Social_science" title="Social science">Social sciences</a></b></p>
+<ul>
+<li><a href="Economics" title="Economics">Economics</a></li>
+<li><a href="Population_dynamics" title="Population dynamics">Population dynamics</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;">Classification</th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Operations</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Differential_operator" title="Differential operator">Differential operator</a></li>
+<li><a href="Notation_for_differentiation" title="Notation for differentiation">Notation for differentiation</a></li>
+<li><a href="Ordinary_differential_equation" title="Ordinary differential equation">Ordinary</a></li>
+<li><a href="Partial_differential_equation" title="Partial differential equation">Partial</a></li>
+<li><a href="Differential_algebraic_equation" title="Differential algebraic equation">Differential-algebraic</a></li>
+<li><a href="Integro-differential_equation" title="Integro-differential equation">Integro-differential</a></li>
+<li><a href="Fractional_differential_equations" title="Fractional differential equations" class="mw-redirect">Fractional</a></li>
+<li><a href="Linear_differential_equation" title="Linear differential equation">Linear</a></li>
+<li><a href="Non-linear_differential_equation" title="Non-linear differential equation" class="mw-redirect">Non-linear</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Attributes of variables</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Dependent_and_independent_variables" title="Dependent and independent variables">Dependent and independent variables</a></li>
+<li><a href="Homogeneous_differential_equations" title="Homogeneous differential equations" class="mw-redirect">Homogeneous</a></li>
+<li><a href="Non-homogeneous_differential_equation" title="Non-homogeneous differential equation" class="mw-redirect">Nonhomogeneous</a></li>
+<li><strong class="selflink">Coupled</strong></li>
+<li><strong class="selflink">Decoupled</strong></li>
+<li><strong class="selflink">Order</strong></li>
+<li><strong class="selflink">Degree</strong></li>
+<li><a href="Autonomous_differential_equation" title="Autonomous differential equation" class="mw-redirect">Autonomous</a></li>
+<li><a href="Exact_differential_equation" title="Exact differential equation">Exact differential equation</a></li>
+<li><a href="Complex_differential_equation" title="Complex differential equation">Complex differential equation</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Relation to processes</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Difference_equation" title="Difference equation" class="mw-redirect">Difference</a> (discrete analogue)</li>
+<li><a href="Stochastic_differential_equation" title="Stochastic differential equation">stochastic</a></li>
+<li><a href="Delay_differential_equation" title="Delay differential equation">Delay</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;">Solutions</th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Solution topics</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Picard%E2%80%93Lindel%C3%B6f_theorem" title="Picard–Lindelöf theorem">Picard–Lindelöf theorem</a> (existence and uniqueness)</li>
+<li><a href="Wronskian" title="Wronskian">Wronskian</a></li>
+<li><a href="Phase_portrait" title="Phase portrait">Phase portrait</a></li>
+<li><a href="Phase_space" title="Phase space">Phase space</a></li>
+<li><a href="Lyapunov_stability" title="Lyapunov stability">Lyapunov stability</a></li>
+<li><a href="Asymptotic_stability" title="Asymptotic stability" class="mw-redirect">Asymptotic stability</a></li>
+<li><a href="Exponential_stability" title="Exponential stability">Exponential stability</a></li>
+<li><a href="Rate_of_convergence" title="Rate of convergence">Rate of convergence</a></li>
+<li><a href="Power_series_solution_of_differential_equations" title="Power series solution of differential equations">Series solutions</a></li>
+<li><a href="Integral" title="Integral">Integral</a> solutions</li>
+<li><a href="Numerical_integration" title="Numerical integration">Numerical integration</a></li>
+<li><a href="Dirac_Delta_function" title="Dirac Delta function" class="mw-redirect">Dirac Delta function</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="List_of_solution_strategies_for_differential_equations" title="List of solution strategies for differential equations">Solution methods</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li>Inspection</li>
+<li><a href="Separation_of_variables" title="Separation of variables">Separation of variables</a></li>
+<li><a href="Method_of_undetermined_coefficients" title="Method of undetermined coefficients">Method of undetermined coefficients</a></li>
+<li><a href="Integrating_factor" title="Integrating factor">Integrating factor</a></li>
+<li><a href="Integral_transform" title="Integral transform">Integral transforms</a></li>
+<li><a href="Euler_method" title="Euler method">Euler method</a></li>
+<li><a href="Finite_difference_method" title="Finite difference method">Finite difference method</a></li>
+<li><span style="font-size:85%;"><a href="Crank%E2%80%93Nicolson_method" title="Crank–Nicolson method">Crank–Nicolson method</a></span></li>
+<li><span style="font-size:85%;"><a href="Runge%E2%80%93Kutta_methods" title="Runge–Kutta methods">Runge–Kutta methods</a></span></li>
+<li><a href="Finite_element_analysis" title="Finite element analysis" class="mw-redirect">Finite element analysis</a></li>
+<li><a href="Galerkin_method" title="Galerkin method">Galerkin method</a></li>
+<li><a href="Perturbation_theory" title="Perturbation theory">Perturbation theory</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Mathematicians</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a></li>
+<li><a href="Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a></li>
+<li><a href="Charles_%C3%89mile_Picard" title="Charles Émile Picard">Charles Émile Picard</a></li>
+<li><a href="J%C3%B3zef_Maria_Hoene-Wro%C5%84ski" title="Józef Maria Hoene-Wroński">Józef Maria Hoene-Wroński</a></li>
+<li><a href="Ernst_Lindel%C3%B6f" title="Ernst Lindelöf" class="mw-redirect">Ernst Lindelöf</a></li>
+<li><a href="Rudolf_Lipschitz" title="Rudolf Lipschitz">Rudolf Lipschitz</a></li>
+<li><a href="Augustin-Louis_Cauchy" title="Augustin-Louis Cauchy">Augustin-Louis Cauchy</a></li>
+<li><a href="John_Crank" title="John Crank">John Crank</a></li>
+<li><a href="Phyllis_Nicolson" title="Phyllis Nicolson">Phyllis Nicolson</a></li>
+<li><a href="Carl_David_Tolm%C3%A9_Runge" title="Carl David Tolmé Runge">Carl David Tolmé Runge</a></li>
+<li><a href="Martin_Wilhelm_Kutta" title="Martin Wilhelm Kutta">Martin Wilhelm Kutta</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Differential_equations" title="Template:Differential equations"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Differential_equations" title="Template talk:Differential equations"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Differential_equations&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:352px;"><a href="http://en.wikipedia.org/wiki/File:Elmer-pump-heatequation.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Elmer-pump-heatequation.png/350px-Elmer-pump-heatequation.png" width="350" height="274" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Elmer-pump-heatequation.png/525px-Elmer-pump-heatequation.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Elmer-pump-heatequation.png/700px-Elmer-pump-heatequation.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Elmer-pump-heatequation.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Visualization of heat transfer in a pump casing, created by solving the <a href="Heat_equation" title="Heat equation">heat equation</a>. <a href="Heat" title="Heat">Heat</a> is being generated internally in the casing and being cooled at the boundary, providing a <a href="Steady_state" title="Steady state">steady state</a> temperature distribution.</div>
+</div>
+</div>
+<p>A <b>differential equation</b> is a <a href="Mathematics" title="Mathematics">mathematical</a> <a href="Equation" title="Equation">equation</a> for an unknown <a href="Function_(mathematics)" title="Function (mathematics)">function</a> of one or several <a href="Variable_(mathematics)" title="Variable (mathematics)">variables</a> that relates the values of the function itself and its <a href="Derivative" title="Derivative">derivatives</a> of various orders. Differential equations play a prominent role in <a href="Engineering" title="Engineering">engineering</a>, <a href="Physics" title="Physics">physics</a>, <a href="Economics" title="Economics">economics</a>, and other disciplines.</p>
+<p>Differential equations arise in many areas of science and technology, specifically whenever a <a href="Deterministic_system_(mathematics)" title="Deterministic system (mathematics)" class="mw-redirect">deterministic</a> relation involving some continuously varying quantities (modeled by functions) and their rates of change in space and/or time (expressed as derivatives) is known or postulated. This is illustrated in <a href="Classical_mechanics" title="Classical mechanics">classical mechanics</a>, where the motion of a body is described by its position and velocity as the time value varies. <a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newton's laws</a> allow one (given the position, velocity, acceleration and various forces acting on the body) to express these variables dynamically as a differential equation for the unknown position of the body as a function of time. In some cases, this differential equation (called an <a href="Equations_of_motion" title="Equations of motion">equation of motion</a>) may be solved explicitly.</p>
+<p>An example of modelling a real world problem using differential equations is the determination of the velocity of a ball falling through the air, considering only gravity and air resistance. The ball's acceleration towards the ground is the acceleration due to gravity minus the deceleration due to air resistance. Gravity is considered constant, and air resistance may be modeled as proportional to the ball's velocity. This means that the ball's acceleration, which is a derivative of its velocity, depends on the velocity (and the velocity depends on time). Finding the velocity as a function of time involves solving a differential equation.</p>
+<p>Differential equations are mathematically studied from several different perspectives, mostly concerned with their solutions —the set of functions that satisfy the equation. Only the simplest differential equations admit solutions given by explicit formulas; however, some properties of solutions of a given differential equation may be determined without finding their exact form. If a self-contained formula for the solution is not available, the solution may be numerically approximated using computers. The theory of <a href="Dynamical_systems" title="Dynamical systems" class="mw-redirect">dynamical systems</a> puts emphasis on qualitative analysis of systems described by differential equations, while many <a href="Numerical_methods" title="Numerical methods" class="mw-redirect">numerical methods</a> have been developed to determine solutions with a given degree of accuracy.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Directions_of_study"><span class="tocnumber">1</span> <span class="toctext">Directions of study</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Nomenclature"><span class="tocnumber">2</span> <span class="toctext">Nomenclature</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Ordinary_and_partial"><span class="tocnumber">2.1</span> <span class="toctext">Ordinary and partial</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Linear_and_non-linear"><span class="tocnumber">2.2</span> <span class="toctext">Linear and non-linear</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Examples"><span class="tocnumber">2.3</span> <span class="toctext">Examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Related_concepts"><span class="tocnumber">3</span> <span class="toctext">Related concepts</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Connection_to_difference_equations"><span class="tocnumber">4</span> <span class="toctext">Connection to difference equations</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Universality_of_mathematical_description"><span class="tocnumber">5</span> <span class="toctext">Universality of mathematical description</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Notable_differential_equations"><span class="tocnumber">6</span> <span class="toctext">Notable differential equations</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#Physics_and_engineering"><span class="tocnumber">6.1</span> <span class="toctext">Physics and engineering</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Biology"><span class="tocnumber">6.2</span> <span class="toctext">Biology</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Economics"><span class="tocnumber">6.3</span> <span class="toctext">Economics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=1.php.html" title="Edit section: Directions of study">edit</a>]</span> <span class="mw-headline" id="Directions_of_study">Directions of study</span></h2>
+<p>The study of differential equations is a wide field in <a href="Pure_mathematics" title="Pure mathematics">pure</a> and <a href="Applied_mathematics" title="Applied mathematics">applied mathematics</a>, <a href="Physics" title="Physics">physics</a>, <a href="Meteorology" title="Meteorology">meteorology</a>, and <a href="Engineering" title="Engineering">engineering</a>. All of these disciplines are concerned with the properties of differential equations of various types. Pure mathematics focuses on the existence and uniqueness of solutions, while applied mathematics emphasizes the rigorous justification of the methods for approximating solutions. Differential equations play an important role in modelling virtually every physical, technical, or biological process, from celestial motion, to bridge design, to interactions between neurons. Differential equations such as those used to solve real-life problems may not necessarily be directly solvable, i.e. do not have <a href="Closed-form_expression" title="Closed-form expression">closed form</a> solutions. Instead, solutions can be approximated using <a href="Numerical_ordinary_differential_equations" title="Numerical ordinary differential equations" class="mw-redirect">numerical methods</a>.</p>
+<p>Mathematicians also study <a href="Weak_solution" title="Weak solution">weak solutions</a> (relying on <a href="Weak_derivative" title="Weak derivative">weak derivatives</a>), which are types of solutions that do not have to be <a href="Differentiable" title="Differentiable" class="mw-redirect">differentiable</a> everywhere. This extension is often necessary for solutions to exist, and it also results in more physically reasonable properties of solutions, such as possible presence of shocks for equations of hyperbolic type.</p>
+<p>The study of the stability of solutions of differential equations is known as <a href="Stability_theory" title="Stability theory">stability theory</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=2.php.html" title="Edit section: Nomenclature">edit</a>]</span> <span class="mw-headline" id="Nomenclature">Nomenclature</span></h2>
+<p>The theory of differential equations is well developed and the methods used to study them vary significantly with the type of the equation.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=3.php.html" title="Edit section: Ordinary and partial">edit</a>]</span> <span class="mw-headline" id="Ordinary_and_partial">Ordinary and partial</span></h3>
+<ul>
+<li>An <a href="Ordinary_differential_equation" title="Ordinary differential equation">ordinary differential equation</a> (ODE) is a differential equation in which the unknown function (also known as the <b><a href="Dependent_variable#Use_in_mathematics" title="Dependent variable" class="mw-redirect">dependent variable</a></b>) is a function of a <i>single</i> independent variable. In the simplest form, the unknown function is a real or complex valued function, but more generally, it may be <a href="Vector-valued_function" title="Vector-valued function">vector-valued</a> or <a href="Matrix_(mathematics)" title="Matrix (mathematics)">matrix</a>-valued: this corresponds to considering a system of ordinary differential equations for a single function.</li>
+</ul>
+<p><span id="first-order_differential_equation"></span><span id="second-order_differential_equation"></span></p>
+<dl>
+<dd>Ordinary differential equations are further classified according to the <b>order</b> of the highest derivative of the dependent variable with respect to the independent variable appearing in the equation. The most important cases for applications are <b>first-order</b> and <b>second-order differential equations</b>. For example, <a href="Bessel's_differential_equation" title="Bessel's differential equation" class="mw-redirect">Bessel's differential equation</a>
+<dl>
+<dd><img class="tex" alt="x^2 \frac{d^2 y}{dx^2} + x \frac{dy}{dx} + (x^2 - \alpha^2)y = 0" src="http://upload.wikimedia.org/math/5/3/2/532a80bb3f175224ba6753e6426a3c9b.png" /></dd>
+</dl>
+</dd>
+<dd>(in which <i>y</i> is the dependent variable) is a second-order differential equation. In the classical literature a distinction is also made between differential equations <a href="Explicit_function" title="Explicit function" class="mw-redirect">explicitly solved</a> with respect to the highest derivative and differential equations in an <a href="Implicit_derivative" title="Implicit derivative" class="mw-redirect">implicit</a> form. Also important is the <b>degree</b>, or (highest) power, of the highest derivative(s) in the equation (<i><a href="C.f." title="C.f." class="mw-redirect">c.f.</a></i>&#160;: <a href="Degree_of_a_polynomial" title="Degree of a polynomial">degree of a polynomial</a>). A differential equation is <a href="Nonlinear" title="Nonlinear" class="mw-redirect">nonlinear</a> if its degree is not one (a <a href="Sufficient_condition" title="Sufficient condition" class="mw-redirect">sufficient</a> but <a href="Necessary_condition" title="Necessary condition" class="mw-redirect">unnecessary condition</a>).</dd>
+</dl>
+<ul>
+<li>A <a href="Partial_differential_equation" title="Partial differential equation">partial differential equation</a> (PDE) is a differential equation in which the unknown function is a function of <i>multiple</i> independent variables and the equation involves its <a href="Partial_derivatives" title="Partial derivatives" class="mw-redirect">partial derivatives</a>. The order is defined similarly to the case of ordinary differential equations, but further classification into elliptic, hyperbolic, and parabolic equations, especially for second-order linear equations, is of utmost importance. Some partial differential equations do not fall into any of these categories over the whole domain of the independent variables and they are said to be of <b>mixed type</b>.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=4.php.html" title="Edit section: Linear and non-linear">edit</a>]</span> <span class="mw-headline" id="Linear_and_non-linear">Linear and non-linear</span></h3>
+<p>Both ordinary and partial differential equations are broadly classified as <b>linear</b> and <b>nonlinear</b>.</p>
+<ul>
+<li>A differential equation is <b>linear</b> if the unknown function and its derivatives appear to the power 1 (products are not allowed) and <b>nonlinear</b> otherwise. The characteristic property of linear equations is that their solutions form an <a href="Affine_space" title="Affine space">affine subspace</a> of an appropriate function space, which results in much more developed theory of linear differential equations. <b>Homogeneous</b> linear differential equations are a further subclass for which the space of solutions is a linear subspace i.e. the sum of any set of solutions or multiples of solutions is also a solution. The coefficients of the unknown function and its derivatives in a linear differential equation are allowed to be (known) functions of the independent variable or variables; if these coefficients are constants then one speaks of a <b>constant coefficient linear differential equation</b>.</li>
+</ul>
+<ul>
+<li>There are very few methods of solving nonlinear differential equations exactly; those that are known typically depend on the equation having particular <a href="Symmetries" title="Symmetries" class="mw-redirect">symmetries</a>. Nonlinear differential equations can exhibit very complicated behavior over extended time intervals, characteristic of <a href="Chaos_theory" title="Chaos theory">chaos</a>. Even the fundamental questions of existence, uniqueness, and extendability of solutions for nonlinear differential equations, and well-posedness of initial and boundary value problems for nonlinear PDEs are hard problems and their resolution in special cases is considered to be a significant advance in the mathematical theory (cf. <a href="Navier%E2%80%93Stokes_existence_and_smoothness" title="Navier–Stokes existence and smoothness">Navier–Stokes existence and smoothness</a>).</li>
+</ul>
+<p>Linear differential equations frequently appear as <a href="Linearization" title="Linearization">approximations</a> to nonlinear equations. These approximations are only valid under restricted conditions. For example, the harmonic oscillator equation is an approximation to the nonlinear pendulum equation that is valid for small amplitude oscillations (see below).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=5.php.html" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h3>
+<p>In the first group of examples, let <i>u</i> be an unknown function of <i>x</i>, and <i>c</i> and <i>ω</i> are known constants.</p>
+<ul>
+<li>Inhomogeneous first-order linear constant coefficient ordinary differential equation:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{du}{dx} = cu+x^2. " src="http://upload.wikimedia.org/math/5/4/f/54f4fa7e8d73b63164fee2108d7876e0.png" /></dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>Homogeneous second-order linear ordinary differential equation:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{d^2u}{dx^2} - x\frac{du}{dx} + u = 0. " src="http://upload.wikimedia.org/math/c/e/0/ce08e1ff472375d9cd7e61943c58a423.png" /></dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>Homogeneous second-order linear constant coefficient ordinary differential equation describing the <a href="Harmonic_oscillator" title="Harmonic oscillator">harmonic oscillator</a>:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{d^2u}{dx^2} + \omega^2u = 0. " src="http://upload.wikimedia.org/math/1/2/0/120bf99b2dafa7b817c1790768e1fcb5.png" /></dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>Inhomogeneous first-order nonlinear ordinary differential equation:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{du}{dx} = u^2 + 1. " src="http://upload.wikimedia.org/math/7/e/a/7ea7d6ad89082702eafaee72530e1249.png" /></dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>Second-order nonlinear ordinary differential equation describing the motion of a <a href="Pendulum" title="Pendulum">pendulum</a> of length <i>L</i>:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" L\frac{d^2u}{dx^2} + g\sin u = 0. " src="http://upload.wikimedia.org/math/8/a/7/8a7c9d23528673b5c552bdc97b8c8883.png" /></dd>
+</dl>
+</dd>
+</dl>
+<p>In the next group of examples, the unknown function <i>u</i> depends on two variables <i>x</i> and <i>t</i> or <i>x</i> and <i>y</i>.</p>
+<ul>
+<li>Homogeneous first-order linear partial differential equation:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial u}{\partial t} + t\frac{\partial u}{\partial x} = 0. " src="http://upload.wikimedia.org/math/b/b/5/bb58cab8e61438dff87954ecabbe399f.png" /></dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>Homogeneous second-order linear constant coefficient partial differential equation of elliptic type, the <a href="Laplace_equation" title="Laplace equation" class="mw-redirect">Laplace equation</a>:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0. " src="http://upload.wikimedia.org/math/e/8/2/e82f81d37315770b739665e462441a27.png" /></dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li>Third-order nonlinear partial differential equation, the <a href="Korteweg%E2%80%93de_Vries_equation" title="Korteweg–de Vries equation">Korteweg–de Vries equation</a>:</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial u}{\partial t} = 6u\frac{\partial u}{\partial x} - \frac{\partial^3 u}{\partial x^3}. " src="http://upload.wikimedia.org/math/5/e/4/5e442e9ee91080990a45ec94665ec8f5.png" /></dd>
+</dl>
+</dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=6.php.html" title="Edit section: Related concepts">edit</a>]</span> <span class="mw-headline" id="Related_concepts">Related concepts</span></h2>
+<ul>
+<li>A <a href="Delay_differential_equation" title="Delay differential equation">delay differential equation</a> (DDE) is an equation for a function of a single variable, usually called <b>time</b>, in which the derivative of the function at a certain time is given in terms of the values of the function at earlier times.</li>
+</ul>
+<ul>
+<li>A <a href="Stochastic_differential_equation" title="Stochastic differential equation">stochastic differential equation</a> (SDE) is an equation in which the unknown quantity is a <a href="Stochastic_process" title="Stochastic process">stochastic process</a> and the equation involves some known stochastic processes, for example, the <a href="Wiener_process" title="Wiener process">Wiener process</a> in the case of diffusion equations.</li>
+</ul>
+<ul>
+<li>A <a href="Differential_algebraic_equation" title="Differential algebraic equation">differential algebraic equation</a> (DAE) is a differential equation comprising differential and algebraic terms, given in implicit form.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=7.php.html" title="Edit section: Connection to difference equations">edit</a>]</span> <span class="mw-headline" id="Connection_to_difference_equations">Connection to difference equations</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Time_scale_calculus" title="Time scale calculus" class="mw-redirect">Time scale calculus</a></div>
+<p>The theory of differential equations is closely related to the theory of <a href="Difference_equations" title="Difference equations" class="mw-redirect">difference equations</a>, in which the coordinates assume only discrete values, and the relationship involves values of the unknown function or functions and values at nearby coordinates. Many methods to compute numerical solutions of differential equations or study the properties of differential equations involve approximation of the solution of a differential equation by the solution of a corresponding difference equation.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=8.php.html" title="Edit section: Universality of mathematical description">edit</a>]</span> <span class="mw-headline" id="Universality_of_mathematical_description">Universality of mathematical description</span></h2>
+<p>Many fundamental laws of <a href="Physics" title="Physics">physics</a> and <a href="Chemistry" title="Chemistry">chemistry</a> can be formulated as differential equations. In <a href="Biology" title="Biology">biology</a> and <a href="Economics" title="Economics">economics</a>, differential equations are used to <a href="Mathematical_modelling" title="Mathematical modelling" class="mw-redirect">model</a> the behavior of complex systems. The mathematical theory of differential equations first developed together with the sciences where the equations had originated and where the results found application. However, diverse problems, sometimes originating in quite distinct scientific fields, may give rise to identical differential equations. Whenever this happens, mathematical theory behind the equations can be viewed as a unifying principle behind diverse phenomena. As an example, consider propagation of light and sound in the atmosphere, and of waves on the surface of a pond. All of them may be described by the same second-order <a href="Partial_differential_equation" title="Partial differential equation">partial differential equation</a>, the <a href="Wave_equation" title="Wave equation">wave equation</a>, which allows us to think of light and sound as forms of waves, much like familiar waves in the water. Conduction of heat, the theory of which was developed by <a href="Joseph_Fourier" title="Joseph Fourier">Joseph Fourier</a>, is governed by another second-order partial differential equation, the <a href="Heat_equation" title="Heat equation">heat equation</a>. It turned out that many <a href="Diffusion" title="Diffusion">diffusion</a> processes, while seemingly different, are described by the same equation; the <a href="Black%E2%80%93Scholes" title="Black–Scholes">Black–Scholes</a> equation in finance is, for instance, related to the heat equation.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=9.php.html" title="Edit section: Notable differential equations">edit</a>]</span> <span class="mw-headline" id="Notable_differential_equations">Notable differential equations</span></h2>
+<div style="-moz-column-count:2; column-count:2;">
+<h3><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=10.php.html" title="Edit section: Physics and engineering">edit</a>]</span> <span class="mw-headline" id="Physics_and_engineering">Physics and engineering</span></h3>
+<ul>
+<li><a href="Newton's_Second_Law" title="Newton's Second Law" class="mw-redirect">Newton's Second Law</a> in <a href="Dynamics_(mechanics)" title="Dynamics (mechanics)">dynamics (mechanics)</a></li>
+<li><a href="Euler%E2%80%93Lagrange_equation" title="Euler–Lagrange equation">Euler–Lagrange equation</a> in classical mechanics</li>
+<li><a href="Hamilton's_equations" title="Hamilton's equations" class="mw-redirect">Hamilton's equations</a> in classical mechanics</li>
+<li><a href="Radioactive_decay" title="Radioactive decay">Radioactive decay</a> in <a href="Nuclear_physics" title="Nuclear physics">nuclear physics</a></li>
+<li><a href="Newton's_law_of_cooling" title="Newton's law of cooling" class="mw-redirect">Newton's law of cooling</a> in <a href="Thermodynamics" title="Thermodynamics">thermodynamics</a></li>
+<li>The <a href="Wave_equation" title="Wave equation">wave equation</a></li>
+<li><a href="Maxwell's_equations" title="Maxwell's equations">Maxwell's equations</a> in <a href="Electromagnetism" title="Electromagnetism">electromagnetism</a></li>
+<li>The <a href="Heat_equation" title="Heat equation">heat equation</a> in <a href="Thermodynamics" title="Thermodynamics">thermodynamics</a></li>
+<li><a href="Laplace's_equation" title="Laplace's equation">Laplace's equation</a>, which defines <a href="Harmonic_function" title="Harmonic function">harmonic functions</a></li>
+<li><a href="Poisson's_equation" title="Poisson's equation">Poisson's equation</a></li>
+<li><a href="Einstein's_field_equation" title="Einstein's field equation" class="mw-redirect">Einstein's field equation</a> in <a href="General_relativity" title="General relativity">general relativity</a></li>
+<li>The <a href="Schr%C3%B6dinger_equation" title="Schrödinger equation">Schrödinger equation</a> in <a href="Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a></li>
+<li>The <a href="Geodesic#.28pseudo-.29Riemannian_geometry" title="Geodesic">geodesic equation</a></li>
+<li>The <a href="Navier%E2%80%93Stokes_equations" title="Navier–Stokes equations">Navier–Stokes equations</a> in <a href="Fluid_dynamics" title="Fluid dynamics">fluid dynamics</a></li>
+<li>The <a href="Diffusion_equation" title="Diffusion equation">Diffusion equation</a> in <a href="Stochastic_processes" title="Stochastic processes" class="mw-redirect">stochastic processes</a></li>
+<li>The <a href="Convection%E2%80%93diffusion_equation" title="Convection–diffusion equation">Convection–diffusion equation</a> in <a href="Fluid_dynamics" title="Fluid dynamics">fluid dynamics</a></li>
+<li>The <a href="Cauchy%E2%80%93Riemann_equations" title="Cauchy–Riemann equations">Cauchy–Riemann equations</a> in <a href="Complex_analysis" title="Complex analysis">complex analysis</a></li>
+<li>The <a href="Poisson%E2%80%93Boltzmann_equation" title="Poisson–Boltzmann equation">Poisson–Boltzmann equation</a> in <a href="Molecular_dynamics" title="Molecular dynamics">molecular dynamics</a></li>
+<li>The <a href="Shallow_water_equations" title="Shallow water equations">shallow water equations</a></li>
+<li><a href="Universal_differential_equation" title="Universal differential equation">Universal differential equation</a></li>
+<li>The <a href="Lorenz_attractor" title="Lorenz attractor" class="mw-redirect">Lorenz equations</a> whose solutions exhibit chaotic flow.</li>
+</ul>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=11.php.html" title="Edit section: Biology">edit</a>]</span> <span class="mw-headline" id="Biology">Biology</span></h3>
+<ul>
+<li><a href="Verhulst_equation" title="Verhulst equation" class="mw-redirect">Verhulst equation</a> – biological population growth</li>
+<li><a href="Von_Bertalanffy#The_individual_growth_model" title="Von Bertalanffy" class="mw-redirect">von Bertalanffy model</a> – biological individual growth</li>
+<li><a href="Lotka%E2%80%93Volterra_equations" title="Lotka–Volterra equations" class="mw-redirect">Lotka–Volterra equations</a> – biological population dynamics</li>
+<li><a href="Replicator_dynamics" title="Replicator dynamics" class="mw-redirect">Replicator dynamics</a> – may be found in theoretical biology</li>
+<li><a href="Hodgkin%E2%80%93Huxley_model" title="Hodgkin–Huxley model">Hodgkin–Huxley model</a> – neural action potentials</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=12.php.html" title="Edit section: Economics">edit</a>]</span> <span class="mw-headline" id="Economics">Economics</span></h3>
+<ul>
+<li><a href="Black%E2%80%93Scholes#The_Black.E2.80.93Scholes_PDE" title="Black–Scholes">The Black–Scholes PDE</a></li>
+<li><a href="Exogenous_growth_model" title="Exogenous growth model" class="mw-redirect">Exogenous growth model</a></li>
+<li><a href="Malthusian_growth_model" title="Malthusian growth model">Malthusian growth model</a></li>
+<li><a href="Sethi_model" title="Sethi model">The Vidale–Wolfe advertising model</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=13.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has a book on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Ordinary_Differential_Equations" class="extiw" title="wikibooks:Ordinary Differential Equations">Ordinary Differential Equations</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a href="Complex_differential_equation" title="Complex differential equation">Complex differential equation</a></li>
+<li><a href="Exact_differential_equation" title="Exact differential equation">Exact differential equation</a></li>
+<li><a href="Integral_equations" title="Integral equations" class="mw-redirect">Integral equations</a></li>
+<li><a href="Linear_differential_equation" title="Linear differential equation">Linear differential equation</a></li>
+<li><a href="Picard%E2%80%93Lindel%C3%B6f_theorem" title="Picard–Lindelöf theorem">Picard–Lindelöf theorem</a> on existence and uniqueness of solutions</li>
+<li><a href="Numerical_methods#Differential_equations" title="Numerical methods" class="mw-redirect">Numerical methods</a></li>
+<li><a href="Recurrence_relation" title="Recurrence relation">Recurrence relation</a>, also known as 'Difference Equation'</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=14.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<table class="metadata plainlinks ambox ambox-style ambox-No_footnotes" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/40px-Text_document_with_red_question_mark.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/60px-Text_document_with_red_question_mark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Text_document_with_red_question_mark.svg/80px-Text_document_with_red_question_mark.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article includes a <a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources">list of references</a>, related reading or <a href="Wikipedia_External_links" title="Wikipedia:External links">external links</a>, but <b>its sources remain unclear because it lacks <a href="Wikipedia_Citing_sources#Inline_citations" title="Wikipedia:Citing sources">inline citations</a></b>. <span class="hide-when-compact">Please <a href="Wikipedia_WikiProject_Fact_and_Reference_Check" title="Wikipedia:WikiProject Fact and Reference Check">improve</a> this article by introducing more precise citations.</span> <small><i>(August 2009)</i></small> </span></td>
+</tr>
+</table>
+<ul>
+<li>P. Abbott and H. Neill, <i>Teach Yourself Calculus</i>, 2003 pages 266-277</li>
+<li>P. Blanchard, R. L. Devaney, G. R. Hall, <i>Differential Equations</i>, Thompson, 2006</li>
+<li>E. A. Coddington and N. Levinson, <i>Theory of Ordinary Differential Equations</i>, McGraw-Hill, 1955</li>
+<li>E. L. Ince, <i>Ordinary Differential Equations</i>, Dover Publications, 1956</li>
+<li>W. Johnson, <a rel="nofollow" class="external text" href="http://www.hti.umich.edu/cgi/b/bib/bibperm?q1=abv5010.0001.001"><i>A Treatise on Ordinary and Partial Differential Equations</i></a>, John Wiley and Sons, 1913, in <a rel="nofollow" class="external text" href="http://hti.umich.edu/u/umhistmath/">University of Michigan Historical Math Collection</a></li>
+<li>A. D. Polyanin and V. F. Zaitsev, <i>Handbook of Exact Solutions for Ordinary Differential Equations (2nd edition)</i>, Chapman &amp; Hall/CRC Press, Boca Raton, 2003. <a href="Special_BookSources/1584882972" class="internal mw-magiclink-isbn">ISBN 1-58488-297-2</a>.</li>
+<li>R. I. Porter, <i>Further Elementary Analysis</i>, 1978, chapter XIX Differential Equations</li>
+<li><span class="citation book"><a href="Gerald_Teschl" title="Gerald Teschl">Teschl, Gerald</a> (2012). <a rel="nofollow" class="external text" href="http://www.mat.univie.ac.at/~gerald/ftp/book-ode/"><i>Ordinary Differential Equations and Dynamical Systems</i></a>. <a href="Providence,_Rhode_Island" title="Providence, Rhode Island">Providence</a>: <a href="American_Mathematical_Society" title="American Mathematical Society">American Mathematical Society</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-8218-8328-0" title="Special:BookSources/978-0-8218-8328-0">978-0-8218-8328-0</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mat.univie.ac.at/~gerald/ftp/book-ode/">http://www.mat.univie.ac.at/~gerald/ftp/book-ode/</a></span>.</span></li>
+<li>D. Zwillinger, <i>Handbook of Differential Equations (3rd edition)</i>, Academic Press, Boston, 1997.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Differential_equation&action=edit&section=15.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/video-lectures/">Lectures on Differential Equations</a> <a href="MIT" title="MIT" class="mw-redirect">MIT</a> Open CourseWare Videos</li>
+<li><a rel="nofollow" class="external text" href="http://tutorial.math.lamar.edu/classes/de/de.aspx">Online Notes / Differential Equations</a> Paul Dawkins, <a href="Lamar_University" title="Lamar University">Lamar University</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.sosmath.com/diffeq/diffeq.html">Differential Equations</a>, S.O.S. Mathematics</li>
+<li><a rel="nofollow" class="external text" href="http://publicliterature.org/tools/differential_equation_solver/">Differential Equation Solver</a> Java applet tool used to solve differential equations.</li>
+<li><a rel="nofollow" class="external text" href="http://www.fioravante.patrone.name/mat/u-u/en/differential_equations_intro.htm">Introduction to modeling via differential equations</a> Introduction to modeling by means of differential equations, with critical remarks.</li>
+<li><a rel="nofollow" class="external text" href="http://user.mendelu.cz/marik/maw/index.php?lang=en&form=ode">Mathematical Assistant on Web</a> Symbolic ODE tool, using <a href="Maxima_(software)" title="Maxima (software)">Maxima</a></li>
+<li><a rel="nofollow" class="external text" href="http://eqworld.ipmnet.ru/en/solutions/ode.htm">Exact Solutions of Ordinary Differential Equations</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.hedengren.net/research/models.htm">Collection of ODE and DAE models of physical systems</a> MATLAB models</li>
+<li><a rel="nofollow" class="external text" href="http://www.jirka.org/diffyqs/">Notes on Diffy Qs: Differential Equations for Engineers</a> An introductory textbook on differential equations by Jiri Lebl of <a href="UIUC" title="UIUC" class="mw-redirect">UIUC</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.khanacademy.org/math/differential-equations">Khan Academy Video playlist on differential equations</a> Topics covered in a first year course in differential equations.</li>
+<li><a rel="nofollow" class="external text" href="http://math.rareinfos.com/category/courses/solutions-differential-equations/homogeneous-linear-systems/">MathDiscuss Video playlist on differential equations</a></li>
+</ul>
+<p><br /></p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><strong class="selflink">Differential equations</strong>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 2972/1000000
+Preprocessor generated node count: 44790/1500000
+Post-expand include size: 59689/2048000 bytes
+Template argument size: 29745/2048000 bytes
+Highest expansion depth: 20/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1424309-0!0!0!!en!4!* and timestamp 20130212100649 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Differential_equation&oldid=536302600.php.html">http://en.wikipedia.org/w/index.php?title=Differential_equation&amp;oldid=536302600</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Differential_equations" title="Category:Differential equations">Differential equations</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_lacking_in-text_citations_from_August_2009" title="Category:Articles lacking in-text citations from August 2009">Articles lacking in-text citations from August 2009</a></li><li><a href="Category_All_articles_lacking_in-text_citations" title="Category:All articles lacking in-text citations">All articles lacking in-text citations</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Differential+equation&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Differential+equation.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="Differential_equation"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Differential_equation"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="Differential_equation" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Differential_equation&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Differential_equation&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Differential_equation" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Differential_equation" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Differential_equation&oldid=536302600.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Differential_equation&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Differential_equation&id=536302600.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Differential+equation.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Differential+equation&oldid=536302600&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Differential_equation&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Differensiaalvergelyking" title="Differensiaalvergelyking" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A7%D8%AA_%D8%AA%D9%81%D8%A7%D8%B6%D9%84%D9%8A%D8%A9" title="معادلات تفاضلية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Equaci%C3%B3n_diferencial" title="Equación diferencial" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%95_%E0%A6%B8%E0%A6%AE%E0%A7%80%E0%A6%95%E0%A6%B0%E0%A6%A3" title="অন্তরক সমীকরণ" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%94%D1%8B%D1%84%D0%B5%D1%80%D1%8D%D0%BD%D1%86%D1%8B%D1%8F%D0%BB%D1%8C%D0%BD%D0%B0%D0%B5_%D1%9E%D1%80%D0%B0%D1%9E%D0%BD%D0%B5%D0%BD%D0%BD%D0%B5" title="Дыферэнцыяльнае ўраўненне" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%94%D1%8B%D1%84%D1%8D%D1%80%D1%8D%D0%BD%D1%86%D1%8B%D0%B9%D0%BD%D0%B0%D0%B5_%D1%80%D0%B0%D1%9E%D0%BD%D0%B0%D0%BD%D1%8C%D0%BD%D0%B5" title="Дыфэрэнцыйнае раўнаньне" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%BE_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5" title="Диференциално уравнение" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Diferencijalna_jedna%C4%8Dina" title="Diferencijalna jednačina" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Equaci%C3%B3_diferencial" title="Equació diferencial" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Diferenci%C3%A1ln%C3%AD_rovnice" title="Diferenciální rovnice" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Differentialligning" title="Differentialligning" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Differentialgleichung" title="Differentialgleichung" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Diferentsiaalv%C3%B5rrand" title="Diferentsiaalvõrrand" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%94%CE%B9%CE%B1%CF%86%CE%BF%CF%81%CE%B9%CE%BA%CE%AE_%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7" title="Διαφορική εξίσωση" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Ecuaci%C3%B3n_diferencial" title="Ecuación diferencial" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Diferenciala_ekvacio" title="Diferenciala ekvacio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D9%87_%D8%AF%DB%8C%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D9%84" title="معادله دیفرانسیل" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-hif"><a href="http://hif.wikipedia.org/wiki/Differential_equation" title="Differential equation" lang="hif" hreflang="hif">Fiji Hindi</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Ecuaci%C3%B3n_diferencial" title="Ecuación diferencial" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="微分方程" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%AF%B8%EB%B6%84_%EB%B0%A9%EC%A0%95%EC%8B%9D" title="미분 방정식" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D4%B4%D5%AB%D6%86%D5%A5%D6%80%D5%A5%D5%B6%D6%81%D5%AB%D5%A1%D5%AC_%D5%B0%D5%A1%D5%BE%D5%A1%D5%BD%D5%A1%D6%80%D5%B8%D6%82%D5%B4%D5%B6%D5%A5%D6%80" title="Դիֆերենցիալ հավասարումներ" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%B5%E0%A4%95%E0%A4%B2_%E0%A4%B8%E0%A4%AE%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3" title="अवकल समीकरण" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Diferencijalne_jednad%C5%BEbe" title="Diferencijalne jednadžbe" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Persamaan_diferensial" title="Persamaan diferensial" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Equazione_differenziale" title="Equazione differenziale" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%95%D7%95%D7%90%D7%94_%D7%93%D7%99%D7%A4%D7%A8%D7%A0%D7%A6%D7%99%D7%90%D7%9C%D7%99%D7%AA" title="משוואה דיפרנציאלית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%93%E1%83%98%E1%83%A4%E1%83%94%E1%83%A0%E1%83%94%E1%83%9C%E1%83%AA%E1%83%98%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%92%E1%83%90%E1%83%9C%E1%83%A2%E1%83%9D%E1%83%9A%E1%83%94%E1%83%91%E1%83%94%E1%83%91%E1%83%98" title="დიფერენციალური განტოლებები" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D0%B4%D1%8B%D2%9B_%D1%82%D0%B5%D2%A3%D0%B4%D0%B5%D1%83" title="Дифференциалдық теңдеу" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-ku"><a href="http://ku.wikipedia.org/wiki/Wekheviya_d%C3%AEferensiyel" title="Wekheviya dîferensiyel" lang="ku" hreflang="ku">Kurdî</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Aequatio_differentialis" title="Aequatio differentialis" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Diferenci%C4%81lvien%C4%81dojums" title="Diferenciālvienādojums" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Diferencialin%C4%97_lygtis" title="Diferencialinė lygtis" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Differenci%C3%A1legyenlet" title="Differenciálegyenlet" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%B5%E0%B4%95%E0%B4%B2%E0%B4%B8%E0%B4%AE%E0%B4%B5%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%AF%E0%B4%82" title="അവകലസമവാക്യം" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-mt"><a href="http://mt.wikipedia.org/wiki/Ekwazzjoni_differenzjali" title="Ekwazzjoni differenzjali" lang="mt" hreflang="mt">Malti</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Persamaan_pembezaan" title="Persamaan pembezaan" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Differentiaalvergelijking" title="Differentiaalvergelijking" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E5%BC%8F" title="微分方程式" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-nap"><a href="http://nap.wikipedia.org/wiki/Equazione_differenziale" title="Equazione differenziale" lang="nap" hreflang="nap">Nnapulitano</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Differensialligning" title="Differensialligning" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Differensiallikning" title="Differensiallikning" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Equacion_diferenciala" title="Equacion diferenciala" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%DA%88%D9%81%D8%B1%DB%8C%D9%86%D8%B4%DB%8C%D9%84_%D9%85%D8%B3%D8%A7%D9%88%D8%A7%D8%AA" title="ڈفرینشیل مساوات" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-km"><a href="http://km.wikipedia.org/wiki/%E1%9E%9F%E1%9E%98%E1%9E%B8%E1%9E%80%E1%9E%B6%E1%9E%9A%E1%9E%8C%E1%9E%B8%E1%9E%95%E1%9F%81%E1%9E%9A%E1%9F%89%E1%9E%84%E1%9F%8B%E1%9E%9F%E1%9F%92%E1%9E%99%E1%9F%82%E1%9E%9B" title="សមីការឌីផេរ៉ង់ស្យែល" lang="km" hreflang="km">ភាសាខ្មែរ</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Equassion_diferensial" title="Equassion diferensial" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/R%C3%B3wnanie_r%C3%B3%C5%BCniczkowe" title="Równanie różniczkowe" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Equa%C3%A7%C3%A3o_diferencial" title="Equação diferencial" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Ecua%C8%9Bie_diferen%C8%9Bial%C4%83" title="Ecuație diferențială" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5" title="Дифференциальное уравнение" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B6%85%E0%B7%80%E0%B6%9A%E0%B6%BD_%E0%B7%83%E0%B6%B8%E0%B7%93%E0%B6%9A%E0%B6%BB%E0%B6%AB%E0%B6%BA" title="අවකල සමීකරණය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Differential_equation" title="Differential equation" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Diferenci%C3%A1lna_rovnica" title="Diferenciálna rovnica" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Diferencialna_ena%C4%8Dba" title="Diferencialna enačba" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B0_%D1%98%D0%B5%D0%B4%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0" title="Диференцијална једначина" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Diferencijalna_jedna%C4%8Dina" title="Diferencijalna jednačina" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Differentiaaliyht%C3%A4l%C3%B6" title="Differentiaaliyhtälö" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Differentialekvation" title="Differentialekvation" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Ekwasyong_diperensiyal" title="Ekwasyong diperensiyal" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%95%E0%AF%88%E0%AE%AF%E0%AF%80%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AF%81%E0%AE%9A%E0%AF%8D_%E0%AE%9A%E0%AE%AE%E0%AE%A9%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%81" title="வகையீட்டுச் சமன்பாடு" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%AA%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C" title="สมการเชิงอนุพันธ์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Diferansiyel_denklemler" title="Diferansiyel denklemler" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D1%96_%D1%80%D1%96%D0%B2%D0%BD%D1%8F%D0%BD%D0%BD%D1%8F" title="Диференціальні рівняння" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%AA%D9%81%D8%B1%D9%82%DB%8C_%D9%85%D8%B3%D8%A7%D9%88%D8%A7%D8%AA" title="تفرقی مساوات" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_tr%C3%ACnh_vi_ph%C3%A2n" title="Phương trình vi phân" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Ekwasyon_diferensyal" title="Ekwasyon diferensyal" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="微分方程" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 3 February 2013 at 04:31.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Differential_equation" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1106 in 0.172 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

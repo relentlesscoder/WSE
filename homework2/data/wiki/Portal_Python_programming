@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Portal:Python programming - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Portal_Python_programming&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Portal_Python_programming&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.categoryTree.css%7Cext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Python_programming","wgTitle":"Python programming","wgCurRevisionId":435423255,"wgArticleId":12384590,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Python (programming language)","Portals needing attention","Computing portals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Python_programming","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"279a13c65c67de94207912d9d1a7f861","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-100 ns-subject page-Portal_Python_programming skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Portal:Python programming</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="browsebar" class="hlist" style="margin: -3px auto 0.2em; text-align: center; font-size: 95%;">
+<ul>
+<li><a href="Portal_Contents/Portals" title="Portal:Contents/Portals">Wikipedia portals</a>: <a href="Portal_Contents/Portals#Culture_and_the_arts" title="Portal:Contents/Portals">Culture</a></li>
+<li><a href="Portal_Contents/Portals#Geography_and_places" title="Portal:Contents/Portals">Geography</a></li>
+<li><a href="Portal_Contents/Portals#Health_and_fitness" title="Portal:Contents/Portals">Health</a></li>
+<li><a href="Portal_Contents/Portals#History_and_events" title="Portal:Contents/Portals">History</a></li>
+<li><a href="Portal_Contents/Portals#Mathematics_and_logic" title="Portal:Contents/Portals">Mathematics</a></li>
+<li><a href="Portal_Contents/Portals#Natural_and_physical_sciences" title="Portal:Contents/Portals">Natural sciences</a></li>
+<li><a href="Portal_Contents/Portals#People_and_self" title="Portal:Contents/Portals">People</a></li>
+<li><a href="Portal_Contents/Portals#Philosophy_and_thinking" title="Portal:Contents/Portals">Philosophy</a></li>
+<li><a href="Portal_Contents/Portals#Religion_and_belief_systems" title="Portal:Contents/Portals">Religion</a></li>
+<li><a href="Portal_Contents/Portals#Society_and_social_sciences" title="Portal:Contents/Portals">Society</a></li>
+<li><a href="Portal_Contents/Portals#Technology_and_applied_sciences" title="Portal:Contents/Portals">Technology</a></li>
+</ul>
+</div>
+<div style="width:100%">
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Intro/index.html" title="Portal:Python programming/Intro"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Intro&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Intro (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Intro&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;"><big>The Python programming Portal</big></h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<p><b><a href="Python_(programming_language)" title="Python (programming language)">Python</a></b> is a <a href="High-level_programming_language" title="High-level programming language">high-level programming language</a> first released by <a href="Guido_van_Rossum" title="Guido van Rossum">Guido van Rossum</a> in 1991. Python is designed around a philosophy which emphasizes the importance of programmer effort over computer effort, and it prioritizes readability over speed or expressiveness. Python is often characterized as minimalist, although this only applies to the core language's syntax and semantics; the <a href="Standard_library" title="Standard library">standard library</a> provides the language with a large number of additional libraries and extensions.</p>
+<p>Python is a <a href="Multi-paradigm_programming_language" title="Multi-paradigm programming language" class="mw-redirect">multi-paradigm programming language</a> which has a fully <a href="Dynamic_type" title="Dynamic type" class="mw-redirect">dynamic type</a> system and uses automatic <a href="Memory_management" title="Memory management">memory management</a>; it is thus similar to <a href="Perl" title="Perl">Perl</a>, <a href="Ruby_(programming_language)" title="Ruby (programming language)">Ruby</a>, <a href="Scheme_(programming_language)" title="Scheme (programming language)">Scheme</a>, <a href="Smalltalk" title="Smalltalk">Smalltalk</a>, and <a href="Tcl" title="Tcl">Tcl</a>.</p>
+<p>The language has an open, community-based development model managed by the non-profit <a href="Python_Software_Foundation" title="Python Software Foundation">Python Software Foundation</a>. While various parts of the language have formal specifications and standards, the language as a whole is not formally specified. The <i><a href="De_facto" title="De facto">de facto</a></i> standard for the language is the <a href="CPython" title="CPython">CPython</a> implementation.</p>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div style="float:left; width:60%;">
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Selected_article/index.html" title="Portal:Python programming/Selected article"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Selected_article&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Selected article (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Selected_article&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Selected article</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<div class="thumb tleft">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:IPython.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/IPython.png/220px-IPython.png" width="220" height="153" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/90/IPython.png/330px-IPython.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/90/IPython.png/440px-IPython.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:IPython.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The IPython interactive shell running in gnome-terminal on Ubuntu 11.04, showcasing the introspection and system shell command features.</div>
+</div>
+</div>
+<p><b><a href="IPython" title="IPython">IPython</a></b> is an interactive shell for the <a href="Python_(programming_language)" title="Python (programming language)">Python programming language</a> that offers enhanced introspection compared with the standard shell, additional shell syntax, code-highlighting, and tab-completion.</p>
+<p>A number of popular articles in the computer press have discussed the advantages of IPython, and it is a component of the <a href="SciPy" title="SciPy">SciPy</a> package. It lends itself well to rapid-prototyping and can often be seen in conjunction with <a href="Matplotlib" title="Matplotlib">Matplotlib</a> for scientific and engineering work.</p>
+<p>Another notable feature is that IPython works with the major GUI frameworks (<a href="Tkinter" title="Tkinter">Tkinter</a>, <a href="GTK" title="GTK" class="mw-redirect">GTK</a>, <a href="Qt_(toolkit)" title="Qt (toolkit)" class="mw-redirect">Qt</a> and <a href="WxWidgets" title="WxWidgets">WX</a>) in a non-blocking fashion allowing for interactive development and debugging of GUIs. The standard Python shell only allows this with <a href="Tkinter" title="Tkinter">Tkinter</a>. Capabilities have been recently added to IPython to interactively manage highly parallel computing clusters using asynchronous status callbacks and/or classic <a href="Message_Passing_Interface" title="Message Passing Interface">MPI</a>.</p>
+<p>IPython can also be used as a system shell replacement, especially on Windows which has a minimally capable shell. IPython's default behaviour is largely familiar from Unix shells, but it allows customizability and the flexibility of executing in a live Python environment.</p>
+<p><a href="IPython" title="IPython">read more</a></p>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Selected_biography/index.html" title="Portal:Python programming/Selected biography"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Selected_biography&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Selected biography (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Selected_biography&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Selected biography</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<p><b>Guido van Rossum</b> is a <a href="Netherlands" title="Netherlands">Dutch</a> <a href="Computer_programmer" title="Computer programmer" class="mw-redirect">computer programmer</a> who is best known as the author of the <a href="Python_(programming_language)" title="Python (programming language)">Python programming language</a>. In the Python community, Van Rossum is known as a "<a href="Benevolent_Dictator_for_Life" title="Benevolent Dictator for Life">Benevolent Dictator for Life</a>", meaning that he continues to oversee the Python development process, making decisions where necessary.</p>
+<p>Van Rossum was born and grew up in the Netherlands, where he received a masters degree from the <a href="University_of_Amsterdam" title="University of Amsterdam">University of Amsterdam</a> in 1982. He later worked for various research institutes, including the Dutch <a href="Centrum_Wiskunde_&_Informatica" title="Centrum Wiskunde &amp; Informatica">Centrum Wiskunde &amp; Informatica</a> (CWI), Amsterdam, the <a href="National_Institute_of_Standards_and_Technology" title="National Institute of Standards and Technology">National Institute of Standards and Technology</a> (NIST), Gaithersburg, Maryland, and the <a href="Corporation_for_National_Research_Initiatives" title="Corporation for National Research Initiatives">Corporation for National Research Initiatives</a> (CNRI), Reston, Virginia. He worked on the development of the <a href="ABC_programming_language" title="ABC programming language" class="mw-redirect">ABC programming language</a>.</p>
+<p><a href="Guido_van_rossum" title="Guido van rossum" class="mw-redirect">read more</a></p>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Related/index.html" title="Portal:Python programming/Related"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Related&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Related (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Related&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Related portals</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<ul>
+<li><a href="Portal_Computer_science" title="Portal:Computer science">Computer science</a></li>
+<li><a href="Portal_Information_technology" title="Portal:Information technology">Information technology</a></li>
+<li><a href="Portal_Java" title="Portal:Java">Java</a></li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div style="float:right; width:39%">
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Categories/index.html" title="Portal:Python programming/Categories"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Categories&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Categories (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Categories&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Categories</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:C_Puzzle.png" class="image"><img alt="C Puzzle.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/C_Puzzle.png/40px-C_Puzzle.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/C_Puzzle.png/60px-C_Puzzle.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/da/C_Puzzle.png/80px-C_Puzzle.png 2x" /></a></div>
+<div class="CategoryTreeTag" data-ct-mode="0" data-ct-options="{&quot;mode&quot;:0,&quot;hideprefix&quot;:20,&quot;showcount&quot;:false,&quot;namespaces&quot;:false}">
+<div class="CategoryTreeSection">
+<div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Python_(programming_language)" title="collapse" data-ct-loaded="1" data-ct-state="expanded"><span style="color:#0645AD;">▼</span></span></span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="Category_Python_(programming_language)">Python (programming language)</a></div>
+<div class="CategoryTreeChildren" style="display:block">
+<div class="CategoryTreeSection">
+<div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet"><span style="color:#C0C0C0;">►</span></span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="Category_Articles_with_example_Python_code">Articles with example Python code</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div>
+</div>
+<div class="CategoryTreeSection">
+<div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet"><span style="color:#C0C0C0;">►</span></span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="Category_Python_implementations">Python implementations</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div>
+</div>
+<div class="CategoryTreeSection">
+<div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Python_libraries" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span></span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="Category_Python_libraries">Python libraries</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div>
+</div>
+<div class="CategoryTreeSection">
+<div class="CategoryTreeItem"><span class="CategoryTreeEmptyBullet"><span style="color:#C0C0C0;">►</span></span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="Category_Python_web_application_frameworks">Python web application frameworks</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div>
+</div>
+<div class="CategoryTreeSection">
+<div class="CategoryTreeItem"><span class="CategoryTreeBullet"><span class="CategoryTreeToggle" style="display: none;" data-ct-title="Python_software" title="expand" data-ct-state="collapsed"><span style="color:#0645AD;">►</span></span></span> <a class="CategoryTreeLabel  CategoryTreeLabelNs14 CategoryTreeLabelCategory" href="Category_Python_software">Python software</a></div>
+<div class="CategoryTreeChildren" style="display:none"></div>
+</div>
+</div>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Quotes/index.html" title="Portal:Python programming/Quotes"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Quotes&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Quotes (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Quotes&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Quotes</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<p><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Wikiquote-logo-en.svg/16px-Wikiquote-logo-en.svg.png" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Wikiquote-logo-en.svg/24px-Wikiquote-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Wikiquote-logo-en.svg/32px-Wikiquote-logo-en.svg.png 2x" /> Quotations related to <a href="http://en.wikiquote.org/wiki/Python" class="extiw" title="wikiquote:Python">Python</a> at Wikiquote</p>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Books/index.html" title="Portal:Python programming/Books"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Books&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Books (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Books&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Books</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<ul>
+<li><a rel="nofollow" class="external text" href="http://docs.python.org/tut/">Python tutorial</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.diveintopython.net/">Dive into python</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.mindview.net/Books/TIPython">Thinking in python</a></li>
+<li><a rel="nofollow" class="external text" href="http://inventwithpython.com/chapters/">Invent your own computer games with Python</a></li>
+<li><a rel="nofollow" class="external text" href="http://inventwithpython.com/pygame/chapters/">Making games with Python and Pygame</a></li>
+<li><a class="external text" href="http://en.wikibooks.org/wiki/Programming:Python">WikiBook:Programming:Python</a></li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<div style="float:right; width:39%">
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Python_programming_topics/index.html" title="Portal:Python programming/Python programming topics"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_Python_programming_topics&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/Python programming topics (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_Python_programming_topics&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Topics</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<ul>
+<li><a href="Django_(web_framework)" title="Django (web framework)">Django (web framework)</a></li>
+<li><a href="Guido_van_Rossum" title="Guido van Rossum">Guido van Rossum</a></li>
+<li><a href="Python_programming" title="Python programming" class="mw-redirect">Python programming</a></li>
+<li><a href="Python_3" title="Python 3" class="mw-redirect">Python 3</a></li>
+<li><a href="PyPy" title="PyPy">PyPy</a></li>
+<li><a href="Twisted_(software)" title="Twisted (software)">Twisted (web framework)</a></li>
+<li><a href="Zope" title="Zope">Zope</a></li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<p><br /></p>
+<div style="float:right; clear: right; width:39%">
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="WikiProjects/index.html" title="Portal:Python programming/WikiProjects"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="../../w/index-title=Portal_talk_Python_programming_WikiProjects&action=edit&redlink=1.php.html" class="new" title="Portal talk:Python programming/WikiProjects (page does not exist)"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Portal_Python_programming_WikiProjects&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">WikiProjects</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<div class="floatright"><a href="http://en.wikipedia.org/wiki/File:Community.png" class="image" title="WikiProjects"><img alt="WikiProjects" src="http://upload.wikimedia.org/wikipedia/commons/c/ce/Community.png" width="55" height="37" /></a></div>
+<ul>
+<li><a href="Wikipedia_WikiProject_C++" title="Wikipedia:WikiProject C++">C++</a></li>
+<li><a href="Wikipedia_WikiProject_Computer_science" title="Wikipedia:WikiProject Computer science">Computer science</a></li>
+<li><a href="Wikipedia_WikiProject_Computing" title="Wikipedia:WikiProject Computing">Computing</a></li>
+<li><a href="Wikipedia_WikiProject_Programming_languages" title="Wikipedia:WikiProject Programming languages" class="mw-redirect">Programming languages</a></li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+</div>
+</div>
+<p><i class="noprint plainlinks"><a class="external text" href="../../w/index-title=Portal_Python_programming&action=purge.php.html"><small>Purge server cache</small></a></i></p>
+<p><br /></p>
+<div>
+<div style="display:block; clear:both; border:1px solid #DB9B00; vertical-align:top; width:100%; background-color:white; margin-bottom:10px; padding:0px 0px 5px 0px; -moz-border-radius:8px;">
+<div style="float:right; clear:both;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><font size="1"><a href="Template_WikimediaForPortals" title="Template:WikimediaForPortals" class="mw-redirect"><span title="View this template" style="">v</span></a></font></li>
+<li class="nv-talk"><font size="1"><a href="Template_talk_WikimediaForPortals" title="Template talk:WikimediaForPortals" class="mw-redirect"><span title="Discuss this template" style="">t</span></a></font></li>
+<li class="nv-edit"><font size="1"><a class="external text" href="../../w/index-title=Template_WikimediaForPortals&action=edit.php.html"><span title="Edit this template" style="">e</span></a></font></li>
+</ul>
+</div>
+<font size="1">&#160;</font></div>
+<h2 style="background-color:#366994; border-bottom:1px solid #DB9B00; text-align:center; color:#FFC331; font-weight:bold; font-size:100%; margin:0px 0px 5px 0px; padding:5px 3px 3px 3em; -moz-border-radius-topright:8px; -moz-border-radius-topleft:8px;">Associated Wikimedia</h2>
+<div style="padding-left:4px; padding-right:4px; clear:both; vertical-align:top;">
+<center>
+<table class="noprint" align="center" style="clear:both; background: transparent; text-align:center; font-size:91%" cellspacing="3" cellpadding="3" rules="none" border="0">
+<tr valign="top">
+<td><b><a href="http://en.wikibooks.org/wiki/Special:Search/Python_programming" class="extiw" title="wikibooks:Special:Search/Python programming">Python programming on&#160;Wikibooks</a></b>&#160;</td>
+<td><b><a href="http://commons.wikimedia.org/wiki/Special:Search/Category:Python_programming" class="extiw" title="commons:Special:Search/Category:Python programming">Python programming on Wikimedia Commons</a></b></td>
+<td><b><a href="http://en.wikinews.org/wiki/Special:Search/Python_programming" class="extiw" title="wikinews:Special:Search/Python programming">Python programming on&#160;Wikinews</a></b>&#160;</td>
+<td><b><a href="http://en.wikiquote.org/wiki/Special:Search/Python_programming" class="extiw" title="wikiquote:Special:Search/Python programming">Python programming on&#160;Wikiquote</a></b>&#160;</td>
+<td><b><a href="http://en.wikisource.org/wiki/Special:Search/Python_programming" class="extiw" title="wikisource:Special:Search/Python programming">Python programming on&#160;Wikisource</a></b>&#160;</td>
+<td><b><a href="http://en.wikiversity.org/wiki/Special:Search/Python_programming" class="extiw" title="wikiversity:Special:Search/Python programming">Python programming on&#160;Wikiversity</a></b>&#160;</td>
+<td><b><a href="http://en.wikivoyage.org/wiki/Special:Search/Python_programming" class="extiw" title="wikivoyage:Special:Search/Python programming">Python programming on&#160;Wikivoyage</a></b>&#160;</td>
+<td><b><a href="http://en.wiktionary.org/wiki/Special:Search/Python_programming" class="extiw" title="wiktionary:Special:Search/Python programming">Python programming on&#160;Wiktionary</a></b>&#160;</td>
+</tr>
+<tr valign="top">
+<td>Manuals and books</td>
+<td>Images and media</td>
+<td>News</td>
+<td>Quotations</td>
+<td>Texts</td>
+<td>Learning resources</td>
+<td>Open travel guide</td>
+<td>Definitions</td>
+</tr>
+<tr valign="top">
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikibooks.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/25px-Wikibooks-logo.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/38px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/50px-Wikibooks-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://commons.wikimedia.org/wiki/Special:Search/Category:Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" width="18" height="25" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/28px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/37px-Commons-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikinews.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/25px-Wikinews-logo.svg.png" width="25" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/38px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/50px-Wikinews-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikiquote.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/21px-Wikiquote-logo.svg.png" width="21" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/32px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/42px-Wikiquote-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikisource.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png" width="24" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/36px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/48px-Wikisource-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikiversity.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/25px-Wikiversity-logo.svg.png" width="25" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/38px-Wikiversity-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wikiversity-logo.svg/50px-Wikiversity-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wikivoyage.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/25px-Wikivoyage-logo.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/38px-Wikivoyage-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wikivoyage-logo.svg/50px-Wikivoyage-logo.svg.png 2x" /></a></div>
+</div>
+</td>
+<td>
+<div class="center">
+<div class="floatnone"><a href="http://en.wiktionary.org/wiki/Special:Search/Python_programming"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/23px-Wiktionary-logo-en.svg.png" width="23" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/35px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/46px-Wiktionary-logo-en.svg.png 2x" /></a></div>
+</div>
+</td>
+</tr>
+</table>
+</center>
+<div style="clear:both;"></div>
+</div>
+</div>
+<div align="center" class="hlist" style="clear:both; padding:0.25em 0 0.5em;">
+<ul>
+<li><b>What are <a href="Wikipedia_Portal" title="Wikipedia:Portal">portals</a>?</b></li>
+<li><b><a href="Portal_Contents/Portals" title="Portal:Contents/Portals">List of portals</a></b></li>
+<li><b><a href="Portal_Featured_portals" title="Portal:Featured portals">Featured portals</a></b></li>
+</ul>
+</div>
+</div>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1345/1000000
+Preprocessor generated node count: 4024/1500000
+Post-expand include size: 34801/2048000 bytes
+Template argument size: 3915/2048000 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:12384590-0!*!0!*!*!4!* and timestamp 20130204150237 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Portal_Python_programming&oldid=435423255.php.html">http://en.wikipedia.org/w/index.php?title=Portal:Python_programming&amp;oldid=435423255</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Python_(programming_language)" title="Category:Python (programming language)">Python (programming language)</a></li><li><a href="Category_Computing_portals" title="Category:Computing portals">Computing portals</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Portals_needing_attention" title="Category:Portals needing attention">Portals needing attention</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Portal_Python+programming&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Portal_Python+programming.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-portal" class="selected"><span><a href="index.html" >Portal</a></span></li>
+					<li  id="ca-talk"><span><a href="Portal_talk_Python_programming"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Portal_Python_programming&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Portal_Python_programming&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Portal_Python_programming" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Portal_Python_programming" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Portal_Python_programming&oldid=435423255.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Portal_Python_programming&action=info.php.html">Page information</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Portal_Python+programming.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Portal_Python+programming&oldid=435423255&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Portal_Python_programming&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 21 June 2011 at 08:21.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Portal:Python_programming" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.categoryTree","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","mobile.desktop","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1100 in 0.126 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

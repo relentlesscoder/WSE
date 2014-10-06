@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Algebraic topology - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Algebraic_topology&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Algebraic_topology&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algebraic_topology","wgTitle":"Algebraic topology","wgCurRevisionId":533995338,"wgArticleId":38801,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from July 2011","Algebraic topology"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Algebraic_topology","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"722133e35c4dec77cbba5b7952c585ff","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":38801,"title":"Algebraic topology","namespace":0,"categories":["Algebraic topology","All articles with unsourced statements","Articles with unsourced statements from July 2011"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Algebraic_topology skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Algebraic topology</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For the topology of pointwise convergence, see <a href="Algebraic_topology_(object)" title="Algebraic topology (object)">Algebraic topology (object)</a>.</div>
+<p><b>Algebraic topology</b> is a branch of <a href="Mathematics" title="Mathematics">mathematics</a> which uses tools from <a href="Abstract_algebra" title="Abstract algebra">abstract algebra</a> to study <a href="Topological_space" title="Topological space">topological spaces</a>. The basic goal is to find algebraic <a href="Invariant_(mathematics)" title="Invariant (mathematics)">invariants</a> that <a href="Classification_theorem" title="Classification theorem">classify</a> topological spaces <a href="Up_to" title="Up to">up to</a> <a href="Homeomorphism" title="Homeomorphism">homeomorphism</a>, though usually most classify up to <a href="Homotopy#Homotopy_equivalence_and_null-homotopy" title="Homotopy">homotopy equivalence</a>.</p>
+<p>Although algebraic topology primarily uses algebra to study topological problems, using topology to solve algebraic problems is sometimes also possible. Algebraic topology, for example, allows for a convenient proof that any subgroup of a <a href="Free_group" title="Free group">free group</a> is again a free group.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#The_method_of_algebraic_invariants"><span class="tocnumber">1</span> <span class="toctext">The method of algebraic invariants</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Setting_in_category_theory"><span class="tocnumber">2</span> <span class="toctext">Setting in category theory</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Results_on_homology"><span class="tocnumber">3</span> <span class="toctext">Results on homology</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Applications_of_algebraic_topology"><span class="tocnumber">4</span> <span class="toctext">Applications of algebraic topology</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Notable_algebraic_topologists"><span class="tocnumber">5</span> <span class="toctext">Notable algebraic topologists</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Important_theorems_in_algebraic_topology"><span class="tocnumber">6</span> <span class="toctext">Important theorems in algebraic topology</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Further_reading"><span class="tocnumber">10</span> <span class="toctext">Further reading</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=1.php.html" title="Edit section: The method of algebraic invariants">edit</a>]</span> <span class="mw-headline" id="The_method_of_algebraic_invariants">The method of algebraic invariants</span></h2>
+<p>An older name for the subject was <a href="Combinatorial_topology" title="Combinatorial topology">combinatorial topology</a>, implying an emphasis on how a space X was constructed from simpler ones<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2011">citation needed</span></a></i>]</sup> (the modern standard tool for such construction is the <a href="CW_complex" title="CW complex">CW-complex</a>). The basic method now applied in algebraic topology is to investigate spaces via algebraic invariants by mapping spaces, for example, to <a href="Group_(mathematics)" title="Group (mathematics)">groups</a> which have a great deal of manageable structure in a way that respects the relation of <a href="Homeomorphism" title="Homeomorphism">homeomorphism</a> (or more general <a href="Homotopy" title="Homotopy">homotopy</a>) of spaces. This allows one to recast statements about topological spaces into statements about groups, which are often easier to prove.</p>
+<p>Two major ways in which this can be done are through <a href="Fundamental_group" title="Fundamental group">fundamental groups</a>, or more generally <a href="Homotopy_theory" title="Homotopy theory" class="mw-redirect">homotopy theory</a>, and through <a href="Homology_(mathematics)" title="Homology (mathematics)">homology</a> and <a href="Cohomology" title="Cohomology">cohomology</a> groups. The fundamental groups give us basic information about the structure of a topological space, but they are often <a href="Abelian_group" title="Abelian group">nonabelian</a> and can be difficult to work with. The fundamental group of a (finite) <a href="Simplicial_complex" title="Simplicial complex">simplicial complex</a> does have a finite <a href="Presentation_of_a_group" title="Presentation of a group">presentation</a>.</p>
+<p>Homology and cohomology groups, on the other hand, are abelian and in many important cases finitely generated. <a href="Finitely_generated_abelian_group" title="Finitely generated abelian group" class="mw-redirect">Finitely generated abelian groups</a> are completely classified and are particularly easy to work with.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=2.php.html" title="Edit section: Setting in category theory">edit</a>]</span> <span class="mw-headline" id="Setting_in_category_theory">Setting in category theory</span></h2>
+<p>In general, all constructions of algebraic topology are <a href="Category_theory" title="Category theory">functorial</a>; the notions of <a href="Category_(mathematics)" title="Category (mathematics)">category</a>, <a href="Functor" title="Functor">functor</a> and <a href="Natural_transformation" title="Natural transformation">natural transformation</a> originated here. Fundamental groups and homology and cohomology groups are not only <i>invariants</i> of the underlying topological space, in the sense that two topological spaces which are <a href="Homeomorphic" title="Homeomorphic" class="mw-redirect">homeomorphic</a> have the same associated groups, but their associated morphisms also correspond — a continuous mapping of spaces induces a <a href="Group_homomorphism" title="Group homomorphism">group homomorphism</a> on the associated groups, and these homomorphisms can be used to show non-existence (or, much more deeply, existence) of mappings.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=3.php.html" title="Edit section: Results on homology">edit</a>]</span> <span class="mw-headline" id="Results_on_homology">Results on homology</span></h2>
+<p>Several useful results follow immediately from working with finitely generated abelian groups. The free rank of the <i>n</i>-th homology group of a simplicial complex is equal to the <i>n</i>-th <a href="Betti_number" title="Betti number">Betti number</a>, so one can use the homology groups of a simplicial complex to calculate its <a href="Euler-Poincar%C3%A9_characteristic" title="Euler-Poincaré characteristic" class="mw-redirect">Euler-Poincaré characteristic</a>. As another example, the top-dimensional integral homology group of a closed <a href="Manifold" title="Manifold">manifold</a> detects <a href="Orientable" title="Orientable" class="mw-redirect">orientability</a>: this group is isomorphic to either the integers or 0, according as the manifold is orientable or not. Thus, a great deal of topological information is encoded in the homology of a given topological space.</p>
+<p>Beyond simplicial homology, which is defined only for simplicial complexes, one can use the differential structure of <a href="Differentiable_manifold" title="Differentiable manifold">smooth manifolds</a> via <a href="De_Rham_cohomology" title="De Rham cohomology">de Rham cohomology</a>, or <a href="%C4%8Cech_cohomology" title="Čech cohomology">Čech</a> or <a href="Sheaf_cohomology" title="Sheaf cohomology">sheaf cohomology</a> to investigate the solvability of <a href="Differential_equation" title="Differential equation">differential equations</a> defined on the manifold in question. <a href="De_Rham" title="De Rham" class="mw-redirect">De Rham</a> showed that all of these approaches were interrelated and that, for a closed, oriented manifold, the Betti numbers derived through simplicial homology were the same Betti numbers as those derived through de Rham cohomology. This was extended in the 1950s, when Eilenberg and Steenrod generalized this approach. They defined homology and cohomology as <a href="Functors" title="Functors" class="mw-redirect">functors</a> equipped with <a href="Natural_transformations" title="Natural transformations" class="mw-redirect">natural transformations</a> subject to certain axioms (e.g., a <a href="Weak_equivalence" title="Weak equivalence">weak equivalence</a> of spaces passes to an isomorphism of homology groups), verified that all existing (co)homology theories satisfied these axioms, and then proved that such an axiomatization uniquely characterized the theory.</p>
+<p>A new approach uses a functor from <a href="Filtration_(mathematics)" title="Filtration (mathematics)">filtered</a> spaces to crossed complexes defined directly and homotopically using <a href="Homotopy_groups#Relative_homotopy_groups" title="Homotopy groups" class="mw-redirect">relative homotopy groups</a>; a higher homotopy <a href="Seifert%E2%80%93van_Kampen_theorem" title="Seifert–van Kampen theorem">van Kampen theorem</a> proved for this functor enables basic results in algebraic topology, especially on the border between homology and homotopy, to be obtained without using <a href="Singular_homology" title="Singular homology">singular homology</a> or <a href="Simplicial_approximation_theorem" title="Simplicial approximation theorem">simplicial approximation</a>. This approach is also called <a href="Higher_dimensional_algebra" title="Higher dimensional algebra" class="mw-redirect">nonabelian algebraic topology</a>, and generalises to higher dimensions ideas coming from the fundamental group.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=4.php.html" title="Edit section: Applications of algebraic topology">edit</a>]</span> <span class="mw-headline" id="Applications_of_algebraic_topology">Applications of algebraic topology</span></h2>
+<p>Classic applications of algebraic topology include:</p>
+<ul>
+<li>The <a href="Brouwer_fixed_point_theorem" title="Brouwer fixed point theorem" class="mw-redirect">Brouwer fixed point theorem</a>: every <a href="Continuous_function" title="Continuous function">continuous</a> map from the unit <a href="Disk_(mathematics)" title="Disk (mathematics)"><i>n</i>-disk</a> to itself has a fixed point.</li>
+<li>The <a href="N-sphere" title="N-sphere"><i>n</i>-sphere</a> admits a nowhere-vanishing continuous unit <a href="Vector_fields_on_spheres" title="Vector fields on spheres">vector field</a> if and only if <i>n</i> is odd. (For <i>n</i>&#160;=&#160;2, this is sometimes called the "<a href="Hairy_ball_theorem" title="Hairy ball theorem">hairy ball theorem</a>".)</li>
+<li>The <a href="Borsuk%E2%80%93Ulam_theorem" title="Borsuk–Ulam theorem">Borsuk–Ulam theorem</a>: any continuous map from the <i>n</i>-sphere to Euclidean <i>n</i>-space identifies at least one pair of antipodal points.</li>
+<li>Any subgroup of a <a href="Free_group" title="Free group">free group</a> is free. This result is quite interesting, because the statement is purely algebraic yet the simplest proof is topological. Namely, any free group <i>G</i> may be realized as the fundamental group of a <a href="Graph_(mathematics)" title="Graph (mathematics)">graph</a> <i>X</i>. The main theorem on <a href="Covering_space" title="Covering space">covering spaces</a> tells us that every subgroup <i>H</i> of <i>G</i> is the fundamental group of some covering space <i>Y</i> of <i>X</i>; but every such <i>Y</i> is again a graph. Therefore its fundamental group <i>H</i> is free. On the other hand this type of application is also handled more simply by the use of covering morphisms of <a href="Groupoids" title="Groupoids" class="mw-redirect">groupoids</a>, and that technique has yielded subgroup theorems not yet proved by methods of algebraic topology. (See the book by Higgins listed under groupoids.)</li>
+<li><a href="Topological_combinatorics" title="Topological combinatorics">Topological combinatorics</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=5.php.html" title="Edit section: Notable algebraic topologists">edit</a>]</span> <span class="mw-headline" id="Notable_algebraic_topologists">Notable algebraic topologists</span></h2>
+<div style="-moz-column-count:3; column-count:3;">
+<ul>
+<li><a href="Frank_Adams" title="Frank Adams">Frank Adams</a></li>
+<li><a href="Armand_Borel" title="Armand Borel">Armand Borel</a></li>
+<li><a href="Karol_Borsuk" title="Karol Borsuk">Karol Borsuk</a></li>
+<li><a href="Luitzen_Egbertus_Jan_Brouwer" title="Luitzen Egbertus Jan Brouwer">Luitzen Egbertus Jan Brouwer</a></li>
+<li><a href="William_Browder_(mathematician)" title="William Browder (mathematician)">William Browder</a></li>
+<li><a href="Ronald_Brown_(mathematician)" title="Ronald Brown (mathematician)">Ronald Brown (mathematician)</a></li>
+<li><a href="Henri_Cartan" title="Henri Cartan">Henri Cartan</a></li>
+<li><a href="Charles_Ehresmann" title="Charles Ehresmann">Charles Ehresmann</a></li>
+<li><a href="Samuel_Eilenberg" title="Samuel Eilenberg">Samuel Eilenberg</a></li>
+<li><a href="Hans_Freudenthal" title="Hans Freudenthal">Hans Freudenthal</a></li>
+<li><a href="Peter_Freyd" title="Peter Freyd" class="mw-redirect">Peter Freyd</a></li>
+<li><a href="Pierre_Gabriel" title="Pierre Gabriel">Pierre Gabriel</a></li>
+<li><a href="Alexander_Grothendieck" title="Alexander Grothendieck">Alexander Grothendieck</a></li>
+<li><a href="Friedrich_Hirzebruch" title="Friedrich Hirzebruch">Friedrich Hirzebruch</a></li>
+<li><a href="Heinz_Hopf" title="Heinz Hopf">Heinz Hopf</a></li>
+<li><a href="../Michael_J._Hopkins" title="Michael J. Hopkins">Michael J. Hopkins</a></li>
+<li><a href="Witold_Hurewicz" title="Witold Hurewicz">Witold Hurewicz</a></li>
+<li><a href="Egbert_van_Kampen" title="Egbert van Kampen">Egbert van Kampen</a></li>
+<li><a href="Daniel_Kan" title="Daniel Kan">Daniel Kan</a></li>
+<li><a href="Hermann_K%C3%BCnneth" title="Hermann Künneth">Hermann Künneth</a></li>
+<li><a href="Solomon_Lefschetz" title="Solomon Lefschetz">Solomon Lefschetz</a></li>
+<li><a href="Jean_Leray" title="Jean Leray">Jean Leray</a></li>
+<li><a href="Saunders_Mac_Lane" title="Saunders Mac Lane">Saunders Mac Lane</a></li>
+<li><a href="Mark_Mahowald" title="Mark Mahowald">Mark Mahowald</a></li>
+<li><a href="../J._Peter_May" title="J. Peter May">J. Peter May</a></li>
+<li><a href="John_Coleman_Moore" title="John Coleman Moore">John Coleman Moore</a></li>
+<li><a href="Jack_Morava" title="Jack Morava">Jack Morava</a></li>
+<li><a href="Emmy_Noether" title="Emmy Noether">Emmy Noether</a></li>
+<li><a href="Sergei_Novikov_(mathematician)" title="Sergei Novikov (mathematician)">Sergei Novikov</a></li>
+<li><a href="Lev_Pontryagin" title="Lev Pontryagin">Lev Pontryagin</a></li>
+<li><a href="Nicolae_Popescu" title="Nicolae Popescu">Nicolae Popescu</a></li>
+<li><a href="Mikhail_Postnikov" title="Mikhail Postnikov">Mikhail Postnikov</a></li>
+<li><a href="Daniel_Quillen" title="Daniel Quillen">Daniel Quillen</a></li>
+<li><a href="Jean-Pierre_Serre" title="Jean-Pierre Serre">Jean-Pierre Serre</a></li>
+<li><a href="Stephen_Smale" title="Stephen Smale">Stephen Smale</a></li>
+<li><a href="Norman_Steenrod" title="Norman Steenrod">Norman Steenrod</a></li>
+<li><a href="Dennis_Sullivan" title="Dennis Sullivan">Dennis Sullivan</a></li>
+<li><a href="Ren%C3%A9_Thom" title="René Thom">René Thom</a></li>
+<li><a href="Hiroshi_Toda" title="Hiroshi Toda">Hiroshi Toda</a></li>
+<li><a href="Leopold_Vietoris" title="Leopold Vietoris">Leopold Vietoris</a></li>
+<li><a href="Hassler_Whitney" title="Hassler Whitney">Hassler Whitney</a></li>
+<li><a href="../J._H._C._Whitehead" title="J. H. C. Whitehead">J. H. C. Whitehead</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=6.php.html" title="Edit section: Important theorems in algebraic topology">edit</a>]</span> <span class="mw-headline" id="Important_theorems_in_algebraic_topology">Important theorems in algebraic topology</span></h2>
+<div style="-moz-column-count:3; column-count:3;">
+<ul>
+<li><a href="Borsuk%E2%80%93Ulam_theorem" title="Borsuk–Ulam theorem">Borsuk–Ulam theorem</a></li>
+<li><a href="Brouwer_fixed_point_theorem" title="Brouwer fixed point theorem" class="mw-redirect">Brouwer fixed point theorem</a></li>
+<li><a href="Cellular_approximation" title="Cellular approximation">Cellular approximation theorem</a></li>
+<li><a href="Eilenberg%E2%80%93Zilber_theorem" title="Eilenberg–Zilber theorem">Eilenberg–Zilber theorem</a></li>
+<li><a href="Freudenthal_suspension_theorem" title="Freudenthal suspension theorem">Freudenthal suspension theorem</a></li>
+<li><a href="Hurewicz_theorem" title="Hurewicz theorem">Hurewicz theorem</a></li>
+<li><a href="K%C3%BCnneth_theorem" title="Künneth theorem">Künneth theorem</a></li>
+<li><a href="Poincar%C3%A9_duality" title="Poincaré duality">Poincaré duality theorem</a></li>
+<li><a href="Universal_coefficient_theorem" title="Universal coefficient theorem">Universal coefficient theorem</a></li>
+<li><a href="Van_Kampen's_theorem" title="Van Kampen's theorem" class="mw-redirect">Van Kampen's theorem</a></li>
+<li><a rel="nofollow" class="external text" href="http://planetphysics.org/encyclopedia/GeneralizedVanKampenTheoremsHDGVKT.html#BHKP">Generalized van Kampen's theorems</a></li>
+<li><a href="../../w/index-title=Higher_homotopy,_generalized_van_Kampen's_theorem&action=edit&redlink=1.php.html" class="new" title="Higher homotopy, generalized van Kampen's theorem (page does not exist)">Higher homotopy, generalized van Kampen's theorem</a><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></li>
+<li><a href="Whitehead's_theorem" title="Whitehead's theorem" class="mw-redirect">Whitehead's theorem</a></li>
+</ul>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=7.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<table class="multicol" style="border-collapse: collapse; padding: 0px; border: 0px; background:transparent; width:100%;">
+<tr>
+<td width="33%" align="left" valign="top">
+<ul>
+<li><a href="Algebraic_K-theory" title="Algebraic K-theory">Algebraic K-theory</a></li>
+<li><a href="Cohomology_theory" title="Cohomology theory" class="mw-redirect">Cohomology theory</a></li>
+<li><a href="Exact_sequence" title="Exact sequence">Exact sequence</a></li>
+<li><a href="Fundamental_group" title="Fundamental group">Fundamental group</a></li>
+<li><a href="Grothendieck_topology" title="Grothendieck topology">Grothendieck topology</a></li>
+<li><a href="Groupoid" title="Groupoid">Groupoid</a></li>
+<li><a href="Higher_category_theory" title="Higher category theory">Higher category theory</a></li>
+<li><a href="Higher_dimensional_algebra" title="Higher dimensional algebra" class="mw-redirect">Higher dimensional algebra</a></li>
+<li><a href="Homological_algebra" title="Homological algebra">Homological algebra</a></li>
+<li><a href="Homology_theory" title="Homology theory">Homology theory</a></li>
+</ul>
+</td>
+<td align="left" valign="top">
+<ul>
+<li><a href="Homotopy" title="Homotopy">Homotopy</a></li>
+<li><a href="K-theory" title="K-theory">K-theory</a></li>
+<li><a href="Lie_algebroid" title="Lie algebroid">Lie algebroid</a></li>
+<li><a href="Lie_groupoid" title="Lie groupoid">Lie groupoid</a></li>
+<li><a href="List_of_publications_in_mathematics#Algebraic_topology" title="List of publications in mathematics" class="mw-redirect">Important publications in algebraic topology</a></li>
+<li><a href="Serre_spectral_sequence" title="Serre spectral sequence">Serre spectral sequence</a></li>
+<li><a href="Sheaf_(mathematics)" title="Sheaf (mathematics)">Sheaf</a></li>
+<li><a href="TQFT" title="TQFT" class="mw-redirect">Topological quantum field theory</a></li>
+<li><a href="Van_Kampen's_theorem" title="Van Kampen's theorem" class="mw-redirect">Van Kampen's theorem</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=8.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFR._Brown.2C_K._A._Hardie.2C_K._H._Kamps_and_T._Porter2002">R. Brown, K. A. Hardie, K. H. Kamps and T. Porter (2002), "A homotopy double groupoid of a Hausdorff space", <i>Theory and Applications of Categories</i> <b>10</b>: 71–93.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFR._Brown.2C_K._H._Kamps_and_T._Porter2005">R. Brown, K. H. Kamps and T. Porter (2005), <i>Theory and Applications of Categories</i> <b>14</b> (9): 200–220.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=9.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Algebraic_topology" class="extiw" title="commons:Category:Algebraic topology">Algebraic topology</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><span class="citation" id="CITEREFGreenberg1981">Greenberg, Marvin J. and John R. Harper. (1981), <i>Algebraic Topology: A First Course, Revised edition</i>, Mathematics Lecture Note Series, Westview/Perseus, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/9780805335576" title="Special:BookSources/9780805335576">9780805335576</a></span>. A functorial, algebraic approach originally by Greenberg with geometric flavoring added by Harper.</li>
+<li><span class="citation" id="CITEREFBredon1993">Bredon, Glen E. (1993), <a rel="nofollow" class="external text" href="http://books.google.com/?id=G74V6UzL_PUC&printsec=frontcover&dq=bredon+topology+and+geometry"><i>Topology and Geometry</i></a>, Graduate Texts in Mathematics 139, Springer, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-97926-3" title="Special:BookSources/0-387-97926-3">0-387-97926-3</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://books.google.com/?id=G74V6UzL_PUC&printsec=frontcover&dq=bredon+topology+and+geometry">http://books.google.com/?id=G74V6UzL_PUC&amp;printsec=frontcover&amp;dq=bredon+topology+and+geometry</a></span><span class="reference-accessdate">, retrieved 2008-04-01</span></span>.</li>
+<li><span class="citation" id="CITEREFHatcher2002">Hatcher, Allen (2002), <a rel="nofollow" class="external text" href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html"><i>Algebraic Topology</i></a>, Cambridge: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-79540-0" title="Special:BookSources/0-521-79540-0">0-521-79540-0</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html">http://www.math.cornell.edu/~hatcher/AT/ATpage.html</a></span></span>. A modern, geometrically flavoured introduction to algebraic topology.</li>
+<li><span class="citation" id="CITEREFMaunder1970">Maunder, C. R. F. (1970), <i>Algebraic Topology</i>, London: Van Nostrand Reinhold, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-486-69131-4" title="Special:BookSources/0-486-69131-4">0-486-69131-4</a></span>.</li>
+<li>tom Dieck, T., Algebraic topology. EMS Textbooks in Mathematics. European Mathematical Society (EMS), Z\"urich (2008).</li>
+<li>R. Brown and A. Razak, <i>A van Kampen theorem for unions of non-connected spaces</i>, Archiv. Math. 42 (1984) 85–88. "Gives a general theorem on the <a href="Fundamental_groupoid" title="Fundamental groupoid" class="mw-redirect">fundamental groupoid</a> with a set of base points of a space which is the union of open sets."</li>
+<li>P. J. Higgins, <a rel="nofollow" class="external text" href="http://138.73.27.39/tac/reprints/articles/7/tr7abs.html"><i>Categories and groupoids</i> (1971) Van Nostrand-Reinhold.</a></li>
+<li>Ronald Brown, <i><a rel="nofollow" class="external text" href="http://www.bangor.ac.uk/r.brown/hdaweb2.html">Higher dimensional group theory</a></i> (2007) <i>(Gives a broad view of higher dimensional van Kampen theorems involving multiple groupoids)</i>.</li>
+<li>E. R. van Kampen. <i>On the connection between the fundamental groups of some related spaces.</i> American Journal of Mathematics, vol. 55 (1933), pp.&#160;261–267.</li>
+<li>R. Brown and P.J. Higgins, <i>On the connection between the second relative homotopy groups of some related spaces</i>, Proc. London Math. Soc. (3) 36 (1978) 193–212. "The first 2-dimensional version of van Kampen's theorem."</li>
+<li>R. Brown, P.J. Higgins, and R. Sivera. <a rel="nofollow" class="external text" href="http://www.bangor.ac.uk/~mas010/nonab-a-t.html"><i>Non-Abelian Algebraic Topology: filtered spaces, crossed complexes, cubical higher homotopy groupoids</i></a>; European Mathematical Society Tracts in Mathematics Vol. 15, 2011, <a rel="nofollow" class="external autonumber" href="http://www.bangor.ac.uk/~mas010/nonab-a-t.html">[1]</a> This provides a homotopy theoretic approach to basic algebraic topology, without needing a basis in <a href="Singular_homology" title="Singular homology">singular homology</a>, or the method of simplicial approximation. It contains a lot of material on <a href="Crossed_module" title="Crossed module">crossed modules</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/?op=getobj&from=objects&id=3947">Van Kampen's theorem</a>, <a href="PlanetMath" title="PlanetMath">PlanetMath.org</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://planetmath.org/?op=getobj&from=objects&id=5576">Van Kampen's theorem result</a>, <a href="PlanetMath" title="PlanetMath">PlanetMath.org</a>.</li>
+<li>R. Brown, K. Hardie, H. Kamps, T. Porter: The homotopy double groupoid of a Hausdorff space., <i>Theory Appl. Categories</i>, <b>10</b>:71–-93 (2002).</li>
+<li>Dylan G. L. Allegretti, <a rel="nofollow" class="external text" href="http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2008.html"><i>Simplicial Sets and van Kampen's Theorem</i></a> <i>(Discusses generalized versions of van Kampen's theorem applied to topological spaces and simplicial sets).</i></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Algebraic_topology&action=edit&section=10.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li>Allen Hatcher, <a rel="nofollow" class="external text" href="http://www.math.cornell.edu/~hatcher/AT/ATpage.html"><i>Algebraic topology.</i></a> (2002) Cambridge University Press, Cambridge, xii+544 pp.&#160;<a href="Special_BookSources/052179160X" class="internal mw-magiclink-isbn">ISBN 0-521-79160-X</a> and <a href="Special_BookSources/0521795400" class="internal mw-magiclink-isbn">ISBN 0-521-79540-0</a>.</li>
+<li><span class="citation" id="CITEREFMay1999"><a href="../J._Peter_May" title="J. Peter May">May, J. P.</a> (1999), <a rel="nofollow" class="external text" href="http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf"><i>A Concise Course in Algebraic Topology</i></a>, U. Chicago Press, Chicago<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf">http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf</a></span><span class="reference-accessdate">, retrieved 2008-09-27</span></span>.(Section 2.7 provides a category-theoretic presentation of the theorem as a colimit in the category of groupoids)<i>.</i></li>
+<li><a href="Higher_dimensional_algebra" title="Higher dimensional algebra" class="mw-redirect">Higher dimensional algebra</a></li>
+</ul>
+<ul>
+<li>Ronald Brown, <i><a rel="nofollow" class="external text" href="http://www.bangor.ac.uk/r.brown/topgpds.html">Topology and groupoids</a></i> (2006) Booksurge LLC <a href="Special_BookSources/1419627228" class="internal mw-magiclink-isbn">ISBN 1-4196-2722-8</a>.</li>
+</ul>
+<p><br /></p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 5004/1000000
+Preprocessor generated node count: 26842/1500000
+Post-expand include size: 37842/2048000 bytes
+Template argument size: 13300/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:38801-0!*!0!!en!4!* and timestamp 20130127141933 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Algebraic_topology&oldid=533995338.php.html">http://en.wikipedia.org/w/index.php?title=Algebraic_topology&amp;oldid=533995338</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Algebraic_topology" title="Category:Algebraic topology">Algebraic topology</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_July_2011" title="Category:Articles with unsourced statements from July 2011">Articles with unsourced statements from July 2011</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Algebraic+topology&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Algebraic+topology.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Algebraic_topology"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Algebraic_topology&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Algebraic_topology&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Algebraic_topology" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Algebraic_topology" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Algebraic_topology&oldid=533995338.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Algebraic_topology&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Algebraic_topology&id=533995338.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Algebraic+topology.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Algebraic+topology&oldid=533995338&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Algebraic_topology&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B7%D9%88%D8%A8%D9%88%D9%84%D9%88%D8%AC%D9%8A%D8%A7_%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D9%8A%D8%A9" title="الطوبولوجيا الجبرية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Алгебрична топология" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Topologia_algebraica" title="Topologia algebraica" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Algebraick%C3%A1_topologie" title="Algebraická topologie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Algebraische_Topologie" title="Algebraische Topologie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Topolog%C3%ADa_algebraica" title="Topología algebraica" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Algebra_topologio" title="Algebra topologio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AA%D9%88%D9%BE%D9%88%D9%84%D9%88%DA%98%DB%8C_%D8%AC%D8%A8%D8%B1%DB%8C" title="توپولوژی جبری" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Topologie_alg%C3%A9brique" title="Topologie algébrique" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Algebarska_topologija" title="Algebarska topologija" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Topologia_algebrica" title="Topologia algebrica" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%98%D7%95%D7%A4%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%99%D7%AA" title="טופולוגיה אלגברית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9A%E1%83%92%E1%83%94%E1%83%91%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A2%E1%83%9D%E1%83%9E%E1%83%9D%E1%83%9A%E1%83%9D%E1%83%92%E1%83%98%E1%83%90" title="ალგებრული ტოპოლოგია" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Algebra%C3%AFsche_topologie" title="Algebraïsche topologie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E4%BB%A3%E6%95%B0%E7%9A%84%E4%BD%8D%E7%9B%B8%E5%B9%BE%E4%BD%95%E5%AD%A6" title="代数的位相幾何学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Algebraisk_topologi" title="Algebraisk topologi" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Topologia_algebraiczna" title="Topologia algebraiczna" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Topologia_alg%C3%A9brica" title="Topologia algébrica" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%8F" title="Алгебраическая топология" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Algebraick%C3%A1_topol%C3%B3gia" title="Algebraická topológia" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D0%B0%D1%80%D1%81%D0%BA%D0%B0_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%98%D0%B0" title="Алгебарска топологија" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Algebarska_topologija" title="Algebarska topologija" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Algebrallinen_topologia" title="Algebrallinen topologia" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Cebirsel_topoloji" title="Cebirsel topoloji" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F" title="Алгебрична топологія" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/T%C3%B4_p%C3%B4_%C4%91%E1%BA%A1i_s%E1%BB%91" title="Tô pô đại số" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E4%BB%A3%E6%95%B0%E6%8B%93%E6%89%91" title="代数拓扑" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 20 January 2013 at 12:43.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Algebraic_topology" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1045 in 0.114 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

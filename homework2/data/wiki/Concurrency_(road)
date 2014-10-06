@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Concurrency (road) - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Concurrency_(road)&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Concurrency_(road)&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Concurrency_(road)","wgTitle":"Concurrency (road)","wgCurRevisionId":537549531,"wgArticleId":1237887,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from June 2008","All accuracy disputes","Articles with disputed statements from November 2008","Articles with unsourced statements from August 2012","Commons category template with no category set","Road transport"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Concurrency_(road)","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"fb04bfbf0131ea12bbebe1343abaa62c","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":1237887,"title":"Concurrency (road)","namespace":0,"categories":["All accuracy disputes","All articles with unsourced statements","Articles with disputed statements from November 2008","Articles with unsourced statements from August 2012","Articles with unsourced statements from June 2008","Commons category template with no category set","Road transport"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Concurrency_road skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Concurrency (road)</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:I-93_frontage_road_NB_at_Haul_Rd.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/I-93_frontage_road_NB_at_Haul_Rd.jpg/200px-I-93_frontage_road_NB_at_Haul_Rd.jpg" width="200" height="295" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/I-93_frontage_road_NB_at_Haul_Rd.jpg/300px-I-93_frontage_road_NB_at_Haul_Rd.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/I-93_frontage_road_NB_at_Haul_Rd.jpg/400px-I-93_frontage_road_NB_at_Haul_Rd.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:I-93_frontage_road_NB_at_Haul_Rd.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Signs indicating a concurrency of <a href="Interstate_93" title="Interstate 93">Interstate 93</a>, <a href="../U.S._Route_1" title="U.S. Route 1">U.S. Route 1</a>, and <a href="Route_3_(Massachusetts)" title="Route 3 (Massachusetts)" class="mw-redirect">Massachusetts Route 3</a> in <a href="Boston,_Massachusetts" title="Boston, Massachusetts" class="mw-redirect">Boston</a></div>
+</div>
+</div>
+<p>A <b>concurrency</b>, <b>overlap</b>, or <b>coincidence</b> in a road network is an instance of one physical road bearing two or more different <a href="Highway" title="Highway">highway</a>, <a href="Motorway" title="Motorway" class="mw-redirect">motorway</a>, or other <a href="Road_number" title="Road number" class="mw-redirect">route numbers</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> When it is two <a href="Freeway" title="Freeway" class="mw-redirect">freeways</a> that share the same <a href="Right-of-way_(transportation)" title="Right-of-way (transportation)">right-of-way</a>, it is sometimes called a <b>common section</b> or <b>commons</b>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p><a href="Roadgeek" title="Roadgeek">Road enthusiasts</a> often use the term <b>multiplex</b>—as well as the more specific <b>duplex</b> and <b>triplex</b>—to refer to such instances although those type are the more common instances.</p>
+<p>A concurrency is a relatively common phenomenon: where two routes must pass through a single geological feature, or crowded city streets, it is often both economically and practically advantageous for them both to be accommodated on one road. Though in some cases, concurrencies are avoided through various means.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Examples_by_nation"><span class="tocnumber">1</span> <span class="toctext">Examples by nation</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#United_States"><span class="tocnumber">1.1</span> <span class="toctext">United States</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#United_Kingdom"><span class="tocnumber">1.2</span> <span class="toctext">United Kingdom</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Canada"><span class="tocnumber">1.3</span> <span class="toctext">Canada</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Israel"><span class="tocnumber">1.4</span> <span class="toctext">Israel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Wrong-way_concurrency"><span class="tocnumber">2</span> <span class="toctext">Wrong-way concurrency</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Extremes"><span class="tocnumber">3</span> <span class="toctext">Extremes</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Consolidation_plans"><span class="tocnumber">4</span> <span class="toctext">Consolidation plans</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Effect_on_exit_numbers"><span class="tocnumber">5</span> <span class="toctext">Effect on exit numbers</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=1.php.html" title="Edit section: Examples by nation">edit</a>]</span> <span class="mw-headline" id="Examples_by_nation">Examples by nation</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=2.php.html" title="Edit section: United States">edit</a>]</span> <span class="mw-headline" id="United_States">United States</span></h3>
+<p>In the <a href="United_States" title="United States">United States</a>, concurrencies are simply marked by placing signs for both routes on the same or adjacent posts. Occasionally a state will instead sign the road as "to" the less major route. An example of this is the concurrency between <a href="Maryland_Route_290" title="Maryland Route 290">Maryland Route 290</a> and <a href="Maryland_Route_291" title="Maryland Route 291">Maryland Route 291</a> in <a href="Kent_County,_Maryland" title="Kent County, Maryland">Kent County</a>, Maryland, where MD 290, the less major route, is signed as "to" MD 290 along MD 291, the more major route.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> Several states don't officially have any concurrencies, instead officially ending routes on each side of one.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from June 2008">citation needed</span></a></i>]</sup> In these states, concurrencies are typically poorly signed. In the mid-20th century, <a href="California" title="California">California</a> had numerous concurrencies, but the <a href="California_Legislature" title="California Legislature" class="mw-redirect">California Legislature</a> removed most concurrencies in a <a href="1964_state_highway_renumbering_(California)" title="1964 state highway renumbering (California)">comprehensive reform of highway numbering in 1964</a>. Another extreme example exists in <a href="North_Dakota" title="North Dakota">North Dakota</a> and <a href="Minnesota" title="Minnesota">Minnesota</a>. At <a href="Jamestown,_North_Dakota" title="Jamestown, North Dakota">Jamestown, North Dakota</a>, <a href="../U.S._Route_52" title="U.S. Route 52">U.S. Route 52</a> begins a concurrency with <a href="Interstate_94" title="Interstate 94">Interstate 94</a> for almost 350 miles, ending at St. Paul east of <a href="Interstate_35E_(Minnesota)" title="Interstate 35E (Minnesota)">Interstate 35E</a>. Despite being signed on maps, US&#160;52 is signed sporadically until the exit at either end of the concurrency.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Two-state_concurrency_near_Southwest_City,_Missouri.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Two-state_concurrency_near_Southwest_City,_Missouri.jpg/200px-Two-state_concurrency_near_Southwest_City,_Missouri.jpg" width="200" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Two-state_concurrency_near_Southwest_City%2C_Missouri.jpg/300px-Two-state_concurrency_near_Southwest_City%2C_Missouri.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/38/Two-state_concurrency_near_Southwest_City%2C_Missouri.jpg/400px-Two-state_concurrency_near_Southwest_City%2C_Missouri.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Two-state_concurrency_near_Southwest_City,_Missouri.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The concurrent eastern and northern termini of <a href="Oklahoma_State_Highway_20" title="Oklahoma State Highway 20">OK-20</a> and <a href="Arkansas_Highway_43" title="Arkansas Highway 43">AR-43</a> at <a href="Missouri_Route_43" title="Missouri Route 43">MO-43</a> near <a href="Southwest_City,_Missouri" title="Southwest City, Missouri">Southwest City</a>, <a href="Missouri" title="Missouri">Missouri</a></div>
+</div>
+</div>
+<p><br />
+A particularly unusual concurrency occurs along the <a href="Oklahoma" title="Oklahoma">Oklahoma</a>–<a href="Arkansas" title="Arkansas">Arkansas</a> state line. At the northern end of this border <a href="Oklahoma_State_Highway_20" title="Oklahoma State Highway 20">Oklahoma State Highway 20</a> runs concurrently with <a href="Arkansas_Highway_43" title="Arkansas Highway 43">Arkansas Highway 43</a> and the two roads run north–south along the boundary.</p>
+<p>Another unusual concurrency runs along the southern border of <a href="Delaware" title="Delaware">Delaware</a>. Near the southwestern corner of the state, the eastbound lane of <a href="Delaware_Route_54" title="Delaware Route 54" class="mw-redirect">Delaware Route 54</a> is physically located in <a href="Maryland" title="Maryland">Maryland</a> and is signed as <a href="Maryland_Route_54" title="Maryland Route 54" class="mw-redirect">Maryland Route 54</a>, while the westbound lane is in Delaware and is signed as Delaware Route 54. Route 54 at its western end eventually enters Maryland entirely and both directions are signed as a Maryland route at that point.</p>
+<p>In some states, a concurrency can occur between an <a href="Interstate_Highway_System" title="Interstate Highway System">Interstate</a> highway and a state toll road. For example, much of the <a href="New_Jersey_Turnpike" title="New Jersey Turnpike">New Jersey Turnpike</a> is concurrent with <a href="Interstate_95_in_New_Jersey" title="Interstate 95 in New Jersey">I-95</a>, and portions of the <a href="New_York_State_Thruway" title="New York State Thruway">New York State Thruway</a> overlap with Interstates <a href="Interstate_87" title="Interstate 87">87</a>, <a href="Interstate_287" title="Interstate 287">287</a>, <a href="Interstate_90" title="Interstate 90">90</a>, and <a href="Interstate_190_(New_York)" title="Interstate 190 (New York)">190</a>. The <a href="Massachusetts_Turnpike" title="Massachusetts Turnpike">Massachusetts Turnpike</a> is concurrent with <a href="Interstate_90_in_Massachusetts" title="Interstate 90 in Massachusetts" class="mw-redirect">I-90</a> for its entire length.</p>
+<p>Some Interstate highways are concurrent with a non-Interstate designation in their entirety. Often, the reason is that at the ending of the Interstate highway, the road transitions from freeway to semi-freeway (<a href="Limited-access_road" title="Limited-access road">expressway</a>) or surface street, and the non-Interstate designation continues on the changed road. Sometimes it can be within a segment of a long-distance freeway that zips through a major city.</p>
+<p>Here is a list of examples:</p>
+<ul>
+<li><a href="Interstate_99" title="Interstate 99">Interstate 99</a> in <a href="Pennsylvania" title="Pennsylvania">Pennsylvania</a>, concurrent with <a href="../U.S._Route_220" title="U.S. Route 220">U.S. Route 220</a> in its entirety.</li>
+<li><a href="Interstate_194_(Michigan)" title="Interstate 194 (Michigan)">I-194</a> in <a href="Michigan" title="Michigan">Michigan</a>, concurrent with <a href="M-66_(Michigan_highway)" title="M-66 (Michigan highway)">M-66</a> in its entirety.</li>
+<li>Not an actual Interstate, but (future) <a href="Interstate_22" title="Interstate 22">Interstate 22</a> is concurrent with <a href="../U.S._Route_78" title="U.S. Route 78">U.S. Route 78</a> in its entirety in <a href="Mississippi" title="Mississippi">Mississippi</a> and <a href="Alabama" title="Alabama">Alabama</a>.</li>
+</ul>
+<p>Also, in some cases, two Interstate highways can be concurrent. An example of this is the concurrency of Interstates <a href="Interstate_20" title="Interstate 20">20</a> and <a href="Interstate_59" title="Interstate 59">59</a> between <a href="Birmingham,_Alabama" title="Birmingham, Alabama">Birmingham, Alabama</a>, and <a href="Meridian,_Mississippi" title="Meridian, Mississippi">Meridian, Mississippi</a>. In other cases, instances of arc-shaped bypasses of medium-sized cities can involve concurrencies of Interstate Highways and other route types.</p>
+<p>A unique concurrency can be found in <a href="Greensboro,_North_Carolina" title="Greensboro, North Carolina">Greensboro</a>, North Carolina, where <a href="Interstate_40_in_North_Carolina" title="Interstate 40 in North Carolina">Interstate 40</a> runs concurrent with <a href="Interstate_85_Business_(North_Carolina)" title="Interstate 85 Business (North Carolina)">Business 85</a>. Business I-85 runs along the former alignment of <a href="Interstate_85_in_North_Carolina" title="Interstate 85 in North Carolina">I-85</a>, which has since been rerouted along the <a href="Greensboro_Urban_Loop" title="Greensboro Urban Loop">Greensboro Urban Loop</a>. I-40 was also rerouted along this loop in 2008, but reverted to its original routing shortly afterward.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=3.php.html" title="Edit section: United Kingdom">edit</a>]</span> <span class="mw-headline" id="United_Kingdom">United Kingdom</span></h3>
+<p>In the <a href="United_Kingdom" title="United Kingdom">United Kingdom</a>, it is common for major through routes to run concurrently with others. Only one road number—usually that of the more important route—is ever shown on road signs. However, the other road is either bracketed on the sign, implying that the major route leads to a junction with the minor route (which it will do at the end of the concurrency), or left off altogether. For example, the <a href="A82_road_(Great_Britain)" title="A82 road (Great Britain)" class="mw-redirect">A82</a> runs concurrently with the <a href="A85_road" title="A85 road">A85</a> for five miles (8&#160;km) in western <a href="Scotland" title="Scotland">Scotland</a>. Each route-confirmation sign-header gives the road number as "A82 (A85)". A counter-example is the concurrency of the <a href="A6_road_(Great_Britain)" title="A6 road (Great Britain)" class="mw-redirect">A6</a> and <a href="A591_road" title="A591 road">A591</a> south of <a href="Kendal" title="Kendal">Kendal</a>, where, unusually, a sign gives both roads equal status as "A591/A6".</p>
+<p>In central <a href="Scotland" title="Scotland">Scotland</a>, the <a href="M876_motorway" title="M876 motorway">M876</a> starts from the <a href="M80_motorway" title="M80 motorway">M80</a> and shares its middle section with the <a href="M9_motorway_(Scotland)" title="M9 motorway (Scotland)">M9</a>, so that the junction numbers on the M876 appear to run out of sequence: 8, 1, 2, 8, 7, 3—with only 1, 2 and 3 being actual M876 junction numbers.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=4.php.html" title="Edit section: Canada">edit</a>]</span> <span class="mw-headline" id="Canada">Canada</span></h3>
+<p>Concurrencies are also found in <a href="Canada" title="Canada">Canada</a>. In <a href="Manitoba" title="Manitoba">Manitoba</a>, the <a href="Trans-Canada_Highway" title="Trans-Canada Highway">Trans-Canada Highway</a> from <a href="Winnipeg" title="Winnipeg">Winnipeg</a> to <a href="Portage_La_Prairie" title="Portage La Prairie" class="mw-redirect">Portage La Prairie</a> is concurrently signed with <a href="Yellowhead_Highway" title="Yellowhead Highway">Yellowhead Highway</a>. In <a href="Ontario" title="Ontario">Ontario</a>, the <a href="Queen_Elizabeth_Way" title="Queen Elizabeth Way">Queen Elizabeth Way</a> and <a href="Highway_403_(Ontario)" title="Highway 403 (Ontario)" class="mw-redirect">Highway 403</a> run concurrently between <a href="Burlington,_Ontario" title="Burlington, Ontario">Burlington</a> and <a href="Oakville,_Ontario" title="Oakville, Ontario">Oakville</a>, forming the province's only concurrency between two <a href="400-series_highways_(Ontario)" title="400-series highways (Ontario)" class="mw-redirect">400-series highways</a>. <a href="King's_Highway_(Ontario)" title="King's Highway (Ontario)" class="mw-redirect">King's Highways</a> in Ontario have many concurrencies, as well as county roads that often share concurrent termini or run concurrently for short sections. These are often not signed as such, with the parent route being signed in place of both.</p>
+<p>Secondary highways in Ontario rarely ever form a concurrency, even with their own kind. <a href="Ontario_Highway_518" title="Ontario Highway 518">Highway 518</a> instead parallels the <a href="Ontario_Highway_11" title="Ontario Highway 11">Highway 11</a> freeway in less than a kilometer of it on Highway 11's former surface road as Ontario's secondary highways generally avoid freeway features, except interchanges at them, though some King's Highways run parallel to avoid concurrencies as well.</p>
+<p>Certain primary highways in <a href="New_Brunswick" title="New Brunswick">New Brunswick</a> form concurrencies. <a href="New_Brunswick_Route_7" title="New Brunswick Route 7">Route 7</a> runs concurrent with the <a href="New_Brunswick_Route_2" title="New Brunswick Route 2">Trans-Canada Highway</a> between Exits 294 and 306. <a href="New_Brunswick_Route_11" title="New Brunswick Route 11">Route 11</a> officially terminates at its junction with <a href="New_Brunswick_Route_15" title="New Brunswick Route 15">Route 15</a> near <a href="Shediac,_New_Brunswick" title="Shediac, New Brunswick" class="mw-redirect">Shediac</a>, but exit signs at Exit 467 of Route 2 show Route 11 running concurrent with Route 15 in both directions.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=5.php.html" title="Edit section: Israel">edit</a>]</span> <span class="mw-headline" id="Israel">Israel</span></h3>
+<p>Two <a href="Freeway" title="Freeway" class="mw-redirect">freeways</a>, the <a href="Highway_6_(Israel)" title="Highway 6 (Israel)">Trans-Israel Highway</a> (Highway 6), and <a href="Highway_1_(Israel)" title="Highway 1 (Israel)">Highway 1</a> run concurrently just east of <a href="Ben_Shemen_Interchange" title="Ben Shemen Interchange">Ben Shemen Interchange</a>. The concurrency is officially designated "Daniel Interchange", providing half of the possible interchange directions. It is a 1-mile (1.6&#160;km) segment consisting of eight lanes providing high-speed access between the two highways. Access from Highway&#160;1 west to Highway&#160;6 south and Highway&#160;6 north to Highway&#160;1 east is provided via <a href="Route_431_(Israel)" title="Route 431 (Israel)">Route&#160;431</a>, while access between Highway&#160;1 east to Highway&#160;6 north and Highway&#160;6 south to Highway&#160;1 west are provided at Ben Shemen Interchange. The other movements are provided through the concurrency.</p>
+<p>East of <a href="Ashdod" title="Ashdod">Ashdod</a>, <a href="Highway_3_(Israel)" title="Highway 3 (Israel)">Highway&#160;3</a> and <a href="Highway_40_(Israel)" title="Highway 40 (Israel)">Highway&#160;40</a>, both running north–south, converge and cross each other, running concurrently for 2.5 miles (4.0&#160;km) between Re'em Junction and <a href="Malakhi_Junction" title="Malakhi Junction">Malakhi Junction</a>. Southwest of <a href="Haifa" title="Haifa">Haifa</a>, the north–south <a href="Highway_70_(Israel)" title="Highway 70 (Israel)">Highway 70</a> and the east–west <a href="Highway_75_(Israel)" title="Highway 75 (Israel)">Highway&#160;75</a> run concurrently for 2.5 miles (4.0&#160;km) between Yagur Junction and HaAmakim Junction.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=6.php.html" title="Edit section: Wrong-way concurrency">edit</a>]</span> <span class="mw-headline" id="Wrong-way_concurrency">Wrong-way concurrency</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:102px;"><a href="http://en.wikipedia.org/wiki/File:West_580_with_East_80.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/41/West_580_with_East_80.jpg/100px-West_580_with_East_80.jpg" width="100" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/West_580_with_East_80.jpg/150px-West_580_with_East_80.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/4/41/West_580_with_East_80.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:West_580_with_East_80.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+West 580 and East 80 signs you will see going north between the Bay Bridge and Albany, CA</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:NB77SB81.JPG" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NB77SB81.JPG/200px-NB77SB81.JPG" width="200" height="150" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NB77SB81.JPG/300px-NB77SB81.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NB77SB81.JPG/400px-NB77SB81.JPG 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:NB77SB81.JPG" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+This westbound highway in <a href="Southwest_Virginia" title="Southwest Virginia">southwestern</a> <a href="Virginia" title="Virginia">Virginia</a> simultaneously carries Interstates <a href="Interstate_77" title="Interstate 77">77</a> and <a href="Interstate_81" title="Interstate 81">81</a> in opposite directions. The wrong-way concurrency is also reflected in <a href="../U.S._Route_52" title="U.S. Route 52">U.S. Route 52</a> and <a href="../U.S._Route_11" title="U.S. Route 11">U.S. Route 11</a>, which are concurrent with I-77 and I-81, respectively.</div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:OKC_wrongway.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/OKC_wrongway.svg/200px-OKC_wrongway.svg.png" width="200" height="232" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/OKC_wrongway.svg/300px-OKC_wrongway.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3f/OKC_wrongway.svg/400px-OKC_wrongway.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:OKC_wrongway.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An example of a wrong-way concurrency in <a href="Oklahoma_City,_Oklahoma" title="Oklahoma City, Oklahoma" class="mw-redirect">Oklahoma City</a>, Oklahoma. The wrong-way concurrency is highlighted in red.</div>
+</div>
+</div>
+<p>As highways in the United States and Canada are usually signed with a <a href="Cardinal_direction" title="Cardinal direction">cardinal direction</a>, it is possible for two highways signed with opposite, conflicting directions to be running along the same stretch of physical roadway. The road itself is likely to be actually pointed in a third direction.</p>
+<p>For example, near <a href="Wytheville,_Virginia" title="Wytheville, Virginia">Wytheville, Virginia</a>, there is a concurrency between <a href="Interstate_77" title="Interstate 77">Interstate 77</a> (which runs and is signed north-south) and <a href="Interstate_81" title="Interstate 81">Interstate 81</a> (which runs primarily northeast-southwest but is also signed north-south). The road itself is oriented east-west and carries the two Interstates signed in opposite directions. So one might simultaneously be on I-77 north and I-81 south, while actually traveling due west. Another well-traveled example is the <a href="Interstate_580_(California)" title="Interstate 580 (California)">I-580</a> and <a href="Interstate_80_(California)" title="Interstate 80 (California)" class="mw-redirect">I-80</a> concurrency in the <a href="Bay_Area" title="Bay Area" class="mw-redirect">Bay Area</a> of <a href="California" title="California">California</a>, known locally as the <a href="Eastshore_Freeway" title="Eastshore Freeway" class="mw-redirect">Eastshore Freeway</a>, which travels north-south between the eastern foot of the Bay Bridge and Albany, CA along the shoreline of <a href="San_Francisco_Bay" title="San Francisco Bay">San Francisco Bay</a>.</p>
+<p>At least two roads run concurrently with <i>their own</i> opposite direction. A short stretch of Broadway in <a href="Pawtucket,_Rhode_Island" title="Pawtucket, Rhode Island">Pawtucket, Rhode Island</a>, carries both directions of <a href="Rhode_Island_Route_114" title="Rhode Island Route 114">Route 114</a>,<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Disputed_statement" title="Wikipedia:Disputed statement" class="mw-redirect"><span title="The material in the vicinity of this tag may not be factual or accurate from November 2008">dubious</span></a> <span class="metadata">– <a href="Talk_Concurrency_(road)#Dubious_on_wrong_way_concurrencies_with_the_SAME_road" title="Talk:Concurrency (road)">discuss</a></span></i>]</sup> and a short stretch of eastbound <a href="Interstate_376" title="Interstate 376">Interstate 376</a>, as well as the ramps leading to it, in <a href="Pittsburgh,_Pennsylvania" title="Pittsburgh, Pennsylvania" class="mw-redirect">Pittsburgh, Pennsylvania</a>, carries both directions of <a href="../U.S._Route_19_Truck_(Pittsburgh,_Pennsylvania)" title="U.S. Route 19 Truck (Pittsburgh, Pennsylvania)" class="mw-redirect">U.S. Route 19 Truck</a>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></p>
+<p>An unusual example of a three-directional concurrency occurs near the town of <a href="Starks,_Illinois" title="Starks, Illinois">Starks, Illinois</a>. To take advantage of an underpass beneath a railroad, <a href="US_Route_20" title="US Route 20" class="mw-redirect">US Route 20</a>, <a href="Illinois_Route_72" title="Illinois Route 72">Illinois Route 72</a> and <a href="Illinois_Route_47" title="Illinois Route 47">Illinois Route 47</a> all converge. The net result is that a driver can be traveling east on US 20, west on IL 72, and south on IL 47 (the actual compass direction) all at the same time.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<p>Canada also possesses at least four wrong-way concurrencies: an 11&#160;km (6.8&#160;mi) stretch of <a href="Saskatchewan" title="Saskatchewan">Saskatchewan</a> <a href="Saskatchewan_Highway_2" title="Saskatchewan Highway 2">Highways 2</a> and <a href="Saskatchewan_Highway_11" title="Saskatchewan Highway 11">11</a> between <a href="Chamberlain,_Saskatchewan" title="Chamberlain, Saskatchewan">Chamberlain</a> and <a href="Findlater,_Saskatchewan" title="Findlater, Saskatchewan">Findlater</a>, a 7&#160;km (4.3&#160;mi) stretch of <a href="British_Columbia" title="British Columbia">British Columbia</a> <a href="British_Columbia_Highway_5" title="British Columbia Highway 5">Highways 5</a> and <a href="British_Columbia_Highway_97" title="British Columbia Highway 97">97</a> in <a href="Kamloops" title="Kamloops">Kamloops</a>, a 10&#160;km (6.2&#160;mi) segment of <a href="New_Brunswick" title="New Brunswick">New Brunswick</a> <a href="New_Brunswick_Route_8" title="New Brunswick Route 8">Route 8</a> and <a href="New_Brunswick_Route_117" title="New Brunswick Route 117">Route 117</a> in <a href="Miramichi,_New_Brunswick" title="Miramichi, New Brunswick">Miramichi</a> and 5.5&#160;km (3.4&#160;mi) segment of <a href="Ontario_Highway_6" title="Ontario Highway 6">Highway 6</a> and <a href="Ontario_Highway_21" title="Ontario Highway 21">Highway 21</a> west of <a href="Owen_Sound" title="Owen Sound">Owen Sound</a>, <a href="Ontario" title="Ontario">Ontario</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=7.php.html" title="Edit section: Extremes">edit</a>]</span> <span class="mw-headline" id="Extremes">Extremes</span></h2>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Greensboro_road_signs.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Greensboro_road_signs.jpg/220px-Greensboro_road_signs.jpg" width="220" height="158" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Greensboro_road_signs.jpg/330px-Greensboro_road_signs.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Greensboro_road_signs.jpg/440px-Greensboro_road_signs.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Greensboro_road_signs.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An extreme example: <a href="Interstate_40_in_North_Carolina" title="Interstate 40 in North Carolina">I-40</a>, <a href="Interstate_85_Business_(North_Carolina)" title="Interstate 85 Business (North Carolina)">Business 85</a>, <a href="../U.S._Route_29" title="U.S. Route 29">US 29</a>, <a href="../U.S._Route_70_in_North_Carolina" title="U.S. Route 70 in North Carolina">US 70</a>, <a href="../U.S._Route_220" title="U.S. Route 220">US 220</a>, and <a href="../U.S._Route_421_in_North_Carolina" title="U.S. Route 421 in North Carolina">US 421</a> run concurrently in <a href="Greensboro,_North_Carolina" title="Greensboro, North Carolina">Greensboro</a>, North Carolina. US 421 and US 220 have since been rerouted from this concurrency.</div>
+</div>
+</div>
+<p>Some concurrencies have extreme examples such as triple, and even quadruple concurrencies. A triple Interstate concurrency is found north of <a href="Madison,_Wisconsin" title="Madison, Wisconsin">Madison, WI</a>, with <a href="Interstate_39" title="Interstate 39">I-39</a>, <a href="Interstate_90_in_Wisconsin" title="Interstate 90 in Wisconsin">I-90</a>, and <a href="Interstate_94_in_Wisconsin" title="Interstate 94 in Wisconsin">I-94</a>. Also in Madison, there is a quadruple concurrency with four US Highways: <a href="../U.S._Route_12_in_Wisconsin" title="U.S. Route 12 in Wisconsin">US&#160;12</a>, <a href="../U.S._Route_14_in_Wisconsin" title="U.S. Route 14 in Wisconsin">US&#160;14</a>, <a href="../U.S._Route_18_in_Wisconsin" title="U.S. Route 18 in Wisconsin">US&#160;18</a>, and <a href="../U.S._Route_151" title="U.S. Route 151">US&#160;151</a> along the Beltline south of the city. <a href="../St._Louis,_Missouri" title="St. Louis, Missouri" class="mw-redirect">St. Louis</a> has an example of a quadruple Interstate concurrency, with <a href="Interstate_44_in_Missouri" title="Interstate 44 in Missouri">I-44</a>, <a href="Interstate_55_in_Missouri" title="Interstate 55 in Missouri">I-55</a>, <a href="Interstate_64_in_Missouri" title="Interstate 64 in Missouri">I-64</a>, and <a href="Interstate_70_in_Missouri" title="Interstate 70 in Missouri">I-70</a>, plus <a href="../U.S._Route_40_in_Missouri" title="U.S. Route 40 in Missouri" class="mw-redirect">US&#160;40</a> running concurrently for a brief run downtown. <a href="Interstate_25" title="Interstate 25">I-25</a> is concurrent with <a href="../U.S._Route_87" title="U.S. Route 87">US&#160;87</a> for 400 miles (640&#160;km), running from <a href="Raton,_New_Mexico" title="Raton, New Mexico">Raton, New Mexico</a> through the entire state of <a href="Colorado" title="Colorado">Colorado</a> and all the way to I-25's northern terminus at I-90 in <a href="Buffalo,_Wyoming" title="Buffalo, Wyoming">Buffalo, Wyoming</a>, although US&#160;87 is unsigned for most of this distance. The longest Interstate highway concurrency is <a href="Interstate_80" title="Interstate 80">I-80</a> and <a href="Interstate_90" title="Interstate 90">I-90</a> for 265 miles (426&#160;km) across <a href="Indiana" title="Indiana">Indiana</a> and <a href="Ohio" title="Ohio">Ohio</a>. One of the shorter examples is the <a href="M-35_(Michigan_highway)" title="M-35 (Michigan highway)">M-35</a> concurrency with <a href="County_Road_492_(Marquette_County,_Michigan)" title="County Road 492 (Marquette County, Michigan)">CR&#160;492</a> in <a href="Marquette_County,_Michigan" title="Marquette County, Michigan">Marquette County, Michigan</a>. The two roads overlap for 153 feet (47&#160;m) to cross a rail line, with M-35 yielding to CR&#160;492 traffic in the process.<sup id="cite_ref-PRFA_6-0" class="reference"><a href="#cite_note-PRFA-6"><span>[</span>6<span>]</span></a></sup> Another short duplex is between <a href="US_49" title="US 49" class="mw-redirect">US 49</a> and <a href="US_64" title="US 64" class="mw-redirect">US 64</a> near Fair Oaks, Arkansas, a concurrency of 150 feet across a railroad.</p>
+<p><a href="Interstate_465" title="Interstate 465">I-465</a> around <a href="Indianapolis" title="Indianapolis">Indianapolis</a> currently has the most concurrent routes. Portions of the 53-mile (85&#160;km) highway overlap with <a href="Interstate_74_(west)" title="Interstate 74 (west)" class="mw-redirect">I-74</a>, <a href="../U.S._Route_31" title="U.S. Route 31">US&#160;31</a>, <a href="../U.S._Route_36" title="U.S. Route 36">US&#160;36</a>, <a href="../U.S._Route_40" title="U.S. Route 40">US&#160;40</a>, <a href="../U.S._Route_52" title="U.S. Route 52">US&#160;52</a>, <a href="../U.S._Route_421" title="U.S. Route 421">US&#160;421</a>, <a href="Indiana_State_Road_37" title="Indiana State Road 37">SR&#160;37</a> and <a href="Indiana_State_Road_67" title="Indiana State Road 67">SR&#160;67</a> -- a total of eight other routes.<sup id="cite_ref-I-465IG_7-0" class="reference"><a href="#cite_note-I-465IG-7"><span>[</span>7<span>]</span></a></sup> Seven of the eight other designations overlap between exits 46 and 47 to create an eight-way concurrency.<sup id="cite_ref-INDOTmap_8-0" class="reference"><a href="#cite_note-INDOTmap-8"><span>[</span>8<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=8.php.html" title="Edit section: Consolidation plans">edit</a>]</span> <span class="mw-headline" id="Consolidation_plans">Consolidation plans</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:NJ_guide_sign.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NJ_guide_sign.jpg/200px-NJ_guide_sign.jpg" width="200" height="259" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/9/9f/NJ_guide_sign.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/9/9f/NJ_guide_sign.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:NJ_guide_sign.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+US 1/9 concurrency signed on one shield</div>
+</div>
+</div>
+<p>Some brief concurrencies in the past have been eliminated by reassigning the designations along the roadways. This can involve scaling back the terminus of a state highway to the end of a concurrent section. At the same time, there could be an extension of another highway designation that is used to replace the newly shortened designation with another one. For instance, <a href="../U.S._Route_27_in_Michigan" title="U.S. Route 27 in Michigan">US&#160;27</a> in Michigan previously ran concurrently with <a href="Interstate_69_in_Michigan" title="Interstate 69 in Michigan">I-69</a> from the Michigan–Indiana state line to the <a href="Lansing,_Michigan" title="Lansing, Michigan">Lansing, Michigan</a>, area. From there it turned northwards to its terminus at <a href="Grayling,_Michigan" title="Grayling, Michigan">Grayling</a>. In 2000, the <a href="Michigan_Department_of_Transportation" title="Michigan Department of Transportation">Michigan</a> and <a href="Indiana_Department_of_Transportation" title="Indiana Department of Transportation">Indiana</a> departments of transportation petitioned the <a href="American_Association_of_State_Highway_and_Transportation_Officials" title="American Association of State Highway and Transportation Officials">American Association of State Highway and Transportation Officials</a> for permission to truncate US&#160;27 at <a href="Fort_Wayne,_Indiana" title="Fort Wayne, Indiana">Fort Wayne, Indiana</a>. In 2002, Michigan removed the US&#160;27 designation from I-69 and extended the <a href="../U.S._Route_127" title="U.S. Route 127">US&#160;127</a> designation from Lansing to Grayling.</p>
+<p>Some consolidation schemes involve the use of incorporating two single-digit numbers onto one marker, as along the <a href="U.S._Route_1/9" title="U.S. Route 1/9">U.S. Route 1/9</a> concurrency in northern <a href="New_Jersey" title="New Jersey">New Jersey</a>.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<p>Other plans to avoid concurrencies involve rerouting an older designation off a highway when a new moniker is being applied. When <a href="Interstate_795_(North_Carolina)" title="Interstate 795 (North Carolina)">I-795</a> was applied to the <a href="../U.S._Route_117" title="U.S. Route 117">US&#160;117</a> freeway in <a href="North_Carolina" title="North Carolina">North Carolina</a>, instead of forming a concurrency, US&#160;117 was instead returned to its original parallel alignment. There are even instances of a surface-street and freeway less than 5 miles in parallel where they both implement concurrencies; for instance, <a href="Interstate_40" title="Interstate 40">Interstate 40</a> is concurrent with <a href="../U.S._Route_74" title="U.S. Route 74">U.S. Route 74</a> on the freeway part and <a href="../U.S._Route_19" title="U.S. Route 19">U.S. Route 19</a> is concurrent with <a href="../U.S._Route_23" title="U.S. Route 23">U.S. Route 23</a> on the surface street part in parallel between <a href="Clyde,_NC" title="Clyde, NC" class="mw-redirect">Clyde, NC</a> and <a href="Asheville,_NC" title="Asheville, NC" class="mw-redirect">Asheville, NC</a>. Then, <a href="../U.S._Route_23" title="U.S. Route 23">U.S. Route 23</a> forms yet another concurrency when it diverts off the east-west surface street onto the "physically" north-south <a href="Interstate_26" title="Interstate 26">Interstate 26</a> to the north.</p>
+<p>Some routes avoid concurrencies altogether by having their corridors physically cross or deviate within less than 500 feet (150&#160;m), but the intersecting numbered routes ricochet their trajectory off the junction to avoid a concurrency. One example involves <a href="North_Carolina_Highway_111" title="North Carolina Highway 111">North Carolina Highway&#160;111</a> and <a href="../U.S._Route_117_in_North_Carolina" title="U.S. Route 117 in North Carolina" class="mw-redirect">US&#160;117</a> north of <a href="Goldsboro,_North_Carolina" title="Goldsboro, North Carolina">Goldsboro</a>. <a href="Interstate_80_in_Ohio" title="Interstate 80 in Ohio" class="mw-redirect">I-80</a> and <a href="Interstate_76_(east)" title="Interstate 76 (east)">I-76</a> both switch from non-toll freeway to the <a href="Ohio_Turnpike" title="Ohio Turnpike">Ohio Turnpike</a> near <a href="Youngstown,_Ohio" title="Youngstown, Ohio">Youngstown</a>. <a href="Ontario_Highway_403" title="Ontario Highway 403">Ontario Highway 403</a> goes northwest and diverts northeast where <a href="Ontario_Highway_407" title="Ontario Highway 407">Ontario Highway 407</a> forms connector ramps as that highway curves from northeast to northwest on the same survey line; this was a civil engineering tactic that the MTO used to avoid having a cloverleaf junction at a four-way freeway crossing.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2012">citation needed</span></a></i>]</sup> These types of deviations are called "bumps".</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=9.php.html" title="Edit section: Effect on exit numbers">edit</a>]</span> <span class="mw-headline" id="Effect_on_exit_numbers">Effect on exit numbers</span></h2>
+<p>Often when two routes with exit numbers overlap, one of the routes has its exit numbers dominate over the other and can sometimes result in having two exits of the same number, albeit far from each other along the same highway. An example of this is from the concurrency of <a href="Interstate_94_in_Michigan" title="Interstate 94 in Michigan">I-94</a> and <a href="../U.S._Route_127_in_Michigan" title="U.S. Route 127 in Michigan">US&#160;127</a> near <a href="Jackson,_Michigan" title="Jackson, Michigan">Jackson</a>, Michigan. The concurrent section of freeway has an exit with <a href="M-106_(Michigan_highway)" title="M-106 (Michigan highway)">M-106</a>, which is numbered Exit 139 using I-94's mileage-based numbers. US 127 also has another Exit 139 with the southern end of the <a href="../U.S._Route_127_Business_(Mt._Pleasant,_Michigan)" title="U.S. Route 127 Business (Mt. Pleasant, Michigan)" class="mw-redirect">US&#160;127 business loop</a> in <a href="Mount_Pleasant,_Michigan" title="Mount Pleasant, Michigan">Mount Pleasant</a>, Michigan. However, there are also instances where the dominant exit number range is far more than the secondary route's highest exit number, for example the concurrency of I-75 and I-85 in Atlanta where I-75 is dominant—the exit numbers range from 242 to 251 while I-85's highest mile marker in Georgia is 179. <a href="Interstate_40" title="Interstate 40">I-40</a> in <a href="Tennessee" title="Tennessee">Tennessee</a> (a neighboring state of <a href="../Georgia_(U.S._state)" title="Georgia (U.S. state)">Georgia</a>), which is also concurrent with I-75, has the instance of its exit numbers in the concurrency range being higher than I-75's highest exit number in the state.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=10.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web">Office of Highway System Engineering (August 1995). <a rel="nofollow" class="external text" href="http://web.archive.org/web/20070316231706/http:/www.dot.ca.gov/hq/tsip/HSEB/products/state_highway_routes_selected_information_1995_revised.pdf">"State Highway Routes Selected Information, 1994 with 1995 Revisions"</a> (PDF). <a href="California_Department_of_Transportation" title="California Department of Transportation">California Department of Transportation</a>. Route 3. Archived from <a rel="nofollow" class="external text" href="http://www.dot.ca.gov/hq/tsip/HSEB/products/state_highway_routes_selected_information_1995_revised.pdf">the original</a> on March 16, 2007<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20070316231706/http:/www.dot.ca.gov/hq/tsip/HSEB/products/state_highway_routes_selected_information_1995_revised.pdf">http://web.archive.org/web/20070316231706/http://www.dot.ca.gov/hq/tsip/HSEB/products/state_highway_routes_selected_information_1995_revised.pdf</a></span><span class="reference-accessdate">. Retrieved March 7, 2012</span>. "Conincident with Rte 299"</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation news">"Freeway flaws; Fixing them may take decades". <i><a href="Star_Tribune" title="Star Tribune">Star Tribune</a></i>. June 3, 2005. "common sections ... 2 freeways share a single right-of-way"</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation web">Reichard, Timothy. <a rel="nofollow" class="external text" href="http://www.m-plex.com/roads/mdmplex/mp_md290_md291.html">"MD 290/MD 291 Multiplex"</a>. <i>Central PA/MD Roads</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.m-plex.com/roads/mdmplex/mp_md290_md291.html">http://www.m-plex.com/roads/mdmplex/mp_md290_md291.html</a></span><span class="reference-accessdate">. Retrieved March 7, 2012</span>.</span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation web">Reichard, Timothy. <a rel="nofollow" class="external text" href="http://www.m-plex.com/roads/pamplex/mp_i279_us19_trkus19_us22_us30.html">"I-279/US 19/Truck US 19/US 22/US 30 Multiplexes"</a>. <i>Central PA/MD Roads</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.m-plex.com/roads/pamplex/mp_i279_us19_trkus19_us22_us30.html">http://www.m-plex.com/roads/pamplex/mp_i279_us19_trkus19_us22_us30.html</a></span><span class="reference-accessdate">. Retrieved March 7, 2012</span>.</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation sign">Staff. <a rel="nofollow" class="external text" href="http://fc02.deviantart.net/fs11/i/2006/243/6/6/Navigational_Conundrum_by_Sylderon.jpg"><i>Sign for US&#160;30, Route 47 and Route 72</i></a> (Highway guide sign). Starks, IL: <a href="Illinois_Department_of_Transportation" title="Illinois Department of Transportation">Illinois Department of Transportation</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://fc02.deviantart.net/fs11/i/2006/243/6/6/Navigational_Conundrum_by_Sylderon.jpg">http://fc02.deviantart.net/fs11/i/2006/243/6/6/Navigational_Conundrum_by_Sylderon.jpg</a></span><span class="reference-accessdate">. Retrieved March 7, 2012</span>.</span></span></li>
+<li id="cite_note-PRFA-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-PRFA_6-0">^</a></b></span> <span class="reference-text"><span class="citation map"><a href="Michigan_Department_of_Transportation" title="Michigan Department of Transportation">Michigan Department of Transportation</a> (2009). <a rel="nofollow" class="external text" href="http://www.mcgi.state.mi.us/prfinder/"><i>MDOT Physical Reference Finder Application</i></a> (Map). Cartography by Michigan Center for Geographic Information<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.mcgi.state.mi.us/prfinder/">http://www.mcgi.state.mi.us/prfinder/</a></span><span class="reference-accessdate">. Retrieved April 13, 2010</span>.</span></span></li>
+<li id="cite_note-I-465IG-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-I-465IG_7-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.interstate-guide.com/i-465_in.html">"Interstate 465 Indiana"</a>. <i>Interstate Guide</i>. AARoads. January 18, 2012<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.interstate-guide.com/i-465_in.html">http://www.interstate-guide.com/i-465_in.html</a></span><span class="reference-accessdate">. Retrieved March 7, 2012</span>.</span></span></li>
+<li id="cite_note-INDOTmap-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-INDOTmap_8-0">^</a></b></span> <span class="reference-text"><span class="citation map"><a href="Indiana_Department_of_Transportation" title="Indiana Department of Transportation">Indiana Department of Transportation</a> (2007). <i>Indiana Transportation Map</i> (Map) (2007–08 ed.). Indianapolis inset.</span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation sign">Staff. <a class="external text" href="http://commons.wikimedia.org/wiki/File:NJ_guide_sign.jpg"><i>Signage for US 1/9, NJ 21, US 22, and I-78</i></a> (Highway guide sign). Newark, NJ: <a href="New_Jersey_Department_of_Transportation" title="New Jersey Department of Transportation">New Jersey Department of Transportation</a><span class="printonly">. <a class="external free" href="http://commons.wikimedia.org/wiki/File:NJ_guide_sign.jpg">http://commons.wikimedia.org/wiki/File:NJ_guide_sign.jpg</a></span><span class="reference-accessdate">. Retrieved December 5, 2009</span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Concurrency_(road)&action=edit&section=11.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Concurrency_(road)" class="extiw" title="commons:Category:Concurrency (road)">Concurrency (road)</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.m-plex.com/roads/mpindex.html">Highway Multiplex Photo Gallery</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Road_types" title="Template:Road types"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Road_types" title="Template talk:Road types"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Road_types&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Roads and junctions</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Types_of_road" title="Types of road">Types of road</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="Limited-access_road" title="Limited-access road">Limited-access</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Controlled-access_highway" title="Controlled-access highway">Freeway/Motorway</a></li>
+<li><a href="Dual_carriageway" title="Dual carriageway">Dual carriageway/Divided highway/Expressway</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="Category_Limited-access_roads_by_country" title="Category:Limited-access roads by country">By country</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Highways_in_Croatia" title="Highways in Croatia">Croatia</a></li>
+<li><a href="Highways_in_the_Czech_Republic" title="Highways in the Czech Republic">Czech Republic</a></li>
+<li><a href="German_autobahns" title="German autobahns">Germany</a></li>
+<li><a href="Highways_in_Greece" title="Highways in Greece">Greece</a></li>
+<li><a href="Indian_road_network" title="Indian road network">India</a></li>
+<li><a href="High-quality_dual_carriageway" title="High-quality dual carriageway">Ireland</a></li>
+<li><a href="Autostrade_of_Italy" title="Autostrade of Italy">Italy</a></li>
+<li><a href="Roads_in_Portugal" title="Roads in Portugal">Portugal</a></li>
+<li><a href="Highways_in_Spain" title="Highways in Spain">Spain</a></li>
+<li><a href="Numbered_highways_in_the_United_States" title="Numbered highways in the United States">United States</a>
+<ul>
+<li><a href="Interstate_Highway_System" title="Interstate Highway System">Interstates</a></li>
+<li><a href="United_States_Numbered_Highways" title="United States Numbered Highways">U.S. Routes</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Main roads</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arterial_road" title="Arterial road">Arterial road</a></li>
+<li><a href="Collector_road" title="Collector road">Collector road</a></li>
+<li><a href="Local-express_lanes" title="Local-express lanes">Express-collector setup</a></li>
+<li><a href="Farm-to-market_road" title="Farm-to-market road">Farm-to-market road</a></li>
+<li><a href="Highway" title="Highway">Highway</a></li>
+<li><a href="Link_road" title="Link road">Link road</a></li>
+<li><a href="Two-lane_expressway" title="Two-lane expressway">Two-lane expressway</a></li>
+<li><a href="2+1_road" title="2+1 road">2+1 road</a></li>
+<li><a href="2+2_road" title="2+2 road">2+2 road</a></li>
+<li><a href="Parkway" title="Parkway">Parkway</a></li>
+<li><a href="Super_two" title="Super two">Super two</a></li>
+<li><a href="Trunk_road" title="Trunk road">Trunk road</a></li>
+<li><a href="Highway_systems_by_country" title="Highway systems by country">Highway systems by country</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Local roads</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Alley" title="Alley">Alley</a></li>
+<li><a href="Backroad" title="Backroad">Backroad</a></li>
+<li><a href="Boulevard" title="Boulevard">Boulevard</a></li>
+<li><a href="Cul-de-sac" title="Cul-de-sac">Cul-de-sac</a></li>
+<li><a href="Driveway" title="Driveway">Driveway</a></li>
+<li><a href="Frontage_road" title="Frontage road">Frontage road</a></li>
+<li><a href="Lane" title="Lane">Lane</a></li>
+<li><a href="Primitive_road" title="Primitive road">Primitive road</a></li>
+<li><a href="Road" title="Road">Road</a></li>
+<li><a href="Side_road" title="Side road">Side road</a></li>
+<li><a href="Single_carriageway" title="Single carriageway">Single carriageway</a></li>
+<li><a href="Street" title="Street">Street</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Other terms</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">Concurrency</strong></li>
+<li><a href="Private_highway" title="Private highway">Private highway</a></li>
+<li><a href="Route_number" title="Route number">Route number</a>
+<ul>
+<li><a href="Special_route" title="Special route">Special route</a></li>
+<li><a href="Business_route" title="Business route">Business route</a></li>
+</ul>
+</li>
+<li><a href="Toll_road" title="Toll road">Toll road</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Road_surface" title="Road surface">Surfaces</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Asphalt_concrete" title="Asphalt concrete">Asphalt concrete</a></li>
+<li><a href="Brick" title="Brick">Brick</a></li>
+<li><a href="Chipseal" title="Chipseal">Chipseal</a></li>
+<li><a href="Cobblestone" title="Cobblestone">Cobblestone</a></li>
+<li><a href="Concrete" title="Concrete">Concrete</a></li>
+<li><a href="Corduroy_road" title="Corduroy road">Corduroy</a></li>
+<li><a href="Dirt_road" title="Dirt road">Dirt</a></li>
+<li><a href="Gravel_road" title="Gravel road">Gravel</a></li>
+<li><a href="Ice_road" title="Ice road">Ice</a></li>
+<li><a href="Macadam" title="Macadam">Macadam</a></li>
+<li><a href="Asphalt" title="Asphalt">Oiled (bitumen)</a></li>
+<li><a href="Plank_road" title="Plank road">Plank</a></li>
+<li><a href="Sett_(paving)" title="Sett (paving)">Sett</a></li>
+<li><a href="Tarmac" title="Tarmac">Tarmac</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Junction_(road)" title="Junction (road)">Road junctions</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="Interchange_(road)" title="Interchange (road)">Interchanges</a><br />
+<span style="font-weight:normal;">(<a href="Grade_separation" title="Grade separation">grade-separated</a>)</span></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cloverleaf_interchange" title="Cloverleaf interchange">Cloverleaf</a></li>
+<li><a href="Diamond_interchange" title="Diamond interchange">Diamond</a></li>
+<li><a href="Interchange_(road)#Directional_T_interchange" title="Interchange (road)">Directional T</a></li>
+<li><a href="Diverging_diamond_interchange" title="Diverging diamond interchange">Diverging diamond</a></li>
+<li><a href="Partial_cloverleaf_interchange" title="Partial cloverleaf interchange">Parclo</a></li>
+<li><a href="Raindrop_interchange" title="Raindrop interchange" class="mw-redirect">Raindrop</a></li>
+<li><a href="Roundabout_interchange" title="Roundabout interchange">Roundabout</a></li>
+<li><a href="Single-point_urban_interchange" title="Single-point urban interchange">SPUI</a></li>
+<li><a href="Stack_interchange" title="Stack interchange">Stack</a></li>
+<li><a href="Three-level_diamond_interchange" title="Three-level diamond interchange">Three-level diamond</a></li>
+<li><a href="Interchange_(road)#Trumpet_interchange" title="Interchange (road)">Trumpet</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;"><a href="Intersection_(road)" title="Intersection (road)">Intersections</a><br />
+<span style="font-weight:normal;">(<a href="At-grade_intersection" title="At-grade intersection">at-grade</a>)</span></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="3-way_junction" title="3-way junction">3-way junction</a></li>
+<li><a href="Bowtie_(road)" title="Bowtie (road)">Bowtie</a></li>
+<li><a href="Box_junction" title="Box junction">Box junction</a></li>
+<li><a href="Continuous-flow_intersection" title="Continuous-flow intersection">Continuous flow</a></li>
+<li><a href="Hook_turn" title="Hook turn">Hook turn</a></li>
+<li><a href="Jughandle" title="Jughandle">Jughandle</a></li>
+<li><a href="Michigan_left" title="Michigan left">Michigan left</a></li>
+<li><a href="Quadrant_roadway_intersection" title="Quadrant roadway intersection">Quadrant roadway</a></li>
+<li><a href="Roundabout" title="Roundabout">Roundabout</a></li>
+<li><a href="Superstreet" title="Superstreet">Superstreet</a></li>
+<li><a href="Traffic_circle" title="Traffic circle">Traffic circle</a></li>
+<li><a href="Turnaround_(road)" title="Turnaround (road)">Turnaround</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><a href="Central_reservation" title="Central reservation">Central reservation/Median</a></li>
+<li><a href="List_of_road_types_by_features" title="List of road types by features">List of road types by features</a></li>
+<li><a href="Raised_pavement_marker" title="Raised pavement marker">Raised pavement marker</a></li>
+<li><a href="Sidewalk" title="Sidewalk">Sidewalk/Pavement</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 11176/1000000
+Preprocessor generated node count: 39568/1500000
+Post-expand include size: 82137/2048000 bytes
+Template argument size: 54212/2048000 bytes
+Highest expansion depth: 28/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1237887-0!*!0!!en!4!* and timestamp 20130210150405 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Concurrency_(road)&oldid=537549531.php.html">http://en.wikipedia.org/w/index.php?title=Concurrency_(road)&amp;oldid=537549531</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Road_transport" title="Category:Road transport">Road transport</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_June_2008" title="Category:Articles with unsourced statements from June 2008">Articles with unsourced statements from June 2008</a></li><li><a href="Category_All_accuracy_disputes" title="Category:All accuracy disputes">All accuracy disputes</a></li><li><a href="Category_Articles_with_disputed_statements_from_November_2008" title="Category:Articles with disputed statements from November 2008">Articles with disputed statements from November 2008</a></li><li><a href="Category_Articles_with_unsourced_statements_from_August_2012" title="Category:Articles with unsourced statements from August 2012">Articles with unsourced statements from August 2012</a></li><li><a href="Category_Commons_category_template_with_no_category_set" title="Category:Commons category template with no category set">Commons category template with no category set</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Concurrency+(road)&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Concurrency+(road).php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Concurrency_(road)"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Concurrency_(road)&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Concurrency_(road)&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Concurrency_(road)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Concurrency_(road)" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Concurrency_(road)&oldid=537549531.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Concurrency_(road)&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Concurrency_(road)&id=537549531.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Concurrency+(road).php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Concurrency+(road)&oldid=537549531&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Concurrency_(road)&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/V%C3%A4rdv%C3%A4g" title="Värdväg" lang="sv" hreflang="sv">Svenska</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 10 February 2013 at 15:04.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Concurrency_(road)" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1096 in 0.153 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

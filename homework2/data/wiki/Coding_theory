@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Coding theory - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Coding_theory&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Coding_theory&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Coding_theory","wgTitle":"Coding theory","wgCurRevisionId":537067586,"wgArticleId":321869,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing rewrite from February 2010","All articles with unsourced statements","Articles with unsourced statements from July 2008","Articles to be merged from July 2010","All articles to be merged","Misleading articles","Articles needing additional references from January 2007","All articles needing additional references","Coding theory","Error detection and correction"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Coding_theory","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"5c18d7c391a5d52b5551671cb8d77ea7","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":321869,"title":"Coding theory","namespace":0,"categories":["All articles needing additional references","All articles to be merged","All articles with unsourced statements","Articles needing additional references from January 2007","Articles to be merged from July 2010","Articles with unsourced statements from July 2008","Coding theory","Error detection and correction","Misleading articles","Wikipedia articles needing rewrite from February 2010"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Coding_theory skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Coding theory</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><a href="http://en.wikipedia.org/wiki/File:Crystal_Clear_app_kedit.svg" class="image"><img alt="Crystal Clear app kedit.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/40px-Crystal_Clear_app_kedit.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/60px-Crystal_Clear_app_kedit.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/80px-Crystal_Clear_app_kedit.svg.png 2x" /></a></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>may need to be rewritten entirely to comply with Wikipedia's <a href="Wikipedia_Manual_of_Style" title="Wikipedia:Manual of Style">quality standards</a></b>. <span class="hide-when-compact"><a class="external text" href="../../w/index-title=Coding_theory&action=edit.php.html">You can help</a>. The <a href="Talk_Coding_theory" title="Talk:Coding theory">discussion page</a> may contain suggestions.</span> <small><i>(February 2010)</i></small> </span></td>
+</tr>
+</table>
+<p><b>Coding theory</b> is the study of the properties of <a href="Code" title="Code">codes</a> and their fitness for a specific application. Codes are used for <a href="Data_compression" title="Data compression">data compression</a>, <a href="Cryptography" title="Cryptography">cryptography</a>, <a href="Error-correction" title="Error-correction" class="mw-redirect">error-correction</a> and more recently also for <a href="Network_coding" title="Network coding" class="mw-redirect">network coding</a>. Codes are studied by various scientific disciplines—such as <a href="Information_theory" title="Information theory">information theory</a>, <a href="Electrical_engineering" title="Electrical engineering">electrical engineering</a>, <a href="Mathematics" title="Mathematics">mathematics</a>, and <a href="Computer_science" title="Computer science">computer science</a>—for the purpose of designing efficient and reliable <a href="Data_transmission" title="Data transmission">data transmission</a> methods. This typically involves the removal of redundancy and the correction (or detection) of errors in the transmitted data.</p>
+<p>There are essentially two aspects to Coding theory:</p>
+<ol>
+<li>Data compression (or, <i>source coding</i>)</li>
+<li><a href="Error-correction_code" title="Error-correction code" class="mw-redirect">Error correction</a> (or, <i><a href="Channel_coding" title="Channel coding" class="mw-redirect">channel coding</a></i>).</li>
+</ol>
+<p>These two aspects may be <a href="Joint_source_and_channel_coding" title="Joint source and channel coding">studied in combination</a>. Source encoding attempts to compress the data from a source in order to transmit it more efficiently. This practice is found every day on the Internet where the common <a href="Zip_(file_format)" title="Zip (file format)">Zip data compression</a> is used to reduce the network load and make files smaller. The second, channel encoding, adds extra data bits to make the transmission of data more robust to disturbances present on the transmission channel. The ordinary user may not be aware of many applications using channel coding. A typical music CD uses the <a href="Reed-Solomon_error_correction#Data_storage" title="Reed-Solomon error correction" class="mw-redirect">Reed-Solomon</a> code to correct for scratches and dust. In this application the transmission channel is the CD itself. Cell phones also use coding techniques to correct for the fading and noise of high frequency radio transmission. Data modems, telephone transmissions, and <a href="NASA" title="NASA">NASA</a> all employ channel coding techniques to get the bits through, for example the <a href="Turbo_code" title="Turbo code">turbo code</a> and <a href="LDPC_code" title="LDPC code" class="mw-redirect">LDPC codes</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Source_coding"><span class="tocnumber">1</span> <span class="toctext">Source coding</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Principle"><span class="tocnumber">1.1</span> <span class="toctext">Principle</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Example"><span class="tocnumber">1.2</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Channel_coding"><span class="tocnumber">2</span> <span class="toctext">Channel coding</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Linear_codes"><span class="tocnumber">2.1</span> <span class="toctext">Linear codes</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#Linear_block_codes"><span class="tocnumber">2.1.1</span> <span class="toctext">Linear block codes</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Convolutional_codes"><span class="tocnumber">2.1.2</span> <span class="toctext">Convolutional codes</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Other_applications_of_coding_theory"><span class="tocnumber">3</span> <span class="toctext">Other applications of coding theory</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Group_Testing"><span class="tocnumber">3.1</span> <span class="toctext">Group Testing</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Analog_coding"><span class="tocnumber">3.2</span> <span class="toctext">Analog coding</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="#Neural_coding"><span class="tocnumber">4</span> <span class="toctext">Neural coding</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Notes"><span class="tocnumber">6</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=1.php.html" title="Edit section: Source coding">edit</a>]</span> <span class="mw-headline" id="Source_coding">Source coding</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Data_compression" title="Data compression">data compression</a></div>
+<p>The aim of source coding is to take the source data and make it smaller.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=2.php.html" title="Edit section: Principle">edit</a>]</span> <span class="mw-headline" id="Principle">Principle</span></h3>
+<p><a href="Entropy_(information_theory)" title="Entropy (information theory)">Entropy</a> of a source is the measure of information. Basically, source codes try to reduce the redundancy present in the source, and represent the source with fewer bits that carry more information.</p>
+<p>Data compression which explicitly tries to minimize the average length of messages according to a particular assumed probability model is called <a href="Entropy_encoding" title="Entropy encoding">entropy encoding</a>.</p>
+<p>Various techniques used by source coding schemes try to achieve the limit of Entropy of the source. <i>C</i>(<i>x</i>) ≥ <i>H</i>(<i>x</i>), where <i>H</i>(<i>x</i>) is entropy of source (bitrate), and <i>C</i>(<i>x</i>) is the bitrate after compression. In particular, no source coding scheme can be better than the entropy of the source.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=3.php.html" title="Edit section: Example">edit</a>]</span> <span class="mw-headline" id="Example">Example</span></h3>
+<p><a href="FAX" title="FAX" class="mw-redirect">Facsimile</a> transmission uses a simple <a href="Run-length_encoding" title="Run-length encoding">run length code</a>. Source coding removes all data superfluous to the need of the transmitter, decreasing the bandwidth required for transmission.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=4.php.html" title="Edit section: Channel coding">edit</a>]</span> <span class="mw-headline" id="Channel_coding">Channel coding</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Forward_error_correction" title="Forward error correction">Forward error correction</a></div>
+<p>The purpose of channel coding theory is to find codes which transmit quickly, contain many valid <a href="Code_word" title="Code word">code words</a> and can correct or at least <a href="Error_detection" title="Error detection" class="mw-redirect">detect</a> many errors. While not mutually exclusive, performance in these areas is a trade off. So, different codes are optimal for different applications. The needed properties of this code mainly depend on the probability of errors happening during transmission. In a typical CD, the impairment is mainly dust or scratches. Thus codes are used in an interleaved manner.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup> The data is spread out over the disk. Although not a very good code, a simple repeat code can serve as an understandable example. Suppose we take a block of data bits (representing sound) and send it three times. At the receiver we will examine the three repetitions bit by bit and take a majority vote. The twist on this is that we don't merely send the bits in order. We interleave them. The block of data bits is first divided into 4 smaller blocks. Then we cycle through the block and send one bit from the first, then the second, etc. This is done three times to spread the data out over the surface of the disk. In the context of the simple repeat code, this may not appear effective. However, there are more powerful codes known which are very effective at correcting the "burst" error of a scratch or a dust spot when this interleaving technique is used.</p>
+<p>Other codes are more appropriate for different applications. Deep space communications are limited by the <a href="Thermal_noise" title="Thermal noise" class="mw-redirect">thermal noise</a> of the receiver which is more of a continuous nature than a bursty nature. Likewise, narrowband modems are limited by the noise, present in the telephone network and also modeled better as a continuous disturbance.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup> Cell phones are subject to rapid fading. The high frequencies used can cause rapid fading of the signal even if the receiver is moved a few inches. Again there are a class of channel codes that are designed to combat fading.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=5.php.html" title="Edit section: Linear codes">edit</a>]</span> <span class="mw-headline" id="Linear_codes">Linear codes</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Linear_code" title="Linear code">Linear code</a></div>
+<p>The term <b>algebraic coding theory</b> denotes the sub-field of coding theory where the properties of codes are expressed in algebraic terms and then further researched.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup></p>
+<p>Algebraic coding theory is basically divided into two major types of codes:<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup></p>
+<ol>
+<li>Linear block codes</li>
+<li>Convolutional codes.</li>
+</ol>
+<p>It analyzes the following three properties of a code – mainly:<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup></p>
+<ul>
+<li>code word length</li>
+<li>total number of valid code words</li>
+<li>the minimum <a href="Distance" title="Distance">distance</a> between two valid code words, using mainly the <a href="Hamming_distance" title="Hamming distance">Hamming distance</a>, sometimes also other distances like the <a href="Lee_distance" title="Lee distance">Lee distance</a>.</li>
+</ul>
+<h4><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=6.php.html" title="Edit section: Linear block codes">edit</a>]</span> <span class="mw-headline" id="Linear_block_codes">Linear block codes</span></h4>
+<div class="rellink relarticle mainarticle">Main article: <a href="Block_code" title="Block code">Block code</a></div>
+<p>Linear block codes have the property of <a href="Linearity" title="Linearity">linearity</a>, i.e. the sum of any two codewords is also a code word, and they are applied to the source bits in blocks, hence the name linear block codes. There are block codes that are not linear, but it is difficult to prove that a code is a good one without this property.<sup id="cite_ref-terras_1-0" class="reference"><a href="#cite_note-terras-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>Linear block codes are summarized by their symbol alphabets (e.g., binary or ternary) and parameters (<i>n</i>,<i>m</i>,<i>d<sub>min</sub></i>)<sup id="cite_ref-blahut_2-0" class="reference"><a href="#cite_note-blahut-2"><span>[</span>2<span>]</span></a></sup> where</p>
+<ol>
+<li>n is the length of the codeword, in symbols,</li>
+<li>m is the number of source symbols that will be used for encoding at once,</li>
+<li><i>d<sub>min</sub></i> is the minimum hamming distance for the code.</li>
+</ol>
+<table class="metadata plainlinks ambox ambox-move" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Merge-arrow.svg/50px-Merge-arrow.svg.png" width="50" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Merge-arrow.svg/75px-Merge-arrow.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Merge-arrow.svg/100px-Merge-arrow.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">It has been suggested that this article or section be <a href="Wikipedia_Merging" title="Wikipedia:Merging">merged</a> into <i><a href="Block_code" title="Block code">Block code</a></i> . (<a href="Talk_Block_code" title="Talk:Block code">Discuss</a>) <small><i>Proposed since July 2010.</i></small> </span></td>
+</tr>
+</table>
+<p>There are many types of linear block codes, such as</p>
+<ol>
+<li><a href="Cyclic_code" title="Cyclic code">Cyclic codes</a> (e.g., <a href="Hamming_code" title="Hamming code">Hamming codes</a>)</li>
+<li><a href="Repetition_code" title="Repetition code">Repetition codes</a></li>
+<li><a href="Parity_bit" title="Parity bit">Parity codes</a></li>
+<li><a href="Polynomial_code" title="Polynomial code">Polynomial codes</a> (e.g., <a href="BCH_code" title="BCH code">BCH codes</a>)</li>
+<li><a href="Reed-Solomon_error_correction" title="Reed-Solomon error correction" class="mw-redirect">Reed–Solomon codes</a></li>
+<li><a href="Algebraic_geometric_code" title="Algebraic geometric code" class="mw-redirect">Algebraic geometric codes</a></li>
+<li><a href="Reed%E2%80%93Muller_code" title="Reed–Muller code">Reed–Muller codes</a></li>
+<li><a href="Hamming_bound" title="Hamming bound">Perfect codes</a>.</li>
+</ol>
+<p>Block codes are tied to the <a href="Sphere_packing" title="Sphere packing">sphere packing</a> problem, which has received some attention over the years. In two dimensions, it is easy to visualize. Take a bunch of pennies flat on the table and push them together. The result is a hexagon pattern like a bee's nest. But block codes rely on more dimensions which cannot easily be visualized. The powerful (24,12) <a href="Binary_Golay_code" title="Binary Golay code">Golay code</a> used in deep space communications uses 24 dimensions. If used as a binary code (which it usually is) the dimensions refer to the length of the codeword as defined above.</p>
+<p>The theory of coding uses the <i>N</i>-dimensional sphere model. For example, how many pennies can be packed into a circle on a tabletop, or in 3 dimensions, how many marbles can be packed into a globe. Other considerations enter the choice of a code. For example, hexagon packing into the constraint of a rectangular box will leave empty space at the corners. As the dimensions get larger, the percentage of empty space grows smaller. But at certain dimensions, the packing uses all the space and these codes are the so-called "perfect" codes. The only nontrivial and useful perfect codes are the distance-3 Hamming codes with parameters satisfying (2<sup><i>r</i></sup> – 1, 2<sup><i>r</i></sup> – 1 – <i>r</i>, 3), and the [23,12,7] binary and [11,6,5] ternary Golay codes.<sup id="cite_ref-terras_1-1" class="reference"><a href="#cite_note-terras-1"><span>[</span>1<span>]</span></a></sup><sup id="cite_ref-blahut_2-1" class="reference"><a href="#cite_note-blahut-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Another code property is the number of neighbors that a single codeword may have.<sup id="cite_ref-schlegel_3-0" class="reference"><a href="#cite_note-schlegel-3"><span>[</span>3<span>]</span></a></sup> Again, consider pennies as an example. First we pack the pennies in a rectangular grid. Each penny will have 4 near neighbors (and 4 at the corners which are farther away). In a hexagon, each penny will have 6 near neighbors. When we increase the dimensions, the number of near neighbors increases very rapidly. The result is the number of ways for noise to make the receiver choose a neighbor (hence an error) grows as well. This is a fundamental limitation of block codes, and indeed all codes. It may be harder to cause an error to a single neighbor, but the number of neighbors can be large enough so the total error probability actually suffers.<sup id="cite_ref-schlegel_3-1" class="reference"><a href="#cite_note-schlegel-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>Properties of linear block codes are used in many applications. For example, the syndrome-coset uniqueness property of linear block codes is used in trellis shaping,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> one of the best known <a href="Shaping_codes" title="Shaping codes">shaping codes</a>. This same property is used in sensor networks for distributed source coding</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=7.php.html" title="Edit section: Convolutional codes">edit</a>]</span> <span class="mw-headline" id="Convolutional_codes">Convolutional codes</span></h4>
+<div class="rellink relarticle mainarticle">Main article: <a href="Convolutional_code" title="Convolutional code">Convolutional code</a></div>
+<p>The idea behind a convolutional code is to make every codeword symbol be the weighted sum of the various input message symbols. This is like <a href="Convolution" title="Convolution">convolution</a> used in <a href="Linear_time_invariant" title="Linear time invariant" class="mw-redirect">LTI</a> systems to find the output of a system, when you know the input and impulse response.</p>
+<p>So we generally find the output of the system convolutional encoder, which is the convolution of the input bit, against the states of the convolution encoder, registers.</p>
+<p>Fundamentally, convolutional codes do not offer more protection against noise than an equivalent block code. In many cases, they generally offer greater simplicity of implementation over a block code of equal power. The encoder is usually a simple circuit which has state memory and some feedback logic, normally XOR gates. The decoder can be implemented in software or firmware.</p>
+<p>The <a href="Viterbi_algorithm" title="Viterbi algorithm">Viterbi algorithm</a> is the optimum algorithm used to decode convolutional codes. There are simplifications to reduce the computational load. They rely on searching only the most likely paths. Although not optimum, they have generally been found to give good results in the lower noise environments.</p>
+<p>Convolutional codes are used in voiceband modems (V.32, V.17, V.34) and in GSM mobile phones, as well as satellite and military communication devices.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=8.php.html" title="Edit section: Other applications of coding theory">edit</a>]</span> <span class="mw-headline" id="Other_applications_of_coding_theory">Other applications of coding theory</span></h2>
+<table class="metadata plainlinks ambox ambox-content" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/f/f4/Ambox_content.png" width="40" height="40" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>may contain parts that are misleading</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Coding_theory&action=edit.php.html">clarify this article</a> according to any suggestions provided on the <a href="Talk_Coding_theory" title="Talk:Coding theory">talk page</a>.</span> <small><i>(August 2012)</i></small> </span></td>
+</tr>
+</table>
+<p>Another concern of coding theory is designing codes that help <a href="Synchronization" title="Synchronization">synchronization</a>. A code may be designed so that a <a href="Phase_(waves)" title="Phase (waves)">phase shift</a> can be easily detected and corrected and that multiple signals can be sent on the same channel.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup></p>
+<p>Another application of codes, used in some mobile phone systems, is <a href="Code-division_multiple_access" title="Code-division multiple access" class="mw-redirect">code-division multiple access</a> (CDMA). Each phone is assigned a code sequence that is approximately uncorrelated with the codes of other phones.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup> When transmitting, the code word is used to modulate the data bits representing the voice message. At the receiver, a demodulation process is performed to recover the data. The properties of this class of codes allow many users (with different codes) to use the same radio channel at the same time. To the receiver, the signals of other users will appear to the demodulator only as a low-level noise.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from July 2008">citation needed</span></a></i>]</sup></p>
+<p>Another general class of codes are the <a href="Automatic_repeat-request" title="Automatic repeat-request" class="mw-redirect">automatic repeat-request</a> (ARQ) codes. In these codes the sender adds redundancy to each message for error checking, usually by adding check bits. If the check bits are not consistent with the rest of the message when it arrives, the receiver will ask the sender to retransmit the message. All but the simplest <a href="Wide_area_network" title="Wide area network">wide area network</a> protocols use ARQ. Common protocols include <a href="Synchronous_Data_Link_Control" title="Synchronous Data Link Control">SDLC</a> (IBM), <a href="Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a> (Internet), <a href="../X.25" title="X.25">X.25</a> (International) and many others. There is an extensive field of research on this topic because of the problem of matching a rejected packet against a new packet. Is it a new one or is it a retransmission? Typically numbering schemes are used, as in TCP.<span class="citation web"><a rel="nofollow" class="external text" href="http://tools.ietf.org/html/rfc793">"RFC793"</a>. <i>RFCs</i>. <a href="Internet_Engineering_Task_Force" title="Internet Engineering Task Force">Internet Engineering Task Force</a> (IETF). 1981-09<span class="printonly">. <a rel="nofollow" class="external free" href="http://tools.ietf.org/html/rfc793">http://tools.ietf.org/html/rfc793</a></span>.</span></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=9.php.html" title="Edit section: Group Testing">edit</a>]</span> <span class="mw-headline" id="Group_Testing">Group Testing</span></h3>
+<p><a href="Group_testing" title="Group testing">Group testing</a> uses codes in a different way. Consider a large group of items in which a very few are different in a particular way (for e.g. Defective products or infected test subjects). The idea of group testing is to determine which items are "different" by using as few tests as possible. The origin of the problem has its roots in the <a href="Second_World_War" title="Second World War" class="mw-redirect">Second World War</a> when the <a href="United_States_Army_Air_Forces" title="United States Army Air Forces">United States Army Air Forces</a> needed to test its soldiers for <a href="Syphilis" title="Syphilis">Syphilis</a>. It originated from a ground-breaking paper by <a href="Robert_Dorfman" title="Robert Dorfman">Robert Dorfman</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=10.php.html" title="Edit section: Analog coding">edit</a>]</span> <span class="mw-headline" id="Analog_coding">Analog coding</span></h3>
+<p>Information is encoded analogously in the <a href="Neural_network" title="Neural network">neural networks</a> of <a href="Brain" title="Brain">brains</a>, in <a href="Analog_signal_processing" title="Analog signal processing">analog signal processing</a>, and <a href="Analog_electronics" title="Analog electronics" class="mw-redirect">analog electronics</a>. Aspects of <a rel="nofollow" class="external text" href="http://scholar.google.com/scholar?&q=%22analog+code%22+OR+%22analogue+code%22+OR+%22analogue+coding%22+OR+%22analog+coding%22">analog coding</a> include <a rel="nofollow" class="external text" href="http://scholar.google.com/scholar?q=%22analog+error+correction%22">analog error correction</a>,<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> <a rel="nofollow" class="external text" href="http://scholar.google.com/scholar?q=%22analog+data+compression%22">analog data compression</a>.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> <a rel="nofollow" class="external text" href="http://scholar.google.com/scholar?hl=en&q=%22analog+encryption%22">analog encryption</a><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=11.php.html" title="Edit section: Neural coding">edit</a>]</span> <span class="mw-headline" id="Neural_coding">Neural coding</span></h2>
+<p><a href="Neural_coding" title="Neural coding">Neural coding</a> is a <a href="Neuroscience" title="Neuroscience">neuroscience</a>-related field concerned with how sensory and other information is represented in the <a href="Brain" title="Brain">brain</a> by <a href="Neural_network" title="Neural network">networks</a> of <a href="Neurons" title="Neurons" class="mw-redirect">neurons</a>. The main goal of studying neural coding is to characterize the relationship between the <a href="Stimulus_(physiology)" title="Stimulus (physiology)">stimulus</a> and the individual or ensemble neuronal responses and the relationship among electrical activity of the neurons in the ensemble.<sup id="cite_ref-Brown_8-0" class="reference"><a href="#cite_note-Brown-8"><span>[</span>8<span>]</span></a></sup> It is thought that neurons can encode both <a href="Digital" title="Digital">digital</a> and <a href="Analog_signal" title="Analog signal">analog</a> information,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> and that neurons follow the principles of information theory and compress information,<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> and detect and correct<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> errors in the signals that are sent throughout the brain and wider nervous system.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=12.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Coding_gain" title="Coding gain">Coding gain</a></li>
+<li><a href="Covering_code" title="Covering code">Covering code</a></li>
+<li><a href="Error-correcting_code" title="Error-correcting code" class="mw-redirect">Error-correcting code</a></li>
+<li><a href="Group_testing" title="Group testing">Group testing</a></li>
+<li><a href="Hamming_distance" title="Hamming distance">Hamming distance</a>, <a href="Hamming_weight" title="Hamming weight">Hamming weight</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Lee_distance" title="Lee distance">Lee distance</a></li>
+<li>Spatial coding and <a href="MIMO" title="MIMO">MIMO</a> in <a href="Multiple_antenna_research" title="Multiple antenna research" class="mw-redirect">multiple antenna research</a>
+<ul>
+<li><a href="Space%E2%80%93time_code" title="Space–time code">Spatial diversity coding</a> is spatial coding that transmits replicas of the information signal along different spatial paths, so as to increase the reliability of the data transmission.</li>
+<li><a href="Dirty_paper_coding_(DPC)" title="Dirty paper coding (DPC)" class="mw-redirect">Spatial interference cancellation coding</a></li>
+<li><a href="Spatial_multiplexing" title="Spatial multiplexing">Spatial multiplex coding</a></li>
+</ul>
+</li>
+<li><a href="Timeline_of_information_theory" title="Timeline of information theory">Timeline of information theory, data compression, and error correcting codes</a></li>
+<li><a href="List_of_algebraic_coding_theory_topics" title="List of algebraic coding theory topics">List of algebraic coding theory topics</a></li>
+<li><a href="Folded_Reed%E2%80%93Solomon_codes" title="Folded Reed–Solomon codes" class="mw-redirect">Folded Reed–Solomon codes</a></li>
+<li><a href="../../w/index-title=ABNNR_and_AEL_codes&action=edit&redlink=1.php.html" class="new" title="ABNNR and AEL codes (page does not exist)">ABNNR and AEL codes</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=13.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Coding_theory&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(January 2007)</i></small> </span></td>
+</tr>
+</table>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-terras-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-terras_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-terras_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation book"><a href="Audrey_Terras" title="Audrey Terras">Audrey Terras</a> (1999). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=-B2TA669dJMC&pg=PA195&dq=linear+block+code+difficult+prove+nonlinear#PPA195,M1"><i>Fourier Analysis on Finite Groups and Applications</i></a>. <a href="Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-45718-1" title="Special:BookSources/0-521-45718-1">0-521-45718-1</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=-B2TA669dJMC&pg=PA195&dq=linear+block+code+difficult+prove+nonlinear#PPA195,M1">http://books.google.com/books?id=-B2TA669dJMC&amp;pg=PA195&amp;dq=linear+block+code+difficult+prove+nonlinear#PPA195,M1</a></span>.</span></span></li>
+<li id="cite_note-blahut-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-blahut_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-blahut_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation book">Richard E. Blahut (2003). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=n0XHMY58tL8C&pg=PA60&dq=golay+hamming+only+perfect"><i>Algebraic Codes for Data Transmission</i></a>. Cambridge University Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-55374-1" title="Special:BookSources/0-521-55374-1">0-521-55374-1</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=n0XHMY58tL8C&pg=PA60&dq=golay+hamming+only+perfect">http://books.google.com/books?id=n0XHMY58tL8C&amp;pg=PA60&amp;dq=golay+hamming+only+perfect</a></span>.</span></span></li>
+<li id="cite_note-schlegel-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-schlegel_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-schlegel_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation book">Christian Schlegel and Lance Pérez (2004). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=9wRCjfGAaEcC&pg=PA73"><i>Trellis and turbo coding</i></a>. Wiley-IEEE. p.&#160;73. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-471-22755-7" title="Special:BookSources/978-0-471-22755-7">978-0-471-22755-7</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=9wRCjfGAaEcC&pg=PA73">http://books.google.com/books?id=9wRCjfGAaEcC&amp;pg=PA73</a></span>.</span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a href="Dave_Forney" title="Dave Forney">G.D. Forney, Jr.</a> (March 1992), <a rel="nofollow" class="external text" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=119687"><i>Trellis shaping</i></a>, <a href="IEEE" title="IEEE" class="mw-redirect">IEEE</a> Transactions on Information Theory, Vol. 38, Issue 2, Part 2.</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation Journal">Chen, Brian; Wornell, Gregory W. (July 1998). "Analog Error-Correcting Codes Based on Chaotic Dynamical Systems". <i>IEEE TRANSACTIONS ON COMMUNICATIONS</i> <b>46</b> (7). <a href="CiteSeer#CiteSeerX" title="CiteSeer">CiteSeerX</a>: <span class="url"><a rel="nofollow" class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.4093">10.1.1.30.4093</a></span>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation book">Hvala, Franc Novak Bojan; Klavžar, Sandi (1999). "On Analog Signature Analysis". <i>Proceedings of the conference on Design, automation and test in Europe</i>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-58113-121-6" title="Special:BookSources/1-58113-121-6">1-58113-121-6</a>. <a href="CiteSeer#CiteSeerX" title="CiteSeer">CiteSeerX</a>: <span class="url"><a rel="nofollow" class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.5853">10.1.1.142.5853</a></span>.</span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.hooklee.com/Papers/IEEETCASI2008.pdf">Cryptanalyzing an Encryption Scheme Based on Blind Source Separation</a>, Shujun Li, Chengqing Li, Kwok-Tung Lo, Guanrong Chen, IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS—I: REGULAR PAPERS, VOL. 55, NO. 4, PAGES 1055-1063, APRIL 2008</span></li>
+<li id="cite_note-Brown-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-Brown_8-0">^</a></b></span> <span class="reference-text">Brown EN, Kass RE, and Mitra PP. 2004. Multiple neural spike train data analysis: state-of-the-art and future challenges. <i>Nature Neuroscience</i> 7:456-61</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://pop.cerco.ups-tlse.fr/fr_vers/documents/thorpe_sj_90_91.pdf">Spike arrival times: A highly efficient coding scheme for neural networks</a>, SJ Thorpe - Parallel processing in neural systems, 1990</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation web">Gedeon, Tomáš; Parker, Albert E.; Dimitrov, Alexander G.. "Information Distortion and Neural Coding". <a href="CiteSeer#CiteSeerX" title="CiteSeer">CiteSeerX</a>: <span class="url"><a rel="nofollow" class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.5.6365">10.1.1.5.6365</a></span>.</span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://arxiv.org/pdf/q-bio/0501021">Spike timing precision and neural error correction: Local behavior</a>, M Stiber - Neural computation, 2005</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Coding_theory&action=edit&section=14.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><a href="Vera_Pless" title="Vera Pless">Vera Pless</a> (1982), <i>Introduction to the Theory of Error-Correcting Codes</i>, John Wiley &amp; Sons, Inc., <a href="Special_BookSources/0471086843" class="internal mw-magiclink-isbn">ISBN 0-471-08684-3</a>.</li>
+<li><a href="../Elwyn_R._Berlekamp" title="Elwyn R. Berlekamp" class="mw-redirect">Elwyn R. Berlekamp</a> (1984), <i>Algebraic Coding Theory</i>, Aegean Park Press (revised edition), <a href="Special_BookSources/0894120638" class="internal mw-magiclink-isbn">ISBN 0-89412-063-8</a>, <a href="Special_BookSources/9780894120633" class="internal mw-magiclink-isbn">ISBN 978-0-89412-063-3</a>.</li>
+<li>Randy Yates, <i><a rel="nofollow" class="external text" href="http://www.digitalsignallabs.com/tutorial.pdf">A Coding Theory Tutorial</a></i>.</li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 10114/1000000
+Preprocessor generated node count: 33921/1500000
+Post-expand include size: 65477/2048000 bytes
+Template argument size: 27403/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 12/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:321869-0!*!0!!en!4!* and timestamp 20130207154533 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Coding_theory&oldid=537067586.php.html">http://en.wikipedia.org/w/index.php?title=Coding_theory&amp;oldid=537067586</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Coding_theory" title="Category:Coding theory">Coding theory</a></li><li><a href="Category_Error_detection_and_correction" title="Category:Error detection and correction">Error detection and correction</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_articles_needing_rewrite_from_February_2010" title="Category:Wikipedia articles needing rewrite from February 2010">Wikipedia articles needing rewrite from February 2010</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_July_2008" title="Category:Articles with unsourced statements from July 2008">Articles with unsourced statements from July 2008</a></li><li><a href="Category_Articles_to_be_merged_from_July_2010" title="Category:Articles to be merged from July 2010">Articles to be merged from July 2010</a></li><li><a href="Category_All_articles_to_be_merged" title="Category:All articles to be merged">All articles to be merged</a></li><li><a href="Category_Misleading_articles" title="Category:Misleading articles">Misleading articles</a></li><li><a href="Category_Articles_needing_additional_references_from_January_2007" title="Category:Articles needing additional references from January 2007">Articles needing additional references from January 2007</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Coding+theory&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Coding+theory.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Coding_theory"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Coding_theory&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Coding_theory&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Coding_theory" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Coding_theory" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Coding_theory&oldid=537067586.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Coding_theory&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Coding_theory&id=537067586.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Coding+theory.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Coding+theory&oldid=537067586&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Coding_theory&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%AA%D8%B1%D9%85%D9%8A%D8%B2" title="نظرية الترميز" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Kodeteori" title="Kodeteori" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Kodierungstheorie" title="Kodierungstheorie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Teor%C3%ADa_de_c%C3%B3digos" title="Teoría de códigos" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%D9%87_%DA%A9%D8%AF%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C" title="نظریه کدگذاری" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Th%C3%A9orie_des_codes" title="Théorie des codes" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Teoria_dei_codici" title="Teoria dei codici" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%A7%D7%95%D7%93%D7%99%D7%9D" title="תורת הקודים" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Coderingstheorie" title="Coderingstheorie" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E7%AC%A6%E5%8F%B7%E7%90%86%E8%AB%96" title="符号理論" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Kodeteori" title="Kodeteori" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Teoria_de_c%C3%B3digos" title="Teoria de códigos" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Koodausteoria" title="Koodausteoria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Kodningsteori" title="Kodningsteori" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D0%BA%D0%BE%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" title="Теорія кодування" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_m%C3%A3_h%C3%B3a" title="Lý thuyết mã hóa" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%BC%96%E7%A0%81%E7%90%86%E8%AE%BA" title="编码理论" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 7 February 2013 at 15:45.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Coding_theory" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1034 in 0.177 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

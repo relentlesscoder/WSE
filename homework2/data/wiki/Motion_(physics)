@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Motion (physics) - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Motion_(physics)&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Motion_(physics)&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Motion_(physics)","wgTitle":"Motion (physics)","wgCurRevisionId":537677671,"wgArticleId":20580,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Motion","Mechanics","Concepts in metaphysics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Motion_(physics)","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"2840004d9dd73406f2ca7ba4cb8d551b","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":20580,"title":"Motion (physics)","namespace":0,"categories":["Concepts in metaphysics","Mechanics","Motion"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Motion_physics skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Motion (physics)</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>In <a href="Physics" title="Physics">physics</a>, <b>motion</b> is a change in <a href="Position_(vector)" title="Position (vector)">position</a> of an object with respect to time and its reference point. Motion is typically described in terms of <a href="Velocity" title="Velocity">velocity</a>, <a href="Acceleration" title="Acceleration">acceleration</a>, <a href="Displacement_(vector)" title="Displacement (vector)">displacement</a>, and <a href="Time" title="Time">time</a>.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> Motion is observed by attaching a <a href="Frame_of_reference" title="Frame of reference">frame of reference</a> to a body and measuring its change in position relative to another reference frame.</p>
+<p>A body which does not move is said to be <i>at rest</i>, <i>motionless</i>, <i>immobile</i>, <i><a href="http://en.wiktionary.org/wiki/stationary" class="extiw" title="wikt:stationary">stationary</a></i>, or to have constant (<a href="Time-invariant" title="Time-invariant" class="mw-redirect">time-invariant</a>) position. An object's motion cannot change unless it is acted upon by a <a href="Force" title="Force">force</a>, as described by <a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newton's first law</a>. An object's <a href="Momentum" title="Momentum">momentum</a> is directly related to the object's <a href="Mass" title="Mass">mass</a> and <a href="Velocity" title="Velocity">velocity</a>, and the total momentum of all objects in a <a href="Closed_system" title="Closed system">closed system</a> (one not affected by external forces) does not change with time, as described by the <a href="Law_of_conservation_of_momentum" title="Law of conservation of momentum" class="mw-redirect">law of conservation of momentum</a>.</p>
+<p>As there is no absolute frame of reference, <i>absolute motion</i> cannot be determined.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> Thus, everything in the universe can be considered to be moving.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>More generally, the term motion signifies a continuous change in the configuration of a physical system. For example, one can talk about motion of a wave or a quantum particle (or any other <a href="Field_(physics)" title="Field (physics)">field</a>) where the configuration consists of probabilities of occupying specific positions.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Leaving_Yongsan_Station.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Leaving_Yongsan_Station.jpg/300px-Leaving_Yongsan_Station.jpg" width="300" height="225" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Leaving_Yongsan_Station.jpg/450px-Leaving_Yongsan_Station.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Leaving_Yongsan_Station.jpg/600px-Leaving_Yongsan_Station.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Leaving_Yongsan_Station.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Motion involves a change in position, such as in this perspective of rapidly leaving <a href="Yongsan_Station" title="Yongsan Station">Yongsan Station</a>.</div>
+</div>
+</div>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Laws_of_Motion"><span class="tocnumber">1</span> <span class="toctext">Laws of Motion</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Classical_mechanics"><span class="tocnumber">1.1</span> <span class="toctext">Classical mechanics</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Quantum_mechanics"><span class="tocnumber">1.2</span> <span class="toctext">Quantum mechanics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Kinematics"><span class="tocnumber">2</span> <span class="toctext">Kinematics</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Planar_motion"><span class="tocnumber">2.1</span> <span class="toctext">Planar motion</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Spherical_motion"><span class="tocnumber">2.2</span> <span class="toctext">Spherical motion</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Spatial_motion"><span class="tocnumber">2.3</span> <span class="toctext">Spatial motion</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#List_of_.22imperceptible.22_human_motions"><span class="tocnumber">3</span> <span class="toctext">List of "imperceptible" human motions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Universe"><span class="tocnumber">3.1</span> <span class="toctext">Universe</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Galaxy"><span class="tocnumber">3.2</span> <span class="toctext">Galaxy</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Sun"><span class="tocnumber">3.3</span> <span class="toctext">Sun</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Solar_System"><span class="tocnumber">3.4</span> <span class="toctext">Solar System</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Earth"><span class="tocnumber">3.5</span> <span class="toctext">Earth</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Continents"><span class="tocnumber">3.6</span> <span class="toctext">Continents</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Internal_body"><span class="tocnumber">3.7</span> <span class="toctext">Internal body</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Cells"><span class="tocnumber">3.8</span> <span class="toctext">Cells</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Particles"><span class="tocnumber">3.9</span> <span class="toctext">Particles</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Subatomic_particles"><span class="tocnumber">3.10</span> <span class="toctext">Subatomic particles</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#Light"><span class="tocnumber">4</span> <span class="toctext">Light</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Types_of_motion"><span class="tocnumber">5</span> <span class="toctext">Types of motion</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=1.php.html" title="Edit section: Laws of Motion">edit</a>]</span> <span class="mw-headline" id="Laws_of_Motion">Laws of Motion</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Mechanics" title="Mechanics">Mechanics</a></div>
+<p>In physics, motion in the universe is described through two sets of apparently contradictory <a href="Scientific_law" title="Scientific law">laws</a> of <a href="Mechanics" title="Mechanics">mechanics</a>. Motions of all large scale and familiar objects in the universe (such as <a href="Projectile" title="Projectile">projectiles</a>, <a href="Planet" title="Planet">planets</a>, <a href="Cell_(biology)" title="Cell (biology)">cells</a>, and <a href="Human" title="Human">humans</a>) are described by <a href="Classical_mechanics" title="Classical mechanics">classical mechanics</a>. Whereas the motion of very small <a href="Atom" title="Atom">atomic</a> and <a href="Subatomic_particle" title="Subatomic particle">sub-atomic</a> objects is described by <a href="Quantum_mechanic" title="Quantum mechanic" class="mw-redirect">quantum mechanics</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=2.php.html" title="Edit section: Classical mechanics">edit</a>]</span> <span class="mw-headline" id="Classical_mechanics">Classical mechanics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Classical_mechanics" title="Classical mechanics">Classical mechanics</a></div>
+<table class="vertical-navbox nowraplinks plainlist" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;width:auto;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;padding-left:0.9em;padding-right:0.9em;"><a href="Classical_mechanics" title="Classical mechanics">Classical mechanics</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="History_of_classical_mechanics" title="History of classical mechanics">History</a></li>
+<li style=""><a href="Timeline_of_classical_mechanics" title="Timeline of classical mechanics">Timeline</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left; padding-bottom:0;;">Branches</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; padding-top:0;;">
+<ul>
+<li><a href="Statics" title="Statics">Statics</a></li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Analytical_dynamics" title="Analytical dynamics">Dynamics</a></li>
+<li style=""><a href="Kinetics_(physics)" title="Kinetics (physics)">Kinetics</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Kinematics" title="Kinematics">Kinematics</a></li>
+<li><a href="Applied_mechanics" title="Applied mechanics">Applied mechanics</a></li>
+<li><a href="Celestial_mechanics" title="Celestial mechanics">Celestial mechanics</a></li>
+<li><a href="Continuum_mechanics" title="Continuum mechanics">Continuum mechanics</a></li>
+<li><a href="Statistical_mechanics" title="Statistical mechanics">Statistical mechanics</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left; padding-bottom:0;;">Formulations</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; padding-top:0;;">
+<ul>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.1em;"><a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newtonian mechanics<br />
+<span style="font-size:85%;">(Vectorial mechanics)</span></a></div>
+</li>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.1em;"><a href="Analytical_mechanics" title="Analytical mechanics">Analytical mechanics</a>
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;">(<a href="Lagrangian_mechanics" title="Lagrangian mechanics">Lagrangian mechanics</a>&#160;</span></li>
+<li style=""><span style="font-size:85%;">&#160;<a href="Hamiltonian_mechanics" title="Hamiltonian mechanics">Hamiltonian mechanics</a>)</span></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left; padding-bottom:0;;">Fundamental concepts</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; padding-top:0;;">
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Space" title="Space">Space</a></li>
+<li style=""><a href="Time" title="Time">Time</a></li>
+<li style=""><a href="Mass" title="Mass">Mass</a></li>
+<li style=""><a href="Inertia" title="Inertia">Inertia</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Velocity" title="Velocity">Velocity</a></li>
+<li style=""><a href="Speed" title="Speed">Speed</a></li>
+<li style=""><a href="Acceleration" title="Acceleration">Acceleration</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Force" title="Force">Force</a></li>
+<li style=""><a href="Momentum" title="Momentum">Momentum</a></li>
+<li style=""><a href="Impulse_(physics)" title="Impulse (physics)">Impulse</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Torque" title="Torque">Torque</a>&#160;/ <a href="Moment_(physics)" title="Moment (physics)">Moment</a>&#160;/ <a href="Couple_(mechanics)" title="Couple (mechanics)">Couple</a></li>
+<li><a href="Angular_momentum" title="Angular momentum">Angular momentum</a></li>
+<li><a href="Moment_of_inertia" title="Moment of inertia">Moment of inertia</a></li>
+<li><a href="Frame_of_reference" title="Frame of reference">Frame of reference</a></li>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.1em;"><a href="Energy" title="Energy">Energy</a>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;">(<a href="Kinetic_energy#Newtonian_kinetic_energy" title="Kinetic energy">kinetic</a></span></li>
+<li style=""><span style="font-size:85%;"><a href="Potential_energy" title="Potential energy">potential</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li><a href="Work_(physics)" title="Work (physics)">Mechanical work</a></li>
+<li><a href="Power_(physics)" title="Power (physics)">Mechanical power</a></li>
+<li><a href="Virtual_work" title="Virtual work">Virtual work</a></li>
+<li><a href="D'Alembert's_principle" title="D'Alembert's principle">D'Alembert's principle</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left; padding-bottom:0;;">Core topics</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; padding-top:0;;">
+<ul>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.1em;"><a href="Rigid_body" title="Rigid body">Rigid body</a>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;">(<a href="Rigid_body_dynamics" title="Rigid body dynamics">dynamics</a></span></li>
+<li style=""><span style="font-size:85%;"><a href="Euler's_equations_(rigid_body_dynamics)" title="Euler's equations (rigid body dynamics)">Euler's equations</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li><strong class="selflink">Motion</strong> (<a href="Linear_motion" title="Linear motion">linear</a>)</li>
+<li><a href="Euler's_laws_of_motion" title="Euler's laws of motion">Euler's laws of motion</a></li>
+<li><a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newton's laws of motion</a></li>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.15em;"><a href="Newton's_law_of_universal_gravitation" title="Newton's law of universal gravitation">Newton's law of<br />
+universal gravitation</a></div>
+</li>
+<li><a href="Equations_of_motion" title="Equations of motion">Equations of motion</a></li>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.15em;"><a href="Inertial_frame_of_reference" title="Inertial frame of reference">Inertial</a>&#160;/ <a href="Non-inertial_reference_frame" title="Non-inertial reference frame">Non-inertial<br />
+reference frame</a></div>
+</li>
+<li><a href="Fictitious_force" title="Fictitious force">Fictitious force</a></li>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.15em;"><a href="Mechanics_of_planar_particle_motion" title="Mechanics of planar particle motion">Mechanics of planar<br />
+particle motion</a></div>
+</li>
+<li><a href="Displacement_(vector)" title="Displacement (vector)">Displacement <span style="font-size:85%;">(vector)</span></a></li>
+<li><a href="Relative_velocity" title="Relative velocity">Relative velocity</a></li>
+<li><a href="Friction" title="Friction">Friction</a></li>
+<li><a href="Simple_harmonic_motion" title="Simple harmonic motion">Simple harmonic motion</a></li>
+<li><a href="Harmonic_oscillator" title="Harmonic oscillator">Harmonic oscillator</a></li>
+<li><a href="Vibration" title="Vibration">Vibration</a></li>
+<li><a href="Damping" title="Damping">Damping</a> (<a href="Damping_ratio" title="Damping ratio">ratio</a>)</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left; padding-bottom:0;;"><a href="Rotation_around_a_fixed_axis" title="Rotation around a fixed axis">Rotational motion</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; padding-top:0;;">
+<ul>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.1em;"><a href="Circular_motion" title="Circular motion">Circular motion</a>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;">(<a href="Uniform_circular_motion" title="Uniform circular motion" class="mw-redirect">uniform</a></span></li>
+<li style=""><span style="font-size:85%;"><a href="Non-uniform_circular_motion" title="Non-uniform circular motion" class="mw-redirect">non-uniform</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li><a href="Rotating_reference_frame" title="Rotating reference frame">Rotating reference frame</a></li>
+<li><a href="Centripetal_force" title="Centripetal force">Centripetal force</a></li>
+<li>
+<div style="padding:0.2em 0.4em; line-height:1.2em; line-height:1.1em;"><a href="Centrifugal_force" title="Centrifugal force">Centrifugal force</a>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><span style="font-size:85%;">(<a href="Centrifugal_force_(rotating_reference_frame)" title="Centrifugal force (rotating reference frame)">rotating reference frame</a></span></li>
+<li style=""><span style="font-size:85%;"><a href="Reactive_centrifugal_force" title="Reactive centrifugal force">reactive</a>)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li><a href="Coriolis_effect" title="Coriolis effect">Coriolis force</a></li>
+<li><a href="Pendulum_(mathematics)" title="Pendulum (mathematics)">Pendulum</a></li>
+<li><a href="Speed#Tangential_speed" title="Speed">Tangential</a>&#160;/ <a href="Rotational_speed" title="Rotational speed">Rotational speed</a></li>
+<li><a href="Angular_acceleration" title="Angular acceleration">Angular acceleration</a></li>
+<li><a href="Angular_velocity" title="Angular velocity">Angular velocity</a></li>
+<li><a href="Angular_frequency" title="Angular frequency">Angular frequency</a></li>
+<li><a href="Angular_displacement" title="Angular displacement">Angular displacement</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left; padding-bottom:0;;">Scientists</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center; padding-top:0;;">
+<ul>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Galileo_Galilei" title="Galileo Galilei">Galileo</a></li>
+<li style=""><a href="Isaac_Newton" title="Isaac Newton">Newton</a></li>
+<li style=""><a href="Johannes_Kepler" title="Johannes Kepler">Kepler</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Jeremiah_Horrocks" title="Jeremiah Horrocks">Horrocks</a></li>
+<li style=""><a href="Edmond_Halley" title="Edmond Halley">Halley</a></li>
+<li style=""><a href="Leonhard_Euler" title="Leonhard Euler">Euler</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Jean_le_Rond_d'Alembert" title="Jean le Rond d'Alembert">d'Alembert</a></li>
+<li style=""><a href="Alexis_Clairaut" title="Alexis Clairaut">Clairaut</a></li>
+<li style=""><a href="Joseph_Louis_Lagrange" title="Joseph Louis Lagrange">Lagrange</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li>
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Pierre-Simon_Laplace" title="Pierre-Simon Laplace">Laplace</a></li>
+<li style=""><a href="William_Rowan_Hamilton" title="William Rowan Hamilton">Hamilton</a></li>
+<li style=""><a href="Sim%C3%A9on_Denis_Poisson" title="Siméon Denis Poisson">Poisson</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li><a href="Daniel_Bernoulli" title="Daniel Bernoulli">Daniel</a>&#160;/ <a href="Johann_Bernoulli" title="Johann Bernoulli">Johann Bernoulli</a></li>
+<li><a href="Augustin-Louis_Cauchy" title="Augustin-Louis Cauchy">Cauchy</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Classical_mechanics" title="Template:Classical mechanics"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Classical_mechanics" title="Template talk:Classical mechanics"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Classical_mechanics&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>Classical mechanics is used for describing the motion of <a href="Macroscopic" title="Macroscopic" class="mw-redirect">macroscopic</a> objects, from <a href="Projectiles" title="Projectiles" class="mw-redirect">projectiles</a> to parts of <a href="Machinery" title="Machinery" class="mw-redirect">machinery</a>, as well as <a href="Astronomical_objects" title="Astronomical objects" class="mw-redirect">astronomical objects</a>, such as <a href="Spacecraft" title="Spacecraft">spacecraft</a>, <a href="Planets" title="Planets" class="mw-redirect">planets</a>, <a href="Star" title="Star">stars</a>, and <a href="Galaxies" title="Galaxies" class="mw-redirect">galaxies</a>. It produces very accurate results within these domains, and is one of the oldest and largest subjects in <a href="Science" title="Science">science</a>, <a href="Engineering" title="Engineering">engineering</a>, and <a href="Technology" title="Technology">technology</a>.</p>
+<p>Classical mechanics is fundamentally based on <a href="Newton's_Laws_of_Motion" title="Newton's Laws of Motion" class="mw-redirect">Newton's Laws of Motion</a>. These laws describe the relationship between the forces acting on a body and the motion of that body. They were first compiled by <a href="Isaac_Newton" title="Isaac Newton">Sir Isaac Newton</a> in his work <i><a href="Philosophi%C3%A6_Naturalis_Principia_Mathematica" title="Philosophiæ Naturalis Principia Mathematica">Philosophiæ Naturalis Principia Mathematica</a></i>, first published on July 5, 1687. His three laws are:</p>
+<ol>
+<li>In the absence of a net external <a href="Force" title="Force">force</a>, a <a href="Physical_body" title="Physical body">body</a> either is at rest or moves with constant velocity.</li>
+<li>The net external force on a body is equal to the <a href="Mass" title="Mass">mass</a> of that body times its <a href="Acceleration" title="Acceleration">acceleration</a>; <b>F</b>&#160;=&#160;<i>m</i><b>a</b>. Alternatively, the acceleration is directly proportional to the force causing it, and inversely proportional to the mass.</li>
+<li>Whenever one body exerts a force <b>F</b> onto a second body, the second body exerts the force −<b>F</b> on the first body. <b>F</b> and −<b>F</b> are equal in magnitude and opposite in sense.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></li>
+</ol>
+<p>Newton's three laws of motion, along with his <a href="Newton's_law_of_universal_gravitation" title="Newton's law of universal gravitation">law of universal gravitation</a>, explain <a href="Kepler's_laws_of_planetary_motion" title="Kepler's laws of planetary motion">Kepler's laws of planetary motion</a>, which were the first to accurately provide a mathematical model or understanding <a href="Orbit" title="Orbit">orbiting</a> bodies in <a href="Outer_space" title="Outer space">outer space</a>. This explanation unified the motion of celestial bodies and motion of objects on earth.</p>
+<p>Classical mechanics was later further enhanced by <a href="Albert_Einstein" title="Albert Einstein">Albert Einstein's</a> <a href="Special_relativity" title="Special relativity">special relativity</a> and <a href="General_relativity" title="General relativity">general relativity</a>. Special relativity explains the motion of objects with a high <a href="Velocity" title="Velocity">velocity</a>, approaching the <a href="Speed_of_light" title="Speed of light">speed of light</a>; <a href="General_relativity" title="General relativity">general relativity</a> is employed to handle <a href="Gravitation" title="Gravitation">gravitation</a> motion at a deeper level.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=3.php.html" title="Edit section: Quantum mechanics">edit</a>]</span> <span class="mw-headline" id="Quantum_mechanics">Quantum mechanics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Quantum_mechanics" title="Quantum mechanics">Quantum mechanics</a></div>
+<p><a href="Quantum_mechanics" title="Quantum mechanics">Quantum mechanics</a> is a set of principles describing <a href="Physical_systems" title="Physical systems" class="mw-redirect">physical reality</a> at the atomic level of matter (<a href="Molecules" title="Molecules" class="mw-redirect">molecules</a> and <a href="Atoms" title="Atoms" class="mw-redirect">atoms</a>) and the <a href="Subatomic" title="Subatomic" class="mw-redirect">subatomic</a> (<a href="Electrons" title="Electrons" class="mw-redirect">electrons</a>, <a href="Protons" title="Protons" class="mw-redirect">protons</a>, and even smaller <a href="Subatomic_particle" title="Subatomic particle">particles</a>). These descriptions include the simultaneous wave-like and particle-like behavior of both <a href="Matter" title="Matter">matter</a> and <a href="Radiation" title="Radiation">radiation</a> energy, this described in the <a href="Wave%E2%80%93particle_duality" title="Wave–particle duality">wave–particle duality</a>.</p>
+<p>In contrast to classical mechanics, where accurate <a href="Measurement" title="Measurement">measurements</a> and <a href="Prediction" title="Prediction">predictions</a> can be calculated about <a href="Absolute_location" title="Absolute location" class="mw-redirect">location</a> and <a href="Velocity" title="Velocity">velocity</a>, in the quantum mechanics of a subatomic particle, one can never specify its state, such as its simultaneous location and velocity, with complete certainty (this is called the <a href="Uncertainty_principle" title="Uncertainty principle">Heisenberg uncertainty principle</a>).</p>
+<p>In addition to describing the motion of atomic level phenomena, quantum mechanics is useful in understanding some large scale phenomenon such as <a href="Superfluidity" title="Superfluidity">superfluidity</a>, <a href="Superconductivity" title="Superconductivity">superconductivity</a>, and <a href="Biological_systems" title="Biological systems" class="mw-redirect">biological systems</a>, including the function of <a href="Smell_receptors" title="Smell receptors" class="mw-redirect">smell receptors</a> and the <a href="Protein_structure" title="Protein structure">structures of proteins</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=4.php.html" title="Edit section: Kinematics">edit</a>]</span> <span class="mw-headline" id="Kinematics">Kinematics</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Kinematics" title="Kinematics">Kinematics</a></div>
+<p><a href="Kinematics" title="Kinematics">Kinematics</a> applies geometry to the analysis of movement, or motion, of a mechanical system. Rest and motion is a very relative term as far as the frames of reference is concerned. So, while proceeding with any of the problems in kinematics one should be very careful about the frame of reference. <sup id="cite_ref-Bottema_5-0" class="reference"><a href="#cite_note-Bottema-5"><span>[</span>5<span>]</span></a></sup> The rotation and sliding movement central a mechanical system is modeled mathematically as <a href="Rigid_transformation" title="Rigid transformation">Euclidean, or rigid, transformations</a>. The set of rigid transformations in <a href="Three_dimensional_space" title="Three dimensional space" class="mw-redirect">three dimensional space</a> forms a <a href="Lie_group" title="Lie group">Lie group</a>, denoted as <a href="SE(3)" title="SE(3)" class="mw-redirect">SE(3)</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=5.php.html" title="Edit section: Planar motion">edit</a>]</span> <span class="mw-headline" id="Planar_motion">Planar motion</span></h3>
+<p>While all motion in a <a href="Mechanical_system" title="Mechanical system">mechanical system</a> occurs in three dimensional space, planar motion can be analyzed using <a href="Plane_geometry" title="Plane geometry" class="mw-redirect">plane geometry</a>, if all point trajectories are parallel to a plane. In this case the system is called a <i><a href="Mechanism_(engineering)" title="Mechanism (engineering)">planar mechanism</a></i> (or robot). The kinematic analysis of planar mechanisms uses the subset of SE(3) consisting of planar rotations and translations, denoted SE(2).</p>
+<p>The group SE(2) is three dimensional, which means that every position of a body in the plane is defined by three parameters. The parameters are often the x and y coordinates of the origin of a coordinate frame in M measured from the origin of a coordinate frame in F, and the angle measured from the x-axis in F to the x-axis in M. This is described saying a body in the plane has three <a href="Degree_of_freedom_(mechanics)" title="Degree of freedom (mechanics)" class="mw-redirect">degrees-of-freedom</a>. SE(2) is the <a href="Configuration_space" title="Configuration space">configuration space</a> for a planar body, and a planar motion is a curve in this space.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=6.php.html" title="Edit section: Spherical motion">edit</a>]</span> <span class="mw-headline" id="Spherical_motion">Spherical motion</span></h3>
+<p>It is possible to construct a <a href="Mechanical_system" title="Mechanical system">mechanical system</a> such that the point trajectories in all components lie in concentric spherical shells around a fixed point. An example is the <a href="Gimbal" title="Gimbal">gimbaled</a> <a href="Gyroscope" title="Gyroscope">gyroscope</a>. These devices are called <i><a href="Mechanism_(engineering)" title="Mechanism (engineering)">spherical mechanisms</a>.</i><sup id="cite_ref-McCarthy2010_6-0" class="reference"><a href="#cite_note-McCarthy2010-6"><span>[</span>6<span>]</span></a></sup> Spherical mechanisms are constructed by connecting links with hinged joints such that the axes of each hinge passes through the same point. This point becomes center of the concentric spherical shells. The movement of these mechanisms is characterized by the group SO(3) of rotations in three dimensional space. Other examples of spherical mechanisms are the <a href="Differential_(mechanical_device)" title="Differential (mechanical device)">automotive differential</a> and the robotic wrist.</p>
+<p>Select this link for an animation of a <a rel="nofollow" class="external text" href="http://mechanicaldesign101.com/2009/04/27/spherical-rhombus-linkage-assembly/">Spherical deployable mechanism</a>.</p>
+<p>The <a href="Rotation_group_SO(3)" title="Rotation group SO(3)">rotation group SO(3)</a> is three dimensional. An example of the three parameters that specify a spatial rotation are the <a href="Euler_angles" title="Euler angles">roll, pitch and yaw angles</a> used to define the orientation of an aircraft. SO(3) is the <a href="Configuration_space" title="Configuration space">configuration space</a> for a rotating body, and a spherical motion is a curve in this space.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=7.php.html" title="Edit section: Spatial motion">edit</a>]</span> <span class="mw-headline" id="Spatial_motion">Spatial motion</span></h3>
+<p>A <a href="Mechanical_system" title="Mechanical system">mechanical system</a> in which a body moves through a general spatial movement is called a <i><a href="Mechanism_(engineering)" title="Mechanism (engineering)">spatial mechanism</a>.</i> An example is the RSSR linkage, which can be viewed as a four-bar linkage in which the hinged joints of the coupler link are replaced by <a href="Rod_end_bearing" title="Rod end bearing">rod ends</a>, also called spherical joints or <a href="Ball_joint" title="Ball joint">ball joints</a>. The rod ends allow the input and output cranks of the RSSR linkage to be misaligned to the point that they lie in different planes, which causes the coupler link to move in a general spatial movement. <a href="Robotic_arm" title="Robotic arm">Robot arms</a>, <a href="Stewart_platform" title="Stewart platform">Stewart platforms</a>, and <a href="Humanoid_robot" title="Humanoid robot">humanoid robotic systems</a> are also examples of spatial mechanisms.</p>
+<p>Select this link for an animation of <a rel="nofollow" class="external text" href="http://mechanicaldesign101.com/2009/04/27/linkage-animations-on-sythetica">Bennett's linkage</a>, which is a spatial mechanism constructed from four hinged joints.</p>
+<p>The group <a href="Euclidean_group" title="Euclidean group">SE(3)</a> is six dimensional, which means the position of a body in space is defined by six parameters. Three of the parameters define the origin of the moving reference frame relative to the fixed frame. Three other parameters define the orientation of the moving frame relative to the fixed frame. SE(3) is the <a href="Configuration_space" title="Configuration space">configuration space</a> for a body moving in space, and a spatial motion is a curve in this space.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=8.php.html" title="Edit section: List of &quot;imperceptible&quot; human motions">edit</a>]</span> <span class="mw-headline" id="List_of_.22imperceptible.22_human_motions">List of "imperceptible" human motions</span></h2>
+<p>Humans, like all known things in the universe, are in constant motion,<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> however, aside from obvious movements of the various external <a href="Anatomy" title="Anatomy">body</a> parts and <a href="Animal_locomotion" title="Animal locomotion">locomotion</a>, humans are in motion in a variety of ways which are more difficult to <a href="Motion_perception" title="Motion perception">perceive</a>. Many of these "imperceptible motions" are only perceivable with the help of special tools and careful observation. The larger scales of "imperceptible motions" are difficult for humans to perceive for two reasons: 1) <a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newton's laws of motion</a> (particularly <a href="Inertia" title="Inertia">Inertia</a>) which prevent humans from feeling motions of a mass to which they are connected, and 2) the lack of an obvious <a href="Frame_of_reference" title="Frame of reference">frame of reference</a> which would allow individuals to easily see that they are moving.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> The smaller scales of these motions are too small for <a href="Human" title="Human">humans</a> to <a href="Sense" title="Sense">sense</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=9.php.html" title="Edit section: Universe">edit</a>]</span> <span class="mw-headline" id="Universe">Universe</span></h3>
+<ul>
+<li><a href="Spacetime" title="Spacetime">Spacetime</a> (the fabric of the universe) is actually <a href="Metric_expansion_of_space" title="Metric expansion of space">expanding</a>. Essentially, everything in the <a href="Universe" title="Universe">universe</a> is stretching like a <a href="Rubber_band" title="Rubber band">rubber band</a>. This motion is the most obscure as it is not physical motion as such, but rather a change in the very nature of the universe. The primary source of verification of this expansion was provided by <a href="Edwin_Hubble" title="Edwin Hubble">Edwin Hubble</a> who demonstrated that all galaxies and distant astronomical objects were moving away from us (<i>"<a href="Hubble's_law" title="Hubble's law">Hubble's law</a>"</i>) as predicted by a universal expansion.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=10.php.html" title="Edit section: Galaxy">edit</a>]</span> <span class="mw-headline" id="Galaxy">Galaxy</span></h3>
+<ul>
+<li>The <a href="Milky_Way_Galaxy" title="Milky Way Galaxy" class="mw-redirect">Milky Way Galaxy</a>, is hurtling through <a href="Space" title="Space">space</a> at an incredible <a href="Speed" title="Speed">speed</a>. Many astronomers believe the Milky Way is moving at approximately 600&#160;km/s relative to the observed locations of other nearby galaxies. Another reference frame is provided by the <a href="Cosmic_microwave_background" title="Cosmic microwave background" class="mw-redirect">Cosmic microwave background</a>. This frame of reference indicates that The Milky Way is moving at around 552&#160;km/s.<sup id="cite_ref-dipole_10-0" class="reference"><a href="#cite_note-dipole-10"><span>[</span>10<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=11.php.html" title="Edit section: Sun">edit</a>]</span> <span class="mw-headline" id="Sun">Sun</span></h3>
+<ul>
+<li>The Milky Way is <a href="Rotation" title="Rotation">rotating</a> around its <a href="Density" title="Density">dense</a> <a href="Galactic_center" title="Galactic center" class="mw-redirect">galactic center</a>, thus the <a href="Sun" title="Sun">sun</a> is moving in a circle within the <a href="Galaxy" title="Galaxy">galaxy</a>'s <a href="Gravity" title="Gravity" class="mw-redirect">gravity</a>. Away from the central bulge or outer rim, the typical stellar <a href="Velocity" title="Velocity">velocity</a> is between 210 and 240&#160;km/s (about half-million mi/h).<sup id="cite_ref-fn4_11-0" class="reference"><a href="#cite_note-fn4-11"><span>[</span>11<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=12.php.html" title="Edit section: Solar System">edit</a>]</span> <span class="mw-headline" id="Solar_System">Solar System</span></h3>
+<ul>
+<li>All planets and their moons move with the sun. Thus the solar system is moving.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=13.php.html" title="Edit section: Earth">edit</a>]</span> <span class="mw-headline" id="Earth">Earth</span></h3>
+<ul>
+<li>The Earth is <a href="Rotation" title="Rotation">rotating</a> or spinning around its <a href="Axis_of_rotation" title="Axis of rotation" class="mw-redirect">axis</a>, this is evidenced by <a href="Day" title="Day">day</a> and <a href="Night" title="Night">night</a>, at the equator the earth has an eastward velocity of 0.4651&#160;km/s (1040&#160;mi/h).<sup id="cite_ref-nasa_goodard_12-0" class="reference"><a href="#cite_note-nasa_goodard-12"><span>[</span>12<span>]</span></a></sup></li>
+<li>The Earth is <a href="Orbit" title="Orbit">orbiting</a> around the <a href="Sun" title="Sun">Sun</a> in an <a href="Orbital_revolution" title="Orbital revolution" class="mw-redirect">orbital revolution</a>. A complete orbit around the sun takes one <a href="Year" title="Year">year</a> or about 365 days; it averages a speed of about 30&#160;km/s (67,000&#160;mi/h).<sup id="cite_ref-earth_fact_sheet_13-0" class="reference"><a href="#cite_note-earth_fact_sheet-13"><span>[</span>13<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=14.php.html" title="Edit section: Continents">edit</a>]</span> <span class="mw-headline" id="Continents">Continents</span></h3>
+<ul>
+<li>The Theory of <a href="Plate_tectonic" title="Plate tectonic" class="mw-redirect">Plate tectonics</a> tells us that the <a href="Continent" title="Continent">continents</a> are drifting on <a href="Convection_current" title="Convection current" class="mw-redirect">convection currents</a> within the <a href="Mantle_(geology)" title="Mantle (geology)">mantle</a> causing them to move across the surface of the <a href="Planet" title="Planet">planet</a> at the slow speed of approximately 1&#160;inch (2.54&#160;cm) per year.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup><sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> However, the velocities of plates range widely. The fastest-moving plates are the oceanic plates, with the <a href="Cocos_Plate" title="Cocos Plate">Cocos Plate</a> advancing at a rate of 75&#160;mm/yr<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> (3.0&#160;in/yr) and the <a href="Pacific_Plate" title="Pacific Plate">Pacific Plate</a> moving 52–69&#160;mm/yr (2.1–2.7 in/yr). At the other extreme, the slowest-moving plate is the <a href="Eurasian_Plate" title="Eurasian Plate">Eurasian Plate</a>, progressing at a typical rate of about 21&#160;mm/yr (0.8&#160;in/yr).</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=15.php.html" title="Edit section: Internal body">edit</a>]</span> <span class="mw-headline" id="Internal_body">Internal body</span></h3>
+<ul>
+<li>The human <a href="Heart" title="Heart">heart</a> is constantly contracting to move <a href="Blood" title="Blood">blood</a> throughout the body. Through larger veins and arteries in the body blood has been found to travel at approximately 0.33&#160;m/s.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> Though considerable variation exists, and peak flows in the venae cavae have been found between 0.1&#160;m/s and 0.45&#160;m/s.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup></li>
+<li>The <a href="Smooth_muscle" title="Smooth muscle" class="mw-redirect">smooth muscles</a> of hollow internal <a href="Viscera" title="Viscera" class="mw-redirect">organs</a> are moving. The most familiar would be <a href="Peristalsis" title="Peristalsis">peristalsis</a> which is where digested <a href="Food" title="Food">food</a> is forced throughout the <a href="Digestive_tract" title="Digestive tract" class="mw-redirect">digestive tract</a>. Though different foods travel through the body at rates, an average speed through the human <a href="Small_intestine" title="Small intestine">small intestine</a> is 2.16 m/h (0.036&#160;m/s).<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup></li>
+<li>Typically some <a href="Sound" title="Sound">sound</a> is audible at any given moment, when the vibration of these sound waves reaches the <a href="Ear_drum" title="Ear drum" class="mw-redirect">ear drum</a> it moves in response and allows the sense of <a href="Hearing_(sense)" title="Hearing (sense)">hearing</a>.</li>
+<li>The human <a href="Lymphatic_system" title="Lymphatic system">lymphatic system</a> is constantly moving excess <a href="Fluids" title="Fluids" class="mw-redirect">fluids</a>, <a href="Lipids" title="Lipids" class="mw-redirect">lipids</a>, and immune system related products around the body. The lymph fluid has been found to move through a lymph capillary of the <a href="Human_skin" title="Human skin">skin</a> at approximately 0.0000097&#160;m/s.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=16.php.html" title="Edit section: Cells">edit</a>]</span> <span class="mw-headline" id="Cells">Cells</span></h3>
+<p>The <a href="Cell_(biology)" title="Cell (biology)">cells</a> of the <a href="Human_body" title="Human body">human body</a> have many structures which move throughout them.</p>
+<ul>
+<li><a href="Cytoplasmic_streaming" title="Cytoplasmic streaming">Cytoplasmic streaming</a> is a way which cells move molecular substances throughout the <a href="Cytoplasm" title="Cytoplasm">cytoplasm</a>.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></li>
+<li>Various <a href="Motor_proteins" title="Motor proteins" class="mw-redirect">motor proteins</a> work as <a href="Molecular_motors" title="Molecular motors" class="mw-redirect">molecular motors</a> within a cell and move along the surface of various cellular substrates such as <a href="Microtubules" title="Microtubules" class="mw-redirect">microtubuless</a>. Motor proteins are typically powered by the <a href="Hydrolysis" title="Hydrolysis">hydrolysis</a> of <a href="Adenosine_triphosphate" title="Adenosine triphosphate">adenosine triphosphate</a> (ATP), and convert chemical energy into mechanical work.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> <a href="Vesicle_(biology)" title="Vesicle (biology)" class="mw-redirect">Vesicles</a> propelled by motor proteins have been found to have a velocity of approximately 0.00000152&#160;m/s.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=17.php.html" title="Edit section: Particles">edit</a>]</span> <span class="mw-headline" id="Particles">Particles</span></h3>
+<ul>
+<li>According to the <a href="Laws_of_thermodynamics" title="Laws of thermodynamics">laws of thermodynamics</a> all <a href="Subatomic_particle" title="Subatomic particle">particles</a> of <a href="Matter" title="Matter">matter</a> are in constant random motion as long as the <a href="Temperature" title="Temperature">temperature</a> is above <a href="Absolute_zero" title="Absolute zero">absolute zero</a>. Thus the <a href="Molecule" title="Molecule">molecules</a> and <a href="Atom" title="Atom">atoms</a> which make up the human body are vibrating, colliding, and moving. This motion can be detected as temperature; higher temperatures, which represent greater <a href="Kinetic_energy" title="Kinetic energy">kinetic energy</a> in the particles, feel warm to humans whom sense the thermal energy transferring from the object being touched to their nerves. Similarly, when lower temperature objects are touched, the senses perceive the transfer of heat away from the body as feeling cold.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=18.php.html" title="Edit section: Subatomic particles">edit</a>]</span> <span class="mw-headline" id="Subatomic_particles">Subatomic particles</span></h3>
+<ul>
+<li>Within each atom, <a href="Electron" title="Electron">electrons</a> exist in an area around the nucleus. This area is called the <a href="Electron_cloud" title="Electron cloud" class="mw-redirect">electron cloud</a>. According to Bohr's model of the atom, electrons have a high <a href="Electron_velocity" title="Electron velocity" class="mw-redirect">velocity</a>, and the larger the nucleus they are orbiting the faster they would need to move. If electrons 'move' about the electron cloud in strict paths the same way planets orbit the sun, then electrons would be required to do so at speeds which far exceed the speed of light. However, there is no reason that one must confine one's self to this strict conceptualization, that electrons move in paths the same way macroscopic objects do. Rather one can conceptualize electrons to be 'particles' that capriciously exist within the bounds of the electron cloud.<sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup></li>
+<li>Inside the <a href="Atomic_nucleus" title="Atomic nucleus">atomic nucleus</a> the <a href="Proton" title="Proton">protons</a> and <a href="Neutron" title="Neutron">neutrons</a> are also probably moving around due the electrical repulsion of the protons and the presence of <a href="Angular_momentum" title="Angular momentum">angular momentum</a> of both particles.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26"><span>[</span>26<span>]</span></a></sup></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=19.php.html" title="Edit section: Light">edit</a>]</span> <span class="mw-headline" id="Light">Light</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Speed_of_light" title="Speed of light">Speed of light</a></div>
+<p>Light propagates at 299,792,458&#160;m/s, often approximated as 300,000 kilometres per second or 186,000 miles per second. The speed of light (or <i>c</i>) is the speed of all <a href="Massless_particle" title="Massless particle">massless particles</a> and associated <a href="Field_(physics)" title="Field (physics)">fields</a> in a vacuum, and it is the upper limit on the speed at which energy, matter, and <a href="Physical_information" title="Physical information">information</a> can travel.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=20.php.html" title="Edit section: Types of motion">edit</a>]</span> <span class="mw-headline" id="Types_of_motion">Types of motion</span></h2>
+<ul>
+<li><a href="Simple_harmonic_motion" title="Simple harmonic motion">Simple harmonic motion</a> – (e.g. <a href="Pendulum" title="Pendulum">pendulum</a>).</li>
+<li><a href="Periodic_motion" title="Periodic motion" class="mw-redirect">Periodic motion</a></li>
+<li>Rectilinear motion (<a href="Linear_motion" title="Linear motion">Linear motion</a>) – motion which follows a straight <a href="Line_(geometry)" title="Line (geometry)">linear</a> path, and whose <a href="Displacement_(vector)" title="Displacement (vector)">displacement</a> is exactly the same as its <a href="Trajectory" title="Trajectory">trajectory</a>.</li>
+<li><a href="Reciprocating_motion" title="Reciprocating motion">Reciprocating</a> (i.e. vibration)</li>
+<li><a href="Brownian_motion" title="Brownian motion">Brownian motion</a> (i.e. the random movement of particles)</li>
+<li><a href="Circular_motion" title="Circular motion">Circular motion</a> (e.g. the <a href="Orbit" title="Orbit">orbits</a> of planets)</li>
+<li><a href="Rotational_motion" title="Rotational motion" class="mw-redirect">Rotary motion</a> – a motion about a fixed point. (e.g. <a href="Ferris_wheel" title="Ferris wheel">Ferris wheel</a>).</li>
+<li><a href="Curvilinear_motion" title="Curvilinear motion">Curvilinear motion</a> – It is defined as the motion along a curved path that may be planar or in three dimensions.</li>
+<li><a href="Rotation" title="Rotation">Rotational motion</a></li>
+<li><a href="Rolling" title="Rolling">Rolling motion</a> - (e.g. the wheel of a bicycle)</li>
+<li><a href="Oscillation" title="Oscillation">Oscillation</a></li>
+<li>Combination motions - Combination of two or more above listed motions</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=21.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Simple_machines" title="Simple machines" class="mw-redirect">Simple machines</a></li>
+<li><a href="Kinematic_chain" title="Kinematic chain">Kinematic chain</a></li>
+<li><a href="Power_(physics)" title="Power (physics)">Power (physics)</a></li>
+<li><a href="Machine_(mechanical)" title="Machine (mechanical)">Machine (mechanical)</a></li>
+<li><a href="Motion_(geometry)" title="Motion (geometry)">Motion (geometry)</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Motion_(physics)&action=edit&section=22.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://hyperphysics.phy-astr.gsu.edu/hbase/hframe.html">Nave, R. 2005. Motion. Hyper Physics. Georgia State University</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.colutron.com/download_files/chapt9.pdf">Wåhlin, L. 1997. "THE DEADBEAT UNIVERSE"</a>, Chapter 9. Colutron Research Corporation <a href="Special_BookSources/0933407033" class="internal mw-magiclink-isbn">ISBN 0-933407-03-3</a></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.nap.edu/html/oneuniverse/motion_20-21.html">De Grasse Tyson, N., Liu, C., &amp; Irion, R. 2000. One Universe: At home in the cosmos. p.20–21. Joseph Henry Press. ISBN 0-309-06488-0</a></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Newton's "Axioms or Laws of Motion" can be found in the "<a href="Mathematical_Principles_of_Natural_Philosophy" title="Mathematical Principles of Natural Philosophy" class="mw-redirect">Principia</a>" on <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Tm0FAAAAQAAJ&pg=PA19#v=onepage&amp;q=&amp;f=false">page 19 of volume 1 of the 1729 translation</a>.</span></li>
+<li id="cite_note-Bottema-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Bottema_5-0">^</a></b></span> <span class="reference-text"><span class="citation book">O. Bottema &amp; B. Roth (1990). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=f8I4yGVi9ocC&printsec=frontcover&dq=kinematics&lr=&as_brr=0&sig=YfoHn9ImufIzAEp5Kl7rEmtYBKc#PPR7,M1"><i>Theoretical Kinematics</i></a>. Dover Publications. reface. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-486-66346-9" title="Special:BookSources/0-486-66346-9">0-486-66346-9</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=f8I4yGVi9ocC&printsec=frontcover&dq=kinematics&lr=&as_brr=0&sig=YfoHn9ImufIzAEp5Kl7rEmtYBKc#PPR7,M1">http://books.google.com/books?id=f8I4yGVi9ocC&amp;printsec=frontcover&amp;dq=kinematics&amp;lr=&amp;as_brr=0&amp;sig=YfoHn9ImufIzAEp5Kl7rEmtYBKc#PPR7,M1</a></span>.</span></span></li>
+<li id="cite_note-McCarthy2010-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-McCarthy2010_6-0">^</a></b></span> <span class="reference-text">J. M. McCarthy and G. S. Soh, 2010, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=jv9mQyjRIw4C&pg=PA231&lpg=PA231&dq=geometric+design+of+linkages&source=bl&ots=j6TS1043qE&sig=R5ycw5DximWrQOEVshfiytflD6Q&hl=en&sa=X&ei=0Zj4TuiCFvCGsgKyvO3FAQ&ved=0CGAQ6AEwBQ#v=onepage&amp;q=geometric%20design%20of%20linkages&amp;f=false"><i>Geometric Design of Linkages,</i></a> Springer, New York.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.nap.edu/html/oneuniverse/motion_8-9.html">De Grasse Tyson, N., Liu, C., &amp; Irion, R. 2000. One Universe: At home in the cosmos. p.8–9. Joseph Henry Press. ISBN 0-309-06488-0</a></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.physlink.com/education/askexperts/ae118.cfm">Safkan, Y. 2007</a> "f the term 'absolute motion' has no meaning, then why do we say that the earth moves around the sun and not vice versa?" Ask the Experts. PhysicsLink</span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Hubble, Edwin, "<a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1929PNAS...15..168H&db_key=AST&data_type=HTML&format=&high=42ca922c9c30954">A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae</a>" (1929) <i>Proceedings of the National Academy of Sciences of the United States of America</i>, Volume 15, Issue 3, pp. 168–173 (<a rel="nofollow" class="external text" href="http://www.pnas.org/cgi/reprint/15/3/168">Full article</a>, PDF)</span></li>
+<li id="cite_note-dipole-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-dipole_10-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">Kogut, A.; Lineweaver, C.; Smoot, G. F.; Bennett, C. L.; Banday, A.; Boggess, N. W.; Cheng, E. S.; de Amici, G.; Fixsen, D. J.; Hinshaw, G.; Jackson, P. D.; Janssen, M.; Keegstra, P.; Loewenstein, K.; Lubin, P.; Mather, J. C.; Tenorio, L.; Weiss, R.; Wilkinson, D. T.; Wright, E. L. (1993). "Dipole Anisotropy in the COBE Differential Microwave Radiometers First-Year Sky Maps". <i>Astrophysical Journal</i> <b>419</b>: 1. <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/astro-ph/9312056">astro-ph/9312056</a>. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/1993ApJ...419....1K">1993ApJ...419....1K</a>. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1086/173453">10.1086/173453</a>.</span></span></li>
+<li id="cite_note-fn4-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-fn4_11-0">^</a></b></span> <span class="reference-text"><span class="citation web">Imamura, Jim (August 10, 2006). <a rel="nofollow" class="external text" href="http://web.archive.org/web/20070301055338/http:/zebu.uoregon.edu/~imamura/123/lecture-2/mass.html">"Mass of the Milky Way Galaxy"</a>. University of Oregon. Archived from <a rel="nofollow" class="external text" href="http://zebu.uoregon.edu/~imamura/123/lecture-2/mass.html">the original</a> on 2007-03-01<span class="printonly">. <a rel="nofollow" class="external free" href="http://web.archive.org/web/20070301055338/http:/zebu.uoregon.edu/~imamura/123/lecture-2/mass.html">http://web.archive.org/web/20070301055338/http://zebu.uoregon.edu/~imamura/123/lecture-2/mass.html</a></span><span class="reference-accessdate">. Retrieved 2007-05-10</span>.</span></span></li>
+<li id="cite_note-nasa_goodard-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-nasa_goodard_12-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://imagine.gsfc.nasa.gov/docs/ask_astro/answers/970401c.html">Ask and Astrophysicist</a>. NASA Goodard Space Flight Center.</span></li>
+<li id="cite_note-earth_fact_sheet-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-earth_fact_sheet_13-0">^</a></b></span> <span class="reference-text"><span class="citation web">Williams, David R. (September 1, 2004). <a rel="nofollow" class="external text" href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html">"Earth Fact Sheet"</a>. NASA<span class="printonly">. <a rel="nofollow" class="external free" href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html">http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html</a></span><span class="reference-accessdate">. Retrieved 2007-03-17</span>.</span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web">Staff. <a rel="nofollow" class="external text" href="http://sideshow.jpl.nasa.gov/mbh/series.html">"GPS Time Series"</a>. NASA JPL<span class="printonly">. <a rel="nofollow" class="external free" href="http://sideshow.jpl.nasa.gov/mbh/series.html">http://sideshow.jpl.nasa.gov/mbh/series.html</a></span><span class="reference-accessdate">. Retrieved 2007-04-02</span>.</span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation web">Huang, Zhen Shao. <a rel="nofollow" class="external text" href="http://hypertextbook.com/facts/ZhenHuang.shtml">"Speed of the Continental Plates"</a>. <i>The Physics Factbook</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://hypertextbook.com/facts/ZhenHuang.shtml">http://hypertextbook.com/facts/ZhenHuang.shtml</a></span><span class="reference-accessdate">. Retrieved 2007-11-09</span>.</span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web">Meschede, M.; Udo Barckhausen, U. (November 20, 2000). <a rel="nofollow" class="external text" href="http://www-odp.tamu.edu/publications/170_SR/chap_07/chap_07.htm">"Plate Tectonic Evolution of the Cocos-Nazca Spreading Center"</a>. <i>Proceedings of the Ocean Drilling Program</i>. Texas A&amp;M University<span class="printonly">. <a rel="nofollow" class="external free" href="http://www-odp.tamu.edu/publications/170_SR/chap_07/chap_07.htm">http://www-odp.tamu.edu/publications/170_SR/chap_07/chap_07.htm</a></span><span class="reference-accessdate">. Retrieved 2007-04-02</span>.</span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.coheadquarters.com/PennLibr/MyPhysiology/lect5/xpen5.01.htm">Penny, P.</a> 2003. Hemodynamic: Blood Velocity</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation Journal">LEWIS WEXLER, DEREK H. BERGEL, IVOR T. GABE, GEOFFREY S. MAKIN, &amp; CHRISTOPHER J. MILLS (1 September 1968GGHKHJ,H,kamnalaa mancha haru khatam). <a rel="nofollow" class="external text" href="http://circres.ahajournals.org/cgi/content/abstract/circresaha">"Velocity of Blood Flow in Normal Human Venae Cavae"</a>. <i>Circulation Research.</i> <b>23</b> (3): 349–59. <a href="PubMed_Identifier" title="PubMed Identifier" class="mw-redirect">PMID</a>&#160;<a rel="nofollow" class="external text" href="http://www.ncbi.nlm.nih.gov/pubmed/5676450">5676450</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://circres.ahajournals.org/cgi/content/abstract/circresaha">http://circres.ahajournals.org/cgi/content/abstract/circresaha;23/3/349</a></span><span class="reference-accessdate">. Retrieved 2007-11-14</span>.</span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.vivo.colostate.edu/hbooks/pathphys/digestion/basics/transit.html">Bowen, R.</a> 2006. Gastrointestinal Transit: How Long Does It Take? Colorado State University.</span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><span class="citation Journal">M. Fischer, U. K. Franzeck, I. Herrig, U. Costanzo, S. Wen, M. Schiesser, U. Hoffmann and A. Bollinger (1 January 1996). <a rel="nofollow" class="external text" href="http://ajpheart.physiology.org/cgi/content/abstract/270/1/H358">"Flow velocity of single lymphatic capillaries in human skin"</a>. <i>Am J Physiol Heart Circ Physiology</i> <b>270</b> (1): H358–H363. <a href="PubMed_Identifier" title="PubMed Identifier" class="mw-redirect">PMID</a>&#160;<a rel="nofollow" class="external text" href="http://www.ncbi.nlm.nih.gov/pubmed/8769772">8769772</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://ajpheart.physiology.org/cgi/content/abstract/270/1/H358">http://ajpheart.physiology.org/cgi/content/abstract/270/1/H358</a></span><span class="reference-accessdate">. Retrieved 2007-11-14</span>.</span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.britannica.com/eb/article-9028448/cytoplasmic-streaming">Cytoplasmic Streaming: Encyclopædia Britannica</a></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.rpi.edu/dept/bcbp/molbiochem/MBWeb/mb2/part1/kinesin.htm">Microtubules Motors: Rensselaer Polytechnic Institute.</a></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation Journal">Hill, David; Holzwarth, George; Bonin, Keith (2002). "Velocity and Drag Forces on motor-protein-driven Vesicles in Cells". <i>American Physical Society, the 69th Annual Meeting of the Southeastern</i>. abstract <b>#EA.002</b>. <a href="Bibcode" title="Bibcode">Bibcode</a> <a rel="nofollow" class="external text" href="http://adsabs.harvard.edu/abs/2002APS..SES.EA002H">2002APS..SES.EA002H</a>.</span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.colorado.edu/UCB/AcademicAffairs/ArtsSciences/physics/PhysicsInitiative/Physics2000/bec/temperature.html">Temperature and BEC.</a> Physics 2000: Colorado State University Physics Department</span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.newton.dep.anl.gov/newton/askasci/1993/physics/PHY112.HTM">Ask a scientist archive. Argonne National Laboratory, United States Department of Energy</a></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.lbl.gov/abc/wallchart/teachersguide/pdf/Chap02.pdf">Chapter 2, Nuclear Science- A guide to the nuclear science wall chart. Berkley National Laboratory.</a></span></li>
+</ol>
+</div>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Kinematics" title="Template:Kinematics"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Kinematics" title="Template talk:Kinematics"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Kinematics&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Kinematics" title="Kinematics">Kinematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li>← <a href="Integral" title="Integral">Integrate</a> … <a href="Derivative" title="Derivative">Differentiate</a> →</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Displacement_(vector)" title="Displacement (vector)">Displacement</a> (<a href="Distance" title="Distance">Distance</a>)</li>
+<li><a href="Velocity" title="Velocity">Velocity</a> (<a href="Speed" title="Speed">Speed</a>)</li>
+<li><a href="Acceleration" title="Acceleration">Acceleration</a></li>
+<li><a href="Jerk_(physics)" title="Jerk (physics)">Jerk</a></li>
+<li><a href="Jounce" title="Jounce">Jounce</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 10448/1000000
+Preprocessor generated node count: 53433/1500000
+Post-expand include size: 110246/2048000 bytes
+Template argument size: 62600/2048000 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:20580-0!*!0!!en!4!* and timestamp 20130212100653 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Motion_(physics)&oldid=537677671.php.html">http://en.wikipedia.org/w/index.php?title=Motion_(physics)&amp;oldid=537677671</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Motion" title="Category:Motion">Motion</a></li><li><a href="Category_Mechanics" title="Category:Mechanics">Mechanics</a></li><li><a href="Category_Concepts_in_metaphysics" title="Category:Concepts in metaphysics">Concepts in metaphysics</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Motion+(physics)&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Motion+(physics).php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Motion_(physics)"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Motion_(physics)&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Motion_(physics)&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Motion_(physics)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Motion_(physics)" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Motion_(physics)&oldid=537677671.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Motion_(physics)&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Motion_(physics)&id=537677671.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Motion+(physics).php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Motion+(physics)&oldid=537677671&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Motion_(physics)&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Beweging" title="Beweging" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D9%83%D8%A9_(%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1)" title="حركة (فيزياء)" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/Movimientu" title="Movimientu" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Mexaniki_h%C9%99r%C9%99k%C9%99t" title="Mexaniki hərəkət" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D1%87%D0%BD%D1%8B_%D1%80%D1%83%D1%85" title="Механічны рух" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%9C%D1%8D%D1%85%D0%B0%D0%BD%D1%96%D1%87%D0%BD%D1%8B_%D1%80%D1%83%D1%85" title="Мэханічны рух" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" title="Движение" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Kretanje" title="Kretanje" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Moviment" title="Moviment" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Mechanick%C3%BD_pohyb" title="Mechanický pohyb" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/Mudiant" title="Mudiant" lang="cy" hreflang="cy">Cymraeg</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Bewegung_(Physik)" title="Bewegung (Physik)" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Liikumine" title="Liikumine" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9A%CE%AF%CE%BD%CE%B7%CF%83%CE%B7" title="Κίνηση" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Movimiento_(f%C3%ADsica)" title="Movimiento (física)" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Movado_(fiziko)" title="Movado (fiziko)" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Higidura" title="Higidura" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AD%D8%B1%DA%A9%D8%AA_(%D9%81%DB%8C%D8%B2%DB%8C%DA%A9)" title="حرکت (فیزیک)" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Mouvement_(m%C3%A9canique)" title="Mouvement (mécanique)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Movemento" title="Movemento" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9A%B4%EB%8F%99_(%EB%AC%BC%EB%A6%AC%ED%95%99)" title="운동 (물리학)" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%A4%E0%A4%BF_(%E0%A4%AD%E0%A5%8C%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A5%80)" title="गति (भौतिकी)" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Gibanje" title="Gibanje" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Movo" title="Movo" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Gerak" title="Gerak" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Moto_(fisica)" title="Moto (fisica)" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%AA%D7%A0%D7%95%D7%A2%D7%94_(%D7%A4%D7%99%D7%96%D7%99%D7%A7%D7%94)" title="תנועה (פיזיקה)" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-kn"><a href="http://kn.wikipedia.org/wiki/%E0%B2%9A%E0%B2%B2%E0%B2%A8%E0%B3%86" title="ಚಲನೆ" lang="kn" hreflang="kn">ಕನ್ನಡ</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8B%D2%9B_%D2%9B%D0%BE%D0%B7%D2%93%D0%B0%D0%BB%D1%8B%D1%81" title="Механикалық қозғалыс" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Meh%C4%81nisk%C4%81_kust%C4%ABba" title="Mehāniskā kustība" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D1%9A%D0%B5_(%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0)" title="Движење (физика)" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%97%E0%A4%A4%E0%A5%80" title="गती" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Pergerakan_(fizik)" title="Pergerakan (fizik)" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mn"><a href="http://mn.wikipedia.org/wiki/%D0%A5%D3%A9%D0%B4%D3%A9%D0%BB%D0%B3%D3%A9%D3%A9%D0%BD" title="Хөдөлгөөн" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Beweging_(natuurkunde)" title="Beweging (natuurkunde)" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E9%81%8B%E5%8B%95_(%E7%89%A9%E7%90%86%E5%AD%A6)" title="運動 (物理学)" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Bevegelse_(fysikk)" title="Bevegelse (fysikk)" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/R%C3%B8rsle_i_fysikk" title="Rørsle i fysikk" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-km"><a href="http://km.wikipedia.org/wiki/%E1%9E%85%E1%9E%9B%E1%9E%93%E1%9E%B6%E1%9E%93%E1%9F%85%E1%9E%80%E1%9F%92%E1%9E%93%E1%9E%BB%E1%9E%84%E1%9E%9A%E1%9E%BC%E1%9E%94%E1%9E%9C%E1%9E%B7%E1%9E%91%E1%9F%92%E1%9E%99%E1%9E%B6" title="ចលនានៅក្នុងរូបវិទ្យា" lang="km" hreflang="km">ភាសាខ្មែរ</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Ruch_(fizyka)" title="Ruch (fizyka)" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Movimento" title="Movimento" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Mi%C8%99care_(fizic%C4%83)" title="Mișcare (fizică)" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-qu"><a href="http://qu.wikipedia.org/wiki/Kuyuy" title="Kuyuy" lang="qu" hreflang="qu">Runa Simi</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" title="Механическое движение" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sc"><a href="http://sc.wikipedia.org/wiki/Movimentu" title="Movimentu" lang="sc" hreflang="sc">Sardu</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Movement" title="Movement" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Pohyb_(fyzika)" title="Pohyb (fyzika)" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Gibanje" title="Gibanje" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-ckb"><a href="http://ckb.wikipedia.org/wiki/%D8%AC%D9%88%D9%88%DA%B5%DB%95" title="جووڵە" lang="ckb" hreflang="ckb">کوردی</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D1%82%D0%B0%D1%9A%D0%B5" title="Кретање" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/Gerak" title="Gerak" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Liike_(fysiikka)" title="Liike (fysiikka)" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/R%C3%B6relse_(fysik)" title="Rörelse (fysik)" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D_(%E0%AE%87%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D)" title="இயக்கம் (இயற்பியல்)" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88" title="การเคลื่อนที่" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Hareket_(fizik)" title="Hareket (fizik)" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-tk"><a href="http://tk.wikipedia.org/wiki/Mehaniki_hereket" title="Mehaniki hereket" lang="tk" hreflang="tk">Türkmençe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A0%D1%83%D1%85_(%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0)" title="Рух (механіка)" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Chuy%E1%BB%83n_%C4%91%E1%BB%99ng" title="Chuyển động" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-yo"><a href="http://yo.wikipedia.org/wiki/%C3%8Cm%C3%BAr%C3%ACn" title="Ìmúrìn" lang="yo" hreflang="yo">Yorùbá</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/%E9%83%81" title="郁" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E9%81%8B%E5%8B%95_(%E7%89%A9%E7%90%86%E5%AD%B8)" title="運動 (物理學)" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 February 2013 at 09:05.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Motion_(physics)" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1055 in 2.258 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

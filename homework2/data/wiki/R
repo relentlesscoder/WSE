@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>R - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=R&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=R&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"R","wgTitle":"R","wgCurRevisionId":537939129,"wgArticleId":25618,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia indefinitely move-protected pages","Articles containing Ancient Greek language text","All articles with unsourced statements","Articles with unsourced statements from February 2012","ISO basic Latin letters"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"R","wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"481e7f83a7b064c1385762e490fe20e2","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":25618,"title":"R","namespace":0,"categories":["All articles with unsourced statements","Articles containing Ancient Greek language text","Articles with unsourced statements from February 2012","ISO basic Latin letters","Wikipedia indefinitely move-protected pages"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-R skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">R</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">This article is about the letter R.  For other uses, see <a href="R_(disambiguation)" title="R (disambiguation)">R (disambiguation)</a>.</div>
+<table align="right" style="margin:0 0 0 0;">
+<tr>
+<td align="center">
+<table class="infobox">
+<tr>
+<th colspan="4" style="padding:.5em;">
+<div class="center">
+<div class="floatnone"><a href="http://en.wikipedia.org/wiki/File:Latin_alphabet_Rr.svg" class="image" title="R"><img alt="R" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Latin_alphabet_Rr.svg/103px-Latin_alphabet_Rr.svg.png" width="103" height="35" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Latin_alphabet_Rr.svg/155px-Latin_alphabet_Rr.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Latin_alphabet_Rr.svg/206px-Latin_alphabet_Rr.svg.png 2x" /></a></div>
+</div>
+</th>
+</tr>
+<tr>
+<th colspan="4" style="background:#ccf;padding:.4em;text-align:center"><a href="ISO_basic_Latin_alphabet" title="ISO basic Latin alphabet">ISO basic Latin alphabet</a></th>
+</tr>
+<tr style="text-align:center;">
+<td width="25%"><a href="A" title="A">Aa</a></td>
+<td width="25%"><a href="B" title="B">Bb</a></td>
+<td width="25%"><a href="C" title="C">Cc</a></td>
+<td width="25%"><a href="D" title="D">Dd</a></td>
+</tr>
+<tr style="text-align:center;">
+<td><a href="E" title="E">Ee</a></td>
+<td><a href="F" title="F">Ff</a></td>
+<td><a href="G" title="G">Gg</a></td>
+<td><a href="H" title="H">Hh</a></td>
+</tr>
+<tr style="text-align:center;">
+<td><a href="I" title="I">Ii</a></td>
+<td><a href="J" title="J">Jj</a></td>
+<td><a href="K" title="K">Kk</a></td>
+<td><a href="L" title="L">Ll</a></td>
+</tr>
+<tr style="text-align:center;">
+<td><a href="M" title="M">Mm</a></td>
+<td><a href="N" title="N">Nn</a></td>
+<td><a href="O" title="O">Oo</a></td>
+<td><a href="P" title="P">Pp</a></td>
+</tr>
+<tr style="text-align:center;">
+<td><a href="Q" title="Q">Qq</a></td>
+<td><strong class="selflink">Rr</strong></td>
+<td><a href="S" title="S">Ss</a></td>
+<td><a href="T" title="T">Tt</a></td>
+</tr>
+<tr style="text-align:center;">
+<td><a href="U" title="U">Uu</a></td>
+<td><a href="V" title="V">Vv</a></td>
+<td><a href="W" title="W">Ww</a></td>
+<td><a href="X" title="X">Xx</a></td>
+</tr>
+<tr style="text-align:center;">
+<td><a href="Y" title="Y">Yy</a></td>
+<td><a href="Z" title="Z">Zz</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width: 222px; padding: 3px; border: 1px solid #CCCCCC; margin: 3px; float:none; clear:both;&#160;;background:#F9F9F9">
+<div style="position: relative;border: 1px solid #CCCCCC; padding: 0px; width:220px"><a href="http://en.wikipedia.org/wiki/File:Cursive.svg" class="image" title="R (100x100)"><img alt="R (100x100)" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cursive.svg/220px-Cursive.svg.png" width="220" height="176" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cursive.svg/330px-Cursive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/00/Cursive.svg/440px-Cursive.svg.png 2x" /></a><br />
+<div style="position:absolute; z-index:2; top: 23.1%; left: 71.2%; height: 0; width: 0; margin: 0; padding: 0;">
+<div style="position: relative; text-align: center; left: -15px; top: -15px; width: 29px; font-size: 9px; line-height:0;"><a href="http://en.wikipedia.org/wiki/File:Circle_sheer_blue_29.gif" class="image" title="R"><img alt="R" src="http://upload.wikimedia.org/wikipedia/commons/8/8a/Circle_sheer_blue_29.gif" width="29" height="29" /></a></div>
+<div style="font-size: 90%; line-height: 110%; position: relative; top: -1.5em; width: 6em; top: -35px; left: 0.72397539753975em; text-align: left;"></div>
+</div>
+<div style="position:absolute; z-index:2; top: 64.5%; left: 87.9%; height: 0; width: 0; margin: 0; padding: 0;">
+<div style="position: relative; text-align: center; left: -15px; top: -15px; width: 29px; font-size: 9px; line-height:0;"><a href="http://en.wikipedia.org/wiki/File:Circle_sheer_blue_29.gif" class="image" title="R"><img alt="R" src="http://upload.wikimedia.org/wikipedia/commons/8/8a/Circle_sheer_blue_29.gif" width="29" height="29" /></a></div>
+<div style="font-size: 90%; line-height: 110%; position: relative; top: -1.5em; width: 6em; top: -35px; left: 0.72397539753975em; text-align: left;"></div>
+</div>
+</div>
+<div style="font-size: 90%"><a href="Cursive" title="Cursive">Cursive</a> script 'r' and capital 'R'.</div>
+</div>
+</td>
+</tr>
+</table>
+<p><b>R</b> (<a href="English_alphabet#Letter_names" title="English alphabet">named</a> <i>ar</i> <span class="nowrap"><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ˈ/ primary stress follows" style="border-bottom:1px dotted">ˈ</span></a></span><span class="IPA"><a href="Help_IPA_for_English#Key" title="Help:IPA for English"><span title="/ɑr/ 'ar' in 'bard'" style="border-bottom:1px dotted">ɑr</span></a></span><span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA"><a href="Help_IPA_for_English" title="Help:IPA for English">/</a></span></span><sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup>) is the eighteenth <a href="Letter_(alphabet)" title="Letter (alphabet)">letter</a> of the <a href="ISO_basic_Latin_alphabet" title="ISO basic Latin alphabet">ISO basic Latin alphabet</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Usage"><span class="tocnumber">2</span> <span class="toctext">Usage</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Shape"><span class="tocnumber">3</span> <span class="toctext">Shape</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Dog.27s_letter"><span class="tocnumber">3.1</span> <span class="toctext">Dog's letter</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Related_letters_and_other_similar_characters"><span class="tocnumber">4</span> <span class="toctext">Related letters and other similar characters</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Computing_codes"><span class="tocnumber">5</span> <span class="toctext">Computing codes</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Other_representations"><span class="tocnumber">6</span> <span class="toctext">Other representations</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<table class="wikitable">
+<tr style="background:#eee;">
+<th>Egyptian hieroglyph<br />
+<i>tp</i></th>
+<th>Phoenician<br />
+<i><a href="Resh" title="Resh">resh</a></i></th>
+<th>Etruscan<br />
+R</th>
+<th>Greek<br />
+<i><a href="Rho_(letter)" title="Rho (letter)" class="mw-redirect">Rho</a></i></th>
+<th>Later Etruscan R</th>
+</tr>
+<tr align="center">
+<td>
+<table class='mw-hiero-table mw-hiero-outer' dir='ltr'>
+<tr>
+<td>
+<table class="mw-hiero-table">
+<tr>
+<td><img style='margin: 1px; height: 19px;' src='http://bits.wikimedia.org/static-1.21wmf9/extensions/wikihiero/img/hiero_D1.png' title='D1' alt='D1' /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td><a href="http://en.wikipedia.org/wiki/File:PhoenicianR-01.png" class="image"><img alt="PhoenicianR-01.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/PhoenicianR-01.png/30px-PhoenicianR-01.png" width="30" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/PhoenicianR-01.png/45px-PhoenicianR-01.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5d/PhoenicianR-01.png/60px-PhoenicianR-01.png 2x" /></a></td>
+<td><a href="http://en.wikipedia.org/wiki/File:EtruscanR-01.svg" class="image"><img alt="EtruscanR-01.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/EtruscanR-01.svg/22px-EtruscanR-01.svg.png" width="22" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/EtruscanR-01.svg/32px-EtruscanR-01.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/ce/EtruscanR-01.svg/43px-EtruscanR-01.svg.png 2x" /></a></td>
+<td><a href="http://en.wikipedia.org/wiki/File:Rho_uc_lc.svg" class="image"><img alt="Rho uc lc.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Rho_uc_lc.svg/60px-Rho_uc_lc.svg.png" width="60" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Rho_uc_lc.svg/90px-Rho_uc_lc.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Rho_uc_lc.svg/120px-Rho_uc_lc.svg.png 2x" /></a></td>
+<td><a href="http://en.wikipedia.org/wiki/File:EtruscanR-02.svg" class="image"><img alt="EtruscanR-02.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EtruscanR-02.svg/22px-EtruscanR-02.svg.png" width="22" height="30" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EtruscanR-02.svg/32px-EtruscanR-02.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EtruscanR-02.svg/43px-EtruscanR-02.svg.png 2x" /></a></td>
+</tr>
+</table>
+<p>The original <a href="Semitic" title="Semitic">Semitic</a> letter may have been inspired by an <a href="Egyptian_hieroglyph" title="Egyptian hieroglyph" class="mw-redirect">Egyptian hieroglyph</a> for <i>tp</i>, "head". It was used for <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/r/</span> by Semites because in their language, the word for "head" was <i><a href="R%C3%AA%C5%A1" title="Rêš" class="mw-redirect">rêš</a></i> (also the name of the letter). It developed into Greek '<a href="Rho_(letter)" title="Rho (letter)" class="mw-redirect">Ρ</a>' <span lang="grc" xml:lang="grc">ῥῶ</span> (<i>rhô</i>) and Latin R. It is likely that some Etruscan and Western Greek forms of the letter added the extra stroke to distinguish it from a later form of the letter P.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from February 2012">citation needed</span></a></i>]</sup></p>
+<p>The minuscule (lowercase) form as 'r' developed through several variations on the capital form. In handwriting it was common not to close the bottom of the loop but continue into the leg, saving an extra pen stroke. The loop-leg stroke shortened into the simple arc used today. Another minuscule, <a href="R_rotunda" title="R rotunda">r rotunda</a> (ꝛ), kept the loop-leg stroke but dropped the vertical stroke, although it fell out of use around the 18th century.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=2.php.html" title="Edit section: Usage">edit</a>]</span> <span class="mw-headline" id="Usage">Usage</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Rhotic_consonant" title="Rhotic consonant">Rhotic consonant</a>, <a href="R-colored_vowel" title="R-colored vowel">R-colored vowel</a>,&#160;and <a href="Guttural_R" title="Guttural R">Guttural R</a></div>
+<p>In science, the letter R is a symbol for the <a href="Gas_constant" title="Gas constant">gas constant</a>. Mathematicians use 'R' or <img class="tex" alt="\mathbb{R}" src="http://upload.wikimedia.org/math/1/3/4/134676911181af05d24d406f16edf587.png" /> (an R in <a href="Blackboard_bold" title="Blackboard bold">blackboard bold</a>, displayed as <span class="Unicode">ℝ</span> in Unicode) for the <a href="Set_(mathematics)" title="Set (mathematics)">set</a> of all <a href="Real_numbers" title="Real numbers" class="mw-redirect">real numbers</a>.</p>
+<p>R represents a <a href="Rhotic_consonant" title="Rhotic consonant">rhotic consonant</a> in many languages, as shown in the table below. The <a href="Help_IPA" title="Help:IPA">International Phonetic Alphabet</a> uses several variations of the letter to represent the different rhotic consonants; <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[r]</span> represents the <a href="Alveolar_trill" title="Alveolar trill">alveolar trill</a>.</p>
+<table class="wikitable" style="width:85%;margin:auto">
+<tr>
+<td style="width:35%"><a href="Alveolar_trill" title="Alveolar trill">Alveolar trill</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[r]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/c/ce/Alveolar_trill.ogg" class="internal" title="Alveolar trill.ogg">Listen</a></td>
+<td style="width:55%">some dialects of <a href="British_English" title="British English">British English</a> or in emphatic speech, standard <a href="Dutch_language" title="Dutch language">Dutch</a>, <a href="Finnish_language" title="Finnish language">Finnish</a>, <a href="Galician_language" title="Galician language">Galician</a>, <a href="German_language" title="German language">German</a> in some dialects, <a href="Hungarian_language" title="Hungarian language">Hungarian</a>, <a href="Icelandic_language" title="Icelandic language">Icelandic</a>, <a href="Italian_language" title="Italian language">Italian</a>, <a href="Czech_language" title="Czech language">Czech</a>, <a href="Lithuanian_language" title="Lithuanian language">Lithuanian</a>, <a href="Latvian_language" title="Latvian language">Latvian</a>, <a href="Latin_language" title="Latin language" class="mw-redirect">Latin</a>, <a href="Norwegian_language" title="Norwegian language">Norwegian</a>, <a href="Polish_language" title="Polish language">Polish</a>, <a href="Catalan_language" title="Catalan language">Catalan</a>, <a href="Portuguese_language" title="Portuguese language">Portuguese</a> (traditional form), <a href="Romanian_language" title="Romanian language">Romanian</a>, <a href="Scots_language" title="Scots language">Scots</a>, <a href="Spanish_language" title="Spanish language">Spanish</a> and <a href="Albanian_language" title="Albanian language">Albanian</a> 'rr', <a href="Swedish_language" title="Swedish language">Swedish</a>, <a href="Welsh_language" title="Welsh language">Welsh</a></td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Alveolar_approximant" title="Alveolar approximant">Alveolar approximant</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɹ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/1/1f/Alveolar_approximant.ogg" class="internal" title="Alveolar approximant.ogg">Listen</a></td>
+<td style="width:55%"><a href="English_language" title="English language">English</a> (most varieties), <a href="Dutch_language" title="Dutch language">Dutch</a> in some Dutch dialects (in specific positions of words), <a href="Swedish_language" title="Swedish language">Swedish</a>, <a href="Faroese_language" title="Faroese language">Faroese</a>, <a href="Sicilian_language" title="Sicilian language">Sicilian</a></td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Alveolar_flap" title="Alveolar flap">Alveolar flap</a> / <a href="Alveolar_tap" title="Alveolar tap" class="mw-redirect">Alveolar tap</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɾ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/6/60/Alveolar_flap.ogg" class="internal" title="Alveolar flap.ogg">Listen</a></td>
+<td style="width:55%"><a href="Portuguese_language" title="Portuguese language">Portuguese</a>, <a href="Catalan_language" title="Catalan language">Catalan</a>, <a href="Spanish_language" title="Spanish language">Spanish</a> and <a href="Albanian_language" title="Albanian language">Albanian</a> 'r', <a href="Turkish_language" title="Turkish language">Turkish</a>, <a href="Dutch_language" title="Dutch language">Dutch</a>, <a href="Italian_language" title="Italian language">Italian</a>, <a href="Venetian_language" title="Venetian language">Venetian</a>, <a href="Galician_language" title="Galician language">Galician</a>, <a href="Leonese_language" title="Leonese language">Leonese</a></td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Voiced_retroflex_fricative" title="Voiced retroflex fricative" class="mw-redirect">Voiced retroflex fricative</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʐ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/7/7f/Voiced_retroflex_sibilant.ogg" class="internal" title="Voiced retroflex sibilant.ogg">Listen</a></td>
+<td style="width:55%"><a href="Spanish_language" title="Spanish language">Spanish</a> used as an allophone of /r/ in some South American accents; <a href="Standard_Chinese" title="Standard Chinese">Standard Chinese</a> (in <a href="Pinyin" title="Pinyin">pinyin</a>); <a href="Vietnamese_language" title="Vietnamese language">Vietnamese</a> (southern dialects)</td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Retroflex_approximant" title="Retroflex approximant">Retroflex approximant</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɻ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/d/d2/Retroflex_approximant.ogg" class="internal" title="Retroflex approximant.ogg">Listen</a></td>
+<td style="width:55%">some varieties of <a href="American_English" title="American English">American English</a>; <a href="Standard_Chinese" title="Standard Chinese">Standard Chinese</a> (in <a href="Pinyin" title="Pinyin">pinyin</a>); and Gutnish</td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Retroflex_flap" title="Retroflex flap">Retroflex flap</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɽ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/8/87/Retroflex_flap.ogg" class="internal" title="Retroflex flap.ogg">Listen</a></td>
+<td style="width:55%">sometimes in <a href="Scottish_English" title="Scottish English">Scottish English</a></td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Uvular_trill" title="Uvular trill">Uvular trill</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʀ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/c/cb/Uvular_trill.ogg" class="internal" title="Uvular trill.ogg">Listen</a></td>
+<td style="width:55%"><a href="German_language" title="German language">German</a> stage standard; some <a href="Dutch_language" title="Dutch language">Dutch</a> dialects (in Brabant and Limburg, and some city dialects in The Netherlands), <a href="Swedish_language" title="Swedish language">Swedish</a> in Southern Sweden, <a href="Norwegian_language" title="Norwegian language">Norwegian</a> in western and southern parts</td>
+</tr>
+<tr>
+<td style="width:35%"><a href="Voiced_uvular_fricative" title="Voiced uvular fricative">Voiced uvular fricative</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʁ]</span></td>
+<td style="text-align:center"><a href="http://upload.wikimedia.org/wikipedia/commons/a/af/Voiced_uvular_fricative.ogg" class="internal" title="Voiced uvular fricative.ogg">Listen</a></td>
+<td style="width:55%"><a href="German_language" title="German language">German</a>, <a href="Danish_language" title="Danish language">Danish</a>, <a href="French_language" title="French language">French</a>, standard European <a href="Portuguese_language" title="Portuguese language">Portuguese</a> 'rr', standard Brazilian <a href="Portuguese_language" title="Portuguese language">Portuguese</a> 'rr', Puerto Rican Spanish 'rr' and 'r-'.</td>
+</tr>
+</table>
+<p>Other languages may use the letter 'r' in their alphabets (or Latin transliterations schemes) to represent rhotic consonants different from the alveolar trill. In <a href="Haitian_Creole" title="Haitian Creole">Haitian Creole</a>, it represents a sound <a href="Rhotacism#Orthoepy" title="Rhotacism">so weak</a> that it is often written interchangeably with 'w', e.g. 'Kweyol' for 'Kreyol'.</p>
+<p>Brazilian <a href="Portuguese_language" title="Portuguese language">Portuguese</a> has a great number of allophones of <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/<a href="Voiced_uvular_fricative" title="Voiced uvular fricative">ʁ</a>/</span> such as <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiceless_uvular_fricative" title="Voiceless uvular fricative">χ</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiceless_glottal_fricative" title="Voiceless glottal fricative">h</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiced_glottal_fricative" title="Voiced glottal fricative">ɦ</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiceless_velar_fricative" title="Voiceless velar fricative">x</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiced_velar_fricative" title="Voiced velar fricative">ɣ</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Alveolar_approximant" title="Alveolar approximant">ɹ</a>]</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Alveolar_trill" title="Alveolar trill">r</a>]</span>, the latter three ones can be used only in certain contexts (<span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiced_velar_fricative" title="Voiced velar fricative">ɣ</a>]</span> and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Alveolar_trill" title="Alveolar trill">r</a>]</span> as 'rr'; <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Alveolar_approximant" title="Alveolar approximant">ɹ</a>]</span> in the syllable coda, as an allophone of <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/<a href="Alveolar_tap" title="Alveolar tap" class="mw-redirect">ɾ</a>/</span> according to the European Portuguese norm and <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">/<a href="Voiced_uvular_fricative" title="Voiced uvular fricative">ʁ</a>/</span> according to the Brazilian Portuguese norm). Usually at least two of them are present in a single dialect, such as <a href="Rio_de_Janeiro" title="Rio de Janeiro">Rio de Janeiro</a>'s <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiced_uvular_fricative" title="Voiced uvular fricative">ʁ</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiceless_uvular_fricative" title="Voiceless uvular fricative">χ</a>]</span>, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiced_glottal_fricative" title="Voiced glottal fricative">ɦ</a>]</span> and, for a few speakers, <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[<a href="Voiced_velar_fricative" title="Voiced velar fricative">ɣ</a>]</span>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=3.php.html" title="Edit section: Shape">edit</a>]</span> <span class="mw-headline" id="Shape">Shape</span></h2>
+<p>The letter R is the only letter in the basic modern Latin alphabet in which the uppercase has a closed section and the lowercase does not.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=4.php.html" title="Edit section: Dog's letter">edit</a>]</span> <span class="mw-headline" id="Dog.27s_letter">Dog's letter</span></h3>
+<p>The letter R is sometimes referred to as the <i>littera canina</i> (canine letter). This phrase has Latin origins: the Latin R was trilled to sound like a growling dog. A good example of a trilling R is the Spanish word for dog, <i>perro</i>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>In <i><a href="William_Shakespeare" title="William Shakespeare">William Shakespeare</a>'s</i> <i><a href="Romeo_and_Juliet" title="Romeo and Juliet">Romeo and Juliet</a></i>, such a reference is made by Juliet's nurse in Act 2, scene 4, when she calls the letter R "the dog's name." The reference is also found in <a href="Ben_Jonson" title="Ben Jonson">Ben Jonson</a>'s <i>English Grammar</i>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=5.php.html" title="Edit section: Related letters and other similar characters">edit</a>]</span> <span class="mw-headline" id="Related_letters_and_other_similar_characters">Related letters and other similar characters</span></h2>
+<ul>
+<li>Ρ ρ/<span class="Unicode">ϱ</span>&#160;: <a href="Rho_(letter)" title="Rho (letter)" class="mw-redirect">Greek letter Rho</a></li>
+<li>Р р&#160;: <a href="Er_(Cyrillic)" title="Er (Cyrillic)">Cyrillic letter Er</a></li>
+<li>Я я&#160;: <a href="Ya_(Cyrillic)" title="Ya (Cyrillic)">Cyrillic letter Ya</a></li>
+<li>ℛ&#160;: Script capital R</li>
+</ul>
+<p><span id="Codes_for_computing"></span></p>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=6.php.html" title="Edit section: Computing codes">edit</a>]</span> <span class="mw-headline" id="Computing_codes">Computing codes</span></h2>
+<table class="wikitable" style="text-align:right">
+<tr align="center">
+<th align="left">Character</th>
+<th colspan="2"><span class="Unicode">R</span></th>
+<th colspan="2"><span class="Unicode">r</span></th>
+</tr>
+<tr align="center">
+<td align="center"><b>Unicode name</b></td>
+<td colspan="2"><span class="smallcaps"><span class="SMALLCAPS" style="FONT-VARIANT:SMALL-CAPS;"><span class="NOCAPS" style="TEXT-TRANSFORM:LOWERCASE;">LATIN CAPITAL LETTER R</span></span></span></td>
+<td colspan="2"><span class="smallcaps"><span class="SMALLCAPS" style="FONT-VARIANT:SMALL-CAPS;"><span class="NOCAPS" style="TEXT-TRANSFORM:LOWERCASE;">&#160; &#160; LATIN SMALL LETTER R</span></span></span></td>
+</tr>
+<tr>
+<th align="left">Encodings</th>
+<th>decimal</th>
+<th>hex</th>
+<th>decimal</th>
+<th>hex</th>
+</tr>
+<tr>
+<td align="left"><a href="Unicode" title="Unicode">Unicode</a></td>
+<td>82</td>
+<td>U+0052</td>
+<td>114</td>
+<td>U+0072</td>
+</tr>
+<tr>
+<td align="left"><a href="UTF-8" title="UTF-8">UTF-8</a></td>
+<td>82</td>
+<td>52</td>
+<td>114</td>
+<td>72</td>
+</tr>
+<tr>
+<td align="left"><a href="Numeric_character_reference" title="Numeric character reference">Numeric character reference</a></td>
+<td>&amp;#82;</td>
+<td>&amp;#x52;</td>
+<td>&amp;#114;</td>
+<td>&amp;#x72;</td>
+</tr>
+<tr>
+<td align="left"><a href="EBCDIC" title="EBCDIC">EBCDIC</a> family</td>
+<td>217</td>
+<td>D9</td>
+<td>153</td>
+<td>99</td>
+</tr>
+<tr>
+<td align="left"><a href="ASCII" title="ASCII">ASCII</a> <sup>1</sup></td>
+<td>82</td>
+<td>52</td>
+<td>114</td>
+<td>72</td>
+</tr>
+</table>
+<dl>
+<dd><sup>1</sup> <span style="font-size:92%; line-height:1.30em">Also for encodings based on ASCII, including the DOS, Windows, ISO-8859 and Macintosh families of encodings.</span></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=7.php.html" title="Edit section: Other representations">edit</a>]</span> <span class="mw-headline" id="Other_representations">Other representations</span></h2>
+<div style="width: 400px;">
+<table cellspacing="0" cellpadding="0" width="100%" style="text-align: center; background: white;">
+<tr style="font-size: 85%; line-height: 125%;">
+<td width="50%" style="border-left: 1px solid silver; border-top: 1px solid silver; line-height:1.3em; padding:0.3em;"><a href="ICAO_spelling_alphabet" title="ICAO spelling alphabet" class="mw-redirect">NATO phonetic</a></td>
+<td width="50%" style="border-left: 1px solid silver; border-top: 1px solid silver; border-right: 1px solid silver;"><a href="Morse_code" title="Morse code">Morse code</a></td>
+</tr>
+<tr style="font-family: monospace; font-weight: bold; line-height: 100%; font-size:150%">
+<td width="50%" style="border-left: 1px solid silver; padding:0.3em;">Romeo</td>
+<td width="50%" style="border-left: 1px solid silver; border-right: 1px solid silver; font-size: large;"><span class="plainlinksneverexpand nounderlines" style="letter-spacing: 0.2em;"><a href="http://upload.wikimedia.org/wikipedia/commons/e/ea/R_morse_code.ogg" class="internal" title="R morse code.ogg">·–·</a></span></td>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" style="text-align: center; background: white;">
+<tr style="height: 80px;">
+<td width="33%" style="border-left: 1px solid silver; border-top: 1px solid silver; padding:0.3em;"><a href="http://en.wikipedia.org/wiki/File:ICS_Romeo.svg" class="image"><img alt="ICS Romeo.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ICS_Romeo.svg/75px-ICS_Romeo.svg.png" width="75" height="75" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ICS_Romeo.svg/113px-ICS_Romeo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ICS_Romeo.svg/150px-ICS_Romeo.svg.png 2x" /></a></td>
+<td width="33%" style="border-left: 1px solid silver; border-top: 1px solid silver; padding:0.3em;"><a href="http://en.wikipedia.org/wiki/File:Semaphore_Romeo.svg" class="image"><img alt="Semaphore Romeo.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Semaphore_Romeo.svg/90px-Semaphore_Romeo.svg.png" width="90" height="75" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Semaphore_Romeo.svg/135px-Semaphore_Romeo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Semaphore_Romeo.svg/180px-Semaphore_Romeo.svg.png 2x" /></a></td>
+<td width="33%" style="border-left: 1px solid silver; border-right: 1px solid silver; border-top: 1px solid silver; padding:0.3em;"><a href="http://en.wikipedia.org/wiki/File:Braille_R.svg" class="image" title="⠗"><img alt="⠗" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Braille_R.svg/77px-Braille_R.svg.png" width="77" height="108" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Braille_R.svg/116px-Braille_R.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/43/Braille_R.svg/154px-Braille_R.svg.png 2x" /></a></td>
+</tr>
+<tr style="font-size: 85%; line-height: 125%;">
+<td width="33%" style="border-left: 1px solid silver; border-bottom: 1px solid silver; padding-bottom:0.3em;"><a href="International_maritime_signal_flags" title="International maritime signal flags">Signal flag</a></td>
+<td width="33%" style="border-left: 1px solid silver; border-bottom: 1px solid silver;"><a href="Flag_semaphore" title="Flag semaphore">Flag semaphore</a></td>
+<td width="33%" style="border-left: 1px solid silver; border-right: 1px solid silver; border-bottom: 1px solid silver;"><a href="Braille" title="Braille">Braille</a></td>
+</tr>
+</table>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=8.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Raid%C3%B4" title="Raidô" class="mw-redirect">Raidô</a></li>
+<li><a href="Vocalic_r" title="Vocalic r" class="mw-redirect">Vocalic r</a></li>
+<li><a href="Vox_Canina" title="Vox Canina" class="mw-redirect">Vox Canina</a></li>
+<li><a href="Registered_Trademark_symbol" title="Registered Trademark symbol" class="mw-redirect">Registered Trademark symbol</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=9.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">"R", <i><a href="Oxford_English_Dictionary" title="Oxford English Dictionary">Oxford English Dictionary</a>,</i> 2nd edition (1989); "ar", <i>op. cit</i>.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://wordsmith.org/words/dogs_letter.html">"A Word A Day: Dog's letter"</a>. Wordsmith.org<span class="printonly">. <a rel="nofollow" class="external free" href="http://wordsmith.org/words/dogs_letter.html">http://wordsmith.org/words/dogs_letter.html</a></span><span class="reference-accessdate">. Retrieved 2012-01-17</span>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation book">Shakespeare, William; Horace Howard Furness, Frederick Williams (1913). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Wj0OAAAAIAAJ"><i>Romeo and Juliet</i></a>. Lippincott. p.&#160;189<span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/books?id=Wj0OAAAAIAAJ">http://books.google.com/books?id=Wj0OAAAAIAAJ</a></span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=R&action=edit&section=10.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" /> Media related to <a href="http://commons.wikimedia.org/wiki/R" class="extiw" title="commons:R">R</a> at Wikimedia Commons</li>
+<li><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/15px-Wiktionary-logo-en.svg.png" width="15" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/22px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/29px-Wiktionary-logo-en.svg.png 2x" /> The dictionary definition of <a href="http://en.wiktionary.org/wiki/R" class="extiw" title="wiktionary:R">R</a> at Wiktionary</li>
+<li><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/15px-Wiktionary-logo-en.svg.png" width="15" height="16" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/22px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/29px-Wiktionary-logo-en.svg.png 2x" /> The dictionary definition of <a href="http://en.wiktionary.org/wiki/r" class="extiw" title="wiktionary:r">r</a> at Wiktionary</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_LetterR" title="Template:LetterR"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_LetterR" title="Template talk:LetterR"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_LetterR&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">The Letter "R"</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><strong class="selflink">The letter R</strong></li>
+<li><a href="Rhotic_consonant" title="Rhotic consonant">Rhotic consonants (R-like sounds)</a></li>
+<li><a href="Rhotic_and_non-rhotic_accents" title="Rhotic and non-rhotic accents">Rhotic and non-rhotic accents</a></li>
+<li><a href="R-colored_vowel" title="R-colored vowel">R-colored vowels</a></li>
+<li><a href="Guttural_R" title="Guttural R">Guttural R</a></li>
+<li><a href="Linking_and_intrusive_R" title="Linking and intrusive R">Linking and intrusive R</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Pronunciations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Alveolar_trill" title="Alveolar trill">Alveolar trill</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[r]</span></li>
+<li><a href="Alveolar_approximant" title="Alveolar approximant">Alveolar approximant</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɹ]</span></li>
+<li><a href="Alveolar_tap" title="Alveolar tap" class="mw-redirect">Alveolar tap</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɾ]</span></li>
+<li><a href="Alveolar_lateral_flap" title="Alveolar lateral flap">Alveolar lateral flap</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɺ]</span></li>
+<li><a href="Retroflex_approximant" title="Retroflex approximant">Retroflex approximant</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɻ]</span></li>
+<li><a href="Retroflex_flap" title="Retroflex flap">Retroflex flap</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɽ]</span></li>
+<li><a href="Retroflex_trill" title="Retroflex trill">Retroflex trill</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ɽ͡r]</span></li>
+<li><a href="Uvular_trill" title="Uvular trill">Uvular trill</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʀ]</span></li>
+<li><a href="Voiced_uvular_fricative" title="Voiced uvular fricative">Voiced uvular fricative</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʁ]</span></li>
+<li><a href="R-labialization" title="R-labialization">Labialized</a> <span title="Representation in the International Phonetic Alphabet (IPA)" class="IPA">[ʋ]</span></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Variations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><span class="Unicode">ꝛ</span> (<a href="R_rotunda" title="R rotunda">R rotunda</a>)</li>
+<li><span class="Unicode">Ɽɽ</span> (<a href="R_with_tail" title="R with tail">R with tail</a>)</li>
+<li><span class="Unicode">Ɍɍ</span> (<a href="R_with_stroke" title="R with stroke">R with stroke</a>)</li>
+<li><span class="Unicode"><a href="Yr_rune_(Younger_Futhark)" title="Yr rune (Younger Futhark)" class="mw-redirect">Ʀʀ</a></span></li>
+<li><span class="Unicode"><a href="Double_grave_accent" title="Double grave accent">Ȑȑ</a></span></li>
+<li><a href="%C5%94" title="Ŕ">Ŕŕ</a></li>
+<li><a href="Cedilla" title="Cedilla">Ŗŗ</a></li>
+<li><a href="%C5%98" title="Ř">Řř</a></li>
+<li><span class="Unicode"><a href="%C8%92" title="Ȓ">Ȓȓ</a></span></li>
+<li><span class="Unicode"><a href="Dot_(diacritic)" title="Dot (diacritic)">Ṙṙ</a></span></li>
+<li><span class="Unicode"><a href="%E1%B9%9A" title="Ṛ">Ṛṛ</a></span></li>
+<li><span class="Unicode"><a href="%E1%B9%9C" title="Ṝ" class="mw-redirect">Ṝṝ</a></span></li>
+<li><span class="Unicode"><a href="%E1%B9%9E" title="Ṟ" class="mw-redirect">Ṟṟ</a></span></li>
+<li><a href="Rd_(digraph)" title="Rd (digraph)" class="mw-redirect">Rd</a></li>
+<li><a href="Rh_(digraph)" title="Rh (digraph)" class="mw-redirect">Rh</a></li>
+<li><a href="Rl_(digraph)" title="Rl (digraph)" class="mw-redirect">Rl</a></li>
+<li><a href="Rn_(digraph)" title="Rn (digraph)" class="mw-redirect">Rn</a></li>
+<li><a href="Rr_(digraph)" title="Rr (digraph)" class="mw-redirect">Rr</a></li>
+<li><a href="Rt_(digraph)" title="Rt (digraph)" class="mw-redirect">Rt</a></li>
+<li><a href="Rnd_(trigraph)" title="Rnd (trigraph)" class="mw-redirect">Rnd</a></li>
+<li><span class="Unicode">ᚱ</span> (<a href="Raido" title="Raido">Raidô</a>)</li>
+<li><span class="Unicode">ℛ</span> (<a href="Riemann_integral" title="Riemann integral">Riemann integral</a>)</li>
+<li><span class="Unicode">ℜ</span> (<a href="Real_part" title="Real part" class="mw-redirect">Real part</a>)</li>
+<li><span class="Unicode">ℝ</span> (<a href="Real_number" title="Real number">Real number</a>)</li>
+<li>® (<a href="Registered_trademark_symbol" title="Registered trademark symbol">Registered trademark symbol</a>)</li>
+<li><span class="Unicode">Ⓡ</span> (<a href="Enclosed_R" title="Enclosed R">Enclosed R</a>)</li>
+<li><span class="Unicode">℞</span> (<a href="Medical_prescription" title="Medical prescription">Medical prescription</a>)</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table class="unicode" style="width:90%; margin:0.2em auto; border:1px solid #ccc; background:#f7f7f7;">
+<tr>
+<th colspan="26">
+<div style="width:100%; background:#ccc; text-align:center;">
+<div style="text-align:center;position:relative;white-space:nowrap;"><b>The <a href="ISO_basic_Latin_alphabet" title="ISO basic Latin alphabet">ISO basic Latin alphabet</a></b>
+<div class="noprint plainlinks hlist navbar mini" style="position:absolute; right:0; top:0; margin:0 5px;">
+<ul>
+<li class="nv-view"><b><a href="Template_Latin_alphabet" title="Template:Latin alphabet"><span title="View this template" style="">v</span></a></b></li>
+<li class="nv-talk"><b><a href="Template_talk_Latin_alphabet" title="Template talk:Latin alphabet"><span title="Discuss this template" style="">t</span></a></b></li>
+<li class="nv-edit"><b><a class="external text" href="../../w/index-title=Template_Latin_alphabet&action=edit.php.html"><span title="Edit this template" style="">e</span></a></b></li>
+</ul>
+</div>
+</div>
+</div>
+</th>
+</tr>
+<tr>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="A" title="A">Aa</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="B" title="B">Bb</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="C" title="C">Cc</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="D" title="D">Dd</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="E" title="E">Ee</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="F" title="F">Ff</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="G" title="G">Gg</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="H" title="H">Hh</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="I" title="I">Ii</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="J" title="J">Jj</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="K" title="K">Kk</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="L" title="L">Ll</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="M" title="M">Mm</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="N" title="N">Nn</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="O" title="O">Oo</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="P" title="P">Pp</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="Q" title="Q">Qq</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><strong class="selflink">Rr</strong></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="S" title="S">Ss</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="T" title="T">Tt</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="U" title="U">Uu</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="V" title="V">Vv</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="W" title="W">Ww</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="X" title="X">Xx</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="Y" title="Y">Yy</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class=""><a href="Z" title="Z">Zz</a></span></td>
+</tr>
+<tr>
+<th colspan="26">
+<div style="width:100%; background:#e0e0e0;; text-align:center;"><b>Letter R with <a href="Diacritic" title="Diacritic">diacritics</a></b></div>
+</th>
+</tr>
+<tr>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C5%94" title="Ŕ">Ŕŕ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C5%98" title="Ř">Řř</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%E1%B9%98" title="Ṙ" class="mw-redirect">Ṙṙ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C5%96" title="Ŗ" class="mw-redirect">Ŗŗ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C8%90" title="Ȑ" class="mw-redirect">Ȑȑ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C8%92" title="Ȓ">Ȓȓ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%E1%B9%9A" title="Ṛ">Ṛṛ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%E1%B9%9C" title="Ṝ" class="mw-redirect">Ṝṝ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%E1%B9%9E" title="Ṟ" class="mw-redirect">Ṟṟ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C9%8C" title="Ɍ" class="mw-redirect">Ɍɍ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%E2%B1%A4" title="Ɽ" class="mw-redirect">Ɽɽ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="../../w/index-title=%E1%B5%B2&action=edit&redlink=1.php.html" class="new" title="ᵲ (page does not exist)">ᵲ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%E1%B6%89" title="ᶉ" class="mw-redirect">ᶉ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C9%BC" title="ɼ" class="mw-redirect">ɼ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="%C9%BE" title="ɾ" class="mw-redirect">ɾ</a></span></td>
+<td style="text-align:center;width:3.85%;"><span class="nounderlines"><a href="../../w/index-title=%E1%B5%B3&action=edit&redlink=1.php.html" class="new" title="ᵳ (page does not exist)">ᵳ</a></span></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+<td style="text-align:center;width:3.85%;"></td>
+</tr>
+<tr>
+<th colspan="26">
+<div style="width:100%; background:#e0e0e0;; text-align:center;"><b>Related</b></div>
+</th>
+</tr>
+<tr>
+<td colspan="27" class="hlist" style="text-align: center; font-size:90%">
+<ul>
+<li><a href="Latin-derived_alphabet" title="Latin-derived alphabet">Derivations</a></li>
+<li><a href="Diacritic" title="Diacritic">Diacritics</a></li>
+<li><a href="History_of_the_Latin_alphabet" title="History of the Latin alphabet">History</a></li>
+<li><a href="ISO/IEC_646" title="ISO/IEC 646">ISO/IEC 646</a></li>
+<li><a href="List_of_Latin-script_letters" title="List of Latin-script letters">List of letters</a></li>
+<li><a href="Roman_numerals" title="Roman numerals">Numerals</a></li>
+<li><a href="Palaeography" title="Palaeography">Palaeography</a></li>
+<li><a href="Punctuation" title="Punctuation">Punctuation</a></li>
+<li><a href="Latin_script_in_Unicode" title="Latin script in Unicode">Unicode</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 37208/1000000
+Preprocessor generated node count: 117932/1500000
+Post-expand include size: 91521/2048000 bytes
+Template argument size: 71856/2048000 bytes
+Highest expansion depth: 31/40
+Expensive parser function count: 1/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:25618-0!0!0!!en!4!* and timestamp 20130212214511 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=R&oldid=537939129.php.html">http://en.wikipedia.org/w/index.php?title=R&amp;oldid=537939129</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_ISO_basic_Latin_letters" title="Category:ISO basic Latin letters">ISO basic Latin letters</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_indefinitely_move-protected_pages" title="Category:Wikipedia indefinitely move-protected pages">Wikipedia indefinitely move-protected pages</a></li><li><a href="Category_Articles_containing_Ancient_Greek_language_text" title="Category:Articles containing Ancient Greek language text">Articles containing Ancient Greek language text</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_February_2012" title="Category:Articles with unsourced statements from February 2012">Articles with unsourced statements from February 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=R&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=R.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_R"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=R&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=R&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/R" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/R" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=R&oldid=537939129.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=R&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=R&id=537939129.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=R.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=R&oldid=537939129&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=R&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ace"><a href="http://ace.wikipedia.org/wiki/R" title="R" lang="ace" hreflang="ace">Acèh</a></li>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/R" title="R" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-als"><a href="http://als.wikipedia.org/wiki/R" title="R" lang="als" hreflang="als">Alemannisch</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/R" title="R" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/R" title="R" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-arc"><a href="http://arc.wikipedia.org/wiki/R" title="R" lang="arc" hreflang="arc">ܐܪܡܝܐ</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/R" title="R" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/R" title="R" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-zh-min-nan"><a href="http://zh-min-nan.wikipedia.org/wiki/R" title="R" lang="zh-min-nan" hreflang="zh-min-nan">Bân-lâm-gú</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/R,_%D0%BB%D1%96%D1%82%D0%B0%D1%80%D0%B0" title="R, літара" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/R_(%D0%BB%D1%96%D1%82%D0%B0%D1%80%D0%B0)" title="R (літара)" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/R" title="R" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/R" title="R" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/R" title="R" lang="br" hreflang="br">Brezhoneg</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Erra" title="Erra" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/R" title="R" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-co"><a href="http://co.wikipedia.org/wiki/R" title="R" lang="co" hreflang="co">Corsu</a></li>
+			<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/R" title="R" lang="cy" hreflang="cy">Cymraeg</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/R" title="R" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/R" title="R" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/R" title="R" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/R" title="R" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/R" title="R" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/R" title="R" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/R" title="R" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/R" title="R" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/R_(lettre)" title="R (lettre)" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-fy"><a href="http://fy.wikipedia.org/wiki/R" title="R" lang="fy" hreflang="fy">Frysk</a></li>
+			<li class="interwiki-fur"><a href="http://fur.wikipedia.org/wiki/R" title="R" lang="fur" hreflang="fur">Furlan</a></li>
+			<li class="interwiki-gv"><a href="http://gv.wikipedia.org/wiki/Renniagh_(lettyr)" title="Renniagh (lettyr)" lang="gv" hreflang="gv">Gaelg</a></li>
+			<li class="interwiki-gd"><a href="http://gd.wikipedia.org/wiki/R" title="R" lang="gd" hreflang="gd">Gàidhlig</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/R" title="R" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/R" title="R" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-xal"><a href="http://xal.wikipedia.org/wiki/R_%D2%AF%D0%B7%D0%B3" title="R үзг" lang="xal" hreflang="xal">Хальмг</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/R" title="R" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/R" title="R" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-ilo"><a href="http://ilo.wikipedia.org/wiki/R" title="R" lang="ilo" hreflang="ilo">Ilokano</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/R" title="R" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/R" title="R" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/R" title="R" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/R" title="R" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/R" title="R" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kw"><a href="http://kw.wikipedia.org/wiki/R" title="R" lang="kw" hreflang="kw">Kernowek</a></li>
+			<li class="interwiki-sw"><a href="http://sw.wikipedia.org/wiki/R" title="R" lang="sw" hreflang="sw">Kiswahili</a></li>
+			<li class="interwiki-ht"><a href="http://ht.wikipedia.org/wiki/R" title="R" lang="ht" hreflang="ht">Kreyòl ayisyen</a></li>
+			<li class="interwiki-ku"><a href="http://ku.wikipedia.org/wiki/R" title="R" lang="ku" hreflang="ku">Kurdî</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/R" title="R" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/R" title="R" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/R" title="R" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/R" title="R" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/R_(%D0%9B%D0%B0%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D0%B0)" title="R (Латиница)" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/R" title="R" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nah"><a href="http://nah.wikipedia.org/wiki/R" title="R" lang="nah" hreflang="nah">Nāhuatl</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/R_(letter)" title="R (letter)" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/R" title="R" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/R" title="R" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/R" title="R" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-nrm"><a href="http://nrm.wikipedia.org/wiki/R" title="R" lang="nrm" hreflang="nrm">Nouormand</a></li>
+			<li class="interwiki-mhr"><a href="http://mhr.wikipedia.org/wiki/R_(%D0%BB%D0%B0%D1%82%D0%B8%D0%BD_%D1%82%D0%B8%D1%88%D1%82%D0%B5)" title="R (латин тиште)" lang="mhr" hreflang="mhr">Олык марий</a></li>
+			<li class="interwiki-uz"><a href="http://uz.wikipedia.org/wiki/R_(lotin)" title="R (lotin)" lang="uz" hreflang="uz">Oʻzbekcha</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/R" title="R" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/R" title="R" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/R" title="R" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-qu"><a href="http://qu.wikipedia.org/wiki/R" title="R" lang="qu" hreflang="qu">Runa Simi</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/R_(%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D0%B0)" title="R (латиница)" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-se"><a href="http://se.wikipedia.org/wiki/R" title="R" lang="se" hreflang="se">Sámegiella</a></li>
+			<li class="interwiki-stq"><a href="http://stq.wikipedia.org/wiki/R" title="R" lang="stq" hreflang="stq">Seeltersk</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/R" title="R" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/R" title="R" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/R" title="R" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/R_(%D1%81%D0%BB%D0%BE%D0%B2%D0%BE_%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D0%B5)" title="R (слово латинице)" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/R" title="R" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/R" title="R" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/R" title="R" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/R" title="R" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/R" title="R" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/R" title="R" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/R" title="R" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/R_(%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B8%D1%86%D1%8F)" title="R (латиниця)" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vep"><a href="http://vep.wikipedia.org/wiki/R" title="R" lang="vep" hreflang="vep">Vepsän kel’</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/R" title="R" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-vo"><a href="http://vo.wikipedia.org/wiki/R" title="R" lang="vo" hreflang="vo">Volapük</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/R" title="R" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-yi"><a href="http://yi.wikipedia.org/wiki/R" title="R" lang="yi" hreflang="yi">ייִדיש</a></li>
+			<li class="interwiki-yo"><a href="http://yo.wikipedia.org/wiki/R" title="R" lang="yo" hreflang="yo">Yorùbá</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/R" title="R" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-diq"><a href="http://diq.wikipedia.org/wiki/R" title="R" lang="diq" hreflang="diq">Zazaki</a></li>
+			<li class="interwiki-bat-smg"><a href="http://bat-smg.wikipedia.org/wiki/R" title="R" lang="bat-smg" hreflang="bat-smg">Žemaitėška</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/R" title="R" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 February 2013 at 21:45.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/R" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1055 in 0.243 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

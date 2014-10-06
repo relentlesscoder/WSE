@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Kepler's laws of planetary motion - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Kepler\'s_laws_of_planetary_motion","wgTitle":"Kepler\'s laws of planetary motion","wgCurRevisionId":538084918,"wgArticleId":17553,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Johannes Kepler","Orbits","Equations"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Kepler\'s_laws_of_planetary_motion","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"138edff998a5aacccc3dce7ab3ec12eb","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":17553,"title":"Kepler\'s laws of planetary motion","namespace":0,"categories":["Equations","Johannes Kepler","Orbits"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Kepler_s_laws_of_planetary_motion skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Kepler's laws of planetary motion</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Kepler_laws_diagram.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/300px-Kepler_laws_diagram.svg.png" width="300" height="257" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/450px-Kepler_laws_diagram.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/600px-Kepler_laws_diagram.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Kepler_laws_diagram.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Figure 1: Illustration of <a href="Johannes_Kepler" title="Johannes Kepler">Kepler's</a> three laws with two planetary orbits.<br />
+(1) The orbits are ellipses, with focal points <i>ƒ</i><sub>1</sub> and <i>ƒ</i><sub>2</sub> for the first planet and <i>ƒ</i><sub>1</sub> and <i>ƒ</i><sub>3</sub> for the second planet. The Sun is placed in focal point <i>ƒ</i><sub>1</sub>.<br />
+<br />
+(2) The two shaded sectors <i>A</i><sub>1</sub> and <i>A</i><sub>2</sub> have the same surface area and the time for planet 1 to cover segment <i>A</i><sub>1</sub> is equal to the time to cover segment <i>A</i><sub>2</sub>.<br />
+<br />
+(3) The total orbit times for planet 1 and planet 2 have a ratio <i>a</i><sub>1</sub><sup>3/2</sup>&#160;:&#160;<i>a</i><sub>2</sub><sup>3/2</sup>.</div>
+</div>
+</div>
+<table class="vertical-navbox nowraplinks" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;">Astrodynamics</th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;"><a href="http://en.wikipedia.org/wiki/File:Angular_Parameters_of_Elliptical_Orbit.png" class="image"><img alt="Angular Parameters of Elliptical Orbit.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Angular_Parameters_of_Elliptical_Orbit.png/200px-Angular_Parameters_of_Elliptical_Orbit.png" width="200" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Angular_Parameters_of_Elliptical_Orbit.png/300px-Angular_Parameters_of_Elliptical_Orbit.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Angular_Parameters_of_Elliptical_Orbit.png/400px-Angular_Parameters_of_Elliptical_Orbit.png 2x" /></a></td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;"><a href="Orbital_mechanics" title="Orbital mechanics">Orbital mechanics</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Equations</div>
+<div class="NavContent plainlist" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><strong class="selflink">Kepler's laws</strong></li>
+<li><a href="Tsiolkovsky_rocket_equation" title="Tsiolkovsky rocket equation">Tsiolkovsky rocket equation</a></li>
+<li><a href="Vis-viva_equation" title="Vis-viva equation">Vis-viva equation</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Efficiency measures</div>
+<div class="NavContent plainlist" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Payload_fraction" title="Payload fraction">Payload fraction</a></li>
+<li><a href="Propellant_mass_fraction" title="Propellant mass fraction">Propellant mass fraction</a></li>
+<li><a href="Mass_ratio" title="Mass ratio">Mass ratio</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Astrodynamics_navbar" title="Template:Astrodynamics navbar"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Astrodynamics_navbar" title="Template talk:Astrodynamics navbar"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Astrodynamics_navbar&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p>In <a href="Astronomy" title="Astronomy">astronomy</a>, <b>Kepler's laws of planetary motion</b> are three <a href="Scientific_law" title="Scientific law">scientific laws</a> describing <a href="Orbital_mechanics" title="Orbital mechanics">orbital</a> motion, originally formulated to describe the <a href="Motion_(physics)" title="Motion (physics)">motion</a> of <a href="Planet" title="Planet">planets</a> around the <a href="Sun" title="Sun">Sun</a>.</p>
+<p>Kepler's laws are:</p>
+<ol>
+<li>The <a href="Orbit" title="Orbit">orbit</a> of every <a href="Planet" title="Planet">planet</a> is an <a href="Ellipse" title="Ellipse">ellipse</a> with the Sun at one of the two <a href="Focus_(geometry)" title="Focus (geometry)">foci</a>.</li>
+<li>A <a href="Line_(geometry)" title="Line (geometry)">line</a> joining a planet and the Sun sweeps out equal <a href="Area" title="Area">areas</a> during equal intervals of time.<sup id="cite_ref-Wolfram2nd_1-0" class="reference"><a href="#cite_note-Wolfram2nd-1"><span>[</span>1<span>]</span></a></sup></li>
+<li>The <a href="Square_(algebra)" title="Square (algebra)">square</a> of the <a href="Orbital_period" title="Orbital period">orbital period</a> of a planet is directly <a href="Proportionality_(mathematics)" title="Proportionality (mathematics)">proportional</a> to the <a href="Cube_(arithmetic)" title="Cube (arithmetic)" class="mw-redirect">cube</a> of the <a href="Semi-major_axis" title="Semi-major axis">semi-major axis</a> of its orbit.</li>
+</ol>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#First_Law"><span class="tocnumber">2</span> <span class="toctext">First Law</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Second_law"><span class="tocnumber">3</span> <span class="toctext">Second law</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Third_law"><span class="tocnumber">4</span> <span class="toctext">Third law</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Generality"><span class="tocnumber">5</span> <span class="toctext">Generality</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Zero_eccentricity"><span class="tocnumber">6</span> <span class="toctext">Zero eccentricity</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Relation_to_Newton.27s_laws"><span class="tocnumber">7</span> <span class="toctext">Relation to Newton's laws</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Computing_position_as_a_function_of_time"><span class="tocnumber">8</span> <span class="toctext">Computing position as a function of time </span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Mean_anomaly.2C_M"><span class="tocnumber">8.1</span> <span class="toctext">Mean anomaly, <i>M</i></span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Eccentric_anomaly.2C_E"><span class="tocnumber">8.2</span> <span class="toctext">Eccentric anomaly, <i>E</i></span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#True_anomaly.2C_.CE.B8"><span class="tocnumber">8.3</span> <span class="toctext">True anomaly, θ</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Distance.2C_r"><span class="tocnumber">8.4</span> <span class="toctext">Distance, <i>r</i></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Computing_the_planetary_acceleration"><span class="tocnumber">9</span> <span class="toctext">Computing the planetary acceleration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Acceleration_vector"><span class="tocnumber">9.1</span> <span class="toctext">Acceleration vector</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#The_inverse_square_law"><span class="tocnumber">9.2</span> <span class="toctext">The inverse square law</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#Newton.27s_law_of_gravitation"><span class="tocnumber">10</span> <span class="toctext">Newton's law of gravitation</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Notes"><span class="tocnumber">12</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#References"><span class="tocnumber">13</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#External_links"><span class="tocnumber">14</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=1.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<p><a href="Johannes_Kepler" title="Johannes Kepler">Johannes Kepler</a> published his first two laws in 1609, having found them by analyzing the astronomical observations of <a href="Tycho_Brahe" title="Tycho Brahe">Tycho Brahe</a>.<sup id="cite_ref-Holton_2-0" class="reference"><a href="#cite_note-Holton-2"><span>[</span>2<span>]</span></a></sup> Kepler discovered his third law many years later, and it was published in 1619.<sup id="cite_ref-Holton_2-1" class="reference"><a href="#cite_note-Holton-2"><span>[</span>2<span>]</span></a></sup> At the time, Kepler's laws were radical claims; the prevailing belief (particularly in <a href="Epicycle" title="Epicycle" class="mw-redirect">epicycle</a>-based theories) was that orbits were perfect circles. Most of the planetary orbits can be rather closely approximated as circles, so it is not immediately evident that the orbits are ellipses. Detailed calculations for the orbit of the planet Mars first indicated to Kepler its elliptical shape, and he inferred that other heavenly bodies, including those farther away from the <a href="Sun" title="Sun">Sun</a>, have elliptical orbits too. Kepler's laws and his analysis of the observations on which they were based challenged the long-accepted <a href="Geocentric_model" title="Geocentric model">geocentric models</a> of <a href="Aristotle" title="Aristotle">Aristotle</a> and <a href="Ptolemy" title="Ptolemy">Ptolemy</a>, and generally supported the <a href="Copernican_heliocentrism" title="Copernican heliocentrism">heliocentric theory</a> of <a href="Nicolaus_Copernicus" title="Nicolaus Copernicus">Nicolaus Copernicus</a> (although Kepler's ellipses likewise did away with Copernicus's circular orbits and epicycles), by asserting that the Earth orbited the Sun, proving that the planets' speeds varied, and using elliptical orbits rather than circular orbits with <a href="Epicycle" title="Epicycle" class="mw-redirect">epicycles</a>.<sup id="cite_ref-Holton_2-2" class="reference"><a href="#cite_note-Holton-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Some eight decades later, <a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a> proved that relationships like Kepler's would apply exactly under certain ideal conditions that are to a good approximation fulfilled in the <a href="Solar_system" title="Solar system" class="mw-redirect">solar system</a>, as consequences of Newton's own <a href="Newton's_laws_of_motion" title="Newton's laws of motion">laws of motion</a> and <a href="Newton's_law_of_universal_gravitation" title="Newton's law of universal gravitation">law of universal gravitation</a>.<sup id="cite_ref-smith-sep_3-0" class="reference"><a href="#cite_note-smith-sep-3"><span>[</span>3<span>]</span></a></sup><sup id="cite_ref-newt-p_4-0" class="reference"><a href="#cite_note-newt-p-4"><span>[</span>4<span>]</span></a></sup> Because of the nonzero planetary masses and resulting <a href="Perturbation_(astronomy)" title="Perturbation (astronomy)">perturbations</a>, Kepler's laws apply only approximately and not exactly to the motions in the solar system.<sup id="cite_ref-smith-sep_3-1" class="reference"><a href="#cite_note-smith-sep-3"><span>[</span>3<span>]</span></a></sup><sup id="cite_ref-plummr_5-0" class="reference"><a href="#cite_note-plummr-5"><span>[</span>5<span>]</span></a></sup> <a href="Voltaire" title="Voltaire">Voltaire</a>'s <i>Eléments de la philosophie de Newton</i> (<i>Elements of Newton's Philosophy</i>) was in 1738 the first publication to call Kepler's Laws "laws".<sup id="cite_ref-Wilson_1994_6-0" class="reference"><a href="#cite_note-Wilson_1994-6"><span>[</span>6<span>]</span></a></sup> Together with Newton's mathematical theories, they are part of the foundation of modern <a href="Astronomy" title="Astronomy">astronomy</a> and <a href="Physics" title="Physics">physics</a>.<sup id="cite_ref-smith-sep_3-2" class="reference"><a href="#cite_note-smith-sep-3"><span>[</span>3<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=2.php.html" title="Edit section: First Law">edit</a>]</span> <span class="mw-headline" id="First_Law">First Law</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="Ellipse" title="Ellipse">ellipse</a>&#160;and <a href="Orbital_eccentricity" title="Orbital eccentricity">orbital eccentricity</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Kepler-first-law.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kepler-first-law.svg/220px-Kepler-first-law.svg.png" width="220" height="155" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kepler-first-law.svg/330px-Kepler-first-law.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kepler-first-law.svg/440px-Kepler-first-law.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Kepler-first-law.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Figure 2: Kepler's first law placing the Sun at the focus of an elliptical orbit</div>
+</div>
+</div>
+<dl>
+<dd>"The <a href="Orbit" title="Orbit">orbit</a> of every <a href="Planet" title="Planet">planet</a> is an <a href="Ellipse" title="Ellipse">ellipse</a> with the Sun at one of the two <a href="Focus_(geometry)" title="Focus (geometry)">foci</a>."</dd>
+</dl>
+<p>An ellipse is a closed plane curve that resembles a stretched out circle (see the figure to the right). Note that the Sun is not at the center of the ellipse, but at one of its foci. The other focal point, marked with a lighter dot, has no physical significance for the orbit. The center of an ellipse is the midpoint of the line segment joining its focal points. A circle is a special case of an ellipse where both focal points coincide.</p>
+<p>How stretched out an ellipse is from a perfect circle is known as its <a href="Orbital_eccentricity" title="Orbital eccentricity">eccentricity</a>: a parameter that can take any value greater than or equal to 0 (a circle) and less than 1 (as the eccentricity tends to 1, the ellipse tends to a <a href="Parabola" title="Parabola">parabola</a>). The eccentricities of the planets known to Kepler varied from 0.007 (<a href="Venus" title="Venus">Venus</a>) to 0.2 (<a href="Mercury_(planet)" title="Mercury (planet)">Mercury</a>). (See <a href="List_of_planetary_objects_in_the_Solar_System" title="List of planetary objects in the Solar System" class="mw-redirect">List of planetary objects in the Solar System</a> for more detail).</p>
+<p>After Kepler's death, however, bodies with highly eccentric orbits were identified, among them many <a href="Comet" title="Comet">comets</a> and <a href="Asteroid" title="Asteroid">asteroids</a>. The <a href="Dwarf_planet" title="Dwarf planet">dwarf planet</a> <a href="Pluto" title="Pluto">Pluto</a> was discovered as late as 1929, the delay mostly due to its small size, far distance, and optical faintness. Heavenly bodies such as comets with <a href="Parabolic_trajectory" title="Parabolic trajectory">parabolic</a> or even <a href="Hyperbolic_trajectory" title="Hyperbolic trajectory">hyperbolic</a> orbits are possible under the <a href="Newton's_law_of_universal_gravitation" title="Newton's law of universal gravitation">Newtonian theory</a> and have been observed.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Ellipse_latus_rectum.PNG" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Ellipse_latus_rectum.PNG/250px-Ellipse_latus_rectum.PNG" width="250" height="248" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/39/Ellipse_latus_rectum.PNG/375px-Ellipse_latus_rectum.PNG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/39/Ellipse_latus_rectum.PNG/500px-Ellipse_latus_rectum.PNG 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Ellipse_latus_rectum.PNG" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Figure 4: Heliocentric coordinate system <i>(r, θ)</i> for ellipse. Also shown are: semi-major axis <i>a</i>, semi-minor axis <i>b</i> and semi-latus rectum <i>p</i>; center of ellipse and its two foci marked by large dots. For θ = 0°, <i>r = r<sub>min</sub></i> and for θ = 180°, <i>r = r<sub>max</sub></i>.</div>
+</div>
+</div>
+<p>Symbolically, an ellipse can be represented in <a href="Polar_coordinates" title="Polar coordinates" class="mw-redirect">polar coordinates</a> as:</p>
+<dl>
+<dd><img class="tex" alt="r=\frac{p}{1+\varepsilon\, \cos\theta}," src="http://upload.wikimedia.org/math/e/2/3/e23e800b9c04ae4e7007c54c9f3c2c84.png" /></dd>
+</dl>
+<p>where (<i>r</i>,&#160;<i>θ</i>) are the polar coordinates (from the focus) for the ellipse, <i>p</i> is the <a href="Semi-latus_rectum" title="Semi-latus rectum" class="mw-redirect">semi-latus rectum</a>, and <i>ε</i> is the <a href="Eccentricity_(mathematics)" title="Eccentricity (mathematics)">eccentricity</a> of the ellipse. For a planet orbiting the Sun, <i>r</i> is the distance from the Sun to the planet and <i>θ</i> is the angle between the planet's current position and its closest approach, with the Sun as the vertex.</p>
+<p>At <i>θ</i> = 0°, <a href="Perihelion" title="Perihelion" class="mw-redirect">perihelion</a>, the distance is minimum</p>
+<dl>
+<dd><img class="tex" alt="r_\mathrm{min}=\frac{p}{1+\varepsilon}." src="http://upload.wikimedia.org/math/b/7/7/b77092ed75a623565a75f35433c94a7f.png" /></dd>
+</dl>
+<p>At <i>θ</i> = 90° and at <i>θ</i> = 270°, the distance is <img class="tex" alt="\, p." src="http://upload.wikimedia.org/math/8/1/4/814bd4c68d8690ebfb825371c28e625f.png" /></p>
+<p>At <i>θ</i> = 180°, <a href="Aphelion" title="Aphelion" class="mw-redirect">aphelion</a>, the distance is maximum</p>
+<dl>
+<dd><img class="tex" alt="r_\mathrm{max}=\frac{p}{1-\varepsilon}." src="http://upload.wikimedia.org/math/2/1/e/21e5f4391cf05c7e2981183194c8239b.png" /></dd>
+</dl>
+<p>The <a href="Semi-major_axis" title="Semi-major axis">semi-major axis</a> <i>a</i> is the <a href="Arithmetic_mean" title="Arithmetic mean">arithmetic mean</a> between <i>r</i><sub>min</sub> and <i>r</i><sub>max</sub>:</p>
+<dl>
+<dd><img class="tex" alt="\,r_\max - a=a-r_\min" src="http://upload.wikimedia.org/math/2/a/3/2a308ec6fc223fcd4e9d70df30a52a7f.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="a=\frac{p}{1-\varepsilon^2}." src="http://upload.wikimedia.org/math/6/0/d/60d9a7b5d0908efea5b0327a70b0c207.png" /></dd>
+</dl>
+<p>The <a href="Semi-minor_axis" title="Semi-minor axis">semi-minor axis</a> <i>b</i> is the <a href="Geometric_mean" title="Geometric mean">geometric mean</a> between <i>r</i><sub>min</sub> and <i>r</i><sub>max</sub>:</p>
+<dl>
+<dd><img class="tex" alt="\frac{r_\max} b =\frac b{r_\min}" src="http://upload.wikimedia.org/math/d/9/6/d96282297cf831cb8c53d313f2423819.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="b=\frac p{\sqrt{1-\varepsilon^2}}." src="http://upload.wikimedia.org/math/f/b/1/fb1f8a99aa9f7db1a5d658545fbf747f.png" /></dd>
+</dl>
+<p>The <a href="Semi-latus_rectum" title="Semi-latus rectum" class="mw-redirect">semi-latus rectum</a> <i>p</i> is the <a href="Harmonic_mean" title="Harmonic mean">harmonic mean</a> between <i>r</i><sub>min</sub> and <i>r</i><sub>max</sub>:</p>
+<dl>
+<dd><img class="tex" alt="\frac{1}{r_\min}-\frac{1}{p}=\frac{1}{p}-\frac{1}{r_\max}" src="http://upload.wikimedia.org/math/7/7/7/77715dcb97f07b07a7b0dee1b59f39af.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="pa=r_\max r_\min=b^2\,." src="http://upload.wikimedia.org/math/6/f/e/6fe08380d6e7d7c030f9e14e8baf651d.png" /></dd>
+</dl>
+<p>The <a href="Eccentricity_(mathematics)" title="Eccentricity (mathematics)">eccentricity</a> <i>ε</i> is the <a href="Coefficient_of_variation" title="Coefficient of variation">coefficient of variation</a> between <i>r</i><sub>min</sub> and <i>r</i><sub>max</sub>:</p>
+<dl>
+<dd><img class="tex" alt="\varepsilon=\frac{r_\mathrm{max}-r_\mathrm{min}}{r_\mathrm{max}+r_\mathrm{min}}." src="http://upload.wikimedia.org/math/e/5/5/e550604f5f935c3322bd5f5388f97443.png" /></dd>
+</dl>
+<p>The <a href="Area" title="Area">area</a> of the ellipse is</p>
+<dl>
+<dd><img class="tex" alt="A=\pi a b\,." src="http://upload.wikimedia.org/math/8/6/e/86e2431bc784d1b00f46c2a6ad2cfcbe.png" /></dd>
+</dl>
+<p>The special case of a circle is <i>ε</i> = 0, resulting in <i>r</i> = <i>p</i> = <i>r</i><sub>min</sub> = <i>r</i><sub>max</sub> = <i>a</i> = <i>b</i> and <i>A</i> = π <i>r</i><sup>2</sup>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=3.php.html" title="Edit section: Second law">edit</a>]</span> <span class="mw-headline" id="Second_law">Second law</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Kepler-second-law.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/6/69/Kepler-second-law.gif/220px-Kepler-second-law.gif" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/6/69/Kepler-second-law.gif/330px-Kepler-second-law.gif 1.5x, //upload.wikimedia.org/wikipedia/en/6/69/Kepler-second-law.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Kepler-second-law.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Illustration of Kepler's second law. The planet moves faster near the Sun so the same area is swept out in a given time as at larger distances, where the planet moves more slowly. The green arrow represents the planet's velocity, and the purple arrows represents the force on the planet.</div>
+</div>
+</div>
+<dl>
+<dd>"A <a href="Line_(geometry)" title="Line (geometry)">line</a> joining a planet and the Sun sweeps out equal areas during equal intervals of time."<sup id="cite_ref-Wolfram2nd_1-1" class="reference"><a href="#cite_note-Wolfram2nd-1"><span>[</span>1<span>]</span></a></sup></dd>
+</dl>
+<p>In a small time <img class="tex" alt="dt\," src="http://upload.wikimedia.org/math/6/e/0/6e01249f9ee4c004af49a014a2e7025f.png" /> the planet sweeps out a small triangle having base line <img class="tex" alt="r\," src="http://upload.wikimedia.org/math/5/f/5/5f558fa7e9b1567daca23dc3433f5cec.png" /> and height <img class="tex" alt="r d\theta\," src="http://upload.wikimedia.org/math/f/f/e/ffee1d83c10669e55acef22e105a9875.png" />.<br />
+The area of this triangle is given by<br />
+<img class="tex" alt="dA=\tfrac 1 2\cdot r\cdot r d\theta" src="http://upload.wikimedia.org/math/2/1/6/21632b5429492686d493fe1ed4698166.png" /> and so the constant <a href="Areal_velocity" title="Areal velocity">areal velocity</a> is<br />
+<img class="tex" alt="\frac{dA}{dt}=\tfrac{1}{2}r^2 \frac{d\theta}{dt}." src="http://upload.wikimedia.org/math/e/b/0/eb0443b789ec4c75ef5cb1804109f00a.png" /></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Newtons_proof_of_Keplers_second_law.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Newtons_proof_of_Keplers_second_law.gif/220px-Newtons_proof_of_Keplers_second_law.gif" width="220" height="113" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Newtons_proof_of_Keplers_second_law.gif/330px-Newtons_proof_of_Keplers_second_law.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/6/60/Newtons_proof_of_Keplers_second_law.gif 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Newtons_proof_of_Keplers_second_law.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a>'s proof of Kepler's second law, as described in his <i><a href="Philosophi%C3%A6_Naturalis_Principia_Mathematica" title="Philosophiæ Naturalis Principia Mathematica">Principia Mathematica</a></i>. If an instantaneous force is considered on the planet during its orbit, the area of the triangles defined by the path of the planet will be the same, for any fixed time interval. When the interval tends to zero, the force can be considered continuous. (Click on image for a detailed description.)</div>
+</div>
+</div>
+<p>Now as the first law states that the planet follows an ellipse, the planet is at different distances from the Sun at different parts in its orbit. So the planet has to move faster when it is closer to the Sun so that it sweeps equal areas in equal times.</p>
+<p>The total area enclosed by the elliptical orbit is</p>
+<dl>
+<dd><img class="tex" alt="A=\pi ab.\," src="http://upload.wikimedia.org/math/7/1/a/71a9e005c5a8e868cd7f088c58d931ce.png" /></dd>
+</dl>
+<p>Therefore the period</p>
+<dl>
+<dd><img class="tex" alt="P\," src="http://upload.wikimedia.org/math/8/a/1/8a140337171d690f8dd0eebd94448bf0.png" /></dd>
+</dl>
+<p>satisfies</p>
+<dl>
+<dd><img class="tex" alt="\pi ab=P\cdot \tfrac 12r^2 \dot\theta" src="http://upload.wikimedia.org/math/6/1/6/6166034eeab27eda1e2c8dbc9defdc02.png" /></dd>
+</dl>
+<p>or</p>
+<dl>
+<dd><img class="tex" alt="r^2\dot \theta = nab " src="http://upload.wikimedia.org/math/3/4/a/34ab988289e3ec72242306dd9ff3619f.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt="\dot\theta=\frac{d\theta}{dt}" src="http://upload.wikimedia.org/math/3/4/8/3480414568aaa52ccc079063229a091f.png" /></dd>
+</dl>
+<p>is the <a href="Angular_velocity" title="Angular velocity">angular velocity</a>, (using <a href="Newton_notation_for_differentiation" title="Newton notation for differentiation" class="mw-redirect">Newton notation for differentiation</a>), and</p>
+<dl>
+<dd><img class="tex" alt="n = \frac{2\pi}{P} " src="http://upload.wikimedia.org/math/a/8/f/a8f7618135db55a8a2746c0621ee74b6.png" /></dd>
+</dl>
+<p>is the <a href="Mean_motion" title="Mean motion">mean motion</a> of the planet around the Sun.</p>
+<p>Kepler's 2nd Law is also commonly represented as</p>
+<dl>
+<dd><img class="tex" alt="\frac{4 \pi^2}{T^2} = \frac{G M}{R^3}" src="http://upload.wikimedia.org/math/7/2/8/72888a6da479941d5fcc72fcc79eadb8.png" /></dd>
+</dl>
+<p>Where <img class="tex" alt="T" src="http://upload.wikimedia.org/math/b/9/e/b9ece18c950afbfa6b0fdbfa4ff731d3.png" /> is the period, <img class="tex" alt="G" src="http://upload.wikimedia.org/math/d/f/c/dfcf28d0734569a6a693bc8194de62bf.png" /> is Newton's constant of gravity, <img class="tex" alt="M" src="http://upload.wikimedia.org/math/6/9/6/69691c7bdcc3ce6d5d8a1361f22d04ac.png" /> is the mass of the larger body, and <img class="tex" alt="R" src="http://upload.wikimedia.org/math/e/1/e/e1e1d3d40573127e9ee0480caf1283d6.png" /> is the distance between the centers of mass of the two bodies.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=4.php.html" title="Edit section: Third law">edit</a>]</span> <span class="mw-headline" id="Third_law">Third law</span></h2>
+<dl>
+<dd>"The <a href="Square_(algebra)" title="Square (algebra)">square</a> of the <a href="Orbital_period" title="Orbital period">orbital period</a> of a planet is directly <a href="Proportionality_(mathematics)" title="Proportionality (mathematics)">proportional</a> to the <a href="Cube_(arithmetic)" title="Cube (arithmetic)" class="mw-redirect">cube</a> of the <a href="Semi-major_axis" title="Semi-major axis">semi-major axis</a> of its orbit."</dd>
+</dl>
+<p>The third law, published by Kepler in 1619 <a rel="nofollow" class="external autonumber" href="http://www-istp.gsfc.nasa.gov/stargaze/Skeplaws.htm">[2]</a> captures the relationship between the distance of planets from the Sun, and their orbital periods. Symbolically, the law can be expressed as</p>
+<dl>
+<dd><img class="tex" alt=" P^2 \propto a^3 ," src="http://upload.wikimedia.org/math/5/7/6/5761f8aaff0f33500ed21c8cf31f97b3.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="P" src="http://upload.wikimedia.org/math/4/4/c/44c29edb103a2872f519ad0c9a0fdaaa.png" /> is the orbital period of the planet and <img class="tex" alt="a" src="http://upload.wikimedia.org/math/0/c/c/0cc175b9c0f1b6a831c399e269772661.png" /> is the semi-major axis of the orbit.</p>
+<p>The constant of proportionality is</p>
+<dl>
+<dd><img class="tex" alt="\frac{P_{planet}^2}{a_{planet}^3} = \frac{P_{earth}^2}{a_{earth}^3} = 1 \frac{ \rm{yr^2} }{ \rm{AU^3} } " src="http://upload.wikimedia.org/math/a/0/5/a05b741c4a91bb48824f8ecf69604687.png" /></dd>
+</dl>
+<p>for a <a href="Sidereal_year" title="Sidereal year">sidereal year</a> (yr), and <a href="Astronomical_unit" title="Astronomical unit">astronomical unit</a> (AU). (For numeric values see <a href="List_of_gravitationally_rounded_objects_of_the_Solar_System" title="List of gravitationally rounded objects of the Solar System">List of gravitationally rounded objects of the Solar System</a>).</p>
+<p>Kepler enunciated this third law in a laborious attempt to determine what he viewed as the "<a href="Musica_universalis" title="Musica universalis">music of the spheres</a>" according to precise laws, and express it in terms of musical notation.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> So it used to be known as the <i>harmonic law</i>.<sup id="cite_ref-Holton3_9-0" class="reference"><a href="#cite_note-Holton3-9"><span>[</span>9<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=5.php.html" title="Edit section: Generality">edit</a>]</span> <span class="mw-headline" id="Generality">Generality</span></h2>
+<p><a href="Godefroy_Wendelin" title="Godefroy Wendelin">Godefroy Wendelin</a>, in 1643, noted that Kepler's third law applies to the four brightest moons of Jupiter.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>In fact, these laws approximately describe the motion of any two bodies in orbit around each other. (The statement in the first law about the focus becomes closer to exactitude as one of the masses becomes closer to zero mass. Where there are more than two masses, all of the statements in the laws become closer to exactitude as all except one of the masses become closer to zero mass and as the <a href="Perturbation_(astronomy)" title="Perturbation (astronomy)">perturbations</a> then also tend towards zero).<sup id="cite_ref-newt-p_4-1" class="reference"><a href="#cite_note-newt-p-4"><span>[</span>4<span>]</span></a></sup> The masses of the two bodies can be nearly equal, e.g. <a href="Charon_(moon)" title="Charon (moon)">Charon</a>—<a href="Pluto" title="Pluto">Pluto</a> (~1:10), in a small proportion, e.g. <a href="Moon" title="Moon">Moon</a>—<a href="Earth" title="Earth">Earth</a> (~1:100), or in a great proportion, e.g. <a href="Mercury_(planet)" title="Mercury (planet)">Mercury</a>—<a href="Sun" title="Sun">Sun</a> (~1:10,000,000).</p>
+<p>In all cases of two-body motion, rotation is about the <a href="Barycentric_coordinates_(astronomy)" title="Barycentric coordinates (astronomy)">barycenter</a> of the two bodies, with neither one having its center of mass exactly at one focus of an ellipse. However, both orbits are ellipses with one focus at the barycenter. When the ratio of masses is large, the barycenter may be deep within the larger object, close to its center of mass. In such a case it may require sophisticated precision measurements to detect the separation of the barycenter from the center of mass of the larger object. But in the case of the planets orbiting the Sun, the largest of them mass as much as 1/1047.3486 (Jupiter) and 1/3497.898 (Saturn) of the solar mass,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> and so it has long been known that the <a href="Center_of_mass#Barycenter_in_astrophysics_and_astronomy" title="Center of mass">solar system barycenter</a> can sometimes be outside the body of the Sun, up to about a solar diameter from its center.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> Thus Kepler's first law, though not far off as an approximation, does not quite accurately describe the orbits of the planets around the Sun under classical physics.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=6.php.html" title="Edit section: Zero eccentricity">edit</a>]</span> <span class="mw-headline" id="Zero_eccentricity">Zero eccentricity</span></h2>
+<p>Kepler's laws refine the model of Copernicus, which assumed circular orbits. If the eccentricity of a planetary <a href="Orbit" title="Orbit">orbit</a> is zero, then Kepler's laws state:</p>
+<ol>
+<li>The planetary orbit is a circle</li>
+<li>The Sun is in the center</li>
+<li>The speed of the planet in the orbit is constant</li>
+<li>The square of the <a href="Orbital_period" title="Orbital period">sidereal period</a> is proportionate to the <a href="Cube" title="Cube">cube</a> of the distance from the Sun.</li>
+</ol>
+<p>Actually, the eccentricities of the orbits of the six planets known to Copernicus and Kepler are quite small, so the rules above give excellent approximations of planetary motion, but Kepler's laws fit observations even better.</p>
+<p>Kepler's corrections to the Copernican model are not at all obvious:</p>
+<ol>
+<li>The planetary orbit is <i>not</i> a circle, but an <i>ellipse</i></li>
+<li>The Sun is <i>not</i> at the center but at a <i>focal point</i></li>
+<li>Neither the linear speed nor the angular speed of the planet in the orbit is constant, but the <i>area speed</i> is constant.</li>
+<li>The square of the <a href="Orbital_period" title="Orbital period">sidereal period</a> is proportionate to the cube of the <i>mean between the maximum and minimum</i> distances from the Sun.</li>
+</ol>
+<p>The nonzero eccentricity of the orbit of the earth makes the time from the <a href="March_equinox" title="March equinox">March equinox</a> to the <a href="September_equinox" title="September equinox">September equinox</a>, around 186 days, unequal to the time from the September equinox to the March equinox, around 179 days. A diameter would cut the orbit into equal parts, but the <a href="Equator" title="Equator">equator</a> cuts the orbit into two parts with areas in a 186 to 179 ratio, so the eccentricity of the orbit of the Earth is approximately</p>
+<dl>
+<dd><img class="tex" alt="\varepsilon\approx\frac \pi 4 \frac {186-179}{186+179}\approx 0.015," src="http://upload.wikimedia.org/math/a/d/4/ad44de6f5ad42a553030660d0e90aa95.png" /></dd>
+</dl>
+<p>which is close to the correct value (0.016710219). (See <a href="Earth's_orbit" title="Earth's orbit">Earth's orbit</a>). The calculation is correct when the <a href="Perihelion" title="Perihelion" class="mw-redirect">perihelion</a>, the date that the Earth is closest to the Sun, is on a <a href="Solstice" title="Solstice">solstice</a>. The current perihelion, near January 4, is fairly close to the solstice on December 21 or 22.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=7.php.html" title="Edit section: Relation to Newton's laws">edit</a>]</span> <span class="mw-headline" id="Relation_to_Newton.27s_laws">Relation to Newton's laws</span></h2>
+<p><a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a> computed in his <a href="Philosophi%C3%A6_Naturalis_Principia_Mathematica" title="Philosophiæ Naturalis Principia Mathematica">Philosophiæ Naturalis Principia Mathematica</a> the <a href="Acceleration" title="Acceleration">acceleration</a> of a planet moving according to Kepler's first and second law.</p>
+<ol>
+<li>The <i>direction</i> of the acceleration is towards the Sun.</li>
+<li>The <i>magnitude</i> of the acceleration is in inverse proportion to the square of the distance from the Sun.</li>
+</ol>
+<p>This suggests that the Sun may be the physical cause of the acceleration of planets.</p>
+<p>Newton defined the <a href="Force" title="Force">force</a> on a planet to be the product of its <a href="Mass" title="Mass">mass</a> and the acceleration. (See <a href="Newton's_laws_of_motion" title="Newton's laws of motion">Newton's laws of motion</a>). So:</p>
+<ol>
+<li>Every planet is attracted towards the Sun.</li>
+<li>The force on a planet is in direct proportion to the mass of the planet and in inverse proportion to the square of the distance from the Sun.</li>
+</ol>
+<p>Here the Sun plays an unsymmetrical part, which is unjustified. So he assumed <a href="Newton's_law_of_universal_gravitation" title="Newton's law of universal gravitation">Newton's law of universal gravitation</a>:</p>
+<ol>
+<li>All bodies in the solar system attract one another.</li>
+<li>The force between two bodies is in direct proportion to the product of their masses and in inverse proportion to the square of the distance between them.</li>
+</ol>
+<p>As the planets have small masses compared to that of the Sun, the orbits conform to Kepler's laws approximately. Newton's model improves upon Kepler's model fits actual observations more accurately. (See <a href="Two-body_problem" title="Two-body problem">two-body problem</a>).</p>
+<p>A deviation in the motion of a planet from Kepler's laws due to the gravity of other planets is called a <a href="Perturbation_(astronomy)" title="Perturbation (astronomy)">perturbation</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=8.php.html" title="Edit section: Computing position as a function of time">edit</a>]</span> <span class="mw-headline" id="Computing_position_as_a_function_of_time">Computing position as a function of time <span id="position_function_time"></span></span></h2>
+<p>Kepler used his two first laws to compute the position of a planet as a function of time. His method involves the solution of a <a href="Transcendental_function" title="Transcendental function">transcendental equation</a> called <a href="Kepler's_equation" title="Kepler's equation">Kepler's equation</a>.</p>
+<p>The procedure for calculating the heliocentric polar coordinates (<i>r</i>,<i>θ</i>) of a planet as a function of the time <i>t</i> since <a href="Perihelion" title="Perihelion" class="mw-redirect">perihelion</a>, and the <a href="Mean_motion" title="Mean motion">mean motion</a> <i>n</i> = 2π/<i>P</i>, is the following four steps:</p>
+<dl>
+<dd>1. Compute the <b><a href="Mean_anomaly" title="Mean anomaly">mean anomaly</a></b>
+<dl>
+<dd><img class="tex" alt="M=nt" src="http://upload.wikimedia.org/math/3/6/0/360885d44f71e2db3f6116f296cdbc0a.png" /></dd>
+</dl>
+</dd>
+<dd>2. Compute the <b><a href="Eccentric_anomaly" title="Eccentric anomaly">eccentric anomaly</a></b> <i>E</i> by solving Kepler's equation:
+<dl>
+<dd><img class="tex" alt="\ M=E-\varepsilon\cdot\sin E" src="http://upload.wikimedia.org/math/b/7/d/b7db75caf1505c4caf3adad72f479de9.png" /></dd>
+</dl>
+</dd>
+<dd>3. Compute the <b><a href="True_anomaly" title="True anomaly">true anomaly</a></b> <i>θ</i> by the equation:
+<dl>
+<dd><img class="tex" alt="\tan\frac \theta 2 = \sqrt{\frac{1+\varepsilon}{1-\varepsilon}}\cdot\tan\frac E 2" src="http://upload.wikimedia.org/math/1/2/1/121ec04a791a0fc53f86db17622acc5f.png" /></dd>
+</dl>
+</dd>
+<dd>4. Compute the <b>heliocentric distance</b> <i>r</i> from the first law:
+<dl>
+<dd><img class="tex" alt="r=\frac p {1+\varepsilon\cdot\cos\theta}" src="http://upload.wikimedia.org/math/b/f/5/bf52b1bd054053d207a21fd4f2261f03.png" /></dd>
+</dl>
+</dd>
+</dl>
+<p>The important special case of circular orbit, ε = 0, gives simply <i>θ</i>&#160;=&#160;<i>E</i>&#160;=&#160;<i>M</i>. Because the uniform circular motion was considered to be <i>normal</i>, a deviation from this motion was considered an <b>anomaly</b>.</p>
+<p>The proof of this procedure is shown below.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=9.php.html" title="Edit section: Mean anomaly, M">edit</a>]</span> <span class="mw-headline" id="Mean_anomaly.2C_M">Mean anomaly, <i>M</i></span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Anomalies.PNG" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anomalies.PNG/200px-Anomalies.PNG" width="200" height="175" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anomalies.PNG/300px-Anomalies.PNG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Anomalies.PNG/400px-Anomalies.PNG 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Anomalies.PNG" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+FIgure 5: Geometric construction for Kepler's calculation of θ. The Sun (located at the focus) is labeled <i>S</i> and the planet <i>P</i>. The auxiliary circle is an aid to calculation. Line <i>xd</i> is perpendicular to the base and through the planet <i>P</i>. The shaded sectors are arranged to have equal areas by positioning of point <i>y</i>.</div>
+</div>
+</div>
+<p>The Keplerian problem assumes an <a href="Elliptic_orbit" title="Elliptic orbit">elliptical orbit</a> and the four points:</p>
+<dl>
+<dd><i>s</i> the Sun (at one focus of ellipse);</dd>
+<dd><i>z</i> the perihelion</dd>
+<dd><i>c</i> the center of the ellipse</dd>
+<dd><i>p</i> the planet</dd>
+</dl>
+<p>and</p>
+<dl>
+<dd><img class="tex" alt="\ a=|cz|," src="http://upload.wikimedia.org/math/9/d/a/9dae71529d4f48a7e03dfe64986d501a.png" /> distance between center and perihelion, the <b>semimajor axis</b>,</dd>
+<dd><img class="tex" alt="\ \varepsilon={|cs|\over a}," src="http://upload.wikimedia.org/math/0/b/1/0b13c3aad28144ef757bc9ac21365170.png" /> the <b>eccentricity</b>,</dd>
+<dd><img class="tex" alt="\ b=a\sqrt{1-\varepsilon^2}," src="http://upload.wikimedia.org/math/3/a/1/3a15e15498d74352690d131d7f0d9eaf.png" /> the <b>semiminor axis</b>,</dd>
+<dd><img class="tex" alt="\ r=|sp| ," src="http://upload.wikimedia.org/math/f/8/e/f8e497cc69febbc48e7a07f6b0c0baff.png" /> the distance between Sun and planet.</dd>
+<dd><img class="tex" alt="\theta=\angle zsp," src="http://upload.wikimedia.org/math/f/8/9/f895d27de857e41e3575c0f3ae3242f1.png" /> the direction to the planet as seen from the Sun, the <b><a href="True_anomaly" title="True anomaly">true anomaly</a></b>.</dd>
+</dl>
+<p>The problem is to compute the <a href="Polar_coordinates" title="Polar coordinates" class="mw-redirect">polar coordinates</a> (<i>r</i>,<i>θ</i>) of the planet from the <b>time since perihelion</b>, <i>t</i>.</p>
+<p>It is solved in steps. Kepler considered the circle with the major axis as a diameter, and</p>
+<dl>
+<dd><img class="tex" alt="\ x," src="http://upload.wikimedia.org/math/6/2/c/62c1f2aa68d9106065a4b08c89bfb1e8.png" /> the projection of the planet to the auxiliary circle</dd>
+<dd><img class="tex" alt="\ y," src="http://upload.wikimedia.org/math/3/0/d/30d847ec9b2a7870fe86333a0b3a49c3.png" /> the point on the circle such that the sector areas <i>|zcy|</i> and <i>|zsx|</i> are equal,</dd>
+<dd><img class="tex" alt="M=\angle zcy," src="http://upload.wikimedia.org/math/d/f/1/df1a7fea6678aa6b4360b886d35b257f.png" /> the <b><a href="Mean_anomaly" title="Mean anomaly">mean anomaly</a></b>.</dd>
+</dl>
+<p>The sector areas are related by <img class="tex" alt="|zsp|=\frac b a \cdot|zsx|." src="http://upload.wikimedia.org/math/0/9/5/0950b54b230b8c736d9e3227e08713b6.png" /></p>
+<p>The <a href="Circular_sector" title="Circular sector">circular sector</a> area <img class="tex" alt="\ |zcy| =  \frac{a^2 M}2." src="http://upload.wikimedia.org/math/7/7/2/77217ac254783fa9a8ff8b9b55034770.png" /></p>
+<p>The area swept since perihelion,</p>
+<dl>
+<dd><img class="tex" alt="|zsp|=\frac b a \cdot|zsx|=\frac b a \cdot|zcy|=\frac b a\cdot\frac{a^2 M}2 = \frac {a b M}{2}, " src="http://upload.wikimedia.org/math/9/c/2/9c2cebe8ce19190d19dddc4bb9414c7f.png" /></dd>
+</dl>
+<p>is by Kepler's second law proportional to time since perihelion. So the mean anomaly, <i>M</i>, is proportional to time since perihelion, <i>t</i>.</p>
+<dl>
+<dd><img class="tex" alt="M=n t," src="http://upload.wikimedia.org/math/7/c/c/7cc572d72538721390a36acdec0c920f.png" /></dd>
+</dl>
+<p>where <i>n</i> is the <a href="Mean_motion" title="Mean motion">mean motion</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=10.php.html" title="Edit section: Eccentric anomaly, E">edit</a>]</span> <span class="mw-headline" id="Eccentric_anomaly.2C_E">Eccentric anomaly, <i>E</i></span></h3>
+<p>When the mean anomaly <i>M</i> is computed, the goal is to compute the true anomaly <i>θ</i>. The function <i>θ</i>=<i>f</i>(<i>M</i>) is, however, not elementary.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> Kepler's solution is to use</p>
+<dl>
+<dd><img class="tex" alt="E=\angle zcx" src="http://upload.wikimedia.org/math/2/6/f/26f32361e1d541b933f6f2c2f5c8ba7f.png" />, <i>x</i> as seen from the centre, the <b><a href="Eccentric_anomaly" title="Eccentric anomaly">eccentric anomaly</a></b></dd>
+</dl>
+<p>as an intermediate variable, and first compute <i>E</i> as a function of <i>M</i> by solving Kepler's equation below, and then compute the true anomaly <i>θ</i> from the eccentric anomaly <i>E</i>. Here are the details.</p>
+<dl>
+<dd><img class="tex" alt="\ |zcy|=|zsx|=|zcx|-|scx|" src="http://upload.wikimedia.org/math/b/5/d/b5deabfb304685579d8cc3a0486c49d3.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="\frac{a^2 M}2=\frac{a^2 E}2-\frac {a\varepsilon\cdot a\sin E}2" src="http://upload.wikimedia.org/math/a/2/7/a27c35fd3f98cd68551d6cc791e3085e.png" /></dd>
+</dl>
+<p>Division by <i>a</i><sup>2</sup>/2 gives <b><a href="Kepler's_equation" title="Kepler's equation">Kepler's equation</a></b></p>
+<dl>
+<dd><img class="tex" alt="M=E-\varepsilon\cdot\sin E." src="http://upload.wikimedia.org/math/2/c/4/2c447de36434e534a0ad7c41fc7d12a2.png" /></dd>
+</dl>
+<p>This equation gives <i>M</i> as a function of <i>E</i>. Determining <i>E</i> for a given <i>M</i> is the inverse problem. Iterative numerical algorithms are commonly used.</p>
+<p>Having computed the eccentric anomaly <i>E</i>, the next step is to calculate the true anomaly <i>θ</i>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=11.php.html" title="Edit section: True anomaly, θ">edit</a>]</span> <span class="mw-headline" id="True_anomaly.2C_.CE.B8">True anomaly, θ</span></h3>
+<p>Note from the figure that</p>
+<dl>
+<dd><img class="tex" alt="\overrightarrow{cd}=\overrightarrow{cs}+\overrightarrow{sd}" src="http://upload.wikimedia.org/math/4/e/3/4e3880bd3d9890971a0c5d23a706cb02.png" /></dd>
+</dl>
+<p>so that</p>
+<dl>
+<dd><img class="tex" alt="a\cdot\cos E=a\cdot\varepsilon+r\cdot\cos \theta." src="http://upload.wikimedia.org/math/d/4/7/d47b5b993a2dfdb19c7d7158fcb664d3.png" /></dd>
+</dl>
+<p>Dividing by <img class="tex" alt="a" src="http://upload.wikimedia.org/math/0/c/c/0cc175b9c0f1b6a831c399e269772661.png" /> and inserting from Kepler's first law</p>
+<dl>
+<dd><img class="tex" alt="\ \frac r a =\frac{1-\varepsilon^2}{1+\varepsilon\cdot\cos \theta} " src="http://upload.wikimedia.org/math/4/c/2/4c2e7a6cf4365c4d8c2d90e112f8b291.png" /></dd>
+</dl>
+<p>to get</p>
+<dl>
+<dd><img class="tex" alt="\cos E
+=\varepsilon+\frac{1-\varepsilon^2}{1+\varepsilon\cdot\cos \theta}\cdot\cos \theta
+" src="http://upload.wikimedia.org/math/4/6/3/4639de4f2eaa25063464f426fdd0265f.png" /> <img class="tex" alt="=\frac{\varepsilon\cdot(1+\varepsilon\cdot\cos \theta)+(1-\varepsilon^2)\cdot\cos \theta}{1+\varepsilon\cdot\cos \theta}
+" src="http://upload.wikimedia.org/math/a/a/9/aa99a758014bbc58611de3db350befc0.png" /> <img class="tex" alt="=\frac{\varepsilon +\cos \theta}{1+\varepsilon\cdot\cos \theta}." src="http://upload.wikimedia.org/math/4/0/c/40c9ddfd9af8e2c50c53e59bf616ea4b.png" /></dd>
+</dl>
+<p>The result is a usable relationship between the eccentric anomaly <i>E</i> and the true anomaly <i>θ</i>.</p>
+<p>A computationally more convenient form follows by substituting into the <a href="Trigonometric_identity" title="Trigonometric identity" class="mw-redirect">trigonometric identity</a>:</p>
+<dl>
+<dd><img class="tex" alt="\tan^2\frac{x}{2}=\frac{1-\cos x}{1+\cos x}." src="http://upload.wikimedia.org/math/3/a/b/3ab16bf0c438d3b6ff3eda29ffc877be.png" /></dd>
+</dl>
+<p>Get</p>
+<dl>
+<dd><img class="tex" alt="\tan^2\frac{E}{2}
+=\frac{1-\cos E}{1+\cos E}
+" src="http://upload.wikimedia.org/math/a/0/1/a019ae09eb4fde84e164b0d88bc5f74e.png" /> <img class="tex" alt="=\frac{1-\frac{\varepsilon+\cos \theta}{1+\varepsilon\cdot\cos \theta}}{1+\frac{\varepsilon+\cos \theta}{1+\varepsilon\cdot\cos \theta}}
+" src="http://upload.wikimedia.org/math/5/b/2/5b257b23ad5312db441ebb119cf8734b.png" /> <img class="tex" alt="=\frac{(1+\varepsilon\cdot\cos \theta)-(\varepsilon+\cos \theta)}{(1+\varepsilon\cdot\cos \theta)+(\varepsilon+\cos \theta)}
+" src="http://upload.wikimedia.org/math/2/8/4/28421f231bad8da7c46de23e8a1c6a04.png" /> <img class="tex" alt="=\frac{1-\varepsilon}{1+\varepsilon}\cdot\frac{1-\cos \theta}{1+\cos \theta}=\frac{1-\varepsilon}{1+\varepsilon}\cdot\tan^2\frac{\theta}{2}." src="http://upload.wikimedia.org/math/8/3/6/836dda3bb6c2ac6de15d9ebbebfaead9.png" /></dd>
+</dl>
+<p>Multiplying by (1+ε)/(1−ε) and taking the square root gives the result</p>
+<dl>
+<dd><img class="tex" alt="\tan\frac \theta2=\sqrt\frac{1+\varepsilon}{1-\varepsilon}\cdot\tan\frac E2." src="http://upload.wikimedia.org/math/4/9/d/49da8a8370876daf34ff3e444eb163d6.png" /></dd>
+</dl>
+<p>We have now completed the third step in the connection between time and position in the orbit.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=12.php.html" title="Edit section: Distance, r">edit</a>]</span> <span class="mw-headline" id="Distance.2C_r">Distance, <i>r</i></span></h3>
+<p>The fourth step is to compute the heliocentric distance <i>r</i> from the true anomaly <i>θ</i> by Kepler's first law:</p>
+<dl>
+<dd><img class="tex" alt="\ r=a\cdot\frac{1-\varepsilon^2}{1+\varepsilon\cdot\cos \theta}." src="http://upload.wikimedia.org/math/f/8/c/f8c59dacb022cadf6e24d6084f1fc643.png" /></dd>
+</dl>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=13.php.html" title="Edit section: Computing the planetary acceleration">edit</a>]</span> <span class="mw-headline" id="Computing_the_planetary_acceleration">Computing the planetary acceleration</span></h2>
+<p>In his <a href="Principia_Mathematica_Philosophiae_Naturalis" title="Principia Mathematica Philosophiae Naturalis" class="mw-redirect">Principia Mathematica Philosophiae Naturalis</a>, Newton showed that Kepler's laws imply that the <a href="Acceleration" title="Acceleration">acceleration</a> of the planets are directed towards the sun and depend on the distance from the sun by the inverse square law. However, the geometrical method used by Newton to prove the result is quite complicated. The demonstration below is based on calculus.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=14.php.html" title="Edit section: Acceleration vector">edit</a>]</span> <span class="mw-headline" id="Acceleration_vector">Acceleration vector</span></h3>
+<div class="rellink boilerplate seealso">See also: <a href="Polar_coordinate#Vector_calculus" title="Polar coordinate" class="mw-redirect">Polar coordinate#Vector calculus</a>&#160;and <a href="Mechanics_of_planar_particle_motion" title="Mechanics of planar particle motion">Mechanics of planar particle motion</a></div>
+<p>From the <a href="Heliocentric" title="Heliocentric" class="mw-redirect">heliocentric</a> point of view consider the vector to the planet <img class="tex" alt="\mathbf{r} = r \hat{\mathbf{r}} " src="http://upload.wikimedia.org/math/f/4/7/f47a1ca9d1d303cbd02dbcbde85ef8ce.png" /> where <img class="tex" alt=" r" src="http://upload.wikimedia.org/math/4/b/4/4b43b0aee35624cd95b910189b3dc231.png" /> is the distance to the planet and the direction <img class="tex" alt=" \hat {\mathbf{r}} " src="http://upload.wikimedia.org/math/6/c/8/6c830bb397e1e9a06d4e8ad23f2ed83c.png" /> is a <a href="Unit_vector" title="Unit vector">unit vector</a>. When the planet moves the direction vector <img class="tex" alt=" \hat {\mathbf{r}} " src="http://upload.wikimedia.org/math/6/c/8/6c830bb397e1e9a06d4e8ad23f2ed83c.png" /> changes:</p>
+<dl>
+<dd><img class="tex" alt=" \frac{d\hat{\mathbf{r}}}{dt}=\dot{\hat{\mathbf{r}}} = \dot\theta  \hat{\boldsymbol\theta},\qquad \dot{\hat{\boldsymbol\theta}} = -\dot\theta \hat{\mathbf{r}}" src="http://upload.wikimedia.org/math/7/0/9/709352bce532d4afacb5ded4a90183f8.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="\scriptstyle  \hat{\boldsymbol\theta}" src="http://upload.wikimedia.org/math/c/9/6/c9632631f058476150d77de00ae454df.png" /> is the unit vector orthogonal to <img class="tex" alt="\scriptstyle \hat{\mathbf{r}}" src="http://upload.wikimedia.org/math/8/1/b/81b2cb8fd5de30c69091c924f71569a3.png" /> and pointing in the direction of rotation, and <img class="tex" alt="\scriptstyle \theta" src="http://upload.wikimedia.org/math/2/3/9/239c42d35e7c4548370c82ddf2cbce99.png" /> is the polar angle, and where a dot on top of the variable signifies differentiation with respect to time.</p>
+<p>So differentiating the position vector twice to obtain the velocity and the acceleration vectors:</p>
+<dl>
+<dd><img class="tex" alt="\dot{\mathbf{r}} =\dot{r} \hat{\mathbf{r}} + r \dot{\hat{\mathbf{r}}}
+=\dot{r} \hat{\mathbf{r}} + r \dot{\theta} \hat{\boldsymbol{\theta}}," src="http://upload.wikimedia.org/math/7/8/d/78d75a2c9c7b53e0966e0d77d835012c.png" /></dd>
+<dd><img class="tex" alt="\ddot{\mathbf{r}} 
+= (\ddot{r} \hat{\mathbf{r}} +\dot{r} \dot{\hat{\mathbf{r}}} )
++ (\dot{r}\dot{\theta} \hat{\boldsymbol{\theta}} + r\ddot{\theta} \hat{\boldsymbol{\theta}}
++ r\dot{\theta} \dot{\hat{\boldsymbol{\theta}}})
+= (\ddot{r} - r\dot{\theta}^2) \hat{\mathbf{r}} + (r\ddot{\theta} + 2\dot{r} \dot{\theta}) \hat{\boldsymbol{\theta}}." src="http://upload.wikimedia.org/math/0/c/b/0cba8131df1c366bf25157c935b6dfe0.png" /></dd>
+</dl>
+<p>So</p>
+<dl>
+<dd><img class="tex" alt="\ddot{\mathbf{r}} = a_r \hat{\boldsymbol{r}}+a_\theta\hat{\boldsymbol{\theta}}" src="http://upload.wikimedia.org/math/e/8/9/e898f05297bf3712afce906bcc8b8480.png" /></dd>
+</dl>
+<p>where the <b>radial acceleration</b> is</p>
+<dl>
+<dd><img class="tex" alt="a_r=\ddot{r} - r\dot{\theta}^2" src="http://upload.wikimedia.org/math/3/b/5/3b5cfcd979d10cf53be4d4a3eb808e94.png" /></dd>
+</dl>
+<p>and the <b>tangential acceleration</b> is</p>
+<dl>
+<dd><img class="tex" alt="a_\theta=r\ddot{\theta} + 2\dot{r} \dot{\theta}." src="http://upload.wikimedia.org/math/0/0/3/0033969d499fa5928a378b6bbc1c7fdd.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=15.php.html" title="Edit section: The inverse square law">edit</a>]</span> <span class="mw-headline" id="The_inverse_square_law">The inverse square law</span></h3>
+<p>Kepler's second law implies that the <a href="Areal_velocity" title="Areal velocity">areal velocity</a> <img class="tex" alt="\tfrac 1 2 r^2 \dot \theta " src="http://upload.wikimedia.org/math/b/6/d/b6db27f848eb294c95c6dc5d6d9b8170.png" /> is a constant of motion. The tangential acceleration <img class="tex" alt="a_\theta" src="http://upload.wikimedia.org/math/f/c/1/fc143a0c4b3574834fca44313bc603de.png" /> is zero by Kepler's second law:</p>
+<dl>
+<dd><img class="tex" alt="\frac{d (r^2 \dot \theta)}{dt} = r (2 \dot r \dot \theta + r \ddot \theta ) = r a_\theta = 0. " src="http://upload.wikimedia.org/math/0/0/8/00816cc90504e2a9f16aa9103ba49a1b.png" /></dd>
+</dl>
+<p>So the acceleration of a planet obeying Kepler's second law is directed exactly towards the sun.</p>
+<p>Kepler's first law implies that the area enclosed by the orbit is <img class="tex" alt="\pi ab" src="http://upload.wikimedia.org/math/e/0/7/e07b1adc3cd4c65b6bad39491461206f.png" />, where <img class="tex" alt="a" src="http://upload.wikimedia.org/math/0/c/c/0cc175b9c0f1b6a831c399e269772661.png" /> is the <a href="Semi-major_axis" title="Semi-major axis">semi-major axis</a> and <img class="tex" alt="b" src="http://upload.wikimedia.org/math/9/2/e/92eb5ffee6ae2fec3ad71c777531578f.png" /> is the <a href="Semi-minor_axis" title="Semi-minor axis">semi-minor axis</a> of the ellipse. Therefore the period <img class="tex" alt="P" src="http://upload.wikimedia.org/math/4/4/c/44c29edb103a2872f519ad0c9a0fdaaa.png" /> satisfies <img class="tex" alt="\pi ab=\tfrac 1 2 r^2\dot \theta P" src="http://upload.wikimedia.org/math/d/5/6/d56ff4c62227a500066e280e79975896.png" /> or</p>
+<dl>
+<dd><img class="tex" alt="r^2\dot \theta = nab " src="http://upload.wikimedia.org/math/3/4/a/34ab988289e3ec72242306dd9ff3619f.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt="n = \frac{2\pi}{P} " src="http://upload.wikimedia.org/math/a/8/f/a8f7618135db55a8a2746c0621ee74b6.png" /></dd>
+</dl>
+<p>is the <a href="Mean_motion" title="Mean motion">mean motion</a> of the planet around the sun.</p>
+<p>The radial acceleration <img class="tex" alt="a_r  " src="http://upload.wikimedia.org/math/b/4/8/b48e5471f56ae6f22839f9a0f77ddf52.png" /> is</p>
+<dl>
+<dd><img class="tex" alt="a_r = \ddot r - r \dot \theta^2= \ddot r - r \left(\frac{nab}{r^2}
+\right)^2= \ddot r -\frac{n^2a^2b^2}{r^3}. " src="http://upload.wikimedia.org/math/6/e/3/6e368dc0b718b1aa15507725d2221eff.png" /></dd>
+</dl>
+<p>Kepler's first law states that the orbit is described by the equation:</p>
+<dl>
+<dd><img class="tex" alt="\frac{p}{r} = 1+ \varepsilon \cos\theta." src="http://upload.wikimedia.org/math/1/9/3/193c92e2d4ebb1281a54e1572f187628.png" /></dd>
+</dl>
+<p>Differentiating with respect to time</p>
+<dl>
+<dd><img class="tex" alt="-\frac{p\dot r}{r^2} = -\varepsilon  \sin \theta \,\dot \theta " src="http://upload.wikimedia.org/math/a/1/2/a1250f7f8170bb99300c596fa73e626e.png" /></dd>
+</dl>
+<p>or</p>
+<dl>
+<dd><img class="tex" alt="p\dot r = nab\,\varepsilon\sin \theta. " src="http://upload.wikimedia.org/math/2/c/2/2c2de54f20316c752b60b6e110af3a8b.png" /></dd>
+</dl>
+<p>Differentiating once more</p>
+<dl>
+<dd><img class="tex" alt="p\ddot r =nab \varepsilon \cos \theta \,\dot \theta
+=nab \varepsilon \cos \theta \,\frac{nab}{r^2}
+=\frac{n^2a^2b^2}{r^2}\varepsilon \cos \theta . " src="http://upload.wikimedia.org/math/0/2/8/028fc8aee973b2ccd020b2348562e7d3.png" /></dd>
+</dl>
+<p>The radial acceleration <img class="tex" alt="a_r  " src="http://upload.wikimedia.org/math/b/4/8/b48e5471f56ae6f22839f9a0f77ddf52.png" /> satisfies</p>
+<dl>
+<dd><img class="tex" alt="p a_r = \frac{n^2 a^2b^2}{r^2}\varepsilon \cos \theta  - p\frac{n^2 a^2b^2}{r^3}
+= \frac{n^2a^2b^2}{r^2}\left(\varepsilon \cos \theta - \frac{p}{r}\right). " src="http://upload.wikimedia.org/math/9/f/7/9f79f0e210c4fc78c1cb2088af133bc0.png" /></dd>
+</dl>
+<p>Substituting the equation of the ellipse gives</p>
+<dl>
+<dd><img class="tex" alt="p a_r = \frac{n^2a^2b^2}{r^2}\left(\frac p r - 1 - \frac p r\right)= -\frac{n^2a^2}{r^2}b^2. " src="http://upload.wikimedia.org/math/7/e/a/7ea2f7fa41f80aae4961bd383e28ee5f.png" /></dd>
+</dl>
+<p>The relation <img class="tex" alt="b^2=pa" src="http://upload.wikimedia.org/math/0/a/8/0a8de99c2019d6cf2f64e9a12d4e40d6.png" /> gives the simple final result</p>
+<dl>
+<dd><img class="tex" alt="a_r=-\frac{n^2a^3}{r^2}. " src="http://upload.wikimedia.org/math/7/3/a/73a5572e154a7d970c1843b5d444e0f1.png" /></dd>
+</dl>
+<p>This means that the acceleration vector <img class="tex" alt="\mathbf{\ddot r}" src="http://upload.wikimedia.org/math/7/9/2/792bcade0a4a44c51ad43c8c79323c47.png" /> of any planet obeying Kepler's first and second law satisfies the <b>inverse square law</b></p>
+<dl>
+<dd><img class="tex" alt="\mathbf{\ddot r} = - \frac{\alpha}{r^2}\hat{\mathbf{r}}" src="http://upload.wikimedia.org/math/0/1/4/014ed4be36bf03da8214ff4e4138ad8c.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt="\alpha = n^2 a^3=\frac{4\pi^2 a^3}{P^2}\," src="http://upload.wikimedia.org/math/2/8/8/288cc066556dd02608148e55232b7056.png" /></dd>
+</dl>
+<p>is a constant, and <img class="tex" alt="\hat{\mathbf r}" src="http://upload.wikimedia.org/math/e/0/c/e0cbe822897f7a8e7a99ba138ceb19d4.png" /> is the unit vector pointing from the Sun towards the planet, and <img class="tex" alt="r\," src="http://upload.wikimedia.org/math/5/f/5/5f558fa7e9b1567daca23dc3433f5cec.png" /> is the distance between the planet and the Sun.</p>
+<p>According to Kepler's third law, <img class="tex" alt="\alpha" src="http://upload.wikimedia.org/math/b/c/c/bccfc7022dfb945174d9bcebad2297bb.png" /> has the same value for all the planets. So the inverse square law for planetary accelerations applies throughout the entire solar system.</p>
+<p>The inverse square law is a <a href="Differential_equation" title="Differential equation">differential equation</a>. The solutions to this differential equation includes the Keplerian motions, as shown, but they also include motions where the orbit is a <a href="Hyperbola" title="Hyperbola">hyperbola</a> or <a href="Parabola" title="Parabola">parabola</a> or a <a href="Straight_line" title="Straight line" class="mw-redirect">straight line</a>. See <a href="Kepler_orbit" title="Kepler orbit">kepler orbit</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=16.php.html" title="Edit section: Newton's law of gravitation">edit</a>]</span> <span class="mw-headline" id="Newton.27s_law_of_gravitation">Newton's law of gravitation</span></h2>
+<p>By <a href="Newton's_second_law" title="Newton's second law" class="mw-redirect">Newton's second law</a>, the gravitational force that acts on the planet is:</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{F} = m \mathbf{\ddot r} = - \frac{m \alpha}{r^2}\hat{\mathbf{r}}" src="http://upload.wikimedia.org/math/4/1/8/418bba09e15f10ce9dce7133599edc7b.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="\alpha" src="http://upload.wikimedia.org/math/b/c/c/bccfc7022dfb945174d9bcebad2297bb.png" /> only depends on properties of the Sun. According to <a href="Newton's_Third_Law" title="Newton's Third Law" class="mw-redirect">Newton's third Law</a>, the Sun is also pulled towards the planet by a force of the same magnitude. Since the force is proportional to the mass of the planet, under the symmetric consideration, it should also be proportional to the mass of the Sun. So the equation for gravitational force should be</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{F} = - \frac{GMm}{r^2}\hat{\mathbf{r}} " src="http://upload.wikimedia.org/math/5/f/a/5fa7143a53a6c37d24fe184ae1290258.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="G" src="http://upload.wikimedia.org/math/d/f/c/dfcf28d0734569a6a693bc8194de62bf.png" /> is a <a href="Universal_constant" title="Universal constant" class="mw-redirect">universal constant</a>. This is <a href="Newton's_law_of_universal_gravitation" title="Newton's law of universal gravitation">Newton's law of universal gravitation</a>.</p>
+<p>The acceleration of solar system body <i>i</i> is, according to Newton's laws:</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{\ddot r_i} = G\sum_{j\ne i} \frac{m_j}{r_{ij}^2}\hat{\mathbf{r}}_{ij} " src="http://upload.wikimedia.org/math/f/6/a/f6a4f06862f12bb0660e60ced98b88fe.png" /></dd>
+</dl>
+<p>where <img class="tex" alt="m_j " src="http://upload.wikimedia.org/math/9/3/f/93f5e1c79123bc829f7d5c3bf8bc1674.png" /> is the mass of body <i>j</i>, <img class="tex" alt="r_{ij} " src="http://upload.wikimedia.org/math/f/e/8/fe801f95e20cf8d385671fa4bd84e0ad.png" /> is the distance between body <i>i</i> and body <i>j</i>, <img class="tex" alt="\hat{\mathbf{r}}_{ij} " src="http://upload.wikimedia.org/math/4/8/e/48e297014a5c11bc3e8f25f3c5c87318.png" /> is the unit vector from body <i>i</i> pointing towards body <i>j</i>, and the vector summation is over all bodies in the world, besides <i>i</i> itself. In the special case where there are only two bodies in the world, Planet and Sun, the acceleration becomes</p>
+<dl>
+<dd><img class="tex" alt="\mathbf{\ddot r}_{Planet} = G\frac{m_{Sun}}{r_{{Planet},{Sun}}^2}\hat{\mathbf{r}}_{{Planet},{Sun}}" src="http://upload.wikimedia.org/math/8/4/3/843dae5c016c01d2675030153b88b321.png" /></dd>
+</dl>
+<p>which is the acceleration of the Kepler motion.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=17.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Kepler_orbit" title="Kepler orbit">Kepler orbit</a></li>
+<li><a href="Kepler_problem" title="Kepler problem">Kepler problem</a></li>
+<li><a href="Kepler's_equation" title="Kepler's equation">Kepler's equation</a></li>
+<li><a href="Circular_motion" title="Circular motion">Circular motion</a></li>
+<li><a href="Free-fall_time" title="Free-fall time">Free-fall time</a></li>
+<li><a href="Gravity" title="Gravity" class="mw-redirect">Gravity</a></li>
+<li><a href="Laplace%E2%80%93Runge%E2%80%93Lenz_vector" title="Laplace–Runge–Lenz vector">Laplace–Runge–Lenz vector</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=18.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-Wolfram2nd-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-Wolfram2nd_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Wolfram2nd_1-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Bryant, Jeff; Pavlyk, Oleksandr. "<a rel="nofollow" class="external text" href="http://demonstrations.wolfram.com/KeplersSecondLaw/">Kepler's Second Law</a>", <i><a href="Wolfram_Demonstrations_Project" title="Wolfram Demonstrations Project">Wolfram Demonstrations Project</a></i>. Retrieved December 27, 2009.</span></li>
+<li id="cite_note-Holton-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-Holton_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Holton_2-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Holton_2-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><span class="citation book">Holton, Gerald James; Brush, Stephen G. (2001). <a rel="nofollow" class="external text" href="http://books.google.com/?id=czaGZzR0XOUC&pg=PA40"><i>Physics, the Human Adventure: From Copernicus to Einstein and Beyond</i></a> (3rd paperback ed.). Piscataway, NJ: Rutgers University Press. pp.&#160;40–41. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8135-2908-5" title="Special:BookSources/0-8135-2908-5">0-8135-2908-5</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=czaGZzR0XOUC&pg=PA40">http://books.google.com/?id=czaGZzR0XOUC&amp;pg=PA40</a></span><span class="reference-accessdate">. Retrieved December 27, 2009</span>.</span></span></li>
+<li id="cite_note-smith-sep-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-smith-sep_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-smith-sep_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-smith-sep_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">See also G E Smith, <a rel="nofollow" class="external text" href="http://plato.stanford.edu/archives/win2008/entries/newton-principia/">"Newton's Philosophiae Naturalis Principia Mathematica"</a>, especially the section <a rel="nofollow" class="external text" href="http://plato.stanford.edu/archives/win2008/entries/newton-principia/#HisConPri"><i>Historical context ...</i></a> in <i>The Stanford Encyclopedia of Philosophy</i> (Winter 2008 Edition), Edward N. Zalta (ed.).</span></li>
+<li id="cite_note-newt-p-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-newt-p_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-newt-p_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">Newton's showing, in <a href="Philosophi%C3%A6_Naturalis_Principia_Mathematica" title="Philosophiæ Naturalis Principia Mathematica">the 'Principia'</a>, that the two-body problem with centripetal forces results in motion in one of the conic sections, is concluded at <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Tm0FAAAAQAAJ&pg=PA85">Book 1, Proposition 13, Corollary 1</a>. His consideration of the effects of <a href="Perturbation_(astronomy)" title="Perturbation (astronomy)">perturbations</a> in a multi-body situation starts at <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Tm0FAAAAQAAJ&pg=PA231">Book 1, Proposition 65</a>, including a <a href="Limit_(mathematics)" title="Limit (mathematics)">limit</a> argument that the error in the (Keplerian) approximation of ellipses and equal areas would tend to zero if the relevant planetary masses would tend to zero and with them the planetary mutual perturbations <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Tm0FAAAAQAAJ&pg=PA232">(Proposition 65, Case 1)</a>. He discusses the extent of the perturbations in the real solar system in <a rel="nofollow" class="external text" href="http://books.google.com/books?id=6EqxPav3vIsC&pg=PA234">Book 3, Proposition 13</a>.</span></li>
+<li id="cite_note-plummr-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-plummr_5-0">^</a></b></span> <span class="reference-text"><a href="Johannes_Kepler" title="Johannes Kepler">Kepler</a> "for the first time revealed" a "real approximation to the true kinematical relations [motions] of the solar system", see <a rel="nofollow" class="external text" href="http://www.archive.org/stream/introductorytrea00plumuoft#page/n19/mode/2up">page 1</a> in H C Plummer (1918), <i>An introductory treatise on dynamical astronomy</i>, Cambridge, 1918.</span></li>
+<li id="cite_note-Wilson_1994-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Wilson_1994_6-0">^</a></b></span> <span class="reference-text"><span class="citation Journal">Wilson, Curtis (May 1994). <a rel="nofollow" class="external text" href="http://had.aas.org/hadnews/HADN31.pdf">"Kepler's Laws, So-Called"</a>. <i>HAD News</i> (Washington, DC: Historical Astronomy Division, <a href="American_Astronomical_Society" title="American Astronomical Society">American Astronomical Society</a>) (31): 1–2<span class="printonly">. <a rel="nofollow" class="external free" href="http://had.aas.org/hadnews/HADN31.pdf">http://had.aas.org/hadnews/HADN31.pdf</a></span><span class="reference-accessdate">. Retrieved December 27, 2009</span>.</span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation Journal">Dunbar, Brian (2008). <a rel="nofollow" class="external text" href="http://erc.ivv.nasa.gov/mission_pages/stereo/news/SECCHI_P2003.html"><i>SECCHI Makes a Fantastic Recovery!</i></a>. <a href="NASA" title="NASA">NASA</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://erc.ivv.nasa.gov/mission_pages/stereo/news/SECCHI_P2003.html">http://erc.ivv.nasa.gov/mission_pages/stereo/news/SECCHI_P2003.html</a></span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a href="Edwin_Arthur_Burtt" title="Edwin Arthur Burtt">Burtt, Edwin</a>. <i>The Metaphysical Foundations of Modern Physical Science</i>. p. 52.</span></li>
+<li id="cite_note-Holton3-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Holton3_9-0">^</a></b></span> <span class="reference-text"><span class="citation book">Gerald James Holton, Stephen G. Brush (2001). <a rel="nofollow" class="external text" href="http://books.google.com/?id=czaGZzR0XOUC&pg=PA45&dq=Kepler+%22harmonic+law%22"><i>Physics, the Human Adventure</i></a>. Rutgers University Press. p.&#160;45. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8135-2908-5" title="Special:BookSources/0-8135-2908-5">0-8135-2908-5</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=czaGZzR0XOUC&pg=PA45&dq=Kepler+%22harmonic+law%22">http://books.google.com/?id=czaGZzR0XOUC&amp;pg=PA45&amp;dq=Kepler+%22harmonic+law%22</a></span>.</span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Godefroy Wendelin wrote a letter to Giovanni Battista Riccioli about the relationship between the distances of the Jovian moons from Jupiter and the periods of their orbits, showing that the periods and distances conformed to Kepler's third law. See: Joanne Baptista Riccioli, <i>Almagestum novum</i> … (Bologna (Bononiae), (Italy): Victor Benati, 1651), volume 1, <a rel="nofollow" class="external text" href="http://books.google.com/books?id=_mJDAAAAcAAJ&pg=PA492#v=onepage&amp;q&amp;f=false">page 492</a>.</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Astronomical Almanac for 2008, page K7.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">The fact was already stated by Newton (<a rel="nofollow" class="external text" href="http://books.google.com/books?id=6EqxPav3vIsC&pg=PA232">'Principia', Book 3, Proposition 12</a>).</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external autonumber" href="http://info.ifpan.edu.pl/firststep/aw-works/fsII/mul/mueller.html">[1]</a></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><span class="citation web">Hai-Chau Chang, Wu-Yi Hsiang. "The epic journey from Kepler's laws to Newton's law of universal gravitation revisited". <a href="ArXiv" title="ArXiv">arXiv</a>:<a rel="nofollow" class="external text" href="http://arxiv.org/abs/0801.0308">0801.0308</a>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=19.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Kepler's life is summarized on pages 523–627 and Book Five of his <i>magnum opus</i>, <i><a href="Harmonice_Mundi" title="Harmonice Mundi" class="mw-redirect">Harmonice Mundi</a></i> (<i>harmonies of the world</i>), is reprinted on pages 635–732 of <i>On the Shoulders of Giants</i>: The Great Works of Physics and Astronomy (works by Copernicus, <a href="Johannes_Kepler" title="Johannes Kepler">Kepler</a>, <a href="Galileo_Galilei" title="Galileo Galilei">Galileo</a>, <a href="Isaac_Newton" title="Isaac Newton">Newton</a>, and <a href="Albert_Einstein" title="Albert Einstein">Einstein</a>). <a href="Stephen_Hawking" title="Stephen Hawking">Stephen Hawking</a>, ed. 2002 <a href="Special_BookSources/0762413484" class="internal mw-magiclink-isbn">ISBN 0-7624-1348-4</a></li>
+</ul>
+<ul>
+<li>A derivation of Kepler's third law of planetary motion is a standard topic in engineering mechanics classes. See, for example, pages 161–164 of <span class="citation Journal">Meriam, J. L. (1966, 1971). <i>Dynamics, 2nd ed</i>. New York: John Wiley. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-59601-9" title="Special:BookSources/0-471-59601-9">0-471-59601-9</a></span>.</li>
+</ul>
+<ul>
+<li>Murray and Dermott, Solar System Dynamics, Cambridge University Press 1999, <a href="Special_BookSources/0521575974" class="internal mw-magiclink-isbn">ISBN 0-521-57597-4</a></li>
+<li>V.I. Arnold, Mathematical Methods of Classical Mechanics, Chapter 2. Springer 1989, <a href="Special_BookSources/0387968903" class="internal mw-magiclink-isbn">ISBN 0-387-96890-3</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit&section=20.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li>B.Surendranath Reddy; animation of Kepler's laws: <a rel="nofollow" class="external text" href="http://www.surendranath.org/Applets/Dynamics/Kepler/Kepler1Applet.html">applet</a></li>
+<li>Crowell, Benjamin, <i>Conservation Laws</i>, <a rel="nofollow" class="external free" href="http://www.lightandmatter.com/area1book2.html">http://www.lightandmatter.com/area1book2.html</a>, an <a href="On-line_book" title="On-line book" class="mw-redirect">online book</a> that gives a proof of the first law without the use of calculus. (see section 5.2, p.&#160;112)</li>
+<li>David McNamara and Gianfranco Vidali, <i>Kepler's Second Law - Java Interactive Tutorial</i>, <a rel="nofollow" class="external free" href="http://www.phy.syr.edu/courses/java/mc_html/kepler.html">http://www.phy.syr.edu/courses/java/mc_html/kepler.html</a>, an interactive Java applet that aids in the understanding of Kepler's Second Law.</li>
+<li>Audio - Cain/Gay (2010) <a rel="nofollow" class="external text" href="http://www.astronomycast.com/history/ep-189-johannes-kepler-and-his-laws-of-planetary-motion/">Astronomy Cast</a> Johannes Kepler and His Laws of Planetary Motion</li>
+<li>University of Tennessee's Dept. Physics &amp; Astronomy: Astronomy 161 page on Johannes Kepler: The Laws of Planetary Motion <a rel="nofollow" class="external autonumber" href="http://csep10.phys.utk.edu/astr161/lect/history/kepler.html">[3]</a></li>
+<li>Equant compared to Kepler: interactive model <a rel="nofollow" class="external autonumber" href="http://people.scs.fsu.edu/~dduke/kepler.html">[4]</a></li>
+<li>Kepler's Third Law:interactive model <a rel="nofollow" class="external autonumber" href="http://people.scs.fsu.edu/~dduke/kepler3.html">[5]</a></li>
+<li>Solar System Simulator (<a rel="nofollow" class="external text" href="http://user.uni-frankfurt.de/~jenders/NPM/NPM.html">Interactive Applet</a>)</li>
+<li><a rel="nofollow" class="external text" href="http://www.phy6.org/stargaze/Skeplaws.htm">Kepler and His Laws</a>, educational web pages by David P. Stern</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Orbits" title="Template:Orbits"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Orbits" title="Template talk:Orbits"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Orbits&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Articles related to <a href="Orbit" title="Orbit">orbits</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Orbit" title="Orbit">Orbits</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Box_orbit" title="Box orbit">Box</a></li>
+<li><a href="Parabolic_trajectory" title="Parabolic trajectory">Capture</a></li>
+<li><a href="Circular_orbit" title="Circular orbit">Circular</a></li>
+<li><a href="Elliptic_orbit" title="Elliptic orbit">Elliptical</a> / <a href="Highly_elliptical_orbit" title="Highly elliptical orbit">Highly elliptical</a></li>
+<li><a href="Parabolic_trajectory" title="Parabolic trajectory">Escape</a></li>
+<li><a href="Graveyard_orbit" title="Graveyard orbit">Graveyard</a></li>
+<li><a href="Hyperbolic_trajectory" title="Hyperbolic trajectory">Hyperbolic trajectory</a></li>
+<li><a href="Inclined_orbit" title="Inclined orbit">Inclined</a> / <a href="Non-inclined_orbit" title="Non-inclined orbit">Non-inclined</a></li>
+<li><a href="Osculating_orbit" title="Osculating orbit">Osculating</a></li>
+<li><a href="Parabolic_trajectory" title="Parabolic trajectory">Parabolic trajectory</a></li>
+<li><a href="Parking_orbit" title="Parking orbit">Parking</a></li>
+<li><a href="Synchronous_orbit" title="Synchronous orbit">Synchronous</a>
+<ul>
+<li><a href="Semi-synchronous_orbit" title="Semi-synchronous orbit">semi</a></li>
+<li><a href="Subsynchronous_orbit" title="Subsynchronous orbit">sub</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Geocentric_orbit" title="Geocentric orbit">Geocentric</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Geosynchronous_orbit" title="Geosynchronous orbit">Geosynchronous</a></li>
+<li><a href="Geostationary_orbit" title="Geostationary orbit">Geostationary</a></li>
+<li><a href="Sun-synchronous_orbit" title="Sun-synchronous orbit">Sun-synchronous</a></li>
+<li><a href="Low_Earth_orbit" title="Low Earth orbit">Low Earth</a></li>
+<li><a href="Medium_Earth_orbit" title="Medium Earth orbit">Medium Earth</a></li>
+<li><a href="High_Earth_orbit" title="High Earth orbit">High Earth</a></li>
+<li><a href="Molniya_orbit" title="Molniya orbit">Molniya</a></li>
+<li><a href="Near_equatorial_orbit" title="Near equatorial orbit" class="mw-redirect">Near-equatorial</a></li>
+<li><a href="Orbit_of_the_Moon" title="Orbit of the Moon">Orbit of the Moon</a></li>
+<li><a href="Polar_orbit" title="Polar orbit">Polar</a></li>
+<li><a href="Tundra_orbit" title="Tundra orbit">Tundra</a></li>
+<li><a href="Two-line_element_set" title="Two-line element set">Two-line elements</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">About other points</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Areosynchronous_orbit" title="Areosynchronous orbit">Areosynchronous</a></li>
+<li><a href="Areostationary_orbit" title="Areostationary orbit">Areostationary</a></li>
+<li><a href="Halo_orbit" title="Halo orbit">Halo</a></li>
+<li><a href="Lissajous_orbit" title="Lissajous orbit">Lissajous</a></li>
+<li><a href="Lunar_orbit" title="Lunar orbit">Lunar</a></li>
+<li><a href="Heliocentric_orbit" title="Heliocentric orbit">Heliocentric</a></li>
+<li><a href="Heliosynchronous_orbit" title="Heliosynchronous orbit" class="mw-redirect">Heliosynchronous</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Orbital_elements" title="Orbital elements">Parameters</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Shape/Size</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><img class="tex" alt="e\,\!" src="http://upload.wikimedia.org/math/4/6/0/460a1940ceddf45878d2e095af31128a.png" />&#160;<a href="Orbital_eccentricity" title="Orbital eccentricity">Eccentricity</a></li>
+<li><img class="tex" alt="a\,\!" src="http://upload.wikimedia.org/math/1/2/d/12de7673992b1735e29cdd211851fa05.png" />&#160;<a href="Semi-major_axis" title="Semi-major axis">Semi-major axis</a></li>
+<li><img class="tex" alt="b\,\!" src="http://upload.wikimedia.org/math/6/f/1/6f1f9c73279ad1872b1fa74df9858c5c.png" />&#160;<a href="Semi-minor_axis" title="Semi-minor axis">Semi-minor axis</a></li>
+<li><img class="tex" alt="Q,q\,\!" src="http://upload.wikimedia.org/math/9/c/d/9cdcc6a784cb2550a0ccd5a22362d47e.png" />&#160;<a href="Apsis" title="Apsis">Apsides</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Orientation</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><img class="tex" alt="i\,\!" src="http://upload.wikimedia.org/math/a/7/9/a796b40d92e81ae190a1e4f4e2a2c3ed.png" />&#160;<a href="Inclination" title="Inclination" class="mw-redirect">Inclination</a></li>
+<li><img class="tex" alt="\Omega\,\!" src="http://upload.wikimedia.org/math/4/2/e/42e294677ad426aff0fcadd03f77e54a.png" />&#160;<a href="Longitude_of_the_ascending_node" title="Longitude of the ascending node">Longitude of the ascending node</a></li>
+<li><img class="tex" alt="\omega\,\!" src="http://upload.wikimedia.org/math/1/4/1/141205d798217ffe19177ba53c00c409.png" />&#160;<a href="Argument_of_periapsis" title="Argument of periapsis">Argument of periapsis</a></li>
+<li><img class="tex" alt="\varpi\,\!" src="http://upload.wikimedia.org/math/e/1/6/e161137344373f046e2cfe3f095325de.png" />&#160;<a href="Longitude_of_the_periapsis" title="Longitude of the periapsis">Longitude of the periapsis</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Position</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><img class="tex" alt="M\,\!" src="http://upload.wikimedia.org/math/3/b/6/3b652357e59da356dbb6f2105020406e.png" />&#160;<a href="Mean_anomaly" title="Mean anomaly">Mean anomaly</a></li>
+<li><img class="tex" alt="\nu\,\!" src="http://upload.wikimedia.org/math/2/f/2/2f22ac11583dfea7c5f77622cd09363c.png" />&#160;<a href="True_anomaly" title="True anomaly">True anomaly</a></li>
+<li><img class="tex" alt="E\,\!" src="http://upload.wikimedia.org/math/8/0/1/801dd8e49c12855a8fb959ec5fe215ee.png" />&#160;<a href="Eccentric_anomaly" title="Eccentric anomaly">Eccentric anomaly</a></li>
+<li><img class="tex" alt="L\,\!" src="http://upload.wikimedia.org/math/1/0/2/102dc7004515c2ac64327380faa80844.png" />&#160;<a href="Mean_longitude" title="Mean longitude">Mean longitude</a></li>
+<li><img class="tex" alt="l\,\!" src="http://upload.wikimedia.org/math/2/4/a/24a4d5e671be5bb7026ad86a68d14220.png" />&#160;<a href="True_longitude" title="True longitude">True longitude</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Variation</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><img class="tex" alt="T\,\!" src="http://upload.wikimedia.org/math/c/d/3/cd322a0269b30952befe1f9ae7972bcc.png" />&#160;<a href="Orbital_period" title="Orbital period">Orbital period</a></li>
+<li><img class="tex" alt="n\,\!" src="http://upload.wikimedia.org/math/b/a/a/baa52b85c066dbd5eeff3c078a69205b.png" />&#160;<a href="Mean_motion" title="Mean motion">Mean motion</a></li>
+<li><img class="tex" alt="v\,\!" src="http://upload.wikimedia.org/math/7/8/e/78e5b690a2281690cf20f3ce49f2caab.png" />&#160;<a href="Orbital_speed" title="Orbital speed">Orbital speed</a></li>
+<li><img class="tex" alt="t_0\,\!" src="http://upload.wikimedia.org/math/9/b/6/9b69f8cc025b84cfc0c42487abaa77b7.png" />&#160;<a href="Epoch_(astronomy)" title="Epoch (astronomy)">Epoch</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Orbital_maneuver" title="Orbital maneuver">Maneuvers</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Collision_avoidance_(spacecraft)" title="Collision avoidance (spacecraft)">Collision avoidance (spacecraft)</a></li>
+<li><a href="Delta-v" title="Delta-v">Delta-v</a></li>
+<li><a href="Delta-v_budget" title="Delta-v budget">Delta-v budget</a></li>
+<li><a href="Bi-elliptic_transfer" title="Bi-elliptic transfer">Bi-elliptic transfer</a></li>
+<li><a href="Geostationary_transfer_orbit" title="Geostationary transfer orbit">Geostationary transfer</a></li>
+<li><a href="Gravity_assist" title="Gravity assist">Gravity assist</a></li>
+<li><a href="Gravity_turn" title="Gravity turn">Gravity turn</a></li>
+<li><a href="Hohmann_transfer_orbit" title="Hohmann transfer orbit">Hohmann transfer</a></li>
+<li><a href="Low_energy_transfer" title="Low energy transfer">Low energy transfer</a></li>
+<li><a href="Oberth_effect" title="Oberth effect">Oberth effect</a></li>
+<li><a href="Orbital_inclination_change" title="Orbital inclination change">Inclination change</a></li>
+<li><a href="Orbit_phasing" title="Orbit phasing">Phasing</a></li>
+<li><a href="Rocket_equation" title="Rocket equation" class="mw-redirect">Rocket equation</a></li>
+<li><a href="Space_rendezvous" title="Space rendezvous">Rendezvous</a></li>
+<li><a href="Transposition,_docking,_and_extraction" title="Transposition, docking, and extraction">Transposition, docking, and extraction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Other <a href="Orbital_mechanics" title="Orbital mechanics">orbital mechanics</a> topics</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Celestial_coordinate_system" title="Celestial coordinate system">Celestial coordinate system</a></li>
+<li><a href="Characteristic_energy" title="Characteristic energy">Characteristic energy</a></li>
+<li><a href="Ephemeris" title="Ephemeris">Ephemeris</a></li>
+<li><a href="Equatorial_coordinate_system" title="Equatorial coordinate system">Equatorial coordinate system</a></li>
+<li><a href="Ground_track" title="Ground track">Ground track</a></li>
+<li><a href="Hill_sphere" title="Hill sphere">Hill sphere</a></li>
+<li><a href="Interplanetary_Transport_Network" title="Interplanetary Transport Network" class="mw-redirect">Interplanetary Transport Network</a></li>
+<li><strong class="selflink">Kepler's laws of planetary motion</strong></li>
+<li><a href="Lagrangian_point" title="Lagrangian point">Lagrangian point</a></li>
+<li><a href="N-body_problem" title="N-body problem"><i>n</i>-body problem</a></li>
+<li><a href="Orbit_equation" title="Orbit equation">Orbit equation</a></li>
+<li><a href="Orbital_state_vectors" title="Orbital state vectors">Orbital state vectors</a></li>
+<li><a href="Perturbation_(astronomy)" title="Perturbation (astronomy)">Perturbation</a></li>
+<li><a href="Retrograde_motion" title="Retrograde motion">Retrograde motion</a></li>
+<li><a href="Specific_orbital_energy" title="Specific orbital energy">Specific orbital energy</a></li>
+<li><a href="Specific_relative_angular_momentum" title="Specific relative angular momentum">Specific relative angular momentum</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="List_of_orbits" title="List of orbits">List of orbits</a></b></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Johannes_Kepler" title="Template:Johannes Kepler"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Johannes_Kepler" title="Template talk:Johannes Kepler"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Johannes_Kepler&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Johannes_Kepler" title="Johannes Kepler">Johannes Kepler</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Scientific career</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Kepler_conjecture" title="Kepler conjecture">Kepler conjecture</a></li>
+<li><strong class="selflink">Kepler's laws of planetary motion</strong></li>
+<li><a href="Kepler_orbit" title="Kepler orbit">Kepler orbit</a></li>
+<li><a href="Kepler_triangle" title="Kepler triangle">Kepler triangle</a></li>
+<li><a href="Kepler's_equation" title="Kepler's equation">Kepler's equation</a></li>
+<li><a href="Kepler%E2%80%93Poinsot_polyhedron#History" title="Kepler–Poinsot polyhedron">Kepler polyhedra</a></li>
+<li><a href="Kepler's_Supernova" title="Kepler's Supernova">Kepler's Supernova</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Works</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><i><a href="Mysterium_Cosmographicum" title="Mysterium Cosmographicum">Mysterium Cosmographicum</a></i> (1596)</li>
+<li><i><a href="Astronomia_nova" title="Astronomia nova">Astronomia nova</a></i> (1609)</li>
+<li><i><a href="Harmonices_Mundi" title="Harmonices Mundi">Harmonices Mundi</a></i> (1619)</li>
+<li><i><a href="Rudolphine_Tables" title="Rudolphine Tables">Rudolphine Tables</a></i> (1627)</li>
+<li><i><a href="Somnium_(novel)" title="Somnium (novel)">Somnium</a></i> (1634)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Family</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Katharina_Kepler" title="Katharina Kepler">Katharina Kepler</a> (mother)</li>
+<li><a href="Jakob_Bartsch" title="Jakob Bartsch">Jakob Bartsch</a> (son-in-law)</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><span id="interwiki-he-fa"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 8260/1000000
+Preprocessor generated node count: 61103/1500000
+Post-expand include size: 109972/2048000 bytes
+Template argument size: 66615/2048000 bytes
+Highest expansion depth: 16/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:17553-0!0!0!!en!4!* and timestamp 20130213184536 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Kepler's_laws_of_planetary_motion&oldid=538084918.php.html">http://en.wikipedia.org/w/index.php?title=Kepler%27s_laws_of_planetary_motion&amp;oldid=538084918</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Johannes_Kepler" title="Category:Johannes Kepler">Johannes Kepler</a></li><li><a href="Category_Orbits" title="Category:Orbits">Orbits</a></li><li><a href="Category_Equations" title="Category:Equations">Equations</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Kepler's+laws+of+planetary+motion&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Kepler's+laws+of+planetary+motion.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Kepler's_laws_of_planetary_motion"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Kepler's_laws_of_planetary_motion" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Kepler's_laws_of_planetary_motion" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Kepler's_laws_of_planetary_motion&oldid=538084918.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Kepler's_laws_of_planetary_motion&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Kepler's_laws_of_planetary_motion&id=538084918.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Kepler's+laws+of+planetary+motion.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Kepler's+laws+of+planetary+motion&oldid=538084918&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Kepler's_laws_of_planetary_motion&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Kepler_se_wette" title="Kepler se wette" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86_%D9%83%D8%A8%D9%84%D8%B1" title="قوانين كبلر" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/Lleis_de_Kepler" title="Lleis de Kepler" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/Kepler_qanunlar%C4%B1" title="Kepler qanunları" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%87%E0%A6%AA%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0_%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B9%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%97%E0%A6%A4%E0%A6%BF%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A6%B0" title="কেপলারের গ্রহীয় গতিসূত্র" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8_%D0%BD%D0%B0_%D0%9A%D0%B5%D0%BF%D0%BB%D0%B5%D1%80" title="Закони на Кеплер" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Keplerovi_zakoni" title="Keplerovi zakoni" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Lleis_de_Kepler" title="Lleis de Kepler" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Keplerovy_z%C3%A1kony" title="Keplerovy zákony" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-cy"><a href="http://cy.wikipedia.org/wiki/Deddfau_mudiant_planedau_Kepler" title="Deddfau mudiant planedau Kepler" lang="cy" hreflang="cy">Cymraeg</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Keplers_love" title="Keplers love" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Keplersche_Gesetze" title="Keplersche Gesetze" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Kepleri_seadused" title="Kepleri seadused" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9D%CF%8C%CE%BC%CE%BF%CF%82_%CE%B1%CF%83%CF%84%CF%81%CE%B9%CE%BA%CF%8E%CE%BD_%CF%80%CE%B5%CF%81%CE%B9%CF%86%CE%BF%CF%81%CF%8E%CE%BD" title="Νόμος αστρικών περιφορών" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Leyes_de_Kepler" title="Leyes de Kepler" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Le%C4%9Doj_de_Kepler" title="Leĝoj de Kepler" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Keplerren_legeak" title="Keplerren legeak" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86_%DA%A9%D9%BE%D9%84%D8%B1" title="قوانین کپلر" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Lois_de_Kepler" title="Lois de Kepler" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ga"><a href="http://ga.wikipedia.org/wiki/Dl%C3%ADthe_Kepler" title="Dlíthe Kepler" lang="ga" hreflang="ga">Gaeilge</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Leis_de_Kepler" title="Leis de Kepler" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%BC%80%ED%94%8C%EB%9F%AC%EC%9D%98_%ED%96%89%EC%84%B1_%EC%9A%B4%EB%8F%99_%EB%B2%95%EC%B9%99" title="케플러의 행성 운동 법칙" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D4%BF%D5%A5%D5%BA%D5%AC%D5%A5%D6%80%D5%AB_%D6%85%D6%80%D5%A5%D5%B6%D6%84%D5%B6%D5%A5%D6%80" title="Կեպլերի օրենքներ" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%87%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A4%B0_%E0%A4%95%E0%A5%87_%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A5%80%E0%A4%AF_%E0%A4%97%E0%A4%A4%E0%A4%BF_%E0%A4%95%E0%A5%87_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" title="केप्लर के ग्रहीय गति के नियम" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Keplerovi_zakoni" title="Keplerovi zakoni" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Hukum_Gerakan_Planet_Kepler" title="Hukum Gerakan Planet Kepler" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-os"><a href="http://os.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BF%D0%BB%D0%B5%D1%80%D1%8B_%D0%B7%D0%B0%D0%BA%D1%8A%C3%A6%D1%82%D1%82%C3%A6" title="Кеплеры закъæттæ" lang="os" hreflang="os">Ирон</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/L%C3%B6gm%C3%A1l_Keplers" title="Lögmál Keplers" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Leggi_di_Keplero" title="Leggi di Keplero" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A7%D7%99_%D7%A7%D7%A4%D7%9C%D7%A8" title="חוקי קפלר" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%99%E1%83%94%E1%83%9E%E1%83%9A%E1%83%94%E1%83%A0%E1%83%98%E1%83%A1_%E1%83%99%E1%83%90%E1%83%9C%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98" title="კეპლერის კანონები" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Leges_Keplerianae" title="Leges Keplerianae" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/Keplera_likumi" title="Keplera likumi" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lb"><a href="http://lb.wikipedia.org/wiki/Gesetzer_vum_Kepler" title="Gesetzer vum Kepler" lang="lb" hreflang="lb">Lëtzebuergesch</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Keplerio_d%C4%97sniai" title="Keplerio dėsniai" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Kepler-t%C3%B6rv%C3%A9nyek" title="Kepler-törvények" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%97%E0%B5%8D%E0%B4%B0%E0%B4%B9%E0%B4%9A%E0%B4%B2%E0%B4%A8%E0%B4%A8%E0%B4%BF%E0%B4%AF%E0%B4%AE%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B5%BE" title="ഗ്രഹചലനനിയമങ്ങൾ" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Hukum_gerakan_planet_Kepler" title="Hukum gerakan planet Kepler" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Wetten_van_Kepler" title="Wetten van Kepler" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%97%E3%83%A9%E3%83%BC%E3%81%AE%E6%B3%95%E5%89%87" title="ケプラーの法則" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Keplers_lover_for_planetenes_bevegelser" title="Keplers lover for planetenes bevegelser" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Leis_de_Kepler" title="Leis de Kepler" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Laj_%C3%ABd_Kepler" title="Laj ëd Kepler" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Prawa_Keplera" title="Prawa Keplera" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Leis_de_Kepler" title="Leis de Kepler" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Legile_lui_Kepler" title="Legile lui Kepler" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9A%D0%B5%D0%BF%D0%BB%D0%B5%D1%80%D0%B0" title="Законы Кеплера" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Ligjet_e_Keplerit" title="Ligjet e Keplerit" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Keplerove_z%C3%A1kony" title="Keplerove zákony" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Keplerjevi_zakoni" title="Keplerjevi zakoni" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9A%D0%B5%D0%BF%D0%BB%D0%B5%D1%80%D0%BE%D0%B2%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8" title="Кеплерови закони" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Keplerin_lait" title="Keplerin lait" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Keplers_lagar" title="Keplers lagar" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%95%E0%AF%86%E0%AE%AA%E0%AF%8D%E0%AE%B2%E0%AE%B0%E0%AE%BF%E0%AE%A9%E0%AF%8D_%E0%AE%95%E0%AF%8B%E0%AE%B3%E0%AF%8D_%E0%AE%87%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95_%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D" title="கெப்லரின் கோள் இயக்க விதிகள்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-te"><a href="http://te.wikipedia.org/wiki/%E0%B0%95%E0%B1%86%E0%B0%AA%E0%B1%8D%E0%B0%B2%E0%B0%B0%E0%B1%8D_%E0%B0%97%E0%B1%8D%E0%B0%B0%E0%B0%B9_%E0%B0%97%E0%B0%AE%E0%B0%A8_%E0%B0%A8%E0%B0%BF%E0%B0%AF%E0%B0%AE%E0%B0%BE%E0%B0%B2%E0%B1%81" title="కెప్లర్ గ్రహ గమన నియమాలు" lang="te" hreflang="te">తెలుగు</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%8E%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C" title="กฎการเคลื่อนที่ของดาวเคราะห์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Kepler'in_gezegensel_hareket_yasalar%C4%B1" title="Kepler'in gezegensel hareket yasaları" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8_%D0%9A%D0%B5%D0%BF%D0%BB%D0%B5%D1%80%D0%B0" title="Закони Кеплера" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion" title="Kepler's laws of planetary motion" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Nh%E1%BB%AFng_%C4%91%E1%BB%8Bnh_lu%E1%BA%ADt_c%E1%BB%A7a_Kepler_v%E1%BB%81_chuy%E1%BB%83n_%C4%91%E1%BB%99ng_thi%C3%AAn_th%E1%BB%83" title="Những định luật của Kepler về chuyển động thiên thể" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%BC%80%E6%99%AE%E5%8B%92%E5%AE%9A%E5%BE%8B" title="开普勒定律" lang="zh" hreflang="zh">中文</a></li>
+			<li class="wbc-editpage"><a href="http://www.wikidata.org/wiki/Special:ItemByTitle/enwiki/Kepler's%20laws%20of%20planetary%20motion" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 18:45.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1022 in 0.205 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

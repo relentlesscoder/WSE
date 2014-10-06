@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Gödel's incompleteness theorems - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Gödel\'s_incompleteness_theorems","wgTitle":"Gödel\'s incompleteness theorems","wgCurRevisionId":538001316,"wgArticleId":58863,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected pages","Wikipedia articles needing clarification from July 2009","All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from July 2012","Theorems in the foundations of mathematics","Mathematical logic","Model theory","Proof theory","Epistemology","Metatheorems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Gödel\'s_incompleteness_theorems","wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"cf0e3f49cb840ddc452a16bbef5ce9e5","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":58863,"title":"Gödel\'s incompleteness theorems","namespace":0,"categories":["All articles with specifically marked weasel-worded phrases","Articles with specifically marked weasel-worded phrases from July 2012","Epistemology","Mathematical logic","Metatheorems","Model theory","Proof theory","Theorems in the foundations of mathematics","Wikipedia articles needing clarification from July 2009","Wikipedia semi-protected pages"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Gödel_s_incompleteness_theorems skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Gödel's incompleteness theorems</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="metadata topicon nopopups" id="protected-icon" style="display:none; right:55px;"><a href="Wikipedia_Protection_policy#semi" title="This article is semi-protected until July 14, 2013."><img alt="Page semi-protected" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/30px-Padlock-silver.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/40px-Padlock-silver.svg.png 2x" /></a></div>
+<p><b>Gödel's incompleteness theorems</b> are two <a href="Theorem" title="Theorem">theorems</a> of <a href="Mathematical_logic" title="Mathematical logic">mathematical logic</a> that establish inherent limitations of all but the most trivial <a href="Axiomatic_system" title="Axiomatic system">axiomatic systems</a> capable of doing <a href="Arithmetic" title="Arithmetic">arithmetic</a>. The theorems, proven by <a href="Kurt_G%C3%B6del" title="Kurt Gödel">Kurt Gödel</a> in 1931, are important both in mathematical logic and in the <a href="Philosophy_of_mathematics" title="Philosophy of mathematics">philosophy of mathematics</a>. The two results are widely, but not universally, interpreted as showing that <a href="Hilbert's_program" title="Hilbert's program">Hilbert's program</a> to find a complete and consistent set of <a href="Axiom" title="Axiom">axioms</a> for all <a href="Mathematics" title="Mathematics">mathematics</a> is impossible, giving a negative answer to <a href="Hilbert's_second_problem" title="Hilbert's second problem">Hilbert's second problem</a>.</p>
+<p>The first incompleteness theorem states that no consistent system of axioms whose theorems can be listed by an "<a href="Effective_procedure" title="Effective procedure" class="mw-redirect">effective procedure</a>" (e.g., a computer program, but it could be any sort of algorithm) is capable of proving all truths about the relations of the <a href="Natural_numbers" title="Natural numbers" class="mw-redirect">natural numbers</a> (<a href="Arithmetic" title="Arithmetic">arithmetic</a>). For any such system, there will always be statements about the natural numbers that are true, but that are unprovable within the system. The second incompleteness theorem, an extension of the first, shows that such a system cannot demonstrate its own consistency.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Background"><span class="tocnumber">1</span> <span class="toctext">Background</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#First_incompleteness_theorem"><span class="tocnumber">2</span> <span class="toctext">First incompleteness theorem</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Meaning_of_the_first_incompleteness_theorem"><span class="tocnumber">2.1</span> <span class="toctext">Meaning of the first incompleteness theorem</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Relation_to_the_liar_paradox"><span class="tocnumber">2.2</span> <span class="toctext">Relation to the liar paradox</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Extensions_of_G.C3.B6del.27s_original_result"><span class="tocnumber">2.3</span> <span class="toctext">Extensions of Gödel's original result</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Second_incompleteness_theorem"><span class="tocnumber">3</span> <span class="toctext">Second incompleteness theorem</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Implications_for_consistency_proofs"><span class="tocnumber">3.1</span> <span class="toctext">Implications for consistency proofs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Examples_of_undecidable_statements"><span class="tocnumber">4</span> <span class="toctext">Examples of undecidable statements</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#Undecidable_statements_provable_in_larger_systems"><span class="tocnumber">4.1</span> <span class="toctext">Undecidable statements provable in larger systems</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Limitations_of_G.C3.B6del.27s_theorems"><span class="tocnumber">5</span> <span class="toctext">Limitations of Gödel's theorems</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Relationship_with_computability"><span class="tocnumber">6</span> <span class="toctext">Relationship with computability</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Proof_sketch_for_the_first_theorem"><span class="tocnumber">7</span> <span class="toctext">Proof sketch for the first theorem</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#Arithmetization_of_syntax"><span class="tocnumber">7.1</span> <span class="toctext">Arithmetization of syntax</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Construction_of_a_statement_about_.22provability.22"><span class="tocnumber">7.2</span> <span class="toctext">Construction of a statement about "provability"</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Diagonalization"><span class="tocnumber">7.3</span> <span class="toctext">Diagonalization</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Proof_via_Berry.27s_paradox"><span class="tocnumber">7.4</span> <span class="toctext">Proof via Berry's paradox</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Formalized_proofs"><span class="tocnumber">7.5</span> <span class="toctext">Formalized proofs</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#Proof_sketch_for_the_second_theorem"><span class="tocnumber">8</span> <span class="toctext">Proof sketch for the second theorem</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Discussion_and_implications"><span class="tocnumber">9</span> <span class="toctext">Discussion and implications</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Minds_and_machines"><span class="tocnumber">9.1</span> <span class="toctext">Minds and machines</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#Paraconsistent_logic"><span class="tocnumber">9.2</span> <span class="toctext">Paraconsistent logic</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Appeals_to_the_incompleteness_theorems_in_other_fields"><span class="tocnumber">9.3</span> <span class="toctext">Appeals to the incompleteness theorems in other fields</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#The_role_of_self-reference"><span class="tocnumber">9.4</span> <span class="toctext">The role of self-reference</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#History"><span class="tocnumber">10</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#Announcement"><span class="tocnumber">10.1</span> <span class="toctext">Announcement</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#Generalization_and_acceptance"><span class="tocnumber">10.2</span> <span class="toctext">Generalization and acceptance</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#Criticisms"><span class="tocnumber">10.3</span> <span class="toctext">Criticisms</span></a>
+<ul>
+<li class="toclevel-3 tocsection-28"><a href="#Finsler"><span class="tocnumber">10.3.1</span> <span class="toctext">Finsler</span></a></li>
+<li class="toclevel-3 tocsection-29"><a href="#Zermelo"><span class="tocnumber">10.3.2</span> <span class="toctext">Zermelo</span></a></li>
+<li class="toclevel-3 tocsection-30"><a href="#Wittgenstein"><span class="tocnumber">10.3.3</span> <span class="toctext">Wittgenstein</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-31"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-32"><a href="#Notes"><span class="tocnumber">12</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-33"><a href="#References"><span class="tocnumber">13</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-34"><a href="#Articles_by_G.C3.B6del"><span class="tocnumber">13.1</span> <span class="toctext">Articles by Gödel</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#Translations.2C_during_his_lifetime.2C_of_G.C3.B6del.27s_paper_into_English"><span class="tocnumber">13.2</span> <span class="toctext">Translations, during his lifetime, of Gödel's paper into English</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="#Articles_by_others"><span class="tocnumber">13.3</span> <span class="toctext">Articles by others</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="#Books_about_the_theorems"><span class="tocnumber">13.4</span> <span class="toctext">Books about the theorems</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#Miscellaneous_references"><span class="tocnumber">13.5</span> <span class="toctext">Miscellaneous references</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-39"><a href="#External_links"><span class="tocnumber">14</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2> <span class="mw-headline" id="Background">Background</span></h2>
+<p>Because statements of a formal theory are written in symbolic form, it is possible to mechanically verify that a <a href="Formal_proof" title="Formal proof">formal proof</a> from a finite set of axioms is valid. This task, known as automatic proof verification, is closely related to <a href="Automated_theorem_proving" title="Automated theorem proving">automated theorem proving</a>. The difference is that instead of constructing a new proof, the proof verifier simply checks that a provided formal proof (or, in instructions that can be followed to create a formal proof) is correct. This process is not merely hypothetical; systems such as <a href="Isabelle_(theorem_prover)" title="Isabelle (theorem prover)" class="mw-redirect">Isabelle</a> or <a href="Coq" title="Coq">Coq</a> are used today to formalize proofs and then check their validity.</p>
+<p>Many theories of interest include an infinite set of axioms, however. To verify a formal proof when the set of axioms is infinite, it must be possible to determine whether a statement that is claimed to be an axiom is actually an axiom. This issue arises in <a href="First-order_logic" title="First-order logic">first order</a> theories of arithmetic, such as <a href="Peano_axioms" title="Peano axioms">Peano arithmetic</a>, because the principle of <a href="Mathematical_induction" title="Mathematical induction">mathematical induction</a> is expressed as an infinite set of axioms (an <a href="Axiom_schema" title="Axiom schema">axiom schema</a>).</p>
+<p>A formal theory is said to be <i>effectively generated</i> if its set of axioms is a <a href="Recursively_enumerable_set" title="Recursively enumerable set">recursively enumerable set</a>. This means that there is a computer program that, in principle, could enumerate all the axioms of the theory without listing any statements that are not axioms. This is equivalent to the existence of a program that enumerates all the theorems of the theory without enumerating any statements that are not theorems. Examples of effectively generated theories with infinite sets of axioms include Peano arithmetic and <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a>.</p>
+<p>In choosing a set of axioms, one goal is to be able to prove as many correct results as possible, without proving any incorrect results. A set of axioms is <a href="Complete_theory" title="Complete theory">complete</a> if, for any statement in the axioms' language, either that statement or its negation is provable from the axioms. A set of axioms is (simply) <a href="Consistency" title="Consistency">consistent</a> if there is no statement such that both the statement and its negation are provable from the axioms. In the standard system of first-order logic, an inconsistent set of axioms will prove every statement in its language (this is sometimes called the <a href="Principle_of_explosion" title="Principle of explosion">principle of explosion</a>), and is thus automatically complete. A set of axioms that is both complete and consistent, however, proves a <a href="Maximal_set" title="Maximal set">maximal set</a> of non-<a href="Contradiction" title="Contradiction">contradictory</a> theorems. Gödel's incompleteness theorems show that in certain cases it is not possible to obtain an effectively generated, complete, consistent theory.</p>
+<h2> <span class="mw-headline" id="First_incompleteness_theorem">First incompleteness theorem</span></h2>
+<p><b>Gödel's first incompleteness theorem</b> first appeared as "Theorem VI" in Gödel's 1931 paper <i><a href="On_Formally_Undecidable_Propositions_in_Principia_Mathematica_and_Related_Systems_I" title="On Formally Undecidable Propositions in Principia Mathematica and Related Systems I" class="mw-redirect">On Formally Undecidable Propositions in Principia Mathematica and Related Systems I</a>.</i></p>
+<p>The formal theorem is written in highly technical language. The broadly accepted natural language statement of the theorem is:</p>
+<dl>
+<dd>Any effectively generated theory capable of expressing elementary arithmetic cannot be both <a href="Consistency" title="Consistency">consistent</a> and <a href="Complete_theory" title="Complete theory">complete</a>. In particular, for any consistent, effectively generated formal <a href="Theory_(mathematical_logic)" title="Theory (mathematical logic)">theory</a> that proves certain basic arithmetic truths, there is an arithmetical statement that is true,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> but not provable in the theory (Kleene 1967, p.&#160;250).</dd>
+</dl>
+<p>The true but unprovable statement referred to by the theorem is often referred to as "the Gödel sentence" for the theory. The proof constructs a specific Gödel sentence for each effectively generated theory, but there are infinitely many statements in the language of the theory that share the property of being true but unprovable. For example, the conjunction of the Gödel sentence and any <a href="Logically_valid" title="Logically valid" class="mw-redirect">logically valid</a> sentence will have this property.</p>
+<p>For each consistent formal theory <i>T</i> having the required small amount of number theory, the corresponding Gödel sentence <i>G</i> asserts: "<i>G</i> cannot be proved within the theory&#160;<i>T</i>". This interpretation of <i>G</i> leads to the following informal analysis. If <i>G</i> were provable under the axioms and rules of inference of <i>T</i>, then <i>T</i> would have a theorem, <i>G</i>, which effectively contradicts itself, and thus the theory <i>T</i> would be inconsistent. This means that if the theory <i>T</i> is consistent then <i>G</i> cannot be proved within it, and so the theory <i>T</i> is incomplete. Moreover, the claim <i>G</i> makes about its own unprovability is correct. In this sense <i>G</i> is not only unprovable but true, and provability-within-the-theory-<i>T</i> is not the same as truth. This informal analysis can be formalized to make a rigorous proof of the incompleteness theorem, as described in the section "<a href="#Proof_sketch_for_the_first_theorem">Proof sketch for the first theorem</a>" below. The formal proof reveals exactly the hypotheses required for the theory <i>T</i> in order for the self-contradictory nature of <i>G</i> to lead to a genuine contradiction.</p>
+<p>Each effectively generated theory has its own Gödel statement. It is possible to define a larger theory <i>T’</i> that contains the whole of <i>T</i>, plus <i>G</i> as an additional axiom. This will not result in a complete theory, because Gödel's theorem will also apply to <i>T’</i>, and thus <i>T’</i> cannot be complete. In this case, <i>G</i> is indeed a theorem in <i>T’</i>, because it is an axiom. Since <i>G</i> states only that it is not provable in <i>T</i>, no contradiction is presented by its provability in <i>T’</i>. However, because the incompleteness theorem applies to <i>T’</i>: there will be a new Gödel statement <i>G’</i> for <i>T’</i>, showing that <i>T’</i> is also incomplete. <i>G’</i> will differ from <i>G</i> in that <i>G’</i> will refer to <i>T’</i>, rather than&#160;<i>T</i>.</p>
+<p>To prove the first incompleteness theorem, Gödel represented statements by numbers. Then the theory at hand, which is assumed to prove certain facts about numbers, also proves facts about its own statements, provided that it is effectively generated. Questions about the provability of statements are represented as questions about the properties of numbers, which would be decidable by the theory if it were complete. In these terms, the Gödel sentence states that no natural number exists with a certain, strange property. A number with this property would encode a proof of the <a href="Consistency_proof" title="Consistency proof" class="mw-redirect">inconsistency</a> of the theory. If there were such a number then the theory would be inconsistent, contrary to the consistency hypothesis. So, under the assumption that the theory is consistent, there is no such number.</p>
+<h3> <span class="mw-headline" id="Meaning_of_the_first_incompleteness_theorem">Meaning of the first incompleteness theorem</span></h3>
+<p>Gödel's first incompleteness theorem shows that any consistent effective formal system that includes enough of the theory of the natural numbers is incomplete: there are true statements expressible in its language that are unprovable within the system. Thus no formal system (satisfying the hypotheses of the theorem) that aims to characterize the natural numbers can actually do so, as there will be true number-theoretical statements which that system cannot prove. This fact is sometimes thought to have severe consequences for the program of <a href="Logicism" title="Logicism">logicism</a> proposed by <a href="Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a> and <a href="Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a>, which aimed to define the natural numbers in terms of logic (Hellman 1981, p.&#160;451–468). <a href="Bob_Hale_(philosopher)" title="Bob Hale (philosopher)">Bob Hale</a> and <a href="Crispin_Wright" title="Crispin Wright">Crispin Wright</a> argue that it is not a problem for logicism because the incompleteness theorems apply equally to first order logic as they do to arithmetic. They argue that only those who believe that the natural numbers are to be defined in terms of first order logic have this problem.</p>
+<p>The existence of an incomplete formal system is, in itself, not particularly surprising. A system may be incomplete simply because not all the necessary axioms have been discovered. For example, <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a> without the <a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a> is incomplete; it is not possible to prove or disprove the parallel postulate from the remaining axioms.</p>
+<p>Gödel's theorem shows that, in theories that include a small portion of <a href="Number_theory" title="Number theory">number theory</a>, a complete and consistent finite list of axioms can <i>never</i> be created, nor even an infinite list that can be enumerated by a computer program. Each time a new statement is added as an axiom, there are other true statements that still cannot be proved, even with the new axiom. If an axiom is ever added that makes the system complete, it does so at the cost of making the system inconsistent.</p>
+<p>There <i>are</i> complete and consistent lists of axioms for arithmetic that <i>cannot</i> be enumerated by a computer program. For example, one might take all true statements about the natural numbers to be axioms (and no false statements), which gives the theory known as "<a href="True_arithmetic" title="True arithmetic">true arithmetic</a>". The difficulty is that there is no mechanical way to decide, given a statement about the natural numbers, whether it is an axiom of this theory, and thus there is no effective way to verify a formal proof in this theory.</p>
+<p>Many logicians believe that Gödel's incompleteness theorems struck a fatal blow to <a href="David_Hilbert" title="David Hilbert">David Hilbert</a>'s <a href="Hilbert's_second_problem" title="Hilbert's second problem">second problem</a>, which asked for a finitary consistency proof for mathematics. The second incompleteness theorem, in particular, is often viewed as making the problem impossible. Not all mathematicians agree with this analysis, however, and the status of Hilbert's second problem is not yet decided (see "<a href="Hilbert's_second_problem#Modern_viewpoints_on_the_status_of_the_problem" title="Hilbert's second problem">Modern viewpoints on the status of the problem</a>").</p>
+<h3> <span class="mw-headline" id="Relation_to_the_liar_paradox">Relation to the liar paradox</span></h3>
+<p>The <a href="Liar_paradox" title="Liar paradox">liar paradox</a> is the sentence "This sentence is false." An analysis of the liar sentence shows that it cannot be true (for then, as it asserts, it is false), nor can it be false (for then, it is true). A Gödel sentence <i>G</i> for a theory <i>T</i> makes a similar assertion to the liar sentence, but with truth replaced by provability: <i>G</i> says "<i>G</i> is not provable in the theory <i>T</i>." The analysis of the truth and provability of <i>G</i> is a formalized version of the analysis of the truth of the liar sentence.</p>
+<p>It is not possible to replace "not provable" with "false" in a Gödel sentence because the predicate "Q is the <a href="G%C3%B6del_number" title="Gödel number" class="mw-redirect">Gödel number</a> of a false formula" cannot be represented as a formula of arithmetic. This result, known as <a href="Tarski's_undefinability_theorem" title="Tarski's undefinability theorem">Tarski's undefinability theorem</a>, was discovered independently by Gödel (when he was working on the proof of the incompleteness theorem) and by <a href="Alfred_Tarski" title="Alfred Tarski">Alfred Tarski</a>.</p>
+<h3> <span class="mw-headline" id="Extensions_of_G.C3.B6del.27s_original_result">Extensions of Gödel's original result</span></h3>
+<p>Gödel demonstrated the incompleteness of the theory of <i><a href="Principia_Mathematica" title="Principia Mathematica">Principia Mathematica</a></i>, a particular theory of arithmetic, but a parallel demonstration could be given for any effective theory of a certain expressiveness. Gödel commented on this fact in the introduction to his paper, but restricted the proof to one system for concreteness. In modern statements of the theorem, it is common to state the effectiveness and expressiveness conditions as hypotheses for the incompleteness theorem, so that it is not limited to any particular formal theory. The terminology used to state these conditions was not yet developed in 1931 when Gödel published his results.</p>
+<p>Gödel's original statement and proof of the incompleteness theorem requires the assumption that the theory is not just consistent but <i><a href="Omega-consistent" title="Omega-consistent" class="mw-redirect">ω-consistent</a></i>. A theory is <b>ω-consistent</b> if it is not ω-inconsistent, and is ω-inconsistent if there is a predicate <i>P</i> such that for every specific natural number <i>n</i> the theory proves ~<i>P</i>(<i>n</i>), and yet the theory also proves that there exists a natural number <i>n</i> such that <i>P</i>(<i>n</i>). That is, the theory says that a number with property <i>P</i> exists while denying that it has any specific value. The ω-consistency of a theory implies its consistency, but consistency does not imply ω-consistency. <a href="../J._Barkley_Rosser" title="J. Barkley Rosser">J. Barkley Rosser</a> (1936) strengthened the incompleteness theorem by finding a variation of the proof (<a href="Rosser's_trick" title="Rosser's trick">Rosser's trick</a>) that only requires the theory to be consistent, rather than ω-consistent. This is mostly of technical interest, since all true formal theories of arithmetic (theories whose axioms are all true statements about natural numbers) are ω-consistent, and thus Gödel's theorem as originally stated applies to them. The stronger version of the incompleteness theorem that only assumes consistency, rather than ω-consistency, is now commonly known as Gödel's incompleteness theorem and as the Gödel–Rosser theorem.</p>
+<h2> <span class="mw-headline" id="Second_incompleteness_theorem">Second incompleteness theorem</span></h2>
+<p><b>Gödel's second incompleteness theorem</b> first appeared as "Theorem XI" in Gödel's 1931 paper <i><a href="On_Formally_Undecidable_Propositions_in_Principia_Mathematica_and_Related_Systems_I" title="On Formally Undecidable Propositions in Principia Mathematica and Related Systems I" class="mw-redirect">On Formally Undecidable Propositions in Principia Mathematica and Related Systems I</a>.</i></p>
+<p>The formal theorem is written in highly technical language. The broadly accepted natural language statement of the theorem is:</p>
+<dl>
+<dd>For any formal effectively generated theory <i>T</i> including basic arithmetical truths and also certain truths about formal provability, if <i>T</i> includes a statement of its own consistency then <i>T</i> is inconsistent.</dd>
+</dl>
+<p>This strengthens the first incompleteness theorem, because the statement constructed in the first incompleteness theorem does not directly express the consistency of the theory. The proof of the second incompleteness theorem is obtained by formalizing the proof of the first incompleteness theorem within the theory itself.</p>
+<p>A technical subtlety in the second incompleteness theorem is how to express the consistency of <i>T</i> as a formula in the language of <i>T</i>. There are many ways to do this, and not all of them lead to the same result. In particular, different formalizations of the claim that <i>T</i> is consistent may be inequivalent in <i>T</i>, and some may even be provable. For example, first-order <a href="Peano_axioms" title="Peano axioms">Peano arithmetic</a> (PA) can prove that the largest consistent <a href="Subset" title="Subset">subset</a> of PA is consistent. But since PA is consistent, the largest consistent subset of PA is just PA, so in this sense PA "proves that it is consistent". What PA does not prove is that the largest consistent subset of PA is, in fact, the whole of PA. (The term "largest consistent subset of PA" is technically ambiguous, but what is meant here is the largest consistent initial segment of the axioms of PA ordered according to specific criteria; i.e., by "Gödel numbers", the numbers encoding the axioms as per the scheme used by Gödel mentioned above).</p>
+<p>For Peano arithmetic, or any familiar explicitly axiomatized theory <i>T</i>, it is possible to canonically define a formula Con(<i>T</i>) expressing the consistency of <i>T</i>; this formula expresses the property that "there does not exist a natural number coding a sequence of formulas, such that each formula is either of the axioms of <i>T</i>, a logical axiom, or an immediate consequence of preceding formulas according to the rules of inference of first-order logic, and such that the last formula is a contradiction".</p>
+<p>The formalization of Con(<i>T</i>) depends on two factors: formalizing the notion of a sentence being derivable from a set of sentences and formalizing the notion of being an axiom of <i>T</i>. Formalizing derivability can be done in canonical fashion: given an arithmetical formula A(<i>x</i>) defining a set of axioms, one can canonically form a predicate Prov<sub>A</sub>(<i>P</i>) which expresses that <i>P</i> is provable from the set of axioms defined by A(<i>x</i>).</p>
+<p>In addition, the standard proof of the second incompleteness theorem assumes that Prov<sub>A</sub>(<i>P</i>) satisfies that <a href="Hilbert%E2%80%93Bernays_provability_conditions" title="Hilbert–Bernays provability conditions">Hilbert–Bernays provability conditions</a>. Letting #(<i>P</i>) represent the Gödel number of a formula <i>P</i>, the derivability conditions say:</p>
+<ol>
+<li>If <i>T</i> proves <i>P</i>, then T proves Prov<sub>A</sub>(#(<i>P</i>)).</li>
+<li><i>T</i> proves 1.; that is, <i>T</i> proves that if <i>T</i> proves <i>P</i>, then <i>T</i> proves Prov<sub>A</sub>(#(<i>P</i>)). In other words, <i>T</i> proves that Prov<sub>A</sub>(#(<i>P</i>)) implies Prov<sub>A</sub>(#(Prov<sub>A</sub>(#(P)))).</li>
+<li><i>T</i> proves that if <i>T</i> proves that (<i>P</i> → <i>Q</i>) and <i>T</i> proves <i>P</i> then <i>T</i> proves <i>Q</i>. In other words, <i>T</i> proves that Prov<sub>A</sub>(#(<i>P</i> → <i>Q</i>)) and Prov<sub>A</sub>(#(<i>P</i>)) imply Prov<sub>A</sub>(#(<i>Q</i>)).</li>
+</ol>
+<h3> <span class="mw-headline" id="Implications_for_consistency_proofs">Implications for consistency proofs</span></h3>
+<p>Gödel's second incompleteness theorem also implies that a theory <i>T</i><sub>1</sub> satisfying the technical conditions outlined above cannot prove the consistency of any theory <i>T</i><sub>2</sub> which proves the consistency of <i>T</i><sub>1</sub>. This is because such a theory <i>T</i><sub>1</sub> can prove that if <i>T</i><sub>2</sub> proves the consistency of <i>T</i><sub>1</sub>, then <i>T</i><sub>1</sub> is in fact consistent. For the claim that <i>T</i><sub>1</sub> is consistent has form "for all numbers <i>n</i>, <i>n</i> has the decidable property of not being a code for a proof of contradiction in <i>T</i><sub>1</sub>". If <i>T</i><sub>1</sub> were in fact inconsistent, then <i>T</i><sub>2</sub> would prove for some <i>n</i> that <i>n</i> is the code of a contradiction in <i>T</i><sub>1</sub>. But if <i>T</i><sub>2</sub> also proved that <i>T</i><sub>1</sub> is consistent (that is, that there is no such n), then it would itself be inconsistent. This reasoning can be formalized in <i>T</i><sub>1</sub> to show that if <i>T</i><sub>2</sub> is consistent, then <i>T</i><sub>1</sub> is consistent. Since, by second incompleteness theorem, <i>T</i><sub>1</sub> does not prove its consistency, it cannot prove the consistency of <i>T</i><sub>2</sub> either.</p>
+<p>This corollary of the second incompleteness theorem shows that there is no hope of proving, for example, the consistency of Peano arithmetic using any finitistic means that can be formalized in a theory the consistency of which is provable in Peano arithmetic. For example, the theory of <a href="Primitive_recursive_arithmetic" title="Primitive recursive arithmetic">primitive recursive arithmetic</a> (PRA), which is widely accepted as an accurate formalization of finitistic mathematics, is provably consistent in PA. Thus PRA cannot prove the consistency of PA. This fact is generally seen to imply that <a href="Hilbert's_program" title="Hilbert's program">Hilbert's program</a>, which aimed to justify the use of "ideal" (infinitistic) mathematical principles in the proofs of "real" (finitistic) mathematical statements by giving a finitistic proof that the ideal principles are consistent, cannot be carried out.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="The text in the vicinity of this tag needs clarification or removal of jargon from July 2009">clarification needed</span></a></i>]</sup></p>
+<p>The corollary also indicates the epistemological relevance of the second incompleteness theorem. It would actually provide no interesting information if a theory <i>T</i> proved its consistency. This is because inconsistent theories prove everything, including their consistency. Thus a consistency proof of <i>T</i> in <i>T</i> would give us no clue as to whether <i>T</i> really is consistent; no doubts about the consistency of <i>T</i> would be resolved by such a consistency proof. The interest in consistency proofs lies in the possibility of proving the consistency of a theory <i>T</i> in some theory <i>T’</i> which is in some sense less doubtful than <i>T</i> itself, for example weaker than <i>T</i>. For many naturally occurring theories <i>T</i> and <i>T’</i>, such as <i>T</i> = <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> and <i>T’</i> = primitive recursive arithmetic, the consistency of <i>T’</i> is provable in <i>T</i>, and thus <i>T’</i> can't prove the consistency of <i>T</i> by the above corollary of the second incompleteness theorem.</p>
+<p>The second incompleteness theorem does not rule out consistency proofs altogether, only consistency proofs that could be formalized in the theory that is proved consistent. For example, <a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gerhard Gentzen</a> proved the consistency of Peano arithmetic (PA) in a different theory which includes an axiom asserting that the <a href="Ordinal_number" title="Ordinal number">ordinal</a> called ε<sub>0</sub> is <a href="Wellfounded" title="Wellfounded" class="mw-redirect">wellfounded</a>; see <a href="Gentzen's_consistency_proof" title="Gentzen's consistency proof">Gentzen's consistency proof</a>. Gentzen's theorem spurred the development of <a href="Ordinal_analysis" title="Ordinal analysis">ordinal analysis</a> in proof theory.</p>
+<h2> <span class="mw-headline" id="Examples_of_undecidable_statements">Examples of undecidable statements</span></h2>
+<div class="rellink boilerplate seealso">See also: <a href="List_of_statements_undecidable_in_ZFC" title="List of statements undecidable in ZFC">List of statements undecidable in ZFC</a></div>
+<p>There are two distinct senses of the word "undecidable" in mathematics and computer science. The first of these is the <a href="Proof_theory" title="Proof theory">proof-theoretic</a> sense used in relation to Gödel's theorems, that of a statement being neither provable nor refutable in a specified <a href="Deductive_system" title="Deductive system">deductive system</a>. The second sense, which will not be discussed here, is used in relation to <a href="Computability_theory" title="Computability theory">computability theory</a> and applies not to statements but to <a href="Decision_problem" title="Decision problem">decision problems</a>, which are countably infinite sets of questions each requiring a yes or no answer. Such a problem is said to be undecidable if there is no <a href="Computable_function" title="Computable function">computable function</a> that correctly answers every question in the problem set (see <a href="Undecidable_problem" title="Undecidable problem">undecidable problem</a>).</p>
+<p>Because of the two meanings of the word undecidable, the term <a href="Independence_(mathematical_logic)" title="Independence (mathematical logic)">independent</a> is sometimes used instead of undecidable for the "neither provable nor refutable" sense. The usage of "independent" is also ambiguous, however. Some<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from July 2012">who?</span></a></i>]</sup> use it to mean just "not provable", leaving open whether an independent statement might be refuted.</p>
+<p>Undecidability of a statement in a particular deductive system does not, in and of itself, address the question of whether the <a href="Truth_value" title="Truth value">truth value</a> of the statement is well-defined, or whether it can be determined by other means. Undecidability only implies that the particular deductive system being considered does not prove the truth or falsity of the statement. Whether there exist so-called "absolutely undecidable" statements, whose truth value can never be known or is ill-specified, is a controversial point in the <a href="Philosophy_of_mathematics" title="Philosophy of mathematics">philosophy of mathematics</a>.</p>
+<p>The combined work of Gödel and <a href="Paul_Cohen_(mathematician)" title="Paul Cohen (mathematician)">Paul Cohen</a> has given two concrete examples of undecidable statements (in the first sense of the term): The <a href="Continuum_hypothesis" title="Continuum hypothesis">continuum hypothesis</a> can neither be proved nor refuted in <a href="ZFC" title="ZFC" class="mw-redirect">ZFC</a> (the standard axiomatization of <a href="Set_theory" title="Set theory">set theory</a>), and the <a href="Axiom_of_choice" title="Axiom of choice">axiom of choice</a> can neither be proved nor refuted in <a href="Zermelo-Fraenkel_set_theory" title="Zermelo-Fraenkel set theory" class="mw-redirect">ZF</a> (which is all the ZFC axioms <i>except</i> the axiom of choice). These results do not require the incompleteness theorem. Gödel proved in 1940 that neither of these statements could be disproved in ZF or ZFC set theory. In the 1960s, Cohen proved that neither is provable from ZF, and the continuum hypothesis cannot be proven from ZFC.</p>
+<p>In 1973, the <a href="Whitehead_problem" title="Whitehead problem">Whitehead problem</a> in <a href="Group_theory" title="Group theory">group theory</a> was shown to be undecidable, in the first sense of the term, in standard set theory.</p>
+<p><a href="Gregory_Chaitin" title="Gregory Chaitin">Gregory Chaitin</a> produced undecidable statements in <a href="Algorithmic_information_theory" title="Algorithmic information theory">algorithmic information theory</a> and proved another incompleteness theorem in that setting. <a href="Chaitin's_incompleteness_theorem" title="Chaitin's incompleteness theorem" class="mw-redirect">Chaitin's incompleteness theorem</a> states that for any theory that can represent enough arithmetic, there is an upper bound <i>c</i> such that no specific number can be proven in that theory to have <a href="Kolmogorov_complexity" title="Kolmogorov complexity">Kolmogorov complexity</a> greater than <i>c</i>. While Gödel's theorem is related to the <a href="Liar_paradox" title="Liar paradox">liar paradox</a>, Chaitin's result is related to <a href="Berry's_paradox" title="Berry's paradox" class="mw-redirect">Berry's paradox</a>.</p>
+<h3> <span class="mw-headline" id="Undecidable_statements_provable_in_larger_systems">Undecidable statements provable in larger systems</span></h3>
+<p>These are natural mathematical equivalents of the Godel "true but undecidable" sentence. They can be proved in a larger system which is generally accepted as a valid form of reasoning, but are undecidable in a more limited system such as Peano Arithmetic.</p>
+<p>In 1977, Paris and Harrington proved that the <a href="Paris-Harrington_theorem" title="Paris-Harrington theorem" class="mw-redirect">Paris-Harrington principle</a>, a version of the <a href="Ramsey_theorem" title="Ramsey theorem" class="mw-redirect">Ramsey theorem</a>, is undecidable in the first-order axiomatization of arithmetic called <a href="Peano_arithmetic" title="Peano arithmetic" class="mw-redirect">Peano arithmetic</a>, but can be proven in the larger system of <a href="Second-order_arithmetic" title="Second-order arithmetic">second-order arithmetic</a>. Kirby and Paris later showed <a href="Goodstein's_theorem" title="Goodstein's theorem">Goodstein's theorem</a>, a statement about sequences of natural numbers somewhat simpler than the Paris-Harrington principle, to be undecidable in Peano arithmetic.</p>
+<p><a href="Kruskal's_tree_theorem" title="Kruskal's tree theorem">Kruskal's tree theorem</a>, which has applications in computer science, is also undecidable from Peano arithmetic but provable in set theory. In fact Kruskal's tree theorem (or its finite form) is undecidable in a much stronger system codifying the principles acceptable based on a philosophy of mathematics called <a href="Impredicativity" title="Impredicativity">predicativism</a>. The related but more general <a href="Graph_minor_theorem" title="Graph minor theorem" class="mw-redirect">graph minor theorem</a> (2003) has consequences for <a href="Computational_complexity_theory" title="Computational complexity theory">computational complexity theory</a>.</p>
+<h2> <span class="mw-headline" id="Limitations_of_G.C3.B6del.27s_theorems">Limitations of Gödel's theorems</span></h2>
+<p>The conclusions of Gödel's theorems are only proven for the formal theories that satisfy the necessary hypotheses. Not all axiom systems satisfy these hypotheses, even when these systems have models that include the natural numbers as a subset. For example, there are first-order axiomatizations of <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>, of <a href="Real_closed_fields" title="Real closed fields" class="mw-redirect">real closed fields</a>, and of arithmetic in which multiplication is not <i>provably</i> total; none of these meet the hypotheses of Gödel's theorems. The key fact is that these axiomatizations are not expressive enough to define the set of natural numbers or develop basic properties of the natural numbers. Regarding the third example, Dan E. Willard (Willard 2001) has studied many weak systems of arithmetic which do not satisfy the hypotheses of the second incompleteness theorem, and which are consistent and capable of proving their own consistency (see <a href="Self-verifying_theories" title="Self-verifying theories">self-verifying theories</a>).</p>
+<p>Gödel's theorems only apply to effectively generated (that is, recursively enumerable) theories. If all true statements about natural numbers are taken as axioms for a theory, then this theory is a consistent, complete extension of Peano arithmetic (called <a href="True_arithmetic" title="True arithmetic">true arithmetic</a>) for which none of Gödel's theorems apply in a meaningful way, because this theory is not recursively enumerable.</p>
+<p>The second incompleteness theorem only shows that the consistency of certain theories cannot be proved from the axioms of those theories themselves. It does not show that the consistency cannot be proved from other (consistent) axioms. For example, the consistency of the <a href="Peano_arithmetic" title="Peano arithmetic" class="mw-redirect">Peano arithmetic</a> can be proved in <a href="Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel set theory</a> (ZFC), or in theories of arithmetic augmented with <a href="Transfinite_induction" title="Transfinite induction">transfinite induction</a>, as in <a href="Gentzen's_consistency_proof" title="Gentzen's consistency proof">Gentzen's consistency proof</a>.</p>
+<h2> <span class="mw-headline" id="Relationship_with_computability">Relationship with computability</span></h2>
+<p>The incompleteness theorem is closely related to several results about <a href="Undecidable_set" title="Undecidable set" class="mw-redirect">undecidable sets</a> in <a href="Recursion_theory" title="Recursion theory" class="mw-redirect">recursion theory</a>.</p>
+<p><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Stephen Cole Kleene</a> (1943) presented a proof of Gödel's incompleteness theorem using basic results of computability theory. One such result shows that the <a href="Halting_problem" title="Halting problem">halting problem</a> is undecidable: there is no computer program that can correctly determine, given a program <i>P</i> as input, whether <i>P</i> eventually halts when run with a particular given input. Kleene showed that the existence of a complete effective theory of arithmetic with certain consistency properties would force the halting problem to be decidable, a contradiction. This method of proof has also been presented by Shoenfield (1967, p.&#160;132); Charlesworth (1980); and Hopcroft and Ullman (1979).</p>
+<p>Franzén (2005, p.&#160;73) explains how <a href="Matiyasevich's_theorem" title="Matiyasevich's theorem" class="mw-redirect">Matiyasevich's solution</a> to <a href="Hilbert's_10th_problem" title="Hilbert's 10th problem" class="mw-redirect">Hilbert's 10th problem</a> can be used to obtain a proof to Gödel's first incompleteness theorem. Matiyasevich proved that there is no algorithm that, given a multivariate polynomial p(x<sub>1</sub>, x<sub>2</sub>,...,x<sub>k</sub>) with integer coefficients, determines whether there is an integer solution to the equation <i>p</i> = 0. Because polynomials with integer coefficients, and integers themselves, are directly expressible in the language of arithmetic, if a multivariate integer polynomial equation <i>p</i> = 0 does have a solution in the integers then any sufficiently strong theory of arithmetic <i>T</i> will prove this. Moreover, if the theory <i>T</i> is ω-consistent, then it will never prove that a particular polynomial equation has a solution when in fact there is no solution in the integers. Thus, if <i>T</i> were complete and ω-consistent, it would be possible to determine algorithmically whether a polynomial equation has a solution by merely enumerating proofs of <i>T</i> until either "<i>p</i> has a solution" or "<i>p</i> has no solution" is found, in contradiction to Matiyasevich's theorem. Moreover, for each consistent effectively generated theory <i>T</i>, it is possible to effectively generate a multivariate polynomial <i>p</i> over the integers such that the equation <i>p</i> = 0 has no solutions over the integers, but the lack of solutions cannot be proved in <i>T</i> (Davis 2006:416, Jones 1980).</p>
+<p>Smorynski (1977, p.&#160;842) shows how the existence of <a href="Recursively_inseparable_sets" title="Recursively inseparable sets">recursively inseparable sets</a> can be used to prove the first incompleteness theorem. This proof is often extended to show that systems such as Peano arithmetic are <a href="Essentially_undecidable" title="Essentially undecidable" class="mw-redirect">essentially undecidable</a> (see Kleene 1967, p.&#160;274).</p>
+<p><a href="Chaitin's_incompleteness_theorem" title="Chaitin's incompleteness theorem" class="mw-redirect">Chaitin's incompleteness theorem</a> gives a different method of producing independent sentences, based on <a href="Kolmogorov_complexity" title="Kolmogorov complexity">Kolmogorov complexity</a>. Like the proof presented by Kleene that was mentioned above, Chaitin's theorem only applies to theories with the additional property that all their axioms are true in the standard model of the natural numbers. Gödel's incompleteness theorem is distinguished by its applicability to consistent theories that nonetheless include statements that are false in the standard model; these theories are known as <a href="%CE%A9-consistent_theory" title="Ω-consistent theory">ω-inconsistent</a>.</p>
+<h2> <span class="mw-headline" id="Proof_sketch_for_the_first_theorem">Proof sketch for the first theorem</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="Proof_sketch_for_G%C3%B6del's_first_incompleteness_theorem" title="Proof sketch for Gödel's first incompleteness theorem">Proof sketch for Gödel's first incompleteness theorem</a></div>
+<p>The <a href="Proof_by_contradiction" title="Proof by contradiction">proof by contradiction</a> has three essential parts. To begin, choose a formal system that meets the proposed criteria:</p>
+<ol>
+<li>Statements in the system can be represented by natural numbers (known as Gödel numbers). The significance of this is that properties of statements—such as their truth and falsehood—will be equivalent to determining whether their Gödel numbers have certain properties, and that properties of the statements can therefore be demonstrated by examining their Gödel numbers. This part culminates in the construction of a formula expressing the idea that <i>"statement S is provable in the system"</i> (which can be applied to any statement "S" in the system).</li>
+<li>In the formal system it is possible to construct a number whose matching statement, when interpreted, is <a href="Self_reference" title="Self reference" class="mw-redirect">self-referential</a> and essentially says that it (i.e. the statement itself) is unprovable. This is done using a technique called "<a href="Diagonal_lemma" title="Diagonal lemma">diagonalization</a>" (so-called because of its origins as <a href="Cantor's_diagonal_argument" title="Cantor's diagonal argument">Cantor's diagonal argument</a>).</li>
+<li>Within the formal system this statement permits a demonstration that it is neither provable nor disprovable in the system, and therefore the system cannot in fact be ω-consistent. Hence the original assumption that the proposed system met the criteria is false.</li>
+</ol>
+<h3> <span class="mw-headline" id="Arithmetization_of_syntax">Arithmetization of syntax</span></h3>
+<p>The main problem in fleshing out the proof described above is that it seems at first that to construct a statement <i>p</i> that is equivalent to "<i>p</i> cannot be proved", <i>p</i> would somehow have to contain a reference to <i>p</i>, which could easily give rise to an infinite regress. Gödel's ingenious technique is to show that statements can be matched with numbers (often called the arithmetization of <a href="Syntax" title="Syntax">syntax</a>) in such a way that <i>"proving a statement"</i> can be replaced with <i>"testing whether a number has a given property"</i>. This allows a self-referential formula to be constructed in a way that avoids any infinite regress of definitions. The same technique was later used by <a href="Alan_Turing" title="Alan Turing">Alan Turing</a> in his work on the <a href="Entscheidungsproblem" title="Entscheidungsproblem">Entscheidungsproblem</a>.</p>
+<p>In simple terms, a method can be devised so that every formula or statement that can be formulated in the system gets a unique number, called its <b><a href="G%C3%B6del_number" title="Gödel number" class="mw-redirect">Gödel number</a></b>, in such a way that it is possible to mechanically convert back and forth between formulas and Gödel numbers. The numbers involved might be very long indeed (in terms of number of digits), but this is not a barrier; all that matters is that such numbers can be constructed. A simple example is the way in which English is stored as a sequence of numbers in computers using <a href="ASCII" title="ASCII">ASCII</a> or <a href="Unicode" title="Unicode">Unicode</a>:</p>
+<dl>
+<dd>
+<ul>
+<li>The word <b><tt>HELLO</tt></b> is represented by 72-69-76-76-79 using decimal <a href="ASCII" title="ASCII">ASCII</a>, ie the number 7269767679.</li>
+<li>The logical statement <b><tt>x=y =&gt; y=x</tt></b> is represented by 120-061-121-032-061-062-032-121-061-120 using octal <a href="ASCII" title="ASCII">ASCII</a>, ie the number 120061121032061062032121061120.</li>
+</ul>
+</dd>
+</dl>
+<p>In principle, proving a statement true or false can be shown to be equivalent to proving that the number matching the statement does or doesn't have a given property. Because the formal system is strong enough to support reasoning about <i>numbers in general</i>, it can support reasoning about <i>numbers which represent formulae and statements</i> as well. Crucially, because the system can support reasoning about <i>properties of numbers</i>, the results are equivalent to reasoning about <i>provability of their equivalent statements</i>.</p>
+<h3> <span class="mw-headline" id="Construction_of_a_statement_about_.22provability.22">Construction of a statement about "provability"</span></h3>
+<p>Having shown that in principle the system can indirectly make statements about provability, by analyzing properties of those numbers representing statements it is now possible to show how to create a statement that actually does this.</p>
+<p>A formula <i>F</i>(<i>x</i>) that contains exactly one free variable <i>x</i> is called a <i>statement form</i> or <i>class-sign</i>. As soon as <i>x</i> is replaced by a specific number, the statement form turns into a <i><a href="Bona_fide" title="Bona fide" class="mw-redirect">bona fide</a></i> statement, and it is then either provable in the system, or not. For certain formulas one can show that for every natural number n, F(n) is true if and only if it can be proven (the precise requirement in the original proof is weaker, but for the proof sketch this will suffice). In particular, this is true for every specific arithmetic operation between a finite number of natural numbers, such as "2×3=6".</p>
+<p>Statement forms themselves are not statements and therefore cannot be proved or disproved. But every statement form <i>F</i>(<i>x</i>) can be assigned a Gödel number denoted by <b>G</b>(<i>F</i>). The choice of the free variable used in the form <i>F</i>(<i>x</i>) is not relevant to the assignment of the Gödel number <b>G</b>(<i>F</i>).</p>
+<p>Now comes the trick: The notion of provability itself can also be encoded by Gödel numbers, in the following way. Since a proof is a list of statements which obey certain rules, the Gödel number of a proof can be defined. Now, for every statement <i>p</i>, one may ask whether a number <i>x</i> is the Gödel number of its proof. The relation between the Gödel number of <i>p</i> and <i>x</i>, the potential Gödel number of its proof, is an arithmetical relation between two numbers. Therefore there is a statement form Bew(<i>y</i>) that uses this arithmetical relation to state that a Gödel number of a proof of <i>y</i> exists:</p>
+<dl>
+<dd>Bew(<i>y</i>) = ∃ <i>x</i> ( <i>y</i> is the Gödel number of a formula and <i>x</i> is the Gödel number of a proof of the formula encoded by <i>y</i>).</dd>
+</dl>
+<p>The name <b>Bew</b> is short for <i>beweisbar</i>, the German word for "provable"; this name was originally used by Gödel to denote the provability formula just described. Note that "Bew(<i>y</i>)" is merely an abbreviation that represents a particular, very long, formula in the original language of <i>T</i>; the string "Bew" itself is not claimed to be part of this language.</p>
+<p>An important feature of the formula Bew(<i>y</i>) is that if a statement <i>p</i> is provable in the system then Bew(<b>G</b>(<i>p</i>)) is also provable. This is because any proof of <i>p</i> would have a corresponding Gödel number, the existence of which causes Bew(<b>G</b>(<i>p</i>)) to be satisfied.</p>
+<h3> <span class="mw-headline" id="Diagonalization">Diagonalization</span></h3>
+<p>The next step in the proof is to obtain a statement that says it is unprovable. Although Gödel constructed this statement directly, the existence of at least one such statement follows from the <a href="Diagonal_lemma" title="Diagonal lemma">diagonal lemma</a>, which says that for any sufficiently strong formal system and any statement form <i>F</i> there is a statement <i>p</i> such that the system proves</p>
+<dl>
+<dd><i>p</i> ↔ <i>F</i>(<b>G</b>(<i>p</i>)).</dd>
+</dl>
+<p>By letting <i>F</i> be the negation of Bew(<i>x</i>), we obtain the theorem</p>
+<dl>
+<dd><i>p</i> ↔ <i>~Bew</i>(<b>G</b>(<i>p</i>))</dd>
+</dl>
+<p>and the <i>p</i> defined by this roughly states that its own Gödel number is the Gödel number of an unprovable formula.</p>
+<p>The statement <i>p</i> is not literally equal to ~Bew(<b>G</b>(<i>p</i>)); rather, <i>p</i> states that if a certain calculation is performed, the resulting Gödel number will be that of an unprovable statement. But when this calculation is performed, the resulting Gödel number turns out to be the Gödel number of <i>p</i> itself. This is similar to the following sentence in English:</p>
+<dl>
+<dd>", when preceded by itself in quotes, is unprovable.", when preceded by itself in quotes, is unprovable.</dd>
+</dl>
+<p>This sentence does not directly refer to itself, but when the stated transformation is made the original sentence is obtained as a result, and thus this sentence asserts its own unprovability. The proof of the diagonal lemma employs a similar method.</p>
+<p>Now, assume that the axiomatic system is <a href="Omega-consistent" title="Omega-consistent" class="mw-redirect">ω-consistent</a>, and let <i>p</i> be the statement obtained in the previous section.</p>
+<p>If <i>p</i> were provable, then Bew(<b>G</b>(<i>p</i>)) would be provable, as argued above. But <i>p</i> asserts the negation of Bew(<b>G</b>(<i>p</i>)). Thus the system would be inconsistent, proving both a statement and its negation. This contradiction shows that <i>p</i> cannot be provable.</p>
+<p>If the negation of <i>p</i> were provable, then Bew(<b>G</b>(<i>p</i>)) would be provable (because <i>p</i> was constructed to be equivalent to the negation of Bew(<b>G</b>(<i>p</i>))). However, for each specific number <i>x</i>, <i>x</i> cannot be the Gödel number of the proof of <i>p</i>, because <i>p</i> is not provable (from the previous paragraph). Thus on one hand the system proves there is a number with a certain property (that it is the Gödel number of the proof of <i>p</i>), but on the other hand, for every specific number <i>x</i>, we can prove that it does not have this property. This is impossible in an ω-consistent system. Thus the negation of <i>p</i> is not provable.</p>
+<p>Thus the statement <i>p</i> is undecidable in our axiomatic system: it can neither be proved nor disproved within the system.</p>
+<p>In fact, to show that <i>p</i> is not provable only requires the assumption that the system is consistent. The stronger assumption of ω-consistency is required to show that the negation of <i>p</i> is not provable. Thus, if <i>p</i> is constructed for a particular system:</p>
+<ul>
+<li>If the system is ω-consistent, it can prove neither <i>p</i> nor its negation, and so <i>p</i> is undecidable.</li>
+<li>If the system is consistent, it may have the same situation, or it may prove the negation of <i>p</i>. In the later case, we have a statement ("not <i>p</i>") which is false but provable, and the system is not ω-consistent.</li>
+</ul>
+<p>If one tries to "add the missing axioms" to avoid the incompleteness of the system, then one has to add either <i>p</i> or "not <i>p</i>" as axioms. But then the definition of "being a Gödel number of a proof" of a statement changes. which means that the formula Bew(<i>x</i>) is now different. Thus when we apply the diagonal lemma to this new Bew, we obtain a new statement <i>p</i>, different from the previous one, which will be undecidable in the new system if it is ω-consistent.</p>
+<h3> <span class="mw-headline" id="Proof_via_Berry.27s_paradox">Proof via Berry's paradox</span></h3>
+<p><a href="George_Boolos" title="George Boolos">George Boolos</a> (1989) sketches an alternative proof of the first incompleteness theorem that uses <a href="Berry's_paradox" title="Berry's paradox" class="mw-redirect">Berry's paradox</a> rather than the <a href="Liar_paradox" title="Liar paradox">liar paradox</a> to construct a true but unprovable formula. A similar proof method was independently discovered by <a href="Saul_Kripke" title="Saul Kripke">Saul Kripke</a> (Boolos 1998, p.&#160;383). Boolos's proof proceeds by constructing, for any <a href="Computably_enumerable" title="Computably enumerable" class="mw-redirect">computably enumerable</a> set <i>S</i> of true sentences of arithmetic, another sentence which is true but not contained in <i>S</i>. This gives the first incompleteness theorem as a corollary. According to Boolos, this proof is interesting because it provides a "different sort of reason" for the incompleteness of effective, consistent theories of arithmetic (Boolos 1998, p.&#160;388).</p>
+<h3> <span class="mw-headline" id="Formalized_proofs">Formalized proofs</span></h3>
+<p>Formalized proofs of versions of the incompleteness theorem have been developed by <a href="Natarajan_Shankar" title="Natarajan Shankar">Natarajan Shankar</a> in 1986 using <a href="Nqthm" title="Nqthm">Nqthm</a> (Shankar 1994) and by Russell O'Connor in 2003 using <a href="Coq" title="Coq">Coq</a> (O'Connor 2005).</p>
+<h2> <span class="mw-headline" id="Proof_sketch_for_the_second_theorem">Proof sketch for the second theorem</span></h2>
+<p>The main difficulty in proving the second incompleteness theorem is to show that various facts about provability used in the proof of the first incompleteness theorem can be formalized within the system using a formal predicate for provability. Once this is done, the second incompleteness theorem follows by formalizing the entire proof of the first incompleteness theorem within the system itself.</p>
+<p>Let <i>p</i> stand for the undecidable sentence constructed above, and assume that the consistency of the system can be proven from within the system itself. The demonstration above shows that if the system is consistent, then <i>p</i> is not provable. The proof of this implication can be formalized within the system, and therefore the statement "<i>p</i> is not provable", or "not <i>P</i>(<i>p</i>)" can be proven in the system.</p>
+<p>But this last statement is equivalent to <i>p</i> itself (and this equivalence can be proven in the system), so <i>p</i> can be proven in the system. This contradiction shows that the system must be inconsistent.</p>
+<h2> <span class="mw-headline" id="Discussion_and_implications">Discussion and implications</span></h2>
+<p>The incompleteness results affect the <a href="Philosophy_of_mathematics" title="Philosophy of mathematics">philosophy of mathematics</a>, particularly versions of <a href="Symbolic_Logic" title="Symbolic Logic" class="mw-redirect">formalism</a>, which use a single system formal logic to define their principles. One can paraphrase the first theorem as saying the following:</p>
+<dl>
+<dd>An all-encompassing axiomatic system can never be found that is able to prove <i>all</i> mathematical truths, but no falsehoods.</dd>
+</dl>
+<p>On the other hand, from a strict formalist perspective this paraphrase would be considered meaningless because it presupposes that mathematical "truth" and "falsehood" are well-defined in an absolute sense, rather than relative to each formal system.</p>
+<p>The following rephrasing of the second theorem is even more unsettling to the <a href="Foundations_of_mathematics" title="Foundations of mathematics">foundations of mathematics</a>:</p>
+<dl>
+<dd>If an axiomatic system can be proven to be consistent from within itself, then it is inconsistent.</dd>
+</dl>
+<p>Therefore, to establish the consistency of a system S, one needs to use some other system T, but a proof in T is not completely convincing unless T's consistency has already been established without using S.</p>
+<p>Theories such as Peano arithmetic, for which any computably enumerable consistent extension is incomplete, are called <a href="Essentially_undecidable" title="Essentially undecidable" class="mw-redirect">essentially undecidable</a> or <b>essentially incomplete</b>.</p>
+<h3> <span class="mw-headline" id="Minds_and_machines">Minds and machines</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Mechanism_(philosophy)#G.C3.B6delian_arguments" title="Mechanism (philosophy)">Mechanism (philosophy)#Gödelian arguments</a></div>
+<p>Authors including <a href="John_Lucas_(philosopher)" title="John Lucas (philosopher)">J. R. Lucas</a> have debated what, if anything, Gödel's incompleteness theorems imply about human intelligence. Much of the debate centers on whether the human mind is equivalent to a <a href="Turing_machine" title="Turing machine">Turing machine</a>, or by the <a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a>, any finite machine at all. If it is, and if the machine is consistent, then Gödel's incompleteness theorems would apply to it.</p>
+<p><a href="Hilary_Putnam" title="Hilary Putnam">Hilary Putnam</a> (1960) suggested that while Gödel's theorems cannot be applied to humans, since they make mistakes and are therefore inconsistent, it may be applied to the human faculty of science or mathematics in general. Assuming that it is consistent, either its consistency cannot be proved or it cannot be represented by a Turing machine.</p>
+<p><a href="Avi_Wigderson" title="Avi Wigderson">Avi Wigderson</a> (2010) has proposed that the concept of mathematical "knowability" should be based on <a href="Computational_complexity" title="Computational complexity" class="mw-redirect">computational complexity</a> rather than logical decidability. He writes that "when <i>knowability</i> is interpreted by modern standards, namely via computational complexity, the Gödel phenomena are very much with us."</p>
+<h3> <span class="mw-headline" id="Paraconsistent_logic">Paraconsistent logic</span></h3>
+<p>Although Gödel's theorems are usually studied in the context of classical logic, they also have a role in the study of <a href="Paraconsistent_logic" title="Paraconsistent logic">paraconsistent logic</a> and of inherently contradictory statements (<i>dialetheia</i>). <a href="Graham_Priest" title="Graham Priest">Graham Priest</a> (1984, 2006) argues that replacing the notion of formal proof in Gödel's theorem with the usual notion of informal proof can be used to show that naive mathematics is inconsistent, and uses this as evidence for <a href="Dialetheism" title="Dialetheism">dialetheism</a>. The cause of this inconsistency is the inclusion of a truth predicate for a theory within the language of the theory (Priest 2006:47). <a href="Stewart_Shapiro" title="Stewart Shapiro">Stewart Shapiro</a> (2002) gives a more mixed appraisal of the applications of Gödel's theorems to dialetheism. <a href="Carl_Hewitt" title="Carl Hewitt">Carl Hewitt</a> (2008) has proposed that (inconsistent) paraconsistent logics that prove their own Gödel sentences may have applications in <a href="Software_engineering" title="Software engineering">software engineering</a>.</p>
+<h3> <span class="mw-headline" id="Appeals_to_the_incompleteness_theorems_in_other_fields">Appeals to the incompleteness theorems in other fields</span></h3>
+<p>Appeals and analogies are sometimes made to the incompleteness theorems in support of arguments that go beyond mathematics and logic. Several authors have commented negatively on such extensions and interpretations, including <a href="Torkel_Franz%C3%A9n" title="Torkel Franzén">Torkel Franzén</a> (2005); <a href="Alan_Sokal" title="Alan Sokal">Alan Sokal</a> and <a href="Jean_Bricmont" title="Jean Bricmont">Jean Bricmont</a> (1999); and <a href="Ophelia_Benson" title="Ophelia Benson">Ophelia Benson</a> and <a href="Jeremy_Stangroom" title="Jeremy Stangroom">Jeremy Stangroom</a> (2006). Bricmont and Stangroom (2006, p.&#160;10), for example, quote from <a href="Rebecca_Goldstein" title="Rebecca Goldstein">Rebecca Goldstein</a>'s comments on the disparity between Gödel's avowed <a href="Mathematical_Platonism" title="Mathematical Platonism" class="mw-redirect">Platonism</a> and the <a href="Anti-realist" title="Anti-realist" class="mw-redirect">anti-realist</a> uses to which his ideas are sometimes put. Sokal and Bricmont (1999, p.&#160;187) criticize <a href="R%C3%A9gis_Debray" title="Régis Debray">Régis Debray</a>'s invocation of the theorem in the context of sociology; Debray has defended this use as metaphorical (ibid.).</p>
+<h3> <span class="mw-headline" id="The_role_of_self-reference">The role of self-reference</span></h3>
+<p><a href="Torkel_Franz%C3%A9n" title="Torkel Franzén">Torkel Franzén</a> (2005, p.&#160;46) observes:</p>
+<blockquote>
+<p>Gödel's proof of the first incompleteness theorem and Rosser's strengthened version have given many the impression that the theorem can only be proved by constructing self-referential statements [...] or even that only strange self-referential statements are known to be undecidable in elementary arithmetic. To counteract such impressions, we need only introduce a different kind of proof of the first incompleteness theorem.</p>
+</blockquote>
+<p>He then proposes the proofs based on <a href="Computability_theory" title="Computability theory">computability</a>, or on <a href="Algorithmic_information_theory" title="Algorithmic information theory">information theory</a>, as described earlier in this article, as examples of proofs that should "counteract such impressions".</p>
+<h2> <span class="mw-headline" id="History">History</span></h2>
+<p>After Gödel published his proof of the <a href="Completeness_theorem" title="Completeness theorem" class="mw-redirect">completeness theorem</a> as his doctoral thesis in 1929, he turned to a second problem for his <a href="Habilitation" title="Habilitation">habilitation</a>. His original goal was to obtain a positive solution to <a href="Hilbert's_second_problem" title="Hilbert's second problem">Hilbert's second problem</a> (Dawson 1997, p.&#160;63). At the time, theories of the natural numbers and real numbers similar to <a href="Second-order_arithmetic" title="Second-order arithmetic">second-order arithmetic</a> were known as "analysis", while theories of the natural numbers alone were known as "arithmetic".</p>
+<p>Gödel was not the only person working on the consistency problem. <a href="Wilhelm_Ackermann" title="Wilhelm Ackermann">Ackermann</a> had published a flawed consistency proof for analysis in 1925, in which he attempted to use the method of <a href="../../w/index-title=%CE%95-substitution&action=edit&redlink=1.php.html" class="new" title="Ε-substitution (page does not exist)">ε-substitution</a> originally developed by Hilbert. Later that year, <a href="John_von_Neumann" title="John von Neumann">von Neumann</a> was able to correct the proof for a theory of arithmetic without any axioms of induction. By 1928, Ackermann had communicated a modified proof to Bernays; this modified proof led Hilbert to announce his belief in 1929 that the consistency of arithmetic had been demonstrated and that a consistency proof of analysis would likely soon follow. After the publication of the incompleteness theorems showed that Ackermann's modified proof must be erroneous, von Neumann produced a concrete example showing that its main technique was unsound (Zach 2006, p.&#160;418, Zach 2003, p.&#160;33).</p>
+<p>In the course of his research, Gödel discovered that although a sentence which asserts its own falsehood leads to paradox, a sentence that asserts its own non-provability does not. In particular, Gödel was aware of the result now called <a href="Tarski's_indefinability_theorem" title="Tarski's indefinability theorem" class="mw-redirect">Tarski's indefinability theorem</a>, although he never published it. Gödel announced his first incompleteness theorem to Carnap, Feigel and Waismann on August 26, 1930; all four would attend a key conference in Königsberg the following week.</p>
+<h3> <span class="mw-headline" id="Announcement">Announcement</span></h3>
+<p>The 1930 Königsberg conference was a joint meeting of three academic societies, with many of the key logicians of the time in attendance. Carnap, Heyting, and von Neumann delivered one-hour addresses on the mathematical philosophies of logicism, intuitionism, and formalism, respectively (Dawson 1996, p.&#160;69). The conference also included Hilbert's retirement address, as he was leaving his position at the University of Göttingen. Hilbert used the speech to argue his belief that all mathematical problems can be solved. He ended his address by saying,</p>
+<dl>
+<dd>For the mathematician there is no <i>Ignorabimus</i>, and, in my opinion, not at all for natural science either. ... The true reason why [no one] has succeeded in finding an unsolvable problem is, in my opinion, that there is no unsolvable problem. In contrast to the foolish <i>Ignoramibus</i>, our credo avers: We must know. We shall know!</dd>
+</dl>
+<p>This speech quickly became known as a summary of Hilbert's beliefs on mathematics (its final six words, "<i>Wir müssen wissen. Wir werden wissen!</i>", were used as Hilbert's epitaph in 1943). Although Gödel was likely in attendance for Hilbert's address, the two never met face to face (Dawson 1996, p.&#160;72).</p>
+<p>Gödel announced his first incompleteness theorem at a roundtable discussion session on the third day of the conference. The announcement drew little attention apart from that of von Neumann, who pulled Gödel aside for conversation. Later that year, working independently with knowledge of the first incompleteness theorem, von Neumann obtained a proof of the second incompleteness theorem, which he announced to Gödel in a letter dated November 20, 1930 (Dawson 1996, p.&#160;70). Gödel had independently obtained the second incompleteness theorem and included it in his submitted manuscript, which was received by <i>Monatshefte für Mathematik</i> on November 17, 1930.</p>
+<p>Gödel's paper was published in the <i>Monatshefte</i> in 1931 under the title <i>Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I</i> (<a href="On_Formally_Undecidable_Propositions_in_Principia_Mathematica_and_Related_Systems_I" title="On Formally Undecidable Propositions in Principia Mathematica and Related Systems I" class="mw-redirect">On Formally Undecidable Propositions in Principia Mathematica and Related Systems I</a>). As the title implies, Gödel originally planned to publish a second part of the paper; it was never written.</p>
+<h3> <span class="mw-headline" id="Generalization_and_acceptance">Generalization and acceptance</span></h3>
+<p>Gödel gave a series of lectures on his theorems at Princeton in 1933–1934 to an audience that included Church, Kleene, and Rosser. By this time, Gödel had grasped that the key property his theorems required is that the theory must be effective (at the time, the term "general recursive" was used). Rosser proved in 1936 that the hypothesis of ω-consistency, which was an integral part of Gödel's original proof, could be replaced by simple consistency, if the Gödel sentence was changed in an appropriate way. These developments left the incompleteness theorems in essentially their modern form.</p>
+<p>Gentzen published his <a href="Gentzen's_consistency_proof" title="Gentzen's consistency proof">consistency proof</a> for first-order arithmetic in 1936. Hilbert accepted this proof as "finitary" although (as Gödel's theorem had already shown) it cannot be formalized within the system of arithmetic that is being proved consistent.</p>
+<p>The impact of the incompleteness theorems on Hilbert's program was quickly realized. Bernays included a full proof of the incompleteness theorems in the second volume of <i>Grundlagen der Mathematik</i> (1939), along with additional results of Ackermann on the ε-substitution method and Gentzen's consistency proof of arithmetic. This was the first full published proof of the second incompleteness theorem.</p>
+<h3> <span class="mw-headline" id="Criticisms">Criticisms</span></h3>
+<h4> <span class="mw-headline" id="Finsler">Finsler</span></h4>
+<p><a href="Paul_Finsler" title="Paul Finsler">Paul Finsler</a> (1926) used a version of <a href="Richard's_paradox" title="Richard's paradox">Richard's paradox</a> to construct an expression that was false but unprovable in a particular, informal framework he had developed. Gödel was unaware of this paper when he proved the incompleteness theorems (Collected Works Vol. IV., p.&#160;9). Finsler wrote Gödel in 1931 to inform him about this paper, which Finsler felt had priority for an incompleteness theorem. Finsler's methods did not rely on formalized provability, and had only a superficial resemblance to Gödel's work (van Heijenoort 1967:328). Gödel read the paper but found it deeply flawed, and his response to Finsler laid out concerns about the lack of formalization (Dawson:89). Finsler continued to argue for his philosophy of mathematics, which eschewed formalization, for the remainder of his career.</p>
+<h4> <span class="mw-headline" id="Zermelo">Zermelo</span></h4>
+<p>In September 1931, <a href="Ernst_Zermelo" title="Ernst Zermelo">Ernst Zermelo</a> wrote Gödel to announce what he described as an "essential gap" in Gödel's argument (Dawson:76). In October, Gödel replied with a 10-page letter (Dawson:76, Grattan-Guinness:512-513). But Zermelo did not relent and published his criticisms in print with "a rather scathing paragraph on his young competitor" (Grattan-Guinness:513). Gödel decided that to pursue the matter further was pointless, and Carnap agreed (Dawson:77). Much of Zermelo's subsequent work was related to logics stronger than first-order logic, with which he hoped to show both the consistency and categoricity of mathematical theories.</p>
+<h4> <span class="mw-headline" id="Wittgenstein">Wittgenstein</span></h4>
+<p><a href="Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Ludwig Wittgenstein</a> wrote several passages about the incompleteness theorems that were published posthumously in his 1953 <i><a href="Remarks_on_the_Foundations_of_Mathematics" title="Remarks on the Foundations of Mathematics">Remarks on the Foundations of Mathematics</a></i>. Gödel was a member of the <a href="Vienna_Circle" title="Vienna Circle">Vienna Circle</a> during the period in which Wittgenstein's early <a href="Ideal_language_philosophy" title="Ideal language philosophy" class="mw-redirect">ideal language philosophy</a> and <a href="Tractatus_Logico-Philosophicus" title="Tractatus Logico-Philosophicus">Tractatus Logico-Philosophicus</a> dominated the circle's thinking. Writings in Gödel's <a href="Nachlass" title="Nachlass">Nachlass</a> express the belief that Wittgenstein deliberately misread his ideas.</p>
+<p>Multiple commentators have read Wittgenstein as misunderstanding <a href="G%C3%B6del" title="Gödel" class="mw-redirect">Gödel</a> (Rodych 2003), although Juliet Floyd and <a href="Hilary_Putnam" title="Hilary Putnam">Hilary Putnam</a> (2000), as well as <a href="Graham_Priest" title="Graham Priest">Graham Priest</a> (2004) have provided textual readings arguing that most commentary misunderstands Wittgenstein. On their release, Bernays, Dummett, and Kreisel wrote separate reviews on Wittgenstein's remarks, all of which were extremely negative (Berto 2009:208). The unanimity of this criticism caused Wittgenstein's remarks on the incompleteness theorems to have little impact on the logic community. In 1972, Gödel, stated: "Has Wittgenstein lost his mind? Does he mean it seriously?" (Wang 1996:197) And wrote to <a href="Karl_Menger" title="Karl Menger">Karl Menger</a> that Wittgenstein's comments demonstrate a willful misunderstanding of the incompleteness theorems writing:</p>
+<dl>
+<dd>"It is clear from the passages you cite that Wittgenstein did "not" understand [the first incompleteness theorem] (or pretended not to understand it). He interpreted it as a kind of logical paradox, while in fact is just the opposite, namely a mathematical theorem within an absolutely uncontroversial part of mathematics (finitary number theory or combinatorics)." (Wang 1996:197)</dd>
+</dl>
+<p>Since the publication of Wittgenstein's <i>Nachlass</i> in 2000, a series of papers in philosophy have sought to evaluate whether the original criticism of Wittgenstein's remarks was justified. Floyd and Putnam (2000) argue that Wittgenstein had a more complete understanding of the incompleteness theorem than was previously assumed. They are particularly concerned with the interpretation of a Gödel sentence for an ω-inconsistent theory as actually saying "I am not provable", since the theory has no models in which the provability predicate corresponds to actual provability. Rodych (2003) argues that their interpretation of Wittgenstein is not historically justified, while Bays (2004) argues against Floyd and Putnam's philosophical analysis of the provability predicate. Berto (2009) explores the relationship between Wittgenstein's writing and theories of paraconsistent logic.</p>
+<h2> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a></li>
+<li><a href="G%C3%B6del's_speed-up_theorem" title="Gödel's speed-up theorem">Gödel's speed-up theorem</a></li>
+<li><a href="L%C3%B6b's_Theorem" title="Löb's Theorem" class="mw-redirect">Löb's Theorem</a></li>
+<li><i><a href="Minds,_Machines_and_G%C3%B6del" title="Minds, Machines and Gödel">Minds, Machines and Gödel</a></i></li>
+<li><a href="M%C3%BCnchhausen_Trilemma" title="Münchhausen Trilemma" class="mw-redirect">Münchhausen Trilemma</a></li>
+<li><a href="Non-standard_model_of_arithmetic" title="Non-standard model of arithmetic">Non-standard model of arithmetic</a></li>
+<li><a href="Provability_logic" title="Provability logic">Provability logic</a></li>
+<li><a href="Tarski's_undefinability_theorem" title="Tarski's undefinability theorem">Tarski's undefinability theorem</a></li>
+<li><a href="Third_Man_Argument" title="Third Man Argument" class="mw-redirect">Third Man Argument</a></li>
+</ul>
+<h2> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">The word "true" is used <a href="Disquotationalism" title="Disquotationalism" class="mw-redirect">disquotationally</a> here: the Gödel sentence is true in this sense because it "asserts its own unprovability and it is indeed unprovable" (Smoryński 1977 p. 825; also see Franzén 2005 pp. 28–33). It is also possible to read "<i>G</i><sub><i>T</i></sub> is true" in the formal sense that <a href="Primitive_recursive_arithmetic" title="Primitive recursive arithmetic">primitive recursive arithmetic</a> proves the implication Con(<i>T</i>)→<i>G</i><sub><i>T</i></sub>, where Con(<i>T</i>) is a canonical sentence asserting the consistency of <i>T</i> (Smoryński 1977 p. 840, Kikuchi and Tanaka 1994 p. 403)</span></li>
+</ol>
+<h2> <span class="mw-headline" id="References">References</span></h2>
+<h3> <span class="mw-headline" id="Articles_by_G.C3.B6del">Articles by Gödel</span></h3>
+<ul>
+<li>1931, <i>Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme, I.</i> <i>Monatshefte für Mathematik und Physik 38</i>: 173-98.</li>
+<li>1931, <i>Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme, I.</i> and <i>On formally undecidable propositions of Principia Mathematica and related systems I</i> in <a href="Solomon_Feferman" title="Solomon Feferman">Solomon Feferman</a>, ed., 1986. <i>Kurt Gödel Collected works, Vol. I</i>. Oxford University Press: 144-195. The original German with a facing English translation, preceded by a very illuminating introductory note by <a href="Kleene" title="Kleene" class="mw-redirect">Kleene</a>.
+<ul>
+<li>Hirzel, Martin, 2000, <i><a rel="nofollow" class="external text" href="http://www.research.ibm.com/people/h/hirzel/papers/canon00-goedel.pdf">On formally undecidable propositions of Principia Mathematica and related systems I.</a></i>. A modern translation by Hirzel.</li>
+</ul>
+</li>
+<li>1951, <i>Some basic theorems on the foundations of mathematics and their implications</i> in <a href="Solomon_Feferman" title="Solomon Feferman">Solomon Feferman</a>, ed., 1995. <i>Kurt Gödel Collected works, Vol. III</i>. Oxford University Press: 304-23.</li>
+</ul>
+<h3> <span class="mw-headline" id="Translations.2C_during_his_lifetime.2C_of_G.C3.B6del.27s_paper_into_English">Translations, during his lifetime, of Gödel's paper into English</span></h3>
+<p>None of the following agree in all translated words and in typography. The typography is a serious matter, because Gödel expressly wished to emphasize "those metamathematical notions that had been defined in their usual sense before . . ."(van Heijenoort 1967:595). Three translations exist. Of the first John Dawson states that: "The Meltzer translation was seriously deficient and received a devastating review in the <i>Journal of Symbolic Logic</i>; "Gödel also complained about Braithwaite's commentary (Dawson 1997:216). "Fortunately, the Meltzer translation was soon supplanted by a better one prepared by Elliott Mendelson for Martin Davis's anthology <i>The Undecidable</i> . . . he found the translation "not quite so good" as he had expected . . . [but because of time constraints he] agreed to its publication" (ibid). (In a footnote Dawson states that "he would regret his compliance, for the published volume was marred throughout by sloppy typography and numerous misprints" (ibid)). Dawson states that "The translation that Gödel favored was that by Jean van Heijenoort"(ibid). For the serious student another version exists as a set of lecture notes recorded by Stephen Kleene and J. B. Rosser "during lectures given by Gödel at to the Institute for Advanced Study during the spring of 1934" (cf commentary by Davis 1965:39 and beginning on p.&#160;41); this version is titled "On Undecidable Propositions of Formal Mathematical Systems". In their order of publication:</p>
+<ul>
+<li><a href="../../w/index-title=B._Meltzer&action=edit&redlink=1.php.html" class="new" title="B. Meltzer (page does not exist)">B. Meltzer</a> (translation) and <a href="../R._B._Braithwaite" title="R. B. Braithwaite">R. B. Braithwaite</a> (Introduction), 1962. <i>On Formally Undecidable Propositions of Principia Mathematica and Related Systems</i>, Dover Publications, New York (Dover edition 1992), <a href="Special_BookSources/0486669807" class="internal mw-magiclink-isbn">ISBN 0-486-66980-7</a> (pbk.) This contains a useful translation of Gödel's German abbreviations on pp.&#160;33–34. As noted above, typography, translation and commentary is suspect. Unfortunately, this translation was reprinted with all its suspect content by</li>
+</ul>
+<dl>
+<dd>
+<ul>
+<li><a href="Stephen_Hawking" title="Stephen Hawking">Stephen Hawking</a> editor, 2005. <i>God Created the Integers: The Mathematical Breakthroughs That Changed History</i>, Running Press, Philadelphia, <a href="Special_BookSources/0762419229" class="internal mw-magiclink-isbn">ISBN 0-7624-1922-9</a>. Gödel's paper appears starting on p. 1097, with Hawking's commentary starting on p. 1089.</li>
+</ul>
+</dd>
+</dl>
+<ul>
+<li><a href="Martin_Davis" title="Martin Davis">Martin Davis</a> editor, 1965. <i>The Undecidable: Basic Papers on Undecidable Propositions, Unsolvable problems and Computable Functions</i>, Raven Press, New York, no ISBN. Gödel's paper begins on page 5, preceded by one page of commentary.</li>
+<li><a href="Jean_van_Heijenoort" title="Jean van Heijenoort">Jean van Heijenoort</a> editor, 1967, 3rd edition 1967. <i>From Frege to Gödel: A Source Book in Mathematical Logic, 1979-1931</i>, Harvard University Press, Cambridge Mass., <a href="Special_BookSources/0674324498" class="internal mw-magiclink-isbn">ISBN 0-674-32449-8</a> (pbk). van Heijenoort did the translation. He states that "Professor Gödel approved the translation, which in many places was accommodated to his wishes."(p.&#160;595). Gödel's paper begins on p.&#160;595; van Heijenoort's commentary begins on p.&#160;592.</li>
+<li>Martin Davis editor, 1965, ibid. "On Undecidable Propositions of Formal Mathematical Systems." A copy with Gödel's corrections of errata and Gödel's added notes begins on page 41, preceded by two pages of Davis's commentary. Until Davis included this in his volume this lecture existed only as mimeographed notes.</li>
+</ul>
+<h3> <span class="mw-headline" id="Articles_by_others">Articles by others</span></h3>
+<ul>
+<li><a href="George_Boolos" title="George Boolos">George Boolos</a>, 1989, "A New Proof of the Gödel Incompleteness Theorem", <i>Notices of the American Mathematical Society</i> v. 36, pp.&#160;388–390 and p.&#160;676, reprinted in Boolos, 1998, <i>Logic, Logic, and Logic</i>, Harvard Univ. Press. <a href="Special_BookSources/0674537661" class="internal mw-magiclink-isbn">ISBN 0-674-53766-1</a></li>
+<li>Arthur Charlesworth, 1980, "A Proof of Godel's Theorem in Terms of Computer Programs," <i>Mathematics Magazine</i>, v. 54 n. 3, pp.&#160;109–121. <a rel="nofollow" class="external text" href="http://links.jstor.org/sici?sici=0025-570X(198105)54:3%3C109:APOGTI%3E2.0.CO;2-1&size=LARGE&origin=JSTOR-enlargePage">JStor</a></li>
+<li><a href="Martin_Davis" title="Martin Davis">Martin Davis</a>, "<a rel="nofollow" class="external text" href="http://www.ams.org/notices/200604/fea-davis.pdf">The Incompleteness Theorem</a>", in Notices of the AMS vol. 53 no. 4 (April 2006), p.&#160;414.</li>
+<li><a href="Jean_van_Heijenoort" title="Jean van Heijenoort">Jean van Heijenoort</a>, 1963. "Gödel's Theorem" in Edwards, Paul, ed., <i>Encyclopedia of Philosophy, Vol. 3</i>. Macmillan: 348-57.</li>
+<li><a href="Geoffrey_Hellman" title="Geoffrey Hellman">Geoffrey Hellman</a>, <i>How to Gödel a Frege-Russell: Gödel's Incompleteness Theorems and Logicism.</i> Noûs, Vol. 15, No. 4, Special Issue on Philosophy of Mathematics. (Nov., 1981), pp.&#160;451–468.</li>
+<li><a href="David_Hilbert" title="David Hilbert">David Hilbert</a>, 1900, "<a rel="nofollow" class="external text" href="http://aleph0.clarku.edu/~djoyce/hilbert/problems.html#prob2">Mathematical Problems.</a>" English translation of a lecture delivered before the International Congress of Mathematicians at Paris, containing Hilbert's statement of his Second Problem.</li>
+<li><span class="citation" id="CITEREFKikuchiTanaka1994">Kikuchi, Makoto; Tanaka, Kazuyuki (1994), "On formalization of model-theoretic proofs of Gödel's theorems", <i>Notre Dame Journal of Formal Logic</i> <b>35</b> (3): 403–412, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1305/ndjfl/1040511346">10.1305/ndjfl/1040511346</a>, <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/0029-4527">0029-4527</a>, <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a>&#160;<a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=1326122">1326122</a></span></li>
+<li><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Stephen Cole Kleene</a>, 1943, "Recursive predicates and quantifiers," reprinted from <i>Transactions of the American Mathematical Society</i>, v. 53 n. 1, pp.&#160;41–73 in Martin Davis 1965, <i>The Undecidable</i> (loc. cit.) pp.&#160;255–287.</li>
+<li><a href="John_Barkley_Rosser" title="John Barkley Rosser" class="mw-redirect">John Barkley Rosser</a>, 1936, "Extensions of some theorems of Gödel and Church," reprinted from the <i>Journal of Symbolic Logic</i> vol. 1 (1936) pp.&#160;87–91, in Martin Davis 1965, <i>The Undecidable</i> (loc. cit.) pp.&#160;230–235.</li>
+<li>John Barkley Rosser, 1939, "An Informal Exposition of proofs of Gödel's Theorem and Church's Theorem", Reprinted from the <i>Journal of Symbolic Logic</i>, vol. 4 (1939) pp.&#160;53–60, in Martin Davis 1965, <i>The Undecidable</i> (loc. cit.) pp.&#160;223–230</li>
+<li>C. Smoryński, "The incompleteness theorems", in J. Barwise, ed., <i>Handbook of Mathematical Logic</i>, North-Holland 1982 <a href="Special_BookSources/9780444863881" class="internal mw-magiclink-isbn">ISBN 978-0-444-86388-1</a>, pp.&#160;821–866.</li>
+<li>Dan E. Willard (2001), "<a rel="nofollow" class="external text" href="http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.jsl/1183746459">Self-Verifying Axiom Systems, the Incompleteness Theorem and Related Reflection Principles</a>", <i>Journal of Symbolic Logic</i>, v. 66 n. 2, pp.&#160;536–596. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.2307/2695030">10.2307/2695030</a></li>
+<li><span class="citation" id="CITEREFZach2003">Zach, Richard (2003), <a rel="nofollow" class="external text" href="http://www.ucalgary.ca/~rzach/static/conprf.pdf">"The Practice of Finitism: Epsilon Calculus and Consistency Proofs in Hilbert's Program"</a>, <i>Synthese</i> (Berlin, New York: <a href="Springer-Verlag" title="Springer-Verlag" class="mw-redirect">Springer-Verlag</a>) <b>137</b> (1): 211–259, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1023/A:1026247421383">10.1023/A:1026247421383</a>, <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/0039-7857">0039-7857</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.ucalgary.ca/~rzach/static/conprf.pdf">http://www.ucalgary.ca/~rzach/static/conprf.pdf</a></span></span></li>
+<li>Richard Zach, 2005, "Paper on the incompleteness theorems" in <a href="Ivor_Grattan-Guinness" title="Ivor Grattan-Guinness">Grattan-Guinness, I.</a>, ed., <i>Landmark Writings in Western Mathematics</i>. Elsevier: 917-25.</li>
+</ul>
+<h3> <span class="mw-headline" id="Books_about_the_theorems">Books about the theorems</span></h3>
+<ul>
+<li>Francesco Berto. <i>There's Something about Gödel: The Complete Guide to the Incompleteness Theorem</i> John Wiley and Sons. 2010.</li>
+<li>Domeisen, Norbert, 1990. <i>Logik der Antinomien</i>. Bern: Peter Lang. 142 S. 1990. <a href="Special_BookSources/3261042141" class="internal mw-magiclink-isbn">ISBN 3-261-04214-1</a>. <a rel="nofollow" class="external text" href="http://www.zentralblatt-math.org/zbmath/search/?q=an:0724.03003">Zentralblatt MATH</a></li>
+<li><a href="Torkel_Franz%C3%A9n" title="Torkel Franzén">Torkel Franzén</a>, 2005. <i>Gödel's Theorem: An Incomplete Guide to its Use and Abuse</i>. A.K. Peters. <a href="Special_BookSources/1568812388" class="internal mw-magiclink-isbn">ISBN 1-56881-238-8</a> <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=2007d:03001">2007d:03001</a></li>
+<li><a href="Douglas_Hofstadter" title="Douglas Hofstadter">Douglas Hofstadter</a>, 1979. <i><a href="G%C3%B6del,_Escher,_Bach" title="Gödel, Escher, Bach">Gödel, Escher, Bach: An Eternal Golden Braid</a></i>. Vintage Books. <a href="Special_BookSources/0465026850" class="internal mw-magiclink-isbn">ISBN 0-465-02685-0</a>. 1999 reprint: <a href="Special_BookSources/0465026567" class="internal mw-magiclink-isbn">ISBN 0-465-02656-7</a>. <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=80j:03009">80j:03009</a></li>
+<li>Douglas Hofstadter, 2007. <i><a href="I_Am_a_Strange_Loop" title="I Am a Strange Loop">I Am a Strange Loop</a></i>. Basic Books. <a href="Special_BookSources/9780465030781" class="internal mw-magiclink-isbn">ISBN 978-0-465-03078-1</a>. <a href="Special_BookSources/0465030785" class="internal mw-magiclink-isbn">ISBN 0-465-03078-5</a>. <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=2008g:00004">2008g:00004</a></li>
+<li><a href="Stanley_Jaki" title="Stanley Jaki">Stanley Jaki</a>, OSB, 2005. <i>The drama of the quantities</i>. <a rel="nofollow" class="external text" href="http://www.realviewbooks.com/">Real View Books.</a></li>
+<li><a href="Per_Lindstr%C3%B6m" title="Per Lindström">Per Lindström</a>, 1997, <i><a rel="nofollow" class="external text" href="http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.lnl/1235416274">Aspects of Incompleteness</a></i>, Lecture Notes in Logic v. 10.</li>
+<li><a href="../J.R._Lucas" title="J.R. Lucas" class="mw-redirect">J.R. Lucas</a>, FBA, 1970. <i>The Freedom of the Will</i>. Clarendon Press, Oxford, 1970.</li>
+<li><a href="Ernest_Nagel" title="Ernest Nagel">Ernest Nagel</a>, James Roy Newman, Douglas Hofstadter, 2002 (1958). <i>Gödel's Proof</i>, revised ed. <a href="Special_BookSources/0814758169" class="internal mw-magiclink-isbn">ISBN 0-8147-5816-9</a>. <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=2002i:03001">2002i:03001</a></li>
+<li><a href="Rudy_Rucker" title="Rudy Rucker">Rudy Rucker</a>, 1995 (1982). <i>Infinity and the Mind: The Science and Philosophy of the Infinite</i>. Princeton Univ. Press. <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=84d:03012">84d:03012</a></li>
+<li>Smith, Peter, 2007. <i><a rel="nofollow" class="external text" href="http://www.godelbook.net/">An Introduction to Gödel's Theorems.</a></i> Cambridge University Press. <a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet/search/publdoc.html?arg3=&co4=AND&co5=AND&co6=AND&co7=AND&dr=all&pg4=AUCN&pg5=AUCN&pg6=PC&pg7=ALLF&pg8=ET&s4=Smith,%20Peter&s5=&s6=&s7=&s8=All&yearRangeFirst=&yearRangeSecond=&yrop=eq&r=2&mx-pid=2384958">MathSciNet</a></li>
+<li>N. Shankar, 1994. <i>Metamathematics, Machines and Gödel's Proof</i>, Volume 38 of Cambridge tracts in theoretical computer science. <a href="Special_BookSources/0521585333" class="internal mw-magiclink-isbn">ISBN 0-521-58533-3</a></li>
+<li><a href="Raymond_Smullyan" title="Raymond Smullyan">Raymond Smullyan</a>, 1991. <i>Godel's Incompleteness Theorems</i>. Oxford Univ. Press.</li>
+<li>—, 1994. <i>Diagonalization and Self-Reference</i>. Oxford Univ. Press. <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=96c:03001">96c:03001</a></li>
+<li><a href="Hao_Wang_(academic)" title="Hao Wang (academic)">Hao Wang</a>, 1997. <i>A Logical Journey: From Gödel to Philosophy</i>. MIT Press. <a href="Special_BookSources/0262231891" class="internal mw-magiclink-isbn">ISBN 0-262-23189-1</a> <a href="Mathematical_Reviews" title="Mathematical Reviews">MR</a><a rel="nofollow" class="external text" href="http://www.ams.org/mathscinet-getitem?mr=97m:01090">97m:01090</a></li>
+</ul>
+<h3> <span class="mw-headline" id="Miscellaneous_references">Miscellaneous references</span></h3>
+<ul>
+<li>Francesco Berto. "The Gödel Paradox and Wittgenstein's Reasons" <i>Philosophia Mathematica</i> (III) 17. 2009.</li>
+<li><a href="../John_W._Dawson,_Jr" title="John W. Dawson, Jr">John W. Dawson, Jr</a>., 1997. <i>Logical Dilemmas: The Life and Work of Kurt Gödel</i>, A.K. Peters, Wellesley Mass, <a href="Special_BookSources/1568812566" class="internal mw-magiclink-isbn">ISBN 1-56881-256-6</a>.</li>
+<li><a href="Rebecca_Goldstein" title="Rebecca Goldstein">Goldstein, Rebecca</a>, 2005, <i>Incompleteness: the Proof and Paradox of Kurt Gödel</i>, W. W. Norton &amp; Company. <a href="Special_BookSources/0393051692" class="internal mw-magiclink-isbn">ISBN 0-393-05169-2</a></li>
+<li>Juliet Floyd and Hilary Putnam, 2000, "A Note on Wittgenstein's 'Notorious Paragraph' About the Gödel Theorem", <i>Journal of Philosophy</i> v. 97 n. 11, pp.&#160;624–632.</li>
+<li><a href="Carl_Hewitt" title="Carl Hewitt">Carl Hewitt</a>, 2008, "Large-scale Organizational Computing requires Unstratified Reflection and Strong Paraconsistency", <i>Coordination, Organizations, Institutions, and Norms in Agent Systems III</i>, Springer-Verlag.</li>
+<li><a href="David_Hilbert" title="David Hilbert">David Hilbert</a> and <a href="Paul_Bernays" title="Paul Bernays">Paul Bernays</a>, <i>Grundlagen der Mathematik</i>, Springer-Verlag.</li>
+<li>John Hopcroft and Jeffrey Ullman 1979, <i>Introduction to Automata theory</i>, Addison-Wesley, <a href="Special_BookSources/020102988X" class="internal mw-magiclink-isbn">ISBN 0-201-02988-X</a></li>
+<li>James P. Jones, <i><a rel="nofollow" class="external text" href="http://www.ams.org/bull/1980-03-02/S0273-0979-1980-14832-6/S0273-0979-1980-14832-6.pdf">Undecidable Diophantine Equations</a></i>, Bulletin of the American Mathematical Society v. 3 n. 2, 1980, pp.&#160;859–862.</li>
+<li><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Stephen Cole Kleene</a>, 1967, <i>Mathematical Logic</i>. Reprinted by Dover, 2002. <a href="Special_BookSources/0486425339" class="internal mw-magiclink-isbn">ISBN 0-486-42533-9</a></li>
+<li>Russell O'Connor, 2005, "<a rel="nofollow" class="external text" href="http://arxiv.org/abs/cs/0505034">Essential Incompleteness of Arithmetic Verified by Coq</a>", Lecture Notes in Computer Science v. 3603, pp.&#160;245–260.</li>
+<li><a href="Graham_Priest" title="Graham Priest">Graham Priest</a>, 2006, <i>In Contradiction: A Study of the Transconsistent</i>, Oxford University Press, <a href="Special_BookSources/0199263299" class="internal mw-magiclink-isbn">ISBN 0-19-926329-9</a></li>
+<li>Graham Priest, 2004, <i>Wittgenstein's Remarks on Gödel's Theorem</i> in Max Kölbel, ed., <i>Wittgenstein's lasting significance</i>, Psychology Press, pp.&#160;207–227.</li>
+<li>Graham Priest, 1984, "Logic of Paradox Revisited", <i>Journal of Philosophical Logic</i>, v. 13,` n. 2, pp.&#160;153–179</li>
+<li><a href="Hilary_Putnam" title="Hilary Putnam">Hilary Putnam</a>, 1960, <i>Minds and Machines</i> in <a href="Sidney_Hook" title="Sidney Hook">Sidney Hook</a>, ed., <i>Dimensions of Mind: A Symposium</i>. New York University Press. Reprinted in Anderson, A. R., ed., 1964. <i>Minds and Machines</i>. Prentice-Hall: 77.</li>
+<li><span class="citation" id="CITEREFRautenberg2010"><a href="Wolfgang_Rautenberg" title="Wolfgang Rautenberg">Rautenberg, Wolfgang</a> (2010), <a rel="nofollow" class="external text" href="http://www.springerlink.com/content/978-1-4419-1220-6/"><i>A Concise Introduction to Mathematical Logic</i></a> (3rd ed.), <a href="New_York_City" title="New York City">New York</a>: <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer Science+Business Media</a>, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/978-1-4419-1221-3">10.1007/978-1-4419-1221-3</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-4419-1220-6" title="Special:BookSources/978-1-4419-1220-6">978-1-4419-1220-6</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.springerlink.com/content/978-1-4419-1220-6/">http://www.springerlink.com/content/978-1-4419-1220-6/</a></span></span>.</li>
+<li>Victor Rodych, 2003, "Misunderstanding Gödel: New Arguments about Wittgenstein and New Remarks by Wittgenstein", <i>Dialectica</i> v. 57 n. 3, pp.&#160;279–313. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1111/j.1746-8361.2003.tb00272.x">10.1111/j.1746-8361.2003.tb00272.x</a></li>
+<li><a href="Stewart_Shapiro" title="Stewart Shapiro">Stewart Shapiro</a>, 2002, "Incompleteness and Inconsistency", <i>Mind</i>, v. 111, pp 817–32. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1093/mind/111.444.817">10.1093/mind/111.444.817</a></li>
+<li><a href="Alan_Sokal" title="Alan Sokal">Alan Sokal</a> and <a href="Jean_Bricmont" title="Jean Bricmont">Jean Bricmont</a>, 1999, <i><a href="Fashionable_Nonsense" title="Fashionable Nonsense">Fashionable Nonsense</a>: Postmodern Intellectuals' Abuse of Science</i>, Picador. <a href="Special_BookSources/0312204078" class="internal mw-magiclink-isbn">ISBN 0-312-20407-8</a></li>
+<li>Joseph R. Shoenfield (1967), <i>Mathematical Logic</i>. Reprinted by A.K. Peters for the Association of Symbolic Logic, 2001. <a href="Special_BookSources/9781568811352" class="internal mw-magiclink-isbn">ISBN 978-1-56881-135-2</a></li>
+<li><a href="Jeremy_Stangroom" title="Jeremy Stangroom">Jeremy Stangroom</a> and <a href="Ophelia_Benson" title="Ophelia Benson">Ophelia Benson</a>, <i>Why Truth Matters</i>, Continuum. <a href="Special_BookSources/0826495281" class="internal mw-magiclink-isbn">ISBN 0-8264-9528-1</a></li>
+<li>George Tourlakis, <i>Lectures in Logic and Set Theory, Volume 1, Mathematical Logic</i>, Cambridge University Press, 2003. <a href="Special_BookSources/9780521753739" class="internal mw-magiclink-isbn">ISBN 978-0-521-75373-9</a></li>
+<li><span class="citation" id="CITEREFWigderson2010"><a href="Avi_Wigderson" title="Avi Wigderson">Wigderson, Avi</a> (2010), <a rel="nofollow" class="external text" href="http://www.math.ias.edu/~avi/BOOKS/Godel_Widgerson_Text.pdf">"The Gödel Phenomena in Mathematics: A Modern View"</a>, <i>Kurt Gödel and the Foundations of Mathematics: Horizons of Truth</i>, Cambridge University Press<span class="printonly">, <a rel="nofollow" class="external free" href="http://www.math.ias.edu/~avi/BOOKS/Godel_Widgerson_Text.pdf">http://www.math.ias.edu/~avi/BOOKS/Godel_Widgerson_Text.pdf</a></span></span></li>
+<li><a href="Hao_Wang_(academic)" title="Hao Wang (academic)">Hao Wang</a>, 1996, <i>A Logical Journey: From Gödel to Philosophy</i>, The MIT Press, Cambridge MA, <a href="Special_BookSources/0262231891" class="internal mw-magiclink-isbn">ISBN 0-262-23189-1</a>.</li>
+<li>Richard Zach, 2006, <a rel="nofollow" class="external text" href="http://www.ucalgary.ca/~rzach/static/hptn.pdf">"Hilbert's program then and now"</a>, in <i>Philosophy of Logic</i>, Dale Jacquette (ed.), Handbook of the Philosophy of Science, v. 5., Elsevier, pp.&#160;411–447.</li>
+</ul>
+<h2> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.bbc.co.uk/programmes/b00dshx3">Godel's Incompleteness Theorems</a> on <a href="In_Our_Time_(BBC_Radio_4)" title="In Our Time (BBC Radio 4)"><i>In Our Time</i></a> at the <a href="BBC" title="BBC">BBC</a>. (<a rel="nofollow" class="external text" href="http://www.bbc.co.uk/iplayer/console/b00dshx3/In_Our_Time_Godel's_Incompleteness_Theorems">listen now</a>)</li>
+</ul>
+<ul>
+<li><a href="Stanford_Encyclopedia_of_Philosophy" title="Stanford Encyclopedia of Philosophy">Stanford Encyclopedia of Philosophy</a>: "<a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/goedel/">Kurt Gödel</a>" — by Juliette Kennedy.</li>
+<li>MacTutor biographies:
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Godel.html">Kurt Gödel.</a></li>
+<li><a rel="nofollow" class="external text" href="http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Gentzen.html">Gerhard Gentzen.</a></li>
+<li><a rel="nofollow" class="external text" href="http://podnieks.id.lv/gt.html">What is Mathematics:Gödel's Theorem and Around</a> by <i>Karlis Podnieks</i>. An online free book.</li>
+</ul>
+</li>
+<li><a rel="nofollow" class="external text" href="http://blog.plover.com/math/Gdl-Smullyan.html">World's shortest explanation of Gödel's theorem</a> using a printing machine as an example.</li>
+<li><a rel="nofollow" class="external text" href="http://www.radiolab.org/2011/oct/04/break-cycle/">October 2011 RadioLab episode</a> about/including Gödel's Incompleteness theorem</li>
+<li><span class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel, ed. (2001), <a rel="nofollow" class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/g044530">"Gödel incompleteness theorem"</a>, <i><a href="Encyclopedia_of_Mathematics" title="Encyclopedia of Mathematics">Encyclopedia of Mathematics</a></i>, <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-1-55608-010-4" title="Special:BookSources/978-1-55608-010-4">978-1-55608-010-4</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www.encyclopediaofmath.org/index.php?title=p/g044530">http://www.encyclopediaofmath.org/index.php?title=p/g044530</a></span></span></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Logic" title="Template:Logic"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Logic" title="Template talk:Logic"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Logic&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Logic" title="Logic">Logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Overview</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Academic areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Argumentation_theory" title="Argumentation theory">Argumentation theory</a></li>
+<li><a href="Axiology" title="Axiology">Axiology</a></li>
+<li><a href="Critical_thinking" title="Critical thinking">Critical thinking</a></li>
+<li><a href="Computability_theory" title="Computability theory">Computability theory</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="History_of_logic" title="History of logic">History of logic</a></li>
+<li><a href="Informal_logic" title="Informal logic">Informal logic</a></li>
+<li><a href="Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></li>
+<li><a href="Mathematics" title="Mathematics">Mathematics</a></li>
+<li><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+<li><a href="Model_theory" title="Model theory">Model theory</a></li>
+<li><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></li>
+<li><a href="Philosophy" title="Philosophy">Philosophy</a></li>
+<li><a href="Philosophy_of_logic" title="Philosophy of logic">Philosophy of logic</a></li>
+<li><a href="Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><a href="Proof_theory" title="Proof theory">Proof theory</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Foundations</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Abductive_reasoning" title="Abductive reasoning">Abduction</a></li>
+<li><a href="Analytic%E2%80%93synthetic_distinction" title="Analytic–synthetic distinction">Analytic truth</a></li>
+<li><a href="Antinomy" title="Antinomy">Antinomy</a></li>
+<li><a href="A_priori_and_a_posteriori" title="A priori and a posteriori">A priori</a></li>
+<li><a href="Deductive_reasoning" title="Deductive reasoning">Deduction</a></li>
+<li><a href="Definition" title="Definition">Definition</a></li>
+<li><a href="Description" title="Description">Description</a></li>
+<li><a href="Inductive_reasoning" title="Inductive reasoning">Induction</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Logical_form" title="Logical form">Logical form</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Logical_truth" title="Logical truth">Logical truth</a></li>
+<li><a href="Name" title="Name">Name</a></li>
+<li><a href="Necessary_and_sufficient_condition" title="Necessary and sufficient condition" class="mw-redirect">Necessity</a></li>
+<li><a href="Meaning_(linguistics)" title="Meaning (linguistics)">Meaning</a></li>
+<li><a href="Paradox" title="Paradox">Paradox</a></li>
+<li><a href="Possible_world" title="Possible world">Possible world</a></li>
+<li><a href="Presupposition" title="Presupposition">Presupposition</a></li>
+<li><a href="Probability" title="Probability">Probability</a></li>
+<li><a href="Reason" title="Reason">Reason</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Reference" title="Reference">Reference</a></li>
+<li><a href="Semantics" title="Semantics">Semantics</a></li>
+<li><a href="Statement_(logic)" title="Statement (logic)">Statement</a></li>
+<li><a href="Strict_implication" title="Strict implication" class="mw-redirect">Strict implication</a></li>
+<li><a href="Substitution_(logic)" title="Substitution (logic)">Substitution</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Truth" title="Truth">Truth</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Philosophical_logic" title="Philosophical logic">Philosophical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Critical_thinking" title="Critical thinking">Critical thinking</a><br />
+<a href="Informal_logic" title="Informal logic">Informal logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Philosophical_analysis" title="Philosophical analysis">Analysis</a></li>
+<li><a href="Ambiguity" title="Ambiguity">Ambiguity</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Belief" title="Belief">Belief</a></li>
+<li><a href="Bias" title="Bias">Bias</a></li>
+<li><a href="Credibility" title="Credibility">Credibility</a></li>
+<li><a href="Evidence" title="Evidence">Evidence</a></li>
+<li><a href="Explanation" title="Explanation">Explanation</a></li>
+<li><a href="Explanatory_power" title="Explanatory power">Explanatory power</a></li>
+<li><a href="Fact" title="Fact">Fact</a></li>
+<li><a href="Fallacy" title="Fallacy">Fallacy</a></li>
+<li><a href="Inquiry" title="Inquiry">Inquiry</a></li>
+<li><a href="Opinion" title="Opinion">Opinion</a></li>
+<li><a href="Occam's_razor" title="Occam's razor">Parsimony</a></li>
+<li><a href="Premise" title="Premise">Premise</a></li>
+<li><a href="Propaganda" title="Propaganda">Propaganda</a></li>
+<li><a href="Prudence" title="Prudence">Prudence</a></li>
+<li><a href="Reason" title="Reason">Reasoning</a></li>
+<li><a href="Relevance" title="Relevance">Relevance</a></li>
+<li><a href="Rhetoric" title="Rhetoric">Rhetoric</a></li>
+<li><a href="Rigour" title="Rigour">Rigor</a></li>
+<li><a href="Vagueness" title="Vagueness">Vagueness</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Philosophy_of_logic" title="Philosophy of logic">Theories of<br />
+deduction</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Constructivism_(mathematics)" title="Constructivism (mathematics)">Constructivism</a></li>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+<li><a href="Fictionalism" title="Fictionalism">Fictionalism</a></li>
+<li><a href="Finitism" title="Finitism">Finitism</a></li>
+<li><a href="Formalism_(mathematics)" title="Formalism (mathematics)">Formalism</a></li>
+<li><a href="Intuitionism" title="Intuitionism">Intuitionism</a></li>
+<li><a href="Logical_atomism" title="Logical atomism">Logical atomism</a></li>
+<li><a href="Logicism" title="Logicism">Logicism</a></li>
+<li><a href="Nominalism" title="Nominalism">Nominalism</a></li>
+<li><a href="Platonic_realism" title="Platonic realism">Platonic realism</a></li>
+<li><a href="Pragmatism" title="Pragmatism">Pragmatism</a></li>
+<li><a href="Philosophical_realism" title="Philosophical realism">Realism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">
+<div class="hlist" style="margin-left:0em;">
+<div class="plainlist">
+<ul style="">
+<li style=""><a href="Metalogic" title="Metalogic">Metalogic</a></li>
+<li style=""><a href="Metamathematics" title="Metamathematics">Metamathematics</a></li>
+</ul>
+</div>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cantor's_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+<li><a href="Entscheidungsproblem" title="Entscheidungsproblem">Church's theorem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church's thesis</a></li>
+<li><a href="Consistency" title="Consistency">Consistency</a></li>
+<li><a href="Effective_method" title="Effective method">Effective method</a></li>
+<li><a href="Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></li>
+<li><a href="G%C3%B6del's_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a></li>
+<li><strong class="selflink">Gödel's incompleteness theorems</strong></li>
+<li><a href="Soundness" title="Soundness">Soundness</a></li>
+<li><a href="Completeness" title="Completeness">Completeness</a></li>
+<li><a href="Decidability_(logic)" title="Decidability (logic)">Decidability</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a></li>
+<li><a href="Metatheorem" title="Metatheorem">Metatheorem</a></li>
+<li><a href="Satisfiability" title="Satisfiability">Satisfiability</a></li>
+<li><a href="Independence_(mathematical_logic)" title="Independence (mathematical logic)">Independence</a></li>
+<li><a href="Type%E2%80%93token_distinction" title="Type–token distinction">Type–token distinction</a></li>
+<li><a href="Use%E2%80%93mention_distinction" title="Use–mention distinction">Use–mention distinction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Mathematical_logic" title="Mathematical logic">Mathematical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="Formation_rule" title="Formation rule">Formation rule</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="Well-formed_formula" title="Well-formed formula">Well-formed formula</a></li>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Element_(mathematics)" title="Element (mathematics)">Element</a></li>
+<li><a href="Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li><a href="Classical_logic" title="Classical logic">Classical logic</a></li>
+<li><a href="Axiom" title="Axiom">Axiom</a></li>
+<li><a href="Natural_deduction" title="Natural deduction">Natural deduction</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Finitary_relation" title="Finitary relation">Relation</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Axiomatic_system" title="Axiomatic system">Axiomatic system</a></li>
+<li><a href="Type_theory" title="Type theory">Type theory</a></li>
+<li><a href="Symbol_(formal)" title="Symbol (formal)">Symbol</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Term_logic" title="Term logic">Traditional logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Proposition" title="Proposition">Proposition</a></li>
+<li><a href="Inference" title="Inference">Inference</a></li>
+<li><a href="Argument" title="Argument">Argument</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+<li><a href="Cogency" title="Cogency">Cogency</a></li>
+<li><a href="Syllogism" title="Syllogism">Syllogism</a></li>
+<li><a href="Square_of_opposition" title="Square of opposition">Square of opposition</a></li>
+<li><a href="Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a><br />
+<a href="Boolean_algebra" title="Boolean algebra">Boolean logic</a></div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Boolean_function" title="Boolean function">Boolean functions</a></li>
+<li><a href="Propositional_calculus" title="Propositional calculus">Propositional calculus</a></li>
+<li><a href="Propositional_formula" title="Propositional formula">Propositional formula</a></li>
+<li><a href="Logical_connective" title="Logical connective">Logical connectives</a></li>
+<li><a href="Truth_table" title="Truth table">Truth tables</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Predicate_logic" title="Predicate logic">Predicate logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="First-order_logic" title="First-order logic">First-order</a></li>
+<li><a href="Quantification" title="Quantification">Quantifiers</a></li>
+<li><a href="Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a></li>
+<li><a href="Second-order_logic" title="Second-order logic">Second-order</a></li>
+<li><a href="Monadic_predicate_calculus" title="Monadic predicate calculus">Monadic predicate calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Set_theory" title="Set theory">Set theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="Empty_set" title="Empty set">Empty set</a></li>
+<li><a href="Enumeration" title="Enumeration">Enumeration</a></li>
+<li><a href="Extensionality" title="Extensionality">Extensionality</a></li>
+<li><a href="Finite_set" title="Finite set">Finite set</a></li>
+<li><a href="Function_(mathematics)" title="Function (mathematics)">Function</a></li>
+<li><a href="Subset" title="Subset">Subset</a></li>
+<li><a href="Power_set" title="Power set">Power set</a></li>
+<li><a href="Countable_set" title="Countable set">Countable set</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Domain_of_a_function" title="Domain of a function">Domain</a></li>
+<li><a href="Range_(mathematics)" title="Range (mathematics)">Range</a></li>
+<li><a href="Ordered_pair" title="Ordered pair">Ordered pair</a></li>
+<li><a href="Uncountable_set" title="Uncountable set">Uncountable set</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Model_theory" title="Model theory">Model theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a></li>
+<li><a href="Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="Non-standard_model" title="Non-standard model">Non-standard model</a></li>
+<li><a href="Finite_model_theory" title="Finite model theory">Finite model theory</a></li>
+<li><a href="Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Proof_theory" title="Proof theory">Proof theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="Theorem" title="Theorem">Theorem</a></li>
+<li><a href="Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computability_theory" title="Computability theory">Computability theory</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Recursion" title="Recursion">Recursion</a></li>
+<li><a href="Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="Recursively_enumerable_set" title="Recursively enumerable set">Recursively enumerable set</a></li>
+<li><a href="Decision_problem" title="Decision problem">Decision problem</a></li>
+<li><a href="Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a></li>
+<li><a href="Computable_function" title="Computable function">Computable function</a></li>
+<li><a href="Primitive_recursive_function" title="Primitive recursive function">Primitive recursive function</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="Non-classical_logic" title="Non-classical logic">Non-classical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Modal_logic" title="Modal logic">Modal logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Modal_logic#Alethic_modalities" title="Modal logic">Alethic</a></li>
+<li><a href="Modal_operator#Axiological" title="Modal operator">Axiologic</a></li>
+<li><a href="Deontic_logic" title="Deontic logic">Deontic</a></li>
+<li><a href="Doxastic_logic" title="Doxastic logic">Doxastic</a></li>
+<li><a href="Epistemic_modal_logic" title="Epistemic modal logic">Epistemic</a></li>
+<li><a href="Temporal_logic" title="Temporal logic">Temporal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Intuitionism" title="Intuitionism">Intuitionism</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li>
+<li><a href="Constructive_analysis" title="Constructive analysis">Constructive analysis</a></li>
+<li><a href="Heyting_arithmetic" title="Heyting arithmetic">Heyting arithmetic</a></li>
+<li><a href="Intuitionistic_type_theory" title="Intuitionistic type theory">Intuitionistic type theory</a></li>
+<li><a href="Constructive_set_theory" title="Constructive set theory">Constructive set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Degree_of_truth" title="Degree of truth">Degree of truth</a></li>
+<li><a href="Fuzzy_rule" title="Fuzzy rule">Fuzzy rule</a></li>
+<li><a href="Fuzzy_set" title="Fuzzy set">Fuzzy set</a></li>
+<li><a href="Fuzzy_finite_element" title="Fuzzy finite element">Fuzzy finite element</a></li>
+<li><a href="Fuzzy_set_operations" title="Fuzzy set operations">Fuzzy set operations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Substructural_logic" title="Substructural logic">Substructural logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Structural_rule" title="Structural rule">Structural rule</a></li>
+<li><a href="Relevance_logic" title="Relevance logic">Relevance logic</a></li>
+<li><a href="Linear_logic" title="Linear logic">Linear logic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Paraconsistent_logic" title="Paraconsistent logic">Paraconsistent logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dialetheism" title="Dialetheism">Dialetheism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Description_logic" title="Description logic">Description logic</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ontology" title="Ontology">Ontology</a></li>
+<li><a href="Ontology_language" title="Ontology language">Ontology language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logicians" title="List of logicians">Logicians</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Alan_Ross_Anderson" title="Alan Ross Anderson">Anderson</a></li>
+<li><a href="Aristotle" title="Aristotle">Aristotle</a></li>
+<li><a href="Averroes" title="Averroes">Averroes</a></li>
+<li><a href="Avicenna" title="Avicenna">Avicenna</a></li>
+<li><a href="Alexander_Bain" title="Alexander Bain">Bain</a></li>
+<li><a href="Jon_Barwise" title="Jon Barwise">Barwise</a></li>
+<li><a href="Paul_Bernays" title="Paul Bernays">Bernays</a></li>
+<li><a href="George_Boole" title="George Boole">Boole</a></li>
+<li><a href="George_Boolos" title="George Boolos">Boolos</a></li>
+<li><a href="Georg_Cantor" title="Georg Cantor">Cantor</a></li>
+<li><a href="Rudolf_Carnap" title="Rudolf Carnap">Carnap</a></li>
+<li><a href="Alonzo_Church" title="Alonzo Church">Church</a></li>
+<li><a href="Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="Haskell_Curry" title="Haskell Curry">Curry</a></li>
+<li><a href="Augustus_De_Morgan" title="Augustus De Morgan">De Morgan</a></li>
+<li><a href="Gottlob_Frege" title="Gottlob Frege">Frege</a></li>
+<li><a href="Peter_Geach" title="Peter Geach">Geach</a></li>
+<li><a href="Gerhard_Gentzen" title="Gerhard Gentzen">Gentzen</a></li>
+<li><a href="Kurt_G%C3%B6del" title="Kurt Gödel">Gödel</a></li>
+<li><a href="David_Hilbert" title="David Hilbert">Hilbert</a></li>
+<li><a href="Stephen_Cole_Kleene" title="Stephen Cole Kleene">Kleene</a></li>
+<li><a href="Saul_Kripke" title="Saul Kripke">Kripke</a></li>
+<li><a href="Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a></li>
+<li><a href="Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Löwenheim</a></li>
+<li><a href="Giuseppe_Peano" title="Giuseppe Peano">Peano</a></li>
+<li><a href="Charles_Sanders_Peirce" title="Charles Sanders Peirce">Peirce</a></li>
+<li><a href="Hilary_Putnam" title="Hilary Putnam">Putnam</a></li>
+<li><a href="Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Quine</a></li>
+<li><a href="Bertrand_Russell" title="Bertrand Russell">Russell</a></li>
+<li><a href="Ernst_Schr%C3%B6der" title="Ernst Schröder">Schröder</a></li>
+<li><a href="Duns_Scotus" title="Duns Scotus">Scotus</a></li>
+<li><a href="Thoralf_Skolem" title="Thoralf Skolem">Skolem</a></li>
+<li><a href="Raymond_Smullyan" title="Raymond Smullyan">Smullyan</a></li>
+<li><a href="Alfred_Tarski" title="Alfred Tarski">Tarski</a></li>
+<li><a href="Alan_Turing" title="Alan Turing">Turing</a></li>
+<li><a href="Alfred_North_Whitehead" title="Alfred North Whitehead">Whitehead</a></li>
+<li><a href="William_of_Ockham" title="William of Ockham">William of Ockham</a></li>
+<li><a href="Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Wittgenstein</a></li>
+<li><a href="Ernst_Zermelo" title="Ernst Zermelo">Zermelo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;">Lists</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";;">Topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Index_of_logic_articles" title="Index of logic articles">Index of logic articles</a></li>
+<li><a href="List_of_mathematical_logic_topics" title="List of mathematical logic topics">Mathematical logic</a></li>
+<li><a href="List_of_Boolean_algebra_topics" title="List of Boolean algebra topics">Boolean algebra</a></li>
+<li><a href="List_of_set_theory_topics" title="List of set theory topics">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Other</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="List_of_logicians" title="List of logicians">Logicians</a></li>
+<li><a href="List_of_rules_of_inference" title="List of rules of inference">Rules of inference</a></li>
+<li><a href="List_of_paradoxes" title="List of paradoxes">Paradoxes</a></li>
+<li><a href="List_of_fallacies" title="List of fallacies">Fallacies</a></li>
+<li><a href="List_of_logic_symbols" title="List of logic symbols">Logic symbols</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="col" style=";;" class="navbox-title" colspan="2"><span style="float:left;width:6em;">&#160;</span>
+<div class="" style="font-size:110%;"><a href="List_of_logic_symbols" title="List of logic symbols">Common logical symbols</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td colspan="2" style="width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<div style="font-size:130%;">
+<p><a href="Ampersand" title="Ampersand">&amp;</a>&#160; &#160; <a href="Vel_(symbol)" title="Vel (symbol)">∨</a>&#160; &#160; <a href="Negation" title="Negation">¬</a>&#160; &#160; <a href="Tilde" title="Tilde">~</a>&#160; &#160; <a href="Arrow_(symbol)" title="Arrow (symbol)">→</a>&#160; &#160; <a href="Horseshoe_(symbol)" title="Horseshoe (symbol)">⊃</a>&#160; &#160; <a href="Triple_bar" title="Triple bar">≡</a>&#160; &#160; <a href="Sheffer_stroke" title="Sheffer stroke"><span class="Unicode">|</span></a>&#160; &#160; <a href="Turned_A" title="Turned A">∀</a>&#160; &#160; <a href="Turned_E" title="Turned E">∃</a>&#160; &#160; <a href="Tee_(symbol)" title="Tee (symbol)">⊤</a>&#160; &#160; <a href="Up_tack" title="Up tack">⊥</a>&#160; &#160; <a href="Turnstile_(symbol)" title="Turnstile (symbol)">⊢</a>&#160; &#160; <a href="Double_turnstile" title="Double turnstile">⊨</a>&#160; &#160; <a href="Therefore_sign" title="Therefore sign">∴</a>&#160; &#160; <a href="Therefore_sign#Related_signs" title="Therefore sign">∵</a></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="2">
+<div>
+<ul>
+<li><a href="Portal_Logic" title="Portal:Logic">Portal</a></li>
+<li><a href="Category_Logic" title="Category:Logic">Category</a></li>
+<li><a href="Outline_of_logic" title="Outline of logic">Outline</a></li>
+<li><a href="Wikipedia_WikiProject_Logic" title="Wikipedia:WikiProject Logic">WikiProject</a></li>
+<li><a href="Wikipedia_talk_WikiProject_Logic" title="Wikipedia talk:WikiProject Logic">Talk</a></li>
+<li><a class="external text" href="../../w/index-title=Special_Recentchangeslinked&target=Template_Logic&hidebots=0.php.html">changes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 8709/1000000
+Preprocessor generated node count: 41740/1500000
+Post-expand include size: 202492/2048000 bytes
+Template argument size: 118078/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 2/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:58863-0!*!0!!en!4!* and timestamp 20130213061615 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=G%C3%B6del's_incompleteness_theorems&oldid=538001316.php.html">http://en.wikipedia.org/w/index.php?title=Gödel%27s_incompleteness_theorems&amp;oldid=538001316</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Theorems_in_the_foundations_of_mathematics" title="Category:Theorems in the foundations of mathematics">Theorems in the foundations of mathematics</a></li><li><a href="Category_Mathematical_logic" title="Category:Mathematical logic">Mathematical logic</a></li><li><a href="Category_Model_theory" title="Category:Model theory">Model theory</a></li><li><a href="Category_Proof_theory" title="Category:Proof theory">Proof theory</a></li><li><a href="Category_Epistemology" title="Category:Epistemology">Epistemology</a></li><li><a href="Category_Metatheorems" title="Category:Metatheorems">Metatheorems</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_semi-protected_pages" title="Category:Wikipedia semi-protected pages">Wikipedia semi-protected pages</a></li><li><a href="Category_Wikipedia_articles_needing_clarification_from_July_2009" title="Category:Wikipedia articles needing clarification from July 2009">Wikipedia articles needing clarification from July 2009</a></li><li><a href="Category_All_articles_with_specifically_marked_weasel-worded_phrases" title="Category:All articles with specifically marked weasel-worded phrases">All articles with specifically marked weasel-worded phrases</a></li><li><a href="Category_Articles_with_specifically_marked_weasel-worded_phrases_from_July_2012" title="Category:Articles with specifically marked weasel-worded phrases from July 2012">Articles with specifically marked weasel-worded phrases from July 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=G%C3%B6del's+incompleteness+theorems&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=G%C3%B6del's+incompleteness+theorems.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_G%C3%B6del's_incompleteness_theorems"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="../../w/index-title=G%C3%B6del's_incompleteness_theorems&action=edit.php.html"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=G%C3%B6del's_incompleteness_theorems&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/G%C3%B6del's_incompleteness_theorems" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/G%C3%B6del's_incompleteness_theorems" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=G%C3%B6del's_incompleteness_theorems&oldid=538001316.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=G%C3%B6del's_incompleteness_theorems&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=G%C3%B6del's_incompleteness_theorems&id=538001316.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=G%C3%B6del's+incompleteness+theorems.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=G%C3%B6del's+incompleteness+theorems&oldid=538001316&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=G%C3%B6del's_incompleteness_theorems&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%85%D8%A8%D8%B1%D9%87%D9%86%D8%A7%D8%AA_%D8%B9%D8%AF%D9%85_%D8%A7%D9%84%D8%A7%D9%83%D8%AA%D9%85%D8%A7%D9%84_%D9%84%D8%BA%D9%88%D8%AF%D9%84" title="مبرهنات عدم الاكتمال لغودل" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%BD%D0%B0_%D0%93%D1%8C%D0%BE%D0%B4%D0%B5%D0%BB_%D0%B7%D0%B0_%D0%BD%D0%B5%D0%BF%D1%8A%D0%BB%D0%BD%D0%BE%D1%82%D0%B0" title="Теорема на Гьодел за непълнота" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Teorema_d'incompletesa_de_G%C3%B6del" title="Teorema d'incompletesa de Gödel" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/G%C3%B6delovy_v%C4%9Bty_o_ne%C3%BAplnosti" title="Gödelovy věty o neúplnosti" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/G%C3%B6delscher_Unvollst%C3%A4ndigkeitssatz" title="Gödelscher Unvollständigkeitssatz" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/G%C3%B6deli_mittet%C3%A4ielikkuse_teoreem" title="Gödeli mittetäielikkuse teoreem" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%89%CF%81%CE%AE%CE%BC%CE%B1%CF%84%CE%B1_%CE%BC%CE%B7_%CF%80%CE%BB%CE%B7%CF%81%CF%8C%CF%84%CE%B7%CF%84%CE%B1%CF%82_%CF%84%CE%BF%CF%85_%CE%93%CE%BA%CE%AD%CE%BD%CF%84%CE%B5%CE%BB" title="Θεωρήματα μη πληρότητας του Γκέντελ" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Teoremas_de_incompletitud_de_G%C3%B6del" title="Teoremas de incompletitud de Gödel" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Teoremoj_de_nekompleteco" title="Teoremoj de nekompleteco" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%82%D8%B6%D8%A7%DB%8C%D8%A7%DB%8C_%D9%86%D8%A7%D8%AA%D9%85%D8%A7%D9%85%DB%8C%D8%AA_%DA%AF%D9%88%D8%AF%D9%84" title="قضایای ناتمامیت گودل" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8mes_d'incompl%C3%A9tude_de_G%C3%B6del" title="Théorèmes d'incomplétude de Gödel" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Teorema_da_incompletude_de_G%C3%B6del" title="Teorema da incompletude de Gödel" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%B6%88%EC%99%84%EC%A0%84%EC%84%B1_%EC%A0%95%EB%A6%AC" title="불완전성 정리" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/G%C3%B6delovi_teoremi_nepotpunosti" title="Gödelovi teoremi nepotpunosti" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Godel-teorio" title="Godel-teorio" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Teoremi_di_incompletezza_di_G%C3%B6del" title="Teoremi di incompletezza di Gödel" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%A4%D7%98%D7%99_%D7%94%D7%90%D7%99-%D7%A9%D7%9C%D7%9E%D7%95%D7%AA_%D7%A9%D7%9C_%D7%92%D7%93%D7%9C" title="משפטי האי-שלמות של גדל" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%92%E1%83%9D%E1%83%93%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1_%E1%83%90%E1%83%A0%E1%83%90%E1%83%A1%E1%83%A0%E1%83%A3%E1%83%9A%E1%83%9D%E1%83%91%E1%83%98%E1%83%A1_%E1%83%97%E1%83%94%E1%83%9D%E1%83%A0%E1%83%94%E1%83%9B%E1%83%94%E1%83%91%E1%83%98" title="გოდელის არასრულობის თეორემები" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/G%C3%B6del_els%C5%91_nemteljess%C3%A9gi_t%C3%A9tele" title="Gödel első nemteljességi tétele" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Onvolledigheidsstellingen_van_G%C3%B6del" title="Onvolledigheidsstellingen van Gödel" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%BC%E3%83%87%E3%83%AB%E3%81%AE%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%A7%E5%AE%9A%E7%90%86" title="ゲーデルの不完全性定理" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/G%C3%B6dels_ufullstendighetsteoremer" title="Gödels ufullstendighetsteoremer" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Ufullstendigheitsteorema" title="Ufullstendigheitsteorema" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Teoreme_de_G%C3%B6del" title="Teoreme de Gödel" lang="nov" hreflang="nov">Novial</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Twierdzenie_G%C3%B6dla" title="Twierdzenie Gödla" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Teoremas_da_incompletude_de_G%C3%B6del" title="Teoremas da incompletude de Gödel" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%93%D1%91%D0%B4%D0%B5%D0%BB%D1%8F_%D0%BE_%D0%BD%D0%B5%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%82%D0%B5" title="Теорема Гёделя о неполноте" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/Tiurema_d'incumplitizza_di_G%C3%B6del" title="Tiurema d'incumplitizza di Gödel" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems" title="Gödel's incompleteness theorems" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/G%C3%B6delova_veta_o_ne%C3%BAplnosti" title="Gödelova veta o neúplnosti" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%93%D0%B5%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5_%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B5_%D0%BE_%D0%BD%D0%B5%D0%BF%D0%BE%D1%82%D0%BF%D1%83%D0%BD%D0%BE%D1%81%D1%82%D0%B8" title="Геделове теореме о непотпуности" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/G%C3%B6delin_ep%C3%A4t%C3%A4ydellisyyslause" title="Gödelin epätäydellisyyslause" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/G%C3%B6dels_ofullst%C3%A4ndighetssatser" title="Gödels ofullständighetssatser" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%A1%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B9%80%E0%B8%94%E0%B8%A5" title="ทฤษฎีบทความไม่สมบูรณ์ของเกอเดล" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/G%C3%B6del'in_eksiklik_teoremi" title="Gödel'in eksiklik teoremi" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B8_%D0%93%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE_%D0%BD%D0%B5%D0%BF%D0%BE%D0%B2%D0%BD%D0%BE%D1%82%D1%83" title="Теореми Геделя про неповноту" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86" title="哥德尔不完备定理" lang="zh" hreflang="zh">中文</a></li>
+			<li class="wbc-editpage"><a href="http://www.wikidata.org/wiki/Special:ItemByTitle/enwiki/G%C3%B6del's%20incompleteness%20theorems" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 06:16.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/G%C3%B6del's_incompleteness_theorems" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","mobile.desktop","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","wikibase.client.init","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1061 in 0.165 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

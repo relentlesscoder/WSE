@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Multitier architecture - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Multitier_architecture&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Multitier_architecture&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Multitier_architecture","wgTitle":"Multitier architecture","wgCurRevisionId":538079816,"wgArticleId":20003,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles needing additional references from January 2008","All articles needing additional references","Articles with specifically marked weasel-worded phrases from February 2013","All articles with minor POV problems","Articles with minor POV problems from February 2013","Distributed computing architecture","Software architecture","World Wide Web","Architectural pattern (computer science)"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Multitier_architecture","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"a3345762328bd8bd175e6389bdf492ec","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":20003,"title":"Multitier architecture","namespace":0,"categories":["All articles needing additional references","All articles with minor POV problems","Architectural pattern (computer science)","Articles needing additional references from January 2008","Articles with minor POV problems from February 2013","Articles with specifically marked weasel-worded phrases from February 2013","Distributed computing architecture","Software architecture","World Wide Web"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Multitier_architecture skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Multitier architecture</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For other uses, see <a href="Three-tier_system_(disambiguation)" title="Three-tier system (disambiguation)" class="mw-redirect">Three-tier system (disambiguation)</a>.</div>
+<table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Multitier_architecture&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(January 2008)</i></small> </span></td>
+</tr>
+</table>
+<p>In <a href="Software_engineering" title="Software engineering">software engineering</a>, <b>multi-tier architecture</b> (often referred to as <b>n-tier architecture</b>) is a <a href="Client%E2%80%93server_architecture" title="Client–server architecture" class="mw-redirect">client–server architecture</a> in which presentation, application processing, and data management functions are logically separated. For example, an application that uses <a href="Middleware_(distributed_applications)" title="Middleware (distributed applications)">middleware</a> to service data requests between a user and a <a href="Database" title="Database">database</a> employs multi-tier architecture. The most widespread use of multi-tier architecture is the <b>three-tier architecture</b>.</p>
+<p><b>N-tier application architecture</b> provides a model by which developers can create flexible and reusable applications. By segregating an application into tiers, developers acquire the option of modifying or adding a specific layer, instead of reworking the entire application. <b>Three-tier</b> architectures typically comprise a <i>presentation</i> tier, a <i>business</i> or <i>data access</i> tier, and a <i>data</i> tier.</p>
+<p>While the concepts of layer and tier are often used interchangeably, one fairly common point of view is that there is indeed a difference. This view holds that a <i>layer</i> is a logical structuring mechanism for the elements that make up the software solution, while a <i>tier</i> is a physical structuring mechanism for the system infrastructure.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> <sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>There have been growing concerns<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Avoid_weasel_words" title="Wikipedia:Avoid weasel words" class="mw-redirect"><span title="The material in the vicinity of this tag may use weasel words or too-vague attribution. from February 2013">by whom?</span></a></i>]</sup> in recent years that many organizations are facing an excessive number of layers in their multi-layered architecture. These concerns stem from sprawling application architectures that are not well designed or managed, in which development teams create an ever-growing number of "wrapper" layers that compromise maintainability. The resulting architecture resembles a <a href="Rube_Goldberg_Machine" title="Rube Goldberg Machine" class="mw-redirect">Rube Goldberg Machine</a> that scares organizations from solving the root cause of the sprawling layers, resulting in the creation of more layers.<sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Neutral_point_of_view" title="Wikipedia:Neutral point of view"><span title="This statement may not be entirely without bias from February 2013">neutrality</span></a> is <a href="Talk_Multitier_architecture" title="Talk:Multitier architecture">disputed</a></i>]</sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Three-tier_architecture"><span class="tocnumber">1</span> <span class="toctext">Three-tier architecture</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Comparison_with_the_MVC_architecture"><span class="tocnumber">1.1</span> <span class="toctext">Comparison with the MVC architecture</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Web_development_usage"><span class="tocnumber">1.2</span> <span class="toctext">Web development usage</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Other_considerations"><span class="tocnumber">1.3</span> <span class="toctext">Other considerations</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Traceability"><span class="tocnumber">2</span> <span class="toctext">Traceability</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Comments"><span class="tocnumber">2.1</span> <span class="toctext">Comments</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">3</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#External_links"><span class="tocnumber">4</span> <span class="toctext">External links</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=1.php.html" title="Edit section: Three-tier architecture">edit</a>]</span> <span class="mw-headline" id="Three-tier_architecture">Three-tier architecture</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:402px;"><a href="http://en.wikipedia.org/wiki/File:Overview_of_a_three-tier_application_vectorVersion.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/400px-Overview_of_a_three-tier_application_vectorVersion.svg.png" width="400" height="358" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/600px-Overview_of_a_three-tier_application_vectorVersion.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/51/Overview_of_a_three-tier_application_vectorVersion.svg/800px-Overview_of_a_three-tier_application_vectorVersion.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Overview_of_a_three-tier_application_vectorVersion.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Visual overview of a Three-tiered application</div>
+</div>
+</div>
+<p><i>Three-tier</i><sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> is a <a href="Client%E2%80%93server_architecture" title="Client–server architecture" class="mw-redirect">client–server architecture</a> in which the <a href="User_interface" title="User interface">user interface</a>, <a href="Business_logic_layer" title="Business logic layer">functional process logic</a> ("business rules"), <a href="Computer_data_storage" title="Computer data storage">computer data storage</a> and <a href="Data_access" title="Data access">data access</a> are developed and maintained as independent <a href="Module_(computing)" title="Module (computing)" class="mw-redirect">modules</a>, most often on separate <a href="Platform_(computing)" title="Platform (computing)" class="mw-redirect">platforms</a>. It was developed by <a href="../John_J._Donovan" title="John J. Donovan">John J. Donovan</a> in Open Environment Corporation (OEC), a tools company he founded in <a href="Cambridge,_MA" title="Cambridge, MA" class="mw-redirect">Cambridge, Massachusetts</a>.</p>
+<p>The three-tier model is a <a href="Software_Architecture_styles_and_patterns" title="Software Architecture styles and patterns">software architecture pattern</a>.</p>
+<p>Apart from the usual advantages of modular <a href="Software" title="Software">software</a> with well-defined interfaces, the three-tier architecture is intended to allow any of the three tiers to be upgraded or replaced independently in response to changes in requirements or <a href="Technology" title="Technology">technology</a>. For example, a change of <a href="Operating_system" title="Operating system">operating system</a> in the <i>presentation tier</i> would only affect the user interface code.</p>
+<p>Typically, the user interface runs on a desktop <a href="Personal_computer" title="Personal computer">PC</a> or <a href="Workstation_(computer_hardware)" title="Workstation (computer hardware)" class="mw-redirect">workstation</a> and uses a standard <a href="Graphical_user_interface" title="Graphical user interface">graphical user interface</a>, functional process logic that may consist of one or more separate modules running on a workstation or <a href="Application_server" title="Application server">application server</a>, and an <a href="RDBMS" title="RDBMS" class="mw-redirect">RDBMS</a> on a <a href="Database_server" title="Database server">database server</a> or <a href="Mainframe_computer" title="Mainframe computer">mainframe</a> that contains the computer data storage logic. The middle tier may be multi-tiered itself (in which case the overall architecture is called an "n-tier architecture").</p>
+<p>Three-tier architecture has the following three tiers:</p>
+<dl>
+<dt>Presentation tier</dt>
+<dd>This is the topmost level of the application. The presentation tier displays information related to such services as browsing merchandise, purchasing and shopping cart contents. It communicates with other tiers by outputting results to the browser/client tier and all other tiers in the network.</dd>
+<dt>Application tier (<a href="Business_logic" title="Business logic">business logic</a>, logic tier, data access tier, or middle tier)</dt>
+<dd>The logical tier is pulled out from the presentation tier and, as its own layer, it controls an application’s functionality by performing detailed processing.</dd>
+<dt>Data tier</dt>
+<dd>This tier consists of database servers. Here information is stored and retrieved. This tier keeps data neutral and independent from application servers or business logic. Giving data its own tier also improves scalability and performance.</dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=2.php.html" title="Edit section: Comparison with the MVC architecture">edit</a>]</span> <span class="mw-headline" id="Comparison_with_the_MVC_architecture">Comparison with the MVC architecture</span></h3>
+<p>At first glance, the three tiers may seem similar to the <a href="Model-view-controller" title="Model-view-controller" class="mw-redirect">model-view-controller</a> (MVC) concept; however, topologically they are different. A fundamental rule in a three tier architecture is the client tier never communicates directly with the data tier; in a three-tier model all communication must pass through the middle tier. Conceptually the three-tier architecture is linear. However, the MVC architecture is triangular: the view sends updates to the controller, the controller updates the model, and the view gets updated directly from the model.</p>
+<p>From a historical perspective the three-tier architecture concept emerged in the 1990s from observations of distributed systems (e.g., web applications) where the client, middle ware and data tiers ran on physically separate platforms. Whereas MVC comes from the previous decade (by work at <a href="Xerox_PARC" title="Xerox PARC" class="mw-redirect">Xerox PARC</a> in the late 1970s and early 1980s) and is based on observations of applications that ran on a single graphical workstation; MVC was applied to distributed applications later in its history (see <a href="Model_2" title="Model 2">Model 2</a>).</p>
+<p>Today, MVC and similar <a href="Model-view-presenter" title="Model-view-presenter" class="mw-redirect">model-view-presenter</a> (MVP) are <a href="Separation_of_Concerns" title="Separation of Concerns" class="mw-redirect">Separation of Concerns</a> design patterns that apply exclusively to the presentation layer of a larger system. In simple scenarios MVC may represent the primary design of a system, reaching directly into the database; however, in most scenarios the Controller and Model in MVC have a loose dependency on either a Service or Data layer/tier.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=3.php.html" title="Edit section: Web development usage">edit</a>]</span> <span class="mw-headline" id="Web_development_usage">Web development usage</span></h3>
+<p>In the <a href="Web_development" title="Web development">web development</a> field, three-tier is often used to refer to <a href="Website" title="Website">websites</a>, commonly <a href="Electronic_commerce" title="Electronic commerce" class="mw-redirect">electronic commerce</a> websites, which are built using three tiers:</p>
+<ol>
+<li>A front-end <a href="Web_server" title="Web server">web server</a> serving static content, and potentially some <a href="Web_cache" title="Web cache">cached</a> dynamic content. In web based application, Front End is the content rendered by the browser. The content may be static or generated dynamically.</li>
+<li>A middle dynamic content processing and generation level <a href="Application_server" title="Application server">application server</a>, for example <a href="Ruby_on_Rails" title="Ruby on Rails">Ruby on Rails</a>, <a href="Java_EE" title="Java EE" class="mw-redirect">Java EE</a>, <a href="../ASP.NET" title="ASP.NET">ASP.NET</a>, <a href="PHP" title="PHP">PHP</a>, <a href="ColdFusion" title="ColdFusion" class="mw-redirect">ColdFusion</a>, <a href="Perl" title="Perl">Perl</a> platform.</li>
+<li>A back-end <a href="Database" title="Database">database</a> or <a href="Data_store" title="Data store">data store</a>, comprising both data sets and the <a href="Database_management_system" title="Database management system">database management system</a> or <a href="Relational_database_management_system" title="Relational database management system">RDBMS</a> software that manages and provides access to the data.</li>
+</ol>
+<h3><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=4.php.html" title="Edit section: Other considerations">edit</a>]</span> <span class="mw-headline" id="Other_considerations">Other considerations</span></h3>
+<p>Data transfer between tiers is part of the architecture. Protocols involved may include one or more of <a href="Simple_Network_Management_Protocol" title="Simple Network Management Protocol">SNMP</a>, <a href="CORBA" title="CORBA" class="mw-redirect">CORBA</a>, <a href="Java_RMI" title="Java RMI" class="mw-redirect">Java RMI</a>, <a href=".NET_Remoting" title=".NET Remoting">.NET Remoting</a>, <a href="Windows_Communication_Foundation" title="Windows Communication Foundation">Windows Communication Foundation</a>, <a href="Internet_socket" title="Internet socket" class="mw-redirect">sockets</a>, <a href="User_Datagram_Protocol" title="User Datagram Protocol">UDP</a>, <a href="Web_service" title="Web service">web services</a> or other standard or proprietary protocols. Often <a href="Middleware_(distributed_applications)" title="Middleware (distributed applications)">middleware</a> is used to connect the separate tiers. Separate tiers often (but not necessarily) run on separate physical servers, and each tier may itself run on a <a href="Cluster_(computing)" title="Cluster (computing)" class="mw-redirect">cluster</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=5.php.html" title="Edit section: Traceability">edit</a>]</span> <span class="mw-headline" id="Traceability">Traceability</span></h2>
+<p>The end-to-end traceability of data flows through n-tier systems is a challenging task which becomes more important when systems increase in complexity. The <a href="Application_Response_Measurement" title="Application Response Measurement">Application Response Measurement</a> defines concepts and <a href="API" title="API" class="mw-redirect">APIs</a> for measuring performance and correlating transactions between tiers.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=6.php.html" title="Edit section: Comments">edit</a>]</span> <span class="mw-headline" id="Comments">Comments</span></h3>
+<p>Generally, the term tiers is used to describe physical distribution of components of a system on separate servers, computers, or networks (processing nodes). A three-tier architecture then will have three processing nodes. Layers refer to a logical grouping of components which may or may not be physically located on one processing node.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=7.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Client%E2%80%93server_model" title="Client–server model">Client–server model</a></li>
+<li><a href="Database-centric_architecture" title="Database-centric architecture">Database-centric architecture</a></li>
+<li><a href="Front-end_and_back-end" title="Front-end and back-end" class="mw-redirect">Front-end and back-end</a></li>
+<li><a href="Hierarchical_internetworking_model" title="Hierarchical internetworking model">Hierarchical internetworking model</a></li>
+<li><a href="Open_Services_Architecture" title="Open Services Architecture" class="mw-redirect">Open Services Architecture</a></li>
+<li><a href="Rich_Internet_application" title="Rich Internet application">Rich Internet application</a></li>
+<li><a href="Service_layer" title="Service layer">Service layer</a></li>
+<li><a href="Web_application" title="Web application">Web application</a></li>
+<li><a href="Load_balancing_(computing)" title="Load balancing (computing)">Load balancing (computing)</a></li>
+<li><a href="Multilayered_architecture" title="Multilayered architecture">Multilayered architecture</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=8.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.linuxjournal.com/article/3508">Linux journal, <i>Three Tier Architecture</i></a></li>
+<li><a rel="nofollow" class="external text" href="http://msdn.microsoft.com/en-us/library/ee658109.aspx">Microsoft Application Architecture Guide</a></li>
+<li><a rel="nofollow" class="external text" href="http://webebenezer.net/build_integration.html">Example of free 3-tier system</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Multitier_architecture&action=edit&section=9.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://msdn.microsoft.com/en-us/library/ms998478.aspx">Deployment Patterns (Microsoft Enterprise Architecture, Patterns, and Practices)</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Fowler, Martin "Patterns of Enterprise Application Architecture" (2002). Addison Wesley.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Eckerson, Wayne W. "Three Tier Client/Server Architecture: Achieving Scalability, Performance, and Efficiency in Client Server Applications." Open Information Systems 10, 1 (January 1995): 3(20)</span></li>
+</ol>
+<p><span class="citation foldoc">This article is based on material taken from the <a href="Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a> prior to 1 November 2008 and incorporated under the "relicensing" terms of the <a href="GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a>, version 1.3 or later.</span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1114/1000000
+Preprocessor generated node count: 7130/1500000
+Post-expand include size: 11413/2048000 bytes
+Template argument size: 4687/2048000 bytes
+Highest expansion depth: 20/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:20003-0!*!0!!en!4!* and timestamp 20130213181116 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Multitier_architecture&oldid=538079816.php.html">http://en.wikipedia.org/w/index.php?title=Multitier_architecture&amp;oldid=538079816</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Distributed_computing_architecture" title="Category:Distributed computing architecture">Distributed computing architecture</a></li><li><a href="Category_Software_architecture" title="Category:Software architecture">Software architecture</a></li><li><a href="Category_World_Wide_Web" title="Category:World Wide Web">World Wide Web</a></li><li><a href="Category_Architectural_pattern_(computer_science)" title="Category:Architectural pattern (computer science)">Architectural pattern (computer science)</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Articles_needing_additional_references_from_January_2008" title="Category:Articles needing additional references from January 2008">Articles needing additional references from January 2008</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_Articles_with_specifically_marked_weasel-worded_phrases_from_February_2013" title="Category:Articles with specifically marked weasel-worded phrases from February 2013">Articles with specifically marked weasel-worded phrases from February 2013</a></li><li><a href="Category_All_articles_with_minor_POV_problems" title="Category:All articles with minor POV problems">All articles with minor POV problems</a></li><li><a href="Category_Articles_with_minor_POV_problems_from_February_2013" title="Category:Articles with minor POV problems from February 2013">Articles with minor POV problems from February 2013</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Multitier+architecture&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Multitier+architecture.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Multitier_architecture"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Multitier_architecture&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Multitier_architecture&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Multitier_architecture" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Multitier_architecture" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Multitier_architecture&oldid=538079816.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Multitier_architecture&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Multitier_architecture&id=538079816.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Multitier+architecture.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Multitier+architecture&oldid=538079816&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Multitier_architecture&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9_%D9%85%D8%AA%D8%B9%D8%AF%D8%AF%D8%A9_%D8%A7%D9%84%D8%B7%D8%A8%D9%82%D8%A7%D8%AA" title="العمارة متعددة الطبقات" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/V%C3%ADcevrstv%C3%A1_architektura" title="Vícevrstvá architektura" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Schichtenarchitektur" title="Schichtenarchitektur" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Programaci%C3%B3n_por_capas" title="Programación por capas" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C_%DA%86%D9%86%D8%AF%D9%84%D8%A7%DB%8C%D9%87" title="معماری چندلایه" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Architecture_en_couches" title="Architecture en couches" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Programaci%C3%B3n_por_capas" title="Programación por capas" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%8B%A4%EC%B8%B5_%EA%B5%AC%EC%A1%B0" title="다층 구조" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Architettura_Multitier" title="Architettura Multitier" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%9B%D7%99%D7%98%D7%A7%D7%98%D7%95%D7%A8%D7%94_%D7%A8%D7%91-%D7%A9%D7%9B%D7%91%D7%AA%D7%99%D7%AA" title="ארכיטקטורה רב-שכבתית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Multitierarchitectuur" title="Multitierarchitectuur" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%A4%9A%E5%B1%A4%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3" title="多層アーキテクチャ" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Architektura_wielowarstwowa" title="Architektura wielowarstwowa" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/N_camadas" title="N camadas" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B9_%D0%B0%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%B3%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F" title="Слой абстрагирования" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%81_%E0%AE%95%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81" title="பல்லடுக்கு கட்டமைப்பு" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D1%8F%D1%80%D1%83%D1%81%D0%BD%D0%B0_%D0%B0%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0" title="Триярусна архітектура" lang="uk" hreflang="uk">Українська</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 18:11.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Multitier_architecture" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1099 in 0.236 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

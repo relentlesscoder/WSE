@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Geometry - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Geometry&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Geometry&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Geometry","wgTitle":"Geometry","wgCurRevisionId":536221202,"wgArticleId":18973446,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia indefinitely move-protected pages","Articles containing Ancient Greek language text","Wikipedia articles needing page number citations from September 2011","Use dmy dates from September 2010","Geometry"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Geometry","wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"6acb3044f630ef0293c4eabe52f0731d","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":18973446,"title":"Geometry","namespace":0,"categories":["Articles containing Ancient Greek language text","Geometry","Use dmy dates from September 2010","Wikipedia articles needing page number citations from September 2011","Wikipedia indefinitely move-protected pages"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Geometry skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Geometry</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For other uses, see <a href="Geometry_(disambiguation)" title="Geometry (disambiguation)">Geometry (disambiguation)</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Teorema_de_desargues.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Teorema_de_desargues.svg/250px-Teorema_de_desargues.svg.png" width="250" height="167" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Teorema_de_desargues.svg/375px-Teorema_de_desargues.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/13/Teorema_de_desargues.svg/500px-Teorema_de_desargues.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Teorema_de_desargues.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An illustration of <a href="Desargues'_theorem" title="Desargues' theorem">Desargues' theorem</a>, an important result in <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean</a> and <a href="Projective_geometry" title="Projective geometry">projective geometry</a>.</div>
+</div>
+</div>
+<table class="vertical-navbox nowraplinks" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><strong class="selflink">Geometry</strong></th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;"><a href="http://en.wikipedia.org/wiki/File:P._Oxy._I_29.jpg" class="image"><img alt="P. Oxy. I 29.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/220px-P._Oxy._I_29.jpg" width="220" height="134" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/330px-P._Oxy._I_29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/440px-P._Oxy._I_29.jpg 2x" /></a>
+<div style="padding-top:0.2em;line-height:1.2em;"><a href="Oxyrhynchus_papyrus" title="Oxyrhynchus papyrus" class="mw-redirect">Oxyrhynchus papyrus</a> (P.Oxy. I 29) showing fragment of <a href="Euclid's_Elements" title="Euclid's Elements">Euclid's <i>Elements</i></a></div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;"><a href="History_of_geometry" title="History of geometry">History of geometry</a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Branches</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">Non-Euclidean geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Analytic_geometry" title="Analytic geometry">Analytic geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Differential_geometry" title="Differential geometry">Differential geometry</a> ·<a href="Projective_geometry" title="Projective geometry">Projective geometry</a>· <a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Research areas</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Algebraic_geometry" title="Algebraic geometry">Algebraic geometry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Differential_geometry" title="Differential geometry">Differential geometry</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Symplectic_geometry" title="Symplectic geometry">Symplectic geometry</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Important concepts</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Point_(geometry)" title="Point (geometry)">Point</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Line_(geometry)" title="Line (geometry)">Line</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Perpendicular" title="Perpendicular">Perpendicular</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Parallel_(geometry)" title="Parallel (geometry)">Parallel</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Line_segment" title="Line segment">Line segment</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Ray_(geometry)" title="Ray (geometry)" class="mw-redirect">Ray</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Plane_(geometry)" title="Plane (geometry)">Plane</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Length" title="Length">Length</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Area" title="Area">Area</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Volume" title="Volume">Volume</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Vertex_(geometry)" title="Vertex (geometry)">Vertex</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Angle" title="Angle">Angle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Congruence_(geometry)" title="Congruence (geometry)">Congruence</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Similarity_(geometry)" title="Similarity (geometry)">Similarity</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Polygon" title="Polygon">Polygon</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Triangle" title="Triangle">Triangle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Altitude_(triangle)" title="Altitude (triangle)">Altitude</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Hypotenuse" title="Hypotenuse">Hypotenuse</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Quadrilateral" title="Quadrilateral">Quadrilateral</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Trapezoid" title="Trapezoid">Trapezoid</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Kite_(geometry)" title="Kite (geometry)">Kite</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Parallelogram" title="Parallelogram">Parallelogram</a> (<a href="Rhomboid" title="Rhomboid">Rhomboid</a>, <a href="Rectangle" title="Rectangle">Rectangle</a>, <a href="Rhombus" title="Rhombus">Rhombus</a>, <a href="Square_(geometry)" title="Square (geometry)" class="mw-redirect">Square</a>)&#160;<span style="font-weight:bold;">·</span>  <a href="Diagonal" title="Diagonal">Diagonal</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Symmetry" title="Symmetry">Symmetry</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Curve" title="Curve">Curve</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Circle" title="Circle">Circle</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Area_of_a_disk" title="Area of a disk">Area of a disk</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Circumference" title="Circumference">Circumference</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Diameter" title="Diameter">Diameter</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Cylinder_(geometry)" title="Cylinder (geometry)">Cylinder</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Sphere" title="Sphere">Sphere</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Pyramid_(geometry)" title="Pyramid (geometry)">Pyramid</a>&#160;<span style="font-weight:bold;">·</span> <a href="Dimension" title="Dimension" class="mw-redirect">Dimensions</a> (<a href="One-dimensional_space" title="One-dimensional space">one</a>, <a href="Two-dimensional_space" title="Two-dimensional space">two</a>, <a href="Three-dimensional_space" title="Three-dimensional space">three</a>, <a href="Four-dimensional_space" title="Four-dimensional space">four</a>)</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Geometers</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><a href="Aryabhata" title="Aryabhata">Aryabhata</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ahmes" title="Ahmes">Ahmes</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Apollonius_of_Perga" title="Apollonius of Perga">Apolonius</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Archimedes" title="Archimedes">Archimedes</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Baudhayana" title="Baudhayana">Baudhayana</a> &#160;<span style="font-weight:bold;">·</span> <a href="Janos_Bolyai" title="Janos Bolyai" class="mw-redirect">Bolyai</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Brahmagupta" title="Brahmagupta">Brahmagupta</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Euclid" title="Euclid">Euclid</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Pythagoras" title="Pythagoras">Pythagoras</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Omar_Khayy%C3%A1m" title="Omar Khayyám">Khayyám</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ren%C3%A9_Descartes" title="René Descartes">Descartes</a>&#160;<span style="font-weight:bold;">·</span>  <a href="Blaise_Pascal" title="Blaise Pascal">Pascal</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Leonhard_Euler" title="Leonhard Euler">Euler</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Ibn_al-Yasamin" title="Ibn al-Yasamin">Ibn al-Yasamin</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Jye%E1%B9%A3%E1%B9%ADhadeva" title="Jyeṣṭhadeva">Jyeṣṭhadeva</a> &#160;<span style="font-weight:bold;">·</span>  <a href="K%C4%81ty%C4%81yana" title="Kātyāyana">Kātyāyana</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Nikolai_Lobachevsky" title="Nikolai Lobachevsky">Lobachevsky</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Manava" title="Manava">Manava</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Minggatu" title="Minggatu">Minggatu</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Bernhard_Riemann" title="Bernhard Riemann">Riemann</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Felix_Klein" title="Felix Klein">Klein</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Parameshvara" title="Parameshvara">Parameshvara</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Henri_Poincar%C3%A9" title="Henri Poincaré">Poincaré</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Sijzi" title="Sijzi">Sijzi</a> &#160;<span style="font-weight:bold;">·</span>  <a href="David_Hilbert" title="David Hilbert">Hilbert</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Hermann_Minkowski" title="Hermann Minkowski">Minkowski</a> &#160;<span style="font-weight:bold;">·</span>  <a href="%C3%89lie_Cartan" title="Élie Cartan">Cartan</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Oswald_Veblen" title="Oswald Veblen">Veblen</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Sakabe_K%C5%8Dhan" title="Sakabe Kōhan">Sakabe Kōhan</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Mikhail_Leonidovich_Gromov" title="Mikhail Leonidovich Gromov">Gromov</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Michael_Atiyah" title="Michael Atiyah">Atiyah</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Virasena" title="Virasena">Virasena</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Yang_Hui" title="Yang Hui">Yang Hui</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Yasuaki_Aida" title="Yasuaki Aida">Yasuaki Aida</a> &#160;<span style="font-weight:bold;">·</span>  <a href="Zhang_Heng" title="Zhang Heng">Zhang Heng</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_General_geometry" title="Template:General geometry"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="../../w/index-title=Template_talk_General_geometry&action=edit&redlink=1.php.html" class="new" title="Template talk:General geometry (page does not exist)"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_General_geometry&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Geometry</b> (<a href="Ancient_Greek" title="Ancient Greek">Ancient Greek</a>: <span lang="grc" xml:lang="grc"><i>γεωμετρία</i></span>; <i><a href="http://en.wiktionary.org/wiki/%CE%B3%E1%BF%86" class="extiw" title="wikt:γῆ">geo-</a></i> "earth", <i><a href="http://en.wiktionary.org/wiki/%CE%BC%CE%AD%CF%84%CF%81%CE%BF%CE%BD" class="extiw" title="wikt:μέτρον">-metron</a></i> "measurement") is a branch of <a href="Mathematics" title="Mathematics">mathematics</a> concerned with questions of shape, size, relative position of figures, and the properties of space. A mathematician who works in the field of geometry is called a geometer. Geometry arose independently in a number of early cultures as a body of practical knowledge concerning <a href="Length" title="Length">lengths</a>, <a href="Area" title="Area">areas</a>, and <a href="Volume" title="Volume">volumes</a>, with elements of a formal mathematical science emerging in the West as early as <a href="Thales" title="Thales">Thales</a> (6th Century BC). By the 3rd century BC geometry was put into an <a href="Axiomatic_system" title="Axiomatic system">axiomatic form</a> by <a href="Euclid" title="Euclid">Euclid</a>, whose treatment—<a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a>—set a standard for many centuries to follow.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> <a href="Archimedes" title="Archimedes">Archimedes</a> developed ingenious techniques for calculating areas and volumes, in many ways anticipating modern <a href="Integral_calculus" title="Integral calculus" class="mw-redirect">integral calculus</a>. The field of <a href="Astronomy" title="Astronomy">astronomy</a>, especially mapping the positions of the <a href="Star" title="Star">stars</a> and <a href="Planet" title="Planet">planets</a> on the <a href="Celestial_sphere" title="Celestial sphere">celestial sphere</a> and describing the relationship between movements of celestial bodies, served as an important source of geometric problems during the next one and a half millennia. Both geometry and astronomy were considered in the classical world to be part of the <a href="Quadrivium" title="Quadrivium">Quadrivium</a>, a subset of the seven <a href="Liberal_arts#History" title="Liberal arts" class="mw-redirect">liberal arts</a> considered essential for a free citizen to master.</p>
+<p>The introduction of <a href="Coordinates" title="Coordinates" class="mw-redirect">coordinates</a> by <a href="Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> and the concurrent developments of <a href="Algebra" title="Algebra">algebra</a> marked a new stage for geometry, since geometric figures, such as <a href="Plane_curve" title="Plane curve">plane curves</a>, could now be represented <a href="Analytic_geometry" title="Analytic geometry">analytically</a>, i.e., with functions and equations. This played a key role in the emergence of <a href="Infinitesimal_calculus" title="Infinitesimal calculus">infinitesimal calculus</a> in the 17th century. Furthermore, the theory of <a href="Perspective_(graphical)" title="Perspective (graphical)">perspective</a> showed that there is more to geometry than just the metric properties of figures: perspective is the origin of <a href="Projective_geometry" title="Projective geometry">projective geometry</a>. The subject of geometry was further enriched by the study of intrinsic structure of geometric objects that originated with <a href="Euler" title="Euler" class="mw-redirect">Euler</a> and <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a> and led to the creation of <a href="Topology" title="Topology">topology</a> and <a href="Differential_geometry" title="Differential geometry">differential geometry</a>.</p>
+<p>In Euclid's time there was no clear distinction between physical space and geometrical space. Since the 19th-century discovery of <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean geometry</a>, the concept of <a href="Space" title="Space">space</a> has undergone a radical transformation, and the question arose: which geometrical space best fits physical space? With the rise of formal mathematics in the 20th century, also 'space' (and 'point', 'line', 'plane') lost its intuitive contents, so today we have to distinguish between physical space, geometrical spaces (in which 'space', 'point' etc. still have their intuitive meaning) and abstract spaces. Contemporary geometry considers <a href="Manifold" title="Manifold">manifolds</a>, spaces that are considerably more abstract than the familiar <a href="Euclidean_space" title="Euclidean space">Euclidean space</a>, which they only approximately resemble at small scales. These spaces may be endowed with additional structure, allowing one to speak about length. Modern geometry has multiple strong bonds with <a href="Physics" title="Physics">physics</a>, exemplified by the ties between <a href="Pseudo-Riemannian" title="Pseudo-Riemannian" class="mw-redirect">pseudo-Riemannian</a> geometry and <a href="General_relativity" title="General relativity">general relativity</a>. One of the youngest physical theories, <a href="String_theory" title="String theory">string theory</a>, is also very geometric in flavour.</p>
+<p>While the visual nature of geometry makes it initially more accessible than other parts of mathematics, such as algebra or <a href="Number_theory" title="Number theory">number theory</a>, geometric language is also used in contexts far removed from its traditional, Euclidean provenance (for example, in <a href="Fractal_geometry" title="Fractal geometry" class="mw-redirect">fractal geometry</a> and <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a>).<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Practical_geometry"><span class="tocnumber">1.1</span> <span class="toctext">Practical geometry</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Axiomatic_geometry"><span class="tocnumber">1.2</span> <span class="toctext">Axiomatic geometry</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Geometric_constructions"><span class="tocnumber">1.3</span> <span class="toctext">Geometric constructions</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Numbers_in_geometry"><span class="tocnumber">1.4</span> <span class="toctext">Numbers in geometry</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Geometry_of_position"><span class="tocnumber">1.5</span> <span class="toctext">Geometry of position</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Geometry_beyond_Euclid"><span class="tocnumber">1.6</span> <span class="toctext">Geometry beyond Euclid</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Dimension"><span class="tocnumber">1.7</span> <span class="toctext">Dimension</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Symmetry"><span class="tocnumber">1.8</span> <span class="toctext">Symmetry</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#History_of_geometry"><span class="tocnumber">2</span> <span class="toctext">History of geometry</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Contemporary_geometry"><span class="tocnumber">3</span> <span class="toctext">Contemporary geometry</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#Euclidean_geometry"><span class="tocnumber">3.1</span> <span class="toctext">Euclidean geometry</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Differential_geometry"><span class="tocnumber">3.2</span> <span class="toctext">Differential geometry</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Topology_and_geometry"><span class="tocnumber">3.3</span> <span class="toctext">Topology and geometry</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Algebraic_geometry"><span class="tocnumber">3.4</span> <span class="toctext">Algebraic geometry</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#See_also"><span class="tocnumber">4</span> <span class="toctext">See also</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#Lists"><span class="tocnumber">4.1</span> <span class="toctext">Lists</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Related_topics"><span class="tocnumber">4.2</span> <span class="toctext">Related topics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-19"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a>
+<ul>
+<li class="toclevel-2 tocsection-20"><a href="#Notes"><span class="tocnumber">5.1</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#Sources"><span class="tocnumber">6</span> <span class="toctext">Sources</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#Bibliography"><span class="tocnumber">6.1</span> <span class="toctext">Bibliography</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=1.php.html" title="Edit section: Overview">edit</a>]</span> <span class="mw-headline" id="Overview">Overview</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:Chinese_pythagoras.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chinese_pythagoras.jpg/300px-Chinese_pythagoras.jpg" width="300" height="164" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chinese_pythagoras.jpg/450px-Chinese_pythagoras.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chinese_pythagoras.jpg/600px-Chinese_pythagoras.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Chinese_pythagoras.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Visual <a href="Proof_(mathematics)" title="Proof (mathematics)" class="mw-redirect">proof</a> of the <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a> for the (3, 4, 5) <a href="Triangle" title="Triangle">triangle</a> as in the <a href="Chou_Pei_Suan_Ching" title="Chou Pei Suan Ching" class="mw-redirect">Chou Pei Suan Ching</a> 500–200&#160;BC.</div>
+</div>
+</div>
+<p>The recorded development of geometry spans more than two <a href="Millennia" title="Millennia" class="mw-redirect">millennia</a>. It is hardly surprising that perceptions of what constituted geometry evolved throughout the ages.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=2.php.html" title="Edit section: Practical geometry">edit</a>]</span> <span class="mw-headline" id="Practical_geometry">Practical geometry</span></h3>
+<p>Geometry originated as a practical science concerned with surveying, measurements, areas, and volumes. Among the notable accomplishments one finds formulas for <a href="Length" title="Length">lengths</a>, <a href="Area" title="Area">areas</a> and <a href="Volume" title="Volume">volumes</a>, such as <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a>, <a href="Circumference" title="Circumference">circumference</a> and <a href="Area_of_a_disk" title="Area of a disk">area</a> of a circle, area of a <a href="Triangle" title="Triangle">triangle</a>, volume of a <a href="Cylinder_(geometry)" title="Cylinder (geometry)">cylinder</a>, <a href="Sphere" title="Sphere">sphere</a>, and a <a href="Pyramid_(geometry)" title="Pyramid (geometry)">pyramid</a>. A method of computing certain inaccessible distances or heights based on <a href="Similarity_(geometry)" title="Similarity (geometry)">similarity</a> of geometric figures is attributed to <a href="Thales" title="Thales">Thales</a>. Development of <a href="Astronomy" title="Astronomy">astronomy</a> led to emergence of <a href="Trigonometry" title="Trigonometry">trigonometry</a> and <a href="Spherical_trigonometry" title="Spherical trigonometry">spherical trigonometry</a>, together with the attendant computational techniques.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=3.php.html" title="Edit section: Axiomatic geometry">edit</a>]</span> <span class="mw-headline" id="Axiomatic_geometry">Axiomatic geometry</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Parallel_postulate_en.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Parallel_postulate_en.svg/220px-Parallel_postulate_en.svg.png" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Parallel_postulate_en.svg/330px-Parallel_postulate_en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Parallel_postulate_en.svg/440px-Parallel_postulate_en.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Parallel_postulate_en.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+An illustration of Euclid's <a href="Parallel_postulate" title="Parallel postulate">parallel postulate</a></div>
+</div>
+</div>
+<div class="rellink boilerplate seealso">See also: <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a></div>
+<p><a href="Euclid" title="Euclid">Euclid</a> took a more abstract approach in his <a href="Euclid's_Elements" title="Euclid's Elements">Elements</a>, one of the most influential books ever written. Euclid introduced certain <a href="Axiom" title="Axiom">axioms</a>, or <a href="Postulate" title="Postulate" class="mw-redirect">postulates</a>, expressing primary or self-evident properties of points, lines, and planes. He proceeded to rigorously deduce other properties by mathematical reasoning. The characteristic feature of Euclid's approach to geometry was its rigor, and it has come to be known as <i>axiomatic</i> or <i><a href="Synthetic_geometry" title="Synthetic geometry">synthetic</a></i> geometry. At the start of the 19th century the discovery of <a href="Non-Euclidean_geometries" title="Non-Euclidean geometries" class="mw-redirect">non-Euclidean geometries</a> by <a href="Gauss" title="Gauss" class="mw-redirect">Gauss</a>, <a href="Lobachevsky" title="Lobachevsky" class="mw-redirect">Lobachevsky</a>, <a href="Bolyai" title="Bolyai" class="mw-redirect">Bolyai</a>, and others led to a revival of interest, and in the 20th century <a href="David_Hilbert" title="David Hilbert">David Hilbert</a> employed axiomatic reasoning in an attempt to provide a modern foundation of geometry.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Geometry_Lessons.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Geometry_Lessons.jpg/220px-Geometry_Lessons.jpg" width="220" height="277" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Geometry_Lessons.jpg/330px-Geometry_Lessons.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Geometry_Lessons.jpg/440px-Geometry_Lessons.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Geometry_Lessons.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Geometry lessons in the 20th century</div>
+</div>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=4.php.html" title="Edit section: Geometric constructions">edit</a>]</span> <span class="mw-headline" id="Geometric_constructions">Geometric constructions</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Compass_and_straightedge_constructions" title="Compass and straightedge constructions">Compass and straightedge constructions</a></div>
+<p>Classical geometers paid special attention to constructing geometric objects that had been described in some other way. Classically, the only instruments allowed in geometric constructions are the <a href="Compass_(drafting)" title="Compass (drafting)">compass</a> and <a href="Ruler" title="Ruler">straightedge</a>. Also, every construction had to be complete in a finite number of steps. However, some problems turned out to be difficult or impossible to solve by these means alone, and ingenious constructions using parabolas and other curves, as well as mechanical devices, were found.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=5.php.html" title="Edit section: Numbers in geometry">edit</a>]</span> <span class="mw-headline" id="Numbers_in_geometry">Numbers in geometry</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Square_root_of_2_triangle.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Square_root_of_2_triangle.svg/200px-Square_root_of_2_triangle.svg.png" width="200" height="200" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Square_root_of_2_triangle.svg/300px-Square_root_of_2_triangle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Square_root_of_2_triangle.svg/400px-Square_root_of_2_triangle.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Square_root_of_2_triangle.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The Pythagoreans discovered that the sides of a triangle could have <a href="Commensurability_(mathematics)" title="Commensurability (mathematics)">incommensurable</a> lengths.</div>
+</div>
+</div>
+<p>In <a href="Ancient_Greece" title="Ancient Greece">ancient Greece</a> the <a href="Pythagoreans" title="Pythagoreans" class="mw-redirect">Pythagoreans</a> considered the role of numbers in geometry. However, the discovery of incommensurable lengths, which contradicted their philosophical views, made them abandon abstract numbers in favor of concrete geometric quantities, such as length and area of figures. Numbers were reintroduced into geometry in the form of <a href="Coordinate" title="Coordinate" class="mw-redirect">coordinates</a> by <a href="Descartes" title="Descartes" class="mw-redirect">Descartes</a>, who realized that the study of geometric shapes can be facilitated by their algebraic representation, and whom the <a href="Cartesian_plane" title="Cartesian plane" class="mw-redirect">Cartesian plane</a> is named after. <a href="Analytic_geometry" title="Analytic geometry">Analytic geometry</a> applies methods of algebra to geometric questions, typically by relating geometric <a href="Curve" title="Curve">curves</a> and algebraic <a href="Equation" title="Equation">equations</a>. These ideas played a key role in the development of <a href="Calculus" title="Calculus">calculus</a> in the 17th century and led to discovery of many new properties of plane curves. Modern <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a> considers similar questions on a vastly more abstract level.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=6.php.html" title="Edit section: Geometry of position">edit</a>]</span> <span class="mw-headline" id="Geometry_of_position">Geometry of position</span></h3>
+<div class="rellink relarticle mainarticle">Main articles: <a href="Projective_geometry" title="Projective geometry">Projective geometry</a> and <a href="Topology" title="Topology">Topology</a></div>
+<p>Even in ancient times, geometers considered questions of relative position or spatial relationship of geometric figures and shapes. Some examples are given by inscribed and circumscribed circles of <a href="Polygon" title="Polygon">polygons</a>, lines intersecting and tangent to <a href="Conic_section" title="Conic section">conic sections</a>, the <a href="Pappus_configuration" title="Pappus configuration">Pappus</a> and <a href="Menelaus_theorem" title="Menelaus theorem" class="mw-redirect">Menelaus</a> configurations of points and lines. In the Middle Ages new and more complicated questions of this type were considered: What is the maximum number of spheres simultaneously touching a given sphere of the same radius (<a href="Kissing_number_problem" title="Kissing number problem">kissing number problem</a>)? What is the densest <a href="Sphere_packing" title="Sphere packing">packing of spheres</a> of equal size in space (<a href="Kepler_conjecture" title="Kepler conjecture">Kepler conjecture</a>)? Most of these questions involved 'rigid' geometrical shapes, such as lines or spheres. <a href="Projective_geometry" title="Projective geometry">Projective</a>, <a href="Convex_geometry" title="Convex geometry">convex</a> and <a href="Discrete_geometry" title="Discrete geometry">discrete geometry</a> are three sub-disciplines within present day geometry that deal with these and related questions.</p>
+<p><a href="Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a>, in studying problems like the <a href="Seven_Bridges_of_K%C3%B6nigsberg" title="Seven Bridges of Königsberg">Seven Bridges of Königsberg</a>, considered the most fundamental properties of geometric figures based solely on shape, independent of their metric properties. Euler called this new branch of geometry <i>geometria situs</i> (geometry of place), but it is now known as <a href="Topology" title="Topology">topology</a>. Topology grew out of geometry, but turned into a large independent discipline. It does not differentiate between objects that can be continuously deformed into each other. The objects may nevertheless retain some geometry, as in the case of <a href="Hyperbolic_knot" title="Hyperbolic knot" class="mw-redirect">hyperbolic knots</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=7.php.html" title="Edit section: Geometry beyond Euclid">edit</a>]</span> <span class="mw-headline" id="Geometry_beyond_Euclid">Geometry beyond Euclid</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Hyperbolic_triangle.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hyperbolic_triangle.svg/220px-Hyperbolic_triangle.svg.png" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hyperbolic_triangle.svg/330px-Hyperbolic_triangle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/89/Hyperbolic_triangle.svg/440px-Hyperbolic_triangle.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Hyperbolic_triangle.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<a href="Differential_geometry" title="Differential geometry">Differential geometry</a> uses tools from <a href="Calculus" title="Calculus">calculus</a> to study problems in geometry.</div>
+</div>
+</div>
+<p>For nearly two thousand years since Euclid, while the range of geometrical questions asked and answered inevitably expanded, basic understanding of <a href="Space" title="Space">space</a> remained essentially the same. <a href="Immanuel_Kant" title="Immanuel Kant">Immanuel Kant</a> argued that there is only one, <i>absolute</i>, geometry, which is known to be true <i>a priori</i> by an inner faculty of mind: Euclidean geometry was <a href="Synthetic_a_priori" title="Synthetic a priori" class="mw-redirect">synthetic a priori</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> This dominant view was overturned by the revolutionary discovery of <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean geometry</a> in the works of <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Gauss</a> (who never published his theory), <a href="Bolyai" title="Bolyai" class="mw-redirect">Bolyai</a>, and <a href="Lobachevsky" title="Lobachevsky" class="mw-redirect">Lobachevsky</a>, who demonstrated that ordinary <a href="Euclidean_space" title="Euclidean space">Euclidean space</a> is only one possibility for development of geometry. A broad vision of the subject of geometry was then expressed by <a href="Riemann" title="Riemann" class="mw-redirect">Riemann</a> in his 1867 inauguration lecture <i>Über die Hypothesen, welche der Geometrie zu Grunde liegen</i> (<i>On the hypotheses on which geometry is based</i>),<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> published only after his death. Riemann's new idea of space proved crucial in <a href="Einstein" title="Einstein" class="mw-redirect">Einstein</a>'s <a href="General_relativity_theory" title="General relativity theory" class="mw-redirect">general relativity theory</a> and <a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a>, which considers very general spaces in which the notion of length is defined, is a mainstay of modern geometry.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=8.php.html" title="Edit section: Dimension">edit</a>]</span> <span class="mw-headline" id="Dimension">Dimension</span></h3>
+<p>Where the traditional geometry allowed dimensions 1 (a <a href="Line_(geometry)" title="Line (geometry)">line</a>), 2 (a <a href="Plane_(mathematics)" title="Plane (mathematics)" class="mw-redirect">plane</a>) and 3 (our ambient world conceived of as <a href="Three-dimensional_space" title="Three-dimensional space">three-dimensional space</a>), mathematicians have used <a href="Higher_dimension" title="Higher dimension" class="mw-redirect">higher dimensions</a> for nearly two centuries. Dimension has gone through stages of being any <a href="Natural_number" title="Natural number">natural number</a> <i>n</i>, possibly infinite with the introduction of <a href="Hilbert_space" title="Hilbert space">Hilbert space</a>, and any positive real number in <a href="Fractal_geometry" title="Fractal geometry" class="mw-redirect">fractal geometry</a>. <a href="Dimension_theory" title="Dimension theory">Dimension theory</a> is a technical area, initially within <a href="General_topology" title="General topology">general topology</a>, that discusses <i>definitions</i>; in common with most mathematical ideas, dimension is now defined rather than an intuition. Connected <a href="Topological_manifold" title="Topological manifold">topological manifolds</a> have a well-defined dimension; this is a theorem (<a href="Invariance_of_domain" title="Invariance of domain">invariance of domain</a>) rather than anything <i>a priori</i>.</p>
+<p>The issue of dimension still matters to geometry, in the absence of complete answers to classic questions. Dimensions 3 of space and 4 of <a href="Space-time" title="Space-time" class="mw-redirect">space-time</a> are special cases in <a href="Geometric_topology" title="Geometric topology">geometric topology</a>. Dimension 10 or 11 is a key number in <a href="String_theory" title="String theory">string theory</a>. Research may bring a satisfactory <i>geometric</i> reason for the significance of 10 and 11 dimensions.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=9.php.html" title="Edit section: Symmetry">edit</a>]</span> <span class="mw-headline" id="Symmetry">Symmetry</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Order-3_heptakis_heptagonal_tiling.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Order-3_heptakis_heptagonal_tiling.png/220px-Order-3_heptakis_heptagonal_tiling.png" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Order-3_heptakis_heptagonal_tiling.png/330px-Order-3_heptakis_heptagonal_tiling.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Order-3_heptakis_heptagonal_tiling.png/440px-Order-3_heptakis_heptagonal_tiling.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Order-3_heptakis_heptagonal_tiling.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="Order-3_bisected_heptagonal_tiling" title="Order-3 bisected heptagonal tiling" class="mw-redirect">tiling</a> of the <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic plane</a></div>
+</div>
+</div>
+<p>The theme of <a href="Symmetry" title="Symmetry">symmetry</a> in geometry is nearly as old as the science of geometry itself. Symmetric shapes such as the <a href="Circle" title="Circle">circle</a>, <a href="Regular_polygon" title="Regular polygon">regular polygons</a> and <a href="Platonic_solid" title="Platonic solid">platonic solids</a> held deep significance for many ancient philosophers and were investigated in detail before the time of Euclid. Symmetric patterns occur in nature and were artistically rendered in a multitude of forms, including the graphics of <a href="../M._C._Escher" title="M. C. Escher">M. C. Escher</a>. Nonetheless, it was not until the second half of 19th century that the unifying role of symmetry in foundations of geometry was recognized. <a href="Felix_Klein" title="Felix Klein">Felix Klein</a>'s <a href="Erlangen_program" title="Erlangen program">Erlangen program</a> proclaimed that, in a very precise sense, symmetry, expressed via the notion of a transformation <a href="Group_(mathematics)" title="Group (mathematics)">group</a>, determines what geometry <i>is</i>. Symmetry in classical <a href="Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a> is represented by <a href="Congruence_(geometry)" title="Congruence (geometry)">congruences</a> and rigid motions, whereas in <a href="Projective_geometry" title="Projective geometry">projective geometry</a> an analogous role is played by <a href="Collineation" title="Collineation">collineations</a>, geometric transformations that take straight lines into straight lines. However it was in the new geometries of Bolyai and Lobachevsky, Riemann, <a href="William_Kingdon_Clifford" title="William Kingdon Clifford">Clifford</a> and Klein, and <a href="Sophus_Lie" title="Sophus Lie">Sophus Lie</a> that Klein's idea to 'define a geometry via its <a href="Symmetry_group" title="Symmetry group">symmetry group</a>' proved most influential. Both discrete and continuous symmetries play prominent roles in geometry, the former in <a href="Topology" title="Topology">topology</a> and <a href="Geometric_group_theory" title="Geometric group theory">geometric group theory</a>, the latter in <a href="Lie_theory" title="Lie theory">Lie theory</a> and <a href="Riemannian_geometry" title="Riemannian geometry">Riemannian geometry</a>.</p>
+<p>A different type of symmetry is the principle of duality in <a href="Projective_geometry" title="Projective geometry">projective geometry</a> (see <a href="Duality_(projective_geometry)" title="Duality (projective geometry)">Duality (projective geometry)</a>) among other fields. This meta-phenomenon can roughly be described as follows: in any <a href="Theorem" title="Theorem">theorem</a>, exchange <i>point</i> with <i>plane</i>, <i>join</i> with <i>meet</i>, <i>lies in</i> with <i>contains</i>, and you will get an equally true theorem. A similar and closely related form of duality exists between a <a href="Vector_space" title="Vector space">vector space</a> and its dual space.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=10.php.html" title="Edit section: History of geometry">edit</a>]</span> <span class="mw-headline" id="History_of_geometry">History of geometry</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="History_of_geometry" title="History of geometry">History of geometry</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:252px;"><a href="http://en.wikipedia.org/wiki/File:Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg/250px-Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg" width="250" height="244" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg/375px-Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/45/Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg/500px-Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Westerner_and_Arab_practicing_geometry_15th_century_manuscript.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="Europe" title="Europe">European</a> and an <a href="Arab" title="Arab" class="mw-redirect">Arab</a> practicing <strong class="selflink">geometry</strong> in the 15th century.</div>
+</div>
+</div>
+<p>The earliest recorded beginnings of geometry can be traced to ancient <a href="Mesopotamia" title="Mesopotamia">Mesopotamia</a> and <a href="Ancient_Egypt" title="Ancient Egypt">Egypt</a> in the 2nd millennium BC.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup><sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> Early geometry was a collection of empirically discovered principles concerning lengths, angles, areas, and volumes, which were developed to meet some practical need in <a href="Surveying" title="Surveying">surveying</a>, <a href="Construction" title="Construction">construction</a>, <a href="Astronomy" title="Astronomy">astronomy</a>, and various crafts. The earliest known texts on geometry are the <a href="Egyptian_mathematics" title="Egyptian mathematics">Egyptian</a> <i><a href="Rhind_Mathematical_Papyrus" title="Rhind Mathematical Papyrus">Rhind Papyrus</a></i> (2000–1800 BC) and <i><a href="Moscow_Mathematical_Papyrus" title="Moscow Mathematical Papyrus">Moscow Papyrus</a></i> (c. 1890 BC), the <a href="Babylonian_mathematics" title="Babylonian mathematics">Babylonian clay tablets</a> such as <a href="Plimpton_322" title="Plimpton 322">Plimpton 322</a> (1900 BC). For example, the Moscow Papyrus gives a formula for calculating the volume of a truncated pyramid, or <a href="Frustum" title="Frustum">frustum</a>.<sup id="cite_ref-Boyer_1991_loc.3DEgypt_p._19_7-0" class="reference"><a href="#cite_note-Boyer_1991_loc.3DEgypt_p._19-7"><span>[</span>7<span>]</span></a></sup> South of Egypt the <a href="Nubia" title="Nubia">ancient Nubians</a> established a system of geometry including early versions of sun clocks.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup></p>
+<p>In the 7th century BC, the <a href="Greek_mathematics" title="Greek mathematics">Greek</a> mathematician <a href="Thales_of_Miletus" title="Thales of Miletus" class="mw-redirect">Thales of Miletus</a> used geometry to solve problems such as calculating the height of pyramids and the distance of ships from the shore. He is credited with the first use of deductive reasoning applied to geometry, by deriving four corollaries to <a href="Thales'_Theorem" title="Thales' Theorem" class="mw-redirect">Thales' Theorem</a>.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> Pythagoras established the <a href="Pythagoreans" title="Pythagoreans" class="mw-redirect">Pythagorean School</a>, which is credited with the first proof of the <a href="Pythagorean_theorem" title="Pythagorean theorem">Pythagorean theorem</a>,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> though the statement of the theorem has a long history<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup><sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup> <a href="Eudoxus_of_Cnidus" title="Eudoxus of Cnidus">Eudoxus</a> (408–c.355 BC) developed the <a href="Method_of_exhaustion" title="Method of exhaustion">method of exhaustion</a>, which allowed the calculation of areas and volumes of curvilinear figures,<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> as well as a theory of ratios that avoided the problem of <a href="Incommensurable_magnitudes" title="Incommensurable magnitudes" class="mw-redirect">incommensurable magnitudes</a>, which enabled subsequent geometers to make significant advances. Around 300 BC, geometry was revolutionized by Euclid, whose <a href="Euclid's_Elements" title="Euclid's Elements"><i>Elements</i></a>, widely considered the most successful and influential textbook of all time,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> introduced <a href="Mathematical_rigor" title="Mathematical rigor" class="mw-redirect">mathematical rigor</a> through the <a href="Axiomatic_method" title="Axiomatic method" class="mw-redirect">axiomatic method</a> and is the earliest example of the format still used in mathematics today, that of definition, axiom, theorem, and proof. Although most of the contents of the <i>Elements</i> were already known, Euclid arranged them into a single, coherent logical framework.<sup id="cite_ref-Boyer_1991_loc.3DEuclid_of_Alexandria_p._104_16-0" class="reference"><a href="#cite_note-Boyer_1991_loc.3DEuclid_of_Alexandria_p._104-16"><span>[</span>16<span>]</span></a></sup> The <i>Elements</i> was known to all educated people in the West until the middle of the 20th century and its contents are still taught in geometry classes today.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> <a href="Archimedes" title="Archimedes">Archimedes</a> (c.287–212 BC) of <a href="Syracuse,_Italy" title="Syracuse, Italy" class="mw-redirect">Syracuse</a> used the <a href="Method_of_exhaustion" title="Method of exhaustion">method of exhaustion</a> to calculate the <a href="Area" title="Area">area</a> under the arc of a <a href="Parabola" title="Parabola">parabola</a> with the <a href="Series_(mathematics)" title="Series (mathematics)">summation of an infinite series</a>, and gave remarkably accurate approximations of <a href="Pi" title="Pi">Pi</a>.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> He also studied the <a href="Archimedes_spiral" title="Archimedes spiral" class="mw-redirect">spiral</a> bearing his name and obtained formulas for the <a href="Volume" title="Volume">volumes</a> of <a href="Surface_of_revolution" title="Surface of revolution">surfaces of revolution</a>.</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:232px;"><a href="http://en.wikipedia.org/wiki/File:Woman_teaching_geometry.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/230px-Woman_teaching_geometry.jpg" width="230" height="254" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/345px-Woman_teaching_geometry.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/460px-Woman_teaching_geometry.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Woman_teaching_geometry.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+<i>Woman teaching geometry</i>. Illustration at the beginning of a medieval translation of <a href="Euclid's_Elements" title="Euclid's Elements">Euclid's Elements</a>, (c.1310)</div>
+</div>
+</div>
+<p>In the <a href="Middle_Ages" title="Middle Ages">Middle Ages</a>, <a href="Mathematics_in_medieval_Islam" title="Mathematics in medieval Islam">mathematics in medieval Islam</a> contributed to the development of geometry, especially <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a><sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup><sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Citing_sources" title="Wikipedia:Citing sources"><span title="This citation requires a reference to the specific page or range of pages in which the material appears from September 2011">page&#160;needed</span></a></i>]</sup> and <a href="Geometric_algebra" title="Geometric algebra">geometric algebra</a>.<sup id="cite_ref-Boyer_Omar_Khayyam_positive_roots_20-0" class="reference"><a href="#cite_note-Boyer_Omar_Khayyam_positive_roots-20"><span>[</span>20<span>]</span></a></sup> <a href="Al-Mahani" title="Al-Mahani">Al-Mahani</a> (b. 853) conceived the idea of reducing geometrical problems such as duplicating the cube to problems in algebra.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup> <a href="Th%C4%81bit_ibn_Qurra" title="Thābit ibn Qurra">Thābit ibn Qurra</a> (known as Thebit in <a href="Latin" title="Latin">Latin</a>) (836–901) dealt with <a href="Arithmetic" title="Arithmetic">arithmetic</a> operations applied to <a href="Ratio" title="Ratio">ratios</a> of geometrical quantities, and contributed to the development of <a href="Analytic_geometry" title="Analytic geometry">analytic geometry</a>.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> <a href="Omar_Khayy%C3%A1m" title="Omar Khayyám">Omar Khayyám</a> (1048–1131) found geometric solutions to <a href="Cubic_equation" title="Cubic equation" class="mw-redirect">cubic equations</a>.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> The theorems of <a href="Ibn_al-Haytham" title="Ibn al-Haytham" class="mw-redirect">Ibn al-Haytham</a> (Alhazen), Omar Khayyam and <a href="Nasir_al-Din_al-Tusi" title="Nasir al-Din al-Tusi">Nasir al-Din al-Tusi</a> on <a href="Quadrilateral" title="Quadrilateral">quadrilaterals</a>, including the <a href="Lambert_quadrilateral" title="Lambert quadrilateral">Lambert quadrilateral</a> and <a href="Saccheri_quadrilateral" title="Saccheri quadrilateral">Saccheri quadrilateral</a>, were early results in <a href="Hyperbolic_geometry" title="Hyperbolic geometry">hyperbolic geometry</a>, and along with their alternative postulates, such as <a href="Playfair's_axiom" title="Playfair's axiom">Playfair's axiom</a>, these works had a considerable influence on the development of non-Euclidean geometry among later European geometers, including <a href="Witelo" title="Witelo">Witelo</a> (c.1230–c.1314), <a href="Gersonides" title="Gersonides">Gersonides</a> (1288–1344), <a href="Alfonso" title="Alfonso">Alfonso</a>, <a href="John_Wallis" title="John Wallis">John Wallis</a>, and <a href="Giovanni_Girolamo_Saccheri" title="Giovanni Girolamo Saccheri">Giovanni Girolamo Saccheri</a>.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup></p>
+<p>In the early 17th century, there were two important developments in geometry. The first was the creation of analytic geometry, or geometry with <a href="Coordinate_system" title="Coordinate system">coordinates</a> and <a href="Equation" title="Equation">equations</a>, by <a href="Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> (1596–1650) and <a href="Pierre_de_Fermat" title="Pierre de Fermat">Pierre de Fermat</a> (1601–1665). This was a necessary precursor to the development of <a href="Calculus" title="Calculus">calculus</a> and a precise quantitative science of <a href="Physics" title="Physics">physics</a>. The second geometric development of this period was the systematic study of <a href="Projective_geometry" title="Projective geometry">projective geometry</a> by <a href="Girard_Desargues" title="Girard Desargues" class="mw-redirect">Girard Desargues</a> (1591–1661). Projective geometry is a geometry without measurement or parallel lines, just the study of how points are related to each other.</p>
+<p>Two developments in geometry in the 19th century changed the way it had been studied previously. These were the discovery of <a href="Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean geometries</a> by <a href="Nikolai_Ivanovich_Lobachevsky" title="Nikolai Ivanovich Lobachevsky" class="mw-redirect">Nikolai Ivanovich Lobachevsky</a> (1792–1856), <a href="J%C3%A1nos_Bolyai" title="János Bolyai">János Bolyai</a> (1802–1860) and <a href="Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Carl Friedrich Gauss</a> (1777–1855) and of the formulation of <a href="Symmetry" title="Symmetry">symmetry</a> as the central consideration in the <a href="Erlangen_Programme" title="Erlangen Programme" class="mw-redirect">Erlangen Programme</a> of <a href="Felix_Klein" title="Felix Klein">Felix Klein</a> (which generalized the Euclidean and non-Euclidean geometries). Two of the master geometers of the time were <a href="Bernhard_Riemann" title="Bernhard Riemann">Bernhard Riemann</a> (1826–1866), working primarily with tools from <a href="Mathematical_analysis" title="Mathematical analysis">mathematical analysis</a>, and introducing the <a href="Riemann_surface" title="Riemann surface">Riemann surface</a>, and <a href="Henri_Poincar%C3%A9" title="Henri Poincaré">Henri Poincaré</a>, the founder of <a href="Algebraic_topology" title="Algebraic topology">algebraic topology</a> and the geometric theory of <a href="Dynamical_system" title="Dynamical system">dynamical systems</a>. As a consequence of these major changes in the conception of geometry, the concept of "space" became something rich and varied, and the natural background for theories as different as <a href="Complex_analysis" title="Complex analysis">complex analysis</a> and <a href="Classical_mechanics" title="Classical mechanics">classical mechanics</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=11.php.html" title="Edit section: Contemporary geometry">edit</a>]</span> <span class="mw-headline" id="Contemporary_geometry">Contemporary geometry</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=12.php.html" title="Edit section: Euclidean geometry">edit</a>]</span> <span class="mw-headline" id="Euclidean_geometry">Euclidean geometry</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:122px;"><a href="http://en.wikipedia.org/wiki/File:E8Petrie.svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/14/E8Petrie.svg/120px-E8Petrie.svg.png" width="120" height="121" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/14/E8Petrie.svg/180px-E8Petrie.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/14/E8Petrie.svg/240px-E8Petrie.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:E8Petrie.svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The <a href="4_21_polytope" title="4 21 polytope">4<sub>21</sub>polytope</a>, orthogonally projected into the <a href="E8_(mathematics)" title="E8 (mathematics)">E<sub>8</sub></a> <a href="Lie_group" title="Lie group">Lie group</a> <a href="Coxeter_plane" title="Coxeter plane" class="mw-redirect">Coxeter plane</a></div>
+</div>
+</div>
+<p>Euclidean geometry has become closely connected with <a href="Computational_geometry" title="Computational geometry">computational geometry</a>, <a href="Computer_graphics" title="Computer graphics">computer graphics</a>, <a href="Convex_geometry" title="Convex geometry">convex geometry</a>, <a href="Discrete_geometry" title="Discrete geometry">discrete geometry</a>, and some areas of <a href="Combinatorics" title="Combinatorics">combinatorics</a>. Momentum was given to further work on Euclidean geometry and the Euclidean groups by <a href="Crystallography" title="Crystallography">crystallography</a> and the work of <a href="../H._S._M._Coxeter" title="H. S. M. Coxeter" class="mw-redirect">H. S. M. Coxeter</a>, and can be seen in theories of <a href="Coxeter_group" title="Coxeter group">Coxeter groups</a> and polytopes. <a href="Geometric_group_theory" title="Geometric group theory">Geometric group theory</a> is an expanding area of the theory of more general <a href="Discrete_group" title="Discrete group">discrete groups</a>, drawing on geometric models and algebraic techniques.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=13.php.html" title="Edit section: Differential geometry">edit</a>]</span> <span class="mw-headline" id="Differential_geometry">Differential geometry</span></h3>
+<p><a href="Differential_geometry" title="Differential geometry">Differential geometry</a> has been of increasing importance to <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a> due to <a href="Einstein" title="Einstein" class="mw-redirect">Einstein</a>'s <a href="General_relativity" title="General relativity">general relativity</a> postulation that the <a href="Universe" title="Universe">universe</a> is <a href="Curvature" title="Curvature">curved</a>. Contemporary differential geometry is <i>intrinsic</i>, meaning that the spaces it considers are <a href="Smooth_manifold" title="Smooth manifold" class="mw-redirect">smooth manifolds</a> whose geometric structure is governed by a <a href="Riemannian_metric" title="Riemannian metric" class="mw-redirect">Riemannian metric</a>, which determines how distances are measured near each point, and not <i>a priori</i> parts of some ambient flat Euclidean space.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=14.php.html" title="Edit section: Topology and geometry">edit</a>]</span> <span class="mw-headline" id="Topology_and_geometry">Topology and geometry</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:122px;"><a href="http://en.wikipedia.org/wiki/File:Trefoil_knot_arb.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Trefoil_knot_arb.png/120px-Trefoil_knot_arb.png" width="120" height="90" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Trefoil_knot_arb.png/180px-Trefoil_knot_arb.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/46/Trefoil_knot_arb.png/240px-Trefoil_knot_arb.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Trefoil_knot_arb.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A thickening of the <a href="Trefoil_knot" title="Trefoil knot">trefoil knot</a></div>
+</div>
+</div>
+<p>The field of <a href="Topology" title="Topology">topology</a>, which saw massive development in the 20th century, is in a technical sense a type of <a href="Transformation_geometry" title="Transformation geometry">transformation geometry</a>, in which transformations are <a href="Homeomorphism" title="Homeomorphism">homeomorphisms</a>. This has often been expressed in the form of the dictum 'topology is rubber-sheet geometry'. Contemporary <a href="Geometric_topology" title="Geometric topology">geometric topology</a> and <a href="Differential_topology" title="Differential topology">differential topology</a>, and particular subfields such as <a href="Morse_theory" title="Morse theory">Morse theory</a>, would be counted by most mathematicians as part of geometry. <a href="Algebraic_topology" title="Algebraic topology">Algebraic topology</a> and <a href="General_topology" title="General topology">general topology</a> have gone their own ways.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=15.php.html" title="Edit section: Algebraic geometry">edit</a>]</span> <span class="mw-headline" id="Algebraic_geometry">Algebraic geometry</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:122px;"><a href="http://en.wikipedia.org/wiki/File:Calabi_yau.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Calabi_yau.jpg/120px-Calabi_yau.jpg" width="120" height="125" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Calabi_yau.jpg/180px-Calabi_yau.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Calabi_yau.jpg/240px-Calabi_yau.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Calabi_yau.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Quintic <a href="Calabi%E2%80%93Yau_manifold" title="Calabi–Yau manifold">Calabi–Yau threefold</a></div>
+</div>
+</div>
+<p>The field of <a href="Algebraic_geometry" title="Algebraic geometry">algebraic geometry</a> is the modern incarnation of the <a href="Cartesian_geometry" title="Cartesian geometry" class="mw-redirect">Cartesian geometry</a> of <a href="Co-ordinates" title="Co-ordinates" class="mw-redirect">co-ordinates</a>. From late 1950s through mid-1970s it had undergone major foundational development, largely due to work of <a href="Jean-Pierre_Serre" title="Jean-Pierre Serre">Jean-Pierre Serre</a> and <a href="Alexander_Grothendieck" title="Alexander Grothendieck">Alexander Grothendieck</a>. This led to the introduction of <a href="Scheme_(algebraic_geometry)" title="Scheme (algebraic geometry)" class="mw-redirect">schemes</a> and greater emphasis on <a href="Algebraic_topology" title="Algebraic topology">topological</a> methods, including various <a href="Cohomology_theory" title="Cohomology theory" class="mw-redirect">cohomology theories</a>. One of seven <a href="Millennium_Prize_problems" title="Millennium Prize problems" class="mw-redirect">Millennium Prize problems</a>, the <a href="Hodge_conjecture" title="Hodge conjecture">Hodge conjecture</a>, is a question in algebraic geometry.</p>
+<p>The study of low dimensional algebraic varieties, <a href="Algebraic_curve" title="Algebraic curve">algebraic curves</a>, <a href="Algebraic_surface" title="Algebraic surface">algebraic surfaces</a> and algebraic varieties of dimension 3 ("algebraic threefolds"), has been far advanced. <a href="Gr%C3%B6bner_basis" title="Gröbner basis">Gröbner basis</a> theory and <a href="Real_algebraic_geometry" title="Real algebraic geometry">real algebraic geometry</a> are among more applied subfields of modern algebraic geometry. <a href="Arithmetic_geometry" title="Arithmetic geometry" class="mw-redirect">Arithmetic geometry</a> is an active field combining algebraic geometry and <a href="Number_theory" title="Number theory">number theory</a>. Other directions of research involve <a href="Moduli_space" title="Moduli space">moduli spaces</a> and <a href="Complex_geometry" title="Complex geometry">complex geometry</a>. Algebro-geometric methods are commonly applied in <a href="String_theory" title="String theory">string</a> and <a href="Brane_theory" title="Brane theory" class="mw-redirect">brane</a> theory.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=16.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px; margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px;">
+<tr>
+<td style="text-align: center;"><a href="http://en.wikipedia.org/wiki/File:Crystal_Clear_app_3d.png" class="image"><img alt="Portal icon" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/28px-Crystal_Clear_app_3d.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/42px-Crystal_Clear_app_3d.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Crystal_Clear_app_3d.png/56px-Crystal_Clear_app_3d.png 2x" /></a></td>
+<td style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold"><a href="Portal_Geometry" title="Portal:Geometry">Geometry  portal</a></td>
+</tr>
+</table>
+</div>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=17.php.html" title="Edit section: Lists">edit</a>]</span> <span class="mw-headline" id="Lists">Lists</span></h3>
+<ul>
+<li><a href="List_of_geometers" title="List of geometers">List of geometers</a>
+<ul>
+<li><a href="Category_Algebraic_geometers" title="Category:Algebraic geometers">Category:Algebraic geometers</a></li>
+<li><a href="Category_Differential_geometers" title="Category:Differential geometers">Category:Differential geometers</a></li>
+<li><a href="Category_Geometers" title="Category:Geometers">Category:Geometers</a></li>
+<li><a href="Category_Topologists" title="Category:Topologists">Category:Topologists</a></li>
+</ul>
+</li>
+<li><a href="List_of_geometry_topics" title="List of geometry topics">List of geometry topics</a></li>
+<li><a href="List_of_important_publications_in_mathematics#Geometry" title="List of important publications in mathematics">List of important publications in geometry</a></li>
+<li><a href="List_of_mathematics_articles" title="List of mathematics articles" class="mw-redirect">List of mathematics articles</a></li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=18.php.html" title="Edit section: Related topics">edit</a>]</span> <span class="mw-headline" id="Related_topics">Related topics</span></h3>
+<ul>
+<li><i><a href="Flatland" title="Flatland">Flatland</a></i>, a book written by <a href="Edwin_Abbott_Abbott" title="Edwin Abbott Abbott">Edwin Abbott Abbott</a> about two- and <a href="Three-dimensional_space" title="Three-dimensional space">three-dimensional space</a>, to understand the concept of four dimensions</li>
+<li><a href="Interactive_geometry_software" title="Interactive geometry software" class="mw-redirect">Interactive geometry software</a></li>
+<li><a href="Shulba_Sutras" title="Shulba Sutras">Shulba Sutras</a></li>
+<li><a href="Trigonometry" title="Trigonometry">Trigonometry</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=19.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=20.php.html" title="Edit section: Notes">edit</a>]</span> <span class="mw-headline" id="Notes">Notes</span></h3>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">Martin J. Turner,Jonathan M. Blackledge,Patrick R. Andrews (1998). "<i><a rel="nofollow" class="external text" href="http://books.google.com/books?id=oLXgFdfKp78C&pg=PA1&dq&hl=en#v=onepage&amp;q=&amp;f=false">Fractal geometry in digital imaging</a></i>". <a href="Academic_Press" title="Academic Press">Academic Press</a>. p.1. <a href="Special_BookSources/0127039708" class="internal mw-magiclink-isbn">ISBN 0-12-703970-8</a></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">It is quite common in algebraic geometry to speak about <i>geometry of <a href="Algebraic_variety" title="Algebraic variety">algebraic varieties</a> over <a href="Finite_field" title="Finite field">finite fields</a></i>, possibly <a href="Singularity_theory" title="Singularity theory">singular</a>. From a naïve perspective, these objects are just finite sets of points, but by invoking powerful geometric imagery and using well developed geometric techniques, it is possible to find structure and establish properties that make them somewhat analogous to the ordinary <a href="Sphere" title="Sphere">spheres</a> or <a href="Cone_(geometry)" title="Cone (geometry)" class="mw-redirect">cones</a>.</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Kline (1972) "Mathematical thought from ancient to modern times", Oxford University Press, p. 1032. Kant did not reject the logical (analytic a priori) <i>possibility</i> of non-Euclidean geometry, see <a href="Jeremy_Gray" title="Jeremy Gray">Jeremy Gray</a>, "Ideas of Space Euclidean, Non-Euclidean, and Relativistic", Oxford, 1989; p. 85. Some have implied that, in light of this, Kant had in fact <i>predicted</i> the development of non-Euclidean geometry, cf. Leonard Nelson, "Philosophy and Axiomatics," Socratic Method and Critical Philosophy, Dover, 1965; p.164.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.maths.tcd.ie/pub/HistMath/People/Riemann/Geom/">http://www.maths.tcd.ie/pub/HistMath/People/Riemann/Geom/</a></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">J. Friberg, "Methods and traditions of Babylonian mathematics. Plimpton 322, Pythagorean triples, and the Babylonian triangle parameter equations", Historia Mathematica, 8, 1981, pp. 277—318.</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation book"><a href="../Otto_E._Neugebauer" title="Otto E. Neugebauer">Neugebauer, Otto</a> (1969) [1957]. <a rel="nofollow" class="external text" href="http://books.google.com/?id=JVhTtVA2zr8C"><i>The Exact Sciences in Antiquity</i></a> (2 ed.). <a href="Dover_Publications" title="Dover Publications">Dover Publications</a>. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/978-0-486-22332-2" title="Special:BookSources/978-0-486-22332-2">978-0-486-22332-2</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://books.google.com/?id=JVhTtVA2zr8C">http://books.google.com/?id=JVhTtVA2zr8C</a></span>.</span> Chap. IV "Egyptian Mathematics and Astronomy", pp. 71–96.</span></li>
+<li id="cite_note-Boyer_1991_loc.3DEgypt_p._19-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-Boyer_1991_loc.3DEgypt_p._19_7-0">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "Egypt" p. 19)</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.jstor.org/pss/3822211">The Journal of Egyptian Archaeology. Vol. 84, 1998 Gnomons at Meroë and Early Trigonometry. pg. 171</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.archaeology.org/online/news/nubia.html">Neolithic Skywatchers. May 27, 1998 by Andrew L. Slayman Archaeology.org</a></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "Ionia and the Pythagoreans" p. 43)</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Eves, Howard, An Introduction to the History of Mathematics, Saunders, 1990, <a href="Special_BookSources/0030295580" class="internal mw-magiclink-isbn">ISBN 0-03-029558-0</a>.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><span class="citation Journal" id="CITEREFKurt_Von_Fritz1945">Kurt Von Fritz (1945). "The Discovery of Incommensurability by Hippasus of Metapontum". <i>The Annals of Mathematics</i>.</span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation Journal" id="CITEREFJames_R._Choike1980">James R. Choike (1980). "The Pentagram and the Discovery of an Irrational Number". <i>The Two-Year College Mathematics Journal</i>.</span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "The Age of Plato and Aristotle" p. 92)</span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "Euclid of Alexandria" p. 119)</span></li>
+<li id="cite_note-Boyer_1991_loc.3DEuclid_of_Alexandria_p._104-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-Boyer_1991_loc.3DEuclid_of_Alexandria_p._104_16-0">^</a></b></span> <span class="reference-text">(<a href="#CITEREFBoyer1991">Boyer 1991</a>, "Euclid of Alexandria" p. 104)</span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Howard Eves, <i>An Introduction to the History of Mathematics</i>, Saunders, 1990, <a href="Special_BookSources/0030295580" class="internal mw-magiclink-isbn">ISBN 0-03-029558-0</a> p. 141: "No work, except <a href="The_Bible" title="The Bible" class="mw-redirect">The Bible</a>, has been more widely used...."</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation web">O'Connor, J.J. and Robertson, E.F. (February 1996). <a rel="nofollow" class="external text" href="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/The_rise_of_calculus.html">"A history of calculus"</a>. <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/The_rise_of_calculus.html">http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/The_rise_of_calculus.html</a></span><span class="reference-accessdate">. Retrieved 2007-08-07</span>.</span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">R. Rashed (1994), <i>The development of Arabic mathematics: between arithmetic and algebra</i>, <a href="London" title="London">London</a></span></li>
+<li id="cite_note-Boyer_Omar_Khayyam_positive_roots-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-Boyer_Omar_Khayyam_positive_roots_20-0">^</a></b></span> <span class="reference-text"><span class="citation book"><a href="Carl_Benjamin_Boyer" title="Carl Benjamin Boyer">Boyer</a> (1991). "The Arabic Hegemony". pp.&#160;241–242. "Omar Khayyam (ca. 1050–1123), the "tent-maker," wrote an <i>Algebra</i> that went beyond that of al-Khwarizmi to include equations of third degree. Like his Arab predecessors, Omar Khayyam provided for quadratic equations both arithmetic and geometric solutions; for general cubic equations, he believed (mistakenly, as the 16th century later showed), arithmetic solutions were impossible; hence he gave only geometric solutions. The scheme of using intersecting conics to solve cubics had been used earlier by Menaechmus, Archimedes, and Alhazan, but Omar Khayyam took the praiseworthy step of generalizing the method to cover all third-degree equations (having positive roots). .. For equations of higher degree than three, Omar Khayyam evidently did not envision similar geometric methods, for space does not contain more than three dimensions, ... One of the most fruitful contributions of Arabic eclecticism was the tendency to close the gap between numerical and geometric algebra. The decisive step in this direction came much later with Descartes, but Omar Khayyam was moving in this direction when he wrote, "Whoever thinks algebra is a trick in obtaining unknowns has thought it in vain. No attention should be paid to the fact that algebra and geometry are different in appearance. Algebras are geometric facts which are proved.""</span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><span class="citation"><a href="../John_J._O'Connor_(mathematician)" title="John J. O'Connor (mathematician)" class="mw-redirect">O'Connor, John J.</a>; <a href="../Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Al-Mahani.html">"Al-Mahani"</a>, <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Al-Mahani.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Al-Mahani.html</a></span></span>.</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><span class="citation"><a href="../John_J._O'Connor_(mathematician)" title="John J. O'Connor (mathematician)" class="mw-redirect">O'Connor, John J.</a>; <a href="../Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Thabit.html">"Al-Sabi Thabit ibn Qurra al-Harrani"</a>, <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Thabit.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Thabit.html</a></span></span>.</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation"><a href="../John_J._O'Connor_(mathematician)" title="John J. O'Connor (mathematician)" class="mw-redirect">O'Connor, John J.</a>; <a href="../Edmund_F._Robertson" title="Edmund F. Robertson">Robertson, Edmund F.</a>, <a rel="nofollow" class="external text" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Khayyam.html">"Omar Khayyam"</a>, <i><a href="MacTutor_History_of_Mathematics_archive" title="MacTutor History of Mathematics archive">MacTutor History of Mathematics archive</a></i>, <a href="University_of_St_Andrews" title="University of St Andrews">University of St Andrews</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://www-history.mcs.st-andrews.ac.uk/Biographies/Khayyam.html">http://www-history.mcs.st-andrews.ac.uk/Biographies/Khayyam.html</a></span></span>.</span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text">Boris A. Rosenfeld and Adolf P. Youschkevitch (1996), "Geometry", in Roshdi Rashed, ed., <i><a href="Encyclopedia_of_the_History_of_Arabic_Science" title="Encyclopedia of the History of Arabic Science">Encyclopedia of the History of Arabic Science</a></i>, Vol. 2, p. 447–494 [470], <a href="Routledge" title="Routledge">Routledge</a>, London and New York:</span>
+<blockquote class="templatequote">
+<div class="Bug6200"><span class="reference-text">"Three scientists, Ibn al-Haytham, Khayyam, and al-Tusi, had made the most considerable contribution to this branch of geometry whose importance came to be completely recognized only in the 19th century. In essence, their propositions concerning the properties of quadrangles which they considered, assuming that some of the angles of these figures were acute of obtuse, embodied the first few theorems of the hyperbolic and the elliptic geometries. Their other proposals showed that various geometric statements were equivalent to the Euclidean postulate V. It is extremely important that these scholars established the mutual connection between this postulate and the sum of the angles of a triangle and a quadrangle. By their works on the theory of parallel lines Arab mathematicians directly influenced the relevant investiagtions of their European counterparts. The first European attempt to prove the postulate on parallel lines – made by Witelo, the Polish scientists of the 13th century, while revising Ibn al-Haytham's <i><a href="Book_of_Optics" title="Book of Optics">Book of Optics</a></i> (<i>Kitab al-Manazir</i>) – was undoubtedly prompted by Arabic sources. The proofs put forward in the 14th century by the Jewish scholar Levi ben Gerson, who lived in southern France, and by the above-mentioned Alfonso from Spain directly border on Ibn al-Haytham's demonstration. Above, we have demonstrated that <i>Pseudo-Tusi's Exposition of Euclid</i> had stimulated both J. Wallis's and G. Saccheri's studies of the theory of parallel lines."</span></div>
+</blockquote>
+</li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=21.php.html" title="Edit section: Sources">edit</a>]</span> <span class="mw-headline" id="Sources">Sources</span></h2>
+<ul>
+<li><a href="Carl_Benjamin_Boyer" title="Carl Benjamin Boyer">Boyer, C. B.</a> <i>A History of Mathematics</i>, 2nd ed. rev. by Uta C. Merzbach. New York: Wiley, 1989 <a href="Special_BookSources/0471097632" class="internal mw-magiclink-isbn">ISBN 0-471-09763-2</a> (1991 pbk ed. <a href="Special_BookSources/0471543977" class="internal mw-magiclink-isbn">ISBN 0-471-54397-7</a>).</li>
+<li>Nikolai I. Lobachevsky, Pangeometry, Translator and Editor: A. Papadopoulos, Heritage of European Mathematics Series, Vol. 4, European Mathematical Society, 2010.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=22.php.html" title="Edit section: Bibliography">edit</a>]</span> <span class="mw-headline" id="Bibliography">Bibliography</span></h3>
+<ul>
+<li>Mlodinow, M.; <i>Euclid's window (the story of geometry from parallel lines to hyperspace)</i>, UK edn. Allen Lane, 1992.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Geometry&action=edit&section=23.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata plainlinks mbox-small" style="padding:0.25em 0.5em 0.5em 0.75em;border:1px solid #aaa;background:#f9f9f9;">
+<tr style="height:25px;">
+<td colspan="2" style="padding-bottom:0.5em;border-bottom:1px solid #aaa;margin:auto;text-align:center;">Find more about <b>Geometry</b> at Wikipedia's <a href="Wikipedia_Wikimedia_sister_projects" title="Wikipedia:Wikimedia sister projects">sister projects</a></td>
+</tr>
+<tr style="height:25px;">
+<td style="padding-top:0.75em;"><a href="http://en.wiktionary.org/wiki/Special:Search/Geometry" title="Search Wiktionary"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/23px-Wiktionary-logo-en.svg.png" width="23" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/35px-Wiktionary-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/46px-Wiktionary-logo-en.svg.png 2x" /></a></td>
+<td style="padding-top:0.75em;"><a href="http://en.wiktionary.org/wiki/Special:Search/Geometry" class="extiw" title="wikt:Special:Search/Geometry">Definitions and translations</a> from Wiktionary</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://commons.wikimedia.org/wiki/Special:Search/Geometry" title="Search Commons"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" width="18" height="25" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/28px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/37px-Commons-logo.svg.png 2x" /></a></td>
+<td><a href="http://commons.wikimedia.org/wiki/Special:Search/Geometry" class="extiw" title="commons:Special:Search/Geometry">Media</a> from Commons</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikiversity.org/wiki/Special:Search/Geometry" title="Search Wikiversity"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/25px-Wikiversity-logo-en.svg.png" width="25" height="23" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/38px-Wikiversity-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/50px-Wikiversity-logo-en.svg.png 2x" /></a></td>
+<td><a href="http://en.wikiversity.org/wiki/Special:Search/Geometry" class="extiw" title="v:Special:Search/Geometry">Learning resources</a> from Wikiversity</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikinews.org/wiki/Special:Search/Geometry" title="Search Wikinews"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/25px-Wikinews-logo.svg.png" width="25" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/38px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/50px-Wikinews-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikinews.org/wiki/Special:Search/Geometry" class="extiw" title="n:Special:Search/Geometry">News stories</a> from Wikinews</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikiquote.org/wiki/Special:Search/Geometry" title="Search Wikiquote"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/21px-Wikiquote-logo.svg.png" width="21" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/32px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/42px-Wikiquote-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikiquote.org/wiki/Special:Search/Geometry" class="extiw" title="q:Special:Search/Geometry">Quotations</a> from Wikiquote</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikisource.org/wiki/Special:Search/Geometry" title="Search Wikisource"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png" width="24" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/36px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/48px-Wikisource-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikisource.org/wiki/Special:Search/Geometry" class="extiw" title="s:Special:Search/Geometry">Source texts</a> from Wikisource</td>
+</tr>
+<tr style="height:25px;">
+<td><a href="http://en.wikibooks.org/wiki/Special:Search/Geometry" title="Search Wikibooks"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/25px-Wikibooks-logo.svg.png" width="25" height="25" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/38px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/50px-Wikibooks-logo.svg.png 2x" /></a></td>
+<td><a href="http://en.wikibooks.org/wiki/Special:Search/Geometry" class="extiw" title="b:Special:Search/Geometry">Textbooks</a> from Wikibooks</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has more on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Special:Search/Geometry" class="extiw" title="wikibooks:Special:Search/Geometry">Geometry</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li>A <a href="http://en.wikiversity.org/wiki/Geometry" class="extiw" title="v:Geometry">geometry</a> course from <a href="http://en.wikiversity.org/wiki/" class="extiw" title="v:">Wikiversity</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.8foxes.com/"><i>Unusual Geometry Problems</i></a></li>
+<li><a rel="nofollow" class="external text" href="http://mathforum.org/library/topics/geometry/"><i>The Math Forum</i> — Geometry</a>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://mathforum.org/geometry/k12.geometry.html"><i>The Math Forum</i> — K–12 Geometry</a></li>
+<li><a rel="nofollow" class="external text" href="http://mathforum.org/geometry/coll.geometry.html"><i>The Math Forum</i> — College Geometry</a></li>
+<li><a rel="nofollow" class="external text" href="http://mathforum.org/advanced/geom.html"><i>The Math Forum</i> — Advanced Geometry</a></li>
+</ul>
+</li>
+<li><a rel="nofollow" class="external text" href="http://precedings.nature.com/documents/2153/version/1/">Nature Precedings — <i>Pegs and Ropes Geometry at Stonehenge</i></a></li>
+<li><a rel="nofollow" class="external text" href="http://www.math.niu.edu/~rusin/known-math/index/tour_geo.html"><i>The Mathematical Atlas</i> — Geometric Areas of Mathematics</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.gresham.ac.uk/event.asp?PageId=45&EventId=618">"4000 Years of Geometry"</a>, lecture by Robin Wilson given at <a href="Gresham_College" title="Gresham College">Gresham College</a>, 3 October 2007 (available for MP3 and MP4 download as well as a text file)
+<ul>
+<li><a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/geometry-finitism/">Finitism in Geometry</a> at the Stanford Encyclopedia of Philosophy</li>
+</ul>
+</li>
+<li><a rel="nofollow" class="external text" href="http://www.ics.uci.edu/~eppstein/junkyard/topic.html">The Geometry Junkyard</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.mathvisuals.com">Interactive Geometry Applications (Java and Cabri 3D)</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.mathopenref.com">Interactive geometry reference with hundreds of applets</a></li>
+<li><a rel="nofollow" class="external text" href="http://math.kennesaw.edu/~mdevilli/JavaGSPLinks.htm">Dynamic Geometry Sketches (with some Student Explorations)</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.khanacademy.org/?video=ca-geometry--area--pythagorean-theorem#california-standards-test-geometry">Geometry classes</a> at <a href="Khan_Academy" title="Khan Academy">Khan Academy</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><strong class="selflink">Geometry</strong>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<p><br />
+<span id="interwiki-ia-fa"></span> <span id="interwiki-cs-ga"></span></p>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 8385/1000000
+Preprocessor generated node count: 63491/1500000
+Post-expand include size: 113884/2048000 bytes
+Template argument size: 64407/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:18973446-0!*!0!!en!4!* and timestamp 20130212100437 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Geometry&oldid=536221202.php.html">http://en.wikipedia.org/w/index.php?title=Geometry&amp;oldid=536221202</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Geometry" title="Category:Geometry">Geometry</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_indefinitely_move-protected_pages" title="Category:Wikipedia indefinitely move-protected pages">Wikipedia indefinitely move-protected pages</a></li><li><a href="Category_Articles_containing_Ancient_Greek_language_text" title="Category:Articles containing Ancient Greek language text">Articles containing Ancient Greek language text</a></li><li><a href="Category_Wikipedia_articles_needing_page_number_citations_from_September_2011" title="Category:Wikipedia articles needing page number citations from September 2011">Wikipedia articles needing page number citations from September 2011</a></li><li><a href="Category_Use_dmy_dates_from_September_2010" title="Category:Use dmy dates from September 2010">Use dmy dates from September 2010</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Geometry&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Geometry.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Geometry"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Geometry&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Geometry&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Geometry" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Geometry" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Geometry&oldid=536221202.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Geometry&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Geometry&id=536221202.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Geometry.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Geometry&oldid=536221202&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Geometry&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Meetkunde" title="Meetkunde" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9" title="هندسة رياضية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-an"><a href="http://an.wikipedia.org/wiki/Cheometr%C3%ADa" title="Cheometría" lang="an" hreflang="an">Aragonés</a></li>
+			<li class="interwiki-as"><a href="http://as.wikipedia.org/wiki/%E0%A6%9C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF" title="জ্যামিতি" lang="as" hreflang="as">অসমীয়া</a></li>
+			<li class="interwiki-ast"><a href="http://ast.wikipedia.org/wiki/Xeometr%C3%ADa" title="Xeometría" lang="ast" hreflang="ast">Asturianu</a></li>
+			<li class="interwiki-az"><a href="http://az.wikipedia.org/wiki/H%C9%99nd%C9%99s%C9%99" title="Həndəsə" lang="az" hreflang="az">Azərbaycanca</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF" title="জ্যামিতি" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-zh-min-nan"><a href="http://zh-min-nan.wikipedia.org/wiki/K%C3%AD-h%C3%B4-ha%CC%8Dk" title="Kí-hô-ha̍k" lang="zh-min-nan" hreflang="zh-min-nan">Bân-lâm-gú</a></li>
+			<li class="interwiki-ba"><a href="http://ba.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="ba" hreflang="ba">Башҡортса</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%93%D0%B5%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%D1%8F" title="Геаметрыя" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%93%D0%B5%D0%B0%D0%BC%D1%8D%D1%82%D1%80%D1%8B%D1%8F" title="Геамэтрыя" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bo"><a href="http://bo.wikipedia.org/wiki/%E0%BD%91%E0%BD%96%E0%BE%B1%E0%BD%B2%E0%BD%96%E0%BD%A6%E0%BC%8B%E0%BD%A2%E0%BE%A9%E0%BD%B2%E0%BD%A6%E0%BC%8B%E0%BD%A2%E0%BD%B2%E0%BD%82%E0%BC%8B%E0%BD%94%E0%BC%8D" title="དབྱིབས་རྩིས་རིག་པ།" lang="bo" hreflang="bo">བོད་ཡིག</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Geometrija" title="Geometrija" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-br"><a href="http://br.wikipedia.org/wiki/Mentoniezh" title="Mentoniezh" lang="br" hreflang="br">Brezhoneg</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Geometria" title="Geometria" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cv"><a href="http://cv.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8" title="Геометри" lang="cv" hreflang="cv">Чӑвашла</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-sn"><a href="http://sn.wikipedia.org/wiki/Pimanyika" title="Pimanyika" lang="sn" hreflang="sn">ChiShona</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Geometri" title="Geometri" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Geomeetria" title="Geomeetria" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%93%CE%B5%CF%89%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1" title="Γεωμετρία" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-eml"><a href="http://eml.wikipedia.org/wiki/Geometr%C3%AE" title="Geometrî" lang="eml" hreflang="eml">Emiliàn e rumagnòl</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Geometr%C3%ADa" title="Geometría" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Geometrio" title="Geometrio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-ext"><a href="http://ext.wikipedia.org/wiki/Geometria" title="Geometria" lang="ext" hreflang="ext">Estremeñu</a></li>
+			<li class="interwiki-eu"><a href="http://eu.wikipedia.org/wiki/Geometria" title="Geometria" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%87%D9%86%D8%AF%D8%B3%D9%87" title="هندسه" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-hif"><a href="http://hif.wikipedia.org/wiki/Geometry" title="Geometry" lang="hif" hreflang="hif">Fiji Hindi</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie" title="Géométrie" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gv"><a href="http://gv.wikipedia.org/wiki/Towse-oaylleeaght" title="Towse-oaylleeaght" lang="gv" hreflang="gv">Gaelg</a></li>
+			<li class="interwiki-gd"><a href="http://gd.wikipedia.org/wiki/Geoimeatras" title="Geoimeatras" lang="gd" hreflang="gd">Gàidhlig</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Xeometr%C3%ADa" title="Xeometría" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-gan"><a href="http://gan.wikipedia.org/wiki/%E5%B9%BE%E4%BD%95%E5%AD%B8" title="幾何學" lang="gan" hreflang="gan">贛語</a></li>
+			<li class="interwiki-gu"><a href="http://gu.wikipedia.org/wiki/%E0%AA%AD%E0%AB%82%E0%AA%AE%E0%AA%BF%E0%AA%A4%E0%AA%BF" title="ભૂમિતિ" lang="gu" hreflang="gu">ગુજરાતી</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EA%B8%B0%ED%95%98%ED%95%99" title="기하학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hy"><a href="http://hy.wikipedia.org/wiki/%D4%B5%D6%80%D5%AF%D6%80%D5%A1%D5%B9%D5%A1%D6%83%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" title="Երկրաչափություն" lang="hy" hreflang="hy">Հայերեն</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF" title="ज्यामिति" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Geometrija" title="Geometrija" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-io"><a href="http://io.wikipedia.org/wiki/Geometrio" title="Geometrio" lang="io" hreflang="io">Ido</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Geometri" title="Geometri" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-ia"><a href="http://ia.wikipedia.org/wiki/Geometria" title="Geometria" lang="ia" hreflang="ia">Interlingua</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/R%C3%BAmfr%C3%A6%C3%B0i" title="Rúmfræði" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Geometria" title="Geometria" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%92%D7%90%D7%95%D7%9E%D7%98%D7%A8%D7%99%D7%94" title="גאומטריה" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-jv"><a href="http://jv.wikipedia.org/wiki/G%C3%A9om%C3%A8tri" title="Géomètri" lang="jv" hreflang="jv">Basa Jawa</a></li>
+			<li class="interwiki-ka"><a href="http://ka.wikipedia.org/wiki/%E1%83%92%E1%83%94%E1%83%9D%E1%83%9B%E1%83%94%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90" title="გეომეტრია" lang="ka" hreflang="ka">ქართული</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-ht"><a href="http://ht.wikipedia.org/wiki/Jewometri" title="Jewometri" lang="ht" hreflang="ht">Kreyòl ayisyen</a></li>
+			<li class="interwiki-ku"><a href="http://ku.wikipedia.org/wiki/Geometr%C3%AE" title="Geometrî" lang="ku" hreflang="ku">Kurdî</a></li>
+			<li class="interwiki-ky"><a href="http://ky.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="ky" hreflang="ky">Кыргызча</a></li>
+			<li class="interwiki-lo"><a href="http://lo.wikipedia.org/wiki/%E0%BB%80%E0%BA%A5%E0%BA%82%E0%BA%B2%E0%BA%84%E0%BA%B0%E0%BA%99%E0%BA%B4%E0%BA%94" title="ເລຂາຄະນິດ" lang="lo" hreflang="lo">ລາວ</a></li>
+			<li class="interwiki-la"><a href="http://la.wikipedia.org/wiki/Geometria" title="Geometria" lang="la" hreflang="la">Latina</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/%C4%A2eometrija" title="Ģeometrija" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-lb"><a href="http://lb.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="lb" hreflang="lb">Lëtzebuergesch</a></li>
+			<li class="interwiki-lt"><a href="http://lt.wikipedia.org/wiki/Geometrija" title="Geometrija" lang="lt" hreflang="lt">Lietuvių</a></li>
+			<li class="interwiki-lmo"><a href="http://lmo.wikipedia.org/wiki/Geometr%C3%ACa" title="Geometrìa" lang="lmo" hreflang="lmo">Lumbaart</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Geometria" title="Geometria" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%98%D0%B0" title="Геометрија" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-mg"><a href="http://mg.wikipedia.org/wiki/Jeometria" title="Jeometria" lang="mg" hreflang="mg">Malagasy</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%9C%E0%B5%8D%E0%B4%AF%E0%B4%BE%E0%B4%AE%E0%B4%BF%E0%B4%A4%E0%B4%BF" title="ജ്യാമിതി" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-mt"><a href="http://mt.wikipedia.org/wiki/%C4%A0eometrija" title="Ġeometrija" lang="mt" hreflang="mt">Malti</a></li>
+			<li class="interwiki-mr"><a href="http://mr.wikipedia.org/wiki/%E0%A4%AD%E0%A5%82%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A5%80" title="भूमिती" lang="mr" hreflang="mr">मराठी</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Geometri" title="Geometri" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mwl"><a href="http://mwl.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="mwl" hreflang="mwl">Mirandés</a></li>
+			<li class="interwiki-mn"><a href="http://mn.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80" title="Геометр" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interwiki-my"><a href="http://my.wikipedia.org/wiki/%E1%80%82%E1%80%BB%E1%80%AE%E1%80%9E%E1%80%BC%E1%80%99%E1%80%B1%E1%80%90%E1%80%BC%E1%80%AE" title="ဂျီသြမေတြီ" lang="my" hreflang="my">မြန်မာဘာသာ</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Meetkunde" title="Meetkunde" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-new"><a href="http://new.wikipedia.org/wiki/%E0%A4%B0%E0%A5%87%E0%A4%96%E0%A4%BE%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" title="रेखागणित" lang="new" hreflang="new">नेपाल भाषा</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%B9%BE%E4%BD%95%E5%AD%A6" title="幾何学" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Geometri" title="Geometri" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Geometri" title="Geometri" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-nov"><a href="http://nov.wikipedia.org/wiki/Geometria" title="Geometria" lang="nov" hreflang="nov">Novial</a></li>
+			<li class="interwiki-oc"><a href="http://oc.wikipedia.org/wiki/Geometria_euclidiana" title="Geometria euclidiana" lang="oc" hreflang="oc">Occitan</a></li>
+			<li class="interwiki-mhr"><a href="http://mhr.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%B9" title="Геометрий" lang="mhr" hreflang="mhr">Олык марий</a></li>
+			<li class="interwiki-uz"><a href="http://uz.wikipedia.org/wiki/Geometriya" title="Geometriya" lang="uz" hreflang="uz">Oʻzbekcha</a></li>
+			<li class="interwiki-pnb"><a href="http://pnb.wikipedia.org/wiki/%D8%AC%DB%8C%D9%88%D9%85%DB%8C%D9%B9%D8%B1%DB%8C" title="جیومیٹری" lang="pnb" hreflang="pnb">پنجابی</a></li>
+			<li class="interwiki-ps"><a href="http://ps.wikipedia.org/wiki/%D9%85%DB%90%DA%86%D9%BE%D9%88%D9%87%D9%86%D9%87" title="مېچپوهنه" lang="ps" hreflang="ps">پښتو</a></li>
+			<li class="interwiki-km"><a href="http://km.wikipedia.org/wiki/%E1%9E%92%E1%9E%9A%E1%9E%8E%E1%9E%B8%E1%9E%98%E1%9E%B6%E1%9E%8F%E1%9F%92%E1%9E%9A" title="ធរណីមាត្រ" lang="km" hreflang="km">ភាសាខ្មែរ</a></li>
+			<li class="interwiki-pms"><a href="http://pms.wikipedia.org/wiki/Geometr%C3%ACa" title="Geometrìa" lang="pms" hreflang="pms">Piemontèis</a></li>
+			<li class="interwiki-nds"><a href="http://nds.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="nds" hreflang="nds">Plattdüütsch</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Geometria" title="Geometria" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Geometria" title="Geometria" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-qu"><a href="http://qu.wikipedia.org/wiki/Pacha_tupuy" title="Pacha tupuy" lang="qu" hreflang="qu">Runa Simi</a></li>
+			<li class="interwiki-rue"><a href="http://rue.wikipedia.org/wiki/%D2%90%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%8F" title="Ґеометрія" lang="rue" hreflang="rue">Русиньскый</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sah"><a href="http://sah.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="sah" hreflang="sah">Саха тыла</a></li>
+			<li class="interwiki-sco"><a href="http://sco.wikipedia.org/wiki/Geometry" title="Geometry" lang="sco" hreflang="sco">Scots</a></li>
+			<li class="interwiki-stq"><a href="http://stq.wikipedia.org/wiki/Geometrie" title="Geometrie" lang="stq" hreflang="stq">Seeltersk</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Gjeometria" title="Gjeometria" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-scn"><a href="http://scn.wikipedia.org/wiki/Giometr%C3%ACa" title="Giometrìa" lang="scn" hreflang="scn">Sicilianu</a></li>
+			<li class="interwiki-si"><a href="http://si.wikipedia.org/wiki/%E0%B6%A2%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F%E0%B6%B8%E0%B7%92%E0%B6%AD%E0%B7%92%E0%B6%BA" title="ජ්‍යාමිතිය" lang="si" hreflang="si">සිංහල</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Geometry" title="Geometry" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Geometria" title="Geometria" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Geometrija" title="Geometrija" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-szl"><a href="http://szl.wikipedia.org/wiki/Ge%C5%AFmetryjo" title="Geůmetryjo" lang="szl" hreflang="szl">Ślůnski</a></li>
+			<li class="interwiki-so"><a href="http://so.wikipedia.org/wiki/Joomitiri" title="Joomitiri" lang="so" hreflang="so">Soomaaliga</a></li>
+			<li class="interwiki-ckb"><a href="http://ckb.wikipedia.org/wiki/%D8%A6%DB%95%D9%86%D8%AF%D8%A7%D8%B2%DB%95" title="ئەندازە" lang="ckb" hreflang="ckb">کوردی</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%98%D0%B0" title="Геометрија" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Geometrija" title="Geometrija" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-su"><a href="http://su.wikipedia.org/wiki/%C3%89lmu_ukur" title="Élmu ukur" lang="su" hreflang="su">Basa Sunda</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Geometria" title="Geometria" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Geometri" title="Geometri" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Heometriya" title="Heometriya" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-ta"><a href="http://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%9F%E0%AE%BF%E0%AE%B5%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" title="வடிவவியல்" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interwiki-kab"><a href="http://kab.wikipedia.org/wiki/Ta_nzeggit" title="Ta nzeggit" lang="kab" hreflang="kab">Taqbaylit</a></li>
+			<li class="interwiki-te"><a href="http://te.wikipedia.org/wiki/%E0%B0%B0%E0%B1%87%E0%B0%96%E0%B0%BE%E0%B0%97%E0%B0%A3%E0%B0%BF%E0%B0%A4%E0%B0%82" title="రేఖాగణితం" lang="te" hreflang="te">తెలుగు</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A3%E0%B8%82%E0%B8%B2%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95" title="เรขาคณิต" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tg"><a href="http://tg.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" title="Геометрия" lang="tg" hreflang="tg">Тоҷикӣ</a></li>
+			<li class="interwiki-chr"><a href="http://chr.wikipedia.org/wiki/%E1%8F%97%E1%8F%8E%E1%8F%8D%E1%8F%97_%E1%8F%93%E1%8F%8D%E1%8F%93%E1%8F%85%E1%8F%85" title="ᏗᏎᏍᏗ ᏓᏍᏓᏅᏅ" lang="chr" hreflang="chr">ᏣᎳᎩ</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Geometri" title="Geometri" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-tk"><a href="http://tk.wikipedia.org/wiki/Geometri%C3%BDa" title="Geometriýa" lang="tk" hreflang="tk">Türkmençe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%8F" title="Геометрія" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%DB%81%D9%86%D8%AF%D8%B3%DB%81" title="ہندسہ" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-vec"><a href="http://vec.wikipedia.org/wiki/Giometria" title="Giometria" lang="vec" hreflang="vec">Vèneto</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/H%C3%ACnh_h%E1%BB%8Dc" title="Hình học" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-fiu-vro"><a href="http://fiu-vro.wikipedia.org/wiki/Geomeetri%C3%A4" title="Geomeetriä" lang="fiu-vro" hreflang="fiu-vro">Võro</a></li>
+			<li class="interwiki-zh-classical"><a href="http://zh-classical.wikipedia.org/wiki/%E5%B9%BE%E4%BD%95" title="幾何" lang="zh-classical" hreflang="zh-classical">文言</a></li>
+			<li class="interwiki-war"><a href="http://war.wikipedia.org/wiki/Heyometriya" title="Heyometriya" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interwiki-yi"><a href="http://yi.wikipedia.org/wiki/%D7%92%D7%A2%D7%90%D7%9E%D7%A2%D7%98%D7%A8%D7%99%D7%A2" title="געאמעטריע" lang="yi" hreflang="yi">ייִדיש</a></li>
+			<li class="interwiki-zh-yue"><a href="http://zh-yue.wikipedia.org/wiki/%E5%B9%BE%E4%BD%95%E5%AD%B8" title="幾何學" lang="zh-yue" hreflang="zh-yue">粵語</a></li>
+			<li class="interwiki-diq"><a href="http://diq.wikipedia.org/wiki/Geometri" title="Geometri" lang="diq" hreflang="diq">Zazaki</a></li>
+			<li class="interwiki-bat-smg"><a href="http://bat-smg.wikipedia.org/wiki/Geuometr%C4%97j%C4%97" title="Geuometrėjė" lang="bat-smg" hreflang="bat-smg">Žemaitėška</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 2 February 2013 at 18:06.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Geometry" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1081 in 2.961 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

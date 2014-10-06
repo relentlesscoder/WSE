@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Semantic MediaWiki - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf8" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Semantic_MediaWiki&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Semantic_MediaWiki&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Semantic_MediaWiki","wgTitle":"Semantic MediaWiki","wgCurRevisionId":526077969,"wgArticleId":4181610,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with dead external links","Articles with dead external links from November 2011","Articles containing potentially dated statements from 2011","All articles containing potentially dated statements","Articles with German language external links","Commons category template with no category set","Semantic wiki software","MediaWiki extensions"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Semantic_MediaWiki","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"3ab9bbec64a68c4ee814e04c45182ebd","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":4181610,"title":"Semantic MediaWiki","namespace":0,"categories":["All articles containing potentially dated statements","All articles with dead external links","Articles containing potentially dated statements from 2011","Articles with German language external links","Articles with dead external links from November 2011","Commons category template with no category set","MediaWiki extensions","Semantic wiki software"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf8/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Semantic_MediaWiki skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Semantic MediaWiki</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox vevent" cellspacing="3" style="border-spacing: 3px; width:22em;">
+<caption class="summary" style="">Semantic MediaWiki</caption>
+<tr class="">
+<td colspan="2" class="" style="text-align:center;"><a href="http://en.wikipedia.org/wiki/File:SemanticMediaWiki_Logo.png" class="image"><img alt="SemanticMediaWiki Logo.png" src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SemanticMediaWiki_Logo.png/220px-SemanticMediaWiki_Logo.png" width="220" height="220" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SemanticMediaWiki_Logo.png/330px-SemanticMediaWiki_Logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SemanticMediaWiki_Logo.png/440px-SemanticMediaWiki_Logo.png 2x" /></a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_developer" title="Software developer">Developer(s)</a></th>
+<td class="" style=""><a class="external text" href="http://semantic-mediawiki.org/wiki/Help:SMW_Project">various</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_release_life_cycle" title="Software release life cycle">Stable release</a></th>
+<td class="" style="">1.8.0 / December&#160;2,&#160;2012<span class="noprint">; 2 months ago</span><span style="display:none">&#160;(<span class="bday dtstart published updated">2012-12-02</span>)</span></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Written in</th>
+<td class="" style=""><a href="PHP" title="PHP">PHP</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Operating_system" title="Operating system">Operating system</a></th>
+<td class="" style=""><a href="Cross-platform" title="Cross-platform">Cross-platform</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="List_of_software_categories" title="List of software categories">Type</a></th>
+<td class="" style=""><a href="MediaWiki" title="MediaWiki">MediaWiki</a> extension</td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;"><a href="Software_license" title="Software license">License</a></th>
+<td class="" style=""><a href="GNU_General_Public_License" title="GNU General Public License">GPL</a></td>
+</tr>
+<tr class="">
+<th scope="row" style="text-align:left; white-space: nowrap;">Website</th>
+<td class="" style=""><a class="external free" href="http://www.semantic-mediawiki.org/">http://www.semantic-mediawiki.org/</a></td>
+</tr>
+</table>
+<p><b>Semantic MediaWiki</b> (SMW) is an extension to <a href="MediaWiki" title="MediaWiki">MediaWiki</a> that allows for annotating <a href="Semantic_web" title="Semantic web" class="mw-redirect">semantic data</a> within wiki pages, thus turning a wiki that incorporates the extension into a <a href="Semantic_wiki" title="Semantic wiki">semantic wiki</a>. Data that has been encoded can be used in semantic searches, used for aggregation of pages, displayed in formats like maps, calendars and graphs, and exported to the outside world via formats like <a href="Resource_Description_Framework" title="Resource Description Framework">RDF</a> and <a href="Comma-separated_values" title="Comma-separated values">CSV</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Authors"><span class="tocnumber">1</span> <span class="toctext">Authors</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Basic_syntax"><span class="tocnumber">2</span> <span class="toctext">Basic syntax</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Usage"><span class="tocnumber">3</span> <span class="toctext">Usage</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Potential_use_on_Wikipedia"><span class="tocnumber">4</span> <span class="toctext">Potential use on Wikipedia</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Spinoff_extensions"><span class="tocnumber">5</span> <span class="toctext">Spinoff extensions</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Community"><span class="tocnumber">6</span> <span class="toctext">Community</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Further_reading"><span class="tocnumber">9</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=1.php.html" title="Edit section: Authors">edit</a>]</span> <span class="mw-headline" id="Authors">Authors</span></h2>
+<p>Semantic MediaWiki was initially created by Markus Krötzsch, Denny Vrandečić and Max Völkel, and was first released in 2005. Its development was initially funded by the EU-funded <a href="FP6" title="FP6" class="mw-redirect">FP6</a> project <a href="../../w/index-title=SEKT&action=edit&redlink=1.php.html" class="new" title="SEKT (page does not exist)">SEKT</a>, and was later supported in part by Institute AIFB of the <a href="University_of_Karlsruhe" title="University of Karlsruhe" class="mw-redirect">University of Karlsruhe</a> (later renamed the Karlsruhe Institute of Technology). Krötzsch remains the lead developer as of 2011<sup class="plainlinks noprint asof-tag update" style="display:none;"><a class="external text" href="../../w/index-title=Semantic_MediaWiki&action=edit.php.html">[update]</a></sup>, while other core developers are Jeroen De Dauw and Yaron Koren.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=2.php.html" title="Edit section: Basic syntax">edit</a>]</span> <span class="mw-headline" id="Basic_syntax">Basic syntax</span></h2>
+<p>Every semantic annotation within SMW is a "property" connecting the page on which it resides to some other piece of data, either another page or a data value of some type, using <a href="Tuple" title="Tuple">triples</a> of the form "subject, predicate, object".</p>
+<p>As an example, a page about <a href="Germany" title="Germany">Germany</a> could have, encoded within it, the fact its capital city is <a href="Berlin" title="Berlin">Berlin</a>. On the page "Germany", the syntax would be:</p>
+<pre>
+ ... the capital city is [[Has capital::Berlin]] ...
+</pre>
+<p>which is semantically equivalent to the statement "Germany" "Has capital" "Berlin". In this example the "Germany" page is the <i>subject</i>, "Has capital" is the <i>predicate</i>, and "Berlin" is the <i>object</i> that the semantic link is pointing to.</p>
+<p>However, the much more common way of storing data within Semantic MediaWiki is via MediaWiki templates which themselves contain the necessary SMW markup. For this example, the "Germany" page could contain a call to a template called "Country", that looked like this:</p>
+<pre>
+{{Country
+...
+|Capital=Berlin
+...
+}}
+</pre>
+<p><br />
+The "Country" template would handle storing whatever the value of the parameter "Capital" is, using the property "Has capital". The template would also handle the display of the data. Semantic MediaWiki developers have estimated that 99% of SMW data is stored in this way.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<p>Semantic MediaWiki also has its own inline querying tools. For instance, if pages about countries stored additional information like population data, a query could be added to a page that displays a list of all countries with a population greater than 50 million, along with their capital city; and Germany would appear in such a list, with Berlin alongside it.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=3.php.html" title="Edit section: Usage">edit</a>]</span> <span class="mw-headline" id="Usage">Usage</span></h2>
+<p>Semantic MediaWiki is in use on over 300 public active wikis around the world, in addition to an unknown number of private wikis.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup><sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> Notable public wikis that use SMW include the <a href="Metacafe" title="Metacafe">Metacafe</a> wiki, <a href="SNPedia" title="SNPedia">SNPedia</a>, <a href="SKYbrary" title="SKYbrary">SKYbrary</a>, <a href="Metavid" title="Metavid">Metavid</a>, <a href="Familypedia" title="Familypedia">Familypedia</a>, <a href="OpenEI" title="OpenEI">OpenEI</a>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> <a href="Oh_Internet" title="Oh Internet" class="mw-redirect">Oh Internet</a>, and the <a href="Free_Software_Directory" title="Free Software Directory">Free Software Directory</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup> Organizations that use SMW internally include <a href="Pfizer" title="Pfizer">Pfizer</a>,<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> <a href="Harvard_Pilgrim_Health_Care" title="Harvard Pilgrim Health Care">Harvard Pilgrim Health Care</a>,<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> <a href="Johnson_&_Johnson_Pharmaceutical_Research_and_Development" title="Johnson &amp; Johnson Pharmaceutical Research and Development">Johnson &amp; Johnson Pharmaceutical Research and Development</a>,<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup> the <a href="Pacific_Northwest_National_Laboratory" title="Pacific Northwest National Laboratory">Pacific Northwest National Laboratory</a>,<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> the <a href="Metropolitan_Museum_of_Art" title="Metropolitan Museum of Art">Metropolitan Museum of Art</a><sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> and the <a href="United_States_Department_of_Defense" title="United States Department of Defense">U.S. Department of Defense</a>.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></p>
+<p>SMW has notably gained traction in the health care domain for collaboratively creating bio-medical terminologies and ontologies.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup> Examples are LexWiki,<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup> which is jointly run by the <a href="Mayo_Clinic" title="Mayo Clinic">Mayo Clinic</a>, <a href="National_Cancer_Institute" title="National Cancer Institute">National Cancer Institute</a>, <a href="World_Health_Organization" title="World Health Organization">World Health Organization</a> and <a href="Stanford_University" title="Stanford University">Stanford University</a>; and <a href="Neuroscience_Information_Framework" title="Neuroscience Information Framework">Neuroscience Information Framework</a>'s <a href="NeuroLex" title="NeuroLex">NeuroLex</a>.</p>
+<p>Semantic MediaWiki is also supported on at least two <a href="Wiki_farm" title="Wiki farm" class="mw-redirect">wiki farm</a> websites: Referata<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> by default,<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> as well as <a href="Wikia" title="Wikia">Wikia</a> on user request.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=4.php.html" title="Edit section: Potential use on Wikipedia">edit</a>]</span> <span class="mw-headline" id="Potential_use_on_Wikipedia">Potential use on Wikipedia</span></h2>
+<p>Some members of the <a href="Academic_community" title="Academic community" class="mw-redirect">academic community</a> began urging the use of SMW on <a href="Wikipedia" title="Wikipedia">Wikipedia</a> since it was first proposed.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup> In a 2006 paper, Max Völkel <i>et al.</i> wrote that in spite of Wikipedia's utility, "its contents are barely machine-interpretable. Structural knowledge, e.g. about how concepts are interrelated, can neither be formally stated nor automatically processed. Also the wealth of numerical data is only available as plain text and thus can not be processed by its actual meaning."<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup></p>
+<p>In 2010, <a href="Wikimedia_Foundation" title="Wikimedia Foundation">Wikimedia Foundation</a> Deputy Director <a href="Erik_M%C3%B6ller" title="Erik Möller">Erik Möller</a> stated that Wikimedia was interested in adding semantic capabilities to Wikipedia, but that they were unsure whether Semantic MediaWiki was the right solution, since it was unclear whether it could be used without negatively affecting Wikipedia's performance.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></p>
+<p>A Wikimedia project that began in 2012—<a href="Wikidata" title="Wikidata">Wikidata</a>—may use Semantic MediaWiki as the basis for a system that provides semantic data for use in the infoboxes of every language Wikipedia.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=5.php.html" title="Edit section: Spinoff extensions">edit</a>]</span> <span class="mw-headline" id="Spinoff_extensions">Spinoff extensions</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:AcaWiki_Semantic_Forms_screenshot.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/AcaWiki_Semantic_Forms_screenshot.png/220px-AcaWiki_Semantic_Forms_screenshot.png" width="220" height="303" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/AcaWiki_Semantic_Forms_screenshot.png/330px-AcaWiki_Semantic_Forms_screenshot.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/AcaWiki_Semantic_Forms_screenshot.png/440px-AcaWiki_Semantic_Forms_screenshot.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:AcaWiki_Semantic_Forms_screenshot.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A form to edit a page, using the Semantic Forms extension</div>
+</div>
+</div>
+<p>A variety of open-source MediaWiki extensions exist that use the data structure provided by Semantic MediaWiki.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup> Among the most notable are:</p>
+<ul>
+<li><a href="http://www.mediawiki.org/wiki/Extension:Semantic_Forms" class="extiw" title="mw:Extension:Semantic Forms">Semantic Forms</a> - enables user-created forms for adding and editing pages that use semantic data</li>
+<li><a rel="nofollow" class="external text" href="http://smwplus.net/smwforum/index.php/HaloExtension_Product_Information">Halo</a> - facilitates creation, retrieval, navigation and organization of semantic data via graphical and intuitive interfaces</li>
+<li><a href="http://www.mediawiki.org/wiki/Extension:Semantic_Drilldown" class="extiw" title="mw:Extension:Semantic Drilldown">Semantic Drilldown</a> - provides a <a href="Faceted_browser" title="Faceted browser" class="mw-redirect">faceted browser</a> interface for viewing the semantic data in a wiki</li>
+<li><a href="http://www.mediawiki.org/wiki/Extension:Semantic_Compound_Queries" class="extiw" title="mw:Extension:Semantic Compound Queries">Semantic Compound Queries</a> - provides a parser function for displaying multiple queries at the same time, such as within a calendar or a map</li>
+<li><a href="http://www.mediawiki.org/wiki/Extension:Semantic_Result_Formats" class="extiw" title="mw:Extension:Semantic Result Formats">Semantic Result Formats</a> - provides a large number of display formats for semantic data, including charts, graphs, calendars and mathematical functions</li>
+<li><a href="http://www.mediawiki.org/wiki/Extension:Semantic_Maps" class="extiw" title="mw:Extension:Semantic Maps">Semantic Maps</a> - displays geographic semantic data using various mapping services</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=6.php.html" title="Edit section: Community">edit</a>]</span> <span class="mw-headline" id="Community">Community</span></h2>
+<p>The official gathering for Semantic MediaWiki developers and users is SMWCon, which has been held twice a year since 2010, in various cities in the <a href="United_States" title="United States">United States</a> and <a href="Europe" title="Europe">Europe</a>.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> Each event has drawn around 30-45 attendees.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=7.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="DBpedia" title="DBpedia">DBpedia</a></li>
+<li><a href="Freebase" title="Freebase">Freebase</a></li>
+<li><a href="List_of_applications_with_iCalendar_support" title="List of applications with iCalendar support">List of applications with iCalendar support</a></li>
+<li><a href="OntoWiki" title="OntoWiki">OntoWiki</a></li>
+<li><a href="SMW+" title="SMW+">SMW+</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=8.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external text" href="http://semantic-mediawiki.org/wiki/Help:SMW_Project">SMW Project</a>, semantic-mediawiki.org</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a class="external text" href="http://semantic-mediawiki.org/wiki/Help:Semantic_templates">"semantic templates help"</a>. Semantic MediaWiki<span class="printonly">. <a class="external free" href="http://semantic-mediawiki.org/wiki/Help:Semantic_templates">http://semantic-mediawiki.org/wiki/Help:Semantic_templates</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation web"><a class="external text" href="http://semantic-mediawiki.org/wiki/Help:Inline_queries">"inline queries help"</a>. Semantic MediaWiki. 2011-06-22<span class="printonly">. <a class="external free" href="http://semantic-mediawiki.org/wiki/Help:Inline_queries">http://semantic-mediawiki.org/wiki/Help:Inline_queries</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://smw.referata.com/wiki/Special:BrowseData/Sites?Status=Active">"List of active SMW-using wikis"</a>. Smw.referata.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://smw.referata.com/wiki/Special:BrowseData/Sites?Status=Active">http://smw.referata.com/wiki/Special:BrowseData/Sites?Status=Active</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation web"><a class="external text" href="http://www.semantic-mediawiki.org/wiki/FAQ">"Smw Faq"</a>. Semantic-mediawiki.org. 2011-06-09<span class="printonly">. <a class="external free" href="http://www.semantic-mediawiki.org/wiki/FAQ">http://www.semantic-mediawiki.org/wiki/FAQ</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://energy.gov/news2009/8381.htm">DOE Launches New Website to Bring Energy Technology Information to the Public</a>, press release, December 9, 2009</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation web"><a class="external text" href="http://semantic-mediawiki.org/wiki/Testimonials">"Semantic MediaWiki testimonials page"</a>. Semantic-mediawiki.org. 2011-06-30<span class="printonly">. <a class="external free" href="http://semantic-mediawiki.org/wiki/Testimonials">http://semantic-mediawiki.org/wiki/Testimonials</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=90726">"Bio-IT World 2009, Track 3"</a>. Bio-itworldexpoeurope.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=90726">http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=90726</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://edw2010.wilshireconferences.com/sessionPop.cfm?confid=38&proposalid=2250">Wikify Your Metadata! Integrating Business Semantics, Metadata Discovery, and Knowledge Management</a>, March 16, 2010, EnterpriseDataWorld Conference Schedule</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://portal.acm.org/citation.cfm?id=1641340&dl=GUIDE&coll=GUIDE&CFID=82402989&CFTOKEN=57074504">knowIT, a semantic informatics knowledge management system</a>, <a href="WikiSym" title="WikiSym">WikiSym</a> 2009, Laurent Alquier, Keith McCormick and Ed Jaeger</span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://wiki.ontoprise.com/smwforum/index.php/PNNL_Talk">"Semantic MediaWiki Projects at the Pacific Northwest National Laboratory"</a>. Wiki.ontoprise.com<span class="printonly">. <a rel="nofollow" class="external free" href="http://wiki.ontoprise.com/smwforum/index.php/PNNL_Talk">http://wiki.ontoprise.com/smwforum/index.php/PNNL_Talk</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://cloudofdata.com/2009/01/bringing-the-semantic-web-to-museums/">Bringing the Semantic Web to Museums</a>, Paul Miller, January 27, 2009</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a class="external text" href="http://semantic-mediawiki.org/wiki/Spring_2010_SMWCon#Saturday">Flexible, purposive SMW use</a>, SMWCon Spring 2010, Clarence Dillon</span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.academypublisher.com/jetwi/vol1/no1/jetwi01019496.pdf"><i>Semantic Wikis: A Comprehensible Introduction with Examples from the Health Sciences</i></a>. <a href="../Maged_N._Kamel_Boulos" title="Maged N. Kamel Boulos">Maged N. Kamel Boulos</a>. Journal of Emerging Technologies in Web Intelligence, Vol. 1, No. 1, August 2009.<sup class="noprint Inline-Template"><span title="&#160;since November 2011" style="white-space: nowrap;">[<i><a href="Wikipedia_Link_rot" title="Wikipedia:Link rot">dead link</a></i>]</span></sup></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://informatics.mayo.edu/vkcdemo/lexwiki1/index.php/Main_Page">"Informatics.mayo.edu"</a>. Informatics.mayo.edu. 2009-07-14<span class="printonly">. <a rel="nofollow" class="external free" href="http://informatics.mayo.edu/vkcdemo/lexwiki1/index.php/Main_Page">http://informatics.mayo.edu/vkcdemo/lexwiki1/index.php/Main_Page</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://referata.com">"Referata"</a>. Referata. 2011-06-28<span class="printonly">. <a rel="nofollow" class="external free" href="http://referata.com">http://referata.com</a></span><span class="reference-accessdate">. Retrieved 2011-07-21</span>.</span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.semanticweb.com/main/get_your_mediawiki_hosting_here_138962.asp">Get Your MediaWiki Hosting Here</a>, Jennifer Zaino, <i>SemanticWeb.com</i>, December 1, 2008</span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFMarkus_Kr.C3.B6tzsch.2C_Denny_Vrandecic.2C_Denny_Vr.2C_Max_V.C3.B6lkel2005">Markus Krötzsch, Denny Vrandecic, Denny Vr, Max Völkel (2005), <i>Wikipedia and the Semantic Web&#160;– The Missing Links</i>, Proceedings of Wikimania 2005</span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text"><span class="citation" id="CITEREFM_V.C3.B6lkel.2C_M_Kr.C3.B6tzsch.2C_D_Vrandecic2006">M Völkel, M Krötzsch, D Vrandecic (2006), <a rel="nofollow" class="external text" href="http://portal.acm.org/citation.cfm?id=1135863"><i>Semantic MediaWiki</i></a>, Proceedings of the 15th international conference on World Wide Web, p.&#160;585, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1145/1135777.1135863">10.1145/1135777.1135863</a>, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-59593-323-9" title="Special:BookSources/1-59593-323-9">1-59593-323-9</a><span class="printonly">, <a rel="nofollow" class="external free" href="http://portal.acm.org/citation.cfm?id=1135863">http://portal.acm.org/citation.cfm?id=1135863</a></span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://technologyreview.com/web/25728/page2/">Wikipedia to Add Meaning to Its Pages</a>, Tom Simonite, <i><a href="Technology_Review" title="Technology Review">Technology Review</a></i>, July 7, 2010</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.heise.de/newsticker/meldung/Wikimedia-baut-Wikipedia-Datenbank-1367255.html">Wikimedia baut Wikipedia-Datenbank</a> (German), <i><a href="Heise_Online" title="Heise Online" class="mw-redirect">Heise Online</a></i>, October 26, 2011</span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a class="external text" href="http://semantic-mediawiki.org/wiki/Help:SMW_extensions">List of Semantic MediaWiki extensions</a>.</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><span class="citation web"><a class="external text" href="http://semantic-mediawiki.org/wiki/SMWCon">"SMWCon homepage"</a>. Semantic-mediawiki.org<span class="printonly">. <a class="external free" href="http://semantic-mediawiki.org/wiki/SMWCon">http://semantic-mediawiki.org/wiki/SMWCon</a></span><span class="reference-accessdate">. Retrieved 2011-09-25</span>.</span></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=9.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.newscientist.com/article.ns?id=dn9295">Software could add meaning to 'wiki' links</a>, Matthew Sparkes, <i><a href="New_Scientist" title="New Scientist">New Scientist</a></i>, June 7, 2006</li>
+<li>Markus Krötzsch, Denny Vrandecic, Max Völkel, Heiko Haller, <a href="Rudi_Studer" title="Rudi Studer">Rudi Studer</a>: <a rel="nofollow" class="external text" href="http://korrekt.org/index.php/Semantic_Wikipedia_(JWS2007)">Semantic Wikipedia</a>. <a href="Journal_of_Web_Semantics" title="Journal of Web Semantics">Journal of Web Semantics</a> 5/2007, December 2007.</li>
+<li><span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">(German)</span> <a rel="nofollow" class="external text" href="http://www.linux-magazin.de/Heft-Abo/Ausgaben/2009/07/Struktur-fuers-Wiki">Struktur fürs Wiki</a>, Rolf Strathewerd, <i><a href="Linux-Magazin" title="Linux-Magazin">Linux-Magazin</a></i>, July 2009</li>
+<li>Smart, P. R.; Braines, D.; Bao, J.; Mott, D.; Huynh, T. D.; Shadbolt, N.: <a rel="nofollow" class="external text" href="http://eprints.ecs.soton.ac.uk/21464/">Supporting Distributed Coalition Planning with Semantic Wiki Technology</a>. In: 4th Annual Conference of the International Technology Alliance (ACITA'10).</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Semantic_MediaWiki&action=edit&section=10.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Semantic_MediaWiki" class="extiw" title="commons:Category:Semantic MediaWiki">Semantic MediaWiki</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><span class="official website"><a class="external text" href="http://semantic-mediawiki.org/">Official website</a></span></li>
+<li><a rel="nofollow" class="external text" href="http://sourceforge.net/projects/semediawiki/">Semantic MediaWiki</a> on <a href="SourceForge" title="SourceForge">SourceForge.net</a></li>
+<li><a href="http://www.mediawiki.org/wiki/Extension:Semantic_MediaWiki" class="extiw" title="mw:Extension:Semantic MediaWiki">Semantic MediaWiki on mediawiki.org</a></li>
+<li><a rel="nofollow" class="external text" href="http://smw.referata.com/">Semantic MediaWiki Community Wiki</a></li>
+<li><a rel="nofollow" class="external text" href="http://oxford.geeknights.net/2007/april-11th/talks/nick-grandy.mp4">Video of Nick Grandy explaining SMW</a> at an Oxford Geek Night</li>
+<li><a rel="nofollow" class="external text" href="http://korrekt.org/talks/Wikimania2007/SMW.html">Semantic MediaWiki: Towards Wikipedia 3.0</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Semantic_Web" title="Template:Semantic Web"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Semantic_Web" title="Template talk:Semantic Web"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Semantic_Web&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Semantic_Web" title="Semantic Web">Semantic Web</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Background</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Database" title="Database">Databases</a></li>
+<li><a href="Hypertext" title="Hypertext">Hypertext</a></li>
+<li><a href="Internet" title="Internet">Internet</a></li>
+<li><a href="Ontology_(information_science)" title="Ontology (information science)">Ontologies</a></li>
+<li><a href="Semantic_network" title="Semantic network">Semantic networks</a></li>
+<li><a href="World_Wide_Web" title="World Wide Web">World Wide Web</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Sub-topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Data_Web" title="Data Web">Data Web</a></li>
+<li><a href="Dataspaces" title="Dataspaces">Dataspaces</a></li>
+<li><a href="Dereferenceable_Uniform_Resource_Identifier" title="Dereferenceable Uniform Resource Identifier">Dereferenceable URIs</a></li>
+<li><a href="Hyperdata" title="Hyperdata">Hyperdata</a></li>
+<li><a href="Linked_data" title="Linked data">Linked data</a></li>
+<li><a href="Rule-based_system" title="Rule-based system">Rule-based systems</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Applications</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Semantic_advertising" title="Semantic advertising">Semantic advertising</a></li>
+<li><a href="Semantic_analytics" title="Semantic analytics">Semantic analytics</a></li>
+<li><a href="Semantic_broker" title="Semantic broker">Semantic broker</a></li>
+<li><a href="Semantic_computing" title="Semantic computing">Semantic computing</a></li>
+<li><a href="Semantic_mapper" title="Semantic mapper">Semantic mapper</a></li>
+<li><a href="Semantic_matching" title="Semantic matching">Semantic matching</a></li>
+<li><a href="Semantic_publishing" title="Semantic publishing">Semantic publishing</a></li>
+<li><a href="Semantic_reasoner" title="Semantic reasoner">Semantic reasoner</a></li>
+<li><a href="Semantic_search" title="Semantic search">Semantic search</a></li>
+<li><a href="Semantic_service-oriented_architecture" title="Semantic service-oriented architecture">Semantic service-oriented architecture</a></li>
+<li><a href="Semantic_wiki" title="Semantic wiki">Semantic wiki</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Related topics</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Collective_intelligence" title="Collective intelligence">Collective intelligence</a></li>
+<li><a href="Description_logic" title="Description logic">Description logic</a></li>
+<li><a href="Folksonomy" title="Folksonomy">Folksonomy</a></li>
+<li><a href="Geotagging" title="Geotagging">Geotagging</a></li>
+<li><a href="Information_architecture" title="Information architecture">Information architecture</a></li>
+<li><a href="Knowledge_extraction" title="Knowledge extraction">Knowledge extraction</a></li>
+<li><a href="Knowledge_management" title="Knowledge management">Knowledge management</a></li>
+<li><a href="../Library_2.0" title="Library 2.0">Library 2.0</a></li>
+<li><a href="Metadata" title="Metadata">Metadata</a></li>
+<li><a href="Mind_map" title="Mind map">Mind mapping</a></li>
+<li><a href="ODBC" title="ODBC">ODBC</a></li>
+<li><a href="Reference_(computer_science)" title="Reference (computer science)">References</a></li>
+<li><a href="Topic_Maps" title="Topic Maps">Topic Maps</a></li>
+<li><a href="../Web_2.0" title="Web 2.0">Web 2.0</a></li>
+<li><a href="Web_Science_Trust" title="Web Science Trust">Web Science Trust</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Standards</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;;;;">
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Syntax and supporting technologies</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">HTTP</a></li>
+<li><a href="Resource_Description_Framework" title="Resource Description Framework">RDF</a>
+<ul>
+<li><small><a href="RDF/XML" title="RDF/XML">RDF/XML</a></small></li>
+<li><small><a href="Notation3" title="Notation3">Notation3</a></small></li>
+<li><small><a href="Turtle_(syntax)" title="Turtle (syntax)">Turtle</a></small></li>
+<li><small><a href="N-Triples" title="N-Triples">N-Triples</a></small></li>
+</ul>
+</li>
+<li><a href="SPARQL" title="SPARQL">SPARQL</a></li>
+<li><a href="Uniform_resource_identifier" title="Uniform resource identifier">URI</a></li>
+<li><a href="XML" title="XML">XML</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Schemas, ontologies and rules</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Common_logic" title="Common logic">Common logic</a></li>
+<li><a href="Web_Ontology_Language" title="Web Ontology Language">OWL</a></li>
+<li><a href="RDF_Schema" title="RDF Schema">RDFS</a></li>
+<li><a href="Rule_Interchange_Format" title="Rule Interchange Format">Rule Interchange Format</a></li>
+<li><a href="Semantic_Web_Rule_Language" title="Semantic Web Rule Language">Semantic Web Rule Language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Semantic annotation</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Embedded_RDF" title="Embedded RDF">eRDF</a></li>
+<li><a href="GRDDL" title="GRDDL">GRDDL</a></li>
+<li><a href="Microformat" title="Microformat">Microformats</a></li>
+<li><a href="RDFa" title="RDFa">RDFa</a></li>
+<li><a href="SAWSDL" title="SAWSDL">SAWSDL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";padding-left:0em;padding-right:0em;;">
+<div style="padding:0em 0.75em;">Common vocabularies</div>
+</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Dublin_Core" title="Dublin Core">Dublin Core</a></li>
+<li><a href="FOAF_(software)" title="FOAF (software)">FOAF</a></li>
+<li><a href="Semantically-Interlinked_Online_Communities" title="Semantically-Interlinked Online Communities">SIOC</a></li>
+<li><a href="Simple_Knowledge_Organization_System" title="Simple Knowledge Organization System">SKOS</a></li>
+<li><a href="UMBEL" title="UMBEL">UMBEL</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 10458/1000000
+Preprocessor generated node count: 52677/1500000
+Post-expand include size: 66834/2048000 bytes
+Template argument size: 25497/2048000 bytes
+Highest expansion depth: 28/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:4181610-0!*!0!!en!4!* and timestamp 20130206140043 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Semantic_MediaWiki&oldid=526077969.php.html">http://en.wikipedia.org/w/index.php?title=Semantic_MediaWiki&amp;oldid=526077969</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Semantic_wiki_software" title="Category:Semantic wiki software">Semantic wiki software</a></li><li><a href="Category_MediaWiki_extensions" title="Category:MediaWiki extensions">MediaWiki extensions</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_All_articles_with_dead_external_links" title="Category:All articles with dead external links">All articles with dead external links</a></li><li><a href="Category_Articles_with_dead_external_links_from_November_2011" title="Category:Articles with dead external links from November 2011">Articles with dead external links from November 2011</a></li><li><a href="Category_Articles_containing_potentially_dated_statements_from_2011" title="Category:Articles containing potentially dated statements from 2011">Articles containing potentially dated statements from 2011</a></li><li><a href="Category_All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li><li><a href="Category_Articles_with_German_language_external_links" title="Category:Articles with German language external links">Articles with German language external links</a></li><li><a href="Category_Commons_category_template_with_no_category_set" title="Category:Commons category template with no category set">Commons category template with no category set</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Semantic+MediaWiki&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Semantic+MediaWiki.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Semantic_MediaWiki"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Semantic_MediaWiki&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Semantic_MediaWiki&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Semantic_MediaWiki" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Semantic_MediaWiki" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Semantic_MediaWiki&oldid=526077969.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Semantic_MediaWiki&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Semantic_MediaWiki&id=526077969.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Semantic+MediaWiki.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Semantic+MediaWiki&oldid=526077969&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Semantic_MediaWiki&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%8B%9C%EB%A7%A8%ED%8B%B1_%EB%AF%B8%EB%94%94%EC%96%B4%EC%9C%84%ED%82%A4" title="시맨틱 미디어위키" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/Semantic_MediaWiki" title="Semantic MediaWiki" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 2 December 2012 at 22:11.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Semantic_MediaWiki" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1083 in 0.150 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

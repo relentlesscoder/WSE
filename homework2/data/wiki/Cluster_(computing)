@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Computer cluster - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Computer_cluster&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Computer_cluster&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="canonical" href="Computer_cluster" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Computer_cluster","wgTitle":"Computer cluster","wgCurRevisionId":536907155,"wgArticleId":18949896,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Cluster computing","Parallel computing","Concurrent computing","Supercomputers","Local area networks","Classes of computers","Fault-tolerant computer systems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Computer_cluster","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Cluster_(computing)","wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"b1a6acb70686c0fb7a85cd923b074572","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":18949896,"title":"Computer cluster","namespace":0,"categories":["Classes of computers","Cluster computing","Concurrent computing","Fault-tolerant computer systems","Local area networks","Parallel computing","Supercomputers"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Computer_cluster skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Computer cluster</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub">  (Redirected from <a href="../../w/index-title=Cluster_(computing)&redirect=no.php.html" title="Cluster (computing)">Cluster (computing)</a>)</div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="Data_cluster" title="Data cluster">data cluster</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="http://en.wikipedia.org/wiki/File:MEGWARE.CLIC.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MEGWARE.CLIC.jpg/300px-MEGWARE.CLIC.jpg" width="300" height="204" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MEGWARE.CLIC.jpg/450px-MEGWARE.CLIC.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MEGWARE.CLIC.jpg/600px-MEGWARE.CLIC.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:MEGWARE.CLIC.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Technicians working on a large <a href="Linux" title="Linux">Linux</a> cluster at the <a href="Chemnitz_University_of_Technology" title="Chemnitz University of Technology">Chemnitz University of Technology</a>, Germany</div>
+</div>
+</div>
+<p>A <b>computer cluster</b> consists of a set of loosely connected <a href="Computers" title="Computers" class="mw-redirect">computers</a> that work together so that in many respects they can be viewed as a single system.</p>
+<p>The components of a cluster are usually connected to each other through fast <a href="Local_area_network" title="Local area network">local area networks</a>, each <i>node</i> (computer used as a server) running its own instance of an <a href="Operating_system" title="Operating system">operating system</a>. Computer clusters emerged as a result of convergence of a number of computing trends including the availability of low cost microprocessors, high speed networks, and software for high performance <a href="Distributed_computing" title="Distributed computing">distributed computing</a>.</p>
+<p>Clusters are usually deployed to improve performance and availability over that of a single computer, while typically being much more cost-effective than single computers of comparable speed or availability.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>Computer clusters have a wide range of applicability and deployment, ranging from small business clusters with a handful of nodes to some of the fastest <a href="Supercomputer" title="Supercomputer">supercomputers</a> in the world such as <a href="IBM_Sequoia" title="IBM Sequoia">IBM's Sequoia</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Basic_concepts"><span class="tocnumber">1</span> <span class="toctext">Basic concepts</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Attributes_of_clusters"><span class="tocnumber">2</span> <span class="toctext">Attributes of clusters</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Design_and_configuration"><span class="tocnumber">3</span> <span class="toctext">Design and configuration</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Data_sharing_and_communication"><span class="tocnumber">4</span> <span class="toctext">Data sharing and communication</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Data_sharing"><span class="tocnumber">4.1</span> <span class="toctext">Data sharing</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Message_passing_and_communication"><span class="tocnumber">4.2</span> <span class="toctext">Message passing and communication</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Cluster_management"><span class="tocnumber">5</span> <span class="toctext">Cluster management</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Task_scheduling"><span class="tocnumber">5.1</span> <span class="toctext">Task scheduling</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Node_failure_management"><span class="tocnumber">5.2</span> <span class="toctext">Node failure management</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Software_development_and_administration"><span class="tocnumber">6</span> <span class="toctext">Software development and administration</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="#Parallel_programming"><span class="tocnumber">6.1</span> <span class="toctext">Parallel programming</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Debugging_and_monitoring"><span class="tocnumber">6.2</span> <span class="toctext">Debugging and monitoring</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Price_performance"><span class="tocnumber">7</span> <span class="toctext">Price performance</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Some_implementations"><span class="tocnumber">8</span> <span class="toctext">Some implementations</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#History"><span class="tocnumber">9</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Other_approaches"><span class="tocnumber">10</span> <span class="toctext">Other approaches</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#See_also"><span class="tocnumber">11</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#References"><span class="tocnumber">12</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Further_reading"><span class="tocnumber">13</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#External_links"><span class="tocnumber">14</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=1.php.html" title="Edit section: Basic concepts">edit</a>]</span> <span class="mw-headline" id="Basic_concepts">Basic concepts</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:Beowulf.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Beowulf.jpg/150px-Beowulf.jpg" width="150" height="200" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Beowulf.jpg/225px-Beowulf.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Beowulf.jpg/300px-Beowulf.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Beowulf.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A simple, home-built <a href="Beowulf_cluster" title="Beowulf cluster">Beowulf cluster</a>.</div>
+</div>
+</div>
+<p>The desire to get more computing power and better reliability by orchestrating a number of low cost <a href="Commercial_off-the-shelf" title="Commercial off-the-shelf">commercial off-the-shelf</a> computers has given rise to a variety of architectures and configurations.</p>
+<p>The computer clustering approach usually (but not always) connects a number of readily available computing nodes (e.g. personal computers used as servers) via a fast <a href="Local_area_network" title="Local area network">local area network</a>.<sup id="cite_ref-nbis_3-0" class="reference"><a href="#cite_note-nbis-3"><span>[</span>3<span>]</span></a></sup> The activities of the computing nodes are orchestrated by "clustering middleware", a software layer that sits atop the nodes and allows the users to treat the cluster as by and large one cohesive computing unit, e.g. via a <a href="Single_system_image" title="Single system image">single system image</a> concept.<sup id="cite_ref-nbis_3-1" class="reference"><a href="#cite_note-nbis-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>Computer clustering relies on a centralized management approach which makes the nodes available as orchestrated shared servers. It is distinct from other approaches such as <a href="Peer_to_peer" title="Peer to peer" class="mw-redirect">peer to peer</a> or <a href="Grid_computing" title="Grid computing">grid computing</a> which also use many nodes, but with a far more <a href="Distributed_computing" title="Distributed computing">distributed nature</a>.<sup id="cite_ref-nbis_3-2" class="reference"><a href="#cite_note-nbis-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>A computer cluster may be a simple two-node system which just connects two personal computers, or may be a very fast <a href="Supercomputer" title="Supercomputer">supercomputer</a>. A basic approach to building a cluster is that of a <a href="Beowulf_(computing)" title="Beowulf (computing)" class="mw-redirect">Beowulf</a> cluster which may be built with a few personal computers to produce a cost-effective alternative to traditional <a href="High_performance_computing" title="High performance computing" class="mw-redirect">high performance computing</a>. An early project that showed the viability of the concept was the 133 nodes <a href="Stone_Soupercomputer" title="Stone Soupercomputer">Stone Soupercomputer</a>.<sup id="cite_ref-sciam_4-0" class="reference"><a href="#cite_note-sciam-4"><span>[</span>4<span>]</span></a></sup> The developers used <a href="Linux" title="Linux">Linux</a>, the <a href="Parallel_Virtual_Machine" title="Parallel Virtual Machine">Parallel Virtual Machine</a> toolkit and the <a href="Message_Passing_Interface" title="Message Passing Interface">Message Passing Interface</a> library to achieve high performance at a relatively low cost.<sup id="cite_ref-extreme_5-0" class="reference"><a href="#cite_note-extreme-5"><span>[</span>5<span>]</span></a></sup></p>
+<p>Although a cluster may consist of just a few personal computers connected by a simple network, the cluster architecture may also be used to achieve very high levels of performance. The <a href="TOP500" title="TOP500">TOP500</a> organization's semiannual list of the 500 fastest <a href="Supercomputer" title="Supercomputer">supercomputers</a> often includes many clusters, e.g. the world's fastest machine in 2011 was the <a href="K_computer" title="K computer">K computer</a> which has a <a href="Distributed_memory" title="Distributed memory">distributed memory</a>, cluster architecture.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=2.php.html" title="Edit section: Attributes of clusters">edit</a>]</span> <span class="mw-headline" id="Attributes_of_clusters">Attributes of clusters</span></h2>
+<p>Computer clusters may be configured for different purposes ranging from general purpose business needs such as web-service support, to computation-intensive scientific calculations. In either case, the cluster may use a <a href="High-availability_cluster" title="High-availability cluster">high-availability</a> approach. Note that the attributes described below are not exclusive and a "compute cluster" may also use a high-availability approach, etc.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Balanceamento_de_carga_(NAT).jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Balanceamento_de_carga_(NAT).jpg/220px-Balanceamento_de_carga_(NAT).jpg" width="220" height="167" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Balanceamento_de_carga_%28NAT%29.jpg/330px-Balanceamento_de_carga_%28NAT%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/3/3e/Balanceamento_de_carga_%28NAT%29.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Balanceamento_de_carga_(NAT).jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A load balancing cluster with two servers and 4 user stations</div>
+</div>
+</div>
+<p>"<a href="Load_balancing_(computing)" title="Load balancing (computing)">Load-balancing</a>" clusters are configurations in which cluster-nodes share computational workload to provide better overall performance. For example, a web server cluster may assign different queries to different nodes, so the overall response time will be optimized.<sup id="cite_ref-Sloan_8-0" class="reference"><a href="#cite_note-Sloan-8"><span>[</span>8<span>]</span></a></sup> However, approaches to load-balancing may significantly differ among applications, e.g. a high-performance cluster used for scientific computations would balance load with different algorithms from a web-server cluster which may just use a simple <a href="Round-robin_scheduling" title="Round-robin scheduling">round-robin method</a> by assigning each new request to a different node.<sup id="cite_ref-Sloan_8-1" class="reference"><a href="#cite_note-Sloan-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>"Computer clusters" are used for computation-intensive purposes, rather than handling <a href="Input/output" title="Input/output">IO-oriented</a> operations such as web service or databases.<sup id="cite_ref-VECPAR_9-0" class="reference"><a href="#cite_note-VECPAR-9"><span>[</span>9<span>]</span></a></sup> For instance, a computer cluster might support <a href="Computer_simulation" title="Computer simulation">computational simulations</a> of vehicle crashes or weather. Very tightly coupled computer clusters are designed for work that may approach "<a href="Supercomputing" title="Supercomputing" class="mw-redirect">supercomputing</a>".</p>
+<p>"<a href="High-availability_cluster" title="High-availability cluster">High-availability clusters</a>" (also known as <a href="Failover" title="Failover">failover</a> clusters, or HA clusters) improve the availability of the cluster approach. They operate by having redundant <a href="Node_(networking)" title="Node (networking)">nodes</a>, which are then used to provide service when system components fail. HA cluster implementations attempt to use redundancy of cluster components to eliminate <a href="Single_point_of_failure" title="Single point of failure">single points of failure</a>. There are commercial implementations of High-Availability clusters for many operating systems. The <a href="Linux-HA" title="Linux-HA">Linux-HA</a> project is one commonly used <a href="Free_software" title="Free software">free software</a> HA package for the <a href="Linux" title="Linux">Linux</a> operating system..</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=3.php.html" title="Edit section: Design and configuration">edit</a>]</span> <span class="mw-headline" id="Design_and_configuration">Design and configuration</span></h2>
+<p>One of the issues in designing a cluster is how tightly coupled the individual nodes may be. For instance, a single computer job may require frequent communication among nodes: this implies that the cluster shares a dedicated network, is densely located, and probably has homogenous nodes. The other extreme is where a computer job uses one or few nodes, and needs little or no inter-node communication, approaching <a href="Grid_computing" title="Grid computing">grid computing</a>.</p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:242px;"><a href="http://en.wikipedia.org/wiki/File:Beowulf.png" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Beowulf.png/240px-Beowulf.png" width="240" height="170" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Beowulf.png/360px-Beowulf.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/40/Beowulf.png/480px-Beowulf.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Beowulf.png" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A typical Beowulf configuration</div>
+</div>
+</div>
+<p>In a Beowulf system, the application programs never see the computational nodes (also called slave computers) but only interact with the "Master" which is a specific computer handling the scheduling and management of the slaves.<sup id="cite_ref-VECPAR_9-1" class="reference"><a href="#cite_note-VECPAR-9"><span>[</span>9<span>]</span></a></sup> In a typical implementation the Master has two network interfaces, one that communicates with the private Beowulf network for the slaves, the other for the general purpose network of the organization.<sup id="cite_ref-VECPAR_9-2" class="reference"><a href="#cite_note-VECPAR-9"><span>[</span>9<span>]</span></a></sup> The slave computers typically have their own version of the same operating system, and local memory and disk space. However, the private slave network may also have a large and shared file server that stores global persistent data, accessed by the slaves as needed.<sup id="cite_ref-VECPAR_9-3" class="reference"><a href="#cite_note-VECPAR-9"><span>[</span>9<span>]</span></a></sup></p>
+<p>By contrast, the special purpose 144 node <a href="DEGIMA_(computer_cluster)" title="DEGIMA (computer cluster)">DEGIMA cluster</a> is tuned to running astrophysical N-body simulations using the Multiple-Walk parallel treecode, rather than general purpose scientific computations.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>Due to the increasing computing power of each generation of <a href="Game_console" title="Game console" class="mw-redirect">game consoles</a>, a novel use has emerged where they are repurposed into <a href="High-performance_computing" title="High-performance computing" class="mw-redirect">High-performance computing</a> (HPC) clusters. Some examples of game console clusters are <a href="PlayStation_3_cluster" title="PlayStation 3 cluster">Sony PlayStation clusters</a> and <a href="Microsoft" title="Microsoft">Microsoft</a> <a href="Xbox" title="Xbox">Xbox</a> clusters. Another example of consumer game product is the <a href="Nvidia_Tesla_Personal_Supercomputer" title="Nvidia Tesla Personal Supercomputer">Nvidia Tesla Personal Supercomputer</a> workstation, which uses multiple graphics accelerator processor chips.</p>
+<p>Computer clusters have historically run on separate physical <a href="Computer" title="Computer">computers</a> with the same <a href="Operating_system" title="Operating system">operating system</a>. With the advent of <a href="Virtualization" title="Virtualization">virtualization</a>, the cluster nodes may run on separate physical computers with different operating systems which are painted above with a virtual layer to look similar. The cluster may also be virtualized on various configurations as maintenance takes place. An example implementation is <a href="Xen" title="Xen">Xen</a> as the virtualization manager with <a href="Linux-HA" title="Linux-HA">Linux-HA</a>.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=4.php.html" title="Edit section: Data sharing and communication">edit</a>]</span> <span class="mw-headline" id="Data_sharing_and_communication">Data sharing and communication</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=5.php.html" title="Edit section: Data sharing">edit</a>]</span> <span class="mw-headline" id="Data_sharing">Data sharing</span></h3>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Nec-cluster.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Nec-cluster.jpg/220px-Nec-cluster.jpg" width="220" height="246" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Nec-cluster.jpg/330px-Nec-cluster.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Nec-cluster.jpg/440px-Nec-cluster.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Nec-cluster.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="NEC" title="NEC">NEC</a> <a href="Nehalem" title="Nehalem">Nehalem cluster</a></div>
+</div>
+</div>
+<p>As the computer clusters were appearing during the 1980s, so were <a href="Supercomputer" title="Supercomputer">supercomputers</a>. One of the elements that distinguished the three classes at that time was that the early supercomputers relied on <a href="Shared_memory" title="Shared memory">shared memory</a>. To date clusters do not typically use physically shared memory, while many supercomputer architectures have also abandoned it.</p>
+<p>However, the use of a <a href="Clustered_file_system" title="Clustered file system">clustered file system</a> is essential in modern computer clusters. Examples include the <a href="IBM_General_Parallel_File_System" title="IBM General Parallel File System">IBM General Parallel File System</a>, Microsoft's <a href="Cluster_Shared_Volumes" title="Cluster Shared Volumes">Cluster Shared Volumes</a> or the <a href="Oracle_Cluster_File_System" title="Oracle Cluster File System" class="mw-redirect">Oracle Cluster File System</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=6.php.html" title="Edit section: Message passing and communication">edit</a>]</span> <span class="mw-headline" id="Message_passing_and_communication">Message passing and communication</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Message_passing_in_computer_clusters" title="Message passing in computer clusters">Message passing in computer clusters</a></div>
+<p>Two widely used approaches for communication between cluster nodes are MPI, the <a href="Message_Passing_Interface" title="Message Passing Interface">Message Passing Interface</a> and PVM, the <a href="Parallel_Virtual_Machine" title="Parallel Virtual Machine">Parallel Virtual Machine</a>.<sup id="cite_ref-Gehrke_12-0" class="reference"><a href="#cite_note-Gehrke-12"><span>[</span>12<span>]</span></a></sup></p>
+<p>PVM was developed at the <a href="Oak_Ridge_National_Laboratory" title="Oak Ridge National Laboratory">Oak Ridge National Laboratory</a> around 1989 before MPI was available. PVM must be directly installed on every cluster node and provides a set of software libraries that paint the node as a "parallel virtual machine". PVM provides a run-time environment for message-passing, task and resource management, and fault notification. PVM can be used by user programs written in C, C++, or Fortran, etc.<sup id="cite_ref-Gehrke_12-1" class="reference"><a href="#cite_note-Gehrke-12"><span>[</span>12<span>]</span></a></sup><sup id="cite_ref-Prabhu_13-0" class="reference"><a href="#cite_note-Prabhu-13"><span>[</span>13<span>]</span></a></sup></p>
+<p>MPI emerged in the early 1990s out of discussions among 40 organizations. The initial effort was supported by <a href="ARPA" title="ARPA">ARPA</a> and <a href="National_Science_Foundation" title="National Science Foundation">National Science Foundation</a>. Rather than starting anew, the design of MPI drew on various features available in commercial systems of the time. The MPI specifications then gave rise to specific implementations. MPI implementations typically use <a href="TCP/IP" title="TCP/IP" class="mw-redirect">TCP/IP</a> and socket connections.<sup id="cite_ref-Gehrke_12-2" class="reference"><a href="#cite_note-Gehrke-12"><span>[</span>12<span>]</span></a></sup> MPI is now a widely available communications model that enables parallel programs to be written in languages such as <a href="C_(programming_language)" title="C (programming language)">C</a>, <a href="Fortran" title="Fortran">Fortran</a>, <a href="Python_(programming_language)" title="Python (programming language)">Python</a>, etc.<sup id="cite_ref-Prabhu_13-1" class="reference"><a href="#cite_note-Prabhu-13"><span>[</span>13<span>]</span></a></sup> Thus, unlike PVM which provides a concrete implementation, MPI is a specification which has been implemented in systems such as <a href="MPICH" title="MPICH">MPICH</a> and <a href="Open_MPI" title="Open MPI">Open MPI</a>.<sup id="cite_ref-Prabhu_13-2" class="reference"><a href="#cite_note-Prabhu-13"><span>[</span>13<span>]</span></a></sup><sup id="cite_ref-Gropp_14-0" class="reference"><a href="#cite_note-Gropp-14"><span>[</span>14<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=7.php.html" title="Edit section: Cluster management">edit</a>]</span> <span class="mw-headline" id="Cluster_management">Cluster management</span></h2>
+<p>One of the challenges in the use of a computer cluster is the cost of administrating it which can at times be as high as the cost of administrating N independent machines, if the cluster has N nodes.<sup id="cite_ref-patter641_15-0" class="reference"><a href="#cite_note-patter641-15"><span>[</span>15<span>]</span></a></sup> In some cases this provides an advantage to <a href="Shared_memory_architecture" title="Shared memory architecture">shared memory architectures</a> with lower administration costs.<sup id="cite_ref-patter641_15-1" class="reference"><a href="#cite_note-patter641-15"><span>[</span>15<span>]</span></a></sup> This has also made <a href="Virtual_machine" title="Virtual machine">virtual machines</a> popular, due to the ease of administration.<sup id="cite_ref-patter641_15-2" class="reference"><a href="#cite_note-patter641-15"><span>[</span>15<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=8.php.html" title="Edit section: Task scheduling">edit</a>]</span> <span class="mw-headline" id="Task_scheduling">Task scheduling</span></h3>
+<p>When a large multi-user cluster needs to access very large amounts of data, <a href="Task_scheduling" title="Task scheduling" class="mw-redirect">task scheduling</a> becomes a challenge. In a heterogeneous CPU-GPU cluster, which has a complex application environment the performance of each job depends on the characteristics of the underlying cluster, mapping tasks onto CPU cores and GPU devices provides significant challenges.<sup id="cite_ref-Shira_16-0" class="reference"><a href="#cite_note-Shira-16"><span>[</span>16<span>]</span></a></sup> This is an area of ongoing research and algorithms that combine and extend MapReduce and Hadoop have been proposed and studied.<sup id="cite_ref-Shira_16-1" class="reference"><a href="#cite_note-Shira-16"><span>[</span>16<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=9.php.html" title="Edit section: Node failure management">edit</a>]</span> <span class="mw-headline" id="Node_failure_management">Node failure management</span></h3>
+<p>When a node in a cluster fails, strategies such as "<a href="Fencing_(computing)" title="Fencing (computing)">fencing</a>" may be employed to keep the rest of the system operational.<sup id="cite_ref-ARob_17-0" class="reference"><a href="#cite_note-ARob-17"><span>[</span>17<span>]</span></a></sup><sup id="cite_ref-suncl_18-0" class="reference"><a href="#cite_note-suncl-18"><span>[</span>18<span>]</span></a></sup> Fencing is the process of isolating a node or protecting shared resources when a node appears to be malfunctioning. There are two classes of fencing methods; one disables a node itself, and the other disallows access to resources such as shared disks.<sup id="cite_ref-ARob_17-1" class="reference"><a href="#cite_note-ARob-17"><span>[</span>17<span>]</span></a></sup></p>
+<p>The <a href="STONITH" title="STONITH">STONITH</a> method stands for "Shoot The Other Node In The Head", meaning that the suspected node is disabled or powered off. For instance, <i>power fencing</i> uses a power controller to turn off an inoperable node.<sup id="cite_ref-ARob_17-2" class="reference"><a href="#cite_note-ARob-17"><span>[</span>17<span>]</span></a></sup></p>
+<p>The <i>resources fencing</i> approach disallows access to resources without powering off the node. This may include <i>persistent reservation fencing</i> via the <a href="SCSI3" title="SCSI3" class="mw-redirect">SCSI3</a>, fibre Channel fencing to disable the <a href="Fibre_channel" title="Fibre channel" class="mw-redirect">fibre channel</a> port or <a href="Global_network_block_device" title="Global network block device" class="mw-redirect">global network block device</a> (GNBD) fencing to disable access to the GNBD server.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=10.php.html" title="Edit section: Software development and administration">edit</a>]</span> <span class="mw-headline" id="Software_development_and_administration">Software development and administration</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=11.php.html" title="Edit section: Parallel programming">edit</a>]</span> <span class="mw-headline" id="Parallel_programming">Parallel programming</span></h3>
+<p>Load balancing clusters such as web servers use cluster architectures to support a large number of users and typically each user request is routed to a specific node, achieving <a href="Task_parallelism" title="Task parallelism">task parallelism</a> without multi-node cooperation, given that the main goal of the system is providing rapid user access to shared data. However, "computer clusters" which perform complex computations for a small number of users need to take advantage of the parallel processing capabilities of the cluster and partition "the same computation" among several nodes.<sup id="cite_ref-Blum_19-0" class="reference"><a href="#cite_note-Blum-19"><span>[</span>19<span>]</span></a></sup></p>
+<p><a href="Automatic_parallelization" title="Automatic parallelization">Automatic parallelization</a> of programs continues to remain a technical challenge, but <a href="Parallel_programming_model" title="Parallel programming model">parallel programming models</a> can be used to effectuate a higher <a href="Degree_of_parallelism" title="Degree of parallelism">degree of parallelism</a> via the simultaneous execution of separate portions of a program on different processors.<sup id="cite_ref-Blum_19-1" class="reference"><a href="#cite_note-Blum-19"><span>[</span>19<span>]</span></a></sup><sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></p>
+<h3><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=12.php.html" title="Edit section: Debugging and monitoring">edit</a>]</span> <span class="mw-headline" id="Debugging_and_monitoring">Debugging and monitoring</span></h3>
+<p>The development and debugging of parallel programs on a cluster requires parallel language primitives as well as suitable tools such as those discussed by the <i>High Performance Debugging Forum</i> (HPDF) which resulted in the HPD specifications.<sup id="cite_ref-Prabhu_13-3" class="reference"><a href="#cite_note-Prabhu-13"><span>[</span>13<span>]</span></a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup> Tools such as <a href="TotalView" title="TotalView">TotalView</a> were then developed to debug parallel implementations on computer clusters which use <a href="Message_Passing_Interface" title="Message Passing Interface">MPI</a> or <a href="Parallel_Virtual_Machine" title="Parallel Virtual Machine">PVM</a> for message passing.</p>
+<p>The <a href="University_of_California,_Berkeley" title="University of California, Berkeley">Berkeley</a> NOW (Network of Workstations) system gathers cluster data and stores them in a database, while a system such as PARMON, developed in India, allows for the visual observation and management of large clusters.<sup id="cite_ref-Prabhu_13-4" class="reference"><a href="#cite_note-Prabhu-13"><span>[</span>13<span>]</span></a></sup></p>
+<p><a href="Application_checkpointing" title="Application checkpointing">Application checkpointing</a> can be used to restore a given state of the system when a node fails during a long multi-node computation.<sup id="cite_ref-sloot_22-0" class="reference"><a href="#cite_note-sloot-22"><span>[</span>22<span>]</span></a></sup> This is essential in large clusters, given that as the number of nodes increases, so does the likelihood of node failure under heavy computational loads. Checkpointing can restore the system to a stable state so that processing can resume without having to recompute results.<sup id="cite_ref-sloot_22-1" class="reference"><a href="#cite_note-sloot-22"><span>[</span>22<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=13.php.html" title="Edit section: Price performance">edit</a>]</span> <span class="mw-headline" id="Price_performance">Price performance</span></h2>
+<p>Clustering can provide significant performance benefits versus price. The <a href="System_X_(computing)" title="System X (computing)">System X</a> supercomputer at <a href="Virginia_Tech" title="Virginia Tech">Virginia Tech</a>, the 28th most powerful supercomputer on Earth as of June 2006,<sup id="cite_ref-23" class="reference"><a href="#cite_note-23"><span>[</span>23<span>]</span></a></sup> is a 12.25 TFlops computer cluster of 1100 <a href="Apple_Inc." title="Apple Inc.">Apple</a> <a href="XServe" title="XServe" class="mw-redirect">XServe</a> <a href="PowerPC_970" title="PowerPC 970">G5</a> 2.3&#160;GHz dual-processor machines (4 <a href="Gigabyte" title="Gigabyte">GB</a> <a href="Random_access_memory" title="Random access memory" class="mw-redirect">RAM</a>, 80&#160;GB <a href="Serial_ATA" title="Serial ATA">SATA</a> <a href="Hard_disk" title="Hard disk" class="mw-redirect">HD</a>) running <a href="Mac_OS_X" title="Mac OS X" class="mw-redirect">Mac OS X</a> and using <a href="InfiniBand" title="InfiniBand">InfiniBand</a> interconnect. The cluster initially consisted of <a href="Power_Macintosh_G5" title="Power Macintosh G5" class="mw-redirect">Power Mac G5s</a>; the rack-mountable XServes are denser than desktop Macs, reducing the aggregate size of the cluster.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=14.php.html" title="Edit section: Some implementations">edit</a>]</span> <span class="mw-headline" id="Some_implementations">Some implementations</span></h2>
+<p>The GNU/Linux world supports various cluster software; for application clustering, there is <a href="Beowulf_(computing)" title="Beowulf (computing)" class="mw-redirect">Beowulf</a>, <a href="Distcc" title="Distcc">distcc</a>, and <a href="MPICH" title="MPICH">MPICH</a>. <a href="Linux_Virtual_Server" title="Linux Virtual Server">Linux Virtual Server</a>, <a href="Linux-HA" title="Linux-HA">Linux-HA</a> - director-based clusters that allow incoming requests for services to be distributed across multiple cluster nodes. <a href="MOSIX" title="MOSIX">MOSIX</a>, <a href="OpenMosix" title="OpenMosix">openMosix</a>, <a href="Kerrighed" title="Kerrighed">Kerrighed</a>, <a href="OpenSSI" title="OpenSSI">OpenSSI</a> are full-blown clusters integrated into the <a href="Kernel_(computer_science)" title="Kernel (computer science)" class="mw-redirect">kernel</a> that provide for automatic process migration among homogeneous nodes. OpenSSI, openMosix and Kerrighed are <a href="Single-system_image" title="Single-system image" class="mw-redirect">single-system image</a> implementations.</p>
+<p><a href="Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a> Compute Cluster Server 2003 based on the <a href="Windows_Server" title="Windows Server">Windows Server</a> platform provides pieces for High Performance Computing like the Job Scheduler, MSMPI library and management tools.</p>
+<p><a href="GLite" title="GLite">gLite</a> is a set of middleware technologies created by the <a href="Enabling_Grids_for_E-sciencE" title="Enabling Grids for E-sciencE" class="mw-redirect">Enabling Grids for E-sciencE</a> (EGEE) project.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=15.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="rellink relarticle mainarticle">Main article: <a href="History_of_computer_clusters" title="History of computer clusters">History of computer clusters</a></div>
+<div class="rellink boilerplate seealso">See also: <a href="History_of_supercomputing" title="History of supercomputing">History of supercomputing</a></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:152px;"><a href="http://en.wikipedia.org/wiki/File:SPEC-1_VAX_05.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SPEC-1_VAX_05.jpg/150px-SPEC-1_VAX_05.jpg" width="150" height="190" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SPEC-1_VAX_05.jpg/225px-SPEC-1_VAX_05.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/SPEC-1_VAX_05.jpg/300px-SPEC-1_VAX_05.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:SPEC-1_VAX_05.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf8/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="VAX" title="VAX">VAX</a> 11/780, c. 1977</div>
+</div>
+</div>
+<p>Greg Pfister's has stated that clusters were not invented by any specific vendor but by customers who could not fit all their work on one computer, or needed a backup.<sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup> Pfister estimates the date as some time in the 1960s. The formal engineering basis of cluster computing as a means of doing parallel work of any sort was arguably invented by <a href="Gene_Amdahl" title="Gene Amdahl">Gene Amdahl</a> of <a href="IBM" title="IBM">IBM</a>, who in 1967 published what has come to be regarded as the seminal paper on parallel processing: <a href="Amdahl's_Law" title="Amdahl's Law" class="mw-redirect">Amdahl's Law</a>.</p>
+<p>The history of early computer clusters is more or less directly tied into the history of early networks, as one of the primary motivations for the development of a network was to link computing resources, creating a de facto computer cluster.</p>
+<p>The first commercial clustering product was <a href="ARCnet" title="ARCnet" class="mw-redirect">ARCnet</a>, developed by <a href="Datapoint" title="Datapoint">Datapoint</a> in 1977. Clustering per se did not really take off until <a href="Digital_Equipment_Corporation" title="Digital Equipment Corporation">Digital Equipment Corporation</a> released their <a href="VAXcluster" title="VAXcluster" class="mw-redirect">VAXcluster</a> product in 1984 for the <a href="VAX/VMS" title="VAX/VMS" class="mw-redirect">VAX/VMS</a> operating system. The ARCnet and VAXcluster products not only supported parallel computing, but also shared <a href="File_system" title="File system">file systems</a> and <a href="Peripheral" title="Peripheral">peripheral</a> devices. The idea was to provide the advantages of parallel processing, while maintaining data reliability and uniqueness. Two other noteworthy early commercial clusters were the <a href="Tandem_Computers" title="Tandem Computers"><i>Tandem Himalaya</i></a> (a circa 1994 high-availability product) and the <i>IBM S/390 Parallel Sysplex</i> (also circa 1994, primarily for business use).</p>
+<p>Within the same time frame, while computer clusters used parallelism outside the computer on a commodity network, <a href="Supercomputer" title="Supercomputer">supercomputers</a> began to use them within the same computer. Following the success of the <a href="CDC_6600" title="CDC 6600">CDC 6600</a> in 1964, the <a href="Cray_1" title="Cray 1" class="mw-redirect">Cray 1</a> was delivered in 1976, and introduced internal parallelism via <a href="Vector_processor" title="Vector processor">vector processing</a>.<sup id="cite_ref-Hill41_25-0" class="reference"><a href="#cite_note-Hill41-25"><span>[</span>25<span>]</span></a></sup> While early supercomputers excluded clusters and relied on <a href="Shared_memory" title="Shared memory">shared memory</a>, in time some of the fastest supercomputers (e.g. the <a href="K_computer" title="K computer">K computer</a>) relied on cluster architectures.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=16.php.html" title="Edit section: Other approaches">edit</a>]</span> <span class="mw-headline" id="Other_approaches">Other approaches</span></h2>
+<p>Although most computer clusters are permanent fixtures, attempts at <a href="Flash_mob_computing" title="Flash mob computing">flash mob computing</a> have been made to build short-lived clusters for specific computations. However, larger scale <a href="Volunteer_computing" title="Volunteer computing">volunteer computing</a> systems such as <a href="BOINC" title="BOINC" class="mw-redirect">BOINC</a>-based systems have had more followers.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=17.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<table cellspacing="5" cellpadding="5" border="0" width="60%">
+<tr>
+<td valign="top" width="30%">
+<p><i>Basic concepts</i></p>
+<dl>
+<dd>
+<ul>
+<li><a href="Clustered_file_system" title="Clustered file system">Clustered file system</a></li>
+<li><a href="Heartbeat_private_network" title="Heartbeat private network" class="mw-redirect">Heartbeat private network</a></li>
+<li><a href="High-availability_cluster" title="High-availability cluster">High-availability cluster</a></li>
+<li><a href="Single_system_image" title="Single system image">Single system image</a></li>
+<li><a href="Symmetric_multiprocessing" title="Symmetric multiprocessing">Symmetric multiprocessing</a></li>
+</ul>
+</dd>
+</dl>
+<p><i>Distributed computing</i></p>
+<dl>
+<dd>
+<ul>
+<li><a href="Distributed_computing" title="Distributed computing">Distributed computing</a></li>
+<li><a href="Distributed_data_store" title="Distributed data store">Distributed data store</a></li>
+<li><a href="Distributed_operating_system" title="Distributed operating system">Distributed operating system</a></li>
+<li><a href="Distributed_shared_memory" title="Distributed shared memory">Distributed shared memory</a></li>
+</ul>
+</dd>
+</dl>
+</td>
+<td valign="top" width="30%">
+<p><i>Specific systems</i></p>
+<dl>
+<dd>
+<ul>
+<li><a href="DEGIMA_(computer_cluster)" title="DEGIMA (computer cluster)">DEGIMA (computer cluster)</a></li>
+<li><a href="K_computer" title="K computer">K computer</a></li>
+<li><a href="Microsoft_Cluster_Server" title="Microsoft Cluster Server">Microsoft Cluster Server</a></li>
+<li><a href="Red_Hat_Cluster_Suite" title="Red Hat Cluster Suite" class="mw-redirect">Red Hat Cluster Suite</a></li>
+<li><a href="Solaris_Cluster" title="Solaris Cluster">Solaris Cluster</a></li>
+<li><a href="Veritas_Cluster_Server" title="Veritas Cluster Server">Veritas Cluster Server</a></li>
+</ul>
+</dd>
+</dl>
+<p><i>Computer farms</i></p>
+<dl>
+<dd>
+<ul>
+<li><a href="Compile_farm" title="Compile farm">Compile farm</a></li>
+<li><a href="Render_farm" title="Render farm">Render farm</a></li>
+<li><a href="Server_farm" title="Server farm">Server farm</a></li>
+</ul>
+</dd>
+</dl>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=18.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a href="../David_A._Bader" title="David A. Bader">Bader, David</a>; Robert Pennington (June 1996). <a rel="nofollow" class="external text" href="http://www.cc.gatech.edu/~bader/papers/ijhpca.html">"Cluster Computing: Applications"</a>. <a href="Georgia_Institute_of_Technology_College_of_Computing" title="Georgia Institute of Technology College of Computing">Georgia Tech College of Computing</a><span class="printonly">. <a rel="nofollow" class="external free" href="http://www.cc.gatech.edu/~bader/papers/ijhpca.html">http://www.cc.gatech.edu/~bader/papers/ijhpca.html</a></span><span class="reference-accessdate">. Retrieved 2007-07-13</span>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.telegraph.co.uk/technology/9338651/Nuclear-weapons-supercomputer-reclaims-world-speed-record-for-US.html">"Nuclear weapons supercomputer reclaims world speed record for US"</a>. The Telegraph. 18 Jun 2012<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.telegraph.co.uk/technology/9338651/Nuclear-weapons-supercomputer-reclaims-world-speed-record-for-US.html">http://www.telegraph.co.uk/technology/9338651/Nuclear-weapons-supercomputer-reclaims-world-speed-record-for-US.html</a></span><span class="reference-accessdate">. Retrieved 18 Jun 2012</span>.</span></span></li>
+<li id="cite_note-nbis-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-nbis_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-nbis_3-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-nbis_3-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><i>Network-Based Information Systems: First International Conference, NBIS 2007</i> <a href="Special_BookSources/3540745726" class="internal mw-magiclink-isbn">ISBN 3-540-74572-6</a> page 375</span></li>
+<li id="cite_note-sciam-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-sciam_4-0">^</a></b></span> <span class="reference-text"><span class="citation news">William W. Hargrove, Forrest M. Hoffman and <a href="Thomas_Sterling_(computing)" title="Thomas Sterling (computing)">Thomas Sterling</a> (August 16, 2001). <a rel="nofollow" class="external text" href="http://www.sciam.com/article.cfm?id=the-do-it-yourself-superc">"The Do-It-Yourself Supercomputer"</a>. <i><a href="Scientific_American" title="Scientific American">Scientific American</a></i> <b>265</b> (2): pp.&#160;72–79<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.sciam.com/article.cfm?id=the-do-it-yourself-superc">http://www.sciam.com/article.cfm?id=the-do-it-yourself-superc</a></span><span class="reference-accessdate">. Retrieved October 18, 2011</span>.</span></span></li>
+<li id="cite_note-extreme-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-extreme_5-0">^</a></b></span> <span class="reference-text"><span class="citation news">William W. Hargrove and Forrest M. Hoffman (1999). <a rel="nofollow" class="external text" href="http://climate.ornl.gov/~forrest/linux-magazine-1999/">"Cluster Computing: Linux Taken to the Extreme"</a>. <i>Linux magazine</i><span class="printonly">. <a rel="nofollow" class="external free" href="http://climate.ornl.gov/~forrest/linux-magazine-1999/">http://climate.ornl.gov/~forrest/linux-magazine-1999/</a></span><span class="reference-accessdate">. Retrieved October 18, 2011</span>.</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://i.top500.org/sublist">TOP500 list</a> To view all clusters on the TOP500 select "cluster" as architecture from the sublist menu.</span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">M. Yokokawa et al <i>The K Computer</i>, in "International Symposium on Low Power Electronics and Design" (ISLPED) 1-3 Aug. 2011, pages 371-372</span></li>
+<li id="cite_note-Sloan-8"><span class="mw-cite-backlink">^ <a href="#cite_ref-Sloan_8-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Sloan_8-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><i>High Performance Linux Clusters</i> by Joseph D. Sloan 2004 <a href="Special_BookSources/0596005709" class="internal mw-magiclink-isbn">ISBN 0-596-00570-9</a> page</span></li>
+<li id="cite_note-VECPAR-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-VECPAR_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-VECPAR_9-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-VECPAR_9-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-VECPAR_9-3"><sup><i><b>d</b></i></sup></a></span> <span class="reference-text"><i>High Performance Computing for Computational Science - VECPAR 2004</i> by Michel Daydé, Jack Dongarra 2005 <a href="Special_BookSources/3540254242" class="internal mw-magiclink-isbn">ISBN 3-540-25424-2</a> pages 120-121</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Hamada T. <i>et al.</i> (2009) A novel multiple-walk parallel algorithm for the Barnes–Hut treecode on GPUs – towards cost effective, high performance N-body simulation. <i>Comput. Sci. Res. Development</i> 24:21-31. <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/s00450-009-0089-1">10.1007/s00450-009-0089-1</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">Maurer, Ryan: <a rel="nofollow" class="external text" href="http://www.linuxjournal.com/article/8812">Xen Virtualization and Linux Clustering</a></span></li>
+<li id="cite_note-Gehrke-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-Gehrke_12-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Gehrke_12-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Gehrke_12-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><i>Distributed services with OpenAFS: for enterprise and education</i> by Franco Milicchio, Wolfgang Alexander Gehrke 2007, ISBN pages 339-341 <a rel="nofollow" class="external autonumber" href="http://books.google.it/books?id=bKf4NBaIJI8C&pg=PA339&dq=%22message+passing%22+computer+cluster+MPI+PVM&hl=en&sa=X&ei=-dD7ToZCj_bhBOOxvI0I&redir_esc=y#v=onepage&amp;q=%22message%20passing%22%20computer%20cluster%20MPI%20PVM&amp;f=false">[1]</a></span></li>
+<li id="cite_note-Prabhu-13"><span class="mw-cite-backlink">^ <a href="#cite_ref-Prabhu_13-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Prabhu_13-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-Prabhu_13-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-Prabhu_13-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-Prabhu_13-4"><sup><i><b>e</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://books.google.it/books?id=EIVdVtGHv-0C&pg=PA112&dq=%22message+passing%22+computer+cluster+MPI+PVM&hl=en&sa=X&ei=-dD7ToZCj_bhBOOxvI0I&redir_esc=y#v=onepage&amp;q=%22message%20passing%22%20computer%20cluster%20MPI%20PVM&amp;f=false"><i>Grid and Cluster Computing</i> by Prabhu 2008 8120334280 pages 109-112</a></span></li>
+<li id="cite_note-Gropp-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-Gropp_14-0">^</a></b></span> <span class="reference-text"><span class="citation Journal" id="CITEREFGroppLuskSkjellum1996">Gropp, William; Lusk, Ewing; Skjellum, Anthony (1996). "A High-Performance, Portable Implementation of the MPI Message Passing Interface". <i>Parallel Computing</i>. <a href="CiteSeer#CiteSeerX" title="CiteSeer">CiteSeerX</a>: <span class="url"><a rel="nofollow" class="external text" href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.102.9485">10.1.1.102.9485</a></span>.</span></span></li>
+<li id="cite_note-patter641-15"><span class="mw-cite-backlink">^ <a href="#cite_ref-patter641_15-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-patter641_15-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-patter641_15-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><i>Computer Organization and Design</i> by David A. Patterson and John L. Hennessy 2011 <a href="Special_BookSources/0123747503" class="internal mw-magiclink-isbn">ISBN 0-12-374750-3</a> pages 641-642</span></li>
+<li id="cite_note-Shira-16"><span class="mw-cite-backlink">^ <a href="#cite_ref-Shira_16-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Shira_16-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text">K. Shirahata, et al <i>Hybrid Map Task Scheduling for GPU-Based Heterogeneous Clusters</i> in: Cloud Computing Technology and Science (CloudCom), 2010 Nov. 30 2010-Dec. 3 2010 pages 733 - 740 <a href="Special_BookSources/9781424494057" class="internal mw-magiclink-isbn">ISBN 978-1-4244-9405-7</a> <a rel="nofollow" class="external autonumber" href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5708524">[2]</a></span></li>
+<li id="cite_note-ARob-17"><span class="mw-cite-backlink">^ <a href="#cite_ref-ARob_17-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ARob_17-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-ARob_17-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text">Alan Robertson <i>Resource fencing using STONITH</i>. IBM Linux Research Center, 2010 <a rel="nofollow" class="external autonumber" href="ftp://ftp.telecom.uff.br/pub/linux/HA/ResourceFencing_Stonith.pdf">[3]</a></span></li>
+<li id="cite_note-suncl-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-suncl_18-0">^</a></b></span> <span class="reference-text"><i>Sun Cluster environment: Sun Cluster 2.2</i> by Enrique Vargas, Joseph Bianco, David Deeths 2001 ISBN page 58</span></li>
+<li id="cite_note-Blum-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-Blum_19-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Blum_19-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><i>Computer Science: The Hardware, Software and Heart of It</i> by Alfred V. Aho, Edward K. Blum 2011 <a href="Special_BookSources/146141167X" class="internal mw-magiclink-isbn">ISBN 1-4614-1167-X</a> pages 156-166 <a rel="nofollow" class="external autonumber" href="http://books.google.it/books?id=S7QU9RRLYIYC&pg=PA156&dq=%22parallel+programming%22+computer+cluster&hl=en&sa=X&ei=C_H8TqSRCobS4QSTmY2pCA&sqi=2&redir_esc=y#v=onepage&amp;q=%22parallel%20programming%22%20computer%20cluster&amp;f=false">[4]</a></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><i>Parallel Programming: For Multicore and Cluster Systems</i> by Thomas Rauber, Gudula Rünger 2010 <a href="Special_BookSources/364204817X" class="internal mw-magiclink-isbn">ISBN 3-642-04817-X</a> pages 94–95 <a rel="nofollow" class="external autonumber" href="http://books.google.it/books?id=wWogxOmA3wMC&pg=PA94&dq=%22parallel+programming+language%22+computer+cluster&hl=en&sa=X&ei=zfD8TpX_F5CQ4gSMvfXhBA&redir_esc=y#v=onepage&amp;q=%22parallel%20programming%20language%22%20computer%20cluster&amp;f=false">[5]</a></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><i>A debugging standard for high-performance computing</i> by Joan M. Francioni and Cherri Pancake, in the "Journal of Scientific Programming" Volume 8 Issue 2, April 2000 <a rel="nofollow" class="external autonumber" href="http://dl.acm.org/citation.cfm?id=1239906">[6]</a></span></li>
+<li id="cite_note-sloot-22"><span class="mw-cite-backlink">^ <a href="#cite_ref-sloot_22-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-sloot_22-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><i>Computational Science-- ICCS 2003: International Conference</i> edited by Peter Sloot 2003 <a href="Special_BookSources/3540401954" class="internal mw-magiclink-isbn">ISBN 3-540-40195-4</a> pages 291-292</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.top500.org/list/2006/06/100">TOP500 List - June 2006 (1-100) | TOP500 Supercomputing Sites</a></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><span class="citation book">Pfister, Gregory (1998). <i>In Search of Clusters</i> (2nd ed.). Upper Saddle River, NJ: Prentice Hall PTR. p.&#160;36. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-13-899709-8" title="Special:BookSources/0-13-899709-8">0-13-899709-8</a>.</span></span></li>
+<li id="cite_note-Hill41-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-Hill41_25-0">^</a></b></span> <span class="reference-text"><i>Readings in computer architecture</i> by Mark Donald Hill, Norman Paul Jouppi, Gurindar Sohi 1999 <a href="Special_BookSources/9781558605398" class="internal mw-magiclink-isbn">ISBN 978-1-55860-539-8</a> page 41-48</span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=19.php.html" title="Edit section: Further reading">edit</a>]</span> <span class="mw-headline" id="Further_reading">Further reading</span></h2>
+<ul>
+<li>Mark Baker, et al., <i>Cluster Computing White Paper</i> <a rel="nofollow" class="external autonumber" href="http://arxiv.org/abs/cs/0004014">[7]</a>, 11 Jan 2001.</li>
+<li>Evan Marcus, Hal Stern: <i>Blueprints for High Availability: Designing Resilient Distributed Systems</i>, John Wiley &amp; Sons, <a href="Special_BookSources/0471356018" class="internal mw-magiclink-isbn">ISBN 0-471-35601-8</a></li>
+<li>Greg Pfister: <i>In Search of Clusters</i>, Prentice Hall, <a href="Special_BookSources/0138997098" class="internal mw-magiclink-isbn">ISBN 0-13-899709-8</a></li>
+<li>Rajkumar Buyya (editor): <i>High Performance Cluster Computing: Architectures and Systems</i>, Volume 1, <a href="Special_BookSources/0130137847" class="internal mw-magiclink-isbn">ISBN 0-13-013784-7</a>, and Volume 2, <a href="Special_BookSources/0130137855" class="internal mw-magiclink-isbn">ISBN 0-13-013785-5</a>, Prentice Hall, NJ, USA, 1999.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Computer_cluster&action=edit&section=20.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Special:Search/Computer_cluster" class="extiw" title="commons:Special:Search/Computer cluster">Computer cluster</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.ieeetfcc.org/">IEEE task force on cluster computing</a></li>
+<li><a rel="nofollow" class="external text" href="http://publib.boulder.ibm.com/infocenter/clresctr/vxrx/index.jsp?topic=/com.ibm.cluster.rsct.doc/rsctbooks.html">Reliable Scalable Cluster Technology, IBM</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.ibm.com/developerworks/wikis/display/tivoli/Tivoli+System+Automation">Tivoli System Automation Wiki</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="3">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Parallel_computing" title="Template:Parallel computing"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Parallel_computing" title="Template talk:Parallel computing"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Parallel_computing&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Parallel_computing" title="Parallel computing">Parallel computing</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">General</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Cloud_computing" title="Cloud computing">Cloud computing</a></li>
+<li><a href="High-performance_computing" title="High-performance computing" class="mw-redirect">High-performance computing</a></li>
+<li><strong class="selflink">Cluster computing</strong></li>
+<li><a href="Distributed_computing" title="Distributed computing">Distributed computing</a></li>
+<li><a href="Grid_computing" title="Grid computing">Grid computing</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" style="width:0%;padding:0px 0px 0px 2px;" rowspan="19">
+<div><a href="http://en.wikipedia.org/wiki/File:AmdahlsLaw.svg" class="image"><img alt="AmdahlsLaw.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/200px-AmdahlsLaw.svg.png" width="200" height="150" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/300px-AmdahlsLaw.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ea/AmdahlsLaw.svg/400px-AmdahlsLaw.svg.png 2x" /></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Levels</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Bit-level_parallelism" title="Bit-level parallelism">Bit</a></li>
+<li><a href="Instruction-level_parallelism" title="Instruction-level parallelism">Instruction</a></li>
+<li><a href="Data_parallelism" title="Data parallelism">Data</a></li>
+<li><a href="Task_parallelism" title="Task parallelism">Task</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Thread_(computing)" title="Thread (computing)">Threads</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Super-threading" title="Super-threading">Superthreading</a></li>
+<li><a href="Hyper-threading" title="Hyper-threading">Hyperthreading</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Theory</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Amdahl's_law" title="Amdahl's law">Amdahl's law</a></li>
+<li><a href="Gustafson's_law" title="Gustafson's law">Gustafson's law</a></li>
+<li><a href="Cost_efficiency" title="Cost efficiency">Cost efficiency</a></li>
+<li><a href="Karp%E2%80%93Flatt_metric" title="Karp–Flatt metric">Karp–Flatt metric</a></li>
+<li><a href="Parallel_slowdown" title="Parallel slowdown">slowdown</a></li>
+<li><a href="Speedup" title="Speedup">speedup</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Elements</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Process_(computing)" title="Process (computing)">Process</a></li>
+<li><a href="Thread_(computer_science)" title="Thread (computer science)" class="mw-redirect">Thread</a></li>
+<li><a href="Fiber_(computer_science)" title="Fiber (computer science)">Fiber</a></li>
+<li><a href="Parallel_Random_Access_Machine" title="Parallel Random Access Machine" class="mw-redirect">PRAM</a></li>
+<li><a href="Instruction_window" title="Instruction window">Instruction window</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Coordination</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Multiprocessing" title="Multiprocessing">Multiprocessing</a></li>
+<li><a href="Multithreading_(computer_architecture)" title="Multithreading (computer architecture)">Multithreading (computer architecture)</a></li>
+<li><a href="Memory_coherence" title="Memory coherence">Memory coherency</a></li>
+<li><a href="Cache_coherence" title="Cache coherence">Cache coherency</a></li>
+<li><a href="Cache_invalidation" title="Cache invalidation">Cache invalidation</a></li>
+<li><a href="Barrier_(computer_science)" title="Barrier (computer science)">Barrier</a></li>
+<li><a href="Synchronization_(computer_science)" title="Synchronization (computer science)">Synchronization</a></li>
+<li><a href="Application_checkpointing" title="Application checkpointing">Application checkpointing</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computer_programming" title="Computer programming">Programming</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Parallel_programming_model" title="Parallel programming model">Models</a>
+<ul>
+<li><a href="Implicit_parallelism" title="Implicit parallelism">Implicit parallelism</a></li>
+<li><a href="Explicit_parallelism" title="Explicit parallelism">Explicit parallelism</a></li>
+<li><a href="Concurrency_(computer_science)" title="Concurrency (computer science)">Concurrency</a></li>
+</ul>
+</li>
+<li><a href="Flynn's_taxonomy" title="Flynn's taxonomy">Flynn's taxonomy</a>
+<ul>
+<li><a href="SISD" title="SISD">SISD</a></li>
+<li><a href="SIMD" title="SIMD">SIMD</a></li>
+<li><a href="MISD" title="MISD">MISD</a></li>
+<li><a href="MIMD" title="MIMD">MIMD</a>
+<ul>
+<li><a href="SPMD" title="SPMD">SPMD</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="Thread_(computer_science)" title="Thread (computer science)" class="mw-redirect">Thread (computer science)</a></li>
+<li><a href="Non-blocking_algorithm" title="Non-blocking algorithm">Non-blocking algorithm</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Computer_hardware" title="Computer hardware">Hardware</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Multiprocessor" title="Multiprocessor">Multiprocessor</a>
+<ul>
+<li><a href="Symmetric_multiprocessor" title="Symmetric multiprocessor" class="mw-redirect">Symmetric</a></li>
+<li><a href="Asymmetric_multiprocessing" title="Asymmetric multiprocessing">Asymmetric</a></li>
+</ul>
+</li>
+<li><a href="Semiconductor_memory" title="Semiconductor memory">Memory</a>
+<ul>
+<li><a href="Non-Uniform_Memory_Access" title="Non-Uniform Memory Access">NUMA</a></li>
+<li><a href="Cache-only_memory_architecture" title="Cache-only memory architecture">COMA</a></li>
+<li><a href="Distributed_memory" title="Distributed memory">distributed</a></li>
+<li><a href="Shared_memory" title="Shared memory">shared</a></li>
+<li><a href="Distributed_shared_memory" title="Distributed shared memory">distributed shared</a></li>
+</ul>
+</li>
+<li><a href="Simultaneous_multithreading" title="Simultaneous multithreading">SMT</a></li>
+<li><a href="Massively_parallel_(computing)" title="Massively parallel (computing)">MPP</a></li>
+<li><a href="Superscalar" title="Superscalar">Superscalar</a></li>
+<li><a href="Vector_processor" title="Vector processor">Vector processor</a></li>
+<li><a href="Supercomputer" title="Supercomputer">Supercomputer</a></li>
+<li><a href="Beowulf_(computing)" title="Beowulf (computing)" class="mw-redirect"><i>Beowulf</i></a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Application_programming_interface" title="Application programming interface">APIs</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Ateji_PX" title="Ateji PX">Ateji PX</a></li>
+<li><a href="POSIX_Threads" title="POSIX Threads">POSIX Threads</a></li>
+<li><a href="OpenMP" title="OpenMP">OpenMP</a></li>
+<li><a href="OpenHMPP" title="OpenHMPP">OpenHMPP</a></li>
+<li><a href="OpenACC" title="OpenACC">OpenACC</a></li>
+<li><a href="Parallel_Virtual_Machine" title="Parallel Virtual Machine">PVM</a></li>
+<li><a href="Message_Passing_Interface" title="Message Passing Interface">MPI</a></li>
+<li><a href="Unified_Parallel_C" title="Unified Parallel C">UPC</a></li>
+<li><a href="Intel_Threading_Building_Blocks" title="Intel Threading Building Blocks">Intel Threading Building Blocks</a></li>
+<li><a href="Intel_Cilk_Plus" title="Intel Cilk Plus">Intel Cilk Plus</a></li>
+<li><a href="Boost_C++_Libraries#Multithreading_.E2.80.93_Boost.Thread" title="Boost C++ Libraries" class="mw-redirect">Boost.Thread</a></li>
+<li><a href="Global_Arrays" title="Global Arrays">Global Arrays</a></li>
+<li><a href="Charm++" title="Charm++">Charm++</a></li>
+<li><a href="Cilk" title="Cilk">Cilk</a></li>
+<li><a href="Co-array_Fortran" title="Co-array Fortran" class="mw-redirect">Co-array Fortran</a></li>
+<li><a href="OpenCL" title="OpenCL">OpenCL</a></li>
+<li><a href="CUDA" title="CUDA">CUDA</a></li>
+<li><a href="Dryad_(programming)" title="Dryad (programming)">Dryad</a></li>
+<li><a href="C++_AMP" title="C++ AMP">C++ AMP</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Problems</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Embarrassingly_parallel" title="Embarrassingly parallel">Embarrassingly parallel</a></li>
+<li><a href="Software_lockout" title="Software lockout">Software lockout</a></li>
+<li><a href="Scalability" title="Scalability">Scalability</a></li>
+<li><a href="Race_condition#Computing" title="Race condition">Race condition</a></li>
+<li><a href="Deadlock" title="Deadlock">Deadlock</a></li>
+<li><a href="Deadlock#Livelock" title="Deadlock">Livelock</a></li>
+<li><a href="Deterministic_algorithm" title="Deterministic algorithm">Deterministic algorithm</a></li>
+<li><a href="Parallel_slowdown" title="Parallel slowdown">Parallel slowdown</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" style=";" colspan="3">
+<div>
+<ul>
+<li><img alt="Category" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" /> <a href="Category_Parallel_computing" title="Category:Parallel computing">Category: parallel computing</a></li>
+<li><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" width="12" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" /> Media related to <a href="http://commons.wikimedia.org/wiki/category:parallel_computing" class="extiw" title="commons:category:parallel computing">parallel computing</a> at Wikimedia Commons</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 5068/1000000
+Preprocessor generated node count: 38021/1500000
+Post-expand include size: 44365/2048000 bytes
+Template argument size: 17977/2048000 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:18949896-0!*!0!!en!4!* and timestamp 20130206172259 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Computer_cluster&oldid=536907155.php.html">http://en.wikipedia.org/w/index.php?title=Computer_cluster&amp;oldid=536907155</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Cluster_computing" title="Category:Cluster computing">Cluster computing</a></li><li><a href="Category_Parallel_computing" title="Category:Parallel computing">Parallel computing</a></li><li><a href="Category_Concurrent_computing" title="Category:Concurrent computing">Concurrent computing</a></li><li><a href="Category_Supercomputers" title="Category:Supercomputers">Supercomputers</a></li><li><a href="Category_Local_area_networks" title="Category:Local area networks">Local area networks</a></li><li><a href="Category_Classes_of_computers" title="Category:Classes of computers">Classes of computers</a></li><li><a href="Category_Fault-tolerant_computer_systems" title="Category:Fault-tolerant computer systems">Fault-tolerant computer systems</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Computer+cluster&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Computer+cluster.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="Computer_cluster"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Computer_cluster"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="Computer_cluster" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Computer_cluster&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Computer_cluster&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Computer_cluster" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Computer_cluster" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Computer_cluster&oldid=536907155.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Computer_cluster&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Computer_cluster&id=536907155.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Computer+cluster.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Computer+cluster&oldid=536907155&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Computer_cluster&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%B9%D9%86%D9%82%D9%88%D8%AF_(%D8%AD%D9%88%D8%B3%D8%A8%D8%A9)" title="عنقود (حوسبة)" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bn"><a href="http://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%BE%E0%A6%B0_%E0%A6%95%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0" title="কম্পিউটার ক্লাস্টার" lang="bn" hreflang="bn">বাংলা</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D1%8A%D1%81%D1%82%D0%B5%D1%80" title="Клъстер" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Cl%C3%BAster" title="Clúster" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4%8Dov%C3%BD_cluster" title="Počítačový cluster" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Klyngecomputer" title="Klyngecomputer" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Rechnerverbund" title="Rechnerverbund" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Klaster_(infotehnoloogia)" title="Klaster (infotehnoloogia)" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Cluster_(inform%C3%A1tica)" title="Cluster (informática)" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Grapolo_(komputado)" title="Grapolo (komputado)" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%AE%D9%88%D8%B4%D9%87_%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C" title="خوشه کامپیوتری" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Grappe_de_serveurs" title="Grappe de serveurs" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-gl"><a href="http://gl.wikipedia.org/wiki/Cl%C3%BAster_de_computadores" title="Clúster de computadores" lang="gl" hreflang="gl">Galego</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%BB%B4%ED%93%A8%ED%84%B0_%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0" title="컴퓨터 클러스터" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Kluster_komputer" title="Kluster komputer" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Computer_cluster" title="Computer cluster" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%90%D7%A9%D7%9B%D7%95%D7%9C_%D7%9E%D7%97%D7%A9%D7%91%D7%99%D7%9D" title="אשכול מחשבים" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Sz%C3%A1m%C3%ADt%C3%B3g%C3%A9pf%C3%BCrt" title="Számítógépfürt" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-ml"><a href="http://ml.wikipedia.org/wiki/%E0%B4%95%E0%B5%8D%E0%B4%B2%E0%B4%B8%E0%B5%8D%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B4%B0%E0%B5%8D%E2%80%8D" title="ക്ലസ്റ്റര്‍" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Computercluster" title="Computercluster" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%BB%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC" title="コンピュータ・クラスター" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-nn"><a href="http://nn.wikipedia.org/wiki/Dataklynge" title="Dataklynge" lang="nn" hreflang="nn">Norsk (nynorsk)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Klaster_komputerowy" title="Klaster komputerowy" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Cluster" title="Cluster" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80_(%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B0_%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BE%D0%B2)" title="Кластер (группа компьютеров)" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-sq"><a href="http://sq.wikipedia.org/wiki/Grupet_kompjuterike" title="Grupet kompjuterike" lang="sq" hreflang="sq">Shqip</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Cluster_(computing)" title="Cluster (computing)" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80_%D1%80%D0%B0%D1%87%D1%83%D0%BD%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE" title="Кластер рачунарство" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Klusteri_(tietotekniikka)" title="Klusteri (tietotekniikka)" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Datorkluster" title="Datorkluster" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Bilgisayar_k%C3%BCmesi" title="Bilgisayar kümesi" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80_(%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" title="Кластер (інформатика)" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D8%AE%D9%88%D8%B4%DB%82_%D8%B4%D9%85%D8%A7%D8%B1%D9%86%D8%AF%DB%81" title="خوشۂ شمارندہ" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%9B%86%E7%BE%A4" title="计算机集群" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 6 February 2013 at 17:22.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Computer_cluster" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1098 in 0.203 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

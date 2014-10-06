@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Multilinear algebra - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Multilinear_algebra&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Multilinear_algebra&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Multilinear_algebra","wgTitle":"Multilinear algebra","wgCurRevisionId":526924689,"wgArticleId":243946,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing style editing from June 2012","All articles needing style editing","All articles with unsourced statements","Articles with unsourced statements from April 2008","Wikipedia articles needing clarification from July 2012","Multilinear algebra"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Multilinear_algebra","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"2a0d78877752c6e47bfd5067afec429a","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":243946,"title":"Multilinear algebra","namespace":0,"categories":["All articles needing style editing","All articles with unsourced statements","Articles with unsourced statements from April 2008","Multilinear algebra","Wikipedia articles needing clarification from July 2012","Wikipedia articles needing style editing from June 2012"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Multilinear_algebra skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Multilinear algebra</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-style ambox-Tone" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/40px-Edit-clear.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/60px-Edit-clear.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/80px-Edit-clear.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article's <b><a href="Wikipedia_TONE" title="Wikipedia:TONE" class="mw-redirect">tone</a> or style may not reflect the encyclopedic tone used on Wikipedia</b>. <span class="hide-when-compact">See Wikipedia's <a href="Wikipedia_Guide_to_writing_better_articles" title="Wikipedia:Guide to writing better articles" class="mw-redirect">guide to writing better articles</a> for suggestions.</span> <small><i>(June 2012)</i></small> </span></td>
+</tr>
+</table>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, <b>multilinear algebra</b> extends the methods of <a href="Linear_algebra" title="Linear algebra">linear algebra</a>. Just as linear algebra is built on the concept of a <a href="Vector_space" title="Vector space">vector</a> and develops the theory of <a href="Vector_space" title="Vector space">vector spaces</a>, multilinear algebra builds on the concepts of <a href="P-vector" title="P-vector" class="mw-redirect">p-vectors</a> and <a href="Multivector" title="Multivector">multivectors</a> with <a href="Grassmann_algebra" title="Grassmann algebra" class="mw-redirect">Grassmann algebra</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Origin"><span class="tocnumber">1</span> <span class="toctext">Origin</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Use_in_algebraic_topology"><span class="tocnumber">2</span> <span class="toctext">Use in algebraic topology</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Conclusion_on_the_abstract_approach"><span class="tocnumber">3</span> <span class="toctext">Conclusion on the abstract approach</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Topics_in_multilinear_algebra"><span class="tocnumber">4</span> <span class="toctext">Topics in multilinear algebra</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#From_the_point_of_view_of_applications"><span class="tocnumber">5</span> <span class="toctext">From the point of view of applications</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Multilinear_algebra&action=edit&section=1.php.html" title="Edit section: Origin">edit</a>]</span> <span class="mw-headline" id="Origin">Origin</span></h2>
+<p>In a vector space of dimension <i>n</i>, one usually considers only the vectors. According to <a href="Hermann_Grassmann" title="Hermann Grassmann">Hermann Grassmann</a> and others, this presumption misses the complexity of considering the structures of pairs, triples, and general multivectors. Since there are several combinatorial possibilities, the space of multivectors turns out to have 2<sup><i>n</i></sup> dimensions. <a href="Determinant#Abstract_formulation" title="Determinant">The abstract formulation of the determinant</a> is the most immediate application. Multilinear algebra also has applications in mechanical study of material response to stress and strain with various moduli of elasticity. This practical reference led to the use of the word <a href="Tensor" title="Tensor">tensor</a> to describe the elements of the multilinear space. The extra structure in a multilinear space has led it to play an important role in various studies in higher mathematics. Though Grassmann started the subject in 1844 with his <i>Ausdehnungslehre</i>, and re-published in 1862, his work was slow to find acceptance as ordinary linear algebra provided sufficient challenges to comprehension.</p>
+<p>The topic of multilinear algebra is applied in some studies of <a href="Multivariate_calculus" title="Multivariate calculus" class="mw-redirect">multivariate calculus</a> and <a href="Manifold" title="Manifold">manifolds</a> where the <a href="Jacobian_matrix" title="Jacobian matrix" class="mw-redirect">Jacobian matrix</a> comes into play. The <a href="Differential_(infinitesimal)" title="Differential (infinitesimal)">infinitesimal differentials</a> of single variable calculus become <a href="Differential_forms" title="Differential forms" class="mw-redirect">differential forms</a> in multivariate calculus, and their manipulation is done with <a href="Exterior_algebra" title="Exterior algebra">exterior algebra</a>.</p>
+<p>After some preliminary work by <a href="Elwin_Bruno_Christoffel" title="Elwin Bruno Christoffel">Elwin Bruno Christoffel</a>, a major advance in multilinear algebra came in the work of <a href="Gregorio_Ricci-Curbastro" title="Gregorio Ricci-Curbastro">Gregorio Ricci-Curbastro</a> and <a href="Tullio_Levi-Civita" title="Tullio Levi-Civita">Tullio Levi-Civita</a> (see references). It was the <i>absolute differential calculus</i> form of multilinear algebra that <a href="Marcel_Grossman" title="Marcel Grossman" class="mw-redirect">Marcel Grossman</a> and <a href="Michele_Besso" title="Michele Besso">Michele Besso</a> introduced to <a href="Albert_Einstein" title="Albert Einstein">Albert Einstein</a>. The publication in 1915 by Einstein of a <a href="General_relativity" title="General relativity">general relativity</a> explanation for the precession of the perihelion of Mercury, established multilinear algebra and <a href="Tensor" title="Tensor">tensors</a> as physically important mathematics.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Multilinear_algebra&action=edit&section=2.php.html" title="Edit section: Use in algebraic topology">edit</a>]</span> <span class="mw-headline" id="Use_in_algebraic_topology">Use in algebraic topology</span></h2>
+<p>Around the middle of the 20th century the study of tensors was reformulated more abstractly. The <a href="Nicolas_Bourbaki" title="Nicolas Bourbaki">Bourbaki</a> group's treatise <i>Multilinear Algebra</i> was especially influential — in fact the term <i>multilinear algebra</i> was probably coined there.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from April 2008">citation needed</span></a></i>]</sup></p>
+<p>One reason at the time was a new area of application, <a href="Homological_algebra" title="Homological algebra">homological algebra</a>. The development of <a href="Algebraic_topology" title="Algebraic topology">algebraic topology</a> during the 1940s gave additional incentive for the development of a purely algebraic treatment of the <a href="Tensor_product" title="Tensor product">tensor product</a>. The computation of the <a href="Homology_(mathematics)" title="Homology (mathematics)">homology groups</a> of the <a href="Product_topology" title="Product topology">product</a> of two <a href="Topological_space" title="Topological space">spaces</a> involves the tensor product; but only in the simplest cases, such as a <a href="Torus" title="Torus">torus</a>, is it directly calculated in that fashion (see <a href="K%C3%BCnneth_theorem" title="Künneth theorem">Künneth theorem</a>). The topological phenomena were subtle enough to need better foundational concepts; technically speaking, the <a href="Tor_functor" title="Tor functor">Tor functors</a> had to be defined.</p>
+<p>The material to organise was quite extensive, including also ideas going back to <a href="Hermann_Grassmann" title="Hermann Grassmann">Hermann Grassmann</a>, the ideas from the theory of <a href="Differential_form" title="Differential form">differential forms</a> that had led to <a href="De_Rham_cohomology" title="De Rham cohomology">De Rham cohomology</a>, as well as more elementary ideas such as the <a href="Wedge_product" title="Wedge product" class="mw-redirect">wedge product</a> that generalises the <a href="Cross_product" title="Cross product">cross product</a>.</p>
+<p>The resulting rather severe write-up of the topic (by <a href="Bourbaki" title="Bourbaki" class="mw-redirect">Bourbaki</a>) entirely rejected one approach in vector calculus (the <a href="Quaternion" title="Quaternion">quaternion</a> route, that is, in the general case, the relation with <a href="Lie_groups" title="Lie groups" class="mw-redirect">Lie groups</a>). They instead applied a novel approach using <a href="Category_theory" title="Category theory">category theory</a>, with the Lie group approach viewed as a separate matter. Since this leads to a much cleaner treatment, there was probably no going back in purely mathematical terms. (Strictly, the <a href="Universal_property" title="Universal property">universal property</a> approach was invoked; this is somewhat more general than category theory, and the relationship between the two as alternate ways was also being clarified, at the same time.)</p>
+<p>Indeed what was done is almost precisely to explain that <i>tensor spaces</i> are the constructions required to reduce multilinear problems to linear problems. This purely algebraic attack conveys no geometric intuition.</p>
+<p>Its benefit is that by re-expressing problems in terms of multilinear algebra, there is a clear and well-defined 'best solution': the constraints the solution exerts are exactly those you need in practice. In general there is no need to invoke any <i>ad hoc</i> construction, geometric idea, or recourse to co-ordinate systems. In the category-theoretic jargon, everything is entirely <i>natural</i>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Multilinear_algebra&action=edit&section=3.php.html" title="Edit section: Conclusion on the abstract approach">edit</a>]</span> <span class="mw-headline" id="Conclusion_on_the_abstract_approach">Conclusion on the abstract approach</span></h2>
+<p>In principle the abstract approach can recover everything done via the traditional approach. In practice this may not seem so simple. On the other hand the notion of <i>natural</i> is consistent with the <i><a href="General_covariance" title="General covariance">general covariance</a></i> principle of <a href="General_relativity" title="General relativity">general relativity</a>. The latter deals with <a href="Tensor_field" title="Tensor field">tensor fields</a> (tensors varying from point to point on a <a href="Manifold" title="Manifold">manifold</a>), but covariance asserts that the language of tensors is essential to the proper formulation of general relativity.</p>
+<p>Some decades later the rather abstract view coming from category theory was tied up with the approach that had been developed in the 1930s by <a href="Hermann_Weyl" title="Hermann Weyl">Hermann Weyl</a><sup class="noprint Inline-Template" style="white-space:nowrap;">[<i><a href="Wikipedia_Please_clarify" title="Wikipedia:Please clarify"><span title="from July 2012">how?</span></a></i>]</sup> (in his book <i>The Classical Groups</i>). In a way this took the theory full circle, connecting once more the content of old and new viewpoints.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Multilinear_algebra&action=edit&section=4.php.html" title="Edit section: Topics in multilinear algebra">edit</a>]</span> <span class="mw-headline" id="Topics_in_multilinear_algebra">Topics in multilinear algebra</span></h2>
+<p>The subject matter of multilinear algebra has evolved less than the presentation down the years. Here are further pages centrally relevant to it:</p>
+<ul>
+<li><a href="Tensor" title="Tensor">tensor</a></li>
+<li><a href="Dual_space" title="Dual space">dual space</a></li>
+<li><a href="Bilinear_operator" title="Bilinear operator" class="mw-redirect">bilinear operator</a></li>
+<li><a href="Inner_product" title="Inner product" class="mw-redirect">inner product</a></li>
+<li><a href="Multilinear_map" title="Multilinear map">multilinear map</a></li>
+<li><a href="Exterior_algebra" title="Exterior algebra">Exterior algebra</a></li>
+<li><a href="Cramer's_rule" title="Cramer's rule">Cramer's rule</a></li>
+<li><a href="Component-free_treatment_of_tensors" title="Component-free treatment of tensors" class="mw-redirect">component-free treatment of tensors</a></li>
+<li><a href="Kronecker_delta" title="Kronecker delta">Kronecker delta</a></li>
+<li><a href="Tensor_contraction" title="Tensor contraction">tensor contraction</a></li>
+<li><a href="Mixed_tensor" title="Mixed tensor">mixed tensor</a></li>
+<li><a href="Levi-Civita_symbol" title="Levi-Civita symbol">Levi-Civita symbol</a></li>
+<li><a href="Tensor_algebra" title="Tensor algebra">tensor algebra</a>, <a href="Free_algebra" title="Free algebra">free algebra</a></li>
+<li><a href="Symmetric_algebra" title="Symmetric algebra">symmetric algebra</a>, <a href="Symmetric_power" title="Symmetric power" class="mw-redirect">symmetric power</a></li>
+<li><a href="Exterior_derivative" title="Exterior derivative">exterior derivative</a></li>
+<li><a href="Einstein_notation" title="Einstein notation">Einstein notation</a></li>
+<li><a href="Symmetric_tensor" title="Symmetric tensor">symmetric tensor</a></li>
+<li><a href="Metric_tensor" title="Metric tensor">metric tensor</a></li>
+</ul>
+<p>There is also a <a href="Glossary_of_tensor_theory" title="Glossary of tensor theory">glossary of tensor theory</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Multilinear_algebra&action=edit&section=5.php.html" title="Edit section: From the point of view of applications">edit</a>]</span> <span class="mw-headline" id="From_the_point_of_view_of_applications">From the point of view of applications</span></h2>
+<p>Some of the ways in which multilinear algebra concepts are applied:</p>
+<ul>
+<li><a href="Classical_treatment_of_tensors" title="Classical treatment of tensors" class="mw-redirect">classical treatment of tensors</a></li>
+<li><a href="Dyadic_tensor" title="Dyadic tensor" class="mw-redirect">dyadic tensor</a></li>
+<li><a href="Bra-ket_notation" title="Bra-ket notation" class="mw-redirect">bra-ket notation</a></li>
+<li><a href="Geometric_algebra" title="Geometric algebra">geometric algebra</a></li>
+<li><a href="Clifford_algebra" title="Clifford algebra">Clifford algebra</a></li>
+<li><a href="Pseudoscalar_(mathematics)" title="Pseudoscalar (mathematics)" class="mw-redirect">pseudoscalar</a></li>
+<li><a href="Pseudovector" title="Pseudovector">pseudovector</a></li>
+<li><a href="Spinor" title="Spinor">spinor</a></li>
+<li><a href="Outer_product" title="Outer product">outer product</a></li>
+<li><a href="Hypercomplex_number" title="Hypercomplex number">hypercomplex number</a></li>
+<li><a href="Multilinear_subspace_learning" title="Multilinear subspace learning">multilinear subspace learning</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Multilinear_algebra&action=edit&section=6.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li>Hermann Grassmann (2000) <i>Extension Theory</i>, <a href="American_Mathematical_Society" title="American Mathematical Society">American Mathematical Society</a>. Translation by Lloyd Kannenberg of the 1862 <i>Ausdehnungslehre</i>.</li>
+<li>Wendell H. Fleming (1965) <i>Functions of Several Variables</i>, <a href="Addison-Wesley" title="Addison-Wesley">Addison-Wesley</a>.</li>
+</ul>
+<dl>
+<dd>
+<dl>
+<dd>Second edition (1977) <a href="Springer_Science+Business_Media" title="Springer Science+Business Media">Springer</a> <a href="Special_BookSources/3540902066" class="internal mw-magiclink-isbn">ISBN 3-540-90206-6</a>.</dd>
+<dd>Chapter: <i>Exterior algebra and differential calculus</i> # 6 in 1st ed, # 7 in 2nd.</dd>
+</dl>
+</dd>
+</dl>
+<ul>
+<li><span class="citation" id="CITEREFRicci-CurbastroLevi-Civita1900"><a href="Gregorio_Ricci-Curbastro" title="Gregorio Ricci-Curbastro">Ricci-Curbastro, Gregorio</a>; <a href="Tullio_Levi-Civita" title="Tullio Levi-Civita">Levi-Civita, Tullio</a> (1900), "Méthodes de calcul différentiel absolu et leurs applications", <i>Mathematische Annalen</i> <b>54</b> (1): 125–201, <a href="Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1007/BF01454201">10.1007/BF01454201</a>, <a href="International_Standard_Serial_Number" title="International Standard Serial Number">ISSN</a>&#160;<a rel="nofollow" class="external text" href="http://www.worldcat.org/issn/1432-1807">1432-1807</a></span></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Mathematics-footer&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;"><a href="Areas_of_mathematics" title="Areas of mathematics">Areas</a> of <a href="Mathematics" title="Mathematics">mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Areas</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="Linear_algebra" title="Linear algebra">linear</a></li>
+<li><strong class="selflink">multilinear</strong></li>
+<li><a href="Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="Calculus" title="Calculus">Calculus</a>/<a href="Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="Topology" title="Topology">Topology</a></li>
+<li><a href="Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="Differential_equation" title="Differential equation">Differential equations</a>/<a href="Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="Mathematical_statistics" title="Mathematical statistics">Mathematical Statistics</a></li>
+<li><a href="Mathematical_optimization" title="Mathematical optimization">Mathematical Optimization</a></li>
+<li><a href="Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="Game_theory" title="Game theory">Game theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Divisions</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" style=";" colspan="2">
+<div>
+<ul>
+<li><b><a href="Category_Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="Portal_Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 2178/1000000
+Preprocessor generated node count: 26548/1500000
+Post-expand include size: 25665/2048000 bytes
+Template argument size: 9918/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 3/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:243946-0!*!0!!en!4!* and timestamp 20130127152121 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Multilinear_algebra&oldid=526924689.php.html">http://en.wikipedia.org/w/index.php?title=Multilinear_algebra&amp;oldid=526924689</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Multilinear_algebra" title="Category:Multilinear algebra">Multilinear algebra</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Wikipedia_articles_needing_style_editing_from_June_2012" title="Category:Wikipedia articles needing style editing from June 2012">Wikipedia articles needing style editing from June 2012</a></li><li><a href="Category_All_articles_needing_style_editing" title="Category:All articles needing style editing">All articles needing style editing</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_April_2008" title="Category:Articles with unsourced statements from April 2008">Articles with unsourced statements from April 2008</a></li><li><a href="Category_Wikipedia_articles_needing_clarification_from_July_2012" title="Category:Wikipedia articles needing clarification from July 2012">Wikipedia articles needing clarification from July 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Multilinear+algebra&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Multilinear+algebra.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Multilinear_algebra"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Multilinear_algebra&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Multilinear_algebra&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Multilinear_algebra" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Multilinear_algebra" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Multilinear_algebra&oldid=526924689.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Multilinear_algebra&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Multilinear_algebra&id=526924689.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Multilinear+algebra.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Multilinear+algebra&oldid=526924689&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Multilinear_algebra&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D9%85%D8%AA%D8%B9%D8%AF%D8%AF_%D8%AE%D8%B7%D9%8A" title="جبر متعدد خطي" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" title="Полилинейна алгебра" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/%C3%80lgebra_multilineal" title="Àlgebra multilineal" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/%C3%81lgebra_multilineal" title="Álgebra multilineal" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Alg%C3%A8bre_multilin%C3%A9aire" title="Algèbre multilinéaire" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99" title="다중선형대수학" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Multilineair" title="Multilineair" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%A4%9A%E9%87%8D%E7%B7%9A%E5%9E%8B%E4%BB%A3%E6%95%B0" title="多重線型代数" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/%C3%81lgebra_multilinear" title="Álgebra multilinear" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-tl"><a href="http://tl.wikipedia.org/wiki/Alhebrang_multilinyar" title="Alhebrang multilinyar" lang="tl" hreflang="tl">Tagalog</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%A4%9A%E9%87%8D%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="多重线性代数" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 7 December 2012 at 21:06.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Multilinear_algebra" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1036 in 0.148 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->

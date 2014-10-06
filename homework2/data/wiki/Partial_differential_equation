@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Partial differential equation - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Partial_differential_equation&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Partial_differential_equation&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Partial_differential_equation","wgTitle":"Partial differential equation","wgCurRevisionId":537086341,"wgArticleId":52564,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Multivariable calculus","Differential equations","Partial differential equations"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Partial_differential_equation","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"6e872eea3492c299834ef96af5a084c7","wgArticleFeedbackv5Permissions":{"aft-reader":false,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":52564,"title":"Partial differential equation","namespace":0,"categories":["Differential equations","Multivariable calculus","Partial differential equations"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Partial_differential_equation skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Partial differential equation</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="vertical-navbox nowraplinks hlist" cellspacing="0" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;">
+<tr>
+<th class="" style=";padding:0.2em 0.4em 0.2em;;font-size:145%;line-height:1.2em;"><a href="Differential_equation" title="Differential equation">Differential equations</a></th>
+</tr>
+<tr>
+<td class="" style="padding:0.2em 0 0.4em;"><a href="http://en.wikipedia.org/wiki/File:De_template.svg" class="image"><img alt="De template.svg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/De_template.svg/220px-De_template.svg.png" width="220" height="228" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/De_template.svg/330px-De_template.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/75/De_template.svg/440px-De_template.svg.png 2x" /></a></td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><i>Scope</i></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;"><b><a href="Natural_science" title="Natural science">Natural sciences</a> and <a href="Engineering" title="Engineering">engineering</a></b>
+<ul>
+<li><a href="Astronomy" title="Astronomy">Astronomy</a></li>
+<li><a href="Physics" title="Physics">Physics</a></li>
+<li><a href="Chemistry" title="Chemistry">Chemistry</a></li>
+<li><a href="Biology" title="Biology">Biology</a></li>
+<li><a href="Geology" title="Geology">Geology</a></li>
+</ul>
+<p><b><a href="Applied_maths" title="Applied maths" class="mw-redirect">Applied maths</a></b></p>
+<ul>
+<li><a href="Continuum_mechanics" title="Continuum mechanics">Continuum mechanics</a></li>
+<li><a href="Chaos_theory" title="Chaos theory">Chaos theory</a></li>
+<li><a href="Dynamical_systems" title="Dynamical systems" class="mw-redirect">Dynamical systems</a></li>
+</ul>
+<p><b><a href="Social_science" title="Social science">Social sciences</a></b></p>
+<ul>
+<li><a href="Economics" title="Economics">Economics</a></li>
+<li><a href="Population_dynamics" title="Population dynamics">Population dynamics</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;">Classification</th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Operations</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Differential_operator" title="Differential operator">Differential operator</a></li>
+<li><a href="Notation_for_differentiation" title="Notation for differentiation">Notation for differentiation</a></li>
+<li><a href="Ordinary_differential_equation" title="Ordinary differential equation">Ordinary</a></li>
+<li><strong class="selflink">Partial</strong></li>
+<li><a href="Differential_algebraic_equation" title="Differential algebraic equation">Differential-algebraic</a></li>
+<li><a href="Integro-differential_equation" title="Integro-differential equation">Integro-differential</a></li>
+<li><a href="Fractional_differential_equations" title="Fractional differential equations" class="mw-redirect">Fractional</a></li>
+<li><a href="Linear_differential_equation" title="Linear differential equation">Linear</a></li>
+<li><a href="Non-linear_differential_equation" title="Non-linear differential equation" class="mw-redirect">Non-linear</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Attributes of variables</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Dependent_and_independent_variables" title="Dependent and independent variables">Dependent and independent variables</a></li>
+<li><a href="Homogeneous_differential_equations" title="Homogeneous differential equations" class="mw-redirect">Homogeneous</a></li>
+<li><a href="Non-homogeneous_differential_equation" title="Non-homogeneous differential equation" class="mw-redirect">Nonhomogeneous</a></li>
+<li><a href="Differential_equation" title="Differential equation">Coupled</a></li>
+<li><a href="Differential_equation" title="Differential equation">Decoupled</a></li>
+<li><a href="Differential_equation" title="Differential equation">Order</a></li>
+<li><a href="Differential_equation" title="Differential equation">Degree</a></li>
+<li><a href="Autonomous_differential_equation" title="Autonomous differential equation" class="mw-redirect">Autonomous</a></li>
+<li><a href="Exact_differential_equation" title="Exact differential equation">Exact differential equation</a></li>
+<li><a href="Complex_differential_equation" title="Complex differential equation">Complex differential equation</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Relation to processes</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Difference_equation" title="Difference equation" class="mw-redirect">Difference</a> (discrete analogue)</li>
+<li><a href="Stochastic_differential_equation" title="Stochastic differential equation">stochastic</a></li>
+<li><a href="Delay_differential_equation" title="Delay differential equation">Delay</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<th class="" style="padding:0.1em;;;">Solutions</th>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Solution topics</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Picard%E2%80%93Lindel%C3%B6f_theorem" title="Picard–Lindelöf theorem">Picard–Lindelöf theorem</a> (existence and uniqueness)</li>
+<li><a href="Wronskian" title="Wronskian">Wronskian</a></li>
+<li><a href="Phase_portrait" title="Phase portrait">Phase portrait</a></li>
+<li><a href="Phase_space" title="Phase space">Phase space</a></li>
+<li><a href="Lyapunov_stability" title="Lyapunov stability">Lyapunov stability</a></li>
+<li><a href="Asymptotic_stability" title="Asymptotic stability" class="mw-redirect">Asymptotic stability</a></li>
+<li><a href="Exponential_stability" title="Exponential stability">Exponential stability</a></li>
+<li><a href="Rate_of_convergence" title="Rate of convergence">Rate of convergence</a></li>
+<li><a href="Power_series_solution_of_differential_equations" title="Power series solution of differential equations">Series solutions</a></li>
+<li><a href="Integral" title="Integral">Integral</a> solutions</li>
+<li><a href="Numerical_integration" title="Numerical integration">Numerical integration</a></li>
+<li><a href="Dirac_Delta_function" title="Dirac Delta function" class="mw-redirect">Dirac Delta function</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;"><a href="List_of_solution_strategies_for_differential_equations" title="List of solution strategies for differential equations">Solution methods</a></div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li>Inspection</li>
+<li><a href="Separation_of_variables" title="Separation of variables">Separation of variables</a></li>
+<li><a href="Method_of_undetermined_coefficients" title="Method of undetermined coefficients">Method of undetermined coefficients</a></li>
+<li><a href="Integrating_factor" title="Integrating factor">Integrating factor</a></li>
+<li><a href="Integral_transform" title="Integral transform">Integral transforms</a></li>
+<li><a href="Euler_method" title="Euler method">Euler method</a></li>
+<li><a href="Finite_difference_method" title="Finite difference method">Finite difference method</a></li>
+<li><span style="font-size:85%;"><a href="Crank%E2%80%93Nicolson_method" title="Crank–Nicolson method">Crank–Nicolson method</a></span></li>
+<li><span style="font-size:85%;"><a href="Runge%E2%80%93Kutta_methods" title="Runge–Kutta methods">Runge–Kutta methods</a></span></li>
+<li><a href="Finite_element_analysis" title="Finite element analysis" class="mw-redirect">Finite element analysis</a></li>
+<li><a href="Galerkin_method" title="Galerkin method">Galerkin method</a></li>
+<li><a href="Perturbation_theory" title="Perturbation theory">Perturbation theory</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="" style="padding:0 0.1em 0.4em;&#160;;">
+<div class="NavFrame collapsed" style="border: none; padding: 0;">
+<div class="NavHead" style="font-size: 105%; background: transparent; text-align: left;">Mathematicians</div>
+<div class="NavContent" style="font-size: 105%; padding: 0.2em 0 0.4em; text-align: center;">
+<ul>
+<li><a href="Isaac_Newton" title="Isaac Newton">Isaac Newton</a></li>
+<li><a href="Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a></li>
+<li><a href="Charles_%C3%89mile_Picard" title="Charles Émile Picard">Charles Émile Picard</a></li>
+<li><a href="J%C3%B3zef_Maria_Hoene-Wro%C5%84ski" title="Józef Maria Hoene-Wroński">Józef Maria Hoene-Wroński</a></li>
+<li><a href="Ernst_Lindel%C3%B6f" title="Ernst Lindelöf" class="mw-redirect">Ernst Lindelöf</a></li>
+<li><a href="Rudolf_Lipschitz" title="Rudolf Lipschitz">Rudolf Lipschitz</a></li>
+<li><a href="Augustin-Louis_Cauchy" title="Augustin-Louis Cauchy">Augustin-Louis Cauchy</a></li>
+<li><a href="John_Crank" title="John Crank">John Crank</a></li>
+<li><a href="Phyllis_Nicolson" title="Phyllis Nicolson">Phyllis Nicolson</a></li>
+<li><a href="Carl_David_Tolm%C3%A9_Runge" title="Carl David Tolmé Runge">Carl David Tolmé Runge</a></li>
+<li><a href="Martin_Wilhelm_Kutta" title="Martin Wilhelm Kutta">Martin Wilhelm Kutta</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_Differential_equations" title="Template:Differential equations"><span title="View this template" style="">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_Differential_equations" title="Template talk:Differential equations"><span title="Discuss this template" style="">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_Differential_equations&action=edit.php.html"><span title="Edit this template" style="">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:202px;"><a href="http://en.wikipedia.org/wiki/File:Heat_eqn.gif" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/a/a9/Heat_eqn.gif" width="200" height="136" class="thumbimage" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Heat_eqn.gif" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A visualisation of a solution to the heat equation on a two dimensional plane</div>
+</div>
+</div>
+<p>In <a href="Mathematics" title="Mathematics">mathematics</a>, a <b>partial differential equation</b> (<b>PDE</b>) is a <a href="Differential_equation" title="Differential equation">differential equation</a> that contains unknown <a href="Multivariable_calculus" title="Multivariable calculus">multivariable functions</a> and their <a href="Partial_derivatives" title="Partial derivatives" class="mw-redirect">partial derivatives</a>. (This is in contrast to <a href="Ordinary_differential_equations" title="Ordinary differential equations" class="mw-redirect">ordinary differential equations</a>, which deal with functions of a single variable and their derivatives.) PDEs are used to formulate problems involving functions of several variables, and are either solved by hand, or used to create a relevant <a href="Computer_model" title="Computer model" class="mw-redirect">computer model</a>.</p>
+<p>PDEs can be used to describe a wide variety of phenomena such as <a href="Sound" title="Sound">sound</a>, <a href="Heat" title="Heat">heat</a>, <a href="Electrostatics" title="Electrostatics">electrostatics</a>, <a href="Electrodynamics" title="Electrodynamics" class="mw-redirect">electrodynamics</a>, <a href="Fluid_flow" title="Fluid flow" class="mw-redirect">fluid flow</a>, or <a href="Elasticity_(physics)" title="Elasticity (physics)">elasticity</a>. These seemingly distinct physical phenomena can be formalised identically in terms of PDEs, which shows that they are governed by the same underlying dynamic. Just as ordinary differential equations often model one-dimensional <a href="Dynamical_systems" title="Dynamical systems" class="mw-redirect">dynamical systems</a>, partial differential equations often model <a href="Multidimensional_systems" title="Multidimensional systems">multidimensional systems</a>. PDEs find their generalisation in <a href="Stochastic_partial_differential_equations" title="Stochastic partial differential equations" class="mw-redirect">stochastic partial differential equations</a>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Introduction"><span class="tocnumber">1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Existence_and_uniqueness"><span class="tocnumber">2</span> <span class="toctext">Existence and uniqueness</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Notation"><span class="tocnumber">3</span> <span class="toctext">Notation</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Examples"><span class="tocnumber">4</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Heat_equation_in_one_space_dimension"><span class="tocnumber">4.1</span> <span class="toctext">Heat equation in one space dimension</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Wave_equation_in_one_spatial_dimension"><span class="tocnumber">4.2</span> <span class="toctext">Wave equation in one spatial dimension</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Generalised_heat-like_equation_in_one_space_dimension"><span class="tocnumber">4.3</span> <span class="toctext">Generalised heat-like equation in one space dimension</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Spherical_waves"><span class="tocnumber">4.4</span> <span class="toctext">Spherical waves</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Laplace_equation_in_two_dimensions"><span class="tocnumber">4.5</span> <span class="toctext">Laplace equation in two dimensions</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Connection_with_holomorphic_functions"><span class="tocnumber">4.5.1</span> <span class="toctext">Connection with holomorphic functions</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#A_typical_boundary_value_problem"><span class="tocnumber">4.5.2</span> <span class="toctext">A typical boundary value problem</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Euler.E2.80.93Tricomi_equation"><span class="tocnumber">4.6</span> <span class="toctext">Euler–Tricomi equation</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#Advection_equation"><span class="tocnumber">4.7</span> <span class="toctext">Advection equation</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#Ginzburg.E2.80.93Landau_equation"><span class="tocnumber">4.8</span> <span class="toctext">Ginzburg–Landau equation</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#The_Dym_equation"><span class="tocnumber">4.9</span> <span class="toctext">The Dym equation</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Initial-boundary_value_problems"><span class="tocnumber">4.10</span> <span class="toctext">Initial-boundary value problems</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="#Vibrating_string"><span class="tocnumber">4.10.1</span> <span class="toctext">Vibrating string</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Vibrating_membrane"><span class="tocnumber">4.10.2</span> <span class="toctext">Vibrating membrane</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-19"><a href="#Other_examples"><span class="tocnumber">4.11</span> <span class="toctext">Other examples</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#Classification"><span class="tocnumber">5</span> <span class="toctext">Classification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-21"><a href="#Equations_of_first_order"><span class="tocnumber">5.1</span> <span class="toctext">Equations of first order</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#Equations_of_second_order"><span class="tocnumber">5.2</span> <span class="toctext">Equations of second order</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#Systems_of_first-order_equations_and_characteristic_surfaces"><span class="tocnumber">5.3</span> <span class="toctext">Systems of first-order equations and characteristic surfaces</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Equations_of_mixed_type"><span class="tocnumber">5.4</span> <span class="toctext">Equations of mixed type</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#Infinite-order_PDEs_in_quantum_mechanics"><span class="tocnumber">5.5</span> <span class="toctext">Infinite-order PDEs in quantum mechanics</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="#Analytical_methods_to_solve_PDEs"><span class="tocnumber">6</span> <span class="toctext">Analytical methods to solve PDEs</span></a>
+<ul>
+<li class="toclevel-2 tocsection-27"><a href="#Separation_of_variables"><span class="tocnumber">6.1</span> <span class="toctext">Separation of variables</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#Method_of_characteristics"><span class="tocnumber">6.2</span> <span class="toctext">Method of characteristics</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#Integral_transform"><span class="tocnumber">6.3</span> <span class="toctext">Integral transform</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#Change_of_variables"><span class="tocnumber">6.4</span> <span class="toctext">Change of variables</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#Fundamental_solution"><span class="tocnumber">6.5</span> <span class="toctext">Fundamental solution</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="#Superposition_principle"><span class="tocnumber">6.6</span> <span class="toctext">Superposition principle</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="#Methods_for_non-linear_equations"><span class="tocnumber">6.7</span> <span class="toctext">Methods for non-linear equations</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="#Lie_group_method"><span class="tocnumber">6.8</span> <span class="toctext">Lie group method</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="#Semianalytical_methods"><span class="tocnumber">6.9</span> <span class="toctext">Semianalytical methods</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-36"><a href="#Numerical_methods_to_solve_PDEs"><span class="tocnumber">7</span> <span class="toctext">Numerical methods to solve PDEs</span></a>
+<ul>
+<li class="toclevel-2 tocsection-37"><a href="#Finite_element_method"><span class="tocnumber">7.1</span> <span class="toctext">Finite element method</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#Finite_difference_method"><span class="tocnumber">7.2</span> <span class="toctext">Finite difference method</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#Finite_volume_method"><span class="tocnumber">7.3</span> <span class="toctext">Finite volume method</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-40"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-41"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-42"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=1.php.html" title="Edit section: Introduction">edit</a>]</span> <span class="mw-headline" id="Introduction">Introduction</span></h2>
+<p>Partial differential equations (PDEs) are equations that involve rates of change with respect to <a href="Continuous_variables" title="Continuous variables" class="mw-redirect">continuous variables</a>. The configuration of a rigid body is specified by six numbers, but the configuration of a <a href="Fluid" title="Fluid">fluid</a> is given by the <a href="Continuous_distribution" title="Continuous distribution" class="mw-redirect">continuous distribution</a> of the temperature, pressure, and so forth. The dynamics for the rigid body take place in a finite-dimensional configuration space; the dynamics for the ﬂuid occur in an infinite-dimensional conﬁguration space. This distinction usually makes PDEs much harder to solve than <a href="Ordinary_differential_equation" title="Ordinary differential equation">ordinary differential equations</a> (ODEs), but here again there will be simple solutions for linear problems. Classic domains where PDEs are used include <a href="Acoustics" title="Acoustics">acoustics</a>, <a href="Fluid_flow" title="Fluid flow" class="mw-redirect">fluid flow</a>, <a href="Electrodynamics" title="Electrodynamics" class="mw-redirect">electrodynamics</a>, and <a href="Heat_transfer" title="Heat transfer">heat transfer</a>.</p>
+<p>A partial differential equation (PDE) for the function <img class="tex" alt="u(x_1,...x_n)" src="http://upload.wikimedia.org/math/5/d/2/5d2399355bc1637b8998febf0afbfb01.png" /> is an equation of the form</p>
+<dl>
+<dd><img class="tex" alt="F(x_1, \, \ldots, \, x_n, \, u, \, \frac{\partial u}{\partial x_1}, \, \ldots, \, \frac{\partial u}{\partial x_n}, \, \frac{\partial^2 u}{\partial x_1 \partial x_1}, \, \ldots, \, \frac{\partial^2 u}{\partial x_1 \partial x_n}, \ldots) = 0.~" src="http://upload.wikimedia.org/math/4/6/7/46702a0f815f1898d55030f8c8caf77c.png" /></dd>
+</dl>
+<p>If <i>F</i> is a <a href="Linear_map" title="Linear map">linear function</a> of <i>u</i> and its derivatives, then the PDE is called linear. Common examples of linear PDEs include the <a href="Heat_equation" title="Heat equation">heat equation</a>, the <a href="Wave_equation" title="Wave equation">wave equation</a>, <a href="Laplace's_equation" title="Laplace's equation">Laplace's equation</a>, <a href="Helmholtz_equation" title="Helmholtz equation">Helmholtz equation</a>, <a href="Klein%E2%80%93Gordon_equation" title="Klein–Gordon equation">Klein–Gordon equation</a>, and <a href="Poisson's_equation" title="Poisson's equation">Poisson's equation</a>.</p>
+<p>A relatively simple PDE is</p>
+<dl>
+<dd><img class="tex" alt="\frac{\partial u}{\partial x}(x,y) = 0.~" src="http://upload.wikimedia.org/math/5/a/6/5a641bed6aa70f2806aa5ac61389ae76.png" /></dd>
+</dl>
+<p>This relation <a href="Logical_implication" title="Logical implication" class="mw-redirect">implies</a> that the function <i>u</i>(<i>x</i>,<i>y</i>) is independent of <i>x</i>. However, the equation gives no information on the function's dependence on the variable <i>y</i>. Hence the general solution of this equation is</p>
+<dl>
+<dd><img class="tex" alt="u(x,y) = f(y),~" src="http://upload.wikimedia.org/math/0/0/6/0061abd0013bcbbc72f3ab782c36e16c.png" /></dd>
+</dl>
+<p>where <i>f</i> is an arbitrary function of <i>y</i>. The analogous <a href="Ordinary_differential_equation" title="Ordinary differential equation">ordinary differential equation</a> is</p>
+<dl>
+<dd><img class="tex" alt="\frac{\mathrm{d} u}{\mathrm{d} x}(x) = 0,~" src="http://upload.wikimedia.org/math/f/c/f/fcfa84e56b21d71e9f26be9da4075548.png" /></dd>
+</dl>
+<p>which has the solution</p>
+<dl>
+<dd><img class="tex" alt="u(x) = c,~" src="http://upload.wikimedia.org/math/4/9/a/49accba3d467c9aa936ad8a611f055d4.png" /></dd>
+</dl>
+<p>where <i>c</i> is any <a href="Constant_(mathematics)" title="Constant (mathematics)">constant</a> value. These two examples illustrate that general solutions of ordinary differential equations (ODEs) involve arbitrary constants, but solutions of PDEs involve arbitrary functions. A solution of a PDE is generally not <a href="Uniqueness_quantification" title="Uniqueness quantification">unique</a>; additional conditions must generally be specified on the <a href="Boundary_(topology)" title="Boundary (topology)">boundary</a> of the region where the solution is defined. For instance, in the simple example above, the function <i>f(y)</i> can be determined if <i>u</i> is specified on the line <i>x</i> = 0.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=2.php.html" title="Edit section: Existence and uniqueness">edit</a>]</span> <span class="mw-headline" id="Existence_and_uniqueness">Existence and uniqueness</span></h2>
+<p>Although the issue of existence and uniqueness of solutions of ordinary differential equations has a very satisfactory answer with the <a href="Picard%E2%80%93Lindel%C3%B6f_theorem" title="Picard–Lindelöf theorem">Picard–Lindelöf theorem</a>, that is far from the case for partial differential equations. The <a href="Cauchy%E2%80%93Kowalevski_theorem" title="Cauchy–Kowalevski theorem">Cauchy–Kowalevski theorem</a> states that the <a href="Cauchy_problem" title="Cauchy problem">Cauchy problem</a> for any partial differential equation whose coefficients are <a href="Analytic_function" title="Analytic function">analytic</a> in the unknown function and its derivatives, has a locally unique analytic solution. Although this result might appear to settle the existence and uniqueness of solutions, there are examples of linear partial differential equations whose coefficients have derivatives of all orders (which are nevertheless not analytic) but which have no solutions at all: see <a href="Lewy's_example" title="Lewy's example">Lewy (1957)</a>. Even if the solution of a partial differential equation exists and is unique, it may nevertheless have undesirable properties. The mathematical study of these questions is usually in the more powerful context of <a href="Weak_solution" title="Weak solution">weak solutions</a>.</p>
+<p>An example of pathological behavior is the sequence of Cauchy problems (depending upon <i>n</i>) for the <a href="Laplace_equation" title="Laplace equation" class="mw-redirect">Laplace equation</a></p>
+<dl>
+<dd><img class="tex" alt="\frac{\part^2 u}{\partial x^2} + \frac{\part^2 u}{\partial y^2}=0,~" src="http://upload.wikimedia.org/math/f/f/1/ff1745a7f91507d63caee2bbaec8f0bb.png" /></dd>
+</dl>
+<p>with <a href="Boundary_condition" title="Boundary condition" class="mw-redirect">boundary conditions</a></p>
+<dl>
+<dd><img class="tex" alt="u(x,0) = 0,~" src="http://upload.wikimedia.org/math/b/6/9/b690e29912e898cb6aa34486e7112385.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial u}{\partial y}(x,0) = \frac{\sin n x}{n},~" src="http://upload.wikimedia.org/math/d/9/c/d9c9931a1cc0476ac6897f619fee6411.png" /></dd>
+</dl>
+<p>where <i>n</i> is an integer. The derivative of <i>u</i> with respect to <i>y</i> approaches 0 <a href="Uniform_convergence" title="Uniform convergence">uniformly</a> in <i>x</i> as <i>n</i> increases, but the solution is</p>
+<dl>
+<dd><img class="tex" alt="u(x,y) = \frac{(\sinh ny)(\sin nx)}{n^2}.~" src="http://upload.wikimedia.org/math/1/1/d/11de244829ad9f65aecb62f922c13c30.png" /></dd>
+</dl>
+<p>This solution approaches infinity if <i>nx</i> is not an integer multiple of π for any non-zero value of <i>y</i>. The Cauchy problem for the Laplace equation is called <i>ill-posed</i> or <i>not <a href="Well-posed_problem" title="Well-posed problem">well posed</a></i>, since the solution does not depend continuously upon the data of the problem. Such ill-posed problems are not usually satisfactory for physical applications.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=3.php.html" title="Edit section: Notation">edit</a>]</span> <span class="mw-headline" id="Notation">Notation</span></h2>
+<p>In PDEs, it is common to denote partial derivatives using subscripts. That is:</p>
+<dl>
+<dd><img class="tex" alt="u_x = {\partial u \over \partial x}" src="http://upload.wikimedia.org/math/a/5/c/a5c80ea759238d9ed86546dbaeb5ae8f.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt="u_{xy} = {\part^2 u \over \partial y\, \partial x} = {\partial \over \partial y } \left({\partial u \over \partial x}\right). " src="http://upload.wikimedia.org/math/4/c/6/4c6bcbbf73bf6668524136db8327ca46.png" /></dd>
+</dl>
+<p>Especially in physics, <a href="Del" title="Del">del</a> (∇) is often used for spatial derivatives, and <img class="tex" alt=" \dot u\,,\ddot u\, " src="http://upload.wikimedia.org/math/3/5/2/3521209bdb78005ec66784e2251ceff5.png" /> for time derivatives. For example, the <a href="Wave_equation" title="Wave equation">wave equation</a> (described below) can be written as</p>
+<dl>
+<dd><img class="tex" alt="\ddot u=c^2\nabla^2u\," src="http://upload.wikimedia.org/math/3/3/1/331400da10e92e1acd239808f8302f09.png" /> <span style="padding-left: 2em;">&#160;</span></dd>
+</dl>
+<p>or</p>
+<dl>
+<dd><img class="tex" alt="\ddot u=c^2\Delta u\," src="http://upload.wikimedia.org/math/1/8/e/18e0e22c3ff5a03e5317394b387103ce.png" /> <span style="padding-left: 2em;">&#160;</span></dd>
+</dl>
+<p>where Δ is the <a href="Laplace_operator" title="Laplace operator">Laplace operator</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=4.php.html" title="Edit section: Examples">edit</a>]</span> <span class="mw-headline" id="Examples">Examples</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=5.php.html" title="Edit section: Heat equation in one space dimension">edit</a>]</span> <span class="mw-headline" id="Heat_equation_in_one_space_dimension">Heat equation in one space dimension</span></h3>
+<div class="rellink boilerplate seealso">See also: <a href="Heat_equation" title="Heat equation">Heat equation</a></div>
+<p>The equation for conduction of heat in one dimension for a homogeneous body has</p>
+<dl>
+<dd><img class="tex" alt="u_t = \alpha u_{xx} \," src="http://upload.wikimedia.org/math/6/8/8/6886839c5a07dd8ef345de3d6224243c.png" /></dd>
+</dl>
+<p>where <i>u</i>(<i>t</i>,<i>x</i>) is temperature, and α is a positive constant that describes the rate of diffusion. The Cauchy problem for this equation consists in specifying <i>u</i>(0, <i>x</i>)= <i>f</i>(<i>x</i>), where <i>f</i>(<i>x</i>) is an arbitrary function.</p>
+<p>General solutions of the heat equation can be found by the method of <a href="Separation_of_variables" title="Separation of variables">separation of variables</a>. Some examples appear in the <a href="Heat_equation" title="Heat equation">heat equation</a> article. They are examples of <a href="Fourier_series" title="Fourier series">Fourier series</a> for periodic <i>f</i> and <a href="Fourier_transform" title="Fourier transform">Fourier transforms</a> for non-periodic <i>f</i>. Using the Fourier transform, a general solution of the heat equation has the form</p>
+<dl>
+<dd><img class="tex" alt="u(t,x) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^\infty F(\xi) e^{-\alpha \xi^2 t} e^{i \xi x} d\xi, \," src="http://upload.wikimedia.org/math/d/7/1/d716d370adc6c76f346d972d35fe769e.png" /></dd>
+</dl>
+<p>where <i>F</i> is an arbitrary function. To satisfy the initial condition, <i>F</i> is given by the Fourier transform of <i>f</i>, that is</p>
+<dl>
+<dd><img class="tex" alt="F(\xi) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^\infty f(x) e^{-i \xi x}\, dx. \," src="http://upload.wikimedia.org/math/f/e/e/feefe7119a0667ce8626f7bd5a7a3bcc.png" /></dd>
+</dl>
+<p>If <i>f</i> represents a very small but intense source of heat, then the preceding integral can be approximated by the <a href="Delta_distribution" title="Delta distribution" class="mw-redirect">delta distribution</a>, multiplied by the strength of the source. For a source whose strength is normalized to 1, the result is</p>
+<dl>
+<dd><img class="tex" alt=" F(\xi) = \frac{1}{\sqrt{2\pi}}, \," src="http://upload.wikimedia.org/math/a/c/a/acab3a6f3f696e1098b7ab23faaeb29a.png" /></dd>
+</dl>
+<p>and the resulting solution of the heat equation is</p>
+<dl>
+<dd><img class="tex" alt=" u(t,x) = \frac{1}{2\pi} \int_{-\infty}^\infty e^{-\alpha \xi^2 t} e^{i \xi x} d\xi. \," src="http://upload.wikimedia.org/math/c/9/f/c9f14b42f424170258cafbf7140d5d3b.png" /></dd>
+</dl>
+<p>This is a <a href="Gaussian_integral" title="Gaussian integral">Gaussian integral</a>. It may be evaluated to obtain</p>
+<dl>
+<dd><img class="tex" alt=" u(t,x) = \frac{1}{2\sqrt{\pi \alpha t}} \exp\left(-\frac{x^2}{4 \alpha t} \right). \," src="http://upload.wikimedia.org/math/1/c/9/1c9a8eb32f4db149b325d12ba70239f8.png" /></dd>
+</dl>
+<p>This result corresponds to the normal probability density for <i>x</i> with mean 0 and variance 2α<i>t</i>. The heat equation and similar <a href="Diffusion_equation" title="Diffusion equation">diffusion equations</a> are useful tools to study random phenomena.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=6.php.html" title="Edit section: Wave equation in one spatial dimension">edit</a>]</span> <span class="mw-headline" id="Wave_equation_in_one_spatial_dimension">Wave equation in one spatial dimension</span></h3>
+<p>The <a href="Wave_equation" title="Wave equation">wave equation</a> is an equation for an unknown function <i>u</i>(<i>t</i>, <i>x</i>) of the form</p>
+<dl>
+<dd><img class="tex" alt=" u_{tt} = c^2 u_{xx}. \, " src="http://upload.wikimedia.org/math/5/b/a/5bad742aed7596c4479d1529d8b88245.png" /></dd>
+</dl>
+<p>Here <i>u</i> might describe the displacement of a stretched string from equilibrium, or the difference in air pressure in a tube, or the magnitude of an electromagnetic field in a tube, and <i>c</i> is a number that corresponds to the velocity of the wave. The Cauchy problem for this equation consists in prescribing the initial displacement and velocity of a string or other medium:</p>
+<dl>
+<dd><img class="tex" alt=" u(0,x) = f(x), \," src="http://upload.wikimedia.org/math/8/d/9/8d99bf878c465996173c3f19d9e6d564.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt=" u_t(0,x) = g(x), \," src="http://upload.wikimedia.org/math/4/9/e/49e019643ebed1061d89f5d133a07d12.png" /></dd>
+</dl>
+<p>where <i>f</i> and <i>g</i> are arbitrary given functions. The solution of this problem is given by <a href="D'Alembert's_formula" title="D'Alembert's formula">d'Alembert's formula</a>:</p>
+<dl>
+<dd><img class="tex" alt=" u(t,x) = \frac{1}{2} \left[f(x-ct) + f(x+ct)\right] + \frac{1}{2c}\int_{x-ct}^{x+ct} g(y)\, dy. \," src="http://upload.wikimedia.org/math/6/6/b/66bff362c16f49e7922a5eef46ff9e14.png" /></dd>
+</dl>
+<p>This formula implies that the solution at (<i>t</i>,<i>x</i>) depends only upon the data on the segment of the initial line that is cut out by the <a href="Method_of_characteristics" title="Method of characteristics">characteristic curves</a></p>
+<dl>
+<dd><img class="tex" alt=" x - ct = \text{constant,} \quad x + ct = \text{constant}, \," src="http://upload.wikimedia.org/math/d/2/4/d244cf4be35ab20d4238186ca4cf9b94.png" /></dd>
+</dl>
+<p>that are drawn backwards from that point. These curves correspond to signals that propagate with velocity <i>c</i> forward and backward. Conversely, the influence of the data at any given point on the initial line propagates with the finite velocity <i>c</i>: there is no effect outside a triangle through that point whose sides are characteristic curves. This behavior is very different from the solution for the heat equation, where the effect of a <a href="Point_source" title="Point source">point source</a> appears (with small amplitude) instantaneously at every point in space. The solution given above is also valid if <i>t</i> is negative, and the explicit formula shows that the solution depends smoothly upon the data: both the forward and backward Cauchy problems for the wave equation are well-posed.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=7.php.html" title="Edit section: Generalised heat-like equation in one space dimension">edit</a>]</span> <span class="mw-headline" id="Generalised_heat-like_equation_in_one_space_dimension">Generalised heat-like equation in one space dimension</span></h3>
+<p>Where heat-like equation means equations of the form:</p>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial u}{\partial t} = \hat{H} u +f(x,t) u+g(x,t) \, " src="http://upload.wikimedia.org/math/1/2/5/125957276408b6e8325e0335b2855f01.png" /></dd>
+</dl>
+<p>where <img class="tex" alt=" \hat{H}" src="http://upload.wikimedia.org/math/4/8/c/48c7b5ae3524358dcf9070cd360fb753.png" /> is a <a href="Sturm%E2%80%93Liouville_operator" title="Sturm–Liouville operator" class="mw-redirect">Sturm–Liouville operator</a> (However it should be noted this operator may in<br />
+fact be of the form <img class="tex" alt=" \frac{1}{w(x)} \left(\frac{d}{dx}\left(p(x) \frac{d}{dx}\right)+q(x)\right) " src="http://upload.wikimedia.org/math/6/3/4/6342ee4a687b34177af46d1a50cfb4de.png" /> where<br />
+w(x) is the weighting function with respect to which the eigenfunctions of <img class="tex" alt=" \hat{H} " src="http://upload.wikimedia.org/math/4/8/c/48c7b5ae3524358dcf9070cd360fb753.png" /> are orthogonal) in the <i>x</i> coordinate. Subject to the boundary conditions:</p>
+<dl>
+<dd><img class="tex" alt="u(x,0)=h(x). \, " src="http://upload.wikimedia.org/math/3/a/d/3ada5cfcc225ea4f55d8a330e6f4f877.png" /></dd>
+</dl>
+<p>Then:</p>
+<p>If:</p>
+<dl>
+<dd><img class="tex" alt=" \hat{H} X_n = \lambda_n X_n " src="http://upload.wikimedia.org/math/4/2/c/42c8f832e4019b4db6716dbe66677f7b.png" /></dd>
+<dd><img class="tex" alt=" X_n (a) = X_n (b) =0 " src="http://upload.wikimedia.org/math/8/7/f/87f219f8b0f95151b0bace0c3f10ca96.png" /></dd>
+<dd><img class="tex" alt=" \dot{a}_n (t) - \lambda_n a_n (t) -\sum_m (X_n f(x,t),X_m) a_m (t) = (g(x,t),X_n) " src="http://upload.wikimedia.org/math/6/0/1/601b37c90af7eaaa105d142b98483a49.png" /></dd>
+<dd><img class="tex" alt=" a_n(0) = \frac{(h(x),X_n)}{(X_n,X_n)}  " src="http://upload.wikimedia.org/math/3/a/c/3acb624168080635f311a62899b6e869.png" /></dd>
+<dd><img class="tex" alt=" u(x,t) = \sum_{n} a_n (t) X_n(x)" src="http://upload.wikimedia.org/math/1/0/b/10b4db43e1171b8928df1ff0e2171777.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt=" (f,g)=\int_a^b f(x) g(x) w(x) \, dx. " src="http://upload.wikimedia.org/math/3/a/2/3a279610b772953eb4be4321a86a8370.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=8.php.html" title="Edit section: Spherical waves">edit</a>]</span> <span class="mw-headline" id="Spherical_waves">Spherical waves</span></h3>
+<p>Spherical waves are waves whose amplitude depends only upon the radial distance <i>r</i> from a central <a href="Point_source" title="Point source">point source</a>. For such waves, the three-dimensional wave equation takes the form</p>
+<dl>
+<dd><img class="tex" alt="u_{tt} = c^2 \left[u_{rr} + \frac{2}{r} u_r \right]. \," src="http://upload.wikimedia.org/math/3/b/8/3b8632909fd8d836a4aac80c477911d5.png" /></dd>
+</dl>
+<p>This is equivalent to</p>
+<dl>
+<dd><img class="tex" alt=" (ru)_{tt} = c^2 \left[(ru)_{rr} \right],\," src="http://upload.wikimedia.org/math/d/e/5/de508856aca4ed8e2a8d0a3df9b4b0ff.png" /></dd>
+</dl>
+<p>and hence the quantity <i>ru</i> satisfies the one-dimensional wave equation. Therefore a general solution for spherical waves has the form</p>
+<dl>
+<dd><img class="tex" alt=" u(t,r) = \frac{1}{r} \left[F(r-ct) + G(r+ct) \right],\," src="http://upload.wikimedia.org/math/c/5/d/c5d091e7934c1294ff14b736c06801b8.png" /></dd>
+</dl>
+<p>where <i>F</i> and <i>G</i> are completely arbitrary functions. Radiation from an antenna corresponds to the case where <i>G</i> is identically zero. Thus the wave form transmitted from an antenna has no distortion in time: the only distorting factor is 1/<i>r</i>. This feature of undistorted propagation of waves is not present if there are two spatial dimensions.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=9.php.html" title="Edit section: Laplace equation in two dimensions">edit</a>]</span> <span class="mw-headline" id="Laplace_equation_in_two_dimensions">Laplace equation in two dimensions</span></h3>
+<p>The <a href="Laplace's_equation" title="Laplace's equation">Laplace equation</a> for an unknown function of two variables φ has the form</p>
+<dl>
+<dd><img class="tex" alt="\varphi_{xx} + \varphi_{yy} = 0." src="http://upload.wikimedia.org/math/2/a/1/2a1eabedc9013651d8e6afdc7e7c2b02.png" /></dd>
+</dl>
+<p>Solutions of Laplace's equation are called <a href="Harmonic_function" title="Harmonic function">harmonic functions</a>.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=10.php.html" title="Edit section: Connection with holomorphic functions">edit</a>]</span> <span class="mw-headline" id="Connection_with_holomorphic_functions">Connection with holomorphic functions</span></h4>
+<p>Solutions of the Laplace equation in two dimensions are intimately connected with analytic functions of a complex variable (a.k.a. holomorphic functions): the real and imaginary parts of any analytic function are <b>conjugate harmonic</b> functions: they both satisfy the Laplace equation, and their gradients are orthogonal. If <i>f</i>=<i>u</i>+<i>iv</i>, then the <a href="Cauchy%E2%80%93Riemann_equations" title="Cauchy–Riemann equations">Cauchy–Riemann equations</a> state that</p>
+<dl>
+<dd><img class="tex" alt="u_x = v_y, \quad v_x = -u_y,\," src="http://upload.wikimedia.org/math/6/f/2/6f2133a7129cc53ab1138d1b95db4cdc.png" /></dd>
+</dl>
+<p>and it follows that</p>
+<dl>
+<dd><img class="tex" alt="u_{xx} + u_{yy} = 0, \quad v_{xx} + v_{yy}=0. \," src="http://upload.wikimedia.org/math/f/b/3/fb38eded43e3a16bc5ef227c8e9efc32.png" /></dd>
+</dl>
+<p>Conversely, given any harmonic function in two dimensions, it is the real part of an analytic function, at least locally. Details are given in <a href="Laplace_equation" title="Laplace equation" class="mw-redirect">Laplace equation</a>.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=11.php.html" title="Edit section: A typical boundary value problem">edit</a>]</span> <span class="mw-headline" id="A_typical_boundary_value_problem">A typical boundary value problem</span></h4>
+<p>A typical problem for Laplace's equation is to find a solution that satisfies arbitrary values on the boundary of a <a href="Domain_(mathematical_analysis)" title="Domain (mathematical analysis)">domain</a>. For example, we may seek a harmonic function that takes on the values <i>u</i>(θ) on a circle of radius one. The solution was given by <a href="Poisson" title="Poisson" class="mw-redirect">Poisson</a>:</p>
+<dl>
+<dd><img class="tex" alt="\varphi(r,\theta) = \frac{1}{2\pi} \int_0^{2\pi} \frac{1-r^2}{1 +r^2 -2r\cos (\theta -\theta')} u(\theta')d\theta'.\," src="http://upload.wikimedia.org/math/9/b/0/9b0bc5af90fb5e732da5c0aee02a9b6a.png" /></dd>
+</dl>
+<p>Petrovsky (1967, p.&#160;248) shows how this formula can be obtained by summing a <a href="Fourier_series" title="Fourier series">Fourier series</a> for φ. If <i>r</i>&lt;1, the derivatives of φ may be computed by differentiating under the integral sign, and one can verify that φ is analytic, even if <i>u</i> is continuous but not necessarily differentiable. This behavior is typical for solutions of <a href="Elliptic_partial_differential_equation" title="Elliptic partial differential equation">elliptic partial differential equations</a>: the solutions may be much more smooth than the boundary data. This is in contrast to solutions of the <a href="Wave_equation" title="Wave equation">wave equation</a>, and more general <a href="Hyperbolic_partial_differential_equation" title="Hyperbolic partial differential equation">hyperbolic partial differential equations</a>, which typically have no more <a href="Derivative" title="Derivative">derivatives</a> than the data.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=12.php.html" title="Edit section: Euler–Tricomi equation">edit</a>]</span> <span class="mw-headline" id="Euler.E2.80.93Tricomi_equation">Euler–Tricomi equation</span></h3>
+<p>The <a href="Euler%E2%80%93Tricomi_equation" title="Euler–Tricomi equation">Euler–Tricomi equation</a> is used in the investigation of <a href="Transonic" title="Transonic">transonic</a> flow.</p>
+<dl>
+<dd><img class="tex" alt="u_{xx} \, =xu_{yy}." src="http://upload.wikimedia.org/math/a/f/b/afbd4c7c0b9b9257aed7335b30c338a3.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=13.php.html" title="Edit section: Advection equation">edit</a>]</span> <span class="mw-headline" id="Advection_equation">Advection equation</span></h3>
+<p>The <a href="Advection_equation" title="Advection equation" class="mw-redirect">advection equation</a> describes the transport of a conserved scalar ψ in a velocity field <img class="tex" alt="{\bold u}=(u,v,w)" src="http://upload.wikimedia.org/math/9/7/1/9711c4d24111c5ab7a6954ffecbb629e.png" />. It is:</p>
+<dl>
+<dd><img class="tex" alt="\psi_t+(u\psi)_x+(v\psi)_y+(w\psi)_z \, =0." src="http://upload.wikimedia.org/math/d/9/e/d9ecd220bdf4db003904c564463fdfd0.png" /></dd>
+</dl>
+<p>If the velocity field is <a href="Solenoidal" title="Solenoidal" class="mw-redirect">solenoidal</a> (that is, <img class="tex" alt="\nabla\cdot{\bold u}=0" src="http://upload.wikimedia.org/math/8/7/a/87ad8b38012aee1404594a22b06656e1.png" />), then the equation may be simplified to</p>
+<dl>
+<dd><img class="tex" alt="\psi_t+u\psi_x+v\psi_y+w\psi_z \, =0." src="http://upload.wikimedia.org/math/b/7/3/b73c737f1c6a9973612301dd7424f39a.png" /></dd>
+</dl>
+<p>In the one-dimensional case where <i>u</i> is not constant and is equal to ψ, the equation is referred to as <a href="Burgers'_equation" title="Burgers' equation">Burgers' equation</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=14.php.html" title="Edit section: Ginzburg–Landau equation">edit</a>]</span> <span class="mw-headline" id="Ginzburg.E2.80.93Landau_equation">Ginzburg–Landau equation</span></h3>
+<p>The <a href="Ginzburg%E2%80%93Landau_equation" title="Ginzburg–Landau equation" class="mw-redirect">Ginzburg–Landau equation</a> is used in modelling <a href="Superconductivity" title="Superconductivity">superconductivity</a>. It is</p>
+<dl>
+<dd><img class="tex" alt="iu_t+pu_{xx} +q|u|^2u \, =i\gamma u" src="http://upload.wikimedia.org/math/6/b/1/6b170a5f5db3d0b4654dd8104c8d0595.png" /></dd>
+</dl>
+<p>where <i>p</i>,<i>q</i> ∈ <b>C</b> and γ ∈ <b>R</b> are constants and <i>i</i> is the imaginary unit.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=15.php.html" title="Edit section: The Dym equation">edit</a>]</span> <span class="mw-headline" id="The_Dym_equation">The Dym equation</span></h3>
+<p>The <a href="Dym_equation" title="Dym equation">Dym equation</a> is named for <a href="Harry_Dym" title="Harry Dym">Harry Dym</a> and occurs in the study of <a href="Soliton" title="Soliton">solitons</a>. It is</p>
+<dl>
+<dd><img class="tex" alt="u_t \, = u^3u_{xxx}." src="http://upload.wikimedia.org/math/9/a/0/9a00d840841980ed37286cc782d3edb8.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=16.php.html" title="Edit section: Initial-boundary value problems">edit</a>]</span> <span class="mw-headline" id="Initial-boundary_value_problems">Initial-boundary value problems</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Boundary_value_problem" title="Boundary value problem">Boundary value problem</a></div>
+<p>Many problems of <a href="Mathematical_physics" title="Mathematical physics">mathematical physics</a> are formulated as initial-boundary value problems.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=17.php.html" title="Edit section: Vibrating string">edit</a>]</span> <span class="mw-headline" id="Vibrating_string">Vibrating string</span></h4>
+<p>If the string is stretched between two points where <i>x</i>=0 and <i>x</i>=<i>L</i> and <i>u</i> denotes the amplitude of the displacement of the string, then <i>u</i> satisfies the one-dimensional wave equation in the region where 0&lt;<i>x</i>&lt;<i>L</i> and <i>t</i> is unlimited. Since the string is tied down at the ends, <i>u</i> must also satisfy the boundary conditions</p>
+<dl>
+<dd><img class="tex" alt=" u(t,0)=0, \quad u(t,L)=0, \," src="http://upload.wikimedia.org/math/e/8/d/e8df58a91144df526d808427f19e9f11.png" /></dd>
+</dl>
+<p>as well as the initial conditions</p>
+<dl>
+<dd><img class="tex" alt=" u(0,x)=f(x), \quad u_t(0,x)=g(x). \," src="http://upload.wikimedia.org/math/5/0/a/50ab0c5abd5b9a894a8dffc22d537175.png" /></dd>
+</dl>
+<p>The method of separation of variables for the wave equation</p>
+<dl>
+<dd><img class="tex" alt=" u_{tt} = c^2 u_{xx}, \," src="http://upload.wikimedia.org/math/0/5/f/05fb4b449238a4004f2bbcd96e8c3bdd.png" /></dd>
+</dl>
+<p>leads to solutions of the form</p>
+<dl>
+<dd><img class="tex" alt=" u(t,x) = T(t) X(x),\," src="http://upload.wikimedia.org/math/2/e/c/2ec2f2997f30c451d18fb9298fcfdc4b.png" /></dd>
+</dl>
+<p>where</p>
+<dl>
+<dd><img class="tex" alt=" T'' + k^2 c^2 T=0, \quad X'' + k^2 X=0,\," src="http://upload.wikimedia.org/math/8/5/9/85937750a8168738d906efcf64bf940b.png" /></dd>
+</dl>
+<p>where the constant <i>k</i> must be determined. The boundary conditions then imply that <i>X</i> is a multiple of sin <i>kx</i>, and <i>k</i> must have the form</p>
+<dl>
+<dd><img class="tex" alt=" k= \frac{n\pi}{L}, \," src="http://upload.wikimedia.org/math/a/6/8/a6864de7589438e4ee588743eee063b8.png" /></dd>
+</dl>
+<p>where <i>n</i> is an integer. Each term in the sum corresponds to a mode of vibration of the string. The mode with <i>n</i>=1 is called the fundamental mode, and the frequencies of the other modes are all multiples of this frequency. They form the <a href="Overtone_series" title="Overtone series" class="mw-redirect">overtone series</a> of the string, and they are the basis for musical acoustics. The initial conditions may then be satisfied by representing <i>f</i> and <i>g</i> as infinite sums of these modes. Wind instruments typically correspond to vibrations of an air column with one end open and one end closed. The corresponding boundary conditions are</p>
+<dl>
+<dd><img class="tex" alt="X(0) =0, \quad X'(L) = 0.\," src="http://upload.wikimedia.org/math/b/9/8/b9819f9047531f511f4076b397253a92.png" /></dd>
+</dl>
+<p>The method of separation of variables can also be applied in this case, and it leads to a series of odd overtones.</p>
+<p>The general problem of this type is solved in <a href="Sturm%E2%80%93Liouville_theory" title="Sturm–Liouville theory">Sturm–Liouville theory</a>.</p>
+<h4><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=18.php.html" title="Edit section: Vibrating membrane">edit</a>]</span> <span class="mw-headline" id="Vibrating_membrane">Vibrating membrane</span></h4>
+<p>If a membrane is stretched over a curve <i>C</i> that forms the boundary of a domain <i>D</i> in the plane, its vibrations are governed by the wave equation</p>
+<dl>
+<dd><img class="tex" alt=" \frac{1}{c^2} u_{tt} = u_{xx} + u_{yy}, \," src="http://upload.wikimedia.org/math/8/9/1/89115678ffd935230e75b70ce6d02d6f.png" /></dd>
+</dl>
+<p>if <i>t</i>&gt;0 and (<i>x</i>,<i>y</i>) is in <i>D</i>. The boundary condition is <i>u(t,x,y)</i> = 0 if <i>(x,y)</i> is on <i>C</i>. The method of separation of variables leads to the form</p>
+<dl>
+<dd><img class="tex" alt=" u(t,x,y) = T(t) v(x,y),\," src="http://upload.wikimedia.org/math/3/c/3/3c3ba8d88b60340adc1944d1c9b947ca.png" /></dd>
+</dl>
+<p>which in turn must satisfy</p>
+<dl>
+<dd><img class="tex" alt=" \frac{1}{c^2}T'' +k^2 T=0, \," src="http://upload.wikimedia.org/math/2/2/4/2247c178ae16f219c8996c1ce511dd4a.png" /></dd>
+</dl>
+<dl>
+<dd><img class="tex" alt=" v_{xx} + v_{yy} + k^2 v =0.\," src="http://upload.wikimedia.org/math/9/4/a/94a6478ecd1ef92ea0d663118caedba5.png" /></dd>
+</dl>
+<p>The latter equation is called the <a href="Helmholtz_Equation" title="Helmholtz Equation" class="mw-redirect">Helmholtz Equation</a>. The constant <i>k</i> must be determined to allow a non-trivial <i>v</i> to satisfy the boundary condition on <i>C</i>. Such values of <i>k<sup>2</sup></i> are called the eigenvalues of the Laplacian in <i>D</i>, and the associated solutions are the eigenfunctions of the Laplacian in <i>D</i>. The Sturm–Liouville theory may be extended to this elliptic eigenvalue problem (Jost, 2002).</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=19.php.html" title="Edit section: Other examples">edit</a>]</span> <span class="mw-headline" id="Other_examples">Other examples</span></h3>
+<p>The <a href="Schr%C3%B6dinger_equation" title="Schrödinger equation">Schrödinger equation</a> is a PDE at the heart of non-relativistic <a href="Quantum_mechanics" title="Quantum mechanics">quantum mechanics</a>. In the <a href="WKB_approximation" title="WKB approximation">WKB approximation</a> it is the <a href="Hamilton%E2%80%93Jacobi_equation" title="Hamilton–Jacobi equation">Hamilton–Jacobi equation</a>.</p>
+<p>Except for the Dym equation and the Ginzburg–Landau equation, the above equations are <b>linear</b> in the sense that they can be written in the form <i>Au</i> = <i>f</i> for a given <a href="Linear_operator" title="Linear operator" class="mw-redirect">linear operator</a> <i>A</i> and a given function <i>f</i>. Other important non-linear equations include the <a href="Navier%E2%80%93Stokes_equations" title="Navier–Stokes equations">Navier–Stokes equations</a> describing the flow of fluids, and <a href="Albert_Einstein" title="Albert Einstein">Einstein's</a> <a href="Einstein's_field_equations" title="Einstein's field equations" class="mw-redirect">field equations</a> of <a href="General_relativity" title="General relativity">general relativity</a>.</p>
+<p>Also see the <a href="List_of_non-linear_partial_differential_equations" title="List of non-linear partial differential equations" class="mw-redirect">list of non-linear partial differential equations</a>.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=20.php.html" title="Edit section: Classification">edit</a>]</span> <span class="mw-headline" id="Classification">Classification</span></h2>
+<p>Some linear, second-order partial differential equations can be classified as <a href="Parabolic_partial_differential_equation" title="Parabolic partial differential equation">parabolic</a>, <a href="Hyperbolic_partial_differential_equation" title="Hyperbolic partial differential equation">hyperbolic</a> or <a href="Elliptic_partial_differential_equation" title="Elliptic partial differential equation">elliptic</a>. Others such as the <a href="Euler%E2%80%93Tricomi_equation" title="Euler–Tricomi equation">Euler–Tricomi equation</a> have different types in different regions. The classification provides a guide to appropriate initial and boundary conditions, and to smoothness of the solutions.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=21.php.html" title="Edit section: Equations of first order">edit</a>]</span> <span class="mw-headline" id="Equations_of_first_order">Equations of first order</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="First-order_partial_differential_equation" title="First-order partial differential equation">First-order partial differential equation</a></div>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=22.php.html" title="Edit section: Equations of second order">edit</a>]</span> <span class="mw-headline" id="Equations_of_second_order">Equations of second order</span></h3>
+<p>Assuming <img class="tex" alt="u_{xy}=u_{yx}" src="http://upload.wikimedia.org/math/8/2/7/827052899cb8f5cbe6adcf58c0446687.png" />, the general second-order PDE in two independent variables has the form</p>
+<dl>
+<dd><img class="tex" alt="Au_{xx} + 2Bu_{xy} + Cu_{yy} + \cdots \mbox{(lower order terms)} = 0," src="http://upload.wikimedia.org/math/b/2/3/b23efc17a5a051f4b77deafbce75bb0e.png" /></dd>
+</dl>
+<p>where the coefficients <i>A</i>, <i>B</i>, <i>C</i> etc. may depend upon <i>x</i> and <i>y</i>. If <img class="tex" alt="A^2 +B^2 + C^2 &gt; 0" src="http://upload.wikimedia.org/math/2/5/c/25ce81e2e9b9e83cd419d59b27324b63.png" /> over a region of the xy plane, the PDE is second-order in that region. This form is analogous to the equation for a conic section:</p>
+<dl>
+<dd><img class="tex" alt="Ax^2 + 2Bxy + Cy^2 + \cdots = 0." src="http://upload.wikimedia.org/math/6/a/6/6a6a11d6cd4983866cda7439d3069240.png" /></dd>
+</dl>
+<p>More precisely, replacing <img class="tex" alt="\partial_x" src="http://upload.wikimedia.org/math/7/4/a/74a1be02152a695e4bc8d4aeed20cba7.png" /> by <i>X</i>, and likewise for other variables (formally this is done by a <a href="Fourier_transform" title="Fourier transform">Fourier transform</a>), converts a constant-coefficient PDE into a polynomial of the same degree, with the top degree (a <a href="Homogeneous_polynomial" title="Homogeneous polynomial">homogeneous polynomial</a>, here a <a href="Quadratic_form" title="Quadratic form">quadratic form</a>) being most significant for the classification.</p>
+<p>Just as one classifies <a href="Conic_section" title="Conic section">conic sections</a> and quadratic forms into parabolic, hyperbolic, and elliptic based on the <a href="Discriminant" title="Discriminant">discriminant</a> <img class="tex" alt="B^2 - 4AC" src="http://upload.wikimedia.org/math/2/f/9/2f918b09b9e9ff19c406fded8059d8d2.png" />, the same can be done for a second-order PDE at a given point. However, the <a href="Discriminant" title="Discriminant">discriminant</a> in a PDE is given by <img class="tex" alt="B^2 - AC," src="http://upload.wikimedia.org/math/b/5/8/b58001a898c6a01e6b7dbe29fc4c73af.png" /> due to the convention of the <i>xy</i> term being 2<i>B</i> rather than <i>B</i>; formally, the discriminant (of the associated quadratic form) is <img class="tex" alt="(2B)^2 - 4AC = 4(B^2-AC)," src="http://upload.wikimedia.org/math/8/1/d/81db900aed40de9fdc0d4fb2f3790973.png" /> with the factor of 4 dropped for simplicity.</p>
+<ol>
+<li><img class="tex" alt="B^2 - AC \, &lt; 0" src="http://upload.wikimedia.org/math/e/7/3/e73f4b2057db9c84fb85d0011f47aacd.png" />&#160;: solutions of <a href="Elliptic_partial_differential_equation" title="Elliptic partial differential equation">elliptic PDEs</a> are as smooth as the coefficients allow, within the interior of the region where the equation and solutions are defined. For example, solutions of Laplace's equation are analytic within the domain where they are defined, but solutions may assume boundary values that are not smooth. The motion of a fluid at subsonic speeds can be approximated with elliptic PDEs, and the Euler–Tricomi equation is elliptic where <i>x</i> &lt; 0.</li>
+<li><img class="tex" alt="B^2 - AC = 0\," src="http://upload.wikimedia.org/math/9/4/4/9442c748af2d7b7a2788df16a31a5c1a.png" />&#160;: equations that are <a href="Parabolic_partial_differential_equation" title="Parabolic partial differential equation">parabolic</a> at every point can be transformed into a form analogous to the <a href="Heat_equation" title="Heat equation">heat equation</a> by a change of independent variables. Solutions smooth out as the transformed time variable increases. The Euler–Tricomi equation has parabolic type on the line where <i>x</i>=0.</li>
+<li><img class="tex" alt="B^2 - AC \, &gt; 0 " src="http://upload.wikimedia.org/math/1/d/c/1dce14ce966c16117db206ba7003e5dc.png" />&#160;: <a href="Hyperbolic_partial_differential_equation" title="Hyperbolic partial differential equation">hyperbolic</a> equations retain any discontinuities of functions or derivatives in the initial data. An example is the <a href="Wave_equation" title="Wave equation">wave equation</a>. The motion of a fluid at supersonic speeds can be approximated with hyperbolic PDEs, and the Euler–Tricomi equation is hyperbolic where <i>x</i>&gt;0.</li>
+</ol>
+<p>If there are <i>n</i> independent variables <i>x</i><sub>1</sub>, <i>x</i><sub>2</sub> , ..., <i>x</i><sub><i>n</i></sub>, a general linear partial differential equation of second order has the form</p>
+<dl>
+<dd><img class="tex" alt="L u =\sum_{i=1}^n\sum_{j=1}^n a_{i,j} \frac{\part^2 u}{\partial x_i \partial x_j} \quad \text{ plus lower-order terms} =0. \," src="http://upload.wikimedia.org/math/6/2/0/6202ad9dde3e5e7b5d684423c3193182.png" /></dd>
+</dl>
+<p>The classification depends upon the signature of the eigenvalues of the coefficient matrix a<sub>i,j</sub>..</p>
+<ol>
+<li>Elliptic: The eigenvalues are all positive or all negative.</li>
+<li>Parabolic&#160;: The eigenvalues are all positive or all negative, save one that is zero.</li>
+<li>Hyperbolic: There is only one negative eigenvalue and all the rest are positive, or there is only one positive eigenvalue and all the rest are negative.</li>
+<li>Ultrahyperbolic: There is more than one positive eigenvalue and more than one negative eigenvalue, and there are no zero eigenvalues. There is only limited theory for ultrahyperbolic equations (Courant and Hilbert, 1962).</li>
+</ol>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=23.php.html" title="Edit section: Systems of first-order equations and characteristic surfaces">edit</a>]</span> <span class="mw-headline" id="Systems_of_first-order_equations_and_characteristic_surfaces">Systems of first-order equations and characteristic surfaces</span></h3>
+<p>The classification of partial differential equations can be extended to systems of first-order equations, where the unknown <i>u</i> is now a vector with <i>m</i> components, and the coefficient matrices <img class="tex" alt="A_\nu" src="http://upload.wikimedia.org/math/a/7/e/a7ef1c24d0bbea18fe36cadd35022500.png" /> are <i>m</i> by <i>m</i> matrices for <img class="tex" alt="\nu=1, \dots,n" src="http://upload.wikimedia.org/math/4/9/5/4955111b11f400ab8cca65426b6d5aef.png" />. The partial differential equation takes the form</p>
+<dl>
+<dd><img class="tex" alt="Lu = \sum_{\nu=1}^{n} A_\nu \frac{\partial u}{\partial x_\nu} + B=0, \," src="http://upload.wikimedia.org/math/f/0/5/f05595afaa1e05f6e314eacdf0d3c562.png" /></dd>
+</dl>
+<p>where the coefficient matrices <i>A</i><sub>ν</sub> and the vector <i>B</i> may depend upon <i>x</i> and <i>u</i>. If a hypersurface <i>S</i> is given in the implicit form</p>
+<dl>
+<dd><img class="tex" alt="\varphi(x_1, x_2, \ldots, x_n)=0, \," src="http://upload.wikimedia.org/math/6/9/8/6986b14089d2aedb931c847ad7f7b1cb.png" /></dd>
+</dl>
+<p>where φ has a non-zero gradient, then <i>S</i> is a <b>characteristic surface</b> for the operator <i>L</i> at a given point if the characteristic form vanishes:</p>
+<dl>
+<dd><img class="tex" alt="Q\left(\frac{\part\varphi}{\partial x_1}, \ldots,\frac{\part\varphi}{\partial x_n}\right) =\det\left[\sum_{\nu=1}^nA_\nu \frac{\partial \varphi}{\partial x_\nu}\right]=0.\," src="http://upload.wikimedia.org/math/9/b/8/9b8d084c8fc446d4934ac94c4ebf6155.png" /></dd>
+</dl>
+<p>The geometric interpretation of this condition is as follows: if data for <i>u</i> are prescribed on the surface <i>S</i>, then it may be possible to determine the normal derivative of <i>u</i> on <i>S</i> from the differential equation. If the data on <i>S</i> and the differential equation determine the normal derivative of <i>u</i> on <i>S</i>, then <i>S</i> is non-characteristic. If the data on <i>S</i> and the differential equation <i>do not</i> determine the normal derivative of <i>u</i> on <i>S</i>, then the surface is <b>characteristic</b>, and the differential equation restricts the data on <i>S</i>: the differential equation is <i>internal</i> to <i>S</i>.</p>
+<ol>
+<li>A first-order system <i>Lu</i>=0 is <i>elliptic</i> if no surface is characteristic for <i>L</i>: the values of <i>u</i> on <i>S</i> and the differential equation always determine the normal derivative of <i>u</i> on <i>S</i>.</li>
+<li>A first-order system is <i>hyperbolic</i> at a point if there is a <b>space-like</b> surface <i>S</i> with normal ξ at that point. This means that, given any non-trivial vector η orthogonal to ξ, and a scalar multiplier λ, the equation</li>
+</ol>
+<dl>
+<dd><img class="tex" alt=" Q(\lambda \xi + \eta) =0, \," src="http://upload.wikimedia.org/math/1/d/3/1d3e02ccda3b033fe114eb4475be56f0.png" /></dd>
+</dl>
+<p>has <i>m</i> real roots λ<sub>1</sub>, λ<sub>2</sub>, ..., λ<sub>m</sub>. The system is <b>strictly hyperbolic</b> if these roots are always distinct. The geometrical interpretation of this condition is as follows: the characteristic form <i>Q</i>(ζ)=0 defines a cone (the normal cone) with homogeneous coordinates ζ. In the hyperbolic case, this cone has <i>m</i> sheets, and the axis ζ = λ ξ runs inside these sheets: it does not intersect any of them. But when displaced from the origin by η, this axis intersects every sheet. In the elliptic case, the normal cone has no real sheets.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=24.php.html" title="Edit section: Equations of mixed type">edit</a>]</span> <span class="mw-headline" id="Equations_of_mixed_type">Equations of mixed type</span></h3>
+<p>If a PDE has coefficients that are not constant, it is possible that it will not belong to any of these categories but rather be of <b>mixed type</b>. A simple but important example is the Euler–Tricomi equation</p>
+<dl>
+<dd><img class="tex" alt="u_{xx} \, = xu_{yy}," src="http://upload.wikimedia.org/math/8/0/e/80e7fddf892fedbbf44427a7712cd06c.png" /></dd>
+</dl>
+<p>which is called <b>elliptic-hyperbolic</b> because it is elliptic in the region <i>x</i> &lt; 0, hyperbolic in the region <i>x</i> &gt; 0, and degenerate parabolic on the line <i>x</i> = 0.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=25.php.html" title="Edit section: Infinite-order PDEs in quantum mechanics">edit</a>]</span> <span class="mw-headline" id="Infinite-order_PDEs_in_quantum_mechanics">Infinite-order PDEs in quantum mechanics</span></h3>
+<p><a href="Weyl_quantization" title="Weyl quantization" class="mw-redirect">Weyl quantization</a> in phase space leads to <a href="Method_of_quantum_characteristics" title="Method of quantum characteristics">quantum Hamilton's equations</a> for trajectories of quantum particles. Those equations are infinite-order PDEs. However, in the semiclassical expansion one has a finite system of ODEs at any fixed order of <img class="tex" alt="\hbar" src="http://upload.wikimedia.org/math/9/d/f/9dfd055ef1683b053f1b5bf9ed6dbbb4.png" />. The equation of evolution of the <a href="Wigner_quasi-probability_distribution" title="Wigner quasi-probability distribution" class="mw-redirect">Wigner function</a> is infinite-order PDE also. The quantum trajectories are <a href="Method_of_quantum_characteristics" title="Method of quantum characteristics">quantum characteristics</a> with the use of which one can calculate the evolution of the Wigner function.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=26.php.html" title="Edit section: Analytical methods to solve PDEs">edit</a>]</span> <span class="mw-headline" id="Analytical_methods_to_solve_PDEs">Analytical methods to solve PDEs</span></h2>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=27.php.html" title="Edit section: Separation of variables">edit</a>]</span> <span class="mw-headline" id="Separation_of_variables">Separation of variables</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Separable_partial_differential_equation" title="Separable partial differential equation">Separable partial differential equation</a></div>
+<p>Linear PDEs can be reduced to systems of ordinary differential equations by the important technique of separation of variables. The logic of this technique may be confusing upon ﬁrst acquaintance, but it rests on the uniqueness of solutions to differential equations: as with ODEs, if one can ﬁnd any solution that solves the equation and satisﬁes the boundary conditions, then it is the solution. We assume as an <a href="Ansatz" title="Ansatz">ansatz</a> that the dependence of the solution on space and time can be written as a product of terms that each depend on a single coordinate, and then see if and how this can be made to solve the problem.</p>
+<p>In the method of <a href="Separation_of_variables" title="Separation of variables">separation of variables</a>, one reduces a PDE to a PDE in fewer variables, which is an <a href="Ordinary_differential_equation" title="Ordinary differential equation">ODE</a> if in one variable – these are in turn easier to solve.</p>
+<p>This is possible for simple PDEs, which are called <a href="Separable_partial_differential_equation" title="Separable partial differential equation">separable partial differential equations</a>, and the domain is generally a rectangle (a product of intervals). Separable PDEs correspond to <a href="Diagonal_matrices" title="Diagonal matrices" class="mw-redirect">diagonal matrices</a> – thinking of "the value for fixed <i>x</i>" as a coordinate, each coordinate can be understood separately.</p>
+<p>This generalizes to the <a href="Method_of_characteristics" title="Method of characteristics">method of characteristics</a>, and is also used in <a href="Integral_transform" title="Integral transform">integral transforms</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=28.php.html" title="Edit section: Method of characteristics">edit</a>]</span> <span class="mw-headline" id="Method_of_characteristics">Method of characteristics</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Method_of_characteristics" title="Method of characteristics">Method of characteristics</a></div>
+<p>In special cases, one can find characteristic curves on which the equation reduces to an ODE – changing coordinates in the domain to straighten these curves allows separation of variables, and is called the <a href="Method_of_characteristics" title="Method of characteristics">method of characteristics</a>.</p>
+<p>More generally, one may find characteristic surfaces.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=29.php.html" title="Edit section: Integral transform">edit</a>]</span> <span class="mw-headline" id="Integral_transform">Integral transform</span></h3>
+<p>An <a href="Integral_transform" title="Integral transform">integral transform</a> may transform the PDE to a simpler one, in particular a separable PDE. This corresponds to diagonalizing an operator.</p>
+<p>An important example of this is <a href="Fourier_analysis" title="Fourier analysis">Fourier analysis</a>, which diagonalizes the heat equation using the <a href="Eigenbasis" title="Eigenbasis" class="mw-redirect">eigenbasis</a> of sinusoidal waves.</p>
+<p>If the domain is finite or periodic, an infinite sum of solutions such as a <a href="Fourier_series" title="Fourier series">Fourier series</a> is appropriate, but an integral of solutions such as a <a href="Fourier_integral" title="Fourier integral" class="mw-redirect">Fourier integral</a> is generally required for infinite domains. The solution for a point source for the heat equation given above is an example for use of a Fourier integral.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=30.php.html" title="Edit section: Change of variables">edit</a>]</span> <span class="mw-headline" id="Change_of_variables">Change of variables</span></h3>
+<p>Often a PDE can be reduced to a simpler form with a known solution by a suitable <a href="Change_of_variables_(PDE)" title="Change of variables (PDE)">change of variables</a>. For example the <a href="Black%E2%80%93Scholes#Derivation" title="Black–Scholes">Black–Scholes</a> PDE</p>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2 S^2\frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0 " src="http://upload.wikimedia.org/math/5/e/f/5ef2fa747d3a5d684ae67bdc7236e6d4.png" /></dd>
+</dl>
+<p>is reducible to the <a href="Heat_equation" title="Heat equation">heat equation</a></p>
+<dl>
+<dd><img class="tex" alt=" \frac{\partial u}{\partial \tau} = \frac{\partial^2 u}{\partial x^2}" src="http://upload.wikimedia.org/math/0/a/e/0ae348e840ef173c51305142aa232b68.png" /></dd>
+</dl>
+<p>by the change of variables (for complete details see <a rel="nofollow" class="external text" href="http://web.archive.org/web/20080411030405/http:/www.math.unl.edu/~sdunbar1/Teaching/MathematicalFinance/Lessons/BlackScholes/Solution/solution.shtml">Solution of the Black Scholes Equation</a>)</p>
+<dl>
+<dd><img class="tex" alt=" V(S,t) = K v(x,\tau)\, " src="http://upload.wikimedia.org/math/6/2/d/62d094eaf6b253fcbd6c67a9fa601624.png" /></dd>
+<dd><img class="tex" alt=" x = \ln(S/K)\, " src="http://upload.wikimedia.org/math/1/9/6/1963e197c571826fcad549c4e06ceefa.png" /></dd>
+<dd><img class="tex" alt=" \tau = \frac{1}{2} \sigma^2 (T - t)  " src="http://upload.wikimedia.org/math/c/f/9/cf940ca69f0e6f107efa9c4e9642bd6b.png" /></dd>
+<dd><img class="tex" alt=" v(x,\tau)=\exp(-\alpha x-\beta\tau) u(x,\tau).\, " src="http://upload.wikimedia.org/math/f/6/e/f6ee180d11621e4d9ae66c84f2a42557.png" /></dd>
+</dl>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=31.php.html" title="Edit section: Fundamental solution">edit</a>]</span> <span class="mw-headline" id="Fundamental_solution">Fundamental solution</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Fundamental_solution" title="Fundamental solution">Fundamental solution</a></div>
+<p>Inhomogeneous equations can often be solved (for constant coefficient PDEs, always be solved) by finding the <a href="Fundamental_solution" title="Fundamental solution">fundamental solution</a> (the solution for a point source), then taking the <a href="Convolution" title="Convolution">convolution</a> with the boundary conditions to get the solution.</p>
+<p>This is analogous in <a href="Signal_processing" title="Signal processing">signal processing</a> to understanding a filter by its <a href="Impulse_response" title="Impulse response">impulse response</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=32.php.html" title="Edit section: Superposition principle">edit</a>]</span> <span class="mw-headline" id="Superposition_principle">Superposition principle</span></h3>
+<p>Because any <a href="Superposition_principle" title="Superposition principle">superposition</a> of solutions of a linear, homogeneous PDE is again a solution, the particular solutions may then be combined to obtain more general solutions.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=33.php.html" title="Edit section: Methods for non-linear equations">edit</a>]</span> <span class="mw-headline" id="Methods_for_non-linear_equations">Methods for non-linear equations</span></h3>
+<dl>
+<dd><i>See also the <a href="List_of_nonlinear_partial_differential_equations" title="List of nonlinear partial differential equations">list of nonlinear partial differential equations</a>.</i></dd>
+</dl>
+<p>There are no generally applicable methods to solve non-linear PDEs. Still, existence and uniqueness results (such as the <a href="Cauchy%E2%80%93Kowalevski_theorem" title="Cauchy–Kowalevski theorem">Cauchy–Kowalevski theorem</a>) are often possible, as are proofs of important qualitative and quantitative properties of solutions (getting these results is a major part of <a href="Mathematical_analysis" title="Mathematical analysis">analysis</a>). Computational solution to the nonlinear PDEs, the <a href="Split-step_method" title="Split-step method">split-step method</a>, exist for specific equations like <a href="Nonlinear_Schr%C3%B6dinger_equation" title="Nonlinear Schrödinger equation">nonlinear Schrödinger equation</a>.</p>
+<p>Nevertheless, some techniques can be used for several types of equations. The <a href="H-principle" title="H-principle" class="mw-redirect">h-principle</a> is the most powerful method to solve <a href="Underdetermined_system" title="Underdetermined system">underdetermined</a> equations. The <a href="../../w/index-title=Riquier%E2%80%93Janet_theory&action=edit&redlink=1.php.html" class="new" title="Riquier–Janet theory (page does not exist)">Riquier–Janet theory</a> is an effective method for obtaining information about many analytic <a href="Overdetermined_system" title="Overdetermined system">overdetermined</a> systems.</p>
+<p>The <a href="Method_of_characteristics" title="Method of characteristics">method of characteristics</a> (<a href="../../w/index-title=Similarity_transformation_method&action=edit&redlink=1.php.html" class="new" title="Similarity transformation method (page does not exist)">similarity transformation method</a>) can be used in some very special cases to solve partial differential equations.</p>
+<p>In some cases, a PDE can be solved via <a href="Perturbation_analysis" title="Perturbation analysis" class="mw-redirect">perturbation analysis</a> in which the solution is considered to be a correction to an equation with a known solution. Alternatives are <a href="Numerical_analysis" title="Numerical analysis">numerical analysis</a> techniques from simple <a href="Finite_difference" title="Finite difference">finite difference</a> schemes to the more mature <a href="Multigrid" title="Multigrid" class="mw-redirect">multigrid</a> and <a href="Finite_element_method" title="Finite element method">finite element methods</a>. Many interesting problems in science and engineering are solved in this way using <a href="Computer" title="Computer">computers</a>, sometimes high performance <a href="Supercomputer" title="Supercomputer">supercomputers</a>.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=34.php.html" title="Edit section: Lie group method">edit</a>]</span> <span class="mw-headline" id="Lie_group_method">Lie group method</span></h3>
+<p>From 1870 <a href="Sophus_Lie" title="Sophus Lie">Sophus Lie</a>'s work put the theory of differential equations on a more satisfactory foundation. He showed that the integration theories of the older mathematicians can, by the introduction of what are now called <a href="Lie_group" title="Lie group">Lie groups</a>, be referred to a common source; and that ordinary differential equations which admit the same <a href="Infinitesimal_transformation" title="Infinitesimal transformation">infinitesimal transformations</a> present comparable difficulties of integration. He also emphasized the subject of <a href="Contact_transformation" title="Contact transformation" class="mw-redirect">transformations of contact</a>.</p>
+<p>A general approach to solve PDE's uses the symmetry property of differential equations, the continuous <a href="Infinitesimal_transformation" title="Infinitesimal transformation">infinitesimal transformations</a> of solutions to solutions (<a href="Lie_theory" title="Lie theory">Lie theory</a>). Continuous <a href="Group_theory" title="Group theory">group theory</a>, <a href="Lie_algebras" title="Lie algebras" class="mw-redirect">Lie algebras</a> and <a href="Differential_geometry" title="Differential geometry">differential geometry</a> are used to understand the structure of linear and nonlinear partial differential equations for generating integrable equations, to find its <a href="Lax_pair" title="Lax pair">Lax pairs</a>, recursion operators, <a href="B%C3%A4cklund_transform" title="Bäcklund transform">Bäcklund transform</a> and finally finding exact analytic solutions to the PDE.</p>
+<p>Symmetry methods have been recognized to study differential equations arising in mathematics, physics, engineering, and many other disciplines.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=35.php.html" title="Edit section: Semianalytical methods">edit</a>]</span> <span class="mw-headline" id="Semianalytical_methods">Semianalytical methods</span></h3>
+<p>The <a href="Adomian_decomposition_method" title="Adomian decomposition method">adomian decomposition method</a>, the <a href="Aleksandr_Lyapunov" title="Aleksandr Lyapunov">Lyapunov</a> artificial small parameter method, and He's <a href="Homotopy_perturbation_method" title="Homotopy perturbation method">homotopy perturbation method</a> are all special cases of the more general <a href="Homotopy_analysis_method" title="Homotopy analysis method">homotopy analysis method</a>. These are series expansion methods, and except for the Lyapunov method, are independent of small physical parameters as compared to the well known <a href="Perturbation_theory" title="Perturbation theory">perturbation theory</a>, thus giving these methods greater flexibility and solution generality.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=36.php.html" title="Edit section: Numerical methods to solve PDEs">edit</a>]</span> <span class="mw-headline" id="Numerical_methods_to_solve_PDEs">Numerical methods to solve PDEs</span></h2>
+<p>The three most widely used numerical methods to solve PDEs are the <a href="Finite_element_analysis" title="Finite element analysis" class="mw-redirect">finite element method</a> (FEM), <a href="Finite_volume_method" title="Finite volume method" class="mw-redirect">finite volume methods</a> (FVM) and <a href="Finite_difference_method" title="Finite difference method">finite difference methods</a> (FDM). The FEM has a prominent position among these methods and especially its exceptionally efficient higher-order version <a href="Hp-FEM" title="Hp-FEM">hp-FEM</a>. Other versions of FEM include the generalized finite element method (GFEM), <a href="Extended_finite_element_method" title="Extended finite element method">extended finite element method</a> (XFEM), <a href="Spectral_element_method" title="Spectral element method">spectral finite element method</a> (SFEM), <a href="Meshfree_methods" title="Meshfree methods">meshfree finite element method</a>, <a href="Discontinuous_Galerkin_Method" title="Discontinuous Galerkin Method" class="mw-redirect">discontinuous Galerkin finite element method</a> (DGFEM), etc.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=37.php.html" title="Edit section: Finite element method">edit</a>]</span> <span class="mw-headline" id="Finite_element_method">Finite element method</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Finite_element_method" title="Finite element method">Finite element method</a></div>
+<p>The finite element method (FEM) (its practical application often known as finite element analysis (FEA)) is a numerical technique for finding approximate solutions of partial differential equations (PDE) as well as of integral equations. The solution approach is based either on eliminating the differential equation completely (steady state problems), or rendering the PDE into an approximating system of ordinary differential equations, which are then numerically integrated using standard techniques such as Euler's method, Runge–Kutta, etc.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=38.php.html" title="Edit section: Finite difference method">edit</a>]</span> <span class="mw-headline" id="Finite_difference_method">Finite difference method</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Finite_difference_method" title="Finite difference method">Finite difference method</a></div>
+<p>Finite-difference methods are numerical methods for approximating the solutions to differential equations using finite difference equations to approximate derivatives.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=39.php.html" title="Edit section: Finite volume method">edit</a>]</span> <span class="mw-headline" id="Finite_volume_method">Finite volume method</span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="Finite_volume_method" title="Finite volume method" class="mw-redirect">Finite volume method</a></div>
+<p>Similar to the finite difference method or finite element method, values are calculated at discrete places on a meshed geometry. "Finite volume" refers to the small volume surrounding each node point on a mesh. In the finite volume method, surface integrals in a partial differential equation that contain a divergence term are converted to volume integrals, using the divergence theorem. These terms are then evaluated as fluxes at the surfaces of each finite volume. Because the flux entering a given volume is identical to that leaving the adjacent volume, these methods are conservative.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=40.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Boundary_value_problem" title="Boundary value problem">Boundary value problem</a></li>
+<li><a href="Difference_equation" title="Difference equation" class="mw-redirect">Difference equation</a></li>
+<li><a href="Laplace_transform_applied_to_differential_equations" title="Laplace transform applied to differential equations">Laplace transform applied to differential equations</a></li>
+<li><a href="List_of_dynamical_systems_and_differential_equations_topics" title="List of dynamical systems and differential equations topics">List of dynamical systems and differential equations topics</a></li>
+<li><a href="Matrix_differential_equation" title="Matrix differential equation">Matrix differential equation</a></li>
+<li><a href="Ordinary_differential_equation" title="Ordinary differential equation">Ordinary differential equation</a></li>
+<li><a href="Partial_differential_algebraic_equation" title="Partial differential algebraic equation">Partial differential algebraic equation</a></li>
+<li><a href="Separation_of_variables" title="Separation of variables">Separation of variables</a></li>
+<li><a href="Stochastic_partial_differential_equations" title="Stochastic partial differential equations" class="mw-redirect">Stochastic partial differential equations</a></li>
+<li><a href="Numerical_partial_differential_equations" title="Numerical partial differential equations">Numerical partial differential equations</a></li>
+<li><a href="Stochastic_processes_and_boundary_value_problems" title="Stochastic processes and boundary value problems">Stochastic processes and boundary value problems</a></li>
+<li><a href="Dirichlet_boundary_condition" title="Dirichlet boundary condition">Dirichlet boundary condition</a></li>
+<li><a href="Neumann_boundary_condition" title="Neumann boundary condition">Neumann boundary condition</a></li>
+<li><a href="Robin_boundary_condition" title="Robin boundary condition">Robin boundary condition</a></li>
+<li><a href="Waves" title="Waves" class="mw-redirect">Waves</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=41.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<ul>
+<li><span class="citation book">Adomian, G. (1994). <i>Solving Frontier problems of Physics: The decomposition method</i>. Kluwer Academic Publishers.</span></li>
+<li><span class="citation" id="CITEREFCourantHilbert1962">Courant, R. &amp; Hilbert, D. (1962), <i>Methods of Mathematical Physics</i>, <b>II</b>, New York: Wiley-Interscience</span>.</li>
+<li><span class="citation" id="CITEREFEvans1998"><a href="../Lawrence_C._Evans" title="Lawrence C. Evans">Evans, L. C.</a> (1998), <i>Partial Differential Equations</i>, Providence: American Mathematical Society, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8218-0772-2" title="Special:BookSources/0-8218-0772-2">0-8218-0772-2</a></span>.</li>
+<li><span class="citation" id="CITEREFIbragimov1993">Ibragimov, Nail H (1993), <i>CRC Handbook of Lie Group Analysis of Differential Equations Vol. 1-3</i>, Providence: CRC-Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-8493-4488-3" title="Special:BookSources/0-8493-4488-3">0-8493-4488-3</a></span>.</li>
+<li><span class="citation" id="CITEREFJohn1982"><a href="Fritz_John" title="Fritz John">John, F.</a> (1982), <i>Partial Differential Equations</i> (4th ed.), New York: Springer-Verlag, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-90609-6" title="Special:BookSources/0-387-90609-6">0-387-90609-6</a></span>.</li>
+<li><span class="citation" id="CITEREFJost2002">Jost, J. (2002), <i>Partial Differential Equations</i>, New York: Springer-Verlag, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-387-95428-7" title="Special:BookSources/0-387-95428-7">0-387-95428-7</a></span>.</li>
+<li><span class="citation" id="CITEREFLewy1957">Lewy, Hans (1957), "An example of a smooth linear partial differential equation without solution", <i>Annals of Mathematics, 2nd Series</i> <b>66</b> (1): 155–158</span>.</li>
+<li><span class="citation" id="CITEREFLiao2003">Liao, S.J. (2003), <i>Beyond Perturbation: Introduction to the Homotopy Analysis Method</i>, Boca Raton: Chapman &amp; Hall/ CRC Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-58488-407-X" title="Special:BookSources/1-58488-407-X">1-58488-407-X</a></span></li>
+<li><span class="citation" id="CITEREFOlver1995">Olver, P.J. (1995), <i>Equivalence, Invariants and Symmetry</i>, Cambridge Press</span>.</li>
+<li><span class="citation" id="CITEREFPetrovskii1967"><a href="Ivan_Petrovsky" title="Ivan Petrovsky">Petrovskii, I. G.</a> (1967), <i>Partial Differential Equations</i>, Philadelphia: W. B. Saunders Co.</span>.</li>
+<li><span class="citation" id="CITEREFPinchoverRubinstein2005">Pinchover, Y. &amp; Rubinstein, J. (2005), <i>An Introduction to Partial Differential Equations</i>, New York: Cambridge University Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-84886-5" title="Special:BookSources/0-521-84886-5">0-521-84886-5</a></span>.</li>
+<li><span class="citation" id="CITEREFPolyanin2002">Polyanin, A. D. (2002), <i>Handbook of Linear Partial Differential Equations for Engineers and Scientists</i>, Boca Raton: Chapman &amp; Hall/CRC Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-58488-299-9" title="Special:BookSources/1-58488-299-9">1-58488-299-9</a></span>.</li>
+<li><span class="citation" id="CITEREFPolyaninZaitsev2004">Polyanin, A. D. &amp; Zaitsev, V. F. (2004), <i>Handbook of Nonlinear Partial Differential Equations</i>, Boca Raton: Chapman &amp; Hall/CRC Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-58488-355-3" title="Special:BookSources/1-58488-355-3">1-58488-355-3</a></span>.</li>
+<li><span class="citation" id="CITEREFPolyaninZaitsevMoussiaux2002">Polyanin, A. D.; Zaitsev, V. F. &amp; Moussiaux, A. (2002), <i>Handbook of First Order Partial Differential Equations</i>, London: Taylor &amp; Francis, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-415-27267-X" title="Special:BookSources/0-415-27267-X">0-415-27267-X</a></span>.</li>
+<li><span class="citation" id="CITEREFSolin2005">Solin, P. (2005), <i>Partial Differential Equations and the Finite Element Method</i>, Hoboken, NJ: J. Wiley &amp; Sons, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-471-72070-4" title="Special:BookSources/0-471-72070-4">0-471-72070-4</a></span>.</li>
+<li><span class="citation" id="CITEREFSolinSegethDolezel2003">Solin, P.; Segeth, K. &amp; Dolezel, I. (2003), <i>Higher-Order Finite Element Methods</i>, Boca Raton: Chapman &amp; Hall/CRC Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/1-58488-438-X" title="Special:BookSources/1-58488-438-X">1-58488-438-X</a></span>.</li>
+<li><span class="citation" id="CITEREFStephani1989">Stephani, H. (1989), <i>Differential Equations: Their Solution Using Symmetries. Edited by M. MacCallum</i>, Cambridge University Press</span>.</li>
+<li><span class="citation book">Wazwaz, Abdul-Majid (2009). <i>Partial Differential Equations and Solitary Waves Theory</i>. Higher Education Press. <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/90-5809-369-7" title="Special:BookSources/90-5809-369-7">90-5809-369-7</a>.</span></li>
+<li><span class="citation" id="CITEREFZwillinger1997">Zwillinger, D. (1997), <i>Handbook of Differential Equations</i> (3rd ed.), Boston: Academic Press, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-12-784395-7" title="Special:BookSources/0-12-784395-7">0-12-784395-7</a></span>.</li>
+<li><span class="citation" id="CITEREFGershenfeld1999"><a href="Neil_Gershenfeld" title="Neil Gershenfeld">Gershenfeld, N.</a> (1999), <i>The Nature of Mathematical Modeling</i> (1st ed.), New York: Cambridge University Press, New York, NY, USA, <a href="International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="Special_BookSources/0-521-57095-6" title="Special:BookSources/0-521-57095-6">0-521-57095-6</a></span>.</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Partial_differential_equation&action=edit&section=42.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to: <i><b><a href="http://commons.wikimedia.org/wiki/Category:Solutions_of_PDE" class="extiw" title="commons:Category:Solutions of PDE">Solutions of PDE</a></b></i></td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/60px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/80px-Wikibooks-logo-en-noslogan.svg.png 2x" /></td>
+<td class="mbox-text plainlist" style="">Wikibooks has a book on the topic of: <i><b><a href="http://en.wikibooks.org/wiki/Partial_Differential_Equations" class="extiw" title="wikibooks:Partial Differential Equations">Partial Differential Equations</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://eqworld.ipmnet.ru/en/pde-en.htm">Partial Differential Equations: Exact Solutions</a> at EqWorld: The World of Mathematical Equations.</li>
+<li><a rel="nofollow" class="external text" href="http://eqworld.ipmnet.ru/en/solutions/eqindex/eqindex-pde.htm">Partial Differential Equations: Index</a> at EqWorld: The World of Mathematical Equations.</li>
+<li><a rel="nofollow" class="external text" href="http://eqworld.ipmnet.ru/en/methods/meth-pde.htm">Partial Differential Equations: Methods</a> at EqWorld: The World of Mathematical Equations.</li>
+<li><a rel="nofollow" class="external text" href="http://www.exampleproblems.com/wiki/index.php?title=Partial_Differential_Equations">Example problems with solutions</a> at exampleproblems.com</li>
+<li><a rel="nofollow" class="external text" href="http://mathworld.wolfram.com/PartialDifferentialEquation.html">Partial Differential Equations</a> at mathworld.wolfram.com</li>
+<li><a rel="nofollow" class="external text" href="http://tosio.math.toronto.edu/wiki/index.php/Main_Page">Dispersive PDE Wiki</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.primat.mephi.ru/wiki/">NEQwiki, the nonlinear equations encyclopedia</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 14348/1000000
+Preprocessor generated node count: 41527/1500000
+Post-expand include size: 92785/2048000 bytes
+Template argument size: 35493/2048000 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 0/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:52564-0!0!0!!en!4!* and timestamp 20130212100553 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Partial_differential_equation&oldid=537086341.php.html">http://en.wikipedia.org/w/index.php?title=Partial_differential_equation&amp;oldid=537086341</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Multivariable_calculus" title="Category:Multivariable calculus">Multivariable calculus</a></li><li><a href="Category_Differential_equations" title="Category:Differential equations">Differential equations</a></li><li><a href="Category_Partial_differential_equations" title="Category:Partial differential equations">Partial differential equations</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Partial+differential+equation&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Partial+differential+equation.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Partial_differential_equation"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Partial_differential_equation&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Partial_differential_equation&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Partial_differential_equation" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Partial_differential_equation" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Partial_differential_equation&oldid=537086341.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Partial_differential_equation&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Partial_differential_equation&id=537086341.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Partial+differential+equation.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Partial+differential+equation&oldid=537086341&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Partial_differential_equation&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%A9_%D8%AA%D9%81%D8%A7%D8%B6%D9%84%D9%8A%D8%A9_%D8%AC%D8%B2%D8%A6%D9%8A%D8%A9" title="معادلة تفاضلية جزئية" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%82%D0%BD%D0%BE_%D0%B4%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%BE_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5" title="Частно диференциално уравнение" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Equaci%C3%B3_diferencial_en_derivades_parcials" title="Equació diferencial en derivades parcials" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Partielle_Differentialgleichung" title="Partielle Differentialgleichung" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-el"><a href="http://el.wikipedia.org/wiki/%CE%9C%CE%B5%CF%81%CE%B9%CE%BA%CE%AE_%CE%B4%CE%B9%CE%B1%CF%86%CE%BF%CF%81%CE%B9%CE%BA%CE%AE_%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7" title="Μερική διαφορική εξίσωση" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Ecuaci%C3%B3n_en_derivadas_parciales" title="Ecuación en derivadas parciales" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/Parta_diferenciala_ekvacio" title="Parta diferenciala ekvacio" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D9%87_%D8%AF%DB%8C%D9%81%D8%B1%D8%A7%D9%86%D8%B3%DB%8C%D9%84_%D8%A8%D8%A7_%D9%85%D8%B4%D8%AA%D9%82%D8%A7%D8%AA_%D9%BE%D8%A7%D8%B1%D9%87%E2%80%8C%D8%A7%DB%8C" title="معادله دیفرانسیل با مشتقات پاره‌ای" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/%C3%89quation_aux_d%C3%A9riv%C3%A9es_partielles" title="Équation aux dérivées partielles" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%ED%8E%B8%EB%AF%B8%EB%B6%84_%EB%B0%A9%EC%A0%95%EC%8B%9D" title="편미분 방정식" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Persamaan_diferensial_parsial" title="Persamaan diferensial parsial" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Equazione_differenziale_alle_derivate_parziali" title="Equazione differenziale alle derivate parziali" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%95%D7%95%D7%90%D7%94_%D7%93%D7%99%D7%A4%D7%A8%D7%A0%D7%A6%D7%99%D7%90%D7%9C%D7%99%D7%AA_%D7%97%D7%9C%D7%A7%D7%99%D7%AA" title="משוואה דיפרנציאלית חלקית" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Parti%C3%ABle_differentiaalvergelijking" title="Partiële differentiaalvergelijking" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/%E5%81%8F%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E5%BC%8F" title="偏微分方程式" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Partielle_differensialligninger" title="Partielle differensialligninger" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/R%C3%B3wnanie_r%C3%B3%C5%BCniczkowe_cz%C4%85stkowe" title="Równanie różniczkowe cząstkowe" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Equa%C3%A7%C3%A3o_diferencial_parcial" title="Equação diferencial parcial" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ro"><a href="http://ro.wikipedia.org/wiki/Ecua%C8%9Bie_cu_derivate_par%C8%9Biale" title="Ecuație cu derivate parțiale" lang="ro" hreflang="ro">Română</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_%D1%87%D0%B0%D1%81%D1%82%D0%BD%D1%8B%D1%85_%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D1%85" title="Дифференциальное уравнение в частных производных" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Partial_differential_equation" title="Partial differential equation" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Parci%C3%A1lna_diferenci%C3%A1lna_rovnica" title="Parciálna diferenciálna rovnica" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sr"><a href="http://sr.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%86%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B0_%D0%B4%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%98%D0%B0%D0%BB%D0%BD%D0%B0_%D1%98%D0%B5%D0%B4%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0" title="Парцијална диференцијална једначина" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/Osittaisdifferentiaaliyht%C3%A4l%C3%B6" title="Osittaisdifferentiaaliyhtälö" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Partiell_differentialekvation" title="Partiell differentialekvation" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/K%C4%B1smi_diferansiyel_denklem" title="Kısmi diferansiyel denklem" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%80%D1%96%D0%B2%D0%BD%D1%8F%D0%BD%D0%BD%D1%8F_%D0%B7_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%BD%D0%B8%D0%BC%D0%B8_%D0%BF%D0%BE%D1%85%D1%96%D0%B4%D0%BD%D0%B8%D0%BC%D0%B8" title="Диференціальне рівняння з частинними похідними" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-vi"><a href="http://vi.wikipedia.org/wiki/Ph%C6%B0%C6%A1ng_tr%C3%ACnh_vi_ph%C3%A2n_ri%C3%AAng_ph%E1%BA%A7n" title="Phương trình vi phân riêng phần" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E5%81%8F%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="偏微分方程" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 7 February 2013 at 18:11.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Partial_differential_equation" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1075 in 0.147 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->
