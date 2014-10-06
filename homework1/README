@@ -1,0 +1,69 @@
+---------------
+Compile and Run
+---------------
+
+1. Shell Script:
+
+run server:  $ chmod u+x start.sh
+			 $ ./start.sh 25806 ./data/corpus.tsv
+
+evaluation:  $ chmod u+x evaluate.sh
+		     $ ./evaluate.sh [URL] ./data/qrel.tsv
+
+2. Manual:
+
+We used external library, Apache logging services, log4j to proccess
+our logs. So, whenever compile the files, run server or run evaluation,
+the path to the log4j files need to be include in classpath. Also, a
+logger configuration file need to be include in 
+
+example:  homework1$ mkdir ./bin
+		  		   $ javac -d ./bin  ./src/edu/nyu/cs/cs2580/*.java
+		           $ cp ./src/log4j2.xml ./bin
+		           $ export CLASSPATH=./bin:./bin/lib/log4j-api.jar:./bin/lib/log4j-core.jar
+		           $ java edu.nyu.cs.cs2580.SearchEngine ./data/corpus.tsv
+
+		  homework1$ export CLASSPATH=./bin:./bin/lib/log4j-api.jar:./bin/lib/log4j-core.jar
+		           $ curl " http://<HOST>:25806/search?query=<QUERY>&ranker=<RANKER-TYPE>&format=text" | \
+     				java edu.nyu.cs.cs2580.Evaluator <PATH-TO-JUDGMENTS>
+
+3. Reults:
+
+To shoot test, using string or encoded url are either fine.
+
+All results files (log, scored ranking and evaluation result) will be 
+stored in the results folder, which belongs in project's root path.
+
+---------
+File List
+---------
+
+README					this file		
+
+SHELL SCRIPT:
+start.sh 				compile files and start sever 		
+evaluate.sh 			run evaluation test
+
+EXTERNAL LIBARY:
+log4j-api.jar			Apache logging services API
+log4j-core.jar			Apache logging services
+
+SOURCE FILES:
+BaseRanker.java			interface for implementing rankers
+Document.java			Document class for store document process from corpus
+Evaluator.java			standard evaluations for queries
+Index.java				Index class for corpus' term information
+LanguageModel.java		Query Likelihood ranker implementation
+LinearRanker.java		Linear ranker implementation
+LoggingHandler.java		log handler for actions taken by server
+NumviewsRanker.java		Number Views ranker implementation
+PhraseRanker.java		Phrase ranker implementation
+QueryHandler.java		handler for comming client query request
+Ranker.java				example ranker (didn't change)
+ScoredDocument.java		SocoredDocment class
+SearchEngine.java		setup search engine and run server
+Utility.java			utitlity methods for output get hashmap info
+VectorSpaceModel.java	Cosine ranker implementation
+
+OTHER:
+log4j2.xml				logger configuration
