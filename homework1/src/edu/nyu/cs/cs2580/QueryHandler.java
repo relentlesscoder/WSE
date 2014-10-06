@@ -32,7 +32,7 @@ class QueryHandler implements HttpHandler {
   private static final String COOKIE_SESSION_NAME = "search-session-id";
   private static final String LOG_FILE_NAME = "hw1.4-log.tsv";
   private static final String ACTION_RENDER = "render";
-  private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\nfunction clickLogging(docId) {\r\nvar sessionId = $('#divSesstionId').text();\r\nvar query = $('#divQueryText').text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nasync: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\nreturn true;\r\n}\r\n</script>\r\n</head>\r\n<body>\r\n";
+  private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\nfunction clickLogging(docId) {\r\nvar sessionId = $('#divSesstionId').text();\r\nvar query = $('#divQueryText').text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nasync: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\nreturn true;\r\n}\r\n</script>\r\n<style type=\"text/css\">\r\n.doc_title { font-size: 1.2em; font-weight: bold; }\r\n</style>\r\n</head>\r\n<body>\r\n";
   private static final String HTML_FOOTER = "</body>\r\n</html>";
   private static final String QUERY_REQUIRED = "Query is required!\n";
   private static final String RANKER_REQUIRED = "Ranker is required!\n";
@@ -127,23 +127,25 @@ class QueryHandler implements HttpHandler {
   private String buildHtmlOutput(String queryText,
       List<ScoredDocument> scoredDocuments, UUID sessionId) {
     StringBuilder output = new StringBuilder();
-    output.append("<div>Your search for term ");
+    output.append("<div id=\"title\"><h1>Your search for term ");
     output.append(queryText);
     output.append(" returns " + Integer.toString(scoredDocuments.size())
-        + " documents.</div>\r\n");
+        + " documents.</h1></div>\r\n");
     output.append("<div id=\"divSearchContainer\">\r\n");
+    output.append("<ul id=\"unorderedList\">\r\n");
     for (ScoredDocument scoredDocument : scoredDocuments) {
-      output.append("<div id=\"divDocument" + scoredDocument.getDocId()
+      output.append("<li id=\"divDocument" + scoredDocument.getDocId()
           + "\">\r\n");
       output
-          .append("<a href=\"\" onclick=\"return clickLogging($(this).attr('doc-id'));\" doc-id=\""
+          .append("<a href=\"\" class=\"doc_title\" onclick=\"return clickLogging($(this).attr('doc-id'));\" doc-id=\""
               + scoredDocument.getDocId()
               + "\">"
               + scoredDocument.getTitle()
               + "</a>\r\n");
-      output.append("<div>" + scoredDocument.getScore() + "</div>\r\n");
-      output.append("</div>\r\n");
+      output.append("<p class=\"score\">" + scoredDocument.getScore() + "</p>\r\n");
+      output.append("</li>\r\n");
     }
+    output.append("</ul>\r\n");
     output.append("</div>\r\n");
     output.append("<div id=\"divSesstionId\" style=\"display:none\">"
         + sessionId + "</div>\r\n");
