@@ -34,6 +34,12 @@ To shoot test, using string or encoded url are either fine.
 All results files (log, scored ranking and evaluation result) will be 
 stored in the results folder, which belongs in project's root path.
 
+4. Betas of linear ranker
+BETA_COS = 1.0;
+BETA_LM = 10.0;
+BETA_PHRASE = 0.001;
+BETA_NUMVIEWS = 0.00001;
+
 ---------
 File List
 ---------
