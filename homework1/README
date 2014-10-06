@@ -4,13 +4,15 @@ Compile and Run
 
 1. Shell Script:
 
+For now, the port 25806 is occupied. It would be best that the administrator could
+help us to turn it off. If not, you could change the value of 'SERVER' varible in 
+start.sh to 258XX that available.
+
 run server:  $ chmod u+x start.sh
 			 $ ./start.sh 25806 ./data/corpus.tsv
 
 evaluation:  $ chmod u+x evaluate.sh
-		     $ ./evaluate.sh [URL] ./data/qrels.tsv
-
-note: If you don't have the permission to execute the script, use chmod.
+		     $ ./evaluate.sh [URL] ./data/qrel.tsv
 
 2. Manual:
 
@@ -34,7 +36,7 @@ example:  homework1$ mkdir ./bin
 To shoot test, using string or encoded url are either fine.
 
 All results files (log, scored ranking and evaluation result) will be 
-stored in the results folder, which belongs in project's root path.
+stored in the 'results' folder, which belongs in project's root path.
 
 4. Betas of linear ranker
 BETA_COS = 1.0;
@@ -75,3 +77,19 @@ VectorSpaceModel.java	Cosine ranker implementation
 
 OTHER:
 log4j2.xml				logger configuration
+
+----------------------
+ClickLogging Work Flow
+----------------------
+
+1. A http handler (LoggingHanlder.java) is created for handling click logging requests. This handler accepts URL pattern "http://<HOST>:<PORT>/logging?query=<QUERY>&sessionid=<SESSION-ID>&docid=<DOCUMENT-ID>", within which query strings "query", "sessionid" and "docid" denote the search query text, the global identifier of the user session (we use UUID to guarantee uniqueness) and the identifier of the document, respectively. The handler builds and appends the click event to the log file.
+
+2. We use http cookies for user session management. When a user submits a query, the query handler checks http headers of the request to see if entry "search-session-id" exists in cookies. If the entry does not exist, which means this is a new user session, the handler generates a new UUID and continues processing the query. If the entry exists, which means it is an existing user session, the handler generates a UUID based on the entry value and continues processing the query.
+
+3. When the server builds the response, it writes the UUID into the cookie entry "search-session-id" of the reponse and sets its "Expire" value to 10 minutes from the current server time. This defines the default 10 minutes user session.The session keeps alive if there are user actions in the 10 minutes interval(server extends the cookie expiration for 10 minutes). Otherwise, the cookie is deleted by the browser and the user session is simply expired. 
+
+4. The server builds the html body of the response, it writes the UUID and query text into two hidden fields and it also writes the document id into the attribute "doc-id" of each link. We also creats a javascript script.
+
+5. The server marks all documents as "render" and writes into the log file. 
+
+6. When the user click a link in browser, the javascript function (created in #4) triggers a JQuery AJAX call(using form values generated on #4) to the logging handler (created on #1) to save the click event before redirect to its href location(empty for now so the page simply reloads itself).
