@@ -31,10 +31,10 @@ class Evaluator {
     readRelevanceJudgments(judgePath, relevanceJudgments);
 
     // now evaluate the results from stdin
-    String output = evaluateStdin(relevanceJudgments);
+    String output = evaluateStdin(relevanceJudgments) + "\n\n";
 
     // Write a file
-    Utility.WriteToFile(output, "hw1.3-unknownRanker.tsv", false);
+//    Utility.WriteToFile(output, "hw1.3-unknownRanker.tsv", true);
 
     // Print it in the terminal...
     System.out.printf(output);

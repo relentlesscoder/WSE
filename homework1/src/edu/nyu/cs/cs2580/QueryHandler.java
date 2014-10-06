@@ -226,7 +226,7 @@ class QueryHandler implements HttpHandler {
               });
 
           // Write the result to file
-          Utility.WriteToFile(convertScoredDocToString(scoredDocuments, query), fileName, false);
+//          Utility.WriteToFile(convertScoredDocToString(scoredDocuments, query), fileName, true);
 
           // Write the log to file
           String log = buildLog(queryMap.get("query"), scoredDocuments);
