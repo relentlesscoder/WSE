@@ -25,6 +25,17 @@ public class Utility {
     return map;
   }
 
+  public static Map<String, String> getCookieMap(String query) {
+    String[] params = query.split(";");
+    Map<String, String> map = new HashMap<String, String>();
+    for (String param : params) {
+      String name = param.split("=")[0];
+      String value = param.split("=")[1];
+      map.put(name, value);
+    }
+    return map;
+  }
+
   public static boolean WriteToFile(String text, String fileName, boolean append) {
     if (text == null || text.isEmpty() || fileName == null
         || fileName.isEmpty()) {

@@ -1,24 +1,38 @@
 package edu.nyu.cs.cs2580;
 
-import com.sun.net.httpserver.Headers;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+import java.util.UUID;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.sun.net.httpserver.Headers;
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
 
 class QueryHandler implements HttpHandler {
 
   private static final Logger logger = LogManager.getLogger(QueryHandler.class);
+  private static final String COOKIE_REQUEST_HEADER = "Cookie";
+  private static final String COOKIE_RESPONSE_HEADER = "Set-cookie";
+  private static final String COOKIE_SESSION_NAME = "search-session-id";
   private static final String LOG_FILE_NAME = "hw1.4-log.tsv";
   private static final String ACTION_RENDER = "render";
-  private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\n$(document).ready(function () {\r\n$(\".clickLoggingTrigger\").click(function () {\r\nvar docId = $(this).attr(\"doc-id\");\r\nvar sessionId = $(\"#divSesstionId\").text();\r\nvar query = $(\"#divQueryText\").text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\n});\r\n});\r\n</script>\r\n</head>\r\n<body>\r\n";
+  private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\r\n<script type=\"text/javascript\">\r\nfunction clickLogging(docId) {\r\nvar sessionId = $('#divSesstionId').text();\r\nvar query = $('#divQueryText').text();\r\nvar url = 'http://' + location.host + '/logging?query=' + encodeURIComponent(query) + '&docId=' + encodeURIComponent(docId) + '&sessionId=' + encodeURIComponent(sessionId);\r\n$.ajax({\r\nurl: url,\r\ntype: 'GET',\r\ncache: false,\r\nasync: false,\r\nstatusCode: {\r\n500: function(){\r\nconsole.log('Server internal error.');\r\n}},\r\nsuccess: function() {\r\nconsole.log('click event logged.');\r\n},\r\nerror: function(){\r\nconsole.log('click event logging failed.');\r\n}});\r\nreturn true;\r\n}\r\n</script>\r\n</head>\r\n<body>\r\n";
   private static final String HTML_FOOTER = "</body>\r\n</html>";
   private static final String QUERY_REQUIRED = "Query is required!\n";
   private static final String RANKER_REQUIRED = "Ranker is required!\n";
@@ -46,22 +60,22 @@ class QueryHandler implements HttpHandler {
     BaseRanker ranker;
 
     switch (rankerType) {
-      case QL:
-        ranker = new LanguageModel(index);
-        break;
-      case PHRASE:
-        ranker = new PhraseRanker(index);
-        break;
-      case LINEAR:
-        ranker = new LinearRanker(index);
-        break;
-      case NUMVIEWS:
-        ranker = new NumviewsRanker(index);
-        break;
-      case COSINE:
-      default:
-        ranker = new VectorSpaceModel(index);
-        break;
+    case QL:
+      ranker = new LanguageModel(index);
+      break;
+    case PHRASE:
+      ranker = new PhraseRanker(index);
+      break;
+    case LINEAR:
+      ranker = new LinearRanker(index);
+      break;
+    case NUMVIEWS:
+      ranker = new NumviewsRanker(index);
+      break;
+    case COSINE:
+    default:
+      ranker = new VectorSpaceModel(index);
+      break;
     }
     return ranker;
   }
@@ -76,7 +90,7 @@ class QueryHandler implements HttpHandler {
   }
 
   private String buildOutput(String queryText,
-                             List<ScoredDocument> scoredDocuments) {
+      List<ScoredDocument> scoredDocuments) {
     logger.debug("Start building output");
     String queryResponse = "";
     Iterator<ScoredDocument> itr = scoredDocuments.iterator();
@@ -111,7 +125,7 @@ class QueryHandler implements HttpHandler {
   }
 
   private String buildHtmlOutput(String queryText,
-                                 List<ScoredDocument> scoredDocuments, UUID sessionId) {
+      List<ScoredDocument> scoredDocuments, UUID sessionId) {
     StringBuilder output = new StringBuilder();
     output.append("<div>Your search for term ");
     output.append(queryText);
@@ -120,9 +134,13 @@ class QueryHandler implements HttpHandler {
     output.append("<div id=\"divSearchContainer\">\r\n");
     for (ScoredDocument scoredDocument : scoredDocuments) {
       output.append("<div id=\"divDocument" + scoredDocument.getDocId()
-          + "\" class=\"clickLoggingTrigger\" doc-id=\""
-          + scoredDocument.getDocId() + "\">\r\n");
-      output.append("<div>" + scoredDocument.getTitle() + "</div>\r\n");
+          + "\">\r\n");
+      output
+          .append("<a href=\"\" onclick=\"return clickLogging($(this).attr('doc-id'));\" doc-id=\""
+              + scoredDocument.getDocId()
+              + "\">"
+              + scoredDocument.getTitle()
+              + "</a>\r\n");
       output.append("<div>" + scoredDocument.getScore() + "</div>\r\n");
       output.append("</div>\r\n");
     }
@@ -134,7 +152,8 @@ class QueryHandler implements HttpHandler {
     return output.toString();
   }
 
-  private String convertScoredDocToString(List<ScoredDocument> scoredDocuments, String query) {
+  private String convertScoredDocToString(List<ScoredDocument> scoredDocuments,
+      String query) {
     StringBuilder sb = new StringBuilder();
 
     for (ScoredDocument scoredDocument : scoredDocuments) {
@@ -155,14 +174,25 @@ class QueryHandler implements HttpHandler {
       return;
     }
 
+    UUID sessionId = null;
     // Print the user request header.
     Headers requestHeaders = exchange.getRequestHeaders();
     System.out.print("Incoming request: ");
     logger.debug("Incoming request: ");
     for (String key : requestHeaders.keySet()) {
       String keyValue = key + ":" + requestHeaders.get(key) + "; ";
+      if (key.equalsIgnoreCase(COOKIE_REQUEST_HEADER)) {
+        Map<String, String> cookieMap = Utility.getCookieMap(requestHeaders
+            .getFirst(key));
+        if (cookieMap.containsKey(COOKIE_SESSION_NAME)) {
+          sessionId = UUID.fromString(cookieMap.get(COOKIE_SESSION_NAME));
+        }
+      }
       System.out.print(keyValue);
       logger.debug(keyValue);
+    }
+    if (sessionId == null) {
+      sessionId = UUID.randomUUID();
     }
     System.out.println();
     String queryResponse = "";
@@ -195,38 +225,36 @@ class QueryHandler implements HttpHandler {
           BaseRanker ranker = initRanker(rankerType);
           scoredDocuments = ranker.runQuery(query);
 
-
           switch (rankerType) {
-            case QL:
-              fileName += "hw1.1-ql.tsv";
-              break;
-            case PHRASE:
-              fileName += "hw1.1-phrase.tsv";
-              break;
-            case LINEAR:
-              fileName += "hw1.1-linear.tsv";
-              break;
-            case NUMVIEWS:
-              fileName += "hw1.1-numviews.tsv";
-              break;
-            case COSINE:
-            default:
-              fileName += "hw1.1-vsm.tsv";
+          case QL:
+            fileName += "hw1.1-ql.tsv";
+            break;
+          case PHRASE:
+            fileName += "hw1.1-phrase.tsv";
+            break;
+          case LINEAR:
+            fileName += "hw1.1-linear.tsv";
+            break;
+          case NUMVIEWS:
+            fileName += "hw1.1-numviews.tsv";
+            break;
+          case COSINE:
+          default:
+            fileName += "hw1.1-vsm.tsv";
           }
 
-
           // Sort the scoredDocument decreasingly
-          Collections.sort(scoredDocuments,
-              new Comparator<ScoredDocument>() {
-                @Override
-                public int compare(ScoredDocument o1, ScoredDocument o2) {
-                  return (o2.getScore() > o1.getScore()) ? 1 : (o2
-                      .getScore() < o1.getScore()) ? -1 : 0;
-                }
-              });
+          Collections.sort(scoredDocuments, new Comparator<ScoredDocument>() {
+            @Override
+            public int compare(ScoredDocument o1, ScoredDocument o2) {
+              return (o2.getScore() > o1.getScore()) ? 1 : (o2.getScore() < o1
+                  .getScore()) ? -1 : 0;
+            }
+          });
 
           // Write the result to file
-//          Utility.WriteToFile(convertScoredDocToString(scoredDocuments, query), fileName, true);
+          // Utility.WriteToFile(convertScoredDocToString(scoredDocuments,
+          // query), fileName, true);
 
           // Write the log to file
           String log = buildLog(queryMap.get("query"), scoredDocuments);
@@ -243,13 +271,21 @@ class QueryHandler implements HttpHandler {
 
         if (format == RESPONSE_FORMAT.HTML) {
           queryResponse += HTML_HEADER;
-          queryResponse += buildHtmlOutput(queryMap.get("query"), scoredDocuments,
-              sessionId);
+          queryResponse += buildHtmlOutput(queryMap.get("query"),
+              scoredDocuments, sessionId);
           queryResponse += HTML_FOOTER;
           Headers responseHeaders = exchange.getResponseHeaders();
           responseHeaders.set("Server", "Java HTTP Search Server");
           responseHeaders.set("Content-Type", "text/html; charset=iso-8859-1");
           responseHeaders.set("Cache-Control", "no-cache");
+          SimpleDateFormat dateFormat = new SimpleDateFormat(
+              "EEE, dd MMM yyyy HH:mm:ss z", Locale.US);
+          dateFormat.setTimeZone(TimeZone.getTimeZone("GMT"));
+          Calendar calendar = Calendar.getInstance();
+          calendar.add(Calendar.MINUTE, 10);
+          responseHeaders.set(COOKIE_RESPONSE_HEADER, "search-session-id="
+              + sessionId + ";Expires=" + dateFormat.format(calendar.getTime())
+              + "Path=/;HttpOnly");
           // responseHeaders.set("Status", "HTTP/1.1 200 OK");
           // responseHeaders.set("Content-Length",
           // Integer.toString(queryResponse.length()));
