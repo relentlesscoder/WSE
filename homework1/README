@@ -8,7 +8,9 @@ run server:  $ chmod u+x start.sh
 			 $ ./start.sh 25806 ./data/corpus.tsv
 
 evaluation:  $ chmod u+x evaluate.sh
-		     $ ./evaluate.sh [URL] ./data/qrel.tsv
+		     $ ./evaluate.sh [URL] ./data/qrels.tsv
+
+note: If you don't have the permission to execute the script, use chmod.
 
 2. Manual:
 
