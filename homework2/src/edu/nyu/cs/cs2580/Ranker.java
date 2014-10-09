@@ -1,66 +1,90 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 import java.util.Vector;
 
-class Ranker implements BaseRanker {
-  private Index index;
+import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
 
-  public Ranker(Index index) {
-    this.index = index;
+/**
+ * This is the abstract Ranker class for all concrete Ranker implementations.
+ *
+ * Use {@link Ranker.Factory} to create your concrete Ranker implementation. Do
+ * NOT change the interface in this class!
+ *
+ * In HW1: {@link RankerFullScan} is the instructor's simple ranker and students
+ * implement four additional concrete Rankers.
+ *
+ * In HW2: students will pick a favorite concrete Ranker other than
+ * {@link RankerPhrase}, and re-implement it using the more efficient
+ * concrete Indexers.
+ *
+ * 2013-02-16: The instructor's code went through substantial refactoring
+ * between HW1 and HW2, students are expected to refactor code accordingly.
+ * Refactoring is a common necessity in real world and part of the learning
+ * experience.
+ *
+ * @author congyu
+ * @author fdiaz
+ */
+public abstract class Ranker {
+  // Options to configure each concrete Ranker.
+  protected Options _options;
+  // CGI arguments user provide through the URL.
+  protected CgiArguments _arguments;
+
+  // The Indexer via which documents are retrieved, see {@code IndexerFullScan}
+  // for a concrete implementation. N.B. Be careful about thread safety here.
+  protected Indexer _indexer;
+
+  /**
+   * Constructor: the construction of the Ranker requires an Indexer.
+   */
+  protected Ranker(Options options, CgiArguments arguments, Indexer indexer) {
+    _options = options;
+    _arguments = arguments;
+    _indexer = indexer;
   }
 
-  public List<ScoredDocument> runQuery(String query) {
-    List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
-    for (int i = 0; i < index.numDocs(); ++i) {
-      retrieval_results.add(scoreDocument(query, i));
+  /**
+   * Processes one query.
+   * @param query the parsed user query
+   * @param numResults number of results to return
+   * @return Up to {@code numResults} scored documents in ranked order
+   */
+  public abstract Vector<ScoredDocument> runQuery(Query query, int numResults);
+
+  /**
+   * All Rankers must be created through this factory class based on the
+   * provided {@code arguments}.
+   */
+  public static class Factory {
+    public static Ranker getRankerByArguments(CgiArguments arguments,
+        Options options, Indexer indexer) {
+      switch (arguments._rankerType) {
+      case FULLSCAN:
+        return new RankerFullScan(options, arguments, indexer);
+      case CONJUNCTIVE:
+        return new RankerConjunctive(options, arguments, indexer);
+      case FAVORITE:
+        return new RankerFavorite(options, arguments, indexer);
+      case COSINE:
+        // Plug in your cosine Ranker
+        break;
+      case QL:
+        // Plug in your QL Ranker
+        break;
+      case PHRASE:
+        // Plug in your phrase Ranker
+        break;
+      case LINEAR:
+        // Plug in your linear Ranker
+        break;
+      case NONE:
+        // Fall through intended
+      default:
+        // Do nothing.
+      }
+      return null;
     }
-
-    return retrieval_results;
-  }
-
-  public ScoredDocument scoreDocument(String query, int did) {
-
-    ScoredDocument scoredDocument = null;
-    // Build query vector
-    Scanner scanner = null;
-    try {
-      scanner = new Scanner(query);
-      Vector<String> queryVector = new Vector<String>();
-      while (scanner.hasNext()) {
-        String term = scanner.next();
-        queryVector.add(term);
-      }
-
-      // Get the document vector. For hw1, you don't have to worry about the
-      // details of how index works.
-      Document document = index.getDoc(did);
-      List<String> documentVector = document.getTitleList();
-
-      // Score the document. Here we have provided a very simple ranking model,
-      // where a document is scored 1.0 if it gets hit by at least one query
-      // term.
-      double score = 0.0;
-      for (int i = 0; i < documentVector.size(); ++i) {
-        for (int j = 0; j < queryVector.size(); ++j) {
-          if (documentVector.get(i).equals(queryVector.get(j))) {
-            score = 1.0;
-            break;
-          }
-        }
-      }
-      scoredDocument = new ScoredDocument(did, document.getTitleStr(),
-          score);
-    } catch (Exception e) {
-      // TODO: handle exception
-    } finally {
-      if (scanner != null) {
-        scanner.close();
-      }
-    }
-
-    return scoredDocument;
   }
 }
