@@ -1,5 +1,7 @@
 package edu.nyu.cs.cs2580;
 
+import com.sun.net.httpserver.HttpServer;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,31 +10,27 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.Executors;
 
-import com.sun.net.httpserver.HttpServer;
-
 /**
  * This is the main entry class for the Search Engine.
- *
+ * <p/>
  * Usage (must be running from the parent directory of src):
- *  0) Compiling
- *   javac src/edu/nyu/cs/cs2580/*.java
- *  1) Indexing
- *   java -cp src edu.nyu.cs.cs2580.SearchEngine \
- *     --mode=index --options=conf/engine.conf
- *  2) Serving
- *   java -cp src -Xmx256m edu.nyu.cs.cs2580.SearchEngine \
- *     --mode=serve --port=[port] --options=conf/engine.conf
- *  3) Searching
- *   http://localhost:[port]/search?query=web&ranker=fullscan
- *
- * @CS2580
- * You must ensure your program runs with maximum heap memory size -Xmx512m.
- * You must use a port number 258XX, where XX is your group number.
- *
- * Students do not need to change this class except to add server options.
+ * 0) Compiling
+ * javac src/edu/nyu/cs/cs2580/*.java
+ * 1) Indexing
+ * java -cp src edu.nyu.cs.cs2580.SearchEngine \
+ * --mode=index --options=conf/engine.conf
+ * 2) Serving
+ * java -cp src -Xmx256m edu.nyu.cs.cs2580.SearchEngine \
+ * --mode=serve --port=[port] --options=conf/engine.conf
+ * 3) Searching
+ * http://localhost:[port]/search?query=web&ranker=fullscan
  *
  * @author congyu
  * @author fdiaz
+ * @CS2580 You must ensure your program runs with maximum heap memory size -Xmx512m.
+ * You must use a port number 258XX, where XX is your group number.
+ * <p/>
+ * Students do not need to change this class except to add server options.
  */
 public class SearchEngine {
 
@@ -45,19 +43,20 @@ public class SearchEngine {
     // HW1: We have only one file, corpus.csv.
     // HW2: We have a partial Wikipedia dump.
     public String _corpusPrefix = null;
-    
+
     // The parent path where the constructed index resides.
     // HW1: n/a
     // HW2: This is where the index is built into and loaded from.
     public String _indexPrefix = null;
-    
+
     // The specific Indexer to be used.
     public String _indexerType = null;
 
     // Additional group specific configuration can be added below.
-    
+
     /**
      * Constructor for options.
+     *
      * @param optionFile where all the options must reside
      * @throws IOException
      */
@@ -79,18 +78,19 @@ public class SearchEngine {
         options.put(vals[0].trim(), vals[1].trim());
       }
       reader.close();
-      
+
       // Populate global options.
       _corpusPrefix = options.get("corpus_prefix");
       Check(_corpusPrefix != null, "Missing option: corpus_prefix!");
       _indexPrefix = options.get("index_prefix");
       Check(_indexPrefix != null, "Missing option: index_prefix!");
-      
+
       // Populate specific options.
       _indexerType = options.get("indexer_type");
       Check(_indexerType != null, "Missing option: indexer_type!");
     }
   }
+
   public static Options OPTIONS = null;
 
   /**
@@ -110,7 +110,8 @@ public class SearchEngine {
     NONE,
     INDEX,
     SERVE,
-  };
+  }
+
   public static Mode MODE = Mode.NONE;
 
   public static int PORT = -1;
@@ -139,16 +140,16 @@ public class SearchEngine {
         "Must provide a valid port number (258XX) in serve mode!");
     Check(OPTIONS != null, "Must provide options!");
   }
-  
+
   ///// Main functionalities start
-  
+
   private static void startIndexing() throws IOException {
     Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS);
     Check(indexer != null,
         "Indexer " + SearchEngine.OPTIONS._indexerType + " not found!");
     indexer.constructIndex();
   }
-  
+
   private static void startServing() throws IOException, ClassNotFoundException {
     // Create the handler and its associated indexer.
     Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS);
@@ -166,19 +167,19 @@ public class SearchEngine {
     System.out.println(
         "Listening on port: " + Integer.toString(SearchEngine.PORT));
   }
-  
+
   public static void main(String[] args) {
     try {
       SearchEngine.parseCommandLine(args);
       switch (SearchEngine.MODE) {
-      case INDEX:
-        startIndexing();
-        break;
-      case SERVE:
-        startServing();
-        break;
-      default:
-        Check(false, "Wrong mode for SearchEngine!");
+        case INDEX:
+          startIndexing();
+          break;
+        case SERVE:
+          startServing();
+          break;
+        default:
+          Check(false, "Wrong mode for SearchEngine!");
       }
     } catch (Exception e) {
       System.err.println(e.getMessage());

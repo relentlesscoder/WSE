@@ -1,21 +1,20 @@
 package edu.nyu.cs.cs2580;
 
+import com.sun.net.httpserver.Headers;
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Vector;
 
-import com.sun.net.httpserver.Headers;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
-
-import edu.nyu.cs.cs2580.SearchEngine.Options;
-
 /**
  * Handles each incoming query, students do not need to change this class except
  * to provide more query time CGI arguments and the HTML output.
- * 
- * N.B. This class is not thread-safe. 
- * 
+ * <p/>
+ * N.B. This class is not thread-safe.
+ *
  * @author congyu
  * @author fdiaz
  */
@@ -31,7 +30,7 @@ class QueryHandler implements HttpHandler {
     public String _query = "";
     // How many results to return
     private int _numResults = 10;
-    
+
     // The type of the ranker we will be using.
     public enum RankerType {
       NONE,
@@ -43,13 +42,15 @@ class QueryHandler implements HttpHandler {
       QL,
       LINEAR,
     }
+
     public RankerType _rankerType = RankerType.NONE;
-    
+
     // The output format.
     public enum OutputFormat {
       TEXT,
       HTML,
     }
+
     public OutputFormat _outputFormat = OutputFormat.TEXT;
 
     public CgiArguments(String uriQuery) {
@@ -162,14 +163,14 @@ class QueryHandler implements HttpHandler {
         ranker.runQuery(processedQuery, cgiArgs._numResults);
     StringBuffer response = new StringBuffer();
     switch (cgiArgs._outputFormat) {
-    case TEXT:
-      constructTextOutput(scoredDocs, response);
-      break;
-    case HTML:
-      // @CS2580: Plug in your HTML output
-      break;
-    default:
-      // nothing
+      case TEXT:
+        constructTextOutput(scoredDocs, response);
+        break;
+      case HTML:
+        // @CS2580: Plug in your HTML output
+        break;
+      default:
+        // nothing
     }
     respondWithMsg(exchange, response.toString());
     System.out.println("Finished query: " + cgiArgs._query);
