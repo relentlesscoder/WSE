@@ -9,7 +9,7 @@ import java.util.*;
 /**
  * @CS2580: Implement this class for HW2.
  */
-public class IndexerInvertedOccurrence extends Indexer {
+public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   // Temporary UID...
   private static final long serialVersionUID = 1L;
 
