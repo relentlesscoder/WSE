@@ -110,8 +110,6 @@ public class IndexerInvertedOccurrence extends Indexer {
         _termCorpusFrequency.put(token, _termCorpusFrequency.get(token) + 1);
       }
 
-      TermOffset termOffset = new TermOffset(docid, offset);
-
       if (invertedIndex.containsKey(token)) {
         // The token exists in the index
         invertedIndex.get(token).add(docid);
@@ -165,7 +163,133 @@ public class IndexerInvertedOccurrence extends Indexer {
    */
   @Override
   public Document nextDoc(Query query, int docid) {
-    return null;
+    List<List<Integer>> queryDocidList = new ArrayList<List<Integer>>();
+    Vector<String> tokens = query._tokens;
+    int tokenSize = tokens.size();
+
+    for (int i = 0; i < tokenSize; i++) {
+      queryDocidList.add(invertedIndex.get(tokens.get(i)));
+    }
+
+    int nextDocid = nextDocid(queryDocidList, docid);
+
+    if (nextDocid != -1) {
+      return _documents.get(nextDocid);
+    } else {
+      return null;
+    }
+  }
+
+  /**
+   * Return the next document ID after the current document ID which satisfying
+   * the query or -1 if no such document exists...
+   * This function uses document at a time retrieval method.
+   *
+   * @param queryDocidList
+   * @param docid
+   * @return the next Document ID after {@code docid} satisfying {@code query} or
+   * -1 if no such document exists.
+   */
+  private int nextDocid(List<List<Integer>> queryDocidList, int docid) {
+    boolean hasFound = true;
+    int largestDocid = -1;
+
+    // For each query term's document ID list, find the largest docId because it
+    // is a reasonable candidate.
+    for (int i = 0; i < queryDocidList.size(); i++) {
+      List<Integer> docidList = queryDocidList.get(i);
+      // Get the next document ID next to the current {@code docid} in the list
+      int nextDocid = getNextDocid(docidList, docid);
+      if (nextDocid == -1) {
+        // The next document ID does not exist... so no next document will be
+        // available.
+        return -1;
+      }
+      largestDocid = Math.max(largestDocid, nextDocid);
+    }
+
+    // Check if the largest document ID satisfy all query terms.
+    for (int i = 0; i < queryDocidList.size(); i++) {
+      List<Integer> docidList = queryDocidList.get(i);
+      if (!hasDocid(docidList, docid)) {
+        // This document ID does not satisfy one of the query term...
+        // Check the next...
+        return nextDocid(queryDocidList, largestDocid);
+      }
+    }
+
+    // If the satisfied document ID has been found, return it.
+    return largestDocid;
+  }
+
+  /**
+   * Return the next document ID after the current document or -1 if no such document
+   * ID exists.
+   *
+   * @param docidList
+   * @param docid
+   * @return
+   */
+  private int getNextDocid(List<Integer> docidList, int docid) {
+    int size = docidList.size();
+
+    // Base case
+    if (size == 0 || docidList.get(size - 2) <= docid) {
+      return -1;
+    }
+
+    if (docidList.get(0) > docid) {
+      return docidList.get(0);
+    }
+
+    // Use binary search for the next document ID right after {@code docid}
+    int low = 0;
+    int high = docidList.size() / 2;
+
+    while (high - low > 1) {
+      int mid = low + (high - low) / 2;
+      int midDocid = docidList.get(mid * 2);
+      if (midDocid <= docid) {
+        low = mid;
+      } else {
+        high = mid;
+      }
+    }
+
+    return docidList.get(high * 2);
+  }
+
+  /**
+   * Return the document ID after the current document or -1 if no such document
+   * ID exists.
+   *
+   * @param docidList
+   * @param docid
+   * @return
+   */
+  private boolean hasDocid(List<Integer> docidList, int docid) {
+    int size = docidList.size();
+
+    if (size == 0 || docidList.get(size - 2) < docid) {
+      return false;
+    }
+
+    // Use binary search to find if the {@code docid} exists in the list
+    int low = 0;
+    int high = docidList.size() / 2;
+
+    while (low <= high) {
+      int mid = low + (high - low) / 2;
+      if (docidList.get(mid * 2) == docid) {
+        return true;
+      } else if (docidList.get(mid * 2) < docid) {
+        low = mid + 1;
+      } else {
+        high = mid - 1;
+      }
+    }
+
+    return false;
   }
 
   @Override
