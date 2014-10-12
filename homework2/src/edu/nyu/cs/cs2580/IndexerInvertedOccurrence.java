@@ -3,8 +3,7 @@ package edu.nyu.cs.cs2580;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -14,9 +13,10 @@ public class IndexerInvertedOccurrence extends Indexer {
   // Temporary UID...
   private static final long serialVersionUID = 1L;
 
-  // Maps each term to the list of doc IDs, occurrences and offsets they appear in
-  private Map<String, List<TermOffset>> invertedIndex =
-      new HashMap<String, List<TermOffset>>();
+  // Inverted index, ket is the term and value is the document ID the term
+  // appears in the corpus with its occurrences and offsets.
+  private Map<String, List<Integer>> invertedIndex =
+      new HashMap<String, List<Integer>>();
 
   // Term frequency, key is the integer representation of the term and value is
   // the number of times the term appears in the corpus.
@@ -48,10 +48,22 @@ public class IndexerInvertedOccurrence extends Indexer {
     }
 
     _numDocs = _documents.size();
+
+    System.out.println(
+        "Indexed " + Integer.toString(_numDocs) + " docs with " +
+            Long.toString(_totalTermFrequency) + " terms.");
+
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Store index to: " + indexFile);
+    ObjectOutputStream writer =
+        new ObjectOutputStream(new FileOutputStream(indexFile));
+    writer.writeObject(this);
+    writer.close();
   }
 
   /**
-   * Process the document file, create the inverted document set its title and URL;
+   * Process the document file, populate the inverted index and store the
+   * document.
    *
    * @param file
    * @param docid
@@ -59,6 +71,7 @@ public class IndexerInvertedOccurrence extends Indexer {
    */
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
+    // TODO: Tmporary way for extract text...
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
@@ -71,17 +84,21 @@ public class IndexerInvertedOccurrence extends Indexer {
     // Populate the inverted index
     readInvertedIndex(title, docid);
     readInvertedIndex(bodyText, docid);
+
+    // TODO: Deal with all the links...
 //    Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
-   * Read the content and populate the inverted index.
+   * Read the content of {@code docid} and populate the inverted index.
    *
    * @param content
    * @param docid
    */
   private void readInvertedIndex(String content, int docid) {
+    // TODO: Tmporary way for extract tokens...
     Scanner scanner = new Scanner(content).useDelimiter("\\s");
+
     int offset = 0;
 
     while (scanner.hasNext()) {
@@ -97,11 +114,14 @@ public class IndexerInvertedOccurrence extends Indexer {
 
       if (invertedIndex.containsKey(token)) {
         // The token exists in the index
-        invertedIndex.get(token).add(termOffset);
+        invertedIndex.get(token).add(docid);
+        invertedIndex.get(token).add(offset);
       } else {
-        // The token does not exist in the index, add it first, then add the docid
-        List<TermOffset> tmpList = new ArrayList<TermOffset>();
-        tmpList.add(termOffset);
+        // The token does not exist in the index, add it first, then add the
+        // docid and the token's offset
+        List<Integer> tmpList = new ArrayList<Integer>();
+        tmpList.add(docid);
+        tmpList.add(offset);
         invertedIndex.put(token, tmpList);
       }
 
@@ -110,18 +130,29 @@ public class IndexerInvertedOccurrence extends Indexer {
     }
   }
 
-  public class TermOffset {
-    public final int docid;
-    public final int offset;
-
-    TermOffset(int docid, int offset) {
-      this.docid = docid;
-      this.offset = offset;
-    }
-  }
-
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Load index from: " + indexFile);
+
+    ObjectInputStream reader =
+        new ObjectInputStream(new FileInputStream(indexFile));
+    IndexerInvertedOccurrence loaded = (IndexerInvertedOccurrence) reader.readObject();
+
+    this._documents = loaded._documents;
+
+    // TODO: What does that mean?
+    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable. -- > ?
+    this._numDocs = _documents.size();
+    for (Integer freq : loaded._termCorpusFrequency.values()) {
+      this._totalTermFrequency += freq;
+    }
+    this.invertedIndex = loaded.invertedIndex;
+    this._termCorpusFrequency = loaded._termCorpusFrequency;
+    reader.close();
+
+    System.out.println(Integer.toString(_numDocs) + " documents loaded " +
+        "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override

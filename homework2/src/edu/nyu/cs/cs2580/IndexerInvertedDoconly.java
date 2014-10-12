@@ -195,7 +195,7 @@ public class IndexerInvertedDoconly extends Indexer {
     for (int i = 0; i < queryDocidList.size(); i++) {
       List<Integer> docidList = queryDocidList.get(i);
       // Get the next document ID next to the current {@code docid} in the list
-      int nextDocid = skipNextTo(docidList, docid);
+      int nextDocid = getNextDocid(docidList, docid);
       if (nextDocid == -1) {
         // The next document ID does not exist... so no next document will be
         // available.
@@ -209,18 +209,13 @@ public class IndexerInvertedDoconly extends Indexer {
       List<Integer> docidList = queryDocidList.get(i);
       if (!hasDocid(docidList, docid)) {
         // This document ID does not satisfy one of the query term...
-        hasFound = false;
-        break;
+        // Check the next...
+        return nextDocid(queryDocidList, largestDocid);
       }
     }
 
-    // If the satisfied document ID has been found, return it. Otherwise check it
-    // again...
-    if (hasFound) {
-      return largestDocid;
-    } else {
-      return nextDocid(queryDocidList, largestDocid);
-    }
+    // If the satisfied document ID has been found, return it.
+    return largestDocid;
   }
 
   /**
@@ -231,11 +226,11 @@ public class IndexerInvertedDoconly extends Indexer {
    * @param docid
    * @return
    */
-  private int skipNextTo(List<Integer> docidList, int docid) {
+  private int getNextDocid(List<Integer> docidList, int docid) {
     int size = docidList.size();
 
     // Base case
-    if (size == 0 || docidList.get(size - 1) < docid) {
+    if (size == 0 || docidList.get(size - 1) <= docid) {
       return -1;
     }
 
@@ -246,6 +241,12 @@ public class IndexerInvertedDoconly extends Indexer {
     // Use binary search for the next document ID right after {@code docid}
     int low = 0;
     int high = docidList.size() - 1;
+
+    // If the docid exists in the document ID list, then set the low to its
+    // index to speed up the search.
+    if (docidList.contains(docid)) {
+      low = docidList.indexOf(docid);
+    }
 
     while (high - low > 1) {
       int mid = low + (high - low) / 2;
