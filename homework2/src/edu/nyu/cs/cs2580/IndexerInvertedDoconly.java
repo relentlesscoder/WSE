@@ -3,8 +3,7 @@ package edu.nyu.cs.cs2580;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
 /**
@@ -14,12 +13,13 @@ public class IndexerInvertedDoconly extends Indexer {
   // Temporary UID...
   private static final long serialVersionUID = 1L;
 
-  // Maps each term to the list of doc IDs they appear in.
+  // Inverted index, ket is the term and value is the list of doc IDs the term
+  // appears in the corpus.
   private Map<String, List<Integer>> invertedIndex =
       new HashMap<String, List<Integer>>();
 
-  // Term frequency, key is the integer representation of the term and value is
-  // the number of times the term appears in the corpus.
+  // Term frequency, key is the term and value is the number of times the term
+  // appears in the corpus.
   private Map<String, Integer> _termCorpusFrequency =
       new HashMap<String, Integer>();
 
@@ -48,10 +48,22 @@ public class IndexerInvertedDoconly extends Indexer {
     }
 
     _numDocs = _documents.size();
+
+    System.out.println(
+        "Indexed " + Integer.toString(_numDocs) + " docs with " +
+            Long.toString(_totalTermFrequency) + " terms.");
+
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Store index to: " + indexFile);
+    ObjectOutputStream writer =
+        new ObjectOutputStream(new FileOutputStream(indexFile));
+    writer.writeObject(this);
+    writer.close();
   }
 
   /**
-   * Process the document file, create the inverted document set its title and URL;
+   * Process the document file, populate the inverted index and store the
+   * document.
    *
    * @param file
    * @param docid
@@ -59,9 +71,11 @@ public class IndexerInvertedDoconly extends Indexer {
    */
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
+    // TODO: Tmporary way for extract text...
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
+    // Create DocumentIndexed and store it
     DocumentIndexed doc = new DocumentIndexed(docid);
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
@@ -71,16 +85,19 @@ public class IndexerInvertedDoconly extends Indexer {
     // Populate the inverted index
     readInvertedIndex(title, docid);
     readInvertedIndex(bodyText, docid);
+
+    // TODO: Deal with all the links...
 //    Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
-   * Read the content and populate the inverted index.
+   * Read the content of the document and populate the inverted index.
    *
    * @param content
    * @param docid
    */
   private void readInvertedIndex(String content, int docid) {
+    // TODO: Tmporary way for extract tokens...
     Scanner scanner = new Scanner(content).useDelimiter("\\s");
 
     while (scanner.hasNext()) {
@@ -94,6 +111,7 @@ public class IndexerInvertedDoconly extends Indexer {
         _termCorpusFrequency.put(token, _termCorpusFrequency.get(token) + 1);
       }
 
+      // Populate the inverted index
       if (invertedIndex.containsKey(token)) {
         // The token exists in the index
         if (!invertedIndex.get(token).contains(docid)) {
@@ -111,6 +129,27 @@ public class IndexerInvertedDoconly extends Indexer {
 
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Load index from: " + indexFile);
+
+    ObjectInputStream reader =
+        new ObjectInputStream(new FileInputStream(indexFile));
+    IndexerInvertedDoconly loaded = (IndexerInvertedDoconly) reader.readObject();
+
+    this._documents = loaded._documents;
+
+    // TODO: What does that mean?
+    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable. -- > ?
+    this._numDocs = _documents.size();
+    for (Integer freq : loaded._termCorpusFrequency.values()) {
+      this._totalTermFrequency += freq;
+    }
+    this.invertedIndex = loaded.invertedIndex;
+    this._termCorpusFrequency = loaded._termCorpusFrequency;
+    reader.close();
+
+    System.out.println(Integer.toString(_numDocs) + " documents loaded " +
+        "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
@@ -118,15 +157,6 @@ public class IndexerInvertedDoconly extends Indexer {
     return _documents.get(docid);
   }
 
-  /**
-   * Return the next document after the current document ID which satisfying
-   * the query or null if no such document exists...
-   *
-   * @param query
-   * @param docid
-   * @return the next Document after {@code docid} satisfying {@code query} or
-   * null if no such document exists.
-   */
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
     List<List<Integer>> queryDocidList = new ArrayList<List<Integer>>();
@@ -149,6 +179,7 @@ public class IndexerInvertedDoconly extends Indexer {
   /**
    * Return the next document ID after the current document ID which satisfying
    * the query or -1 if no such document exists...
+   * This function uses document at a time retrieval method.
    *
    * @param queryDocidList
    * @param docid
@@ -157,30 +188,38 @@ public class IndexerInvertedDoconly extends Indexer {
    */
   private int nextDocid(List<List<Integer>> queryDocidList, int docid) {
     boolean hasFound = true;
-    int highestDocid = -1;
+    int largestDocid = -1;
 
-    //
+    // For each query term's document ID list, find the largest docId because it
+    // is a reasonable candidate.
     for (int i = 0; i < queryDocidList.size(); i++) {
       List<Integer> docidList = queryDocidList.get(i);
+      // Get the next document ID next to the current {@code docid} in the list
       int nextDocid = skipNextTo(docidList, docid);
       if (nextDocid == -1) {
+        // The next document ID does not exist... so no next document will be
+        // available.
         return -1;
       }
-      highestDocid = Math.max(highestDocid, nextDocid);
+      largestDocid = Math.max(largestDocid, nextDocid);
     }
 
+    // Check if the largest document ID satisfy all query terms.
     for (int i = 0; i < queryDocidList.size(); i++) {
       List<Integer> docidList = queryDocidList.get(i);
-      if (skipForwardTo(docidList, docid) == -1) {
+      if (!hasDocid(docidList, docid)) {
+        // This document ID does not satisfy one of the query term...
         hasFound = false;
         break;
       }
     }
 
+    // If the satisfied document ID has been found, return it. Otherwise check it
+    // again...
     if (hasFound) {
-      return highestDocid;
+      return largestDocid;
     } else {
-      return nextDocid(queryDocidList, highestDocid);
+      return nextDocid(queryDocidList, largestDocid);
     }
   }
 
@@ -195,6 +234,7 @@ public class IndexerInvertedDoconly extends Indexer {
   private int skipNextTo(List<Integer> docidList, int docid) {
     int size = docidList.size();
 
+    // Base case
     if (size == 0 || docidList.get(size - 1) < docid) {
       return -1;
     }
@@ -203,6 +243,7 @@ public class IndexerInvertedDoconly extends Indexer {
       return docidList.get(0);
     }
 
+    // Use binary search for the next document ID right after {@code docid}
     int low = 0;
     int high = docidList.size() - 1;
 
@@ -220,36 +261,36 @@ public class IndexerInvertedDoconly extends Indexer {
   }
 
   /**
-   * Return the next document ID after the current document or -1 if no such document
+   * Return the document ID after the current document or -1 if no such document
    * ID exists.
    *
    * @param docidList
    * @param docid
    * @return
    */
-  private int skipForwardTo(List<Integer> docidList, int docid) {
+  private boolean hasDocid(List<Integer> docidList, int docid) {
     int size = docidList.size();
 
     if (size == 0 || docidList.get(size - 1) < docid) {
-      return -1;
+      return false;
     }
 
+    // Use binary search to find if the {@code docid} exists in the list
     int low = 0;
     int high = docidList.size() - 1;
 
-    while (low < high) {
+    while (low <= high) {
       int mid = low + (high - low) / 2;
-      int midDocid = docidList.get(mid);
-      if (midDocid == docid) {
-        return docidList.get(mid);
-      } else if (midDocid < docid) {
+      if (docidList.get(mid) == docid) {
+        return true;
+      } else if (docidList.get(mid) < docid) {
         low = mid + 1;
       } else {
         high = mid - 1;
       }
     }
 
-    return -1;
+    return false;
   }
 
   @Override
