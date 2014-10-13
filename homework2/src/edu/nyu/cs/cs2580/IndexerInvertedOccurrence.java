@@ -37,7 +37,9 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    File folder = new File(_options._corpusPrefix);
+    //TODO: Change it back later...
+    File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
+//    File folder = new File(_options._corpusPrefix);
     File[] listOfFiles = folder.listFiles();
 
     // Process file/document one by one.
@@ -53,7 +55,9 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         "Indexed " + Integer.toString(_numDocs) + " docs with " +
             Long.toString(_totalTermFrequency) + " terms.");
 
-    String indexFile = _options._indexPrefix + "/corpus.idx";
+    //TODO:
+    String indexFile = "./corpus.idx";
+//    String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Store index to: " + indexFile);
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
@@ -82,8 +86,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     _documents.add(doc);
 
     // Populate the inverted index
-    readInvertedIndex(title, docid);
-    readInvertedIndex(bodyText, docid);
+    readInvertedIndex(title + bodyText, docid);
 
     // TODO: Deal with all the links...
 //    Elements links = jsoupDoc.select("a[href]");
@@ -97,7 +100,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
    */
   private void readInvertedIndex(String content, int docid) {
     // TODO: Tmporary way for extract tokens...
-    Scanner scanner = new Scanner(content).useDelimiter("\\s");
+    Scanner scanner = new Scanner(content).useDelimiter("\\W");
 
     int offset = 0;
 

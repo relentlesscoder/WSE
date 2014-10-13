@@ -13,13 +13,20 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Temporary UID...
   private static final long serialVersionUID = 1L;
 
-  // Compressed inverted index, ket is the term and value is the document
+  // Compressed inverted index, key is the term and value is the document
   // ID the term appears in the corpus with its occurrences and offsets.
   private Map<String, List<Byte>> invertedIndex =
       new HashMap<String, List<Byte>>();
 
+  // Key is the term and value is the offsets for each of the documents
+  private Map<String, List<Byte>> docIdOffsetsMap =
+      new HashMap<String, List<Byte>>();
+
   private Map<String, List<Integer>> uncompressedInvertedIndex
       = new HashMap<String, List<Integer>>();
+
+  private Map<String, List<Integer>> uncompressedDocIdOffsetsMap =
+      new HashMap<String, List<Integer>>();
 
   // Term frequency, key is the integer representation of the term and value is
   // the number of times the term appears in the corpus.
@@ -54,8 +61,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Compress...
     populateCompressedInvertedIndex();
+    populateCompressedDocidOffsetMap();
     // Clear the un compressed data...
     uncompressedInvertedIndex.clear();
+    uncompressedDocIdOffsetsMap.clear();
 
     _numDocs = _documents.size();
 
@@ -63,12 +72,26 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         "Indexed " + Integer.toString(_numDocs) + " docs with " +
             Long.toString(_totalTermFrequency) + " terms.");
 
-    String indexFile = "./corpus1.idx";
+    //TODO:
+    String indexFile = "./corpus.idx";
+//    String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Store index to: " + indexFile);
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
+  }
+
+  /**
+   * Populate the compressed docid offset map.
+   */
+  private void populateCompressedDocidOffsetMap() {
+    for (Map.Entry entry : uncompressedDocIdOffsetsMap.entrySet()) {
+      String term = (String) entry.getKey();
+      List<Integer> list = (List<Integer>) entry.getValue();
+      List<Byte> compressedList = vByteEncodingList(list);
+      docIdOffsetsMap.put(term, compressedList);
+    }
   }
 
   /**
@@ -141,18 +164,75 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     for (Map.Entry entry : tmpUncompressedInvertedIndex.entrySet()) {
       String term = (String) entry.getKey();
       List<Integer> termPostingList = (List<Integer>) entry.getValue();
+      List<Integer> tmpOffsetList = new ArrayList<Integer>();
 
       if (uncompressedInvertedIndex.containsKey(term)) {
-        List<Integer> tmpList = new ArrayList<Integer>();
-        tmpList = uncompressedInvertedIndex.get(term);
-        tmpList.addAll(termPostingList);
-        uncompressedInvertedIndex.put(term, tmpList);
+        List<Integer> tmpIndexList = new ArrayList<Integer>();
+        tmpIndexList = uncompressedInvertedIndex.get(term);
+
+        tmpOffsetList = uncompressedDocIdOffsetsMap.get(term);
+
+        tmpOffsetList.add(tmpIndexList.size());
+        tmpIndexList.addAll(termPostingList);
+
+        uncompressedInvertedIndex.put(term, tmpIndexList);
+        uncompressedDocIdOffsetsMap.put(term, tmpOffsetList);
       } else {
+        tmpOffsetList.add(0);
         uncompressedInvertedIndex.put(term, termPostingList);
+        uncompressedDocIdOffsetsMap.put(term, tmpOffsetList);
       }
     }
   }
 
+  /**
+   * Decode a list of Bytes to a list of Integers by using v-byte
+   *
+   * @param byteList
+   * @return
+   */
+  private List<Integer> vByteDecodingList(List<Byte> byteList) {
+    List<Integer> res = new ArrayList<Integer>();
+    int i = 0;
+
+    while (i < byteList.size()) {
+      List<Byte> tmpByteList = new ArrayList<Byte>();
+
+      while (!isEndOfNum(byteList.get(i))) {
+        tmpByteList.add(byteList.get(i));
+        i++;
+      }
+
+      tmpByteList.add(byteList.get(i));
+      i++;
+
+      res.add(vByteDecoding(tmpByteList));
+    }
+
+    return res;
+  }
+
+  /**
+   * Encode a list of Integers to a list of Bytes by using v-byte
+   *
+   * @param list
+   * @return
+   */
+  private List<Byte> vByteEncodingList(List<Integer> list) {
+    List<Byte> res = new ArrayList<Byte>();
+
+    for (int i : list) {
+      res.addAll(vByteEncoding(i));
+    }
+
+    return res;
+  }
+
+  /**
+   * Populate the compressed invertedIndex.
+   * It will compress by using delta instead of index.
+   * Then it will compress by using v-byte encoding.
+   */
   private void populateCompressedInvertedIndex() {
     for (Map.Entry entry : uncompressedInvertedIndex.entrySet()) {
       List<Integer> termInfoList = (List<Integer>) entry.getValue();
@@ -214,6 +294,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Decode a list of bytes to one integer number
+   *
    * @param bytes
    * @return
    */
@@ -229,6 +310,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * End a integer number to a list of 1-4 bytes
+   *
    * @param num
    * @return
    */
@@ -269,11 +351,32 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Load index from: " + indexFile);
+
+    ObjectInputStream reader =
+        new ObjectInputStream(new FileInputStream(indexFile));
+    IndexerInvertedCompressed loaded = (IndexerInvertedCompressed) reader.readObject();
+
+    this._documents = loaded._documents;
+
+    // TODO: What does that mean?
+    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable. -- > ?
+    this._numDocs = _documents.size();
+    for (Integer freq : loaded._termCorpusFrequency.values()) {
+      this._totalTermFrequency += freq;
+    }
+    this.invertedIndex = loaded.invertedIndex;
+    this._termCorpusFrequency = loaded._termCorpusFrequency;
+    reader.close();
+
+    System.out.println(Integer.toString(_numDocs) + " documents loaded " +
+        "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
   public Document getDoc(int docid) {
-    return null;
+    return _documents.get(docid);
   }
 
   /**
@@ -281,17 +384,36 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   @Override
   public Document nextDoc(Query query, int docid) {
+//    List<List<Byte>> queryDocidList = new ArrayList<List<Byte>>();
+//    Vector<String> tokens = query._tokens;
+//    int tokenSize = tokens.size();
+//
+//    for (int i = 0; i < tokenSize; i++) {
+//      queryDocidList.add(invertedIndex.get(tokens.get(i)));
+//    }
+//
+//    int nextDocid = nextDocid(queryDocidList, docid);
+//
+//    if (nextDocid != -1) {
+//      return _documents.get(nextDocid);
+//    } else {
+//      return null;
+//    }
     return null;
   }
 
   @Override
   public int corpusDocFrequencyByTerm(String term) {
-    return 0;
+    if (invertedIndex.containsKey(term)) {
+      return invertedIndex.get(term).size();
+    } else {
+      return 0;
+    }
   }
 
   @Override
   public int corpusTermFrequency(String term) {
-    return 0;
+    return _termCorpusFrequency.get(term);
   }
 
   /**
