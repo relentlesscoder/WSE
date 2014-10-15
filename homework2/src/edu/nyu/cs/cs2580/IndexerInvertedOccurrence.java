@@ -6,9 +6,6 @@ import org.jsoup.Jsoup;
 import java.io.*;
 import java.util.*;
 
-/**
- * @CS2580: Implement this class for HW2.
- */
 public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   // Temporary UID...
   private static final long serialVersionUID = 1L;
@@ -292,9 +289,10 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Return the next position for a term after {@code pos} in a document.
+   *
    * @param term
-   * @param docid
-   * @param pos
+   * @param docid The document ID
+   * @param pos The position of the term in the document
    * @return the next position for the term in the document. If no more term in the
    * next, return -1.
    */
@@ -318,6 +316,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     }
   }
 
+  /**
+   * Find the first docid offset
+   * @param term
+   * @param docid
+   * @return
+   */
   private int firstDocidOffset(String term, int docid) {
     List<Integer> postingList = invertedIndex.get(term);
     int size = postingList.size();

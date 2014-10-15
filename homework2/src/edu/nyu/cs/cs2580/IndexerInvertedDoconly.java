@@ -180,7 +180,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * the query or -1 if no such document exists...
    * This function uses document at a time retrieval method.
    *
-   * @param queryDocidList
+   * @param tokens
    * @param docid
    * @return the next Document ID after {@code docid} satisfying {@code query} or
    * -1 if no such document exists.

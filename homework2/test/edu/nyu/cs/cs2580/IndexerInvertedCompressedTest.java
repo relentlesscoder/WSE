@@ -5,26 +5,33 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
-import static org.junit.Assert.*;
+import static edu.nyu.cs.cs2580.SearchEngine.Options;
 
 public class IndexerInvertedCompressedTest extends TestCase {
-  IndexerInvertedCompressed indexer;
+  String optionStr = "/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/test/edu/nyu/cs/cs2580/engine_compressedIndexer_test.conf";
+  Indexer indexer;
+  Options OPTIONS;
 
   @Before
-  public void setUp() throws Exception {
-    indexer = new IndexerInvertedCompressed();
+  public void setUp() throws IOException {
+    OPTIONS = new Options(optionStr);
+    indexer = Indexer.Factory.getIndexerByOption(OPTIONS);
   }
 
   @After
   public void tearDown() throws Exception {
 
+  }
+
+  @Test
+  public void test1() throws IOException {
+    indexer.constructIndex();
+    Query query = new Query("alaska purchase");
+    query.processQuery();
+    Document document = indexer.nextDoc(query, -1);
+    Document document2 = indexer.nextDoc(query, 11);
+    Document document3 = indexer.nextDoc(query, 12);
   }
 }

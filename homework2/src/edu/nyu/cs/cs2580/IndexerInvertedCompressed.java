@@ -6,9 +6,6 @@ import org.jsoup.Jsoup;
 import java.io.*;
 import java.util.*;
 
-/**
- * @CS2580: Implement this class for HW2.
- */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Temporary UID...
   private static final long serialVersionUID = 1L;
@@ -47,9 +44,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public void constructIndex() throws IOException {
     //TODO: Only for testing locally in the IDE...
-    //    File folder = new File(_options._corpusPrefix);
-    File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
+    File folder = new File(_options._corpusPrefix);
+//    File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
     File[] listOfFiles = folder.listFiles();
+
+    if (listOfFiles == null) {
+      throw new IllegalArgumentException("No files found in: " + folder.getPath());
+    }
 
     // Process file/document one by one.
     for (int docid = 0; docid < listOfFiles.length; docid++) {
@@ -68,8 +69,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
             Long.toString(_totalTermFrequency) + " terms.");
 
     //TODO: Only for testing locally in the IDE...
-    //    String indexFile = _options._indexPrefix + "/corpus.idx";
-    String indexFile = "./corpus.idx";
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+//    String indexFile = "./corpus.idx";
 
     System.out.println("Store index to: " + indexFile);
     ObjectOutputStream writer =
@@ -108,8 +109,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Read the content of {@code docid} and populate the inverted index.
    *
-   * @param content
-   * @param docid
+   * @param content The text content of the html document
+   * @param docid   The document ID
    */
   private void readInvertedIndex(String content, int docid) {
     // Key is the term and value is the posting list
@@ -149,7 +150,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
           // Get the docid offset of the posting list which starts from the end
           // of the existing one
-          tmpDocIdOffsetMap.put(token, docIdOffsetMap.size());
+          tmpDocIdOffsetMap.put(token, invertedIndex.get(token).size());
         } else {
           // This is the first time the token has been seen in the entire index
           List<Integer> tmpList = new ArrayList<Integer>();
@@ -216,7 +217,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * To:
    * List: 0 (docid), 4 (occurrence), 5, 7, 6, 11
    *
-   * @param partialInvertedIndex
+   * @param partialInvertedIndex The partial/temporary inverted index
    */
   private void convertOffsetToDelta(Map<String, List<Integer>> partialInvertedIndex) {
     for (List<Integer> list : partialInvertedIndex.values()) {
@@ -234,24 +235,24 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * If the byte is not the end of a v-byte encoded number, return false.
    * Otherwise return true.
    *
-   * @param b
-   * @return
+   * @param b A byte of v-byte encoded num
+   * @return true if the byte is the last byte of the number, otherwise false.
    */
   private boolean isEndOfNum(byte b) {
     return (b >> 7 & 1) == 1;
   }
 
   /**
-   * Decode a list of bytes to one integer number
+   * Decode a list of byteList to one integer number
    *
-   * @param bytes
-   * @return
+   * @param byteList A list of v-byte encoded bytes which represents a number
+   * @return The decoded number
    */
-  private int vByteDecoding(List<Byte> bytes) {
+  private int vByteDecoding(List<Byte> byteList) {
     StringBuilder sb = new StringBuilder();
 
-    // Append all bytes together
-    for (byte b : bytes) {
+    // Append all byteList together
+    for (byte b : byteList) {
       sb.append(Integer.toBinaryString(b & 255 | 256).substring(2));
     }
 
@@ -262,8 +263,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Encode a integer number to a list of bytes
    *
-   * @param num
-   * @return
+   * @param num The number needed to be encoded
+   * @return a list of v-byte encoded byte represents the input number
    */
   private List<Byte> vByteEncoding(int num) {
     List<Byte> bytes = new ArrayList<Byte>();
@@ -284,7 +285,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Get one byte at a time
     for (int i = 0; i < size; i++) {
-      byte b = 0;
+      byte b;
 
       if (i == 0) {
         end = binaryStr.length() - offset;
@@ -312,8 +313,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Decode a list of Bytes to a list of Integers by using v-byte
    *
-   * @param byteList
-   * @return
+   * @param byteList A list of v-byte encoded bytes which represents a list of number
+   * @return a list of decoded integer numbers
    */
   private List<Integer> vByteDecodingList(List<Byte> byteList) {
     List<Integer> res = new ArrayList<Integer>();
@@ -339,8 +340,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Encode a list of Integers to a list of Bytes by using v-byte
    *
-   * @param list
-   * @return
+   * @param list A list of integer numbers needed to be encoded
+   * @return a list of v-byte encoded bytes
    */
   private List<Byte> vByteEncodingList(List<Integer> list) {
     List<Byte> res = new ArrayList<Byte>();
@@ -389,7 +390,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     Vector<String> tokens = query._tokens;
-    int tokenSize = tokens.size();
 
     int nextDocid = nextCandidateDocid(tokens, docid);
 
@@ -405,8 +405,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * the query or -1 if no such document exists...
    * This function uses document at a time retrieval method.
    *
-   * @param tokens
-   * @param docid
+   * @param tokens A list of tokens
+   * @param docid  The document ID
    * @return the next Document ID after {@code docid} satisfying {@code query} or
    * -1 if no such document exists.
    */
@@ -428,7 +428,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Check if the largest document ID satisfy all query terms.
     for (String term : tokens) {
-      if (!hasDocid(term, docid)) {
+      if (!hasDocid(term, largestDocid)) {
         // This document ID does not satisfy one of the query term...
         // Check the next...
         return nextCandidateDocid(tokens, largestDocid);
@@ -444,19 +444,20 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * ID exists.
    *
    * @param term
-   * @param docid
-   * @return
+   * @param docid The document ID
+   * @return the next document ID after the current document or -1 if no such document
+   * ID exists.
    */
   private int nextDocid(String term, int docid) {
-    List<Byte> docidList = docIdOffsetMap.get(term);
+    List<Integer> docidList = vByteDecodingList(docIdOffsetMap.get(term));
     int size = docidList.size();
 
     // Base case
-    if (size == 0 || getDocidByOffset(term, docidList.get(size - 1)) <= docid) {
+    if (size == 0 || getDocidByOffset(docidList, term, docidList.get(docidList.size() - 1)) <= docid) {
       return -1;
     }
 
-    int firstDocid = getDocidByOffset(term, docidList.get(0));
+    int firstDocid = getDocidByOffset(docidList, term, docidList.get(0));
     if (firstDocid > docid) {
       return firstDocid;
     }
@@ -467,7 +468,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     while (high - low > 1) {
       int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(term, docidList.get(mid));
+      int midDocid = getDocidByOffset(docidList, term, docidList.get(mid));
       if (midDocid <= docid) {
         low = mid;
       } else {
@@ -475,7 +476,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
-    return getDocidByOffset(term, docidList.get(high));
+    return getDocidByOffset(docidList, term, docidList.get(high));
   }
 
   /**
@@ -483,7 +484,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * ID exists.
    *
    * @param term
-   * @param docid
+   * @param docid The document ID
    * @return
    */
   private boolean hasDocid(String term, int docid) {
@@ -492,8 +493,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Get the docid offset of the posting list for the term
+   *
    * @param term
-   * @param docid
+   * @param docid The document ID
    * @return
    */
   private int getDocidOffset(String term, int docid) {
@@ -502,7 +504,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     int size = docidList.size();
 
-    if (size == 0 || getDocidByOffset(term, docidList.get(size - 1)) < docid) {
+    if (size == 0 || getDocidByOffset(docidList, term, docidList.get(size - 1)) < docid) {
       return -1;
     }
 
@@ -512,7 +514,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     while (low <= high) {
       int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(term, docidList.get(mid));
+      int midDocid = getDocidByOffset(docidList, term, docidList.get(mid));
       if (midDocid == docid) {
         return mid;
       } else if (midDocid < docid) {
@@ -527,26 +529,40 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Get the docid from the term's posting list by the offset.
+   *
    * @param term
    * @param offset
    * @return
    */
-  private int getDocidByOffset(String term, int offset) {
+  private int getDocidByOffset(List<Integer> docidList, String term, int offset) {
     List<Byte> byteList = new ArrayList<Byte>();
+    int docid = 0;
+    int count = 0;
+    int i = docidList.get(count);
 
-    while(!isEndOfNum(invertedIndex.get(term).get(offset))) {
-      byteList.add(invertedIndex.get(term).get(offset));
-      offset++;
+    while (i <= offset) {
+      while (!isEndOfNum(invertedIndex.get(term).get(i))) {
+        byteList.add(invertedIndex.get(term).get(i++));
+      }
+      byteList.add(invertedIndex.get(term).get(i));
+      docid += vByteDecoding(byteList);
+      byteList.clear();
+      count++;
+      if(count == docidList.size()) {
+        break;
+      }
+      i = docidList.get(count);
     }
-    return vByteDecoding(byteList);
+
+    return docid;
   }
 
   /**
    * Return the next position for a term after {@code pos} in a document.
    *
    * @param term
-   * @param docid
-   * @param pos
+   * @param docid The document ID
+   * @param pos   The position of the term in the document
    * @return the next position for the term in the document. If no more term in the
    * next, return -1.
    */
