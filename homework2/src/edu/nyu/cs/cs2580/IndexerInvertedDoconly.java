@@ -88,8 +88,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     _documents.add(doc);
 
     // Populate the inverted index
-    readInvertedIndex(title, docid);
-    readInvertedIndex(bodyText, docid);
+    readInvertedIndex(title + " " + bodyText, docid);
 
     // TODO: Deal with all the links...
 //    Elements links = jsoupDoc.select("a[href]");
@@ -164,15 +163,10 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
-    List<List<Integer>> queryDocidList = new ArrayList<List<Integer>>();
     Vector<String> tokens = query._tokens;
     int tokenSize = tokens.size();
 
-    for (int i = 0; i < tokenSize; i++) {
-      queryDocidList.add(invertedIndex.get(tokens.get(i)));
-    }
-
-    int nextDocid = nextDocid(queryDocidList, docid);
+    int nextDocid = nextCandidateDocid(tokens, docid);
 
     if (nextDocid != -1) {
       return _documents.get(nextDocid);
@@ -191,16 +185,14 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * @return the next Document ID after {@code docid} satisfying {@code query} or
    * -1 if no such document exists.
    */
-  private int nextDocid(List<List<Integer>> queryDocidList, int docid) {
-    boolean hasFound = true;
+  private int nextCandidateDocid(Vector<String> tokens, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
     // is a reasonable candidate.
-    for (int i = 0; i < queryDocidList.size(); i++) {
-      List<Integer> docidList = queryDocidList.get(i);
+    for (String term : tokens) {
       // Get the next document ID next to the current {@code docid} in the list
-      int nextDocid = getNextDocid(docidList, docid);
+      int nextDocid = nextDocid(term, docid);
       if (nextDocid == -1) {
         // The next document ID does not exist... so no next document will be
         // available.
@@ -210,12 +202,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     }
 
     // Check if the largest document ID satisfy all query terms.
-    for (int i = 0; i < queryDocidList.size(); i++) {
-      List<Integer> docidList = queryDocidList.get(i);
-      if (!hasDocid(docidList, docid)) {
+    for (String term : tokens) {
+      if (!hasDocid(term, docid)) {
         // This document ID does not satisfy one of the query term...
         // Check the next...
-        return nextDocid(queryDocidList, largestDocid);
+        return nextCandidateDocid(tokens, largestDocid);
       }
     }
 
@@ -224,14 +215,15 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document ID after the current document or -1 if no such document
+   * Return the next document ID after the current document ID, or -1 if no such document
    * ID exists.
    *
-   * @param docidList
+   * @param term
    * @param docid
    * @return
    */
-  private int getNextDocid(List<Integer> docidList, int docid) {
+  private int nextDocid(String term, int docid) {
+    List<Integer> docidList = invertedIndex.get(term);
     int size = docidList.size();
 
     // Base case
@@ -243,7 +235,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
       return docidList.get(0);
     }
 
-    // Use binary search for the next document ID right after {@code docid}
+    // Use binary search to get the next document ID right after {@code docid}
     int low = 0;
     int high = docidList.size() - 1;
 
@@ -270,11 +262,12 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * Return the document ID after the current document or -1 if no such document
    * ID exists.
    *
-   * @param docidList
+   * @param term
    * @param docid
    * @return
    */
-  private boolean hasDocid(List<Integer> docidList, int docid) {
+  private boolean hasDocid(String term, int docid) {
+    List<Integer> docidList = invertedIndex.get(term);
     int size = docidList.size();
 
     if (size == 0 || docidList.get(size - 1) < docid) {

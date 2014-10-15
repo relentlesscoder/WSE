@@ -82,7 +82,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * Process the document file, populate the inverted index and store the
    * document.
    *
-   * @param file a file waiting for indexing
+   * @param file  a file waiting for indexing
    * @param docid the file's document ID
    * @throws IOException
    */
@@ -117,7 +117,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Key is the term and value is the offset for the docid in the posting list
     Map<String, Integer> tmpDocIdOffsetMap = new HashMap<String, Integer>();
 
-    int offsetOfDoc = 0;
+    int position = 0;
 
     // TODO: Temporary. Need a better tokenizer and stemming later...
     Scanner scanner = new Scanner(content).useDelimiter("\\W");
@@ -132,7 +132,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         // Update the occurrence
         tmpInvertedIndex.get(token).set(1, occurs + 1);
         // Add the offset of this token
-        tmpInvertedIndex.get(token).add(offsetOfDoc);
+        tmpInvertedIndex.get(token).add(position);
       } else {
         // This is the first time the token has been seen in the document
         if (invertedIndex.containsKey(token)) {
@@ -144,7 +144,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           int deltaDocid = docid - prevDocid;
           tmpList.add(deltaDocid);
           tmpList.add(1);
-          tmpList.add(offsetOfDoc);
+          tmpList.add(position);
           tmpInvertedIndex.put(token, tmpList);
 
           // Get the docid offset of the posting list which starts from the end
@@ -157,7 +157,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           // the delta.
           tmpList.add(docid);
           tmpList.add(1);
-          tmpList.add(offsetOfDoc);
+          tmpList.add(position);
           tmpInvertedIndex.put(token, tmpList);
 
           // Get the docid offset of the posting list which shall be the first
@@ -172,7 +172,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       _totalTermFrequency++;
-      offsetOfDoc++;
+      position++;
     }
 
     // Convert all offset of the posting list to deltas for compression
@@ -388,23 +388,147 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   @Override
   public Document nextDoc(Query query, int docid) {
-    //TODO:
-//    List<List<Byte>> queryDocidList = new ArrayList<List<Byte>>();
-//    Vector<String> tokens = query._tokens;
-//    int tokenSize = tokens.size();
-//
-//    for (int i = 0; i < tokenSize; i++) {
-//      queryDocidList.add(invertedIndex.get(tokens.get(i)));
-//    }
-//
-//    int nextDocid = nextDocid(queryDocidList, docid);
-//
-//    if (nextDocid != -1) {
-//      return _documents.get(nextDocid);
-//    } else {
-//      return null;
-//    }
-    return null;
+    Vector<String> tokens = query._tokens;
+    int tokenSize = tokens.size();
+
+    int nextDocid = nextCandidateDocid(tokens, docid);
+
+    if (nextDocid != -1) {
+      return _documents.get(nextDocid);
+    } else {
+      return null;
+    }
+  }
+
+  /**
+   * Return the next document ID after the current document ID which satisfying
+   * the query or -1 if no such document exists...
+   * This function uses document at a time retrieval method.
+   *
+   * @param tokens
+   * @param docid
+   * @return the next Document ID after {@code docid} satisfying {@code query} or
+   * -1 if no such document exists.
+   */
+  private int nextCandidateDocid(Vector<String> tokens, int docid) {
+    int largestDocid = -1;
+
+    // For each query term's document ID list, find the largest docId because it
+    // is a reasonable candidate.
+    for (String term : tokens) {
+      // Get the next document ID next to the current {@code docid} in the list
+      int nextDocid = nextDocid(term, docid);
+      if (nextDocid == -1) {
+        // The next document ID does not exist... so no next document will be
+        // available.
+        return -1;
+      }
+      largestDocid = Math.max(largestDocid, nextDocid);
+    }
+
+    // Check if the largest document ID satisfy all query terms.
+    for (String term : tokens) {
+      if (!hasDocid(term, docid)) {
+        // This document ID does not satisfy one of the query term...
+        // Check the next...
+        return nextCandidateDocid(tokens, largestDocid);
+      }
+    }
+
+    // If the satisfied document ID has been found, return it.
+    return largestDocid;
+  }
+
+  /**
+   * Return the next document ID after the current document or -1 if no such document
+   * ID exists.
+   *
+   * @param term
+   * @param docid
+   * @return
+   */
+  private int nextDocid(String term, int docid) {
+    List<Byte> docidList = invertedIndex.get(term);
+    int size = docidList.size();
+
+    // Base case
+    if (size == 0 || getDocidByOffset(term, docidList.get(size - 1)) <= docid) {
+      return -1;
+    }
+
+    int firstDocid = getDocidByOffset(term, docidList.get(0));
+    if (firstDocid > docid) {
+      return firstDocid;
+    }
+
+    // Use binary search for the next document ID right after {@code docid}
+    int low = 0;
+    int high = docidList.size();
+
+    while (high - low > 1) {
+      int mid = low + (high - low) / 2;
+      int midDocid = getDocidByOffset(term, docidList.get(mid));
+      if (midDocid <= docid) {
+        low = mid;
+      } else {
+        high = mid;
+      }
+    }
+
+    return getDocidByOffset(term, docidList.get(high));
+  }
+
+  /**
+   * Return the document ID after the current document or -1 if no such document
+   * ID exists.
+   *
+   * @param term
+   * @param docid
+   * @return
+   */
+  private boolean hasDocid(String term, int docid) {
+    List<Byte> docidUncompressedList = invertedIndex.get(term);
+    List<Integer> docidList = vByteDecodingList(docidUncompressedList);
+
+    int size = docidList.size();
+
+    if (size == 0 || getDocidByOffset(term, docidList.get(size - 1)) < docid) {
+      return false;
+    }
+
+    // Use binary search to find if the {@code docid} exists in the list
+    int low = 0;
+    int high = docidList.size();
+
+    while (low <= high) {
+      int mid = low + (high - low) / 2;
+      int midDocid = getDocidByOffset(term, docidList.get(mid));
+      if (midDocid == docid) {
+        return true;
+      } else if (midDocid < docid) {
+        low = mid + 1;
+      } else {
+        high = mid - 1;
+      }
+    }
+
+    return false;
+  }
+
+  /**
+   * Get the docid from the trm's posting list by the offset.
+   * @param term
+   * @param offset
+   * @return
+   */
+  private int getDocidByOffset(String term, int offset) {
+    List<Byte> byteList = new ArrayList<Byte>();
+
+    while(!isEndOfNum(invertedIndex.get(term).get(offset))) {
+      byteList.add(invertedIndex.get(term).get(offset));
+      offset++;
+    }
+    return vByteDecoding(byteList);
   }
 
   @Override
