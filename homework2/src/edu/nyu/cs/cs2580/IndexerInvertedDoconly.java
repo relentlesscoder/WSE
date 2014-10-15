@@ -37,9 +37,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    //TODO: Change it back later...
+    //TODO: Only for testing locally in the IDE...
+    //    File folder = new File(_options._corpusPrefix);
     File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
-//    File folder = new File(_options._corpusPrefix);
     File[] listOfFiles = folder.listFiles();
 
     // Process file/document one by one.
@@ -55,9 +55,10 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         "Indexed " + Integer.toString(_numDocs) + " docs with " +
             Long.toString(_totalTermFrequency) + " terms.");
 
-    //TODO:
+    //TODO: Only for testing locally in the IDE...
+    //    String indexFile = _options._indexPrefix + "/corpus.idx";
     String indexFile = "./corpus.idx";
-//    String indexFile = _options._indexPrefix + "/corpus.idx";
+
     System.out.println("Store index to: " + indexFile);
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
@@ -101,7 +102,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * @param docid
    */
   private void readInvertedIndex(String content, int docid) {
-    // TODO: Tmporary way for extract tokens...
+    // TODO: Temporary. Need a better tokenizer and stemming later...
     Scanner scanner = new Scanner(content).useDelimiter("\\W");
 
     while (scanner.hasNext()) {
