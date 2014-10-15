@@ -448,7 +448,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return
    */
   private int nextDocid(String term, int docid) {
-    List<Byte> docidList = invertedIndex.get(term);
+    List<Byte> docidList = docIdOffsetMap.get(term);
     int size = docidList.size();
 
     // Base case
@@ -487,13 +487,23 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return
    */
   private boolean hasDocid(String term, int docid) {
-    List<Byte> docidUncompressedList = invertedIndex.get(term);
+    return getDocidOffset(term, docid) != -1;
+  }
+
+  /**
+   * Get the docid offset of the posting list for the term
+   * @param term
+   * @param docid
+   * @return
+   */
+  private int getDocidOffset(String term, int docid) {
+    List<Byte> docidUncompressedList = docIdOffsetMap.get(term);
     List<Integer> docidList = vByteDecodingList(docidUncompressedList);
 
     int size = docidList.size();
 
     if (size == 0 || getDocidByOffset(term, docidList.get(size - 1)) < docid) {
-      return false;
+      return -1;
     }
 
     // Use binary search to find if the {@code docid} exists in the list
@@ -504,7 +514,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       int mid = low + (high - low) / 2;
       int midDocid = getDocidByOffset(term, docidList.get(mid));
       if (midDocid == docid) {
-        return true;
+        return mid;
       } else if (midDocid < docid) {
         low = mid + 1;
       } else {
@@ -512,11 +522,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
-    return false;
+    return -1;
   }
 
   /**
-   * Get the docid from the trm's posting list by the offset.
+   * Get the docid from the term's posting list by the offset.
    * @param term
    * @param offset
    * @return
@@ -529,6 +539,52 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       offset++;
     }
     return vByteDecoding(byteList);
+  }
+
+  /**
+   * Return the next position for a term after {@code pos} in a document.
+   *
+   * @param term
+   * @param docid
+   * @param pos
+   * @return the next position for the term in the document. If no more term in the
+   * next, return -1.
+   */
+  public int nextPos(String term, int docid, int pos) {
+    List<Byte> postingList = invertedIndex.get(term);
+    List<Byte> tmpList = new ArrayList<Byte>();
+    int offset = getDocidOffset(term, docid);
+    int occur = -1;
+    int currPos = -1;
+
+    // Skip the doc id first
+    while (!isEndOfNum(postingList.get(offset++))) {
+    }
+
+    // Get the occurs
+    while (!isEndOfNum(postingList.get(offset))) {
+      tmpList.add(postingList.get(offset++));
+    }
+    tmpList.add(postingList.get(offset++));
+    occur = vByteDecoding(tmpList);
+    tmpList.clear();
+
+    for (int i = 0; i < occur; i++) {
+      // Get the occurs
+      while (!isEndOfNum(postingList.get(offset))) {
+        tmpList.add(postingList.get(offset++));
+      }
+      tmpList.add(postingList.get(offset++));
+      currPos = vByteDecoding(tmpList);
+      tmpList.clear();
+
+      if (currPos > pos) {
+        return currPos;
+      }
+    }
+
+    // No more term...
+    return currPos;
   }
 
   @Override
