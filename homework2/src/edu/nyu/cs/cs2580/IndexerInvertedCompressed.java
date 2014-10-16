@@ -401,91 +401,91 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     return _documents.get(docid);
   }
 
-  /**
-   * In HW2, you should be using {@link DocumentIndexed}
-   */
   @Override
   public Document nextDoc(Query query, int docid) {
-    Vector<String> tokens = query._tokens;
+    Vector<String> queryTerms = query._tokens;
 
-    int nextDocid = nextCandidateDocid(tokens, docid);
+    // Get the next docid which satisfies the query terms
+    int nextDocid = nextCandidateDocid(queryTerms, docid);
 
-    if (nextDocid != -1) {
-      return _documents.get(nextDocid);
-    } else {
-      return null;
-    }
+    return nextDocid == -1 ? null : _documents.get(nextDocid);
   }
 
   /**
-   * Return the next document ID after the current document ID which satisfying
-   * the query or -1 if no such document exists...
+   * Return the next docid which satisfies the query terms, if none of such docid
+   * can be found, return -1.
+   * <p/>
    * This function uses document at a time retrieval method.
    *
-   * @param tokens A list of tokens
-   * @param docid  The document ID
-   * @return the next Document ID after {@code docid} satisfying {@code query} or
-   * -1 if no such document exists.
+   * @param queryTerms A list of query terms
+   * @param docid      The document ID
+   * @return the next docid right after {@code docid} satisfying {@code queryTerms}
+   * or -1 if no such document exists.
    */
-  private int nextCandidateDocid(Vector<String> tokens, int docid) {
+  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
     // is a reasonable candidate.
-    for (String term : tokens) {
+    for (String term : queryTerms) {
       // Get the next document ID next to the current {@code docid} in the list
       int nextDocid = nextDocid(term, docid);
       if (nextDocid == -1) {
-        // The next document ID does not exist... so no next document will be
-        // available.
+        // The next document ID does not exist...
         return -1;
       }
       largestDocid = Math.max(largestDocid, nextDocid);
     }
 
     // Check if the largest document ID satisfy all query terms.
-    for (String term : tokens) {
+    for (String term : queryTerms) {
       if (!hasDocid(term, largestDocid)) {
-        // This document ID does not satisfy one of the query term...
-        // Check the next...
-        return nextCandidateDocid(tokens, largestDocid);
+        // The largest docid does not satisfy this term, hence check the next
+        return nextCandidateDocid(queryTerms, largestDocid);
       }
     }
 
-    // If the satisfied document ID has been found, return it.
+    // If the satisfied docid has been found, return it.
     return largestDocid;
   }
 
   /**
-   * Return the next document ID after the current document or -1 if no such document
-   * ID exists.
+   * Return the next docid after the current one of the posting list, or -1
+   * if no such docid exists.
    *
-   * @param term
+   * @param term  The term...
    * @param docid The document ID
    * @return the next document ID after the current document or -1 if no such document
    * ID exists.
    */
   private int nextDocid(String term, int docid) {
-    List<Integer> docidList = vByteDecodingList(postingListOffsetMap.get(term));
-    int size = docidList.size();
+    // Get the decoded posting list
+    List<Integer> postingList = vByteDecodingList(postingListOffsetMap.get(term));
+    int size = postingList.size();
 
-    // Base case
-    if (size == 0 || getDocidByOffset(docidList, term, docidList.get(docidList.size() - 1)) <= docid) {
+    // Base case.
+    // If the size is 0 or the last docid of the posting list is smaller
+    // than the current docid, return -1.
+    int lastDocid =
+        getDocidByOffset(postingList, term, postingList.get(size - 1));
+    if (size == 0 || lastDocid <= docid) {
       return -1;
     }
 
-    int firstDocid = getDocidByOffset(docidList, term, docidList.get(0));
+    // If first docid of the posting list is larger than the current docid, just
+    // return the first docid.
+    int firstDocid = getDocidByOffset(postingList, term, postingList.get(0));
     if (firstDocid > docid) {
       return firstDocid;
     }
 
-    // Use binary search for the next document ID right after {@code docid}
+    // Use binary search to get the docid right after the current {@code docid}
     int low = 0;
-    int high = docidList.size();
+    int high = postingList.size() - 1;
 
     while (high - low > 1) {
       int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(docidList, term, docidList.get(mid));
+      int midDocid = getDocidByOffset(postingList, term, postingList.get(mid));
       if (midDocid <= docid) {
         low = mid;
       } else {
@@ -493,16 +493,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
-    return getDocidByOffset(docidList, term, docidList.get(high));
+    return getDocidByOffset(postingList, term, postingList.get(high));
   }
 
   /**
-   * Return the document ID after the current document or -1 if no such document
-   * ID exists.
+   * Check if the docid exists in the term's posting list.
    *
-   * @param term
+   * @param term  The term...
    * @param docid The document ID
-   * @return
+   * @return true if the docid exists in the term's posting list, otherwise false
    */
   private boolean hasDocid(String term, int docid) {
     return getDocidOffset(term, docid) != -1;
@@ -511,27 +510,29 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Get the docid offset of the posting list for the term
    *
-   * @param term
+   * @param term  The term...
    * @param docid The document ID
-   * @return
+   * @return the docid offset of the posting list.
    */
   private int getDocidOffset(String term, int docid) {
     List<Byte> docidUncompressedList = postingListOffsetMap.get(term);
-    List<Integer> docidList = vByteDecodingList(docidUncompressedList);
+    List<Integer> postingList = vByteDecodingList(docidUncompressedList);
 
-    int size = docidList.size();
+    int size = postingList.size();
 
-    if (size == 0 || getDocidByOffset(docidList, term, docidList.get(size - 1)) < docid) {
+    int lastDocid =
+        getDocidByOffset(postingList, term, postingList.get(size - 1)) ;
+    if (size == 0 || lastDocid < docid) {
       return -1;
     }
 
     // Use binary search to find if the {@code docid} exists in the list
     int low = 0;
-    int high = docidList.size();
+    int high = postingList.size() - 1;
 
     while (low <= high) {
       int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(docidList, term, docidList.get(mid));
+      int midDocid = getDocidByOffset(postingList, term, postingList.get(mid));
       if (midDocid == docid) {
         return mid;
       } else if (midDocid < docid) {
@@ -547,9 +548,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Get the docid from the term's posting list by the offset.
    *
-   * @param term
-   * @param offset
-   * @return
+   * @param term   The term...
+   * @param offset The offset of the docid
+   * @return the docid
    */
   private int getDocidByOffset(List<Integer> docidList, String term, int offset) {
     List<Byte> byteList = new ArrayList<Byte>();
@@ -557,27 +558,28 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     int count = 0;
     int i = docidList.get(count);
 
+    // Get all previous docid delta to calculate the docid
     while (i <= offset) {
       while (!isEndOfNum(invertedIndex.get(term).get(i))) {
         byteList.add(invertedIndex.get(term).get(i++));
       }
       byteList.add(invertedIndex.get(term).get(i));
       docid += vByteDecoding(byteList);
-      byteList.clear();
+
       count++;
       if (count == docidList.size()) {
         break;
       }
+      byteList.clear();
       i = docidList.get(count);
     }
-
     return docid;
   }
 
   /**
    * Return the next position for a term after {@code pos} in a document.
    *
-   * @param term
+   * @param term  The term...
    * @param docid The document ID
    * @param pos   The position of the term in the document
    * @return the next position for the term in the document. If no more term in the
