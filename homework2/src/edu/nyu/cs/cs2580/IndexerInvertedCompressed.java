@@ -71,13 +71,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
 
-    int pos1 = nextPos("alaska", 12, -1);
-    int pos2 = nextPos("alaska", 12, pos1);
-//    ObjectOutputStream writer =
-//        new ObjectOutputStream(new FileOutputStream(indexFile));
-//    writer.writeObject(this);
-//    writer.close();
-//    System.out.println("Mission completed :)");
+    ObjectOutputStream writer =
+        new ObjectOutputStream(new FileOutputStream(indexFile));
+    writer.writeObject(this);
+    writer.close();
+    System.out.println("Mission completed :)");
   }
 
   /**
@@ -461,6 +459,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * ID exists.
    */
   private int nextDocid(String term, int docid) {
+    if (!invertedIndex.containsKey(term)) {
+      return -1;
+    }
+
     // Get the decoded posting list
     List<Integer> postingList = vByteDecodingList(postingListOffsetMap.get(term));
     int size = postingList.size();
@@ -588,19 +590,22 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * next, return -1.
    */
   public int nextPos(String term, int docid, int pos) {
-    List<Integer> docidList = vByteDecodingList(postingListOffsetMap.get(term));
+    if (!invertedIndex.containsKey(term)) {
+      return -1;
+    }
+
+    // Get the decompressed docidOffsetList
+    List<Integer> docidOffsetList = vByteDecodingList(postingListOffsetMap.get(term));
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> tmpList = new ArrayList<Byte>();
-    int offset = docidList.get(getDocidOffset(term, docid));
+    int offset = docidOffsetList.get(getDocidOffset(term, docid));
 
     int occur = -1;
-    int currPos = -1;
+    int currPos = 0;
 
     // Skip the doc id first
-    while (!isEndOfNum(postingList.get(offset))) {
-      offset++;
+    while (!isEndOfNum(postingList.get(offset++))) {
     }
-    offset++;
 
     // Get the occurs
     while (!isEndOfNum(postingList.get(offset))) {
@@ -616,7 +621,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         tmpList.add(postingList.get(offset++));
       }
       tmpList.add(postingList.get(offset++));
-      currPos = vByteDecoding(tmpList);
+      currPos += vByteDecoding(tmpList);
       tmpList.clear();
 
       if (currPos > pos) {
