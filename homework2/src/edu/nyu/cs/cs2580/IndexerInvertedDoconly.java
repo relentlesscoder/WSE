@@ -1,10 +1,22 @@
 package edu.nyu.cs.cs2580;
 
-import edu.nyu.cs.cs2580.SearchEngine.Options;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
+
 import org.jsoup.Jsoup;
 
-import java.io.*;
-import java.util.*;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 /**
  * @CS2580: Implement this class for HW2.
@@ -15,13 +27,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   // Inverted index, ket is the term and value is the list of doc IDs the term
   // appears in the corpus.
-  private Map<String, List<Integer>> invertedIndex =
-      new HashMap<String, List<Integer>>();
+  private Map<String, List<Integer>> invertedIndex = new HashMap<String, List<Integer>>();
 
   // Term frequency, key is the term and value is the number of times the term
   // appears in the corpus.
-  private Map<String, Integer> _termCorpusFrequency =
-      new HashMap<String, Integer>();
+  private Map<String, Integer> _termCorpusFrequency = new HashMap<String, Integer>();
 
   // Stores all Document in memory.
   private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
@@ -37,9 +47,10 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    //TODO: Change it back later...
-    File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
-//    File folder = new File(_options._corpusPrefix);
+    // TODO: Change it back later...
+    File folder = new File(
+        "/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
+    // File folder = new File(_options._corpusPrefix);
     File[] listOfFiles = folder.listFiles();
 
     // Process file/document one by one.
@@ -51,16 +62,15 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
     _numDocs = _documents.size();
 
-    System.out.println(
-        "Indexed " + Integer.toString(_numDocs) + " docs with " +
-            Long.toString(_totalTermFrequency) + " terms.");
+    System.out.println("Indexed " + Integer.toString(_numDocs) + " docs with "
+        + Long.toString(_totalTermFrequency) + " terms.");
 
-    //TODO:
+    // TODO:
     String indexFile = "./corpus.idx";
-//    String indexFile = _options._indexPrefix + "/corpus.idx";
+    // String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Store index to: " + indexFile);
-    ObjectOutputStream writer =
-        new ObjectOutputStream(new FileOutputStream(indexFile));
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+        indexFile));
     writer.writeObject(this);
     writer.close();
   }
@@ -68,7 +78,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   /**
    * Process the document file, populate the inverted index and store the
    * document.
-   *
+   * 
    * @param file
    * @param docid
    * @throws IOException
@@ -91,21 +101,22 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     readInvertedIndex(bodyText, docid);
 
     // TODO: Deal with all the links...
-//    Elements links = jsoupDoc.select("a[href]");
+    // Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
    * Read the content of the document and populate the inverted index.
-   *
+   * 
    * @param content
    * @param docid
    */
   private void readInvertedIndex(String content, int docid) {
     // TODO: Tmporary way for extract tokens...
-    Scanner scanner = new Scanner(content).useDelimiter("\\W");
+    // Scanner scanner = new Scanner(content).useDelimiter("\\W");
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
 
-    while (scanner.hasNext()) {
-      String token = scanner.next();
+    while (tokenizer.hasNext()) {
+      String token = tokenizer.getText();
 
       _totalTermFrequency++;
 
@@ -123,7 +134,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
           invertedIndex.get(token).add(docid);
         }
       } else {
-        // The token does not exist in the index, add it first, then add the docid
+        // The token does not exist in the index, add it first, then add the
+        // docid
         List<Integer> tmpList = new ArrayList<Integer>();
         tmpList.add(docid);
         invertedIndex.put(token, tmpList);
@@ -136,14 +148,16 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Load index from: " + indexFile);
 
-    ObjectInputStream reader =
-        new ObjectInputStream(new FileInputStream(indexFile));
-    IndexerInvertedDoconly loaded = (IndexerInvertedDoconly) reader.readObject();
+    ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
+        indexFile));
+    IndexerInvertedDoconly loaded = (IndexerInvertedDoconly) reader
+        .readObject();
 
     this._documents = loaded._documents;
 
     // TODO: What does that mean?
-    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable. -- > ?
+    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
+    // -- > ?
     this._numDocs = _documents.size();
     for (Integer freq : loaded._termCorpusFrequency.values()) {
       this._totalTermFrequency += freq;
@@ -152,8 +166,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
 
-    System.out.println(Integer.toString(_numDocs) + " documents loaded " +
-        "with " + Long.toString(_totalTermFrequency) + " terms!");
+    System.out.println(Integer.toString(_numDocs) + " documents loaded "
+        + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
@@ -182,13 +196,13 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   /**
    * Return the next document ID after the current document ID which satisfying
-   * the query or -1 if no such document exists...
-   * This function uses document at a time retrieval method.
-   *
+   * the query or -1 if no such document exists... This function uses document
+   * at a time retrieval method.
+   * 
    * @param queryDocidList
    * @param docid
-   * @return the next Document ID after {@code docid} satisfying {@code query} or
-   * -1 if no such document exists.
+   * @return the next Document ID after {@code docid} satisfying {@code query}
+   *         or -1 if no such document exists.
    */
   private int nextDocid(List<List<Integer>> queryDocidList, int docid) {
     boolean hasFound = true;
@@ -223,9 +237,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document ID after the current document or -1 if no such document
-   * ID exists.
-   *
+   * Return the next document ID after the current document or -1 if no such
+   * document ID exists.
+   * 
    * @param docidList
    * @param docid
    * @return
@@ -268,7 +282,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   /**
    * Return the document ID after the current document or -1 if no such document
    * ID exists.
-   *
+   * 
    * @param docidList
    * @param docid
    * @return
