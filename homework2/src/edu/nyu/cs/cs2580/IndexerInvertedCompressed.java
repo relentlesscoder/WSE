@@ -94,7 +94,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String title = jsoupDoc.title();
 
     // Create the document and store it.
-    DocumentIndexed doc = new DocumentIndexed(docid);
+    DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
     _documents.add(doc);
