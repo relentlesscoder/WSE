@@ -5,18 +5,16 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.IOException;
+import static org.junit.Assert.*;
 
-import static edu.nyu.cs.cs2580.SearchEngine.Options;
-
-public class IndexerInvertedCompressedTest extends TestCase {
-  String optionStr = "homework2/test/edu/nyu/cs/cs2580/engine_compressedIndexer_test.conf";
+public class IndexerInvertedOccurrenceTest extends TestCase {
+  String optionStr = "homework2/test/edu/nyu/cs/cs2580/engine_occurrenceIndexer_test.conf";
   Indexer indexer;
-  Options OPTIONS;
+  SearchEngine.Options OPTIONS;
 
   @Before
-  public void setUp() throws IOException {
-    OPTIONS = new Options(optionStr);
+  public void setUp() throws Exception {
+    OPTIONS = new SearchEngine.Options(optionStr);
     indexer = Indexer.Factory.getIndexerByOption(OPTIONS);
   }
 
@@ -26,7 +24,7 @@ public class IndexerInvertedCompressedTest extends TestCase {
   }
 
   @Test
-  public void test1() throws IOException {
+  public void testNextDoc() throws Exception {
     indexer.constructIndex();
     Query query = new Query("alaska purchase");
     query.processQuery();

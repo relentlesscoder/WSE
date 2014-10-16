@@ -1,10 +1,17 @@
 package edu.nyu.cs.cs2580;
 
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multiset;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import java.io.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 /**
  * This is the compressed inverted indexer...
@@ -14,13 +21,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   // Compressed inverted index.
   // Key is the term and value is the compressed posting list.
-  private Map<String, List<Byte>> invertedIndex =
-      new HashMap<String, List<Byte>>();
+  private ListMultimap<String, Byte> invertedIndex = ArrayListMultimap.create();
 
   // The offset of each docid of the posting list for each term.
   // Key is the term and value is the offsets for each of docid in the posting list.
-  private Map<String, List<Byte>> postingListOffsetMap =
-      new HashMap<String, List<Byte>>();
+  private ListMultimap<String, Byte> postingListOffsetMap = ArrayListMultimap.create();
 
   // The last/previous docid of the posting list.
   // Key is the term and value is the last/previous docid of the posting list.
@@ -29,8 +34,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   // Term frequency across whole corpus.
   // key is the term and value is the frequency of the term across the whole corpus.
-  private Map<String, Integer> _termCorpusFrequency =
-      new HashMap<String, Integer>();
+  private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
 
@@ -54,8 +58,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       throw new NullPointerException("No files found in: " + folder.getPath());
     }
 
+    System.out.println("Start indexing...");
+    // Set the start time stamp and the progress bar
+    long startTimeStamp = System.currentTimeMillis();
+    ProgressBar progressBar = new ProgressBar();
+
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
+      // Update the progress bar first :)
+      progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
     }
 
@@ -63,6 +74,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Clear the previous document ID map since it's no longer needed...
     lastDocid.clear();
+
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Complete indexing...");
+    System.out.println("Total time: " + Util.convertMillis(duration));
 
     System.out.println("Indexed " + Integer.toString(_numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
@@ -115,8 +130,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void populateInvertedIndex(String content, int docid) {
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
-    Map<String, List<Integer>> tmpInvertedIndex =
-        new HashMap<String, List<Integer>>();
+    ListMultimap<String, Integer> tmpInvertedIndex = ArrayListMultimap.create();
 
     // The offset of the current docid of the posting list for each term.
     // Key is the term and value is the offsets for each of docid in the posting list.
@@ -148,14 +162,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         tmpInvertedIndex.get(term).add(position);
       } else {
         // This is the first time the term has been seen in the document
-        List<Integer> tmpList = new ArrayList<Integer>();
         if (invertedIndex.containsKey(term)) {
           // The inverted index has already seen the term in previous documents
 
           // Get the last/previous docid of the term's posting list
           int prevDocid = lastDocid.get(term);
           int deltaDocid = docid - prevDocid;
-          tmpList.add(deltaDocid);
+          tmpInvertedIndex.get(term).add(deltaDocid);
 
           // Get the offset for this docid of the posting list, store it temporarily.
           // It should be right after the last docid id of the posting list.
@@ -165,23 +178,18 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
           // No need to calculate the delta since it's the first docid of the posting list.
           // the delta.
-          tmpList.add(docid);
+          tmpInvertedIndex.get(term).add(docid);
 
           // Get the offset for this docid of the posting list, store it temporarily.
           // It should the first docid id of the posting list.
           tmpPostingListOffsetMap.put(term, 0);
         }
-        tmpList.add(1);
-        tmpList.add(position);
-        tmpInvertedIndex.put(term, tmpList);
+        tmpInvertedIndex.get(term).add(1);
+        tmpInvertedIndex.get(term).add(position);
       }
 
       // Update the termCorpusFrequency
-      if (!_termCorpusFrequency.containsKey(term)) {
-        _termCorpusFrequency.put(term, 1);
-      } else {
-        _termCorpusFrequency.put(term, _termCorpusFrequency.get(term) + 1);
-      }
+      _termCorpusFrequency.add(term);
 
       // Update the totalTermFrequency
       _totalTermFrequency++;
@@ -211,23 +219,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       // Encode the posting list
       List<Byte> partialPostingList = vByteEncodingList(tmpInvertedIndex.get(term));
 
-      if (invertedIndex.containsKey(term)) {
-        // Update the docidOffsetMap for the term
-        List<Byte> byteList = postingListOffsetMap.get(term);
-        byteList.addAll(vByteEncoding(offset));
-        postingListOffsetMap.put(term, byteList);
+      // Update the docidOffsetMap for the term
+      postingListOffsetMap.get(term).addAll(vByteEncoding(offset));
 
-        // Append the posting list to a existing one
-        List<Byte> postingList = invertedIndex.get(term);
-        postingList.addAll(partialPostingList);
-        invertedIndex.put(term, postingList);
-      } else {
-        // Set the initial offset for the term in docidOffsetMap
-        postingListOffsetMap.put(term, vByteEncoding(offset));
+      // Append the posting list if one exists, otherwise create one first :)
+      invertedIndex.get(term).addAll(partialPostingList);
 
-        // Set the initial posting list for the term
-        invertedIndex.put(term, partialPostingList);
-      }
     }
   }
 
@@ -239,8 +236,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    *
    * @param partialInvertedIndex The partial/temporary inverted index
    */
-  private void convertPositionToDelta(Map<String, List<Integer>> partialInvertedIndex) {
-    for (List<Integer> list : partialInvertedIndex.values()) {
+  private void convertPositionToDelta(ListMultimap<String, Integer> partialInvertedIndex) {
+    for (String term : partialInvertedIndex.keySet()) {
+      List<Integer> list = partialInvertedIndex.get(term);
       if (list.get(1) > 1) {
         for (int i = list.size() - 1; i > 2; i--) {
           int offset = list.get(i);
@@ -381,12 +379,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     this._documents = loaded._documents;
 
-    // TODO: What does that mean?
-    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable. -- > ?
+    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
     this._numDocs = _documents.size();
-    for (Integer freq : loaded._termCorpusFrequency.values()) {
-      this._totalTermFrequency += freq;
-    }
+    this._totalTermFrequency = loaded._termCorpusFrequency.size();
+
     this.invertedIndex = loaded.invertedIndex;
     this.postingListOffsetMap = loaded.postingListOffsetMap;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
@@ -414,7 +410,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Return the next docid which satisfies the query terms, if none of such docid
    * can be found, return -1.
-   * <p/>
    * This function uses document at a time retrieval method.
    *
    * @param queryTerms A list of query terms
@@ -644,7 +639,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public int corpusTermFrequency(String term) {
-    return _termCorpusFrequency.get(term);
+    return _termCorpusFrequency.count(term);
   }
 
   /**

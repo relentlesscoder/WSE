@@ -1,5 +1,9 @@
 package edu.nyu.cs.cs2580;
 
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multiset;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
@@ -11,13 +15,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   // Inverted index.
   // Key is the term and value is the compressed posting list.
-  private Map<String, List<Integer>> invertedIndex =
-      new HashMap<String, List<Integer>>();
+  private ListMultimap<String, Integer> invertedIndex = ArrayListMultimap.create();
 
   // Term frequency across whole corpus.
   // key is the term and value is the frequency of the term across the whole corpus.
-  private Map<String, Integer> _termCorpusFrequency =
-      new HashMap<String, Integer>();
+  private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
 
@@ -41,12 +43,23 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
       throw new NullPointerException("No files found in: " + folder.getPath());
     }
 
+    System.out.println("Start indexing...");
+    // Set the start time stamp and the progress bar
+    long startTimeStamp = System.currentTimeMillis();
+    ProgressBar progressBar = new ProgressBar();
+
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
+      // Update the progress bar first :)
+      progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
     }
 
     _numDocs = _documents.size();
+
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Complete indexing...");
+    System.out.println("Total time: " + Util.convertMillis(duration));
 
     System.out.println("Indexed " + Integer.toString(_numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
@@ -109,11 +122,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
       _totalTermFrequency++;
 
-      if (!_termCorpusFrequency.containsKey(term)) {
-        _termCorpusFrequency.put(term, 1);
-      } else {
-        _termCorpusFrequency.put(term, _termCorpusFrequency.get(term) + 1);
-      }
+      // Update the termCorpusFrequency
+      _termCorpusFrequency.add(term);
 
       // Populate the inverted index
       if (invertedIndex.containsKey(term)) {
@@ -124,9 +134,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         }
       } else {
         // The token does not exist in the index, add it first, then add the docid
-        List<Integer> tmpList = new ArrayList<Integer>();
-        tmpList.add(docid);
-        invertedIndex.put(term, tmpList);
+        invertedIndex.get(term).add(docid);
       }
     }
   }
@@ -145,9 +153,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     // TODO: What does that mean?
     // Compute numDocs and totalTermFrequency b/c Indexer is not serializable. -- > ?
     this._numDocs = _documents.size();
-    for (Integer freq : loaded._termCorpusFrequency.values()) {
-      this._totalTermFrequency += freq;
-    }
+    this._totalTermFrequency = loaded._termCorpusFrequency.size();
+
     this.invertedIndex = loaded.invertedIndex;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
@@ -164,7 +171,6 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
     Vector<String> tokens = query._tokens;
-    int tokenSize = tokens.size();
 
     int nextDocid = nextCandidateDocid(tokens, docid);
 
@@ -176,21 +182,21 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document ID after the current document ID which satisfying
-   * the query or -1 if no such document exists...
+   * Return the next docid which satisfies the query terms, if none of such docid
+   * can be found, return -1.
    * This function uses document at a time retrieval method.
    *
-   * @param tokens
-   * @param docid
-   * @return the next Document ID after {@code docid} satisfying {@code query} or
-   * -1 if no such document exists.
+   * @param queryTerms A list of query terms
+   * @param docid      The document ID
+   * @return the next docid right after {@code docid} satisfying {@code queryTerms}
+   * or -1 if no such document exists.
    */
-  private int nextCandidateDocid(Vector<String> tokens, int docid) {
+  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
     // is a reasonable candidate.
-    for (String term : tokens) {
+    for (String term : queryTerms) {
       // Get the next document ID next to the current {@code docid} in the list
       int nextDocid = nextDocid(term, docid);
       if (nextDocid == -1) {
@@ -202,11 +208,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     }
 
     // Check if the largest document ID satisfy all query terms.
-    for (String term : tokens) {
+    for (String term : queryTerms) {
       if (!hasDocid(term, docid)) {
         // This document ID does not satisfy one of the query term...
         // Check the next...
-        return nextCandidateDocid(tokens, largestDocid);
+        return nextCandidateDocid(queryTerms, largestDocid);
       }
     }
 
@@ -215,12 +221,13 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document ID after the current document ID, or -1 if no such document
-   * ID exists.
+   * Return the next docid after the current one of the posting list, or -1
+   * if no such docid exists.
    *
-   * @param term
-   * @param docid
-   * @return
+   * @param term  The term...
+   * @param docid The document ID
+   * @return the next document ID after the current document or -1 if no such document
+   * ID exists.
    */
   private int nextDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -259,12 +266,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the document ID after the current document or -1 if no such document
-   * ID exists.
+   * Check if the docid exists in the term's posting list.
    *
-   * @param term
-   * @param docid
-   * @return
+   * @param term  The term...
+   * @param docid The document ID
+   * @return true if the docid exists in the term's posting list, otherwise false
    */
   private boolean hasDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -303,7 +309,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public int corpusTermFrequency(String term) {
-    return _termCorpusFrequency.get(term);
+    return _termCorpusFrequency.count(term);
   }
 
   @Override
