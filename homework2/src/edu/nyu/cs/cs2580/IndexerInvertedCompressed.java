@@ -71,11 +71,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
 
-    ObjectOutputStream writer =
-        new ObjectOutputStream(new FileOutputStream(indexFile));
-    writer.writeObject(this);
-    writer.close();
-    System.out.println("Mission completed :)");
+    int pos1 = nextPos("alaska", 12, -1);
+    int pos2 = nextPos("alaska", 12, pos1);
+//    ObjectOutputStream writer =
+//        new ObjectOutputStream(new FileOutputStream(indexFile));
+//    writer.writeObject(this);
+//    writer.close();
+//    System.out.println("Mission completed :)");
   }
 
   /**
@@ -516,23 +518,23 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private int getDocidOffset(String term, int docid) {
     List<Byte> docidUncompressedList = postingListOffsetMap.get(term);
-    List<Integer> postingList = vByteDecodingList(docidUncompressedList);
+    List<Integer> docidOffsetList = vByteDecodingList(docidUncompressedList);
 
-    int size = postingList.size();
+    int size = docidOffsetList.size();
 
     int lastDocid =
-        getDocidByOffset(postingList, term, postingList.get(size - 1)) ;
+        getDocidByOffset(docidOffsetList, term, docidOffsetList.get(size - 1)) ;
     if (size == 0 || lastDocid < docid) {
       return -1;
     }
 
     // Use binary search to find if the {@code docid} exists in the list
     int low = 0;
-    int high = postingList.size() - 1;
+    int high = docidOffsetList.size() - 1;
 
     while (low <= high) {
       int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(postingList, term, postingList.get(mid));
+      int midDocid = getDocidByOffset(docidOffsetList, term, docidOffsetList.get(mid));
       if (midDocid == docid) {
         return mid;
       } else if (midDocid < docid) {
@@ -586,15 +588,19 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * next, return -1.
    */
   public int nextPos(String term, int docid, int pos) {
+    List<Integer> docidList = vByteDecodingList(postingListOffsetMap.get(term));
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> tmpList = new ArrayList<Byte>();
-    int offset = getDocidOffset(term, docid);
+    int offset = docidList.get(getDocidOffset(term, docid));
+
     int occur = -1;
     int currPos = -1;
 
     // Skip the doc id first
-    while (!isEndOfNum(postingList.get(offset++))) {
+    while (!isEndOfNum(postingList.get(offset))) {
+      offset++;
     }
+    offset++;
 
     // Get the occurs
     while (!isEndOfNum(postingList.get(offset))) {

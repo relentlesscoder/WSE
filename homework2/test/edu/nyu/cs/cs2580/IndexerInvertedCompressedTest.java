@@ -30,8 +30,10 @@ public class IndexerInvertedCompressedTest extends TestCase {
     indexer.constructIndex();
     Query query = new Query("alaska purchase");
     query.processQuery();
-    Document document = indexer.nextDoc(query, -1);
-    Document document2 = indexer.nextDoc(query, 11);
-    Document document3 = indexer.nextDoc(query, 12);
+    Document document1 = indexer.nextDoc(query, -1);
+    Document document2 = indexer.nextDoc(query, document1._docid);
+    Document document3 = indexer.nextDoc(query, document2._docid);
+    Document document4 = indexer.nextDoc(query, document3._docid);
+//    int pos1 = indexer.nextPos("alaska", document2._docid, -1);
   }
 }
