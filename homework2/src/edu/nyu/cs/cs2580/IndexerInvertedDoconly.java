@@ -6,24 +6,19 @@ import org.jsoup.Jsoup;
 import java.io.*;
 import java.util.*;
 
-/**
- * @CS2580: Implement this class for HW2.
- */
 public class IndexerInvertedDoconly extends Indexer implements Serializable {
-  // Temporary UID...
   private static final long serialVersionUID = 1L;
 
-  // Inverted index, ket is the term and value is the list of doc IDs the term
-  // appears in the corpus.
+  // Inverted index.
+  // Key is the term and value is the compressed posting list.
   private Map<String, List<Integer>> invertedIndex =
       new HashMap<String, List<Integer>>();
 
-  // Term frequency, key is the term and value is the number of times the term
-  // appears in the corpus.
+  // Term frequency across whole corpus.
+  // key is the term and value is the frequency of the term across the whole corpus.
   private Map<String, Integer> _termCorpusFrequency =
       new HashMap<String, Integer>();
 
-  // Stores all Document in memory.
   private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
 
   // Provided for serialization
@@ -37,96 +32,101 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    //TODO: Only for testing locally in the IDE...
-    //    File folder = new File(_options._corpusPrefix);
-    File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
-    File[] listOfFiles = folder.listFiles();
+    // Get all files first
+    File folder = new File(_options._corpusPrefix);
+    File[] files = folder.listFiles();
 
-    // Process file/document one by one.
-    for (int docid = 0; docid < listOfFiles.length; docid++) {
-      if (listOfFiles[docid].isFile()) {
-        processDocument(listOfFiles[docid], docid);
-      }
+    if (files == null) {
+      // If no files found, throws the exception...
+      throw new NullPointerException("No files found in: " + folder.getPath());
+    }
+
+    // Process file/document one by one and assign each of them a unique docid
+    for (int docid = 0; docid < files.length; docid++) {
+      processDocument(files[docid], docid);
     }
 
     _numDocs = _documents.size();
 
-    System.out.println(
-        "Indexed " + Integer.toString(_numDocs) + " docs with " +
-            Long.toString(_totalTermFrequency) + " terms.");
+    System.out.println("Indexed " + Integer.toString(_numDocs)
+        + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
-    //TODO: Only for testing locally in the IDE...
-    //    String indexFile = _options._indexPrefix + "/corpus.idx";
-    String indexFile = "./corpus.idx";
+    // Write to file
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Storing index to: " + indexFile);
 
-    System.out.println("Store index to: " + indexFile);
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
+    System.out.println("Mission completed :)");
   }
 
   /**
-   * Process the document file, populate the inverted index and store the
-   * document.
+   * Process the document.
+   * First store the document, then populate the inverted index.
    *
-   * @param file
-   * @param docid
+   * @param file  The file waiting to be indexed.
+   * @param docid The file's document ID.
    * @throws IOException
    */
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
-    // TODO: Tmporary way for extract text...
+
+    // TODO: Temporary way for extracting the text and tile from the html file.
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
-    // Create DocumentIndexed and store it
+    // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid);
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
-
     _documents.add(doc);
 
     // Populate the inverted index
-    readInvertedIndex(title + " " + bodyText, docid);
+    populateInvertedIndex(title + " " + bodyText, docid);
 
     // TODO: Deal with all the links...
 //    Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
-   * Read the content of the document and populate the inverted index.
+   * Populate the inverted index.
    *
-   * @param content
-   * @param docid
+   * @param content The text content of the html document.
+   * @param docid   The document ID.
    */
-  private void readInvertedIndex(String content, int docid) {
-    // TODO: Temporary. Need a better tokenizer and stemming later...
+  private void populateInvertedIndex(String content, int docid) {
+    // TODO: Temporary. Need a better tokenizer...
     Scanner scanner = new Scanner(content).useDelimiter("\\W");
 
     while (scanner.hasNext()) {
-      String token = scanner.next();
+      // TODO: Temporary. Need stemming...
+      String term = scanner.next().toLowerCase();
+      if (term.equals("")) {
+        continue;
+      }
 
       _totalTermFrequency++;
 
-      if (!_termCorpusFrequency.containsKey(token)) {
-        _termCorpusFrequency.put(token, 1);
+      if (!_termCorpusFrequency.containsKey(term)) {
+        _termCorpusFrequency.put(term, 1);
       } else {
-        _termCorpusFrequency.put(token, _termCorpusFrequency.get(token) + 1);
+        _termCorpusFrequency.put(term, _termCorpusFrequency.get(term) + 1);
       }
 
       // Populate the inverted index
-      if (invertedIndex.containsKey(token)) {
+      if (invertedIndex.containsKey(term)) {
         // The token exists in the index
-        if (!invertedIndex.get(token).contains(docid)) {
+        if (!invertedIndex.get(term).contains(docid)) {
           // The docid does not exist in the index for the token, add it in.
-          invertedIndex.get(token).add(docid);
+          invertedIndex.get(term).add(docid);
         }
       } else {
         // The token does not exist in the index, add it first, then add the docid
         List<Integer> tmpList = new ArrayList<Integer>();
         tmpList.add(docid);
-        invertedIndex.put(token, tmpList);
+        invertedIndex.put(term, tmpList);
       }
     }
   }

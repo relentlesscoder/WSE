@@ -6,30 +6,32 @@ import org.jsoup.Jsoup;
 import java.io.*;
 import java.util.*;
 
+/**
+ * This is the compressed inverted indexer...
+ */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
-  // Temporary UID...
   private static final long serialVersionUID = 1L;
 
-  // Compressed inverted index, key is the term and value is the document
-  // ID the term appears in the corpus with its occurrences and offsets.
+  // Compressed inverted index.
+  // Key is the term and value is the compressed posting list.
   private Map<String, List<Byte>> invertedIndex =
       new HashMap<String, List<Byte>>();
 
-  // Key is the term and value is the offsets for each of the document ID in
-  // the inverted index
-  private Map<String, List<Byte>> docIdOffsetMap =
+  // The offset of each docid of the posting list for each term.
+  // Key is the term and value is the offsets for each of docid in the posting list.
+  private Map<String, List<Byte>> postingListOffsetMap =
       new HashMap<String, List<Byte>>();
 
-  // Key is the term and value is the previous docid of that term.
-  // This is used to construct the index and will be cleared at the end.
-  Map<String, Integer> prevDocidMap = new HashMap<String, Integer>();
+  // The last/previous docid of the posting list.
+  // Key is the term and value is the last/previous docid of the posting list.
+  // This is used to construct the index and will be cleared after the process.
+  Map<String, Integer> lastDocid = new HashMap<String, Integer>();
 
-  // Term frequency, key is the integer representation of the term and value is
-  // the number of times the term appears in the corpus.
+  // Term frequency across whole corpus.
+  // key is the term and value is the frequency of the term across the whole corpus.
   private Map<String, Integer> _termCorpusFrequency =
       new HashMap<String, Integer>();
 
-  // Stores all Document in memory.
   private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
 
   // Provided for serialization
@@ -43,165 +45,185 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    //TODO: Only for testing locally in the IDE...
+    // Get all files first
     File folder = new File(_options._corpusPrefix);
-//    File folder = new File("/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
-    File[] listOfFiles = folder.listFiles();
+    File[] files = folder.listFiles();
 
-    if (listOfFiles == null) {
-      throw new IllegalArgumentException("No files found in: " + folder.getPath());
+    if (files == null) {
+      // If no files found, throws the exception...
+      throw new NullPointerException("No files found in: " + folder.getPath());
     }
 
-    // Process file/document one by one.
-    for (int docid = 0; docid < listOfFiles.length; docid++) {
-      if (listOfFiles[docid].isFile()) {
-        processDocument(listOfFiles[docid], docid);
-      }
+    // Process file/document one by one and assign each of them a unique docid
+    for (int docid = 0; docid < files.length; docid++) {
+      processDocument(files[docid], docid);
     }
 
     _numDocs = _documents.size();
 
     // Clear the previous document ID map since it's no longer needed...
-    prevDocidMap.clear();
+    lastDocid.clear();
 
-    System.out.println(
-        "Indexed " + Integer.toString(_numDocs) + " docs with " +
-            Long.toString(_totalTermFrequency) + " terms.");
+    System.out.println("Indexed " + Integer.toString(_numDocs)
+        + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
-    //TODO: Only for testing locally in the IDE...
+    // Write to file
     String indexFile = _options._indexPrefix + "/corpus.idx";
-//    String indexFile = "./corpus.idx";
+    System.out.println("Storing index to: " + indexFile);
 
-    System.out.println("Store index to: " + indexFile);
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
+    System.out.println("Mission completed :)");
   }
 
   /**
-   * Process the document file, populate the inverted index and store the
-   * document.
+   * Process the document.
+   * First store the document, then populate the inverted index.
    *
-   * @param file  a file waiting for indexing
-   * @param docid the file's document ID
+   * @param file  The file waiting to be indexed.
+   * @param docid The file's document ID.
    * @throws IOException
    */
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
-    // TODO: Tmporary way for extract text...
+
+    // TODO: Temporary way for extracting the text and tile from the html file.
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
+    // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid);
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
-
     _documents.add(doc);
 
-    // Populate the inverted index
-    readInvertedIndex(title + " " + bodyText, docid);
+    // Populate the inverted index.
+    populateInvertedIndex(title + " " + bodyText, docid);
 
-    // TODO: Deal with all the links...
+    // TODO: Deal with all the links later...
 //    Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
-   * Read the content of {@code docid} and populate the inverted index.
+   * Populate the inverted index.
    *
-   * @param content The text content of the html document
-   * @param docid   The document ID
+   * @param content The text content of the html document.
+   * @param docid   The document ID.
    */
-  private void readInvertedIndex(String content, int docid) {
-    // Key is the term and value is the posting list
-    Map<String, List<Integer>> tmpInvertedIndex = new HashMap<String, List<Integer>>();
-    // Key is the term and value is the offset for the docid in the posting list
-    Map<String, Integer> tmpDocIdOffsetMap = new HashMap<String, Integer>();
+  private void populateInvertedIndex(String content, int docid) {
+    // Uncompressed temporary inverted index.
+    // Key is the term and value is the uncompressed posting list.
+    Map<String, List<Integer>> tmpInvertedIndex =
+        new HashMap<String, List<Integer>>();
+
+    // The offset of the current docid of the posting list for each term.
+    // Key is the term and value is the offsets for each of docid in the posting list.
+    Map<String, Integer> tmpPostingListOffsetMap =
+        new HashMap<String, Integer>();
 
     int position = 0;
 
-    // TODO: Temporary. Need a better tokenizer and stemming later...
+    // TODO: Temporary. Need a better tokenizer...
     Scanner scanner = new Scanner(content).useDelimiter("\\W");
 
-    // Deal with each token first
+    /**************************************************************************
+     * Start to process the document one term at a time.
+     *************************************************************************/
     while (scanner.hasNext()) {
-      String token = scanner.next().toLowerCase();
+      // TODO: Temporary. Need stemming...
+      String term = scanner.next().toLowerCase();
+      if (term.equals("")) {
+        continue;
+      }
 
-      if (tmpInvertedIndex.containsKey(token)) {
-        // The token has already been seen at least once in the document.
-        int occurs = tmpInvertedIndex.get(token).get(1);
+      // Populate the temporary inverted index.
+      if (tmpInvertedIndex.containsKey(term)) {
+        // The term has already been seen at least once in the document.
+        int occurs = tmpInvertedIndex.get(term).get(1);
         // Update the occurrence
-        tmpInvertedIndex.get(token).set(1, occurs + 1);
-        // Add the offset of this token
-        tmpInvertedIndex.get(token).add(position);
+        tmpInvertedIndex.get(term).set(1, occurs + 1);
+        // Add the position of this term
+        tmpInvertedIndex.get(term).add(position);
       } else {
-        // This is the first time the token has been seen in the document
-        if (invertedIndex.containsKey(token)) {
-          // The inverted index already has the token in other previous documents
-          List<Integer> tmpList = new ArrayList<Integer>();
-          // Get the docid of the previous document containing this token
-          int prevDocid = prevDocidMap.get(token);
-          // Get the delta for this document
+        // This is the first time the term has been seen in the document
+        List<Integer> tmpList = new ArrayList<Integer>();
+        if (invertedIndex.containsKey(term)) {
+          // The inverted index has already seen the term in previous documents
+
+          // Get the last/previous docid of the term's posting list
+          int prevDocid = lastDocid.get(term);
           int deltaDocid = docid - prevDocid;
           tmpList.add(deltaDocid);
-          tmpList.add(1);
-          tmpList.add(position);
-          tmpInvertedIndex.put(token, tmpList);
 
-          // Get the docid offset of the posting list which starts from the end
-          // of the existing one
-          tmpDocIdOffsetMap.put(token, invertedIndex.get(token).size());
+          // Get the offset for this docid of the posting list, store it temporarily.
+          // It should be right after the last docid id of the posting list.
+          tmpPostingListOffsetMap.put(term, invertedIndex.get(term).size());
         } else {
-          // This is the first time the token has been seen in the entire index
-          List<Integer> tmpList = new ArrayList<Integer>();
-          // Since this is the first document in the posting list, no need to calculate
+          // The inverted index hasn't seen the term in previous documents
+
+          // No need to calculate the delta since it's the first docid of the posting list.
           // the delta.
           tmpList.add(docid);
-          tmpList.add(1);
-          tmpList.add(position);
-          tmpInvertedIndex.put(token, tmpList);
 
-          // Get the docid offset of the posting list which shall be the first
-          tmpDocIdOffsetMap.put(token, 0);
+          // Get the offset for this docid of the posting list, store it temporarily.
+          // It should the first docid id of the posting list.
+          tmpPostingListOffsetMap.put(term, 0);
         }
+        tmpList.add(1);
+        tmpList.add(position);
+        tmpInvertedIndex.put(term, tmpList);
       }
 
-      if (!_termCorpusFrequency.containsKey(token)) {
-        _termCorpusFrequency.put(token, 1);
+      // Update the termCorpusFrequency
+      if (!_termCorpusFrequency.containsKey(term)) {
+        _termCorpusFrequency.put(term, 1);
       } else {
-        _termCorpusFrequency.put(token, _termCorpusFrequency.get(token) + 1);
+        _termCorpusFrequency.put(term, _termCorpusFrequency.get(term) + 1);
       }
 
+      // Update the totalTermFrequency
       _totalTermFrequency++;
+      // Move to the next position
       position++;
     }
 
-    // Convert all offset of the posting list to deltas for compression
-    convertOffsetToDelta(tmpInvertedIndex);
+    /**************************************************************************
+     * Finish the process of all terms.
+     *************************************************************************/
 
+    /**************************************************************************
+     * Start to compress...
+     *************************************************************************/
+
+    // 1. Convert all positions of the posting list to deltas
+    convertPositionToDelta(tmpInvertedIndex);
+
+    // 2. Compress the temporary inverted index and populate the inverted index.
     for (String term : tmpInvertedIndex.keySet()) {
-      // Update prevDocidMap
-      prevDocidMap.put(term, docid);
+      // Update lastDocid
+      lastDocid.put(term, docid);
 
-      // Get the offset of each term's docid in the posting list
-      int offset = tmpDocIdOffsetMap.get(term);
+      // Get the offset of the term's docid of the posting list
+      int offset = tmpPostingListOffsetMap.get(term);
+
       // Encode the posting list
       List<Byte> partialPostingList = vByteEncodingList(tmpInvertedIndex.get(term));
 
       if (invertedIndex.containsKey(term)) {
         // Update the docidOffsetMap for the term
-        List<Byte> byteList = docIdOffsetMap.get(term);
-        // Add the encoded offset
+        List<Byte> byteList = postingListOffsetMap.get(term);
         byteList.addAll(vByteEncoding(offset));
-        docIdOffsetMap.put(term, byteList);
+        postingListOffsetMap.put(term, byteList);
 
-        // Add the posting list to a existing one
+        // Append the posting list to a existing one
         List<Byte> postingList = invertedIndex.get(term);
         postingList.addAll(partialPostingList);
         invertedIndex.put(term, postingList);
       } else {
         // Set the initial offset for the term in docidOffsetMap
-        docIdOffsetMap.put(term, vByteEncoding(offset));
+        postingListOffsetMap.put(term, vByteEncoding(offset));
 
         // Set the initial posting list for the term
         invertedIndex.put(term, partialPostingList);
@@ -212,14 +234,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Convert the offsets of each posting list to deltas.
    * e.g.
-   * From:
-   * List: 0 (docid), 4 (occurrence), 5, 12, 18, 29
-   * To:
-   * List: 0 (docid), 4 (occurrence), 5, 7, 6, 11
+   * From: List: 0 (docid), 4 (occurrence), 5, 12, 18, 29
+   * To: List: 0 (docid), 4 (occurrence), 5, 7, 6, 11
    *
    * @param partialInvertedIndex The partial/temporary inverted index
    */
-  private void convertOffsetToDelta(Map<String, List<Integer>> partialInvertedIndex) {
+  private void convertPositionToDelta(Map<String, List<Integer>> partialInvertedIndex) {
     for (List<Integer> list : partialInvertedIndex.values()) {
       if (list.get(1) > 1) {
         for (int i = list.size() - 1; i > 2; i--) {
@@ -232,11 +252,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
-   * If the byte is not the end of a v-byte encoded number, return false.
-   * Otherwise return true.
+   * Check if the byte is the end of the number.
    *
-   * @param b A byte of v-byte encoded num
-   * @return true if the byte is the last byte of the number, otherwise false.
+   * @param b A v-byte encoded byte.
+   * @return true if the byte is the last byte of the number (the highest bit is 1), otherwise false.
    */
   private boolean isEndOfNum(byte b) {
     return (b >> 7 & 1) == 1;
@@ -245,7 +264,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Decode a list of byteList to one integer number
    *
-   * @param byteList A list of v-byte encoded bytes which represents a number
+   * @param byteList A list of v-byte encoded bytes needed to be decoded
    * @return The decoded number
    */
   private int vByteDecoding(List<Byte> byteList) {
@@ -256,7 +275,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       sb.append(Integer.toBinaryString(b & 255 | 256).substring(2));
     }
 
-    // Return the int num according to the binary string
+    // Return the integer number
     return Integer.parseInt(sb.toString(), 2);
   }
 
@@ -303,10 +322,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       if (size == 1 || i == size - 1) {
         b = (byte) (b | (1 << 7));
       }
-
       bytes.add(b);
     }
-
     return bytes;
   }
 
@@ -371,7 +388,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       this._totalTermFrequency += freq;
     }
     this.invertedIndex = loaded.invertedIndex;
-    this.docIdOffsetMap = loaded.docIdOffsetMap;
+    this.postingListOffsetMap = loaded.postingListOffsetMap;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
 
@@ -449,7 +466,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * ID exists.
    */
   private int nextDocid(String term, int docid) {
-    List<Integer> docidList = vByteDecodingList(docIdOffsetMap.get(term));
+    List<Integer> docidList = vByteDecodingList(postingListOffsetMap.get(term));
     int size = docidList.size();
 
     // Base case
@@ -499,7 +516,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return
    */
   private int getDocidOffset(String term, int docid) {
-    List<Byte> docidUncompressedList = docIdOffsetMap.get(term);
+    List<Byte> docidUncompressedList = postingListOffsetMap.get(term);
     List<Integer> docidList = vByteDecodingList(docidUncompressedList);
 
     int size = docidList.size();
@@ -548,7 +565,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       docid += vByteDecoding(byteList);
       byteList.clear();
       count++;
-      if(count == docidList.size()) {
+      if (count == docidList.size()) {
         break;
       }
       i = docidList.get(count);
