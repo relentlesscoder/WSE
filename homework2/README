@@ -1,1 +1,6 @@
 https://www.dropbox.com/sh/v3kxmiw2y3uewpf/AADzyFomBQ_BuaHRovdKXAvCa?dl=0
+
+Text Processing:
+1. Using Snowball Porter Stemmer Java library for text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
+3. Using JSoup for HTML extracting.
+2. Using JFlex for text analysis. All regular expressions are based on Word Boundaries defined on http://www.unicode.org/reports/tr29/.  

@@ -32,6 +32,15 @@ public class Tokenizer {
     return hasNext;
   }
 
+  /**
+   * Stemming text
+   * 
+   * @param input
+   *          Original text
+   * @param language
+   *          Language type, e.g. english
+   * @return Stemmed text
+   */
   public static String porterStemmerFilter(String input, String language) {
     String output = input;
 
