@@ -117,6 +117,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
     while (tokenizer.hasNext()) {
       String token = tokenizer.getText();
+      token = Tokenizer.porterStemmerFilter(token, "english");
 
       _totalTermFrequency++;
 

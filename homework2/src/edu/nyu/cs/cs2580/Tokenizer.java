@@ -3,6 +3,8 @@ package edu.nyu.cs.cs2580;
 import java.io.IOException;
 import java.io.Reader;
 
+import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;
+
 public class Tokenizer {
 
   private DefaultScanner scanner;
@@ -30,5 +32,23 @@ public class Tokenizer {
     return hasNext;
   }
 
-  // TODO:add String Porter Stemming methods, etc
+  public static String porterStemmerFilter(String input, String language) {
+    String output = input;
+
+    try {
+      Class<? extends SnowballStemmer> stemClass = Class.forName(
+          "edu.nyu.cs.cs2580.Snowball." + language + "Stemmer").asSubclass(
+          SnowballStemmer.class);
+      SnowballStemmer stemmer = stemClass.newInstance();
+
+      stemmer.setCurrent(input);
+      if (stemmer.stem()) {
+        output = stemmer.getCurrent();
+      }
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
+
+    return output;
+  }
 }
