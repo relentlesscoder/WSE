@@ -28,7 +28,7 @@ public class IndexerInvertedCompressedTest extends TestCase {
   @Test
   public void test1() throws IOException {
     indexer.constructIndex();
-    Query query = new Query("alaska purchase");
+    Query query = new Query("alaska purchas");
     query.processQuery();
     Document document1 = indexer.nextDoc(query, -1);
     Document document2 = indexer.nextDoc(query, document1._docid);

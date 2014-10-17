@@ -139,18 +139,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     int position = 0;
 
-    // TODO: Temporary. Need a better tokenizer...
-    Scanner scanner = new Scanner(content).useDelimiter("\\W");
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
 
     /**************************************************************************
      * Start to process the document one term at a time.
      *************************************************************************/
-    while (scanner.hasNext()) {
+    while (tokenizer.hasNext()) {
       // TODO: Temporary. Need stemming...
-      String term = scanner.next().toLowerCase();
-      if (term.equals("")) {
-        continue;
-      }
+      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
 
       // Populate the temporary inverted index.
       if (tmpInvertedIndex.containsKey(term)) {
