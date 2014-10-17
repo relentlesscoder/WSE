@@ -8,32 +8,28 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
+import java.util.*;
 
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multiset;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
-/**
- * @CS2580: Implement this class for HW2.
- */
 public class IndexerInvertedDoconly extends Indexer implements Serializable {
-  // Temporary UID...
   private static final long serialVersionUID = 1L;
 
-  // Inverted index, ket is the term and value is the list of doc IDs the term
-  // appears in the corpus.
-  private Map<String, List<Integer>> invertedIndex = new HashMap<String, List<Integer>>();
+  // Inverted index.
+  // Key is the term and value is the compressed posting list.
+  private ListMultimap<String, Integer> invertedIndex = ArrayListMultimap.create();
 
-  // Term frequency, key is the term and value is the number of times the term
-  // appears in the corpus.
-  private Map<String, Integer> _termCorpusFrequency = new HashMap<String, Integer>();
+  // Term frequency across whole corpus.
+  // key is the term and value is the frequency of the term across the whole corpus.
+  private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
-  // Stores all Document in memory.
   private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
 
   // Provided for serialization
@@ -47,99 +43,107 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    // TODO: Change it back later...
-    File folder = new File(
-        "/Users/youlongli/Documents/Dropbox/cs/WS/WSE/homework2/data/smallWiki");
-    // File folder = new File(_options._corpusPrefix);
-    File[] listOfFiles = folder.listFiles();
+    // Get all files first
+    File folder = new File(_options._corpusPrefix);
+    File[] files = folder.listFiles();
 
-    // Process file/document one by one.
-    for (int docid = 0; docid < listOfFiles.length; docid++) {
-      if (listOfFiles[docid].isFile()) {
-        processDocument(listOfFiles[docid], docid);
-      }
+    if (files == null) {
+      // If no files found, throws the exception...
+      throw new NullPointerException("No files found in: " + folder.getPath());
+    }
+
+    System.out.println("Start indexing...");
+    // Set the start time stamp and the progress bar
+    long startTimeStamp = System.currentTimeMillis();
+    ProgressBar progressBar = new ProgressBar();
+
+    // Process file/document one by one and assign each of them a unique docid
+    for (int docid = 0; docid < files.length; docid++) {
+      // Update the progress bar first :)
+      progressBar.update(docid, files.length);
+      processDocument(files[docid], docid);
     }
 
     _numDocs = _documents.size();
 
-    System.out.println("Indexed " + Integer.toString(_numDocs) + " docs with "
-        + Long.toString(_totalTermFrequency) + " terms.");
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Complete indexing...");
+    System.out.println("Total time: " + Util.convertMillis(duration));
 
-    // TODO:
-    String indexFile = "./corpus.idx";
-    // String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Store index to: " + indexFile);
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-        indexFile));
+    System.out.println("Indexed " + Integer.toString(_numDocs)
+        + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
+
+    // Write to file
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Storing index to: " + indexFile);
+
+    ObjectOutputStream writer =
+        new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
+    System.out.println("Mission completed :)");
   }
 
   /**
-   * Process the document file, populate the inverted index and store the
-   * document.
-   * 
-   * @param file
-   * @param docid
+   * Process the document.
+   * First store the document, then populate the inverted index.
+   *
+   * @param file  The file waiting to be indexed.
+   * @param docid The file's document ID.
    * @throws IOException
    */
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
-    // TODO: Tmporary way for extract text...
+
+    // TODO: Temporary way for extracting the text and tile from the html file.
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
-    // Create DocumentIndexed and store it
-    DocumentIndexed doc = new DocumentIndexed(docid);
+    // Create the document and store it.
+    DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
-
     _documents.add(doc);
 
     // Populate the inverted index
-    readInvertedIndex(title, docid);
-    readInvertedIndex(bodyText, docid);
+    populateInvertedIndex(title + " " + bodyText, docid);
 
     // TODO: Deal with all the links...
     // Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
-   * Read the content of the document and populate the inverted index.
-   * 
-   * @param content
-   * @param docid
+   * Populate the inverted index.
+   *
+   * @param content The text content of the html document.
+   * @param docid   The document ID.
    */
-  private void readInvertedIndex(String content, int docid) {
-    // TODO: Tmporary way for extract tokens...
-    // Scanner scanner = new Scanner(content).useDelimiter("\\W");
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
+  private void populateInvertedIndex(String content, int docid) {
+    // TODO: Temporary. Need a better tokenizer...
+    Scanner scanner = new Scanner(content).useDelimiter("\\W");
 
-    while (tokenizer.hasNext()) {
-      String token = tokenizer.getText();
-      token = Tokenizer.porterStemmerFilter(token, "english");
+    while (scanner.hasNext()) {
+      // TODO: Temporary. Need stemming...
+      String term = scanner.next().toLowerCase();
+      if (term.equals("")) {
+        continue;
+      }
 
       _totalTermFrequency++;
 
-      if (!_termCorpusFrequency.containsKey(token)) {
-        _termCorpusFrequency.put(token, 1);
-      } else {
-        _termCorpusFrequency.put(token, _termCorpusFrequency.get(token) + 1);
-      }
+      // Update the termCorpusFrequency
+      _termCorpusFrequency.add(term);
 
       // Populate the inverted index
-      if (invertedIndex.containsKey(token)) {
+      if (invertedIndex.containsKey(term)) {
         // The token exists in the index
-        if (!invertedIndex.get(token).contains(docid)) {
+        if (!invertedIndex.get(term).contains(docid)) {
           // The docid does not exist in the index for the token, add it in.
-          invertedIndex.get(token).add(docid);
+          invertedIndex.get(term).add(docid);
         }
       } else {
-        // The token does not exist in the index, add it first, then add the
-        // docid
-        List<Integer> tmpList = new ArrayList<Integer>();
-        tmpList.add(docid);
-        invertedIndex.put(token, tmpList);
+        // The token does not exist in the index, add it first, then add the docid
+        invertedIndex.get(term).add(docid);
       }
     }
   }
@@ -160,9 +164,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
     // -- > ?
     this._numDocs = _documents.size();
-    for (Integer freq : loaded._termCorpusFrequency.values()) {
-      this._totalTermFrequency += freq;
-    }
+    this._totalTermFrequency = loaded._termCorpusFrequency.size();
+
     this.invertedIndex = loaded.invertedIndex;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
@@ -178,15 +181,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
-    List<List<Integer>> queryDocidList = new ArrayList<List<Integer>>();
     Vector<String> tokens = query._tokens;
-    int tokenSize = tokens.size();
 
-    for (int i = 0; i < tokenSize; i++) {
-      queryDocidList.add(invertedIndex.get(tokens.get(i)));
-    }
-
-    int nextDocid = nextDocid(queryDocidList, docid);
+    int nextDocid = nextCandidateDocid(tokens, docid);
 
     if (nextDocid != -1) {
       return _documents.get(nextDocid);
@@ -196,25 +193,23 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document ID after the current document ID which satisfying
-   * the query or -1 if no such document exists... This function uses document
-   * at a time retrieval method.
-   * 
-   * @param queryDocidList
-   * @param docid
-   * @return the next Document ID after {@code docid} satisfying {@code query}
-   *         or -1 if no such document exists.
+   * Return the next docid which satisfies the query terms, if none of such docid
+   * can be found, return -1.
+   * This function uses document at a time retrieval method.
+   *
+   * @param queryTerms A list of query terms
+   * @param docid      The document ID
+   * @return the next docid right after {@code docid} satisfying {@code queryTerms}
+   * or -1 if no such document exists.
    */
-  private int nextDocid(List<List<Integer>> queryDocidList, int docid) {
-    boolean hasFound = true;
+  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
     // is a reasonable candidate.
-    for (int i = 0; i < queryDocidList.size(); i++) {
-      List<Integer> docidList = queryDocidList.get(i);
+    for (String term : queryTerms) {
       // Get the next document ID next to the current {@code docid} in the list
-      int nextDocid = getNextDocid(docidList, docid);
+      int nextDocid = nextDocid(term, docid);
       if (nextDocid == -1) {
         // The next document ID does not exist... so no next document will be
         // available.
@@ -224,12 +219,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     }
 
     // Check if the largest document ID satisfy all query terms.
-    for (int i = 0; i < queryDocidList.size(); i++) {
-      List<Integer> docidList = queryDocidList.get(i);
-      if (!hasDocid(docidList, docid)) {
+    for (String term : queryTerms) {
+      if (!hasDocid(term, docid)) {
         // This document ID does not satisfy one of the query term...
         // Check the next...
-        return nextDocid(queryDocidList, largestDocid);
+        return nextCandidateDocid(queryTerms, largestDocid);
       }
     }
 
@@ -238,14 +232,16 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document ID after the current document or -1 if no such
-   * document ID exists.
-   * 
-   * @param docidList
-   * @param docid
-   * @return
+   * Return the next docid after the current one of the posting list, or -1
+   * if no such docid exists.
+   *
+   * @param term  The term...
+   * @param docid The document ID
+   * @return the next document ID after the current document or -1 if no such document
+   * ID exists.
    */
-  private int getNextDocid(List<Integer> docidList, int docid) {
+  private int nextDocid(String term, int docid) {
+    List<Integer> docidList = invertedIndex.get(term);
     int size = docidList.size();
 
     // Base case
@@ -257,7 +253,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
       return docidList.get(0);
     }
 
-    // Use binary search for the next document ID right after {@code docid}
+    // Use binary search to get the next document ID right after {@code docid}
     int low = 0;
     int high = docidList.size() - 1;
 
@@ -281,14 +277,14 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Return the document ID after the current document or -1 if no such document
-   * ID exists.
-   * 
-   * @param docidList
-   * @param docid
-   * @return
+   * Check if the docid exists in the term's posting list.
+   *
+   * @param term  The term...
+   * @param docid The document ID
+   * @return true if the docid exists in the term's posting list, otherwise false
    */
-  private boolean hasDocid(List<Integer> docidList, int docid) {
+  private boolean hasDocid(String term, int docid) {
+    List<Integer> docidList = invertedIndex.get(term);
     int size = docidList.size();
 
     if (size == 0 || docidList.get(size - 1) < docid) {
@@ -324,7 +320,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public int corpusTermFrequency(String term) {
-    return _termCorpusFrequency.get(term);
+    return _termCorpusFrequency.count(term);
   }
 
   @Override
