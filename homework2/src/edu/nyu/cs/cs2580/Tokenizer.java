@@ -51,4 +51,8 @@ public class Tokenizer {
 
     return output;
   }
+
+  public static String lowercaseFilter(String input) {
+    return (input != null && !input.isEmpty()) ? input.toLowerCase() : "";
+  }
 }
