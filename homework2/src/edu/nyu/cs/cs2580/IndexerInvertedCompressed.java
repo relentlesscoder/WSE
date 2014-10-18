@@ -8,10 +8,9 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import java.io.*;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.concurrent.TimeUnit;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * This is the compressed inverted indexer...
@@ -27,16 +26,23 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Key is the term and value is the offsets for each of docid in the posting list.
   private ListMultimap<String, Byte> postingListOffsetMap = ArrayListMultimap.create();
 
-  // The last/previous docid of the posting list.
-  // Key is the term and value is the last/previous docid of the posting list.
-  // This is used to construct the index and will be cleared after the process.
-  Map<String, Integer> lastDocid = new HashMap<String, Integer>();
-
   // Term frequency across whole corpus.
   // key is the term and value is the frequency of the term across the whole corpus.
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
-  private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
+  private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
+
+  /**
+   * ***********************************************************************
+   * {@code lastDocid} is temporary and will be cleared once the index is
+   * constructed...
+   * ***********************************************************************
+   */
+
+  // The last/previous docid of the posting list.
+  // Key is the term and value is the last/previous docid of the posting list.
+  // This is used to construct the index and will be cleared after the process.
+  Map<String, Integer> lastDocid = new HashMap<String, Integer>();
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -49,37 +55,36 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    // Get all files first
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
+    ProgressBar progressBar = new ProgressBar();
+    long startTimeStamp, duration;
 
-    if (files == null) {
-      // If no files found, throws the exception...
-      throw new NullPointerException("No files found in: " + folder.getPath());
-    }
+    checkNotNull(files, "No files found in: %s", folder.getPath());
 
     System.out.println("Start indexing...");
-    // Set the start time stamp and the progress bar
-    long startTimeStamp = System.currentTimeMillis();
-    ProgressBar progressBar = new ProgressBar();
+
+    startTimeStamp = System.currentTimeMillis();
 
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
+      checkNotNull(files[docid], "File can not be null!");
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
     }
 
-    _numDocs = _documents.size();
+    // Get the number of documents
+    numDocs = documents.size();
 
     // Clear the previous document ID map since it's no longer needed...
     lastDocid.clear();
 
-    long duration = System.currentTimeMillis() - startTimeStamp;
+    duration = System.currentTimeMillis() - startTimeStamp;
+
     System.out.println("Complete indexing...");
     System.out.println("Total time: " + Util.convertMillis(duration));
-
-    System.out.println("Indexed " + Integer.toString(_numDocs)
+    System.out.println("Indexed " + Integer.toString(numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
     // Write to file
@@ -111,11 +116,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
+    // TODO: Need to figure that out...
     doc.setUrl(file.getAbsolutePath());
-    _documents.add(doc);
+    documents.add(doc);
 
     // Populate the inverted index.
-    populateInvertedIndex(title + " " + bodyText, docid);
+    populateInvertedIndex(title, docid);
+    populateInvertedIndex(bodyText, docid);
 
     // TODO: Deal with all the links later...
 //    Elements links = jsoupDoc.select("a[href]");
@@ -128,6 +135,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
+
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<String, Integer> tmpInvertedIndex = ArrayListMultimap.create();
@@ -139,13 +148,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     int position = 0;
 
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
-
     /**************************************************************************
      * Start to process the document one term at a time.
      *************************************************************************/
     while (tokenizer.hasNext()) {
-      // TODO: Temporary. Need stemming...
       String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
 
       // Populate the temporary inverted index.
@@ -220,7 +226,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // Append the posting list if one exists, otherwise create one first :)
       invertedIndex.get(term).addAll(partialPostingList);
-
     }
   }
 
@@ -252,7 +257,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return true if the byte is the last byte of the number (the highest bit is 1), otherwise false.
    */
   private boolean isEndOfNum(byte b) {
-    return (b >> 7 & 1) == 1;
+    return b < 0;
   }
 
   /**
@@ -262,15 +267,39 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return The decoded number
    */
   private int vByteDecoding(List<Byte> byteList) {
-    StringBuilder sb = new StringBuilder();
+    int num = 0;
 
-    // Append all byteList together
-    for (byte b : byteList) {
-      sb.append(Integer.toBinaryString(b & 255 | 256).substring(2));
+    for (int i = 0; i < byteList.size(); i++) {
+      num = ((byteList.get(i) & 0x7F) << 7 * i) | num;
     }
 
-    // Return the integer number
-    return Integer.parseInt(sb.toString(), 2);
+    return num;
+  }
+
+  /**
+   * Extract i + 1 first 7 bits from {@code val} (From right to left)
+   * e.g. If i = 0 and val = 101 0101 1010 (In binary form)
+   * The return byte will be 0101 1010...
+   *
+   * @param i   The i first 7 bits (From right to left)
+   * @param val the number...
+   * @return the extracted 7 bits
+   */
+  private static byte extract7Bits(int i, long val) {
+    return (byte) ((val >> (7 * i)) & ((1 << 7) - 1));
+  }
+
+  /**
+   * If {@code val} has n bits, return the last n % 7 bit.  (From right to left)
+   * e.g. If i = 0 and val = 101 0101 1010 (In binary form)
+   * The return byte will be 0000 1010...
+   *
+   * @param i   The last n % 7 (n - 7 * i) bits (From right to left)
+   * @param val the number...
+   * @return the extracted 7 bits
+   */
+  private static byte extractLastBits(int i, long val) {
+    return (byte) ((val >> (7 * i)));
   }
 
   /**
@@ -282,42 +311,28 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private List<Byte> vByteEncoding(int num) {
     List<Byte> bytes = new ArrayList<Byte>();
 
-    if (num < 0) {
-      throw new IllegalArgumentException("Must be positive number :(");
+    if (num < (1 << 7)) {
+      bytes.add((byte) (num | (1 << 7)));
+    } else if (num < (1 << 14)) {
+      bytes.add((byte) extract7Bits(0, num));
+      bytes.add((byte) (extractLastBits(1, (num)) | (1 << 7)));
+    } else if (num < (1 << 21)) {
+      bytes.add((byte) extract7Bits(0, num));
+      bytes.add((byte) extract7Bits(1, num));
+      bytes.add((byte) (extractLastBits(2, (num)) | (1 << 7)));
+    } else if (num < (1 << 28)) {
+      bytes.add((byte) extract7Bits(0, num));
+      bytes.add((byte) extract7Bits(1, num));
+      bytes.add((byte) extract7Bits(2, num));
+      bytes.add((byte) (extractLastBits(3, (num)) | (1 << 7)));
+    } else {
+      bytes.add((byte) extract7Bits(0, num));
+      bytes.add((byte) extract7Bits(1, num));
+      bytes.add((byte) extract7Bits(2, num));
+      bytes.add((byte) extract7Bits(3, num));
+      bytes.add((byte) (extractLastBits(4, (num)) | (1 << 7)));
     }
 
-    // Get the binary string of the number
-    String binaryStr = Integer.toBinaryString(num);
-
-    // How many bytes the number will need
-    int size = (binaryStr.length() - 1) / 7 + 1;
-
-    int start = 0;
-    int end = 0;
-    int offset = 7 * (size - 1);
-
-    // Get one byte at a time
-    for (int i = 0; i < size; i++) {
-      byte b;
-
-      if (i == 0) {
-        end = binaryStr.length() - offset;
-      } else {
-        start = end;
-        end += 7;
-      }
-
-      // Get the binary string for one byte
-      String s = binaryStr.substring(start, end);
-      b = Byte.parseByte(s, 2);
-
-      // If it's the last byte, then the highest bit shall be 1, otherwise
-      // will be 0 (No operation need...).
-      if (size == 1 || i == size - 1) {
-        b = (byte) (b | (1 << 7));
-      }
-      bytes.add(b);
-    }
     return bytes;
   }
 
@@ -373,10 +388,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         new ObjectInputStream(new FileInputStream(indexFile));
     IndexerInvertedCompressed loaded = (IndexerInvertedCompressed) reader.readObject();
 
-    this._documents = loaded._documents;
+    this.documents = loaded.documents;
 
     // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
-    this._numDocs = _documents.size();
+    this.numDocs = documents.size();
     this._totalTermFrequency = loaded._termCorpusFrequency.size();
 
     this.invertedIndex = loaded.invertedIndex;
@@ -384,13 +399,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
 
-    System.out.println(Integer.toString(_numDocs) + " documents loaded " +
+    System.out.println(Integer.toString(numDocs) + " documents loaded " +
         "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
   public Document getDoc(int docid) {
-    return _documents.get(docid);
+    return documents.get(docid);
   }
 
   @Override
@@ -400,7 +415,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Get the next docid which satisfies the query terms
     int nextDocid = nextCandidateDocid(queryTerms, docid);
 
-    return nextDocid == -1 ? null : _documents.get(nextDocid);
+    return nextDocid == -1 ? null : documents.get(nextDocid);
   }
 
   /**
@@ -516,7 +531,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     int size = docidOffsetList.size();
 
     int lastDocid =
-        getDocidByOffset(docidOffsetList, term, docidOffsetList.get(size - 1)) ;
+        getDocidByOffset(docidOffsetList, term, docidOffsetList.get(size - 1));
     if (size == 0 || lastDocid < docid) {
       return -1;
     }
