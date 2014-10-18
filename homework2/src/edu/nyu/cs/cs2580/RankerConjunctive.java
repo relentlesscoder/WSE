@@ -1,5 +1,6 @@
 package edu.nyu.cs.cs2580;
 
+import java.io.IOException;
 import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -23,6 +24,7 @@ public class RankerConjunctive extends Ranker {
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
+    System.out.println("Query Class:" + query.getClass().getSimpleName());
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
     Document doc = null;
     int docid = -1;
@@ -42,4 +44,13 @@ public class RankerConjunctive extends Ranker {
     Collections.sort(results, Collections.reverseOrder());
     return results;
   }
+
+//  private DocumentIndexed nextPhrase(QueryPhrase query, int docid) {
+//      Vector<String> tokens = query._tokens;
+//
+//
+//  }
+
+
+
 }

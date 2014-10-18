@@ -1,6 +1,6 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Scanner;
+import java.io.StringReader;
 import java.util.Vector;
 
 /**
@@ -25,10 +25,11 @@ public class Query {
     if (_query == null) {
       return;
     }
-    Scanner s = new Scanner(_query);
-    while (s.hasNext()) {
-      _tokens.add(s.next());
+    Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
+
+    while (tokenizer.hasNext()) {
+      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      _tokens.add(term);
     }
-    s.close();
   }
 }
