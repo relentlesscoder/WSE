@@ -1,15 +1,5 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.io.StringReader;
-import java.util.*;
-
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.ListMultimap;
@@ -17,7 +7,13 @@ import com.google.common.collect.Multiset;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
-import edu.nyu.cs.cs2580.SearchEngine.Options;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Vector;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 public class IndexerInvertedDoconly extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
@@ -30,7 +26,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   // key is the term and value is the frequency of the term across the whole corpus.
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
-  private Vector<DocumentIndexed> _documents = new Vector<DocumentIndexed>();
+  private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
 
   // Provided for serialization
   public IndexerInvertedDoconly() {
@@ -43,34 +39,33 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
-    // Get all files first
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
+    ProgressBar progressBar = new ProgressBar();
+    long startTimeStamp, duration;
 
-    if (files == null) {
-      // If no files found, throws the exception...
-      throw new NullPointerException("No files found in: " + folder.getPath());
-    }
+    checkNotNull(files, "No files found in: %s", folder.getPath());
 
     System.out.println("Start indexing...");
-    // Set the start time stamp and the progress bar
-    long startTimeStamp = System.currentTimeMillis();
-    ProgressBar progressBar = new ProgressBar();
+
+    startTimeStamp = System.currentTimeMillis();
 
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
+      checkNotNull(files[docid], "File can not be null!");
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
     }
 
-    _numDocs = _documents.size();
+    // Get the number of documents
+    numDocs = documents.size();
 
-    long duration = System.currentTimeMillis() - startTimeStamp;
+    duration = System.currentTimeMillis() - startTimeStamp;
+
     System.out.println("Complete indexing...");
     System.out.println("Total time: " + Util.convertMillis(duration));
-
-    System.out.println("Indexed " + Integer.toString(_numDocs)
+    System.out.println("Indexed " + Integer.toString(numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
     // Write to file
@@ -103,7 +98,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
-    _documents.add(doc);
+    documents.add(doc);
 
     // Populate the inverted index
     populateInvertedIndex(title + " " + bodyText, docid);
@@ -158,25 +153,25 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     IndexerInvertedDoconly loaded = (IndexerInvertedDoconly) reader
         .readObject();
 
-    this._documents = loaded._documents;
+    this.documents = loaded.documents;
 
     // TODO: What does that mean?
     // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
     // -- > ?
-    this._numDocs = _documents.size();
+    this.numDocs = documents.size();
     this._totalTermFrequency = loaded._termCorpusFrequency.size();
 
     this.invertedIndex = loaded.invertedIndex;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
 
-    System.out.println(Integer.toString(_numDocs) + " documents loaded "
+    System.out.println(Integer.toString(numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
   public Document getDoc(int docid) {
-    return _documents.get(docid);
+    return documents.get(docid);
   }
 
   @Override
@@ -186,7 +181,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     int nextDocid = nextCandidateDocid(tokens, docid);
 
     if (nextDocid != -1) {
-      return _documents.get(nextDocid);
+      return documents.get(nextDocid);
     } else {
       return null;
     }

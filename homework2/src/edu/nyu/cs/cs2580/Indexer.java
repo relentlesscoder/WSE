@@ -27,7 +27,7 @@ public abstract class Indexer {
   // are populated during index loading time and must not be modified during
   // serving unless they are made thread-safe. For comments, see APIs below.
   // Subclasses should populate those fields properly.
-  protected int _numDocs = 0;
+  protected int numDocs = 0;
   protected long _totalTermFrequency = 0;
 
   // Provided for serialization.
@@ -105,7 +105,7 @@ public abstract class Indexer {
    */
 
   // Number of documents in the corpus.
-  public final int numDocs() { return _numDocs; }
+  public final int numDocs() { return numDocs; }
   // Number of term occurrences in the corpus. If a term appears 10 times, it
   // will be counted 10 times.
   public final long totalTermFrequency() { return _totalTermFrequency; }

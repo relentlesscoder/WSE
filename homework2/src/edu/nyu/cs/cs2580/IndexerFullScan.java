@@ -74,7 +74,7 @@ class IndexerFullScan extends Indexer implements Serializable {
       reader.close();
     }
     System.out.println(
-        "Indexed " + Integer.toString(_numDocs) + " docs with " +
+        "Indexed " + Integer.toString(numDocs) + " docs with " +
         Long.toString(_totalTermFrequency) + " terms.");
 
     String indexFile = _options._indexPrefix + "/corpus.idx";
@@ -109,7 +109,7 @@ class IndexerFullScan extends Indexer implements Serializable {
     doc.setTitleTokens(titleTokens);
     doc.setBodyTokens(bodyTokens);
     _documents.add(doc);
-    ++_numDocs;
+    ++numDocs;
 
     Set<Integer> uniqueTerms = new HashSet<Integer>();
     updateStatistics(doc.getTitleTokens(), uniqueTerms);
@@ -181,7 +181,7 @@ class IndexerFullScan extends Indexer implements Serializable {
 
     this._documents = loaded._documents;
     // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
-    this._numDocs = _documents.size();
+    this.numDocs = _documents.size();
     for (Integer freq : loaded._termCorpusFrequency.values()) {
       this._totalTermFrequency += freq;
     }
@@ -191,7 +191,7 @@ class IndexerFullScan extends Indexer implements Serializable {
     this._termDocFrequency = loaded._termDocFrequency;
     reader.close();
 
-    System.out.println(Integer.toString(_numDocs) + " documents loaded " +
+    System.out.println(Integer.toString(numDocs) + " documents loaded " +
         "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
