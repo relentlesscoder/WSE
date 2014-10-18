@@ -24,7 +24,20 @@ public class RankerConjunctive extends Ranker {
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    System.out.println("Query Class:" + query.getClass().getSimpleName());
+    String queryType = query.getClass().getSimpleName();
+    String indexType = _indexer.getClass().getSimpleName();
+    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
+    if (queryType.equals("Query")){
+      results = runQueryInAllBase(query,numResults);
+    }else if (queryType.equals("QueryPhrase")){
+      if (indexType.equals("IndexerInvertedDoconly")){
+        results = runQueryInAllBase(query,numResults);
+      }
+    }
+    return results;
+  }
+
+  private Vector<ScoredDocument> runQueryInAllBase (Query query, int numResults){
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
     Document doc = null;
     int docid = -1;
@@ -44,13 +57,4 @@ public class RankerConjunctive extends Ranker {
     Collections.sort(results, Collections.reverseOrder());
     return results;
   }
-
-//  private DocumentIndexed nextPhrase(QueryPhrase query, int docid) {
-//      Vector<String> tokens = query._tokens;
-//
-//
-//  }
-
-
-
 }
