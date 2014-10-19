@@ -119,9 +119,9 @@ public class RankerConjunctive extends Ranker {
 
       System.out.println(doc._docid+" "+score);
 
-      if (doc._docid == 165){
-        int x =11;
-      }
+//      if (doc._docid == 165){
+//        int x =11;
+//      }
 
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {
