@@ -5,10 +5,7 @@ import com.google.common.collect.ListMultimap;
 
 
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Vector;
+import java.util.*;
 import java.util.regex.*;
 
 /**
@@ -49,19 +46,13 @@ public class QueryPhrase extends Query {
     }
 
     tokenizer = new Tokenizer(new StringReader(_query));
+    HashSet<String> tokenSet = new HashSet<String>();
     while (tokenizer.hasNext()) {
       String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      tokenSet.add(term);
+    }
+    for(String term : tokenSet){
       _tokens.add(term);
-      //filter SoloTokens
-      if (!isInPhrase(term, _phrases)) soloTokens.add(term);
     }
-  }
-
-  private boolean isInPhrase (String term, ListMultimap<String, String> phrases){
-    ArrayList<String> strings = (ArrayList<String>) phrases.values();
-    for (String str : strings){
-      if (str.equals(term)) return true;
-    }
-    return false;
   }
 }

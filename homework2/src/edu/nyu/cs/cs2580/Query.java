@@ -1,6 +1,7 @@
 package edu.nyu.cs.cs2580;
 
 import java.io.StringReader;
+import java.util.HashSet;
 import java.util.Vector;
 
 /**
@@ -26,9 +27,12 @@ public class Query {
       return;
     }
     Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
-
+    HashSet<String> tokenSet = new HashSet<String>();
     while (tokenizer.hasNext()) {
       String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      tokenSet.add(term);
+    }
+    for(String term : tokenSet){
       _tokens.add(term);
     }
   }
