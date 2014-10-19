@@ -84,6 +84,10 @@ public class RankerConjunctive extends Ranker {
     int docid = -1;
     findDoc:
     while ((doc = nextDoc(query, docid)) != null) {
+      System.out.println("Searching Doc: " + doc._docid);
+      if (doc._docid ==11){
+        int x=11;
+      }
       double score = 0.0;
       if (queryType.equals("QueryPhrase")){
         queryPhrase = (QueryPhrase)query;
@@ -92,12 +96,16 @@ public class RankerConjunctive extends Ranker {
         Set<String> keyset = phrases.keySet();
 
         for(String key : keyset){
+          System.out.println(key);
           List<String> tokens = phrases.get(key);
-          int pos = nextPhrase(tokens, docid, -1);
-          if (pos == -1) continue findDoc;
+          int pos = nextPhrase(tokens, doc._docid, -1);
+          if (pos == -1) {
+            docid = doc._docid;
+            continue findDoc;
+          }
           while (pos != -1){
-            score += 1.0;
-            pos = nextPhrase(tokens, docid, -1);
+            score += 10.0;
+            pos = nextPhrase(tokens, doc._docid, pos);
           }
         }
       }
@@ -108,10 +116,17 @@ public class RankerConjunctive extends Ranker {
           score+=1.0;
           pos = nextPos(term, doc._docid, pos);
           System.out.println(pos);
+//          if (pos == 18324){
+//            int x = 1;
+//          }
         }
+
       }
 
       System.out.println(doc._docid+" "+score);
+//      if (doc._docid == 162){
+//        int x = 1;
+//      }
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {
         rankQueue.poll();
@@ -149,8 +164,26 @@ public class RankerConjunctive extends Ranker {
   }
 
   private int nextPhrase(List<String> tokens, int docid, int pos){
-    int docid = nextDoc();
-
+    String firstTerm = tokens.get(0);
+    findPhrase:
+    while ((pos=nextPos(firstTerm, docid, pos))!=-1){
+      int previousPos = pos;
+      for (int i=1; i<tokens.size(); i++){
+        pos = nextPos(tokens.get(i), docid, previousPos);
+        if (pos == -1){
+          return -1;
+        }
+        if (pos != previousPos+1){
+          pos -= i+1;
+          continue findPhrase;
+        }
+        previousPos++;
+      }
+      break;
+    }
+    if (pos!=-1){
+      System.out.println("Postion found in Doc"+ docid +" : " + pos);
+    }
     return pos;
   }
 }
