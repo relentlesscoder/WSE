@@ -912,6 +912,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     int docTermFrequency = 0;
     int docid = docUrlMap.get(url);
     int offset = getDocidOffset(term, docid);
+
+    if (offset == -1) {
+      return 0;
+    }
+
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> tmpList = new ArrayList<Byte>();
 
