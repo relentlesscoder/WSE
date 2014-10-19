@@ -747,7 +747,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private int scanPostingListForDocidOffset(String term, int targetDocid,
       int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
-    List<Integer> yoyo = vByteDecodingList(postingList);
     List<Byte> byteList = new ArrayList<Byte>();
     int offset = 0;
     int nextDocid = prevDocid;
