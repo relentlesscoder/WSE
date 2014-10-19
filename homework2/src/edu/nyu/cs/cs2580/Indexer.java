@@ -93,6 +93,7 @@ public abstract class Indexer {
    */
   public abstract void loadIndex() throws IOException, ClassNotFoundException;
 
+  //TODO: must return correct results....
   /**
    * APIs for statistics needed for ranking.
    * 
