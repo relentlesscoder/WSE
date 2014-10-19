@@ -319,7 +319,9 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       docidOffset += 2;
     }
 
-    if (postingList.get(docidOffset) == docid && postingList.get(docidOffset + 1) > pos) {
+    if (docidOffset < postingList.size()
+        && postingList.get(docidOffset) == docid
+        && postingList.get(docidOffset + 1) > pos) {
       // Found the next position
       return postingList.get(docidOffset + 1);
     } else {
