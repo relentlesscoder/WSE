@@ -387,6 +387,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     int docTermFrequency = 0;
     int docid = docUrlMap.get(url);
     int offset = firstDocidOffset(term, docid);
+
+    if (offset == -1) {
+      return 0;
+    }
+
     List<Integer> postingList = invertedIndex.get(term);
 
     while (postingList.get(offset) == docid) {
