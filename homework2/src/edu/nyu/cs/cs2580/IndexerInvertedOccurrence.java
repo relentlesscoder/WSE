@@ -8,9 +8,7 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -26,6 +24,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
+  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
   // Provided for serialization
   public IndexerInvertedOccurrence() {
@@ -63,19 +62,23 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete indexing...");
-    System.out.println("Total time: " + Util.convertMillis(duration));
+    System.out.println("Indexing time: " + Util.convertMillis(duration));
     System.out.println("Indexed " + Integer.toString(numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
     // Write to file
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
+    startTimeStamp = System.currentTimeMillis();
 
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
+
+    duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Mission completed :)");
+    System.out.println("Serialization time: " + Util.convertMillis(duration));
   }
 
   /**
@@ -89,7 +92,6 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
-    // TODO: Temporary way for extracting the text and tile from the html file.
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
@@ -98,6 +100,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
     documents.add(doc);
+    docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index
     populateInvertedIndex(title + " " + bodyText, docid);
@@ -113,13 +116,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
    * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
     int position = 0;
 
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
-
     while (tokenizer.hasNext()) {
-      // TODO: Temporary. Need stemming...
-      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      String term = Tokenizer.krovetzStemmerFilter(Tokenizer.lowercaseFilter(tokenizer.getText()));
 
       // Update the termCorpusFrequency
       _termCorpusFrequency.add(term);
@@ -160,6 +161,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     this.invertedIndex = loaded.invertedIndex;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
+    this.docUrlMap = loaded.docUrlMap;
     reader.close();
 
     System.out.println(Integer.toString(numDocs) + " documents loaded " +
@@ -312,11 +314,15 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     int docidOffset = firstDocidOffset(term, docid);
 
     // Find the position right after current one
-    while (docidOffset < postingList.size() && postingList.get(docidOffset) == docid && postingList.get(docidOffset + 1) <= pos) {
+    while (docidOffset < postingList.size()
+        && postingList.get(docidOffset) == docid
+        && postingList.get(docidOffset + 1) <= pos) {
       docidOffset += 2;
     }
 
-    if (docidOffset < postingList.size() && postingList.get(docidOffset) == docid && postingList.get(docidOffset + 1) > pos) {
+    if (docidOffset < postingList.size()
+        && postingList.get(docidOffset) == docid
+        && postingList.get(docidOffset + 1) > pos) {
       // Found the next position
       return postingList.get(docidOffset + 1);
     } else {
@@ -373,7 +379,21 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, String url) {
-    SearchEngine.Check(false, "Not implemented!");
-    return 0;
+    if (!docUrlMap.containsKey(url)) {
+      //TODO: TEMP
+      return 0;
+    }
+
+    int docTermFrequency = 0;
+    int docid = docUrlMap.get(url);
+    int offset = firstDocidOffset(term, docid);
+    List<Integer> postingList = invertedIndex.get(term);
+
+    while (postingList.get(offset) == docid) {
+      docTermFrequency++;
+      offset += 2;
+    }
+
+    return docTermFrequency;
   }
 }
