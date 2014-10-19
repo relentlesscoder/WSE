@@ -16,8 +16,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 
 import com.google.common.collect.ArrayListMultimap;
@@ -109,11 +107,20 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
         + Long.toString(_totalTermFrequency) + " terms.");
 
-    // Write to file
-    String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Storing index to: " + indexFile);
+    /**************************************************************************
+     * Start serialize
+     *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
 
+    System.out.println("Start storing...");
+
+    // Serialize the inverted index into multiple files first
+    Util.serializeCompressedInvertedIndex(invertedIndex, _options);
+    invertedIndex.clear();
+
+    // Serialize the whole object :)
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Storing index to: " + _options._indexPrefix);
     ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
         indexFile));
     writer.writeObject(this);
@@ -416,25 +423,41 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
-    String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Load index from: " + indexFile);
+    IndexerInvertedCompressed loaded;
+    File folder = new File(_options._indexPrefix);
+    File[] files = folder.listFiles();
 
-    ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-        indexFile));
-    IndexerInvertedCompressed loaded = (IndexerInvertedCompressed) reader
-        .readObject();
+    // Load the class file first
+    for (File file : files) {
+      if (file.getName().equals("corpus.idx")) {
+        String indexFile = _options._indexPrefix + "/corpus.idx";
+        System.out.println("Load index from: " + indexFile);
 
-    this.documents = loaded.documents;
+        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
+            indexFile));
+        loaded = (IndexerInvertedCompressed) reader.readObject();
 
-    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
-    this.numDocs = documents.size();
-    this._totalTermFrequency = loaded._termCorpusFrequency.size();
+        this.documents = loaded.documents;
 
-    this.invertedIndex = loaded.invertedIndex;
-    this.skipPointers = loaded.skipPointers;
-    this._termCorpusFrequency = loaded._termCorpusFrequency;
-    this.docUrlMap = loaded.docUrlMap;
-    reader.close();
+        // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
+        this.numDocs = documents.size();
+        this._totalTermFrequency = loaded._termCorpusFrequency.size();
+
+        this.invertedIndex = loaded.invertedIndex;
+        this.skipPointers = loaded.skipPointers;
+        this._termCorpusFrequency = loaded._termCorpusFrequency;
+        this.docUrlMap = loaded.docUrlMap;
+        reader.close();
+
+        break;
+      }
+    }
+
+    for (File file : files) {
+      if (!file.getName().equals("corpus.idx")) {
+        this.invertedIndex.putAll(Util.deserializeCompressedInvertedIndex(file));
+      }
+    }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
@@ -454,6 +477,30 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     int nextDocid = nextCandidateDocid(queryTerms, docid);
 
     return nextDocid == -1 ? null : documents.get(nextDocid);
+  }
+
+  /**
+   * Return the next document which satisfy at least one of the term of the query...
+   *
+   * @param query
+   * @param docid
+   * @return
+   */
+  public Document nextDocLoose(Query query, int docid) {
+    checkNotNull(docid, "docid can not be null!");
+    Vector<String> queryTerms = query._tokens;
+    int nextDocid = -1;
+    int smallestDocid = Integer.MAX_VALUE;
+
+    for (int i = docid; i < numDocs; i++) {
+      for (String term : queryTerms) {
+        if (hasDocid(term, i)) {
+          return documents.get(i);
+        }
+      }
+    }
+
+    return null;
   }
 
   /**

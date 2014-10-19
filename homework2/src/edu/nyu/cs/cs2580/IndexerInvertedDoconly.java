@@ -68,13 +68,22 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     System.out.println("Indexed " + Integer.toString(numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
-    // Write to file
-    String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Storing index to: " + indexFile);
+    /**************************************************************************
+     * Start serialize
+     *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
 
-    ObjectOutputStream writer =
-        new ObjectOutputStream(new FileOutputStream(indexFile));
+    System.out.println("Start storing...");
+
+    // Serialize the inverted index into multiple files first
+    Util.serializeInvertedIndex(invertedIndex, _options);
+    invertedIndex.clear();
+
+    // Serialize the whole object :)
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Storing index to: " + _options._indexPrefix);
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+        indexFile));
     writer.writeObject(this);
     writer.close();
 
@@ -147,25 +156,39 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
-    String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Load index from: " + indexFile);
+    IndexerInvertedDoconly loaded;
+    File folder = new File(_options._indexPrefix);
+    File[] files = folder.listFiles();
 
-    ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-        indexFile));
-    IndexerInvertedDoconly loaded = (IndexerInvertedDoconly) reader
-        .readObject();
+    // Load the class file first
+    for (File file : files) {
+      if (file.getName().equals("corpus.idx")) {
+        String indexFile = _options._indexPrefix + "/corpus.idx";
+        System.out.println("Load index from: " + indexFile);
 
-    this.documents = loaded.documents;
+        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
+            indexFile));
+        loaded = (IndexerInvertedDoconly) reader.readObject();
 
-    // TODO: What does that mean?
-    // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
-    // -- > ?
-    this.numDocs = documents.size();
-    this._totalTermFrequency = loaded._termCorpusFrequency.size();
+        this.documents = loaded.documents;
 
-    this.invertedIndex = loaded.invertedIndex;
-    this._termCorpusFrequency = loaded._termCorpusFrequency;
-    reader.close();
+        // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
+        this.numDocs = documents.size();
+        this._totalTermFrequency = loaded._termCorpusFrequency.size();
+
+        this.invertedIndex = loaded.invertedIndex;
+        this._termCorpusFrequency = loaded._termCorpusFrequency;
+        reader.close();
+
+        break;
+      }
+    }
+
+    for (File file : files) {
+      if (!file.getName().equals("corpus.idx")) {
+        this.invertedIndex.putAll(Util.deserializeInvertedIndex(file));
+      }
+    }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
