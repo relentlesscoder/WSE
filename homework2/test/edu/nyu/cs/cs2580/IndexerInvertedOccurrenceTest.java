@@ -26,7 +26,7 @@ public class IndexerInvertedOccurrenceTest extends TestCase {
   @Test
   public void testNextDoc() throws Exception {
     indexer.constructIndex();
-    Query query = new Query("alaska purchase");
+    Query query = new Query("alaska purchasedq3wfdewrt");
     query.processQuery();
     Document document1 = indexer.nextDoc(query, -1);
     Document document2 = indexer.nextDoc(query, document1._docid);

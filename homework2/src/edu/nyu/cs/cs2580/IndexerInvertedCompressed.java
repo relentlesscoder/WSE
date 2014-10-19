@@ -17,6 +17,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
+  private static final int K = 5;
 
   // Compressed inverted index.
   // Key is the term and value is the compressed posting list.
@@ -24,7 +25,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   // The offset of each docid of the posting list for each term.
   // Key is the term and value is the offsets for each of docid in the posting list.
-  private ListMultimap<String, Byte> postingListOffsetMap = ArrayListMultimap.create();
+  private ListMultimap<String, Byte> skipPointers = ArrayListMultimap.create();
 
   // Term frequency across whole corpus.
   // key is the term and value is the frequency of the term across the whole corpus.
@@ -43,6 +44,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Key is the term and value is the last/previous docid of the posting list.
   // This is used to construct the index and will be cleared after the process.
   Map<String, Integer> lastDocid = new HashMap<String, Integer>();
+
+  Map<String, Integer> lastSkipPointerOffset = new HashMap<String, Integer>();
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -121,8 +124,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     documents.add(doc);
 
     // Populate the inverted index.
-    populateInvertedIndex(title, docid);
-    populateInvertedIndex(bodyText, docid);
+    populateInvertedIndex(title + " " + bodyText, docid);
 
     // TODO: Deal with all the links later...
 //    Elements links = jsoupDoc.select("a[href]");
@@ -141,11 +143,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<String, Integer> tmpInvertedIndex = ArrayListMultimap.create();
 
-    // The offset of the current docid of the posting list for each term.
-    // Key is the term and value is the offsets for each of docid in the posting list.
-    Map<String, Integer> tmpPostingListOffsetMap =
-        new HashMap<String, Integer>();
-
     int position = 0;
 
     /**************************************************************************
@@ -153,7 +150,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      *************************************************************************/
     while (tokenizer.hasNext()) {
       String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
-
+      if (term.equals("alaska")) {
+        int breakpoint = 0;
+      }
       // Populate the temporary inverted index.
       if (tmpInvertedIndex.containsKey(term)) {
         // The term has already been seen at least once in the document.
@@ -172,9 +171,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           int deltaDocid = docid - prevDocid;
           tmpInvertedIndex.get(term).add(deltaDocid);
 
-          // Get the offset for this docid of the posting list, store it temporarily.
-          // It should be right after the last docid id of the posting list.
-          tmpPostingListOffsetMap.put(term, invertedIndex.get(term).size());
+          if (invertedIndex.get(term).size() > 0 &&
+              (invertedIndex.get(term).size() - lastSkipPointerOffset.get(term)) / (K * 100) > 0) {
+            skipPointers.get(term).addAll(vByteEncoding(prevDocid));
+            skipPointers.get(term).addAll(vByteEncoding(invertedIndex.get(term).size()));
+
+            lastSkipPointerOffset.put(term, invertedIndex.get(term).size());
+          }
         } else {
           // The inverted index hasn't seen the term in previous documents
 
@@ -182,9 +185,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           // the delta.
           tmpInvertedIndex.get(term).add(docid);
 
-          // Get the offset for this docid of the posting list, store it temporarily.
-          // It should the first docid id of the posting list.
-          tmpPostingListOffsetMap.put(term, 0);
+          lastSkipPointerOffset.put(term, 0);
         }
         tmpInvertedIndex.get(term).add(1);
         tmpInvertedIndex.get(term).add(position);
@@ -215,14 +216,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       // Update lastDocid
       lastDocid.put(term, docid);
 
-      // Get the offset of the term's docid of the posting list
-      int offset = tmpPostingListOffsetMap.get(term);
-
       // Encode the posting list
       List<Byte> partialPostingList = vByteEncodingList(tmpInvertedIndex.get(term));
-
-      // Update the docidOffsetMap for the term
-      postingListOffsetMap.get(term).addAll(vByteEncoding(offset));
 
       // Append the posting list if one exists, otherwise create one first :)
       invertedIndex.get(term).addAll(partialPostingList);
@@ -348,14 +343,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     while (i < byteList.size()) {
       List<Byte> tmpByteList = new ArrayList<Byte>();
+      int num = 0;
 
       while (!isEndOfNum(byteList.get(i))) {
-        tmpByteList.add(byteList.get(i));
-        i++;
+        tmpByteList.add(byteList.get(i++));
       }
 
-      tmpByteList.add(byteList.get(i));
-      i++;
+      tmpByteList.add(byteList.get(i++));
 
       res.add(vByteDecoding(tmpByteList));
     }
@@ -395,7 +389,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     this._totalTermFrequency = loaded._termCorpusFrequency.size();
 
     this.invertedIndex = loaded.invertedIndex;
-    this.postingListOffsetMap = loaded.postingListOffsetMap;
+    this.skipPointers = loaded.skipPointers;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
     reader.close();
 
@@ -410,6 +404,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public Document nextDoc(Query query, int docid) {
+    checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
 
     // Get the next docid which satisfies the query terms
@@ -465,125 +460,266 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * ID exists.
    */
   private int nextDocid(String term, int docid) {
-    if (!invertedIndex.containsKey(term)) {
+    List<Integer> partialSkipPointers = vByteDecodingList(skipPointers.get(term));
+    int startOffsetOfPostingList = 0;
+    int nextDocid = 0;
+    int prevDocid = 0;
+
+    if (docid >= 0) {
+      // Get the start offset of the skip pointers...
+      int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(partialSkipPointers, term, docid + 1);
+      if (startOffsetOfSkipPointers >= 0) {
+        // Skip...
+        prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
+        startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers + 1);
+      }
+    }
+
+    nextDocid = scanPostingListForNextDocid(term, docid, prevDocid, startOffsetOfPostingList);
+
+    return nextDocid;
+  }
+
+  /**
+   * Check if the docid exists in the term's posting list.
+   *
+   * @param term
+   * @param docid
+   * @return
+   */
+  private boolean hasDocid(String term, int docid) {
+    List<Integer> partialSkipPointers = vByteDecodingList(skipPointers.get(term));
+    int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(partialSkipPointers, term, docid);
+    int prevDocid = 0;
+    int startOffsetOfPostingList = 0;
+
+    if (startOffsetOfSkipPointers >= 0) {
+      prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
+      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers + 1);
+    }
+    return scanPostingListForDocid(term, docid, prevDocid, startOffsetOfPostingList);
+  }
+
+  /**
+   * Search the skip pointers for the possible start offset for docid of the posting list.
+   * @param term
+   * @param docid
+   * @return
+   */
+  private int getDocidPossibleSkipPointerStartOffset(List<Integer> partialSkipPointers, String term, int docid) {
+    int size = partialSkipPointers.size();
+
+    if (size == 0 || docid <= partialSkipPointers.get(0)) {
       return -1;
     }
 
-    // Get the decoded posting list
-    List<Integer> postingList = vByteDecodingList(postingListOffsetMap.get(term));
-    int size = postingList.size();
-
-    // Base case.
-    // If the size is 0 or the last docid of the posting list is smaller
-    // than the current docid, return -1.
-    int lastDocid =
-        getDocidByOffset(postingList, term, postingList.get(size - 1));
-    if (size == 0 || lastDocid <= docid) {
-      return -1;
+    if (docid > partialSkipPointers.get(size - 2)) {
+      return size - 2;
     }
 
-    // If first docid of the posting list is larger than the current docid, just
-    // return the first docid.
-    int firstDocid = getDocidByOffset(postingList, term, postingList.get(0));
-    if (firstDocid > docid) {
-      return firstDocid;
-    }
-
-    // Use binary search to get the docid right after the current {@code docid}
+    // Use binary search to find if the {@code docid} exists in the list
     int low = 0;
-    int high = postingList.size() - 1;
+    int high = size / 2 - 1;
 
-    while (high - low > 1) {
+    while (low < high - 1) {
       int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(postingList, term, postingList.get(mid));
-      if (midDocid <= docid) {
+      int midDocid = partialSkipPointers.get(mid * 2);
+      if (midDocid == docid) {
+        return mid - 1;
+      } else if (midDocid < docid) {
         low = mid;
       } else {
         high = mid;
       }
     }
 
-    return getDocidByOffset(postingList, term, postingList.get(high));
+    return low * 2;
   }
 
   /**
-   * Check if the docid exists in the term's posting list.
-   *
-   * @param term  The term...
-   * @param docid The document ID
-   * @return true if the docid exists in the term's posting list, otherwise false
+   * Scan the posting list for the next docid right after {@code targetDocid}.
+   * It starts from the {@code startOffsetOfPostingList} with previous docid as {@code prevDocid}
+   * @param term
+   * @param targetDocid
+   * @param prevDocid
+   * @param startOffsetOfPostingList
+   * @return
    */
-  private boolean hasDocid(String term, int docid) {
-    return getDocidOffset(term, docid) != -1;
-  }
-
-  /**
-   * Get the docid offset of the posting list for the term
-   *
-   * @param term  The term...
-   * @param docid The document ID
-   * @return the docid offset of the posting list.
-   */
-  private int getDocidOffset(String term, int docid) {
-    List<Byte> docidUncompressedList = postingListOffsetMap.get(term);
-    List<Integer> docidOffsetList = vByteDecodingList(docidUncompressedList);
-
-    int size = docidOffsetList.size();
-
-    int lastDocid =
-        getDocidByOffset(docidOffsetList, term, docidOffsetList.get(size - 1));
-    if (size == 0 || lastDocid < docid) {
-      return -1;
-    }
-
-    // Use binary search to find if the {@code docid} exists in the list
-    int low = 0;
-    int high = docidOffsetList.size() - 1;
-
-    while (low <= high) {
-      int mid = low + (high - low) / 2;
-      int midDocid = getDocidByOffset(docidOffsetList, term, docidOffsetList.get(mid));
-      if (midDocid == docid) {
-        return mid;
-      } else if (midDocid < docid) {
-        low = mid + 1;
-      } else {
-        high = mid - 1;
-      }
-    }
-
-    return -1;
-  }
-
-  /**
-   * Get the docid from the term's posting list by the offset.
-   *
-   * @param term   The term...
-   * @param offset The offset of the docid
-   * @return the docid
-   */
-  private int getDocidByOffset(List<Integer> docidList, String term, int offset) {
+  private int scanPostingListForNextDocid(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
+    List<Byte> postingList = invertedIndex.get(term);
     List<Byte> byteList = new ArrayList<Byte>();
-    int docid = 0;
-    int count = 0;
-    int i = docidList.get(count);
+    int nextDocid = prevDocid;
+    int i = startOffsetOfPostingList;
 
-    // Get all previous docid delta to calculate the docid
-    while (i <= offset) {
-      while (!isEndOfNum(invertedIndex.get(term).get(i))) {
-        byteList.add(invertedIndex.get(term).get(i++));
+    // Get the first docid from the posting list
+    if (targetDocid == -1) {
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
       }
-      byteList.add(invertedIndex.get(term).get(i));
-      docid += vByteDecoding(byteList);
-
-      count++;
-      if (count == docidList.size()) {
-        break;
-      }
-      byteList.clear();
-      i = docidList.get(count);
+      byteList.add(postingList.get(i));
+      return vByteDecoding(byteList);
     }
-    return docid;
+
+    while (true) {
+      // No more docid in the posting list
+      if (i >= postingList.size()) {
+        return -1;
+      }
+
+      // Get the docid
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
+      }
+      byteList.add(postingList.get(i++));
+      nextDocid += vByteDecoding(byteList);
+      byteList.clear();
+
+      // If the docid is larger than the targetDocid, then the next docid is found
+      if (nextDocid > targetDocid) {
+        return nextDocid;
+      }
+
+      // Get the occurs
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
+      }
+      byteList.add(postingList.get(i++));
+      int occur = vByteDecoding(byteList);
+      byteList.clear();
+
+      // Skip all position data...
+      for (int j = 0; j < occur; j++) {
+        // Get the occurs
+        while (!isEndOfNum(postingList.get(i))) {
+          i++;
+        }
+        i++;
+      }
+
+      // Move on to the next docid...
+    }
+  }
+
+  /**
+   * Scan the posting list for the {@code targetDocid}.
+   * It starts from the {@code startOffsetOfPostingList} with previous docid as {@code prevDocid}
+   * @param term
+   * @param targetDocid
+   * @param prevDocid
+   * @param startOffsetOfPostingList
+   * @return
+   */
+  private boolean scanPostingListForDocid(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
+    List<Byte> postingList = invertedIndex.get(term);
+    List<Byte> byteList = new ArrayList<Byte>();
+    int nextDocid = prevDocid;
+    int i = startOffsetOfPostingList;
+
+    while (true) {
+      // No more docid in the posting list
+      if (i >= postingList.size()) {
+        return false;
+      }
+
+      // Get the docid
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
+      }
+      byteList.add(postingList.get(i++));
+      nextDocid += vByteDecoding(byteList);
+      byteList.clear();
+
+      // If the docid is larger than the targetDocid, then the next docid is found
+      if (nextDocid == targetDocid) {
+        return true;
+      } else if (nextDocid > targetDocid) {
+        return false;
+      }
+
+      // Get the occurs
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
+      }
+      byteList.add(postingList.get(i++));
+      int occur = vByteDecoding(byteList);
+      byteList.clear();
+
+      // Skip all position data...
+      for (int j = 0; j < occur; j++) {
+        // Get the occurs
+        while (!isEndOfNum(postingList.get(i))) {
+          i++;
+        }
+        i++;
+      }
+
+      // Move on to the next docid...
+    }
+  }
+
+  private int scanPostingListForDocidOffset(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
+    List<Byte> postingList = invertedIndex.get(term);
+    List<Byte> byteList = new ArrayList<Byte>();
+    int nextDocid = prevDocid;
+    int i = startOffsetOfPostingList;
+
+    while (true) {
+      // No more docid in the posting list
+      if (i >= postingList.size()) {
+        return -1;
+      }
+
+      // Get the docid
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
+      }
+      byteList.add(postingList.get(i++));
+      nextDocid += vByteDecoding(byteList);
+      byteList.clear();
+
+      // If the docid is larger than the targetDocid, then the next docid is found
+      if (nextDocid == targetDocid) {
+        return i;
+      } else if (nextDocid > targetDocid) {
+        return -1;
+      }
+
+      // Get the occurs
+      while (!isEndOfNum(postingList.get(i))) {
+        byteList.add(postingList.get(i++));
+      }
+      byteList.add(postingList.get(i++));
+      int occur = vByteDecoding(byteList);
+      byteList.clear();
+
+      // Skip all position data...
+      for (int j = 0; j < occur; j++) {
+        // Get the occurs
+        while (!isEndOfNum(postingList.get(i))) {
+          i++;
+        }
+        i++;
+      }
+
+      // Move on to the next docid...
+    }
+  }
+
+  private int getDocidOffset(String term, int docid) {
+    List<Integer> partialSkipPointers = vByteDecodingList(skipPointers.get(term));
+    int startOffsetOfPostingList = 0;
+    int nextDocid = 0;
+    int prevDocid = 0;
+
+    // Get the start offset of the skip pointers...
+    int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(partialSkipPointers, term, docid);
+    if (startOffsetOfSkipPointers >= 0) {
+      // Skip...
+      prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
+      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers + 1);
+    }
+
+    return scanPostingListForDocidOffset(term, docid, prevDocid, startOffsetOfPostingList);
   }
 
   /**
@@ -596,12 +732,16 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * next, return -1.
    */
   public int nextPos(String term, int docid, int pos) {
+    checkNotNull(term, "term can not be null!");
+    checkNotNull(docid, "docid can not be null!");
+    checkNotNull(pos, "pos can not be null!");
+
     if (!invertedIndex.containsKey(term)) {
       return -1;
     }
 
     // Get the decompressed docidOffsetList
-    List<Integer> docidOffsetList = vByteDecodingList(postingListOffsetMap.get(term));
+    List<Integer> docidOffsetList = vByteDecodingList(skipPointers.get(term));
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> tmpList = new ArrayList<Byte>();
     int offset = docidOffsetList.get(getDocidOffset(term, docid));

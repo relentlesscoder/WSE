@@ -171,6 +171,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   @Override
   public Document nextDoc(Query query, int docid) {
+    checkNotNull(docid, "docid can not be null!");
     Vector<String> tokens = query._tokens;
 
     int nextDocid = nextCandidateDocid(tokens, docid);

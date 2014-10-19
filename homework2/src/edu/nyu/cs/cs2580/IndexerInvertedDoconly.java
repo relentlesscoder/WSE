@@ -176,6 +176,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
+    checkNotNull(docid, "docid can not be null!");
     Vector<String> tokens = query._tokens;
 
     int nextDocid = nextCandidateDocid(tokens, docid);
