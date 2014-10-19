@@ -80,8 +80,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Get the number of documents
     numDocs = documents.size();
 
-    // Clear the previous document ID map since it's no longer needed...
+    // Clear the {@code lastDocid} and {@code lastSkipPointerOffset} since it's no longer needed...
     lastDocid.clear();
+    lastSkipPointerOffset.clear();
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
@@ -94,11 +95,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
 
-    ObjectOutputStream writer =
-        new ObjectOutputStream(new FileOutputStream(indexFile));
-    writer.writeObject(this);
-    writer.close();
-    System.out.println("Mission completed :)");
+//    ObjectOutputStream writer =
+//        new ObjectOutputStream(new FileOutputStream(indexFile));
+//    writer.writeObject(this);
+//    writer.close();
+//    System.out.println("Mission completed :)");
   }
 
   /**
@@ -673,6 +674,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private int scanPostingListForDocidOffset(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> byteList = new ArrayList<Byte>();
+    int offset = 0;
     int nextDocid = prevDocid;
     int i = startOffsetOfPostingList;
 
@@ -681,6 +683,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       if (i >= postingList.size()) {
         return -1;
       }
+
+      offset = i;
 
       // Get the docid
       while (!isEndOfNum(postingList.get(i))) {
@@ -692,7 +696,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // If the docid is larger than the targetDocid, then the next docid is found
       if (nextDocid == targetDocid) {
-        return i;
+        return offset;
       } else if (nextDocid > targetDocid) {
         return -1;
       }
@@ -736,7 +740,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     if (startOffsetOfSkipPointers >= 0) {
       // Skip...
       prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
-      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers + 1);
+      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers);
     }
 
     return scanPostingListForDocidOffset(term, docid, prevDocid, startOffsetOfPostingList);
@@ -764,7 +768,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     List<Integer> docidOffsetList = vByteDecodingList(skipPointers.get(term));
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> tmpList = new ArrayList<Byte>();
-    int offset = docidOffsetList.get(getDocidOffset(term, docid));
+    int offset = getDocidOffset(term, docid);
 
     int occur = -1;
     int currPos = 0;
@@ -796,7 +800,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     // No more term...
-    return currPos;
+    return -1;
   }
 
   @Override

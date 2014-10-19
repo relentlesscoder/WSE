@@ -30,13 +30,5 @@ public class IndexerInvertedCompressedTest extends TestCase {
     indexer.constructIndex();
     Query query = new Query("alaska purchas");
     query.processQuery();
-    Document document1 = indexer.nextDoc(query, -1);
-    Document document2 = indexer.nextDoc(query, document1._docid);
-    Document document3 = indexer.nextDoc(query, document2._docid);
-    Document document4 = indexer.nextDoc(query, document3._docid);
-    Document document5 = indexer.nextDoc(query, document4._docid);
-    Document document6 = indexer.nextDoc(query, document5._docid);
-    Document document7 = indexer.nextDoc(query, document6._docid);
-    Document document8 = indexer.nextDoc(query, document7._docid);
   }
 }
