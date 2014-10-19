@@ -24,6 +24,8 @@ public class RankerConjunctive extends Ranker {
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
 
+
+  // According to index_type to process query differently
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
     String indexType = _indexer.getClass().getSimpleName();
@@ -40,6 +42,7 @@ public class RankerConjunctive extends Ranker {
     return results;
   }
 
+  //Make convenience to call child indexer method
   private void initPosIndexer(){
     if (_options._indexerType.equals("inverted-occurrence")){
       occIndexer = (IndexerInvertedOccurrence) _indexer;
@@ -84,7 +87,7 @@ public class RankerConjunctive extends Ranker {
     int docid = -1;
     findDoc:
     while ((doc = nextDoc(query, docid)) != null) {
-      System.out.println("Searching Doc: " + doc._docid);
+//      System.out.println("Searching Doc: " + doc._docid);
       if (doc._docid ==11){
         int x=11;
       }
@@ -96,7 +99,6 @@ public class RankerConjunctive extends Ranker {
         Set<String> keyset = phrases.keySet();
 
         for(String key : keyset){
-          System.out.println(key);
           List<String> tokens = phrases.get(key);
           int pos = nextPhrase(tokens, doc._docid, -1);
           if (pos == -1) {
@@ -115,18 +117,12 @@ public class RankerConjunctive extends Ranker {
         while (pos!=-1) {
           score+=1.0;
           pos = nextPos(term, doc._docid, pos);
-          System.out.println(pos);
-//          if (pos == 18324){
-//            int x = 1;
-//          }
         }
 
       }
 
-      System.out.println(doc._docid+" "+score);
-//      if (doc._docid == 162){
-//        int x = 1;
-//      }
+//      System.out.println(doc._docid+" "+score);
+
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {
         rankQueue.poll();
@@ -181,9 +177,9 @@ public class RankerConjunctive extends Ranker {
       }
       break;
     }
-    if (pos!=-1){
-      System.out.println("Postion found in Doc"+ docid +" : " + pos);
-    }
+//    if (pos!=-1){
+//      System.out.println("Postion found in Doc"+ docid +" : " + pos);
+//    }
     return pos;
   }
 }

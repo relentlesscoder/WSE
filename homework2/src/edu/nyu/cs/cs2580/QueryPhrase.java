@@ -20,7 +20,6 @@ public class QueryPhrase extends Query {
 
   public QueryPhrase(String query) {
       super(query);
-      System.out.println("Using Query: " + this.getClass().getSimpleName());
   }
 
   @Override
