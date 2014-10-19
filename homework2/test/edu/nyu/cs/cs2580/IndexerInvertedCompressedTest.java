@@ -28,7 +28,8 @@ public class IndexerInvertedCompressedTest extends TestCase {
   @Test
   public void test1() throws IOException {
     indexer.constructIndex();
-    Query query = new Query("alaska purchas");
+    Query query = new Query("new york times rolling taylor swift");
     query.processQuery();
+    Document document1 = indexer.nextDoc(query, -1);
   }
 }

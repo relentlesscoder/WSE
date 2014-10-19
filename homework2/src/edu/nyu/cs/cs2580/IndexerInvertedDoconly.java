@@ -241,7 +241,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
     // Check if the largest document ID satisfy all query terms.
     for (String term : queryTerms) {
-      if (!hasDocid(term, docid)) {
+      if (!hasDocid(term, largestDocid)) {
         // This document ID does not satisfy one of the query term...
         // Check the next...
         return nextCandidateDocid(queryTerms, largestDocid);

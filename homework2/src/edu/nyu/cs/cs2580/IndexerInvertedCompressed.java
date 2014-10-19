@@ -630,7 +630,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       int mid = low + (high - low) / 2;
       int midDocid = partialSkipPointers.get(mid * 2);
       if (midDocid == docid) {
-        return mid - 1;
+        return (mid - 1) * 2;
       } else if (midDocid < docid) {
         low = mid;
       } else {

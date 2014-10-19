@@ -5,10 +5,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class IndexerInvertedOccurrenceTest extends TestCase {
-  String optionStr = "homework2/test/edu/nyu/cs/cs2580/engine_doconlyIndexer_test.conf";
+  String optionStr = "homework2/test/edu/nyu/cs/cs2580/engine_occurrenceIndexer_test.conf";
   Indexer indexer;
   SearchEngine.Options OPTIONS;
 
@@ -26,11 +24,8 @@ public class IndexerInvertedOccurrenceTest extends TestCase {
   @Test
   public void testNextDoc() throws Exception {
     indexer.constructIndex();
-    Query query = new Query("alaska purchas");
+    Query query = new Query("new york times rolling taylor swift");
     query.processQuery();
-//    Document document1 = indexer.nextDoc(query, -1);
-//    Document document2 = indexer.nextDoc(query, document1._docid);
-//    Document document3 = indexer.nextDoc(query, document2._docid);
-//    Document document4 = indexer.nextDoc(query, document3._docid);
+    Document document1 = indexer.nextDoc(query, -1);
   }
 }
