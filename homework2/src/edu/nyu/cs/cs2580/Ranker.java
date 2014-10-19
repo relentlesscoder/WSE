@@ -7,22 +7,22 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 /**
  * This is the abstract Ranker class for all concrete Ranker implementations.
- *
+ * 
  * Use {@link Ranker.Factory} to create your concrete Ranker implementation. Do
  * NOT change the interface in this class!
- *
+ * 
  * In HW1: {@link RankerFullScan} is the instructor's simple ranker and students
  * implement four additional concrete Rankers.
- *
+ * 
  * In HW2: students will pick a favorite concrete Ranker other than
- * {@link RankerPhrase}, and re-implement it using the more efficient
- * concrete Indexers.
- *
+ * {@link RankerPhrase}, and re-implement it using the more efficient concrete
+ * Indexers.
+ * 
  * 2013-02-16: The instructor's code went through substantial refactoring
  * between HW1 and HW2, students are expected to refactor code accordingly.
  * Refactoring is a common necessity in real world and part of the learning
  * experience.
- *
+ * 
  * @author congyu
  * @author fdiaz
  */
@@ -47,8 +47,11 @@ public abstract class Ranker {
 
   /**
    * Processes one query.
-   * @param query the parsed user query
-   * @param numResults number of results to return
+   * 
+   * @param query
+   *          the parsed user query
+   * @param numResults
+   *          number of results to return
    * @return Up to {@code numResults} scored documents in ranked order
    */
   public abstract Vector<ScoredDocument> runQuery(Query query, int numResults);
@@ -68,17 +71,13 @@ public abstract class Ranker {
       case FAVORITE:
         return new RankerFavorite(options, arguments, indexer);
       case COSINE:
-        // Plug in your cosine Ranker
-        break;
+        return new VectorSpaceModel(options, arguments, indexer);
       case QL:
-        // Plug in your QL Ranker
-        break;
+        return new LanguageModel(options, arguments, indexer);
       case PHRASE:
-        // Plug in your phrase Ranker
-        break;
+        return new PhraseRanker(options, arguments, indexer);
       case LINEAR:
-        // Plug in your linear Ranker
-        break;
+        return new LinearRanker(options, arguments, indexer);
       case NONE:
         // Fall through intended
       default:
