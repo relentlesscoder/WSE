@@ -138,6 +138,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       _totalTermFrequency++;
       position++;
     }
+
+    documents.get(docid).setTotalDocTerms(++position);
   }
 
   @Override

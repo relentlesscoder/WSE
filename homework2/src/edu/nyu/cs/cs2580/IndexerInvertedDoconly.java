@@ -116,8 +116,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   private void populateInvertedIndex(String content, int docid) {
     // TODO: Temporary. Need a better tokenizer...
     Scanner scanner = new Scanner(content).useDelimiter("\\W");
-
+    int count = 0;
     while (scanner.hasNext()) {
+      count++;
       // TODO: Temporary. Need stemming...
       String term = scanner.next().toLowerCase();
       if (term.equals("")) {
@@ -141,6 +142,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         invertedIndex.get(term).add(docid);
       }
     }
+
+    documents.get(docid).setTotalDocTerms(count);
   }
 
   @Override
