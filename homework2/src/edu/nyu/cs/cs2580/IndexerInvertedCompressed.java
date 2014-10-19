@@ -32,6 +32,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
+  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
   /**
    * ***********************************************************************
@@ -84,6 +85,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     lastDocid.clear();
     lastSkipPointerOffset.clear();
 
+    DocumentIndexed doc = documents.get(11);
+    int tf1 = documentTermFrequency("alaska", documents.get(12).getUrl());
+    int tf2 = documentTermFrequency("purchas", documents.get(12).getUrl());
+
     duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete indexing...");
@@ -123,6 +128,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // TODO: Need to figure that out...
     doc.setUrl(file.getAbsolutePath());
     documents.add(doc);
+    docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index.
     populateInvertedIndex(title + " " + bodyText, docid);
@@ -819,6 +825,28 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, String url) {
-    return 0;
+    if (!docUrlMap.containsKey(url)) {
+      //TODO: TEMP
+      return 0;
+    }
+
+    int docTermFrequency = 0;
+    int docid = docUrlMap.get(url);
+    int offset = getDocidOffset(term, docid);
+    List<Byte> postingList = invertedIndex.get(term);
+    List<Byte> tmpList = new ArrayList<Byte>();
+
+    // Skip the doc id first
+    while (!isEndOfNum(postingList.get(offset++))) {
+    }
+
+    // Get the occurs
+    while (!isEndOfNum(postingList.get(offset))) {
+      tmpList.add(postingList.get(offset++));
+    }
+    tmpList.add(postingList.get(offset++));
+    docTermFrequency = vByteDecoding(tmpList);
+
+    return docTermFrequency;
   }
 }
