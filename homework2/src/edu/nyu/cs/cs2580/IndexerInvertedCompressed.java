@@ -85,10 +85,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     lastDocid.clear();
     lastSkipPointerOffset.clear();
 
-    DocumentIndexed doc = documents.get(11);
-    int tf1 = documentTermFrequency("alaska", documents.get(12).getUrl());
-    int tf2 = documentTermFrequency("purchas", documents.get(12).getUrl());
-
     duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete indexing...");
@@ -100,11 +96,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
 
-//    ObjectOutputStream writer =
-//        new ObjectOutputStream(new FileOutputStream(indexFile));
-//    writer.writeObject(this);
-//    writer.close();
-//    System.out.println("Mission completed :)");
+    ObjectOutputStream writer =
+        new ObjectOutputStream(new FileOutputStream(indexFile));
+    writer.writeObject(this);
+    writer.close();
+    System.out.println("Mission completed :)");
   }
 
   /**
@@ -679,6 +675,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private int scanPostingListForDocidOffset(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
+    List<Integer> yoyo = vByteDecodingList(postingList);
     List<Byte> byteList = new ArrayList<Byte>();
     int offset = 0;
     int nextDocid = prevDocid;
@@ -746,7 +743,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     if (startOffsetOfSkipPointers >= 0) {
       // Skip...
       prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
-      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers);
+      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers + 1);
     }
 
     return scanPostingListForDocidOffset(term, docid, prevDocid, startOffsetOfPostingList);
