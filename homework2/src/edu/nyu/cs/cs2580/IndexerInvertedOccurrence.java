@@ -250,7 +250,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     // Use binary search for the next document ID right after {@code docid}
     int low = 0;
-    int high = docidList.size() / 2;
+    int high = docidList.size() / 2 - 1;
 
     while (high - low > 1) {
       int mid = low + (high - low) / 2;
