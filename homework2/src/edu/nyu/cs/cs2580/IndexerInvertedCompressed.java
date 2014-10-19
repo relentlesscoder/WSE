@@ -31,9 +31,6 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
  * This is the compressed inverted indexer...
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
-  private static final Logger logger = LogManager
-      .getLogger(IndexerInvertedCompressed.class);
-
   private static final long serialVersionUID = 1L;
   private static final int K = 5;
 
@@ -108,19 +105,23 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete indexing...");
-    System.out.println("Total time: " + Util.convertMillis(duration));
+    System.out.println("Indexing time: " + Util.convertMillis(duration));
     System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
         + Long.toString(_totalTermFrequency) + " terms.");
 
     // Write to file
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
+    startTimeStamp = System.currentTimeMillis();
 
     ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
         indexFile));
     writer.writeObject(this);
     writer.close();
+
+    duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Mission completed :)");
+    System.out.println("Serialization time: " + Util.convertMillis(duration));
   }
 
   /**
@@ -136,14 +137,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
-    // TODO: Temporary way for extracting the text and tile from the html file.
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
-    // TODO: Need to figure that out...
+
     doc.setUrl(file.getAbsolutePath());
     documents.add(doc);
     docUrlMap.put(doc.getUrl(), docid);
@@ -164,22 +164,19 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    *          The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
-
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<String, Integer> tmpInvertedIndex = ArrayListMultimap.create();
-
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
     int position = 0;
 
     /**************************************************************************
      * Start to process the document one term at a time.
      *************************************************************************/
     while (tokenizer.hasNext()) {
-      String term1 = tokenizer.getText();
-      String term2 = Tokenizer.lowercaseFilter(term1);
-      String term = Tokenizer.krovetzStemmerFilter(term2);
-      logger.debug(term1 + " >> " + term2 + " >> " + term);
+      // Tokenizer... Stemmer... Filter...
+      String term = Tokenizer.krovetzStemmerFilter(Tokenizer.lowercaseFilter(tokenizer.getText()));
+
       // Populate the temporary inverted index.
       if (tmpInvertedIndex.containsKey(term)) {
         // The term has already been seen at least once in the document.

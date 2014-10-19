@@ -64,19 +64,23 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete indexing...");
-    System.out.println("Total time: " + Util.convertMillis(duration));
+    System.out.println("Indexing time: " + Util.convertMillis(duration));
     System.out.println("Indexed " + Integer.toString(numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
     // Write to file
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
+    startTimeStamp = System.currentTimeMillis();
 
     ObjectOutputStream writer =
         new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
+
+    duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Mission completed :)");
+    System.out.println("Serialization time: " + Util.convertMillis(duration));
   }
 
   /**
@@ -90,7 +94,6 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   private void processDocument(File file, int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
-    // TODO: Temporary way for extracting the text and tile from the html file.
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
@@ -115,11 +118,10 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    */
   private void populateInvertedIndex(String content, int docid) {
     Tokenizer tokenizer = new Tokenizer(new StringReader(content));
-
     int count = 0;
+
     while (tokenizer.hasNext()) {
-      // TODO: Temporary. Need stemming...
-      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      String term = Tokenizer.krovetzStemmerFilter(Tokenizer.lowercaseFilter(tokenizer.getText()));
       count++;
 
       _totalTermFrequency++;
