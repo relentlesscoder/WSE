@@ -8,9 +8,7 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -26,6 +24,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
+  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
   // Provided for serialization
   public IndexerInvertedOccurrence() {
@@ -98,6 +97,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     doc.setTitle(title);
     doc.setUrl(file.getAbsolutePath());
     documents.add(doc);
+    docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index
     populateInvertedIndex(title + " " + bodyText, docid);
@@ -160,6 +160,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     this.invertedIndex = loaded.invertedIndex;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
+    this.docUrlMap = loaded.docUrlMap;
     reader.close();
 
     System.out.println(Integer.toString(numDocs) + " documents loaded " +
@@ -373,7 +374,20 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, String url) {
-    SearchEngine.Check(false, "Not implemented!");
-    return 0;
+    if (!docUrlMap.containsKey(url)) {
+      //TODO: TEMP
+      return 0;
+    }
+
+    int docTermFrequency = 0;
+    int docid = docUrlMap.get(url);
+    int offset = firstDocidOffset(term, docid);
+    List<Integer> postingList = invertedIndex.get(term);
+
+    while (postingList.get(offset) == docid) {
+      docTermFrequency++;
+    }
+
+    return docTermFrequency;
   }
 }
