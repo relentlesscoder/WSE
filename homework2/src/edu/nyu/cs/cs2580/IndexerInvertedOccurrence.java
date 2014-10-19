@@ -1,25 +1,47 @@
 package edu.nyu.cs.cs2580;
 
-import com.google.common.collect.*;
-import edu.nyu.cs.cs2580.SearchEngine.Options;
-import org.jsoup.Jsoup;
-import org.mapdb.DB;
-import org.mapdb.DBMaker;
-
-import java.io.*;
-import java.util.*;
-
 import static com.google.common.base.Preconditions.checkNotNull;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
+import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Vector;
+
+import org.jsoup.Jsoup;
+
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multimap;
+import com.google.common.collect.Multiset;
+import com.google.common.collect.Ordering;
+import com.google.common.collect.SortedSetMultimap;
+import com.google.common.collect.TreeMultimap;
+
+import edu.nyu.cs.cs2580.SearchEngine.Options;
+
 public class IndexerInvertedOccurrence extends Indexer implements Serializable {
+
   private static final long serialVersionUID = 1L;
 
   // Inverted index.
   // Key is the term and value is the compressed posting list.
-  private ListMultimap<String, Integer> invertedIndex = ArrayListMultimap.create();
+  private ListMultimap<String, Integer> invertedIndex = ArrayListMultimap
+      .create();
 
   // Term frequency across whole corpus.
-  // key is the term and value is the frequency of the term across the whole corpus.
+  // key is the term and value is the frequency of the term across the whole
+  // corpus.
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
@@ -66,7 +88,6 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     Util.writePartialInvertedIndex(invertedIndex, _options, ++fileCount);
     invertedIndex.clear();
 
-
     // Get the number of documents
     numDocs = documents.size();
 
@@ -74,13 +95,10 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     System.out.println("Complete indexing...");
     System.out.println("Indexing time: " + Util.convertMillis(duration));
-    System.out.println("Indexed " + Integer.toString(numDocs)
-        + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
+    System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
+        + Long.toString(_totalTermFrequency) + " terms.");
 
-
-
-
-     startTimeStamp = System.currentTimeMillis();
+    startTimeStamp = System.currentTimeMillis();
     System.out.println("merging");
     // Shit....
     try {
@@ -88,40 +106,44 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
-     duration = System.currentTimeMillis() - startTimeStamp;
+    duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete merging...");
     System.out.println("Merging time: " + Util.convertMillis(duration));
     /**************************************************************************
      * Start serialize
      *************************************************************************/
-//    startTimeStamp = System.currentTimeMillis();
-//
-//    System.out.println("Start storing...");
-//
-//    // Serialize the inverted index into multiple files first
-//    Util.serializeInvertedIndex(invertedIndex, _options);
-//
-//    invertedIndex.clear();
+    // startTimeStamp = System.currentTimeMillis();
+    //
+    // System.out.println("Start storing...");
+    //
+    // // Serialize the inverted index into multiple files first
+    // Util.serializeInvertedIndex(invertedIndex, _options);
+    //
+    // invertedIndex.clear();
 
     // Serialize the whole object :)
-//    String indexFile = _options._indexPrefix + "/corpus.idx";
-//    System.out.println("Storing index to: " + _options._indexPrefix);
-//    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexFile));
-//    writer.writeObject(this);
-//    writer.close();
-//
-//    duration = System.currentTimeMillis() - startTimeStamp;
-//    System.out.println("Mission completed :)");
-//    System.out.println("Serialization time: " + Util.convertMillis(duration));
+    // String indexFile = _options._indexPrefix + "/corpus.idx";
+    // System.out.println("Storing index to: " + _options._indexPrefix);
+    // ObjectOutputStream writer = new ObjectOutputStream(new
+    // FileOutputStream(indexFile));
+    // writer.writeObject(this);
+    // writer.close();
+    //
+    // duration = System.currentTimeMillis() - startTimeStamp;
+    // System.out.println("Mission completed :)");
+    // System.out.println("Serialization time: " +
+    // Util.convertMillis(duration));
   }
 
   /**
-   * Process the document.
-   * First store the document, then populate the inverted index.
-   *
-   * @param file  The file waiting to be indexed.
-   * @param docid The file's document ID.
+   * Process the document. First store the document, then populate the inverted
+   * index.
+   * 
+   * @param file
+   *          The file waiting to be indexed.
+   * @param docid
+   *          The file's document ID.
    * @throws IOException
    */
   private void processDocument(File file, int docid) throws IOException {
@@ -141,38 +163,45 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     populateInvertedIndex(title + " " + bodyText, docid);
 
     // TODO: Deal with all the links...
-//    Elements links = jsoupDoc.select("a[href]");
+    // Elements links = jsoupDoc.select("a[href]");
   }
 
   /**
    * Populate the inverted index.
-   *
-   * @param content The text content of the html document.
-   * @param docid   The document ID.
+   * 
+   * @param content
+   *          The text content of the html document.
+   * @param docid
+   *          The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
     Tokenizer tokenizer = new Tokenizer(new StringReader(content));
     int position = 0;
 
     while (tokenizer.hasNext()) {
-      String term = Tokenizer.krovetzStemmerFilter(Tokenizer.lowercaseFilter(tokenizer.getText()));
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      term = Tokenizer.krovetzStemmerFilter(term);
+      term = Tokenizer.stripSingleCharacterFilter(term);
+      // logger.debug(logValue);
 
-      // Update the termCorpusFrequency
-      _termCorpusFrequency.add(term);
+      if (term != null) {
+        // Update the termCorpusFrequency
+        _termCorpusFrequency.add(term);
 
-      if (invertedIndex.containsKey(term)) {
-        // The token exists in the index
-        invertedIndex.get(term).add(docid);
-        invertedIndex.get(term).add(position);
-      } else {
-        // The token does not exist in the index, add it first, then add the
-        // docid and the token's position
-        invertedIndex.get(term).add(docid);
-        invertedIndex.get(term).add(position);
+        if (invertedIndex.containsKey(term)) {
+          // The token exists in the index
+          invertedIndex.get(term).add(docid);
+          invertedIndex.get(term).add(position);
+        } else {
+          // The token does not exist in the index, add it first, then add the
+          // docid and the token's position
+          invertedIndex.get(term).add(docid);
+          invertedIndex.get(term).add(position);
+        }
+
+        _totalTermFrequency++;
+        position++;
       }
-
-      _totalTermFrequency++;
-      position++;
     }
 
     documents.get(docid).setTotalDocTerms(++position);
@@ -196,7 +225,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
         this.documents = loaded.documents;
 
-        // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
+        // Compute numDocs and totalTermFrequency b/c Indexer is not
+        // serializable.
         this.numDocs = documents.size();
         this._totalTermFrequency = loaded._termCorpusFrequency.size();
 
@@ -239,14 +269,16 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next docid which satisfies the query terms, if none of such docid
-   * can be found, return -1.
-   * This function uses document at a time retrieval method.
-   *
-   * @param queryTerms A list of query terms
-   * @param docid      The document ID
-   * @return the next docid right after {@code docid} satisfying {@code queryTerms}
-   * or -1 if no such document exists.
+   * Return the next docid which satisfies the query terms, if none of such
+   * docid can be found, return -1. This function uses document at a time
+   * retrieval method.
+   * 
+   * @param queryTerms
+   *          A list of query terms
+   * @param docid
+   *          The document ID
+   * @return the next docid right after {@code docid} satisfying
+   *         {@code queryTerms} or -1 if no such document exists.
    */
   private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
     int largestDocid = -1;
@@ -278,13 +310,15 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next docid after the current one of the posting list, or -1
-   * if no such docid exists.
-   *
-   * @param term  The term...
-   * @param docid The document ID
-   * @return the next document ID after the current document or -1 if no such document
-   * ID exists.
+   * Return the next docid after the current one of the posting list, or -1 if
+   * no such docid exists.
+   * 
+   * @param term
+   *          The term...
+   * @param docid
+   *          The document ID
+   * @return the next document ID after the current document or -1 if no such
+   *         document ID exists.
    */
   private int nextDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -318,10 +352,13 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Check if the docid exists in the term's posting list.
-   *
-   * @param term  The term...
-   * @param docid The document ID
-   * @return true if the docid exists in the term's posting list, otherwise false
+   * 
+   * @param term
+   *          The term...
+   * @param docid
+   *          The document ID
+   * @return true if the docid exists in the term's posting list, otherwise
+   *         false
    */
   private boolean hasDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -351,12 +388,15 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Return the next position for a term after {@code pos} in a document.
-   *
-   * @param term  The term...
-   * @param docid The document ID
-   * @param pos   The position of the term in the document
-   * @return the next position for the term in the document. If no more term in the
-   * next, return -1.
+   * 
+   * @param term
+   *          The term...
+   * @param docid
+   *          The document ID
+   * @param pos
+   *          The position of the term in the document
+   * @return the next position for the term in the document. If no more term in
+   *         the next, return -1.
    */
   public int nextPos(String term, int docid, int pos) {
     List<Integer> postingList = invertedIndex.get(term);
@@ -384,9 +424,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Find the first docid offset
-   *
-   * @param term  The term...
-   * @param docid The document ID
+   * 
+   * @param term
+   *          The term...
+   * @param docid
+   *          The document ID
    * @return
    */
   private int firstDocidOffset(String term, int docid) {
@@ -431,7 +473,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   @Override
   public int documentTermFrequency(String term, String url) {
     if (!docUrlMap.containsKey(url)) {
-      //TODO: TEMP
+      // TODO: TEMP
       return 0;
     }
 
@@ -455,7 +497,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   private void merge() throws IOException, ClassNotFoundException {
     String indexMergedFile = _options._indexPrefix + "/corpus_merged.idx";
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexMergedFile));
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+        indexMergedFile));
     File folder = new File(_options._indexPrefix);
 
     int numOfIndex = 0;
@@ -468,12 +511,13 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     File[] files = new File[numOfIndex];
     int[] numOfEntries = new int[numOfIndex];
     String[] terms = new String[numOfIndex];
-//    List<List<Integer>> postingLists = new ArrayList<List<Integer>>();
+    // List<List<Integer>> postingLists = new ArrayList<List<Integer>>();
     ObjectInputStream[] readers = new ObjectInputStream[numOfIndex];
 
     for (int i = 0; i < numOfIndex; i++) {
       for (File file : folder.listFiles()) {
-        if (file.getName().matches("^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
+        if (file.getName().matches(
+            "^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
           files[i] = file;
         }
       }
@@ -481,11 +525,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     // Initialize...
     for (int i = 0; i < numOfIndex; i++) {
-      readers[i] = new ObjectInputStream(new FileInputStream(files[i].getAbsolutePath()));
+      readers[i] = new ObjectInputStream(new FileInputStream(
+          files[i].getAbsolutePath()));
       numOfEntries[i] = readers[i].readInt();
       List<Integer> l = new ArrayList<Integer>();
       terms[i] = "";
-//      postingLists.add(l);
+      // postingLists.add(l);
     }
 
     int countSSS = 0;
@@ -494,11 +539,13 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         if (terms[i].equals("") && numOfEntries[i] > 0) {
           numOfEntries[i] -= 1;
           terms[i] = readers[i].readUTF();
-//          postingLists.get(i).addAll((Collection<? extends Integer>) readers[i].readObject());
+          // postingLists.get(i).addAll((Collection<? extends Integer>)
+          // readers[i].readObject());
         }
       }
 
-      SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap.create(Ordering.natural(), Ordering.natural());
+      SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap
+          .create(Ordering.natural(), Ordering.natural());
       for (int i = 0; i < numOfIndex; i++) {
         if (!terms[i].equals("")) {
           sortedSetMultimap.put(terms[i], i);
@@ -509,7 +556,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       for (Map.Entry entry : sortedSetMultimap.entries()) {
         String term = (String) entry.getKey();
         for (int i : sortedSetMultimap.asMap().get(term)) {
-          output.get(term).addAll((Collection<? extends Integer>) readers[i].readObject());
+          output.get(term).addAll(
+              (Collection<? extends Integer>) readers[i].readObject());
           terms[i] = "";
         }
 
@@ -518,7 +566,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
       for (Map.Entry entry : output.asMap().entrySet()) {
         String term = (String) entry.getKey();
-        List<Integer> list = new ArrayList<Integer>((java.util.Collection<? extends Integer>) entry.getValue());
+        List<Integer> list = new ArrayList<Integer>(
+            (java.util.Collection<? extends Integer>) entry.getValue());
         writer.writeUTF(term);
         writer.writeObject(list);
         writer.flush();
@@ -534,7 +583,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       }
     }
 
-    //TODO: flush...
+    // TODO: flush...
     writer.close();
   }
 
