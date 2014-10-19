@@ -1,6 +1,7 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Scanner;
+import java.io.StringReader;
+import java.util.HashSet;
 import java.util.Vector;
 
 /**
@@ -25,10 +26,14 @@ public class Query {
     if (_query == null) {
       return;
     }
-    Scanner s = new Scanner(_query);
-    while (s.hasNext()) {
-      _tokens.add(s.next());
+    Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
+    HashSet<String> tokenSet = new HashSet<String>();
+    while (tokenizer.hasNext()) {
+      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      tokenSet.add(term);
     }
-    s.close();
+    for(String term : tokenSet){
+      _tokens.add(term);
+    }
   }
 }

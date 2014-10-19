@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class IndexerInvertedOccurrenceTest extends TestCase {
-  String optionStr = "homework2/test/edu/nyu/cs/cs2580/engine_occurrenceIndexer_test.conf";
+  String optionStr = "homework2/test/edu/nyu/cs/cs2580/engine_doconlyIndexer_test.conf";
   Indexer indexer;
   SearchEngine.Options OPTIONS;
 
