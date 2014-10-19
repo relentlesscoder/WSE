@@ -114,15 +114,13 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
-    // TODO: Temporary. Need a better tokenizer...
-    Scanner scanner = new Scanner(content).useDelimiter("\\W");
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
 
-    while (scanner.hasNext()) {
+    int count = 0;
+    while (tokenizer.hasNext()) {
       // TODO: Temporary. Need stemming...
-      String term = scanner.next().toLowerCase();
-      if (term.equals("")) {
-        continue;
-      }
+      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      count++;
 
       _totalTermFrequency++;
 
@@ -141,6 +139,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         invertedIndex.get(term).add(docid);
       }
     }
+
+    documents.get(docid).setTotalDocTerms(count);
   }
 
   @Override

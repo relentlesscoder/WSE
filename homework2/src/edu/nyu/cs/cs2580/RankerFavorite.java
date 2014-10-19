@@ -1,9 +1,9 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Vector;
-
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.util.*;
 
 /**
  * @CS2580: Implement this class for HW2 based on a refactoring of your favorite
@@ -12,15 +12,74 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
  * your more efficient implementations.
  */
 public class RankerFavorite extends Ranker {
+  private final static double LAMDA = 0.50;
+  IndexerInvertedCompressed indexerInvertedCompressed;
+  DocumentIndexed document;
 
   public RankerFavorite(Options options,
-      CgiArguments arguments, Indexer indexer) {
+                        CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
+    this.indexerInvertedCompressed = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    return null;
+    Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
+
+    for (int i = 0; i < indexerInvertedCompressed.numDocs(); ++i) {
+      rankQueue.add(scoreDocument(query, i));
+      if (rankQueue.size() > numResults) {
+        rankQueue.poll();
+      }
+    }
+
+    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
+    ScoredDocument scoredDoc = null;
+    while ((scoredDoc = rankQueue.poll()) != null) {
+      results.add(scoredDoc);
+    }
+    Collections.sort(results, Collections.reverseOrder());
+    return results;
+  }
+
+  public ScoredDocument scoreDocument(Query query, int docId) {
+    ScoredDocument scoredDocument = null;
+    // C is the total number of word occurrences in the collection.
+    long C = indexerInvertedCompressed.totalTermFrequency();
+
+    // Query vector
+    List<String> queryList = new ArrayList<String>();
+    for (String term : query._tokens) {
+      queryList.add(term);
+    }
+
+    DocumentIndexed document = indexerInvertedCompressed.getDoc(docId);
+
+    // Score the document. Here we have provided a very simple ranking model,
+    // where a document is scored 1.0 if it gets hit by at least one query
+    // term.
+    double score = 0.0;
+
+    for (int i = 0; i < queryList.size(); ++i) {
+      String qi = queryList.get(i);
+
+      // fqi_D is the number of times word qi occurs in document D.
+      int fqi_D = indexerInvertedCompressed.documentTermFrequency(qi, document.getUrl());
+      // cqi is the number of times a query word occurs in the collection of
+      // documents
+      int cqi = indexerInvertedCompressed.corpusDocFrequencyByTerm(qi);
+      // D is the number of words in D.
+      double D = document.getTotalDocTerms();
+
+      score += Math.log((1 - LAMDA) * (fqi_D / D) + LAMDA * (cqi / C));
+    }
+
+    // TODO: Not sure...
+    score = Math.exp(score);
+
+    scoredDocument = new ScoredDocument(document, score);
+
+    return scoredDocument;
   }
 }

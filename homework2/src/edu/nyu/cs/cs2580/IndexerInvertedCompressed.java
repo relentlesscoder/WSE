@@ -207,6 +207,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      * Finish the process of all terms.
      *************************************************************************/
 
+    documents.get(docid).setTotalDocTerms(++position);
+
     /**************************************************************************
      * Start to compress...
      *************************************************************************/
@@ -394,6 +396,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     this.invertedIndex = loaded.invertedIndex;
     this.skipPointers = loaded.skipPointers;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
+    this.docUrlMap = loaded.docUrlMap;
     reader.close();
 
     System.out.println(Integer.toString(numDocs) + " documents loaded " +
@@ -401,7 +404,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   @Override
-  public Document getDoc(int docid) {
+  public DocumentIndexed getDoc(int docid) {
     return documents.get(docid);
   }
 
