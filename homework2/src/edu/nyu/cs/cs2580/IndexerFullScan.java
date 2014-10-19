@@ -33,27 +33,26 @@ class IndexerFullScan extends Indexer implements Serializable {
 
   // Term document frequency, key is the integer representation of the term and
   // value is the number of documents the term appears in.
-  private Map<Integer, Integer> _termDocFrequency =
-      new HashMap<Integer, Integer>();
+  private Map<Integer, Integer> _termDocFrequency = new HashMap<Integer, Integer>();
   // Term frequency, key is the integer representation of the term and value is
   // the number of times the term appears in the corpus.
-  private Map<Integer, Integer> _termCorpusFrequency =
-      new HashMap<Integer, Integer>();
+  private Map<Integer, Integer> _termCorpusFrequency = new HashMap<Integer, Integer>();
 
   // Stores all Document in memory.
   private Vector<Document> _documents = new Vector<Document>();
 
   // Provided for serialization
-  public IndexerFullScan() { }
-  
+  public IndexerFullScan() {
+  }
+
   // The real constructor
   public IndexerFullScan(Options option) {
     super(option);
     System.out.println("Using Indexer: " + this.getClass().getSimpleName());
   }
 
-  ///// Construction related functions.
-  
+  // /// Construction related functions.
+
   /**
    * Constructs the index from the corpus file.
    * 
@@ -73,14 +72,13 @@ class IndexerFullScan extends Indexer implements Serializable {
     } finally {
       reader.close();
     }
-    System.out.println(
-        "Indexed " + Integer.toString(numDocs) + " docs with " +
-        Long.toString(_totalTermFrequency) + " terms.");
+    System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
+        + Long.toString(_totalTermFrequency) + " terms.");
 
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Store index to: " + indexFile);
-    ObjectOutputStream writer =
-        new ObjectOutputStream(new FileOutputStream(indexFile));
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+        indexFile));
     writer.writeObject(this);
     writer.close();
   }
@@ -88,6 +86,7 @@ class IndexerFullScan extends Indexer implements Serializable {
   /**
    * Process the raw content (i.e., one line in corpus.tsv) corresponding to a
    * document, and constructs the token vectors for both title and body.
+   * 
    * @param content
    */
   private void processDocument(String content) {
@@ -118,15 +117,16 @@ class IndexerFullScan extends Indexer implements Serializable {
       _termDocFrequency.put(idx, _termDocFrequency.get(idx) + 1);
     }
   }
-  
+
   /**
    * Tokenize {@code content} into terms, translate terms into their integer
    * representation, store the integers in {@code tokens}.
+   * 
    * @param content
    * @param tokens
    */
   private void readTermVector(String content, Vector<Integer> tokens) {
-    Scanner s = new Scanner(content);  // Uses white space by default.
+    Scanner s = new Scanner(content); // Uses white space by default.
     while (s.hasNext()) {
       String token = s.next();
       int idx = -1;
@@ -143,10 +143,11 @@ class IndexerFullScan extends Indexer implements Serializable {
     }
     return;
   }
-  
+
   /**
    * Update the corpus statistics with {@code tokens}. Using {@code uniques} to
    * bridge between different token vectors.
+   * 
    * @param tokens
    * @param uniques
    */
@@ -158,25 +159,26 @@ class IndexerFullScan extends Indexer implements Serializable {
     }
   }
 
-  ///// Loading related functions.
+  // /// Loading related functions.
 
   /**
    * Loads the index from the index file.
    * 
    * N.B. For this particular implementation, loading the index from the simple
    * serialization format is in fact slower than constructing the index from
-   * scratch. For the more efficient indices, loading should be much faster
-   * than constructing.
+   * scratch. For the more efficient indices, loading should be much faster than
+   * constructing.
    * 
-   * @throws IOException, ClassNotFoundException
+   * @throws IOException
+   *           , ClassNotFoundException
    */
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Load index from: " + indexFile);
 
-    ObjectInputStream reader =
-        new ObjectInputStream(new FileInputStream(indexFile));
+    ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
+        indexFile));
     IndexerFullScan loaded = (IndexerFullScan) reader.readObject();
 
     this._documents = loaded._documents;
@@ -191,11 +193,11 @@ class IndexerFullScan extends Indexer implements Serializable {
     this._termDocFrequency = loaded._termDocFrequency;
     reader.close();
 
-    System.out.println(Integer.toString(numDocs) + " documents loaded " +
-        "with " + Long.toString(_totalTermFrequency) + " terms!");
+    System.out.println(Integer.toString(numDocs) + " documents loaded "
+        + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
-  ///// Serving related functions.
+  // /// Serving related functions.
 
   @Override
   public Document getDoc(int did) {
@@ -209,15 +211,15 @@ class IndexerFullScan extends Indexer implements Serializable {
   }
 
   @Override
-  public int corpusDocFrequencyByTerm (String term) {
-    return _dictionary.containsKey(term) ?
-        _termDocFrequency.get(_dictionary.get(term)) : 0;
+  public int corpusDocFrequencyByTerm(String term) {
+    return _dictionary.containsKey(term) ? _termDocFrequency.get(_dictionary
+        .get(term)) : 0;
   }
 
   @Override
   public int corpusTermFrequency(String term) {
-    return _dictionary.containsKey(term) ?
-        _termCorpusFrequency.get(_dictionary.get(term)) : 0;
+    return _dictionary.containsKey(term) ? _termCorpusFrequency.get(_dictionary
+        .get(term)) : 0;
   }
 
   @Override
@@ -226,7 +228,7 @@ class IndexerFullScan extends Indexer implements Serializable {
     return 0;
   }
 
-  ///// Utility
+  // /// Utility
 
   public Vector<String> getTermVector(Vector<Integer> tokens) {
     Vector<String> retval = new Vector<String>();
