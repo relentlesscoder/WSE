@@ -88,9 +88,9 @@ public class RankerConjunctive extends Ranker {
     findDoc:
     while ((doc = nextDoc(query, docid)) != null) {
 //      System.out.println("Searching Doc: " + doc._docid);
-      if (doc._docid ==11){
-        int x=11;
-      }
+//      if (doc._docid ==11){
+//        int x=11;
+//      }
       double score = 0.0;
       if (queryType.equals("QueryPhrase")){
         queryPhrase = (QueryPhrase)query;
@@ -113,15 +113,15 @@ public class RankerConjunctive extends Ranker {
       }
 
       for(String term : query._tokens){
-        int pos = nextPos(term, doc._docid, -1);
-        while (pos!=-1) {
-          score+=1.0;
-          pos = nextPos(term, doc._docid, pos);
-        }
-
+        int termDocFrequency = documentTermFrequency(term, doc.getUrl());
+        score += 1.0*(double)termDocFrequency;
       }
 
-//      System.out.println(doc._docid+" "+score);
+      System.out.println(doc._docid+" "+score);
+
+      if (doc._docid == 165){
+        int x =11;
+      }
 
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {
@@ -181,5 +181,15 @@ public class RankerConjunctive extends Ranker {
 //      System.out.println("Postion found in Doc"+ docid +" : " + pos);
 //    }
     return pos;
+  }
+
+  private int documentTermFrequency(String term, String url){
+    int result = 0;
+    if (_options._indexerType.equals("inverted-occurrence")){
+      result = occIndexer.documentTermFrequency(term, url);
+    }else if(_options._indexerType.equals("inverted-compressed")){
+      result = compIndexer.documentTermFrequency(term, url);
+    }
+    return result;
   }
 }
