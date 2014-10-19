@@ -3,10 +3,7 @@ package edu.nyu.cs.cs2580;
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * @CS2580: Implement this class for HW2 based on a refactoring of your favorite
@@ -28,13 +25,22 @@ public class RankerFavorite extends Ranker {
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    Vector<ScoredDocument> retrieval_results = new Vector<ScoredDocument>();
+    Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
 
     for (int i = 0; i < indexerInvertedCompressed.numDocs(); ++i) {
-      retrieval_results.add(scoreDocument(query, i));
+      rankQueue.add(scoreDocument(query, i));
+      if (rankQueue.size() > numResults) {
+        rankQueue.poll();
+      }
     }
 
-    return retrieval_results;
+    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
+    ScoredDocument scoredDoc = null;
+    while ((scoredDoc = rankQueue.poll()) != null) {
+      results.add(scoredDoc);
+    }
+    Collections.sort(results, Collections.reverseOrder());
+    return results;
   }
 
   public ScoredDocument scoreDocument(Query query, int docId) {

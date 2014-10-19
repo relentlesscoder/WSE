@@ -396,6 +396,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     this.invertedIndex = loaded.invertedIndex;
     this.skipPointers = loaded.skipPointers;
     this._termCorpusFrequency = loaded._termCorpusFrequency;
+    this.docUrlMap = loaded.docUrlMap;
     reader.close();
 
     System.out.println(Integer.toString(numDocs) + " documents loaded " +
