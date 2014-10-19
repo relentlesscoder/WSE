@@ -32,6 +32,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
+  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
   /**
    * ***********************************************************************
@@ -80,8 +81,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Get the number of documents
     numDocs = documents.size();
 
-    // Clear the previous document ID map since it's no longer needed...
+    // Clear the {@code lastDocid} and {@code lastSkipPointerOffset} since it's no longer needed...
     lastDocid.clear();
+    lastSkipPointerOffset.clear();
+
+    DocumentIndexed doc = documents.get(11);
+    int tf1 = documentTermFrequency("alaska", documents.get(12).getUrl());
+    int tf2 = documentTermFrequency("purchas", documents.get(12).getUrl());
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
@@ -94,11 +100,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + indexFile);
 
-    ObjectOutputStream writer =
-        new ObjectOutputStream(new FileOutputStream(indexFile));
-    writer.writeObject(this);
-    writer.close();
-    System.out.println("Mission completed :)");
+//    ObjectOutputStream writer =
+//        new ObjectOutputStream(new FileOutputStream(indexFile));
+//    writer.writeObject(this);
+//    writer.close();
+//    System.out.println("Mission completed :)");
   }
 
   /**
@@ -122,6 +128,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // TODO: Need to figure that out...
     doc.setUrl(file.getAbsolutePath());
     documents.add(doc);
+    docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index.
     populateInvertedIndex(title + " " + bodyText, docid);
@@ -673,6 +680,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private int scanPostingListForDocidOffset(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> byteList = new ArrayList<Byte>();
+    int offset = 0;
     int nextDocid = prevDocid;
     int i = startOffsetOfPostingList;
 
@@ -681,6 +689,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       if (i >= postingList.size()) {
         return -1;
       }
+
+      offset = i;
 
       // Get the docid
       while (!isEndOfNum(postingList.get(i))) {
@@ -692,7 +702,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // If the docid is larger than the targetDocid, then the next docid is found
       if (nextDocid == targetDocid) {
-        return i;
+        return offset;
       } else if (nextDocid > targetDocid) {
         return -1;
       }
@@ -736,7 +746,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     if (startOffsetOfSkipPointers >= 0) {
       // Skip...
       prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
-      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers + 1);
+      startOffsetOfPostingList = partialSkipPointers.get(startOffsetOfSkipPointers);
     }
 
     return scanPostingListForDocidOffset(term, docid, prevDocid, startOffsetOfPostingList);
@@ -764,7 +774,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     List<Integer> docidOffsetList = vByteDecodingList(skipPointers.get(term));
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> tmpList = new ArrayList<Byte>();
-    int offset = docidOffsetList.get(getDocidOffset(term, docid));
+    int offset = getDocidOffset(term, docid);
 
     int occur = -1;
     int currPos = 0;
@@ -796,7 +806,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     // No more term...
-    return currPos;
+    return -1;
   }
 
   @Override
@@ -815,6 +825,28 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, String url) {
-    return 0;
+    if (!docUrlMap.containsKey(url)) {
+      //TODO: TEMP
+      return 0;
+    }
+
+    int docTermFrequency = 0;
+    int docid = docUrlMap.get(url);
+    int offset = getDocidOffset(term, docid);
+    List<Byte> postingList = invertedIndex.get(term);
+    List<Byte> tmpList = new ArrayList<Byte>();
+
+    // Skip the doc id first
+    while (!isEndOfNum(postingList.get(offset++))) {
+    }
+
+    // Get the occurs
+    while (!isEndOfNum(postingList.get(offset))) {
+      tmpList.add(postingList.get(offset++));
+    }
+    tmpList.add(postingList.get(offset++));
+    docTermFrequency = vByteDecoding(tmpList);
+
+    return docTermFrequency;
   }
 }
