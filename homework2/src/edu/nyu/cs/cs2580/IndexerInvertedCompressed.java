@@ -179,7 +179,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       String term1 = tokenizer.getText();
       String term2 = Tokenizer.lowercaseFilter(term1);
       String term = Tokenizer.krovetzStemmerFilter(term2);
-      // logger.debug(term1 + " >> " + term2 + " >> " + term);
+      logger.debug(term1 + " >> " + term2 + " >> " + term);
       // Populate the temporary inverted index.
       if (tmpInvertedIndex.containsKey(term)) {
         // The term has already been seen at least once in the document.
