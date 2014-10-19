@@ -100,7 +100,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     documents.add(doc);
 
     // Populate the inverted index
-    populateInvertedIndex(title + bodyText, docid);
+    populateInvertedIndex(title + " " + bodyText, docid);
 
     // TODO: Deal with all the links...
 //    Elements links = jsoupDoc.select("a[href]");
@@ -213,7 +213,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     // Check if the largest document ID satisfy all query terms.
     for (String term : queryTerms) {
-      if (!hasDocid(term, docid)) {
+      if (!hasDocid(term, largestDocid)) {
         // This document ID does not satisfy one of the query term...
         // Check the next...
         return nextCandidateDocid(queryTerms, largestDocid);
@@ -312,7 +312,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     int docidOffset = firstDocidOffset(term, docid);
 
     // Find the position right after current one
-    while (docidOffset < postingList.size() || postingList.get(docidOffset + 1) <= pos) {
+    while (docidOffset < postingList.size() && postingList.get(docidOffset + 1) <= pos) {
       docidOffset += 2;
     }
 
@@ -339,18 +339,18 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     // Use binary search for the next document ID right after {@code docid}
     int low = 0;
-    int high = (size - 1) / 2;
+    int high = (size) / 2 - 1;
 
-    while (high - low > 1) {
+    while (low <= high) {
       int mid = low + (high - low) / 2;
       int midDocid = postingList.get(mid * 2);
       if (midDocid == docid) {
         res = mid * 2;
         high = mid - 1;
-      } else if (midDocid > docid) {
-        low = mid + 1;
-      } else {
+      } else if (docid < midDocid) {
         high = mid - 1;
+      } else {
+        low = mid + 1;
       }
     }
 
