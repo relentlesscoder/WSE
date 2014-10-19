@@ -29,10 +29,14 @@ public class Query {
     Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
     HashSet<String> tokenSet = new HashSet<String>();
     while (tokenizer.hasNext()) {
-      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
-      tokenSet.add(term);
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      term = Tokenizer.stopwordFilter(term);
+      if (term != null) {
+        term = Tokenizer.krovetzStemmerFilter(term);
+        tokenSet.add(term);
+      }
     }
-    for(String term : tokenSet){
+    for (String term : tokenSet) {
       _tokens.add(term);
     }
   }
