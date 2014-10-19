@@ -256,22 +256,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
-   * Decode a list of byteList to one integer number
-   *
-   * @param byteList A list of v-byte encoded bytes needed to be decoded
-   * @return The decoded number
-   */
-  private int vByteDecoding(List<Byte> byteList) {
-    int num = 0;
-
-    for (int i = 0; i < byteList.size(); i++) {
-      num = ((byteList.get(i) & 0x7F) << 7 * i) | num;
-    }
-
-    return num;
-  }
-
-  /**
    * Extract i + 1 first 7 bits from {@code val} (From right to left)
    * e.g. If i = 0 and val = 101 0101 1010 (In binary form)
    * The return byte will be 0101 1010...
@@ -332,6 +316,38 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
+   * Decode a list of byteList to one integer number
+   *
+   * @param byteList A list of v-byte encoded bytes needed to be decoded
+   * @return The decoded number
+   */
+  private int vByteDecoding(List<Byte> byteList) {
+    int num = 0;
+
+    for (int i = 0; i < byteList.size(); i++) {
+      num = ((byteList.get(i) & 0x7F) << 7 * i) | num;
+    }
+
+    return num;
+  }
+
+  /**
+   * Encode a list of Integers to a list of Bytes by using v-byte
+   *
+   * @param list A list of integer numbers needed to be encoded
+   * @return a list of v-byte encoded bytes
+   */
+  private List<Byte> vByteEncodingList(List<Integer> list) {
+    List<Byte> res = new ArrayList<Byte>();
+
+    for (int i : list) {
+      res.addAll(vByteEncoding(i));
+    }
+
+    return res;
+  }
+
+  /**
    * Decode a list of Bytes to a list of Integers by using v-byte
    *
    * @param byteList A list of v-byte encoded bytes which represents a list of number
@@ -352,22 +368,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       tmpByteList.add(byteList.get(i++));
 
       res.add(vByteDecoding(tmpByteList));
-    }
-
-    return res;
-  }
-
-  /**
-   * Encode a list of Integers to a list of Bytes by using v-byte
-   *
-   * @param list A list of integer numbers needed to be encoded
-   * @return a list of v-byte encoded bytes
-   */
-  private List<Byte> vByteEncodingList(List<Integer> list) {
-    List<Byte> res = new ArrayList<Byte>();
-
-    for (int i : list) {
-      res.addAll(vByteEncoding(i));
     }
 
     return res;
@@ -502,6 +502,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Search the skip pointers for the possible start offset for docid of the posting list.
+   *
    * @param term
    * @param docid
    * @return
@@ -539,11 +540,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Scan the posting list for the next docid right after {@code targetDocid}.
    * It starts from the {@code startOffsetOfPostingList} with previous docid as {@code prevDocid}
-   * @param term
-   * @param targetDocid
-   * @param prevDocid
-   * @param startOffsetOfPostingList
-   * @return
+   *
+   * @param term                     the term.
+   * @param targetDocid              the target docid
+   * @param prevDocid                docid before the start {@code startOffsetOfPostingList}
+   * @param startOffsetOfPostingList the start offset of the posting list
+   * @return the next docid or -1 if none exists
    */
   private int scanPostingListForNextDocid(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
@@ -603,11 +605,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   /**
    * Scan the posting list for the {@code targetDocid}.
    * It starts from the {@code startOffsetOfPostingList} with previous docid as {@code prevDocid}
-   * @param term
-   * @param targetDocid
-   * @param prevDocid
-   * @param startOffsetOfPostingList
-   * @return
+   *
+   * @param term                     the term.
+   * @param targetDocid              the target docid
+   * @param prevDocid                docid before the start {@code startOffsetOfPostingList}
+   * @param startOffsetOfPostingList the start offset of the posting list
+   * @return true if the docid exist, otherwise false
    */
   private boolean scanPostingListForDocid(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
@@ -657,6 +660,16 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
   }
 
+  /**
+   * Scan the posting list for the {@code targetDocid} offset of the posting list.
+   * It starts from the {@code startOffsetOfPostingList} with previous docid as {@code prevDocid}
+   *
+   * @param term                     the term.
+   * @param targetDocid              the target docid
+   * @param prevDocid                docid before the start {@code startOffsetOfPostingList}
+   * @param startOffsetOfPostingList the start offset of the posting list
+   * @return the docid offset of the posting list
+   */
   private int scanPostingListForDocidOffset(String term, int targetDocid, int prevDocid, int startOffsetOfPostingList) {
     List<Byte> postingList = invertedIndex.get(term);
     List<Byte> byteList = new ArrayList<Byte>();
@@ -705,6 +718,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
   }
 
+  /**
+   * Get the docid offset of the posting list
+   *
+   * @param term  the term
+   * @param docid the docid
+   * @return the docid offset of the posting list
+   */
   private int getDocidOffset(String term, int docid) {
     List<Integer> partialSkipPointers = vByteDecodingList(skipPointers.get(term));
     int startOffsetOfPostingList = 0;
@@ -793,9 +813,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     return _termCorpusFrequency.count(term);
   }
 
-  /**
-   * @CS2580: Implement this for bonus points.
-   */
   @Override
   public int documentTermFrequency(String term, String url) {
     return 0;
