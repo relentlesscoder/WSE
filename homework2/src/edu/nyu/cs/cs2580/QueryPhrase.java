@@ -3,7 +3,12 @@ package edu.nyu.cs.cs2580;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
 
+
 import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Vector;
 import java.util.regex.*;
 
 /**
@@ -14,6 +19,7 @@ import java.util.regex.*;
 public class QueryPhrase extends Query {
 
   private ListMultimap<String, String> _phrases = ArrayListMultimap.create();
+  private Vector<String> soloTokens = new Vector<String>();
 
   public QueryPhrase(String query) {
       super(query);
@@ -26,12 +32,7 @@ public class QueryPhrase extends Query {
     if (_query == null) {
       return;
     }
-    Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
-
-    while (tokenizer.hasNext()) {
-      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
-      _tokens.add(term);
-    }
+    Tokenizer tokenizer;
 
     Pattern p = Pattern.compile("(\".+?\")");
     Matcher m = p.matcher(_query);
@@ -46,5 +47,21 @@ public class QueryPhrase extends Query {
         //System.out.println(term);
       }
     }
+
+    tokenizer = new Tokenizer(new StringReader(_query));
+    while (tokenizer.hasNext()) {
+      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+      _tokens.add(term);
+      //filter SoloTokens
+      if (!isInPhrase(term, _phrases)) soloTokens.add(term);
+    }
+  }
+
+  private boolean isInPhrase (String term, ListMultimap<String, String> phrases){
+    ArrayList<String> strings = (ArrayList<String>) phrases.values();
+    for (String str : strings){
+      if (str.equals(term)) return true;
+    }
+    return false;
   }
 }
