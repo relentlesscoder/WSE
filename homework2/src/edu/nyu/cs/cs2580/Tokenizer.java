@@ -2,12 +2,26 @@ package edu.nyu.cs.cs2580;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
 
+import edu.nyu.cs.cs2580.KStemmer.KStemmer;
 import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;
 
 public class Tokenizer {
 
   private DefaultScanner scanner;
+
+  public static final HashSet<String> STOP_WORDS_SET;
+
+  static {
+    final List<String> stopWords = Arrays.asList("a", "an", "and", "are", "as",
+        "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no",
+        "not", "of", "on", "or", "such", "that", "the", "their", "then",
+        "there", "these", "they", "this", "to", "was", "will", "with");
+    STOP_WORDS_SET = new HashSet<String>(stopWords);
+  }
 
   public Tokenizer(Reader reader) {
     this.scanner = new DefaultScanner(reader);
@@ -61,7 +75,26 @@ public class Tokenizer {
     return output;
   }
 
+  /**
+   * Stemming text
+   * 
+   * @param input
+   *          Original text
+   * @return Stemmed text
+   */
+  public static String krovetzStemmerFilter(String input) {
+    KStemmer kStemmer = new KStemmer();
+    return kStemmer.stem(input);
+  }
+
   public static String lowercaseFilter(String input) {
     return (input != null && !input.isEmpty()) ? input.toLowerCase() : "";
+  }
+
+  public static String stopwordFilter(String input) {
+    if (STOP_WORDS_SET.contains(input)) {
+      return null;
+    }
+    return input;
   }
 }
