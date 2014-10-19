@@ -394,7 +394,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     List<Integer> postingList = invertedIndex.get(term);
 
-    while (postingList.get(offset) == docid) {
+    while (offset < postingList.size() && postingList.get(offset) == docid) {
       docTermFrequency++;
       offset += 2;
     }
