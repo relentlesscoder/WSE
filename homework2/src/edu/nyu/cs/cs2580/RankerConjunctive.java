@@ -106,7 +106,7 @@ public class RankerConjunctive extends Ranker {
             continue findDoc;
           }
           while (pos != -1){
-            score += 10.0;
+            score += 5.0;
             pos = nextPhrase(tokens, doc._docid, pos);
           }
         }
