@@ -88,11 +88,11 @@ class QueryHandler implements HttpHandler {
     }
 
     // Processing the query.
-    Query processedQuery;
+    QueryPhrase processedQuery;
     if (cgiArgs._query.matches(".*(\".+\").*")) {
-      processedQuery = new QueryPhrase(cgiArgs._query);
+      processedQuery = new QueryPhrase(cgiArgs._query, true);
     } else {
-      processedQuery = new Query(cgiArgs._query);
+      processedQuery = new QueryPhrase(cgiArgs._query, false);
     }
     processedQuery.processQuery();
 
