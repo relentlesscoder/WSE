@@ -1,11 +1,10 @@
 package edu.nyu.cs.cs2580;
 
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Multiset;
+import com.google.common.collect.*;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
+import org.mapdb.DB;
+import org.mapdb.DBMaker;
 
 import java.io.*;
 import java.util.*;
@@ -40,6 +39,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
     ProgressBar progressBar = new ProgressBar();
+    int fileCount = 0;
     long startTimeStamp, duration;
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
@@ -54,7 +54,18 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
+
+      if (Util.hasReachThreshold(invertedIndex)) {
+        // Memory not enough, write to file first...
+        Util.writePartialInvertedIndex(invertedIndex, _options, ++fileCount);
+        invertedIndex.clear();
+      }
     }
+
+    // Write the rest...
+    Util.writePartialInvertedIndex(invertedIndex, _options, ++fileCount);
+    invertedIndex.clear();
+
 
     // Get the number of documents
     numDocs = documents.size();
@@ -66,28 +77,43 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     System.out.println("Indexed " + Integer.toString(numDocs)
         + " docs with " + Long.toString(_totalTermFrequency) + " terms.");
 
+
+
+
+     startTimeStamp = System.currentTimeMillis();
+    System.out.println("merging");
+    // Shit....
+    try {
+      merge();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    }
+     duration = System.currentTimeMillis() - startTimeStamp;
+
+    System.out.println("Complete merging...");
+    System.out.println("Merging time: " + Util.convertMillis(duration));
     /**************************************************************************
      * Start serialize
      *************************************************************************/
-    startTimeStamp = System.currentTimeMillis();
-
-    System.out.println("Start storing...");
-
-    // Serialize the inverted index into multiple files first
-    Util.serializeInvertedIndex(invertedIndex, _options);
-    invertedIndex.clear();
+//    startTimeStamp = System.currentTimeMillis();
+//
+//    System.out.println("Start storing...");
+//
+//    // Serialize the inverted index into multiple files first
+//    Util.serializeInvertedIndex(invertedIndex, _options);
+//
+//    invertedIndex.clear();
 
     // Serialize the whole object :)
-    String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Storing index to: " + _options._indexPrefix);
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-        indexFile));
-    writer.writeObject(this);
-    writer.close();
-
-    duration = System.currentTimeMillis() - startTimeStamp;
-    System.out.println("Mission completed :)");
-    System.out.println("Serialization time: " + Util.convertMillis(duration));
+//    String indexFile = _options._indexPrefix + "/corpus.idx";
+//    System.out.println("Storing index to: " + _options._indexPrefix);
+//    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexFile));
+//    writer.writeObject(this);
+//    writer.close();
+//
+//    duration = System.currentTimeMillis() - startTimeStamp;
+//    System.out.println("Mission completed :)");
+//    System.out.println("Serialization time: " + Util.convertMillis(duration));
   }
 
   /**
@@ -425,5 +451,99 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     }
 
     return docTermFrequency;
+  }
+
+  private void merge() throws IOException, ClassNotFoundException {
+    String indexMergedFile = _options._indexPrefix + "/corpus_merged.idx";
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexMergedFile));
+    File folder = new File(_options._indexPrefix);
+
+    int numOfIndex = 0;
+    for (File f : folder.listFiles()) {
+      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+        numOfIndex++;
+      }
+    }
+
+    File[] files = new File[numOfIndex];
+    int[] numOfEntries = new int[numOfIndex];
+    String[] terms = new String[numOfIndex];
+//    List<List<Integer>> postingLists = new ArrayList<List<Integer>>();
+    ObjectInputStream[] readers = new ObjectInputStream[numOfIndex];
+
+    for (int i = 0; i < numOfIndex; i++) {
+      for (File file : folder.listFiles()) {
+        if (file.getName().matches("^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
+          files[i] = file;
+        }
+      }
+    }
+
+    // Initialize...
+    for (int i = 0; i < numOfIndex; i++) {
+      readers[i] = new ObjectInputStream(new FileInputStream(files[i].getAbsolutePath()));
+      numOfEntries[i] = readers[i].readInt();
+      List<Integer> l = new ArrayList<Integer>();
+      terms[i] = "";
+//      postingLists.add(l);
+    }
+
+    int countSSS = 0;
+    while (hasEntries(numOfEntries)) {
+      for (int i = 0; i < numOfIndex; i++) {
+        if (terms[i].equals("") && numOfEntries[i] > 0) {
+          numOfEntries[i] -= 1;
+          terms[i] = readers[i].readUTF();
+//          postingLists.get(i).addAll((Collection<? extends Integer>) readers[i].readObject());
+        }
+      }
+
+      SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap.create(Ordering.natural(), Ordering.natural());
+      for (int i = 0; i < numOfIndex; i++) {
+        if (!terms[i].equals("")) {
+          sortedSetMultimap.put(terms[i], i);
+        }
+      }
+
+      Multimap<String, Integer> output = ArrayListMultimap.create();
+      for (Map.Entry entry : sortedSetMultimap.entries()) {
+        String term = (String) entry.getKey();
+        for (int i : sortedSetMultimap.asMap().get(term)) {
+          output.get(term).addAll((Collection<? extends Integer>) readers[i].readObject());
+          terms[i] = "";
+        }
+
+        break;
+      }
+
+      for (Map.Entry entry : output.asMap().entrySet()) {
+        String term = (String) entry.getKey();
+        List<Integer> list = new ArrayList<Integer>((java.util.Collection<? extends Integer>) entry.getValue());
+        writer.writeUTF(term);
+        writer.writeObject(list);
+        writer.flush();
+        writer.reset();
+      }
+
+      output.clear();
+
+      countSSS++;
+
+      if (countSSS == 100000) {
+        int debug = 0;
+      }
+    }
+
+    //TODO: flush...
+    writer.close();
+  }
+
+  private boolean hasEntries(int[] numOfEntries) {
+    for (int i : numOfEntries) {
+      if (i > 0) {
+        return true;
+      }
+    }
+    return false;
   }
 }
