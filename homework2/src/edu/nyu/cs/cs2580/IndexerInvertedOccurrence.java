@@ -83,11 +83,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
      startTimeStamp = System.currentTimeMillis();
     System.out.println("merging");
     // Shit....
-    try {
-      merge();
-    } catch (ClassNotFoundException e) {
-      e.printStackTrace();
-    }
+//    try {
+//      merge();
+//    } catch (ClassNotFoundException e) {
+//      e.printStackTrace();
+//    }
      duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete merging...");

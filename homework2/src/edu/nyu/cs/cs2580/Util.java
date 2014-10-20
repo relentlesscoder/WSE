@@ -3,12 +3,10 @@ package edu.nyu.cs.cs2580;
 import com.google.common.collect.*;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Util {
-  private static final long SIZE_PER_FILE_Integer = 3000000;
+  private static final long SIZE_PER_FILE_Integer = 6000000;
   private static final long SIZE_PER_FILE_Byte = 3000000;
 
   public static String convertMillis(long timeStamp) {
@@ -33,20 +31,18 @@ public class Util {
   public static void writePartialInvertedIndex(Multimap<String, Integer> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
     String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", count) + ".idx";
     ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexPartialFile));
-    SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap.create(Ordering.natural(), Ordering.arbitrary());
+    SortedSet<String> sortedSet = new TreeSet<String>();
 
     // Sort the keys alphabetically...
-    sortedSetMultimap.putAll(invertedIndex);
-    invertedIndex.clear();
+    sortedSet.addAll(invertedIndex.keySet());
 
     // Record the number of objects first...
-    int numOfEntries = sortedSetMultimap.keySet().size();
+    int numOfEntries = sortedSet.size();
     writer.writeInt(numOfEntries);
 
     // Write the entries one by one...
-    for (Map.Entry entry : sortedSetMultimap.asMap().entrySet()) {
-      String term = (String) entry.getKey();
-      List<Integer> list = new ArrayList<Integer>((java.util.Collection<? extends Integer>) entry.getValue());
+    for (String term : sortedSet) {
+      List<Integer> list = new ArrayList<Integer>(invertedIndex.get(term));
       writer.writeUTF(term);
       writer.writeObject(list);
       writer.reset();
