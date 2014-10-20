@@ -217,8 +217,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
       term = Tokenizer.krovetzStemmerFilter(term);
-      String test = term;
-      term = Tokenizer.stripSingleCharacterFilter(term);
 
       if (term == null) {
         continue;
@@ -499,22 +497,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
-//    for (File file : files) {
-//      if (file.getName().equals("corpus_merged.idx")) {
-//        String indexFile = _options._indexPrefix + "/corpus_merged.idx";
-//        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
-//        while (true) {
-//          try {
-//            String term = reader.readUTF();
-//            List<Byte> postingList = (List<Byte>) reader.readObject();
-//            this.invertedIndex.get(term).addAll(postingList);
-//          } catch (Exception ignore) {
-//            break;
-//          }
-//        }
-//      }
-//    }
-
     System.out.println(Integer.toString(numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
@@ -529,7 +511,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
 
-    //TODO
     try {
       dynamicLoading(queryTerms);
     } catch (IOException e) {
@@ -1017,7 +998,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public int documentTermFrequency(String term, String url) {
     if (!docUrlMap.containsKey(url)) {
-      // TODO: TEMP
       return 0;
     }
 
@@ -1047,6 +1027,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
+   * Merge all partial list together :)
    *
    * @throws IOException
    * @throws ClassNotFoundException
@@ -1191,6 +1172,25 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @throws ClassNotFoundException
    */
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
+    // First check if dynamic loading is need.
+    boolean needLoading = false;
+
+    for (String term : query) {
+      if (!invertedIndex.containsKey(term)) {
+        needLoading = true;
+      }
+    }
+
+    if (!needLoading) {
+      // We got all we need, return~
+      return;
+    }
+
+    // Start
+    System.out.println("Start dynamic loading...");
+    long startTimeStamp = System.currentTimeMillis();
+    int count = 0;
+
     File folder = new File(_options._indexPrefix);
     File[] files = folder.listFiles();
 
@@ -1220,9 +1220,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
           // Load!
           invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
+          count++;
         }
       }
       tmpPartialIndex.clear();
     }
+
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Compete dynamic loading. Loads " + count + " posting lists and takes time " + Util.convertMillis(duration));
   }
 }
