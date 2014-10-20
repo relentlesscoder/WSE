@@ -69,8 +69,6 @@ public class QueryPhrase extends Query {
           soloTokens.add(term);
         }
       }
-
-
     }
   }
 
