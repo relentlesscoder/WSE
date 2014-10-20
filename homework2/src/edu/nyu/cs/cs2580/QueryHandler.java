@@ -30,7 +30,7 @@ class QueryHandler implements HttpHandler {
     // The raw user query
     public String _query = "";
     // How many results to return
-    private int _numResults = 10;
+    private int _numResults = 20;
 
     // The type of the ranker we will be using.
     public enum RankerType {
