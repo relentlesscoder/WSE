@@ -49,7 +49,6 @@ public class QueryPhrase extends Query {
     HashSet<String> tokenSet = new HashSet<String>();
     while (tokenizer.hasNext()) {
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
-      term = Tokenizer.stopwordFilter(term);
       if (term != null) {
         term = Tokenizer.krovetzStemmerFilter(term);
         tokenSet.add(term);
@@ -58,10 +57,18 @@ public class QueryPhrase extends Query {
     Set<String> phraseValueSet = new HashSet<String>();
     phraseValueSet.addAll(_phrases.values());
     for(String term : tokenSet){
-      _tokens.add(term);
-      if (!phraseValueSet.contains(term)){
-        soloTokens.add(term);
+
+      if (phraseValueSet.contains(term)){
+        _tokens.add(term);
+      }else {
+        term = Tokenizer.stopwordFilter(term);
+        if (term != null){
+          _tokens.add(term);
+          soloTokens.add(term);
+        }
       }
+
+
     }
   }
 
