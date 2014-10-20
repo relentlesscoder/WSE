@@ -567,7 +567,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
           hasFirstTerm = true;
         }
 
-        if (currentSize > Util.SIZE_PER_MAP_INTEGER) {
+        if (currentSize > Util.SIZE_PER_FILE_MAP_INTEGER) {
           partialFileCount++;
           currentSize = 0;
           hasFirstTerm = false;

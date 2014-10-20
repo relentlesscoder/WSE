@@ -26,7 +26,6 @@ public class RankerConjunctive extends Ranker {
   // According to index_type to process query differently
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    String indexType = _indexer.getClass().getSimpleName();
     System.out.println("runing query...");
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     if (_options._indexerType.equals("inverted-doconly")) {
@@ -91,8 +90,9 @@ public class RankerConjunctive extends Ranker {
 //        int x=11;
 //      }
       double score = 0.0;
-      if (queryType.equals("QueryPhrase")) {
-        queryPhrase = (QueryPhrase) query;
+      queryPhrase = (QueryPhrase) query;
+      if (queryPhrase.containsPhrase) {
+
         //If there is no phrase in the document skip current loop
         ListMultimap<String, String> phrases = queryPhrase._phrases;
         Set<String> keyset = phrases.keySet();
@@ -115,7 +115,7 @@ public class RankerConjunctive extends Ranker {
           score += 1.0 * (double) termDocFrequency;
         }
 
-      } else if (queryType.equals("Query")) {
+      } else{
         for (String term : query._tokens) {
           int termDocFrequency = documentTermFrequency(term, doc.getUrl());
           score += 1.0 * (double) termDocFrequency;
