@@ -16,7 +16,7 @@ import java.util.regex.*;
 public class QueryPhrase extends Query {
 
   public ListMultimap<String, String> _phrases = ArrayListMultimap.create();
-  private Vector<String> soloTokens = new Vector<String>();
+  public Vector<String> soloTokens = new Vector<String>();
 
   public QueryPhrase(String query) {
       super(query);
