@@ -38,7 +38,8 @@ public class QueryPhrase extends Query {
       tokenizer = new Tokenizer(new StringReader(phrase));
 
       while (tokenizer.hasNext()){
-        String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
+        String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+        term = Tokenizer.krovetzStemmerFilter(term);
         _phrases.get(phrase).add(term);
         //System.out.println(term);
       }
@@ -47,8 +48,12 @@ public class QueryPhrase extends Query {
     tokenizer = new Tokenizer(new StringReader(_query));
     HashSet<String> tokenSet = new HashSet<String>();
     while (tokenizer.hasNext()) {
-      String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
-      tokenSet.add(term);
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      term = Tokenizer.stopwordFilter(term);
+      if (term != null) {
+        term = Tokenizer.krovetzStemmerFilter(term);
+        tokenSet.add(term);
+      }
     }
     Set<String> phraseValueSet = new HashSet<String>();
     phraseValueSet.addAll(_phrases.values());
