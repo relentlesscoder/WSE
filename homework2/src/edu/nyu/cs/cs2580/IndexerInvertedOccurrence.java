@@ -247,7 +247,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
-        + "with " + Long.toString(_totalTermFrequency) + " terms!");
+            + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
@@ -259,6 +259,18 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> tokens = query._tokens;
+
+    Vector<String> neededTokens = new Vector<String>();
+    boolean needUpdate = false;
+    for (String token : tokens){
+      if (!invertedIndex.containsKey(token)){
+        neededTokens.add(token);
+        needUpdate = true;
+      }
+    }
+    if (needUpdate) {
+      updateInvertedIndex(neededTokens);
+    }
 
     int nextDocid = nextCandidateDocid(tokens, docid);
 
@@ -615,5 +627,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       }
     }
     return false;
+  }
+
+  private void updateInvertedIndex(Vector<String> tokens){
+    for (String token : tokens){
+
+    }
   }
 }
