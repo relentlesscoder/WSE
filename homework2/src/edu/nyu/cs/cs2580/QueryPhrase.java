@@ -86,6 +86,7 @@ public class QueryPhrase extends Query {
       for (String term : tokenSet) {
         _tokens.add(term);
       }
+
     }
   }
 }

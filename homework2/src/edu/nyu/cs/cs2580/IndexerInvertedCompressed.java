@@ -508,7 +508,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   public Document nextDocLoose(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
-    int smallestDocid = Integer.MAX_VALUE;
 
     try {
       dynamicLoading(queryTerms);
@@ -518,15 +517,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       e.printStackTrace();
     }
 
-    int minDocid = docid;
+    int minDocid = Integer.MAX_VALUE;
     for (String term : queryTerms) {
       int nextDocid = nextDocid(term, docid);
-      if (nextDocid > docid) {
+      if (nextDocid != -1) {
         minDocid = Math.min(minDocid, nextDocid);
       }
     }
 
-    if (minDocid == -1) {
+    if (minDocid == Integer.MAX_VALUE) {
       return null;
     } else {
       return documents.get(minDocid);
