@@ -3,10 +3,7 @@ package edu.nyu.cs.cs2580;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
+import java.util.*;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
@@ -20,8 +17,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   // Inverted index.
   // Key is the term and value is the compressed posting list.
-  private ListMultimap<String, Integer> invertedIndex = ArrayListMultimap
-      .create();
+  private ListMultimap<String, Integer> invertedIndex = ArrayListMultimap.create();
 
   // Term frequency across whole corpus.
   // key is the term and value is the frequency of the term across the whole
@@ -162,36 +158,24 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    *          The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
+    SortedSet<String> uniqueTerms = new TreeSet<String>();
     Tokenizer tokenizer = new Tokenizer(new StringReader(content));
     int count = 0;
 
     while (tokenizer.hasNext()) {
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
       term = Tokenizer.krovetzStemmerFilter(term);
-      term = Tokenizer.stripSingleCharacterFilter(term);
+      checkNotNull(term, "term can not be null...");
+      uniqueTerms.add(term);
+    }
 
-      if (term != null) {
+    for (String term : uniqueTerms) {
+      count++;
+      _totalTermFrequency++;
+      // Update the termCorpusFrequency
+      _termCorpusFrequency.add(term);
 
-        count++;
-
-        _totalTermFrequency++;
-
-        // Update the termCorpusFrequency
-        _termCorpusFrequency.add(term);
-
-        // Populate the inverted index
-        if (invertedIndex.containsKey(term)) {
-          // The token exists in the index
-          if (!invertedIndex.get(term).contains(docid)) {
-            // The docid does not exist in the index for the token, add it in.
-            invertedIndex.get(term).add(docid);
-          }
-        } else {
-          // The token does not exist in the index, add it first, then add the
-          // docid
-          invertedIndex.get(term).add(docid);
-        }
-      }
+      invertedIndex.get(term).add(docid);
     }
 
     documents.get(docid).setTotalDocTerms(count);
@@ -241,9 +225,18 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> tokens = query._tokens;
+    Vector<String> queryTerms = query._tokens;
 
-    int nextDocid = nextCandidateDocid(tokens, docid);
+    //TODO
+    try {
+      dynamicLoading(queryTerms);
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    }
+
+    int nextDocid = nextCandidateDocid(queryTerms, docid);
 
     if (nextDocid != -1) {
       return documents.get(nextDocid);
