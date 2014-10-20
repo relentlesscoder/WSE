@@ -1,16 +1,15 @@
 package edu.nyu.cs.cs2580;
 
-import static com.google.common.base.Preconditions.checkNotNull;
+import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.io.Input;
+import com.google.common.collect.*;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
+import org.jsoup.Jsoup;
 
 import java.io.*;
 import java.util.*;
 
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.io.Input;
-import com.google.common.collect.*;
-import org.jsoup.Jsoup;
-
-import edu.nyu.cs.cs2580.SearchEngine.Options;
+import static com.google.common.base.Preconditions.checkNotNull;
 
 public class IndexerInvertedDoconly extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
@@ -123,11 +122,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   /**
    * Process the document. First store the document, then populate the inverted
    * index.
-   * 
-   * @param file
-   *          The file waiting to be indexed.
-   * @param docid
-   *          The file's document ID.
+   *
+   * @param file  The file waiting to be indexed.
+   * @param docid The file's document ID.
    * @throws IOException
    */
   private void processDocument(File file, int docid) throws IOException {
@@ -151,11 +148,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   /**
    * Populate the inverted index.
-   * 
-   * @param content
-   *          The text content of the html document.
-   * @param docid
-   *          The document ID.
+   *
+   * @param content The text content of the html document.
+   * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
     SortedSet<String> uniqueTerms = new TreeSet<String>();
@@ -249,13 +244,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * Return the next docid which satisfies the query terms, if none of such
    * docid can be found, return -1. This function uses document at a time
    * retrieval method.
-   * 
-   * @param queryTerms
-   *          A list of query terms
-   * @param docid
-   *          The document ID
+   *
+   * @param queryTerms A list of query terms
+   * @param docid      The document ID
    * @return the next docid right after {@code docid} satisfying
-   *         {@code queryTerms} or -1 if no such document exists.
+   * {@code queryTerms} or -1 if no such document exists.
    */
   private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
     int largestDocid = -1;
@@ -289,13 +282,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   /**
    * Return the next docid after the current one of the posting list, or -1 if
    * no such docid exists.
-   * 
-   * @param term
-   *          The term...
-   * @param docid
-   *          The document ID
+   *
+   * @param term  The term...
+   * @param docid The document ID
    * @return the next document ID after the current document or -1 if no such
-   *         document ID exists.
+   * document ID exists.
    */
   private int nextDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -335,13 +326,11 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   /**
    * Check if the docid exists in the term's posting list.
-   * 
-   * @param term
-   *          The term...
-   * @param docid
-   *          The document ID
+   *
+   * @param term  The term...
+   * @param docid The document ID
    * @return true if the docid exists in the term's posting list, otherwise
-   *         false
+   * false
    */
   private boolean hasDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -530,6 +519,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   /**
    * Dynamically load partial invertial index at run time
+   *
    * @param query the query terms
    * @throws IOException
    * @throws ClassNotFoundException

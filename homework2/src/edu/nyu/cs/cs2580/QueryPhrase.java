@@ -3,10 +3,12 @@ package edu.nyu.cs.cs2580;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
 
-
 import java.io.StringReader;
-import java.util.*;
-import java.util.regex.*;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Vector;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @CS2580: implement this class for HW2 to handle phrase. If the raw query is
@@ -19,7 +21,7 @@ public class QueryPhrase extends Query {
   public Vector<String> soloTokens = new Vector<String>();
 
   public QueryPhrase(String query) {
-      super(query);
+    super(query);
   }
 
   @Override
@@ -33,11 +35,11 @@ public class QueryPhrase extends Query {
     Pattern p = Pattern.compile("(\".+?\")");
     Matcher m = p.matcher(_query);
 
-    while(m.find()) {
-      String phrase = m.group(1).replaceAll("\"","").trim();
+    while (m.find()) {
+      String phrase = m.group(1).replaceAll("\"", "").trim();
       tokenizer = new Tokenizer(new StringReader(phrase));
 
-      while (tokenizer.hasNext()){
+      while (tokenizer.hasNext()) {
         String term = Tokenizer.lowercaseFilter(tokenizer.getText());
         term = Tokenizer.krovetzStemmerFilter(term);
         _phrases.get(phrase).add(term);
@@ -57,9 +59,9 @@ public class QueryPhrase extends Query {
     }
     Set<String> phraseValueSet = new HashSet<String>();
     phraseValueSet.addAll(_phrases.values());
-    for(String term : tokenSet){
+    for (String term : tokenSet) {
       _tokens.add(term);
-      if (!phraseValueSet.contains(term)){
+      if (!phraseValueSet.contains(term)) {
         soloTokens.add(term);
       }
     }

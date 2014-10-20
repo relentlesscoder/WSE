@@ -17,12 +17,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * limitations under the License.
  */
 
-import java.util.AbstractMap;
-import java.util.AbstractSet;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * A simple class that stores key Strings as char[]'s in a hash table. Note that
@@ -37,21 +32,21 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
 
   private final static int INIT_SIZE = 8;
   private final CharacterUtils charUtils;
+  char[][] keys; // package private because used in CharArraySet's non
+  // Set-conform CharArraySetIterator
+  V[] values; // package private because used in CharArraySet's non Set-conform
   private boolean ignoreCase;
   private int count;
-  char[][] keys; // package private because used in CharArraySet's non
-                 // Set-conform CharArraySetIterator
-  V[] values; // package private because used in CharArraySet's non Set-conform
-              // CharArraySetIterator
+  // CharArraySetIterator
+  private EntrySet entrySet = null;
+  private CharArraySet keySet = null;
 
   /**
    * Create map with enough capacity to hold startSize terms
-   * 
-   * @param startSize
-   *          the initial capacity
-   * @param ignoreCase
-   *          <code>false</code> if and only if the set should be case sensitive
-   *          otherwise <code>true</code>.
+   *
+   * @param startSize  the initial capacity
+   * @param ignoreCase <code>false</code> if and only if the set should be case sensitive
+   *                   otherwise <code>true</code>.
    */
   @SuppressWarnings("unchecked")
   public CharArrayMap(int startSize, boolean ignoreCase) {
@@ -66,25 +61,80 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
 
   /**
    * Creates a map from the mappings in another map.
-   * 
-   * @param c
-   *          a map whose mappings to be copied
-   * @param ignoreCase
-   *          <code>false</code> if and only if the set should be case sensitive
-   *          otherwise <code>true</code>.
+   *
+   * @param c          a map whose mappings to be copied
+   * @param ignoreCase <code>false</code> if and only if the set should be case sensitive
+   *                   otherwise <code>true</code>.
    */
   public CharArrayMap(Map<?, ? extends V> c, boolean ignoreCase) {
     this(c.size(), ignoreCase);
     putAll(c);
   }
 
-  /** Create set from the supplied map (used internally for readonly maps...) */
+  /**
+   * Create set from the supplied map (used internally for readonly maps...)
+   */
   private CharArrayMap(CharArrayMap<V> toCopy) {
     this.keys = toCopy.keys;
     this.values = toCopy.values;
     this.ignoreCase = toCopy.ignoreCase;
     this.count = toCopy.count;
     this.charUtils = toCopy.charUtils;
+  }
+
+  /**
+   * Returns an unmodifiable {@link CharArrayMap}. This allows to provide
+   * unmodifiable views of internal map for "read-only" use.
+   *
+   * @param map a map for which the unmodifiable map is returned.
+   * @return an new unmodifiable {@link CharArrayMap}.
+   * @throws NullPointerException if the given map is <code>null</code>.
+   */
+  public static <V> CharArrayMap<V> unmodifiableMap(CharArrayMap<V> map) {
+    if (map == null)
+      throw new NullPointerException("Given map is null");
+    if (map == emptyMap() || map.isEmpty())
+      return emptyMap();
+    if (map instanceof UnmodifiableCharArrayMap)
+      return map;
+    return new UnmodifiableCharArrayMap<V>(map);
+  }
+
+  /**
+   * Returns a copy of the given map as a {@link CharArrayMap}. If the given map
+   * is a {@link CharArrayMap} the ignoreCase property will be preserved.
+   *
+   * @param map a map to copy
+   * @return a copy of the given map as a {@link CharArrayMap}. If the given map
+   * is a {@link CharArrayMap} the ignoreCase property as well as the
+   * matchVersion will be of the given map will be preserved.
+   */
+  @SuppressWarnings("unchecked")
+  public static <V> CharArrayMap<V> copy(final Map<?, ? extends V> map) {
+    if (map == EMPTY_MAP)
+      return emptyMap();
+    if (map instanceof CharArrayMap) {
+      CharArrayMap<V> m = (CharArrayMap<V>) map;
+      // use fast path instead of iterating all values
+      // this is even on very small sets ~10 times faster than iterating
+      final char[][] keys = new char[m.keys.length][];
+      System.arraycopy(m.keys, 0, keys, 0, keys.length);
+      final V[] values = (V[]) new Object[m.values.length];
+      System.arraycopy(m.values, 0, values, 0, values.length);
+      m = new CharArrayMap<V>(m);
+      m.keys = keys;
+      m.values = values;
+      return m;
+    }
+    return new CharArrayMap<V>(map, false);
+  }
+
+  /**
+   * Returns an empty, unmodifiable map.
+   */
+  @SuppressWarnings("unchecked")
+  public static <V> CharArrayMap<V> emptyMap() {
+    return (CharArrayMap<V>) EMPTY_MAP;
   }
 
   /**
@@ -106,7 +156,9 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     return keys[getSlot(text, off, len)] != null;
   }
 
-  /** true if the <code>CharSequence</code> is in the {@link #keySet()} */
+  /**
+   * true if the <code>CharSequence</code> is in the {@link #keySet()}
+   */
   public boolean containsKey(CharSequence cs) {
     return keys[getSlot(cs)] != null;
   }
@@ -160,7 +212,9 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     return pos;
   }
 
-  /** Returns true if the String is in the set */
+  /**
+   * Returns true if the String is in the set
+   */
   private int getSlot(CharSequence text) {
     int code = getHashCode(text);
     int pos = code & (keys.length - 1);
@@ -176,7 +230,9 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     return pos;
   }
 
-  /** Add the given mapping. */
+  /**
+   * Add the given mapping.
+   */
   public V put(CharSequence text, V value) {
     return put(text.toString(), value); // could be more efficient
   }
@@ -189,7 +245,9 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     return put(o.toString(), value);
   }
 
-  /** Add the given mapping. */
+  /**
+   * Add the given mapping.
+   */
   public V put(String text, V value) {
     return put(text.toCharArray(), value);
   }
@@ -245,7 +303,7 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
       return false;
     final int limit = off + len;
     if (ignoreCase) {
-      for (int i = 0; i < len;) {
+      for (int i = 0; i < len; ) {
         final int codePointAt = charUtils.codePointAt(text1, off + i, limit);
         if (Character.toLowerCase(codePointAt) != charUtils.codePointAt(text2,
             i, text2.length))
@@ -266,7 +324,7 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     if (len != text2.length)
       return false;
     if (ignoreCase) {
-      for (int i = 0; i < len;) {
+      for (int i = 0; i < len; ) {
         final int codePointAt = charUtils.codePointAt(text1, i);
         if (Character.toLowerCase(codePointAt) != charUtils.codePointAt(text2,
             i, text2.length))
@@ -288,7 +346,7 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     int code = 0;
     final int stop = offset + len;
     if (ignoreCase) {
-      for (int i = offset; i < stop;) {
+      for (int i = offset; i < stop; ) {
         final int codePointAt = charUtils.codePointAt(text, i, stop);
         code = code * 31 + Character.toLowerCase(codePointAt);
         i += Character.charCount(codePointAt);
@@ -307,7 +365,7 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     int code = 0;
     int len = text.length();
     if (ignoreCase) {
-      for (int i = 0; i < len;) {
+      for (int i = 0; i < len; ) {
         int codePointAt = charUtils.codePointAt(text, i);
         code = code * 31 + Character.toLowerCase(codePointAt);
         i += Character.charCount(codePointAt);
@@ -341,9 +399,6 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
     return sb.append('}').toString();
   }
 
-  private EntrySet entrySet = null;
-  private CharArraySet keySet = null;
-
   EntrySet createEntrySet() {
     return new EntrySet(true);
   }
@@ -366,7 +421,7 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
    * the same {@code matchVersion} as this map.
    */
   @Override
-  @SuppressWarnings({ "unchecked", "rawtypes" })
+  @SuppressWarnings({"unchecked", "rawtypes"})
   public final CharArraySet keySet() {
     if (keySet == null) {
       // prevent adding of entries
@@ -393,207 +448,6 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
       };
     }
     return keySet;
-  }
-
-  /** public iterator class so efficient methods are exposed to users */
-  public class EntryIterator implements Iterator<Map.Entry<Object, V>> {
-    private int pos = -1;
-    private int lastPos;
-    private final boolean allowModify;
-
-    private EntryIterator(boolean allowModify) {
-      this.allowModify = allowModify;
-      goNext();
-    }
-
-    private void goNext() {
-      lastPos = pos;
-      pos++;
-      while (pos < keys.length && keys[pos] == null)
-        pos++;
-    }
-
-    @Override
-    public boolean hasNext() {
-      return pos < keys.length;
-    }
-
-    /** gets the next key... do not modify the returned char[] */
-    public char[] nextKey() {
-      goNext();
-      return keys[lastPos];
-    }
-
-    /** gets the next key as a newly created String object */
-    public String nextKeyString() {
-      return new String(nextKey());
-    }
-
-    /** returns the value associated with the last key returned */
-    public V currentValue() {
-      return values[lastPos];
-    }
-
-    /** sets the value associated with the last key returned */
-    public V setValue(V value) {
-      if (!allowModify)
-        throw new UnsupportedOperationException();
-      V old = values[lastPos];
-      values[lastPos] = value;
-      return old;
-    }
-
-    /** use nextCharArray() + currentValue() for better efficiency. */
-    @Override
-    public Map.Entry<Object, V> next() {
-      goNext();
-      return new MapEntry(lastPos, allowModify);
-    }
-
-    @Override
-    public void remove() {
-      throw new UnsupportedOperationException();
-    }
-  }
-
-  private final class MapEntry implements Map.Entry<Object, V> {
-    private final int pos;
-    private final boolean allowModify;
-
-    private MapEntry(int pos, boolean allowModify) {
-      this.pos = pos;
-      this.allowModify = allowModify;
-    }
-
-    @Override
-    public Object getKey() {
-      // we must clone here, as putAll to another CharArrayMap
-      // with other case sensitivity flag would corrupt the keys
-      return keys[pos].clone();
-    }
-
-    @Override
-    public V getValue() {
-      return values[pos];
-    }
-
-    @Override
-    public V setValue(V value) {
-      if (!allowModify)
-        throw new UnsupportedOperationException();
-      final V old = values[pos];
-      values[pos] = value;
-      return old;
-    }
-
-    @Override
-    public String toString() {
-      return new StringBuilder()
-          .append(keys[pos])
-          .append('=')
-          .append(
-              (values[pos] == CharArrayMap.this) ? "(this Map)" : values[pos])
-          .toString();
-    }
-  }
-
-  /** public EntrySet class so efficient methods are exposed to users */
-  public final class EntrySet extends AbstractSet<Map.Entry<Object, V>> {
-    private final boolean allowModify;
-
-    private EntrySet(boolean allowModify) {
-      this.allowModify = allowModify;
-    }
-
-    @Override
-    public EntryIterator iterator() {
-      return new EntryIterator(allowModify);
-    }
-
-    @Override
-    @SuppressWarnings("unchecked")
-    public boolean contains(Object o) {
-      if (!(o instanceof Map.Entry))
-        return false;
-      final Map.Entry<Object, V> e = (Map.Entry<Object, V>) o;
-      final Object key = e.getKey();
-      final Object val = e.getValue();
-      final Object v = get(key);
-      return v == null ? val == null : v.equals(val);
-    }
-
-    @Override
-    public boolean remove(Object o) {
-      throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public int size() {
-      return count;
-    }
-
-    @Override
-    public void clear() {
-      if (!allowModify)
-        throw new UnsupportedOperationException();
-      CharArrayMap.this.clear();
-    }
-  }
-
-  /**
-   * Returns an unmodifiable {@link CharArrayMap}. This allows to provide
-   * unmodifiable views of internal map for "read-only" use.
-   * 
-   * @param map
-   *          a map for which the unmodifiable map is returned.
-   * @return an new unmodifiable {@link CharArrayMap}.
-   * @throws NullPointerException
-   *           if the given map is <code>null</code>.
-   */
-  public static <V> CharArrayMap<V> unmodifiableMap(CharArrayMap<V> map) {
-    if (map == null)
-      throw new NullPointerException("Given map is null");
-    if (map == emptyMap() || map.isEmpty())
-      return emptyMap();
-    if (map instanceof UnmodifiableCharArrayMap)
-      return map;
-    return new UnmodifiableCharArrayMap<V>(map);
-  }
-
-  /**
-   * Returns a copy of the given map as a {@link CharArrayMap}. If the given map
-   * is a {@link CharArrayMap} the ignoreCase property will be preserved.
-   * 
-   * @param map
-   *          a map to copy
-   * @return a copy of the given map as a {@link CharArrayMap}. If the given map
-   *         is a {@link CharArrayMap} the ignoreCase property as well as the
-   *         matchVersion will be of the given map will be preserved.
-   */
-  @SuppressWarnings("unchecked")
-  public static <V> CharArrayMap<V> copy(final Map<?, ? extends V> map) {
-    if (map == EMPTY_MAP)
-      return emptyMap();
-    if (map instanceof CharArrayMap) {
-      CharArrayMap<V> m = (CharArrayMap<V>) map;
-      // use fast path instead of iterating all values
-      // this is even on very small sets ~10 times faster than iterating
-      final char[][] keys = new char[m.keys.length][];
-      System.arraycopy(m.keys, 0, keys, 0, keys.length);
-      final V[] values = (V[]) new Object[m.values.length];
-      System.arraycopy(m.values, 0, values, 0, values.length);
-      m = new CharArrayMap<V>(m);
-      m.keys = keys;
-      m.values = values;
-      return m;
-    }
-    return new CharArrayMap<V>(map, false);
-  }
-
-  /** Returns an empty, unmodifiable map. */
-  @SuppressWarnings("unchecked")
-  public static <V> CharArrayMap<V> emptyMap() {
-    return (CharArrayMap<V>) EMPTY_MAP;
   }
 
   // package private CharArraySet instanceof check in CharArraySet
@@ -691,6 +545,165 @@ public class CharArrayMap<V> extends AbstractMap<Object, V> {
       if (o == null)
         throw new NullPointerException();
       return null;
+    }
+  }
+
+  /**
+   * public iterator class so efficient methods are exposed to users
+   */
+  public class EntryIterator implements Iterator<Map.Entry<Object, V>> {
+    private final boolean allowModify;
+    private int pos = -1;
+    private int lastPos;
+
+    private EntryIterator(boolean allowModify) {
+      this.allowModify = allowModify;
+      goNext();
+    }
+
+    private void goNext() {
+      lastPos = pos;
+      pos++;
+      while (pos < keys.length && keys[pos] == null)
+        pos++;
+    }
+
+    @Override
+    public boolean hasNext() {
+      return pos < keys.length;
+    }
+
+    /**
+     * gets the next key... do not modify the returned char[]
+     */
+    public char[] nextKey() {
+      goNext();
+      return keys[lastPos];
+    }
+
+    /**
+     * gets the next key as a newly created String object
+     */
+    public String nextKeyString() {
+      return new String(nextKey());
+    }
+
+    /**
+     * returns the value associated with the last key returned
+     */
+    public V currentValue() {
+      return values[lastPos];
+    }
+
+    /**
+     * sets the value associated with the last key returned
+     */
+    public V setValue(V value) {
+      if (!allowModify)
+        throw new UnsupportedOperationException();
+      V old = values[lastPos];
+      values[lastPos] = value;
+      return old;
+    }
+
+    /**
+     * use nextCharArray() + currentValue() for better efficiency.
+     */
+    @Override
+    public Map.Entry<Object, V> next() {
+      goNext();
+      return new MapEntry(lastPos, allowModify);
+    }
+
+    @Override
+    public void remove() {
+      throw new UnsupportedOperationException();
+    }
+  }
+
+  private final class MapEntry implements Map.Entry<Object, V> {
+    private final int pos;
+    private final boolean allowModify;
+
+    private MapEntry(int pos, boolean allowModify) {
+      this.pos = pos;
+      this.allowModify = allowModify;
+    }
+
+    @Override
+    public Object getKey() {
+      // we must clone here, as putAll to another CharArrayMap
+      // with other case sensitivity flag would corrupt the keys
+      return keys[pos].clone();
+    }
+
+    @Override
+    public V getValue() {
+      return values[pos];
+    }
+
+    @Override
+    public V setValue(V value) {
+      if (!allowModify)
+        throw new UnsupportedOperationException();
+      final V old = values[pos];
+      values[pos] = value;
+      return old;
+    }
+
+    @Override
+    public String toString() {
+      return new StringBuilder()
+          .append(keys[pos])
+          .append('=')
+          .append(
+              (values[pos] == CharArrayMap.this) ? "(this Map)" : values[pos])
+          .toString();
+    }
+  }
+
+  /**
+   * public EntrySet class so efficient methods are exposed to users
+   */
+  public final class EntrySet extends AbstractSet<Map.Entry<Object, V>> {
+    private final boolean allowModify;
+
+    private EntrySet(boolean allowModify) {
+      this.allowModify = allowModify;
+    }
+
+    @Override
+    public EntryIterator iterator() {
+      return new EntryIterator(allowModify);
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public boolean contains(Object o) {
+      if (!(o instanceof Map.Entry))
+        return false;
+      final Map.Entry<Object, V> e = (Map.Entry<Object, V>) o;
+      final Object key = e.getKey();
+      final Object val = e.getValue();
+      final Object v = get(key);
+      return v == null ? val == null : v.equals(val);
+    }
+
+    @Override
+    public boolean remove(Object o) {
+      throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public int size() {
+      return count;
+    }
+
+    @Override
+    public void clear() {
+      if (!allowModify)
+        throw new UnsupportedOperationException();
+      CharArrayMap.this.clear();
     }
   }
 }

@@ -1,13 +1,9 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Vector;
-
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.util.*;
 
 public class PhraseRanker extends Ranker {
 

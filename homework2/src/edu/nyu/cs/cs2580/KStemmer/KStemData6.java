@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData6 {
-  private KStemData6() {
-  }
-
-  static String[] data = { "pedant", "pedantic", "pedantry", "peddle",
+  static String[] data = {"pedant", "pedantic", "pedantry", "peddle",
       "peddler", "pederast", "pederasty", "pedestal", "pedestrian",
       "pediatrician", "pediatrics", "pedicab", "pedicel", "pedicure",
       "pedigree", "pediment", "pedlar", "pedometer", "pee", "peek", "peekaboo",
@@ -653,5 +650,8 @@ class KStemData6 {
       "rumbling", "rumbustious", "ruminant", "ruminate", "ruminative",
       "rummage", "rummy", "rumor", "rumored", "rumormonger", "rumour",
       "rumoured", "rumourmonger", "rump", "rumple", "rumpus", "run", "runaway",
-      "rung", "runnel", "runner", "running", "runny", "runs", "runt", "runway", };
+      "rung", "runnel", "runner", "running", "runny", "runs", "runt", "runway",};
+
+  private KStemData6() {
+  }
 }

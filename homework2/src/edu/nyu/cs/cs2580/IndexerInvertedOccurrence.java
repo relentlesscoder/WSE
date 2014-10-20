@@ -1,29 +1,15 @@
 package edu.nyu.cs.cs2580;
 
-import static com.google.common.base.Preconditions.checkNotNull;
-
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
-
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
+import com.google.common.collect.*;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Multimap;
-import com.google.common.collect.Multiset;
-import com.google.common.collect.Ordering;
-import com.google.common.collect.SortedSetMultimap;
-import com.google.common.collect.TreeMultimap;
+import java.io.*;
+import java.util.*;
 
-import edu.nyu.cs.cs2580.SearchEngine.Options;
+import static com.google.common.base.Preconditions.checkNotNull;
 
 public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
@@ -124,7 +110,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + _options._indexPrefix);
     ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new
-    FileOutputStream(indexFile)));
+        FileOutputStream(indexFile)));
     writer.writeObject(this);
     writer.close();
 
@@ -140,11 +126,9 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   /**
    * Process the document. First store the document, then populate the inverted
    * index.
-   * 
-   * @param file
-   *          The file waiting to be indexed.
-   * @param docid
-   *          The file's document ID.
+   *
+   * @param file  The file waiting to be indexed.
+   * @param docid The file's document ID.
    * @throws IOException
    */
   private void processDocument(File file, int docid) throws IOException {
@@ -169,11 +153,9 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Populate the inverted index.
-   * 
-   * @param content
-   *          The text content of the html document.
-   * @param docid
-   *          The document ID.
+   *
+   * @param content The text content of the html document.
+   * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid) {
     Tokenizer tokenizer = new Tokenizer(new StringReader(content));
@@ -246,7 +228,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
-            + "with " + Long.toString(_totalTermFrequency) + " terms!");
+        + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
@@ -281,13 +263,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
    * Return the next docid which satisfies the query terms, if none of such
    * docid can be found, return -1. This function uses document at a time
    * retrieval method.
-   * 
-   * @param queryTerms
-   *          A list of query terms
-   * @param docid
-   *          The document ID
+   *
+   * @param queryTerms A list of query terms
+   * @param docid      The document ID
    * @return the next docid right after {@code docid} satisfying
-   *         {@code queryTerms} or -1 if no such document exists.
+   * {@code queryTerms} or -1 if no such document exists.
    */
   private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
     int largestDocid = -1;
@@ -321,13 +301,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   /**
    * Return the next docid after the current one of the posting list, or -1 if
    * no such docid exists.
-   * 
-   * @param term
-   *          The term...
-   * @param docid
-   *          The document ID
+   *
+   * @param term  The term...
+   * @param docid The document ID
    * @return the next document ID after the current document or -1 if no such
-   *         document ID exists.
+   * document ID exists.
    */
   private int nextDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -361,13 +339,11 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Check if the docid exists in the term's posting list.
-   * 
-   * @param term
-   *          The term...
-   * @param docid
-   *          The document ID
+   *
+   * @param term  The term...
+   * @param docid The document ID
    * @return true if the docid exists in the term's posting list, otherwise
-   *         false
+   * false
    */
   private boolean hasDocid(String term, int docid) {
     List<Integer> docidList = invertedIndex.get(term);
@@ -397,15 +373,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Return the next position for a term after {@code pos} in a document.
-   * 
-   * @param term
-   *          The term...
-   * @param docid
-   *          The document ID
-   * @param pos
-   *          The position of the term in the document
+   *
+   * @param term  The term...
+   * @param docid The document ID
+   * @param pos   The position of the term in the document
    * @return the next position for the term in the document. If no more term in
-   *         the next, return -1.
+   * the next, return -1.
    */
   public int nextPos(String term, int docid, int pos) {
     List<Integer> postingList = invertedIndex.get(term);
@@ -433,11 +406,9 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Find the first docid offset
-   * 
-   * @param term
-   *          The term...
-   * @param docid
-   *          The document ID
+   *
+   * @param term  The term...
+   * @param docid The document ID
    * @return
    */
   private int firstDocidOffset(String term, int docid) {
@@ -645,6 +616,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Dynamically load partial invertial index at run time
+   *
    * @param query the query terms
    * @throws IOException
    * @throws ClassNotFoundException

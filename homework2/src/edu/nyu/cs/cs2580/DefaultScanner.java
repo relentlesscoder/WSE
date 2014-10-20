@@ -8,22 +8,33 @@ package edu.nyu.cs.cs2580;
  */
 public final class DefaultScanner {
 
-  /** This character denotes the end of file */
+  /**
+   * This character denotes the end of file
+   */
   public static final int YYEOF = -1;
-
-  /** initial size of the lookahead buffer */
-  private static final int ZZ_BUFFERSIZE = 1024;
-
-  /** lexical states */
+  /**
+   * lexical states
+   */
   public static final int YYINITIAL = 0;
-
+  /**
+   * the current lexical state
+   */
+  private int zzLexicalState = YYINITIAL;
+  /**
+   * initial size of the lookahead buffer
+   */
+  private static final int ZZ_BUFFERSIZE = 1024;
+  /**
+   * this buffer contains the current text to be matched and is the source of
+   * the yytext() string
+   */
+  private char zzBuffer[] = new char[ZZ_BUFFERSIZE];
   /**
    * ZZ_LEXSTATE[l] is the state in the DFA for the lexical state l
    * ZZ_LEXSTATE[l+1] is the state in the DFA for the lexical state l at the
    * beginning of a line l is of the form l = 2*k, k a non negative integer
    */
-  private static final int ZZ_LEXSTATE[] = { 0, 0 };
-
+  private static final int ZZ_LEXSTATE[] = {0, 0};
   /**
    * Translates characters to character classes
    */
@@ -168,41 +179,16 @@ public final class DefaultScanner {
       + "\21\1\5\0\3\1\1\0\5\1\1\0\21\1\u032a\0\32\17\1\13"
       + "\u0dff\0\ua6d7\12\51\0\u1035\12\13\0\336\12\u3fe2\0\u021e\12\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\uffff\0\u05ee\0"
       + "\1\3\36\0\140\3\200\0\360\3\uffff\0\uffff\0\ufe12\0";
-
   /**
    * Translates characters to character classes
    */
   private static final char[] ZZ_CMAP = zzUnpackCMap(ZZ_CMAP_PACKED);
-
   /**
    * Translates DFA states to action switch labels.
    */
   private static final int[] ZZ_ACTION = zzUnpackAction();
-
   private static final String ZZ_ACTION_PACKED_0 = "\1\0\1\1\1\2\1\3\1\4\1\5\1\1\1\6"
       + "\1\7\1\2\1\1\1\10\1\2\1\0\1\2\1\0" + "\1\4\1\0\2\2\2\0\1\1\1\0";
-
-  private static int[] zzUnpackAction() {
-    int[] result = new int[24];
-    int offset = 0;
-    offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
-    return result;
-  }
-
-  private static int zzUnpackAction(String packed, int offset, int[] result) {
-    int i = 0; /* index in packed string */
-    int j = offset; /* index in unpacked array */
-    int l = packed.length();
-    while (i < l) {
-      int count = packed.charAt(i++);
-      int value = packed.charAt(i++);
-      do
-        result[j++] = value;
-      while (--count > 0);
-    }
-    return j;
-  }
-
   /**
    * Translates a state to a row index in the transition table
    */
@@ -211,30 +197,10 @@ public final class DefaultScanner {
   private static final String ZZ_ROWMAP_PACKED_0 = "\0\0\0\22\0\44\0\66\0\110\0\132\0\154\0\176"
       + "\0\220\0\242\0\264\0\306\0\330\0\352\0\374\0\u010e"
       + "\0\u0120\0\154\0\u0132\0\u0144\0\u0156\0\264\0\u0168\0\u017a";
-
-  private static int[] zzUnpackRowMap() {
-    int[] result = new int[24];
-    int offset = 0;
-    offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
-    return result;
-  }
-
-  private static int zzUnpackRowMap(String packed, int offset, int[] result) {
-    int i = 0; /* index in packed string */
-    int j = offset; /* index in unpacked array */
-    int l = packed.length();
-    while (i < l) {
-      int high = packed.charAt(i++) << 16;
-      result[j++] = high | packed.charAt(i++);
-    }
-    return j;
-  }
-
   /**
    * The transition table of the DFA
    */
   private static final int[] ZZ_TRANS = zzUnpackTrans();
-
   private static final String ZZ_TRANS_PACKED_0 = "\1\2\1\3\1\4\1\2\1\5\1\6\3\2\1\7"
       + "\1\10\1\11\2\2\1\12\1\13\2\14\23\0\3\3"
       + "\1\15\1\0\1\16\1\0\1\16\1\17\2\0\1\16"
@@ -258,6 +224,125 @@ public final class DefaultScanner {
       + "\1\23\1\0\2\3\1\24\1\15\4\0\1\17\4\0"
       + "\1\12\2\0\1\24\3\0\1\25\12\0\1\24\2\0"
       + "\1\25\3\0\1\27\13\0\1\27\1\0\1\27\3\0" + "\1\30\1\15\14\0\1\30";
+  /* error codes */
+  private static final int ZZ_UNKNOWN_ERROR = 0;
+  private static final int ZZ_NO_MATCH = 1;
+  private static final int ZZ_PUSHBACK_2BIG = 2;
+  /* error messages for the codes above */
+  private static final String ZZ_ERROR_MSG[] = {
+      "Unkown internal scanner error", "Error: could not match input",
+      "Error: pushback value was too large"};
+  /**
+   * ZZ_ATTRIBUTE[aState] contains the attributes of state <code>aState</code>
+   */
+  private static final int[] ZZ_ATTRIBUTE = zzUnpackAttribute();
+  private static final String ZZ_ATTRIBUTE_PACKED_0 = "\1\0\1\11\13\1\1\0\1\1\1\0\1\1\1\0"
+      + "\2\1\2\0\1\1\1\0";
+  /**
+   * the input device
+   */
+  private java.io.Reader zzReader;
+  /**
+   * the current state of the DFA
+   */
+  private int zzState;
+  /**
+   * the textposition at the last accepting state
+   */
+  private int zzMarkedPos;
+  /**
+   * the current text position in the buffer
+   */
+  private int zzCurrentPos;
+  /**
+   * startRead marks the beginning of the yytext() string in the buffer
+   */
+  private int zzStartRead;
+  /**
+   * endRead marks the last character in the buffer, that has been read from
+   * input
+   */
+  private int zzEndRead;
+  /**
+   * number of newlines encountered up to the start of the matched text
+   */
+  private int yyline;
+  /**
+   * the number of characters up to the start of the matched text
+   */
+  private int yychar;
+  /**
+   * the number of characters from the last newline up to the start of the
+   * matched text
+   */
+  private int yycolumn;
+  /**
+   * zzAtBOL == true <=> the scanner is currently at the beginning of a line
+   */
+  private boolean zzAtBOL = true;
+  /**
+   * zzAtEOF == true <=> the scanner is at the EOF
+   */
+  private boolean zzAtEOF;
+  /**
+   * denotes if the user-EOF-code has already been executed
+   */
+  private boolean zzEOFDone;
+  /**
+   * The number of occupied positions in zzBuffer beyond zzEndRead. When a
+   * lead/high surrogate has been read from the input stream into the final
+   * zzBuffer position, this will have a value of 1; otherwise, it will have a
+   * value of 0.
+   */
+  private int zzFinalHighSurrogate = 0;
+
+  /**
+   * Creates a new scanner
+   *
+   * @param in the java.io.Reader to read input from.
+   */
+  public DefaultScanner(java.io.Reader in) {
+    this.zzReader = in;
+  }
+
+  private static int[] zzUnpackAction() {
+    int[] result = new int[24];
+    int offset = 0;
+    offset = zzUnpackAction(ZZ_ACTION_PACKED_0, offset, result);
+    return result;
+  }
+
+  private static int zzUnpackAction(String packed, int offset, int[] result) {
+    int i = 0; /* index in packed string */
+    int j = offset; /* index in unpacked array */
+    int l = packed.length();
+    while (i < l) {
+      int count = packed.charAt(i++);
+      int value = packed.charAt(i++);
+      do
+        result[j++] = value;
+      while (--count > 0);
+    }
+    return j;
+  }
+
+  private static int[] zzUnpackRowMap() {
+    int[] result = new int[24];
+    int offset = 0;
+    offset = zzUnpackRowMap(ZZ_ROWMAP_PACKED_0, offset, result);
+    return result;
+  }
+
+  private static int zzUnpackRowMap(String packed, int offset, int[] result) {
+    int i = 0; /* index in packed string */
+    int j = offset; /* index in unpacked array */
+    int l = packed.length();
+    while (i < l) {
+      int high = packed.charAt(i++) << 16;
+      result[j++] = high | packed.charAt(i++);
+    }
+    return j;
+  }
 
   private static int[] zzUnpackTrans() {
     int[] result = new int[396];
@@ -281,24 +366,6 @@ public final class DefaultScanner {
     return j;
   }
 
-  /* error codes */
-  private static final int ZZ_UNKNOWN_ERROR = 0;
-  private static final int ZZ_NO_MATCH = 1;
-  private static final int ZZ_PUSHBACK_2BIG = 2;
-
-  /* error messages for the codes above */
-  private static final String ZZ_ERROR_MSG[] = {
-      "Unkown internal scanner error", "Error: could not match input",
-      "Error: pushback value was too large" };
-
-  /**
-   * ZZ_ATTRIBUTE[aState] contains the attributes of state <code>aState</code>
-   */
-  private static final int[] ZZ_ATTRIBUTE = zzUnpackAttribute();
-
-  private static final String ZZ_ATTRIBUTE_PACKED_0 = "\1\0\1\11\13\1\1\0\1\1\1\0\1\1\1\0"
-      + "\2\1\2\0\1\1\1\0";
-
   private static int[] zzUnpackAttribute() {
     int[] result = new int[24];
     int offset = 0;
@@ -320,87 +387,10 @@ public final class DefaultScanner {
     return j;
   }
 
-  /** the input device */
-  private java.io.Reader zzReader;
-
-  /** the current state of the DFA */
-  private int zzState;
-
-  /** the current lexical state */
-  private int zzLexicalState = YYINITIAL;
-
-  /**
-   * this buffer contains the current text to be matched and is the source of
-   * the yytext() string
-   */
-  private char zzBuffer[] = new char[ZZ_BUFFERSIZE];
-
-  /** the textposition at the last accepting state */
-  private int zzMarkedPos;
-
-  /** the current text position in the buffer */
-  private int zzCurrentPos;
-
-  /** startRead marks the beginning of the yytext() string in the buffer */
-  private int zzStartRead;
-
-  /**
-   * endRead marks the last character in the buffer, that has been read from
-   * input
-   */
-  private int zzEndRead;
-
-  /** number of newlines encountered up to the start of the matched text */
-  private int yyline;
-
-  /** the number of characters up to the start of the matched text */
-  private int yychar;
-
-  /**
-   * the number of characters from the last newline up to the start of the
-   * matched text
-   */
-  private int yycolumn;
-
-  /**
-   * zzAtBOL == true <=> the scanner is currently at the beginning of a line
-   */
-  private boolean zzAtBOL = true;
-
-  /** zzAtEOF == true <=> the scanner is at the EOF */
-  private boolean zzAtEOF;
-
-  /** denotes if the user-EOF-code has already been executed */
-  private boolean zzEOFDone;
-
-  /**
-   * The number of occupied positions in zzBuffer beyond zzEndRead. When a
-   * lead/high surrogate has been read from the input stream into the final
-   * zzBuffer position, this will have a value of 1; otherwise, it will have a
-   * value of 0.
-   */
-  private int zzFinalHighSurrogate = 0;
-
-  /* user code: */
-  public final String getText() {
-    return String.copyValueOf(zzBuffer, zzStartRead, zzMarkedPos - zzStartRead);
-  }
-
-  /**
-   * Creates a new scanner
-   * 
-   * @param in
-   *          the java.io.Reader to read input from.
-   */
-  public DefaultScanner(java.io.Reader in) {
-    this.zzReader = in;
-  }
-
   /**
    * Unpacks the compressed character translation table.
-   * 
-   * @param packed
-   *          the packed character translation table
+   *
+   * @param packed the packed character translation table
    * @return the unpacked character translation table
    */
   private static char[] zzUnpackCMap(String packed) {
@@ -417,13 +407,16 @@ public final class DefaultScanner {
     return map;
   }
 
+  /* user code: */
+  public final String getText() {
+    return String.copyValueOf(zzBuffer, zzStartRead, zzMarkedPos - zzStartRead);
+  }
+
   /**
    * Refills the input buffer.
-   * 
+   *
    * @return <code>false</code>, iff there was new input.
-   * 
-   * @exception java.io.IOException
-   *              if any I/O-Error occurs
+   * @throws java.io.IOException if any I/O-Error occurs
    */
   private boolean zzRefill() throws java.io.IOException {
 
@@ -492,16 +485,15 @@ public final class DefaultScanner {
   /**
    * Resets the scanner to read from a new input stream. Does not close the old
    * reader.
-   * 
+   * <p/>
    * All internal variables are reset, the old input stream <b>cannot</b> be
    * reused (internal buffer is discarded and lost). Lexical state is set to
    * <tt>ZZ_INITIAL</tt>.
-   * 
+   * <p/>
    * Internal scan buffer is resized down to its initial length, if it has
    * grown.
-   * 
-   * @param reader
-   *          the new input stream
+   *
+   * @param reader the new input stream
    */
   public final void yyreset(java.io.Reader reader) {
     zzReader = reader;
@@ -526,9 +518,8 @@ public final class DefaultScanner {
 
   /**
    * Enters a new lexical state
-   * 
-   * @param newState
-   *          the new lexical state
+   *
+   * @param newState the new lexical state
    */
   public final void yybegin(int newState) {
     zzLexicalState = newState;
@@ -543,13 +534,11 @@ public final class DefaultScanner {
 
   /**
    * Returns the character at position <tt>pos</tt> from the matched text.
-   * 
+   * <p/>
    * It is equivalent to yytext().charAt(pos), but faster
-   * 
-   * @param pos
-   *          the position of the character to fetch. A value from 0 to
-   *          yylength()-1.
-   * 
+   *
+   * @param pos the position of the character to fetch. A value from 0 to
+   *            yylength()-1.
    * @return the character at position pos
    */
   public final char yycharat(int pos) {
@@ -565,17 +554,16 @@ public final class DefaultScanner {
 
   /**
    * Reports an error that occured while scanning.
-   * 
+   * <p/>
    * In a wellformed scanner (no or only correct usage of yypushback(int) and a
    * match-all fallback rule) this method will only be called with things that
    * "Can't Possibly Happen". If this method is called, something is seriously
    * wrong (e.g. a JFlex bug producing a faulty scanner etc.).
-   * 
+   * <p/>
    * Usual syntax/scanner level error handling should be done in error fallback
    * rules.
-   * 
-   * @param errorCode
-   *          the code of the errormessage to display
+   *
+   * @param errorCode the code of the errormessage to display
    */
   private void zzScanError(int errorCode) {
     String message;
@@ -590,12 +578,11 @@ public final class DefaultScanner {
 
   /**
    * Pushes the specified amount of characters back into the input stream.
-   * 
+   * <p/>
    * They will be read again by then next call of the scanning method
-   * 
-   * @param number
-   *          the number of characters to be read again. This number must not be
-   *          greater than yylength()!
+   *
+   * @param number the number of characters to be read again. This number must not be
+   *               greater than yylength()!
    */
   public void yypushback(int number) {
     if (number > yylength())
@@ -607,10 +594,9 @@ public final class DefaultScanner {
   /**
    * Resumes scanning until the next regular expression is matched, the end of
    * input is encountered or an I/O-Error occurs.
-   * 
+   *
    * @return the next token
-   * @exception java.io.IOException
-   *              if any I/O-Error occurs
+   * @throws java.io.IOException if any I/O-Error occurs
    */
   public int getNextToken() throws java.io.IOException {
     int zzInput;
@@ -642,7 +628,8 @@ public final class DefaultScanner {
         zzAction = zzState;
       }
 
-      zzForAction: {
+      zzForAction:
+      {
         while (true) {
 
           if (zzCurrentPosL < zzEndReadL) {
@@ -691,58 +678,58 @@ public final class DefaultScanner {
       zzMarkedPos = zzMarkedPosL;
 
       switch (zzAction < 0 ? zzAction : ZZ_ACTION[zzAction]) {
-      case 1: { /* Break so we don't hit fall-through warning: */
-        break; /*
+        case 1: { /* Break so we don't hit fall-through warning: */
+          break; /*
                 * Not numeric, word, ideographic, hiragana, or SE Asian --
                 * ignore it.
                 */
-      }
-      case 9:
-        break;
-      case 2: {
-        return 4;
-      }
-      case 10:
-        break;
-      case 3: {
-        return 2;
-      }
-      case 11:
-        break;
-      case 4: {
-        return 1;
-      }
-      case 12:
-        break;
-      case 5: {
-        return 3;
-      }
-      case 13:
-        break;
-      case 6: {
-        return 6;
-      }
-      case 14:
-        break;
-      case 7: {
-        return 7;
-      }
-      case 15:
-        break;
-      case 8: {
-        return 5;
-      }
-      case 16:
-        break;
-      default:
-        if (zzInput == YYEOF && zzStartRead == zzCurrentPos) {
-          zzAtEOF = true;
-          {
-            return YYEOF;
-          }
-        } else {
-          zzScanError(ZZ_NO_MATCH);
         }
+        case 9:
+          break;
+        case 2: {
+          return 4;
+        }
+        case 10:
+          break;
+        case 3: {
+          return 2;
+        }
+        case 11:
+          break;
+        case 4: {
+          return 1;
+        }
+        case 12:
+          break;
+        case 5: {
+          return 3;
+        }
+        case 13:
+          break;
+        case 6: {
+          return 6;
+        }
+        case 14:
+          break;
+        case 7: {
+          return 7;
+        }
+        case 15:
+          break;
+        case 8: {
+          return 5;
+        }
+        case 16:
+          break;
+        default:
+          if (zzInput == YYEOF && zzStartRead == zzCurrentPos) {
+            zzAtEOF = true;
+            {
+              return YYEOF;
+            }
+          } else {
+            zzScanError(ZZ_NO_MATCH);
+          }
       }
     }
   }

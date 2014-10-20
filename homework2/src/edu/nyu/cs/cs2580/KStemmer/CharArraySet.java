@@ -28,8 +28,8 @@ import java.util.Set;
  * the set, nor does it resize its hash table to be smaller, etc. It is designed
  * to be quick to test if a char[] is in the set without the necessity of
  * converting it to a String first.
- * 
- * <P>
+ * <p/>
+ * <p/>
  * <em>Please note:</em> This class implements {@link java.util.Set Set} but
  * does not behave like it should in all cases. The generic type is
  * {@code Set<Object>}, because you can add any object to it, that has a string
@@ -40,19 +40,17 @@ import java.util.Set;
  */
 public class CharArraySet extends AbstractSet<Object> {
   public static final CharArraySet EMPTY_SET = new CharArraySet(
-      CharArrayMap.<Object> emptyMap());
+      CharArrayMap.<Object>emptyMap());
   private static final Object PLACEHOLDER = new Object();
 
   private final CharArrayMap<Object> map;
 
   /**
    * Create set with enough capacity to hold startSize terms
-   * 
-   * @param startSize
-   *          the initial capacity
-   * @param ignoreCase
-   *          <code>false</code> if and only if the set should be case sensitive
-   *          otherwise <code>true</code>.
+   *
+   * @param startSize  the initial capacity
+   * @param ignoreCase <code>false</code> if and only if the set should be case sensitive
+   *                   otherwise <code>true</code>.
    */
   public CharArraySet(int startSize, boolean ignoreCase) {
     this(new CharArrayMap<Object>(startSize, ignoreCase));
@@ -60,12 +58,10 @@ public class CharArraySet extends AbstractSet<Object> {
 
   /**
    * Creates a set from a Collection of objects.
-   * 
-   * @param c
-   *          a collection whose elements to be placed into the set
-   * @param ignoreCase
-   *          <code>false</code> if and only if the set should be case sensitive
-   *          otherwise <code>true</code>.
+   *
+   * @param c          a collection whose elements to be placed into the set
+   * @param ignoreCase <code>false</code> if and only if the set should be case sensitive
+   *                   otherwise <code>true</code>.
    */
   public CharArraySet(Collection<?> c, boolean ignoreCase) {
     this(c.size(), ignoreCase);
@@ -78,6 +74,43 @@ public class CharArraySet extends AbstractSet<Object> {
    */
   CharArraySet(final CharArrayMap<Object> map) {
     this.map = map;
+  }
+
+  /**
+   * Returns an unmodifiable {@link CharArraySet}. This allows to provide
+   * unmodifiable views of internal sets for "read-only" use.
+   *
+   * @param set a set for which the unmodifiable set is returned.
+   * @return an new unmodifiable {@link CharArraySet}.
+   * @throws NullPointerException if the given set is <code>null</code>.
+   */
+  public static CharArraySet unmodifiableSet(CharArraySet set) {
+    if (set == null)
+      throw new NullPointerException("Given set is null");
+    if (set == EMPTY_SET)
+      return EMPTY_SET;
+    if (set.map instanceof CharArrayMap.UnmodifiableCharArrayMap)
+      return set;
+    return new CharArraySet(CharArrayMap.unmodifiableMap(set.map));
+  }
+
+  /**
+   * Returns a copy of the given set as a {@link CharArraySet}. If the given set
+   * is a {@link CharArraySet} the ignoreCase property will be preserved.
+   *
+   * @param set a set to copy
+   * @return a copy of the given set as a {@link CharArraySet}. If the given set
+   * is a {@link CharArraySet} the ignoreCase property as well as the
+   * matchVersion will be of the given set will be preserved.
+   */
+  public static CharArraySet copy(final Set<?> set) {
+    if (set == EMPTY_SET)
+      return EMPTY_SET;
+    if (set instanceof CharArraySet) {
+      final CharArraySet source = (CharArraySet) set;
+      return new CharArraySet(CharArrayMap.copy(source.map));
+    }
+    return new CharArraySet(set, false);
   }
 
   /**
@@ -97,7 +130,9 @@ public class CharArraySet extends AbstractSet<Object> {
     return map.containsKey(text, off, len);
   }
 
-  /** true if the <code>CharSequence</code> is in the set */
+  /**
+   * true if the <code>CharSequence</code> is in the set
+   */
   public boolean contains(CharSequence cs) {
     return map.containsKey(cs);
   }
@@ -112,12 +147,16 @@ public class CharArraySet extends AbstractSet<Object> {
     return map.put(o, PLACEHOLDER) == null;
   }
 
-  /** Add this CharSequence into the set */
+  /**
+   * Add this CharSequence into the set
+   */
   public boolean add(CharSequence text) {
     return map.put(text, PLACEHOLDER) == null;
   }
 
-  /** Add this String into the set */
+  /**
+   * Add this String into the set
+   */
   public boolean add(String text) {
     return map.put(text, PLACEHOLDER) == null;
   }
@@ -134,46 +173,6 @@ public class CharArraySet extends AbstractSet<Object> {
   @Override
   public int size() {
     return map.size();
-  }
-
-  /**
-   * Returns an unmodifiable {@link CharArraySet}. This allows to provide
-   * unmodifiable views of internal sets for "read-only" use.
-   * 
-   * @param set
-   *          a set for which the unmodifiable set is returned.
-   * @return an new unmodifiable {@link CharArraySet}.
-   * @throws NullPointerException
-   *           if the given set is <code>null</code>.
-   */
-  public static CharArraySet unmodifiableSet(CharArraySet set) {
-    if (set == null)
-      throw new NullPointerException("Given set is null");
-    if (set == EMPTY_SET)
-      return EMPTY_SET;
-    if (set.map instanceof CharArrayMap.UnmodifiableCharArrayMap)
-      return set;
-    return new CharArraySet(CharArrayMap.unmodifiableMap(set.map));
-  }
-
-  /**
-   * Returns a copy of the given set as a {@link CharArraySet}. If the given set
-   * is a {@link CharArraySet} the ignoreCase property will be preserved.
-   * 
-   * @param set
-   *          a set to copy
-   * @return a copy of the given set as a {@link CharArraySet}. If the given set
-   *         is a {@link CharArraySet} the ignoreCase property as well as the
-   *         matchVersion will be of the given set will be preserved.
-   */
-  public static CharArraySet copy(final Set<?> set) {
-    if (set == EMPTY_SET)
-      return EMPTY_SET;
-    if (set instanceof CharArraySet) {
-      final CharArraySet source = (CharArraySet) set;
-      return new CharArraySet(CharArrayMap.copy(source.map));
-    }
-    return new CharArraySet(set, false);
   }
 
   /**

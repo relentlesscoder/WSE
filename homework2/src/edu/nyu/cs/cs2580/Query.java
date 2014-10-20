@@ -6,11 +6,11 @@ import java.util.Vector;
 
 /**
  * Representation of a user query.
- * 
+ * <p/>
  * In HW1: instructors provide this simple implementation.
- * 
+ * <p/>
  * In HW2: students must implement {@link QueryPhrase} to handle phrases.
- * 
+ *
  * @author congyu
  * @auhtor fdiaz
  */

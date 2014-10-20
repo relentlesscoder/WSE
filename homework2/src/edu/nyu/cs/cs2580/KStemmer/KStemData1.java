@@ -43,11 +43,8 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData1 {
-  private KStemData1() {
-  }
-
   // KStemData1 ... KStemData8 are created from "head_word_list.txt"
-  static String[] data = { "aback", "abacus", "abandon", "abandoned", "abase",
+  static String[] data = {"aback", "abacus", "abandon", "abandoned", "abase",
       "abash", "abate", "abattoir", "abbess", "abbey", "abbot", "abbreviate",
       "abbreviation", "abc", "abdicate", "abdomen", "abduct", "abed",
       "aberrant", "aberration", "abet", "abeyance", "abhor", "abhorrent",
@@ -632,5 +629,8 @@ class KStemData1 {
       "cart", "cartage", "cartel", "carter", "carthorse", "cartilage",
       "cartilaginous", "cartographer", "cartography", "carton", "cartoon",
       "cartridge", "cartwheel", "carve", "carver", "carving", "caryatid",
-      "cascade", "cascara", "case", "casebook", "casein", "casework", };
+      "cascade", "cascara", "case", "casebook", "casein", "casework",};
+
+  private KStemData1() {
+  }
 }

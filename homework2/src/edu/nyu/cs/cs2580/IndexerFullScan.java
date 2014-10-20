@@ -1,25 +1,13 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.Vector;
-
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.io.*;
+import java.util.*;
 
 /**
  * Instructor's implementation of a simple full scan Indexer, used in HW1.
- * 
+ *
  * @author fdiaz
  * @author congyu
  */
@@ -55,7 +43,7 @@ class IndexerFullScan extends Indexer implements Serializable {
 
   /**
    * Constructs the index from the corpus file.
-   * 
+   *
    * @throws IOException
    */
   @Override
@@ -86,7 +74,7 @@ class IndexerFullScan extends Indexer implements Serializable {
   /**
    * Process the raw content (i.e., one line in corpus.tsv) corresponding to a
    * document, and constructs the token vectors for both title and body.
-   * 
+   *
    * @param content
    */
   private void processDocument(String content) {
@@ -121,7 +109,7 @@ class IndexerFullScan extends Indexer implements Serializable {
   /**
    * Tokenize {@code content} into terms, translate terms into their integer
    * representation, store the integers in {@code tokens}.
-   * 
+   *
    * @param content
    * @param tokens
    */
@@ -147,7 +135,7 @@ class IndexerFullScan extends Indexer implements Serializable {
   /**
    * Update the corpus statistics with {@code tokens}. Using {@code uniques} to
    * bridge between different token vectors.
-   * 
+   *
    * @param tokens
    * @param uniques
    */
@@ -163,14 +151,13 @@ class IndexerFullScan extends Indexer implements Serializable {
 
   /**
    * Loads the index from the index file.
-   * 
+   * <p/>
    * N.B. For this particular implementation, loading the index from the simple
    * serialization format is in fact slower than constructing the index from
    * scratch. For the more efficient indices, loading should be much faster than
    * constructing.
-   * 
-   * @throws IOException
-   *           , ClassNotFoundException
+   *
+   * @throws IOException , ClassNotFoundException
    */
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {

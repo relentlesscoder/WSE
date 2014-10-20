@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData8 {
-  private KStemData8() {
-  }
-
-  static String[] data = { "tenor", "tenpin", "tense", "tensile", "tension",
+  static String[] data = {"tenor", "tenpin", "tense", "tensile", "tension",
       "tent", "tentacle", "tentative", "tenterhooks", "tenuity", "tenuous",
       "tenure", "tepee", "tepid", "tequila", "tercentenary", "tercentennial",
       "term", "termagant", "terminable", "terminal", "terminate",
@@ -542,5 +539,8 @@ class KStemData8 {
       "zigzag", "zinc", "zinnia", "zionism", "zip", "zipper", "zippy",
       "zither", "zizz", "zodiac", "zombi", "zombie", "zonal", "zone", "zoning",
       "zonked", "zoo", "zoologist", "zoology", "zoom", "zoophyte", "zouave",
-      "zucchini", "zulu", };
+      "zucchini", "zulu",};
+
+  private KStemData8() {
+  }
 }

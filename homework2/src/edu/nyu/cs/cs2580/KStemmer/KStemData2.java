@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData2 {
-  private KStemData2() {
-  }
-
-  static String[] data = { "cash", "cashew", "cashier", "cashmere", "casing",
+  static String[] data = {"cash", "cashew", "cashier", "cashmere", "casing",
       "casino", "cask", "casket", "casque", "cassava", "casserole", "cassette",
       "cassock", "cassowary", "cast", "castanets", "castaway", "castellated",
       "caster", "castigate", "casting", "castle", "castor", "castrate",
@@ -672,5 +669,8 @@ class KStemData2 {
       "dissimilarity", "dissimulate", "dissipate", "dissipated", "dissipation",
       "dissociate", "dissoluble", "dissolute", "dissolution", "dissolve",
       "dissonance", "dissonant", "dissuade", "distaff", "distal", "distance",
-      "distant", "distantly", "distaste", };
+      "distant", "distantly", "distaste",};
+
+  private KStemData2() {
+  }
 }

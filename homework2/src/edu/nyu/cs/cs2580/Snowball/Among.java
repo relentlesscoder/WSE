@@ -3,8 +3,14 @@ package edu.nyu.cs.cs2580.Snowball;
 import java.lang.reflect.Method;
 
 public class Among {
+  public final int s_size; /* search string */
+  public final char[] s; /* search string */
+  public final int substring_i; /* index to longest matching substring */
+  public final int result; /* result of the lookup */
+  public final Method method; /* method to use if substring matches */
+  public final SnowballProgram methodobject; /* object to invoke method on */
   public Among(String s, int substring_i, int result, String methodname,
-      SnowballProgram methodobject) {
+               SnowballProgram methodobject) {
     this.s_size = s.length();
     this.s = s.toCharArray();
     this.substring_i = substring_i;
@@ -21,11 +27,4 @@ public class Among {
       }
     }
   }
-
-  public final int s_size; /* search string */
-  public final char[] s; /* search string */
-  public final int substring_i; /* index to longest matching substring */
-  public final int result; /* result of the lookup */
-  public final Method method; /* method to use if substring matches */
-  public final SnowballProgram methodobject; /* object to invoke method on */
 };

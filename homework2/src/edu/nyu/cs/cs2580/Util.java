@@ -2,17 +2,22 @@ package edu.nyu.cs.cs2580;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Output;
-import com.google.common.collect.*;
+import com.google.common.collect.Multimap;
+import com.google.common.collect.Multiset;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 public class Util {
-  private static final long SIZE_PER_FILE_INTEGER = 6000000;
-  private static final long SIZE_PER_FILE_Byte = 6000000;
   protected static final long SIZE_PER_MAP_INTEGER = 500000;
   protected static final long SIZE_PER_MAP_Byte = 500000;
   protected static final long MAX_INVERTED_INDEX_SIZE = 10000000;
+  private static final long SIZE_PER_FILE_INTEGER = 6000000;
+  private static final long SIZE_PER_FILE_Byte = 6000000;
 
   public static String convertMillis(long timeStamp) {
     long hours, minutes, seconds, millis;
@@ -78,12 +83,6 @@ public class Util {
     }
     output.close();
   }
-
-
-
-
-
-
 
 
 //  public static void serializeCompressedInvertedIndex(Multimap<String, Byte> invertedIndex, SearchEngine.Options _options) throws IOException {

@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData4 {
-  private KStemData4() {
-  }
-
-  static String[] data = { "granular", "granulate", "granule", "grape",
+  static String[] data = {"granular", "granulate", "granule", "grape",
       "grapefruit", "grapeshot", "grapevine", "graph", "graphic", "graphical",
       "graphically", "graphite", "graphology", "grapnel", "grapple", "grasp",
       "grasping", "grass", "grasshopper", "grassland", "grassy", "grate",
@@ -645,5 +642,8 @@ class KStemData4 {
       "loathe", "loathing", "loathsome", "loaves", "lob", "lobby", "lobed",
       "lobotomy", "lobster", "lobsterpot", "local", "locale", "localise",
       "localism", "locality", "localize", "locally", "locate", "located",
-      "location", "loch", "loci", };
+      "location", "loch", "loci",};
+
+  private KStemData4() {
+  }
 }

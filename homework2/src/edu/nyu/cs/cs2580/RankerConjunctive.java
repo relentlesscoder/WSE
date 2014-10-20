@@ -1,16 +1,14 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.IOException;
-import java.util.*;
-
 import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Multimap;
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
+import java.util.*;
+
 /**
  * Instructors' code for illustration purpose. Non-tested code.
- * 
+ *
  * @author congyu
  */
 public class RankerConjunctive extends Ranker {
@@ -19,7 +17,7 @@ public class RankerConjunctive extends Ranker {
   private IndexerInvertedOccurrence occIndexer;
 
   public RankerConjunctive(Options options,
-      CgiArguments arguments, Indexer indexer) {
+                           CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
@@ -30,31 +28,31 @@ public class RankerConjunctive extends Ranker {
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
     String indexType = _indexer.getClass().getSimpleName();
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
-    if (_options._indexerType.equals("inverted-doconly")){
-      results = runQueryDoconlyBased(query,numResults);
-    }else if (_options._indexerType.equals("inverted-occurrence")){
+    if (_options._indexerType.equals("inverted-doconly")) {
+      results = runQueryDoconlyBased(query, numResults);
+    } else if (_options._indexerType.equals("inverted-occurrence")) {
       initPosIndexer();
-      results = runQueryPosBased(query,numResults);
-    }else if (_options._indexerType.equals("inverted-compressed")){
+      results = runQueryPosBased(query, numResults);
+    } else if (_options._indexerType.equals("inverted-compressed")) {
       initPosIndexer();
-      results = runQueryPosBased(query,numResults);
+      results = runQueryPosBased(query, numResults);
     }
     return results;
   }
 
   //Make convenience to call child indexer method
-  private void initPosIndexer(){
-    if (_options._indexerType.equals("inverted-occurrence")){
+  private void initPosIndexer() {
+    if (_options._indexerType.equals("inverted-occurrence")) {
       occIndexer = (IndexerInvertedOccurrence) _indexer;
-    }else if(_options._indexerType.equals("inverted-compressed")){
+    } else if (_options._indexerType.equals("inverted-compressed")) {
       compIndexer = (IndexerInvertedCompressed) _indexer;
     }
   }
 
   //Query process for query based on Doconly indexer
-  private Vector<ScoredDocument> runQueryDoconlyBased (Query query, int numResults){
+  private Vector<ScoredDocument> runQueryDoconlyBased(Query query, int numResults) {
     String queryType = query.getClass().getSimpleName();
-    if (queryType.equals("QueryPhrase")){
+    if (queryType.equals("QueryPhrase")) {
       System.out.println("IndexerInvertedDoconly could not resolve Phrase, process as tokens");
     }
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
@@ -78,7 +76,7 @@ public class RankerConjunctive extends Ranker {
   }
 
   //Query process for query based on indexer with pos info
-  private Vector<ScoredDocument> runQueryPosBased (Query query, int numResults){
+  private Vector<ScoredDocument> runQueryPosBased(Query query, int numResults) {
     String queryType = query.getClass().getSimpleName();
     QueryPhrase queryPhrase;
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
@@ -92,38 +90,38 @@ public class RankerConjunctive extends Ranker {
 //        int x=11;
 //      }
       double score = 0.0;
-      if (queryType.equals("QueryPhrase")){
-        queryPhrase = (QueryPhrase)query;
+      if (queryType.equals("QueryPhrase")) {
+        queryPhrase = (QueryPhrase) query;
         //If there is no phrase in the document skip current loop
         ListMultimap<String, String> phrases = queryPhrase._phrases;
         Set<String> keyset = phrases.keySet();
 
-        for(String key : keyset){
+        for (String key : keyset) {
           List<String> tokens = phrases.get(key);
           int pos = nextPhrase(tokens, doc._docid, -1);
           if (pos == -1) {
             docid = doc._docid;
             continue findDoc;
           }
-          while (pos != -1){
+          while (pos != -1) {
             score += 5.0;
             pos = nextPhrase(tokens, doc._docid, pos);
           }
         }
 
-        for(String soloToken : queryPhrase.soloTokens){
+        for (String soloToken : queryPhrase.soloTokens) {
           int termDocFrequency = documentTermFrequency(soloToken, doc.getUrl());
-          score += 1.0*(double)termDocFrequency;
+          score += 1.0 * (double) termDocFrequency;
         }
 
-      }else if (queryType.equals("Query")){
-        for(String term : query._tokens){
+      } else if (queryType.equals("Query")) {
+        for (String term : query._tokens) {
           int termDocFrequency = documentTermFrequency(term, doc.getUrl());
-          score += 1.0*(double)termDocFrequency;
+          score += 1.0 * (double) termDocFrequency;
         }
       }
 
-      System.out.println(doc._docid+" "+score);
+      System.out.println(doc._docid + " " + score);
 
 //      if (doc._docid == 165){
 //        int x =11;
@@ -145,38 +143,38 @@ public class RankerConjunctive extends Ranker {
     return results;
   }
 
-  private Document nextDoc(Query query, int docid){
+  private Document nextDoc(Query query, int docid) {
     Document doc = null;
-    if (_options._indexerType.equals("inverted-occurrence")){
+    if (_options._indexerType.equals("inverted-occurrence")) {
       doc = occIndexer.nextDoc(query, docid);
-    }else if(_options._indexerType.equals("inverted-compressed")){
-      doc = compIndexer.nextDoc(query,docid);
+    } else if (_options._indexerType.equals("inverted-compressed")) {
+      doc = compIndexer.nextDoc(query, docid);
     }
     return doc;
   }
 
-  private int nextPos(String term, int docid, int pos){
+  private int nextPos(String term, int docid, int pos) {
     int result = pos;
-    if (_options._indexerType.equals("inverted-occurrence")){
+    if (_options._indexerType.equals("inverted-occurrence")) {
       result = occIndexer.nextPos(term, docid, pos);
-    }else if(_options._indexerType.equals("inverted-compressed")){
+    } else if (_options._indexerType.equals("inverted-compressed")) {
       result = compIndexer.nextPos(term, docid, pos);
     }
     return result;
   }
 
-  private int nextPhrase(List<String> tokens, int docid, int pos){
+  private int nextPhrase(List<String> tokens, int docid, int pos) {
     String firstTerm = tokens.get(0);
     findPhrase:
-    while ((pos=nextPos(firstTerm, docid, pos))!=-1){
+    while ((pos = nextPos(firstTerm, docid, pos)) != -1) {
       int previousPos = pos;
-      for (int i=1; i<tokens.size(); i++){
+      for (int i = 1; i < tokens.size(); i++) {
         pos = nextPos(tokens.get(i), docid, previousPos);
-        if (pos == -1){
+        if (pos == -1) {
           return -1;
         }
-        if (pos != previousPos+1){
-          pos -= i+1;
+        if (pos != previousPos + 1) {
+          pos -= i + 1;
           continue findPhrase;
         }
         previousPos++;
@@ -189,11 +187,11 @@ public class RankerConjunctive extends Ranker {
     return pos;
   }
 
-  private int documentTermFrequency(String term, String url){
+  private int documentTermFrequency(String term, String url) {
     int result = 0;
-    if (_options._indexerType.equals("inverted-occurrence")){
+    if (_options._indexerType.equals("inverted-occurrence")) {
       result = occIndexer.documentTermFrequency(term, url);
-    }else if(_options._indexerType.equals("inverted-compressed")){
+    } else if (_options._indexerType.equals("inverted-compressed")) {
       result = compIndexer.documentTermFrequency(term, url);
     }
     return result;
