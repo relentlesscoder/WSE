@@ -55,17 +55,20 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
+    long totalStartTimeStamp = System.currentTimeMillis();
+    ProgressBar progressBar = new ProgressBar();
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
-    ProgressBar progressBar = new ProgressBar();
     int fileCount = 0;
     long startTimeStamp, duration;
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
 
-    System.out.println("Start indexing...");
-
+    /**************************************************************************
+     * Indexing....
+     *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
+    System.out.println("Start indexing...");
 
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
@@ -81,7 +84,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       }
     }
 
-    // Write the rest...
+    //Write the rest partial inverted index...
     Util.writePartialInvertedIndex(invertedIndex, _options, ++fileCount);
     invertedIndex.clear();
 
@@ -90,7 +93,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
-    System.out.println("Complete indexing...");
+    System.out.println("Complete indexing");
     System.out.println("Indexing time: " + Util.convertMillis(duration));
     System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
         + Long.toString(_totalTermFrequency) + " terms.");
@@ -106,17 +109,16 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
-    duration = System.currentTimeMillis() - startTimeStamp;
 
-    System.out.println("Complete merging...");
+    duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Complete merging");
     System.out.println("Merging time: " + Util.convertMillis(duration));
 
     /**************************************************************************
-     * Start serialize
+     * Serializing the rest...
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
-
-    System.out.println("Start storing...");
+    System.out.println("Serializing...");
 
 //    Serialize the whole object :)
     String indexFile = _options._indexPrefix + "/corpus.idx";
@@ -127,9 +129,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     writer.close();
 
     duration = System.currentTimeMillis() - startTimeStamp;
-    System.out.println("Mission completed :)");
-    System.out.println("Serialization time: " +
-    Util.convertMillis(duration));
+    System.out.println("Compete serializing");
+    System.out.println("Serialization time: " + Util.convertMillis(duration));
+
+    duration = System.currentTimeMillis() - totalStartTimeStamp;
+    System.out.println("Mission complete :) 唉呀妈呀, 跑死我了... OTL");
+    System.out.println("Total time: " + Util.convertMillis(duration));
   }
 
   /**
@@ -634,12 +639,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     writer.close();
     bufferMap.clear();
 
-    // clean up
-//    for (File f : folder.listFiles()) {
-//      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
-//        f.delete();
-//      }
-//    }
+//    clean up
+    for (File f : folder.listFiles()) {
+      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+        f.delete();
+      }
+    }
   }
 
   private boolean hasEntries(int[] numOfEntries) {
@@ -651,6 +656,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     return false;
   }
 
+  /**
+   * Dynamically load partial invertial index at run time
+   * @param query the query terms
+   * @throws IOException
+   * @throws ClassNotFoundException
+   */
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
     File folder = new File(_options._indexPrefix);
     File[] files = folder.listFiles();
@@ -679,6 +690,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       Multimap<String, Integer> tmpPartialIndex = (Multimap<String, Integer>) reader.readObject();
       for (String s : query) {
         if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
+          // Load!
           invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
         }
       }
