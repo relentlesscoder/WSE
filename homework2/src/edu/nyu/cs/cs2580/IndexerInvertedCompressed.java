@@ -508,18 +508,29 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   public Document nextDocLoose(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
-    int nextDocid = -1;
     int smallestDocid = Integer.MAX_VALUE;
 
-    for (int i = docid; i < numDocs; i++) {
-      for (String term : queryTerms) {
-        if (hasDocid(term, i)) {
-          return documents.get(i);
-        }
+    try {
+      dynamicLoading(queryTerms);
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    }
+
+    int minDocid = docid;
+    for (String term : queryTerms) {
+      int nextDocid = nextDocid(term, docid);
+      if (nextDocid > docid) {
+        minDocid = Math.min(minDocid, nextDocid);
       }
     }
 
-    return null;
+    if (minDocid == -1) {
+      return null;
+    } else {
+      return documents.get(minDocid);
+    }
   }
 
   /**
