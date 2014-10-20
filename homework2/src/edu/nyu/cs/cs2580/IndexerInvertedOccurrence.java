@@ -42,6 +42,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
   private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
+  private List<String> partialMergerFileOffset = new ArrayList<String>();
+
   // Provided for serialization
   public IndexerInvertedOccurrence() {
   }
@@ -93,19 +95,22 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
         + Long.toString(_totalTermFrequency) + " terms.");
 
-     startTimeStamp = System.currentTimeMillis();
+    /**************************************************************************
+     * Merging....
+     *************************************************************************/
+    startTimeStamp = System.currentTimeMillis();
     System.out.println("merging");
-    // Shit....
 
     try {
       merge();
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
-     duration = System.currentTimeMillis() - startTimeStamp;
+    duration = System.currentTimeMillis() - startTimeStamp;
 
     System.out.println("Complete merging...");
     System.out.println("Merging time: " + Util.convertMillis(duration));
+
     /**************************************************************************
      * Start serialize
      *************************************************************************/
@@ -173,7 +178,10 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
       term = Tokenizer.krovetzStemmerFilter(term);
       term = Tokenizer.stripSingleCharacterFilter(term);
-      // logger.debug(logValue);
+
+      if (term == null) {
+        continue;
+      }
 
       if (term != null) {
         // Update the termCorpusFrequency
@@ -224,27 +232,27 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         this.invertedIndex = loaded.invertedIndex;
         this._termCorpusFrequency = loaded._termCorpusFrequency;
         this.docUrlMap = loaded.docUrlMap;
+        this.partialMergerFileOffset = loaded.partialMergerFileOffset;
         reader.close();
-
         break;
       }
     }
 
-    for (File file : files) {
-      if (file.getName().equals("corpus_merged.idx")) {
-        String indexFile = _options._indexPrefix + "/corpus_merged.idx";
-        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
-        while (true) {
-          try {
-            String term = reader.readUTF();
-            List<Integer> postingList = (List<Integer>) reader.readObject();
-            this.invertedIndex.get(term).addAll(postingList);
-          } catch (Exception ignore) {
-            break;
-          }
-        }
-      }
-    }
+//    for (File file : files) {
+//      if (file.getName().equals("corpus_merged.idx")) {
+//        String indexFile = _options._indexPrefix + "/corpus_merged.idx";
+//        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
+//        while (true) {
+//          try {
+//            String term = reader.readUTF();
+//            List<Integer> postingList = (List<Integer>) reader.readObject();
+//            this.invertedIndex.get(term).addAll(postingList);
+//          } catch (Exception ignore) {
+//            break;
+//          }
+//        }
+//      }
+//    }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
             + "with " + Long.toString(_totalTermFrequency) + " terms!");
@@ -258,21 +266,18 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> tokens = query._tokens;
+    Vector<String> queryTerms = query._tokens;
 
-    Vector<String> neededTokens = new Vector<String>();
-    boolean needUpdate = false;
-    for (String token : tokens){
-      if (!invertedIndex.containsKey(token)){
-        neededTokens.add(token);
-        needUpdate = true;
-      }
-    }
-    if (needUpdate) {
-      updateInvertedIndex(neededTokens);
+    //TODO
+    try {
+      dynamicLoading(queryTerms);
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
     }
 
-    int nextDocid = nextCandidateDocid(tokens, docid);
+    int nextDocid = nextCandidateDocid(queryTerms, docid);
 
     if (nextDocid != -1) {
       return documents.get(nextDocid);
@@ -508,10 +513,18 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     return docTermFrequency;
   }
 
+  /**
+   *
+   * @throws IOException
+   * @throws ClassNotFoundException
+   */
   private void merge() throws IOException, ClassNotFoundException {
-    String indexMergedFile = _options._indexPrefix + "/corpus_merged.idx";
-    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
-        indexMergedFile)));
+    Multimap<String, Integer> bufferMap = ArrayListMultimap.create();
+    String firstTermOfPartialFile = "";
+    boolean hasFirstTerm = false;
+    long currentSize = 0;
+    int partialFileCount = 0;
+
     File folder = new File(_options._indexPrefix);
 
     int numOfIndex = 0;
@@ -524,9 +537,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     File[] files = new File[numOfIndex];
     int[] numOfEntries = new int[numOfIndex];
     String[] terms = new String[numOfIndex];
-    // List<List<Integer>> postingLists = new ArrayList<List<Integer>>();
-    ObjectInputStream[] readers = new ObjectInputStream[numOfIndex];
-    //TODO
+
     Kryo kryo = new Kryo();
     Input[] inputs = new Input[numOfIndex];
 
@@ -535,7 +546,6 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         if (file.getName().matches(
             "^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
           files[i] = file;
-          //TODO
           inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
           break;
         }
@@ -544,24 +554,15 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     // Initialize...
     for (int i = 0; i < numOfIndex; i++) {
-//      readers[i] = new ObjectInputStream(new FileInputStream(
-//          files[i].getAbsolutePath()));
-      //TODO
       numOfEntries[i] = kryo.readObject(inputs[i], Integer.class);
-//      numOfEntries[i] = readers[i].readInt();
-      List<Integer> l = new ArrayList<Integer>();
       terms[i] = "";
-      // postingLists.add(l);
     }
 
-    int countSSS = 0;
     while (hasEntries(numOfEntries)) {
       for (int i = 0; i < numOfIndex; i++) {
         if (terms[i].equals("") && numOfEntries[i] > 0) {
           numOfEntries[i] -= 1;
-          //TODO
           terms[i] = kryo.readObject(inputs[i], String.class);
-//          terms[i] = readers[i].readUTF();
         }
       }
 
@@ -577,12 +578,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       for (Map.Entry entry : sortedSetMultimap.entries()) {
         String term = (String) entry.getKey();
         for (int i : sortedSetMultimap.asMap().get(term)) {
-          //TODO
-          List<Integer> test = kryo.readObject(inputs[i], ArrayList.class);
-          output.get(term).addAll(test);
-
-//          output.get(term).addAll(
-//              (Collection<? extends Integer>) readers[i].readObject());
+          output.get(term).addAll(kryo.readObject(inputs[i], ArrayList.class));
           terms[i] = "";
         }
 
@@ -593,31 +589,57 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         String term = (String) entry.getKey();
         List<Integer> list = new ArrayList<Integer>(
             (java.util.Collection<? extends Integer>) entry.getValue());
-        writer.writeUTF(term);
-        writer.writeObject(list);
-        writer.flush();
-        writer.reset();
-      }
 
+        currentSize += list.size();
+        bufferMap.get(term).addAll(list);
+
+        if (!hasFirstTerm) {
+          firstTermOfPartialFile = term;
+          hasFirstTerm = true;
+        }
+
+        if (currentSize > Util.SIZE_PER_MAP_INTEGER) {
+          partialFileCount++;
+          currentSize = 0;
+          hasFirstTerm = false;
+
+          String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
+          partialMergerFileOffset.add(firstTermOfPartialFile);
+          partialMergerFileOffset.add(fileName);
+          String indexPartialMergedFile = _options._indexPrefix + fileName;
+          ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
+              indexPartialMergedFile)));
+
+          writer.writeObject(bufferMap);
+          writer.flush();
+          writer.reset();
+          writer.close();
+          bufferMap.clear();
+        }
+      }
       output.clear();
-
-      countSSS++;
-
-      if (countSSS == 100000) {
-        int debug = 0;
-        System.out.printf("YOYOYO\n");
-        countSSS = 0;
-      }
     }
 
-    // TODO: flush...
+    partialFileCount++;
+    String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
+    partialMergerFileOffset.add(firstTermOfPartialFile);
+    partialMergerFileOffset.add(fileName);
+    String indexPartialMergedFile = _options._indexPrefix + fileName;
+    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
+        indexPartialMergedFile)));
+
+    writer.writeObject(bufferMap);
+    writer.flush();
+    writer.reset();
     writer.close();
+    bufferMap.clear();
 
-    for (File f : folder.listFiles()) {
-      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
-        f.delete();
-      }
-    }
+    // clean up
+//    for (File f : folder.listFiles()) {
+//      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+//        f.delete();
+//      }
+//    }
   }
 
   private boolean hasEntries(int[] numOfEntries) {
@@ -629,9 +651,38 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     return false;
   }
 
-  private void updateInvertedIndex(Vector<String> tokens){
-    for (String token : tokens){
+  private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
+    File folder = new File(_options._indexPrefix);
+    File[] files = folder.listFiles();
 
+    // Clean if not enough memory...
+    if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
+      invertedIndex.clear();
+    }
+
+    for (String term : query) {
+      if (invertedIndex.containsKey(term)) {
+        continue;
+      }
+
+      int index = 0;
+      for (int i = 1; i < partialMergerFileOffset.size() / 2; i++) {
+        if (term.compareTo(partialMergerFileOffset.get(i * 2)) >= 0) {
+          index = 2 * i;
+        } else {
+          break;
+        }
+      }
+
+      String indexFile = _options._indexPrefix + "/" + partialMergerFileOffset.get(index + 1);
+      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
+      Multimap<String, Integer> tmpPartialIndex = (Multimap<String, Integer>) reader.readObject();
+      for (String s : query) {
+        if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
+          invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
+        }
+      }
+      tmpPartialIndex.clear();
     }
   }
 }
