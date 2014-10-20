@@ -2,7 +2,7 @@ package edu.nyu.cs.cs2580;
 
 /**
  * Document with score.
- * 
+ *
  * @author fdiaz
  * @author congyu
  */
@@ -36,5 +36,13 @@ class ScoredDocument implements Comparable<ScoredDocument> {
       return 0;
     }
     return (this._score > o._score) ? 1 : -1;
+  }
+
+  public double getScore() {
+    return _score;
+  }
+
+  public void setScore(double score) {
+    this._score = score;
   }
 }

@@ -1,15 +1,16 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Scanner;
+import java.io.StringReader;
+import java.util.HashSet;
 import java.util.Vector;
 
 /**
  * Representation of a user query.
- * 
+ * <p/>
  * In HW1: instructors provide this simple implementation.
- * 
+ * <p/>
  * In HW2: students must implement {@link QueryPhrase} to handle phrases.
- * 
+ *
  * @author congyu
  * @auhtor fdiaz
  */
@@ -25,10 +26,18 @@ public class Query {
     if (_query == null) {
       return;
     }
-    Scanner s = new Scanner(_query);
-    while (s.hasNext()) {
-      _tokens.add(s.next());
+    Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
+    HashSet<String> tokenSet = new HashSet<String>();
+    while (tokenizer.hasNext()) {
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      term = Tokenizer.stopwordFilter(term);
+      if (term != null) {
+        term = Tokenizer.krovetzStemmerFilter(term);
+        tokenSet.add(term);
+      }
     }
-    s.close();
+    for (String term : tokenSet) {
+      _tokens.add(term);
+    }
   }
 }

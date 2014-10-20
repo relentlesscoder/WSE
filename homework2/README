@@ -1,1 +1,43 @@
-https://www.dropbox.com/sh/v3kxmiw2y3uewpf/AADzyFomBQ_BuaHRovdKXAvCa?dl=0
+Group ID G06: yl1949, ws951, sy1288
+
+---------------
+Compile and Run
+---------------
+
+1. Shell Script:
+
+In our script, we already set the JVM max runtime memory as 512M,
+if you want to change the limit, feel free to edit the file.
+
+Construct index:  $ chmod u+x SearchEngine.sh
+		  $ ./SearchEngine.sh ./SearchEngine.sh \
+                    -—mode=index --options=conf/engine.conf
+ 
+
+Serving:  	  $ ./SearchEngine.sh
+                    \--mode=serve --port=[port] --options=conf/engine.conf
+		    
+
+2. Manual:
+
+We used several external library, So, whenever compile the files, 
+constructing index or serving, the path to the library’s files need to 
+be include in classpath.  
+
+example:  homework2$ mkdir ./bin
+		   $ cp -r ./lib ./bin
+		   $ export CLASSPATH=./bin:./bin/lib/*
+		   $  javac -d ./bin  ./src/edu/nyu/cs/cs2580/*/*.java \
+                     ./src/edu/nyu/cs/cs2580/*.java -nowarn
+		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
+		     --mode=index --options=conf/engine.conf
+		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
+		     --mode=serve --port=25806 --options=conf/engine.conf
+
+---------------
+Text Processing
+---------------
+1. Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
+2. Using Apache Lucene KStmmer Java Library for text stemming with validation, all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer". 
+3. Using JSoup for HTML extracting.
+2. Using JFlex for text analysis. All regular expressions are based on Word Boundaries defined on http://www.unicode.org/reports/tr29/.  

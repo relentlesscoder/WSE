@@ -20,74 +20,7 @@ import java.util.Vector;
  */
 class QueryHandler implements HttpHandler {
 
-  /**
-   * CGI arguments provided by the user through the URL. This will determine
-   * which Ranker to use and what output format to adopt. For simplicity, all
-   * arguments are publicly accessible.
-   */
-  public static class CgiArguments {
-    // The raw user query
-    public String _query = "";
-    // How many results to return
-    private int _numResults = 10;
-
-    // The type of the ranker we will be using.
-    public enum RankerType {
-      NONE,
-      FULLSCAN,
-      CONJUNCTIVE,
-      FAVORITE,
-      COSINE,
-      PHRASE,
-      QL,
-      LINEAR,
-    }
-
-    public RankerType _rankerType = RankerType.NONE;
-
-    // The output format.
-    public enum OutputFormat {
-      TEXT,
-      HTML,
-    }
-
-    public OutputFormat _outputFormat = OutputFormat.TEXT;
-
-    public CgiArguments(String uriQuery) {
-      String[] params = uriQuery.split("&");
-      for (String param : params) {
-        String[] keyval = param.split("=", 2);
-        if (keyval.length < 2) {
-          continue;
-        }
-        String key = keyval[0].toLowerCase();
-        String val = keyval[1];
-        if (key.equals("query")) {
-          _query = val;
-        } else if (key.equals("num")) {
-          try {
-            _numResults = Integer.parseInt(val);
-          } catch (NumberFormatException e) {
-            // Ignored, search engine should never fail upon invalid user input.
-          }
-        } else if (key.equals("ranker")) {
-          try {
-            _rankerType = RankerType.valueOf(val.toUpperCase());
-          } catch (IllegalArgumentException e) {
-            // Ignored, search engine should never fail upon invalid user input.
-          }
-        } else if (key.equals("format")) {
-          try {
-            _outputFormat = OutputFormat.valueOf(val.toUpperCase());
-          } catch (IllegalArgumentException e) {
-            // Ignored, search engine should never fail upon invalid user input.
-          }
-        }
-      }  // End of iterating over params
-    }
-  }
-
-  // For accessing the underlying documents to be used by the Ranker. Since 
+  // For accessing the underlying documents to be used by the Ranker. Since
   // we are not worried about thread-safety here, the Indexer class must take
   // care of thread-safety.
   private Indexer _indexer;
@@ -106,8 +39,8 @@ class QueryHandler implements HttpHandler {
     responseBody.close();
   }
 
-  private void constructTextOutput(
-      final Vector<ScoredDocument> docs, StringBuffer response) {
+  private void constructTextOutput(final Vector<ScoredDocument> docs,
+                                   StringBuffer response) {
     for (ScoredDocument doc : docs) {
       response.append(response.length() > 0 ? "\n" : "");
       response.append(doc.asTextResult());
@@ -147,20 +80,29 @@ class QueryHandler implements HttpHandler {
     }
 
     // Create the ranker.
-    Ranker ranker = Ranker.Factory.getRankerByArguments(
-        cgiArgs, SearchEngine.OPTIONS, _indexer);
+    Ranker ranker = Ranker.Factory.getRankerByArguments(cgiArgs,
+        SearchEngine.OPTIONS, _indexer);
     if (ranker == null) {
-      respondWithMsg(exchange,
-          "Ranker " + cgiArgs._rankerType.toString() + " is not valid!");
+      respondWithMsg(exchange, "Ranker " + cgiArgs._rankerType.toString()
+          + " is not valid!");
     }
 
     // Processing the query.
-    Query processedQuery = new Query(cgiArgs._query);
+    Query processedQuery;
+    if (cgiArgs._query.matches(".*(\".+\").*")) {
+      processedQuery = new QueryPhrase(cgiArgs._query);
+    } else {
+      processedQuery = new Query(cgiArgs._query);
+    }
     processedQuery.processQuery();
 
+    if (processedQuery._tokens == null || processedQuery._tokens.size() <= 0) {
+      respondWithMsg(exchange, "Invalid query text!");
+    }
+
     // Ranking.
-    Vector<ScoredDocument> scoredDocs =
-        ranker.runQuery(processedQuery, cgiArgs._numResults);
+    Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery,
+        cgiArgs._numResults);
     StringBuffer response = new StringBuffer();
     switch (cgiArgs._outputFormat) {
       case TEXT:
@@ -175,5 +117,61 @@ class QueryHandler implements HttpHandler {
     respondWithMsg(exchange, response.toString());
     System.out.println("Finished query: " + cgiArgs._query);
   }
-}
 
+  /**
+   * CGI arguments provided by the user through the URL. This will determine
+   * which Ranker to use and what output format to adopt. For simplicity, all
+   * arguments are publicly accessible.
+   */
+  public static class CgiArguments {
+    // The raw user query
+    public String _query = "";
+    public RankerType _rankerType = RankerType.NONE;
+    public OutputFormat _outputFormat = OutputFormat.TEXT;
+    // How many results to return
+    private int _numResults = 20;
+
+    public CgiArguments(String uriQuery) {
+      String[] params = uriQuery.split("&");
+      for (String param : params) {
+        String[] keyval = param.split("=", 2);
+        if (keyval.length < 2) {
+          continue;
+        }
+        String key = keyval[0].toLowerCase();
+        String val = keyval[1];
+        if (key.equals("query")) {
+          _query = val;
+        } else if (key.equals("num")) {
+          try {
+            _numResults = Integer.parseInt(val);
+          } catch (NumberFormatException e) {
+            // Ignored, search engine should never fail upon invalid user input.
+          }
+        } else if (key.equals("ranker")) {
+          try {
+            _rankerType = RankerType.valueOf(val.toUpperCase());
+          } catch (IllegalArgumentException e) {
+            // Ignored, search engine should never fail upon invalid user input.
+          }
+        } else if (key.equals("format")) {
+          try {
+            _outputFormat = OutputFormat.valueOf(val.toUpperCase());
+          } catch (IllegalArgumentException e) {
+            // Ignored, search engine should never fail upon invalid user input.
+          }
+        }
+      } // End of iterating over params
+    }
+
+    // The type of the ranker we will be using.
+    public enum RankerType {
+      NONE, FULLSCAN, CONJUNCTIVE, FAVORITE, COSINE, PHRASE, QL, LINEAR,
+    }
+
+    // The output format.
+    public enum OutputFormat {
+      TEXT, HTML,
+    }
+  }
+}

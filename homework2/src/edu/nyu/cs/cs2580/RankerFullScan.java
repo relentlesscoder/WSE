@@ -1,28 +1,28 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.Collections;
-import java.util.Vector;
-
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.util.Collections;
+import java.util.Vector;
 
 /**
  * This Ranker makes a full scan over all the documents in the index. It is the
  * instructors' implementation of the Ranker in HW1.
- * 
+ *
  * @author fdiaz
  * @author congyu
  */
 class RankerFullScan extends Ranker {
 
   public RankerFullScan(Options options,
-      CgiArguments arguments, Indexer indexer) {
+                        CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
 
   @Override
-  public Vector<ScoredDocument> runQuery(Query query, int numResults) {    
+  public Vector<ScoredDocument> runQuery(Query query, int numResults) {
     Vector<ScoredDocument> all = new Vector<ScoredDocument>();
     for (int i = 0; i < _indexer.numDocs(); ++i) {
       all.add(scoreDocument(query, i));

@@ -23,24 +23,24 @@ public class DocumentFull extends Document {
     _indexer = indexer;
   }
 
-  public void setTitleTokens(Vector<Integer> titleTokens) {
-    _titleTokens = titleTokens;
-  }
-
   public Vector<Integer> getTitleTokens() {
     return _titleTokens;
+  }
+
+  public void setTitleTokens(Vector<Integer> titleTokens) {
+    _titleTokens = titleTokens;
   }
 
   public Vector<String> getConvertedTitleTokens() {
     return _indexer.getTermVector(_titleTokens);
   }
 
-  public void setBodyTokens(Vector<Integer> bodyTokens) {
-    _bodyTokens = bodyTokens;
-  }
-
   public Vector<Integer> getBodyTokens() {
     return _bodyTokens;
+  }
+
+  public void setBodyTokens(Vector<Integer> bodyTokens) {
+    _bodyTokens = bodyTokens;
   }
 
   public Vector<String> getConvertedBodyTokens() {
