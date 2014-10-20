@@ -27,7 +27,7 @@ Compile and Run
        homework2$ mkdir ./bin
        $ cp -r ./lib ./bin
        $ export CLASSPATH=./bin:./bin/lib/*
-       $ javac -d ./bin  ./src/edu/nyu/cs/cs2580/*/*.java ./src/edu/nyu/cs/cs2580/*.java -nowarn
+       $ javac -d ./bin ./src/edu/nyu/cs/cs2580/*/*.java ./src/edu/nyu/cs/cs2580/*.java -nowarn
        $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
        $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
     </code></pre>
