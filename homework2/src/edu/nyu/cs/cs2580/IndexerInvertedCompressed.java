@@ -16,7 +16,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
-  private static final int K = 5;
+  private static final int K = 2;
   /**
    * ***********************************************************************
    * {@code lastDocid} is temporary and will be cleared once the index is
@@ -1073,7 +1073,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           hasFirstTerm = true;
         }
 
-        if (currentSize > Util.SIZE_PER_MAP_Byte) {
+        if (currentSize > Util.SIZE_PER_FILE_MAP_Byte) {
           partialFileCount++;
           currentSize = 0;
           hasFirstTerm = false;
@@ -1178,13 +1178,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       String indexFile = _options._indexPrefix + "/" + partialMergerFileOffset.get(index + 1);
       ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
       Multimap<String, Byte> tmpPartialIndex = (Multimap<String, Byte>) reader.readObject();
-      for (String s : query) {
-        if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
-          // Load!
-          invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
-          count++;
-        }
-      }
+
+      // Load!
+      invertedIndex.get(term).addAll(tmpPartialIndex.get(term));
+      count++;
+
       tmpPartialIndex.clear();
     }
 
