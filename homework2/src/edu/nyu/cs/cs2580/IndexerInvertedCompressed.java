@@ -16,7 +16,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
-  private static final int K = 5;
+  private static final int K = 2;
   /**
    * ***********************************************************************
    * {@code lastDocid} is temporary and will be cleared once the index is
