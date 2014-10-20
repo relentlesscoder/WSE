@@ -10,8 +10,8 @@ import java.util.*;
 public class Util {
   private static final long SIZE_PER_FILE_INTEGER = 8000000;
   private static final long SIZE_PER_FILE_Byte = 8000000;
-  protected static final long SIZE_PER_MAP_INTEGER = 3000000;
-  protected static final long SIZE_PER_MAP_Byte = 600000;
+  protected static final long SIZE_PER_MAP_INTEGER = 800000;
+  protected static final long SIZE_PER_MAP_Byte = 800000;
   protected static final long MAX_INVERTED_INDEX_SIZE = 10000000;
 
   public static String convertMillis(long timeStamp) {

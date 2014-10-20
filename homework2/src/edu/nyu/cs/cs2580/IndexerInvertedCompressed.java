@@ -95,11 +95,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
 
-//      if (Util.hasReachThresholdCompress(invertedIndex)) {
-//        // Memory not enough, write to file first...
-//        Util.writePartialInvertedIndexCompress(invertedIndex, _options, ++fileCount);
-//        invertedIndex.clear();
-//      }
+      if (Util.hasReachThresholdCompress(invertedIndex)) {
+        // Memory not enough, write to file first...
+        Util.writePartialInvertedIndexCompress(invertedIndex, _options, ++fileCount);
+        invertedIndex.clear();
+      }
     }
 
 //    Write the rest...
