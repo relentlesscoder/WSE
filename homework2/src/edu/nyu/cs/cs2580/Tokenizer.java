@@ -83,17 +83,39 @@ public class Tokenizer {
    * @return Stemmed text
    */
   public static String krovetzStemmerFilter(String input) {
+    if (input == null || input.isEmpty()) {
+      return null;
+    }
     KStemmer kStemmer = new KStemmer();
     return kStemmer.stem(input);
   }
 
   public static String lowercaseFilter(String input) {
-    return (input != null && !input.isEmpty()) ? input.toLowerCase() : "";
+    if (input == null || input.isEmpty()) {
+      return null;
+    }
+    return (input != null && !input.isEmpty()) ? input.toLowerCase() : null;
   }
 
   public static String stopwordFilter(String input) {
+    if (input == null || input.isEmpty()) {
+      return null;
+    }
     if (STOP_WORDS_SET.contains(input)) {
       return null;
+    }
+    return input;
+  }
+
+  public static String stripSingleCharacterFilter(String input) {
+    if (input == null || input.isEmpty()) {
+      return null;
+    }
+    if (input.length() == 1) {
+      char c = input.charAt(0);
+      if ((c >= 'b' && c <= 'z')) {
+        return null;
+      }
     }
     return input;
   }
