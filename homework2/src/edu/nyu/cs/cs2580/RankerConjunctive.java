@@ -106,22 +106,28 @@ public class RankerConjunctive extends Ranker {
             continue findDoc;
           }
           while (pos != -1){
-            score += 10.0;
+            score += 5.0;
             pos = nextPhrase(tokens, doc._docid, pos);
           }
         }
-      }
 
-      for(String term : query._tokens){
-        int termDocFrequency = documentTermFrequency(term, doc.getUrl());
-        score += 1.0*(double)termDocFrequency;
+        for(String soloToken : queryPhrase.soloTokens){
+          int termDocFrequency = documentTermFrequency(soloToken, doc.getUrl());
+          score += 1.0*(double)termDocFrequency;
+        }
+
+      }else if (queryType.equals("Query")){
+        for(String term : query._tokens){
+          int termDocFrequency = documentTermFrequency(term, doc.getUrl());
+          score += 1.0*(double)termDocFrequency;
+        }
       }
 
       System.out.println(doc._docid+" "+score);
 
-      if (doc._docid == 165){
-        int x =11;
-      }
+//      if (doc._docid == 165){
+//        int x =11;
+//      }
 
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {

@@ -260,7 +260,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 //    }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
-        + "with " + Long.toString(_totalTermFrequency) + " terms!");
+            + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
 
   @Override
