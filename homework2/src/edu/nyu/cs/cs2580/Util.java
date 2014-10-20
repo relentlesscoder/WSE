@@ -13,8 +13,8 @@ import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class Util {
-  protected static final long SIZE_PER_MAP_INTEGER = 500000;
-  protected static final long SIZE_PER_MAP_Byte = 500000;
+  protected static final long SIZE_PER_FILE_MAP_INTEGER = 250000;
+  protected static final long SIZE_PER_FILE_MAP_Byte = 250000;
   protected static final long MAX_INVERTED_INDEX_SIZE = 10000000;
   private static final long SIZE_PER_FILE_INTEGER = 6000000;
   private static final long SIZE_PER_FILE_Byte = 6000000;
