@@ -86,8 +86,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     System.out.println("Start storing...");
 
     // Serialize the inverted index into multiple files first
-    Util.serializeInvertedIndex(invertedIndex, _options);
-    invertedIndex.clear();
+//    Util.serializeInvertedIndex(invertedIndex, _options);
+//    invertedIndex.clear();
 
     // Serialize the whole object :)
     String indexFile = _options._indexPrefix + "/corpus.idx";
@@ -208,7 +208,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
     for (File file : files) {
       if (!file.getName().equals("corpus.idx")) {
-        this.invertedIndex.putAll(Util.deserializeInvertedIndex(file));
+//        this.invertedIndex.putAll(Util.deserializeInvertedIndex(file));
       }
     }
 

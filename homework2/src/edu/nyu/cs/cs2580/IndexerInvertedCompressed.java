@@ -2,14 +2,7 @@ package edu.nyu.cs.cs2580;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
-import java.io.StringReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
@@ -17,6 +10,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.io.Input;
 import org.jsoup.Jsoup;
 
 import com.google.common.collect.ArrayListMultimap;
@@ -54,6 +49,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
   private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
+  // Key: first term
+  // value: file name
+  private Map<String, String> partialMergedFileMap = new HashMap<String, String>();
+
   /**
    * ***********************************************************************
    * {@code lastDocid} is temporary and will be cleared once the index is
@@ -66,7 +65,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // This is used to construct the index and will be cleared after the process.
   Map<String, Integer> lastDocid = new HashMap<String, Integer>();
   Map<String, Integer> lastPostingListSize = new HashMap<String, Integer>();
-
   Map<String, Integer> lastSkipPointerOffset = new HashMap<String, Integer>();
 
   // Provided for serialization
@@ -83,6 +81,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
     ProgressBar progressBar = new ProgressBar();
+    int fileCount = 0;
     long startTimeStamp, duration;
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
@@ -97,7 +96,17 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
       processDocument(files[docid], docid);
+
+//      if (Util.hasReachThresholdCompress(invertedIndex)) {
+//        // Memory not enough, write to file first...
+//        Util.writePartialInvertedIndexCompress(invertedIndex, _options, ++fileCount);
+//        invertedIndex.clear();
+//      }
     }
+
+//    Write the rest...
+    Util.writePartialInvertedIndexCompress(invertedIndex, _options, ++fileCount);
+    invertedIndex.clear();
 
     // Get the number of documents
     numDocs = documents.size();
@@ -116,28 +125,40 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         + Long.toString(_totalTermFrequency) + " terms.");
 
     /**************************************************************************
+     * Merging....
+     *************************************************************************/
+    startTimeStamp = System.currentTimeMillis();
+    System.out.println("merging");
+
+    try {
+      merge();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    }
+    duration = System.currentTimeMillis() - startTimeStamp;
+
+    System.out.println("Complete merging...");
+    System.out.println("Merging time: " + Util.convertMillis(duration));
+
+    /**************************************************************************
      * Start serialize
      *************************************************************************/
-    // startTimeStamp = System.currentTimeMillis();
-    //
-    // System.out.println("Start storing...");
-    //
-    // // Serialize the inverted index into multiple files first
-    // Util.serializeCompressedInvertedIndex(invertedIndex, _options);
-    // invertedIndex.clear();
-    //
-    // // Serialize the whole object :)
-    // String indexFile = _options._indexPrefix + "/corpus.idx";
-    // System.out.println("Storing index to: " + _options._indexPrefix);
-    // ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-    // indexFile));
-    // writer.writeObject(this);
-    // writer.close();
-    //
-    // duration = System.currentTimeMillis() - startTimeStamp;
-    // System.out.println("Mission completed :)");
-    // System.out.println("Serialization time: " +
-    // Util.convertMillis(duration));
+    startTimeStamp = System.currentTimeMillis();
+
+    System.out.println("Start storing...");
+
+    // Serialize the whole object :)
+    String indexFile = _options._indexPrefix + "/corpus.idx";
+    System.out.println("Storing index to: " + _options._indexPrefix);
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+    indexFile));
+    writer.writeObject(this);
+    writer.close();
+
+    duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Mission completed :)");
+    System.out.println("Serialization time: " +
+    Util.convertMillis(duration));
   }
 
   /**
@@ -194,81 +215,63 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
       term = Tokenizer.krovetzStemmerFilter(term);
+      String test = term;
       term = Tokenizer.stripSingleCharacterFilter(term);
 
-      if (term != null) {
-        // Populate the temporary inverted index.
-        if (tmpInvertedIndex.containsKey(term)) {
-          // The term has already been seen at least once in the document.
-          int occurs = tmpInvertedIndex.get(term).get(1);
-          // Update the occurrence
-          tmpInvertedIndex.get(term).set(1, occurs + 1);
-          // Add the position of this term
-          tmpInvertedIndex.get(term).add(position);
-        } else {
-          // This is the first time the term has been seen in the document
-          if (lastDocid.containsKey(term)) {
-            // The inverted index has already seen the term in previous
-            // documents
-
-            // Get the last/previous docid of the term's posting list
-            int prevDocid = lastDocid.get(term);
-            int deltaDocid = docid - prevDocid;
-            tmpInvertedIndex.get(term).add(deltaDocid);
-
-            if ((lastPostingListSize.get(term) - lastSkipPointerOffset
-                .get(term)) / (K * 100) > 0) {
-              skipPointers.get(term).addAll(vByteEncoding(prevDocid));
-              skipPointers.get(term).addAll(
-                  vByteEncoding(lastPostingListSize.get(term)));
-
-              lastSkipPointerOffset.put(term, lastPostingListSize.get(term));
-            }
-          } else {
-            // This is the first time the term has been seen in the document
-            if (invertedIndex.containsKey(term)) {
-              // The inverted index has already seen the term in previous
-              // documents
-
-              // Get the last/previous docid of the term's posting list
-              int prevDocid = lastDocid.get(term);
-              int deltaDocid = docid - prevDocid;
-              tmpInvertedIndex.get(term).add(deltaDocid);
-
-              if (invertedIndex.get(term).size() > 0
-                  && (invertedIndex.get(term).size() - lastSkipPointerOffset
-                      .get(term)) / (K * 100) > 0) {
-                skipPointers.get(term).addAll(vByteEncoding(prevDocid));
-                skipPointers.get(term).addAll(
-                    vByteEncoding(invertedIndex.get(term).size()));
-
-                lastSkipPointerOffset.put(term, invertedIndex.get(term).size());
-              }
-            } else {
-              // The inverted index hasn't seen the term in previous documents
-
-              // No need to calculate the delta since it's the first docid of
-              // the
-              // posting list.
-              // the delta.
-              tmpInvertedIndex.get(term).add(docid);
-
-              lastSkipPointerOffset.put(term, 0);
-            }
-            tmpInvertedIndex.get(term).add(1);
-            tmpInvertedIndex.get(term).add(position);
-          }
-
-          // Update the termCorpusFrequency
-          _termCorpusFrequency.add(term);
-
-          // Update the totalTermFrequency
-          _totalTermFrequency++;
-          // Move to the next position
-          position++;
-        }
+      if (term == null) {
+        continue;
       }
 
+      // Populate the temporary inverted index.
+      if (tmpInvertedIndex.containsKey(term)) {
+        // The term has already been seen at least once in the document.
+        int occurs = tmpInvertedIndex.get(term).get(1);
+        // Update the occurrence
+        tmpInvertedIndex.get(term).set(1, occurs + 1);
+        // Add the position of this term
+        tmpInvertedIndex.get(term).add(position);
+      } else {
+        // This is the first time the term has been seen in the document
+        if (lastDocid.containsKey(term)) {
+          // The inverted index has already seen the term in previous
+          // documents
+
+          // Get the last/previous docid of the term's posting list
+          int prevDocid = lastDocid.get(term);
+          int deltaDocid = docid - prevDocid;
+          tmpInvertedIndex.get(term).add(deltaDocid);
+
+          if ((lastPostingListSize.get(term) - lastSkipPointerOffset
+              .get(term)) / (K * 100) > 0) {
+            skipPointers.get(term).addAll(vByteEncoding(prevDocid));
+            skipPointers.get(term).addAll(
+                vByteEncoding(lastPostingListSize.get(term)));
+
+            lastSkipPointerOffset.put(term, lastPostingListSize.get(term));
+          }
+        } else {
+          // The inverted index hasn't seen the term in previous documents
+
+          // No need to calculate the delta since it's the first docid of
+          // the
+          // posting list.
+          // the delta.
+          tmpInvertedIndex.get(term).add(docid);
+          lastDocid.put(term, 0);
+          lastPostingListSize.put(term, 0);
+          lastSkipPointerOffset.put(term, 0);
+        }
+        tmpInvertedIndex.get(term).add(1);
+        tmpInvertedIndex.get(term).add(position);
+      }
+
+      // Update the termCorpusFrequency
+      _termCorpusFrequency.add(term);
+
+      // Update the totalTermFrequency
+      _totalTermFrequency++;
+      // Move to the next position
+      position++;
     }
 
     /**************************************************************************
@@ -487,18 +490,28 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this.skipPointers = loaded.skipPointers;
         this._termCorpusFrequency = loaded._termCorpusFrequency;
         this.docUrlMap = loaded.docUrlMap;
+        this.partialMergedFileMap = loaded.partialMergedFileMap;
         reader.close();
 
         break;
       }
     }
 
-    for (File file : files) {
-      if (!file.getName().equals("corpus.idx")) {
-        this.invertedIndex
-            .putAll(Util.deserializeCompressedInvertedIndex(file));
-      }
-    }
+//    for (File file : files) {
+//      if (file.getName().equals("corpus_merged.idx")) {
+//        String indexFile = _options._indexPrefix + "/corpus_merged.idx";
+//        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
+//        while (true) {
+//          try {
+//            String term = reader.readUTF();
+//            List<Byte> postingList = (List<Byte>) reader.readObject();
+//            this.invertedIndex.get(term).addAll(postingList);
+//          } catch (Exception ignore) {
+//            break;
+//          }
+//        }
+//      }
+//    }
 
     System.out.println(Integer.toString(numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
@@ -513,6 +526,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
+
+    //TODO
+    try {
+      dynamicLoading(queryTerms);
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    }
 
     // Get the next docid which satisfies the query terms
     int nextDocid = nextCandidateDocid(queryTerms, docid);
@@ -1022,10 +1044,18 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     return docTermFrequency;
   }
 
+  /**
+   *
+   * @throws IOException
+   * @throws ClassNotFoundException
+   */
   private void merge() throws IOException, ClassNotFoundException {
-    String indexMergedFile = _options._indexPrefix + "/corpus_merged.idx";
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-        indexMergedFile));
+    Multimap<String, Byte> bufferMap = ArrayListMultimap.create();
+    String firstTermOfPartialFile = "";
+    boolean hasFirstTerm = false;
+    long currentSize = 0;
+    int partialFileCount = 0;
+
     File folder = new File(_options._indexPrefix);
 
     int numOfIndex = 0;
@@ -1038,33 +1068,32 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     File[] files = new File[numOfIndex];
     int[] numOfEntries = new int[numOfIndex];
     String[] terms = new String[numOfIndex];
-    // List<List<Integer>> postingLists = new ArrayList<List<Integer>>();
-    ObjectInputStream[] readers = new ObjectInputStream[numOfIndex];
+
+    Kryo kryo = new Kryo();
+    Input[] inputs = new Input[numOfIndex];
 
     for (int i = 0; i < numOfIndex; i++) {
       for (File file : folder.listFiles()) {
         if (file.getName().matches(
             "^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
           files[i] = file;
+          inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
+          break;
         }
       }
     }
 
     // Initialize...
     for (int i = 0; i < numOfIndex; i++) {
-      readers[i] = new ObjectInputStream(new FileInputStream(
-          files[i].getAbsolutePath()));
-      numOfEntries[i] = readers[i].readInt();
-      List<Integer> l = new ArrayList<Integer>();
+      numOfEntries[i] = kryo.readObject(inputs[i], Integer.class);
       terms[i] = "";
     }
 
-    int countSSS = 0;
     while (hasEntries(numOfEntries)) {
       for (int i = 0; i < numOfIndex; i++) {
         if (terms[i].equals("") && numOfEntries[i] > 0) {
           numOfEntries[i] -= 1;
-          terms[i] = readers[i].readUTF();
+          terms[i] = kryo.readObject(inputs[i], String.class);
         }
       }
 
@@ -1080,8 +1109,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       for (Map.Entry entry : sortedSetMultimap.entries()) {
         String term = (String) entry.getKey();
         for (int i : sortedSetMultimap.asMap().get(term)) {
-          output.get(term).addAll(
-              (Collection<? extends Byte>) readers[i].readObject());
+          output.get(term).addAll(kryo.readObject(inputs[i], ArrayList.class));
           terms[i] = "";
         }
 
@@ -1092,23 +1120,55 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         String term = (String) entry.getKey();
         List<Byte> list = new ArrayList<Byte>(
             (java.util.Collection<? extends Byte>) entry.getValue());
-        writer.writeUTF(term);
-        writer.writeObject(list);
-        writer.flush();
-        writer.reset();
-      }
 
+        currentSize += list.size();
+        bufferMap.get(term).addAll(list);
+
+        if (!hasFirstTerm) {
+          firstTermOfPartialFile = term;
+          hasFirstTerm = true;
+        }
+
+        if (currentSize > Util.SIZE_PER_MAP_Byte) {
+          partialFileCount++;
+          currentSize = 0;
+          hasFirstTerm = false;
+
+          String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
+          partialMergedFileMap.put(firstTermOfPartialFile, fileName);
+          String indexPartialMergedFile = _options._indexPrefix + fileName;
+          ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
+              indexPartialMergedFile)));
+
+          writer.writeObject(bufferMap);
+          writer.flush();
+          writer.reset();
+          writer.close();
+          bufferMap.clear();
+        }
+      }
       output.clear();
-
-      countSSS++;
-
-      if (countSSS == 100000) {
-        int debug = 0;
-      }
     }
 
-    // TODO: flush...
+    partialFileCount++;
+    String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
+    partialMergedFileMap.put(firstTermOfPartialFile, fileName);
+    String indexPartialMergedFile = _options._indexPrefix + fileName;
+    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
+        indexPartialMergedFile)));
+
+    writer.writeObject(bufferMap);
+    writer.flush();
+    writer.reset();
     writer.close();
+    bufferMap.clear();
+
+    // clean up
+//    for (File f : folder.listFiles()) {
+//      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+//        f.delete();
+//      }
+//    }
   }
 
   private boolean hasEntries(int[] numOfEntries) {
@@ -1118,5 +1178,40 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
     return false;
+  }
+
+  private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
+    File folder = new File(_options._indexPrefix);
+    File[] files = folder.listFiles();
+
+    // Clean if no memory...
+    if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
+      invertedIndex.clear();
+    }
+
+    List<String> partialMergedFileFirstTerms = new ArrayList<String>();
+    for (String s : partialMergedFileMap.keySet()) {
+      partialMergedFileFirstTerms.add(s);
+    }
+
+    for (String term : query) {
+      // The query is too long....
+      if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
+        continue;
+      }
+
+      int index = 0;
+      for (int i = 1; i < partialMergedFileFirstTerms.size(); i++) {
+        if (term.compareTo(partialMergedFileFirstTerms.get(i)) >= 0) {
+          index = 1;
+        } else {
+          break;
+        }
+      }
+
+      String indexFile = _options._indexPrefix + "/" + partialMergedFileMap.get(partialMergedFileFirstTerms.get(index));
+      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
+      invertedIndex.putAll((Multimap<? extends String, ? extends Byte>) reader.readObject());
+    }
   }
 }
