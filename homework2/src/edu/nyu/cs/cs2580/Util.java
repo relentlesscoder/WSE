@@ -1,13 +1,16 @@
 package edu.nyu.cs.cs2580;
 
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.ListMultimap;
-import com.google.common.collect.Multimap;
+import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.io.Output;
+import com.google.common.collect.*;
 
 import java.io.*;
+import java.util.*;
 
 public class Util {
-  private static final long SIZE_PER_FILE = 10000000;
+  private static final long SIZE_PER_FILE_Integer = 8000000;
+  private static final long SIZE_PER_FILE_Byte = 3000000;
+  private static final long RESET_THRESHOLD = 1000;
 
   public static String convertMillis(long timeStamp) {
     long hours, minutes, seconds, millis;
@@ -17,6 +20,93 @@ public class Util {
     hours = (timeStamp / (1000 * 60 * 60)) % 24;
     return String.format("%02d:%02d:%02d:%03d", hours, minutes, seconds, millis);
   }
+
+  public static boolean hasReachThreshold(Multimap<String, Integer> invertedIndex) {
+    Multiset<String> multiset = invertedIndex.keys();
+    return multiset.size() > SIZE_PER_FILE_Integer;
+  }
+
+  public static boolean hasReachThresholdCompress(Multimap<String, Byte> invertedIndex) {
+    Multiset<String> multiset = invertedIndex.keys();
+    return multiset.size() > SIZE_PER_FILE_Byte;
+  }
+
+  public static void writePartialInvertedIndex(Multimap<String, Integer> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
+    String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", count) + ".idx";
+//    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(indexPartialFile)));
+
+    /////////////////////////////
+    Kryo kryo = new Kryo();
+    Output output = new Output(new FileOutputStream(indexPartialFile));
+    /////////////////////////////
+
+    SortedSet<String> sortedSet = new TreeSet<String>();
+    int resetCount = 0;
+
+    // Sort the keys alphabetically...
+    sortedSet.addAll(invertedIndex.keySet());
+
+    // Record the number of objects first...
+    int numOfEntries = sortedSet.size();
+//    writer.writeInt(numOfEntries);
+    kryo.writeObject(output, numOfEntries);
+
+
+
+    // Write the entries one by one...
+    for (String term : sortedSet) {
+      List<Integer> list = new ArrayList<Integer>(invertedIndex.get(term));
+      ////////////////////
+      kryo.writeObject(output, new String(term));
+      kryo.writeObject(output, list);
+      ////////////////////
+//      writer.writeUTF(term);
+//      writer.writeObject(list);
+      resetCount++;
+      if (resetCount > RESET_THRESHOLD) {
+//        writer.reset();
+//        writer.flush();
+        resetCount = 0;
+      }
+    }
+    ////////////////////
+    output.close();
+    ////////////////////
+//    writer.close();
+  }
+
+  public static void writePartialInvertedIndexCompress(Multimap<String, Byte> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
+    String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", count) + ".idx";
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexPartialFile));
+    SortedSetMultimap<String, Byte> sortedSetMultimap = TreeMultimap.create(Ordering.natural(), Ordering.arbitrary());
+
+    // Sort the keys alphabetically...
+    sortedSetMultimap.putAll(invertedIndex);
+    invertedIndex.clear();
+
+    // Record the number of objects first...
+    int numOfEntries = sortedSetMultimap.keySet().size();
+    writer.writeInt(numOfEntries);
+
+    // Write the entries one by one...
+    for (Map.Entry entry : sortedSetMultimap.asMap().entrySet()) {
+      String term = (String) entry.getKey();
+      List<Byte> list = new ArrayList<Byte>((java.util.Collection<? extends Byte>) entry.getValue());
+      writer.writeUTF(term);
+      writer.writeObject(list);
+      writer.reset();
+      writer.flush();
+    }
+
+    writer.close();
+  }
+
+
+
+
+
+
+
 
   public static void serializeCompressedInvertedIndex(Multimap<String, Byte> invertedIndex, SearchEngine.Options _options) throws IOException {
     ListMultimap<String, Byte> invertedIndexBuffer = ArrayListMultimap.create();
@@ -33,7 +123,7 @@ public class Util {
     for (String term : invertedIndex.keySet()) {
       invertedIndexBuffer.get(term).addAll(invertedIndex.get(term));
       sizeCount += invertedIndex.get(term).size();
-      if (sizeCount > SIZE_PER_FILE) {
+      if (sizeCount > SIZE_PER_FILE_Integer) {
         indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", fileCount) + ".idx";
         writeCompressedObject(invertedIndexBuffer, indexPartialFile);
         invertedIndexBuffer.clear();
@@ -61,9 +151,15 @@ public class Util {
     for (String term : invertedIndex.keySet()) {
       invertedIndexBuffer.get(term).addAll(invertedIndex.get(term));
       sizeCount += invertedIndex.get(term).size();
-      if (sizeCount > SIZE_PER_FILE) {
+      if (sizeCount > SIZE_PER_FILE_Integer) {
         indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", fileCount) + ".idx";
-        writeObject(invertedIndexBuffer, indexPartialFile);
+        ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexPartialFile));
+        for (Map.Entry entry : invertedIndex.entries()) {
+          writer.writeUnshared(entry);
+          writer.reset();
+          writer.flush();
+        }
+        writer.close();
         invertedIndexBuffer.clear();
         sizeCount = 0;
         fileCount++;
@@ -71,20 +167,14 @@ public class Util {
     }
 
     indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", fileCount) + ".idx";
-    writeObject(invertedIndexBuffer, indexPartialFile);
-  }
-
-
-  private static void writeCompressedObject(ListMultimap<String, Byte> invertedIndexBuffer, String indexPartialFile) throws IOException {
-    System.out.println("Storing partial index to: " + indexPartialFile);
     ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexPartialFile));
-    writer.writeUnshared(invertedIndexBuffer);
-    writer.reset();
-    writer.flush();
+    for (Map.Entry entry : invertedIndex.entries()) {
+      writer.writeUnshared(entry);
+    }
     writer.close();
   }
 
-  private static void writeObject(ListMultimap<String, Integer> invertedIndexBuffer, String indexPartialFile) throws IOException {
+  private static void writeCompressedObject(ListMultimap<String, Byte> invertedIndexBuffer, String indexPartialFile) throws IOException {
     System.out.println("Storing partial index to: " + indexPartialFile);
     ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexPartialFile));
     writer.writeUnshared(invertedIndexBuffer);
@@ -100,8 +190,7 @@ public class Util {
     if (file.getName().matches("^corpus[0-9]+\\.idx")) {
       System.out.println("Load partial index from: " + indexFile);
 
-      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-          indexFile));
+      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
       partialInvertedIndex = (ListMultimap<String, Byte>) reader.readUnshared();
       reader.close();
     }
@@ -116,8 +205,7 @@ public class Util {
     if (file.getName().matches("^corpus[0-9]+\\.idx")) {
       System.out.println("Load partial index from: " + indexFile);
 
-      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-          indexFile));
+      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
       partialInvertedIndex = (ListMultimap<String, Integer>) reader.readUnshared();
       reader.close();
     }

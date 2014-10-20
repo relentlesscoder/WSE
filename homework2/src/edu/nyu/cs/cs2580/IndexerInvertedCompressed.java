@@ -11,6 +11,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,7 +22,11 @@ import org.jsoup.Jsoup;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
+import com.google.common.collect.Ordering;
+import com.google.common.collect.SortedSetMultimap;
+import com.google.common.collect.TreeMultimap;
 
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
@@ -60,6 +65,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Key is the term and value is the last/previous docid of the posting list.
   // This is used to construct the index and will be cleared after the process.
   Map<String, Integer> lastDocid = new HashMap<String, Integer>();
+  Map<String, Integer> lastPostingListSize = new HashMap<String, Integer>();
 
   Map<String, Integer> lastSkipPointerOffset = new HashMap<String, Integer>();
 
@@ -96,9 +102,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Get the number of documents
     numDocs = documents.size();
 
-    // Clear the {@code lastDocid} and {@code lastSkipPointerOffset} since it's no longer needed...
+    // Clear the {@code lastDocid} and {@code lastSkipPointerOffset} since it's
+    // no longer needed...
     lastDocid.clear();
     lastSkipPointerOffset.clear();
+    lastPostingListSize.clear();
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
@@ -110,25 +118,26 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     /**************************************************************************
      * Start serialize
      *************************************************************************/
-    startTimeStamp = System.currentTimeMillis();
-
-    System.out.println("Start storing...");
-
-    // Serialize the inverted index into multiple files first
-    Util.serializeCompressedInvertedIndex(invertedIndex, _options);
-    invertedIndex.clear();
-
-    // Serialize the whole object :)
-    String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Storing index to: " + _options._indexPrefix);
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-        indexFile));
-    writer.writeObject(this);
-    writer.close();
-
-    duration = System.currentTimeMillis() - startTimeStamp;
-    System.out.println("Mission completed :)");
-    System.out.println("Serialization time: " + Util.convertMillis(duration));
+    // startTimeStamp = System.currentTimeMillis();
+    //
+    // System.out.println("Start storing...");
+    //
+    // // Serialize the inverted index into multiple files first
+    // Util.serializeCompressedInvertedIndex(invertedIndex, _options);
+    // invertedIndex.clear();
+    //
+    // // Serialize the whole object :)
+    // String indexFile = _options._indexPrefix + "/corpus.idx";
+    // System.out.println("Storing index to: " + _options._indexPrefix);
+    // ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+    // indexFile));
+    // writer.writeObject(this);
+    // writer.close();
+    //
+    // duration = System.currentTimeMillis() - startTimeStamp;
+    // System.out.println("Mission completed :)");
+    // System.out.println("Serialization time: " +
+    // Util.convertMillis(duration));
   }
 
   /**
@@ -182,56 +191,84 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      *************************************************************************/
     while (tokenizer.hasNext()) {
       // Tokenizer... Stemmer... Filter...
-      String term = Tokenizer.krovetzStemmerFilter(Tokenizer.lowercaseFilter(tokenizer.getText()));
 
-      // Populate the temporary inverted index.
-      if (tmpInvertedIndex.containsKey(term)) {
-        // The term has already been seen at least once in the document.
-        int occurs = tmpInvertedIndex.get(term).get(1);
-        // Update the occurrence
-        tmpInvertedIndex.get(term).set(1, occurs + 1);
-        // Add the position of this term
-        tmpInvertedIndex.get(term).add(position);
-      } else {
-        // This is the first time the term has been seen in the document
-        if (invertedIndex.containsKey(term)) {
-          // The inverted index has already seen the term in previous documents
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      term = Tokenizer.krovetzStemmerFilter(term);
+      term = Tokenizer.stripSingleCharacterFilter(term);
 
-          // Get the last/previous docid of the term's posting list
-          int prevDocid = lastDocid.get(term);
-          int deltaDocid = docid - prevDocid;
-          tmpInvertedIndex.get(term).add(deltaDocid);
-
-          if (invertedIndex.get(term).size() > 0
-              && (invertedIndex.get(term).size() - lastSkipPointerOffset
-                  .get(term)) / (K * 100) > 0) {
-            skipPointers.get(term).addAll(vByteEncoding(prevDocid));
-            skipPointers.get(term).addAll(
-                vByteEncoding(invertedIndex.get(term).size()));
-
-            lastSkipPointerOffset.put(term, invertedIndex.get(term).size());
-          }
+      if (term != null) {
+        // Populate the temporary inverted index.
+        if (tmpInvertedIndex.containsKey(term)) {
+          // The term has already been seen at least once in the document.
+          int occurs = tmpInvertedIndex.get(term).get(1);
+          // Update the occurrence
+          tmpInvertedIndex.get(term).set(1, occurs + 1);
+          // Add the position of this term
+          tmpInvertedIndex.get(term).add(position);
         } else {
-          // The inverted index hasn't seen the term in previous documents
+          // This is the first time the term has been seen in the document
+          if (lastDocid.containsKey(term)) {
+            // The inverted index has already seen the term in previous
+            // documents
 
-          // No need to calculate the delta since it's the first docid of the
-          // posting list.
-          // the delta.
-          tmpInvertedIndex.get(term).add(docid);
+            // Get the last/previous docid of the term's posting list
+            int prevDocid = lastDocid.get(term);
+            int deltaDocid = docid - prevDocid;
+            tmpInvertedIndex.get(term).add(deltaDocid);
 
-          lastSkipPointerOffset.put(term, 0);
+            if ((lastPostingListSize.get(term) - lastSkipPointerOffset
+                .get(term)) / (K * 100) > 0) {
+              skipPointers.get(term).addAll(vByteEncoding(prevDocid));
+              skipPointers.get(term).addAll(
+                  vByteEncoding(lastPostingListSize.get(term)));
+
+              lastSkipPointerOffset.put(term, lastPostingListSize.get(term));
+            }
+          } else {
+            // This is the first time the term has been seen in the document
+            if (invertedIndex.containsKey(term)) {
+              // The inverted index has already seen the term in previous
+              // documents
+
+              // Get the last/previous docid of the term's posting list
+              int prevDocid = lastDocid.get(term);
+              int deltaDocid = docid - prevDocid;
+              tmpInvertedIndex.get(term).add(deltaDocid);
+
+              if (invertedIndex.get(term).size() > 0
+                  && (invertedIndex.get(term).size() - lastSkipPointerOffset
+                      .get(term)) / (K * 100) > 0) {
+                skipPointers.get(term).addAll(vByteEncoding(prevDocid));
+                skipPointers.get(term).addAll(
+                    vByteEncoding(invertedIndex.get(term).size()));
+
+                lastSkipPointerOffset.put(term, invertedIndex.get(term).size());
+              }
+            } else {
+              // The inverted index hasn't seen the term in previous documents
+
+              // No need to calculate the delta since it's the first docid of
+              // the
+              // posting list.
+              // the delta.
+              tmpInvertedIndex.get(term).add(docid);
+
+              lastSkipPointerOffset.put(term, 0);
+            }
+            tmpInvertedIndex.get(term).add(1);
+            tmpInvertedIndex.get(term).add(position);
+          }
+
+          // Update the termCorpusFrequency
+          _termCorpusFrequency.add(term);
+
+          // Update the totalTermFrequency
+          _totalTermFrequency++;
+          // Move to the next position
+          position++;
         }
-        tmpInvertedIndex.get(term).add(1);
-        tmpInvertedIndex.get(term).add(position);
       }
 
-      // Update the termCorpusFrequency
-      _termCorpusFrequency.add(term);
-
-      // Update the totalTermFrequency
-      _totalTermFrequency++;
-      // Move to the next position
-      position++;
     }
 
     /**************************************************************************
@@ -258,6 +295,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // Append the posting list if one exists, otherwise create one first :)
       invertedIndex.get(term).addAll(partialPostingList);
+      lastSkipPointerOffset.put(term, lastPostingListSize.get(term)
+          + invertedIndex.get(term).size());
     }
   }
 
@@ -439,7 +478,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
         this.documents = loaded.documents;
 
-        // Compute numDocs and totalTermFrequency b/c Indexer is not serializable.
+        // Compute numDocs and totalTermFrequency b/c Indexer is not
+        // serializable.
         this.numDocs = documents.size();
         this._totalTermFrequency = loaded._termCorpusFrequency.size();
 
@@ -455,7 +495,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     for (File file : files) {
       if (!file.getName().equals("corpus.idx")) {
-        this.invertedIndex.putAll(Util.deserializeCompressedInvertedIndex(file));
+        this.invertedIndex
+            .putAll(Util.deserializeCompressedInvertedIndex(file));
       }
     }
 
@@ -480,8 +521,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
-   * Return the next document which satisfy at least one of the term of the query...
-   *
+   * Return the next document which satisfy at least one of the term of the
+   * query...
+   * 
    * @param query
    * @param docid
    * @return
@@ -951,7 +993,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public int documentTermFrequency(String term, String url) {
     if (!docUrlMap.containsKey(url)) {
-      //TODO: TEMP
+      // TODO: TEMP
       return 0;
     }
 
@@ -978,5 +1020,103 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     docTermFrequency = vByteDecoding(tmpList);
 
     return docTermFrequency;
+  }
+
+  private void merge() throws IOException, ClassNotFoundException {
+    String indexMergedFile = _options._indexPrefix + "/corpus_merged.idx";
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
+        indexMergedFile));
+    File folder = new File(_options._indexPrefix);
+
+    int numOfIndex = 0;
+    for (File f : folder.listFiles()) {
+      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+        numOfIndex++;
+      }
+    }
+
+    File[] files = new File[numOfIndex];
+    int[] numOfEntries = new int[numOfIndex];
+    String[] terms = new String[numOfIndex];
+    // List<List<Integer>> postingLists = new ArrayList<List<Integer>>();
+    ObjectInputStream[] readers = new ObjectInputStream[numOfIndex];
+
+    for (int i = 0; i < numOfIndex; i++) {
+      for (File file : folder.listFiles()) {
+        if (file.getName().matches(
+            "^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
+          files[i] = file;
+        }
+      }
+    }
+
+    // Initialize...
+    for (int i = 0; i < numOfIndex; i++) {
+      readers[i] = new ObjectInputStream(new FileInputStream(
+          files[i].getAbsolutePath()));
+      numOfEntries[i] = readers[i].readInt();
+      List<Integer> l = new ArrayList<Integer>();
+      terms[i] = "";
+    }
+
+    int countSSS = 0;
+    while (hasEntries(numOfEntries)) {
+      for (int i = 0; i < numOfIndex; i++) {
+        if (terms[i].equals("") && numOfEntries[i] > 0) {
+          numOfEntries[i] -= 1;
+          terms[i] = readers[i].readUTF();
+        }
+      }
+
+      SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap
+          .create(Ordering.natural(), Ordering.natural());
+      for (int i = 0; i < numOfIndex; i++) {
+        if (!terms[i].equals("")) {
+          sortedSetMultimap.put(terms[i], i);
+        }
+      }
+
+      Multimap<String, Byte> output = ArrayListMultimap.create();
+      for (Map.Entry entry : sortedSetMultimap.entries()) {
+        String term = (String) entry.getKey();
+        for (int i : sortedSetMultimap.asMap().get(term)) {
+          output.get(term).addAll(
+              (Collection<? extends Byte>) readers[i].readObject());
+          terms[i] = "";
+        }
+
+        break;
+      }
+
+      for (Map.Entry entry : output.asMap().entrySet()) {
+        String term = (String) entry.getKey();
+        List<Byte> list = new ArrayList<Byte>(
+            (java.util.Collection<? extends Byte>) entry.getValue());
+        writer.writeUTF(term);
+        writer.writeObject(list);
+        writer.flush();
+        writer.reset();
+      }
+
+      output.clear();
+
+      countSSS++;
+
+      if (countSSS == 100000) {
+        int debug = 0;
+      }
+    }
+
+    // TODO: flush...
+    writer.close();
+  }
+
+  private boolean hasEntries(int[] numOfEntries) {
+    for (int i : numOfEntries) {
+      if (i > 0) {
+        return true;
+      }
+    }
+    return false;
   }
 }
