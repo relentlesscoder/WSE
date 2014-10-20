@@ -42,9 +42,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
   private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
-  // Key: first term
-  // value: file name
-  private Map<String, String> partialMergedFileMap = new HashMap<String, String>();
+  private List<String> partialMergerFileOffset = new ArrayList<String>();
 
   // Provided for serialization
   public IndexerInvertedOccurrence() {
@@ -234,7 +232,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         this.invertedIndex = loaded.invertedIndex;
         this._termCorpusFrequency = loaded._termCorpusFrequency;
         this.docUrlMap = loaded.docUrlMap;
-        this.partialMergedFileMap = loaded.partialMergedFileMap;
+        this.partialMergerFileOffset = loaded.partialMergerFileOffset;
         reader.close();
         break;
       }
@@ -606,7 +604,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
           hasFirstTerm = false;
 
           String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
-          partialMergedFileMap.put(firstTermOfPartialFile, fileName);
+          partialMergerFileOffset.add(firstTermOfPartialFile);
+          partialMergerFileOffset.add(fileName);
           String indexPartialMergedFile = _options._indexPrefix + fileName;
           ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
               indexPartialMergedFile)));
@@ -623,7 +622,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     partialFileCount++;
     String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
-    partialMergedFileMap.put(firstTermOfPartialFile, fileName);
+    partialMergerFileOffset.add(firstTermOfPartialFile);
+    partialMergerFileOffset.add(fileName);
     String indexPartialMergedFile = _options._indexPrefix + fileName;
     ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
         indexPartialMergedFile)));
@@ -655,34 +655,34 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     File folder = new File(_options._indexPrefix);
     File[] files = folder.listFiles();
 
-    // Clean if no memory...
+    // Clean if not enough memory...
     if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
       invertedIndex.clear();
     }
 
-    List<String> partialMergedFileFirstTerms = new ArrayList<String>();
-    for (String s : partialMergedFileMap.keySet()) {
-      partialMergedFileFirstTerms.add(s);
-    }
-
     for (String term : query) {
-      // The query is too long....
-      if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
+      if (invertedIndex.containsKey(term)) {
         continue;
       }
 
       int index = 0;
-      for (int i = 1; i < partialMergedFileFirstTerms.size(); i++) {
-        if (term.compareTo(partialMergedFileFirstTerms.get(i)) >= 0) {
-          index = 1;
+      for (int i = 1; i < partialMergerFileOffset.size() / 2; i++) {
+        if (term.compareTo(partialMergerFileOffset.get(i * 2)) >= 0) {
+          index = 2 * i;
         } else {
           break;
         }
       }
 
-      String indexFile = _options._indexPrefix + "/" + partialMergedFileMap.get(partialMergedFileFirstTerms.get(index));
+      String indexFile = _options._indexPrefix + "/" + partialMergerFileOffset.get(index + 1);
       ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
-      invertedIndex.putAll((Multimap<? extends String, ? extends Integer>) reader.readObject());
+      Multimap<String, Integer> tmpPartialIndex = (Multimap<String, Integer>) reader.readObject();
+      for (String s : query) {
+        if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
+          invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
+        }
+      }
+      tmpPartialIndex.clear();
     }
   }
 }
