@@ -22,7 +22,7 @@ public class russianStemmer extends SnowballStemmer {
       new Among("\u044B\u0432\u0448\u0438", 3, 2, "", methodObject),
       new Among("\u0432\u0448\u0438\u0441\u044C", -1, 1, "", methodObject),
       new Among("\u0438\u0432\u0448\u0438\u0441\u044C", 6, 2, "", methodObject),
-      new Among("\u044B\u0432\u0448\u0438\u0441\u044C", 6, 2, "", methodObject) };
+      new Among("\u044B\u0432\u0448\u0438\u0441\u044C", 6, 2, "", methodObject)};
 
   private final static Among a_1[] = {
       new Among("\u0435\u0435", -1, 1, "", methodObject),
@@ -50,7 +50,7 @@ public class russianStemmer extends SnowballStemmer {
       new Among("\u0443\u044E", -1, 1, "", methodObject),
       new Among("\u044E\u044E", -1, 1, "", methodObject),
       new Among("\u0430\u044F", -1, 1, "", methodObject),
-      new Among("\u044F\u044F", -1, 1, "", methodObject) };
+      new Among("\u044F\u044F", -1, 1, "", methodObject)};
 
   private final static Among a_2[] = {
       new Among("\u0435\u043C", -1, 1, "", methodObject),
@@ -60,11 +60,11 @@ public class russianStemmer extends SnowballStemmer {
       new Among("\u044B\u0432\u0448", 2, 2, "", methodObject),
       new Among("\u0449", -1, 1, "", methodObject),
       new Among("\u044E\u0449", 5, 1, "", methodObject),
-      new Among("\u0443\u044E\u0449", 6, 2, "", methodObject) };
+      new Among("\u0443\u044E\u0449", 6, 2, "", methodObject)};
 
   private final static Among a_3[] = {
       new Among("\u0441\u044C", -1, 1, "", methodObject),
-      new Among("\u0441\u044F", -1, 1, "", methodObject) };
+      new Among("\u0441\u044F", -1, 1, "", methodObject)};
 
   private final static Among a_4[] = {
       new Among("\u043B\u0430", -1, 1, "", methodObject),
@@ -112,7 +112,7 @@ public class russianStemmer extends SnowballStemmer {
       new Among("\u0435\u0448\u044C", -1, 1, "", methodObject),
       new Among("\u0438\u0448\u044C", -1, 2, "", methodObject),
       new Among("\u044E", -1, 2, "", methodObject),
-      new Among("\u0443\u044E", 44, 2, "", methodObject) };
+      new Among("\u0443\u044E", 44, 2, "", methodObject)};
 
   private final static Among a_5[] = {
       new Among("\u0430", -1, 1, "", methodObject),
@@ -150,19 +150,19 @@ public class russianStemmer extends SnowballStemmer {
       new Among("\u044C\u044E", 30, 1, "", methodObject),
       new Among("\u044F", -1, 1, "", methodObject),
       new Among("\u0438\u044F", 33, 1, "", methodObject),
-      new Among("\u044C\u044F", 33, 1, "", methodObject) };
+      new Among("\u044C\u044F", 33, 1, "", methodObject)};
 
   private final static Among a_6[] = {
       new Among("\u043E\u0441\u0442", -1, 1, "", methodObject),
-      new Among("\u043E\u0441\u0442\u044C", -1, 1, "", methodObject) };
+      new Among("\u043E\u0441\u0442\u044C", -1, 1, "", methodObject)};
 
   private final static Among a_7[] = {
       new Among("\u0435\u0439\u0448\u0435", -1, 1, "", methodObject),
       new Among("\u043D", -1, 2, "", methodObject),
       new Among("\u0435\u0439\u0448", -1, 1, "", methodObject),
-      new Among("\u044C", -1, 3, "", methodObject) };
+      new Among("\u044C", -1, 3, "", methodObject)};
 
-  private static final char g_v[] = { 33, 65, 8, 232 };
+  private static final char g_v[] = {33, 65, 8, 232};
 
   private int I_p2;
   private int I_pV;
@@ -180,11 +180,14 @@ public class russianStemmer extends SnowballStemmer {
     I_p2 = limit;
     // do, line 61
     v_1 = cursor;
-    lab0: do {
+    lab0:
+    do {
       // (, line 61
       // gopast, line 62
-      golab1: while (true) {
-        lab2: do {
+      golab1:
+      while (true) {
+        lab2:
+        do {
           if (!(in_grouping(g_v, 1072, 1103))) {
             break lab2;
           }
@@ -198,8 +201,10 @@ public class russianStemmer extends SnowballStemmer {
       // setmark pV, line 62
       I_pV = cursor;
       // gopast, line 62
-      golab3: while (true) {
-        lab4: do {
+      golab3:
+      while (true) {
+        lab4:
+        do {
           if (!(out_grouping(g_v, 1072, 1103))) {
             break lab4;
           }
@@ -211,8 +216,10 @@ public class russianStemmer extends SnowballStemmer {
         cursor++;
       }
       // gopast, line 63
-      golab5: while (true) {
-        lab6: do {
+      golab5:
+      while (true) {
+        lab6:
+        do {
           if (!(in_grouping(g_v, 1072, 1103))) {
             break lab6;
           }
@@ -224,8 +231,10 @@ public class russianStemmer extends SnowballStemmer {
         cursor++;
       }
       // gopast, line 63
-      golab7: while (true) {
-        lab8: do {
+      golab7:
+      while (true) {
+        lab8:
+        do {
           if (!(out_grouping(g_v, 1072, 1103))) {
             break lab8;
           }
@@ -264,34 +273,36 @@ public class russianStemmer extends SnowballStemmer {
     // ], line 72
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 76
-      // or, line 76
-      lab0: do {
-        v_1 = limit - cursor;
-        lab1: do {
+      case 0:
+        return false;
+      case 1:
+        // (, line 76
+        // or, line 76
+        lab0:
+        do {
+          v_1 = limit - cursor;
+          lab1:
+          do {
+            // literal, line 76
+            if (!(eq_s_b(1, "\u0430"))) {
+              break lab1;
+            }
+            break lab0;
+          } while (false);
+          cursor = limit - v_1;
           // literal, line 76
-          if (!(eq_s_b(1, "\u0430"))) {
-            break lab1;
+          if (!(eq_s_b(1, "\u044F"))) {
+            return false;
           }
-          break lab0;
         } while (false);
-        cursor = limit - v_1;
-        // literal, line 76
-        if (!(eq_s_b(1, "\u044F"))) {
-          return false;
-        }
-      } while (false);
-      // delete, line 76
-      slice_del();
-      break;
-    case 2:
-      // (, line 83
-      // delete, line 83
-      slice_del();
-      break;
+        // delete, line 76
+        slice_del();
+        break;
+      case 2:
+        // (, line 83
+        // delete, line 83
+        slice_del();
+        break;
     }
     return true;
   }
@@ -309,13 +320,13 @@ public class russianStemmer extends SnowballStemmer {
     // ], line 88
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 97
-      // delete, line 97
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 97
+        // delete, line 97
+        slice_del();
+        break;
     }
     return true;
   }
@@ -331,7 +342,8 @@ public class russianStemmer extends SnowballStemmer {
     }
     // try, line 109
     v_1 = limit - cursor;
-    lab0: do {
+    lab0:
+    do {
       // (, line 109
       // [, line 110
       ket = cursor;
@@ -344,36 +356,38 @@ public class russianStemmer extends SnowballStemmer {
       // ], line 110
       bra = cursor;
       switch (among_var) {
-      case 0:
-        cursor = limit - v_1;
-        break lab0;
-      case 1:
-        // (, line 115
-        // or, line 115
-        lab1: do {
-          v_2 = limit - cursor;
-          lab2: do {
+        case 0:
+          cursor = limit - v_1;
+          break lab0;
+        case 1:
+          // (, line 115
+          // or, line 115
+          lab1:
+          do {
+            v_2 = limit - cursor;
+            lab2:
+            do {
+              // literal, line 115
+              if (!(eq_s_b(1, "\u0430"))) {
+                break lab2;
+              }
+              break lab1;
+            } while (false);
+            cursor = limit - v_2;
             // literal, line 115
-            if (!(eq_s_b(1, "\u0430"))) {
-              break lab2;
+            if (!(eq_s_b(1, "\u044F"))) {
+              cursor = limit - v_1;
+              break lab0;
             }
-            break lab1;
           } while (false);
-          cursor = limit - v_2;
-          // literal, line 115
-          if (!(eq_s_b(1, "\u044F"))) {
-            cursor = limit - v_1;
-            break lab0;
-          }
-        } while (false);
-        // delete, line 115
-        slice_del();
-        break;
-      case 2:
-        // (, line 122
-        // delete, line 122
-        slice_del();
-        break;
+          // delete, line 115
+          slice_del();
+          break;
+        case 2:
+          // (, line 122
+          // delete, line 122
+          slice_del();
+          break;
       }
     } while (false);
     return true;
@@ -392,13 +406,13 @@ public class russianStemmer extends SnowballStemmer {
     // ], line 129
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 132
-      // delete, line 132
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 132
+        // delete, line 132
+        slice_del();
+        break;
     }
     return true;
   }
@@ -417,34 +431,36 @@ public class russianStemmer extends SnowballStemmer {
     // ], line 137
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 143
-      // or, line 143
-      lab0: do {
-        v_1 = limit - cursor;
-        lab1: do {
+      case 0:
+        return false;
+      case 1:
+        // (, line 143
+        // or, line 143
+        lab0:
+        do {
+          v_1 = limit - cursor;
+          lab1:
+          do {
+            // literal, line 143
+            if (!(eq_s_b(1, "\u0430"))) {
+              break lab1;
+            }
+            break lab0;
+          } while (false);
+          cursor = limit - v_1;
           // literal, line 143
-          if (!(eq_s_b(1, "\u0430"))) {
-            break lab1;
+          if (!(eq_s_b(1, "\u044F"))) {
+            return false;
           }
-          break lab0;
         } while (false);
-        cursor = limit - v_1;
-        // literal, line 143
-        if (!(eq_s_b(1, "\u044F"))) {
-          return false;
-        }
-      } while (false);
-      // delete, line 143
-      slice_del();
-      break;
-    case 2:
-      // (, line 151
-      // delete, line 151
-      slice_del();
-      break;
+        // delete, line 143
+        slice_del();
+        break;
+      case 2:
+        // (, line 151
+        // delete, line 151
+        slice_del();
+        break;
     }
     return true;
   }
@@ -462,13 +478,13 @@ public class russianStemmer extends SnowballStemmer {
     // ], line 160
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 167
-      // delete, line 167
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 167
+        // delete, line 167
+        slice_del();
+        break;
     }
     return true;
   }
@@ -490,13 +506,13 @@ public class russianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 179
-      // delete, line 179
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 179
+        // delete, line 179
+        slice_del();
+        break;
     }
     return true;
   }
@@ -514,41 +530,41 @@ public class russianStemmer extends SnowballStemmer {
     // ], line 184
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 188
-      // delete, line 188
-      slice_del();
-      // [, line 189
-      ket = cursor;
-      // literal, line 189
-      if (!(eq_s_b(1, "\u043D"))) {
+      case 0:
         return false;
-      }
-      // ], line 189
-      bra = cursor;
-      // literal, line 189
-      if (!(eq_s_b(1, "\u043D"))) {
-        return false;
-      }
-      // delete, line 189
-      slice_del();
-      break;
-    case 2:
-      // (, line 192
-      // literal, line 192
-      if (!(eq_s_b(1, "\u043D"))) {
-        return false;
-      }
-      // delete, line 192
-      slice_del();
-      break;
-    case 3:
-      // (, line 194
-      // delete, line 194
-      slice_del();
-      break;
+      case 1:
+        // (, line 188
+        // delete, line 188
+        slice_del();
+        // [, line 189
+        ket = cursor;
+        // literal, line 189
+        if (!(eq_s_b(1, "\u043D"))) {
+          return false;
+        }
+        // ], line 189
+        bra = cursor;
+        // literal, line 189
+        if (!(eq_s_b(1, "\u043D"))) {
+          return false;
+        }
+        // delete, line 189
+        slice_del();
+        break;
+      case 2:
+        // (, line 192
+        // literal, line 192
+        if (!(eq_s_b(1, "\u043D"))) {
+          return false;
+        }
+        // delete, line 192
+        slice_del();
+        break;
+      case 3:
+        // (, line 194
+        // delete, line 194
+        slice_del();
+        break;
     }
     return true;
   }
@@ -567,7 +583,8 @@ public class russianStemmer extends SnowballStemmer {
     // (, line 199
     // do, line 201
     v_1 = cursor;
-    lab0: do {
+    lab0:
+    do {
       // call mark_regions, line 201
       if (!r_mark_regions()) {
         break lab0;
@@ -590,12 +607,15 @@ public class russianStemmer extends SnowballStemmer {
     // (, line 202
     // do, line 203
     v_4 = limit - cursor;
-    lab1: do {
+    lab1:
+    do {
       // (, line 203
       // or, line 204
-      lab2: do {
+      lab2:
+      do {
         v_5 = limit - cursor;
-        lab3: do {
+        lab3:
+        do {
           // call perfective_gerund, line 204
           if (!r_perfective_gerund()) {
             break lab3;
@@ -606,7 +626,8 @@ public class russianStemmer extends SnowballStemmer {
         // (, line 205
         // try, line 205
         v_6 = limit - cursor;
-        lab4: do {
+        lab4:
+        do {
           // call reflexive, line 205
           if (!r_reflexive()) {
             cursor = limit - v_6;
@@ -614,9 +635,11 @@ public class russianStemmer extends SnowballStemmer {
           }
         } while (false);
         // or, line 206
-        lab5: do {
+        lab5:
+        do {
           v_7 = limit - cursor;
-          lab6: do {
+          lab6:
+          do {
             // call adjectival, line 206
             if (!r_adjectival()) {
               break lab6;
@@ -624,7 +647,8 @@ public class russianStemmer extends SnowballStemmer {
             break lab5;
           } while (false);
           cursor = limit - v_7;
-          lab7: do {
+          lab7:
+          do {
             // call verb, line 206
             if (!r_verb()) {
               break lab7;
@@ -642,7 +666,8 @@ public class russianStemmer extends SnowballStemmer {
     cursor = limit - v_4;
     // try, line 209
     v_8 = limit - cursor;
-    lab8: do {
+    lab8:
+    do {
       // (, line 209
       // [, line 209
       ket = cursor;
@@ -658,7 +683,8 @@ public class russianStemmer extends SnowballStemmer {
     } while (false);
     // do, line 212
     v_9 = limit - cursor;
-    lab9: do {
+    lab9:
+    do {
       // call derivational, line 212
       if (!r_derivational()) {
         break lab9;
@@ -667,7 +693,8 @@ public class russianStemmer extends SnowballStemmer {
     cursor = limit - v_9;
     // do, line 213
     v_10 = limit - cursor;
-    lab10: do {
+    lab10:
+    do {
       // call tidy_up, line 213
       if (!r_tidy_up()) {
         break lab10;

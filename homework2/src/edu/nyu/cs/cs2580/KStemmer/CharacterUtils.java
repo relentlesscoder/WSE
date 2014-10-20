@@ -24,7 +24,7 @@ import java.io.Reader;
  * {@link CharacterUtils} provides a unified interface to Character-related
  * operations to implement backwards compatible character operations based on a
  * {@link Version} instance.
- * 
+ *
  * @lucene.internal
  */
 public abstract class CharacterUtils {
@@ -33,9 +33,9 @@ public abstract class CharacterUtils {
 
   /**
    * Returns a {@link CharacterUtils} implementation.
-   * 
+   *
    * @return a {@link CharacterUtils} implementation according to the given
-   *         {@link Version} instance.
+   * {@link Version} instance.
    */
   public static CharacterUtils getInstance() {
     return JAVA_5;
@@ -43,7 +43,7 @@ public abstract class CharacterUtils {
 
   /**
    * explicitly returns a version matching java 4 semantics
-   * 
+   *
    * @deprecated Only for n-gram backwards compat
    */
   @Deprecated
@@ -52,53 +52,10 @@ public abstract class CharacterUtils {
   }
 
   /**
-   * Returns the code point at the given index of the {@link CharSequence}.
-   * 
-   * @param seq
-   *          a character sequence
-   * @param offset
-   *          the offset to the char values in the chars array to be converted
-   * 
-   * @return the Unicode code point at the given index
-   * @throws NullPointerException
-   *           - if the sequence is null.
-   * @throws IndexOutOfBoundsException
-   *           - if the value offset is negative or not less than the length of
-   *           the character sequence.
-   */
-  public abstract int codePointAt(final CharSequence seq, final int offset);
-
-  /**
-   * Returns the code point at the given index of the char array where only
-   * elements with index less than the limit are used.
-   * 
-   * @param chars
-   *          a character array
-   * @param offset
-   *          the offset to the char values in the chars array to be converted
-   * @param limit
-   *          the index afer the last element that should be used to calculate
-   *          codepoint.
-   * 
-   * @return the Unicode code point at the given index
-   * @throws NullPointerException
-   *           - if the array is null.
-   * @throws IndexOutOfBoundsException
-   *           - if the value offset is negative or not less than the length of
-   *           the char array.
-   */
-  public abstract int codePointAt(final char[] chars, final int offset,
-      final int limit);
-
-  /** Return the number of characters in <code>seq</code>. */
-  public abstract int codePointCount(CharSequence seq);
-
-  /**
    * Creates a new {@link CharacterBuffer} and allocates a <code>char[]</code>
    * of the given bufferSize.
-   * 
-   * @param bufferSize
-   *          the internal char buffer size, must be <code>&gt;= 2</code>
+   *
+   * @param bufferSize the internal char buffer size, must be <code>&gt;= 2</code>
    * @return a new {@link CharacterBuffer} instance.
    */
   public static CharacterBuffer newCharacterBuffer(final int bufferSize) {
@@ -108,22 +65,65 @@ public abstract class CharacterUtils {
     return new CharacterBuffer(new char[bufferSize], 0, 0);
   }
 
+  static int readFully(Reader reader, char[] dest, int offset, int len)
+      throws IOException {
+    int read = 0;
+    while (read < len) {
+      final int r = reader.read(dest, offset + read, len - read);
+      if (r == -1) {
+        break;
+      }
+      read += r;
+    }
+    return read;
+  }
+
+  /**
+   * Returns the code point at the given index of the {@link CharSequence}.
+   *
+   * @param seq    a character sequence
+   * @param offset the offset to the char values in the chars array to be converted
+   * @return the Unicode code point at the given index
+   * @throws NullPointerException      - if the sequence is null.
+   * @throws IndexOutOfBoundsException - if the value offset is negative or not less than the length of
+   *                                   the character sequence.
+   */
+  public abstract int codePointAt(final CharSequence seq, final int offset);
+
+  /**
+   * Returns the code point at the given index of the char array where only
+   * elements with index less than the limit are used.
+   *
+   * @param chars  a character array
+   * @param offset the offset to the char values in the chars array to be converted
+   * @param limit  the index afer the last element that should be used to calculate
+   *               codepoint.
+   * @return the Unicode code point at the given index
+   * @throws NullPointerException      - if the array is null.
+   * @throws IndexOutOfBoundsException - if the value offset is negative or not less than the length of
+   *                                   the char array.
+   */
+  public abstract int codePointAt(final char[] chars, final int offset,
+                                  final int limit);
+
+  /**
+   * Return the number of characters in <code>seq</code>.
+   */
+  public abstract int codePointCount(CharSequence seq);
+
   /**
    * Converts each unicode codepoint to lowerCase via
    * {@link Character#toLowerCase(int)} starting at the given offset.
-   * 
-   * @param buffer
-   *          the char buffer to lowercase
-   * @param offset
-   *          the offset to start at
-   * @param limit
-   *          the max char in the buffer to lower case
+   *
+   * @param buffer the char buffer to lowercase
+   * @param offset the offset to start at
+   * @param limit  the max char in the buffer to lower case
    */
   public final void toLowerCase(final char[] buffer, final int offset,
-      final int limit) {
+                                final int limit) {
     assert buffer.length >= limit;
     assert offset <= 0 && offset <= buffer.length;
-    for (int i = offset; i < limit;) {
+    for (int i = offset; i < limit; ) {
       i += Character.toChars(
           Character.toLowerCase(codePointAt(buffer, i, limit)), buffer, i);
     }
@@ -132,19 +132,16 @@ public abstract class CharacterUtils {
   /**
    * Converts each unicode codepoint to UpperCase via
    * {@link Character#toUpperCase(int)} starting at the given offset.
-   * 
-   * @param buffer
-   *          the char buffer to UPPERCASE
-   * @param offset
-   *          the offset to start at
-   * @param limit
-   *          the max char in the buffer to lower case
+   *
+   * @param buffer the char buffer to UPPERCASE
+   * @param offset the offset to start at
+   * @param limit  the max char in the buffer to lower case
    */
   public final void toUpperCase(final char[] buffer, final int offset,
-      final int limit) {
+                                final int limit) {
     assert buffer.length >= limit;
     assert offset <= 0 && offset <= buffer.length;
-    for (int i = offset; i < limit;) {
+    for (int i = offset; i < limit; ) {
       i += Character.toChars(
           Character.toUpperCase(codePointAt(buffer, i, limit)), buffer, i);
     }
@@ -153,16 +150,16 @@ public abstract class CharacterUtils {
   /**
    * Converts a sequence of Java characters to a sequence of unicode code
    * points.
-   * 
+   *
    * @return the number of code points written to the destination buffer
    */
   public final int toCodePoints(char[] src, int srcOff, int srcLen, int[] dest,
-      int destOff) {
+                                int destOff) {
     if (srcLen < 0) {
       throw new IllegalArgumentException("srcLen must be >= 0");
     }
     int codePointCount = 0;
-    for (int i = 0; i < srcLen;) {
+    for (int i = 0; i < srcLen; ) {
       final int cp = codePointAt(src, srcOff + i, srcOff + srcLen);
       final int charCount = Character.charCount(cp);
       dest[destOff + codePointCount++] = cp;
@@ -174,11 +171,11 @@ public abstract class CharacterUtils {
   /**
    * Converts a sequence of unicode code points to a sequence of Java
    * characters.
-   * 
+   *
    * @return the number of chars written to the destination buffer
    */
   public final int toChars(int[] src, int srcOff, int srcLen, char[] dest,
-      int destOff) {
+                           int destOff) {
     if (srcLen < 0) {
       throw new IllegalArgumentException("srcLen must be >= 0");
     }
@@ -209,20 +206,16 @@ public abstract class CharacterUtils {
    * the reader, but there may be some bytes which have been read, which can be
    * verified by checking whether <code>buffer.getLength() &gt; 0</code>.
    * </p>
-   * 
-   * @param buffer
-   *          the buffer to fill.
-   * @param reader
-   *          the reader to read characters from.
-   * @param numChars
-   *          the number of chars to read
+   *
+   * @param buffer   the buffer to fill.
+   * @param reader   the reader to read characters from.
+   * @param numChars the number of chars to read
    * @return <code>false</code> if and only if reader.read returned -1 while
-   *         trying to fill the buffer
-   * @throws IOException
-   *           if the reader throws an {@link IOException}.
+   * trying to fill the buffer
+   * @throws IOException if the reader throws an {@link IOException}.
    */
   public abstract boolean fill(CharacterBuffer buffer, Reader reader,
-      int numChars) throws IOException;
+                               int numChars) throws IOException;
 
   /**
    * Convenience method which calls
@@ -238,20 +231,7 @@ public abstract class CharacterUtils {
    * <code>offset</code> code points from <code>index</code>.
    */
   public abstract int offsetByCodePoints(char[] buf, int start, int count,
-      int index, int offset);
-
-  static int readFully(Reader reader, char[] dest, int offset, int len)
-      throws IOException {
-    int read = 0;
-    while (read < len) {
-      final int r = reader.read(dest, offset + read, len - read);
-      if (r == -1) {
-        break;
-      }
-      read += r;
-    }
-    return read;
-  }
+                                         int index, int offset);
 
   private static final class Java5CharacterUtils extends CharacterUtils {
     Java5CharacterUtils() {
@@ -269,7 +249,7 @@ public abstract class CharacterUtils {
 
     @Override
     public boolean fill(final CharacterBuffer buffer, final Reader reader,
-        int numChars) throws IOException {
+                        int numChars) throws IOException {
       assert buffer.buffer.length >= 2;
       if (numChars < 2 || numChars > buffer.buffer.length) {
         throw new IllegalArgumentException(
@@ -311,7 +291,7 @@ public abstract class CharacterUtils {
 
     @Override
     public int offsetByCodePoints(char[] buf, int start, int count, int index,
-        int offset) {
+                                  int offset) {
       return Character.offsetByCodePoints(buf, start, count, index, offset);
     }
   }
@@ -354,7 +334,7 @@ public abstract class CharacterUtils {
 
     @Override
     public int offsetByCodePoints(char[] buf, int start, int count, int index,
-        int offset) {
+                                  int offset) {
       final int result = index + offset;
       if (result < 0 || result > count) {
         throw new IndexOutOfBoundsException();
@@ -371,11 +351,11 @@ public abstract class CharacterUtils {
   public static final class CharacterBuffer {
 
     private final char[] buffer;
-    private int offset;
-    private int length;
     // NOTE: not private so outer class can access without
     // $access methods:
     char lastTrailingHighSurrogate;
+    private int offset;
+    private int length;
 
     CharacterBuffer(char[] buffer, int offset, int length) {
       this.buffer = buffer;
@@ -385,7 +365,7 @@ public abstract class CharacterUtils {
 
     /**
      * Returns the internal buffer
-     * 
+     *
      * @return the buffer
      */
     public char[] getBuffer() {
@@ -394,7 +374,7 @@ public abstract class CharacterUtils {
 
     /**
      * Returns the data offset in the internal buffer.
-     * 
+     *
      * @return the offset
      */
     public int getOffset() {
@@ -404,7 +384,7 @@ public abstract class CharacterUtils {
     /**
      * Return the length of the data in the internal buffer starting at
      * {@link #getOffset()}
-     * 
+     *
      * @return the length
      */
     public int getLength() {

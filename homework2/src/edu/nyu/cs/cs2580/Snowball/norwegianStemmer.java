@@ -13,7 +13,7 @@ public class norwegianStemmer extends SnowballStemmer {
 
   private final static norwegianStemmer methodObject = new norwegianStemmer();
 
-  private final static Among a_0[] = { new Among("a", -1, 1, "", methodObject),
+  private final static Among a_0[] = {new Among("a", -1, 1, "", methodObject),
       new Among("e", -1, 1, "", methodObject),
       new Among("ede", 1, 1, "", methodObject),
       new Among("ande", 1, 1, "", methodObject),
@@ -41,11 +41,11 @@ public class norwegianStemmer extends SnowballStemmer {
       new Among("et", -1, 1, "", methodObject),
       new Among("het", 25, 1, "", methodObject),
       new Among("ert", -1, 3, "", methodObject),
-      new Among("ast", -1, 1, "", methodObject) };
+      new Among("ast", -1, 1, "", methodObject)};
 
   private final static Among a_1[] = {
       new Among("dt", -1, -1, "", methodObject),
-      new Among("vt", -1, -1, "", methodObject) };
+      new Among("vt", -1, -1, "", methodObject)};
 
   private final static Among a_2[] = {
       new Among("leg", -1, 1, "", methodObject),
@@ -58,12 +58,12 @@ public class norwegianStemmer extends SnowballStemmer {
       new Among("lov", -1, 1, "", methodObject),
       new Among("elov", 7, 1, "", methodObject),
       new Among("slov", 7, 1, "", methodObject),
-      new Among("hetslov", 9, 1, "", methodObject) };
+      new Among("hetslov", 9, 1, "", methodObject)};
 
-  private static final char g_v[] = { 17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 48, 0, 128 };
+  private static final char g_v[] = {17, 65, 16, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 48, 0, 128};
 
-  private static final char g_s_ending[] = { 119, 125, 149, 1 };
+  private static final char g_s_ending[] = {119, 125, 149, 1};
 
   private int I_x;
   private int I_p1;
@@ -94,9 +94,11 @@ public class norwegianStemmer extends SnowballStemmer {
     I_x = cursor;
     cursor = v_1;
     // goto, line 31
-    golab0: while (true) {
+    golab0:
+    while (true) {
       v_2 = cursor;
-      lab1: do {
+      lab1:
+      do {
         if (!(in_grouping(g_v, 97, 248))) {
           break lab1;
         }
@@ -110,8 +112,10 @@ public class norwegianStemmer extends SnowballStemmer {
       cursor++;
     }
     // gopast, line 31
-    golab2: while (true) {
-      lab3: do {
+    golab2:
+    while (true) {
+      lab3:
+      do {
         if (!(out_grouping(g_v, 97, 248))) {
           break lab3;
         }
@@ -125,7 +129,8 @@ public class norwegianStemmer extends SnowballStemmer {
     // setmark p1, line 31
     I_p1 = cursor;
     // try, line 32
-    lab4: do {
+    lab4:
+    do {
       // (, line 32
       if (!(I_p1 < I_x)) {
         break lab4;
@@ -164,42 +169,44 @@ public class norwegianStemmer extends SnowballStemmer {
     bra = cursor;
     limit_backward = v_2;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 44
-      // delete, line 44
-      slice_del();
-      break;
-    case 2:
-      // (, line 46
-      // or, line 46
-      lab0: do {
-        v_3 = limit - cursor;
-        lab1: do {
-          if (!(in_grouping_b(g_s_ending, 98, 122))) {
-            break lab1;
-          }
-          break lab0;
-        } while (false);
-        cursor = limit - v_3;
+      case 0:
+        return false;
+      case 1:
+        // (, line 44
+        // delete, line 44
+        slice_del();
+        break;
+      case 2:
         // (, line 46
-        // literal, line 46
-        if (!(eq_s_b(1, "k"))) {
-          return false;
-        }
-        if (!(out_grouping_b(g_v, 97, 248))) {
-          return false;
-        }
-      } while (false);
-      // delete, line 46
-      slice_del();
-      break;
-    case 3:
-      // (, line 48
-      // <-, line 48
-      slice_from("er");
-      break;
+        // or, line 46
+        lab0:
+        do {
+          v_3 = limit - cursor;
+          lab1:
+          do {
+            if (!(in_grouping_b(g_s_ending, 98, 122))) {
+              break lab1;
+            }
+            break lab0;
+          } while (false);
+          cursor = limit - v_3;
+          // (, line 46
+          // literal, line 46
+          if (!(eq_s_b(1, "k"))) {
+            return false;
+          }
+          if (!(out_grouping_b(g_v, 97, 248))) {
+            return false;
+          }
+        } while (false);
+        // delete, line 46
+        slice_del();
+        break;
+      case 3:
+        // (, line 48
+        // <-, line 48
+        slice_from("er");
+        break;
     }
     return true;
   }
@@ -274,13 +281,13 @@ public class norwegianStemmer extends SnowballStemmer {
     bra = cursor;
     limit_backward = v_2;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 67
-      // delete, line 67
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 67
+        // delete, line 67
+        slice_del();
+        break;
     }
     return true;
   }
@@ -293,7 +300,8 @@ public class norwegianStemmer extends SnowballStemmer {
     // (, line 72
     // do, line 74
     v_1 = cursor;
-    lab0: do {
+    lab0:
+    do {
       // call mark_regions, line 74
       if (!r_mark_regions()) {
         break lab0;
@@ -306,7 +314,8 @@ public class norwegianStemmer extends SnowballStemmer {
     // (, line 75
     // do, line 76
     v_2 = limit - cursor;
-    lab1: do {
+    lab1:
+    do {
       // call main_suffix, line 76
       if (!r_main_suffix()) {
         break lab1;
@@ -315,7 +324,8 @@ public class norwegianStemmer extends SnowballStemmer {
     cursor = limit - v_2;
     // do, line 77
     v_3 = limit - cursor;
-    lab2: do {
+    lab2:
+    do {
       // call consonant_pair, line 77
       if (!r_consonant_pair()) {
         break lab2;
@@ -324,7 +334,8 @@ public class norwegianStemmer extends SnowballStemmer {
     cursor = limit - v_3;
     // do, line 78
     v_4 = limit - cursor;
-    lab3: do {
+    lab3:
+    do {
       // call other_suffix, line 78
       if (!r_other_suffix()) {
         break lab3;

@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData7 {
-  private KStemData7() {
-  }
-
-  static String[] data = { "rupee", "rupture", "rural", "ruritanian", "ruse",
+  static String[] data = {"rupee", "rupture", "rural", "ruritanian", "ruse",
       "rush", "rushes", "rushlight", "rusk", "russet", "rust", "rustic",
       "rusticate", "rustication", "rustle", "rustler", "rustless", "rustling",
       "rustproof", "rusty", "rut", "ruthless", "rutting", "rye", "sabbatarian",
@@ -629,5 +626,8 @@ class KStemData7 {
       "ten", "tenable", "tenacious", "tenacity", "tenancy", "tenant",
       "tenantry", "tench", "tend", "tendency", "tendentious", "tender",
       "tenderfoot", "tenderhearted", "tenderise", "tenderize", "tenderloin",
-      "tendon", "tendril", "tenement", "tenet", "tenner", "tennis", "tenon", };
+      "tendon", "tendril", "tenement", "tenet", "tenner", "tennis", "tenon",};
+
+  private KStemData7() {
+  }
 }

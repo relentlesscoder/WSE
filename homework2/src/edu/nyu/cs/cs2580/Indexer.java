@@ -1,17 +1,17 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.IOException;
-
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.io.IOException;
 
 /**
  * This is the abstract Indexer class for all concrete Indexer implementations.
- * 
+ * <p/>
  * Use {@link Indexer.Factory} to create concrete Indexer implementation.
  * Do NOT change the interface of this class.
- * 
+ * <p/>
  * In HW1: instructor's {@link IndexerFullScan} is provided as is.
- * 
+ * <p/>
  * In HW2: student will implement {@link IndexerInvertedDoconly},
  * {@link IndexerInvertedOccurrence}, and {@link IndexerInvertedCompressed}.
  * See comments below for more info.
@@ -31,7 +31,8 @@ public abstract class Indexer {
   protected long _totalTermFrequency = 0;
 
   // Provided for serialization.
-  public Indexer() { }
+  public Indexer() {
+  }
 
   // The real constructor
   public Indexer(Options options) {
@@ -56,7 +57,6 @@ public abstract class Indexer {
    *
    * @param query
    * @param docid
-   *
    * @return the next Document after {@code docid} satisfying {@code query} or
    * null if no such document exists.
    */
@@ -67,17 +67,17 @@ public abstract class Indexer {
   /**
    * Called when the SearchEngine is in {@code Mode.INDEX} mode. Subclass must
    * construct the index from the provided corpus at {@code corpus_prefix}.
-   * 
+   * <p/>
    * Document processing must satisfy the following:
-   *   1) Non-visible page content is removed, e.g., those inside <script> tags
-   *   2) Tokens are stemmed with Step 1 of the Porter's algorithm
-   *   3) No stop word is removed, you need to dynamically determine whether to
-   *      drop the processing of a certain inverted list.
-   *
+   * 1) Non-visible page content is removed, e.g., those inside <script> tags
+   * 2) Tokens are stemmed with Step 1 of the Porter's algorithm
+   * 3) No stop word is removed, you need to dynamically determine whether to
+   * drop the processing of a certain inverted list.
+   * <p/>
    * The index must reside at the directory of index_prefix, no other data can
    * be stored (either in a hidden file or in a temporary directory). We will
    * construct your index on one machine and move the index to a different
-   * machine for serving, so do NOT try to play tricks. 
+   * machine for serving, so do NOT try to play tricks.
    */
   public abstract void constructIndex() throws IOException;
 
@@ -85,7 +85,7 @@ public abstract class Indexer {
    * Called exactly once when the SearchEngine is in {@code Mode.SERVE} mode.
    * Subclass must load the index at {@code index_prefix} to be ready for
    * serving the search traffic.
-   * 
+   * <p/>
    * You must load the index from the constructed index above, do NOT try to
    * reconstruct the index from the corpus. When the search engine is run in
    * serve mode, it will NOT have access to the corpus, all grading for serve
@@ -94,22 +94,28 @@ public abstract class Indexer {
   public abstract void loadIndex() throws IOException, ClassNotFoundException;
 
   //TODO: must return correct results....
+
   /**
    * APIs for statistics needed for ranking.
-   * 
+   * <p/>
    * {@link numDocs} and {@link totalTermFrequency} must return correct results
    * for the current state whenever they are called, either during index
    * construction or during serving (obviously).
-   * 
+   * <p/>
    * {@link corpusDocFrequencyByTerm}, {@link corpusTermFrequency}, and
    * {@link documentTermFrequency} must return correct results during serving.
    */
 
   // Number of documents in the corpus.
-  public final int numDocs() { return numDocs; }
+  public final int numDocs() {
+    return numDocs;
+  }
+
   // Number of term occurrences in the corpus. If a term appears 10 times, it
   // will be counted 10 times.
-  public final long totalTermFrequency() { return _totalTermFrequency; }
+  public final long totalTermFrequency() {
+    return _totalTermFrequency;
+  }
 
   // Number of documents in which {@code term} appeared, over the full corpus.
   public abstract int corpusDocFrequencyByTerm(String term);

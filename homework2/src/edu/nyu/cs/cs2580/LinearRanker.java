@@ -1,13 +1,9 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Vector;
-
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.util.*;
 
 public class LinearRanker extends Ranker {
   private final static double BETA_COS = 1.0;
@@ -60,7 +56,7 @@ public class LinearRanker extends Ranker {
   }
 
   private void addRankerScore(List<ScoredDocument> linearRankerResults,
-      List<ScoredDocument> otherRankerResults, double beta) {
+                              List<ScoredDocument> otherRankerResults, double beta) {
     for (int docId = 0; docId < _indexer.numDocs(); ++docId) {
       double originScore = linearRankerResults.get(docId).getScore();
       double newScore = originScore + beta

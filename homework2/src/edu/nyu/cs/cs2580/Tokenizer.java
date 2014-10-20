@@ -1,20 +1,17 @@
 package edu.nyu.cs.cs2580;
 
+import edu.nyu.cs.cs2580.KStemmer.KStemmer;
+import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;
+
 import java.io.IOException;
 import java.io.Reader;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
-import edu.nyu.cs.cs2580.KStemmer.KStemmer;
-import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;
-
 public class Tokenizer {
 
-  private DefaultScanner scanner;
-
   public static final HashSet<String> STOP_WORDS_SET;
-
   static {
     final List<String> stopWords = Arrays.asList("a", "an", "and", "are", "as",
         "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no",
@@ -22,37 +19,17 @@ public class Tokenizer {
         "there", "these", "they", "this", "to", "was", "will", "with");
     STOP_WORDS_SET = new HashSet<String>(stopWords);
   }
+  private DefaultScanner scanner;
 
   public Tokenizer(Reader reader) {
     this.scanner = new DefaultScanner(reader);
   }
 
-  public String getText() {
-    return scanner.getText();
-  }
-
-  public boolean hasNext() {
-    boolean hasNext = false;
-
-    try {
-      int tokenType = scanner.getNextToken();
-      if (tokenType != DefaultScanner.YYEOF) {
-        hasNext = true;
-      }
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-
-    return hasNext;
-  }
-
   /**
    * Stemming text
-   * 
-   * @param input
-   *          Original text
-   * @param language
-   *          Language type, e.g. english
+   *
+   * @param input    Original text
+   * @param language Language type, e.g. english
    * @return Stemmed text
    */
   public static String porterStemmerFilter(String input, String language) {
@@ -77,9 +54,8 @@ public class Tokenizer {
 
   /**
    * Stemming text
-   * 
-   * @param input
-   *          Original text
+   *
+   * @param input Original text
    * @return Stemmed text
    */
   public static String krovetzStemmerFilter(String input) {
@@ -118,5 +94,24 @@ public class Tokenizer {
       }
     }
     return input;
+  }
+
+  public String getText() {
+    return scanner.getText();
+  }
+
+  public boolean hasNext() {
+    boolean hasNext = false;
+
+    try {
+      int tokenType = scanner.getNextToken();
+      if (tokenType != DefaultScanner.YYEOF) {
+        hasNext = true;
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+
+    return hasNext;
   }
 }

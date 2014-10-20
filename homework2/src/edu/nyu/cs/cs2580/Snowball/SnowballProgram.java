@@ -3,21 +3,16 @@ package edu.nyu.cs.cs2580.Snowball;
 import java.lang.reflect.InvocationTargetException;
 
 public class SnowballProgram {
+  // current string
+  protected StringBuffer current;
+  protected int cursor;
+  protected int limit;
+  protected int limit_backward;
+  protected int bra;
+  protected int ket;
   protected SnowballProgram() {
     current = new StringBuffer();
     setCurrent("");
-  }
-
-  /**
-   * Set the current string.
-   */
-  public void setCurrent(String value) {
-    current.replace(0, current.length(), value);
-    cursor = 0;
-    limit = current.length();
-    limit_backward = 0;
-    bra = cursor;
-    ket = limit;
   }
 
   /**
@@ -35,14 +30,17 @@ public class SnowballProgram {
     return result;
   }
 
-  // current string
-  protected StringBuffer current;
-
-  protected int cursor;
-  protected int limit;
-  protected int limit_backward;
-  protected int bra;
-  protected int ket;
+  /**
+   * Set the current string.
+   */
+  public void setCurrent(String value) {
+    current.replace(0, current.length(), value);
+    cursor = 0;
+    limit = current.length();
+    limit_backward = 0;
+    bra = cursor;
+    ket = limit;
+  }
 
   protected void copy_from(SnowballProgram other) {
     current = other.current;
@@ -350,10 +348,10 @@ public class SnowballProgram {
 
   protected void slice_check() {
     if (bra < 0 || bra > ket || ket > limit || limit > current.length()) // this
-                                                                         // line
-                                                                         // could
-                                                                         // be
-                                                                         // removed
+    // line
+    // could
+    // be
+    // removed
     {
       System.err.println("faulty slice operation");
       // FIXME: report error somehow.

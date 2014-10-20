@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData3 {
-  private KStemData3() {
-  }
-
-  static String[] data = { "distasteful", "distemper", "distempered",
+  static String[] data = {"distasteful", "distemper", "distempered",
       "distend", "distension", "distil", "distill", "distillation",
       "distiller", "distillery", "distinct", "distinction", "distinctive",
       "distinguish", "distinguishable", "distinguished", "distort",
@@ -628,5 +625,8 @@ class KStemData3 {
       "grandchild", "granddad", "granddaughter", "grandee", "grandeur",
       "grandfather", "grandiloquent", "grandiose", "grandma", "grandmother",
       "grandpa", "grandparent", "grandson", "grandstand", "grange", "granite",
-      "grannie", "granny", "grant", };
+      "grannie", "granny", "grant",};
+
+  private KStemData3() {
+  }
 }

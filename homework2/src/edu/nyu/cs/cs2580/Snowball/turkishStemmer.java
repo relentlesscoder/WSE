@@ -23,93 +23,93 @@ public class turkishStemmer extends SnowballStemmer {
       new Among("m\u00FCz", -1, -1, "", methodObject),
       new Among("n\u00FCz", -1, -1, "", methodObject),
       new Among("m\u0131z", -1, -1, "", methodObject),
-      new Among("n\u0131z", -1, -1, "", methodObject) };
+      new Among("n\u0131z", -1, -1, "", methodObject)};
 
   private final static Among a_1[] = {
       new Among("leri", -1, -1, "", methodObject),
-      new Among("lar\u0131", -1, -1, "", methodObject) };
+      new Among("lar\u0131", -1, -1, "", methodObject)};
 
   private final static Among a_2[] = {
       new Among("ni", -1, -1, "", methodObject),
       new Among("nu", -1, -1, "", methodObject),
       new Among("n\u00FC", -1, -1, "", methodObject),
-      new Among("n\u0131", -1, -1, "", methodObject) };
+      new Among("n\u0131", -1, -1, "", methodObject)};
 
   private final static Among a_3[] = {
       new Among("in", -1, -1, "", methodObject),
       new Among("un", -1, -1, "", methodObject),
       new Among("\u00FCn", -1, -1, "", methodObject),
-      new Among("\u0131n", -1, -1, "", methodObject) };
+      new Among("\u0131n", -1, -1, "", methodObject)};
 
   private final static Among a_4[] = {
       new Among("a", -1, -1, "", methodObject),
-      new Among("e", -1, -1, "", methodObject) };
+      new Among("e", -1, -1, "", methodObject)};
 
   private final static Among a_5[] = {
       new Among("na", -1, -1, "", methodObject),
-      new Among("ne", -1, -1, "", methodObject) };
+      new Among("ne", -1, -1, "", methodObject)};
 
   private final static Among a_6[] = {
       new Among("da", -1, -1, "", methodObject),
       new Among("ta", -1, -1, "", methodObject),
       new Among("de", -1, -1, "", methodObject),
-      new Among("te", -1, -1, "", methodObject) };
+      new Among("te", -1, -1, "", methodObject)};
 
   private final static Among a_7[] = {
       new Among("nda", -1, -1, "", methodObject),
-      new Among("nde", -1, -1, "", methodObject) };
+      new Among("nde", -1, -1, "", methodObject)};
 
   private final static Among a_8[] = {
       new Among("dan", -1, -1, "", methodObject),
       new Among("tan", -1, -1, "", methodObject),
       new Among("den", -1, -1, "", methodObject),
-      new Among("ten", -1, -1, "", methodObject) };
+      new Among("ten", -1, -1, "", methodObject)};
 
   private final static Among a_9[] = {
       new Among("ndan", -1, -1, "", methodObject),
-      new Among("nden", -1, -1, "", methodObject) };
+      new Among("nden", -1, -1, "", methodObject)};
 
   private final static Among a_10[] = {
       new Among("la", -1, -1, "", methodObject),
-      new Among("le", -1, -1, "", methodObject) };
+      new Among("le", -1, -1, "", methodObject)};
 
   private final static Among a_11[] = {
       new Among("ca", -1, -1, "", methodObject),
-      new Among("ce", -1, -1, "", methodObject) };
+      new Among("ce", -1, -1, "", methodObject)};
 
   private final static Among a_12[] = {
       new Among("im", -1, -1, "", methodObject),
       new Among("um", -1, -1, "", methodObject),
       new Among("\u00FCm", -1, -1, "", methodObject),
-      new Among("\u0131m", -1, -1, "", methodObject) };
+      new Among("\u0131m", -1, -1, "", methodObject)};
 
   private final static Among a_13[] = {
       new Among("sin", -1, -1, "", methodObject),
       new Among("sun", -1, -1, "", methodObject),
       new Among("s\u00FCn", -1, -1, "", methodObject),
-      new Among("s\u0131n", -1, -1, "", methodObject) };
+      new Among("s\u0131n", -1, -1, "", methodObject)};
 
   private final static Among a_14[] = {
       new Among("iz", -1, -1, "", methodObject),
       new Among("uz", -1, -1, "", methodObject),
       new Among("\u00FCz", -1, -1, "", methodObject),
-      new Among("\u0131z", -1, -1, "", methodObject) };
+      new Among("\u0131z", -1, -1, "", methodObject)};
 
   private final static Among a_15[] = {
       new Among("siniz", -1, -1, "", methodObject),
       new Among("sunuz", -1, -1, "", methodObject),
       new Among("s\u00FCn\u00FCz", -1, -1, "", methodObject),
-      new Among("s\u0131n\u0131z", -1, -1, "", methodObject) };
+      new Among("s\u0131n\u0131z", -1, -1, "", methodObject)};
 
   private final static Among a_16[] = {
       new Among("lar", -1, -1, "", methodObject),
-      new Among("ler", -1, -1, "", methodObject) };
+      new Among("ler", -1, -1, "", methodObject)};
 
   private final static Among a_17[] = {
       new Among("niz", -1, -1, "", methodObject),
       new Among("nuz", -1, -1, "", methodObject),
       new Among("n\u00FCz", -1, -1, "", methodObject),
-      new Among("n\u0131z", -1, -1, "", methodObject) };
+      new Among("n\u0131z", -1, -1, "", methodObject)};
 
   private final static Among a_18[] = {
       new Among("dir", -1, -1, "", methodObject),
@@ -119,11 +119,11 @@ public class turkishStemmer extends SnowballStemmer {
       new Among("d\u00FCr", -1, -1, "", methodObject),
       new Among("t\u00FCr", -1, -1, "", methodObject),
       new Among("d\u0131r", -1, -1, "", methodObject),
-      new Among("t\u0131r", -1, -1, "", methodObject) };
+      new Among("t\u0131r", -1, -1, "", methodObject)};
 
   private final static Among a_19[] = {
       new Among("cas\u0131na", -1, -1, "", methodObject),
-      new Among("cesine", -1, -1, "", methodObject) };
+      new Among("cesine", -1, -1, "", methodObject)};
 
   private final static Among a_20[] = {
       new Among("di", -1, -1, "", methodObject),
@@ -157,7 +157,7 @@ public class turkishStemmer extends SnowballStemmer {
       new Among("d\u00FC", -1, -1, "", methodObject),
       new Among("t\u00FC", -1, -1, "", methodObject),
       new Among("d\u0131", -1, -1, "", methodObject),
-      new Among("t\u0131", -1, -1, "", methodObject) };
+      new Among("t\u0131", -1, -1, "", methodObject)};
 
   private final static Among a_21[] = {
       new Among("sa", -1, -1, "", methodObject),
@@ -167,40 +167,40 @@ public class turkishStemmer extends SnowballStemmer {
       new Among("sam", -1, -1, "", methodObject),
       new Among("sem", -1, -1, "", methodObject),
       new Among("san", -1, -1, "", methodObject),
-      new Among("sen", -1, -1, "", methodObject) };
+      new Among("sen", -1, -1, "", methodObject)};
 
   private final static Among a_22[] = {
       new Among("mi\u015F", -1, -1, "", methodObject),
       new Among("mu\u015F", -1, -1, "", methodObject),
       new Among("m\u00FC\u015F", -1, -1, "", methodObject),
-      new Among("m\u0131\u015F", -1, -1, "", methodObject) };
+      new Among("m\u0131\u015F", -1, -1, "", methodObject)};
 
   private final static Among a_23[] = {
       new Among("b", -1, 1, "", methodObject),
       new Among("c", -1, 2, "", methodObject),
       new Among("d", -1, 3, "", methodObject),
-      new Among("\u011F", -1, 4, "", methodObject) };
+      new Among("\u011F", -1, 4, "", methodObject)};
 
-  private static final char g_vowel[] = { 17, 65, 16, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0, 0, 0, 32, 8, 0, 0, 0, 0, 0, 0, 1 };
+  private static final char g_vowel[] = {17, 65, 16, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 32, 8, 0, 0, 0, 0, 0, 0, 1};
 
-  private static final char g_U[] = { 1, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 1 };
+  private static final char g_U[] = {1, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 1};
 
-  private static final char g_vowel1[] = { 1, 64, 16, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 };
+  private static final char g_vowel1[] = {1, 64, 16, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1};
 
-  private static final char g_vowel2[] = { 17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0, 0, 130 };
+  private static final char g_vowel2[] = {17, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 130};
 
-  private static final char g_vowel3[] = { 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 };
+  private static final char g_vowel3[] = {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1};
 
-  private static final char g_vowel4[] = { 17 };
+  private static final char g_vowel4[] = {17};
 
-  private static final char g_vowel5[] = { 65 };
+  private static final char g_vowel5[] = {65};
 
-  private static final char g_vowel6[] = { 65 };
+  private static final char g_vowel6[] = {65};
 
   private boolean B_continue_stemming_noun_suffixes;
   private int I_strlen;
@@ -229,9 +229,11 @@ public class turkishStemmer extends SnowballStemmer {
     // (, line 113
     // (, line 114
     // goto, line 114
-    golab0: while (true) {
+    golab0:
+    while (true) {
       v_2 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         if (!(in_grouping_b(g_vowel, 97, 305))) {
           break lab1;
         }
@@ -246,18 +248,22 @@ public class turkishStemmer extends SnowballStemmer {
     }
     // (, line 115
     // or, line 116
-    lab2: do {
+    lab2:
+    do {
       v_3 = limit - cursor;
-      lab3: do {
+      lab3:
+      do {
         // (, line 116
         // literal, line 116
         if (!(eq_s_b(1, "a"))) {
           break lab3;
         }
         // goto, line 116
-        golab4: while (true) {
+        golab4:
+        while (true) {
           v_4 = limit - cursor;
-          lab5: do {
+          lab5:
+          do {
             if (!(in_grouping_b(g_vowel1, 97, 305))) {
               break lab5;
             }
@@ -273,16 +279,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab6: do {
+      lab6:
+      do {
         // (, line 117
         // literal, line 117
         if (!(eq_s_b(1, "e"))) {
           break lab6;
         }
         // goto, line 117
-        golab7: while (true) {
+        golab7:
+        while (true) {
           v_5 = limit - cursor;
-          lab8: do {
+          lab8:
+          do {
             if (!(in_grouping_b(g_vowel2, 101, 252))) {
               break lab8;
             }
@@ -298,16 +307,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab9: do {
+      lab9:
+      do {
         // (, line 118
         // literal, line 118
         if (!(eq_s_b(1, "\u0131"))) {
           break lab9;
         }
         // goto, line 118
-        golab10: while (true) {
+        golab10:
+        while (true) {
           v_6 = limit - cursor;
-          lab11: do {
+          lab11:
+          do {
             if (!(in_grouping_b(g_vowel3, 97, 305))) {
               break lab11;
             }
@@ -323,16 +335,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab12: do {
+      lab12:
+      do {
         // (, line 119
         // literal, line 119
         if (!(eq_s_b(1, "i"))) {
           break lab12;
         }
         // goto, line 119
-        golab13: while (true) {
+        golab13:
+        while (true) {
           v_7 = limit - cursor;
-          lab14: do {
+          lab14:
+          do {
             if (!(in_grouping_b(g_vowel4, 101, 105))) {
               break lab14;
             }
@@ -348,16 +363,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab15: do {
+      lab15:
+      do {
         // (, line 120
         // literal, line 120
         if (!(eq_s_b(1, "o"))) {
           break lab15;
         }
         // goto, line 120
-        golab16: while (true) {
+        golab16:
+        while (true) {
           v_8 = limit - cursor;
-          lab17: do {
+          lab17:
+          do {
             if (!(in_grouping_b(g_vowel5, 111, 117))) {
               break lab17;
             }
@@ -373,16 +391,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab18: do {
+      lab18:
+      do {
         // (, line 121
         // literal, line 121
         if (!(eq_s_b(1, "\u00F6"))) {
           break lab18;
         }
         // goto, line 121
-        golab19: while (true) {
+        golab19:
+        while (true) {
           v_9 = limit - cursor;
-          lab20: do {
+          lab20:
+          do {
             if (!(in_grouping_b(g_vowel6, 246, 252))) {
               break lab20;
             }
@@ -398,16 +419,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab21: do {
+      lab21:
+      do {
         // (, line 122
         // literal, line 122
         if (!(eq_s_b(1, "u"))) {
           break lab21;
         }
         // goto, line 122
-        golab22: while (true) {
+        golab22:
+        while (true) {
           v_10 = limit - cursor;
-          lab23: do {
+          lab23:
+          do {
             if (!(in_grouping_b(g_vowel5, 111, 117))) {
               break lab23;
             }
@@ -429,9 +453,11 @@ public class turkishStemmer extends SnowballStemmer {
         return false;
       }
       // goto, line 123
-      golab24: while (true) {
+      golab24:
+      while (true) {
         v_11 = limit - cursor;
-        lab25: do {
+        lab25:
+        do {
           if (!(in_grouping_b(g_vowel6, 246, 252))) {
             break lab25;
           }
@@ -459,9 +485,11 @@ public class turkishStemmer extends SnowballStemmer {
     int v_7;
     // (, line 132
     // or, line 134
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 133
         // (, line 133
         // test, line 133
@@ -491,7 +519,8 @@ public class turkishStemmer extends SnowballStemmer {
       // not, line 135
       {
         v_4 = limit - cursor;
-        lab2: do {
+        lab2:
+        do {
           // (, line 135
           // test, line 135
           v_5 = limit - cursor;
@@ -534,9 +563,11 @@ public class turkishStemmer extends SnowballStemmer {
     int v_7;
     // (, line 143
     // or, line 145
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 144
         // (, line 144
         // test, line 144
@@ -566,7 +597,8 @@ public class turkishStemmer extends SnowballStemmer {
       // not, line 146
       {
         v_4 = limit - cursor;
-        lab2: do {
+        lab2:
+        do {
           // (, line 146
           // test, line 146
           v_5 = limit - cursor;
@@ -609,9 +641,11 @@ public class turkishStemmer extends SnowballStemmer {
     int v_7;
     // (, line 153
     // or, line 155
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 154
         // (, line 154
         // test, line 154
@@ -641,7 +675,8 @@ public class turkishStemmer extends SnowballStemmer {
       // not, line 156
       {
         v_4 = limit - cursor;
-        lab2: do {
+        lab2:
+        do {
           // (, line 156
           // test, line 156
           v_5 = limit - cursor;
@@ -684,9 +719,11 @@ public class turkishStemmer extends SnowballStemmer {
     int v_7;
     // (, line 159
     // or, line 161
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 160
         // (, line 160
         // test, line 160
@@ -715,7 +752,8 @@ public class turkishStemmer extends SnowballStemmer {
       // not, line 162
       {
         v_4 = limit - cursor;
-        lab2: do {
+        lab2:
+        do {
           // (, line 162
           // test, line 162
           v_5 = limit - cursor;
@@ -1150,14 +1188,18 @@ public class turkishStemmer extends SnowballStemmer {
     // set continue_stemming_noun_suffixes, line 313
     B_continue_stemming_noun_suffixes = true;
     // or, line 315
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 314
         // or, line 314
-        lab2: do {
+        lab2:
+        do {
           v_2 = limit - cursor;
-          lab3: do {
+          lab3:
+          do {
             // call mark_ymUs_, line 314
             if (!r_mark_ymUs_()) {
               break lab3;
@@ -1165,7 +1207,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab2;
           } while (false);
           cursor = limit - v_2;
-          lab4: do {
+          lab4:
+          do {
             // call mark_yDU, line 314
             if (!r_mark_yDU()) {
               break lab4;
@@ -1173,7 +1216,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab2;
           } while (false);
           cursor = limit - v_2;
-          lab5: do {
+          lab5:
+          do {
             // call mark_ysA, line 314
             if (!r_mark_ysA()) {
               break lab5;
@@ -1189,7 +1233,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab6: do {
+      lab6:
+      do {
         // (, line 316
         // call mark_cAsInA, line 316
         if (!r_mark_cAsInA()) {
@@ -1197,9 +1242,11 @@ public class turkishStemmer extends SnowballStemmer {
         }
         // (, line 316
         // or, line 316
-        lab7: do {
+        lab7:
+        do {
           v_3 = limit - cursor;
-          lab8: do {
+          lab8:
+          do {
             // call mark_sUnUz, line 316
             if (!r_mark_sUnUz()) {
               break lab8;
@@ -1207,7 +1254,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab7;
           } while (false);
           cursor = limit - v_3;
-          lab9: do {
+          lab9:
+          do {
             // call mark_lAr, line 316
             if (!r_mark_lAr()) {
               break lab9;
@@ -1215,7 +1263,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab7;
           } while (false);
           cursor = limit - v_3;
-          lab10: do {
+          lab10:
+          do {
             // call mark_yUm, line 316
             if (!r_mark_yUm()) {
               break lab10;
@@ -1223,7 +1272,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab7;
           } while (false);
           cursor = limit - v_3;
-          lab11: do {
+          lab11:
+          do {
             // call mark_sUn, line 316
             if (!r_mark_sUn()) {
               break lab11;
@@ -1231,7 +1281,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab7;
           } while (false);
           cursor = limit - v_3;
-          lab12: do {
+          lab12:
+          do {
             // call mark_yUz, line 316
             if (!r_mark_yUz()) {
               break lab12;
@@ -1247,7 +1298,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab13: do {
+      lab13:
+      do {
         // (, line 318
         // call mark_lAr, line 319
         if (!r_mark_lAr()) {
@@ -1259,15 +1311,18 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 319
         v_4 = limit - cursor;
-        lab14: do {
+        lab14:
+        do {
           // (, line 319
           // [, line 319
           ket = cursor;
           // (, line 319
           // or, line 319
-          lab15: do {
+          lab15:
+          do {
             v_5 = limit - cursor;
-            lab16: do {
+            lab16:
+            do {
               // call mark_DUr, line 319
               if (!r_mark_DUr()) {
                 break lab16;
@@ -1275,7 +1330,8 @@ public class turkishStemmer extends SnowballStemmer {
               break lab15;
             } while (false);
             cursor = limit - v_5;
-            lab17: do {
+            lab17:
+            do {
               // call mark_yDU, line 319
               if (!r_mark_yDU()) {
                 break lab17;
@@ -1283,7 +1339,8 @@ public class turkishStemmer extends SnowballStemmer {
               break lab15;
             } while (false);
             cursor = limit - v_5;
-            lab18: do {
+            lab18:
+            do {
               // call mark_ysA, line 319
               if (!r_mark_ysA()) {
                 break lab18;
@@ -1303,7 +1360,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab19: do {
+      lab19:
+      do {
         // (, line 323
         // call mark_nUz, line 323
         if (!r_mark_nUz()) {
@@ -1311,9 +1369,11 @@ public class turkishStemmer extends SnowballStemmer {
         }
         // (, line 323
         // or, line 323
-        lab20: do {
+        lab20:
+        do {
           v_6 = limit - cursor;
-          lab21: do {
+          lab21:
+          do {
             // call mark_yDU, line 323
             if (!r_mark_yDU()) {
               break lab21;
@@ -1329,13 +1389,16 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab22: do {
+      lab22:
+      do {
         // (, line 325
         // (, line 325
         // or, line 325
-        lab23: do {
+        lab23:
+        do {
           v_7 = limit - cursor;
-          lab24: do {
+          lab24:
+          do {
             // call mark_sUnUz, line 325
             if (!r_mark_sUnUz()) {
               break lab24;
@@ -1343,7 +1406,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab23;
           } while (false);
           cursor = limit - v_7;
-          lab25: do {
+          lab25:
+          do {
             // call mark_yUz, line 325
             if (!r_mark_yUz()) {
               break lab25;
@@ -1351,7 +1415,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab23;
           } while (false);
           cursor = limit - v_7;
-          lab26: do {
+          lab26:
+          do {
             // call mark_sUn, line 325
             if (!r_mark_sUn()) {
               break lab26;
@@ -1370,7 +1435,8 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 325
         v_8 = limit - cursor;
-        lab27: do {
+        lab27:
+        do {
           // (, line 325
           // [, line 325
           ket = cursor;
@@ -1394,15 +1460,18 @@ public class turkishStemmer extends SnowballStemmer {
       slice_del();
       // try, line 327
       v_9 = limit - cursor;
-      lab28: do {
+      lab28:
+      do {
         // (, line 327
         // [, line 327
         ket = cursor;
         // (, line 327
         // or, line 327
-        lab29: do {
+        lab29:
+        do {
           v_10 = limit - cursor;
-          lab30: do {
+          lab30:
+          do {
             // call mark_sUnUz, line 327
             if (!r_mark_sUnUz()) {
               break lab30;
@@ -1410,7 +1479,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab29;
           } while (false);
           cursor = limit - v_10;
-          lab31: do {
+          lab31:
+          do {
             // call mark_lAr, line 327
             if (!r_mark_lAr()) {
               break lab31;
@@ -1418,7 +1488,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab29;
           } while (false);
           cursor = limit - v_10;
-          lab32: do {
+          lab32:
+          do {
             // call mark_yUm, line 327
             if (!r_mark_yUm()) {
               break lab32;
@@ -1426,7 +1497,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab29;
           } while (false);
           cursor = limit - v_10;
-          lab33: do {
+          lab33:
+          do {
             // call mark_sUn, line 327
             if (!r_mark_sUn()) {
               break lab33;
@@ -1434,7 +1506,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab29;
           } while (false);
           cursor = limit - v_10;
-          lab34: do {
+          lab34:
+          do {
             // call mark_yUz, line 327
             if (!r_mark_yUz()) {
               break lab34;
@@ -1478,9 +1551,11 @@ public class turkishStemmer extends SnowballStemmer {
     }
     // (, line 335
     // or, line 342
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 336
         // call mark_DA, line 336
         if (!r_mark_DA()) {
@@ -1492,14 +1567,17 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 336
         v_2 = limit - cursor;
-        lab2: do {
+        lab2:
+        do {
           // (, line 336
           // [, line 336
           ket = cursor;
           // or, line 338
-          lab3: do {
+          lab3:
+          do {
             v_3 = limit - cursor;
-            lab4: do {
+            lab4:
+            do {
               // (, line 337
               // call mark_lAr, line 337
               if (!r_mark_lAr()) {
@@ -1511,7 +1589,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 337
               v_4 = limit - cursor;
-              lab5: do {
+              lab5:
+              do {
                 // (, line 337
                 // call stem_suffix_chain_before_ki, line 337
                 if (!r_stem_suffix_chain_before_ki()) {
@@ -1534,7 +1613,8 @@ public class turkishStemmer extends SnowballStemmer {
             slice_del();
             // try, line 339
             v_5 = limit - cursor;
-            lab6: do {
+            lab6:
+            do {
               // (, line 339
               // [, line 339
               ket = cursor;
@@ -1558,7 +1638,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab7: do {
+      lab7:
+      do {
         // (, line 343
         // call mark_nUn, line 343
         if (!r_mark_nUn()) {
@@ -1570,14 +1651,17 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 343
         v_6 = limit - cursor;
-        lab8: do {
+        lab8:
+        do {
           // (, line 343
           // [, line 343
           ket = cursor;
           // or, line 345
-          lab9: do {
+          lab9:
+          do {
             v_7 = limit - cursor;
-            lab10: do {
+            lab10:
+            do {
               // (, line 344
               // call mark_lArI, line 344
               if (!r_mark_lArI()) {
@@ -1590,14 +1674,17 @@ public class turkishStemmer extends SnowballStemmer {
               break lab9;
             } while (false);
             cursor = limit - v_7;
-            lab11: do {
+            lab11:
+            do {
               // (, line 346
               // [, line 346
               ket = cursor;
               // or, line 346
-              lab12: do {
+              lab12:
+              do {
                 v_8 = limit - cursor;
-                lab13: do {
+                lab13:
+                do {
                   // call mark_possessives, line 346
                   if (!r_mark_possessives()) {
                     break lab13;
@@ -1616,7 +1703,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 346
               v_9 = limit - cursor;
-              lab14: do {
+              lab14:
+              do {
                 // (, line 346
                 // [, line 346
                 ket = cursor;
@@ -1656,9 +1744,11 @@ public class turkishStemmer extends SnowballStemmer {
       }
       // (, line 351
       // or, line 353
-      lab15: do {
+      lab15:
+      do {
         v_10 = limit - cursor;
-        lab16: do {
+        lab16:
+        do {
           // (, line 352
           // call mark_lArI, line 352
           if (!r_mark_lArI()) {
@@ -1671,7 +1761,8 @@ public class turkishStemmer extends SnowballStemmer {
           break lab15;
         } while (false);
         cursor = limit - v_10;
-        lab17: do {
+        lab17:
+        do {
           // (, line 354
           // (, line 354
           // call mark_sU, line 354
@@ -1684,7 +1775,8 @@ public class turkishStemmer extends SnowballStemmer {
           slice_del();
           // try, line 354
           v_11 = limit - cursor;
-          lab18: do {
+          lab18:
+          do {
             // (, line 354
             // [, line 354
             ket = cursor;
@@ -1746,9 +1838,11 @@ public class turkishStemmer extends SnowballStemmer {
     int v_27;
     // (, line 361
     // or, line 363
-    lab0: do {
+    lab0:
+    do {
       v_1 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 362
         // [, line 362
         ket = cursor;
@@ -1762,7 +1856,8 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 362
         v_2 = limit - cursor;
-        lab2: do {
+        lab2:
+        do {
           // (, line 362
           // call stem_suffix_chain_before_ki, line 362
           if (!r_stem_suffix_chain_before_ki()) {
@@ -1773,7 +1868,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab3: do {
+      lab3:
+      do {
         // (, line 364
         // [, line 364
         ket = cursor;
@@ -1787,12 +1883,15 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 365
         v_3 = limit - cursor;
-        lab4: do {
+        lab4:
+        do {
           // (, line 365
           // or, line 367
-          lab5: do {
+          lab5:
+          do {
             v_4 = limit - cursor;
-            lab6: do {
+            lab6:
+            do {
               // (, line 366
               // [, line 366
               ket = cursor;
@@ -1807,14 +1906,17 @@ public class turkishStemmer extends SnowballStemmer {
               break lab5;
             } while (false);
             cursor = limit - v_4;
-            lab7: do {
+            lab7:
+            do {
               // (, line 368
               // [, line 368
               ket = cursor;
               // or, line 368
-              lab8: do {
+              lab8:
+              do {
                 v_5 = limit - cursor;
-                lab9: do {
+                lab9:
+                do {
                   // call mark_possessives, line 368
                   if (!r_mark_possessives()) {
                     break lab9;
@@ -1833,7 +1935,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 368
               v_6 = limit - cursor;
-              lab10: do {
+              lab10:
+              do {
                 // (, line 368
                 // [, line 368
                 ket = cursor;
@@ -1877,15 +1980,18 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab11: do {
+      lab11:
+      do {
         // (, line 374
         // [, line 374
         ket = cursor;
         // (, line 374
         // or, line 374
-        lab12: do {
+        lab12:
+        do {
           v_7 = limit - cursor;
-          lab13: do {
+          lab13:
+          do {
             // call mark_ndA, line 374
             if (!r_mark_ndA()) {
               break lab13;
@@ -1900,9 +2006,11 @@ public class turkishStemmer extends SnowballStemmer {
         } while (false);
         // (, line 375
         // or, line 377
-        lab14: do {
+        lab14:
+        do {
           v_8 = limit - cursor;
-          lab15: do {
+          lab15:
+          do {
             // (, line 376
             // call mark_lArI, line 376
             if (!r_mark_lArI()) {
@@ -1915,7 +2023,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab14;
           } while (false);
           cursor = limit - v_8;
-          lab16: do {
+          lab16:
+          do {
             // (, line 378
             // call mark_sU, line 378
             if (!r_mark_sU()) {
@@ -1927,7 +2036,8 @@ public class turkishStemmer extends SnowballStemmer {
             slice_del();
             // try, line 378
             v_9 = limit - cursor;
-            lab17: do {
+            lab17:
+            do {
               // (, line 378
               // [, line 378
               ket = cursor;
@@ -1958,15 +2068,18 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab18: do {
+      lab18:
+      do {
         // (, line 384
         // [, line 384
         ket = cursor;
         // (, line 384
         // or, line 384
-        lab19: do {
+        lab19:
+        do {
           v_10 = limit - cursor;
-          lab20: do {
+          lab20:
+          do {
             // call mark_ndAn, line 384
             if (!r_mark_ndAn()) {
               break lab20;
@@ -1981,9 +2094,11 @@ public class turkishStemmer extends SnowballStemmer {
         } while (false);
         // (, line 384
         // or, line 384
-        lab21: do {
+        lab21:
+        do {
           v_11 = limit - cursor;
-          lab22: do {
+          lab22:
+          do {
             // (, line 384
             // call mark_sU, line 384
             if (!r_mark_sU()) {
@@ -1995,7 +2110,8 @@ public class turkishStemmer extends SnowballStemmer {
             slice_del();
             // try, line 384
             v_12 = limit - cursor;
-            lab23: do {
+            lab23:
+            do {
               // (, line 384
               // [, line 384
               ket = cursor;
@@ -2026,7 +2142,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab24: do {
+      lab24:
+      do {
         // (, line 386
         // [, line 386
         ket = cursor;
@@ -2040,15 +2157,18 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 386
         v_13 = limit - cursor;
-        lab25: do {
+        lab25:
+        do {
           // (, line 386
           // [, line 386
           ket = cursor;
           // (, line 387
           // or, line 389
-          lab26: do {
+          lab26:
+          do {
             v_14 = limit - cursor;
-            lab27: do {
+            lab27:
+            do {
               // (, line 388
               // call mark_possessives, line 388
               if (!r_mark_possessives()) {
@@ -2060,7 +2180,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 388
               v_15 = limit - cursor;
-              lab28: do {
+              lab28:
+              do {
                 // (, line 388
                 // [, line 388
                 ket = cursor;
@@ -2082,7 +2203,8 @@ public class turkishStemmer extends SnowballStemmer {
               break lab26;
             } while (false);
             cursor = limit - v_14;
-            lab29: do {
+            lab29:
+            do {
               // (, line 390
               // call mark_lAr, line 390
               if (!r_mark_lAr()) {
@@ -2094,7 +2216,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 390
               v_16 = limit - cursor;
-              lab30: do {
+              lab30:
+              do {
                 // (, line 390
                 // call stem_suffix_chain_before_ki, line 390
                 if (!r_stem_suffix_chain_before_ki()) {
@@ -2116,14 +2239,17 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab31: do {
+      lab31:
+      do {
         // (, line 396
         // [, line 396
         ket = cursor;
         // or, line 396
-        lab32: do {
+        lab32:
+        do {
           v_17 = limit - cursor;
-          lab33: do {
+          lab33:
+          do {
             // call mark_nUn, line 396
             if (!r_mark_nUn()) {
               break lab33;
@@ -2142,12 +2268,15 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 397
         v_18 = limit - cursor;
-        lab34: do {
+        lab34:
+        do {
           // (, line 397
           // or, line 399
-          lab35: do {
+          lab35:
+          do {
             v_19 = limit - cursor;
-            lab36: do {
+            lab36:
+            do {
               // (, line 398
               // [, line 398
               ket = cursor;
@@ -2166,14 +2295,17 @@ public class turkishStemmer extends SnowballStemmer {
               break lab35;
             } while (false);
             cursor = limit - v_19;
-            lab37: do {
+            lab37:
+            do {
               // (, line 400
               // [, line 400
               ket = cursor;
               // or, line 400
-              lab38: do {
+              lab38:
+              do {
                 v_20 = limit - cursor;
-                lab39: do {
+                lab39:
+                do {
                   // call mark_possessives, line 400
                   if (!r_mark_possessives()) {
                     break lab39;
@@ -2192,7 +2324,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 400
               v_21 = limit - cursor;
-              lab40: do {
+              lab40:
+              do {
                 // (, line 400
                 // [, line 400
                 ket = cursor;
@@ -2224,7 +2357,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab41: do {
+      lab41:
+      do {
         // (, line 406
         // [, line 406
         ket = cursor;
@@ -2239,7 +2373,8 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab42: do {
+      lab42:
+      do {
         // (, line 408
         // call stem_suffix_chain_before_ki, line 408
         if (!r_stem_suffix_chain_before_ki()) {
@@ -2248,14 +2383,17 @@ public class turkishStemmer extends SnowballStemmer {
         break lab0;
       } while (false);
       cursor = limit - v_1;
-      lab43: do {
+      lab43:
+      do {
         // (, line 410
         // [, line 410
         ket = cursor;
         // or, line 410
-        lab44: do {
+        lab44:
+        do {
           v_22 = limit - cursor;
-          lab45: do {
+          lab45:
+          do {
             // call mark_DA, line 410
             if (!r_mark_DA()) {
               break lab45;
@@ -2263,7 +2401,8 @@ public class turkishStemmer extends SnowballStemmer {
             break lab44;
           } while (false);
           cursor = limit - v_22;
-          lab46: do {
+          lab46:
+          do {
             // call mark_yU, line 410
             if (!r_mark_yU()) {
               break lab46;
@@ -2282,15 +2421,18 @@ public class turkishStemmer extends SnowballStemmer {
         slice_del();
         // try, line 410
         v_23 = limit - cursor;
-        lab47: do {
+        lab47:
+        do {
           // (, line 410
           // [, line 410
           ket = cursor;
           // (, line 410
           // or, line 410
-          lab48: do {
+          lab48:
+          do {
             v_24 = limit - cursor;
-            lab49: do {
+            lab49:
+            do {
               // (, line 410
               // call mark_possessives, line 410
               if (!r_mark_possessives()) {
@@ -2302,7 +2444,8 @@ public class turkishStemmer extends SnowballStemmer {
               slice_del();
               // try, line 410
               v_25 = limit - cursor;
-              lab50: do {
+              lab50:
+              do {
                 // (, line 410
                 // [, line 410
                 ket = cursor;
@@ -2340,9 +2483,11 @@ public class turkishStemmer extends SnowballStemmer {
       // [, line 412
       ket = cursor;
       // or, line 412
-      lab51: do {
+      lab51:
+      do {
         v_26 = limit - cursor;
-        lab52: do {
+        lab52:
+        do {
           // call mark_possessives, line 412
           if (!r_mark_possessives()) {
             break lab52;
@@ -2361,7 +2506,8 @@ public class turkishStemmer extends SnowballStemmer {
       slice_del();
       // try, line 412
       v_27 = limit - cursor;
-      lab53: do {
+      lab53:
+      do {
         // (, line 412
         // [, line 412
         ket = cursor;
@@ -2397,28 +2543,28 @@ public class turkishStemmer extends SnowballStemmer {
     // ], line 416
     bra = cursor;
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 417
-      // <-, line 417
-      slice_from("p");
-      break;
-    case 2:
-      // (, line 418
-      // <-, line 418
-      slice_from("\u00E7");
-      break;
-    case 3:
-      // (, line 419
-      // <-, line 419
-      slice_from("t");
-      break;
-    case 4:
-      // (, line 420
-      // <-, line 420
-      slice_from("k");
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 417
+        // <-, line 417
+        slice_from("p");
+        break;
+      case 2:
+        // (, line 418
+        // <-, line 418
+        slice_from("\u00E7");
+        break;
+      case 3:
+        // (, line 419
+        // <-, line 419
+        slice_from("t");
+        break;
+      case 4:
+        // (, line 420
+        // <-, line 420
+        slice_from("k");
+        break;
     }
     return true;
   }
@@ -2444,9 +2590,11 @@ public class turkishStemmer extends SnowballStemmer {
     v_1 = limit - cursor;
     // (, line 431
     // or, line 431
-    lab0: do {
+    lab0:
+    do {
       v_2 = limit - cursor;
-      lab1: do {
+      lab1:
+      do {
         // literal, line 431
         if (!(eq_s_b(1, "d"))) {
           break lab1;
@@ -2461,18 +2609,22 @@ public class turkishStemmer extends SnowballStemmer {
     } while (false);
     cursor = limit - v_1;
     // or, line 433
-    lab2: do {
+    lab2:
+    do {
       v_3 = limit - cursor;
-      lab3: do {
+      lab3:
+      do {
         // (, line 432
         // test, line 432
         v_4 = limit - cursor;
         // (, line 432
         // (, line 432
         // goto, line 432
-        golab4: while (true) {
+        golab4:
+        while (true) {
           v_5 = limit - cursor;
-          lab5: do {
+          lab5:
+          do {
             if (!(in_grouping_b(g_vowel, 97, 305))) {
               break lab5;
             }
@@ -2486,9 +2638,11 @@ public class turkishStemmer extends SnowballStemmer {
           cursor--;
         }
         // or, line 432
-        lab6: do {
+        lab6:
+        do {
           v_6 = limit - cursor;
-          lab7: do {
+          lab7:
+          do {
             // literal, line 432
             if (!(eq_s_b(1, "a"))) {
               break lab7;
@@ -2511,16 +2665,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab8: do {
+      lab8:
+      do {
         // (, line 434
         // test, line 434
         v_7 = limit - cursor;
         // (, line 434
         // (, line 434
         // goto, line 434
-        golab9: while (true) {
+        golab9:
+        while (true) {
           v_8 = limit - cursor;
-          lab10: do {
+          lab10:
+          do {
             if (!(in_grouping_b(g_vowel, 97, 305))) {
               break lab10;
             }
@@ -2534,9 +2691,11 @@ public class turkishStemmer extends SnowballStemmer {
           cursor--;
         }
         // or, line 434
-        lab11: do {
+        lab11:
+        do {
           v_9 = limit - cursor;
-          lab12: do {
+          lab12:
+          do {
             // literal, line 434
             if (!(eq_s_b(1, "e"))) {
               break lab12;
@@ -2559,16 +2718,19 @@ public class turkishStemmer extends SnowballStemmer {
         break lab2;
       } while (false);
       cursor = limit - v_3;
-      lab13: do {
+      lab13:
+      do {
         // (, line 436
         // test, line 436
         v_10 = limit - cursor;
         // (, line 436
         // (, line 436
         // goto, line 436
-        golab14: while (true) {
+        golab14:
+        while (true) {
           v_11 = limit - cursor;
-          lab15: do {
+          lab15:
+          do {
             if (!(in_grouping_b(g_vowel, 97, 305))) {
               break lab15;
             }
@@ -2582,9 +2744,11 @@ public class turkishStemmer extends SnowballStemmer {
           cursor--;
         }
         // or, line 436
-        lab16: do {
+        lab16:
+        do {
           v_12 = limit - cursor;
-          lab17: do {
+          lab17:
+          do {
             // literal, line 436
             if (!(eq_s_b(1, "o"))) {
               break lab17;
@@ -2613,9 +2777,11 @@ public class turkishStemmer extends SnowballStemmer {
       // (, line 438
       // (, line 438
       // goto, line 438
-      golab18: while (true) {
+      golab18:
+      while (true) {
         v_14 = limit - cursor;
-        lab19: do {
+        lab19:
+        do {
           if (!(in_grouping_b(g_vowel, 97, 305))) {
             break lab19;
           }
@@ -2629,9 +2795,11 @@ public class turkishStemmer extends SnowballStemmer {
         cursor--;
       }
       // or, line 438
-      lab20: do {
+      lab20:
+      do {
         v_15 = limit - cursor;
-        lab21: do {
+        lab21:
+        do {
           // literal, line 438
           if (!(eq_s_b(1, "\u00F6"))) {
             break lab21;
@@ -2666,13 +2834,17 @@ public class turkishStemmer extends SnowballStemmer {
     {
       int v_2 = 2;
       // atleast, line 446
-      replab0: while (true) {
+      replab0:
+      while (true) {
         v_3 = cursor;
-        lab1: do {
+        lab1:
+        do {
           // (, line 446
           // gopast, line 446
-          golab2: while (true) {
-            lab3: do {
+          golab2:
+          while (true) {
+            lab3:
+            do {
               if (!(in_grouping(g_vowel, 97, 305))) {
                 break lab3;
               }
@@ -2703,15 +2875,19 @@ public class turkishStemmer extends SnowballStemmer {
     int v_4;
     // (, line 449
     // or, line 451
-    lab0: do {
+    lab0:
+    do {
       v_1 = cursor;
-      lab1: do {
+      lab1:
+      do {
         // test, line 450
         v_2 = cursor;
         // (, line 450
         // gopast, line 450
-        golab2: while (true) {
-          lab3: do {
+        golab2:
+        while (true) {
+          lab3:
+          do {
             // literal, line 450
             if (!(eq_s(2, "ad"))) {
               break lab3;
@@ -2737,8 +2913,10 @@ public class turkishStemmer extends SnowballStemmer {
       v_4 = cursor;
       // (, line 452
       // gopast, line 452
-      golab4: while (true) {
-        lab5: do {
+      golab4:
+      while (true) {
+        lab5:
+        do {
           // literal, line 452
           if (!(eq_s(5, "soyad"))) {
             break lab5;
@@ -2769,7 +2947,8 @@ public class turkishStemmer extends SnowballStemmer {
     // not, line 456
     {
       v_1 = cursor;
-      lab0: do {
+      lab0:
+      do {
         // (, line 456
         // call is_reserved_word, line 456
         if (!r_is_reserved_word()) {
@@ -2785,7 +2964,8 @@ public class turkishStemmer extends SnowballStemmer {
     // (, line 457
     // do, line 458
     v_2 = limit - cursor;
-    lab1: do {
+    lab1:
+    do {
       // call append_U_to_stems_ending_with_d_or_g, line 458
       if (!r_append_U_to_stems_ending_with_d_or_g()) {
         break lab1;
@@ -2794,7 +2974,8 @@ public class turkishStemmer extends SnowballStemmer {
     cursor = limit - v_2;
     // do, line 459
     v_3 = limit - cursor;
-    lab2: do {
+    lab2:
+    do {
       // call post_process_last_consonants, line 459
       if (!r_post_process_last_consonants()) {
         break lab2;
@@ -2821,7 +3002,8 @@ public class turkishStemmer extends SnowballStemmer {
     // (, line 467
     // do, line 468
     v_1 = limit - cursor;
-    lab0: do {
+    lab0:
+    do {
       // call stem_nominal_verb_suffixes, line 468
       if (!r_stem_nominal_verb_suffixes()) {
         break lab0;
@@ -2834,7 +3016,8 @@ public class turkishStemmer extends SnowballStemmer {
     }
     // do, line 470
     v_2 = limit - cursor;
-    lab1: do {
+    lab1:
+    do {
       // call stem_noun_suffixes, line 470
       if (!r_stem_noun_suffixes()) {
         break lab1;

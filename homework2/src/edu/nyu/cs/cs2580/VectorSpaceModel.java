@@ -1,20 +1,14 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Vector;
-
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+
+import java.util.*;
 
 public class VectorSpaceModel extends Ranker {
 
   public VectorSpaceModel(Options options, CgiArguments arguments,
-      Indexer indexer) {
+                          Indexer indexer) {
     super(options, arguments, indexer);
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
@@ -71,7 +65,7 @@ public class VectorSpaceModel extends Ranker {
   }
 
   private double cosineSimilarity(DocumentFull document,
-      Map<String, Integer> queryMap) {
+                                  Map<String, Integer> queryMap) {
     int numOfDocTerms = document.getConvertedBodyTokens().size()
         + document.getConvertedTitleTokens().size();
     List<String> allTerms = new ArrayList<String>();
@@ -133,7 +127,7 @@ public class VectorSpaceModel extends Ranker {
   }
 
   private double getDocumentTermWeights(Map<String, Double> termFrequencyMap,
-      int numOfDocTerms, String term) {
+                                        int numOfDocTerms, String term) {
     double tf_ik = getTermFrequencyWeight(termFrequencyMap, numOfDocTerms, term);
     double idf_k = getInverseDocumentFrequency(term);
 
@@ -141,7 +135,7 @@ public class VectorSpaceModel extends Ranker {
   }
 
   private double getTermFrequencyWeight(Map<String, Double> termFrequencyMap,
-      int numOfDocTerms, String term) {
+                                        int numOfDocTerms, String term) {
     double tf_ik = 0.0;
     double f_ik = termFrequencyMap.get(term);
 

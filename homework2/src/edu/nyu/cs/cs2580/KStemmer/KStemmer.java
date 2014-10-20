@@ -69,133 +69,133 @@ package edu.nyu.cs.cs2580.KStemmer;
 public class KStemmer {
   static private final int MaxWordLen = 50;
 
-  static private final String[] exceptionWords = { "aide", "bathe", "caste",
+  static private final String[] exceptionWords = {"aide", "bathe", "caste",
       "cute", "dame", "dime", "doge", "done", "dune", "envelope", "gage",
       "grille", "grippe", "lobe", "mane", "mare", "nape", "node", "pane",
       "pate", "plane", "pope", "programme", "quite", "ripe", "rote", "rune",
       "sage", "severe", "shoppe", "sine", "slime", "snipe", "steppe", "suite",
-      "swinge", "tare", "tine", "tope", "tripe", "twine" };
+      "swinge", "tare", "tine", "tope", "tripe", "twine"};
 
-  static private final String[][] directConflations = { { "aging", "age" },
-      { "going", "go" }, { "goes", "go" }, { "lying", "lie" },
-      { "using", "use" }, { "owing", "owe" }, { "suing", "sue" },
-      { "dying", "die" }, { "tying", "tie" }, { "vying", "vie" },
-      { "aged", "age" }, { "used", "use" }, { "vied", "vie" },
-      { "cued", "cue" }, { "died", "die" }, { "eyed", "eye" },
-      { "hued", "hue" }, { "iced", "ice" }, { "lied", "lie" },
-      { "owed", "owe" }, { "sued", "sue" }, { "toed", "toe" },
-      { "tied", "tie" }, { "does", "do" }, { "doing", "do" },
-      { "aeronautical", "aeronautics" }, { "mathematical", "mathematics" },
-      { "political", "politics" }, { "metaphysical", "metaphysics" },
-      { "cylindrical", "cylinder" }, { "nazism", "nazi" },
-      { "ambiguity", "ambiguous" }, { "barbarity", "barbarous" },
-      { "credulity", "credulous" }, { "generosity", "generous" },
-      { "spontaneity", "spontaneous" }, { "unanimity", "unanimous" },
-      { "voracity", "voracious" }, { "fled", "flee" },
-      { "miscarriage", "miscarry" } };
+  static private final String[][] directConflations = {{"aging", "age"},
+      {"going", "go"}, {"goes", "go"}, {"lying", "lie"},
+      {"using", "use"}, {"owing", "owe"}, {"suing", "sue"},
+      {"dying", "die"}, {"tying", "tie"}, {"vying", "vie"},
+      {"aged", "age"}, {"used", "use"}, {"vied", "vie"},
+      {"cued", "cue"}, {"died", "die"}, {"eyed", "eye"},
+      {"hued", "hue"}, {"iced", "ice"}, {"lied", "lie"},
+      {"owed", "owe"}, {"sued", "sue"}, {"toed", "toe"},
+      {"tied", "tie"}, {"does", "do"}, {"doing", "do"},
+      {"aeronautical", "aeronautics"}, {"mathematical", "mathematics"},
+      {"political", "politics"}, {"metaphysical", "metaphysics"},
+      {"cylindrical", "cylinder"}, {"nazism", "nazi"},
+      {"ambiguity", "ambiguous"}, {"barbarity", "barbarous"},
+      {"credulity", "credulous"}, {"generosity", "generous"},
+      {"spontaneity", "spontaneous"}, {"unanimity", "unanimous"},
+      {"voracity", "voracious"}, {"fled", "flee"},
+      {"miscarriage", "miscarry"}};
 
   static private final String[][] countryNationality = {
-      { "afghan", "afghanistan" }, { "african", "africa" },
-      { "albanian", "albania" }, { "algerian", "algeria" },
-      { "american", "america" }, { "andorran", "andorra" },
-      { "angolan", "angola" }, { "arabian", "arabia" },
-      { "argentine", "argentina" }, { "armenian", "armenia" },
-      { "asian", "asia" }, { "australian", "australia" },
-      { "austrian", "austria" }, { "azerbaijani", "azerbaijan" },
-      { "azeri", "azerbaijan" }, { "bangladeshi", "bangladesh" },
-      { "belgian", "belgium" }, { "bermudan", "bermuda" },
-      { "bolivian", "bolivia" }, { "bosnian", "bosnia" },
-      { "botswanan", "botswana" }, { "brazilian", "brazil" },
-      { "british", "britain" }, { "bulgarian", "bulgaria" },
-      { "burmese", "burma" }, { "californian", "california" },
-      { "cambodian", "cambodia" }, { "canadian", "canada" },
-      { "chadian", "chad" }, { "chilean", "chile" }, { "chinese", "china" },
-      { "colombian", "colombia" }, { "croat", "croatia" },
-      { "croatian", "croatia" }, { "cuban", "cuba" }, { "cypriot", "cyprus" },
-      { "czechoslovakian", "czechoslovakia" }, { "danish", "denmark" },
-      { "egyptian", "egypt" }, { "equadorian", "equador" },
-      { "eritrean", "eritrea" }, { "estonian", "estonia" },
-      { "ethiopian", "ethiopia" }, { "european", "europe" },
-      { "fijian", "fiji" }, { "filipino", "philippines" },
-      { "finnish", "finland" }, { "french", "france" },
-      { "gambian", "gambia" }, { "georgian", "georgia" },
-      { "german", "germany" }, { "ghanian", "ghana" }, { "greek", "greece" },
-      { "grenadan", "grenada" }, { "guamian", "guam" },
-      { "guatemalan", "guatemala" }, { "guinean", "guinea" },
-      { "guyanan", "guyana" }, { "haitian", "haiti" },
-      { "hawaiian", "hawaii" },
-      { "holland", "dutch" },
-      { "honduran", "honduras" },
-      { "hungarian", "hungary" },
-      { "icelandic", "iceland" },
-      { "indonesian", "indonesia" },
-      { "iranian", "iran" },
-      { "iraqi", "iraq" },
-      { "iraqui", "iraq" },
-      { "irish", "ireland" },
-      { "israeli", "israel" },
-      { "italian", "italy" },
-      { "jamaican", "jamaica" },
-      { "japanese", "japan" },
-      { "jordanian", "jordan" },
-      { "kampuchean", "cambodia" },
-      { "kenyan", "kenya" },
-      { "korean", "korea" },
-      { "kuwaiti", "kuwait" },
-      { "lankan", "lanka" },
-      { "laotian", "laos" },
-      { "latvian", "latvia" },
-      { "lebanese", "lebanon" },
-      { "liberian", "liberia" },
-      { "libyan", "libya" },
-      { "lithuanian", "lithuania" },
-      { "macedonian", "macedonia" },
-      { "madagascan", "madagascar" },
-      { "malaysian", "malaysia" },
-      { "maltese", "malta" },
-      { "mauritanian", "mauritania" },
-      { "mexican", "mexico" },
-      { "micronesian", "micronesia" },
-      { "moldovan", "moldova" },
-      { "monacan", "monaco" },
-      { "mongolian", "mongolia" },
-      { "montenegran", "montenegro" },
-      { "moroccan", "morocco" },
-      { "myanmar", "burma" },
-      { "namibian", "namibia" },
-      { "nepalese", "nepal" },
+      {"afghan", "afghanistan"}, {"african", "africa"},
+      {"albanian", "albania"}, {"algerian", "algeria"},
+      {"american", "america"}, {"andorran", "andorra"},
+      {"angolan", "angola"}, {"arabian", "arabia"},
+      {"argentine", "argentina"}, {"armenian", "armenia"},
+      {"asian", "asia"}, {"australian", "australia"},
+      {"austrian", "austria"}, {"azerbaijani", "azerbaijan"},
+      {"azeri", "azerbaijan"}, {"bangladeshi", "bangladesh"},
+      {"belgian", "belgium"}, {"bermudan", "bermuda"},
+      {"bolivian", "bolivia"}, {"bosnian", "bosnia"},
+      {"botswanan", "botswana"}, {"brazilian", "brazil"},
+      {"british", "britain"}, {"bulgarian", "bulgaria"},
+      {"burmese", "burma"}, {"californian", "california"},
+      {"cambodian", "cambodia"}, {"canadian", "canada"},
+      {"chadian", "chad"}, {"chilean", "chile"}, {"chinese", "china"},
+      {"colombian", "colombia"}, {"croat", "croatia"},
+      {"croatian", "croatia"}, {"cuban", "cuba"}, {"cypriot", "cyprus"},
+      {"czechoslovakian", "czechoslovakia"}, {"danish", "denmark"},
+      {"egyptian", "egypt"}, {"equadorian", "equador"},
+      {"eritrean", "eritrea"}, {"estonian", "estonia"},
+      {"ethiopian", "ethiopia"}, {"european", "europe"},
+      {"fijian", "fiji"}, {"filipino", "philippines"},
+      {"finnish", "finland"}, {"french", "france"},
+      {"gambian", "gambia"}, {"georgian", "georgia"},
+      {"german", "germany"}, {"ghanian", "ghana"}, {"greek", "greece"},
+      {"grenadan", "grenada"}, {"guamian", "guam"},
+      {"guatemalan", "guatemala"}, {"guinean", "guinea"},
+      {"guyanan", "guyana"}, {"haitian", "haiti"},
+      {"hawaiian", "hawaii"},
+      {"holland", "dutch"},
+      {"honduran", "honduras"},
+      {"hungarian", "hungary"},
+      {"icelandic", "iceland"},
+      {"indonesian", "indonesia"},
+      {"iranian", "iran"},
+      {"iraqi", "iraq"},
+      {"iraqui", "iraq"},
+      {"irish", "ireland"},
+      {"israeli", "israel"},
+      {"italian", "italy"},
+      {"jamaican", "jamaica"},
+      {"japanese", "japan"},
+      {"jordanian", "jordan"},
+      {"kampuchean", "cambodia"},
+      {"kenyan", "kenya"},
+      {"korean", "korea"},
+      {"kuwaiti", "kuwait"},
+      {"lankan", "lanka"},
+      {"laotian", "laos"},
+      {"latvian", "latvia"},
+      {"lebanese", "lebanon"},
+      {"liberian", "liberia"},
+      {"libyan", "libya"},
+      {"lithuanian", "lithuania"},
+      {"macedonian", "macedonia"},
+      {"madagascan", "madagascar"},
+      {"malaysian", "malaysia"},
+      {"maltese", "malta"},
+      {"mauritanian", "mauritania"},
+      {"mexican", "mexico"},
+      {"micronesian", "micronesia"},
+      {"moldovan", "moldova"},
+      {"monacan", "monaco"},
+      {"mongolian", "mongolia"},
+      {"montenegran", "montenegro"},
+      {"moroccan", "morocco"},
+      {"myanmar", "burma"},
+      {"namibian", "namibia"},
+      {"nepalese", "nepal"},
       // {"netherlands", "dutch"},
-      { "nicaraguan", "nicaragua" }, { "nigerian", "nigeria" },
-      { "norwegian", "norway" }, { "omani", "oman" },
-      { "pakistani", "pakistan" }, { "panamanian", "panama" },
-      { "papuan", "papua" }, { "paraguayan", "paraguay" },
-      { "peruvian", "peru" }, { "portuguese", "portugal" },
-      { "romanian", "romania" }, { "rumania", "romania" },
-      { "rumanian", "romania" }, { "russian", "russia" },
-      { "rwandan", "rwanda" }, { "samoan", "samoa" },
-      { "scottish", "scotland" }, { "serb", "serbia" },
-      { "serbian", "serbia" }, { "siam", "thailand" },
-      { "siamese", "thailand" }, { "slovakia", "slovak" },
-      { "slovakian", "slovak" }, { "slovenian", "slovenia" },
-      { "somali", "somalia" }, { "somalian", "somalia" },
-      { "spanish", "spain" }, { "swedish", "sweden" },
-      { "swiss", "switzerland" }, { "syrian", "syria" },
-      { "taiwanese", "taiwan" }, { "tanzanian", "tanzania" },
-      { "texan", "texas" }, { "thai", "thailand" }, { "tunisian", "tunisia" },
-      { "turkish", "turkey" }, { "ugandan", "uganda" },
-      { "ukrainian", "ukraine" }, { "uruguayan", "uruguay" },
-      { "uzbek", "uzbekistan" }, { "venezuelan", "venezuela" },
-      { "vietnamese", "viet" }, { "virginian", "virginia" },
-      { "yemeni", "yemen" }, { "yugoslav", "yugoslavia" },
-      { "yugoslavian", "yugoslavia" }, { "zambian", "zambia" },
-      { "zealander", "zealand" }, { "zimbabwean", "zimbabwe" } };
+      {"nicaraguan", "nicaragua"}, {"nigerian", "nigeria"},
+      {"norwegian", "norway"}, {"omani", "oman"},
+      {"pakistani", "pakistan"}, {"panamanian", "panama"},
+      {"papuan", "papua"}, {"paraguayan", "paraguay"},
+      {"peruvian", "peru"}, {"portuguese", "portugal"},
+      {"romanian", "romania"}, {"rumania", "romania"},
+      {"rumanian", "romania"}, {"russian", "russia"},
+      {"rwandan", "rwanda"}, {"samoan", "samoa"},
+      {"scottish", "scotland"}, {"serb", "serbia"},
+      {"serbian", "serbia"}, {"siam", "thailand"},
+      {"siamese", "thailand"}, {"slovakia", "slovak"},
+      {"slovakian", "slovak"}, {"slovenian", "slovenia"},
+      {"somali", "somalia"}, {"somalian", "somalia"},
+      {"spanish", "spain"}, {"swedish", "sweden"},
+      {"swiss", "switzerland"}, {"syrian", "syria"},
+      {"taiwanese", "taiwan"}, {"tanzanian", "tanzania"},
+      {"texan", "texas"}, {"thai", "thailand"}, {"tunisian", "tunisia"},
+      {"turkish", "turkey"}, {"ugandan", "uganda"},
+      {"ukrainian", "ukraine"}, {"uruguayan", "uruguay"},
+      {"uzbek", "uzbekistan"}, {"venezuelan", "venezuela"},
+      {"vietnamese", "viet"}, {"virginian", "virginia"},
+      {"yemeni", "yemen"}, {"yugoslav", "yugoslavia"},
+      {"yugoslavian", "yugoslavia"}, {"zambian", "zambia"},
+      {"zealander", "zealand"}, {"zimbabwean", "zimbabwe"}};
 
-  static private final String[] supplementDict = { "aids", "applicator",
+  static private final String[] supplementDict = {"aids", "applicator",
       "capacitor", "digitize", "electromagnet", "ellipsoid", "exosphere",
       "extensible", "ferromagnet", "graphics", "hydromagnet", "polygraph",
-      "toroid", "superconduct", "backscatter", "connectionism" };
+      "toroid", "superconduct", "backscatter", "connectionism"};
 
-  static private final String[] properNouns = { "abrams", "achilles",
+  static private final String[] properNouns = {"abrams", "achilles",
       "acropolis", "adams", "agnes", "aires", "alexander", "alexis", "alfred",
       "algiers", "alps", "amadeus", "ames", "amos", "andes", "angeles",
       "annapolis", "antilles", "aquarius", "archimedes", "arkansas", "asher",
@@ -235,27 +235,26 @@ public class KStemmer {
       "boris", "borroughs", "briggs", "buenos", "calais", "caracas", "cassius",
       "cerberus", "ceres", "cervantes", "chantilly", "chartres", "chester",
       "connally", "conner", "coors", "cummings", "curtis", "daedalus",
-      "dionysus", "dobbs", "dolores", "edmonds" };
-
-  static class DictEntry {
-    boolean exception;
-    String root;
-
-    DictEntry(String root, boolean isException) {
-      this.root = root;
-      this.exception = isException;
-    }
-  }
-
+      "dionysus", "dobbs", "dolores", "edmonds"};
   private static final CharArrayMap<DictEntry> dict_ht = initializeDictHash();
-
-  /***
+  private static char[] ization = "ization".toCharArray();
+  private static char[] ition = "ition".toCharArray();
+  private static char[] ation = "ation".toCharArray();
+  private static char[] ication = "ication".toCharArray();
+  /**
    * caching off private int maxCacheSize; private CharArrayMap<String> cache =
    * null; private static final String SAME = "SAME"; // use if stemmed form is
    * the same
-   ***/
+   * *
+   */
 
   private final OpenStringBuilder word = new OpenStringBuilder();
+  /* Returns true if the word is found in the dictionary */
+  // almost all uses of lookup() return immediately and are
+  // followed by another lookup in the dict. Store the match
+  // to avoid this double lookup.
+  DictEntry matchedEntry = null;
+  String result;
   private int j; /* index of final letter in stem (within word) */
   private int k; /*
                   * INDEX of final letter in word. You must add 1 to k to get
@@ -263,34 +262,7 @@ public class KStemmer {
                   * word, use the method wordLength, which returns (k+1).
                   */
 
-  /***
-   * private void initializeStemHash() { if (maxCacheSize > 0) cache = new
-   * CharArrayMap<String>(maxCacheSize,false); }
-   ***/
-
-  private char finalChar() {
-    return word.charAt(k);
-  }
-
-  private char penultChar() {
-    return word.charAt(k - 1);
-  }
-
-  private boolean isVowel(int index) {
-    return !isCons(index);
-  }
-
-  private boolean isCons(int index) {
-    char ch;
-
-    ch = word.charAt(index);
-
-    if ((ch == 'a') || (ch == 'e') || (ch == 'i') || (ch == 'o') || (ch == 'u'))
-      return false;
-    if ((ch != 'y') || (index == 0))
-      return true;
-    else
-      return (!isCons(index - 1));
+  public KStemmer() {
   }
 
   private static CharArrayMap<DictEntry> initializeDictHash() {
@@ -432,6 +404,39 @@ public class KStemmer {
     return d;
   }
 
+  ;
+
+  /**
+   * private void initializeStemHash() { if (maxCacheSize > 0) cache = new
+   * CharArrayMap<String>(maxCacheSize,false); }
+   * *
+   */
+
+  private char finalChar() {
+    return word.charAt(k);
+  }
+
+  private char penultChar() {
+    return word.charAt(k - 1);
+  }
+
+  private boolean isVowel(int index) {
+    return !isCons(index);
+  }
+
+  private boolean isCons(int index) {
+    char ch;
+
+    ch = word.charAt(index);
+
+    if ((ch == 'a') || (ch == 'e') || (ch == 'i') || (ch == 'o') || (ch == 'u'))
+      return false;
+    if ((ch != 'y') || (index == 0))
+      return true;
+    else
+      return (!isCons(index - 1));
+  }
+
   private boolean isAlpha(char ch) {
     return ch >= 'a' && ch <= 'z'; // terms must be lowercased already
   }
@@ -439,7 +444,7 @@ public class KStemmer {
   /* length of stem within word */
   private int stemLength() {
     return j + 1;
-  };
+  }
 
   private boolean endsIn(char[] s) {
     if (s.length > k)
@@ -487,6 +492,8 @@ public class KStemmer {
     }
     return false;
   }
+
+  // Set<String> lookups = new HashSet<>();
 
   private DictEntry wordInDict() {
     /***
@@ -579,12 +586,6 @@ public class KStemmer {
     k = j + len;
   }
 
-  /* Returns true if the word is found in the dictionary */
-  // almost all uses of lookup() return immediately and are
-  // followed by another lookup in the dict. Store the match
-  // to avoid this double lookup.
-  DictEntry matchedEntry = null;
-
   private boolean lookup() {
     /******
      * debugging code String thisLookup = word.toString(); boolean added =
@@ -599,8 +600,6 @@ public class KStemmer {
     matchedEntry = dict_ht.get(word.getArray(), 0, word.size());
     return matchedEntry != null;
   }
-
-  // Set<String> lookups = new HashSet<>();
 
   /* convert past tense (-ed) to present, and `-ied' to `y' */
   private void pastTense() {
@@ -1048,11 +1047,6 @@ public class KStemmer {
     return;
   }
 
-  private static char[] ization = "ization".toCharArray();
-  private static char[] ition = "ition".toCharArray();
-  private static char[] ation = "ation".toCharArray();
-  private static char[] ication = "ication".toCharArray();
-
   /* handle some derivational endings */
   /*
    * this routine deals with -ion, -ition, -ation, -ization, and -ication. The
@@ -1433,9 +1427,6 @@ public class KStemmer {
     return;
   }
 
-  public KStemmer() {
-  }
-
   public String stem(String term) {
     boolean changed = stem(term.toCharArray(), term.length());
     if (!changed)
@@ -1468,8 +1459,6 @@ public class KStemmer {
   int getLength() {
     return word.length();
   }
-
-  String result;
 
   private boolean matched() {
     /***
@@ -1506,7 +1495,7 @@ public class KStemmer {
 
     /***
      * caching off is normally faster if (cache == null) initializeStemHash();
-     * 
+     *
      * // now check the cache, before we copy chars to "word" if (cache != null)
      * { String val = cache.get(term, 0, len); if (val != null) { if (val !=
      * SAME) { result = val; return true; } return false; } }
@@ -1611,12 +1600,22 @@ public class KStemmer {
      * if (entry == null) { if (!word.toString().equals(new String(term,0,len)))
      * { System.out.println("CASE:" + word.toString() + "," + new
      * String(term,0,len));
-     * 
+     *
      * } }
      ***/
 
     // no entry matched means result is "word"
     return true;
+  }
+
+  static class DictEntry {
+    boolean exception;
+    String root;
+
+    DictEntry(String root, boolean isException) {
+      this.root = root;
+      this.exception = isException;
+    }
   }
 
 }

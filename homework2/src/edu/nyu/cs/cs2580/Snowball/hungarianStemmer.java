@@ -21,11 +21,11 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("ny", -1, -1, "", methodObject),
       new Among("sz", -1, -1, "", methodObject),
       new Among("ty", -1, -1, "", methodObject),
-      new Among("zs", -1, -1, "", methodObject) };
+      new Among("zs", -1, -1, "", methodObject)};
 
   private final static Among a_1[] = {
       new Among("\u00E1", -1, 1, "", methodObject),
-      new Among("\u00E9", -1, 2, "", methodObject) };
+      new Among("\u00E9", -1, 2, "", methodObject)};
 
   private final static Among a_2[] = {
       new Among("bb", -1, -1, "", methodObject),
@@ -50,11 +50,11 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("nny", -1, -1, "", methodObject),
       new Among("tty", -1, -1, "", methodObject),
       new Among("ssz", -1, -1, "", methodObject),
-      new Among("zz", -1, -1, "", methodObject) };
+      new Among("zz", -1, -1, "", methodObject)};
 
   private final static Among a_3[] = {
       new Among("al", -1, 1, "", methodObject),
-      new Among("el", -1, 2, "", methodObject) };
+      new Among("el", -1, 2, "", methodObject)};
 
   private final static Among a_4[] = {
       new Among("ba", -1, -1, "", methodObject),
@@ -100,12 +100,12 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("hoz", -1, -1, "", methodObject),
       new Among("h\u00F6z", -1, -1, "", methodObject),
       new Among("v\u00E1", -1, -1, "", methodObject),
-      new Among("v\u00E9", -1, -1, "", methodObject) };
+      new Among("v\u00E9", -1, -1, "", methodObject)};
 
   private final static Among a_5[] = {
       new Among("\u00E1n", -1, 2, "", methodObject),
       new Among("\u00E9n", -1, 1, "", methodObject),
-      new Among("\u00E1nk\u00E9nt", -1, 3, "", methodObject) };
+      new Among("\u00E1nk\u00E9nt", -1, 3, "", methodObject)};
 
   private final static Among a_6[] = {
       new Among("stul", -1, 2, "", methodObject),
@@ -113,19 +113,19 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("\u00E1stul", 0, 3, "", methodObject),
       new Among("st\u00FCl", -1, 2, "", methodObject),
       new Among("est\u00FCl", 3, 1, "", methodObject),
-      new Among("\u00E9st\u00FCl", 3, 4, "", methodObject) };
+      new Among("\u00E9st\u00FCl", 3, 4, "", methodObject)};
 
   private final static Among a_7[] = {
       new Among("\u00E1", -1, 1, "", methodObject),
-      new Among("\u00E9", -1, 2, "", methodObject) };
+      new Among("\u00E9", -1, 2, "", methodObject)};
 
-  private final static Among a_8[] = { new Among("k", -1, 7, "", methodObject),
+  private final static Among a_8[] = {new Among("k", -1, 7, "", methodObject),
       new Among("ak", 0, 4, "", methodObject),
       new Among("ek", 0, 6, "", methodObject),
       new Among("ok", 0, 5, "", methodObject),
       new Among("\u00E1k", 0, 1, "", methodObject),
       new Among("\u00E9k", 0, 2, "", methodObject),
-      new Among("\u00F6k", 0, 3, "", methodObject) };
+      new Among("\u00F6k", 0, 3, "", methodObject)};
 
   private final static Among a_9[] = {
       new Among("\u00E9i", -1, 7, "", methodObject),
@@ -139,7 +139,7 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("\u00E1k\u00E9", 4, 3, "", methodObject),
       new Among("\u00E9k\u00E9", 4, 2, "", methodObject),
       new Among("\u00F6k\u00E9", 4, 1, "", methodObject),
-      new Among("\u00E9\u00E9", 3, 8, "", methodObject) };
+      new Among("\u00E9\u00E9", 3, 8, "", methodObject)};
 
   private final static Among a_10[] = {
       new Among("a", -1, 18, "", methodObject),
@@ -172,7 +172,7 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("\u00E9m", 22, 11, "", methodObject),
       new Among("o", -1, 18, "", methodObject),
       new Among("\u00E1", -1, 19, "", methodObject),
-      new Among("\u00E9", -1, 20, "", methodObject) };
+      new Among("\u00E9", -1, 20, "", methodObject)};
 
   private final static Among a_11[] = {
       new Among("id", -1, 10, "", methodObject),
@@ -216,10 +216,10 @@ public class hungarianStemmer extends SnowballStemmer {
       new Among("eim", 35, 4, "", methodObject),
       new Among("jeim", 38, 1, "", methodObject),
       new Among("\u00E1im", 35, 2, "", methodObject),
-      new Among("\u00E9im", 35, 3, "", methodObject) };
+      new Among("\u00E9im", 35, 3, "", methodObject)};
 
-  private static final char g_v[] = { 17, 65, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-      0, 0, 0, 1, 17, 36, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1 };
+  private static final char g_v[] = {17, 65, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+      0, 0, 0, 1, 17, 36, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1};
 
   private int I_p1;
 
@@ -235,17 +235,21 @@ public class hungarianStemmer extends SnowballStemmer {
     // (, line 44
     I_p1 = limit;
     // or, line 51
-    lab0: do {
+    lab0:
+    do {
       v_1 = cursor;
-      lab1: do {
+      lab1:
+      do {
         // (, line 48
         if (!(in_grouping(g_v, 97, 369))) {
           break lab1;
         }
         // goto, line 48
-        golab2: while (true) {
+        golab2:
+        while (true) {
           v_2 = cursor;
-          lab3: do {
+          lab3:
+          do {
             if (!(out_grouping(g_v, 97, 369))) {
               break lab3;
             }
@@ -259,9 +263,11 @@ public class hungarianStemmer extends SnowballStemmer {
           cursor++;
         }
         // or, line 49
-        lab4: do {
+        lab4:
+        do {
           v_3 = cursor;
-          lab5: do {
+          lab5:
+          do {
             // among, line 49
             if (find_among(a_0, 8) == 0) {
               break lab5;
@@ -285,8 +291,10 @@ public class hungarianStemmer extends SnowballStemmer {
         return false;
       }
       // gopast, line 53
-      golab6: while (true) {
-        lab7: do {
+      golab6:
+      while (true) {
+        lab7:
+        do {
           if (!(in_grouping(g_v, 97, 369))) {
             break lab7;
           }
@@ -327,18 +335,18 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 62
-      // <-, line 62
-      slice_from("a");
-      break;
-    case 2:
-      // (, line 63
-      // <-, line 63
-      slice_from("e");
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 62
+        // <-, line 62
+        slice_from("a");
+        break;
+      case 2:
+        // (, line 63
+        // <-, line 63
+        slice_from("e");
+        break;
     }
     return true;
   }
@@ -397,22 +405,22 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 78
-      // call double, line 78
-      if (!r_double()) {
+      case 0:
         return false;
-      }
-      break;
-    case 2:
-      // (, line 79
-      // call double, line 79
-      if (!r_double()) {
-        return false;
-      }
-      break;
+      case 1:
+        // (, line 78
+        // call double, line 78
+        if (!r_double()) {
+          return false;
+        }
+        break;
+      case 2:
+        // (, line 79
+        // call double, line 79
+        if (!r_double()) {
+          return false;
+        }
+        break;
     }
     // delete, line 81
     slice_del();
@@ -463,23 +471,23 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 117
-      // <-, line 117
-      slice_from("e");
-      break;
-    case 2:
-      // (, line 118
-      // <-, line 118
-      slice_from("a");
-      break;
-    case 3:
-      // (, line 119
-      // <-, line 119
-      slice_from("a");
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 117
+        // <-, line 117
+        slice_from("e");
+        break;
+      case 2:
+        // (, line 118
+        // <-, line 118
+        slice_from("a");
+        break;
+      case 3:
+        // (, line 119
+        // <-, line 119
+        slice_from("a");
+        break;
     }
     return true;
   }
@@ -501,28 +509,28 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 125
-      // delete, line 125
-      slice_del();
-      break;
-    case 2:
-      // (, line 126
-      // delete, line 126
-      slice_del();
-      break;
-    case 3:
-      // (, line 127
-      // <-, line 127
-      slice_from("a");
-      break;
-    case 4:
-      // (, line 128
-      // <-, line 128
-      slice_from("e");
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 125
+        // delete, line 125
+        slice_del();
+        break;
+      case 2:
+        // (, line 126
+        // delete, line 126
+        slice_del();
+        break;
+      case 3:
+        // (, line 127
+        // <-, line 127
+        slice_from("a");
+        break;
+      case 4:
+        // (, line 128
+        // <-, line 128
+        slice_from("e");
+        break;
     }
     return true;
   }
@@ -544,22 +552,22 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 134
-      // call double, line 134
-      if (!r_double()) {
+      case 0:
         return false;
-      }
-      break;
-    case 2:
-      // (, line 135
-      // call double, line 135
-      if (!r_double()) {
-        return false;
-      }
-      break;
+      case 1:
+        // (, line 134
+        // call double, line 134
+        if (!r_double()) {
+          return false;
+        }
+        break;
+      case 2:
+        // (, line 135
+        // call double, line 135
+        if (!r_double()) {
+          return false;
+        }
+        break;
     }
     // delete, line 137
     slice_del();
@@ -587,43 +595,43 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 143
-      // <-, line 143
-      slice_from("a");
-      break;
-    case 2:
-      // (, line 144
-      // <-, line 144
-      slice_from("e");
-      break;
-    case 3:
-      // (, line 145
-      // delete, line 145
-      slice_del();
-      break;
-    case 4:
-      // (, line 146
-      // delete, line 146
-      slice_del();
-      break;
-    case 5:
-      // (, line 147
-      // delete, line 147
-      slice_del();
-      break;
-    case 6:
-      // (, line 148
-      // delete, line 148
-      slice_del();
-      break;
-    case 7:
-      // (, line 149
-      // delete, line 149
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 143
+        // <-, line 143
+        slice_from("a");
+        break;
+      case 2:
+        // (, line 144
+        // <-, line 144
+        slice_from("e");
+        break;
+      case 3:
+        // (, line 145
+        // delete, line 145
+        slice_del();
+        break;
+      case 4:
+        // (, line 146
+        // delete, line 146
+        slice_del();
+        break;
+      case 5:
+        // (, line 147
+        // delete, line 147
+        slice_del();
+        break;
+      case 6:
+        // (, line 148
+        // delete, line 148
+        slice_del();
+        break;
+      case 7:
+        // (, line 149
+        // delete, line 149
+        slice_del();
+        break;
     }
     return true;
   }
@@ -645,53 +653,53 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 155
-      // delete, line 155
-      slice_del();
-      break;
-    case 2:
-      // (, line 156
-      // <-, line 156
-      slice_from("e");
-      break;
-    case 3:
-      // (, line 157
-      // <-, line 157
-      slice_from("a");
-      break;
-    case 4:
-      // (, line 158
-      // delete, line 158
-      slice_del();
-      break;
-    case 5:
-      // (, line 159
-      // <-, line 159
-      slice_from("e");
-      break;
-    case 6:
-      // (, line 160
-      // <-, line 160
-      slice_from("a");
-      break;
-    case 7:
-      // (, line 161
-      // delete, line 161
-      slice_del();
-      break;
-    case 8:
-      // (, line 162
-      // <-, line 162
-      slice_from("e");
-      break;
-    case 9:
-      // (, line 163
-      // delete, line 163
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 155
+        // delete, line 155
+        slice_del();
+        break;
+      case 2:
+        // (, line 156
+        // <-, line 156
+        slice_from("e");
+        break;
+      case 3:
+        // (, line 157
+        // <-, line 157
+        slice_from("a");
+        break;
+      case 4:
+        // (, line 158
+        // delete, line 158
+        slice_del();
+        break;
+      case 5:
+        // (, line 159
+        // <-, line 159
+        slice_from("e");
+        break;
+      case 6:
+        // (, line 160
+        // <-, line 160
+        slice_from("a");
+        break;
+      case 7:
+        // (, line 161
+        // delete, line 161
+        slice_del();
+        break;
+      case 8:
+        // (, line 162
+        // <-, line 162
+        slice_from("e");
+        break;
+      case 9:
+        // (, line 163
+        // delete, line 163
+        slice_del();
+        break;
     }
     return true;
   }
@@ -713,108 +721,108 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 169
-      // delete, line 169
-      slice_del();
-      break;
-    case 2:
-      // (, line 170
-      // <-, line 170
-      slice_from("a");
-      break;
-    case 3:
-      // (, line 171
-      // <-, line 171
-      slice_from("e");
-      break;
-    case 4:
-      // (, line 172
-      // delete, line 172
-      slice_del();
-      break;
-    case 5:
-      // (, line 173
-      // <-, line 173
-      slice_from("a");
-      break;
-    case 6:
-      // (, line 174
-      // <-, line 174
-      slice_from("e");
-      break;
-    case 7:
-      // (, line 175
-      // delete, line 175
-      slice_del();
-      break;
-    case 8:
-      // (, line 176
-      // delete, line 176
-      slice_del();
-      break;
-    case 9:
-      // (, line 177
-      // delete, line 177
-      slice_del();
-      break;
-    case 10:
-      // (, line 178
-      // <-, line 178
-      slice_from("a");
-      break;
-    case 11:
-      // (, line 179
-      // <-, line 179
-      slice_from("e");
-      break;
-    case 12:
-      // (, line 180
-      // delete, line 180
-      slice_del();
-      break;
-    case 13:
-      // (, line 181
-      // delete, line 181
-      slice_del();
-      break;
-    case 14:
-      // (, line 182
-      // <-, line 182
-      slice_from("a");
-      break;
-    case 15:
-      // (, line 183
-      // <-, line 183
-      slice_from("e");
-      break;
-    case 16:
-      // (, line 184
-      // delete, line 184
-      slice_del();
-      break;
-    case 17:
-      // (, line 185
-      // delete, line 185
-      slice_del();
-      break;
-    case 18:
-      // (, line 186
-      // delete, line 186
-      slice_del();
-      break;
-    case 19:
-      // (, line 187
-      // <-, line 187
-      slice_from("a");
-      break;
-    case 20:
-      // (, line 188
-      // <-, line 188
-      slice_from("e");
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 169
+        // delete, line 169
+        slice_del();
+        break;
+      case 2:
+        // (, line 170
+        // <-, line 170
+        slice_from("a");
+        break;
+      case 3:
+        // (, line 171
+        // <-, line 171
+        slice_from("e");
+        break;
+      case 4:
+        // (, line 172
+        // delete, line 172
+        slice_del();
+        break;
+      case 5:
+        // (, line 173
+        // <-, line 173
+        slice_from("a");
+        break;
+      case 6:
+        // (, line 174
+        // <-, line 174
+        slice_from("e");
+        break;
+      case 7:
+        // (, line 175
+        // delete, line 175
+        slice_del();
+        break;
+      case 8:
+        // (, line 176
+        // delete, line 176
+        slice_del();
+        break;
+      case 9:
+        // (, line 177
+        // delete, line 177
+        slice_del();
+        break;
+      case 10:
+        // (, line 178
+        // <-, line 178
+        slice_from("a");
+        break;
+      case 11:
+        // (, line 179
+        // <-, line 179
+        slice_from("e");
+        break;
+      case 12:
+        // (, line 180
+        // delete, line 180
+        slice_del();
+        break;
+      case 13:
+        // (, line 181
+        // delete, line 181
+        slice_del();
+        break;
+      case 14:
+        // (, line 182
+        // <-, line 182
+        slice_from("a");
+        break;
+      case 15:
+        // (, line 183
+        // <-, line 183
+        slice_from("e");
+        break;
+      case 16:
+        // (, line 184
+        // delete, line 184
+        slice_del();
+        break;
+      case 17:
+        // (, line 185
+        // delete, line 185
+        slice_del();
+        break;
+      case 18:
+        // (, line 186
+        // delete, line 186
+        slice_del();
+        break;
+      case 19:
+        // (, line 187
+        // <-, line 187
+        slice_from("a");
+        break;
+      case 20:
+        // (, line 188
+        // <-, line 188
+        slice_from("e");
+        break;
     }
     return true;
   }
@@ -836,153 +844,153 @@ public class hungarianStemmer extends SnowballStemmer {
       return false;
     }
     switch (among_var) {
-    case 0:
-      return false;
-    case 1:
-      // (, line 194
-      // delete, line 194
-      slice_del();
-      break;
-    case 2:
-      // (, line 195
-      // <-, line 195
-      slice_from("a");
-      break;
-    case 3:
-      // (, line 196
-      // <-, line 196
-      slice_from("e");
-      break;
-    case 4:
-      // (, line 197
-      // delete, line 197
-      slice_del();
-      break;
-    case 5:
-      // (, line 198
-      // delete, line 198
-      slice_del();
-      break;
-    case 6:
-      // (, line 199
-      // delete, line 199
-      slice_del();
-      break;
-    case 7:
-      // (, line 200
-      // <-, line 200
-      slice_from("a");
-      break;
-    case 8:
-      // (, line 201
-      // <-, line 201
-      slice_from("e");
-      break;
-    case 9:
-      // (, line 202
-      // delete, line 202
-      slice_del();
-      break;
-    case 10:
-      // (, line 203
-      // delete, line 203
-      slice_del();
-      break;
-    case 11:
-      // (, line 204
-      // delete, line 204
-      slice_del();
-      break;
-    case 12:
-      // (, line 205
-      // <-, line 205
-      slice_from("a");
-      break;
-    case 13:
-      // (, line 206
-      // <-, line 206
-      slice_from("e");
-      break;
-    case 14:
-      // (, line 207
-      // delete, line 207
-      slice_del();
-      break;
-    case 15:
-      // (, line 208
-      // delete, line 208
-      slice_del();
-      break;
-    case 16:
-      // (, line 209
-      // delete, line 209
-      slice_del();
-      break;
-    case 17:
-      // (, line 210
-      // delete, line 210
-      slice_del();
-      break;
-    case 18:
-      // (, line 211
-      // <-, line 211
-      slice_from("a");
-      break;
-    case 19:
-      // (, line 212
-      // <-, line 212
-      slice_from("e");
-      break;
-    case 20:
-      // (, line 214
-      // delete, line 214
-      slice_del();
-      break;
-    case 21:
-      // (, line 215
-      // delete, line 215
-      slice_del();
-      break;
-    case 22:
-      // (, line 216
-      // <-, line 216
-      slice_from("a");
-      break;
-    case 23:
-      // (, line 217
-      // <-, line 217
-      slice_from("e");
-      break;
-    case 24:
-      // (, line 218
-      // delete, line 218
-      slice_del();
-      break;
-    case 25:
-      // (, line 219
-      // delete, line 219
-      slice_del();
-      break;
-    case 26:
-      // (, line 220
-      // delete, line 220
-      slice_del();
-      break;
-    case 27:
-      // (, line 221
-      // <-, line 221
-      slice_from("a");
-      break;
-    case 28:
-      // (, line 222
-      // <-, line 222
-      slice_from("e");
-      break;
-    case 29:
-      // (, line 223
-      // delete, line 223
-      slice_del();
-      break;
+      case 0:
+        return false;
+      case 1:
+        // (, line 194
+        // delete, line 194
+        slice_del();
+        break;
+      case 2:
+        // (, line 195
+        // <-, line 195
+        slice_from("a");
+        break;
+      case 3:
+        // (, line 196
+        // <-, line 196
+        slice_from("e");
+        break;
+      case 4:
+        // (, line 197
+        // delete, line 197
+        slice_del();
+        break;
+      case 5:
+        // (, line 198
+        // delete, line 198
+        slice_del();
+        break;
+      case 6:
+        // (, line 199
+        // delete, line 199
+        slice_del();
+        break;
+      case 7:
+        // (, line 200
+        // <-, line 200
+        slice_from("a");
+        break;
+      case 8:
+        // (, line 201
+        // <-, line 201
+        slice_from("e");
+        break;
+      case 9:
+        // (, line 202
+        // delete, line 202
+        slice_del();
+        break;
+      case 10:
+        // (, line 203
+        // delete, line 203
+        slice_del();
+        break;
+      case 11:
+        // (, line 204
+        // delete, line 204
+        slice_del();
+        break;
+      case 12:
+        // (, line 205
+        // <-, line 205
+        slice_from("a");
+        break;
+      case 13:
+        // (, line 206
+        // <-, line 206
+        slice_from("e");
+        break;
+      case 14:
+        // (, line 207
+        // delete, line 207
+        slice_del();
+        break;
+      case 15:
+        // (, line 208
+        // delete, line 208
+        slice_del();
+        break;
+      case 16:
+        // (, line 209
+        // delete, line 209
+        slice_del();
+        break;
+      case 17:
+        // (, line 210
+        // delete, line 210
+        slice_del();
+        break;
+      case 18:
+        // (, line 211
+        // <-, line 211
+        slice_from("a");
+        break;
+      case 19:
+        // (, line 212
+        // <-, line 212
+        slice_from("e");
+        break;
+      case 20:
+        // (, line 214
+        // delete, line 214
+        slice_del();
+        break;
+      case 21:
+        // (, line 215
+        // delete, line 215
+        slice_del();
+        break;
+      case 22:
+        // (, line 216
+        // <-, line 216
+        slice_from("a");
+        break;
+      case 23:
+        // (, line 217
+        // <-, line 217
+        slice_from("e");
+        break;
+      case 24:
+        // (, line 218
+        // delete, line 218
+        slice_del();
+        break;
+      case 25:
+        // (, line 219
+        // delete, line 219
+        slice_del();
+        break;
+      case 26:
+        // (, line 220
+        // delete, line 220
+        slice_del();
+        break;
+      case 27:
+        // (, line 221
+        // <-, line 221
+        slice_from("a");
+        break;
+      case 28:
+        // (, line 222
+        // <-, line 222
+        slice_from("e");
+        break;
+      case 29:
+        // (, line 223
+        // delete, line 223
+        slice_del();
+        break;
     }
     return true;
   }
@@ -1001,7 +1009,8 @@ public class hungarianStemmer extends SnowballStemmer {
     // (, line 228
     // do, line 229
     v_1 = cursor;
-    lab0: do {
+    lab0:
+    do {
       // call mark_regions, line 229
       if (!r_mark_regions()) {
         break lab0;
@@ -1014,7 +1023,8 @@ public class hungarianStemmer extends SnowballStemmer {
     // (, line 230
     // do, line 231
     v_2 = limit - cursor;
-    lab1: do {
+    lab1:
+    do {
       // call instrum, line 231
       if (!r_instrum()) {
         break lab1;
@@ -1023,7 +1033,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_2;
     // do, line 232
     v_3 = limit - cursor;
-    lab2: do {
+    lab2:
+    do {
       // call case, line 232
       if (!r_case()) {
         break lab2;
@@ -1032,7 +1043,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_3;
     // do, line 233
     v_4 = limit - cursor;
-    lab3: do {
+    lab3:
+    do {
       // call case_special, line 233
       if (!r_case_special()) {
         break lab3;
@@ -1041,7 +1053,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_4;
     // do, line 234
     v_5 = limit - cursor;
-    lab4: do {
+    lab4:
+    do {
       // call case_other, line 234
       if (!r_case_other()) {
         break lab4;
@@ -1050,7 +1063,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_5;
     // do, line 235
     v_6 = limit - cursor;
-    lab5: do {
+    lab5:
+    do {
       // call factive, line 235
       if (!r_factive()) {
         break lab5;
@@ -1059,7 +1073,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_6;
     // do, line 236
     v_7 = limit - cursor;
-    lab6: do {
+    lab6:
+    do {
       // call owned, line 236
       if (!r_owned()) {
         break lab6;
@@ -1068,7 +1083,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_7;
     // do, line 237
     v_8 = limit - cursor;
-    lab7: do {
+    lab7:
+    do {
       // call sing_owner, line 237
       if (!r_sing_owner()) {
         break lab7;
@@ -1077,7 +1093,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_8;
     // do, line 238
     v_9 = limit - cursor;
-    lab8: do {
+    lab8:
+    do {
       // call plur_owner, line 238
       if (!r_plur_owner()) {
         break lab8;
@@ -1086,7 +1103,8 @@ public class hungarianStemmer extends SnowballStemmer {
     cursor = limit - v_9;
     // do, line 239
     v_10 = limit - cursor;
-    lab9: do {
+    lab9:
+    do {
       // call plural, line 239
       if (!r_plural()) {
         break lab9;

@@ -42,10 +42,7 @@ package edu.nyu.cs.cs2580.KStemmer;
  * A list of words used by Kstem
  */
 class KStemData5 {
-  private KStemData5() {
-  }
-
-  static String[] data = { "lock", "locker", "locket", "lockjaw", "locknut",
+  static String[] data = {"lock", "locker", "locket", "lockjaw", "locknut",
       "lockout", "locks", "locksmith", "lockstitch", "lockup", "loco",
       "locomotion", "locomotive", "locum", "locus", "locust", "locution",
       "lode", "lodestar", "lodestone", "lodge", "lodgement", "lodger",
@@ -639,5 +636,8 @@ class KStemData5 {
       "peasantry", "peashooter", "peat", "pebble", "pebbledash", "pebbly",
       "pecan", "peccadillo", "peccary", "peck", "pecker", "peckish", "pectic",
       "pectin", "pectoral", "peculate", "peculiar", "peculiarity",
-      "peculiarly", "pecuniary", "pedagogue", "pedagogy", "pedal", };
+      "peculiarly", "pecuniary", "pedagogue", "pedagogy", "pedal",};
+
+  private KStemData5() {
+  }
 }
