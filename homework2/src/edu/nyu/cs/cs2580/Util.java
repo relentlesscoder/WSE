@@ -1,13 +1,16 @@
 package edu.nyu.cs.cs2580;
 
+import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.io.Output;
 import com.google.common.collect.*;
 
 import java.io.*;
 import java.util.*;
 
 public class Util {
-  private static final long SIZE_PER_FILE_Integer = 6000000;
+  private static final long SIZE_PER_FILE_Integer = 8000000;
   private static final long SIZE_PER_FILE_Byte = 3000000;
+  private static final long RESET_THRESHOLD = 1000;
 
   public static String convertMillis(long timeStamp) {
     long hours, minutes, seconds, millis;
@@ -30,26 +33,46 @@ public class Util {
 
   public static void writePartialInvertedIndex(Multimap<String, Integer> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
     String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", count) + ".idx";
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexPartialFile));
+//    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(indexPartialFile)));
+
+    /////////////////////////////
+    Kryo kryo = new Kryo();
+    Output output = new Output(new FileOutputStream(indexPartialFile));
+    /////////////////////////////
+
     SortedSet<String> sortedSet = new TreeSet<String>();
+    int resetCount = 0;
 
     // Sort the keys alphabetically...
     sortedSet.addAll(invertedIndex.keySet());
 
     // Record the number of objects first...
     int numOfEntries = sortedSet.size();
-    writer.writeInt(numOfEntries);
+//    writer.writeInt(numOfEntries);
+    kryo.writeObject(output, numOfEntries);
+
+
 
     // Write the entries one by one...
     for (String term : sortedSet) {
       List<Integer> list = new ArrayList<Integer>(invertedIndex.get(term));
-      writer.writeUTF(term);
-      writer.writeObject(list);
-      writer.reset();
-      writer.flush();
+      ////////////////////
+      kryo.writeObject(output, new String(term));
+      kryo.writeObject(output, list);
+      ////////////////////
+//      writer.writeUTF(term);
+//      writer.writeObject(list);
+      resetCount++;
+      if (resetCount > RESET_THRESHOLD) {
+//        writer.reset();
+//        writer.flush();
+        resetCount = 0;
+      }
     }
-
-    writer.close();
+    ////////////////////
+    output.close();
+    ////////////////////
+//    writer.close();
   }
 
   public static void writePartialInvertedIndexCompress(Multimap<String, Byte> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
