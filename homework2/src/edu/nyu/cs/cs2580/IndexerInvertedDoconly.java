@@ -47,6 +47,12 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
 
+    // Empty the target folder first
+    File outputFolder = new File(_options._indexPrefix);
+    for (File file : outputFolder.listFiles()) {
+      file.delete();
+    }
+
     /**************************************************************************
      * Indexing....
      *************************************************************************/
@@ -464,7 +470,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
           hasFirstTerm = true;
         }
 
-        if (currentSize > Util.SIZE_PER_MAP_INTEGER) {
+        if (currentSize > Util.SIZE_PER_FILE_MAP_INTEGER) {
           partialFileCount++;
           currentSize = 0;
           hasFirstTerm = false;

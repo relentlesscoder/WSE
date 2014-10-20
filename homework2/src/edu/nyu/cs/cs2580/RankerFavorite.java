@@ -25,10 +25,19 @@ public class RankerFavorite extends Ranker {
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
+    System.out.println("runing query...");
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
+    int nextDocid = -1;
+    int count = 0;
 
-    for (int i = 0; i < indexerInvertedCompressed.numDocs(); ++i) {
-      rankQueue.add(scoreDocument(query, i));
+    while (true) {
+      Document document = indexerInvertedCompressed.nextDocLoose(query, nextDocid);
+      if (document == null) {
+        break;
+      }
+
+      rankQueue.add(scoreDocument(query, document._docid));
+      nextDocid = document._docid;
       if (rankQueue.size() > numResults) {
         rankQueue.poll();
       }

@@ -16,7 +16,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
-  private static final int K = 5;
+  private static final int K = 2;
   /**
    * ***********************************************************************
    * {@code lastDocid} is temporary and will be cleared once the index is
@@ -90,6 +90,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     long startTimeStamp, duration;
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
+
+    // Empty the target folder first
+    File outputFolder = new File(_options._indexPrefix);
+    for (File file : outputFolder.listFiles()) {
+      file.delete();
+    }
 
     /**************************************************************************
      * Indexing....
@@ -502,18 +508,28 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   public Document nextDocLoose(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
-    int nextDocid = -1;
-    int smallestDocid = Integer.MAX_VALUE;
 
-    for (int i = docid; i < numDocs; i++) {
-      for (String term : queryTerms) {
-        if (hasDocid(term, i)) {
-          return documents.get(i);
-        }
+    try {
+      dynamicLoading(queryTerms);
+    } catch (IOException e) {
+      e.printStackTrace();
+    } catch (ClassNotFoundException e) {
+      e.printStackTrace();
+    }
+
+    int minDocid = Integer.MAX_VALUE;
+    for (String term : queryTerms) {
+      int nextDocid = nextDocid(term, docid);
+      if (nextDocid != -1) {
+        minDocid = Math.min(minDocid, nextDocid);
       }
     }
 
-    return null;
+    if (minDocid == Integer.MAX_VALUE) {
+      return null;
+    } else {
+      return documents.get(minDocid);
+    }
   }
 
   /**
@@ -1057,7 +1073,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           hasFirstTerm = true;
         }
 
-        if (currentSize > Util.SIZE_PER_MAP_Byte) {
+        if (currentSize > Util.SIZE_PER_FILE_MAP_Byte) {
           partialFileCount++;
           currentSize = 0;
           hasFirstTerm = false;
@@ -1162,13 +1178,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       String indexFile = _options._indexPrefix + "/" + partialMergerFileOffset.get(index + 1);
       ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
       Multimap<String, Byte> tmpPartialIndex = (Multimap<String, Byte>) reader.readObject();
-      for (String s : query) {
-        if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
-          // Load!
-          invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
-          count++;
-        }
-      }
+
+      // Load!
+      invertedIndex.get(term).addAll(tmpPartialIndex.get(term));
+      count++;
+
       tmpPartialIndex.clear();
     }
 
