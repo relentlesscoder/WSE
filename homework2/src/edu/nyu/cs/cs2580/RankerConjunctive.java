@@ -27,6 +27,7 @@ public class RankerConjunctive extends Ranker {
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
     String indexType = _indexer.getClass().getSimpleName();
+    System.out.println("runing query...");
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     if (_options._indexerType.equals("inverted-doconly")) {
       results = runQueryDoconlyBased(query, numResults);
@@ -121,11 +122,7 @@ public class RankerConjunctive extends Ranker {
         }
       }
 
-      System.out.println(doc._docid + " " + score);
-
-//      if (doc._docid == 165){
-//        int x =11;
-//      }
+//      System.out.println(doc._docid + " " + score);
 
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {
