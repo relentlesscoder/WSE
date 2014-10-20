@@ -6,37 +6,37 @@ Compile and Run
 
 1. Shell Script:
 
-If the port 25806 is occupied somehow, you could change the value of 'SERVER'
-variable in start.sh to one that is available.
+In our script, we already set the JVM max runtime memory as 512M,
+if you want to change the limit, feel free to edit the file.
 
 Construct index:  $ chmod u+x SearchEngine.sh
 		  $ ./SearchEngine.sh ./SearchEngine.sh \
                     -—mode=index --options=conf/engine.conf
  
 
-Serving:  	  $ ./evaluate.sh \--mode=serve --port=[port] --options=conf/engine.conf
+Serving:  	  $ ./SearchEngine.sh
+                    \--mode=serve --port=[port] --options=conf/engine.conf
 		    
 
 2. Manual:
 
-We used external library, Apache logging services, log4j to proccess
-our logs. So, whenever compile the files, run server or run evaluation,
-the path to the log4j files need to be include in classpath. Also, a
-logger configuration file need to be include in 
+We used several external library, So, whenever compile the files, 
+constructing index or serving, the path to the library’s files need to 
+be include in classpath.  
 
-example:  homework1$ mkdir ./bin
-		  		   $ javac -d ./bin  ./src/edu/nyu/cs/cs2580/*.java
-		           $ cp ./src/log4j2.xml ./bin
-		           $ export CLASSPATH=./bin:./bin/lib/log4j-api.jar:./bin/lib/log4j-core.jar
-		           $ java edu.nyu.cs.cs2580.SearchEngine ./data/corpus.tsv
+example:  homework2$ mkdir ./bin
+		   $ cp -r ./lib ./bin
+		   $ export CLASSPATH=./bin:./bin/lib/*
+		   $  javac -d ./bin  ./src/edu/nyu/cs/cs2580/*/*.java \
+                     ./src/edu/nyu/cs/cs2580/*.java -nowarn
+		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
+		     --mode=index --options=conf/engine.conf
+		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
+		     --mode=serve --port=25806 --options=conf/engine.conf
 
-		  homework1$ export CLASSPATH=./bin:./bin/lib/log4j-api.jar:./bin/lib/log4j-core.jar
-		           $ curl " http://<HOST>:25806/search?query=<QUERY>&ranker=<RANKER-TYPE>&format=text" | \
-     				java edu.nyu.cs.cs2580.Evaluator <PATH-TO-JUDGMENTS>
-
-
-
-Text Processing:
+---------------
+Text Processing
+---------------
 1. Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
 2. Using Apache Lucene KStmmer Java Library for text stemming with validation, all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer". 
 3. Using JSoup for HTML extracting.
