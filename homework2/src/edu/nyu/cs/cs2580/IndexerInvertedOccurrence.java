@@ -204,12 +204,6 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     File folder = new File(_options._indexPrefix);
     File[] files = folder.listFiles();
 
-    for (File f : folder.listFiles()) {
-      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
-        f.delete();
-      }
-    }
-
     // Load the class file first
     for (File file : files) {
       if (file.getName().equals("corpus.idx")) {
