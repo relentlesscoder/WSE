@@ -10,12 +10,12 @@ Compile and Run
   # Construct index:
     <pre><code>
       $ chmod u+x SearchEngine.sh
-      $ ./SearchEngine.sh ./SearchEngine.sh \ -—mode=index --options=conf/engine.conf 
+      $ ./SearchEngine.sh -—mode=index --options=conf/engine.conf 
     </code></pre>
     
   # Serving index:
     <pre><code>
-      $ ./SearchEngine.sh \--mode=serve --port=[port] --options=conf/engine.conf
+      $ ./SearchEngine.sh --mode=serve --port=[port] --options=conf/engine.conf
     </code></pre>    
 
 # Manual:
@@ -27,9 +27,9 @@ Compile and Run
        homework2$ mkdir ./bin
        $ cp -r ./lib ./bin
        $ export CLASSPATH=./bin:./bin/lib/*
-       $  javac -d ./bin  ./src/edu/nyu/cs/cs2580/*/*.java \ ./src/edu/nyu/cs/cs2580/*.java -nowarn
-       $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \ --mode=index --options=conf/engine.conf
-       $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \ --mode=serve --port=25806 --options=conf/engine.conf
+       $ javac -d ./bin ./src/edu/nyu/cs/cs2580/*/*.java ./src/edu/nyu/cs/cs2580/*.java -nowarn
+       $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
+       $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
     </code></pre>
     
 Implementation Detail
