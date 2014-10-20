@@ -91,6 +91,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
 
+    // Empty the target folder first
+    File outputFolder = new File(_options._indexPrefix);
+    for (File file : outputFolder.listFiles()) {
+      file.delete();
+    }
+
     /**************************************************************************
      * Indexing....
      *************************************************************************/
