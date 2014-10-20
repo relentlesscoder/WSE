@@ -16,7 +16,7 @@ import java.util.regex.*;
 public class QueryPhrase extends Query {
 
   public ListMultimap<String, String> _phrases = ArrayListMultimap.create();
-//  private Vector<String> soloTokens = new Vector<String>();
+  private Vector<String> soloTokens = new Vector<String>();
 
   public QueryPhrase(String query) {
       super(query);
@@ -50,8 +50,13 @@ public class QueryPhrase extends Query {
       String term = Tokenizer.porterStemmerFilter(tokenizer.getText(), "english").toLowerCase();
       tokenSet.add(term);
     }
+    Set<String> phraseValueSet = new HashSet<String>();
+    phraseValueSet.addAll(_phrases.values());
     for(String term : tokenSet){
       _tokens.add(term);
+      if (!phraseValueSet.contains(term)){
+        soloTokens.add(term);
+      }
     }
   }
 
