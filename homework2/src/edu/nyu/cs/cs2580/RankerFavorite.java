@@ -25,6 +25,7 @@ public class RankerFavorite extends Ranker {
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
+    System.out.println("runing query...");
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
     int nextDocid = -1;
     int count = 0;

@@ -26,7 +26,6 @@ public class RankerConjunctive extends Ranker {
   // According to index_type to process query differently
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    String indexType = _indexer.getClass().getSimpleName();
     System.out.println("runing query...");
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     if (_options._indexerType.equals("inverted-doconly")) {
