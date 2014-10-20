@@ -34,10 +34,47 @@ example:  homework2$ mkdir ./bin
 		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
 		     --mode=serve --port=25806 --options=conf/engine.conf
 
----------------
-Text Processing
----------------
-1. Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
-2. Using Apache Lucene KStmmer Java Library for text stemming with validation, all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer". 
-3. Using JSoup for HTML extracting.
-2. Using JFlex for text analysis. All regular expressions are based on Word Boundaries defined on http://www.unicode.org/reports/tr29/.  
+---------------------
+Implementation Detail
+---------------------
+
+1.Text Processing:
+
+i)   Using Snowball Porter Stemmer Java library for aggressive text stemming, all 
+library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
+
+ii)  Using Apache Lucene KStmmer Java Library for text stemming with validation, 
+all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer".
+
+iii) Using JSoup for HTML extracting.
+
+iV)  Using JFlex for text analysis. All regular expressions are based on Word 
+Boundaries defined on http://www.unicode.org/reports/tr29/.
+
+2.Constructing:
+
+i)   We set a memory threshold for inverted index and will write it into disk 
+once the threshold is met.
+
+ii)  After processing the corpus, we will merge all temporary written inverted index 
+files according to alphabetical order.
+
+iii) The merge process will produce many small files each host certain number of 
+posting list by order.
+
+iV)  The rest will be serialized to a single file.
+
+3.Serving:
+
+i)    We load the index object first.
+
+ii)   The inverted index is not loaded at first.
+
+iii)  Every time a query comes in, we will check whether if it exists in the inverted 
+index, if not, we will load it dynamically.
+
+iV)   We will load a single posting list every time. (Though we have to read the whole
+file first, there's the reason they are so small..)
+
+If the inverted index hits a threshold, then it will be cleared for now... (Due to our 
+implementation, it rarely happen...)
