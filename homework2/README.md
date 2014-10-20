@@ -1,4 +1,4 @@
-Group ID G06: yl1949, ws951, sy1288
+Group ID G06: yl1949, ws951, sy1288 :)
 
 #Compile and Run
 
@@ -9,13 +9,14 @@ Group ID G06: yl1949, ws951, sy1288
 ### Construct index:
   <pre><code>
     $ chmod u+x SearchEngine.sh
-    $ ./SearchEngine.sh ./SearchEngine.sh \ -—mode=index --options=conf/engine.conf 
+    $ ./SearchEngine.sh -—mode=index --options=conf/engine.conf 
   </code></pre>
     
 ### Serving index:
   <pre><code>
-    $ ./SearchEngine.sh \--mode=serve --port=[port] --options=conf/engine.conf
+    $ ./SearchEngine.sh --mode=serve --port=[port] --options=conf/engine.conf
   </code></pre>    
+
 
 ## Manual:
 
@@ -33,15 +34,14 @@ Group ID G06: yl1949, ws951, sy1288
     $ export CLASSPATH=./bin:./bin/lib/*
   </code></pre>
   <pre><code>
-    $  javac -d ./bin  ./src/edu/nyu/cs/cs2580/*/*.java \ ./src/edu/nyu/cs/cs2580/*.java -nowarn
+    $ javac -d ./bin ./src/edu/nyu/cs/cs2580/*/*.java ./src/edu/nyu/cs/cs2580/*.java -nowarn
   </code></pre>
   <pre><code>
-    $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \ --mode=index --options=conf/engine.conf
+    $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
   </code></pre>
   <pre><code>
-    $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \ --mode=serve --port=25806 --options=conf/engine.conf
+    $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
   </code></pre>
-    
     
 #Implementation Detail
 
@@ -71,5 +71,5 @@ Group ID G06: yl1949, ws951, sy1288
 - Every time a query comes in, we will check whether if it exists in the inverted index, if not, we will load it dynamically.
   
 - We will load a single posting list every time. (Though we have to read the whole file first, there's the reason they are so small..)
-  
+
 - If the inverted index hits a threshold, then it will be cleared for now... (Due to our implementation, it rarely happen...)
