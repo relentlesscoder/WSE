@@ -76,17 +76,20 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public void constructIndex() throws IOException {
+    long totalStartTimeStamp = System.currentTimeMillis();
+    ProgressBar progressBar = new ProgressBar();
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
-    ProgressBar progressBar = new ProgressBar();
     int fileCount = 0;
     long startTimeStamp, duration;
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
 
-    System.out.println("Start indexing...");
-
+    /**************************************************************************
+     * Indexing....
+     *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
+    System.out.println("Indexing...");
 
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
@@ -102,7 +105,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
-//    Write the rest...
+    //Write the rest partial inverted index...
     Util.writePartialInvertedIndexCompress(invertedIndex, _options, ++fileCount);
     invertedIndex.clear();
 
@@ -117,7 +120,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
-    System.out.println("Complete indexing...");
+    System.out.println("Complete indexing");
     System.out.println("Indexing time: " + Util.convertMillis(duration));
     System.out.println("Indexed " + Integer.toString(numDocs) + " docs with "
         + Long.toString(_totalTermFrequency) + " terms.");
@@ -126,37 +129,38 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      * Merging....
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
-    System.out.println("merging");
+    System.out.println("Merging...");
 
     try {
       merge();
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
-    duration = System.currentTimeMillis() - startTimeStamp;
 
-    System.out.println("Complete merging...");
+    duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Complete merging");
     System.out.println("Merging time: " + Util.convertMillis(duration));
 
     /**************************************************************************
-     * Start serialize
+     * Serializing the rest...
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
-
-    System.out.println("Start storing...");
+    System.out.println("Serializing...");
 
     // Serialize the whole object :)
     String indexFile = _options._indexPrefix + "/corpus.idx";
-    System.out.println("Storing index to: " + _options._indexPrefix);
-    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(
-    indexFile));
+    System.out.println("Storing inverted index to: " + _options._indexPrefix);
+    ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(indexFile));
     writer.writeObject(this);
     writer.close();
 
     duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Mission completed :)");
-    System.out.println("Serialization time: " +
-    Util.convertMillis(duration));
+    System.out.println("Serialization time: " + Util.convertMillis(duration));
+
+    duration = System.currentTimeMillis() - totalStartTimeStamp;
+    System.out.println("Mission complete :) 唉呀妈呀, 跑死我了... OTL");
+    System.out.println("Total time: " + Util.convertMillis(duration));
   }
 
   /**
@@ -213,8 +217,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
       term = Tokenizer.krovetzStemmerFilter(term);
-      String test = term;
-      term = Tokenizer.stripSingleCharacterFilter(term);
 
       if (term == null) {
         continue;
@@ -495,22 +497,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
-//    for (File file : files) {
-//      if (file.getName().equals("corpus_merged.idx")) {
-//        String indexFile = _options._indexPrefix + "/corpus_merged.idx";
-//        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
-//        while (true) {
-//          try {
-//            String term = reader.readUTF();
-//            List<Byte> postingList = (List<Byte>) reader.readObject();
-//            this.invertedIndex.get(term).addAll(postingList);
-//          } catch (Exception ignore) {
-//            break;
-//          }
-//        }
-//      }
-//    }
-
     System.out.println(Integer.toString(numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
   }
@@ -525,7 +511,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     checkNotNull(docid, "docid can not be null!");
     Vector<String> queryTerms = query._tokens;
 
-    //TODO
     try {
       dynamicLoading(queryTerms);
     } catch (IOException e) {
@@ -1013,7 +998,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public int documentTermFrequency(String term, String url) {
     if (!docUrlMap.containsKey(url)) {
-      // TODO: TEMP
       return 0;
     }
 
@@ -1043,6 +1027,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
+   * Merge all partial list together :)
    *
    * @throws IOException
    * @throws ClassNotFoundException
@@ -1163,12 +1148,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     writer.close();
     bufferMap.clear();
 
-    // clean up
-//    for (File f : folder.listFiles()) {
-//      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
-//        f.delete();
-//      }
-//    }
+//    clean up
+    for (File f : folder.listFiles()) {
+      if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+        f.delete();
+      }
+    }
   }
 
   private boolean hasEntries(int[] numOfEntries) {
@@ -1180,7 +1165,32 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     return false;
   }
 
+  /**
+   * Dynamically load partial invertial index at run time
+   * @param query the query terms
+   * @throws IOException
+   * @throws ClassNotFoundException
+   */
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
+    // First check if dynamic loading is need.
+    boolean needLoading = false;
+
+    for (String term : query) {
+      if (!invertedIndex.containsKey(term)) {
+        needLoading = true;
+      }
+    }
+
+    if (!needLoading) {
+      // We got all we need, return~
+      return;
+    }
+
+    // Start
+    System.out.println("Start dynamic loading...");
+    long startTimeStamp = System.currentTimeMillis();
+    int count = 0;
+
     File folder = new File(_options._indexPrefix);
     File[] files = folder.listFiles();
 
@@ -1208,10 +1218,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       Multimap<String, Byte> tmpPartialIndex = (Multimap<String, Byte>) reader.readObject();
       for (String s : query) {
         if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
+          // Load!
           invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
+          count++;
         }
       }
       tmpPartialIndex.clear();
     }
+
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println("Compete dynamic loading. Loads " + count + " posting lists and takes time " + Util.convertMillis(duration));
   }
 }
