@@ -3,10 +3,12 @@ package edu.nyu.cs.cs2580;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
+import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -1073,7 +1075,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       currentPos = raf.length();
       raf.seek(currentPos);
-      raf.write(Util.serialize(outputPostingList));
+      raf.write(Bytes.toArray(outputPostingList));
 
       // Assume the posting list will not be too big...
       length = (int) (raf.length() - currentPos);
@@ -1148,7 +1150,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         raf.seek(metaPair.getStartPos());
         byte[] postingListBytes = new byte[metaPair.getLength()];
         raf.readFully(postingListBytes);
-        List<Byte> postingList = (List<Byte>) Util.deserialize(postingListBytes);
+        List<Byte> postingList = Bytes.asList(postingListBytes);
         invertedIndex.get(term).addAll(postingList);
         count++;
       }
