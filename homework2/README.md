@@ -70,6 +70,11 @@ Group ID G06: yl1949, ws951, sy1288 :)
   
 - Every time a query comes in, we will check whether if it exists in the inverted index, if not, we will load it dynamically.
   
-- We will load a single posting list every time. (Though we have to read the whole file first, there's the reason they are so small..)
+- We will load a all the posting list of the partial file every time. (There's the reason they are so small..)
 
 - If the inverted index hits a threshold, then it will be cleared for now... (Due to our implementation, it rarely happen...)
+
+## Note
+- For long phrase, especially with common word or even stop word (such as "to be or not to be"...),
+it will takes relatively a long time to computer. especially in compress index...
+Just in case, we are sure that there'll be a a result and the result is at least intuitively valid. 
