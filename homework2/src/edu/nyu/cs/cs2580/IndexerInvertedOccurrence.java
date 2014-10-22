@@ -634,6 +634,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       }
     }
 
+    raf.close();
     long duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Compete dynamic loading. Loads " + count + " posting lists and takes time " + Util.convertMillis(duration));
   }
