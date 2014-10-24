@@ -1,18 +1,11 @@
 package edu.nyu.cs.cs2580;
 
-import com.google.common.collect.ListMultimap;
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.util.*;
 
-/**
- * Instructors' code for illustration purpose. Non-tested code.
- *
- * @author congyu
- */
 public class RankerConjunctive extends Ranker {
-
   private IndexerInvertedCompressed compIndexer;
   private IndexerInvertedOccurrence occIndexer;
 
@@ -22,25 +15,27 @@ public class RankerConjunctive extends Ranker {
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
 
-
-  // According to index_type to process query differently
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    System.out.println("runing query...");
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
+//TODO: check type!!!
+    System.out.println("Running query in conjunctive ranker...");
+
     if (_options._indexerType.equals("inverted-doconly")) {
+      // Run the query under the doc only indexer
       results = runQueryDoconlyBased(query, numResults);
-    } else if (_options._indexerType.equals("inverted-occurrence")) {
-      initPosIndexer();
-      results = runQueryPosBased(query, numResults);
-    } else if (_options._indexerType.equals("inverted-compressed")) {
+    } else {
+      // Run the query under the occurrence or compressed indexer
       initPosIndexer();
       results = runQueryPosBased(query, numResults);
     }
+
     return results;
   }
 
-  //Make convenience to call child indexer method
+  /**
+   * Initialize the indexer supporting nextPos.
+   */
   private void initPosIndexer() {
     if (_options._indexerType.equals("inverted-occurrence")) {
       occIndexer = (IndexerInvertedOccurrence) _indexer;
@@ -49,81 +44,89 @@ public class RankerConjunctive extends Ranker {
     }
   }
 
-  //Query process for query based on Doconly indexer
+  /**
+   * Query process for query based on doc only indexer
+   *
+   * @param query
+   * @param numResults
+   * @return
+   */
   private Vector<ScoredDocument> runQueryDoconlyBased(Query query, int numResults) {
+    Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
+    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     String queryType = query.getClass().getSimpleName();
+    int docid = -1;
+
     if (queryType.equals("QueryPhrase")) {
       System.out.println("IndexerInvertedDoconly could not resolve Phrase, process as tokens");
     }
-    Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
-    Document doc = null;
-    int docid = -1;
-    while ((doc = _indexer.nextDoc(query, docid)) != null) {
+
+    // Get every document which satisfying all the query terms
+    while (true) {
+      Document doc = _indexer.nextDoc(query, docid);
+      // No more available document...
+      if (doc == null) {
+        break;
+      }
+
       rankQueue.add(new ScoredDocument(doc, 1.0));
       if (rankQueue.size() > numResults) {
         rankQueue.poll();
       }
+
       docid = doc._docid;
     }
 
-    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
-    ScoredDocument scoredDoc = null;
-    while ((scoredDoc = rankQueue.poll()) != null) {
-      results.add(scoredDoc);
+    // Get all results...
+    while (!rankQueue.isEmpty()) {
+      results.add(rankQueue.poll());
     }
+
     Collections.sort(results, Collections.reverseOrder());
+
     return results;
   }
 
-  //Query process for query based on indexer with pos info
+  /**
+   * Query process for query based on indexer with pos info
+   *
+   * @param query
+   * @param numResults
+   * @return
+   */
   private Vector<ScoredDocument> runQueryPosBased(Query query, int numResults) {
-    String queryType = query.getClass().getSimpleName();
-    QueryPhrase queryPhrase;
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
-
+    QueryPhrase queryPhrase = (QueryPhrase) query;
     Document doc = null;
     int docid = -1;
-    findDoc:
+
+    findNextDoc:
     while ((doc = nextDoc(query, docid)) != null) {
 //      System.out.println("Searching Doc: " + doc._docid);
-//      if (doc._docid ==11){
-//        int x=11;
-//      }
       double score = 0.0;
-      queryPhrase = (QueryPhrase) query;
+
       if (queryPhrase.containsPhrase) {
+        List<List<String>> phrases = queryPhrase.phrases;
 
-        //If there is no phrase in the document skip current loop
-        ListMultimap<String, String> phrases = queryPhrase._phrases;
-        Set<String> keyset = phrases.keySet();
-
-        for (String key : keyset) {
-          List<String> tokens = phrases.get(key);
-          int pos = nextPhrase(tokens, doc._docid, -1);
+        for (List<String> phraseTerms : phrases) {
+          int pos = nextPhrase(phraseTerms, doc._docid, -1);
           if (pos == -1) {
             docid = doc._docid;
-            continue findDoc;
+            continue findNextDoc;
           }
           while (pos != -1) {
             score += 5.0;
-            pos = nextPhrase(tokens, doc._docid, pos);
+            pos = nextPhrase(phraseTerms, doc._docid, pos);
           }
-        }
-
-        for (String soloToken : queryPhrase.soloTokens) {
-          int termDocFrequency = documentTermFrequency(soloToken, doc.getUrl());
-          score += 1.0 * (double) termDocFrequency;
-        }
-
-      } else{
-        for (String term : query._tokens) {
-          int termDocFrequency = documentTermFrequency(term, doc.getUrl());
-          score += 1.0 * (double) termDocFrequency;
         }
       }
 
-//      System.out.println(doc._docid + " " + score);
+      for (String term : query.terms) {
+        int termDocFrequency = documentTermFrequency(term, doc.getUrl());
+        score += 1.0 * (double) termDocFrequency;
+      }
 
+//      System.out.println(doc._docid + " " + score);
       rankQueue.add(new ScoredDocument(doc, score));
       if (rankQueue.size() > numResults) {
         rankQueue.poll();
@@ -141,10 +144,10 @@ public class RankerConjunctive extends Ranker {
   }
 
   private Document nextDoc(Query query, int docid) {
-    Document doc = null;
+    Document doc;
     if (_options._indexerType.equals("inverted-occurrence")) {
       doc = occIndexer.nextDoc(query, docid);
-    } else if (_options._indexerType.equals("inverted-compressed")) {
+    } else {
       doc = compIndexer.nextDoc(query, docid);
     }
     return doc;
@@ -154,7 +157,7 @@ public class RankerConjunctive extends Ranker {
     int result = pos;
     if (_options._indexerType.equals("inverted-occurrence")) {
       result = occIndexer.nextPos(term, docid, pos);
-    } else if (_options._indexerType.equals("inverted-compressed")) {
+    } else {
       result = compIndexer.nextPos(term, docid, pos);
     }
     return result;
@@ -179,7 +182,7 @@ public class RankerConjunctive extends Ranker {
       break;
     }
 //    if (pos!=-1){
-//      System.out.println("Postion found in Doc"+ docid +" : " + pos);
+//      System.out.println("Position found in Doc"+ docid +" : " + pos);
 //    }
     return pos;
   }

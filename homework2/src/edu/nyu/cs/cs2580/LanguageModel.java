@@ -47,7 +47,7 @@ public class LanguageModel extends Ranker {
 
     // Query vector
     List<String> queryList = new ArrayList<String>();
-    for (String term : query._tokens) {
+    for (String term : query.terms) {
       queryList.add(term);
     }
 

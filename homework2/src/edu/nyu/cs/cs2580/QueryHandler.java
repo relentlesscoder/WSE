@@ -160,7 +160,7 @@ class QueryHandler implements HttpHandler {
 		}
 		processedQuery.processQuery();
 
-		if (processedQuery._tokens == null || processedQuery._tokens.size() <= 0) {
+		if (processedQuery.terms == null || processedQuery.terms.size() <= 0) {
 			respondWithMsg(exchange, "Invalid query text!");
 		}
 

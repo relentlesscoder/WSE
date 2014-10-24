@@ -8,7 +8,6 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
 import java.io.*;
-import java.lang.reflect.Array;
 import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
@@ -485,7 +484,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> queryTerms = query._tokens;
+    List<String> queryTerms = query.terms;
 
     try {
       dynamicLoading(queryTerms);
@@ -511,7 +510,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   public Document nextDocLoose(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> queryTerms = query._tokens;
+    List<String> queryTerms = query.terms;
 
     try {
       dynamicLoading(queryTerms);
@@ -546,7 +545,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return the next docid right after {@code docid} satisfying
    * {@code queryTerms} or -1 if no such document exists.
    */
-  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
+  private int nextCandidateDocid(List<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
@@ -1125,6 +1124,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     MetaPair metaPair;
     int count = 0;
 
+
+    //TODO: Deal with scenario when the term does not exist...
     // Clean if not enough memory...
     if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
       invertedIndex.clear();

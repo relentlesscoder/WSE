@@ -1,14 +1,11 @@
 package edu.nyu.cs.cs2580;
 
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.ListMultimap;
-
 import java.io.StringReader;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Vector;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * @CS2580: implement this class for HW2 to handle phrase. If the raw query is
@@ -17,8 +14,9 @@ import java.util.regex.Pattern;
  */
 public class QueryPhrase extends Query {
 
-  public ListMultimap<String, String> _phrases = ArrayListMultimap.create();
-  public Vector<String> soloTokens = new Vector<String>();
+  //  public ListMultimap<String, String> _phrases = ArrayListMultimap.create();
+  public List<List<String>> phrases = new ArrayList<List<String>>();
+//  public List<String> soloTerms = new ArrayList<String>();
   public boolean containsPhrase;
 
   public QueryPhrase(String query, boolean containsPhrase) {
@@ -28,65 +26,46 @@ public class QueryPhrase extends Query {
 
   @Override
   public void processQuery() {
-    if (_query == null) {
+    Set<String> uniqueTokens = new HashSet<String>();
+    Tokenizer tokenizer = new Tokenizer(new StringReader(query));
+
+    if (query == null) {
       return;
     }
 
-    if (containsPhrase){
-      Tokenizer tokenizer;
-
+    // Process all phrases first
+    if (containsPhrase) {
       Pattern p = Pattern.compile("(\".+?\")");
-      Matcher m = p.matcher(_query);
+      Matcher m = p.matcher(query);
 
+      // Store all phrases and terms (including the stop words)
       while (m.find()) {
+        List<String> phraseTerms = new ArrayList<String>();
         String phrase = m.group(1).replaceAll("\"", "").trim();
         tokenizer = new Tokenizer(new StringReader(phrase));
 
         while (tokenizer.hasNext()) {
           String term = Tokenizer.lowercaseFilter(tokenizer.getText());
           term = Tokenizer.krovetzStemmerFilter(term);
-          _phrases.get(phrase).add(term);
-          //System.out.println(term);
+          phraseTerms.add(term);
+          uniqueTokens.add(term);
         }
+        // Add the phrase :)
+        phrases.add(phraseTerms);
       }
+    }
 
-      tokenizer = new Tokenizer(new StringReader(_query));
-      HashSet<String> tokenSet = new HashSet<String>();
-      while (tokenizer.hasNext()) {
-        String term = Tokenizer.lowercaseFilter(tokenizer.getText());
-        if (term != null) {
-          term = Tokenizer.krovetzStemmerFilter(term);
-          tokenSet.add(term);
-        }
-      }
-      Set<String> phraseValueSet = new HashSet<String>();
-      phraseValueSet.addAll(_phrases.values());
-      for(String term : tokenSet){
-        if (phraseValueSet.contains(term)){
-          _tokens.add(term);
-        }else {
-          term = Tokenizer.stopwordFilter(term);
-          if (term != null){
-            _tokens.add(term);
-            soloTokens.add(term);
-          }
-        }
-      }
-    }else{
-      Tokenizer tokenizer = new Tokenizer(new StringReader(_query));
-      HashSet<String> tokenSet = new HashSet<String>();
-      while (tokenizer.hasNext()) {
-        String term = Tokenizer.lowercaseFilter(tokenizer.getText());
-        term = Tokenizer.stopwordFilter(term);
-        if (term != null) {
-          term = Tokenizer.krovetzStemmerFilter(term);
-          tokenSet.add(term);
-        }
-      }
-      for (String term : tokenSet) {
-        _tokens.add(term);
-      }
+    while (tokenizer.hasNext()) {
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      // Delete the stop words for normal query terms
+      term = Tokenizer.stopwordFilter(term);
+      term = Tokenizer.krovetzStemmerFilter(term);
+      checkNotNull(term, "Term can not be null... or what did you do to the term, tokenizer!?)");
+      uniqueTokens.add(term);
+    }
 
+    for (String term : uniqueTokens) {
+      terms.add(term);
     }
   }
 }

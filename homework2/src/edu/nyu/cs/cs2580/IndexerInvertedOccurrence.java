@@ -245,7 +245,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> queryTerms = query._tokens;
+    List<String> queryTerms = query.terms;
 
     //TODO
     try {
@@ -275,7 +275,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
    * @return the next docid right after {@code docid} satisfying
    * {@code queryTerms} or -1 if no such document exists.
    */
-  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
+  private int nextCandidateDocid(List<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
