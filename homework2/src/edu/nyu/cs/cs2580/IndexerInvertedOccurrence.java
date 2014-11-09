@@ -611,6 +611,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
     String invertedIndexFileName = _options._indexPrefix + "/main.idx";
     RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "r");
+    boolean hasAlready = true;
     MetaPair metaPair;
     int count = 0;
 
@@ -619,11 +620,25 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       invertedIndex.clear();
     }
 
+
+    for (String term : query) {
+      if (!invertedIndex.containsKey(term)) {
+        hasAlready = false;
+      }
+    }
+
+    // All query terms are already loaded...
+    if (hasAlready) {
+      return;
+    }
+
     System.out.println("Start dynamic loading...");
     long startTimeStamp = System.currentTimeMillis();
 
     for (String term : query) {
-      if (!invertedIndex.containsKey(term)) {
+      // Load the posting list for a term if it's not already loaded.
+      // Also check if it exists in the metaData, load it only if it exists.
+      if (!invertedIndex.containsKey(term) && metaData.containsKey(term)) {
         metaPair = metaData.get(term);
         raf.seek(metaPair.getStartPos());
         byte[] postingListBytes = new byte[metaPair.getLength()];

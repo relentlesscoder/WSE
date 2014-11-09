@@ -20,8 +20,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final int K = 100;
   /**
    * ***********************************************************************
-   * {@code lastDocid} is temporary and will be cleared once the index is
-   * constructed...
+   * {@code lastDocid}, {@code lastPostingListSize} and {@code lastSkipPointerOffset}
+   * is temporary and will be cleared once the index isconstructed...
    * ***********************************************************************
    */
 
@@ -484,8 +484,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
+
     List<String> queryTerms = query.terms;
 
+    // Dynamic loading :)
     try {
       dynamicLoading(queryTerms);
     } catch (IOException e) {
@@ -1124,8 +1126,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     MetaPair metaPair;
     int count = 0;
 
-
-    //TODO: Deal with scenario when the term does not exist...
     // Clean if not enough memory...
     if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
       invertedIndex.clear();
@@ -1138,6 +1138,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
+    // All query terms are already loaded...
     if (hasAlready) {
       return;
     }
@@ -1146,7 +1147,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     long startTimeStamp = System.currentTimeMillis();
 
     for (String term : query) {
-      if (!invertedIndex.containsKey(term)) {
+      // Load the posting list for a term if it's not already loaded.
+      // Also check if it exists in the metaData, load it only if it exists.
+      if (!invertedIndex.containsKey(term) && metaData.containsKey(term)) {
         metaPair = metaData.get(term);
         raf.seek(metaPair.getStartPos());
         byte[] postingListBytes = new byte[metaPair.getLength()];
