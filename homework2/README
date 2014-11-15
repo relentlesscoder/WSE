@@ -6,92 +6,80 @@ Compile and Run
 
 1. Shell Script:
 
-If the port 25806 is occupied somehow, you could change the value of 'SERVER'
-variable in start.sh to one that is available.
+In our script, we already set the JVM max runtime memory as 512M,
+if you want to change the limit, feel free to edit the file.
 
-run server:  $ chmod u+x start.sh
-			 $ ./start.sh 25806 ./data/corpus.tsv
+Construct index:  $ chmod u+x SearchEngine.sh
+		  $ ./SearchEngine.sh ./SearchEngine.sh \
+                    -—mode=index --options=conf/engine.conf
+ 
 
-evaluation:  $ chmod u+x evaluate.sh
-		     $ ./evaluate.sh [URL] ./data/qrels.tsv
+Serving:  	  $ ./SearchEngine.sh
+                    \--mode=serve --port=[port] --options=conf/engine.conf
+		    
 
 2. Manual:
 
-We used external library, Apache logging services, log4j to proccess
-our logs. So, whenever compile the files, run server or run evaluation,
-the path to the log4j files need to be include in classpath. Also, a
-logger configuration file need to be include in 
+We used several external library, So, whenever compile the files, 
+constructing index or serving, the path to the library’s files need to 
+be include in classpath.  
 
-example:  homework1$ mkdir ./bin
-		  		   $ javac -d ./bin  ./src/edu/nyu/cs/cs2580/*.java
-		           $ cp ./src/log4j2.xml ./bin
-		           $ export CLASSPATH=./bin:./bin/lib/log4j-api.jar:./bin/lib/log4j-core.jar
-		           $ java edu.nyu.cs.cs2580.SearchEngine ./data/corpus.tsv
+example:  homework2$ mkdir ./bin
+		   $ cp -r ./lib ./bin
+		   $ export CLASSPATH=./bin:./bin/lib/*
+		   $  javac -d ./bin  ./src/edu/nyu/cs/cs2580/*/*.java \
+                     ./src/edu/nyu/cs/cs2580/*.java -nowarn
+		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
+		     --mode=index --options=conf/engine.conf
+		   $ java -Xmx512m edu.nyu.cs.cs2580.SearchEngine \
+		     --mode=serve --port=25806 --options=conf/engine.conf
 
-		  homework1$ export CLASSPATH=./bin:./bin/lib/log4j-api.jar:./bin/lib/log4j-core.jar
-		           $ curl " http://<HOST>:25806/search?query=<QUERY>&ranker=<RANKER-TYPE>&format=text" | \
-     				java edu.nyu.cs.cs2580.Evaluator <PATH-TO-JUDGMENTS>
+---------------------
+Implementation Detail
+---------------------
 
-3. Reults:
+1.Text Processing:
 
-To shoot test, using string or encoded url are either fine.
+i)   Using Snowball Porter Stemmer Java library for aggressive text stemming, all 
+library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
 
-All results files (log, scored ranking and evaluation result) will be 
-stored in the 'results' folder, which belongs in project's root path.
+ii)  Using Apache Lucene KStmmer Java Library for text stemming with validation, 
+all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer".
 
-4. Betas of linear ranker
-BETA_COS = 1.0;
-BETA_LM = 10.0;
-BETA_PHRASE = 0.001;
-BETA_NUMVIEWS = 0.00001;
+iii) Using JSoup for HTML extracting.
 
----------
-File List
----------
+iV)  Using JFlex for text analysis. All regular expressions are based on Word 
+Boundaries defined on http://www.unicode.org/reports/tr29/.
 
-README					this file		
+2.Constructing:
 
-SHELL SCRIPT:
-start.sh 				compile files and start sever 		
-evaluate.sh 			run evaluation test
+i)   We set a memory threshold for inverted index and will write it into disk 
+once the threshold is met.
 
-EXTERNAL LIBARY:
-log4j-api.jar			Apache logging services API
-log4j-core.jar			Apache logging services
+ii)  After processing the corpus, we will merge all temporary written inverted index 
+files according to alphabetical order.
 
-SOURCE FILES:
-BaseRanker.java			interface for implementing rankers
-Document.java			Document class for store document process from corpus
-Evaluator.java			standard evaluations for queries
-Index.java				Index class for corpus' term information
-LanguageModel.java		Query Likelihood ranker implementation
-LinearRanker.java		Linear ranker implementation
-LoggingHandler.java		log handler for actions taken by server
-NumviewsRanker.java		Number Views ranker implementation
-PhraseRanker.java		Phrase ranker implementation
-QueryHandler.java		handler for comming client query request
-Ranker.java				example ranker (didn't change)
-ScoredDocument.java		SocoredDocment class
-SearchEngine.java		setup search engine and run server
-Utility.java			utitlity methods for output get hashmap info
-VectorSpaceModel.java	Cosine ranker implementation
+iii) The merge process will produce many small files each host certain number of 
+posting list by order.
 
-OTHER:
-log4j2.xml				logger configuration
+iV)  The rest will be serialized to a single file.
 
-----------------------
-ClickLogging Work Flow
-----------------------
+3.Serving:
 
-1. A http handler (LoggingHanlder.java) is created for handling click logging requests. This handler accepts URL pattern "http://<HOST>:<PORT>/logging?query=<QUERY>&sessionid=<SESSION-ID>&docid=<DOCUMENT-ID>", within which query strings "query", "sessionid" and "docid" denote the search query text, the global identifier of the user session (we use UUID to guarantee uniqueness) and the identifier of the document, respectively. The handler builds and appends the click event to the log file.
+i)    We load the index object first.
 
-2. We use http cookies for user session management. When a user submits a query, the query handler checks http headers of the request to see if entry "search-session-id" exists in cookies. If the entry does not exist, which means this is a new user session, the handler generates a new UUID and continues processing the query. If the entry exists, which means it is an existing user session, the handler generates a UUID based on the entry value and continues processing the query.
+ii)   The inverted index is not loaded at first.
 
-3. When the server builds the response, it writes the UUID into the cookie entry "search-session-id" of the reponse and sets its "Expire" value to 10 minutes from the current server time. This defines the default 10 minutes user session.The session keeps alive if there are user actions in the 10 minutes interval(server extends the cookie expiration for 10 minutes). Otherwise, the cookie is deleted by the browser and the user session is simply expired. 
+iii)  Every time a query comes in, we will check whether if it exists in the inverted 
+index, if not, we will load it dynamically.
 
-4. The server builds the html body of the response, it writes the UUID and query text into two hidden fields and it also writes the document id into the attribute "doc-id" of each link. We also creats a javascript script.
+iV)   We will load a all the posting list of the partial file every time.
+(There's the reason they are so small..)
 
-5. The server marks all documents as "render" and writes into the log file. 
+If the inverted index hits a threshold, then it will be cleared for now... (Due to our 
+implementation, it rarely happen...)
 
-6. When the user click a link in browser, the javascript function (created in #4) triggers a JQuery AJAX call(using form values generated on #4) to the logging handler (created on #1) to save the click event before redirect to its href location(empty for now so the page simply reloads itself).
-
+4. Note
+i)    For long phrase, especially with common word or even stop word (such as "to be or not to be"...),
+it will takes relatively a long time to computer. especially in compress index...
+Just in case, we are sure that there'll be a a result and the result is at least intuitively valid.
