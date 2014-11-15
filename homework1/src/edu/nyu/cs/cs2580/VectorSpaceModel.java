@@ -6,8 +6,6 @@ import org.apache.logging.log4j.Logger;
 import java.util.*;
 
 public class VectorSpaceModel implements BaseRanker {
-  private static final Logger logger = LogManager.getLogger();
-
   private Index index;
 
   public VectorSpaceModel(Index index) {
@@ -16,7 +14,6 @@ public class VectorSpaceModel implements BaseRanker {
 
   @Override
   public List<ScoredDocument> runQuery(String query) {
-    logger.debug("Start running query");
 
     List<ScoredDocument> retrieval_results = new ArrayList<ScoredDocument>();
 
@@ -24,7 +21,6 @@ public class VectorSpaceModel implements BaseRanker {
       retrieval_results.add(scoreDocument(query, i));
     }
 
-    logger.debug("Finish running query");
     return retrieval_results;
   }
 
@@ -55,8 +51,6 @@ public class VectorSpaceModel implements BaseRanker {
           score);
 
     } catch (Exception e) {
-      logger.error("Score document error while processing doc "
-          + Integer.toString(docId) + ", due to: " + e);
     } finally {
       if (scanner != null) {
         scanner.close();
