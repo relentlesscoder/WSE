@@ -209,7 +209,7 @@ public class SearchEngine {
 		InetSocketAddress addr = new InetSocketAddress(SearchEngine.PORT);
 		HttpServer server = HttpServer.create(addr, -1);
 		server.createContext("/", htmlHandler);
-		server.createContext("/", handler);
+		server.createContext("/search", handler);
 		server.setExecutor(Executors.newCachedThreadPool());
 		server.start();
 		System.out.println("Listening on port: "
