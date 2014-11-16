@@ -17,11 +17,11 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
-  private static final int K = 100;
+  private static final int K = 10000;
   /**
    * ***********************************************************************
    * {@code lastDocid}, {@code lastPostingListSize} and {@code lastSkipPointerOffset}
-   * is temporary and will be cleared once the index isconstructed...
+   * is temporary and will be cleared once the index is constructed...
    * ***********************************************************************
    */
 
@@ -45,6 +45,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
   private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
   private Map<String, MetaPair> metaData = new HashMap<String, MetaPair>();
+
+  // Cache all terms loaded in the index and the count of each term mentioned by each query
+  // When the index is about to exceed to memory limit, remove the less popular (less count) term
+  // and its posting list from the index to spare memory space.
+//  private SortedMultiset<String> queryTermCountCache = TreeMultiset.create();
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -510,7 +515,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid
    * @return
    */
-  public Document nextDocLoose(Query query, int docid) {
+  public Document nextDocLoose(Query query, int docid, Map<String, Integer> cacheDocid) {
     checkNotNull(docid, "docid can not be null!");
     List<String> queryTerms = query.terms;
 
@@ -523,16 +528,30 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     int minDocid = Integer.MAX_VALUE;
+    String minDocidTerm = "";
+
     for (String term : queryTerms) {
-      int nextDocid = nextDocid(term, docid);
+      int nextDocid = -1;
+      if (cacheDocid.get(term) != -1 && cacheDocid.get(term) > docid) {
+        nextDocid = cacheDocid.get(term);
+      } else {
+        nextDocid = nextDocid(term, docid);
+        cacheDocid.put(term, nextDocid);
+      }
+
       if (nextDocid != -1) {
-        minDocid = Math.min(minDocid, nextDocid);
+        if (nextDocid < minDocid) {
+          minDocid = nextDocid;
+          minDocidTerm = term;
+        }
+//        minDocid = Math.min(minDocid, nextDocid);
       }
     }
 
     if (minDocid == Integer.MAX_VALUE) {
       return null;
     } else {
+      cacheDocid.put(minDocidTerm, -1);
       return documents.get(minDocid);
     }
   }
@@ -548,6 +567,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * {@code queryTerms} or -1 if no such document exists.
    */
   private int nextCandidateDocid(List<String> queryTerms, int docid) {
+    String termOfLargestDocid = "";
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
@@ -559,12 +579,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         // The next document ID does not exist...
         return -1;
       }
-      largestDocid = Math.max(largestDocid, nextDocid);
+      if (nextDocid > largestDocid) {
+        termOfLargestDocid = term;
+        largestDocid = nextDocid;
+      }
     }
 
     // Check if the largest document ID satisfy all query terms.
     for (String term : queryTerms) {
-      if (!hasDocid(term, largestDocid)) {
+      if (!term.equals(termOfLargestDocid) || !hasDocid(term, largestDocid)) {
         // The largest docid does not satisfy this term, hence check the next
         return nextCandidateDocid(queryTerms, largestDocid);
       }
@@ -1120,8 +1143,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @throws ClassNotFoundException
    */
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
-    String invertedIndexFileName = _options._indexPrefix + "/main.idx";
-    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "r");
     boolean hasAlready = true;
     MetaPair metaPair;
     int count = 0;
@@ -1145,6 +1166,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     System.out.println("Start dynamic loading...");
     long startTimeStamp = System.currentTimeMillis();
+
+    String invertedIndexFileName = _options._indexPrefix + "/main.idx";
+    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "r");
 
     for (String term : query) {
       // Load the posting list for a term if it's not already loaded.
