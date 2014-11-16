@@ -3,6 +3,7 @@ package edu.nyu.cs.cs2580;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
+import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import org.jsoup.Jsoup;
 
@@ -16,11 +17,11 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
-  private static final int K = 2;
+  private static final int K = 100;
   /**
    * ***********************************************************************
-   * {@code lastDocid} is temporary and will be cleared once the index is
-   * constructed...
+   * {@code lastDocid}, {@code lastPostingListSize} and {@code lastSkipPointerOffset}
+   * is temporary and will be cleared once the index isconstructed...
    * ***********************************************************************
    */
 
@@ -43,7 +44,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private Multiset<String> _termCorpusFrequency = HashMultiset.create();
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
   private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
-  private List<String> partialMergerFileOffset = new ArrayList<String>();
+  private Map<String, MetaPair> metaData = new HashMap<String, MetaPair>();
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -91,7 +92,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
 
-    // Empty the target folder first
+    /**************************************************************************
+     * First clean the folder....
+     *************************************************************************/
     File outputFolder = new File(_options._indexPrefix);
     for (File file : outputFolder.listFiles()) {
       file.delete();
@@ -250,7 +253,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           tmpInvertedIndex.get(term).add(deltaDocid);
 
           if ((lastPostingListSize.get(term) - lastSkipPointerOffset
-              .get(term)) / (K * 100) > 0) {
+              .get(term)) / K > 0) {
             skipPointers.get(term).addAll(vByteEncoding(prevDocid));
             skipPointers.get(term).addAll(
                 vByteEncoding(lastPostingListSize.get(term)));
@@ -462,7 +465,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this.skipPointers = loaded.skipPointers;
         this._termCorpusFrequency = loaded._termCorpusFrequency;
         this.docUrlMap = loaded.docUrlMap;
-        this.partialMergerFileOffset = loaded.partialMergerFileOffset;
+        this.metaData = loaded.metaData;
         reader.close();
 
         break;
@@ -481,8 +484,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> queryTerms = query._tokens;
 
+    List<String> queryTerms = query.terms;
+
+    // Dynamic loading :)
     try {
       dynamicLoading(queryTerms);
     } catch (IOException e) {
@@ -507,7 +512,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   public Document nextDocLoose(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> queryTerms = query._tokens;
+    List<String> queryTerms = query.terms;
 
     try {
       dynamicLoading(queryTerms);
@@ -542,7 +547,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return the next docid right after {@code docid} satisfying
    * {@code queryTerms} or -1 if no such document exists.
    */
-  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
+  private int nextCandidateDocid(List<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
@@ -988,137 +993,118 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
-   * Merge all partial list together :)
+   * Merge all partial index files into a single file.
    *
    * @throws IOException
    * @throws ClassNotFoundException
    */
   private void merge() throws IOException, ClassNotFoundException {
-    Multimap<String, Byte> bufferMap = ArrayListMultimap.create();
-    String firstTermOfPartialFile = "";
-    boolean hasFirstTerm = false;
-    long currentSize = 0;
-    int partialFileCount = 0;
+    String invertedIndexFileName = _options._indexPrefix + "/main.idx";
+    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
+    long currentPos = 0;
+    int length = 0;
 
+    /**************************************************************************
+     * Prepare merging...
+     *************************************************************************/
     File folder = new File(_options._indexPrefix);
+    int numOfPartialIndex = 0;
 
-    int numOfIndex = 0;
+    // Get the number of partial index file
     for (File f : folder.listFiles()) {
       if (f.getName().matches("^corpus[0-9]+\\.idx")) {
-        numOfIndex++;
+        numOfPartialIndex++;
       }
     }
 
-    File[] files = new File[numOfIndex];
-    int[] numOfEntries = new int[numOfIndex];
-    String[] terms = new String[numOfIndex];
-
     Kryo kryo = new Kryo();
-    Input[] inputs = new Input[numOfIndex];
+    File[] files = new File[numOfPartialIndex];
+    Input[] inputs = new Input[numOfPartialIndex];
+    String[] terms = new String[numOfPartialIndex];
+    int[] numOfPostingList = new int[numOfPartialIndex];
 
-    for (int i = 0; i < numOfIndex; i++) {
+    // Initialize the files, inputs and
+    // Then get the quantity of the posting list for each partial file
+    for (int i = 0; i < numOfPartialIndex; i++) {
       for (File file : folder.listFiles()) {
         if (file.getName().matches(
             "^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
+          terms[i] = "";
           files[i] = file;
           inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
+          numOfPostingList[i] = kryo.readObject(inputs[i], Integer.class);
           break;
         }
       }
     }
 
-    // Initialize...
-    for (int i = 0; i < numOfIndex; i++) {
-      numOfEntries[i] = kryo.readObject(inputs[i], Integer.class);
-      terms[i] = "";
-    }
+    /**************************************************************************
+     * Start merging...
+     *************************************************************************/
+    while (hasMorePostingList(numOfPostingList)) {
+      // Start to process the next posting list
+      String outputTerm = "";
+      List<Byte> outputPostingList = new ArrayList<Byte>();
+      SortedSetMultimap<String, Integer> sortedTermAndFileIndex = TreeMultimap
+          .create(Ordering.natural(), Ordering.natural());
 
-    while (hasEntries(numOfEntries)) {
-      for (int i = 0; i < numOfIndex; i++) {
-        if (terms[i].equals("") && numOfEntries[i] > 0) {
-          numOfEntries[i] -= 1;
+      // First read the next term from each of the partial index file if it has more.
+      for (int i = 0; i < numOfPartialIndex; i++) {
+        if (terms[i].equals("") && numOfPostingList[i] > 0) {
+          numOfPostingList[i]--;
           terms[i] = kryo.readObject(inputs[i], String.class);
         }
       }
 
-      SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap
-          .create(Ordering.natural(), Ordering.natural());
-      for (int i = 0; i < numOfIndex; i++) {
+      // Sort all next terms by alphabetical order
+      // For two same terms, sort their file number to
+      for (int i = 0; i < numOfPartialIndex; i++) {
         if (!terms[i].equals("")) {
-          sortedSetMultimap.put(terms[i], i);
+          sortedTermAndFileIndex.put(terms[i], i);
         }
       }
 
-      Multimap<String, Byte> output = ArrayListMultimap.create();
-      for (Map.Entry entry : sortedSetMultimap.entries()) {
-        String term = (String) entry.getKey();
-        for (int i : sortedSetMultimap.asMap().get(term)) {
-          output.get(term).addAll(kryo.readObject(inputs[i], ArrayList.class));
+      // Retrieve the first term and posting list according to the sorted result
+      for (Map.Entry entry : sortedTermAndFileIndex.entries()) {
+        outputTerm = (String) entry.getKey();
+        for (int i : sortedTermAndFileIndex.asMap().get(outputTerm)) {
+          outputPostingList.addAll(kryo.readObject(inputs[i], ArrayList.class));
           terms[i] = "";
         }
-
         break;
       }
 
-      for (Map.Entry entry : output.asMap().entrySet()) {
-        String term = (String) entry.getKey();
-        List<Byte> list = new ArrayList<Byte>(
-            (java.util.Collection<? extends Byte>) entry.getValue());
+      currentPos = raf.length();
+      raf.seek(currentPos);
+      raf.write(Bytes.toArray(outputPostingList));
 
-        currentSize += list.size();
-        bufferMap.get(term).addAll(list);
-
-        if (!hasFirstTerm) {
-          firstTermOfPartialFile = term;
-          hasFirstTerm = true;
-        }
-
-        if (currentSize > Util.SIZE_PER_FILE_MAP_Byte) {
-          partialFileCount++;
-          currentSize = 0;
-          hasFirstTerm = false;
-
-          String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
-          partialMergerFileOffset.add(firstTermOfPartialFile);
-          partialMergerFileOffset.add(fileName);
-          String indexPartialMergedFile = _options._indexPrefix + fileName;
-          ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
-              indexPartialMergedFile)));
-
-          writer.writeObject(bufferMap);
-          writer.flush();
-          writer.reset();
-          writer.close();
-          bufferMap.clear();
-        }
-      }
-      output.clear();
+      // Assume the posting list will not be too big...
+      length = (int) (raf.length() - currentPos);
+      metaData.put(outputTerm, new MetaPair(currentPos, length));
     }
 
-    partialFileCount++;
-    String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
-    partialMergerFileOffset.add(firstTermOfPartialFile);
-    partialMergerFileOffset.add(fileName);
-    String indexPartialMergedFile = _options._indexPrefix + fileName;
-    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
-        indexPartialMergedFile)));
+    raf.close();
 
-    writer.writeObject(bufferMap);
-    writer.flush();
-    writer.reset();
-    writer.close();
-    bufferMap.clear();
-
-//    clean up
+    /**************************************************************************
+     * Wrapping up...
+     *************************************************************************/
     for (File f : folder.listFiles()) {
       if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+        // Delete all partial index file
         f.delete();
       }
     }
   }
 
-  private boolean hasEntries(int[] numOfEntries) {
-    for (int i : numOfEntries) {
+  /**
+   * Check if there's still at least one posting list needed to be merged.
+   *
+   * @param numOfPostingList the number of posting list of each partial index file.
+   * @return true if there's at least one posting list needed to be merged, otherwise
+   * false.
+   */
+  private boolean hasMorePostingList(int[] numOfPostingList) {
+    for (int i : numOfPostingList) {
       if (i > 0) {
         return true;
       }
@@ -1127,65 +1113,54 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   /**
-   * Dynamically load partial invertial index at run time
+   * Dynamically load posting list at run time
    *
    * @param query the query terms
    * @throws IOException
    * @throws ClassNotFoundException
    */
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
-    // First check if dynamic loading is need.
-    boolean needLoading = false;
-
-    for (String term : query) {
-      if (!invertedIndex.containsKey(term)) {
-        needLoading = true;
-      }
-    }
-
-    if (!needLoading) {
-      // We got all we need, return~
-      return;
-    }
-
-    // Start
-    System.out.println("Start dynamic loading...");
-    long startTimeStamp = System.currentTimeMillis();
+    String invertedIndexFileName = _options._indexPrefix + "/main.idx";
+    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "r");
+    boolean hasAlready = true;
+    MetaPair metaPair;
     int count = 0;
-
-    File folder = new File(_options._indexPrefix);
-    File[] files = folder.listFiles();
 
     // Clean if not enough memory...
     if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
       invertedIndex.clear();
     }
 
+
     for (String term : query) {
-      if (invertedIndex.containsKey(term)) {
-        continue;
+      if (!invertedIndex.containsKey(term)) {
+        hasAlready = false;
       }
-
-      int index = 0;
-      for (int i = 1; i < partialMergerFileOffset.size() / 2; i++) {
-        if (term.compareTo(partialMergerFileOffset.get(i * 2)) >= 0) {
-          index = 2 * i;
-        } else {
-          break;
-        }
-      }
-
-      String indexFile = _options._indexPrefix + "/" + partialMergerFileOffset.get(index + 1);
-      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
-      Multimap<String, Byte> tmpPartialIndex = (Multimap<String, Byte>) reader.readObject();
-
-      // Load!
-      invertedIndex.get(term).addAll(tmpPartialIndex.get(term));
-      count++;
-
-      tmpPartialIndex.clear();
     }
 
+    // All query terms are already loaded...
+    if (hasAlready) {
+      return;
+    }
+
+    System.out.println("Start dynamic loading...");
+    long startTimeStamp = System.currentTimeMillis();
+
+    for (String term : query) {
+      // Load the posting list for a term if it's not already loaded.
+      // Also check if it exists in the metaData, load it only if it exists.
+      if (!invertedIndex.containsKey(term) && metaData.containsKey(term)) {
+        metaPair = metaData.get(term);
+        raf.seek(metaPair.getStartPos());
+        byte[] postingListBytes = new byte[metaPair.getLength()];
+        raf.readFully(postingListBytes);
+        List<Byte> postingList = Bytes.asList(postingListBytes);
+        invertedIndex.get(term).addAll(postingList);
+        count++;
+      }
+    }
+
+    raf.close();
     long duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Compete dynamic loading. Loads " + count + " posting lists and takes time " + Util.convertMillis(duration));
   }

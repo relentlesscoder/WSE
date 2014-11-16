@@ -43,7 +43,7 @@ public class VectorSpaceModel extends Ranker {
   public ScoredDocument scoreDocument(Query query, int docId) {
     ScoredDocument scoredDocument = null;
 
-    Vector<String> tokens = query._tokens;
+    List<String> tokens = query.terms;
     // <Term, Term frequency>
     Map<String, Integer> queryMap = new HashMap<String, Integer>();
 

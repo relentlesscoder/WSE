@@ -25,7 +25,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
 
-  private List<String> partialMergerFileOffset = new ArrayList<String>();
+  private Map<String, MetaPair> metaData = new HashMap<String, MetaPair>();
 
   // Provided for serialization
   public IndexerInvertedDoconly() {
@@ -207,7 +207,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
         this.invertedIndex = loaded.invertedIndex;
         this._termCorpusFrequency = loaded._termCorpusFrequency;
-        this.partialMergerFileOffset = loaded.partialMergerFileOffset;
+        this.metaData = loaded.metaData;
         reader.close();
 
         break;
@@ -226,7 +226,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   @Override
   public DocumentIndexed nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    Vector<String> queryTerms = query._tokens;
+    List<String> queryTerms = query.terms;
 
     //TODO
     try {
@@ -256,7 +256,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    * @return the next docid right after {@code docid} satisfying
    * {@code queryTerms} or -1 if no such document exists.
    */
-  private int nextCandidateDocid(Vector<String> queryTerms, int docid) {
+  private int nextCandidateDocid(List<String> queryTerms, int docid) {
     int largestDocid = -1;
 
     // For each query term's document ID list, find the largest docId because it
@@ -385,137 +385,118 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Merge all partial list together :)
+   * Merge all partial index files into a single file.
    *
    * @throws IOException
    * @throws ClassNotFoundException
    */
   private void merge() throws IOException, ClassNotFoundException {
-    Multimap<String, Integer> bufferMap = ArrayListMultimap.create();
-    String firstTermOfPartialFile = "";
-    boolean hasFirstTerm = false;
-    long currentSize = 0;
-    int partialFileCount = 0;
+    String invertedIndexFileName = _options._indexPrefix + "/main.idx";
+    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
+    long currentPos = 0;
+    int length = 0;
 
+    /**************************************************************************
+     * Prepare merging...
+     *************************************************************************/
     File folder = new File(_options._indexPrefix);
+    int numOfPartialIndex = 0;
 
-    int numOfIndex = 0;
+    // Get the number of partial index file
     for (File f : folder.listFiles()) {
       if (f.getName().matches("^corpus[0-9]+\\.idx")) {
-        numOfIndex++;
+        numOfPartialIndex++;
       }
     }
 
-    File[] files = new File[numOfIndex];
-    int[] numOfEntries = new int[numOfIndex];
-    String[] terms = new String[numOfIndex];
-
     Kryo kryo = new Kryo();
-    Input[] inputs = new Input[numOfIndex];
+    File[] files = new File[numOfPartialIndex];
+    Input[] inputs = new Input[numOfPartialIndex];
+    String[] terms = new String[numOfPartialIndex];
+    int[] numOfPostingList = new int[numOfPartialIndex];
 
-    for (int i = 0; i < numOfIndex; i++) {
+    // Initialize the files, inputs and
+    // Then get the quantity of the posting list for each partial file
+    for (int i = 0; i < numOfPartialIndex; i++) {
       for (File file : folder.listFiles()) {
         if (file.getName().matches(
             "^corpus" + String.format("%03d", i + 1) + "\\.idx")) {
+          terms[i] = "";
           files[i] = file;
           inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
+          numOfPostingList[i] = kryo.readObject(inputs[i], Integer.class);
           break;
         }
       }
     }
 
-    // Initialize...
-    for (int i = 0; i < numOfIndex; i++) {
-      numOfEntries[i] = kryo.readObject(inputs[i], Integer.class);
-      terms[i] = "";
-    }
+    /**************************************************************************
+     * Start merging...
+     *************************************************************************/
+    while (hasMorePostingList(numOfPostingList)) {
+      // Start to process the next posting list
+      String outputTerm = "";
+      List<Integer> outputPostingList = new ArrayList<Integer>();
+      SortedSetMultimap<String, Integer> sortedTermAndFileIndex = TreeMultimap
+          .create(Ordering.natural(), Ordering.natural());
 
-    while (hasEntries(numOfEntries)) {
-      for (int i = 0; i < numOfIndex; i++) {
-        if (terms[i].equals("") && numOfEntries[i] > 0) {
-          numOfEntries[i] -= 1;
+      // First read the next term from each of the partial index file if it has more.
+      for (int i = 0; i < numOfPartialIndex; i++) {
+        if (terms[i].equals("") && numOfPostingList[i] > 0) {
+          numOfPostingList[i]--;
           terms[i] = kryo.readObject(inputs[i], String.class);
         }
       }
 
-      SortedSetMultimap<String, Integer> sortedSetMultimap = TreeMultimap
-          .create(Ordering.natural(), Ordering.natural());
-      for (int i = 0; i < numOfIndex; i++) {
+      // Sort all next terms by alphabetical order
+      // For two same terms, sort their file number to
+      for (int i = 0; i < numOfPartialIndex; i++) {
         if (!terms[i].equals("")) {
-          sortedSetMultimap.put(terms[i], i);
+          sortedTermAndFileIndex.put(terms[i], i);
         }
       }
 
-      Multimap<String, Integer> output = ArrayListMultimap.create();
-      for (Map.Entry entry : sortedSetMultimap.entries()) {
-        String term = (String) entry.getKey();
-        for (int i : sortedSetMultimap.asMap().get(term)) {
-          output.get(term).addAll(kryo.readObject(inputs[i], ArrayList.class));
+      // Retrieve the first term and posting list according to the sorted result
+      for (Map.Entry entry : sortedTermAndFileIndex.entries()) {
+        outputTerm = (String) entry.getKey();
+        for (int i : sortedTermAndFileIndex.asMap().get(outputTerm)) {
+          outputPostingList.addAll(kryo.readObject(inputs[i], ArrayList.class));
           terms[i] = "";
         }
-
         break;
       }
 
-      for (Map.Entry entry : output.asMap().entrySet()) {
-        String term = (String) entry.getKey();
-        List<Integer> list = new ArrayList<Integer>(
-            (java.util.Collection<? extends Integer>) entry.getValue());
+      currentPos = raf.length();
+      raf.seek(currentPos);
+      raf.write(Util.serialize(outputPostingList));
 
-        currentSize += list.size();
-        bufferMap.get(term).addAll(list);
-
-        if (!hasFirstTerm) {
-          firstTermOfPartialFile = term;
-          hasFirstTerm = true;
-        }
-
-        if (currentSize > Util.SIZE_PER_FILE_MAP_INTEGER) {
-          partialFileCount++;
-          currentSize = 0;
-          hasFirstTerm = false;
-
-          String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
-          partialMergerFileOffset.add(firstTermOfPartialFile);
-          partialMergerFileOffset.add(fileName);
-          String indexPartialMergedFile = _options._indexPrefix + fileName;
-          ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
-              indexPartialMergedFile)));
-
-          writer.writeObject(bufferMap);
-          writer.flush();
-          writer.reset();
-          writer.close();
-          bufferMap.clear();
-        }
-      }
-      output.clear();
+      // Assume the posting list will not be too big...
+      length = (int) (raf.length() - currentPos);
+      metaData.put(outputTerm, new MetaPair(currentPos, length));
     }
 
-    partialFileCount++;
-    String fileName = "/corpus_merged_partial_" + String.format("%03d", partialFileCount) + ".idx";
-    partialMergerFileOffset.add(firstTermOfPartialFile);
-    partialMergerFileOffset.add(fileName);
-    String indexPartialMergedFile = _options._indexPrefix + fileName;
-    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(
-        indexPartialMergedFile)));
+    raf.close();
 
-    writer.writeObject(bufferMap);
-    writer.flush();
-    writer.reset();
-    writer.close();
-    bufferMap.clear();
-
-//    clean up
+    /**************************************************************************
+     * Wrapping up...
+     *************************************************************************/
     for (File f : folder.listFiles()) {
       if (f.getName().matches("^corpus[0-9]+\\.idx")) {
+        // Delete all partial index file
         f.delete();
       }
     }
   }
 
-  private boolean hasEntries(int[] numOfEntries) {
-    for (int i : numOfEntries) {
+  /**
+   * Check if there's still at least one posting list needed to be merged.
+   *
+   * @param numOfPostingList the number of posting list of each partial index file.
+   * @return true if there's at least one posting list needed to be merged, otherwise
+   * false.
+   */
+  private boolean hasMorePostingList(int[] numOfPostingList) {
+    for (int i : numOfPostingList) {
       if (i > 0) {
         return true;
       }
@@ -524,66 +505,54 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
-   * Dynamically load partial invertial index at run time
+   * Dynamically load posting list at run time
    *
    * @param query the query terms
    * @throws IOException
    * @throws ClassNotFoundException
    */
   private void dynamicLoading(List<String> query) throws IOException, ClassNotFoundException {
-    // First check if dynamic loading is need.
-    boolean needLoading = false;
-
-    for (String term : query) {
-      if (!invertedIndex.containsKey(term)) {
-        needLoading = true;
-      }
-    }
-
-    if (!needLoading) {
-      // We got all we need, return~
-      return;
-    }
-
-    System.out.println("Start dynamic loading...");
-    long startTimeStamp = System.currentTimeMillis();
+    String invertedIndexFileName = _options._indexPrefix + "/main.idx";
+    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "r");
+    boolean hasAlready = true;
+    MetaPair metaPair;
     int count = 0;
-
-    File folder = new File(_options._indexPrefix);
-    File[] files = folder.listFiles();
 
     // Clean if not enough memory...
     if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
       invertedIndex.clear();
     }
 
+
     for (String term : query) {
-      if (invertedIndex.containsKey(term)) {
-        continue;
+      if (!invertedIndex.containsKey(term)) {
+        hasAlready = false;
       }
-
-      int index = 0;
-      for (int i = 1; i < partialMergerFileOffset.size() / 2; i++) {
-        if (term.compareTo(partialMergerFileOffset.get(i * 2)) >= 0) {
-          index = 2 * i;
-        } else {
-          break;
-        }
-      }
-
-      String indexFile = _options._indexPrefix + "/" + partialMergerFileOffset.get(index + 1);
-      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(indexFile));
-      Multimap<String, Integer> tmpPartialIndex = (Multimap<String, Integer>) reader.readObject();
-      for (String s : query) {
-        if (!invertedIndex.containsKey(term) && tmpPartialIndex.containsKey(s)) {
-          // Load!
-          invertedIndex.get(s).addAll(tmpPartialIndex.get(s));
-          count++;
-        }
-      }
-      tmpPartialIndex.clear();
     }
 
+    // All query terms are already loaded...
+    if (hasAlready) {
+      return;
+    }
+
+    System.out.println("Start dynamic loading...");
+    long startTimeStamp = System.currentTimeMillis();
+
+    for (String term : query) {
+      // Load the posting list for a term if it's not already loaded.
+      // Also check if it exists in the metaData, load it only if it exists.
+      if (!invertedIndex.containsKey(term) && metaData.containsKey(term)) {
+        metaPair = metaData.get(term);
+        raf.seek(metaPair.getStartPos());
+        byte[] postingListBytes = new byte[metaPair.getLength()];
+        raf.readFully(postingListBytes);
+        List<Integer> postingList = (List<Integer>) Util.deserialize(postingListBytes);
+        invertedIndex.get(term).addAll(postingList);
+        count++;
+      }
+    }
+
+    raf.close();
     long duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Compete dynamic loading. Loads " + count + " posting lists and takes time " + Util.convertMillis(duration));
   }

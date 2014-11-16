@@ -1,11 +1,6 @@
 package edu.nyu.cs.cs2580;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
 import java.util.Vector;
 
 import com.sun.net.httpserver.Headers;
@@ -29,52 +24,13 @@ class QueryHandler implements HttpHandler {
 	// we are not worried about thread-safety here, the Indexer class must take
 	// care of thread-safety.
 	private Indexer _indexer;
+	private Options _options;
 
-	private static final String HTML_HEADER = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\r\n<html>\r\n<head>\r\n<title>Web Search Engine</title>\r\n<style type=\"text/css\">\r\n.doc_title { font-size: 1.2em; font-weight: bold; }\r\n</style>\r\n</head>\r\n<body>\r\n";
-	private static final String HTML_FOOTER = "</body>\r\n</html>";
+	private static final String PLACE_HOLDER = "|Dynamic-Content-Place-Holder|";
 
 	public QueryHandler(Options options, Indexer indexer) {
 		_indexer = indexer;
-	}
-
-	private void respondWithMsg(HttpExchange exchange, final String message)
-	    throws IOException {
-		Headers responseHeaders = exchange.getResponseHeaders();
-		responseHeaders.set("Content-Type", "text/plain");
-		exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-		OutputStream responseBody = exchange.getResponseBody();
-		responseBody.write(message.getBytes());
-		responseBody.close();
-	}
-
-	private void repondWithHtmlFile(HttpExchange exchange, String dataPath) {
-		int index = dataPath.indexOf("/data/");
-		if (index != -1) {
-			dataPath = dataPath.substring(index + 1, dataPath.length());
-			String filePath = System.getProperty("user.dir") + "\\"
-			    + dataPath.replace('/', '\\');
-			try {
-				File file = new File(filePath);
-				byte[] bytearray = new byte[(int) file.length()];
-				FileInputStream fis = new FileInputStream(file);
-				BufferedInputStream bis = new BufferedInputStream(fis);
-				bis.read(bytearray, 0, bytearray.length);
-				Headers responseHeaders = exchange.getResponseHeaders();
-				responseHeaders.set("Server", "Java HTTP Search Server");
-				responseHeaders.set("Content-Type", "text/html; charset=iso-8859-1");
-				responseHeaders.set("Cache-Control", "no-cache");
-				// responseHeaders.set("Status", "HTTP/1.1 200 OK");
-				// responseHeaders.set("Content-Length",
-				// Integer.toString(queryResponse.length()));
-				exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK,
-				    bytearray.length);
-				OutputStream responseBody = exchange.getResponseBody();
-				responseBody.write(bytearray, 0, bytearray.length);
-				responseBody.close();
-			} catch (Exception e) {
-
-			}
-		}
+		_options = options;
 	}
 
 	private void constructTextOutput(final Vector<ScoredDocument> docs,
@@ -86,8 +42,8 @@ class QueryHandler implements HttpHandler {
 		response.append(response.length() > 0 ? "\n" : "");
 	}
 
-	private String constructorHtmlOutput(String queryText,
-	    Vector<ScoredDocument> scoredDocuments) {
+	private String constructHtmlOutput(String queryText,
+	    Vector<ScoredDocument> scoredDocuments, String template) {
 		StringBuilder output = new StringBuilder();
 		output.append("<div id=\"title\"><h1>Your search for term ");
 		output.append(queryText);
@@ -105,7 +61,7 @@ class QueryHandler implements HttpHandler {
 		}
 		output.append("</ul>\r\n");
 		output.append("</div>\r\n");
-		return output.toString();
+		return template.replace(PLACE_HOLDER, output.toString());
 	}
 
 	public void handle(HttpExchange exchange) throws IOException {
@@ -126,29 +82,25 @@ class QueryHandler implements HttpHandler {
 		String uriQuery = exchange.getRequestURI().getQuery();
 		String uriPath = exchange.getRequestURI().getPath();
 		if (uriPath == null || uriQuery == null) {
-			if (exchange.getRequestURI().toString().contains("/data/")) {
-				repondWithHtmlFile(exchange, uriPath);
-			} else {
-				respondWithMsg(exchange, "Something wrong with the URI!");
-			}
+			WebUtil.respondWithMsg(exchange, "Something wrong with the URI!");
 		}
 		if (!uriPath.equals("/search")) {
-			respondWithMsg(exchange, "Only /search is handled!");
+			WebUtil.respondWithMsg(exchange, "Only /search is handled!");
 		}
 		System.out.println("Query: " + uriQuery);
 
 		// Process the CGI arguments.
 		CgiArguments cgiArgs = new CgiArguments(uriQuery);
 		if (cgiArgs._query.isEmpty()) {
-			respondWithMsg(exchange, "No query is given!");
+			WebUtil.respondWithMsg(exchange, "No query is given!");
 		}
 
 		// Create the ranker.
 		Ranker ranker = Ranker.Factory.getRankerByArguments(cgiArgs,
 		    SearchEngine.OPTIONS, _indexer);
 		if (ranker == null) {
-			respondWithMsg(exchange, "Ranker " + cgiArgs._rankerType.toString()
-			    + " is not valid!");
+			WebUtil.respondWithMsg(exchange,
+			    "Ranker " + cgiArgs._rankerType.toString() + " is not valid!");
 		}
 
 		// Processing the query.
@@ -160,8 +112,8 @@ class QueryHandler implements HttpHandler {
 		}
 		processedQuery.processQuery();
 
-		if (processedQuery._tokens == null || processedQuery._tokens.size() <= 0) {
-			respondWithMsg(exchange, "Invalid query text!");
+		if (processedQuery.terms == null || processedQuery.terms.size() <= 0) {
+			WebUtil.respondWithMsg(exchange, "Invalid query text!");
 		}
 
 		// Ranking.
@@ -171,24 +123,13 @@ class QueryHandler implements HttpHandler {
 		switch (cgiArgs._outputFormat) {
 		case TEXT:
 			constructTextOutput(scoredDocs, response);
-			respondWithMsg(exchange, response.toString());
+			WebUtil.respondWithMsg(exchange, response.toString());
 			break;
 		case HTML:
-			String queryResponse = "";
-			queryResponse += HTML_HEADER;
-			queryResponse += constructorHtmlOutput(cgiArgs._query, scoredDocs);
-			queryResponse += HTML_FOOTER;
-			Headers responseHeaders = exchange.getResponseHeaders();
-			responseHeaders.set("Server", "Java HTTP Search Server");
-			responseHeaders.set("Content-Type", "text/html; charset=iso-8859-1");
-			responseHeaders.set("Cache-Control", "no-cache");
-			// responseHeaders.set("Status", "HTTP/1.1 200 OK");
-			// responseHeaders.set("Content-Length",
-			// Integer.toString(queryResponse.length()));
-			exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
-			OutputStream responseBody = exchange.getResponseBody();
-			responseBody.write(queryResponse.getBytes());
-			responseBody.close();
+			String queryResponse = WebUtil.readHtmlTemplate(_options._resultTemplate);
+			queryResponse = constructHtmlOutput(cgiArgs._query, scoredDocs,
+			    queryResponse);
+			WebUtil.writeToResponse(exchange, queryResponse);
 			break;
 		default:
 			// nothing
