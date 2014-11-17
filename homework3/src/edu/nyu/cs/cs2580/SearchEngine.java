@@ -66,6 +66,8 @@ public class SearchEngine {
 
 		// Additional group specific configuration can be added below.
 
+		public double _dampingFactor = 0;
+
 		public String _searchTemplate = null;
 
 		public String _resultTemplate = null;
@@ -120,6 +122,10 @@ public class SearchEngine {
 
 			_resultTemplate = options.get("result_template");
 			Check(_resultTemplate != null, "Missing option: result_template!");
+
+			String dampingValue = options.get("damping_factor");
+			Check(dampingValue != null, "Missing option: result_template!");
+			_dampingFactor = Double.parseDouble(dampingValue);
 		}
 	}
 

@@ -66,7 +66,13 @@ public abstract class CorpusAnalyzer {
       while (linkTarget == null) {
         if (_matcher.find()) {
           if ((linkTarget = _matcher.group(1)) != null) {
-            return linkTarget;
+            //filter external links out
+            if(isExternalLink(linkTarget)){
+              return linkTarget;
+            }
+            else{
+              linkTarget = null;
+            }
           }
         }
         String line = _reader.readLine();
@@ -79,7 +85,18 @@ public abstract class CorpusAnalyzer {
       }
       return linkTarget;
     }
-  };
+
+    private static boolean isExternalLink(String link){
+      boolean isValid = false;
+
+      if(link.contains("class=\"external text\"")){
+        isValid = true;
+      }
+
+      return isValid;
+    }
+
+  }
 
   // Utility for ignoring hidden files in the file system.
   protected static boolean isValidDocument(File file) {
