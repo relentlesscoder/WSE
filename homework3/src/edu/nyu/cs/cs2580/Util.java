@@ -6,14 +6,12 @@ import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Util {
   protected static final long MAX_INVERTED_INDEX_SIZE = 10000000;
-  private static final long PARTIAL_INDEX_SIZE = 10000000;
+  private static final long PARTIAL_INDEX_SIZE = 5000000;
+  private static final long MEGABYTE = 1024L * 1024L;
 
   public static String convertMillis(long timeStamp) {
     long hours, minutes, seconds, millis;
@@ -37,59 +35,89 @@ public class Util {
     return is.readObject();
   }
 
-  public static boolean hasReachThreshold(Multimap<String, Integer> invertedIndex) {
-    Multiset<String> multiset = invertedIndex.keys();
+  public static boolean hasReachThreshold(Multimap<Integer, Integer> invertedIndex) {
+    Multiset<Integer> multiset = invertedIndex.keys();
     return multiset.size() > PARTIAL_INDEX_SIZE;
   }
 
-  public static boolean hasReachThresholdCompress(Multimap<String, Byte> invertedIndex) {
-    Multiset<String> multiset = invertedIndex.keys();
+  public static boolean hasReachThresholdCompress(Multimap<Integer, Byte> invertedIndex) {
+    Multiset<Integer> multiset = invertedIndex.keys();
     return multiset.size() > PARTIAL_INDEX_SIZE;
   }
 
-  public static void writePartialInvertedIndex(Multimap<String, Integer> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
+  public static boolean hasReachMemoryThreshold() {
+    Runtime runtime = Runtime.getRuntime();
+    runtime.gc();
+    long freeMemory = runtime.freeMemory() / MEGABYTE;
+    return freeMemory < 50;
+  }
+
+  public static void writePartialInvertedIndex(Multimap<Integer, Integer> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
     String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", count) + ".idx";
     Output output = new Output(new FileOutputStream(indexPartialFile));
     Kryo kryo = new Kryo();
 
-    SortedSet<String> sortedSet = new TreeSet<String>();
+    SortedSet<Integer> sortedSet = new TreeSet<Integer>();
 
     // Sort the keys alphabetically...
     sortedSet.addAll(invertedIndex.keySet());
 
     // Record the number of objects first...
     int numOfEntries = sortedSet.size();
-    kryo.writeObject(output, numOfEntries);
+    kryo.writeObject(output, new Integer(numOfEntries));
 
     // Write the entries one by one...
-    for (String term : sortedSet) {
-      List<Integer> list = new ArrayList<Integer>(invertedIndex.get(term));
-      kryo.writeObject(output, new String(term));
+    for (int termId : sortedSet) {
+      List<Integer> list = new ArrayList<Integer>(invertedIndex.get(termId));
+      kryo.writeObject(output, new Integer(termId));
       kryo.writeObject(output, list);
     }
     output.close();
   }
 
-  public static void writePartialInvertedIndexCompress(Multimap<String, Byte> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
+  public static void writePartialInvertedIndexCompress(Multimap<Integer, Byte> invertedIndex, SearchEngine.Options _options, int count) throws IOException {
     String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", count) + ".idx";
     Output output = new Output(new FileOutputStream(indexPartialFile));
     Kryo kryo = new Kryo();
 
-    SortedSet<String> sortedSet = new TreeSet<String>();
+    SortedSet<Integer> sortedSet = new TreeSet<Integer>();
 
     // Sort the keys alphabetically...
     sortedSet.addAll(invertedIndex.keySet());
 
     // Record the number of objects first...
     int numOfEntries = sortedSet.size();
-    kryo.writeObject(output, numOfEntries);
+    kryo.writeObject(output, new Integer(numOfEntries));
 
     // Write the entries one by one...
-    for (String term : sortedSet) {
-      List<Byte> list = new ArrayList<Byte>(invertedIndex.get(term));
-      kryo.writeObject(output, new String(term));
+    for (int termId : sortedSet) {
+      List<Byte> list = new ArrayList<Byte>(invertedIndex.get(termId));
+      kryo.writeObject(output, new Integer(termId));
       kryo.writeObject(output, list);
     }
     output.close();
+  }
+
+  public static void writePartialDocuments(Map<Integer, Multiset<Integer>> termDocFrequency, SearchEngine.Options _options, int count) throws IOException {
+    String indexPartialFile = _options._indexPrefix + "/documents" + String.format("%03d", count) + ".idx";
+
+    int numOfEntries = termDocFrequency.size();
+
+    ObjectOutputStream objectOutputStream = null;
+    try {
+      RandomAccessFile raf = new RandomAccessFile(indexPartialFile, "rw");
+      FileOutputStream fos = new FileOutputStream(raf.getFD());
+      objectOutputStream = new ObjectOutputStream(fos);
+
+      objectOutputStream.writeInt(numOfEntries);
+      for (int docId : termDocFrequency.keySet()) {
+        objectOutputStream.writeInt(docId);
+        objectOutputStream.writeObject(termDocFrequency.get(docId));
+      }
+    } finally {
+      if (objectOutputStream != null) {
+        objectOutputStream.close();
+      }
+    }
   }
 }
