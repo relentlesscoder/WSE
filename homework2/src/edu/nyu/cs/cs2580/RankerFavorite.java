@@ -25,13 +25,21 @@ public class RankerFavorite extends Ranker {
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
+    long startTimeStamp = System.currentTimeMillis();
+
     System.out.println("runing query...");
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
     int nextDocid = -1;
     int count = 0;
 
+    Map<String, Integer> cacheDocid = new HashMap<String, Integer>();
+    List<String> queryTerms = query.terms;
+    for (String term : queryTerms) {
+      cacheDocid.put(term, -1);
+    }
+
     while (true) {
-      Document document = indexerInvertedCompressed.nextDocLoose(query, nextDocid);
+      Document document = indexerInvertedCompressed.nextDocLoose(query, nextDocid, cacheDocid);
       if (document == null) {
         break;
       }
@@ -49,6 +57,10 @@ public class RankerFavorite extends Ranker {
       results.add(scoredDoc);
     }
     Collections.sort(results, Collections.reverseOrder());
+
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println(String.valueOf(results.size()) + " results are returned. " + Util.convertMillis(duration) + " are used.");
+
     return results;
   }
 
