@@ -72,35 +72,36 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   @Override
   public void constructIndex() throws IOException {
     long totalStartTimeStamp = System.currentTimeMillis();
+    long startTimeStamp, duration;
+
     ProgressBar progressBar = new ProgressBar();
+
     File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
     int fileCount = 0;
-    long startTimeStamp, duration;
 
-    checkNotNull(files, "No files found in: %s", folder.getPath());
-
-    // Empty the target folder first
+    /**************************************************************************
+     * First clean the folder....
+     *************************************************************************/
     File outputFolder = new File(_options._indexPrefix);
     for (File file : outputFolder.listFiles()) {
       file.delete();
     }
 
     /**************************************************************************
-     * Indexing....
+     * Start indexing....
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
     System.out.println("Start indexing...");
 
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
-      checkNotNull(files[docid], "File can not be null!");
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
+      // Now process the document
       processDocument(files[docid], docid);
-
+      // Write to a file if memory usage has reach the memory threshold
       if (Util.hasReachThreshold(invertedIndex)) {
-        // Memory not enough, write to file first...
         writePartialFile(fileCount);
         fileCount++;
       }
@@ -114,44 +115,46 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
-    System.out.println("Complete indexing");
+    System.out.println("Complete indexing...");
     System.out.println("Indexing time: " + Util.convertMillis(duration));
     System.out.println("Indexed " + Integer.toString(_numDocs) + " docs with "
         + Long.toString(_totalTermFrequency) + " terms.");
 
     /**************************************************************************
-     * Merging....
+     * Start merging....
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
-    System.out.println("merging");
+    System.out.println("Start merging...");
 
     try {
       mergePostingList();
-      mergeDocumentTermFrequency();
+      Util.mergeDocumentTermFrequency(docMetaData, _options);
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
 
     duration = System.currentTimeMillis() - startTimeStamp;
-    System.out.println("Complete merging");
+    System.out.println("Complete merging...");
     System.out.println("Merging time: " + Util.convertMillis(duration));
 
     /**************************************************************************
      * Serializing the rest...
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
-    System.out.println("Serializing...");
+    System.out.println("Start serializing...");
 
     // Serialize the whole object :)
     String indexFile = _options._indexPrefix + "/corpus.idx";
     System.out.println("Storing index to: " + _options._indexPrefix);
-    ObjectOutputStream writer = new ObjectOutputStream(
-        new BufferedOutputStream(new FileOutputStream(indexFile)));
+
+    ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new
+        FileOutputStream(indexFile)));
+
     writer.writeObject(this);
     writer.close();
 
     duration = System.currentTimeMillis() - startTimeStamp;
-    System.out.println("Compete serializing");
+    System.out.println("Complete serializing...");
     System.out.println("Serialization time: " + Util.convertMillis(duration));
 
     duration = System.currentTimeMillis() - totalStartTimeStamp;
@@ -251,8 +254,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         String indexFile = _options._indexPrefix + "/corpus.idx";
         System.out.println("Load index from: " + indexFile);
 
-        ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-            indexFile));
+        ObjectInputStream reader = new ObjectInputStream(new BufferedInputStream(new FileInputStream(indexFile)));
         loaded = (IndexerInvertedDoconly) reader.readObject();
 
         this.documents = loaded.documents;
@@ -558,89 +560,6 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
       }
     }
   }
-
-  private void mergeDocumentTermFrequency() throws IOException {
-    String invertedIndexFileName = _options._indexPrefix + "/documents.idx";
-    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
-    long currentPos = 0;
-    int length = 0;
-
-    /**************************************************************************
-     * Prepare merging...
-     *************************************************************************/
-    File folder = new File(_options._indexPrefix);
-    int numOfPartialIndex = 0;
-
-    // Get the number of partial documents file
-    for (File f : folder.listFiles()) {
-      if (f.getName().matches("^documents[0-9]+\\.idx")) {
-        numOfPartialIndex++;
-      }
-    }
-
-    Kryo kryo = new Kryo();
-    File[] files = new File[numOfPartialIndex];
-//		Input[] inputs = new Input[numOfPartialIndex];
-
-    // Initialize the files, inputs and
-    // Then get the quantity of the posting list for each partial file
-    for (int i = 0; i < numOfPartialIndex; i++) {
-      for (File file : folder.listFiles()) {
-        if (file.getName().matches(
-            "^documents" + String.format("%03d", i) + "\\.idx")) {
-          files[i] = file;
-//					inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
-          break;
-        }
-      }
-    }
-
-    /**************************************************************************
-     * Start merging...
-     *************************************************************************/
-    int count = 0;
-    for (int i = 0; i < files.length; i++) {
-      ObjectInputStream reader = new ObjectInputStream(new FileInputStream(
-          files[i].getAbsolutePath()));
-
-      int numOfEntries = reader.readInt();
-
-      for (int j = 0; j < numOfEntries; j++) {
-        int docid = 0;
-        Multiset<Integer> tmpMultiset = HashMultiset.create();
-
-        try {
-          docid = reader.readInt();
-          tmpMultiset = (Multiset<Integer>) reader.readObject();
-        } catch (ClassNotFoundException e) {
-          e.printStackTrace();
-        }
-
-        currentPos = raf.length();
-        raf.seek(currentPos);
-        raf.write(Util.serialize(tmpMultiset));
-
-        // Assume the posting list will not be too big...
-        length = (int) (raf.length() - currentPos);
-        docMetaData.put(docid, new MetaPair(currentPos, length));
-
-        count++;
-      }
-    }
-    System.out.println("Merging docs...: " + count);
-    raf.close();
-
-    /**************************************************************************
-     * Wrapping up...
-     *************************************************************************/
-    for (File f : folder.listFiles()) {
-      if (f.getName().matches("^documents[0-9]+\\.idx")) {
-        // Delete all partial index file
-        f.delete();
-      }
-    }
-  }
-
 
   /**
    * Check if there's still at least one posting list needed to be merged.
