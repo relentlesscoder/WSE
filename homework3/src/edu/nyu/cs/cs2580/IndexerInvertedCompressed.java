@@ -18,7 +18,7 @@ import java.util.Map;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
-  private static final int K = 1000;
+  private static final int K = 5000;
 
   // Dictionary
   // Key: Term
@@ -34,7 +34,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Key: Docid
   // Value: Key: Term ID
   // Value: Value: Term frequency
-  private Map<Integer, Multiset<Integer>> termDocFrequency = new HashMap<Integer, Multiset<Integer>>();
+  private Map<Integer, Multiset<Integer>> docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
 
   // The offset of each docid of the posting list for each term.
   // Key: Term ID
@@ -100,18 +100,34 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @throws IOException
    */
   private void writePartialFile(int fileCount) throws IOException {
+//    long startTimeStamp, duration;
+//    startTimeStamp = System.currentTimeMillis();
+
     Util.writePartialInvertedIndexCompress(invertedIndex, _options, fileCount);
-    Util.writePartialDocuments(termDocFrequency, _options, fileCount);
+    Util.writePartialDocuments(docTermFrequency, _options, fileCount);
     invertedIndex.clear();
-    termDocFrequency.clear();
+    docTermFrequency.clear();
+
+//    duration = System.currentTimeMillis() - startTimeStamp;
+//    System.out.println(Util.convertMillis(duration));
+  }
+
+  private class ConstructTmpData {
+    public int lastDocid;
+    public int lastPostingListSize;
+    public int lastSkipPointerOffset;
+
+    public ConstructTmpData() {
+      lastDocid = -1;
+      lastPostingListSize = -1;
+      lastSkipPointerOffset = -1;
+    }
   }
 
   @Override
   public void constructIndex() throws IOException {
     // Temporary data structure
-    Map<Integer, Integer> lastDocid = new HashMap<Integer, Integer>();
-    Map<Integer, Integer> lastPostingListSize = new HashMap<Integer, Integer>();
-    Map<Integer, Integer> lastSkipPointerOffset = new HashMap<Integer, Integer>();
+    Map<Integer, ConstructTmpData> constructTmpDataMap = new HashMap<Integer, ConstructTmpData>();
 
     long totalStartTimeStamp = System.currentTimeMillis();
     long startTimeStamp, duration;
@@ -141,7 +157,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
       // Now process the document
-      processDocument(files[docid], docid, lastDocid, lastPostingListSize, lastSkipPointerOffset);
+      processDocument(files[docid], docid, constructTmpDataMap);
       // Write to a file if memory usage has reach the memory threshold
       if (Util.hasReachThresholdCompress(invertedIndex)) {
         writePartialFile(fileCount);
@@ -212,7 +228,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid The file's document ID.
    * @throws IOException
    */
-  private void processDocument(File file, int docid, Map<Integer, Integer> lastDocid, Map<Integer, Integer> lastPostingListSize, Map<Integer, Integer> lastSkipPointerOffset) throws IOException {
+  private void processDocument(File file, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
     String bodyText = jsoupDoc.body().text();
@@ -228,7 +244,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index.
-    populateInvertedIndex(title + " " + bodyText, docid, lastDocid, lastPostingListSize, lastSkipPointerOffset);
+    populateInvertedIndex(title + " " + bodyText, docid, constructTmpDataMap);
 
     // TODO: Deal with all the links later...
     // Elements links = jsoupDoc.select("a[href]");
@@ -240,7 +256,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param content The text content of the html document.
    * @param docid   The document ID.
    */
-  private void populateInvertedIndex(String content, int docid, Map<Integer, Integer> lastDocid, Map<Integer, Integer> lastPostingListSize, Map<Integer, Integer> lastSkipPointerOffset) {
+  private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
@@ -267,6 +283,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       if (!dictionary.containsKey(term)) {
         int termId = dictionary.size();
         dictionary.put(term, termId);
+        ConstructTmpData constructTmpData = new ConstructTmpData();
+        constructTmpDataMap.put(termId, constructTmpData);
       }
 
       // Get the term ID for later use
@@ -282,12 +300,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       long corpusTermFrequency = meta.get(termId).getCorpusTermFrequency();
       meta.get(termId).setCorpusTermFrequency(corpusTermFrequency + 1);
 
-      // Update termDocFrequency
-      if (!termDocFrequency.containsKey(docid)) {
+      // Update docTermFrequency
+      if (!docTermFrequency.containsKey(docid)) {
         Multiset<Integer> termFrequencyOfDocid = HashMultiset.create();
-        termDocFrequency.put(docid, termFrequencyOfDocid);
+        docTermFrequency.put(docid, termFrequencyOfDocid);
       }
-      termDocFrequency.get(docid).add(termId);
+      docTermFrequency.get(docid).add(termId);
 
       // Populate the temporary inverted index.
       if (tmpInvertedIndex.containsKey(termId)) {
@@ -299,30 +317,32 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         tmpInvertedIndex.get(termId).add(position);
       } else {
         // This is the first time the term has been seen in the document
-        if (lastDocid.containsKey(termId)) {
+        if (constructTmpDataMap.get(termId).lastDocid != -1) {
           // The inverted index has already seen the term in previous
           // documents
 
           // Get the last/previous docid of the term's posting list
-          int prevDocid = lastDocid.get(termId);
+          int prevDocid = constructTmpDataMap.get(termId).lastDocid;
           int deltaDocid = docid - prevDocid;
           tmpInvertedIndex.get(termId).add(deltaDocid);
 
-          if ((lastPostingListSize.get(termId) - lastSkipPointerOffset.get(termId)) > K) {
+          if ((constructTmpDataMap.get(termId).lastPostingListSize - constructTmpDataMap.get(termId).lastSkipPointerOffset) > K) {
             skipPointers.get(termId).addAll(vByteEncoding(prevDocid));
             skipPointers.get(termId).addAll(
-                vByteEncoding(lastPostingListSize.get(termId)));
+                vByteEncoding(constructTmpDataMap.get(termId).lastPostingListSize));
 
-            lastSkipPointerOffset.put(termId, lastPostingListSize.get(termId));
+            constructTmpDataMap.get(termId).lastSkipPointerOffset
+                = constructTmpDataMap.get(termId).lastPostingListSize;
           }
         } else {
           // The inverted index hasn't seen the term in previous documents
           // No need to calculate the delta since it's the first docid of
           // the posting list.
           tmpInvertedIndex.get(termId).add(docid);
-          lastDocid.put(termId, 0);
-          lastPostingListSize.put(termId, 0);
-          lastSkipPointerOffset.put(termId, 0);
+
+          constructTmpDataMap.get(termId).lastDocid = 0;
+          constructTmpDataMap.get(termId).lastPostingListSize = 0;
+          constructTmpDataMap.get(termId).lastSkipPointerOffset = 0;
         }
         tmpInvertedIndex.get(termId).add(1);
         tmpInvertedIndex.get(termId).add(position);
@@ -351,7 +371,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // 2. Compress the temporary inverted index and populate the inverted index.
     for (int termId : tmpInvertedIndex.keySet()) {
       // Update lastDocid
-      lastDocid.put(termId, docid);
+      constructTmpDataMap.get(termId).lastDocid = docid;
 
       // Encode the posting list
       List<Byte> partialPostingList = vByteEncodingList(tmpInvertedIndex
@@ -359,8 +379,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // Append the posting list if one exists, otherwise create one first :)
       invertedIndex.get(termId).addAll(partialPostingList);
-      lastPostingListSize.put(termId, lastPostingListSize.get(termId)
-          + partialPostingList.size());
+      constructTmpDataMap.get(termId).lastPostingListSize =
+          constructTmpDataMap.get(termId).lastPostingListSize + partialPostingList.size();
     }
   }
 
@@ -510,7 +530,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this._totalTermFrequency = loaded.totalTermFrequency;
 
         this.invertedIndex = loaded.invertedIndex;
-        this.termDocFrequency = loaded.termDocFrequency;
+        this.docTermFrequency = loaded.docTermFrequency;
 
         this.skipPointers = loaded.skipPointers;
 
@@ -1012,11 +1032,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 //		int termId = dictionary.get(term);
 //		if (!docMetaData.containsKey(termId)) {
 //			return 0;
-//		} else if (!termDocFrequency.containsKey(docid)) {
+//		} else if (!docTermFrequency.containsKey(docid)) {
 //			loadTermDocFrequency(docid);
 //		}
 //
-//		return termDocFrequency.get(docid).count(dictionary.get(term));
+//		return docTermFrequency.get(docid).count(dictionary.get(term));
 
     int docTermFrequency;
     int termId = dictionary.get(term);
@@ -1041,6 +1061,39 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     docTermFrequency = vByteDecoding(tmpList);
 
     return docTermFrequency;
+  }
+
+  /**
+   * Get the docTermFrequency of a specific document
+   * @param docid document id
+   * @return the term frequency
+   */
+  public Multiset<Integer> getDocidTermFrequency(int docid) {
+    if (!docMetaData.containsKey(docid)) {
+      return HashMultiset.create();
+    } else if (!docTermFrequency.containsKey(docid)) {
+      loadTermDocFrequency(docid);
+    }
+
+    return docTermFrequency.get(docid);
+  }
+
+  /**
+   * Get the term via term ID
+   * @param termId term ID
+   * @return term
+   */
+  public String getTermById(int termId) {
+    return dictionary.inverse().get(termId);
+  }
+
+  /**
+   * Get the term ID via term
+   * @param term term
+   * @return term ID
+   */
+  public int getTermId(String term) {
+    return dictionary.get(term);
   }
 
   /**
@@ -1226,7 +1279,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   private void loadTermDocFrequency(int docid) {
-    if (!termDocFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
+    if (!docTermFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
       String documentTermFrequencyFileName = _options._indexPrefix + "/documents.idx";
       RandomAccessFile raf = null;
       try {
@@ -1237,8 +1290,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // Clean if not enough memory...
       // TODO: Fix later
-      if (termDocFrequency.size() > 1000) {
-        termDocFrequency.clear();
+      if (docTermFrequency.size() > 200) {
+        docTermFrequency.clear();
       }
 
       MetaPair metaPair = docMetaData.get(docid);
@@ -1247,7 +1300,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         byte[] docTermFrequencyByte = new byte[metaPair.getLength()];
         raf.readFully(docTermFrequencyByte);
         Multiset<Integer> docTermFrequency = (Multiset<Integer>) Util.deserialize(docTermFrequencyByte);
-        termDocFrequency.put(docid, docTermFrequency);
+        this.docTermFrequency.put(docid, docTermFrequency);
         raf.close();
       } catch (IOException e) {
         e.printStackTrace();

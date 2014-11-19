@@ -8,7 +8,7 @@ package edu.nyu.cs.cs2580;
  * Ascii progress meter. On completion this will reset itself,
  * so it can be reused
  * <br /><br />
- * 100% ################################################## |
+ * 100% ************************************************** |
  */
 public class ProgressBar {
   private StringBuilder progress;
@@ -28,18 +28,18 @@ public class ProgressBar {
    * @param total an int representing the total work
    */
   public void update(int done, int total) {
-    char[] workchars = {'|', '/', '-', '\\'};
+    char[] workingChars = {'|', '/', '-', '\\'};
     String format = "\r%3d%% %s %c";
 
     int percent = (++done * 100) / total;
-    int extrachars = (percent / 2) - this.progress.length();
+    int doneChars = (percent / 2) - this.progress.length();
 
-    while (extrachars-- > 0) {
-      progress.append('#');
+    while (doneChars-- > 0) {
+      progress.append('*');
     }
 
     System.out.printf(format, percent, progress,
-        workchars[done % workchars.length]);
+        workingChars[done % workingChars.length]);
 
     if (done == total) {
       System.out.flush();
