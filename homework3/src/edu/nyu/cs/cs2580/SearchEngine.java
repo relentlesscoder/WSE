@@ -66,6 +66,12 @@ public class SearchEngine {
 
 		// Additional group specific configuration can be added below.
 
+		public double _dampingFactor = 0;
+
+		public int _iteration_times = 0;
+
+		public String _pagerankPrefix = null;
+
 		public String _searchTemplate = null;
 
 		public String _resultTemplate = null;
@@ -120,6 +126,17 @@ public class SearchEngine {
 
 			_resultTemplate = options.get("result_template");
 			Check(_resultTemplate != null, "Missing option: result_template!");
+
+			_pagerankPrefix = options.get("pagerank_prefix");
+			Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
+
+			String dampingValue = options.get("damping_factor");
+			Check(dampingValue != null, "Missing option: damping_factor!");
+			_dampingFactor = Double.parseDouble(dampingValue);
+
+			String iterationTimes = options.get("iteration_times");
+			Check(iterationTimes != null, "Missing option: iteration_times!");
+			_iteration_times = Integer.parseInt(iterationTimes);
 		}
 	}
 

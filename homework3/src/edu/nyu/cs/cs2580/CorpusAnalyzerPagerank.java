@@ -1,13 +1,27 @@
 package edu.nyu.cs.cs2580;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import org.jgrapht.DirectedGraph;
+import org.jgrapht.graph.DefaultDirectedGraph;
+
+import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * @CS2580: Implement this class for HW3.
  */
 public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
+
+  private DirectedGraph<Integer, PageGraphEdge> _pageGraph = null;
+  private int _docCount = 0;
+
   public CorpusAnalyzerPagerank(Options options) {
     super(options);
   }
@@ -34,7 +48,46 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   @Override
   public void prepare() throws IOException {
     System.out.println("Preparing " + this.getClass().getName());
-    return;
+    File folder  = new File(_options._corpusPrefix);
+    File[] files = folder.listFiles();
+
+    checkNotNull(files, "No files found in: %s", folder.getPath());
+
+    _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
+
+    Map<String, Integer> nameDocIdMap = new HashMap<String, Integer>();
+    for (int docid = 0; docid < files.length; docid++) {
+      checkNotNull(files[docid], "File can not be null!");
+      if(isValidDocument(files[docid])){
+        _docCount++;
+        nameDocIdMap.put(files[docid].getName(), docid);
+      }
+    }
+
+    for (int docid = 0; docid < files.length; docid++) {
+      checkNotNull(files[docid], "File can not be null!");
+      if(isValidDocument(files[docid])){
+        if(!_pageGraph.containsVertex(docid)){
+          _pageGraph.addVertex(docid);
+        }
+        HeuristicLinkExtractor linkExtractor = new HeuristicLinkExtractor(files[docid]);
+        String url = linkExtractor.getNextInCorpusLinkTarget();
+        while(url != null){
+          if(isValidInternalUrl(url) && nameDocIdMap.containsKey(url)){
+            int linkToDocId = nameDocIdMap.get(url);
+            // add target vertex if it is not in the graph
+            if(!_pageGraph.containsVertex(linkToDocId)){
+              _pageGraph.addVertex(linkToDocId);
+            }
+            // only add edge once
+            if(!_pageGraph.containsEdge(docid, linkToDocId)){
+              _pageGraph.addEdge(docid, linkToDocId);
+            }
+          }
+          url = linkExtractor.getNextInCorpusLinkTarget();
+        }
+      }
+    }
   }
 
   /**
@@ -53,7 +106,69 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   @Override
   public void compute() throws IOException {
     System.out.println("Computing using " + this.getClass().getName());
-    return;
+
+    //graph is not initialized
+    if(_pageGraph == null){
+      return;
+    }
+
+    Map pageRanks = new HashMap<Integer, Integer>();
+
+    // set initial value
+    for(int docid = 0; docid < _docCount; docid++){
+      pageRanks.put(docid, 1.0);
+    }
+
+    int counter = 0;
+    while(counter < _options._iteration_times){
+      for(int docid = 0; docid < _docCount; docid++){
+        if(_pageGraph.containsVertex(docid)){
+          double pageRank = 1.0 - _options._dampingFactor;
+          Set<PageGraphEdge> incomingEdges = _pageGraph.incomingEdgesOf(docid);
+          if(incomingEdges.size() > 0){
+            for(PageGraphEdge edge : incomingEdges){
+              int sourceId = (Integer)edge.getEdgeSource();
+              Set<PageGraphEdge> sourceOutgoingEdges = _pageGraph.outgoingEdgesOf(sourceId);
+              if(sourceOutgoingEdges.size() > 0){
+                pageRank += _options._dampingFactor * ((Double)pageRanks.get(sourceId) / sourceOutgoingEdges.size());
+              }
+              else{
+                pageRank += _options._dampingFactor * ((Double)pageRanks.get(sourceId));
+              }
+            }
+          }
+
+          pageRanks.put(docid, pageRank);
+        }
+      }
+
+      counter++;
+    }
+
+    //Write to file
+    FileOutputStream fos = null;
+    try{
+      File file = new File(_options._pagerankPrefix + "/pageranks.pks");
+      if(!file.exists()){
+        file.createNewFile();
+      }
+      fos = new FileOutputStream(file);
+      fos.write(Util.serialize(pageRanks));
+    }
+    catch (Exception e){
+      e.printStackTrace();
+    }
+    finally {
+      try{
+        if(fos != null){
+          fos.close();
+        }
+      }
+      catch(Exception e){
+        e.printStackTrace();
+      }
+    }
+
   }
 
   /**
@@ -65,6 +180,55 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   @Override
   public Object load() throws IOException {
     System.out.println("Loading using " + this.getClass().getName());
-    return null;
+    Object pageRanks = null;
+
+    File file = new File(_options._pagerankPrefix + "/pageranks");
+    FileInputStream fis = null;
+
+    try{
+      fis = new FileInputStream(file);
+      byte[] fileCotent = new byte[(int)file.length()];
+      fis.read(fileCotent);
+      pageRanks = Util.deserialize(fileCotent);
+    }
+    catch (Exception e){
+      e.printStackTrace();
+    }
+    finally {
+      try{
+        if(fis != null){
+          fis.close();
+        }
+      }
+      catch (Exception e){
+        e.printStackTrace();
+      }
+    }
+
+    return pageRanks;
+  }
+
+/*  private String extractLinkUrl(String link){
+    String url = null;
+    int index = link.indexOf("href=\"");
+    if(index != -1){
+      index = index + "href=\"".length();
+      int endIndex = link.indexOf("\"", index);
+      if(endIndex != -1){
+        url = link.substring(index, endIndex);
+      }
+    }
+
+    return url;
+  }*/
+
+  private boolean isValidInternalUrl(String url){
+    boolean isValid = true;
+
+    if(url != null && url.startsWith("..") || url.startsWith("http:") || url.startsWith("https:")){
+      isValid = false;
+    }
+
+    return isValid;
   }
 }
