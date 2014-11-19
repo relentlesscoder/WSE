@@ -232,6 +232,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
     String bodyText = jsoupDoc.body().text();
+    bodyText.replaceAll("^[a-zA-Z0-9\\-\\.]+\\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)","");
     String title = jsoupDoc.title();
 
     // Create the document and store it.
