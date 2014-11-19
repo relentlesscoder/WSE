@@ -1,5 +1,12 @@
 package edu.nyu.cs.cs2580;
 
+import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.io.Input;
+import com.esotericsoftware.kryo.io.Output;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
+import org.jgrapht.DirectedGraph;
+import org.jgrapht.graph.DefaultDirectedGraph;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,10 +15,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import edu.nyu.cs.cs2580.SearchEngine.Options;
-import org.jgrapht.DirectedGraph;
-import org.jgrapht.graph.DefaultDirectedGraph;
-
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
@@ -19,11 +22,12 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
-  private DirectedGraph<Integer, PageGraphEdge> _pageGraph = null;
-  private int _docCount = 0;
+  private DirectedGraph<Integer, PageGraphEdge> _pageGraph;
+  private int _docCount;
 
   public CorpusAnalyzerPagerank(Options options) {
     super(options);
+    _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
   }
 
   /**
@@ -31,13 +35,13 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    * and extracts the "internal" graph structure from the pages inside the
    * corpus. Internal means we only store links between two pages that are both
    * inside the corpus.
-   * 
+   * <p/>
    * Note that you will not be implementing a real crawler. Instead, the corpus
    * you are processing can be simply read from the disk. All you need to do is
    * reading the files one by one, parsing them, extracting the links for them,
    * and computing the graph composed of all and only links that connect two
    * pages that are both in the corpus.
-   * 
+   * <p/>
    * Note that you will need to design the data structure for storing the
    * resulting graph, which will be used by the {@link compute} function. Since
    * the graph may be large, it may be necessary to store partial graphs to
@@ -47,18 +51,16 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    */
   @Override
   public void prepare() throws IOException {
-    System.out.println("Preparing " + this.getClass().getName());
-    File folder  = new File(_options._corpusPrefix);
+    File folder = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
+    ProgressBar progressBar = new ProgressBar();
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
-
-    _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
 
     Map<String, Integer> nameDocIdMap = new HashMap<String, Integer>();
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
-      if(isValidDocument(files[docid])){
+      if (isValidDocument(files[docid])) {
         _docCount++;
         nameDocIdMap.put(files[docid].getName(), docid);
       }
@@ -66,27 +68,30 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
-      if(isValidDocument(files[docid])){
-        if(!_pageGraph.containsVertex(docid)){
+      if (isValidDocument(files[docid])) {
+        if (!_pageGraph.containsVertex(docid)) {
           _pageGraph.addVertex(docid);
         }
         HeuristicLinkExtractor linkExtractor = new HeuristicLinkExtractor(files[docid]);
         String url = linkExtractor.getNextInCorpusLinkTarget();
-        while(url != null){
-          if(isValidInternalUrl(url) && nameDocIdMap.containsKey(url)){
+        while (url != null) {
+          if (isValidInternalUrl(url) && nameDocIdMap.containsKey(url)) {
             int linkToDocId = nameDocIdMap.get(url);
             // add target vertex if it is not in the graph
-            if(!_pageGraph.containsVertex(linkToDocId)){
+            if (!_pageGraph.containsVertex(linkToDocId)) {
               _pageGraph.addVertex(linkToDocId);
             }
             // only add edge once
-            if(!_pageGraph.containsEdge(docid, linkToDocId)){
+            if (!_pageGraph.containsEdge(docid, linkToDocId)) {
               _pageGraph.addEdge(docid, linkToDocId);
             }
           }
           url = linkExtractor.getNextInCorpusLinkTarget();
         }
       }
+
+      // Update the progress bar after processing a document :)
+      progressBar.update(docid, files.length);
     }
   }
 
@@ -94,7 +99,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    * This function computes the PageRank based on the internal graph generated
    * by the {@link prepare} function, and stores the PageRank to be used for
    * ranking.
-   * 
+   * <p/>
    * Note that you will have to store the computed PageRank with each document
    * the same way you do the indexing for HW2. I.e., the PageRank information
    * becomes part of the index and can be used for ranking in serve mode. Thus,
@@ -105,70 +110,66 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    */
   @Override
   public void compute() throws IOException {
-    System.out.println("Computing using " + this.getClass().getName());
-
     //graph is not initialized
-    if(_pageGraph == null){
+    if (_pageGraph == null) {
       return;
     }
 
-    Map pageRanks = new HashMap<Integer, Integer>();
+    Map<Integer, Double> pageRanks = new HashMap<Integer, Double>();
+    ProgressBar progressBar = new ProgressBar();
 
     // set initial value
-    for(int docid = 0; docid < _docCount; docid++){
+    for (int docid = 0; docid < _docCount; docid++) {
       pageRanks.put(docid, 1.0);
     }
 
     int counter = 0;
-    while(counter < _options._iteration_times){
-      for(int docid = 0; docid < _docCount; docid++){
-        if(_pageGraph.containsVertex(docid)){
+    while (counter < _options._iteration_times) {
+      System.out.println("Start " + counter + " iteration...");
+      for (int docid = 0; docid < _docCount; docid++) {
+        if (_pageGraph.containsVertex(docid)) {
           double pageRank = 1.0 - _options._dampingFactor;
           Set<PageGraphEdge> incomingEdges = _pageGraph.incomingEdgesOf(docid);
-          if(incomingEdges.size() > 0){
-            for(PageGraphEdge edge : incomingEdges){
-              int sourceId = (Integer)edge.getEdgeSource();
+          if (incomingEdges.size() > 0) {
+            for (PageGraphEdge edge : incomingEdges) {
+              int sourceId = (Integer) edge.getEdgeSource();
               Set<PageGraphEdge> sourceOutgoingEdges = _pageGraph.outgoingEdgesOf(sourceId);
-              if(sourceOutgoingEdges.size() > 0){
-                pageRank += _options._dampingFactor * ((Double)pageRanks.get(sourceId) / sourceOutgoingEdges.size());
-              }
-              else{
-                pageRank += _options._dampingFactor * ((Double)pageRanks.get(sourceId));
+              if (sourceOutgoingEdges.size() > 0) {
+                pageRank += _options._dampingFactor * ((Double) pageRanks.get(sourceId) / sourceOutgoingEdges.size());
+              } else {
+                pageRank += _options._dampingFactor * ((Double) pageRanks.get(sourceId));
               }
             }
           }
 
           pageRanks.put(docid, pageRank);
         }
+
+        // Update the progress bar after processing a document :)
+        progressBar.update(docid, _docCount);
       }
 
       counter++;
     }
 
-    //Write to file
-    FileOutputStream fos = null;
-    try{
-      File file = new File(_options._pagerankPrefix + "/pageranks.pks");
-      if(!file.exists()){
-        file.createNewFile();
-      }
-      fos = new FileOutputStream(file);
-      fos.write(Util.serialize(pageRanks));
-    }
-    catch (Exception e){
-      e.printStackTrace();
-    }
-    finally {
-      try{
-        if(fos != null){
-          fos.close();
-        }
-      }
-      catch(Exception e){
-        e.printStackTrace();
-      }
+    /**************************************************************************
+     * First clean the folder before writing to file....
+     *************************************************************************/
+    File outputFolder = new File(_options._pagerankPrefix);
+    for (File file : outputFolder.listFiles()) {
+      file.delete();
     }
 
+    /**************************************************************************
+     * Writing to file....
+     *************************************************************************/
+    String filePath = _options._pagerankPrefix + "/pageranks.pks";
+
+    Kryo kryo = new Kryo();
+    Output output = new Output(new FileOutputStream(filePath));
+
+    kryo.writeObject(output, pageRanks);
+    output.close();
   }
 
   /**
@@ -179,31 +180,14 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    */
   @Override
   public Object load() throws IOException {
-    System.out.println("Loading using " + this.getClass().getName());
-    Object pageRanks = null;
+    Map<Integer, Double> pageRanks = new HashMap<Integer, Double>();
+    String filePath = _options._pagerankPrefix + "/pageranks.pks";
+    Kryo kryo = new Kryo();
+    Input input = new Input(new FileInputStream(filePath));
 
-    File file = new File(_options._pagerankPrefix + "/pageranks");
-    FileInputStream fis = null;
+    pageRanks = kryo.readObject(input, Map.class);
 
-    try{
-      fis = new FileInputStream(file);
-      byte[] fileCotent = new byte[(int)file.length()];
-      fis.read(fileCotent);
-      pageRanks = Util.deserialize(fileCotent);
-    }
-    catch (Exception e){
-      e.printStackTrace();
-    }
-    finally {
-      try{
-        if(fis != null){
-          fis.close();
-        }
-      }
-      catch (Exception e){
-        e.printStackTrace();
-      }
-    }
+    input.close();
 
     return pageRanks;
   }
@@ -222,10 +206,10 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     return url;
   }*/
 
-  private boolean isValidInternalUrl(String url){
+  private boolean isValidInternalUrl(String url) {
     boolean isValid = true;
 
-    if(url != null && url.startsWith("..") || url.startsWith("http:") || url.startsWith("https:")){
+    if (url != null && url.startsWith("..") || url.startsWith("http:") || url.startsWith("https:")) {
       isValid = false;
     }
 
