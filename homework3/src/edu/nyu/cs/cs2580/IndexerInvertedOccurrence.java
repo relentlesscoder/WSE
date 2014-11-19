@@ -31,7 +31,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   // Key: Docid
   // Value: Key: Term ID
   // Value: Value: Term frequency
-  private Map<Integer, Multiset<Integer>> termDocFrequency = new HashMap<Integer, Multiset<Integer>>();
+  private Map<Integer, Multiset<Integer>> docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
 
   // Key: Term ID
   // Value: MetaData
@@ -73,10 +73,16 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
    * @throws IOException
    */
   private void writePartialFile(int fileCount) throws IOException {
+    long startTimeStamp, duration;
+    startTimeStamp = System.currentTimeMillis();
+
     Util.writePartialInvertedIndex(invertedIndex, _options, fileCount);
-    Util.writePartialDocuments(termDocFrequency, _options, fileCount);
+    Util.writePartialDocuments(docTermFrequency, _options, fileCount);
     invertedIndex.clear();
-    termDocFrequency.clear();
+    docTermFrequency.clear();
+
+    duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println(Util.convertMillis(duration));
   }
 
   @Override
@@ -244,12 +250,12 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       long corpusTermFrequency = meta.get(termId).getCorpusTermFrequency();
       meta.get(termId).setCorpusTermFrequency(corpusTermFrequency + 1);
 
-      // Update termDocFrequency
-      if (!termDocFrequency.containsKey(docid)) {
+      // Update docTermFrequency
+      if (!docTermFrequency.containsKey(docid)) {
         Multiset<Integer> termFrequencyOfDocid = HashMultiset.create();
-        termDocFrequency.put(docid, termFrequencyOfDocid);
+        docTermFrequency.put(docid, termFrequencyOfDocid);
       }
-      termDocFrequency.get(docid).add(termId);
+      docTermFrequency.get(docid).add(termId);
 
       if (invertedIndex.containsKey(term)) {
         // The token exists in the index
@@ -297,7 +303,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         this._totalTermFrequency = loaded.totalTermFrequency;
 
         this.invertedIndex = loaded.invertedIndex;
-        this.termDocFrequency = loaded.termDocFrequency;
+        this.docTermFrequency = loaded.docTermFrequency;
 
         this.docUrlMap = loaded.docUrlMap;
         this.meta = loaded.meta;
@@ -466,7 +472,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   public int nextPos(String term, int docid, int pos) {
     int termId = dictionary.get(term);
     List<Integer> postingList = invertedIndex.get(termId);
-    int size = postingList.size();
+
     // Get the start offset for the term of {@code docid}
     int docidOffset = firstDocidOffset(termId, docid);
 
@@ -493,7 +499,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
    *
    * @param termId The term ID...
    * @param docid  The document ID
-   * @return
+   * @return first doc offset
    */
   private int firstDocidOffset(int termId, int docid) {
     List<Integer> postingList = invertedIndex.get(termId);
@@ -556,6 +562,39 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     }
 
     return docTermFrequency;
+  }
+
+  /**
+   * Get the docTermFrequency of a specific document
+   * @param docid document id
+   * @return the term frequency
+   */
+  public Multiset<Integer> getDocidTermFrequency(int docid) {
+    if (!docMetaData.containsKey(docid)) {
+      return HashMultiset.create();
+    } else if (!docTermFrequency.containsKey(docid)) {
+      loadTermDocFrequency(docid);
+    }
+
+    return docTermFrequency.get(docid);
+  }
+
+  /**
+   * Get the term via term ID
+   * @param termId term ID
+   * @return term
+   */
+  public String getTermById(int termId) {
+    return dictionary.inverse().get(termId);
+  }
+
+  /**
+   * Get the term ID via term
+   * @param term term
+   * @return term ID
+   */
+  public int getTermId(String term) {
+    return dictionary.get(term);
   }
 
   /**
@@ -647,6 +686,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
       currentPos = raf.length();
       raf.seek(currentPos);
+      System.out.println("Start serializing... " + outputPostingList.size());
       raf.write(Util.serialize(outputPostingList));
 
       // Assume the posting list will not be too big...
@@ -743,7 +783,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
 
   private void loadTermDocFrequency(int docid) {
-    if (!termDocFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
+    if (!docTermFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
       String documentTermFrequencyFileName = _options._indexPrefix + "/documents.idx";
       RandomAccessFile raf = null;
       try {
@@ -754,8 +794,8 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
       // Clean if not enough memory...
       // TODO: Fix later
-      if (termDocFrequency.size() > 1000) {
-        termDocFrequency.clear();
+      if (docTermFrequency.size() > 1000) {
+        docTermFrequency.clear();
       }
 
       MetaPair metaPair = docMetaData.get(docid);
@@ -764,7 +804,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         byte[] docTermFrequencyByte = new byte[metaPair.getLength()];
         raf.readFully(docTermFrequencyByte);
         Multiset<Integer> docTermFrequency = (Multiset<Integer>) Util.deserialize(docTermFrequencyByte);
-        termDocFrequency.put(docid, docTermFrequency);
+        this.docTermFrequency.put(docid, docTermFrequency);
         raf.close();
       } catch (IOException e) {
         e.printStackTrace();

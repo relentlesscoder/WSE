@@ -28,7 +28,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   // Key: Docid
   // Value: Key: Term ID
   // Value: Value: Term frequency
-  private Map<Integer, Multiset<Integer>> termDocFrequency = new HashMap<Integer, Multiset<Integer>>();
+  private Map<Integer, Multiset<Integer>> docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
 
   // Key: Term ID
   // Value: MetaData
@@ -64,9 +64,9 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
    */
   private void writePartialFile(int fileCount) throws IOException {
     Util.writePartialInvertedIndex(invertedIndex, _options, fileCount);
-    Util.writePartialDocuments(termDocFrequency, _options, fileCount);
+    Util.writePartialDocuments(docTermFrequency, _options, fileCount);
     invertedIndex.clear();
-    termDocFrequency.clear();
+    docTermFrequency.clear();
   }
 
   @Override
@@ -265,7 +265,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         this._totalTermFrequency = loaded.totalTermFrequency;
 
         this.invertedIndex = loaded.invertedIndex;
-        this.termDocFrequency = loaded.termDocFrequency;
+        this.docTermFrequency = loaded.docTermFrequency;
 
         this.docUrlMap = loaded.docUrlMap;
         this.meta = loaded.meta;
@@ -453,6 +453,39 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   /**
+   * Get the docTermFrequency of a specific document
+   * @param docid document id
+   * @return the term frequency
+   */
+  public Multiset<Integer> getDocidTermFrequency(int docid) {
+    if (!docMetaData.containsKey(docid)) {
+      return HashMultiset.create();
+    } else if (!docTermFrequency.containsKey(docid)) {
+      loadTermDocFrequency(docid);
+    }
+
+    return docTermFrequency.get(docid);
+  }
+
+  /**
+   * Get the term via term ID
+   * @param termId term ID
+   * @return term
+   */
+  public String getTermById(int termId) {
+    return dictionary.inverse().get(termId);
+  }
+
+  /**
+   * Get the term ID via term
+   * @param term term
+   * @return term ID
+   */
+  public int getTermId(String term) {
+    return dictionary.get(term);
+  }
+
+  /**
    * Merge all partial index files into a single file.
    *
    * @throws IOException
@@ -636,7 +669,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
   }
 
   private void loadTermDocFrequency(int docid) {
-    if (!termDocFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
+    if (!docTermFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
       String documentTermFrequencyFileName = _options._indexPrefix + "/documents.idx";
       RandomAccessFile raf = null;
       try {
@@ -647,8 +680,8 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
       // Clean if not enough memory...
       // TODO: Fix later
-      if (termDocFrequency.size() > 1000) {
-        termDocFrequency.clear();
+      if (docTermFrequency.size() > 1000) {
+        docTermFrequency.clear();
       }
 
       MetaPair metaPair = docMetaData.get(docid);
@@ -657,7 +690,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         byte[] docTermFrequencyByte = new byte[metaPair.getLength()];
         raf.readFully(docTermFrequencyByte);
         Multiset<Integer> docTermFrequency = (Multiset<Integer>) Util.deserialize(docTermFrequencyByte);
-        termDocFrequency.put(docid, docTermFrequency);
+        this.docTermFrequency.put(docid, docTermFrequency);
         raf.close();
       } catch (IOException e) {
         e.printStackTrace();
