@@ -18,6 +18,7 @@ import java.util.Map;
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
+  // K is the length of interval for the skip pointer of the posting list.
   private static final int K = 5000;
 
   // Dictionary
@@ -25,12 +26,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Value: Term ID
   private BiMap<String, Integer> dictionary = HashBiMap.create();
 
-  // Compressed inverted index.
+  // Compressed inverted index, dynamically loaded per term at run time
   // Key: Term ID
   // Value: Compressed posting list.
   private ListMultimap<Integer, Byte> invertedIndex = ArrayListMultimap.create();
 
-  // Term frequency of each document
+  // Term frequency of each document, dynamically loaded per doc at run time
   // Key: Docid
   // Value: Key: Term ID
   // Value: Value: Term frequency
@@ -47,14 +48,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   //   corpusTermFrequency: Term frequency across whole corpus.
   //   corpusDocFrequencyByTerm: Number of documents a term appeared, over the full corpus.
   //   postingListMetaData
+  // }
   private Map<Integer, MetaData> meta = new HashMap<Integer, MetaData>();
 
   // Key: Document ID
   // Value: Term document frequency meta info
-  private Map<Integer, MetaPair> docMetaData = new HashMap<Integer, MetaPair>();
+  private Map<Integer, MetaPair> docTermFreqMeta = new HashMap<Integer, MetaPair>();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
-  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
   long totalTermFrequency = 0;
 
@@ -186,7 +187,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     try {
       mergePostingList();
-      Util.mergeDocumentTermFrequency(docMetaData, _options);
+      Util.mergeDocumentTermFrequency(docTermFreqMeta, _options);
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }
@@ -241,7 +242,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     doc.setUrl(file.getAbsolutePath());
 
     documents.add(doc);
-    docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index.
     populateInvertedIndex(title + " " + bodyText, docid, constructTmpDataMap);
@@ -534,9 +534,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
         this.skipPointers = loaded.skipPointers;
 
-        this.docUrlMap = loaded.docUrlMap;
         this.meta = loaded.meta;
-        this.docMetaData = loaded.docMetaData;
+        this.docTermFreqMeta = loaded.docTermFreqMeta;
         this.dictionary = loaded.dictionary;
         reader.close();
         break;
@@ -1029,15 +1028,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public int documentTermFrequency(String term, int docid) {
-//		int termId = dictionary.get(term);
-//		if (!docMetaData.containsKey(termId)) {
-//			return 0;
-//		} else if (!docTermFrequency.containsKey(docid)) {
-//			loadTermDocFrequency(docid);
-//		}
-//
-//		return docTermFrequency.get(docid).count(dictionary.get(term));
-
     int docTermFrequency;
     int termId = dictionary.get(term);
     int offset = getDocidOffset(termId, docid);
@@ -1069,7 +1059,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return the term frequency
    */
   public Multiset<Integer> getDocidTermFrequency(int docid) {
-    if (!docMetaData.containsKey(docid)) {
+    if (!docTermFreqMeta.containsKey(docid)) {
       return HashMultiset.create();
     } else if (!docTermFrequency.containsKey(docid)) {
       loadTermDocFrequency(docid);
@@ -1279,7 +1269,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   }
 
   private void loadTermDocFrequency(int docid) {
-    if (!docTermFrequency.containsKey(docid) && docMetaData.containsKey(docid)) {
+    if (!docTermFrequency.containsKey(docid) && docTermFreqMeta.containsKey(docid)) {
       String documentTermFrequencyFileName = _options._indexPrefix + "/documents.idx";
       RandomAccessFile raf = null;
       try {
@@ -1294,7 +1284,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         docTermFrequency.clear();
       }
 
-      MetaPair metaPair = docMetaData.get(docid);
+      MetaPair metaPair = docTermFreqMeta.get(docid);
       try {
         raf.seek(metaPair.getStartPos());
         byte[] docTermFrequencyByte = new byte[metaPair.getLength()];
