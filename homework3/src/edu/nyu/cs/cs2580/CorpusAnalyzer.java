@@ -67,7 +67,7 @@ public abstract class CorpusAnalyzer {
         if (_matcher.find()) {
           if ((linkTarget = _matcher.group(1)) != null) {
             //filter external links out
-            if(isExternalLink(linkTarget)){
+            if(!isExternalLink(linkTarget)){
               return linkTarget;
             }
             else{
