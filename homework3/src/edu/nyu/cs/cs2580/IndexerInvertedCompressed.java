@@ -257,6 +257,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
+    String pattern = "<[a|A].*?href=\"([^ /#]*)\".*?>";
+    content.replaceAll(pattern, "");
+
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
@@ -544,6 +547,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     System.out.println(Integer.toString(_numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
+
+    Multiset<Integer> test1 = getDocidTermFrequency(123);
+    String term = getTermById(0);
+
   }
 
   @Override
