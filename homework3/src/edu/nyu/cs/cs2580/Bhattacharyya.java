@@ -46,14 +46,7 @@ public class Bhattacharyya {
             continue;
           }else{
             String q2 = queries.get(j);
-            double similarity = 0;
-            for (TermPrf tp1 : extendedQueries.get(i)){
-              for (TermPrf tp2 : extendedQueries.get(j)){
-                if (tp1.term.equals(tp2.term)){
-                  similarity += Math.sqrt(tp1.prf*tp2.prf);
-                }
-              }
-            }
+            double similarity = computeSimilarity(extendedQueries.get(i),extendedQueries.get(j));
             sb.append(q1).append('\t').append(q2).append('\t').append(similarity).append('\n');
           }
         }
@@ -72,7 +65,15 @@ public class Bhattacharyya {
     }
   }
 
-
-
-
+  public static double computeSimilarity (List<TermPrf> tps1, List<TermPrf> tps2) {
+    double similarity = 0;
+    for (TermPrf tp1 : tps1){
+      for (TermPrf tp2 : tps2){
+        if (tp1.term.equals(tp2.term)){
+          similarity += Math.sqrt(tp1.prf*tp2.prf);
+        }
+      }
+    }
+    return similarity;
+  }
 }
