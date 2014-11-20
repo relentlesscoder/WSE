@@ -259,7 +259,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
     // Copy from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
-    String pattern =  "(@)?(href=')?(HREF=')?(HREF=\")?(href=\")?(http://)?[a-zA-Z_0-9\\-]+(\\.\\w[a-zA-Z_0-9\\-]+)+(/[#&\\n\\-=?\\+\\%/\\.\\w]+)?";
+    String pattern =  "(http://)?[a-zA-Z_0-9\\-]+(\\.\\w[a-zA-Z_0-9\\-]+)+(/[#&\\n\\-=?\\+\\%/\\.\\w]+)?";
     content = content.replaceAll(pattern, "");
 
     // Uncompressed temporary inverted index.
