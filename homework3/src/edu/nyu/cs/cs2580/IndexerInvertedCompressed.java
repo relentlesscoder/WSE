@@ -258,7 +258,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
-    String pattern = "<[a|A].*?href=\"([^ /#]*)\".*?>";
+    // Copy from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
+    String pattern = "(?i)\\b((?:[a-z][\\w-]+:(?:/{1,3}|[a-z0-9%])|www\\d{0,3}[.]|[a-z0-9.\\-]+[.][a-z]{2,4}/)(?:[^\\s()<>]+|\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\))+(?:\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\)|[^\\s`!()\\[\\]{};:'\".,<>?«»“”‘’]))";
     content.replaceAll(pattern, "");
 
     // Uncompressed temporary inverted index.
@@ -1063,6 +1064,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Get the docTermFrequency of a specific document
+   *
    * @param docid document id
    * @return the term frequency
    */
@@ -1078,6 +1080,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Get the term via term ID
+   *
    * @param termId term ID
    * @return term
    */
@@ -1087,6 +1090,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Get the term ID via term
+   *
    * @param term term
    * @return term ID
    */
