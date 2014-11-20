@@ -5,11 +5,11 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.util.*;
 
-public class PhraseRanker extends Ranker {
+public class RankerPhrase extends Ranker {
 
   private int n_gram = 2;
 
-  public PhraseRanker(Options options, CgiArguments arguments, Indexer indexer) {
+  public RankerPhrase(Options options, CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }

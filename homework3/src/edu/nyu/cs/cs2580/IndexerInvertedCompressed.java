@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 /**
  * This is the compressed inverted indexer...
@@ -20,6 +21,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
   // K is the length of interval for the skip pointer of the posting list.
   private static final int K = 5000;
+  // Copy from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
+  private static final Pattern URL_PATTERN = Pattern.compile("(@)?(href=')?(HREF=')?(HREF=\")?(href=\")?(http://)?[a-zA-Z_0-9\\-]+(\\.\\w[a-zA-Z_0-9\\-]+)+(/[#&\\n\\-=?\\+\\%/\\.\\w]+)?");
 
   // Dictionary
   // Key: Term
@@ -257,14 +260,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid   The document ID.
    */
   private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
-    // Copy from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
-    String pattern = "(?i)\\b((?:[a-z][\\w-]+:(?:/{1,3}|[a-z0-9%])|www\\d{0,3}[.]|[a-z0-9.\\-]+[.][a-z]{2,4}/)(?:[^\\s()<>]+|\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\))+(?:\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\)|[^\\s`!()\\[\\]{};:'\".,<>?«»“”‘’]))";
-    content.replaceAll(pattern, "");
-
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
+    Tokenizer tokenizer = new Tokenizer(new StringReader(URL_PATTERN.matcher(content).replaceAll("")));
     int position = 0;
 
     /**************************************************************************
@@ -517,7 +516,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     File folder = new File(_options._indexPrefix);
     File[] files = folder.listFiles();
 
-    // Load the class file first
+    /**************************************************************************
+     * Load the class file first
+     *************************************************************************/
     for (File file : files) {
       if (file.getName().equals("corpus.idx")) {
         String indexFile = _options._indexPrefix + "/corpus.idx";
@@ -546,12 +547,37 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
 
+    // Load the page ranks.
+    // Key: Document ID
+    // Value: Page rank score
+    Map<Integer, Double> pageRanks = (Map<Integer, Double>) _corpusAnalyzer.load();
+
+    // Load the number views
+    // Key: Document ID
+    // Value: Number of views
+    Map<Integer, Integer> docNumView = (Map<Integer, Integer>) _logMiner.load();
+
+    /**************************************************************************
+     * Update the documents
+     *************************************************************************/
+    for (DocumentIndexed documentIndexed : documents) {
+      int docid = documentIndexed._docid;
+      // Update page rank score
+      if (pageRanks.containsKey(docid)) {
+        documentIndexed.setPageRank(pageRanks.get(docid));
+      } else {
+        documentIndexed.setPageRank(0.0);
+      }
+      // Update number of views
+      if (docNumView.containsKey(docid)) {
+        documentIndexed.setNumViews(docNumView.get(docid));
+      } else {
+        documentIndexed.setNumViews(0);
+      }
+    }
+
     System.out.println(Integer.toString(_numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
-
-    Multiset<Integer> test1 = getDocidTermFrequency(123);
-    String term = getTermById(0);
-
   }
 
   @Override
