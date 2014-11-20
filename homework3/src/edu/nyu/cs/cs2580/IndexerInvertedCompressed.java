@@ -235,6 +235,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void processDocument(File file, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
+    if (file.getName().equals("Firestorm")) {
+      int br = 0;
+    }
+
     String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
 
@@ -264,6 +268,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
     Tokenizer tokenizer = new Tokenizer(new StringReader(URL_PATTERN.matcher(content).replaceAll("")));
+
     int position = 0;
 
     /**************************************************************************
