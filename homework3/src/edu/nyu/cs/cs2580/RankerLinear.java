@@ -5,13 +5,13 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.util.*;
 
-public class LinearRanker extends Ranker {
+public class RankerLinear extends Ranker {
   private final static double BETA_COS = 1.0;
   private final static double BETA_LM = 10.0;
   private final static double BETA_PHRASE = 0.001;
   private final static double BETA_NUMVIEWS = 0.00001;
 
-  public LinearRanker(Options options, CgiArguments arguments, Indexer indexer) {
+  public RankerLinear(Options options, CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
@@ -21,10 +21,10 @@ public class LinearRanker extends Ranker {
     Vector<ScoredDocument> retrievalResults = new Vector<ScoredDocument>();
     List<ScoredDocument> scoredDocuments = new ArrayList<ScoredDocument>();
 
-    Ranker VSM = new VectorSpaceModel(_options, _arguments, _indexer);
-    Ranker LM = new LanguageModel(_options, _arguments, _indexer);
-    Ranker phrase = new PhraseRanker(_options, _arguments, _indexer);
-    Ranker numviews = new NumviewsRanker(_options, _arguments, _indexer);
+    Ranker VSM = new RankerVSM(_options, _arguments, _indexer);
+    Ranker LM = new RankerQL(_options, _arguments, _indexer);
+    Ranker phrase = new RankerPhrase(_options, _arguments, _indexer);
+    Ranker numviews = new RankerNumViews(_options, _arguments, _indexer);
 
     for (int docId = 0; docId < _indexer.numDocs(); ++docId) {
       Document document = _indexer.getDoc(docId);

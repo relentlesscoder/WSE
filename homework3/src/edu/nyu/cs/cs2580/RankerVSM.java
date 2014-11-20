@@ -5,10 +5,10 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.util.*;
 
-public class VectorSpaceModel extends Ranker {
+public class RankerVSM extends Ranker {
 
-  public VectorSpaceModel(Options options, CgiArguments arguments,
-                          Indexer indexer) {
+  public RankerVSM(Options options, CgiArguments arguments,
+                   Indexer indexer) {
     super(options, arguments, indexer);
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
