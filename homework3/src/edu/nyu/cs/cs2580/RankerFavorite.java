@@ -19,7 +19,6 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 public class RankerFavorite extends Ranker {
 	private final static double LAMDA = 0.50;
 	IndexerInvertedCompressed indexerInvertedCompressed;
-	DocumentIndexed document;
 
 	public RankerFavorite(Options options, CgiArguments arguments, Indexer indexer) {
 		super(options, arguments, indexer);
@@ -29,13 +28,12 @@ public class RankerFavorite extends Ranker {
 
 	@Override
 	public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-		System.out.println("runing query...");
+		System.out.println("Running query...");
 		Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
 		int nextDocid = -1;
-		int count = 0;
 
 		while (true) {
-			Document document = indexerInvertedCompressed.nextDocLoose(query,
+			Document document = indexerInvertedCompressed.nextDoc(query,
 			    nextDocid);
 			if (document == null) {
 				break;
@@ -50,13 +48,22 @@ public class RankerFavorite extends Ranker {
 
 		Vector<ScoredDocument> results = new Vector<ScoredDocument>();
 		ScoredDocument scoredDoc = null;
+
 		while ((scoredDoc = rankQueue.poll()) != null) {
 			results.add(scoredDoc);
 		}
+
 		Collections.sort(results, Collections.reverseOrder());
+
 		return results;
 	}
 
+	/**
+	 * Score the document...
+	 * @param query the query
+	 * @param docId document ID
+	 * @return a ScoreDocument
+	 */
 	public ScoredDocument scoreDocument(Query query, int docId) {
 		ScoredDocument scoredDocument = null;
 		// C is the total number of word occurrences in the collection.
@@ -90,7 +97,6 @@ public class RankerFavorite extends Ranker {
 			score += Math.log((1 - LAMDA) * (fqi_D / D) + LAMDA * (cqi / C));
 		}
 
-		// TODO: Not sure...
 		score = Math.exp(score);
 
 		scoredDocument = new ScoredDocument(document, score);
