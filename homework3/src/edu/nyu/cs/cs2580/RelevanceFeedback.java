@@ -48,7 +48,7 @@ public class RelevanceFeedback {
         continue;
       }
       int frequency = termFrequency.count(i);
-      System.out.println("Element: " + term + " Frequency: " + frequency);
+//      System.out.println("Element: " + term + " Frequency: " + frequency);
       topTerms.add(new TermPrf(term, frequency));
       topTermsCount += frequency;
       numTerms--;
@@ -60,19 +60,11 @@ public class RelevanceFeedback {
     StringBuilder sb = new StringBuilder();
 
     for (TermPrf t : topTerms){
-      sb.append(t.term).append('\t').append((double)t.frequency/topTermsCount).append('\n');
+      t.computePrf(topTermsCount);
+      sb.append(t.term).append('\t').append(t.prf).append('\n');
     }
 
-    System.out.print(sb.substring(0,sb.length()-1));
+//    System.out.print(sb.substring(0,sb.length()-1));
     return sb.substring(0,sb.length()-1);
-  }
-}
-
-class TermPrf {
-  public String term;
-  public int frequency;
-  public TermPrf (String term, int frequency){
-    this.term = term;
-    this.frequency = frequency;
   }
 }
