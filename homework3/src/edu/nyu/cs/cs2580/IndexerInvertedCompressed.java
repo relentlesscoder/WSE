@@ -259,8 +259,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
     // Copy from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
-    String pattern = "(?i)\\b((?:[a-z][\\w-]+:(?:/{1,3}|[a-z0-9%])|www\\d{0,3}[.]|[a-z0-9.\\-]+[.][a-z]{2,4}/)(?:[^\\s()<>]+|\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\))+(?:\\(([^\\s()<>]+|(\\([^\\s()<>]+\\)))*\\)|[^\\s`!()\\[\\]{};:'\".,<>?«»“”‘’]))";
-    content.replaceAll(pattern, "");
+    String pattern =  "(@)?(href=')?(HREF=')?(HREF=\")?(href=\")?(http://)?[a-zA-Z_0-9\\-]+(\\.\\w[a-zA-Z_0-9\\-]+)+(/[#&\\n\\-=?\\+\\%/\\.\\w]+)?";
+    content = content.replaceAll(pattern, "");
 
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
