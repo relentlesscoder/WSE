@@ -1,9 +1,11 @@
 package edu.nyu.cs.cs2580;
 
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -55,33 +57,60 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
     _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
 
-    Map<String, Integer> nameDocIdMap = new HashMap<String, Integer>();
+    Map<String, FileMetaData> nameDocIdMap = new HashMap<String, FileMetaData>();
+    ArrayList redirectList = new ArrayList<Integer>();
+
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
       if(isValidDocument(files[docid])){
+        FileMetaData fileMetaData = new FileMetaData();
         _docCount++;
-        nameDocIdMap.put(files[docid].getName(), docid);
+        fileMetaData.setDocId(docid);
+        String redirectUrl = tryGetRedirectUrl(files[docid]);
+        if(redirectUrl != null && !redirectUrl.isEmpty()){
+          fileMetaData.setIsRedirectPage(true);
+          fileMetaData.setRedirectUrl(redirectUrl);
+          redirectList.add(docid);
+        }
+        nameDocIdMap.put(files[docid].getName(), fileMetaData);
       }
     }
 
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
       if(isValidDocument(files[docid])){
-        if(!_pageGraph.containsVertex(docid)){
+        if(!_pageGraph.containsVertex(docid) && !redirectList.contains(docid)){
           _pageGraph.addVertex(docid);
         }
         HeuristicLinkExtractor linkExtractor = new HeuristicLinkExtractor(files[docid]);
         String url = linkExtractor.getNextInCorpusLinkTarget();
         while(url != null){
           if(isValidInternalUrl(url) && nameDocIdMap.containsKey(url)){
-            int linkToDocId = nameDocIdMap.get(url);
-            // add target vertex if it is not in the graph
-            if(!_pageGraph.containsVertex(linkToDocId)){
-              _pageGraph.addVertex(linkToDocId);
+            FileMetaData linkToDoc = nameDocIdMap.get(url);
+
+            int linkToDocId = 0;
+            if(!linkToDoc.getIsRedirectPage()){
+              linkToDocId = linkToDoc.getDocId();
             }
-            // only add edge once
-            if(!_pageGraph.containsEdge(docid, linkToDocId)){
-              _pageGraph.addEdge(docid, linkToDocId);
+            else{
+              do {
+                linkToDoc = nameDocIdMap.get(linkToDoc.getRedirectUrl());
+              }
+              while (linkToDoc.getIsRedirectPage());
+              if(linkToDoc != null){
+                linkToDocId = linkToDoc.getDocId();
+              }
+            }
+
+            if(linkToDocId > 0){
+              // add target vertex if it is not in the graph
+              if(!_pageGraph.containsVertex(linkToDocId)){
+                _pageGraph.addVertex(linkToDocId);
+              }
+              // only add edge once
+              if(!_pageGraph.containsEdge(docid, linkToDocId)){
+                _pageGraph.addEdge(docid, linkToDocId);
+              }
             }
           }
           url = linkExtractor.getNextInCorpusLinkTarget();
@@ -115,8 +144,14 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     Map pageRanks = new HashMap<Integer, Integer>();
 
     // set initial value
+    int redirectCount = 0;
     for(int docid = 0; docid < _docCount; docid++){
-      pageRanks.put(docid, 1.0);
+      // since pagerank value is lower bounded by (1 - d), so we use 0.0
+      // to represent N/A
+      if(!_pageGraph.containsVertex(docid)){
+        redirectCount++;
+      }
+      pageRanks.put(docid, _pageGraph.containsVertex(docid) ? 1.0 : 0.0);
     }
 
     int counter = 0;
