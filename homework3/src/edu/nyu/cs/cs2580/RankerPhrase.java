@@ -8,9 +8,12 @@ import java.util.*;
 public class RankerPhrase extends Ranker {
 
   private int n_gram = 2;
+  private IndexerInvertedCompressed compIndexer;
 
-  public RankerPhrase(Options options, CgiArguments arguments, Indexer indexer) {
+  public RankerPhrase(Options options, CgiArguments arguments,
+                           Indexer indexer) {
     super(options, arguments, indexer);
+    this.compIndexer = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
 

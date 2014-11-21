@@ -19,7 +19,7 @@ public class QueryPhrase extends Query {
 
 	// public ListMultimap<String, String> _phrases = ArrayListMultimap.create();
 	public List<List<String>> phrases = new ArrayList<List<String>>();
-	// public List<String> soloTerms = new ArrayList<String>();
+	public List<String> soloTerms = new ArrayList<String>();
 	public boolean containsPhrase;
 
 	public QueryPhrase(String query, boolean containsPhrase) {
@@ -69,7 +69,7 @@ public class QueryPhrase extends Query {
 		}
 
 		for (String term : uniqueTokens) {
-			terms.add(term);
+			soloTerms.add(term);
 		}
 	}
 }

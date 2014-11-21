@@ -112,7 +112,6 @@ public class RankerConjunctive extends Ranker {
 
 			if (queryPhrase.containsPhrase) {
 				List<List<String>> phrases = queryPhrase.phrases;
-
 				for (List<String> phraseTerms : phrases) {
 					int pos = nextPhrase(phraseTerms, doc._docid, -1);
 					if (pos == -1) {
@@ -124,12 +123,16 @@ public class RankerConjunctive extends Ranker {
 						pos = nextPhrase(phraseTerms, doc._docid, pos);
 					}
 				}
-			}
-
-			for (String term : query.terms) {
-				int termDocFrequency = documentTermFrequency(term, doc._docid);
-				score += 1.0 * (double) termDocFrequency;
-			}
+        for (String term : queryPhrase.soloTerms) {
+          int termDocFrequency = documentTermFrequency(term, doc._docid);
+          score += 1.0 * (double) termDocFrequency;
+        }
+			}else {
+        for (String term : query.terms) {
+          int termDocFrequency = documentTermFrequency(term, doc._docid);
+          score += 1.0 * (double) termDocFrequency;
+        }
+      }
 
 			// System.out.println(doc._docid + " " + score);
 			rankQueue.add(new ScoredDocument(doc, score));
