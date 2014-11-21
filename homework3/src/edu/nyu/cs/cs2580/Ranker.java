@@ -71,7 +71,7 @@ public abstract class Ranker {
 			case FAVORITE:
 				return new RankerFavorite(options, arguments, indexer);
 			case COSINE:
-				return new RankerVSM(options, arguments, indexer);
+				return new RankerCosine(options, arguments, indexer);
 			case QL:
 				return new RankerQL(options, arguments, indexer);
 			case PHRASE:
