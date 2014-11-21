@@ -1,6 +1,12 @@
 package edu.nyu.cs.cs2580;
 
-import java.awt.*;
+import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.io.Input;
+import com.esotericsoftware.kryo.io.Output;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
+import org.jgrapht.DirectedGraph;
+import org.jgrapht.graph.DefaultDirectedGraph;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -9,10 +15,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
-import edu.nyu.cs.cs2580.SearchEngine.Options;
-import org.jgrapht.DirectedGraph;
-import org.jgrapht.graph.DefaultDirectedGraph;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -26,6 +28,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
   public CorpusAnalyzerPagerank(Options options) {
     super(options);
+    _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
   }
 
   /**
@@ -52,10 +55,9 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     System.out.println("Preparing " + this.getClass().getName());
     File folder  = new File(_options._corpusPrefix);
     File[] files = folder.listFiles();
+    ProgressBar progressBar = new ProgressBar();
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
-
-    _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
 
     Map<String, FileMetaData> nameDocIdMap = new HashMap<String, FileMetaData>();
     ArrayList redirectList = new ArrayList<Integer>();
@@ -116,6 +118,9 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
           url = linkExtractor.getNextInCorpusLinkTarget();
         }
       }
+
+      // Update the progress bar after processing a document :)
+      progressBar.update(docid, files.length);
     }
   }
 
@@ -142,15 +147,12 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     }
 
     Map pageRanks = new HashMap<Integer, Integer>();
+    ProgressBar progressBar = new ProgressBar();
 
     // set initial value
-    int redirectCount = 0;
     for(int docid = 0; docid < _docCount; docid++){
       // since pagerank value is lower bounded by (1 - d), so we use 0.0
       // to represent N/A
-      if(!_pageGraph.containsVertex(docid)){
-        redirectCount++;
-      }
       pageRanks.put(docid, _pageGraph.containsVertex(docid) ? 1.0 : 0.0);
     }
 
@@ -175,34 +177,32 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
           pageRanks.put(docid, pageRank);
         }
+
+        // Update the progress bar after processing a document :)
+        progressBar.update(docid, _docCount);
       }
 
       counter++;
     }
 
-    //Write to file
-    FileOutputStream fos = null;
-    try{
-      File file = new File(_options._pagerankPrefix + "/pageranks.pks");
-      if(!file.exists()){
-        file.createNewFile();
-      }
-      fos = new FileOutputStream(file);
-      fos.write(Util.serialize(pageRanks));
+    /**************************************************************************
+     * First clean the folder before writing to file....
+     *************************************************************************/
+    File outputFolder = new File(_options._pagerankPrefix);
+    for (File file : outputFolder.listFiles()) {
+        file.delete();
     }
-    catch (Exception e){
-      e.printStackTrace();
-    }
-    finally {
-      try{
-        if(fos != null){
-          fos.close();
-        }
-      }
-      catch(Exception e){
-        e.printStackTrace();
-      }
-    }
+
+    /**************************************************************************
+     * Writing to file....
+     *************************************************************************/
+    String filePath = _options._pagerankPrefix + "/pageranks.pks";
+
+    Kryo kryo = new Kryo();
+    Output output = new Output(new FileOutputStream(filePath));
+
+    kryo.writeObject(output, pageRanks);
+    output.close();
 
   }
 
@@ -215,30 +215,14 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   @Override
   public Object load() throws IOException {
     System.out.println("Loading using " + this.getClass().getName());
-    Object pageRanks = null;
+    Map<Integer, Double> pageRanks = new HashMap<Integer, Double>();
+    String filePath = _options._pagerankPrefix + "/pageranks.pks";
+    Kryo kryo = new Kryo();
+    Input input = new Input(new FileInputStream(filePath));
 
-    File file = new File(_options._pagerankPrefix + "/pageranks");
-    FileInputStream fis = null;
+    pageRanks = kryo.readObject(input, Map.class);
 
-    try{
-      fis = new FileInputStream(file);
-      byte[] fileCotent = new byte[(int)file.length()];
-      fis.read(fileCotent);
-      pageRanks = Util.deserialize(fileCotent);
-    }
-    catch (Exception e){
-      e.printStackTrace();
-    }
-    finally {
-      try{
-        if(fis != null){
-          fis.close();
-        }
-      }
-      catch (Exception e){
-        e.printStackTrace();
-      }
-    }
+    input.close();
 
     return pageRanks;
   }

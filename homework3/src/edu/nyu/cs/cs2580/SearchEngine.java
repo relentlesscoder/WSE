@@ -196,14 +196,50 @@ public class SearchEngine {
 		    .getCorpusAnalyzerByOption(SearchEngine.OPTIONS);
 		Check(analyzer != null, "Analyzer "
 		    + SearchEngine.OPTIONS._corpusAnalyzerType + " not found!");
+
+		long totalStartTimeStamp, startTimeStamp, duration;
+		totalStartTimeStamp = System.currentTimeMillis();
+
+		/**************************************************************************
+		 * Start preparing....
+		 *************************************************************************/
+		System.out.println("Start preparing...");
+		startTimeStamp = System.currentTimeMillis();
+
 		analyzer.prepare();
+
+		duration = System.currentTimeMillis() - startTimeStamp;
+		System.out.println("Preparing takes time: " + Util.convertMillis(duration));
+
+		/**************************************************************************
+		 * Start computing....
+		 *************************************************************************/
+		System.out.println("Start computing...");
+		startTimeStamp = System.currentTimeMillis();
+
 		analyzer.compute();
 
+		duration = System.currentTimeMillis() - startTimeStamp;
+		System.out.println("Computing takes time: " + Util.convertMillis(duration));
+
+		/**************************************************************************
+		 * Start computing logs....
+		 *************************************************************************/
 		LogMiner miner = LogMiner.Factory.getLogMinerByOption(SearchEngine.OPTIONS);
 		Check(miner != null, "Miner " + SearchEngine.OPTIONS._logMinerType
 		    + " not found!");
+
+		System.out.println("Start computing logs...");
+		startTimeStamp = System.currentTimeMillis();
+
 		miner.compute();
-		return;
+
+		duration = System.currentTimeMillis() - startTimeStamp;
+		System.out.println("Computing logs takes time: " + Util.convertMillis(duration));
+
+
+		duration = System.currentTimeMillis() - totalStartTimeStamp;
+		System.out.println("Total time takes: " + Util.convertMillis(duration));
 	}
 
 	private static void startIndexing() throws IOException {
