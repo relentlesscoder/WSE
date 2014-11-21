@@ -6,11 +6,11 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.util.*;
 
-public class RankerVSM extends Ranker {
+public class RankerCosine extends Ranker {
   IndexerInvertedCompressed indexerInvertedCompressed;
 
-  public RankerVSM(Options options, CgiArguments arguments,
-                   Indexer indexer) {
+  public RankerCosine(Options options, CgiArguments arguments,
+                      Indexer indexer) {
     super(options, arguments, indexer);
     this.indexerInvertedCompressed = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
@@ -73,9 +73,6 @@ public class RankerVSM extends Ranker {
   private double cosineSimilarity(int docid, Map<String, Integer> queryMap) {
     Multiset<Integer> docTermFrequency = indexerInvertedCompressed.getDocidTermFrequency(docid);
     int numOfDocTerms = docTermFrequency.size();
-
-    // <term, frequency> of a document
-//    Map<String, Double> termFrequencyMap = new HashMap<String, Double>();
 
     double score = 0.0;
     double d_j = 0.0;

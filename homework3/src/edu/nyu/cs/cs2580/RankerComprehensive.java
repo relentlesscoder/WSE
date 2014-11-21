@@ -94,6 +94,11 @@ public class RankerComprehensive extends Ranker {
 
     score = Math.exp(score);
 
+    // Considered page rank scores...
+    score = score * document.getPageRank();
+
+
+
     scoredDocument = new ScoredDocument(document, score);
 
     return scoredDocument;

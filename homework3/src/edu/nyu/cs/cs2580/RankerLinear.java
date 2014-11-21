@@ -20,48 +20,52 @@ public class RankerLinear extends Ranker {
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
     Vector<ScoredDocument> retrievalResults = new Vector<ScoredDocument>();
     List<ScoredDocument> scoredDocuments = new ArrayList<ScoredDocument>();
+    Map<Integer, ScoredDocument> scoredDocumentsMap = new HashMap<Integer, ScoredDocument>();
 
-    Ranker VSM = new RankerVSM(_options, _arguments, _indexer);
+    Ranker VSM = new RankerCosine(_options, _arguments, _indexer);
     Ranker LM = new RankerQL(_options, _arguments, _indexer);
     Ranker phrase = new RankerPhrase(_options, _arguments, _indexer);
     Ranker numviews = new RankerNumViews(_options, _arguments, _indexer);
 
-    for (int docId = 0; docId < _indexer.numDocs(); ++docId) {
-      Document document = _indexer.getDoc(docId);
-      scoredDocuments.add(new ScoredDocument(document, 0.0));
-    }
-
-    addRankerScore(scoredDocuments, VSM.runQuery(query, numResults), BETA_COS);
-    addRankerScore(scoredDocuments, LM.runQuery(query, numResults), BETA_LM);
-    addRankerScore(scoredDocuments, phrase.runQuery(query, numResults),
+    addRankerScore(scoredDocumentsMap, VSM.runQuery(query, numResults), BETA_COS);
+    addRankerScore(scoredDocumentsMap, LM.runQuery(query, numResults), BETA_LM);
+    addRankerScore(scoredDocumentsMap, phrase.runQuery(query, numResults),
         BETA_PHRASE);
-    addRankerScore(scoredDocuments, numviews.runQuery(query, numResults),
+    addRankerScore(scoredDocumentsMap, numviews.runQuery(query, numResults),
         BETA_NUMVIEWS);
 
-    // Sort the scoredDocument decreasingly
-    Collections.sort(scoredDocuments, new Comparator<ScoredDocument>() {
-      @Override
-      public int compare(ScoredDocument o1, ScoredDocument o2) {
-        return (o2.getScore() > o1.getScore()) ? 1 : (o2.getScore() < o1
-            .getScore()) ? -1 : 0;
+    Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
+    for (ScoredDocument scoredDocument : scoredDocumentsMap.values()) {
+      rankQueue.add(scoredDocument);
+      if (rankQueue.size() > numResults) {
+        rankQueue.poll();
       }
-    });
-
-    int insertCount = Math.min(numResults, scoredDocuments.size());
-    for (int i = 0; i < insertCount; i++) {
-      retrievalResults.add(scoredDocuments.get(i));
     }
+
+    ScoredDocument scoredDoc = null;
+    while ((scoredDoc = rankQueue.poll()) != null) {
+      scoredDocuments.add(scoredDoc);
+    }
+
+    // Sort the scoredDocument decreasingly
+    Collections.sort(scoredDocuments);
 
     return retrievalResults;
   }
 
-  private void addRankerScore(List<ScoredDocument> linearRankerResults,
+  private void addRankerScore(Map<Integer, ScoredDocument> scoredDocumentsMap,
                               List<ScoredDocument> otherRankerResults, double beta) {
-    for (int docId = 0; docId < _indexer.numDocs(); ++docId) {
-      double originScore = linearRankerResults.get(docId).getScore();
-      double newScore = originScore + beta
-          * otherRankerResults.get(docId).getScore();
-      linearRankerResults.get(docId).setScore(newScore);
+    for (ScoredDocument scoredDocument : otherRankerResults) {
+      int docid = scoredDocument.getDocid();
+      if (scoredDocumentsMap.containsKey(docid)) {
+        double originScore = scoredDocumentsMap.get(docid).getScore();
+        double newScore = originScore + beta * scoredDocument.getScore();
+        scoredDocumentsMap.get(docid).setScore(newScore);
+      } else {
+        scoredDocumentsMap.put(docid, scoredDocument);
+        double newScore = beta * scoredDocument.getScore();
+        scoredDocumentsMap.get(docid).setScore(newScore);
+      }
     }
   }
 }
