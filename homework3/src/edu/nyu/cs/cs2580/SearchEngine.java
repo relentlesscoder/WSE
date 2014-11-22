@@ -72,6 +72,8 @@ public class SearchEngine {
 
 		public String _pagerankPrefix = null;
 
+		public String _numviewPrefix = null;
+
 		public String _searchTemplate = null;
 
 		public String _resultTemplate = null;
@@ -96,7 +98,7 @@ public class SearchEngine {
 				String[] vals = line.split(":", 2);
 				if (vals.length < 2) {
 					reader.close();
-					Check(false, "Wrong option: " + line);
+					Util.Check(false, "Wrong option: " + line);
 				}
 				options.put(vals[0].trim(), vals[1].trim());
 			}
@@ -104,53 +106,46 @@ public class SearchEngine {
 
 			// Populate global options.
 			_corpusPrefix = options.get("corpus_prefix");
-			Check(_corpusPrefix != null, "Missing option: corpus_prefix!");
+			Util.Check(_corpusPrefix != null, "Missing option: corpus_prefix!");
 			_logPrefix = options.get("log_prefix");
-			Check(_logPrefix != null, "Missing option: log_prefix!");
+			Util.Check(_logPrefix != null, "Missing option: log_prefix!");
 			_indexPrefix = options.get("index_prefix");
-			Check(_indexPrefix != null, "Missing option: index_prefix!");
+			Util.Check(_indexPrefix != null, "Missing option: index_prefix!");
 
 			// Populate specific options.
 			_indexerType = options.get("indexer_type");
-			Check(_indexerType != null, "Missing option: indexer_type!");
+			Util.Check(_indexerType != null, "Missing option: indexer_type!");
 
 			_corpusAnalyzerType = options.get("corpus_analyzer_type");
-			Check(_corpusAnalyzerType != null,
-			    "Missing option: corpus_analyzer_type!");
+			Util.Check(_corpusAnalyzerType != null,
+					"Missing option: corpus_analyzer_type!");
 
 			_logMinerType = options.get("log_miner_type");
-			Check(_logMinerType != null, "Missing option: log_miner_type!");
+			Util.Check(_logMinerType != null, "Missing option: log_miner_type!");
 
 			_searchTemplate = options.get("search_template");
-			Check(_searchTemplate != null, "Missing option: search_template!");
+			Util.Check(_searchTemplate != null, "Missing option: search_template!");
 
 			_resultTemplate = options.get("result_template");
-			Check(_resultTemplate != null, "Missing option: result_template!");
+			Util.Check(_resultTemplate != null, "Missing option: result_template!");
 
 			_pagerankPrefix = options.get("pagerank_prefix");
-			Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
+			Util.Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
+
+			_numviewPrefix = options.get("numview_prefix");
+			Util.Check(_numviewPrefix != null, "Missing option: numview_prefix!");
 
 			String dampingValue = options.get("damping_factor");
-			Check(dampingValue != null, "Missing option: damping_factor!");
+			Util.Check(dampingValue != null, "Missing option: damping_factor!");
 			_dampingFactor = Double.parseDouble(dampingValue);
 
 			String iterationTimes = options.get("iteration_times");
-			Check(iterationTimes != null, "Missing option: iteration_times!");
+			Util.Check(iterationTimes != null, "Missing option: iteration_times!");
 			_iteration_times = Integer.parseInt(iterationTimes);
 		}
 	}
 
 	public static Options OPTIONS = null;
-
-	/**
-	 * Prints {@code msg} and exits the program if {@code condition} is false.
-	 */
-	public static void Check(boolean condition, String msg) {
-		if (!condition) {
-			System.err.println("Fatal error: " + msg);
-			System.exit(-1);
-		}
-	}
 
 	/**
 	 * Running mode of the search engine.
@@ -181,11 +176,11 @@ public class SearchEngine {
 				OPTIONS = new Options(value);
 			}
 		}
-		Check(MODE == Mode.SERVE || MODE == Mode.INDEX || MODE == Mode.MINING,
-		    "Must provide a valid mode: serve or index or mining!");
-		Check(MODE != Mode.SERVE || PORT != -1,
-		    "Must provide a valid port number (258XX) in serve mode!");
-		Check(OPTIONS != null, "Must provide options!");
+		Util.Check(MODE == Mode.SERVE || MODE == Mode.INDEX || MODE == Mode.MINING,
+				"Must provide a valid mode: serve or index or mining!");
+		Util.Check(MODE != Mode.SERVE || PORT != -1,
+				"Must provide a valid port number (258XX) in serve mode!");
+		Util.Check(OPTIONS != null, "Must provide options!");
 	}
 
 	// /// Main functionalities start
@@ -194,8 +189,8 @@ public class SearchEngine {
 	    NoSuchAlgorithmException {
 		CorpusAnalyzer analyzer = CorpusAnalyzer.Factory
 		    .getCorpusAnalyzerByOption(SearchEngine.OPTIONS);
-		Check(analyzer != null, "Analyzer "
-		    + SearchEngine.OPTIONS._corpusAnalyzerType + " not found!");
+		Util.Check(analyzer != null, "Analyzer "
+				+ SearchEngine.OPTIONS._corpusAnalyzerType + " not found!");
 
 		long totalStartTimeStamp, startTimeStamp, duration;
 		totalStartTimeStamp = System.currentTimeMillis();
@@ -226,8 +221,8 @@ public class SearchEngine {
 		 * Start computing logs....
 		 *************************************************************************/
 		LogMiner miner = LogMiner.Factory.getLogMinerByOption(SearchEngine.OPTIONS);
-		Check(miner != null, "Miner " + SearchEngine.OPTIONS._logMinerType
-		    + " not found!");
+		Util.Check(miner != null, "Miner " + SearchEngine.OPTIONS._logMinerType
+				+ " not found!");
 
 		System.out.println("Start computing logs...");
 		startTimeStamp = System.currentTimeMillis();
@@ -244,16 +239,16 @@ public class SearchEngine {
 
 	private static void startIndexing() throws IOException {
 		Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS);
-		Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
-		    + " not found!");
+		Util.Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
+				+ " not found!");
 		indexer.constructIndex();
 	}
 
 	private static void startServing() throws IOException, ClassNotFoundException {
 		// Create the handler and its associated indexer.
 		Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS);
-		Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
-		    + " not found!");
+		Util.Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
+				+ " not found!");
 		indexer.loadIndex();
 		QueryHandler handler = new QueryHandler(SearchEngine.OPTIONS, indexer);
 		HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
@@ -283,7 +278,7 @@ public class SearchEngine {
 				startServing();
 				break;
 			default:
-				Check(false, "Wrong mode for SearchEngine!");
+				Util.Check(false, "Wrong mode for SearchEngine!");
 			}
 		} catch (Exception e) {
 			System.err.println(e.getMessage());

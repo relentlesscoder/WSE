@@ -1,20 +1,15 @@
 package edu.nyu.cs.cs2580;
 
-import java.util.*;
-
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
-/**
- * @CS2580: Implement this class for HW3 based on your {@code RankerFavorite}
- * from HW2. The new Ranker should now combine both term features and the
- * document-level features including the PageRank and the NumViews. 
- */
-public class RankerComprehensive extends Ranker {
+import java.util.*;
+
+public class RankerQL extends Ranker {
   private final static double LAMDA = 0.50;
   IndexerInvertedCompressed indexerInvertedCompressed;
 
-  public RankerComprehensive(Options options, CgiArguments arguments, Indexer indexer) {
+  public RankerQL(Options options, CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
     this.indexerInvertedCompressed = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
@@ -25,10 +20,9 @@ public class RankerComprehensive extends Ranker {
     System.out.println("Running query...");
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
     int nextDocid = -1;
-    int count = 0;
 
     while (true) {
-      Document document = indexerInvertedCompressed.nextDocLoose(query,
+      Document document = indexerInvertedCompressed.nextDoc(query,
           nextDocid);
       if (document == null) {
         break;
@@ -93,11 +87,6 @@ public class RankerComprehensive extends Ranker {
     }
 
     score = Math.exp(score);
-
-    // Considered page rank scores...
-    score = score * document.getPageRank();
-
-
 
     scoredDocument = new ScoredDocument(document, score);
 

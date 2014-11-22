@@ -23,12 +23,22 @@ import static com.google.common.base.Preconditions.checkNotNull;
  */
 public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
-  private DirectedGraph<Integer, PageGraphEdge> _pageGraph = null;
-  private int _docCount = 0;
+  // Page ranks.
+  // Key: Document ID
+  // Value: Page rank score
+  Map<Integer, Double> pageRanks;
+
+  // Directed graph.
+  // Vertex: Page/Document
+  // Edge: Out coming or In coming links.
+  private DirectedGraph<Integer, PageGraphEdge> _pageGraph;
+
+  private int _docCount;
 
   public CorpusAnalyzerPagerank(Options options) {
     super(options);
     _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
+    pageRanks = new HashMap<Integer, Double>();
   }
 
   /**
@@ -146,7 +156,6 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
       return;
     }
 
-    Map pageRanks = new HashMap<Integer, Integer>();
     ProgressBar progressBar = new ProgressBar();
 
     // set initial value
@@ -162,18 +171,20 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
         if(_pageGraph.containsVertex(docid)){
           double pageRank = 1.0 - _options._dampingFactor;
           Set<PageGraphEdge> incomingEdges = _pageGraph.incomingEdgesOf(docid);
+          double otherRanks = 0.0;
           if(incomingEdges.size() > 0){
             for(PageGraphEdge edge : incomingEdges){
               int sourceId = (Integer)edge.getEdgeSource();
               Set<PageGraphEdge> sourceOutgoingEdges = _pageGraph.outgoingEdgesOf(sourceId);
               if(sourceOutgoingEdges.size() > 0){
-                pageRank += _options._dampingFactor * ((Double)pageRanks.get(sourceId) / sourceOutgoingEdges.size());
+                otherRanks += pageRanks.get(sourceId) / sourceOutgoingEdges.size();
               }
               else{
-                pageRank += _options._dampingFactor * ((Double)pageRanks.get(sourceId));
+                otherRanks += pageRanks.get(sourceId);
               }
             }
           }
+          pageRank += _options._dampingFactor * otherRanks;
 
           pageRanks.put(docid, pageRank);
         }
@@ -186,9 +197,16 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     }
 
     /**************************************************************************
-     * First clean the folder before writing to file....
+     * First check if the folder exists... If not, create one.
      *************************************************************************/
     File outputFolder = new File(_options._pagerankPrefix);
+    if (!(outputFolder.exists() && outputFolder.isDirectory())) {
+      outputFolder.mkdir();
+    }
+
+    /**************************************************************************
+     * First clean the folder before writing to file....
+     *************************************************************************/
     for (File file : outputFolder.listFiles()) {
         file.delete();
     }
@@ -196,7 +214,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     /**************************************************************************
      * Writing to file....
      *************************************************************************/
-    String filePath = _options._pagerankPrefix + "/pageranks.pks";
+    String filePath = _options._pagerankPrefix + "/pageRanks.g6";
 
     Kryo kryo = new Kryo();
     Output output = new Output(new FileOutputStream(filePath));
@@ -215,12 +233,13 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   @Override
   public Object load() throws IOException {
     System.out.println("Loading using " + this.getClass().getName());
-    Map<Integer, Double> pageRanks = new HashMap<Integer, Double>();
-    String filePath = _options._pagerankPrefix + "/pageranks.pks";
-    Kryo kryo = new Kryo();
-    Input input = new Input(new FileInputStream(filePath));
 
-    pageRanks = kryo.readObject(input, Map.class);
+    File file = new File(_options._pagerankPrefix + "/pageRanks.g6");
+    Kryo kryo = new Kryo();
+    Input input = new Input(new FileInputStream(file));
+
+    pageRanks.clear();
+    pageRanks = kryo.readObject(input, HashMap.class);
 
     input.close();
 

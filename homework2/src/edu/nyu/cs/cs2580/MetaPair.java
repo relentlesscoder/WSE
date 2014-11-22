@@ -5,8 +5,8 @@ import java.io.Serializable;
 public class MetaPair implements Serializable {
   private static final long serialVersionUID = 1L;
 
-  long startPos;
-  int length;
+  private long startPos;
+  private int length;
 
   public MetaPair(long startPos, int length) {
     this.startPos = startPos;
