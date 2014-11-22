@@ -68,6 +68,12 @@ public class SearchEngine {
 
 		public double _dampingFactor = 0;
 
+		public int _iteration_times = 0;
+
+		public String _pagerankPrefix = null;
+
+		public String _numviewPrefix = null;
+
 		public String _searchTemplate = null;
 
 		public String _resultTemplate = null;
@@ -123,9 +129,19 @@ public class SearchEngine {
 			_resultTemplate = options.get("result_template");
 			Check(_resultTemplate != null, "Missing option: result_template!");
 
+			_pagerankPrefix = options.get("pagerank_prefix");
+			Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
+
+			_numviewPrefix = options.get("numview_prefix");
+			Check(_numviewPrefix != null, "Missing option: numview_prefix!");
+
 			String dampingValue = options.get("damping_factor");
-			Check(dampingValue != null, "Missing option: result_template!");
+			Check(dampingValue != null, "Missing option: damping_factor!");
 			_dampingFactor = Double.parseDouble(dampingValue);
+
+			String iterationTimes = options.get("iteration_times");
+			Check(iterationTimes != null, "Missing option: iteration_times!");
+			_iteration_times = Integer.parseInt(iterationTimes);
 		}
 	}
 
@@ -185,14 +201,50 @@ public class SearchEngine {
 		    .getCorpusAnalyzerByOption(SearchEngine.OPTIONS);
 		Check(analyzer != null, "Analyzer "
 		    + SearchEngine.OPTIONS._corpusAnalyzerType + " not found!");
+
+		long totalStartTimeStamp, startTimeStamp, duration;
+		totalStartTimeStamp = System.currentTimeMillis();
+
+		/**************************************************************************
+		 * Start preparing....
+		 *************************************************************************/
+		System.out.println("Start preparing...");
+		startTimeStamp = System.currentTimeMillis();
+
 		analyzer.prepare();
+
+		duration = System.currentTimeMillis() - startTimeStamp;
+		System.out.println("Preparing takes time: " + Util.convertMillis(duration));
+
+		/**************************************************************************
+		 * Start computing....
+		 *************************************************************************/
+		System.out.println("Start computing...");
+		startTimeStamp = System.currentTimeMillis();
+
 		analyzer.compute();
 
+		duration = System.currentTimeMillis() - startTimeStamp;
+		System.out.println("Computing takes time: " + Util.convertMillis(duration));
+
+		/**************************************************************************
+		 * Start computing logs....
+		 *************************************************************************/
 		LogMiner miner = LogMiner.Factory.getLogMinerByOption(SearchEngine.OPTIONS);
 		Check(miner != null, "Miner " + SearchEngine.OPTIONS._logMinerType
 		    + " not found!");
+
+		System.out.println("Start computing logs...");
+		startTimeStamp = System.currentTimeMillis();
+
 		miner.compute();
-		return;
+
+		duration = System.currentTimeMillis() - startTimeStamp;
+		System.out.println("Computing logs takes time: " + Util.convertMillis(duration));
+
+
+		duration = System.currentTimeMillis() - totalStartTimeStamp;
+		System.out.println("Total time takes: " + Util.convertMillis(duration));
 	}
 
 	private static void startIndexing() throws IOException {

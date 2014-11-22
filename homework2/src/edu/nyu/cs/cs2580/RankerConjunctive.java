@@ -61,6 +61,8 @@ public class RankerConjunctive extends Ranker {
       System.out.println("IndexerInvertedDoconly could not resolve Phrase, process as tokens");
     }
 
+    long startTimeStamp = System.currentTimeMillis();
+
     // Get every document which satisfying all the query terms
     while (true) {
       Document doc = _indexer.nextDoc(query, docid);
@@ -84,6 +86,9 @@ public class RankerConjunctive extends Ranker {
 
     Collections.sort(results, Collections.reverseOrder());
 
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println(String.valueOf(results.size()) + " results are returned. " + Util.convertMillis(duration) + " are used.");
+
     return results;
   }
 
@@ -99,6 +104,8 @@ public class RankerConjunctive extends Ranker {
     QueryPhrase queryPhrase = (QueryPhrase) query;
     Document doc = null;
     int docid = -1;
+
+    long startTimeStamp = System.currentTimeMillis();
 
     findNextDoc:
     while ((doc = nextDoc(query, docid)) != null) {
@@ -136,10 +143,15 @@ public class RankerConjunctive extends Ranker {
 
     Vector<ScoredDocument> results = new Vector<ScoredDocument>();
     ScoredDocument scoredDoc = null;
+
     while ((scoredDoc = rankQueue.poll()) != null) {
       results.add(scoredDoc);
     }
     Collections.sort(results, Collections.reverseOrder());
+
+    long duration = System.currentTimeMillis() - startTimeStamp;
+    System.out.println(String.valueOf(results.size()) + " results are returned. " + Util.convertMillis(duration) + " are used.");
+
     return results;
   }
 
