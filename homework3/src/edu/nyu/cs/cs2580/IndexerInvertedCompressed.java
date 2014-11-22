@@ -5,6 +5,7 @@ import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.VByteEncode.VByteUtil;
 import org.jsoup.Jsoup;
 
 import java.io.*;
@@ -69,32 +70,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   public IndexerInvertedCompressed(Options options) {
     super(options);
     System.out.println("Using Indexer: " + this.getClass().getSimpleName());
-  }
-
-  /**
-   * Extract i + 1 first 7 bits from {@code val} (From right to left) e.g. If i
-   * = 0 and val = 101 0101 1010 (In binary form) The return byte will be 0101
-   * 1010...
-   *
-   * @param i   The i first 7 bits (From right to left)
-   * @param val the number...
-   * @return the extracted 7 bits
-   */
-  private byte extract7Bits(int i, long val) {
-    return (byte) ((val >> (7 * i)) & ((1 << 7) - 1));
-  }
-
-  /**
-   * If {@code val} has n bits, return the last n % 7 bit. (From right to left)
-   * e.g. If i = 0 and val = 101 0101 1010 (In binary form) The return byte will
-   * be 0000 1010...
-   *
-   * @param i   The last n % 7 (n - 7 * i) bits (From right to left)
-   * @param val the number...
-   * @return the extracted 7 bits
-   */
-  private byte extractLastBits(int i, long val) {
-    return (byte) ((val >> (7 * i)));
   }
 
   /**
@@ -335,9 +310,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           tmpInvertedIndex.get(termId).add(deltaDocid);
 
           if ((constructTmpDataMap.get(termId).lastPostingListSize - constructTmpDataMap.get(termId).lastSkipPointerOffset) > K) {
-            skipPointers.get(termId).addAll(vByteEncoding(prevDocid));
+            skipPointers.get(termId).addAll(VByteUtil.vByteEncoding(prevDocid));
             skipPointers.get(termId).addAll(
-                vByteEncoding(constructTmpDataMap.get(termId).lastPostingListSize));
+                VByteUtil.vByteEncoding(constructTmpDataMap.get(termId).lastPostingListSize));
 
             constructTmpDataMap.get(termId).lastSkipPointerOffset
                 = constructTmpDataMap.get(termId).lastPostingListSize;
@@ -382,7 +357,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       constructTmpDataMap.get(termId).lastDocid = docid;
 
       // Encode the posting list
-      List<Byte> partialPostingList = vByteEncodingList(tmpInvertedIndex
+      List<Byte> partialPostingList = VByteUtil.vByteEncodingList(tmpInvertedIndex
           .get(termId));
 
       // Append the posting list if one exists, otherwise create one first :)
@@ -411,108 +386,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         }
       }
     }
-  }
-
-  /**
-   * Check if the byte is the end of the number.
-   *
-   * @param b A v-byte encoded byte.
-   * @return true if the byte is the last byte of the number (the highest bit is
-   * 1), otherwise false.
-   */
-  private boolean isEndOfNum(byte b) {
-    return b < 0;
-  }
-
-  /**
-   * Encode a integer number to a list of bytes
-   *
-   * @param num The number needed to be encoded
-   * @return a list of v-byte encoded byte represents the input number
-   */
-  private List<Byte> vByteEncoding(int num) {
-    List<Byte> bytes = new ArrayList<Byte>();
-
-    if (num < (1 << 7)) {
-      bytes.add((byte) (num | (1 << 7)));
-    } else if (num < (1 << 14)) {
-      bytes.add(extract7Bits(0, num));
-      bytes.add((byte) (extractLastBits(1, (num)) | (1 << 7)));
-    } else if (num < (1 << 21)) {
-      bytes.add(extract7Bits(0, num));
-      bytes.add(extract7Bits(1, num));
-      bytes.add((byte) (extractLastBits(2, (num)) | (1 << 7)));
-    } else if (num < (1 << 28)) {
-      bytes.add(extract7Bits(0, num));
-      bytes.add(extract7Bits(1, num));
-      bytes.add(extract7Bits(2, num));
-      bytes.add((byte) (extractLastBits(3, (num)) | (1 << 7)));
-    } else {
-      bytes.add(extract7Bits(0, num));
-      bytes.add(extract7Bits(1, num));
-      bytes.add(extract7Bits(2, num));
-      bytes.add(extract7Bits(3, num));
-      bytes.add((byte) (extractLastBits(4, (num)) | (1 << 7)));
-    }
-
-    return bytes;
-  }
-
-  /**
-   * Decode a list of byteList to one integer number
-   *
-   * @param byteList A list of v-byte encoded bytes needed to be decoded
-   * @return The decoded number
-   */
-  private int vByteDecoding(List<Byte> byteList) {
-    int num = 0;
-
-    for (int i = 0; i < byteList.size(); i++) {
-      num = ((byteList.get(i) & 0x7F) << 7 * i) | num;
-    }
-
-    return num;
-  }
-
-  /**
-   * Encode a list of Integers to a list of Bytes by using v-byte
-   *
-   * @param list A list of integer numbers needed to be encoded
-   * @return a list of v-byte encoded bytes
-   */
-  private List<Byte> vByteEncodingList(List<Integer> list) {
-    List<Byte> res = new ArrayList<Byte>();
-
-    for (int i : list) {
-      res.addAll(vByteEncoding(i));
-    }
-
-    return res;
-  }
-
-  /**
-   * Decode a list of Bytes to a list of Integers by using v-byte
-   *
-   * @param byteList A list of v-byte encoded bytes which represents a list of number
-   * @return a list of decoded integer numbers
-   */
-  private List<Integer> vByteDecodingList(List<Byte> byteList) {
-    List<Integer> res = new ArrayList<Integer>();
-    int i = 0;
-
-    while (i < byteList.size()) {
-      List<Byte> tmpByteList = new ArrayList<Byte>();
-
-      while (!isEndOfNum(byteList.get(i))) {
-        tmpByteList.add(byteList.get(i++));
-      }
-
-      tmpByteList.add(byteList.get(i++));
-
-      res.add(vByteDecoding(tmpByteList));
-    }
-
-    return res;
   }
 
   @Override
@@ -691,7 +564,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private int nextDocid(String term, int docid) {
     int termId = dictionary.get(term);
-    List<Integer> partialSkipPointers = vByteDecodingList(skipPointers
+    List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
         .get(termId));
 
     int startOffsetOfPostingList = 0;
@@ -722,7 +595,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private boolean hasDocid(String term, int docid) {
     int termId = dictionary.get(term);
-    List<Integer> partialSkipPointers = vByteDecodingList(skipPointers.get(termId));
+    List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers.get(termId));
     int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(
         partialSkipPointers, docid);
     int prevDocid = 0;
@@ -795,11 +668,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Get the first docid from the posting list
     if (targetDocid == -1) {
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i));
-      return vByteDecoding(byteList);
+      return VByteUtil.vByteDecoding(byteList);
     }
 
     while (true) {
@@ -809,11 +682,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       // Get the docid
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i++));
-      nextDocid += vByteDecoding(byteList);
+      nextDocid += VByteUtil.vByteDecoding(byteList);
       byteList.clear();
 
       // If the docid is larger than the targetDocid, then the next docid is
@@ -823,17 +696,17 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       // Get the occurs
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i++));
-      int occur = vByteDecoding(byteList);
+      int occur = VByteUtil.vByteDecoding(byteList);
       byteList.clear();
 
       // Skip all position data...
       for (int j = 0; j < occur; j++) {
         // Get the occurs
-        while (!isEndOfNum(postingList.get(i))) {
+        while (!VByteUtil.isEndOfNum(postingList.get(i))) {
           i++;
         }
         i++;
@@ -867,11 +740,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       // Get the docid
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i++));
-      nextDocid += vByteDecoding(byteList);
+      nextDocid += VByteUtil.vByteDecoding(byteList);
       byteList.clear();
       // If the docid is larger than the targetDocid, then the next docid is
       // found
@@ -882,17 +755,17 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       // Get the occurs
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i++));
-      int occur = vByteDecoding(byteList);
+      int occur = VByteUtil.vByteDecoding(byteList);
       byteList.clear();
 
       // Skip all position data...
       for (int j = 0; j < occur; j++) {
         // Get the occurs
-        while (!isEndOfNum(postingList.get(i))) {
+        while (!VByteUtil.isEndOfNum(postingList.get(i))) {
           i++;
         }
         i++;
@@ -930,11 +803,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       offset = i;
 
       // Get the docid
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i++));
-      nextDocid += vByteDecoding(byteList);
+      nextDocid += VByteUtil.vByteDecoding(byteList);
       byteList.clear();
 
       // If the docid is larger than the targetDocid, then the next docid is
@@ -946,17 +819,17 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       // Get the occurs
-      while (!isEndOfNum(postingList.get(i))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(i))) {
         byteList.add(postingList.get(i++));
       }
       byteList.add(postingList.get(i++));
-      int occur = vByteDecoding(byteList);
+      int occur = VByteUtil.vByteDecoding(byteList);
       byteList.clear();
 
       // Skip all position data...
       for (int j = 0; j < occur; j++) {
         // Get the occurs
-        while (!isEndOfNum(postingList.get(i))) {
+        while (!VByteUtil.isEndOfNum(postingList.get(i))) {
           i++;
         }
         i++;
@@ -974,7 +847,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return the docid offset of the posting list
    */
   private int getDocidOffset(int termId, int docid) {
-    List<Integer> partialSkipPointers = vByteDecodingList(skipPointers
+    List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
         .get(termId));
     int startOffsetOfPostingList = 0;
     int prevDocid = 0;
@@ -1018,24 +891,24 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     int currPos = 0;
 
     // Skip the doc id first
-    while (!isEndOfNum(postingList.get(offset++))) {
+    while (!VByteUtil.isEndOfNum(postingList.get(offset++))) {
     }
 
     // Get the occurs
-    while (!isEndOfNum(postingList.get(offset))) {
+    while (!VByteUtil.isEndOfNum(postingList.get(offset))) {
       tmpList.add(postingList.get(offset++));
     }
     tmpList.add(postingList.get(offset++));
-    occur = vByteDecoding(tmpList);
+    occur = VByteUtil.vByteDecoding(tmpList);
     tmpList.clear();
 
     for (int i = 0; i < occur; i++) {
       // Get the occurs
-      while (!isEndOfNum(postingList.get(offset))) {
+      while (!VByteUtil.isEndOfNum(postingList.get(offset))) {
         tmpList.add(postingList.get(offset++));
       }
       tmpList.add(postingList.get(offset++));
-      currPos += vByteDecoding(tmpList);
+      currPos += VByteUtil.vByteDecoding(tmpList);
       tmpList.clear();
 
       if (currPos > pos) {
@@ -1079,15 +952,15 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     List<Byte> tmpList = new ArrayList<Byte>();
 
     // Skip the doc id first
-    while (!isEndOfNum(postingList.get(offset++))) {
+    while (!VByteUtil.isEndOfNum(postingList.get(offset++))) {
     }
 
     // Get the occurs
-    while (!isEndOfNum(postingList.get(offset))) {
+    while (!VByteUtil.isEndOfNum(postingList.get(offset))) {
       tmpList.add(postingList.get(offset++));
     }
     tmpList.add(postingList.get(offset++));
-    docTermFrequency = vByteDecoding(tmpList);
+    docTermFrequency = VByteUtil.vByteDecoding(tmpList);
 
     return docTermFrequency;
   }
