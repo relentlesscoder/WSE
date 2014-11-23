@@ -6,6 +6,8 @@ import com.esotericsoftware.kryo.io.Output;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import java.io.*;
 import java.util.*;
@@ -266,5 +268,43 @@ public class Util {
       }
     }
     return true;
+  }
+
+  /**
+   * Prints {@code msg} and exits the program if {@code condition} is false.
+   */
+  public static void Check(boolean condition, String msg) {
+    if (!condition) {
+      System.err.println("Fatal error: " + msg);
+      System.exit(-1);
+    }
+  }
+
+  public static <K extends Comparable,V extends Comparable> LinkedHashMap<K,V> sortHashMapByValues(Map<K,V> map, final boolean descending){
+    List<Map.Entry<K,V>> entries = new LinkedList<Map.Entry<K,V>>(map.entrySet());
+    Collections.sort(entries, new Comparator<Map.Entry<K,V>>() {
+
+      @Override
+      public int compare(Entry<K, V> o1, Entry<K, V> o2) {
+        int order = descending ? -1 : 1;
+        int result = o1.getValue().compareTo(o2.getValue());
+        // if two metrics are the same, use docid(url) to break the tie
+        if(result == 0){
+          result = o1.getKey().compareTo(o2.getKey());
+        }
+        return result * order;
+      }
+    });
+
+    LinkedHashMap<K,V> sortedMap = new LinkedHashMap<K,V>();
+    for(Map.Entry<K,V> entry: entries){
+      sortedMap.put(entry.getKey(), entry.getValue());
+    }
+    return sortedMap;
+  }
+
+  // Utility for ignoring hidden files in the file system.
+  protected static boolean isValidDocument(File file) {
+    return !file.getName().startsWith(".");  // Remove hidden files.
   }
 }

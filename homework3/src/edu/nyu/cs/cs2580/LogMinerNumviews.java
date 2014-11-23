@@ -71,7 +71,15 @@ public class LogMinerNumviews extends LogMiner {
           continue;
         }
 
-        docNumView.put(docidMap.inverse().get(tokens[1]), Integer.parseInt(tokens[2]));
+        if(docidMap.inverse().containsKey(tokens[1])){
+          docNumView.put(docidMap.inverse().get(tokens[1]), Integer.parseInt(tokens[2]));
+        }
+      }
+    }
+
+    for (int docid = 0; docid < corpusFiles.length; docid++){
+      if(!docNumView.containsKey(docid)){
+        docNumView.put(docid, 0);
       }
     }
 
