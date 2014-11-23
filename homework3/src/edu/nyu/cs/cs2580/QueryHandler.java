@@ -45,6 +45,10 @@ class QueryHandler implements HttpHandler {
 
 		public OutputFormat _outputFormat = OutputFormat.TEXT;
 
+    public int _numDocs=0;
+
+    public int _numTerms=0;
+
 		public CgiArguments(String uriQuery) {
 			String[] params = uriQuery.split("&");
 			for (String param : params) {
@@ -68,7 +72,19 @@ class QueryHandler implements HttpHandler {
 					} catch (IllegalArgumentException e) {
 						// Ignored, search engine should never fail upon invalid user input.
 					}
-				} else if (key.equals("format")) {
+				} else if (key.equals("numdocs")) {
+          try {
+            _numDocs = Integer.parseInt(val);
+          } catch (IllegalArgumentException e) {
+            // Ignored, search engine should never fail upon invalid user input.
+          }
+        } else if (key.equals("numterms")) {
+          try {
+            _numTerms = Integer.parseInt(val);
+          } catch (IllegalArgumentException e) {
+            // Ignored, search engine should never fail upon invalid user input.
+          }
+        } else if (key.equals("format")) {
 					try {
 						_outputFormat = OutputFormat.valueOf(val.toUpperCase());
 					} catch (IllegalArgumentException e) {
@@ -143,8 +159,8 @@ class QueryHandler implements HttpHandler {
 		if (uriPath == null || uriQuery == null) {
 			WebUtil.respondWithMsg(exchange, "Something wrong with the URI!");
 		}
-		if (!uriPath.equals("/search")) {
-			WebUtil.respondWithMsg(exchange, "Only /search is handled!");
+		if (!uriPath.equals("/search")&&!uriPath.equals("/prf")) {
+			WebUtil.respondWithMsg(exchange, "Only /search or /prf is handled!");
 		}
 		System.out.println("Query: " + uriQuery);
 
@@ -176,23 +192,29 @@ class QueryHandler implements HttpHandler {
 		}
 
 		// Ranking.
-		Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery,
-		    cgiArgs._numResults);
-		StringBuffer response = new StringBuffer();
-		switch (cgiArgs._outputFormat) {
-		case TEXT:
-			constructTextOutput(scoredDocs, response);
-			WebUtil.respondWithMsg(exchange, response.toString());
-			break;
-		case HTML:
-			String queryResponse = WebUtil.readHtmlTemplate(_options._resultTemplate);
-			queryResponse = constructHtmlOutput(cgiArgs._query, scoredDocs,
-			    queryResponse);
-			WebUtil.writeToResponse(exchange, queryResponse);
-			break;
-		default:
-			// nothing
-		}
-		System.out.println("Finished query: " + cgiArgs._query);
+    if (uriPath.equals("/search")){
+      Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
+      StringBuffer response = new StringBuffer();
+      switch (cgiArgs._outputFormat) {
+        case TEXT:
+          constructTextOutput(scoredDocs, response);
+          WebUtil.respondWithMsg(exchange, response.toString());
+          break;
+        case HTML:
+          String queryResponse = WebUtil.readHtmlTemplate(_options._resultTemplate);
+          queryResponse = constructHtmlOutput(cgiArgs._query, scoredDocs,
+                  queryResponse);
+          WebUtil.writeToResponse(exchange, queryResponse);
+          break;
+        default:
+          // nothing
+      }
+      System.out.println("Finished query: " + cgiArgs._query);
+    } else if (uriPath.equals("/prf")){
+      Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numDocs);
+      String response = RelevanceFeedback.extendQuery(cgiArgs,
+              (IndexerInvertedCompressed)_indexer, processedQuery,scoredDocs);
+      WebUtil.respondWithMsg(exchange, response);
+    }
 	}
 }
