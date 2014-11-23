@@ -27,8 +27,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private static final long serialVersionUID = 1L;
   // K is the length of interval for the skip pointer of the posting list.
   private static final int K = 5000;
-  // Copy from http://daringfireball.net/2010/07/improved_regex_for_matching_urls
-  private static final Pattern URL_PATTERN = Pattern.compile("(@)?(href=')?(HREF=')?(HREF=\")?(href=\")?(http://)?[a-zA-Z_0-9\\-]+(\\.\\w[a-zA-Z_0-9\\-]+)+(/[#&\\n\\-=?\\+\\%/\\.\\w]+)?");
 
   // Dictionary
   // Key: Term
@@ -118,6 +116,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     ProgressBar progressBar = new ProgressBar();
 
+    // Get the corpus folder
     File folder = new File(_options._corpusPrefix);
     //add filter to exclude hidden files
     FilenameFilter filenameFilter = new FilenameFilter() {
@@ -127,7 +126,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     };
     File[] files = folder.listFiles(filenameFilter);
-    int fileCount = 0;
+    int partialFileCount = 0;
 
     /**************************************************************************
      * First clean the folder....
@@ -152,13 +151,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       processDocument(files[docid], docid, constructTmpDataMap);
       // Write to a file if memory usage has reach the memory threshold
       if (Util.hasReachThresholdCompress(invertedIndex)) {
-        writePartialFile(fileCount);
-        fileCount++;
+        writePartialFile(partialFileCount);
+        partialFileCount++;
       }
     }
 
     // Write the rest partial inverted index...
-    writePartialFile(fileCount);
+    writePartialFile(partialFileCount);
 
     // Get the number of documents
     _numDocs = files.length;
@@ -233,8 +232,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
-
-    doc.setUrl(file.getAbsolutePath());
+    doc.setUrl(file.getName());
 
     documents.add(doc);
 
@@ -255,7 +253,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
-    //Tokenizer tokenizer = new Tokenizer(new StringReader(URL_PATTERN.matcher(content).replaceAll("")));
     Tokenizer tokenizer = new Tokenizer(new StringReader(content));
 
     int position = 0;
@@ -999,20 +996,30 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * Get the term via term ID
    *
    * @param termId term ID
-   * @return term
+   * @return the term as a String, if the term does not exist in the
+   *         dictionary, return an empty String instead.
    */
   public String getTermById(int termId) {
-    return dictionary.inverse().get(termId);
+    if (dictionary.inverse().containsKey(termId)) {
+      return dictionary.inverse().get(termId);
+    } else {
+      return "";
+    }
   }
 
   /**
    * Get the term ID via term
    *
    * @param term term
-   * @return term ID
+   * @return the term ID as an Integer, if the term does not exists in
+   *         the dictionary, return -1.
    */
   public int getTermId(String term) {
-    return dictionary.get(term);
+    if (dictionary.containsKey(term)) {
+      return dictionary.get(term);
+    } else {
+      return -1;
+    }
   }
 
   /**
