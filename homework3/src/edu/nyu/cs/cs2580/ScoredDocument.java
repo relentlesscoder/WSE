@@ -67,4 +67,6 @@ class ScoredDocument implements Comparable<ScoredDocument> {
 		}
 		return url;
 	}
+
+  public int getDocID() { return this._doc._docid; }
 }

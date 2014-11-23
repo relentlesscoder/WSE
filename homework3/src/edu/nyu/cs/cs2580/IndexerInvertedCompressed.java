@@ -215,6 +215,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     String bodyText = jsoupDoc.body().text();
+    bodyText.replaceAll("^[a-zA-Z0-9\\-\\.]+\\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)","");
     String title = jsoupDoc.title();
 
     // Create the document and store it.
