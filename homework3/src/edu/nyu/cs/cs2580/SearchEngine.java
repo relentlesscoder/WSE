@@ -72,6 +72,8 @@ public class SearchEngine {
 
 		public String _pagerankPrefix = null;
 
+		public String _numviewPrefix = null;
+
 		public String _searchTemplate = null;
 
 		public String _resultTemplate = null;
@@ -129,6 +131,9 @@ public class SearchEngine {
 
 			_pagerankPrefix = options.get("pagerank_prefix");
 			Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
+
+			_numviewPrefix = options.get("numview_prefix");
+			Check(_numviewPrefix != null, "Missing option: numview_prefix!");
 
 			String dampingValue = options.get("damping_factor");
 			Check(dampingValue != null, "Missing option: damping_factor!");

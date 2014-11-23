@@ -21,13 +21,22 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * @CS2580: Implement this class for HW3.
  */
 public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
+  // Page ranks.
+  // Key: Document ID
+  // Value: Page rank score
+  Map<Integer, Double> pageRanks;
 
+  // Directed graph.
+  // Vertex: Page/Document
+  // Edge: Out coming or In coming links.
   private DirectedGraph<Integer, PageGraphEdge> _pageGraph;
+
   private int _docCount;
 
   public CorpusAnalyzerPagerank(Options options) {
     super(options);
     _pageGraph = new DefaultDirectedGraph<Integer, PageGraphEdge>(PageGraphEdge.class);
+    pageRanks = new HashMap<Integer, Double>();
   }
 
   /**
@@ -115,7 +124,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
       return;
     }
 
-    Map<Integer, Double> pageRanks = new HashMap<Integer, Double>();
+
     ProgressBar progressBar = new ProgressBar();
 
     // set initial value
@@ -153,9 +162,16 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     }
 
     /**************************************************************************
-     * First clean the folder before writing to file....
+     * First check if the folder exists... If not, create one.
      *************************************************************************/
     File outputFolder = new File(_options._pagerankPrefix);
+    if (!(outputFolder.exists() && outputFolder.isDirectory())) {
+      outputFolder.mkdir();
+    }
+
+    /**************************************************************************
+     * First clean the folder before writing to file....
+     *************************************************************************/
     for (File file : outputFolder.listFiles()) {
       file.delete();
     }
@@ -163,7 +179,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     /**************************************************************************
      * Writing to file....
      *************************************************************************/
-    String filePath = _options._pagerankPrefix + "/pageranks.pks";
+    String filePath = _options._pagerankPrefix + "/pageRanks.g6";
 
     Kryo kryo = new Kryo();
     Output output = new Output(new FileOutputStream(filePath));
@@ -180,12 +196,14 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    */
   @Override
   public Object load() throws IOException {
-    Map<Integer, Double> pageRanks = new HashMap<Integer, Double>();
-    String filePath = _options._pagerankPrefix + "/pageranks.pks";
-    Kryo kryo = new Kryo();
-    Input input = new Input(new FileInputStream(filePath));
+    System.out.println("Loading using " + this.getClass().getName());
 
-    pageRanks = kryo.readObject(input, Map.class);
+    File file = new File(_options._pagerankPrefix + "/pageRanks.g6");
+    Kryo kryo = new Kryo();
+    Input input = new Input(new FileInputStream(file));
+
+    pageRanks.clear();
+    pageRanks = kryo.readObject(input, HashMap.class);
 
     input.close();
 

@@ -47,20 +47,31 @@ public class PhraseRanker implements BaseRanker {
 
       // generate the n-gram vector for query, document title and document body
       List<String> nGramQueryList = nGramGenerator(queryList, n_gram);
-      List<String> nGramTitleList = nGramGenerator(titleVector, n_gram);
-      List<String> nGramBodyList = nGramGenerator(bodyVector, n_gram);
+//      List<String> nGramTitleList = nGramGenerator(titleVector, n_gram);
+//      List<String> nGramBodyList = nGramGenerator(bodyVector, n_gram);
 
       double score = 0.0;
-      for (int i = 0; i < nGramQueryList.size(); ++i) {
-        // Scan title
-        for (int j = 0; j < nGramTitleList.size(); ++j) {
-          if (nGramQueryList.get(i).equals(nGramTitleList.get(j))) {
+
+      for (int i = 0; i <= titleVector.size() - n_gram; i++) {
+        StringBuilder sb = new StringBuilder();
+        for (int j = i; j < i + n_gram; j++) {
+          sb.append(titleVector.get(j)).append(" ");
+        }
+        String compare = sb.substring(0, sb.length() - 1);
+        for (int j = 0; j < nGramQueryList.size(); j++) {
+          if (nGramQueryList.get(j).equals(compare)) {
             score += 1.0;
           }
         }
-        // Scan body
-        for (int j = 0; j < nGramBodyList.size(); ++j) {
-          if (nGramQueryList.get(i).equals(nGramBodyList.get(j))) {
+      }
+      for (int i = 0; i <= bodyVector.size() - n_gram; i++) {
+        StringBuilder sb = new StringBuilder();
+        for (int j = i; j < i + n_gram; j++) {
+          sb.append(bodyVector.get(j)).append(" ");
+        }
+        String compare = sb.substring(0, sb.length() - 1);
+        for (int j = 0; j < nGramQueryList.size(); j++) {
+          if (nGramQueryList.get(j).equals(compare)) {
             score += 1.0;
           }
         }

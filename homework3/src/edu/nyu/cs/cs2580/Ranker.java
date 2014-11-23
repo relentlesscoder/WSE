@@ -71,13 +71,15 @@ public abstract class Ranker {
 			case FAVORITE:
 				return new RankerFavorite(options, arguments, indexer);
 			case COSINE:
-				return new VectorSpaceModel(options, arguments, indexer);
+				return new RankerCosine(options, arguments, indexer);
 			case QL:
-				return new LanguageModel(options, arguments, indexer);
+				return new RankerQL(options, arguments, indexer);
 			case PHRASE:
-				return new PhraseRanker(options, arguments, indexer);
+				return new RankerPhrase(options, arguments, indexer);
 			case LINEAR:
-				return new LinearRanker(options, arguments, indexer);
+				return new RankerLinear(options, arguments, indexer);
+			case COMPREHENSIVE:
+				return new RankerComprehensive(options, arguments, indexer);
 			case NONE:
 				// Fall through intended
 			default:
