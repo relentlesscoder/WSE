@@ -115,8 +115,7 @@ public class RankerConjunctive extends Ranker {
 				for (List<String> phraseTerms : phrases) {
 					int pos = nextPhrase(phraseTerms, doc._docid, -1);
 					if (pos == -1) {
-						docid = doc._docid;
-						continue findNextDoc;
+						continue;
 					}
 					while (pos != -1) {
 						score += 5.0;
