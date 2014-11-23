@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Web server - Wikipedia, the free encyclopedia</title>
+<meta charset="UTF-8" />
+<meta name="generator" content="MediaWiki 1.21wmf9" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="../../w/index-title=Web_server&action=edit.php.html" />
+<link rel="edit" title="Edit this page" href="../../w/index-title=Web_server&action=edit.php.html" />
+<link rel="apple-touch-icon" href="http://en.wikipedia.org/apple-touch-icon.png" />
+<link rel="shortcut icon" href="http://en.wikipedia.org/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../../w/opensearch_desc.php.html" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../../w/api-action=rsd.php.html" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="../../w/index-title=Special_RecentChanges&feed=atom.php.html" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard,ReferenceTooltips,charinsert,teahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint,shared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:d11e4771671c2d6cdedf7c90d8131cd5 */</style>
+
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Web_server","wgTitle":"Web server","wgCurRevisionId":538073676,"wgArticleId":33455,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from January 2013","Articles needing additional references from March 2009","All articles needing additional references","All articles with unsourced statements","Articles with unsourced statements from August 2012","Servers (computing)","Web server software","Website management","Web development"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Web_server","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"editwarning":true,"expandablesearch":false,"footercleanup":true,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"wgTrackingToken":"055ebf54ed66e9554e2f8e8b1ee07b75","wgArticleFeedbackv5Permissions":{"aft-reader":true,"aft-member":false,"aft-editor":false,"aft-monitor":false,"aft-administrator":false,"aft-oversighter":false},"wgVisualEditor":{"isPageWatched":false,"enableSectionEditLinks":false},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpUrl":"Help:Guided tours","wgGuidedTourTestWikitextDescription":"A guider in your on-wiki tour can contain wikitext using onShow and parseDescription. Use it to create a wikilink to the \x3ca href=\"/wiki/Help:Guided_tours\" title=\"Help:Guided tours\"\x3eGuided tours documentation\x3c/a\x3e. Or an external link \x3ca rel=\"nofollow\" class=\"external text\" href=\"https://github.com/tychay/mwgadget.GuidedTour\"\x3eto GitHub\x3c/a\x3e, for instance.","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","Geo":{"city":"","country":""},"wgNoticeProject":"wikipedia","aftv5Article":{"id":33455,"title":"Web server","namespace":0,"categories":["All articles needing additional references","All articles with unsourced statements","Articles needing additional references from March 2009","Articles with unsourced statements from August 2012","Servers (computing)","Use dmy dates from January 2013","Web development","Web server software","Website management"],"permissionLevel":"aft-reader"}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":false,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3
+,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"vector-simplesearch":1,"useeditwarning":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"aftv5-last-filter":null,"wikilove-enabled":1,"echo-email-notificationspagetriage-mark-as-reviewed":true,"echo-email-notificationspagetriage-add-maintenance-tag":true,"echo-email-notificationspagetriage-add-deletion-tag":true,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false
+,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-HotCat":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:19e64e7d3e84450cdd6aaeece6e56fab */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.vector.footerCleanup","ext.wikimediaShopLink.core","ext.centralNotice.bannerController"]);
+}</script>
+<script src="http://bits.wikimedia.org/geoiplookup"></script><link rel="dns-prefetch" href="http://meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("../../w/skins-1.21wmf9/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Web_server skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<!-- content -->
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<!-- sitenotice -->
+			<div id="siteNotice"><!-- CentralNotice --><script>
+	mw.loader.using( 'ext.centralNotice.bannerController', function() { mw.centralNotice.initialize(); } );
+</script>
+</div>
+			<!-- /sitenotice -->
+						<!-- firstHeading -->
+			<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Web server</span></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id="bodyContent">
+								<!-- tagline -->
+				<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id="contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content ambox-Refimprove" style="">
+<tr>
+<td class="mbox-image">
+<div style="width: 52px;"><img alt="" src="http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" /></div>
+</td>
+<td class="mbox-text" style=""><span class="mbox-text-span">This article <b>needs additional citations for verification</b>. <span class="hide-when-compact">Please help <a class="external text" href="../../w/index-title=Web_server&action=edit.php.html">improve this article</a> by <a href="Help_Introduction_to_referencing/1" title="Help:Introduction to referencing/1">adding citations to reliable sources</a>. Unsourced material may be <a href="Template_Citation_needed" title="Template:Citation needed">challenged</a> and <a href="Wikipedia_Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability">removed</a>.</span> <small><i>(March 2009)</i></small> </span></td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Inside_and_Rear_of_Webserver.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Inside_and_Rear_of_Webserver.jpg/220px-Inside_and_Rear_of_Webserver.jpg" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Inside_and_Rear_of_Webserver.jpg/330px-Inside_and_Rear_of_Webserver.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/38/Inside_and_Rear_of_Webserver.jpg/440px-Inside_and_Rear_of_Webserver.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Inside_and_Rear_of_Webserver.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The inside and front of a <a href="Dell_PowerEdge" title="Dell PowerEdge">Dell PowerEdge</a> Web server, a computer designed for <a href="Rack_mount" title="Rack mount" class="mw-redirect">rack mounting</a></div>
+</div>
+</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:SunFire-X4200.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SunFire-X4200.jpg/220px-SunFire-X4200.jpg" width="220" height="168" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SunFire-X4200.jpg/330px-SunFire-X4200.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SunFire-X4200.jpg/440px-SunFire-X4200.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:SunFire-X4200.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Multiple web servers may be used for a high traffic website, here four <a href="Sun_Microsystems" title="Sun Microsystems">Sun</a> <a href="Sun_Fire" title="Sun Fire">Fire</a> X4200 servers are installed together</div>
+</div>
+</div>
+<p><b>Web server</b> can refer to either the <a href="Computer_hardware" title="Computer hardware">hardware</a> (the computer) or the <a href="Software" title="Software">software</a> (the computer application) that helps to deliver <a href="Web_content" title="Web content">Web content</a> that can be accessed through the <a href="Internet" title="Internet">Internet</a>.<sup id="cite_ref-new_1-0" class="reference"><a href="#cite_note-new-1"><span>[</span>1<span>]</span></a></sup></p>
+<p>The most common use of web servers is to host <a href="Website" title="Website">websites</a>, but there are other uses such as <a href="Online_game" title="Online game">gaming</a><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2012">citation needed</span></a></i>]</sup>, data storage<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2012">citation needed</span></a></i>]</sup> or running <a href="Enterprise_software" title="Enterprise software">enterprise applications</a><sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="Wikipedia_Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources from August 2012">citation needed</span></a></i>]</sup>.</p>
+<table id="toc" class="toc">
+<tr>
+<td>
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Common_features"><span class="tocnumber">3</span> <span class="toctext">Common features</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Path_translation"><span class="tocnumber">4</span> <span class="toctext">Path translation</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Kernel-mode_and_user-mode_web_servers"><span class="tocnumber">5</span> <span class="toctext">Kernel-mode and user-mode web servers</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Load_limits"><span class="tocnumber">6</span> <span class="toctext">Load limits</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Causes_of_overload"><span class="tocnumber">6.1</span> <span class="toctext">Causes of overload</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Symptoms_of_overload"><span class="tocnumber">6.2</span> <span class="toctext">Symptoms of overload</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Anti-overload_techniques"><span class="tocnumber">6.3</span> <span class="toctext">Anti-overload techniques</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Market_share"><span class="tocnumber">7</span> <span class="toctext">Market share</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">9</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=1.php.html" title="Edit section: Overview">edit</a>]</span> <span class="mw-headline" id="Overview">Overview</span></h2>
+<p>The primary function of a web server is to deliver <a href="Web_page" title="Web page">web pages</a> on the request to <a href="Client_(computing)" title="Client (computing)">clients</a> using the <a href="Hypertext_Transfer_Protocol" title="Hypertext Transfer Protocol">Hypertext Transfer Protocol (HTTP)</a>. This means delivery of <a href="HTML" title="HTML">HTML documents</a> and any additional content that may be included by a document, such as <a href="Image" title="Image">images</a>, <a href="Style_sheet_(web_development)" title="Style sheet (web development)">style sheets</a> and <a href="Java_script" title="Java script" class="mw-redirect">scripts</a>.</p>
+<p>A <a href="User_agent" title="User agent">user agent</a>, commonly a <a href="Web_browser" title="Web browser">web browser</a> or <a href="Web_crawler" title="Web crawler">web crawler</a>, initiates communication by making a <a href="Hypertext_Transfer_Protocol#Request_message" title="Hypertext Transfer Protocol">request</a> for a specific resource using HTTP and the server responds with the content of that resource or an <a href="List_of_HTTP_status_codes#4xx_Client_Error" title="List of HTTP status codes">error message</a> if unable to do so. The resource is typically a real file on the server's <a href="Secondary_memory" title="Secondary memory" class="mw-redirect">secondary storage</a>, but this is not necessarily the case and depends on how the web server is <a href="Implementation" title="Implementation">implemented</a>.</p>
+<p>While the primary function is to serve content, a full implementation of HTTP also includes ways of receiving content from clients. This feature is used for submitting <a href="Form_(web)" title="Form (web)" class="mw-redirect">web forms</a>, including <a href="Upload" title="Upload" class="mw-redirect">uploading</a> of files.</p>
+<p>Many generic web servers also support <a href="Server-side_scripting" title="Server-side scripting">server-side scripting</a> using <a href="Active_Server_Pages" title="Active Server Pages">Active Server Pages</a> (ASP), <a href="PHP" title="PHP">PHP</a>, or other <a href="Scripting_language" title="Scripting language">scripting languages</a>. This means that the behaviour of the web server can be scripted in separate files, while the actual server software remains unchanged. Usually, this function is used to create HTML documents <a href="Dynamic_web_page" title="Dynamic web page">dynamically</a> ("on-the-fly") as opposed to returning <a href="Static_web_page" title="Static web page">static documents</a>. The former is primarily used for retrieving and/or modifying information from <a href="Database" title="Database">databases</a>. The latter is typically much faster and more easily <a href="Web_cache" title="Web cache">cached</a>.</p>
+<p>Web servers are not always used for serving the <a href="World_Wide_Web" title="World Wide Web">World Wide Web</a>. They can also be found <a href="Embedded_system" title="Embedded system">embedded</a> in devices such as <a href="Printer_(computing)" title="Printer (computing)">printers</a>, <a href="Router_(computing)" title="Router (computing)">routers</a>, <a href="Webcam" title="Webcam">webcams</a> and serving only a <a href="Local_Area_Network" title="Local Area Network" class="mw-redirect">local network</a>. The web server may then be used as a part of a system for monitoring and/or administering the device in question. This usually means that no additional software has to be installed on the client computer, since only a web browser is required (which now is included with most <a href="Operating_system" title="Operating system">operating systems</a>).</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=2.php.html" title="Edit section: History">edit</a>]</span> <span class="mw-headline" id="History">History</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:First_Web_Server.jpg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/First_Web_Server.jpg/220px-First_Web_Server.jpg" width="220" height="165" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/First_Web_Server.jpg/330px-First_Web_Server.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d1/First_Web_Server.jpg/440px-First_Web_Server.jpg 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:First_Web_Server.jpg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+The world's first web server, a <a href="NeXT_Computer" title="NeXT Computer">NeXT Computer</a> workstation with Ethernet, 1990, the case label reads: "This machine is a server. DO NOT POWER IT DOWN!!"</div>
+</div>
+</div>
+<p>In 1989 <a href="Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a> proposed a new project to his employer <a href="CERN" title="CERN">CERN</a>, with the goal of easing the exchange of information between scientists by using a <a href="Hypertext" title="Hypertext">hypertext</a> system. The project resulted in Berners-Lee writing two programs in 1990:</p>
+<ul>
+<li>A <a href="Web_browser" title="Web browser">browser</a> called <a href="WorldWideWeb" title="WorldWideWeb">WorldWideWeb</a>.</li>
+<li>The world's first web server, later known as <a href="CERN_httpd" title="CERN httpd">CERN httpd</a>, which ran on <a href="NeXTSTEP" title="NeXTSTEP">NeXTSTEP</a></li>
+</ul>
+<p>Between 1991 and 1994, the simplicity and effectiveness of early technologies used to surf and exchange data through the World Wide Web helped to port them to many different operating systems and spread their use among scientific organizations and universities, and then to industry.</p>
+<p>In 1994 Tim Berners-Lee decided to constitute the <a href="World_Wide_Web_Consortium" title="World Wide Web Consortium">World Wide Web Consortium</a> (W3C) to regulate the further development of the many technologies involved (<a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a>, <a href="HTML" title="HTML">HTML</a>, etc.) through a standardization process.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=3.php.html" title="Edit section: Common features">edit</a>]</span> <span class="mw-headline" id="Common_features">Common features</span></h2>
+<ul>
+<li><a href="Virtual_hosting" title="Virtual hosting">Virtual hosting</a> to serve many Web sites using one <a href="IP_address" title="IP address">IP address</a></li>
+<li><a href="Large_file_support" title="Large file support">Large file support</a> to be able to serve files whose size is greater than 2&#160;GB on 32 bit <a href="Operating_system" title="Operating system">OS</a></li>
+<li><a href="Bandwidth_throttling" title="Bandwidth throttling">Bandwidth throttling</a> to limit the speed of responses in order to not saturate the network and to be able to serve more clients</li>
+<li><a href="Server-side_scripting" title="Server-side scripting">Server-side scripting</a> to generate <a href="Dynamic_Web_page" title="Dynamic Web page" class="mw-redirect">dynamic Web pages</a>, still keeping web server and website implementations separate from each other</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=4.php.html" title="Edit section: Path translation">edit</a>]</span> <span class="mw-headline" id="Path_translation">Path translation</span></h2>
+<p>Web servers are able to map the path component of a <a href="Uniform_Resource_Locator" title="Uniform Resource Locator" class="mw-redirect">Uniform Resource Locator</a> (<b>URL</b>) into:</p>
+<ul>
+<li>A local file system resource (for static requests)</li>
+<li>An internal or external program name (for dynamic requests)</li>
+</ul>
+<p>For a <i>static request</i> the URL path specified by the client is relative to the web server's root directory.</p>
+<p>Consider the following URL as it would be requested by a client:</p>
+<pre>
+http://www.example.com/path/file.html
+</pre>
+<p>The client's <a href="User_agent" title="User agent">user agent</a> will translate it into a connection to <tt>www.example.com</tt> with the following HTTP 1.1 request:</p>
+<pre>
+GET /path/file.html HTTP/1.1
+Host: www.example.com
+</pre>
+<p>The web server on <tt>www.example.com</tt> will append the given path to the path of its root directory. On an <a href="Apache_server" title="Apache server" class="mw-redirect">Apache server</a>, this is commonly <tt>/home/www</tt> (On <a href="Unix" title="Unix">Unix</a> machines, usually <tt>/var/www</tt>). The result is the local file system resource:</p>
+<pre>
+/home/www<b>/path/file.html</b>
+</pre>
+<p>The web server then reads the file, if it exists and sends a response to the client's Web browser. The response will describe the content of the file and contain the file itself or an error message will return saying that the file does not exist or is unavailable.</p>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=5.php.html" title="Edit section: Kernel-mode and user-mode web servers">edit</a>]</span> <span class="mw-headline" id="Kernel-mode_and_user-mode_web_servers">Kernel-mode and user-mode web servers</span></h2>
+<p>A web server can be either implemented into the <a href="Operating_system" title="Operating system">OS</a> <a href="Kernel_(computing)" title="Kernel (computing)">kernel</a>, or in <a href="User_space" title="User space">user space</a> (like other regular applications).</p>
+<p>An <a href="In-kernel_web_server" title="In-kernel web server">in-kernel web server</a> (like <a href="TUX_web_server" title="TUX web server">TUX</a> on GNU/Linux or Microsoft <a href="Internet_Information_Services" title="Internet Information Services">IIS</a> on Windows) will usually work faster, because, as part of the system, it can directly use all the hardware resources it needs, such as non-paged memory, CPU time-slices, network adapters, or buffers.</p>
+<p>Web servers that run in <a href="User-mode" title="User-mode" class="mw-redirect">user-mode</a> have to ask the system for permission to use more memory or more CPU resources. Not only do these requests to the kernel take time, but they are not always satisfied because the system reserves resources for its own usage and has the responsibility to share hardware resources with all the other running applications.</p>
+<p>Also, applications cannot access the system's internal buffers, which causes useless buffer copies that create another handicap for user-mode web servers. As a consequence, the only way for a user-mode web server to match kernel-mode performance is to raise the quality of its code to much higher standards, similar to that of the code used in web servers that run in the kernel. This is a significant issue under Windows, where the user-mode <a href="../../w/index-title=Overhead_(computer_science)&action=edit&redlink=1.php.html" class="new" title="Overhead (computer science) (page does not exist)">overhead</a> is about six times greater than that under <a href="Linux" title="Linux">Linux</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup></p>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=6.php.html" title="Edit section: Load limits">edit</a>]</span> <span class="mw-headline" id="Load_limits">Load limits</span></h2>
+<p>A web server (program) has defined load limits, because it can handle only a limited number of concurrent client connections (usually between 2 and 80,000, by default between 500 and 1,000) per <a href="IP_address" title="IP address">IP address</a> (and TCP port) and it can serve only a certain maximum number of requests per second depending on:</p>
+<ul>
+<li>its own settings,</li>
+<li>the HTTP request type,</li>
+<li>whether the content is static or dynamic,</li>
+<li>whether the content is <a href="Web_cache" title="Web cache">cached</a>, and</li>
+<li>the <a href="Personal_computer_hardware" title="Personal computer hardware">hardware</a> and <a href="Computer_software" title="Computer software" class="mw-redirect">software</a> limitations of the OS of the computer on which the web server runs.</li>
+</ul>
+<p>When a web server is near to or over its limits, it becomes unresponsive.</p>
+<h3><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=7.php.html" title="Edit section: Causes of overload">edit</a>]</span> <span class="mw-headline" id="Causes_of_overload">Causes of overload</span></h3>
+<p>At any time web servers can be overloaded because of:</p>
+<ul>
+<li>Too much legitimate web traffic. Thousands or even millions of clients connecting to the web site in a short interval, e.g., <a href="Slashdot_effect" title="Slashdot effect">Slashdot effect</a>;</li>
+<li><a href="Distributed_Denial_of_Service" title="Distributed Denial of Service" class="mw-redirect">Distributed Denial of Service</a> attacks. A denial-of-service attack (DoS attack) or distributed denial-of-service attack (DDoS attack) is an attempt to make a computer or network resource unavailable to its intended users;</li>
+<li><a href="Computer_worm" title="Computer worm">Computer worms</a> that sometimes cause abnormal traffic because of millions of infected computers (not coordinated among them);</li>
+<li><a href="XSS_Worm" title="XSS Worm" class="mw-redirect">XSS viruses</a> can cause high traffic because of millions of infected browsers and/or web servers;</li>
+<li><a href="Internet_bot" title="Internet bot">Internet bots</a> Traffic not filtered/limited on large web sites with very few resources (bandwidth, etc.);</li>
+<li><a href="Internet" title="Internet">Internet</a> (network) slowdowns, so that client requests are served more slowly and the number of connections increases so much that server limits are reached;</li>
+<li>Web servers (<a href="Computer" title="Computer">computers</a>) partial unavailability. This can happen because of required or urgent maintenance or upgrade, hardware or software failures, <a href="Back-end" title="Back-end" class="mw-redirect">back-end</a> (e.g., <a href="Database" title="Database">database</a>) failures, etc.; in these cases the remaining web servers get too much traffic and become overloaded.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=8.php.html" title="Edit section: Symptoms of overload">edit</a>]</span> <span class="mw-headline" id="Symptoms_of_overload">Symptoms of overload</span></h3>
+<p>The symptoms of an overloaded web server are:</p>
+<ul>
+<li>Requests are served with (possibly long) delays (from 1 second to a few hundred seconds).</li>
+<li>The web server returns an <a href="List_of_HTTP_status_codes" title="List of HTTP status codes">HTTP error code</a>, such as 500, 502, 503, 504, 408, or even <a href="HTTP_404" title="HTTP 404">404</a>, which is inappropriate for an overload condition.</li>
+<li>The web server refuses or resets (interrupts) <a href="Transmission_control_protocol" title="Transmission control protocol" class="mw-redirect">TCP</a> connections before it returns any content.</li>
+<li>In very rare cases, the web server returns only a part of the requested content. This behavior can be considered a <a href="Software_bug" title="Software bug">bug</a>, even if it usually arises as a symptom of overload.</li>
+</ul>
+<h3><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=9.php.html" title="Edit section: Anti-overload techniques">edit</a>]</span> <span class="mw-headline" id="Anti-overload_techniques">Anti-overload techniques</span></h3>
+<p>To partially overcome above load limits and to prevent overload, most popular Web sites use common techniques like:</p>
+<ul>
+<li>Managing network traffic, by using:
+<ul>
+<li><a href="Firewall_(computing)" title="Firewall (computing)">Firewalls</a> to block unwanted traffic coming from bad IP sources or having bad patterns</li>
+<li>HTTP traffic managers to drop, redirect or rewrite requests having bad <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a> patterns</li>
+<li><a href="Bandwidth_management" title="Bandwidth management">Bandwidth management</a> and <a href="Traffic_shaping" title="Traffic shaping">traffic shaping</a>, in order to smooth down peaks in network usage</li>
+</ul>
+</li>
+<li>Deploying <a href="Web_cache" title="Web cache">web cache</a> techniques</li>
+<li>Using different <a href="Domain_name" title="Domain name">domain names</a> to serve different (static and dynamic) content by separate web servers, i.e.:
+<ul>
+<li>http://images.example.com</li>
+<li>http://www.example.com</li>
+</ul>
+</li>
+<li>Using different domain names and/or computers to separate big files from small and medium sized files; the idea is to be able to fully <a href="Web_cache" title="Web cache">cache</a> small and medium sized files and to efficiently serve big or huge (over 10 - 1000 MB) files by using different settings</li>
+<li>Using many web servers (programs) per computer, each one bound to its own <a href="Network_card" title="Network card" class="mw-redirect">network card</a> and <a href="IP_address" title="IP address">IP address</a></li>
+<li>Using many web servers (computers) that are grouped together behind a <a href="Load_balancer" title="Load balancer" class="mw-redirect">load balancer</a> so that they act or are seen as one big web server</li>
+<li>Adding more hardware resources (i.e. <a href="RAM" title="RAM" class="mw-redirect">RAM</a>, <a href="Disk_storage" title="Disk storage">disks</a>) to each computer</li>
+<li>Tuning OS parameters for hardware capabilities and usage</li>
+<li>Using more efficient <a href="Computer_program" title="Computer program">computer programs</a> for web servers, etc.</li>
+<li>Using other <a href="Workaround" title="Workaround">workarounds</a>, especially if dynamic content is involved</li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=10.php.html" title="Edit section: Market share">edit</a>]</span> <span class="mw-headline" id="Market_share">Market share</span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="http://en.wikipedia.org/wiki/File:Usage_share_of_web_servers_(Source_Netcraft).svg" class="image"><img alt="" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Usage_share_of_web_servers_(Source_Netcraft).svg/220px-Usage_share_of_web_servers_(Source_Netcraft).svg.png" width="220" height="220" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Usage_share_of_web_servers_%28Source_Netcraft%29.svg/330px-Usage_share_of_web_servers_%28Source_Netcraft%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/12/Usage_share_of_web_servers_%28Source_Netcraft%29.svg/440px-Usage_share_of_web_servers_%28Source_Netcraft%29.svg.png 2x" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="http://en.wikipedia.org/wiki/File:Usage_share_of_web_servers_(Source_Netcraft).svg" class="internal" title="Enlarge"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Market share of major web servers</div>
+</div>
+</div>
+<div class="rellink boilerplate seealso">For more details on HTTP server programs, see <a href="Category_Web_server_software" title="Category:Web server software">Category:Web server software</a>.</div>
+<p>Below is the most recent statistics of the market share of the top web servers on the internet by <a href="Netcraft" title="Netcraft">Netcraft</a> <a rel="nofollow" class="external text" href="http://news.netcraft.com/archives/2012/07/03/july-2012-web-server-survey.html">survey</a> in July 2012.</p>
+<table class="wikitable">
+<tr>
+<th>Product</th>
+<th>Vendor</th>
+<th>Web Sites Hosted</th>
+<th>Percent</th>
+</tr>
+<tr>
+<td><a href="Apache_HTTP_Server" title="Apache HTTP Server">Apache</a></td>
+<td><a href="Apache_Software_Foundation" title="Apache Software Foundation">Apache</a></td>
+<td>409,185,675</td>
+<td>61.45%</td>
+</tr>
+<tr>
+<td><a href="Internet_Information_Services" title="Internet Information Services">IIS</a></td>
+<td><a href="Microsoft" title="Microsoft">Microsoft</a></td>
+<td>97,385,377</td>
+<td>14.62%</td>
+</tr>
+<tr>
+<td><a href="Nginx" title="Nginx">nginx</a></td>
+<td><a href="NGINX,_Inc." title="NGINX, Inc.">NGINX, Inc.</a></td>
+<td>73,833,173</td>
+<td>11.09%</td>
+</tr>
+<tr>
+<td><a href="Google_Web_Server" title="Google Web Server" class="mw-redirect">GWS</a></td>
+<td><a href="Google" title="Google">Google</a></td>
+<td>22,931,169</td>
+<td>3.44%</td>
+</tr>
+</table>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=11.php.html" title="Edit section: See also">edit</a>]</span> <span class="mw-headline" id="See_also">See also</span></h2>
+<ul>
+<li><a href="Application_server" title="Application server">Application server</a></li>
+<li><a href="Comparison_of_lightweight_web_servers" title="Comparison of lightweight web servers">Comparison of lightweight web servers</a></li>
+<li><a href="Comparison_of_web_server_software" title="Comparison of web server software">Comparison of web server software</a></li>
+<li><a href="HTTP_compression" title="HTTP compression">HTTP compression</a></li>
+<li><a href="Open_source_web_application" title="Open source web application" class="mw-redirect">Open source web application</a></li>
+<li><a href="Server_Side_Includes" title="Server Side Includes">SSI</a>, <a href="Common_Gateway_Interface" title="Common Gateway Interface">CGI</a>, <a href="SCGI" title="SCGI" class="mw-redirect">SCGI</a>, <a href="FastCGI" title="FastCGI">FastCGI</a>, <a href="PHP" title="PHP">PHP</a>, <a href="Java_Servlet" title="Java Servlet">Java Servlet</a>, <a href="JavaServer_Pages" title="JavaServer Pages">JavaServer Pages</a>, <a href="Active_Server_Pages" title="Active Server Pages">ASP</a>, <a href="../ASP.NET" title="ASP.NET">ASP.NET</a>, <a href="Server_Application_Programming_Interface" title="Server Application Programming Interface">SAPI</a></li>
+<li><a href="Virtual_hosting" title="Virtual hosting">Virtual hosting</a></li>
+<li><a href="Web_hosting_service" title="Web hosting service">Web hosting service</a></li>
+<li><a href="Web_service" title="Web service">Web service</a></li>
+</ul>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=12.php.html" title="Edit section: References">edit</a>]</span> <span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-new-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-new_1-0">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.webdevelopersnotes.com/basics/what_is_web_server.php">"What is web server?'"</a>. <i>webdevelopersnotes</i>. 2010-11-23<span class="printonly">. <a rel="nofollow" class="external free" href="http://www.webdevelopersnotes.com/basics/what_is_web_server.php">http://www.webdevelopersnotes.com/basics/what_is_web_server.php</a></span><span class="reference-accessdate">. Retrieved 2010-11-23</span>.</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.acc.umu.se/~bosse/High%20performance%20kernel%20mode%20web%20server%20for%20Windows.pdf">High performance kernel mode web server for Windows</a></span></li>
+</ol>
+</div>
+<h2><span class="editsection">[<a href="../../w/index-title=Web_server&action=edit&section=13.php.html" title="Edit section: External links">edit</a>]</span> <span class="mw-headline" id="External_links">External links</span></h2>
+<ul>
+<li><a class="external mw-magiclink-rfc" rel="nofollow" href="http://tools.ietf.org/html/rfc2616">RFC 2616</a>, the <a href="Request_for_Comments" title="Request for Comments">Request for Comments</a> document that defines the <a href="HTTP" title="HTTP" class="mw-redirect">HTTP</a> 1.1 protocol.</li>
+<li><a rel="nofollow" class="external text" href="http://www.c64Web.com/">C64WEB.COM</a>&#160;— <a href="Commodore_64" title="Commodore 64">Commodore 64</a> running as a web server using <a href="Contiki" title="Contiki">Contiki</a></li>
+</ul>
+<p><br /></p>
+<table cellspacing="0" class="navbox" style="border-spacing:0;;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;;">
+<tr>
+<th scope="col" style=";" class="navbox-title" colspan="2">
+<div class="noprint plainlinks hlist navbar mini" style="">
+<ul>
+<li class="nv-view"><a href="Template_WebManTools" title="Template:WebManTools"><span title="View this template" style=";;background:none transparent;border:none;">v</span></a></li>
+<li class="nv-talk"><a href="Template_talk_WebManTools" title="Template talk:WebManTools"><span title="Discuss this template" style=";;background:none transparent;border:none;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="../../w/index-title=Template_WebManTools&action=edit.php.html"><span title="Edit this template" style=";;background:none transparent;border:none;">e</span></a></li>
+</ul>
+</div>
+<div class="" style="font-size:110%;">Website management</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;">Concepts</th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Overselling" title="Overselling">Overselling</a></li>
+<li><a href="Web_document" title="Web document">Web document</a></li>
+<li><a href="Web_content" title="Web content">Web content</a></li>
+<li><a href="Web_content_lifecycle" title="Web content lifecycle">Web content lifecycle</a></li>
+<li><a href="Web_hosting_service" title="Web hosting service">Web hosting service</a></li>
+<li><strong class="selflink">Web server</strong></li>
+<li><a href="Webmaster" title="Webmaster">Webmaster</a></li>
+<li><a href="Website_governance" title="Website governance">Website governance</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Web_hosting_control_panel" title="Web hosting control panel">Web hosting control panels</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Comparison_of_web_hosting_control_panels" title="Comparison of web hosting control panels">Comparison of control panels</a></li>
+<li><a href="AlternC" title="AlternC">AlternC</a></li>
+<li><a href="Baifox" title="Baifox">Baifox</a></li>
+<li><a href="CPanel" title="CPanel">cPanel</a></li>
+<li><a href="DirectAdmin" title="DirectAdmin">DirectAdmin</a></li>
+<li><a href="Domain_Technologie_Control" title="Domain Technologie Control">Domain Technologie Control</a></li>
+<li><a href="Froxlor" title="Froxlor">Froxlor</a></li>
+<li><a href="GNUPanel" title="GNUPanel">GNUPanel</a></li>
+<li><a href="H-Sphere" title="H-Sphere">H-Sphere</a></li>
+<li><a href="I-MSCP" title="I-MSCP">i-MSCP</a></li>
+<li><a href="InterWorx" title="InterWorx">InterWorx</a></li>
+<li><a href="ISPConfig" title="ISPConfig">ISPConfig</a></li>
+<li><a href="IspCP" title="IspCP">ispCP</a></li>
+<li><a href="Kloxo" title="Kloxo">Kloxo</a></li>
+<li><a href="Plesk" title="Plesk">Plesk</a></li>
+<li><a href="SysCP" title="SysCP">SysCP</a></li>
+<li><a href="Usermin" title="Usermin">Usermin</a></li>
+<li><a href="Webmin" title="Webmin">Webmin</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Domain_name" title="Domain name">Domain name</a> managers and <a href="Domain_name_registrar" title="Domain name registrar">registrars</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-odd hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Afilias" title="Afilias">Afilias</a></li>
+<li><a href="AusRegistry" title="AusRegistry">AusRegistry</a></li>
+<li><a href="BigRock" title="BigRock">BigRock</a></li>
+<li><a href="../CZ.NIC" title="CZ.NIC">CZ.NIC</a></li>
+<li><a href="Canadian_Internet_Registration_Authority" title="Canadian Internet Registration Authority">CIRA</a></li>
+<li><a href="China_Internet_Network_Information_Center" title="China Internet Network Information Center">CNNIC</a></li>
+<li><a href="DENIC" title="DENIC">DENIC</a></li>
+<li><a href="DNS_Belgium" title="DNS Belgium">DNS Belgium</a></li>
+<li><a href="Domainz" title="Domainz">Domainz</a></li>
+<li><a href="Dynadot" title="Dynadot">Dynadot</a></li>
+<li><a href="ENom" title="ENom">eNom</a></li>
+<li><a href="Gandi" title="Gandi">Gandi</a></li>
+<li><a href="Go_Daddy" title="Go Daddy">Go Daddy</a></li>
+<li><a href="Hover_(domain_registrar)" title="Hover (domain registrar)">Hover</a></li>
+<li><a href="Melbourne_IT" title="Melbourne IT">Melbourne IT</a></li>
+<li><a href="Museum_Domain_Management_Association" title="Museum Domain Management Association">Museum Domain Management Association</a></li>
+<li><a href="../Name.com" title="Name.com">Name.com</a></li>
+<li><a href="Namecheap" title="Namecheap">Namecheap</a></li>
+<li><a href="Network_Solutions" title="Network Solutions">Network Solutions</a></li>
+<li><a href="NeuStar" title="NeuStar" class="mw-redirect">NeuStar</a></li>
+<li><a href="NIC_M%C3%A9xico" title="NIC México">NIC México</a></li>
+<li><a href="../OLM.net" title="OLM.net">OLM.net</a></li>
+<li><a href="../Register.com" title="Register.com">Register.com</a></li>
+<li><a href="Tucows" title="Tucows">Tucows</a></li>
+<li><a href="../Web.com" title="Web.com">Web.com</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style=";;"><a href="Web_content_management_system" title="Web content management system">Web content management system</a></th>
+<td style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;;;" class="navbox-list navbox-even hlist">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="Conference_management_system" title="Conference management system">Conference management system</a></li>
+<li><a href="Document_management_system" title="Document management system">Document management system</a></li>
+<li><a href="Wiki_software" title="Wiki software">Wiki software</a></li>
+<li><a href="Blog_software" title="Blog software">Blog software</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 2903/1000000
+Preprocessor generated node count: 24822/1500000
+Post-expand include size: 30080/2048000 bytes
+Template argument size: 11161/2048000 bytes
+Highest expansion depth: 21/40
+Expensive parser function count: 5/500
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:33455-0!*!0!!en!4!* and timestamp 20130213172642 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class="printfooter">
+				Retrieved from "<a href="../../w/index-title=Web_server&oldid=538073676.php.html">http://en.wikipedia.org/w/index.php?title=Web_server&amp;oldid=538073676</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="Help_Categories" title="Help:Categories">Categories</a>: <ul><li><a href="Category_Servers_(computing)" title="Category:Servers (computing)">Servers (computing)</a></li><li><a href="Category_Web_server_software" title="Category:Web server software">Web server software</a></li><li><a href="Category_Website_management" title="Category:Website management">Website management</a></li><li><a href="Category_Web_development" title="Category:Web development">Web development</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="Category_Use_dmy_dates_from_January_2013" title="Category:Use dmy dates from January 2013">Use dmy dates from January 2013</a></li><li><a href="Category_Articles_needing_additional_references_from_March_2009" title="Category:Articles needing additional references from March 2009">Articles needing additional references from March 2009</a></li><li><a href="Category_All_articles_needing_additional_references" title="Category:All articles needing additional references">All articles needing additional references</a></li><li><a href="Category_All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="Category_Articles_with_unsourced_statements_from_August_2012" title="Category:Articles with unsourced statements from August 2012">Articles with unsourced statements from August 2012</a></li></ul></div></div>				<!-- /catlinks -->
+												<div class="visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<!-- header -->
+			<div id="mw-head" class="noprint">
+				
+<!-- 0 -->
+<div id="p-personal" role="navigation" class="">
+	<h3>Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="../../w/index-title=Special_UserLogin&returnto=Web+server&type=signup.php.html">Create account</a></li><li id="pt-login"><a href="../../w/index-title=Special_UserLogin&returnto=Web+server.php.html" title="You are encouraged to log in; however, it is not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+
+<!-- /0 -->
+				<div id="left-navigation">
+					
+<!-- 0 -->
+<div id="p-namespaces" role="navigation" class="vectorTabs">
+	<h3>Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="index.html"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="Talk_Web_server"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+				</div>
+				<div id="right-navigation">
+					
+<!-- 0 -->
+<div id="p-views" role="navigation" class="vectorTabs">
+	<h3>Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="index.html" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="../../w/index-title=Web_server&action=edit.php.html"  title="You can edit this page. &#10;Please use the preview button before saving. [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="../../w/index-title=Web_server&action=history.php.html"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet">
+	<h3><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+				<div id="simpleSearch">
+						<input name="search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" />						<button type="submit" name="button" title="Search Wikipedia for this text" id="searchButton"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/vector/images/search-ltr.png?303-4" alt="Search" width="12" height="13" /></button>								<input type='hidden' name="title" value="Special:Search"/>
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+				</div>
+			</div>
+			<!-- /header -->
+			<!-- panel -->
+			<div id="mw-panel" class="noprint">
+				<!-- logo -->
+					<div id="p-logo" role="banner"><a style="background-image: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="Main_Page"  title="Visit the main page"></a></div>
+				<!-- /logo -->
+				
+<!-- navigation -->
+<div class="portal" role="navigation" id='p-navigation'>
+	<h3>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="Portal_Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="Portal_Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="Portal_Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="Special_Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="http://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en" title="Support us">Donate to Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- interaction -->
+<div class="portal" role="navigation" id='p-interaction'>
+	<h3>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="Help_Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="Wikipedia_About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="Wikipedia_Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="Special_RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contact"><a href="Wikipedia_Contact_us" title="How to contact Wikipedia">Contact Wikipedia</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /interaction -->
+
+<!-- TOOLBOX -->
+<div class="portal" role="navigation" id='p-tb'>
+	<h3>Toolbox</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="Special_WhatLinksHere/Web_server" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="Special_RecentChangesLinked/Web_server" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="Wikipedia_File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="Special_SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="../../w/index-title=Web_server&oldid=538073676.php.html" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="../../w/index-title=Web_server&action=info.php.html">Page information</a></li>
+<li id="t-cite"><a href="../../w/index-title=Special_Cite&page=Web_server&id=538073676.php.html" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- coll-print_export -->
+<div class="portal" role="navigation" id='p-coll-print_export'>
+	<h3>Print/export</h3>
+	<div class="body">
+		<ul id="collectionPortletList"><li id="coll-create_a_book"><a href="../../w/index-title=Special_Book&bookcmd=book_creator&referer=Web+server.php.html" title="Create a book or page collection" rel="nofollow">Create a book</a></li><li id="coll-download-as-rl"><a href="../../w/index-title=Special_Book&bookcmd=render_article&arttitle=Web+server&oldid=538073676&writer=rl.php.html" title="Download a PDF version of this wiki page" rel="nofollow">Download as PDF</a></li><li id="t-print"><a href="../../w/index-title=Web_server&printable=yes.php.html" title="Printable version of this page [p]" accesskey="p">Printable version</a></li></ul>	</div>
+</div>
+
+<!-- /coll-print_export -->
+
+<!-- LANGUAGES -->
+<div class="portal" role="navigation" id='p-lang'>
+	<h3>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interwiki-af"><a href="http://af.wikipedia.org/wiki/Webbediener" title="Webbediener" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interwiki-ar"><a href="http://ar.wikipedia.org/wiki/%D8%AE%D8%A7%D8%AF%D9%88%D9%85_%D9%88%D9%8A%D8%A8" title="خادوم ويب" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interwiki-as"><a href="http://as.wikipedia.org/wiki/%E0%A7%B1%E0%A7%87%E0%A6%AC_%E0%A6%9A%E0%A6%BE%E0%A7%B0%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A7%B0" title="ৱেব চাৰ্ভাৰ" lang="as" hreflang="as">অসমীয়া</a></li>
+			<li class="interwiki-be"><a href="http://be.wikipedia.org/wiki/%D0%92%D1%8D%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Вэб-сервер" lang="be" hreflang="be">Беларуская</a></li>
+			<li class="interwiki-be-x-old"><a href="http://be-x-old.wikipedia.org/wiki/%D0%92%D1%8D%D0%B1-%D1%81%D1%8D%D1%80%D0%B2%D1%8D%D1%80" title="Вэб-сэрвэр" lang="be-x-old" hreflang="be-x-old">Беларуская (тарашкевіца)‎</a></li>
+			<li class="interwiki-bg"><a href="http://bg.wikipedia.org/wiki/%D0%A3%D0%B5%D0%B1_%D1%81%D1%8A%D1%80%D0%B2%D1%8A%D1%80" title="Уеб сървър" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interwiki-bs"><a href="http://bs.wikipedia.org/wiki/Web_server" title="Web server" lang="bs" hreflang="bs">Bosanski</a></li>
+			<li class="interwiki-ca"><a href="http://ca.wikipedia.org/wiki/Servidor_web" title="Servidor web" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interwiki-cs"><a href="http://cs.wikipedia.org/wiki/Webov%C3%BD_server" title="Webový server" lang="cs" hreflang="cs">Česky</a></li>
+			<li class="interwiki-da"><a href="http://da.wikipedia.org/wiki/Webserver" title="Webserver" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interwiki-de"><a href="http://de.wikipedia.org/wiki/Webserver" title="Webserver" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interwiki-et"><a href="http://et.wikipedia.org/wiki/Veebiserver" title="Veebiserver" lang="et" hreflang="et">Eesti</a></li>
+			<li class="interwiki-es"><a href="http://es.wikipedia.org/wiki/Servidor_web" title="Servidor web" lang="es" hreflang="es">Español</a></li>
+			<li class="interwiki-eo"><a href="http://eo.wikipedia.org/wiki/TTT-servilo" title="TTT-servilo" lang="eo" hreflang="eo">Esperanto</a></li>
+			<li class="interwiki-fa"><a href="http://fa.wikipedia.org/wiki/%D8%B3%D8%B1%D9%88%D8%B1_%D9%88%D8%A8" title="سرور وب" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interwiki-fr"><a href="http://fr.wikipedia.org/wiki/Serveur_HTTP" title="Serveur HTTP" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interwiki-ko"><a href="http://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%84%9C%EB%B2%84" title="웹 서버" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interwiki-hi"><a href="http://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A5%87%E0%A4%AC_%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%B0" title="वेब सर्वर" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interwiki-hr"><a href="http://hr.wikipedia.org/wiki/Web_server" title="Web server" lang="hr" hreflang="hr">Hrvatski</a></li>
+			<li class="interwiki-id"><a href="http://id.wikipedia.org/wiki/Server_web" title="Server web" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interwiki-ia"><a href="http://ia.wikipedia.org/wiki/Servitor_web" title="Servitor web" lang="ia" hreflang="ia">Interlingua</a></li>
+			<li class="interwiki-is"><a href="http://is.wikipedia.org/wiki/Vef%C3%BEj%C3%B3nn" title="Vefþjónn" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interwiki-it"><a href="http://it.wikipedia.org/wiki/Server_web" title="Server web" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interwiki-he"><a href="http://he.wikipedia.org/wiki/%D7%A9%D7%A8%D7%AA_HTTP" title="שרת HTTP" lang="he" hreflang="he">עברית</a></li>
+			<li class="interwiki-kk"><a href="http://kk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Веб сервер" lang="kk" hreflang="kk">Қазақша</a></li>
+			<li class="interwiki-ky"><a href="http://ky.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Веб-сервер" lang="ky" hreflang="ky">Кыргызча</a></li>
+			<li class="interwiki-lv"><a href="http://lv.wikipedia.org/wiki/T%C4%ABmek%C4%BCa_serveris" title="Tīmekļa serveris" lang="lv" hreflang="lv">Latviešu</a></li>
+			<li class="interwiki-hu"><a href="http://hu.wikipedia.org/wiki/Webszerver" title="Webszerver" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interwiki-mk"><a href="http://mk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1_%D0%BE%D0%BF%D1%81%D0%BB%D1%83%D0%B6%D1%83%D0%B2%D0%B0%D1%87" title="Веб опслужувач" lang="mk" hreflang="mk">Македонски</a></li>
+			<li class="interwiki-ms"><a href="http://ms.wikipedia.org/wiki/Pelayan_web" title="Pelayan web" lang="ms" hreflang="ms">Bahasa Melayu</a></li>
+			<li class="interwiki-mn"><a href="http://mn.wikipedia.org/wiki/%D0%92%D1%8D%D0%B1_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Вэб сервер" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interwiki-nl"><a href="http://nl.wikipedia.org/wiki/Webserver" title="Webserver" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interwiki-ja"><a href="http://ja.wikipedia.org/wiki/Web%E3%82%B5%E3%83%BC%E3%83%90" title="Webサーバ" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interwiki-no"><a href="http://no.wikipedia.org/wiki/Webserver" title="Webserver" lang="no" hreflang="no">Norsk (bokmål)‎</a></li>
+			<li class="interwiki-mhr"><a href="http://mhr.wikipedia.org/wiki/Web-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Web-сервер" lang="mhr" hreflang="mhr">Олык марий</a></li>
+			<li class="interwiki-uz"><a href="http://uz.wikipedia.org/wiki/WEB_Server" title="WEB Server" lang="uz" hreflang="uz">Oʻzbekcha</a></li>
+			<li class="interwiki-pl"><a href="http://pl.wikipedia.org/wiki/Serwer_WWW" title="Serwer WWW" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interwiki-pt"><a href="http://pt.wikipedia.org/wiki/Servidor_web" title="Servidor web" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interwiki-ru"><a href="http://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Веб-сервер" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interwiki-simple"><a href="http://simple.wikipedia.org/wiki/Web_server" title="Web server" lang="simple" hreflang="simple">Simple English</a></li>
+			<li class="interwiki-sk"><a href="http://sk.wikipedia.org/wiki/Webov%C3%BD_server" title="Webový server" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interwiki-sl"><a href="http://sl.wikipedia.org/wiki/Spletni_stre%C5%BEnik" title="Spletni strežnik" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interwiki-sh"><a href="http://sh.wikipedia.org/wiki/Web_server" title="Web server" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interwiki-fi"><a href="http://fi.wikipedia.org/wiki/WWW-palvelin" title="WWW-palvelin" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interwiki-sv"><a href="http://sv.wikipedia.org/wiki/Webbserver" title="Webbserver" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interwiki-th"><a href="http://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%A3%E0%B9%8C%E0%B8%9F%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B9%8C" title="เว็บเซิร์ฟเวอร์" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interwiki-tr"><a href="http://tr.wikipedia.org/wiki/Web_sunucusu" title="Web sunucusu" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interwiki-uk"><a href="http://uk.wikipedia.org/wiki/%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80" title="Веб-сервер" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interwiki-ur"><a href="http://ur.wikipedia.org/wiki/%D9%85%D8%B9%DB%8C%D9%84_%D8%A7%D9%84%D8%AD%D8%A8%D8%A7%D9%84%DB%81" title="معیل الحبالہ" lang="ur" hreflang="ur">اردو</a></li>
+			<li class="interwiki-zh"><a href="http://zh.wikipedia.org/wiki/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8" title="網頁伺服器" lang="zh" hreflang="zh">中文</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /LANGUAGES -->
+			</div>
+			<!-- /panel -->
+		</div>
+		<!-- footer -->
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 13 February 2013 at 17:26.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="../Wikipedia_Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.
+See <a href="http://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.<br/>
+Wikipedia® is a registered trademark of the <a href="http://www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.<br /></li><li class="noprint"><a class='internal' href="Wikipedia_Contact_us">Contact us</a></li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="http://wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="Wikipedia_About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="Wikipedia_General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-mobileview"><a href="http://en.m.wikipedia.org/wiki/Web_server" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="http://wikimediafoundation.org/"><img src="http://bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="http://bits.wikimedia.org/static-1.21wmf9/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<!-- /footer -->
+		<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*"></script>
+<script>if(window.mw){
+mw.loader.load(["mobile.desktop","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","ext.vector.collapsibleNav","ext.vector.collapsibleTabs","ext.vector.editWarning","ext.UserBuckets","ext.articleFeedback.startup","ext.articleFeedbackv5.startup","ext.markAsHelpful","ext.Experiments.experiments","mw.PopUpMediaTransform"], null, true);
+}</script>
+<script src="../../w/index-title=MediaWiki_Gadget-ReferenceTooltips.js&action=raw&ctype=text_javascript&508635914.php.html"></script>
+<script src="http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*"></script>
+<!-- Served by mw1110 in 0.228 secs. -->
+	</body>
+</html>
+
+<!-- Localized -->
