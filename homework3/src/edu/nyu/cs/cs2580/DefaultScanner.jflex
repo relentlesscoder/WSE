@@ -26,6 +26,24 @@ RegionalIndicatorEx = \p{WB:RegionalIndicator}                                  
 ComplexContextEx    = \p{LB:Complex_Context}                                    [\p{WB:Format}\p{WB:Extend}]*
 
 %{
+  public static final int WORD = Tokenizer.ALPHANUM;
+
+  public static final int NUMERIC = Tokenizer.NUM;
+
+  public static final int SOUTH_EAST_ASIAN = Tokenizer.SOUTHEAST_ASIAN;
+
+  public static final int IDEOGRAPHIC = Tokenizer.IDEOGRAPHIC;
+
+  public static final int HIRAGANA = Tokenizer.HIRAGANA;
+
+  public static final int KATAKANA = Tokenizer.KATAKANA;
+
+  public static final int HANGUL = Tokenizer.HANGUL;
+
+  public static final int INTERNAL_LINK = Tokenizer.INTERNAL_LINK;
+
+  public static final int EXTERNAL_LINK = Tokenizer.EXTERNAL_LINK;
+
 public final String getText() {
     return String.copyValueOf(zzBuffer, zzStartRead, zzMarkedPos-zzStartRead);
   }
@@ -42,14 +60,14 @@ public final String getText() {
 //        WB13b. ExtendNumLet × (ALetter | Hebrew_Letter | Numeric | Katakana) 
 //
 {ExtendNumLetEx}* {NumericEx} ( ( {ExtendNumLetEx}* | {MidNumericEx} ) {NumericEx} )* {ExtendNumLetEx}* 
-  { return 1; }
+  { return NUMERIC; }
 
 // subset of the below for typing purposes only!
 {HangulEx}+
-  { return 2; }
+  { return HANGUL; }
   
 {KatakanaEx}+
-  { return 3; }
+  { return KATAKANA; }
 
 // UAX#29 WB5.   (ALetter | Hebrew_Letter) × (ALetter | Hebrew_Letter)
 //        WB6.   (ALetter | Hebrew_Letter) × (MidLetter | MidNumLet | Single_Quote) (ALetter | Hebrew_Letter)
@@ -77,7 +95,7 @@ public final String getText() {
                    )
 )*
 {ExtendNumLetEx}* 
-  { return 4; }
+  { return WORD; }
 
 
 // From UAX #29:
@@ -99,12 +117,12 @@ public final String getText() {
 //
 //    http://www.unicode.org/reports/tr14/#SA
 //
-{ComplexContextEx}+ { return 5; }
+{ComplexContextEx}+ { return SOUTH_EAST_ASIAN; }
 
 // UAX#29 WB14.  Any ÷ Any
 //
-{HanEx} { return 6; }
-{HiraganaEx} { return 7; }
+{HanEx} { return IDEOGRAPHIC; }
+{HiraganaEx} { return HIRAGANA; }
 
 
 // UAX#29 WB3.   CR × LF

@@ -11,7 +11,21 @@ import java.util.List;
 
 public class Tokenizer {
 
+  /**
+   * constants used for JFlex analyzer
+   */
+  public static final int ALPHANUM = 1;
+  public static final int NUM = 2;
+  public static final int SOUTHEAST_ASIAN = 3;
+  public static final int IDEOGRAPHIC = 4;
+  public static final int HIRAGANA = 5;
+  public static final int KATAKANA = 6;
+  public static final int HANGUL = 7;
+  public static final int INTERNAL_LINK = 8;
+  public static final int EXTERNAL_LINK = 8;
+
   public static final HashSet<String> STOP_WORDS_SET;
+
   static {
     final List<String> stopWords = Arrays.asList("a", "an", "and", "are", "as",
         "at", "be", "but", "by", "for", "if", "in", "into", "is", "it", "no",
