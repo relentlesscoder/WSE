@@ -74,7 +74,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
-      if(isValidDocument(files[docid])){
+      if(Util.isValidDocument(files[docid])){
         FileMetaData fileMetaData = new FileMetaData();
         _docCount++;
         fileMetaData.setDocId(docid);
@@ -90,7 +90,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
-      if(isValidDocument(files[docid])){
+      if(Util.isValidDocument(files[docid])){
         if(!_pageGraph.containsVertex(docid) && !redirectList.contains(docid)){
           _pageGraph.addVertex(docid);
         }

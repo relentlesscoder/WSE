@@ -6,6 +6,8 @@ import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.VByteEncode.VByteUtil;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 
 import java.io.*;
@@ -15,10 +17,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
 
+import static com.google.common.base.Preconditions.checkNotNull;
+
 /**
  * This is the compressed inverted indexer...
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
+
   private static final long serialVersionUID = 1L;
   // K is the length of interval for the skip pointer of the posting list.
   private static final int K = 5000;
@@ -114,7 +119,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     ProgressBar progressBar = new ProgressBar();
 
     File folder = new File(_options._corpusPrefix);
-    File[] files = folder.listFiles();
+    //add filter to exclude hidden files
+    FilenameFilter filenameFilter = new FilenameFilter() {
+      @Override
+      public boolean accept(File file, String name) {
+        return !name.startsWith(".");
+      }
+    };
+    File[] files = folder.listFiles(filenameFilter);
     int fileCount = 0;
 
     /**************************************************************************
@@ -133,6 +145,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Process file/document one by one and assign each of them a unique docid
     for (int docid = 0; docid < files.length; docid++) {
+      checkNotNull(files[docid], "File can not be null!");
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
       // Now process the document
@@ -242,7 +255,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
-    Tokenizer tokenizer = new Tokenizer(new StringReader(URL_PATTERN.matcher(content).replaceAll("")));
+    //Tokenizer tokenizer = new Tokenizer(new StringReader(URL_PATTERN.matcher(content).replaceAll("")));
+    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
 
     int position = 0;
 

@@ -302,4 +302,9 @@ public class Util {
     }
     return sortedMap;
   }
+
+  // Utility for ignoring hidden files in the file system.
+  protected static boolean isValidDocument(File file) {
+    return !file.getName().startsWith(".");  // Remove hidden files.
+  }
 }

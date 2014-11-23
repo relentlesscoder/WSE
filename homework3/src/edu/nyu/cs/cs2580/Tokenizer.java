@@ -21,8 +21,6 @@ public class Tokenizer {
   public static final int HIRAGANA = 5;
   public static final int KATAKANA = 6;
   public static final int HANGUL = 7;
-  public static final int INTERNAL_LINK = 8;
-  public static final int EXTERNAL_LINK = 8;
 
   public static final HashSet<String> STOP_WORDS_SET;
 
