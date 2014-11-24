@@ -12,9 +12,9 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 /**
  * Handles each incoming query, students do not need to change this class except
  * to provide more query time CGI arguments and the HTML output.
- * 
+ *
  * N.B. This class is not thread-safe.
- * 
+ *
  * @author congyu
  * @author fdiaz
  */

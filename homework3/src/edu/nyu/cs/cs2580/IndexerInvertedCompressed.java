@@ -65,6 +65,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
 
   long totalTermFrequency = 0;
+  long totalNumViews = 0;
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -422,6 +423,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         // serializable.
         this._numDocs = documents.size();
         this._totalTermFrequency = loaded.totalTermFrequency;
+        this.totalNumViews = loaded.totalNumViews;
 
         this.invertedIndex = loaded.invertedIndex;
         this.docTermFrequency = loaded.docTermFrequency;
@@ -449,6 +451,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     /**************************************************************************
      * Update the documents
      *************************************************************************/
+    totalNumViews = 0;
     for (DocumentIndexed documentIndexed : documents) {
       int docid = documentIndexed._docid;
       // Update page rank score
@@ -459,6 +462,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
       // Update number of views
       if (docNumView.containsKey(docid)) {
+        totalNumViews += docNumView.get(docid);
         documentIndexed.setNumViews(docNumView.get(docid));
       } else {
         documentIndexed.setNumViews(0);
@@ -1020,6 +1024,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     } else {
       return -1;
     }
+  }
+
+  /**
+   * Get the total number of views
+   * @return {@code totalNumViews}
+   */
+  public long getTotalNumViews() {
+    return totalNumViews;
   }
 
   /**
