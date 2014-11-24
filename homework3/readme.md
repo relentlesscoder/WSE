@@ -23,7 +23,7 @@ Group ID G06: yl1949, ws951, sy1288 :)
 	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
 	</code></pre>
 	<pre><code>
-	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serv --options=conf/engine.conf
+	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
 	</code></pre>
 	<pre><code>
 	  homework3$ java -cp ./bin/classes:./bin/lib/* Bhattacharyya prf.tsv qsim.tsv
