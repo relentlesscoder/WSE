@@ -187,7 +187,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
-    doc.setUrl(file.getAbsolutePath());
+    doc.setUrl(file.getName());
 
     documents.add(doc);
 
