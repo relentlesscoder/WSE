@@ -41,9 +41,10 @@ public class QueryPhrase extends Query {
       // Delete the stop words for normal query terms
       term = Tokenizer.stopwordFilter(term);
       term = Tokenizer.krovetzStemmerFilter(term);
-      checkNotNull(term,
-              "Term can not be null... or what did you do to the term, tokenizer!?)");
-      uniqueTokens.add(term);
+      if (term != null) {
+        term = Tokenizer.krovetzStemmerFilter(term);
+        uniqueTokens.add(term);
+      }
     }
 
     if (containsPhrase){
