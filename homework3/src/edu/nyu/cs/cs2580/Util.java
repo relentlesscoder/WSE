@@ -289,10 +289,14 @@ public class Util {
         int order = descending ? -1 : 1;
         int result = o1.getValue().compareTo(o2.getValue());
         // if two metrics are the same, use docid(url) to break the tie
+        // use ascending order for breaking tie as professor required
         if(result == 0){
           result = o1.getKey().compareTo(o2.getKey());
         }
-        return result * order;
+        else{
+          result = result * order;
+        }
+        return result;
       }
     });
 
