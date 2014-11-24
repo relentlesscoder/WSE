@@ -76,10 +76,10 @@ public class QueryPhrase extends Query {
           }
       }
       uniqueTokens.addAll(phraseTermSet);
-      terms.addAll(uniqueTokens);
+      _tokens.addAll(uniqueTokens);
     }else{
       for (String term : uniqueTokens) {
-        terms.add(term);
+        _tokens.add(term);
       }
     }
   }

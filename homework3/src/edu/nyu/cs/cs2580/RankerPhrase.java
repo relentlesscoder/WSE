@@ -28,7 +28,7 @@ public class RankerPhrase extends Ranker {
     findNextDoc: while ((doc = compIndexer.nextDoc(query, docid)) != null) {
       // System.out.println("Searching Doc: " + doc._docid);
       double score = 0.0;
-      List<String> terms = query.terms;
+      List<String> terms = new ArrayList<String>(query._tokens);
       for (int i=0; i<terms.size()-n_gram+1; i++) {
         ArrayList<String> phraseTerms = new ArrayList<String>();
         for (int j=0; j<n_gram; j++){

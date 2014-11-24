@@ -4,6 +4,7 @@ import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Vector;
 
 /**
  * Representation of a user query.
@@ -17,7 +18,7 @@ import java.util.List;
  */
 public class Query {
 	public String query = null;
-	public List<String> terms = new ArrayList<String>();
+	public Vector<String> _tokens = new Vector<String>();
 
 	public Query(String query) {
 		this.query = query;
@@ -38,7 +39,7 @@ public class Query {
 			}
 		}
 		for (String term : tokenSet) {
-			terms.add(term);
+			_tokens.add(term);
 		}
 	}
 }

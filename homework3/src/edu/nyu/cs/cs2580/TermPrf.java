@@ -17,6 +17,6 @@ public class TermPrf {
     this.prf = prf;
   }
   public void computePrf (int count){
-    this.prf = this.frequency/count;
+    prf = (double) frequency/count;
   }
 }

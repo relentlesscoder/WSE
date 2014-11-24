@@ -128,7 +128,7 @@ public class RankerConjunctive extends Ranker {
           score += 1.0 * (double) termDocFrequency;
         }
 			}else {
-        for (String term : query.terms) {
+        for (String term : query._tokens) {
           int termDocFrequency = documentTermFrequency(term, doc._docid);
           score += 1.0 * (double) termDocFrequency;
         }

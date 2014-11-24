@@ -44,7 +44,7 @@ public class RelevanceFeedback {
 
     for (int i : Multisets.copyHighestCountFirst(termFrequency).elementSet()){
       String term = indexer.getTermById(i);
-      if (Tokenizer.stopwordFilter(term) == null || query.terms.contains(term)) {
+      if (Tokenizer.stopwordFilter(term) == null || query._tokens.contains(term)) {
         continue;
       }
       int frequency = termFrequency.count(i);
