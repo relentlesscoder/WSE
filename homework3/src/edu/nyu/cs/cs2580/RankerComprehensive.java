@@ -11,7 +11,7 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
  * document-level features including the PageRank and the NumViews. 
  */
 public class RankerComprehensive extends Ranker {
-  private final static double LAMDA = 0.1;
+  private final static double LAMDA = 0.50;
   IndexerInvertedCompressed indexerInvertedCompressed;
 
   public RankerComprehensive(Options options, CgiArguments arguments, Indexer indexer) {
@@ -96,7 +96,7 @@ public class RankerComprehensive extends Ranker {
 
     // Considered page rank scores...
     score = score * document.getPageRank();
-    score = score * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
+    score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
 
     scoredDocument = new ScoredDocument(document, score);
 

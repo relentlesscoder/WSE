@@ -87,6 +87,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
         redirectList.add(docid);
       }
       nameDocIdMap.put(files[docid].getName(), fileMetaData);
+      progressBar.update(docid, files.length * 2);
     }
 
     for (int docid = 0; docid < files.length; docid++) {
@@ -129,7 +130,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
       }
 
       // Update the progress bar after processing a document :)
-      progressBar.update(docid, files.length);
+      progressBar.update(docid * 2, files.length * 2);
     }
   }
 
