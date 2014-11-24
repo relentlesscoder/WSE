@@ -16,12 +16,9 @@ We used several external library, So, whenever compile the files, mining, constr
 
 We recommended to include the path manual when running the program, because we implemented a progress bar which Ant couldn’t print it in real time.
 
-example:  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine \
- 			--mode=mining --options=conf/engine.conf
-	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine \
- 			--mode=index --options=conf/engine.conf
-	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine \
- 			--mode=serv --options=conf/engine.conf
+example:  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=mining --options=conf/engine.conf
+	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
+	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serv --options=conf/engine.conf
 	
 	  homework3$ java -cp ./bin/classes:./bin/lib/* Bhattacharyya prf.tsv qsim.tsv
 
