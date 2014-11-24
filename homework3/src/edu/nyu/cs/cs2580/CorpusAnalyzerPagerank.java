@@ -127,7 +127,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
       }
 
       // Update the progress bar after processing a document :)
-      progressBar.update(docid * 2, files.length * 2);
+      progressBar.update(files.length + docid, files.length * 2);
     }
   }
 
