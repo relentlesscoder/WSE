@@ -671,7 +671,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
       // Load the posting list for a term if it's not already loaded.
       // Also check if it exists in the metaData, load it only if it exists.
       int termId = dictionary.get(term);
-      if (meta.containsKey(termId)) {
+      if (meta.containsKey(termId) && !invertedIndex.containsKey(termId)) {
         metaPair = meta.get(termId).getPostingListMetaData();
         raf.seek(metaPair.getStartPos());
         byte[] postingListBytes = new byte[metaPair.getLength()];
