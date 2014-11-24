@@ -30,6 +30,8 @@
 			public String _query = "";
 			// How many results to return
 			private int _numResults = 10;
+      public int _numDocs=10;
+      public int _numTerms=5;
 
 			// The type of the ranker we will be using.
 			public enum RankerType {
@@ -44,10 +46,6 @@
 			}
 
 			public OutputFormat _outputFormat = OutputFormat.TEXT;
-
-		public int _numDocs=0;
-
-		public int _numTerms=0;
 
 			public CgiArguments(String uriQuery) {
 				String[] params = uriQuery.split("&");
