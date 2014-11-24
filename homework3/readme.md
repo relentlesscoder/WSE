@@ -70,13 +70,13 @@ Spearman coefficient: 0.4468566840544932
 Damping factor: 0.9
 Iteration: 2
 
-Explaination:
-According to Larry Page and Sergey Brin's original whitepaper from Stanford, The Anatomy of a Large-Scale Hypertextual Web Search Engine, which became the blueprints for Google. PageRank is based
+Explanation:
+According to Larry Page and Sergey Brin's original white paper from Stanford, The Anatomy of a Large-Scale Hypertextual Web Search Engine, which became the blueprints for Google. PageRank is based
 on the random surfer model. Essentially, the damping factor is a decay factor. What it represents is the chance that a user will stopping clicking links and get bored with the current page and then request another
 random page (as with directly typing in a new URL rather than following a link on the current page). This was originally set to about 85% or 0.85. If the damping factor is 85% then there is assumed to be about a
 15% chance that a typical users won't follow any links on the page and instead navigate to a new random URL. And the computation of PageRank is a iterative process,  According to Lawrence Page and Sergey Brin,
 about 100 iterations are necessary to get a good approximation of the PageRank values of the whole web. So in our project, we selected the combination of 0.9 as the damping factor and 2 iterations and we
-obtained the above Spearman conefficient value.
+obtained the above Spearman coefficient value.
 
 The full results are below:
 0.9  2   0.4468566840544932
