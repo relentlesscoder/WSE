@@ -10,10 +10,7 @@ import org.jgrapht.DirectedGraph;
 import org.jgrapht.graph.DefaultDirectedGraph;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -150,6 +147,8 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   @Override
   public void compute() throws IOException {
     System.out.println("Computing using " + this.getClass().getName());
+    System.out.println("Iterative time: " + _options._iteration_times);
+    System.out.println("Damping factor: " + _options._dampingFactor);
     File folder  = new File(_options._corpusPrefix);
     //add filter to exclude hidden files
     FilenameFilter filenameFilter = new FilenameFilter() {
@@ -176,7 +175,6 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
     int counter = 0;
     while(counter < _options._iteration_times){
-      HashMap<Integer, Double> newPageRanks = new HashMap<Integer, Double>();
   for(int docid = 0; docid < files.length; docid++){
         if(_pageGraph.containsVertex(docid)){
           double pageRank = (1.0 - _options._dampingFactor) / files.length;
@@ -195,15 +193,14 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
             }
           }
           pageRank += _options._dampingFactor * otherRanks;
-          newPageRanks.put(docid, pageRank);
+          _pageRanks.put(docid, pageRank);
         }
         else{
-          newPageRanks.put(docid, 0.0);
+          _pageRanks.put(docid, 0.0);
         }
         // Update the progress bar after processing a document :)
         progressBar.update(docid, files.length);
       }
-      _pageRanks = newPageRanks;
       counter++;
     }
 
@@ -225,7 +222,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
     /**************************************************************************
      * Writing to file....
      *************************************************************************/
-    String filePath = _options._pagerankPrefix + "/_pageRanks.g6";
+    String filePath = _options._pagerankPrefix + "/pageRanks.g6";
 
     Kryo kryo = new Kryo();
     Output output = new Output(new FileOutputStream(filePath));

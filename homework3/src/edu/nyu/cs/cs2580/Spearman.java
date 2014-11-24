@@ -28,12 +28,6 @@ public class Spearman {
             HashMap<Integer, Double> pageRanks = loadPageRankFile(args[0]);
             HashMap<Integer, Integer> numViews = loadNumViewsFile(args[1]);
 
-            double sum = 0.0;
-            for(int i = 0; i < pageRanks.size(); i++){
-                sum += pageRanks.get(i);
-            }
-            System.out.println("Spearman rank sum: " + sum);
-
             //sort the HashMap and saved into LinkedHashMap which guarantees the insertion order
             LinkedHashMap<Integer, Double> sortedPageRanks = Util.sortHashMapByValues(pageRanks, true);
             LinkedHashMap<Integer, Integer> sortedNumViews = Util.sortHashMapByValues(numViews, true);
