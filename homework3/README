@@ -1,0 +1,74 @@
+Group ID G06: yl1949, ws951, sy1288
+
+---------------
+Compile and Run
+---------------
+
+1. Compile:
+
+We used Ant for our project environment setting. Thus, you could easily to compile the project using command:
+
+homework3$ ant clean compile	    
+
+2. Run:
+
+We used several external library, So, whenever compile the files, mining, constructing index or serving, the path to the library’s files need to be include in classpath.
+
+We recommended to include the path manual when running the program, because we implemented a progress bar which Ant couldn’t print it in real time.
+
+example:  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=mining --options=conf/engine.conf
+	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
+	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serv --options=conf/engine.conf
+	
+	  homework3$ java -cp ./bin/classes:./bin/lib/* Bhattacharyya prf.tsv qsim.tsv
+
+---------------------
+Implementation Detail
+---------------------
+
+1.Text Processing:
+
+i)   Using Snowball Porter Stemmer Java library for aggressive text stemming, all 
+library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
+
+ii)  Using Apache Lucene KStmmer Java Library for text stemming with validation, 
+all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer".
+
+iii) Using JSoup for HTML extracting.
+
+iV)  Using JFlex for text analysis. All regular expressions are based on Word 
+Boundaries defined on http://www.unicode.org/reports/tr29/.
+
+2.Constructing:
+
+i)   We set a memory threshold for inverted index and will write it into disk 
+once the threshold is met.
+
+ii)  After processing the corpus, we will merge all temporary written inverted index 
+files according to alphabetical order.
+
+iii) The merge process will produce many small files each host certain number of 
+posting list by order.
+
+iV)  The rest will be serialized to a single file.
+
+3.Serving:
+
+i)    We load the index object first.
+
+ii)   The inverted index is not loaded at first.
+
+iii)  Every time a query comes in, we will check whether if it exists in the inverted 
+index, if not, we will load it dynamically.
+
+iV)   We will load a all the posting list of the partial file every time.
+(There's the reason they are so small..)
+
+If the inverted index hits a threshold, then it will be cleared for now... (Due to our 
+implementation, it rarely happen...)
+
+4. Note
+i)    For long phrase, especially with common word or even stop word (such as "to be or not to be"...),
+it will takes relatively a long time to computer. especially in compress index...
+Just in case, we are sure that there'll be a a result and the result is at least intuitively valid.
+

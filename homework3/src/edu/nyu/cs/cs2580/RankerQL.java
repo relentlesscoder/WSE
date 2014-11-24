@@ -60,7 +60,7 @@ public class RankerQL extends Ranker {
 
     // Query vector
     List<String> queryList = new ArrayList<String>();
-    for (String term : query.terms) {
+    for (String term : query._tokens) {
       queryList.add(term);
     }
 

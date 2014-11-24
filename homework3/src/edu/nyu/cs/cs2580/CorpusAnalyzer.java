@@ -101,11 +101,6 @@ public abstract class CorpusAnalyzer {
   protected static final Pattern REDIRECT_PATTERN =
           Pattern.compile("<meta http-equiv=\"refresh\" content=\"0; url=([^ /#]*)\">");
 
-  // Utility for ignoring hidden files in the file system.
-  protected static boolean isValidDocument(File file) {
-    return !file.getName().startsWith(".");  // Remove hidden files.
-  }
-
   protected static String tryGetRedirectUrl(File file){
     String linkTarget = null;
     BufferedReader reader = null;

@@ -8,90 +8,107 @@ import java.util.*;
 public class RankerPhrase extends Ranker {
 
   private int n_gram = 2;
+  private IndexerInvertedCompressed compIndexer;
 
-  public RankerPhrase(Options options, CgiArguments arguments, Indexer indexer) {
+  public RankerPhrase(Options options, CgiArguments arguments,
+                           Indexer indexer) {
     super(options, arguments, indexer);
+    this.compIndexer = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
   }
 
   @Override
   public Vector<ScoredDocument> runQuery(Query query, int numResults) {
-    Vector<ScoredDocument> retrievalResults = new Vector<ScoredDocument>();
-    List<ScoredDocument> scoredDocuments = new ArrayList<ScoredDocument>();
 
-    for (int docId = 0; docId < _indexer.numDocs(); docId++) {
-      scoredDocuments.add(scoreDocument(query, docId));
-    }
+    Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
+    QueryPhrase queryPhrase = (QueryPhrase) query;
+    Document doc = null;
+    int docid = -1;
 
-    // Sort the scoredDocument decreasingly
-    Collections.sort(scoredDocuments, new Comparator<ScoredDocument>() {
-      @Override
-      public int compare(ScoredDocument o1, ScoredDocument o2) {
-        return (o2.getScore() > o1.getScore()) ? 1 : (o2.getScore() < o1
-            .getScore()) ? -1 : 0;
-      }
-    });
-
-    int insertCount = Math.min(numResults, scoredDocuments.size());
-    for (int i = 0; i < insertCount; i++) {
-      retrievalResults.add(scoredDocuments.get(i));
-    }
-    return retrievalResults;
-  }
-
-  public ScoredDocument scoreDocument(Query query, int docId) {
-    ScoredDocument scoredDocument = null;
-
-    // Query vector
-    List<String> queryList = new ArrayList<String>();
-    for (String term : query.terms) {
-      queryList.add(term);
-    }
-
-    DocumentFull document = (DocumentFull) _indexer.getDoc(docId);
-    List<String> titleVector = document.getConvertedTitleTokens();
-    List<String> bodyVector = document.getConvertedBodyTokens();
-
-    // n-gram equal to the query size if the query size is less than n-gram
-    n_gram = n_gram > queryList.size() ? queryList.size() : n_gram;
-
-    // generate the n-gram vector for query, document title and document body
-    List<String> nGramQueryList = nGramGenerator(queryList, n_gram);
-    List<String> nGramTitleList = nGramGenerator(titleVector, n_gram);
-    List<String> nGramBodyList = nGramGenerator(bodyVector, n_gram);
-
-    double score = 0.0;
-    for (int i = 0; i < nGramQueryList.size(); ++i) {
-      // Scan title
-      for (int j = 0; j < nGramTitleList.size(); ++j) {
-        if (nGramQueryList.get(i).equals(nGramTitleList.get(j))) {
+    findNextDoc: while ((doc = compIndexer.nextDoc(query, docid)) != null) {
+      // System.out.println("Searching Doc: " + doc._docid);
+      double score = 0.0;
+      List<String> terms = new ArrayList<String>(query._tokens);
+      for (int i=0; i<terms.size()-n_gram+1; i++) {
+        ArrayList<String> phraseTerms = new ArrayList<String>();
+        for (int j=0; j<n_gram; j++){
+          phraseTerms.add(terms.get(i+j));
+        }
+        int pos = nextPhrase(phraseTerms, doc._docid, -1);
+        if (pos == -1) {
+          continue;
+        }
+        while (pos != -1) {
           score += 1.0;
+          pos = nextPhrase(phraseTerms, doc._docid, pos);
         }
       }
-      // Scan body
-      for (int j = 0; j < nGramBodyList.size(); ++j) {
-        if (nGramQueryList.get(i).equals(nGramBodyList.get(j))) {
-          score += 1.0;
+      if (queryPhrase.containsPhrase) {
+        List<List<String>> phrases = queryPhrase.phrases;
+        for (List<String> phraseTerms : phrases) {
+          int pos = nextPhrase(phraseTerms, doc._docid, -1);
+          if (pos == -1) {
+            continue;
+          }
+          while (pos != -1) {
+            score += 3.0;
+            pos = nextPhrase(phraseTerms, doc._docid, pos);
+          }
         }
       }
+      rankQueue.add(new ScoredDocument(doc, score));
+      if (rankQueue.size() > numResults) {
+        rankQueue.poll();
+      }
+      docid = doc._docid;
     }
-
-    scoredDocument = new ScoredDocument(document, score);
-
-    return scoredDocument;
+    Vector<ScoredDocument> results = new Vector<ScoredDocument>();
+    ScoredDocument scoredDoc = null;
+    while ((scoredDoc = rankQueue.poll()) != null) {
+      results.add(scoredDoc);
+    }
+    Collections.sort(results, Collections.reverseOrder());
+    return results;
   }
 
-  // n-gram vector generator
-  private List<String> nGramGenerator(List<String> content, int n_gram) {
-    List<String> nGramList = new ArrayList<String>();
-    for (int i = 0; i <= content.size() - n_gram; i++) {
-      StringBuilder sb = new StringBuilder();
-      for (int j = i; j < i + n_gram; j++) {
-        sb.append(content.get(j)).append(" ");
+  private int nextPos(String term, int docid, int pos) {
+    int result = pos;
+
+    result = compIndexer.nextPos(term, docid, pos);
+
+    return result;
+  }
+
+  private int nextPhrase(List<String> tokens, int docid, int pos) {
+    String firstTerm = tokens.get(0);
+    findPhrase: while ((pos = nextPos(firstTerm, docid, pos)) != -1) {
+      int previousPos = pos;
+      for (int i = 1; i < tokens.size(); i++) {
+        pos = nextPos(tokens.get(i), docid, previousPos);
+        if (pos == -1) {
+          return -1;
+        }
+        if (pos != previousPos + 1) {
+          pos -= i + 1;
+          continue findPhrase;
+        }
+        previousPos++;
       }
-      nGramList.add(sb.substring(0, sb.length() - 1));
+      break;
     }
-    return nGramList;
+    // if (pos!=-1){
+    // System.out.println("Position found in Doc"+ docid +" : " + pos);
+    // }
+    return pos;
+  }
+
+  private int documentTermFrequency(String term, int docid) {
+    int result = 0;
+    result = compIndexer.documentTermFrequency(term, docid);
+
+    return result;
   }
 
 }
+
+

@@ -44,11 +44,16 @@ public class LogMinerNumviews extends LogMiner {
    */
   @Override
   public void compute() throws IOException {
-
-
     // Get the corpus file
     File corpusFolder = new File(_options._corpusPrefix);
-    File[] corpusFiles = corpusFolder.listFiles();
+    //add filter to exclude hidden files
+    FilenameFilter filenameFilter = new FilenameFilter() {
+      @Override
+      public boolean accept(File file, String name) {
+        return !name.startsWith(".");
+      }
+    };
+    File[] corpusFiles = corpusFolder.listFiles(filenameFilter);
 
     for (int docid = 0; docid < corpusFiles.length; docid++) {
       docidMap.put(docid, corpusFiles[docid].getName());

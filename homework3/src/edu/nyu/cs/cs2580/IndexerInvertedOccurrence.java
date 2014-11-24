@@ -46,7 +46,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   private Map<Integer, MetaPair> docMetaData = new HashMap<Integer, MetaPair>();
 
   private List<DocumentIndexed> documents = new ArrayList<DocumentIndexed>();
-  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
+//  private Map<String, Integer> docUrlMap = new HashMap<String, Integer>();
 
   long totalTermFrequency = 0;
 
@@ -92,9 +92,17 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
     ProgressBar progressBar = new ProgressBar();
 
+    // Get the corpus folder
     File folder = new File(_options._corpusPrefix);
-    File[] files = folder.listFiles();
-    int fileCount = 0;
+    //add filter to exclude hidden files
+    FilenameFilter filenameFilter = new FilenameFilter() {
+      @Override
+      public boolean accept(File file, String name) {
+        return !name.startsWith(".");
+      }
+    };
+    File[] files = folder.listFiles(filenameFilter);
+    int partialFileCount = 0;
 
     /**************************************************************************
      * First clean the folder....
@@ -118,13 +126,13 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
       processDocument(files[docid], docid);
       // Write to a file if memory usage has reach the memory threshold
       if (Util.hasReachThreshold(invertedIndex)) {
-        writePartialFile(fileCount);
-        fileCount++;
+        writePartialFile(partialFileCount);
+        partialFileCount++;
       }
     }
 
     // Write the rest partial inverted index...
-    writePartialFile(fileCount);
+    writePartialFile(partialFileCount);
 
     // Get the number of documents
     _numDocs = documents.size();
@@ -195,9 +203,10 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid, this);
     doc.setTitle(title);
-    doc.setUrl(file.getAbsolutePath());
+    doc.setUrl(file.getName());
+
     documents.add(doc);
-    docUrlMap.put(doc.getUrl(), docid);
+//    docUrlMap.put(doc.getUrl(), docid);
 
     // Populate the inverted index
     populateInvertedIndex(title + " " + bodyText, docid);
@@ -305,7 +314,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
         this.invertedIndex = loaded.invertedIndex;
         this.docTermFrequency = loaded.docTermFrequency;
 
-        this.docUrlMap = loaded.docUrlMap;
+//        this.docUrlMap = loaded.docUrlMap;
         this.meta = loaded.meta;
         this.docMetaData = loaded.docMetaData;
         this.dictionary = loaded.dictionary;
@@ -326,7 +335,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    List<String> queryTerms = query.terms;
+    List<String> queryTerms = new ArrayList<String>(query._tokens);
 
     // TODO
     try {
@@ -581,20 +590,32 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
 
   /**
    * Get the term via term ID
+   *
    * @param termId term ID
-   * @return term
+   * @return the term as a String, if the term does not exist in the
+   *         dictionary, return an empty String instead.
    */
   public String getTermById(int termId) {
-    return dictionary.inverse().get(termId);
+    if (dictionary.inverse().containsKey(termId)) {
+      return dictionary.inverse().get(termId);
+    } else {
+      return "";
+    }
   }
 
   /**
    * Get the term ID via term
+   *
    * @param term term
-   * @return term ID
+   * @return the term ID as an Integer, if the term does not exists in
+   *         the dictionary, return -1.
    */
   public int getTermId(String term) {
-    return dictionary.get(term);
+    if (dictionary.containsKey(term)) {
+      return dictionary.get(term);
+    } else {
+      return -1;
+    }
   }
 
   /**

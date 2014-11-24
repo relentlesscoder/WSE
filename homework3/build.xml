@@ -1,0 +1,42 @@
+<project>
+
+    <property name="src.dir"    value="src"/>
+
+    <property name="build.dir"  value="bin"/>
+    <property name="classes.dir"    value="${build.dir}/classes"/>
+    <property name="lib.dir"    value="lib"/>
+
+    <property name="main-class" value="edu.nyu.cs.cs2580.SearchEngine"/>
+    <property name="B-Compute"  value="${classes.dir}/edu.nyu.cs.cs2580.SearchEngine"/>
+
+
+
+    <path id="classpath">
+        <fileset dir="${build.dir}/${lib.dir}" includes="*.jar"/>
+    </path>
+
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes.dir}"/>
+        <copy todir="${build.dir}/${lib.dir}">
+            <fileset dir="${lib.dir}"/>
+        </copy>
+        <javac includeantruntime="false" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <target name="SearchEngine">
+        <java fork="true" classname="${main-class}" maxmemory="512m">
+            <arg value="${arg0}"/>
+            <arg value="${arg1}"/>
+            <classpath>
+                <pathelement path="${classes.dir}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>
+

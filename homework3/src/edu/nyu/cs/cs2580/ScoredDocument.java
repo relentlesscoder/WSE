@@ -60,11 +60,8 @@ class ScoredDocument implements Comparable<ScoredDocument> {
 
 	public String getServerUrl() {
 		String url = this._doc.getUrl();
-		int index = url.indexOf("\\data\\");
-		if (index != -1) {
-			url = url.substring(index + 1, url.length());
-			url = url.replace('\\', '/');
-		}
-		return url;
+		return "data/wiki/" + url;
 	}
+
+  public int getDocID() { return this._doc._docid; }
 }

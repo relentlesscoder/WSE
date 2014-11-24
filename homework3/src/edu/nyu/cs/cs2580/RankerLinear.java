@@ -48,7 +48,10 @@ public class RankerLinear extends Ranker {
     }
 
     // Sort the scoredDocument decreasingly
-    Collections.sort(scoredDocuments);
+    Collections.sort(scoredDocuments, Collections.reverseOrder());
+
+    // TODO: Fix later...
+    retrievalResults.addAll(scoredDocuments);
 
     return retrievalResults;
   }

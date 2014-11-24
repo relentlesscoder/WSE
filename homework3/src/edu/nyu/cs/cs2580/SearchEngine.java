@@ -256,8 +256,9 @@ public class SearchEngine {
 		// Establish the serving environment
 		InetSocketAddress addr = new InetSocketAddress(SearchEngine.PORT);
 		HttpServer server = HttpServer.create(addr, -1);
-		server.createContext("/", htmlHandler);
 		server.createContext("/search", handler);
+		server.createContext("/prf", handler);
+		server.createContext("/", htmlHandler);
 		server.setExecutor(Executors.newCachedThreadPool());
 		server.start();
 		System.out.println("Listening on port: "

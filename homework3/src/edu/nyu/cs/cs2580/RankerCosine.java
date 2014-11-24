@@ -51,7 +51,7 @@ public class RankerCosine extends Ranker {
   public ScoredDocument scoreDocument(Query query, int docId) {
     ScoredDocument scoredDocument = null;
 
-    List<String> tokens = query.terms;
+    List<String> tokens = new ArrayList<String>(query._tokens);
     // <Term, Term frequency>
     Map<String, Integer> queryMap = new HashMap<String, Integer>();
 

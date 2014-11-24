@@ -66,7 +66,7 @@ public class RankerComprehensive extends Ranker {
 
     // Query vector
     List<String> queryList = new ArrayList<String>();
-    for (String term : query.terms) {
+    for (String term : query._tokens) {
       queryList.add(term);
     }
 
@@ -96,8 +96,7 @@ public class RankerComprehensive extends Ranker {
 
     // Considered page rank scores...
     score = score * document.getPageRank();
-
-
+    score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
 
     scoredDocument = new ScoredDocument(document, score);
 
