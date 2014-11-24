@@ -335,7 +335,7 @@ public class IndexerInvertedOccurrence extends Indexer implements Serializable {
   @Override
   public Document nextDoc(Query query, int docid) {
     checkNotNull(docid, "docid can not be null!");
-    List<String> queryTerms = query.terms;
+    List<String> queryTerms = new ArrayList<String>(query._tokens);
 
     // TODO
     try {

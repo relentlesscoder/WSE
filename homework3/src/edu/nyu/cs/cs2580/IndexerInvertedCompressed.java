@@ -476,7 +476,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   @Override
   public Document nextDoc(Query query, int docid) {
-    List<String> queryTerms = query.terms;
+    List<String> queryTerms = new ArrayList<String>(query._tokens);
 
     // Dynamic loading :)
     try {
@@ -502,7 +502,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @return Document
    */
   public Document nextDocLoose(Query query, int docid) {
-    List<String> queryTerms = query.terms;
+    List<String> queryTerms = new ArrayList<String>(query._tokens);
 
     try {
       loadPostingList(queryTerms);
@@ -1216,7 +1216,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // Clean if not enough memory...
       // TODO: Fix later
-      if (docTermFrequency.size() > 200) {
+      if (docTermFrequency.size() > 1000 ) {
         docTermFrequency.clear();
       }
 

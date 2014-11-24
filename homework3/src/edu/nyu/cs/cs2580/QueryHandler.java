@@ -218,7 +218,7 @@
 			}
 			processedQuery.processQuery();
 
-			if (processedQuery.terms == null || processedQuery.terms.size() <= 0) {
+			if (processedQuery._tokens == null || processedQuery._tokens.size() <= 0) {
 				message = "Invalid query text!";
 				Headers responseHeaders = exchange.getResponseHeaders();
 				responseHeaders.set("Content-Type", "text/plain");
@@ -288,7 +288,6 @@
 				try {
 					StringBuilder sb = new StringBuilder();
 					String line = reader.readLine();
-
 					while (line != null) {
 						sb.append(line);
 						sb.append("\n");

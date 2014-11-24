@@ -4,7 +4,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 import java.io.StringReader;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -17,59 +17,70 @@ import java.util.regex.Pattern;
  */
 public class QueryPhrase extends Query {
 
-	// public ListMultimap<String, String> _phrases = ArrayListMultimap.create();
-	public List<List<String>> phrases = new ArrayList<List<String>>();
-	// public List<String> soloTerms = new ArrayList<String>();
-	public boolean containsPhrase;
+  public List<List<String>> phrases = new ArrayList<List<String>>();
+  public List<String> soloTerms = new ArrayList<String>();
+  public boolean containsPhrase;
 
-	public QueryPhrase(String query, boolean containsPhrase) {
-		super(query);
-		this.containsPhrase = containsPhrase;
-	}
+  public QueryPhrase(String query, boolean containsPhrase) {
+    super(query);
+    this.containsPhrase = containsPhrase;
+  }
 
-	@Override
-	public void processQuery() {
-		Set<String> uniqueTokens = new HashSet<String>();
-		Tokenizer tokenizer = new Tokenizer(new StringReader(query));
+  @Override
+  public void processQuery() {
+    if (query == null) {
+      return;
+    }
 
-		if (query == null) {
-			return;
-		}
+    Set<String> uniqueTokens = new LinkedHashSet<String>();
+    Tokenizer tokenizer = new Tokenizer(new StringReader(query));
 
-		// Process all phrases first
-		if (containsPhrase) {
-			Pattern p = Pattern.compile("(\".+?\")");
-			Matcher m = p.matcher(query);
+    // Add all terms appearing in query
+    while (tokenizer.hasNext()) {
+      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      // Delete the stop words for normal query terms
+      term = Tokenizer.stopwordFilter(term);
+      term = Tokenizer.krovetzStemmerFilter(term);
+      checkNotNull(term,
+              "Term can not be null... or what did you do to the term, tokenizer!?)");
+      uniqueTokens.add(term);
+    }
 
-			// Store all phrases and terms (including the stop words)
-			while (m.find()) {
-				List<String> phraseTerms = new ArrayList<String>();
-				String phrase = m.group(1).replaceAll("\"", "").trim();
-				tokenizer = new Tokenizer(new StringReader(phrase));
+    if (containsPhrase){
+      Pattern p = Pattern.compile("(\".+?\")");
+      Matcher m = p.matcher(query);
 
-				while (tokenizer.hasNext()) {
-					String term = Tokenizer.lowercaseFilter(tokenizer.getText());
-					term = Tokenizer.krovetzStemmerFilter(term);
-					phraseTerms.add(term);
-					uniqueTokens.add(term);
-				}
-				// Add the phrase :)
-				phrases.add(phraseTerms);
-			}
-		}
+      while (m.find()) {
+        String phrase = m.group(1).replaceAll("\"", "").trim();
+        if (phrase.length() == 0) {
+          continue;
+        }
+        List<String> phraseTerms = new ArrayList<String>();
+        tokenizer = new Tokenizer(new StringReader(phrase));
 
-		while (tokenizer.hasNext()) {
-			String term = Tokenizer.lowercaseFilter(tokenizer.getText());
-			// Delete the stop words for normal query terms
-			term = Tokenizer.stopwordFilter(term);
-			term = Tokenizer.krovetzStemmerFilter(term);
-			checkNotNull(term,
-			    "Term can not be null... or what did you do to the term, tokenizer!?)");
-			uniqueTokens.add(term);
-		}
-
-		for (String term : uniqueTokens) {
-			terms.add(term);
-		}
-	}
+        while (tokenizer.hasNext()) {
+          String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+          term = Tokenizer.krovetzStemmerFilter(term);
+          phraseTerms.add(term);
+        }
+        // Add the phrase :)
+        phrases.add(phraseTerms);
+      }
+      Set<String> phraseTermSet = new LinkedHashSet<String>();
+      for (List<String> phrase : phrases){
+        phraseTermSet.addAll(phrase);
+      }
+      for(String term : uniqueTokens){
+        if (!phraseTermSet.contains(term)){
+            soloTerms.add(term);
+          }
+      }
+      uniqueTokens.addAll(phraseTermSet);
+      _tokens.addAll(uniqueTokens);
+    }else{
+      for (String term : uniqueTokens) {
+        _tokens.add(term);
+      }
+    }
+  }
 }
