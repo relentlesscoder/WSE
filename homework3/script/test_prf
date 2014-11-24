@@ -6,7 +6,7 @@ i=0
 while read q ; do
   i=$((i + 1));
   prfout=${dir}/prf-$i.tsv;
-  curl "http://localhost:25806/prf?query=$q&ranker=comprehensive&numdocs=100&numterms=50" > $prfout;
+  curl "http://localhost:25806/prf?query=$q&ranker=cosine&numdocs=100&numterms=50" > $prfout;
   echo $q:$prfout >> ${dir}/prf.tsv
 done < ./data/queries.tsv
 
