@@ -242,7 +242,7 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
   public Object load() throws IOException {
     System.out.println("Loading using " + this.getClass().getName());
 
-    File file = new File(_options._pagerankPrefix + "/_pageRanks.g6");
+    File file = new File(_options._pagerankPrefix + "/pageRanks.g6");
     Kryo kryo = new Kryo();
     Input input = new Input(new FileInputStream(file));
 

@@ -128,8 +128,12 @@
 				output.append("<li class=\"divDocument" + "\">\r\n");
 				output.append("<a href=\"" + scoredDocument.getServerUrl()
 					+ "\" class=\"doc_title\">" + scoredDocument.getTitle() + "</a>\r\n");
-				output.append("<p class=\"score\">" + scoredDocument.getScore()
-					+ "</p>\r\n");
+				output.append("<p class=\"score\">Score: " + scoredDocument.getScore()
+						+ "</p>\r\n");
+				output.append("<p class=\"score\">Rank: " + scoredDocument.get_pageRank()
+						+ "</p>\r\n");
+				output.append("<p class=\"score\">Views: " + scoredDocument.get_numView()
+						+ "</p>\r\n");
 				output.append("</li>\r\n");
 			}
 			output.append("</ul>\r\n");
