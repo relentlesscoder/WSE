@@ -88,7 +88,7 @@ public class RankerQL extends Ranker {
 
     score = Math.exp(score);
 
-    scoredDocument = new ScoredDocument(document, score);
+    scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 
     return scoredDocument;
   }

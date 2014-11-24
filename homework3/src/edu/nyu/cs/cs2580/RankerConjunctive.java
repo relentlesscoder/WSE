@@ -75,7 +75,7 @@ public class RankerConjunctive extends Ranker {
 				break;
 			}
 
-			rankQueue.add(new ScoredDocument(doc, 1.0));
+			rankQueue.add(new ScoredDocument(doc, 1.0, doc.getPageRank(), doc.getNumViews()));
 			if (rankQueue.size() > numResults) {
 				rankQueue.poll();
 			}
@@ -134,8 +134,7 @@ public class RankerConjunctive extends Ranker {
         }
       }
 
-			// System.out.println(doc._docid + " " + score);
-			rankQueue.add(new ScoredDocument(doc, score));
+			rankQueue.add(new ScoredDocument(doc, score, doc.getPageRank(), doc.getNumViews()));
 			if (rankQueue.size() > numResults) {
 				rankQueue.poll();
 			}

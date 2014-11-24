@@ -56,6 +56,6 @@ class RankerFullScan extends Ranker {
 				break;
 			}
 		}
-		return new ScoredDocument(doc, score);
+		return new ScoredDocument(doc, score, doc.getPageRank(), doc.getNumViews());
 	}
 }

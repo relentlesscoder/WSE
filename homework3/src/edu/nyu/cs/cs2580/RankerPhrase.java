@@ -56,7 +56,7 @@ public class RankerPhrase extends Ranker {
           }
         }
       }
-      rankQueue.add(new ScoredDocument(doc, score));
+      rankQueue.add(new ScoredDocument(doc, score, doc.getPageRank(), doc.getNumViews()));
       if (rankQueue.size() > numResults) {
         rankQueue.poll();
       }

@@ -25,7 +25,7 @@ public class RankerNumViews extends Ranker {
         break;
       }
 
-      rankQueue.add(new ScoredDocument(document, document.getNumViews()));
+      rankQueue.add(new ScoredDocument(document, document.getNumViews(), document.getPageRank(), document.getNumViews()));
       nextDocid = document._docid;
 
       if (rankQueue.size() > numResults) {

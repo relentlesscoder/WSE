@@ -98,7 +98,7 @@ public class RankerComprehensive extends Ranker {
     score = score * document.getPageRank();
     score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
 
-    scoredDocument = new ScoredDocument(document, score);
+    scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 
     return scoredDocument;
   }
