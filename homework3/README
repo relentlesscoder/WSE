@@ -16,8 +16,8 @@ Group ID G06: yl1949, ws951, sy1288 :)
 ### We recommended to include the path manual when running the program, because we implemented a progress bar which Ant can not print it in real time.
 
 ### example:
-  <pre><code>
-    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=mining --options=conf/engine.conf
+  	<pre><code>
+      homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=mining --options=conf/engine.conf
 	</code></pre>
 	<pre><code>
 	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
@@ -26,8 +26,11 @@ Group ID G06: yl1949, ws951, sy1288 :)
 	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
 	</code></pre>
 	<pre><code>
-	  homework3$ java -cp ./bin/classes:./bin/lib/* Bhattacharyya prf.tsv qsim.tsv
+	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Bhattacharyya prf.tsv qsim.tsv
 	</code></pre>
+	<pre><code>
+      homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Spearman data/pageRank/pageRanks.g6 data/numView/numViews.g6
+    </code></pre>
 
 #Implementation Detail
 
