@@ -66,7 +66,13 @@ public abstract class CorpusAnalyzer {
       while (linkTarget == null) {
         if (_matcher.find()) {
           if ((linkTarget = _matcher.group(1)) != null) {
-            return linkTarget;
+            //filter external links out
+            if(!isExternalLink(linkTarget)){
+              return linkTarget;
+            }
+            else{
+              linkTarget = null;
+            }
           }
         }
         String line = _reader.readLine();
@@ -79,11 +85,65 @@ public abstract class CorpusAnalyzer {
       }
       return linkTarget;
     }
-  };
 
-  // Utility for ignoring hidden files in the file system.
-  protected static boolean isValidDocument(File file) {
-    return !file.getName().startsWith(".");  // Remove hidden files.
+    private static boolean isExternalLink(String link){
+      boolean isValid = false;
+
+      if(link.contains("class=\"external text\"")){
+        isValid = true;
+      }
+
+      return isValid;
+    }
+
+  }
+
+  protected static final Pattern REDIRECT_PATTERN =
+          Pattern.compile("<meta http-equiv=\"refresh\" content=\"0; url=([^ /#]*)\">");
+
+  protected static String tryGetRedirectUrl(File file){
+    String linkTarget = null;
+    BufferedReader reader = null;
+
+    try {
+      reader = new BufferedReader(new FileReader(file));
+      String line = reader.readLine();
+      if(line != null){
+        Matcher matcher = REDIRECT_PATTERN.matcher(line);
+
+        //only need to check head for checking redirect page
+        while (!line.startsWith("</head>")){
+          if(matcher.find()){
+            if((linkTarget = matcher.group(1)) != null){
+              return linkTarget;
+            }
+          }
+
+          line = reader.readLine();
+          if(line != null){
+            matcher = REDIRECT_PATTERN.matcher(line);
+          }
+          else{
+            break;
+          }
+        }
+      }
+    }
+    catch (Exception e){
+      e.printStackTrace();
+    }
+    finally {
+      try {
+        if(reader != null){
+          reader.close();
+        }
+      }
+      catch (Exception e){
+        e.printStackTrace();
+      }
+    }
+
+    return linkTarget;
   }
   
   // Options to configure each concrete CorpusAnalyzer.

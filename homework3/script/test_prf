@@ -1,0 +1,13 @@
+#!/bin/bash
+dir=results
+rm -rf ${dir}
+mkdir $dir
+i=0
+while read q ; do
+  i=$((i + 1));
+  prfout=${dir}/prf-$i.tsv;
+  curl "http://localhost:25806/prf?query=$q&ranker=cosine&numdocs=100&numterms=50" > $prfout;
+  echo $q:$prfout >> ${dir}/prf.tsv
+done < ./data/queries.tsv
+
+java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Bhattacharyya ${dir}/prf.tsv ${dir}/qsim.tsv
