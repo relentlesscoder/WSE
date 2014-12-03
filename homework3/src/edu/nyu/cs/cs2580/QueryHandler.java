@@ -1,8 +1,10 @@
 	package edu.nyu.cs.cs2580;
 
 	import java.io.*;
+	import java.util.ArrayList;
 	import java.util.Vector;
 
+	import com.google.gson.Gson;
 	import com.sun.net.httpserver.Headers;
 	import com.sun.net.httpserver.HttpExchange;
 	import com.sun.net.httpserver.HttpHandler;
@@ -42,7 +44,7 @@
 
 			// The output format.
 			public enum OutputFormat {
-				TEXT, HTML,
+				TEXT, HTML, JSON,
 			}
 
 			public OutputFormat _outputFormat = OutputFormat.TEXT;
@@ -100,6 +102,8 @@
 		private Options _options;
 
 		private static final String PLACE_HOLDER = "|Dynamic-Content-Place-Holder|";
+		private static final int STATUS_SUCCESS = 0;
+		private static final String STATUS_SUCCESS_MSG = "SUCCESS";
 
 		public QueryHandler(Options options, Indexer indexer) {
 			_indexer = indexer;
@@ -130,15 +134,34 @@
 					+ "\" class=\"doc_title\">" + scoredDocument.getTitle() + "</a>\r\n");
 				output.append("<p class=\"score\">Score: " + scoredDocument.getScore()
 						+ "</p>\r\n");
-				output.append("<p class=\"score\">Rank: " + scoredDocument.get_pageRank()
+				output.append("<p class=\"score\">Rank: " + scoredDocument.getPageRank()
 						+ "</p>\r\n");
-				output.append("<p class=\"score\">Views: " + scoredDocument.get_numView()
+				output.append("<p class=\"score\">Views: " + scoredDocument.getNumView()
 						+ "</p>\r\n");
 				output.append("</li>\r\n");
 			}
 			output.append("</ul>\r\n");
 			output.append("</div>\r\n");
 			return template.replace(PLACE_HOLDER, output.toString());
+		}
+
+		private String constructJsonOutput(String queryText,
+										   Vector<ScoredDocument> scoredDocuments){
+
+			ArrayList<SearchResult> results = new ArrayList<SearchResult>();
+			SearchResult result;
+			for (ScoredDocument scoredDocument : scoredDocuments) {
+				result = new SearchResult(scoredDocument.getTitle(), scoredDocument.getServerUrl(),
+						scoredDocument.getScore(), scoredDocument.getPageRank(), scoredDocument.getNumView());
+				results.add(result);
+			}
+			//TODO: add error handling status
+			SearchStatus status = new SearchStatus(STATUS_SUCCESS, STATUS_SUCCESS_MSG);
+			SearchResponse searchResponse = new SearchResponse(queryText, results, status);
+			Gson gson = new Gson();
+			String response = gson.toJson(searchResponse);
+
+			return response;
 		}
 
 		public void handle(HttpExchange exchange) throws IOException {
@@ -262,6 +285,19 @@
 				responseBody.flush();
 				responseBody.close();
 				break;
+			}
+			  case JSON:{
+				  String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs);
+				  Headers responseHeaders = exchange.getResponseHeaders();
+				  responseHeaders.set("Server", "Java JSON API");
+				  responseHeaders.set("Content-Type", "application/json");
+				  responseHeaders.set("Cache-Control", "no-cache");
+				  exchange.sendResponseHeaders(200, queryResponse.getBytes().length);
+				  OutputStream responseBody = exchange.getResponseBody();
+				  responseBody.write(queryResponse.getBytes());
+				  responseBody.flush();
+				  responseBody.close();
+				  break;
 			}
 			default:
 			  // nothing
