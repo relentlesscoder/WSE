@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.Utils;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
@@ -6,6 +6,10 @@ import com.esotericsoftware.kryo.io.Output;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multiset;
+import com.google.common.primitives.Bytes;
+import edu.nyu.cs.cs2580.MetaPair;
+import edu.nyu.cs.cs2580.SearchEngine;
+
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -15,7 +19,7 @@ import java.util.*;
 public class Util {
   private static final long MEGABYTE = 1024L * 1024L;
   private static final long PARTIAL_FILE_SIZE = 6 * MEGABYTE;
-  protected static final long MAX_INVERTED_INDEX_SIZE = 12 * MEGABYTE;
+  public static final long MAX_INVERTED_INDEX_SIZE = 12 * MEGABYTE;
 
   /**
    * Convert the time stamp to a proper time format.
@@ -29,32 +33,6 @@ public class Util {
     minutes = (timeStamp / (1000 * 60)) % 60;
     hours = (timeStamp / (1000 * 60 * 60)) % 24;
     return String.format("%02d:%02d:%02d:%03d", hours, minutes, seconds, millis);
-  }
-
-  /**
-   * Serialize the object.
-   * @param obj object
-   * @return array of bytes
-   * @throws IOException
-   */
-  public static byte[] serialize(Object obj) throws IOException {
-    ByteArrayOutputStream out = new ByteArrayOutputStream();
-    ObjectOutputStream os = new ObjectOutputStream(out);
-    os.writeObject(obj);
-    return out.toByteArray();
-  }
-
-  /**
-   * Deserialize the object
-   * @param data object represented in array of bytes
-   * @return object
-   * @throws IOException
-   * @throws ClassNotFoundException
-   */
-  public static Object deserialize(byte[] data) throws IOException, ClassNotFoundException {
-    ByteArrayInputStream in = new ByteArrayInputStream(data);
-    ObjectInputStream is = new ObjectInputStream(in);
-    return is.readObject();
   }
 
   /**
@@ -149,21 +127,26 @@ public class Util {
     Kryo kryo = new Kryo();
     Output output = new Output(new FileOutputStream(indexPartialFile));
 
+    // First write the number of entries...
     int numOfEntries = docTermFrequency.keySet().size();
     kryo.writeObject(output, numOfEntries);
 
+    // For each document, write all terms and corresponding frequency.
     for (int docId : docTermFrequency.keySet()) {
-      Map<Integer, Integer> tmpMap = new HashMap<Integer, Integer>();
       Multiset<Integer> tmpMultiset = docTermFrequency.get(docId);
 
-      for (Multiset.Entry entry : tmpMultiset.entrySet()) {
-        int termId = (Integer) entry.getElement();
-        int count = (Integer) entry.getCount();
-        tmpMap.put(termId, count);
+      // Write the document ID first
+      kryo.writeObject(output, docId);
+
+      List<Byte> termIdAndFrequency = new ArrayList<Byte>();
+
+      for (int termId : tmpMultiset.elementSet()) {
+        // Add the encoded termId and count/frequency to the list
+        termIdAndFrequency.addAll(VByteUtil.vByteEncoding(termId));
+        termIdAndFrequency.addAll(VByteUtil.vByteEncoding(tmpMultiset.count(termId)));
       }
 
-      kryo.writeObject(output, docId);
-      kryo.writeObject(output, tmpMap);
+      kryo.writeObject(output, termIdAndFrequency);
     }
 
     output.close();
@@ -219,19 +202,13 @@ public class Util {
       int numOfEntries = kryo.readObject(inputs[i], Integer.class);
 
       for (int j = 0; j < numOfEntries; j++) {
-        Multiset<Integer> tmpMultiset = HashMultiset.create();
         int docid = kryo.readObject(inputs[i], Integer.class);
-        Map<Integer, Integer> tmpMap = kryo.readObject(inputs[i], HashMap.class);
 
-        for (Map.Entry entry : tmpMap.entrySet()) {
-          int termId = (Integer) entry.getKey();
-          int count = (Integer) entry.getValue();
-          tmpMultiset.setCount(termId, count);
-        }
+        List<Byte> termIdAndFrequency = kryo.readObject(inputs[i], ArrayList.class);
 
         currentPos = raf.length();
         raf.seek(currentPos);
-        raf.write(Util.serialize(tmpMultiset));
+        raf.write(Bytes.toArray(termIdAndFrequency));
 
         // Assume the posting list will not be too big...
         length = (int) (raf.length() - currentPos);

@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.VByteEncode;
+package edu.nyu.cs.cs2580.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -131,6 +131,25 @@ public class VByteUtil {
       }
 
       tmpByteList.add(byteList.get(i++));
+
+      res.add(vByteDecoding(tmpByteList));
+    }
+
+    return res;
+  }
+
+  public static List<Integer> vByteDecodingList(byte[] byteArray) {
+    List<Integer> res = new ArrayList<Integer>();
+    int i = 0;
+
+    while (i < byteArray.length) {
+      List<Byte> tmpByteList = new ArrayList<Byte>();
+
+      while (!isEndOfNum(byteArray[i])) {
+        tmpByteList.add(byteArray[i++]);
+      }
+
+      tmpByteList.add(byteArray[i++]);
 
       res.add(vByteDecoding(tmpByteList));
     }

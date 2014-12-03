@@ -16,6 +16,7 @@ import java.util.Set;
 import java.util.Vector;
 
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.Utils.Util;
 
 /**
  * Instructor's implementation of a simple full scan Indexer, used in HW1.

@@ -3,7 +3,13 @@ package edu.nyu.cs.cs2580;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
+import edu.nyu.cs.cs2580.*;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.Document;
+import edu.nyu.cs.cs2580.DocumentIndexed;
+import edu.nyu.cs.cs2580.Utils.ProgressBar;
+import edu.nyu.cs.cs2580.Utils.SerializeUtil;
+import edu.nyu.cs.cs2580.Utils.Util;
 import org.jsoup.Jsoup;
 
 import java.io.*;
@@ -595,7 +601,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
 
       currentPos = raf.length();
       raf.seek(currentPos);
-      raf.write(Util.serialize(outputPostingList));
+      raf.write(SerializeUtil.serialize(outputPostingList));
 
       // Assume the posting list will not be too big...
       length = (int) (raf.length() - currentPos);
@@ -676,7 +682,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         raf.seek(metaPair.getStartPos());
         byte[] postingListBytes = new byte[metaPair.getLength()];
         raf.readFully(postingListBytes);
-        List<Integer> postingList = (List<Integer>) Util
+        List<Integer> postingList = (List<Integer>) SerializeUtil
             .deserialize(postingListBytes);
         invertedIndex.get(termId).addAll(postingList);
         count++;
@@ -710,7 +716,7 @@ public class IndexerInvertedDoconly extends Indexer implements Serializable {
         raf.seek(metaPair.getStartPos());
         byte[] docTermFrequencyByte = new byte[metaPair.getLength()];
         raf.readFully(docTermFrequencyByte);
-        Multiset<Integer> docTermFrequency = (Multiset<Integer>) Util.deserialize(docTermFrequencyByte);
+        Multiset<Integer> docTermFrequency = (Multiset<Integer>) SerializeUtil.deserialize(docTermFrequencyByte);
         this.docTermFrequency.put(docid, docTermFrequency);
         raf.close();
       } catch (IOException e) {

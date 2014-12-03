@@ -22,7 +22,7 @@ import java.util.Set;
  * @author fdiaz
  * @author congyu
  */
-class Document implements Serializable {
+public class Document implements Serializable {
   private static final long serialVersionUID = -539495106357836976L;
 
   /**

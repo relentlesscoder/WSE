@@ -5,17 +5,13 @@ import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.VByteEncode.VByteUtil;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import edu.nyu.cs.cs2580.Utils.Util;
+import edu.nyu.cs.cs2580.Utils.ProgressBar;
+import edu.nyu.cs.cs2580.Utils.VByteUtil;
 import org.jsoup.Jsoup;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.regex.Pattern;
+import java.util.*;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -26,7 +22,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   private static final long serialVersionUID = 1L;
   // K is the length of interval for the skip pointer of the posting list.
-  private static final int K = 5000;
+  private static final int K = 10000;
 
   // Dictionary
   // Key: Term
@@ -92,7 +88,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     docTermFrequency.clear();
 
 //    duration = System.currentTimeMillis() - startTimeStamp;
-//    System.out.println(Util.convertMillis(duration));
+//    System.out.println(Utils.convertMillis(duration));
   }
 
   private class ConstructTmpData {
@@ -1001,7 +997,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    *
    * @param termId term ID
    * @return the term as a String, if the term does not exist in the
-   *         dictionary, return an empty String instead.
+   * dictionary, return an empty String instead.
    */
   public String getTermById(int termId) {
     if (dictionary.inverse().containsKey(termId)) {
@@ -1016,7 +1012,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    *
    * @param term term
    * @return the term ID as an Integer, if the term does not exists in
-   *         the dictionary, return -1.
+   * the dictionary, return -1.
    */
   public int getTermId(String term) {
     if (dictionary.containsKey(term)) {
@@ -1028,6 +1024,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * Get the total number of views
+   *
    * @return {@code totalNumViews}
    */
   public long getTotalNumViews() {
@@ -1228,7 +1225,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
       // Clean if not enough memory...
       // TODO: Fix later
-      if (docTermFrequency.size() > 1000 ) {
+      if (docTermFrequency.size() > 1000) {
         docTermFrequency.clear();
       }
 
@@ -1237,12 +1234,16 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         raf.seek(metaPair.getStartPos());
         byte[] docTermFrequencyByte = new byte[metaPair.getLength()];
         raf.readFully(docTermFrequencyByte);
-        Multiset<Integer> docTermFrequency = (Multiset<Integer>) Util.deserialize(docTermFrequencyByte);
+        List<Integer> termIdAndFrequency = VByteUtil.vByteDecodingList(docTermFrequencyByte);
+        Multiset<Integer> docTermFrequency = HashMultiset.create();
+
+        for (int i = 0; i < termIdAndFrequency.size() / 2; i++) {
+          docTermFrequency.setCount(termIdAndFrequency.get(i), termIdAndFrequency.get(i + 1));
+        }
+
         this.docTermFrequency.put(docid, docTermFrequency);
         raf.close();
       } catch (IOException e) {
-        e.printStackTrace();
-      } catch (ClassNotFoundException e) {
         e.printStackTrace();
       }
     }
