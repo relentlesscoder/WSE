@@ -52,19 +52,19 @@ class ScoredDocument implements Comparable<ScoredDocument> {
 		this._score = score;
 	}
 
-	public double get_pageRank() {
+	public double getPageRank() {
 		return _pageRank;
 	}
 
-	public void set_pageRank(double _pageRank) {
+	public void setPageRank(double _pageRank) {
 		this._pageRank = _pageRank;
 	}
 
-	public int get_numView() {
+	public int getNumView() {
 		return _numView;
 	}
 
-	public void set_numView(int _numView) {
+	public void setNumView(int _numView) {
 		this._numView = _numView;
 	}
 
