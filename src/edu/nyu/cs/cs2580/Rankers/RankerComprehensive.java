@@ -76,7 +76,7 @@ public class RankerComprehensive extends Ranker {
       queryList.add(term);
     }
 
-    DocumentIndexed document = indexerInvertedCompressed.getDoc(docId);
+    Document document = indexerInvertedCompressed.getDoc(docId);
 
     // Score the document. Here we have provided a very simple ranking model,
     // where a document is scored 1.0 if it gets hit by at least one query
