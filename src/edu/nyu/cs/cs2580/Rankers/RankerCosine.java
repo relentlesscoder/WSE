@@ -71,7 +71,7 @@ public class RankerCosine extends Ranker {
 
     double score = cosineSimilarity(docId, queryMap);
 
-    DocumentIndexed document = indexerInvertedCompressed.getDoc(docId);
+    Document document = indexerInvertedCompressed.getDoc(docId);
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
     return scoredDocument;
   }

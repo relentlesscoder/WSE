@@ -88,11 +88,11 @@ public class Util {
    * Write partial compressed inverted index to a file
    * @param invertedIndex inverted index
    * @param _options configs
-   * @param fileNum file number
+   * @param fileName file name
    * @throws IOException
    */
-  public static void writePartialInvertedIndexCompress(Multimap<Integer, Byte> invertedIndex, SearchEngine.Options _options, int fileNum) throws IOException {
-    String indexPartialFile = _options._indexPrefix + "/corpus" + String.format("%03d", fileNum) + ".idx";
+  public static void writePartialInvertedIndexCompress(Multimap<Integer, Byte> invertedIndex, SearchEngine.Options _options, String fileName) throws IOException {
+    String indexPartialFile = _options._indexPrefix + "/" + fileName;
     Output output = new Output(new FileOutputStream(indexPartialFile));
     Kryo kryo = new Kryo();
 
@@ -118,11 +118,11 @@ public class Util {
    * Write partial document term frequency to a file
    * @param docTermFrequency document term frequency
    * @param _options configs
-   * @param fileNum file number
+   * @param fileName file name
    * @throws IOException
    */
-  public static void writePartialDocuments(Map<Integer, Multiset<Integer>> docTermFrequency, SearchEngine.Options _options, int fileNum) throws IOException {
-    String indexPartialFile = _options._indexPrefix + "/documents" + String.format("%03d", fileNum) + ".idx";
+  public static void writePartialDocuments(Map<Integer, Multiset<Integer>> docTermFrequency, SearchEngine.Options _options, String fileName) throws IOException {
+    String indexPartialFile = _options._indexPrefix + "/" + fileName;
     Kryo kryo = new Kryo();
     Output output = new Output(new FileOutputStream(indexPartialFile));
 
@@ -151,85 +151,7 @@ public class Util {
     output.close();
   }
 
-  /**
-   * Merge all partial doc term frequency file...
-   * @param docMetaData meta data
-   * @param _options configs
-   * @throws IOException
-   */
-  public static void mergeDocumentTermFrequency(Map<Integer, Offsets> docMetaData, SearchEngine.Options _options) throws IOException {
-    String invertedIndexFileName = _options._indexPrefix + "/documents.idx";
-    RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
-    long currentPos = 0;
-    int length = 0;
 
-    /**************************************************************************
-     * Prepare merging...
-     *************************************************************************/
-    File folder = new File(_options._indexPrefix);
-    int numOfPartialIndex = 0;
-
-    // Get the number of partial documents file
-    for (File f : folder.listFiles()) {
-      if (f.getName().matches("^documents[0-9]+\\.idx")) {
-        numOfPartialIndex++;
-      }
-    }
-
-    Kryo kryo = new Kryo();
-    File[] files = new File[numOfPartialIndex];
-    Input[] inputs = new Input[numOfPartialIndex];
-
-    // Initialize the files, inputs and
-    // Then get the quantity of the posting list for each partial file
-    for (int i = 0; i < numOfPartialIndex; i++) {
-      for (File file : folder.listFiles()) {
-        if (file.getName().matches(
-            "^documents" + String.format("%03d", i) + "\\.idx")) {
-          files[i] = file;
-          inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
-          break;
-        }
-      }
-    }
-
-    /**************************************************************************
-     * Start merging...
-     *************************************************************************/
-    int docCount = 0;
-    for (int i = 0; i < files.length; i++) {
-      int numOfEntries = kryo.readObject(inputs[i], Integer.class);
-
-      for (int j = 0; j < numOfEntries; j++) {
-        int docid = kryo.readObject(inputs[i], Integer.class);
-
-        List<Byte> termIdAndFrequency = kryo.readObject(inputs[i], ArrayList.class);
-
-        currentPos = raf.length();
-        raf.seek(currentPos);
-        raf.write(Bytes.toArray(termIdAndFrequency));
-
-        // Assume the posting list will not be too big...
-        length = (int) (raf.length() - currentPos);
-        docMetaData.put(docid, new Offsets(currentPos, length));
-
-        docCount++;
-      }
-
-      inputs[i].close();
-    }
-    System.out.println("Merging docs...: " + docCount);
-
-    /**************************************************************************
-     * Wrapping up...
-     *************************************************************************/
-    for (File f : folder.listFiles()) {
-      if (f.getName().matches("^documents[0-9]+\\.idx")) {
-        // Delete all partial index file
-        f.delete();
-      }
-    }
-  }
 
   /**
    * Simple function to check if a string is a number...

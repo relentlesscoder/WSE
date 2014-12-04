@@ -41,14 +41,26 @@ public class SearchEngine {
    * simplicity, all options are publicly accessible.
    */
   public static class Options {
-    // The parent path where the corpus resides.
+    // The parent path where the web page corpus resides.
     public String _corpusPrefix = null;
+
+    // The parent path where the news feed corpus resides.
+    public String _newsPrefix = null;
 
     // The parent path where the log date reside.
     public String _logPrefix = null;
 
+    // The parent path where the page rank data resides
+    public String _pagerankPrefix = null;
+
+    // The parent path where the number of views data resides
+    public String _numviewPrefix = null;
+
     // The parent path where the constructed index resides.
     public String _indexPrefix = null;
+
+    // The specific indexer corpus mode to be used.
+    public String _indexerCorpusMode = null;
 
     // The specific Indexer to be used.
     public String _indexerType = null;
@@ -59,19 +71,11 @@ public class SearchEngine {
     // The specific LogMiner to be used.
     public String _logMinerType = null;
 
-    // Additional group specific configuration can be added below.
-
     // The specific damping factor for page ranking
     public double _dampingFactor = 0;
 
     // The specific iteration times for page ranking
     public int _iteration_times = 0;
-
-    // The parent path where the page rank data resides
-    public String _pagerankPrefix = null;
-
-    // The parent path where the number of views data resides
-    public String _numviewPrefix = null;
 
     // The parent path where the search template resides
     public String _searchTemplate = null;
@@ -107,8 +111,19 @@ public class SearchEngine {
       // Populate global options.
       _corpusPrefix = options.get("corpus_prefix");
       Util.Check(_corpusPrefix != null, "Missing option: corpus_prefix!");
+
+      _newsPrefix = options.get("news_prefix");
+      Util.Check(_newsPrefix != null, "Missing option: news_prefix!");
+
       _logPrefix = options.get("log_prefix");
       Util.Check(_logPrefix != null, "Missing option: log_prefix!");
+
+      _pagerankPrefix = options.get("pagerank_prefix");
+      Util.Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
+
+      _numviewPrefix = options.get("numview_prefix");
+      Util.Check(_numviewPrefix != null, "Missing option: numview_prefix!");
+
       _indexPrefix = options.get("index_prefix");
       Util.Check(_indexPrefix != null, "Missing option: index_prefix!");
 
@@ -123,18 +138,6 @@ public class SearchEngine {
       _logMinerType = options.get("log_miner_type");
       Util.Check(_logMinerType != null, "Missing option: log_miner_type!");
 
-      _searchTemplate = options.get("search_template");
-      Util.Check(_searchTemplate != null, "Missing option: search_template!");
-
-      _resultTemplate = options.get("result_template");
-      Util.Check(_resultTemplate != null, "Missing option: result_template!");
-
-      _pagerankPrefix = options.get("pagerank_prefix");
-      Util.Check(_pagerankPrefix != null, "Missing option: pagerank_prefix!");
-
-      _numviewPrefix = options.get("numview_prefix");
-      Util.Check(_numviewPrefix != null, "Missing option: numview_prefix!");
-
       String dampingValue = options.get("damping_factor");
       Util.Check(dampingValue != null, "Missing option: damping_factor!");
       _dampingFactor = Double.parseDouble(dampingValue);
@@ -142,6 +145,12 @@ public class SearchEngine {
       String iterationTimes = options.get("iteration_times");
       Util.Check(iterationTimes != null, "Missing option: iteration_times!");
       _iteration_times = Integer.parseInt(iterationTimes);
+
+      _searchTemplate = options.get("search_template");
+      Util.Check(_searchTemplate != null, "Missing option: search_template!");
+
+      _resultTemplate = options.get("result_template");
+      Util.Check(_resultTemplate != null, "Missing option: result_template!");
     }
   }
 
@@ -151,7 +160,7 @@ public class SearchEngine {
    * Running mode of the search engine.
    */
   public static enum Mode {
-    NONE, MINING, INDEX, SERVE,
+    NONE, MINING, WEB_PAGE_INDEX, NEWS_FEED_INDEX, SERVE,
   }
 
   ;
@@ -178,7 +187,7 @@ public class SearchEngine {
         OPTIONS = new Options(value);
       }
     }
-    Util.Check(MODE == Mode.SERVE || MODE == Mode.INDEX || MODE == Mode.MINING,
+    Util.Check(MODE == Mode.SERVE || MODE == Mode.WEB_PAGE_INDEX || MODE == Mode.NEWS_FEED_INDEX || MODE == Mode.MINING,
         "Must provide a valid mode: serve or index or mining!");
     Util.Check(MODE != Mode.SERVE || PORT != -1,
         "Must provide a valid port number (258XX) in serve mode!");
@@ -274,7 +283,12 @@ public class SearchEngine {
         case MINING:
           startMining();
           break;
-        case INDEX:
+        case WEB_PAGE_INDEX:
+          OPTIONS._indexerCorpusMode = "web_page_corpus";
+          startIndexing();
+          break;
+        case NEWS_FEED_INDEX:
+          OPTIONS._indexerCorpusMode = "news_feed_corpus";
           startIndexing();
           break;
         case SERVE:
