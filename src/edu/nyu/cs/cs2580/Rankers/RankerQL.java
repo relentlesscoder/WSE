@@ -9,6 +9,7 @@ import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
+import javax.print.Doc;
 import java.util.*;
 
 public class RankerQL extends Ranker {
@@ -70,7 +71,7 @@ public class RankerQL extends Ranker {
       queryList.add(term);
     }
 
-    DocumentIndexed document = indexerInvertedCompressed.getDoc(docId);
+    Document document = indexerInvertedCompressed.getDoc(docId);
 
     // Score the document. Here we have provided a very simple ranking model,
     // where a document is scored 1.0 if it gets hit by at least one query

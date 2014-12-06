@@ -69,6 +69,8 @@ public class Document implements Serializable {
   private double _pageRank = 0.0;
   private int _numViews = 0;
 
+  private int _totalDocTerms;
+
   public Document(int docid) {
     _docid = docid;
   }
@@ -103,5 +105,13 @@ public class Document implements Serializable {
 
   public void setNumViews(int numViews) {
     this._numViews = numViews;
+  }
+
+  public int getTotalDocTerms() {
+    return _totalDocTerms;
+  }
+
+  public void setTotalDocTerms(int totalDocTerms) {
+    _totalDocTerms = totalDocTerms;
   }
 }

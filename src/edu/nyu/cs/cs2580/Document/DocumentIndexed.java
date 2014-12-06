@@ -20,14 +20,6 @@ public class DocumentIndexed extends Document {
     _links = new Vector<String>();
   }
 
-  public int getTotalDocTerms() {
-    return totalDocTerms;
-  }
-
-  public void setTotalDocTerms(int totalDocTerms) {
-    this.totalDocTerms = totalDocTerms;
-  }
-
   public Vector<String> get_links() {
     return _links;
   }
