@@ -151,8 +151,6 @@ public class Util {
     output.close();
   }
 
-
-
   /**
    * Simple function to check if a string is a number...
    * @param str string
