@@ -37,7 +37,7 @@ public class FeedGenerator extends TimerTask {
       String source = "";
       int round = 0;
 
-      Set<String> urlSet = gson.fromJson(new InputStreamReader(new FileInputStream(new File("news/"+urlSetPath))),Set.class);
+      Set<String> urlSet = gson.fromJson(new InputStreamReader(new FileInputStream(new File("data/news/"+urlSetPath))),Set.class);
       if (urlSet == null) {
         urlSet = new HashSet<String>();
       }
