@@ -66,12 +66,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   private List<Document> documents = new ArrayList<Document>();
 
-  private CORPUS_TYPE corpusType;
-
-  private enum CORPUS_TYPE {
-    WEB_PAGE_CORPUS,
-    NEWS_FEED_CORPUS
-  }
+  private  SearchEngine.CORPUS_TYPE corpusType;
 
   private static final String WEB_PAGE_CORPUS_INDEX = "web_page_corpus";
   private static final String WEB_PAGE_DOCUMENTS = "web_page_documents";
@@ -94,21 +89,22 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   public IndexerInvertedCompressed() {
   }
 
-  public IndexerInvertedCompressed(Options options) {
+  public IndexerInvertedCompressed(Options options, SearchEngine.CORPUS_TYPE corpusType) {
     super(options);
-
-    if (_options._indexerCorpusMode.equals("web_page_corpus")) {
-      // web page corpus
-      corpusType = CORPUS_TYPE.WEB_PAGE_CORPUS;
-      CORPUS_INDEX = WEB_PAGE_CORPUS_INDEX;
-      DOCUMENTS = WEB_PAGE_DOCUMENTS;
-      META = WEB_PAGE_META;
-    } else {
-      // news corpus
-      corpusType = CORPUS_TYPE.NEWS_FEED_CORPUS;
-      CORPUS_INDEX = NEWS_FEED_CORPUS_INDEX;
-      DOCUMENTS = NEWS_FEED_DOCUMENTS;
-      META = NEWS_FEED_META;
+    this.corpusType = corpusType;
+    switch (corpusType) {
+      case WEB_PAGE_CORPUS:
+        CORPUS_INDEX = WEB_PAGE_CORPUS_INDEX;
+        DOCUMENTS = WEB_PAGE_DOCUMENTS;
+        META = WEB_PAGE_META;
+        break;
+      case NEWS_FEED_CORPUS:
+        CORPUS_INDEX = NEWS_FEED_CORPUS_INDEX;
+        DOCUMENTS = NEWS_FEED_DOCUMENTS;
+        META = NEWS_FEED_META;
+        break;
+      default:
+        throw new IllegalArgumentException("Illegal corpus type!!!");
     }
 
     System.out.println("Using Indexer: " + this.getClass().getSimpleName());
@@ -127,7 +123,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     String corpusName;
     String documentName;
 
-    if (corpusType == CORPUS_TYPE.WEB_PAGE_CORPUS) {
+    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
       corpusName = WEB_PAGE_CORPUS_INDEX + String.format("%03d", fileCount) + EXTENSION_IDX;
       documentName = WEB_PAGE_DOCUMENTS + String.format("%03d", fileCount) + EXTENSION_IDX;
     } else {
@@ -168,7 +164,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Get the corpus folder
     File folder;
-    if (corpusType == CORPUS_TYPE.WEB_PAGE_CORPUS) {
+    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
       folder = new File(_options._corpusPrefix);
     } else {
       folder = new File(_options._newsPrefix);
@@ -190,9 +186,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     File outputFolder = new File(_options._indexPrefix);
 
     for (File file : outputFolder.listFiles()) {
-      if (file.getName().equals(CORPUS_INDEX) ||
-          file.getName().equals(DOCUMENTS) ||
-          file.getName().equals(META)) {
+      if (file.getName().equals(CORPUS_INDEX + EXTENSION_IDX) ||
+          file.getName().equals(DOCUMENTS + EXTENSION_IDX) ||
+          file.getName().equals(META + EXTENSION_IDX)) {
         file.delete();
       }
     }
@@ -204,7 +200,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Start indexing...");
 
     // Process file/document one by one and assign each of them a unique docid
-    if (corpusType == CORPUS_TYPE.WEB_PAGE_CORPUS) {
+    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
       for (int docid = 0; docid < files.length; docid++) {
         checkNotNull(files[docid], "File can not be null!");
         // Update the progress bar first :)
@@ -259,7 +255,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Start serializing...");
 
     // Serialize the whole object :)
-    String indexFile = _options._indexPrefix + "/corpus.idx";
+    String indexFile = _options._indexPrefix + "/" + META + EXTENSION_IDX;
     System.out.println("Storing inverted index to: " + _options._indexPrefix);
 
     ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new
@@ -483,8 +479,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      * Load the class file first
      *************************************************************************/
     for (File file : files) {
-      if (file.getName().equals(CORPUS_INDEX + EXTENSION_IDX)) {
-        String indexFile = _options._indexPrefix + "/" + CORPUS_INDEX + EXTENSION_IDX;
+      if (file.getName().equals(META + EXTENSION_IDX)) {
+        String indexFile = _options._indexPrefix + "/" + META + EXTENSION_IDX;
         System.out.println("Load index from: " + indexFile);
 
         ObjectInputStream reader = new ObjectInputStream(new BufferedInputStream(new FileInputStream(indexFile)));
@@ -1115,7 +1111,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @throws ClassNotFoundException
    */
   private void mergePostingList() throws IOException, ClassNotFoundException {
-    String invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX;
+    String invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX + EXTENSION_IDX;
     RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
     long currentPos = 0;
     int length = 0;
@@ -1187,6 +1183,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       // Retrieve the first term and posting list according to the sorted result
       for (Map.Entry entry : sortedTermAndFileIndex.entries()) {
         outputTermID = (Integer) entry.getKey();
+
         for (int i : sortedTermAndFileIndex.asMap().get(outputTermID)) {
           outputPostingList.addAll(kryo.readObject(inputs[i], ArrayList.class));
           termIds[i] = -1;
@@ -1219,7 +1216,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * Merge all partial doc term frequency file...
    */
   public void mergeDocumentTermFrequency() throws IOException {
-    String invertedIndexFileName = _options._indexPrefix + "/" + DOCUMENTS;
+    String invertedIndexFileName = _options._indexPrefix + "/" + DOCUMENTS + EXTENSION_IDX;
 
     RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
     long currentPos = 0;
@@ -1319,11 +1316,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void loadPostingList(List<String> query) throws IOException,
       ClassNotFoundException {
     String invertedIndexFileName;
-    if (corpusType == CORPUS_TYPE.WEB_PAGE_CORPUS) {
-      invertedIndexFileName = _options._indexPrefix + "/" + WEB_PAGE_META + EXTENSION_IDX;
-    } else {
-      invertedIndexFileName = _options._indexPrefix + "/" + NEWS_FEED_META + EXTENSION_IDX;
-    }
+    invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX + EXTENSION_IDX;
 
     boolean hasAlready = true;
     Offsets offsets;
@@ -1361,6 +1354,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         byte[] postingListBytes = new byte[offsets.getLength()];
         raf.readFully(postingListBytes);
         List<Byte> postingList = Bytes.asList(postingListBytes);
+
         invertedIndex.get(termId).addAll(postingList);
         count++;
       }
@@ -1375,11 +1369,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void loadTermDocFrequency(int docid) {
     if (!docTermFrequency.containsKey(docid) && docTermFreqMeta.containsKey(docid)) {
       String documentTermFrequencyFileName;
-      if (corpusType == CORPUS_TYPE.WEB_PAGE_CORPUS) {
-        documentTermFrequencyFileName = _options._indexPrefix + "/" + WEB_PAGE_DOCUMENTS + EXTENSION_IDX;
-      } else {
-        documentTermFrequencyFileName = _options._indexPrefix + "/" + NEWS_FEED_DOCUMENTS + EXTENSION_IDX;
-      }
+      documentTermFrequencyFileName = _options._indexPrefix + "/" + DOCUMENTS + EXTENSION_IDX;
 
       RandomAccessFile raf = null;
       try {

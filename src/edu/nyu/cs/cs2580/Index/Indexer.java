@@ -6,6 +6,7 @@ import edu.nyu.cs.cs2580.CorpusAnalyzer;
 import edu.nyu.cs.cs2580.Document.Document;
 import edu.nyu.cs.cs2580.LogMiner;
 import edu.nyu.cs.cs2580.Query;
+import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 /**
@@ -141,9 +142,9 @@ public abstract class Indexer {
    * provided {@code options}.
    */
   public static class Factory {
-    public static Indexer getIndexerByOption(Options options) {
+    public static Indexer getIndexerByOption(Options options, SearchEngine.CORPUS_TYPE corpusType) {
       if (options._indexerType.equals("inverted-compressed")) {
-        return new IndexerInvertedCompressed(options);
+        return new IndexerInvertedCompressed(options, corpusType);
       }
       return null;
     }

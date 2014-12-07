@@ -36,6 +36,11 @@ import java.util.concurrent.Executors;
  */
 public class SearchEngine {
 
+  public enum CORPUS_TYPE {
+    WEB_PAGE_CORPUS,
+    NEWS_FEED_CORPUS
+  }
+
   /**
    * Stores all the options and configurations used in our search engine. For
    * simplicity, all options are publicly accessible.
@@ -58,9 +63,6 @@ public class SearchEngine {
 
     // The parent path where the constructed index resides.
     public String _indexPrefix = null;
-
-    // The specific indexer corpus mode to be used.
-    public String _indexerCorpusMode = null;
 
     // The specific Indexer to be used.
     public String _indexerType = null;
@@ -248,8 +250,8 @@ public class SearchEngine {
     System.out.println("Total time takes: " + Util.convertMillis(duration));
   }
 
-  private static void startIndexing() throws IOException {
-    Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS);
+  private static void startIndexing(CORPUS_TYPE corpusType) throws IOException {
+    Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS, corpusType);
     Util.Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
         + " not found!");
     indexer.constructIndex();
@@ -257,7 +259,9 @@ public class SearchEngine {
 
   private static void startServing() throws IOException, ClassNotFoundException {
     // Create the handler and its associated indexer.
-    Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS);
+    // TODO: This only create the indexer for normal web page corpus, news are not included.
+    CORPUS_TYPE corpusType = CORPUS_TYPE.WEB_PAGE_CORPUS;
+    Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS, corpusType);
     Util.Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
         + " not found!");
     indexer.loadIndex();
@@ -279,17 +283,18 @@ public class SearchEngine {
   public static void main(String[] args) {
     try {
       SearchEngine.parseCommandLine(args);
+      CORPUS_TYPE corpusType;
       switch (SearchEngine.MODE) {
         case MINING:
           startMining();
           break;
         case WEB_PAGE_INDEX:
-          OPTIONS._indexerCorpusMode = "web_page_corpus";
-          startIndexing();
+          corpusType = CORPUS_TYPE.WEB_PAGE_CORPUS;
+          startIndexing(corpusType);
           break;
         case NEWS_FEED_INDEX:
-          OPTIONS._indexerCorpusMode = "news_feed_corpus";
-          startIndexing();
+          corpusType = CORPUS_TYPE.NEWS_FEED_CORPUS;
+          startIndexing(corpusType);
           break;
         case SERVE:
           startServing();
