@@ -25,7 +25,6 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * This is the compressed inverted indexer...
  */
 public class IndexerInvertedCompressed extends Indexer implements Serializable {
-
   private static final long serialVersionUID = 1L;
   // K is the length of interval for the skip pointer of the posting list.
   private static final int K = 10000;
@@ -247,6 +246,48 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Complete merging...");
     System.out.println("Merging time: " + Util.convertMillis(duration));
+
+    /**************************************************************************
+     * Populating document addition properties for web page corpus
+     *************************************************************************/
+
+    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
+      // Load the page ranks.
+      // Key: Document ID
+      // Value: Page rank score
+      File pageRankFile = new File(_options._pagerankPrefix + "/pageRanks.g6");
+      Map<Integer, Double> pageRanks = null;
+      if (pageRankFile.exists()) {
+        pageRanks = (Map<Integer, Double>) _corpusAnalyzer.load();
+      }
+
+      // Load the number views
+      // Key: Document ID
+      // Value: Number of views
+      File numViewsFile = new File(_options._numviewPrefix + "/numViews.g6");
+      Map<Integer, Integer> docNumView = null;
+      if (numViewsFile.exists()) {
+        docNumView = (Map<Integer, Integer>) _logMiner.load();
+      }
+
+      totalNumViews = 0;
+      for (Document document : documents) {
+        int docid = document._docid;
+        // Update page rank score
+        if (pageRanks != null && pageRanks.containsKey(docid)) {
+          document.setPageRank(pageRanks.get(docid));
+        } else {
+          document.setPageRank(0.0);
+        }
+        // Update number of views
+        if (docNumView != null && docNumView.containsKey(docid)) {
+          totalNumViews += docNumView.get(docid);
+          document.setNumViews(docNumView.get(docid));
+        } else {
+          document.setNumViews(0);
+        }
+      }
+    }
 
     /**************************************************************************
      * Serializing the rest...
@@ -504,37 +545,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this.dictionary = loaded.dictionary;
         reader.close();
         break;
-      }
-    }
-
-    // Load the page ranks.
-    // Key: Document ID
-    // Value: Page rank score
-    Map<Integer, Double> pageRanks = (Map<Integer, Double>) _corpusAnalyzer.load();
-
-    // Load the number views
-    // Key: Document ID
-    // Value: Number of views
-    Map<Integer, Integer> docNumView = (Map<Integer, Integer>) _logMiner.load();
-
-    /**************************************************************************
-     * Update the documents
-     *************************************************************************/
-    totalNumViews = 0;
-    for (Document document : documents) {
-      int docid = document._docid;
-      // Update page rank score
-      if (pageRanks.containsKey(docid)) {
-        document.setPageRank(pageRanks.get(docid));
-      } else {
-        document.setPageRank(0.0);
-      }
-      // Update number of views
-      if (docNumView.containsKey(docid)) {
-        totalNumViews += docNumView.get(docid);
-        document.setNumViews(docNumView.get(docid));
-      } else {
-        document.setNumViews(0);
       }
     }
 

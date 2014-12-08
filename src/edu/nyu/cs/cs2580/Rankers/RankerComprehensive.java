@@ -101,8 +101,13 @@ public class RankerComprehensive extends Ranker {
     score = Math.exp(score);
 
     // Considered page rank scores...
-    score = score * document.getPageRank();
-    score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
+    if (document.getPageRank() > 0) {
+      score = score * document.getPageRank();
+    }
+
+    if (indexerInvertedCompressed.getTotalNumViews() > 0) {
+      score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
+    }
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 

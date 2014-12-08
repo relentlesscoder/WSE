@@ -63,7 +63,7 @@ public class LogMinerNumviews extends LogMiner {
     // Get the log file
     File logFolder = new File(_options._logPrefix);
     File[] logFiles = logFolder.listFiles();
-    
+
     // Mining the logs
     for (File logFile : logFiles) {
       FileInputStream fis = new FileInputStream(logFile);
