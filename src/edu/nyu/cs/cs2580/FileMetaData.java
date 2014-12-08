@@ -4,34 +4,30 @@ package edu.nyu.cs.cs2580;
  * Created by Wei Shuai on 11/20/2014.
  */
 public class FileMetaData {
+  private boolean _isRedirectPage;
+  private String _redirectUrl;
+  private int _docid;
 
-    private boolean _isRedirectPage = false;
+  public FileMetaData(int docid) {
+    _isRedirectPage = false;
+    _redirectUrl = "";
+    _docid = docid;
+  }
 
-    private String _redirectUrl = null;
+  public boolean isRedirectPage() {
+    return _isRedirectPage;
+  }
 
-    private int _docId = 0;
+  public void setRedirectUrl(String redirectUrl) {
+    _isRedirectPage = true;
+    _redirectUrl = redirectUrl;
+  }
 
-    public void setIsRedirectPage(boolean isRedirectPage){
-        _isRedirectPage = isRedirectPage;
-    }
+  public String getRedirectUrl() {
+    return _redirectUrl;
+  }
 
-    public boolean getIsRedirectPage(){
-        return _isRedirectPage;
-    }
-
-    public void setRedirectUrl(String redirectUrl){
-       _redirectUrl = redirectUrl;
-    }
-
-    public String getRedirectUrl(){
-        return _redirectUrl;
-    }
-
-    public void setDocId(int docId){
-        _docId = docId;
-    }
-
-    public int getDocId(){
-        return _docId;
-    }
+  public int getDocid() {
+    return _docid;
+  }
 }

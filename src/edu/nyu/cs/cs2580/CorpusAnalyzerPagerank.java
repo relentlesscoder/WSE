@@ -55,8 +55,10 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
    */
   @Override
   public void prepare() throws IOException {
-    System.out.println("Preparing " + this.getClass().getName());
+//    System.out.println("Preparing " + this.getClass().getName());
+    ProgressBar progressBar = new ProgressBar();
     File folder  = new File(_options._corpusPrefix);
+
     //add filter to exclude hidden files
     FilenameFilter filenameFilter = new FilenameFilter() {
       @Override
@@ -64,8 +66,8 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
         return !name.startsWith(".");
       }
     };
+
     File[] files = folder.listFiles(filenameFilter);
-    ProgressBar progressBar = new ProgressBar();
 
     checkNotNull(files, "No files found in: %s", folder.getPath());
 
@@ -74,14 +76,14 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
     for (int docid = 0; docid < files.length; docid++) {
       checkNotNull(files[docid], "File can not be null!");
-      FileMetaData fileMetaData = new FileMetaData();
-      fileMetaData.setDocId(docid);
+      FileMetaData fileMetaData = new FileMetaData(docid);
       String redirectUrl = tryGetRedirectUrl(files[docid]);
-      if(redirectUrl != null && !redirectUrl.isEmpty()){
-        fileMetaData.setIsRedirectPage(true);
+
+      if(redirectUrl != null && redirectUrl.length() > 0){
         fileMetaData.setRedirectUrl(redirectUrl);
         redirectList.add(docid);
       }
+
       nameDocIdMap.put(files[docid].getName(), fileMetaData);
       progressBar.update(docid, files.length * 2);
     }
@@ -93,21 +95,21 @@ public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
       }
       HeuristicLinkExtractor linkExtractor = new HeuristicLinkExtractor(files[docid]);
       String url = linkExtractor.getNextInCorpusLinkTarget();
+
       while(url != null){
         if(isValidInternalUrl(url) && nameDocIdMap.containsKey(url)){
           FileMetaData linkToDoc = nameDocIdMap.get(url);
 
           int linkToDocId = 0;
-          if(!linkToDoc.getIsRedirectPage()){
-            linkToDocId = linkToDoc.getDocId();
-          }
-          else{
+          if(!linkToDoc.isRedirectPage()){
+            linkToDocId = linkToDoc.getDocid();
+          } else{
             do {
               linkToDoc = nameDocIdMap.get(linkToDoc.getRedirectUrl());
-            }
-            while (linkToDoc.getIsRedirectPage());
+            } while (linkToDoc != null && linkToDoc.isRedirectPage());
+
             if(linkToDoc != null){
-              linkToDocId = linkToDoc.getDocId();
+              linkToDocId = linkToDoc.getDocid();
             }
           }
 
