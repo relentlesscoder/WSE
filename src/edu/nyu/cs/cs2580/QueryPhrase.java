@@ -40,6 +40,7 @@ public class QueryPhrase extends Query {
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
       // Delete the stop words for normal query terms
       term = Tokenizer.stopwordFilter(term);
+      term = Tokenizer.krovetzStemmerFilter(term);
       if (term != null) {
         term = Tokenizer.krovetzStemmerFilter(term);
         uniqueTokens.add(term);
