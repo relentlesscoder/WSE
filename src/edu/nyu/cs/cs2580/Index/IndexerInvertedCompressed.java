@@ -5,17 +5,13 @@ import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.Document.DocumentIndexed;
 import edu.nyu.cs.cs2580.Query;
+import edu.nyu.cs.cs2580.Rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.Tokenizer;
 import edu.nyu.cs.cs2580.Utils.Util;
-import edu.nyu.cs.cs2580.Utils.ProgressBar;
 import edu.nyu.cs.cs2580.Utils.VByteUtil;
-import org.jsoup.Jsoup;
 
-import javax.print.Doc;
 import java.io.*;
 import java.util.*;
 
@@ -29,26 +25,26 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // K is the length of interval for the skip pointer of the posting list.
   private static final int K = 10000;
 
-  // Dictionary
-  // Key: Term
-  // Value: Term ID
-  private BiMap<String, Integer> dictionary = HashBiMap.create();
-
   // Compressed inverted index, dynamically loaded per term at run time
   // Key: Term ID
   // Value: Compressed posting list.
-  private ListMultimap<Integer, Byte> invertedIndex = ArrayListMultimap.create();
+  private ListMultimap<Integer, Byte> invertedIndex;
 
   // Term frequency of each document, dynamically loaded per doc at run time
   // Key: Docid
   // Value: Key: Term ID
   // Value: Value: Term frequency
-  private Map<Integer, Multiset<Integer>> docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
+  private Map<Integer, Multiset<Integer>> docTermFrequency;
+
+  // Dictionary
+  // Key: Term
+  // Value: Term ID
+  private ImmutableBiMap<String, Integer> dictionary;
 
   // The offset of each docid of the posting list for each term.
   // Key: Term ID
   // Value: The offsets for each of docid in the posting list.
-  private ListMultimap<Integer, Byte> skipPointers = ArrayListMultimap.create();
+  private ImmutableListMultimap<Integer, Byte> skipPointers;
 
   // Key: Term ID
   // Value: MetaData
@@ -57,32 +53,22 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   //   corpusDocFrequencyByTerm: Number of documents a term appeared, over the full corpus.
   //   postingListMetaData
   // }
-  private Map<Integer, MetaData> meta = new HashMap<Integer, MetaData>();
+  private ImmutableMap<Integer, MetaData> meta;
 
   // Key: Document ID
   // Value: Term document frequency meta info
-  private Map<Integer, Offsets> docTermFreqMeta = new HashMap<Integer, Offsets>();
+  private ImmutableMap<Integer, Offsets> docTermFreqMeta;
 
-  private List<Document> documents = new ArrayList<Document>();
+  private ImmutableList<Document> documents;
 
-  private  SearchEngine.CORPUS_TYPE corpusType;
+  private SearchEngine.CORPUS_TYPE corpusType;
 
-  private static final String WEB_PAGE_CORPUS_INDEX = "web_page_corpus";
-  private static final String WEB_PAGE_DOCUMENTS = "web_page_documents";
-  private static final String WEB_PAGE_META = "web_page_meta";
+  private String CORPUS_INDEX;
+  private String DOCUMENTS;
+  private String META;
 
-  private static final String NEWS_FEED_CORPUS_INDEX = "news_feed_corpus";
-  private static final String NEWS_FEED_DOCUMENTS = "news_feed_documents";
-  private static final String NEWS_FEED_META = "news_feed_meta";
-
-  private static String CORPUS_INDEX;
-  private static String DOCUMENTS;
-  private static String META;
-
-  private static final String EXTENSION_IDX = ".idx";
-
-  long totalTermFrequency = 0;
-  long totalNumViews = 0;
+  private long totalTermFrequency = 0;
+  private long totalNumViews = 0;
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -90,17 +76,21 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   public IndexerInvertedCompressed(Options options, SearchEngine.CORPUS_TYPE corpusType) {
     super(options);
+
+    this.invertedIndex = ArrayListMultimap.create();
+    this.docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
+
     this.corpusType = corpusType;
     switch (corpusType) {
       case WEB_PAGE_CORPUS:
-        CORPUS_INDEX = WEB_PAGE_CORPUS_INDEX;
-        DOCUMENTS = WEB_PAGE_DOCUMENTS;
-        META = WEB_PAGE_META;
+        CORPUS_INDEX = IndexerConstant.HTML_CORPUS_INDEX;
+        DOCUMENTS = IndexerConstant.HTML_DOCUMENTS;
+        META = IndexerConstant.HTML_META;
         break;
       case NEWS_FEED_CORPUS:
-        CORPUS_INDEX = NEWS_FEED_CORPUS_INDEX;
-        DOCUMENTS = NEWS_FEED_DOCUMENTS;
-        META = NEWS_FEED_META;
+        CORPUS_INDEX = IndexerConstant.NEWS_FEED_CORPUS_INDEX;
+        DOCUMENTS = IndexerConstant.NEWS_FEED_DOCUMENTS;
+        META = IndexerConstant.NEWS_FEED_META;
         break;
       default:
         throw new IllegalArgumentException("Illegal corpus type!!!");
@@ -109,57 +99,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Using Indexer: " + this.getClass().getSimpleName());
   }
 
-  /**
-   * Write partial file
-   *
-   * @param fileCount the file count
-   * @throws IOException
-   */
-  private void writePartialFile(int fileCount) throws IOException {
-//    long startTimeStamp, duration;
-//    startTimeStamp = System.currentTimeMillis();
-
-    String corpusName;
-    String documentName;
-
-    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
-      corpusName = WEB_PAGE_CORPUS_INDEX + String.format("%03d", fileCount) + EXTENSION_IDX;
-      documentName = WEB_PAGE_DOCUMENTS + String.format("%03d", fileCount) + EXTENSION_IDX;
-    } else {
-      corpusName = NEWS_FEED_CORPUS_INDEX + String.format("%03d", fileCount) + EXTENSION_IDX;
-      documentName = NEWS_FEED_DOCUMENTS + String.format("%03d", fileCount) + EXTENSION_IDX;
-    }
-
-    Util.writePartialInvertedIndexCompress(invertedIndex, _options, corpusName);
-    Util.writePartialDocuments(docTermFrequency, _options, documentName);
-    invertedIndex.clear();
-    docTermFrequency.clear();
-
-//    duration = System.currentTimeMillis() - startTimeStamp;
-//    System.out.println(Utils.convertMillis(duration));
-  }
-
-  private class ConstructTmpData {
-    public int lastDocid;
-    public int lastPostingListSize;
-    public int lastSkipPointerOffset;
-
-    public ConstructTmpData() {
-      lastDocid = -1;
-      lastPostingListSize = -1;
-      lastSkipPointerOffset = -1;
-    }
-  }
-
   @Override
   public void constructIndex() throws IOException {
-    // Temporary data structure
-    Map<Integer, ConstructTmpData> constructTmpDataMap = new HashMap<Integer, ConstructTmpData>();
 
     long totalStartTimeStamp = System.currentTimeMillis();
     long startTimeStamp, duration;
-
-    ProgressBar progressBar = new ProgressBar();
 
     // Get the corpus folder
     File folder;
@@ -177,7 +121,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     };
     File[] files = folder.listFiles(filenameFilter);
-    int partialFileCount = 0;
+
 
     /**************************************************************************
      * First delete the old index files in the target folder....
@@ -185,9 +129,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     File outputFolder = new File(_options._indexPrefix);
 
     for (File file : outputFolder.listFiles()) {
-      if (file.getName().equals(CORPUS_INDEX + EXTENSION_IDX) ||
-          file.getName().equals(DOCUMENTS + EXTENSION_IDX) ||
-          file.getName().equals(META + EXTENSION_IDX)) {
+      if (file.getName().matches("^.*" + CORPUS_INDEX + "[0-9]*" + IndexerConstant.EXTENSION_IDX) ||
+          file.getName().matches("^.*" + DOCUMENTS + "[0-9]*" + IndexerConstant.EXTENSION_IDX) ||
+          file.getName().matches("^.*" + META + IndexerConstant.EXTENSION_IDX)) {
         file.delete();
       }
     }
@@ -198,30 +142,26 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     startTimeStamp = System.currentTimeMillis();
     System.out.println("Start indexing...");
 
+    DocumentProcessor documentProcessor = null;
     // Process file/document one by one and assign each of them a unique docid
     if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
-      for (int docid = 0; docid < files.length; docid++) {
-        checkNotNull(files[docid], "File can not be null!");
-        // Update the progress bar first :)
-        progressBar.update(docid, files.length);
-        // Now process the document
-        processDocument(files[docid], docid, constructTmpDataMap);
-        // Write to a file if memory usage has reach the memory threshold
-        if (Util.hasReachThresholdCompress(invertedIndex)) {
-          writePartialFile(partialFileCount);
-          partialFileCount++;
-        }
-      }
+      documentProcessor = new HtmlDocumentProcessor(files, _options);
     } else {
       //TODO: Process news corpus per docid...
     }
 
+    documentProcessor.processDocuments();
 
-    // Write the rest partial inverted index...
-    writePartialFile(partialFileCount);
+    dictionary = ImmutableBiMap.copyOf(documentProcessor.getDictionary());
+    skipPointers = ImmutableListMultimap.copyOf(documentProcessor.getSkipPointers());
+    meta = ImmutableMap.copyOf(documentProcessor.getMeta());
+    documents = ImmutableList.copyOf(documentProcessor.getDocuments());
+    _totalTermFrequency = documentProcessor.getTotalTermFrequency();
+    totalTermFrequency = _totalTermFrequency;
+    documentProcessor = null;
 
     // Get the number of documents
-    _numDocs = files.length;
+    _numDocs = documents.size();
 
     duration = System.currentTimeMillis() - startTimeStamp;
 
@@ -296,7 +236,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Start serializing...");
 
     // Serialize the whole object :)
-    String indexFile = _options._indexPrefix + "/" + META + EXTENSION_IDX;
+    String indexFile = _options._indexPrefix + "/" + META + IndexerConstant.EXTENSION_IDX;
     System.out.println("Storing inverted index to: " + _options._indexPrefix);
 
     ObjectOutputStream writer = new ObjectOutputStream(new BufferedOutputStream(new
@@ -314,201 +254,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Total time: " + Util.convertMillis(duration));
   }
 
-  /**
-   * Process the web page document. First store the document, then populate the inverted
-   * index.
-   *
-   * @param file  The file waiting to be indexed.
-   * @param docid The file's document ID.
-   * @throws IOException
-   */
-  private void processDocument(File file, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) throws IOException {
-    org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(file, "UTF-8");
 
-    String bodyText = jsoupDoc.body().text();
-    String title = jsoupDoc.title();
-
-    // Create the document and store it.
-    DocumentIndexed doc = new DocumentIndexed(docid, this);
-    doc.setTitle(title);
-    doc.setUrl(file.getName());
-
-    documents.add(doc);
-
-    // Populate the inverted index.
-    populateInvertedIndex(title + " " + bodyText, docid, constructTmpDataMap);
-  }
-
-  private void processNewsDocument(String message, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) throws IOException {
-    String bodyText;
-    String title;
-
-    // Create the document and store it.
-    DocumentIndexed doc = new DocumentIndexed(docid, this);
-//    doc.setTitle(title);
-//    doc.setUrl(file.getName());
-
-    documents.add(doc);
-
-    // Populate the inverted index.
-//    populateInvertedIndex(content, docid, constructTmpDataMap);
-  }
-
-  /**
-   * Populate the inverted index.
-   *
-   * @param content The text content of the html document.
-   * @param docid   The document ID.
-   */
-  private void populateInvertedIndex(String content, int docid, Map<Integer, ConstructTmpData> constructTmpDataMap) {
-    // Uncompressed temporary inverted index.
-    // Key is the term and value is the uncompressed posting list.
-    ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
-
-    int position = 0;
-
-    /**************************************************************************
-     * Start to process the document one term at a time.
-     *************************************************************************/
-    while (tokenizer.hasNext()) {
-      // Tokenizer... Stemmer... Filter...
-      String term = Tokenizer.lowercaseFilter(tokenizer.getText());
-      term = Tokenizer.krovetzStemmerFilter(term);
-
-      if (term == null) {
-        continue;
-      }
-
-      // Update the total term frequency
-      _totalTermFrequency++;
-      totalTermFrequency++;
-
-      // Update dictionary
-      if (!dictionary.containsKey(term)) {
-        int termId = dictionary.size();
-        dictionary.put(term, termId);
-        ConstructTmpData constructTmpData = new ConstructTmpData();
-        constructTmpDataMap.put(termId, constructTmpData);
-      }
-
-      // Get the term ID for later use
-      int termId = dictionary.get(term);
-
-      // Update the meta data
-      if (!meta.containsKey(termId)) {
-        MetaData metaData = new MetaData();
-        meta.put(termId, metaData);
-      }
-
-      // Update the term frequency across the whole corpus.
-      long corpusTermFrequency = meta.get(termId).getCorpusTermFrequency();
-      meta.get(termId).setCorpusTermFrequency(corpusTermFrequency + 1);
-
-      // Update docTermFrequency
-      if (!docTermFrequency.containsKey(docid)) {
-        Multiset<Integer> termFrequencyOfDocid = HashMultiset.create();
-        docTermFrequency.put(docid, termFrequencyOfDocid);
-      }
-      docTermFrequency.get(docid).add(termId);
-
-      // Populate the temporary inverted index.
-      if (tmpInvertedIndex.containsKey(termId)) {
-        // The term has already been seen at least once in the document.
-        int occurs = tmpInvertedIndex.get(termId).get(1);
-        // Update the occurrence
-        tmpInvertedIndex.get(termId).set(1, occurs + 1);
-        // Add the position of this term
-        tmpInvertedIndex.get(termId).add(position);
-      } else {
-        // This is the first time the term has been seen in the document
-        if (constructTmpDataMap.get(termId).lastDocid != -1) {
-          // The inverted index has already seen the term in previous
-          // documents
-
-          // Get the last/previous docid of the term's posting list
-          int prevDocid = constructTmpDataMap.get(termId).lastDocid;
-          int deltaDocid = docid - prevDocid;
-          tmpInvertedIndex.get(termId).add(deltaDocid);
-
-          if ((constructTmpDataMap.get(termId).lastPostingListSize - constructTmpDataMap.get(termId).lastSkipPointerOffset) > K) {
-            skipPointers.get(termId).addAll(VByteUtil.vByteEncoding(prevDocid));
-            skipPointers.get(termId).addAll(
-                VByteUtil.vByteEncoding(constructTmpDataMap.get(termId).lastPostingListSize));
-
-            constructTmpDataMap.get(termId).lastSkipPointerOffset
-                = constructTmpDataMap.get(termId).lastPostingListSize;
-          }
-        } else {
-          // The inverted index hasn't seen the term in previous documents
-          // No need to calculate the delta since it's the first docid of
-          // the posting list.
-          tmpInvertedIndex.get(termId).add(docid);
-
-          constructTmpDataMap.get(termId).lastDocid = 0;
-          constructTmpDataMap.get(termId).lastPostingListSize = 0;
-          constructTmpDataMap.get(termId).lastSkipPointerOffset = 0;
-        }
-        tmpInvertedIndex.get(termId).add(1);
-        tmpInvertedIndex.get(termId).add(position);
-
-        // Update the term frequency across the whole corpus.
-        int corpusDocFrequencyByTerm = meta.get(termId).getCorpusDocFrequencyByTerm();
-        meta.get(termId).setCorpusDocFrequencyByTerm(corpusDocFrequencyByTerm + 1);
-      }
-
-      // Move to the next position
-      position++;
-    }
-
-    /**************************************************************************
-     * Finish the process of all terms.
-     *************************************************************************/
-    documents.get(docid).setTotalDocTerms(++position);
-
-    /**************************************************************************
-     * Start to compress...
-     *************************************************************************/
-
-    // 1. Convert all positions of the posting list to deltas
-    convertPositionToDelta(tmpInvertedIndex);
-
-    // 2. Compress the temporary inverted index and populate the inverted index.
-    for (int termId : tmpInvertedIndex.keySet()) {
-      // Update lastDocid
-      constructTmpDataMap.get(termId).lastDocid = docid;
-
-      // Encode the posting list
-      List<Byte> partialPostingList = VByteUtil.vByteEncodingList(tmpInvertedIndex
-          .get(termId));
-
-      // Append the posting list if one exists, otherwise create one first :)
-      invertedIndex.get(termId).addAll(partialPostingList);
-      constructTmpDataMap.get(termId).lastPostingListSize =
-          constructTmpDataMap.get(termId).lastPostingListSize + partialPostingList.size();
-    }
-  }
-
-  /**
-   * Convert the offsets of each posting list to deltas. e.g. From: List: 0
-   * (docid), 4 (occurrence), 5, 12, 18, 29 To: List: 0 (docid), 4 (occurrence),
-   * 5, 7, 6, 11
-   *
-   * @param partialInvertedIndex The partial/temporary inverted index
-   */
-  private void convertPositionToDelta(
-      ListMultimap<Integer, Integer> partialInvertedIndex) {
-    for (int termId : partialInvertedIndex.keySet()) {
-      List<Integer> list = partialInvertedIndex.get(termId);
-      if (list.get(1) > 1) {
-        for (int i = list.size() - 1; i > 2; i--) {
-          int offset = list.get(i);
-          int prevOffset = list.get(i - 1);
-          list.set(i, offset - prevOffset);
-        }
-      }
-    }
-  }
 
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
@@ -520,8 +266,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      * Load the class file first
      *************************************************************************/
     for (File file : files) {
-      if (file.getName().equals(META + EXTENSION_IDX)) {
-        String indexFile = _options._indexPrefix + "/" + META + EXTENSION_IDX;
+      if (file.getName().equals(META + IndexerConstant.EXTENSION_IDX)) {
+        String indexFile = _options._indexPrefix + "/" + META + IndexerConstant.EXTENSION_IDX;
         System.out.println("Load index from: " + indexFile);
 
         ObjectInputStream reader = new ObjectInputStream(new BufferedInputStream(new FileInputStream(indexFile)));
@@ -535,16 +281,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this._totalTermFrequency = loaded.totalTermFrequency;
         this.totalNumViews = loaded.totalNumViews;
 
-        this.invertedIndex = loaded.invertedIndex;
-        this.docTermFrequency = loaded.docTermFrequency;
-
         this.skipPointers = loaded.skipPointers;
 
         this.meta = loaded.meta;
         this.docTermFreqMeta = loaded.docTermFreqMeta;
+
         this.dictionary = loaded.dictionary;
         reader.close();
-        break;
       }
     }
 
@@ -1121,7 +864,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @throws ClassNotFoundException
    */
   private void mergePostingList() throws IOException, ClassNotFoundException {
-    String invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX + EXTENSION_IDX;
+    String invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX + IndexerConstant.EXTENSION_IDX;
     RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
     long currentPos = 0;
     int length = 0;
@@ -1134,7 +877,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Get the number of partial index file
     for (File f : folder.listFiles()) {
-      if (f.getName().matches("^" + CORPUS_INDEX + "[0-9]+\\" + EXTENSION_IDX)) {
+      if (f.getName().matches("^" + CORPUS_INDEX + "[0-9]+" + IndexerConstant.EXTENSION_IDX)) {
         numOfPartialIndex++;
       }
     }
@@ -1149,7 +892,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Then get the quantity of the posting list for each partial file
     for (int i = 0; i < numOfPartialIndex; i++) {
       for (File file : folder.listFiles()) {
-        if (file.getName().matches("^" + CORPUS_INDEX + String.format("%03d", i) + "\\" + EXTENSION_IDX)) {
+        if (file.getName().matches("^" + CORPUS_INDEX + String.format("%03d", i) + "\\" + IndexerConstant.EXTENSION_IDX)) {
           termIds[i] = -1;
           files[i] = file;
           inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
@@ -1216,7 +959,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      * Wrapping up... Delete all partial index file
      *************************************************************************/
     for (File f : folder.listFiles()) {
-      if (f.getName().matches("^" + CORPUS_INDEX + "[0-9]+\\" + EXTENSION_IDX)) {
+      if (f.getName().matches("^" + CORPUS_INDEX + "[0-9]+\\" + IndexerConstant.EXTENSION_IDX)) {
         f.delete();
       }
     }
@@ -1226,7 +969,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * Merge all partial doc term frequency file...
    */
   public void mergeDocumentTermFrequency() throws IOException {
-    String invertedIndexFileName = _options._indexPrefix + "/" + DOCUMENTS + EXTENSION_IDX;
+    String invertedIndexFileName = _options._indexPrefix + "/" + DOCUMENTS + IndexerConstant.EXTENSION_IDX;
+    Map<Integer, Offsets> tmpDocTermFreqMeta = new HashMap<Integer, Offsets>();
 
     RandomAccessFile raf = new RandomAccessFile(invertedIndexFileName, "rw");
     long currentPos = 0;
@@ -1240,7 +984,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     // Get the number of partial documents file
     for (File f : folder.listFiles()) {
-      if (f.getName().matches("^" + DOCUMENTS + "[0-9]+\\" + EXTENSION_IDX)) {
+      if (f.getName().matches("^" + DOCUMENTS + "[0-9]+" + IndexerConstant.EXTENSION_IDX)) {
         numOfPartialIndex++;
       }
     }
@@ -1254,7 +998,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     for (int i = 0; i < numOfPartialIndex; i++) {
       for (File file : folder.listFiles()) {
         if (file.getName().matches(
-            "^" + DOCUMENTS + String.format("%03d", i) + "\\" + EXTENSION_IDX)) {
+            "^" + DOCUMENTS + String.format("%03d", i) + "\\" + IndexerConstant.EXTENSION_IDX)) {
           files[i] = file;
           inputs[i] = new Input(new FileInputStream(file.getAbsolutePath()));
           break;
@@ -1280,7 +1024,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
         // Assume the posting list will not be too big...
         length = (int) (raf.length() - currentPos);
-        docTermFreqMeta.put(docid, new Offsets(currentPos, length));
+        tmpDocTermFreqMeta.put(docid, new Offsets(currentPos, length));
 
         docCount++;
       }
@@ -1289,11 +1033,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
     System.out.println("Merging docs...: " + docCount);
 
+    docTermFreqMeta = ImmutableMap.copyOf(tmpDocTermFreqMeta);
+
     /**************************************************************************
      * Wrapping up...
      *************************************************************************/
     for (File f : folder.listFiles()) {
-      if (f.getName().matches("^" + DOCUMENTS + "[0-9]+\\" + EXTENSION_IDX)) {
+      if (f.getName().matches("^" + DOCUMENTS + "[0-9]+\\" + IndexerConstant.EXTENSION_IDX)) {
         // Delete all partial index file
         f.delete();
       }
@@ -1326,14 +1072,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void loadPostingList(List<String> query) throws IOException,
       ClassNotFoundException {
     String invertedIndexFileName;
-    invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX + EXTENSION_IDX;
+    invertedIndexFileName = _options._indexPrefix + "/" + CORPUS_INDEX + IndexerConstant.EXTENSION_IDX;
 
     boolean hasAlready = true;
     Offsets offsets;
     int count = 0;
 
     // Clean if not enough memory...
-    if (invertedIndex.keys().size() > Util.MAX_INVERTED_INDEX_SIZE) {
+    if (invertedIndex.keys().size() > IndexerConstant.MAX_INVERTED_INDEX_SIZE) {
       invertedIndex.clear();
     }
 
@@ -1379,7 +1125,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private void loadTermDocFrequency(int docid) {
     if (!docTermFrequency.containsKey(docid) && docTermFreqMeta.containsKey(docid)) {
       String documentTermFrequencyFileName;
-      documentTermFrequencyFileName = _options._indexPrefix + "/" + DOCUMENTS + EXTENSION_IDX;
+      documentTermFrequencyFileName = _options._indexPrefix + "/" + DOCUMENTS + IndexerConstant.EXTENSION_IDX;
 
       RandomAccessFile raf = null;
       try {
