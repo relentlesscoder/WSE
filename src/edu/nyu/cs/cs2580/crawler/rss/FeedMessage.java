@@ -16,6 +16,8 @@ public class FeedMessage {
   String guid;
   String pubDate;
 
+  String publisher;
+
   public String getPubDate() {
     return pubDate;
   }
@@ -63,6 +65,14 @@ public class FeedMessage {
 
   public void setGuid(String guid) {
     this.guid = guid;
+  }
+
+  public String getPublisher() {
+    return publisher;
+  }
+
+  public void setPublisher(String publisher) {
+    this.publisher = publisher;
   }
 
   @Override
