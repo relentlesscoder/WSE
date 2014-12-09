@@ -1,4 +1,6 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.preprocess;
+
+import edu.nyu.cs.cs2580.TermPrf;
 
 import java.io.*;
 import java.util.ArrayList;
