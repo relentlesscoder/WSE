@@ -13,7 +13,7 @@ public class DocumentNews extends DocumentIndexed{
   private Date time;
 
   public DocumentNews(int docid, Indexer indexer, Date time) {
-    super(docid ,indexer);
+    super(docid);
     this.time = time;
   }
 
