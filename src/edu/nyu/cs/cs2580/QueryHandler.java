@@ -294,8 +294,11 @@ public class QueryHandler implements HttpHandler {
           String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs);
           Headers responseHeaders = exchange.getResponseHeaders();
           responseHeaders.set("Server", "Java JSON API");
-          responseHeaders.set("Content-Type", "application/json");
+          responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");
           responseHeaders.set("Cache-Control", "no-cache");
+          responseHeaders.set("Access-Control-Allow-Origin","*");
+          responseHeaders.set("Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept");
+          responseHeaders.set("Access-Control-Allow-Methods","GET");
           exchange.sendResponseHeaders(200, queryResponse.getBytes().length);
           OutputStream responseBody = exchange.getResponseBody();
           responseBody.write(queryResponse.getBytes());
