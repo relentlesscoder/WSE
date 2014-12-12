@@ -22,15 +22,15 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
   @Override
   public void processDocuments() throws IOException {
     for (int docid = 0; docid < files.length; docid++) {
-      checkNotNull(files[docid], "File can not be null!");
       // Update the progress bar first :)
       progressBar.update(docid, files.length);
-      // Now process the document
+
+      // Process the document and populate the inverted index
       processDocument(docid);
+
       // Write to a file if memory usage has reach the memory threshold
       if (hasReachThresholdCompress()) {
-        split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, partialFileCount);
-        partialFileCount++;
+        split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, partialFileCount++);
       }
     }
 
@@ -59,6 +59,6 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
     documents.add(doc);
 
     // Populate the inverted index.
-    populateInvertedIndex(title + " " + bodyText, docid);
+    populateInvertedIndex(title + " " + bodyText, docid, 0, DocumentField.CONTENT);
   }
 }

@@ -128,6 +128,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      *************************************************************************/
     File outputFolder = new File(_options._indexPrefix);
 
+    //TODO: If index folder does not exist, null pointer exception will be thrown...
+
     for (File file : outputFolder.listFiles()) {
       if (file.getName().matches("^.*" + CORPUS_INDEX + "[0-9]*" + IndexerConstant.EXTENSION_IDX) ||
           file.getName().matches("^.*" + DOCUMENTS + "[0-9]*" + IndexerConstant.EXTENSION_IDX) ||

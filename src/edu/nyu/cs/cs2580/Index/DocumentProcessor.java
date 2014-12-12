@@ -34,10 +34,14 @@ public abstract class DocumentProcessor {
     }
   }
 
+  protected enum DocumentField {
+    TITLE,
+    DESCRIPTION,
+    CONTENT
+  }
+
   // K is the length of interval for the skip pointer of the posting list.
   protected static final int K = 10000;
-
-
 
   // Compressed inverted index, dynamically loaded per term at run time
   // Key: Term ID
@@ -85,6 +89,8 @@ public abstract class DocumentProcessor {
 
   protected int partialFileCount;
 
+  protected ExtentList extentList;
+
   protected DocumentProcessor(File[] files, SearchEngine.Options options) {
     this.dictionary = HashBiMap.create();
 
@@ -107,6 +113,8 @@ public abstract class DocumentProcessor {
 
     this.totalTermFrequency = 0;
 
+    extentList = new ExtentList();
+
     this.files = files;
 
     this.options = options;
@@ -125,42 +133,33 @@ public abstract class DocumentProcessor {
    *
    * @param content The content of the document.
    * @param docid   The document ID.
+   * @return End position, which is 1 pass the last term.
    */
-  protected void populateInvertedIndex(String content, int docid) {
+  protected int populateInvertedIndex(String content, int docid, int position, DocumentField docField) {
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
     Tokenizer tokenizer = new Tokenizer(new StringReader(content));
 
-    int position = 0;
-
     /**************************************************************************
-     * Start to process the document one term at a time.
+     * Start to process the content one term at a time.
      *************************************************************************/
     while (tokenizer.hasNext()) {
-      // Tokenizer... Stemmer... Filter...
+      // Get the lower case term
       String term = Tokenizer.lowercaseFilter(tokenizer.getText());
+      // Stemming
       term = Tokenizer.krovetzStemmerFilter(term);
-
-      if (term == null) {
-        continue;
-      }
 
       // Update the total term frequency
       // TODO:
 //      _totalTermFrequency++;
       totalTermFrequency++;
 
-      // Update dictionary
-      if (!dictionary.containsKey(term)) {
-        int termId = dictionary.size();
-        dictionary.put(term, termId);
-        ConstructTmpData constructTmpData = new ConstructTmpData();
-        constructTmpDataMap.put(termId, constructTmpData);
-      }
+      // Add the term into the dictionary and get its term ID
+      int termId = addIntoDictionary(term);
 
-      // Get the term ID for later use
-      int termId = dictionary.get(term);
+      // Create the construct temporary data for the term ID and put into the map
+      addIntoConstructTmpDataMap(termId);
 
       // Update the meta data
       if (!meta.containsKey(termId)) {
@@ -254,6 +253,8 @@ public abstract class DocumentProcessor {
       constructTmpDataMap.get(termId).lastPostingListSize =
           constructTmpDataMap.get(termId).lastPostingListSize + partialPostingList.size();
     }
+
+    return position;
   }
 
   /**
@@ -362,6 +363,29 @@ public abstract class DocumentProcessor {
     }
 
     output.close();
+  }
+
+  /**
+   * Add the term into the dictionary and return its term ID.
+   */
+  private int addIntoDictionary(String term) {
+    if (dictionary.containsKey(term)) {
+      return dictionary.get(term);
+    } else {
+      int termId = dictionary.size();
+      dictionary.put(term, termId);
+      return termId;
+    }
+  }
+
+  /**
+   * Add the construct temporary data into the map.
+   */
+  private void addIntoConstructTmpDataMap(int termId) {
+    if (!constructTmpDataMap.containsKey(termId)) {
+      ConstructTmpData constructTmpData = new ConstructTmpData();
+      constructTmpDataMap.put(termId, constructTmpData);
+    }
   }
 
   /**
