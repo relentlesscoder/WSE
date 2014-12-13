@@ -44,7 +44,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // The offset of each docid of the posting list for each term.
   // Key: Term ID
   // Value: The offsets for each of docid in the posting list.
-  private ImmutableListMultimap<Integer, Byte> skipPointers;
+  private ListMultimap<Integer, Byte> skipPointers;
 
   // Key: Term ID
   // Value: MetaData
@@ -60,6 +60,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private ImmutableMap<Integer, Offsets> docTermFreqMeta;
 
   private ImmutableList<Document> documents;
+
+  private Map<Integer, ExtentList> extentListMap;
 
   private SearchEngine.CORPUS_TYPE corpusType;
 
@@ -79,6 +81,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     this.invertedIndex = ArrayListMultimap.create();
     this.docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
+    this.skipPointers = ArrayListMultimap.create();
 
     this.corpusType = corpusType;
     switch (corpusType) {
@@ -152,14 +155,18 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       //TODO: Process news corpus per docid...
     }
 
+    // Start to process documents
     documentProcessor.processDocuments();
 
-    dictionary = ImmutableBiMap.copyOf(documentProcessor.getDictionary());
-    skipPointers = ImmutableListMultimap.copyOf(documentProcessor.getSkipPointers());
+    // Get necessary data back from the document processor.
+    extentListMap = documentProcessor.getExtentListMap();
     meta = ImmutableMap.copyOf(documentProcessor.getMeta());
     documents = ImmutableList.copyOf(documentProcessor.getDocuments());
+    dictionary = ImmutableBiMap.copyOf(documentProcessor.getDictionary());
+
     _totalTermFrequency = documentProcessor.getTotalTermFrequency();
-    totalTermFrequency = _totalTermFrequency;
+    totalTermFrequency = documentProcessor.getTotalTermFrequency();
+
     documentProcessor = null;
 
     // Get the number of documents
@@ -284,6 +291,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this.totalNumViews = loaded.totalNumViews;
 
         this.skipPointers = loaded.skipPointers;
+        this.extentListMap = loaded.extentListMap;
 
         this.meta = loaded.meta;
         this.docTermFreqMeta = loaded.docTermFreqMeta;
@@ -329,6 +337,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * @param docid docid
    * @return Document
    */
+  @Deprecated
   public Document nextDocLoose(Query query, int docid) {
     List<String> queryTerms = new ArrayList<String>(query._tokens);
 
@@ -946,6 +955,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         break;
       }
 
+      List<Integer> postingList = VByteUtil.vByteDecodingList(outputPostingList);
+
+      /**************************************************************************
+       * Generate skip pointers and convert docid to deltas
+       *************************************************************************/
+      outputPostingList = convertDeltaDocid(outputTermID, postingList);
+
       currentPos = raf.length();
       raf.seek(currentPos);
       raf.write(Bytes.toArray(outputPostingList));
@@ -965,6 +981,48 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         f.delete();
       }
     }
+  }
+
+  private List<Byte> convertDeltaDocid(int termId, List<Integer> postingList) {
+    List<Integer> skipPointer = new ArrayList<Integer>();
+
+    int i = 0;
+    int docid = 0;
+    int prevDocid = 0;
+
+    int byteLength = 0;
+    int prevByteLength = 0;
+
+    while (i < postingList.size()) {
+      docid = postingList.get(i);
+      int deltaDocid = docid - prevDocid;
+
+      postingList.set(i++, deltaDocid);
+
+      byteLength += VByteUtil.getByteLength(deltaDocid);
+
+      int occurrence = postingList.get(i++);
+      byteLength += VByteUtil.getByteLength(occurrence);
+
+      int endIndex = i + occurrence;
+      for (; i < endIndex; i++) {
+        byteLength += VByteUtil.getByteLength(postingList.get(i));
+      }
+
+      if (byteLength - prevByteLength > K) {
+        skipPointer.add(prevDocid);
+        skipPointer.add(byteLength);
+        prevByteLength = byteLength;
+      }
+
+      prevDocid = docid;
+    }
+
+    if (skipPointer.size() > 0) {
+      skipPointers.putAll(termId, VByteUtil.vByteEncodingList(skipPointer));
+    }
+
+    return VByteUtil.vByteEncodingList(postingList);
   }
 
   /**
@@ -1019,6 +1077,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         int docid = kryo.readObject(inputs[i], Integer.class);
 
         List<Byte> termIdAndFrequency = kryo.readObject(inputs[i], ArrayList.class);
+        List<Integer> test = VByteUtil.vByteDecodingList(termIdAndFrequency);
 
         currentPos = raf.length();
         raf.seek(currentPos);
@@ -1151,7 +1210,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         Multiset<Integer> docTermFrequency = HashMultiset.create();
 
         for (int i = 0; i < termIdAndFrequency.size() / 2; i++) {
-          docTermFrequency.setCount(termIdAndFrequency.get(i), termIdAndFrequency.get(i + 1));
+          docTermFrequency.setCount(termIdAndFrequency.get(2 * i), termIdAndFrequency.get(2 * i + 1));
         }
 
         this.docTermFrequency.put(docid, docTermFrequency);
@@ -1160,5 +1219,26 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         e.printStackTrace();
       }
     }
+  }
+
+  /**
+   * If all query terms exist in the document title, return true.
+   * @param query query
+   * @param docid document ID
+   * @return boolean...
+   */
+  public boolean isQueryInTitle(Query query, int docid) {
+    List<String> queryTerms = new ArrayList<String>(query._tokens);
+    ExtentList extentList = extentListMap.get(docid);
+    FieldPositionRange fieldPositionRange = extentList.getFieldPositionRange(ExtentList.DocumentField.TITLE);
+
+    for (String term : queryTerms) {
+      int firstPos = nextPos(term, docid, -1);
+      if (fieldPositionRange.getEndPos() <= firstPos) {
+        return false;
+      }
+    }
+
+    return true;
   }
 }

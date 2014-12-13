@@ -34,7 +34,7 @@ public class RankerComprehensive extends Ranker {
     int count = 0;
 
     while (true) {
-      Document document = indexerInvertedCompressed.nextDocLoose(query,
+      Document document = indexerInvertedCompressed.nextDoc(query,
           nextDocid);
       if (document == null) {
         break;
@@ -107,6 +107,11 @@ public class RankerComprehensive extends Ranker {
 
     if (indexerInvertedCompressed.getTotalNumViews() > 0) {
       score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
+    }
+
+    // Check for title
+    if (indexerInvertedCompressed.isQueryInTitle(query, docId)) {
+      score *= 1.5;
     }
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());

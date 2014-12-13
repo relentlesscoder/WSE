@@ -3,7 +3,6 @@ package edu.nyu.cs.cs2580.Index;
 import edu.nyu.cs.cs2580.Document.DocumentIndexed;
 import edu.nyu.cs.cs2580.Rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
-import edu.nyu.cs.cs2580.Utils.Util;
 import org.jsoup.Jsoup;
 
 import java.io.File;
@@ -30,12 +29,12 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
 
       // Write to a file if memory usage has reach the memory threshold
       if (hasReachThresholdCompress()) {
-        split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, partialFileCount++);
+        split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber++);
       }
     }
 
     // Write the rest partial inverted index...
-    split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, partialFileCount);
+    split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber);
   }
 
   /**
@@ -48,8 +47,10 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
   protected void processDocument(int docid) throws IOException {
     org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(files[docid], "UTF-8");
 
-    String bodyText = jsoupDoc.body().text();
     String title = jsoupDoc.title();
+
+    DocumentFields documentFields = new DocumentFields(title);
+    documentFields.setContent(jsoupDoc.body().text());
 
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid);
@@ -59,6 +60,6 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
     documents.add(doc);
 
     // Populate the inverted index.
-    populateInvertedIndex(title + " " + bodyText, docid, 0, DocumentField.CONTENT);
+    populateInvertedIndex(documentFields, docid);
   }
 }
