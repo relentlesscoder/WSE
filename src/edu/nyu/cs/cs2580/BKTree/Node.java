@@ -29,10 +29,10 @@ public class Node<E> {
 
   /**
    * Add an element as a child of that node
-   * @param distance the distance between the element within the node and the element pass as one of the parameters
    * @param element the element needed to be added into the node's children
+   * @param distance the distance between the element within the node and the element pass as one of the parameters
    */
-  public void addChild(int distance, E element) {
+  public void addChild(E element, int distance) {
     children.put(distance, new Node<E>(element));
   }
 
@@ -43,8 +43,21 @@ public class Node<E> {
    * @param distance the distance between the source element and the element within the node.
    * @return the node of that specific distance.
    */
-  public Optional<Node<E>> getChildNode(double distance) {
-    return Optional.fromNullable(children.get(distance));
+  public Optional<Node<E>> getChildNode(int distance) {
+    if (children.containsKey(distance)) {
+      return Optional.fromNullable(children.get(distance));
+    } else {
+      return Optional.fromNullable(null);
+    }
+  }
+
+  /**
+   * Check if the node contains a child with a specific distance
+   * @param distance distance from that element within the node
+   * @return true if the child exist, otherwise false
+   */
+  public boolean containsChild(int distance) {
+    return children.containsKey(distance);
   }
 
   @Override

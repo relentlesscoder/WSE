@@ -1242,4 +1242,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     return true;
   }
+  public ImmutableBiMap<String, Integer> getDictionary() {
+    return dictionary;
+  }
 }
