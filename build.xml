@@ -1,18 +1,16 @@
 <project>
 
-    <property name="src.dir"    value="src"/>
-
-    <property name="build.dir"  value="bin"/>
-    <property name="classes.dir"    value="${build.dir}/classes"/>
-    <property name="lib.dir"    value="lib"/>
+    <property name="src"    value="src"/>
+    <property name="build"  value="bin"/>
+    <property name="classes"    value="${build}/classes"/>
+    <property name="lib"    value="lib"/>
 
     <property name="main-class" value="edu.nyu.cs.cs2580.SearchEngine"/>
-    <property name="B-Compute"  value="${classes.dir}/edu.nyu.cs.cs2580.SearchEngine"/>
-
-
+    <property name="B-Compute"  value="edu.nyu.cs.cs2580.SearchEngine"/>
+    <property name="crawl"  value="edu.nyu.cs.cs2580.crawler.rss.MainApplication"/>
 
     <path id="classpath">
-        <fileset dir="${build.dir}/${lib.dir}" includes="*.jar"/>
+        <fileset dir="${lib}" includes="*.jar"/>
     </path>
 
     <target name="clean">
@@ -20,11 +18,17 @@
     </target>
 
     <target name="compile">
-        <mkdir dir="${classes.dir}"/>
-        <copy todir="${build.dir}/${lib.dir}">
-            <fileset dir="${lib.dir}"/>
-        </copy>
-        <javac includeantruntime="false" srcdir="${src.dir}" destdir="${classes.dir}" classpathref="classpath"/>
+        <mkdir dir="${classes}"/>
+        <javac includeantruntime="false" srcdir="${src}" destdir="${classes}" classpathref="classpath"/>
+    </target>
+
+    <target name="crawl">
+        <java fork="true" classname="${crawl}">
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
     </target>
 
     <target name="SearchEngine">
@@ -32,11 +36,12 @@
             <arg value="${arg0}"/>
             <arg value="${arg1}"/>
             <classpath>
-                <pathelement path="${classes.dir}" />
+                <pathelement path="${classes}" />
                 <path refid="classpath"/>
             </classpath>
         </java>
     </target>
+
 
 </project>
 
