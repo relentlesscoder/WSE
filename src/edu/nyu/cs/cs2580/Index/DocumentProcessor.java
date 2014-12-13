@@ -13,35 +13,41 @@ import edu.nyu.cs.cs2580.Utils.VByteUtil;
 import java.io.*;
 import java.util.*;
 
-import static com.google.common.base.Preconditions.checkNotNull;
-
 /**
  * This is the abstract class of document processor.
  */
-public abstract class DocumentProcessor {
-  /**
-   * Temporary data for constructing the index.
-   */
-  protected class ConstructTmpData {
-    public int lastDocid;
-    public int lastPostingListSize;
-    public int lastSkipPointerOffset;
+public abstract class DocumentProcessor implements Serializable {
+  private static final long serialVersionUID = 1L;
 
-    public ConstructTmpData() {
-      lastDocid = -1;
-      lastPostingListSize = -1;
-      lastSkipPointerOffset = -1;
+  protected class DocumentFields {
+    private String title;
+    private String content;
+
+    public DocumentFields(String title) {
+      this.title = title;
+    }
+
+    public String getTitle() {
+      return title;
+    }
+
+    public String getContent() {
+      return content;
+    }
+
+    public void setContent(String content) {
+      this.content = content;
     }
   }
 
-  protected enum DocumentField {
-    TITLE,
-    DESCRIPTION,
-    CONTENT
-  }
+  // Progress bar
+  protected ProgressBar progressBar;
 
-  // K is the length of interval for the skip pointer of the posting list.
-  protected static final int K = 10000;
+  // Search options containing configuration details
+  protected SearchEngine.Options options;
+
+  // Files in the corpus folder
+  protected File[] files;
 
   // Compressed inverted index, dynamically loaded per term at run time
   // Key: Term ID
@@ -59,11 +65,6 @@ public abstract class DocumentProcessor {
   // Value: Term ID
   protected BiMap<String, Integer> dictionary;
 
-  // The offset of each docid of the posting list for each term.
-  // Key: Term ID
-  // Value: The offsets for each of docid in the posting list.
-  protected ListMultimap<Integer, Byte> skipPointers;
-
   // Key: Term ID
   // Value: MetaData
   // MetaData {
@@ -73,57 +74,49 @@ public abstract class DocumentProcessor {
   // }
   protected Map<Integer, MetaData> meta;
 
+  // List of all documents containing some document properties for ranking
   protected List<Document> documents;
 
-  protected SearchEngine.Options options;
+  // File number of the next file for splitting
+  protected int splitFileNumber;
 
-  protected ProgressBar progressBar;
-
-  // Files in the corpus folder
-  protected File[] files;
-
-  // Temporary data structure
-  protected Map<Integer, ConstructTmpData> constructTmpDataMap;
-
+  // Total term frequency across the whole corpus
   protected long totalTermFrequency;
 
-  protected int partialFileCount;
+  // Extent list for different document fields which contains their position range
+  protected Map<Integer, ExtentList> extentListMap;
 
-  protected ExtentList extentList;
-
+  // Constructor
   protected DocumentProcessor(File[] files, SearchEngine.Options options) {
-    this.dictionary = HashBiMap.create();
+    this.progressBar = new ProgressBar();
+
+    this.options = options;
+
+    this.files = files;
 
     this.invertedIndex = ArrayListMultimap.create();
 
     this.docTermFrequency = new HashMap<Integer, Multiset<Integer>>();
 
-    this.skipPointers = ArrayListMultimap.create();
+    this.dictionary = HashBiMap.create();
 
     this.meta = new HashMap<Integer, MetaData>();
 
     this.documents = new ArrayList<Document>();
 
-    this.constructTmpDataMap = new HashMap<Integer, ConstructTmpData>();
-    ;
-
-    this.progressBar = new ProgressBar();
-
-    this.partialFileCount = 0;
+    this.splitFileNumber = 0;
 
     this.totalTermFrequency = 0;
 
-    extentList = new ExtentList();
-
-    this.files = files;
-
-    this.options = options;
+    this.extentListMap = new HashMap<Integer, ExtentList>();
   }
 
   /**
-   * Process the corpus documents and generate files for index, document term frequency, dictionary.
+   * Process the corpus documents and populate the inverted index. If the index size has reach a threshold, it will split
+   * it and write into a file for later merge in the indexer.
+   *
    * It also generate some meta data for the indexer.
-   * <p>
+   *
    * For each of the document, call {@link populateInvertedIndex} in order to populate the inverted index.
    */
   public abstract void processDocuments() throws IOException;
@@ -131,15 +124,59 @@ public abstract class DocumentProcessor {
   /**
    * Populate the inverted index provided by a document's content and its ID.
    *
-   * @param content The content of the document.
-   * @param docid   The document ID.
+   * @param docFields The content of each of the document fields.
+   * @param docid     The document ID.
    * @return End position, which is 1 pass the last term.
    */
-  protected int populateInvertedIndex(String content, int docid, int position, DocumentField docField) {
+  protected int populateInvertedIndex(DocumentFields docFields, int docid) {
+    ExtentList extentList = new ExtentList();
+    int position = 0;
+
     // Uncompressed temporary inverted index.
     // Key is the term and value is the uncompressed posting list.
     ListMultimap<Integer, Integer> tmpInvertedIndex = ArrayListMultimap.create();
-    Tokenizer tokenizer = new Tokenizer(new StringReader(content));
+
+    Multiset<Integer> termFrequencyOfDocid = HashMultiset.create();
+    docTermFrequency.put(docid, termFrequencyOfDocid);
+
+    // Populate the temporary index with the title first
+    position = populateTmpInvertedIndex(tmpInvertedIndex, docFields.getTitle(), docid, position);
+    // Update the extent list.
+    extentList.addExtList(ExtentList.DocumentField.TITLE, 0, position);
+    int titleEndPos = position;
+
+    // Populate the temporary index with the main content first
+    position = populateTmpInvertedIndex(tmpInvertedIndex, docFields.getContent(), docid, position);
+    // Update the extent list.
+    extentList.addExtList(ExtentList.DocumentField.CONTENT, titleEndPos, position);
+
+    // Update the extent list map.
+    extentListMap.put(docid, extentList);
+
+    // Update the total document term of that document
+    documents.get(docid).setTotalDocTerms(position);
+
+    // Convert all positions of the posting list to deltas
+    convertPositionToDelta(tmpInvertedIndex);
+
+    // Compress the temporary inverted index and populate the inverted index.
+    for (int termId : tmpInvertedIndex.keySet()) {
+      // Encode the posting list
+      List<Byte> partialPostingList = VByteUtil.vByteEncodingList(tmpInvertedIndex
+          .get(termId));
+
+      // Append the posting list if one exists, otherwise create one first :)
+      invertedIndex.get(termId).addAll(partialPostingList);
+    }
+
+    return position;
+  }
+
+  /**
+   *
+   */
+  private int populateTmpInvertedIndex(ListMultimap<Integer, Integer> tmpInvertedIndex, String str, int docid, int position) {
+    Tokenizer tokenizer = new Tokenizer(new StringReader(str));
 
     /**************************************************************************
      * Start to process the content one term at a time.
@@ -151,15 +188,10 @@ public abstract class DocumentProcessor {
       term = Tokenizer.krovetzStemmerFilter(term);
 
       // Update the total term frequency
-      // TODO:
-//      _totalTermFrequency++;
       totalTermFrequency++;
 
       // Add the term into the dictionary and get its term ID
-      int termId = addIntoDictionary(term);
-
-      // Create the construct temporary data for the term ID and put into the map
-      addIntoConstructTmpDataMap(termId);
+      int termId = addTermIntoDictionary(term);
 
       // Update the meta data
       if (!meta.containsKey(termId)) {
@@ -172,10 +204,6 @@ public abstract class DocumentProcessor {
       meta.get(termId).setCorpusTermFrequency(corpusTermFrequency + 1);
 
       // Update docTermFrequency
-      if (!docTermFrequency.containsKey(docid)) {
-        Multiset<Integer> termFrequencyOfDocid = HashMultiset.create();
-        docTermFrequency.put(docid, termFrequencyOfDocid);
-      }
       docTermFrequency.get(docid).add(termId);
 
       // Populate the temporary inverted index.
@@ -187,71 +215,17 @@ public abstract class DocumentProcessor {
         // Add the position of this term
         tmpInvertedIndex.get(termId).add(position);
       } else {
-        // This is the first time the term has been seen in the document
-        if (constructTmpDataMap.get(termId).lastDocid != -1) {
-          // The inverted index has already seen the term in previous
-          // documents
-
-          // Get the last/previous docid of the term's posting list
-          int prevDocid = constructTmpDataMap.get(termId).lastDocid;
-          int deltaDocid = docid - prevDocid;
-          tmpInvertedIndex.get(termId).add(deltaDocid);
-
-          if ((constructTmpDataMap.get(termId).lastPostingListSize - constructTmpDataMap.get(termId).lastSkipPointerOffset) > K) {
-            skipPointers.get(termId).addAll(VByteUtil.vByteEncoding(prevDocid));
-            skipPointers.get(termId).addAll(
-                VByteUtil.vByteEncoding(constructTmpDataMap.get(termId).lastPostingListSize));
-
-            constructTmpDataMap.get(termId).lastSkipPointerOffset
-                = constructTmpDataMap.get(termId).lastPostingListSize;
-          }
-        } else {
-          // The inverted index hasn't seen the term in previous documents
-          // No need to calculate the delta since it's the first docid of
-          // the posting list.
-          tmpInvertedIndex.get(termId).add(docid);
-
-          constructTmpDataMap.get(termId).lastDocid = 0;
-          constructTmpDataMap.get(termId).lastPostingListSize = 0;
-          constructTmpDataMap.get(termId).lastSkipPointerOffset = 0;
-        }
+        tmpInvertedIndex.get(termId).add(docid);
         tmpInvertedIndex.get(termId).add(1);
         tmpInvertedIndex.get(termId).add(position);
 
-        // Update the term frequency across the whole corpus.
+        // Update the term's corpus document frequency.
         int corpusDocFrequencyByTerm = meta.get(termId).getCorpusDocFrequencyByTerm();
         meta.get(termId).setCorpusDocFrequencyByTerm(corpusDocFrequencyByTerm + 1);
       }
 
       // Move to the next position
       position++;
-    }
-
-    /**************************************************************************
-     * Finish the process of all terms.
-     *************************************************************************/
-    documents.get(docid).setTotalDocTerms(++position);
-
-    /**************************************************************************
-     * Start to compress...
-     *************************************************************************/
-
-    // 1. Convert all positions of the posting list to deltas
-    convertPositionToDelta(tmpInvertedIndex);
-
-    // 2. Compress the temporary inverted index and populate the inverted index.
-    for (int termId : tmpInvertedIndex.keySet()) {
-      // Update lastDocid
-      constructTmpDataMap.get(termId).lastDocid = docid;
-
-      // Encode the posting list
-      List<Byte> partialPostingList = VByteUtil.vByteEncodingList(tmpInvertedIndex
-          .get(termId));
-
-      // Append the posting list if one exists, otherwise create one first :)
-      invertedIndex.get(termId).addAll(partialPostingList);
-      constructTmpDataMap.get(termId).lastPostingListSize =
-          constructTmpDataMap.get(termId).lastPostingListSize + partialPostingList.size();
     }
 
     return position;
@@ -297,8 +271,6 @@ public abstract class DocumentProcessor {
     invertedIndex.clear();
     docTermFrequency.clear();
   }
-
-  ;
 
   /**
    * Write partial compressed inverted index to a file
@@ -368,7 +340,7 @@ public abstract class DocumentProcessor {
   /**
    * Add the term into the dictionary and return its term ID.
    */
-  private int addIntoDictionary(String term) {
+  private int addTermIntoDictionary(String term) {
     if (dictionary.containsKey(term)) {
       return dictionary.get(term);
     } else {
@@ -379,28 +351,13 @@ public abstract class DocumentProcessor {
   }
 
   /**
-   * Add the construct temporary data into the map.
-   */
-  private void addIntoConstructTmpDataMap(int termId) {
-    if (!constructTmpDataMap.containsKey(termId)) {
-      ConstructTmpData constructTmpData = new ConstructTmpData();
-      constructTmpDataMap.put(termId, constructTmpData);
-    }
-  }
-
-  /**
    * Check if the inverted index has reach the memory threshold
    *
-   * @param invertedIndex inverted index
    * @return true if the threshold has met
    */
   public boolean hasReachThresholdCompress() {
     Multiset<Integer> multiset = invertedIndex.keys();
     return multiset.size() > IndexerConstant.PARTIAL_FILE_SIZE;
-  }
-
-  public ListMultimap<Integer, Byte> getSkipPointers() {
-    return skipPointers;
   }
 
   public Map<Integer, MetaData> getMeta() {
@@ -417,5 +374,9 @@ public abstract class DocumentProcessor {
 
   public BiMap<String, Integer> getDictionary() {
     return dictionary;
+  }
+
+  public Map<Integer, ExtentList> getExtentListMap() {
+    return extentListMap;
   }
 }

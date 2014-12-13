@@ -34,7 +34,7 @@ public class RankerComprehensive extends Ranker {
     int count = 0;
 
     while (true) {
-      Document document = indexerInvertedCompressed.nextDocLoose(query,
+      Document document = indexerInvertedCompressed.nextDoc(query,
           nextDocid);
       if (document == null) {
         break;

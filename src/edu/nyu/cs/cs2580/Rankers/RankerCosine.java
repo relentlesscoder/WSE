@@ -81,8 +81,8 @@ public class RankerCosine extends Ranker {
     int numOfDocTerms = docTermFrequency.size();
 
     double score = 0.0;
-    double d_j = 0.0;
-    double q_j = 0.0;
+    double d_j;
+    double q_j;
     double a = 0.0;
     double b = 0.0;
     double c = 0.0;
