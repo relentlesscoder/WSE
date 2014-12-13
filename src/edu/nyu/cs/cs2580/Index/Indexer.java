@@ -2,10 +2,11 @@ package edu.nyu.cs.cs2580.Index;
 
 import java.io.IOException;
 
-import edu.nyu.cs.cs2580.CorpusAnalyzer;
-import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.LogMiner;
-import edu.nyu.cs.cs2580.Query;
+import edu.nyu.cs.cs2580.minning.CorpusAnalyzer;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.minning.LogMiner;
+import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 /**
@@ -21,7 +22,7 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
  * See comments below for more info.
  * 
  * In HW3: students will incorporate the corpus analysis and log mining results
- * into indexing process through {@link edu.nyu.cs.cs2580.CorpusAnalyzer} and {@link edu.nyu.cs.cs2580.LogMiner}.
+ * into indexing process through {@link edu.nyu.cs.cs2580.minning.CorpusAnalyzer} and {@link edu.nyu.cs.cs2580.minning.LogMiner}.
  *
  * @author congyu
  * @author fdiaz
@@ -141,9 +142,9 @@ public abstract class Indexer {
    * provided {@code options}.
    */
   public static class Factory {
-    public static Indexer getIndexerByOption(Options options) {
+    public static Indexer getIndexerByOption(Options options, SearchEngine.CORPUS_TYPE corpusType) {
       if (options._indexerType.equals("inverted-compressed")) {
-        return new IndexerInvertedCompressed(options);
+        return new IndexerInvertedCompressed(options, corpusType);
       }
       return null;
     }

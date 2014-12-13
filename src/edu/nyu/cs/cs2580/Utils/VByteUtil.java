@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Utils;
+package edu.nyu.cs.cs2580.utils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -155,5 +155,19 @@ public class VByteUtil {
     }
 
     return res;
+  }
+
+  public static int getByteLength(int num) {
+    if (num < (1 << 7)) {
+      return 1;
+    } else if (num < (1 << 14)) {
+      return 2;
+    } else if (num < (1 << 21)) {
+      return 3;
+    } else if (num < (1 << 28)) {
+      return 4;
+    } else {
+      return 5;
+    }
   }
 }

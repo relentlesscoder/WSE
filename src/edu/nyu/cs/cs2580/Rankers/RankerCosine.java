@@ -1,14 +1,13 @@
-package edu.nyu.cs.cs2580.Rankers;
+package edu.nyu.cs.cs2580.rankers;
 
 import com.google.common.collect.Multiset;
-import edu.nyu.cs.cs2580.*;
-import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.Document.DocumentIndexed;
-import edu.nyu.cs.cs2580.Document.ScoredDocument;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
+import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.handler.CgiArguments;
 
 import java.util.*;
 
@@ -81,8 +80,8 @@ public class RankerCosine extends Ranker {
     int numOfDocTerms = docTermFrequency.size();
 
     double score = 0.0;
-    double d_j = 0.0;
-    double q_j = 0.0;
+    double d_j;
+    double q_j;
     double a = 0.0;
     double b = 0.0;
     double c = 0.0;

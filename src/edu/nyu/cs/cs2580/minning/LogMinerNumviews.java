@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.minning;
 
 import java.io.*;
 import java.util.HashMap;
@@ -10,7 +10,7 @@ import com.esotericsoftware.kryo.io.Output;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.Utils.Util;
+import edu.nyu.cs.cs2580.utils.Util;
 
 /**
  * @CS2580: Implement this class for HW3.

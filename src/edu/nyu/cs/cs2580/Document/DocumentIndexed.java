@@ -1,6 +1,4 @@
-package edu.nyu.cs.cs2580.Document;
-
-import edu.nyu.cs.cs2580.Index.Indexer;
+package edu.nyu.cs.cs2580.document;
 
 import java.util.Vector;
 
@@ -10,13 +8,10 @@ import java.util.Vector;
  */
 public class DocumentIndexed extends Document {
   private static final long serialVersionUID = 9184892508124423115L;
-  private int totalDocTerms;
-  private Indexer indexer = null;
   private Vector<String> _links;
 
-  public DocumentIndexed(int docid, Indexer indexer) {
+  public DocumentIndexed(int docid) {
     super(docid);
-    this.indexer = indexer;
     _links = new Vector<String>();
   }
 
