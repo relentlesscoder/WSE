@@ -109,6 +109,11 @@ public class RankerComprehensive extends Ranker {
       score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
     }
 
+    // Check for title
+    if (indexerInvertedCompressed.isQueryInTitle(query, docId)) {
+      score *= 1.5;
+    }
+
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 
     return scoredDocument;

@@ -1220,4 +1220,25 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
     }
   }
+
+  /**
+   * If all query terms exist in the document title, return true.
+   * @param query query
+   * @param docid document ID
+   * @return boolean...
+   */
+  public boolean isQueryInTitle(Query query, int docid) {
+    List<String> queryTerms = new ArrayList<String>(query._tokens);
+    ExtentList extentList = extentListMap.get(docid);
+    FieldPositionRange fieldPositionRange = extentList.getFieldPositionRange(ExtentList.DocumentField.TITLE);
+
+    for (String term : queryTerms) {
+      int firstPos = nextPos(term, docid, -1);
+      if (fieldPositionRange.getEndPos() <= firstPos) {
+        return false;
+      }
+    }
+
+    return true;
+  }
 }
