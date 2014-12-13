@@ -5,7 +5,7 @@ import com.google.common.collect.Multiset;
 import com.google.common.collect.Multisets;
 import edu.nyu.cs.cs2580.Document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
+import edu.nyu.cs.cs2580.handler.CgiArguments;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,21 +30,21 @@ public class RelevanceFeedback {
 //    _indexer = indexer;
 //  }
 
-  public static String extendQuery (CgiArguments arguments, IndexerInvertedCompressed indexer,
-                                  Query query, Vector<ScoredDocument> scoredDocs){
+  public static String extendQuery(CgiArguments arguments, IndexerInvertedCompressed indexer,
+                                   Query query, Vector<ScoredDocument> scoredDocs) {
     int numDocs = scoredDocs.size();
     int numTerms = arguments._numTerms;
 
     Multiset<Integer> termFrequency = HashMultiset.create();
 
-    for (ScoredDocument sd : scoredDocs){
+    for (ScoredDocument sd : scoredDocs) {
       termFrequency.addAll(indexer.getDocidTermFrequency(sd.getDocID()));
     }
 
     List<TermPrf> topTerms = new ArrayList<TermPrf>();
     int topTermsCount = 0;
 
-    for (int i : Multisets.copyHighestCountFirst(termFrequency).elementSet()){
+    for (int i : Multisets.copyHighestCountFirst(termFrequency).elementSet()) {
       String term = indexer.getTermById(i);
       if (Tokenizer.stopwordFilter(term) == null || query._tokens.contains(term)) {
         continue;
@@ -61,12 +61,12 @@ public class RelevanceFeedback {
 
     StringBuilder sb = new StringBuilder();
 
-    for (TermPrf t : topTerms){
+    for (TermPrf t : topTerms) {
       t.computePrf(topTermsCount);
       sb.append(t.term).append('\t').append(t.prf).append('\n');
     }
 
 //    System.out.print(sb.substring(0,sb.length()-1));
-    return sb.substring(0,sb.length()-1);
+    return sb.substring(0, sb.length() - 1);
   }
 }

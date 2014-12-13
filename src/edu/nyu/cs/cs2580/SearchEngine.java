@@ -3,6 +3,8 @@ package edu.nyu.cs.cs2580;
 import com.sun.net.httpserver.HttpServer;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.Utils.Util;
+import edu.nyu.cs.cs2580.handler.PrfHandler;
+import edu.nyu.cs.cs2580.handler.QueryHandler;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -265,14 +267,15 @@ public class SearchEngine {
     Util.Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
         + " not found!");
     indexer.loadIndex();
-    QueryHandler handler = new QueryHandler(SearchEngine.OPTIONS, indexer);
+    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, indexer);
+    PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, indexer);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
 
     // Establish the serving environment
     InetSocketAddress addr = new InetSocketAddress(SearchEngine.PORT);
     HttpServer server = HttpServer.create(addr, -1);
-    server.createContext("/search", handler);
-    server.createContext("/prf", handler);
+    server.createContext("/search", queryHandler);
+    server.createContext("/prf", prfHandler);
     server.createContext("/", htmlHandler);
     server.setExecutor(Executors.newCachedThreadPool());
     server.start();

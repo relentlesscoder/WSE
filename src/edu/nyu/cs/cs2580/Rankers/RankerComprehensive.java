@@ -1,20 +1,19 @@
 package edu.nyu.cs.cs2580.Rankers;
 
-import java.util.*;
-
-import edu.nyu.cs.cs2580.*;
 import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.Document.DocumentIndexed;
 import edu.nyu.cs.cs2580.Document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.QueryHandler.CgiArguments;
+import edu.nyu.cs.cs2580.Query;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.handler.CgiArguments;
+
+import java.util.*;
 
 /**
  * @CS2580: Implement this class for HW3 based on your {@code RankerFavorite}
  * from HW2. The new Ranker should now combine both term features and the
- * document-level features including the PageRank and the NumViews. 
+ * document-level features including the PageRank and the NumViews.
  */
 public class RankerComprehensive extends Ranker {
   private final static double LAMDA = 0.50;
@@ -61,6 +60,7 @@ public class RankerComprehensive extends Ranker {
 
   /**
    * Score the document...
+   *
    * @param query the query
    * @param docId document ID
    * @return a ScoreDocument
