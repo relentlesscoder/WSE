@@ -3,12 +3,12 @@ package edu.nyu.cs.cs2580.Index;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Output;
 import com.google.common.collect.*;
-import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.Rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
-import edu.nyu.cs.cs2580.Tokenizer;
-import edu.nyu.cs.cs2580.Utils.ProgressBar;
-import edu.nyu.cs.cs2580.Utils.VByteUtil;
+import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
+import edu.nyu.cs.cs2580.utils.ProgressBar;
+import edu.nyu.cs.cs2580.utils.VByteUtil;
 
 import java.io.*;
 import java.util.*;

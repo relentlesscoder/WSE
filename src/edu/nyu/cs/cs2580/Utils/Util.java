@@ -1,13 +1,4 @@
-package edu.nyu.cs.cs2580.Utils;
-
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.io.Output;
-import com.google.common.collect.Multimap;
-import com.google.common.collect.Multiset;
-import com.google.common.primitives.Bytes;
-import edu.nyu.cs.cs2580.Index.Offsets;
-import edu.nyu.cs.cs2580.SearchEngine;
+package edu.nyu.cs.cs2580.utils;
 
 import java.util.Map;
 import java.util.Map.Entry;

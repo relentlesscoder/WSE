@@ -1,6 +1,4 @@
-package edu.nyu.cs.cs2580.Document;
-
-import edu.nyu.cs.cs2580.Index.Indexer;
+package edu.nyu.cs.cs2580.document;
 
 import java.util.Vector;
 

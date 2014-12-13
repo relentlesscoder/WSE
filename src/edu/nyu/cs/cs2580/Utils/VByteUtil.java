@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Utils;
+package edu.nyu.cs.cs2580.utils;
 
 import java.util.ArrayList;
 import java.util.List;

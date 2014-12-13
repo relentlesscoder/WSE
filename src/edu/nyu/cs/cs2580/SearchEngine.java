@@ -2,9 +2,12 @@ package edu.nyu.cs.cs2580;
 
 import com.sun.net.httpserver.HttpServer;
 import edu.nyu.cs.cs2580.Index.Indexer;
-import edu.nyu.cs.cs2580.Utils.Util;
+import edu.nyu.cs.cs2580.handler.HtmlHandler;
 import edu.nyu.cs.cs2580.handler.PrfHandler;
 import edu.nyu.cs.cs2580.handler.QueryHandler;
+import edu.nyu.cs.cs2580.minning.CorpusAnalyzer;
+import edu.nyu.cs.cs2580.minning.LogMiner;
+import edu.nyu.cs.cs2580.utils.Util;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -17,7 +20,7 @@ import java.util.concurrent.Executors;
 
 /**
  * This is the main entry class for the Search Engine.
- * <p/>
+ * <p>
  * Usage (must be running from the parent directory of src): 0) Compiling javac
  * src/edu/nyu/cs/cs2580/*.java 1) Mining java -cp src
  * edu.nyu.cs.cs2580.SearchEngine \ --mode=mining --options=conf/engine.conf 2)
@@ -32,7 +35,7 @@ import java.util.concurrent.Executors;
  * @CS2580: You must ensure your program runs with maximum heap memory size
  * -Xmx512m. You must use a port number 258XX, where XX is your group
  * number.
- * <p/>
+ * <p>
  * Students do not need to change this class except to add server
  * options.
  */

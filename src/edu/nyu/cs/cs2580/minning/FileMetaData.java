@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.minning;
 
 /**
  * Created by Wei Shuai on 11/20/2014.

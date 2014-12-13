@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Rankers;
+package edu.nyu.cs.cs2580.rankers;
 
 public class IndexerConstant {
   public static final long MEGABYTE = 1024L * 1024L;

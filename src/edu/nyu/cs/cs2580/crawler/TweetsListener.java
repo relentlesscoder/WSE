@@ -1,6 +1,6 @@
 package edu.nyu.cs.cs2580.crawler;
 
-import edu.nyu.cs.cs2580.Utils.WriteFile;
+import edu.nyu.cs.cs2580.utils.WriteFile;
 import twitter4j.StallWarning;
 import twitter4j.Status;
 import twitter4j.StatusDeletionNotice;

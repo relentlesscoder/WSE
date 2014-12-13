@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Document;
+package edu.nyu.cs.cs2580.document;
 
 /**
  * Document with score.

@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580.Index;
 
-import edu.nyu.cs.cs2580.Document.DocumentIndexed;
-import edu.nyu.cs.cs2580.Rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.document.DocumentIndexed;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import org.jsoup.Jsoup;
 

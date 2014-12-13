@@ -4,18 +4,19 @@ import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
-import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.Query;
-import edu.nyu.cs.cs2580.Rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.Utils.Util;
-import edu.nyu.cs.cs2580.Utils.VByteUtil;
+import edu.nyu.cs.cs2580.utils.Util;
+import edu.nyu.cs.cs2580.utils.VByteUtil;
+import edu.nyu.cs.cs2580.document.Document;
 
 import java.io.*;
-import java.util.*;
-
-import static com.google.common.base.Preconditions.checkNotNull;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * This is the compressed inverted indexer...
@@ -262,7 +263,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Mission complete :) 唉呀妈呀, 跑死我了... OTL");
     System.out.println("Total time: " + Util.convertMillis(duration));
   }
-
 
 
   @Override
@@ -1223,6 +1223,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   /**
    * If all query terms exist in the document title, return true.
+   *
    * @param query query
    * @param docid document ID
    * @return boolean...

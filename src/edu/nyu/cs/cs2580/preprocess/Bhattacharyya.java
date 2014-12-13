@@ -1,12 +1,10 @@
 package edu.nyu.cs.cs2580.preprocess;
 
-import edu.nyu.cs.cs2580.TermPrf;
+import edu.nyu.cs.cs2580.handler.TermPrf;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by tanis on 11/18/14.

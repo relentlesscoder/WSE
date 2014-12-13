@@ -1,11 +1,11 @@
-package edu.nyu.cs.cs2580.Rankers;
+package edu.nyu.cs.cs2580.rankers;
 
 import com.google.common.collect.Multiset;
-import edu.nyu.cs.cs2580.Document.Document;
-import edu.nyu.cs.cs2580.Document.ScoredDocument;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.Query;
+import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
 

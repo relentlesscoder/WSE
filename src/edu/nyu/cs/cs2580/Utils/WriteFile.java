@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Utils; /**
+package edu.nyu.cs.cs2580.utils; /**
  * Created by tanis on 10/9/14.
  */
 

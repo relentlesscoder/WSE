@@ -3,10 +3,12 @@ package edu.nyu.cs.cs2580.handler;
 import com.google.gson.Gson;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
-import edu.nyu.cs.cs2580.Document.ScoredDocument;
+import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.*;
-import edu.nyu.cs.cs2580.Rankers.Ranker;
+import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.query.QueryPhrase;
+import edu.nyu.cs.cs2580.rankers.Ranker;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.io.BufferedReader;

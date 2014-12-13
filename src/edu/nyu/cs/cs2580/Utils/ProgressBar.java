@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Utils;
+package edu.nyu.cs.cs2580.utils;
 
 /**
  * Copied from: http://masterex.github.io/archive/2011/10/23/java-cli-progress-bar.html

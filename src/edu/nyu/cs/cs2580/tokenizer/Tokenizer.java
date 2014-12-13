@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.tokenizer;
 
 import edu.nyu.cs.cs2580.KStemmer.KStemmer;
 import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;

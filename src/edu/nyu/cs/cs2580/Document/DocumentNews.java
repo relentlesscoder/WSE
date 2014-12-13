@@ -1,9 +1,8 @@
-package edu.nyu.cs.cs2580.Document;
+package edu.nyu.cs.cs2580.document;
 
 import edu.nyu.cs.cs2580.Index.Indexer;
 
 import java.util.Date;
-import java.util.Vector;
 
 /**
  * Created by tanis on 12/8/14.

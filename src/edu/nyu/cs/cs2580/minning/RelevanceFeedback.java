@@ -1,9 +1,12 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.minning;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multisets;
-import edu.nyu.cs.cs2580.Document.ScoredDocument;
+import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.handler.TermPrf;
+import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
+import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
 

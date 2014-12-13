@@ -1,10 +1,10 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.minning;
 
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.Utils.ProgressBar;
+import edu.nyu.cs.cs2580.utils.ProgressBar;
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.graph.DefaultDirectedGraph;
 

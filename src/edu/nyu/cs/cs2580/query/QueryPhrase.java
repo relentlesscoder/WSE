@@ -1,4 +1,6 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.query;
+
+import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
