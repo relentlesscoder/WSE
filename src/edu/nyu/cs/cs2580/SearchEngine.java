@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580;
 
 import com.sun.net.httpserver.HttpServer;
-import edu.nyu.cs.cs2580.Index.Indexer;
+import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.handler.HtmlHandler;
 import edu.nyu.cs.cs2580.handler.PrfHandler;
 import edu.nyu.cs.cs2580.handler.QueryHandler;

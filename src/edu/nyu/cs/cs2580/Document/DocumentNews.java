@@ -1,7 +1,5 @@
 package edu.nyu.cs.cs2580.document;
 
-import edu.nyu.cs.cs2580.Index.Indexer;
-
 import java.util.Date;
 
 /**

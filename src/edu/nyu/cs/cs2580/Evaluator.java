@@ -428,7 +428,7 @@ class Evaluator {
 		StringBuilder res = new StringBuilder();
 
 		String query = "";
-		// Index: rank, Integer: docId
+		// index: rank, Integer: docId
 		List<Integer> rankedList = new ArrayList<Integer>();
 
 		try {

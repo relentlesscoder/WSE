@@ -5,7 +5,7 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import edu.nyu.cs.cs2580.*;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
-import edu.nyu.cs.cs2580.Index.Indexer;
+import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.query.Query;
 
 import java.io.BufferedReader;

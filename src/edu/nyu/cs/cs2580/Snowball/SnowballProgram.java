@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Snowball;
+package edu.nyu.cs.cs2580.snowball;
 
 import java.lang.reflect.InvocationTargetException;
 
