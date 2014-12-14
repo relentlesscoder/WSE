@@ -51,6 +51,7 @@ public class NewsDocumentProcessor extends DocumentProcessor {
       }
       docid++;
     }
+    br.close();
     split(IndexerConstant.NEWS_FEED_CORPUS_INDEX, IndexerConstant.NEWS_FEED_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber++);
   }
 }

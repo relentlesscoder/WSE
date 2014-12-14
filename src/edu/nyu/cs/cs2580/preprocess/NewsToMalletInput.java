@@ -6,7 +6,6 @@ import edu.nyu.cs.cs2580.utils.WriteFile;
 
 
 import java.io.*;
-import java.util.Date;
 
 /**
  * Created by tanis on 12/14/14.
@@ -47,16 +46,18 @@ public class NewsToMalletInput {
     Gson gson = new Gson();
     StringBuilder sb = new StringBuilder();
 
-    BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream("data/news/"+inputPath)));
+    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("data/news/"+inputPath)));
     String s;
     int count = 0;
 
-    while ((s = in.readLine()) != null) {
+    while ((s = br.readLine()) != null) {
       News news = gson.fromJson(s,News.class);
 //      sb.append((count++)+" X "+news.getContent()).append('\n');
       sb.append((count++)+" X "+news.getRawContent()).append('\n');
     }
+    br.close();
     WriteFile.WriteToFile(sb.toString(), outputPath, false);
+    System.out.println("Converted Mallet input in data/news/"+outputPath+".");
   }
 
 }
