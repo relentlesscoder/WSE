@@ -56,7 +56,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // }
   private ImmutableMap<Integer, MetaData> meta;
 
-  // Key: Document ID
+  // Key: document ID
   // Value: Term document frequency meta info
   private ImmutableMap<Integer, Offsets> docTermFreqMeta;
 
@@ -205,7 +205,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
       // Load the page ranks.
-      // Key: Document ID
+      // Key: document ID
       // Value: Page rank score
       File pageRankFile = new File(_options._pagerankPrefix + "/pageRanks.g6");
       Map<Integer, Double> pageRanks = null;
@@ -214,7 +214,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       }
 
       // Load the number views
-      // Key: Document ID
+      // Key: document ID
       // Value: Number of views
       File numViewsFile = new File(_options._numviewPrefix + "/numViews.g6");
       Map<Integer, Integer> docNumView = null;
@@ -337,7 +337,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    *
    * @param query query
    * @param docid docid
-   * @return Document
+   * @return document
    */
   @Deprecated
   public Document nextDocLoose(Query query, int docid) {

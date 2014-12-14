@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.KStemmer;
+package edu.nyu.cs.cs2580.kstemmer;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more

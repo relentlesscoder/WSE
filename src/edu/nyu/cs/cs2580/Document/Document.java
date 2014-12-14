@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * The basic implementation of a Document.  Only the most basic information are
+ * The basic implementation of a document.  Only the most basic information are
  * maintained in this class. Subclass should implement additional information
  * for display or ranking, such as snippet, term vectors, anchors, etc.
  * 

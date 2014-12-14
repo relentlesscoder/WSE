@@ -15,7 +15,7 @@ import java.util.Vector;
  * NOT change the interface in this class!
  * <p>
  * In HW1: {@link RankerFullScan} is the instructor's simple ranker and students
- * implement four additional concrete Rankers.
+ * implement four additional concrete rankers.
  * <p>
  * In HW2: students will pick a favorite concrete Ranker other than
  * {@link RankerPhrase}, and re-implement it using the more efficient concrete
@@ -58,7 +58,7 @@ public abstract class Ranker {
   public abstract Vector<ScoredDocument> runQuery(Query query, int numResults);
 
   /**
-   * All Rankers must be created through this factory class based on the
+   * All rankers must be created through this factory class based on the
    * provided {@code arguments}.
    */
   public static class Factory {

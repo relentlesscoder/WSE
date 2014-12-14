@@ -1,6 +1,6 @@
 package edu.nyu.cs.cs2580.tokenizer;
 
-import edu.nyu.cs.cs2580.KStemmer.KStemmer;
+import edu.nyu.cs.cs2580.kstemmer.KStemmer;
 import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;
 
 import java.io.IOException;

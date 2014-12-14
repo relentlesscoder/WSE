@@ -17,7 +17,7 @@
 
 /*
  This file was partially derived from the
- original CIIR University of Massachusetts Amherst version of KStemmer.java (license for
+ original CIIR University of Massachusetts Amherst version of kstemmer.java (license for
  the original shown below)
  */
 
@@ -54,7 +54,7 @@
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
  */
-package edu.nyu.cs.cs2580.KStemmer;
+package edu.nyu.cs.cs2580.kstemmer;
 
 /**
  * <p>Title: Kstemmer</p>

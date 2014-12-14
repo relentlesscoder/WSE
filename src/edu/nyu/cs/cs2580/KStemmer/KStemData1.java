@@ -37,7 +37,7 @@ SUCH DAMAGE.
  * Java version by Sergio Guzman-Lara.
  * CIIR-UMass Amherst http://ciir.cs.umass.edu
  */
-package edu.nyu.cs.cs2580.KStemmer;
+package edu.nyu.cs.cs2580.kstemmer;
 
 /**
  * A list of words used by Kstem

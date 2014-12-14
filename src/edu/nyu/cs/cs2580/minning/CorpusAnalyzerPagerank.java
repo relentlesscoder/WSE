@@ -19,12 +19,12 @@ import static com.google.common.base.Preconditions.checkNotNull;
 public class CorpusAnalyzerPagerank extends CorpusAnalyzer {
 
   // Page ranks.
-  // Key: Document ID
+  // Key: document ID
   // Value: Page rank score
   Map<Integer, Double> _pageRanks;
 
   // Directed graph.
-  // Vertex: Page/Document
+  // Vertex: Page/document
   // Edge: Out coming or In coming links.
   private DirectedGraph<Integer, PageGraphEdge> _pageGraph;
 

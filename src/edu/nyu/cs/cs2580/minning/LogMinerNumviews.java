@@ -16,11 +16,11 @@ import edu.nyu.cs.cs2580.utils.Util;
  * @CS2580: Implement this class for HW3.
  */
 public class LogMinerNumviews extends LogMiner {
-  // Key: Document ID
+  // Key: document ID
   // Value: File name
   BiMap<Integer, String> docidMap;
 
-  // Key: Document ID
+  // Key: document ID
   // Value: Number of views
   Map<Integer, Integer> docNumView;
 

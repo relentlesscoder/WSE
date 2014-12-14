@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580.document;
 
 /**
- * Document with score.
+ * document with score.
  * 
  * @author fdiaz
  * @author congyu

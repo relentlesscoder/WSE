@@ -71,7 +71,7 @@ public abstract class Indexer {
    * @param query
    * @param docid
    *
-   * @return the next Document after {@code docid} satisfying {@code query} or
+   * @return the next document after {@code docid} satisfying {@code query} or
    * null if no such document exists.
    */
   public abstract Document nextDoc(Query query, int docid);
@@ -82,7 +82,7 @@ public abstract class Indexer {
    * Called when the SearchEngine is in {@code Mode.INDEX} mode. Subclass must
    * construct the index from the provided corpus at {@code corpus_prefix}.
    * 
-   * Document processing must satisfy the following:
+   * document processing must satisfy the following:
    *   1) Non-visible page content is removed, e.g., those inside <script> tags
    *   2) Tokens are stemmed with Step 1 of the Porter's algorithm
    *   3) No stop word is removed, you need to dynamically determine whether to
