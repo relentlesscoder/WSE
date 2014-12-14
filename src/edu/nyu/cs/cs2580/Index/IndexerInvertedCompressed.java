@@ -152,8 +152,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Process file/document one by one and assign each of them a unique docid
     if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
       documentProcessor = new HtmlDocumentProcessor(files, _options);
+    } else if (corpusType == SearchEngine.CORPUS_TYPE.NEWS_FEED_CORPUS){
+      documentProcessor = new NewsDocumentProcessor(files, _options);
     } else {
-      //TODO: Process news corpus per docid...
+      // ...
     }
 
     // Start to process documents

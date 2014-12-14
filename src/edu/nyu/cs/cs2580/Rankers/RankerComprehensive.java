@@ -1,12 +1,12 @@
 package edu.nyu.cs.cs2580.rankers;
 
-import edu.nyu.cs.cs2580.document.Document;
-import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
+import edu.nyu.cs.cs2580.query.Query;
 
 import java.util.*;
 
@@ -30,7 +30,6 @@ public class RankerComprehensive extends Ranker {
     System.out.println("Running query...");
     Queue<ScoredDocument> rankQueue = new PriorityQueue<ScoredDocument>();
     int nextDocid = -1;
-    int count = 0;
 
     while (true) {
       Document document = indexerInvertedCompressed.nextDoc(query,

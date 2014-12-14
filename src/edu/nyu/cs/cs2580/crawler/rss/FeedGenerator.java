@@ -22,7 +22,6 @@ public class FeedGenerator extends TimerTask {
     long time = Calendar.getInstance().getTime().getTime();
     long start = System.currentTimeMillis();
     try {
-      String outputData = "data/data_"+time+".json";
       String outputFeed = "feed/feedMsg_"+time+".json";
       String urlSetPath = "urlSet.json";
 
@@ -30,7 +29,7 @@ public class FeedGenerator extends TimerTask {
       BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(new File(inputPaths))));
       String s;
       StringBuilder feedSB = new StringBuilder();
-      StringBuilder dataSB = new StringBuilder();
+
       Gson gson = new Gson();
       int msgCount = 0;
       int feedCount = 0;
@@ -76,25 +75,15 @@ public class FeedGenerator extends TimerTask {
         if (feedCount==100){
           round ++;
           feedCount = 0;
-          WriteFile.WriteToFile(feedSB.substring(0,feedSB.length()-1), outputFeed, true);
+          WriteFile.WriteToFile(feedSB.toString(), outputFeed, true);
           feedSB.setLength(0);
           System.out.println("Written in "+outputFeed);
-          if (dataSB.length()>0){
-            WriteFile.WriteToFile(dataSB.substring(0,dataSB.length()-1), outputData, true);
-            dataSB.setLength(0);
-            System.out.println("Written in "+outputData);
-          }
         }
       }
       System.out.println("Total "+(round*100+feedCount)+" feeds.");
       in.close();
 
-      WriteFile.WriteToFile(feedSB.substring(0,feedSB.length()-1), outputFeed, true);
-      if (dataSB.length()>0){
-        WriteFile.WriteToFile(dataSB.substring(0,dataSB.length()-1), outputData, true);
-        dataSB.setLength(0);
-        System.out.println("Written in "+outputData);
-      }
+      WriteFile.WriteToFile(feedSB.toString(), outputFeed, true);
 
       WriteFile.WriteToFile(gson.toJson(urlSet), urlSetPath, false);
 
