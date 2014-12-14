@@ -1,6 +1,7 @@
 package edu.nyu.cs.cs2580.preprocess;
 
 import com.google.gson.Gson;
+import edu.nyu.cs.cs2580.crawler.News;
 import edu.nyu.cs.cs2580.utils.WriteFile;
 import edu.nyu.cs.cs2580.crawler.rss.Feed;
 import edu.nyu.cs.cs2580.crawler.rss.FeedMessage;
@@ -12,31 +13,8 @@ import java.util.*;
  * Created by tanis on 12/8/14.
  */
 public class FilterFeedMsg {
-  public static void main (String[] args) throws FileNotFoundException {
-    long start = System.currentTimeMillis();
 
-    String myDirectoryPath = "data/news/feed";
-    String outputPath = "inter/Messages.txt";
-    File dir = new File(myDirectoryPath);
-    FilenameFilter filenameFilter = new FilenameFilter() {
-      @Override
-      public boolean accept(File file, String name) {
-        return !name.startsWith(".");
-      }
-    };
-    File[] directoryListing = dir.listFiles(filenameFilter);
-    for (File input : directoryListing){
-      System.out.println("Process file: "+input.toString());
-      filter(input,outputPath);
-    }
-
-    long elapsedTime = System.currentTimeMillis() - start;
-    int min = (int) elapsedTime / (60 * 1000);
-    int sec = (int) (elapsedTime - min * (60 * 1000)) / 1000;
-    System.out.println("Total time: " + min + " min " + sec + " sec.");
-  }
-
-  public static void filter(File inputPath, String outputPath) throws FileNotFoundException {
+  public static int filter(File inputPath, String outputPath) throws FileNotFoundException {
     int round = 0, count = 0;
     int dupCount = 0, idCount = 0;
     Boolean finish = false;
@@ -62,12 +40,13 @@ public class FilterFeedMsg {
 
           for (FeedMessage message : feed.getMessages()){
             String url = message.getLink();
-            if (!urlSet.contains(url)){
+            if (!urlSet.contains(url)&&FilePreprocess.toData(message.getPubDate()).compareTo(FilePreprocess.start)>=0){
               idCount ++;
               urlSet.add(url);
               message.setPublisher(publisher);
+              News news = new News(message);
 //              System.out.println(message.getPubDate());
-              String json = gson.toJson(message);
+              String json = gson.toJson(news);
               sb.append(json).append('\n');
             }else{
               dupCount ++;
@@ -97,6 +76,6 @@ public class FilterFeedMsg {
         System.err.println(e.toString());
       }
     }
+    return idCount;
   }
-
 }
