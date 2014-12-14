@@ -5,6 +5,7 @@ import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.crawler.rss.FeedMessage;
 import edu.nyu.cs.cs2580.document.DocumentNews;
 import edu.nyu.cs.cs2580.preprocess.FilePreprocess;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 
 import java.io.*;
 import java.util.*;
@@ -42,7 +43,12 @@ public class NewsDocumentProcessor extends DocumentProcessor {
 
       documents.add(doc);
       populateInvertedIndex(documentFields, docid);
+
+      if (hasReachThresholdCompress()) {
+        split(IndexerConstant.NEWS_FEED_CORPUS_INDEX, IndexerConstant.NEWS_FEED_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber);
+      }
     }
+    split(IndexerConstant.NEWS_FEED_CORPUS_INDEX, IndexerConstant.NEWS_FEED_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber);
 
   }
 
