@@ -40,7 +40,7 @@ public class BKTree<E> {
   // Tolerance distance, when the distance between a source elem and the target node's elem
   // is computed, all the target node's children with distance between +-toleranceDistance is
   // pushed into the stack and wait for further assessment.
-  private static int toleranceDistance = 2;
+  private static int toleranceDistance = 1;
 
   private Node<E> root;
   private int elementCount;
@@ -115,7 +115,7 @@ public class BKTree<E> {
     return root;
   }
 
-  public boolean exist(E elem) {
+  public boolean hasExist(E elem) {
     Optional<Node> node = Optional.of(root);
     while (node.isPresent()) {
       if (node.get().getElement().equals(elem)) {
@@ -132,6 +132,11 @@ public class BKTree<E> {
   public List<E> getPossibleNodesForDistance(E elem, int expectDistance) {
     List<E> res = new ArrayList<E>();
     Deque<Node> stack = new ArrayDeque<Node>();
+
+    if (hasExist(elem)) {
+      res.add(elem);
+      return res;
+    }
 
     int count = 0;
 
@@ -163,6 +168,11 @@ public class BKTree<E> {
 
 //    System.out.println("Searched " + count + " elements...\n");
 
+    if (res.size() == 0) {
+      // Can't found a single one.... return the element itself...
+      res.add(elem);
+    }
+
     return res;
   }
 
@@ -173,6 +183,10 @@ public class BKTree<E> {
     Queue<ScoredResult> resQueue = new PriorityQueue<ScoredResult>();
     for (E _elem : possibleNodesForDistance) {
       double score = elemFrequency.count(_elem);
+      if (score == 0) {
+        // smoothing...
+        score = 1.0;
+      }
       ScoredResult scoredResult = new ScoredResult(_elem, score);
       resQueue.add(scoredResult);
     }

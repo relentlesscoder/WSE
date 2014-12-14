@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580;
+package edu.nyu.cs.cs2580.evaluator;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
