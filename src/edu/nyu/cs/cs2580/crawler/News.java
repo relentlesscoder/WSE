@@ -97,7 +97,7 @@ public class News {
       // Delete the stop words for normal query terms
       term = Tokenizer.stopwordFilter(term);
       if (term != null) {
-        term = Tokenizer.krovetzStemmerFilter(term);
+//        term = Tokenizer.krovetzStemmerFilter(term);
         sb.append(term).append(" ");
       }
     }
