@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.Index;
+package edu.nyu.cs.cs2580.index;
 
 import com.google.gson.Gson;
 import edu.nyu.cs.cs2580.SearchEngine;

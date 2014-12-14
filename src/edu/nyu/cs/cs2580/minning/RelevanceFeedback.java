@@ -7,7 +7,7 @@ import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.handler.TermPrf;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
-import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
+import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
 
 import java.util.ArrayList;

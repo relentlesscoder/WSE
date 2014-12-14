@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580.tokenizer;
 
 import edu.nyu.cs.cs2580.kstemmer.KStemmer;
-import edu.nyu.cs.cs2580.Snowball.SnowballStemmer;
+import edu.nyu.cs.cs2580.snowball.SnowballStemmer;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -67,7 +67,7 @@ public class Tokenizer {
 
     try {
       Class<? extends SnowballStemmer> stemClass = Class.forName(
-          "edu.nyu.cs.cs2580.Snowball." + language + "Stemmer").asSubclass(
+          "edu.nyu.cs.cs2580.snowball." + language + "Stemmer").asSubclass(
           SnowballStemmer.class);
       SnowballStemmer stemmer = stemClass.newInstance();
 

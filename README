@@ -35,7 +35,7 @@ Group ID G06: yl1949, ws951, sy1288 :)
 #Implementation Detail
 
 ## Text Processing
-- Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
+- Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.snowball".
 
 - Using Apache Lucene KStmmer Java Library for text stemming with validation, all library files are packaged into the "edu.nyu.cs.cs2580.kstemmer".
 
