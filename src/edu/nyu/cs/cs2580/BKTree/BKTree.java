@@ -3,10 +3,15 @@ package edu.nyu.cs.cs2580.BKTree;
 import com.google.common.base.Optional;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
-import edu.nyu.cs.cs2580.document.ScoredDocument;
 
 import java.util.*;
 
+/**
+ * Following pages are my reference...
+ * http://norvig.com/spell-correct.html
+ * http://nullwords.wordpress.com/2013/03/13/the-bk-tree-a-data-structure-for-spell-checking/
+ * http://blog.notdot.net/2007/4/Damn-Cool-Algorithms-Part-1-BK-Trees
+ */
 public class BKTree<E> {
   /**
    * A simple class which stores the element and its score
@@ -38,21 +43,31 @@ public class BKTree<E> {
   }
 
   // Tolerance distance, when the distance between a source elem and the target node's elem
-  // is computed, all the target node's children with distance between +-toleranceDistance is
+  // is computed, all the target node's children with distance between +-TOLERANCE_DISTANCE is
   // pushed into the stack and wait for further assessment.
-  private static int toleranceDistance = 1;
+  private static final int TOLERANCE_DISTANCE = 1;
+
+  // Default edit distance, this should cover most of the misspelled words
+  private static final int DISTANCE_ONE = 1;
+  private static final int DISTANCE_TWO = 2;
 
   private Node<E> root;
   private int elementCount;
   private DistanceAlgo distanceAlgo;
   private Multiset<E> elemFrequency;
 
+  /**
+   * Constructor...
+   */
   public BKTree(DistanceAlgo distanceAlgo) {
     this.distanceAlgo = distanceAlgo;
     this.elementCount = 0;
     this.elemFrequency = HashMultiset.create();
   }
 
+  /**
+   * Constructor, with the element frequency map
+   */
   public BKTree(DistanceAlgo distanceAlgo, Map<E, Integer> elemFrequency) {
     this(distanceAlgo);
     for (E elem : elemFrequency.keySet()) {
@@ -60,11 +75,17 @@ public class BKTree<E> {
     }
   }
 
+  /**
+   * Constructor, with the element frequency multiset
+   */
   public BKTree(DistanceAlgo distanceAlgo, Multiset<E> elemFrequency) {
     this(distanceAlgo);
     this.elemFrequency = elemFrequency;
   }
 
+  /**
+   * Add an element to the tree
+   */
   public void add(E element) {
     if (element == null) {
       throw new NullPointerException();
@@ -94,6 +115,9 @@ public class BKTree<E> {
     }
   }
 
+  /**
+   * Add elements to the tree
+   */
   public void addAll(Iterable<? extends E> elements) {
     if (elements == null) {
       throw new NullPointerException();
@@ -104,6 +128,9 @@ public class BKTree<E> {
     }
   }
 
+  /**
+   * Add elements to the tree
+   */
   public void addAll(E... elements) {
     if (elements == null) {
       throw new NullPointerException();
@@ -111,10 +138,17 @@ public class BKTree<E> {
     addAll(Arrays.asList(elements));
   }
 
+  /**
+   * Get the root element
+   */
   public Node<E> getRoot() {
     return root;
   }
 
+  /**
+   * Check if the element exist in the tree, a more efficient way is to check the
+   * dictionary though...
+   */
   public boolean hasExist(E elem) {
     Optional<Node> node = Optional.of(root);
     while (node.isPresent()) {
@@ -129,16 +163,15 @@ public class BKTree<E> {
     return false;
   }
 
-  public List<E> getPossibleNodesForDistance(E elem, int expectDistance) {
+  /**
+   * Get all possible elements for a specific distance
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list.
+   */
+  public List<E> getPossibleElementsForDistance(E elem, int expectDistance) {
     List<E> res = new ArrayList<E>();
     Deque<Node> stack = new ArrayDeque<Node>();
-
-    if (hasExist(elem)) {
-      res.add(elem);
-      return res;
-    }
-
-    int count = 0;
 
     if (root == null) {
       return res;
@@ -147,17 +180,24 @@ public class BKTree<E> {
     stack.addLast(root);
 
     while (!stack.isEmpty()) {
-      count++;
       Node<String> node = stack.pollFirst();
       int currDistance = distanceAlgo.getDistance(elem, node.getElement());
+
+      if (currDistance == 0) {
+        // Return the element itself, since it does exist in the tree, it may
+        // not be misspell word...
+        res.clear();
+        res.add(elem);
+        return res;
+      }
 
       // Find a match
       if (currDistance <= expectDistance) {
         res.add((E) node.getElement());
       }
 
-      int minDistance = currDistance - toleranceDistance;
-      int maxDistance = currDistance + toleranceDistance;
+      int minDistance = currDistance - TOLERANCE_DISTANCE;
+      int maxDistance = currDistance + TOLERANCE_DISTANCE;
 
       for (int distance = minDistance; distance <= maxDistance; distance++) {
         if (node.containsChild(distance)) {
@@ -168,20 +208,135 @@ public class BKTree<E> {
 
 //    System.out.println("Searched " + count + " elements...\n");
 
+    return res;
+  }
+
+  /**
+   * Get all possible elements.
+   * It will first use distance 1, if not results were found, it will try
+   * distance 2. If still none found, an empty list will be returned.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list.
+   */
+  public List<E> getPossibleElements(E elem) {
+    List<E> res = getPossibleElementsForDistance(elem, DISTANCE_ONE);
     if (res.size() == 0) {
-      // Can't found a single one.... return the element itself...
-      res.add(elem);
+      // Not found for distance 1, try distance 2...
+      return getPossibleElementsForDistance(elem, DISTANCE_TWO);
+    } else {
+      return res;
+    }
+  }
+
+  /**
+   * Get all possible elements for a specific distance with order.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list.
+   */
+  public List<E> getPossibleElementsForDistanceWithOrder(E elem, int expectDistance) {
+    List<E> possibleElements = getPossibleElementsForDistance(elem, expectDistance);
+
+    return sortPossibleElements(possibleElements);
+  }
+
+  /**
+   * Get all possible elements for a specific distance with order.
+   * It will first use distance 1, if not results were found, it will try
+   * distance 2. If still none found, an empty list will be returned.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list.
+   */
+  public List<E> getPossibleElementsWithOrder(E elem) {
+    List<E> possibleElements = getPossibleElements(elem);
+
+    return sortPossibleElements(possibleElements);
+  }
+
+  /**
+   * Get a specific number of possible elements for a specific distance with order.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list. If the number of possible elements is less then the specific
+   *         size, it will return as many as it can found.
+   */
+  public List<E> getPossibleElementsForDistanceWithOrder(E elem, int expectDistance, int size) {
+    List<E> possibleElements = getPossibleElementsForDistanceWithOrder(elem, expectDistance);
+    List<E> res = new ArrayList<E>();
+    int num = Math.min(size, possibleElements.size());
+
+    for (int i = 0; i < num; i++) {
+      res.add(possibleElements.get(i));
     }
 
     return res;
   }
 
-  public List<E> getPossibleNodesForDistanceWithOrder(E elem, int expectDistance) {
-    List<E> possibleNodesForDistance = getPossibleNodesForDistance(elem, expectDistance);
+  /**
+   * Get the most possible element for a specific distance.
+   *
+   * @return the most possible element, if it is not present... just check it with Optional.isPresent()...
+   */
+  public Optional<E> getMostPossibleElementsForDistance(E elem, int expectDistance) {
+    List<E> possibleElements = getPossibleElementsForDistanceWithOrder(elem, expectDistance);
+
+    if (possibleElements.size() > 0) {
+      return Optional.fromNullable(possibleElements.get(0));
+    } else {
+      return Optional.fromNullable(null);
+    }
+  }
+
+  /**
+   * Get a specific number of elements for a specific distance with order.
+   * It will first use distance 1, if not results were found, it will try
+   * distance 2. If still none found, an empty list will be returned.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list. If the number of possible elements is less then the specific
+   *         size, it will return as many as it can found.
+   */
+  public List<E> getPossibleElementsWithOrder(E elem, int size) {
+    List<E> possibleNodesForDistance = getPossibleElementsWithOrder(elem);
+    List<E> res = new ArrayList<E>();
+    int num = Math.min(size, possibleNodesForDistance.size());
+
+    for (int i = 0; i < num; i++) {
+      res.add(possibleNodesForDistance.get(i));
+    }
+
+    return res;
+  }
+
+  /**
+   * Get a specific number of elements for a specific distance with order.
+   * It will first use distance 1, if not results were found, it will try
+   * distance 2. If still none found, an empty list will be returned.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list. If the number of possible elements is less then the specific
+   *         size, it will return as many as it can found.
+   */
+  public Optional<E> getMostPossibleElement(E elem) {
+    List<E> possibleElements = getPossibleElementsWithOrder(elem);
+
+    if (possibleElements.size() > 0) {
+      return Optional.fromNullable(possibleElements.get(0));
+    } else {
+      return Optional.fromNullable(null);
+    }
+  }
+
+  /**
+   * Sort the possible elements..
+   */
+  private List<E> sortPossibleElements(List<E> possibleElementsForDistance) {
     List<E> res = new ArrayList<E>();
 
     Queue<ScoredResult> resQueue = new PriorityQueue<ScoredResult>();
-    for (E _elem : possibleNodesForDistance) {
+    for (E _elem : possibleElementsForDistance) {
       double score = elemFrequency.count(_elem);
       if (score == 0) {
         // smoothing...
@@ -193,17 +348,6 @@ public class BKTree<E> {
 
     while (!resQueue.isEmpty()) {
       res.add((E) resQueue.poll().elem);
-    }
-    return res;
-  }
-
-  public List<E> getPossibleNodesForDistanceWithOrder(E elem, int expectDistance, int size) {
-    List<E> possibleNodesForDistance = getPossibleNodesForDistanceWithOrder(elem, expectDistance);
-    List<E> res = new ArrayList<E>();
-    int num = Math.min(size, possibleNodesForDistance.size());
-
-    for (int i = 0; i < num; i++) {
-      res.add(possibleNodesForDistance.get(i));
     }
 
     return res;

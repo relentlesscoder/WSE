@@ -173,7 +173,7 @@ public class PrfHandler extends BaseHandler {
         prevQueryTerm += " ";
       }
 
-      possibleCorrection.addAll(_bkTree.getPossibleNodesForDistanceWithOrder(lastQueryTerm, 2, cgiArgs._numTerms));
+      possibleCorrection.addAll(_bkTree.getPossibleElementsForDistanceWithOrder(lastQueryTerm, 2, cgiArgs._numTerms));
 
       for (int i = 0; i < possibleCorrection.size(); i++) {
         possibleQuery.add(prevQueryTerm + possibleCorrection.get(i));

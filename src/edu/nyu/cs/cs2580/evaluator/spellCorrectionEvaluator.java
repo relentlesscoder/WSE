@@ -1,11 +1,11 @@
 package edu.nyu.cs.cs2580.evaluator;
 
+import com.google.common.base.Optional;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.io.Files;
-import com.sun.javafx.binding.StringFormatter;
 import edu.nyu.cs.cs2580.BKTree.BKTree;
 import edu.nyu.cs.cs2580.BKTree.DamerauLevenshteinAlgorithm;
 import edu.nyu.cs.cs2580.BKTree.DistanceAlgo;
@@ -18,9 +18,19 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * This evaluation is base on the following web page: http://norvig.com/spell-correct.html.
+ * This including the corpus and two test sets.
+ */
+
 public class SpellCorrectionEvaluator {
+  // Dictionary of the test corpus
   static BiMap<String, Integer> dictionary = HashBiMap.create();
+  // Term frequency of the test corpus
   static Multiset<String> termFrequency = HashMultiset.create();
+  // Two sets of test map
+  // Key: misspelled word
+  // Value: correct word
   static Map<String, String> test1Map = new HashMap<String, String>();
   static Map<String, String> test2Map = new HashMap<String, String>();
 
@@ -34,9 +44,6 @@ public class SpellCorrectionEvaluator {
 
     constructDictionary(testCorpusFile);
 
-    // Two sets of test map
-    // Key: misspelled word
-    // Value: correct word
     test1Map = constructTestMap(test1File);
     test2Map = constructTestMap(test2File);
 
@@ -48,21 +55,30 @@ public class SpellCorrectionEvaluator {
     DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
     BKTree<String> bkTree = new BKTree<String>(distanceAlgo, termFrequency);
     bkTree.addAll(dictionary.keySet());
+
     int correctCount = 0;
+    int notFoundCount = 0;
     int totalCount = test2Map.size();
 
     for (String misspellWord : test2Map.keySet()) {
-      String correctWord = bkTree.getPossibleNodesForDistanceWithOrder(misspellWord, 2, 1).get(0);
-      if (test2Map.get(misspellWord).equals(correctWord)) {
-        correctCount++;
+      Optional<String> correctWord = bkTree.getMostPossibleElement(misspellWord);
+      if (correctWord.isPresent()) {
+        if (test2Map.get(misspellWord).equals(correctWord.get())) {
+          correctCount++;
+        }
+      } else {
+        notFoundCount++;
       }
     }
 
-    double percent = (double) correctCount / (double) totalCount;
+    double correctPercentage = (double) correctCount / (double) totalCount;
+    double notFoundPercentage = (double) notFoundCount / (double) totalCount;
 
-    String correctPercentage = String.format("Correct rate is %,.2f.", percent);
+    String correctPercentageStr = String.format("Correct rate is %,.3f.", correctPercentage);
+    String notFoundPercentageStr = String.format("Correct rate is %,.3f.", notFoundPercentage);
 
-    System.out.println(correctPercentage);
+    System.out.println(correctPercentageStr);
+    System.out.println(notFoundPercentageStr);
   }
 
   /**
