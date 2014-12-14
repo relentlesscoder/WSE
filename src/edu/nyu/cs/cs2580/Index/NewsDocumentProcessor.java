@@ -17,19 +17,19 @@ public class NewsDocumentProcessor extends DocumentProcessor {
 
   @Override
   public void processDocuments() throws IOException {
+    File file = files[0];
     Gson gson = new Gson();
-    StringBuilder sb = new StringBuilder();
-    int documentCount = FilePreprocess.countLines(files[0]);
+    String line = "";
+    int docid = 0;
 
-    BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(files[0])));
-    splitFileNumber = 0;
-    String s;
-    int count = 0;
+    int documentCount = FilePreprocess.countLines(file);
 
-    while ((s = in.readLine()) != null) {
-      int docid = count++;
+    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
+
+    while ((line = br.readLine()) != null) {
       progressBar.update(docid, documentCount);
-      FeedMessage message = gson.fromJson(s, FeedMessage.class);
+
+      FeedMessage message = gson.fromJson(line, FeedMessage.class);
       DocumentFields documentFields = new DocumentFields(message.getTitle());
       documentFields.setContent(message.getDescription());
 
@@ -37,13 +37,14 @@ public class NewsDocumentProcessor extends DocumentProcessor {
       DocumentNews doc = new DocumentNews(docid, time);
       doc.setTitle(message.getTitle());
       doc.setUrl(message.getLink());
-
       documents.add(doc);
+
       populateInvertedIndex(documentFields, docid);
 
-      if (hasReachThresholdCompress()) {
+      if (hasReachSizeThreshold()) {
         split(IndexerConstant.NEWS_FEED_CORPUS_INDEX, IndexerConstant.NEWS_FEED_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber++);
       }
+      docid++;
     }
     split(IndexerConstant.NEWS_FEED_CORPUS_INDEX, IndexerConstant.NEWS_FEED_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber++);
   }

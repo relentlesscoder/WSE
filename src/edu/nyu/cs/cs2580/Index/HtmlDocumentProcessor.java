@@ -32,7 +32,7 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
       processDocument(docid);
 
       // Write to a file if memory usage has reach the memory threshold
-      if (hasReachThresholdCompress()) {
+      if (hasReachSizeThreshold()) {
         split(IndexerConstant.HTML_CORPUS_INDEX, IndexerConstant.HTML_DOCUMENTS, IndexerConstant.EXTENSION_IDX, splitFileNumber++);
       }
     }

@@ -355,7 +355,7 @@ public abstract class DocumentProcessor implements Serializable {
    *
    * @return true if the threshold has met
    */
-  public boolean hasReachThresholdCompress() {
+  public boolean hasReachSizeThreshold() {
     Multiset<Integer> multiset = invertedIndex.keys();
     return multiset.size() > IndexerConstant.PARTIAL_FILE_SIZE;
   }
