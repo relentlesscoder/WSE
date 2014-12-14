@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580.crawler.rss;
 
 import com.google.gson.Gson;
-import edu.nyu.cs.cs2580.Utils.WriteFile;
+import edu.nyu.cs.cs2580.utils.WriteFile;
 
 import java.io.BufferedReader;
 import java.io.File;
