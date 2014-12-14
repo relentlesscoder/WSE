@@ -40,7 +40,7 @@ public class BKTree<E> {
   // Tolerance distance, when the distance between a source elem and the target node's elem
   // is computed, all the target node's children with distance between +-toleranceDistance is
   // pushed into the stack and wait for further assessment.
-  private static int toleranceDistance = 1;
+  private static int toleranceDistance = 2;
 
   private Node<E> root;
   private int elementCount;
@@ -68,6 +68,10 @@ public class BKTree<E> {
   public void add(E element) {
     if (element == null) {
       throw new NullPointerException();
+    }
+
+    if (!isEnglishWord(element.toString())) {
+      return;
     }
 
     if (root == null) {
@@ -157,7 +161,7 @@ public class BKTree<E> {
       }
     }
 
-    System.out.println("Searched " + count + " elements...\n");
+//    System.out.println("Searched " + count + " elements...\n");
 
     return res;
   }
@@ -179,8 +183,24 @@ public class BKTree<E> {
     return res;
   }
 
+  public List<E> getPossibleNodesForDistanceWithOrder(E elem, int expectDistance, int size) {
+    List<E> possibleNodesForDistance = getPossibleNodesForDistanceWithOrder(elem, expectDistance);
+    List<E> res = new ArrayList<E>();
+    int num = Math.min(size, possibleNodesForDistance.size());
+
+    for (int i = 0; i < num; i++) {
+      res.add(possibleNodesForDistance.get(i));
+    }
+
+    return res;
+  }
+
   public int getElementCount() {
     return elementCount;
+  }
+
+  public boolean isEnglishWord(String term) {
+    return term.matches("^[a-zA-Z]+$");
   }
 
   @Override

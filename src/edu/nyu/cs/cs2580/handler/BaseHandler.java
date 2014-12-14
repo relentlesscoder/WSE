@@ -4,6 +4,10 @@ import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import edu.nyu.cs.cs2580.*;
+import edu.nyu.cs.cs2580.BKTree.BKTree;
+import edu.nyu.cs.cs2580.BKTree.DamerauLevenshteinAlgorithm;
+import edu.nyu.cs.cs2580.BKTree.DistanceAlgo;
+import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.query.Query;
@@ -18,17 +22,26 @@ public abstract class BaseHandler implements HttpHandler {
   // For accessing the underlying documents to be used by the Ranker. Since
   // we are not worried about thread-safety here, the Indexer class must take
   // care of thread-safety.
-  protected Indexer _indexer;
+  protected IndexerInvertedCompressed _indexer;
   protected SearchEngine.Options _options;
 
   protected static final String PLACE_HOLDER = "|Dynamic-Content-Place-Holder|";
   protected static final int STATUS_SUCCESS = 0;
   protected static final String STATUS_SUCCESS_MSG = "SUCCESS";
 
+  // For spell check
+  DistanceAlgo<String> _distanceAlgo;
+  protected BKTree<String> _bkTree;
+
   // Constructor
   public BaseHandler(SearchEngine.Options options, Indexer indexer) {
-    _indexer = indexer;
+    //TODO: Not handled well... For now that's just convenience
+    _indexer = (IndexerInvertedCompressed) indexer;
     _options = options;
+
+    _distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
+    _bkTree = new BKTree<String>(_distanceAlgo);
+    _bkTree.addAll(_indexer.getDictionaryTerms());
   }
 
   // Construct plain text response
@@ -113,184 +126,6 @@ public abstract class BaseHandler implements HttpHandler {
   }
 
   public abstract void handle(HttpExchange exchange) throws IOException;
-
-//  public void handle(HttpExchange exchange) throws IOException {
-//    String requestMethod = exchange.getRequestMethod();
-//    String message = "";
-//    if (!requestMethod.equalsIgnoreCase("GET")) { // GET requests only.
-//      return;
-//    }
-//
-//    // Print the user request header.
-//    Headers requestHeaders = exchange.getRequestHeaders();
-//    System.out.print("Incoming request: ");
-//    for (String key : requestHeaders.keySet()) {
-//      System.out.print(key + ":" + requestHeaders.get(key) + "; ");
-//    }
-//    System.out.println();
-//
-//    // Validate the incoming request.
-//    String uriQuery = exchange.getRequestURI().getQuery();
-//    String uriPath = exchange.getRequestURI().getPath();
-//    if (uriPath == null || uriQuery == null) {
-//      message = "Something wrong with the URI!";
-//      Headers responseHeaders = exchange.getResponseHeaders();
-//      responseHeaders.set("Content-Type", "text/plain");
-//      exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//      OutputStream responseBody = exchange.getResponseBody();
-//      responseBody.write(message.getBytes());
-//      responseBody.flush();
-//      responseBody.close();
-//    }
-//    if (!uriPath.equals("/search") && !uriPath.equals("/prf")) {
-//      message = "Only /search or /prf is handled!";
-//      Headers responseHeaders = exchange.getResponseHeaders();
-//      responseHeaders.set("Content-Type", "text/plain");
-//      exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//      OutputStream responseBody = exchange.getResponseBody();
-//      responseBody.write(message.getBytes());
-//      responseBody.flush();
-//      responseBody.close();
-//    }
-//    System.out.println("Query: " + uriQuery);
-//
-//    // Process the CGI arguments.
-//    CgiArguments cgiArgs = new CgiArguments(uriQuery);
-//    if (cgiArgs._query.isEmpty()) {
-//      message = "No query is given!";
-//      Headers responseHeaders = exchange.getResponseHeaders();
-//      responseHeaders.set("Content-Type", "text/plain");
-//      exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//      OutputStream responseBody = exchange.getResponseBody();
-//      responseBody.write(message.getBytes());
-//      responseBody.flush();
-//      responseBody.close();
-//    }
-//
-//    // Create the ranker.
-//    Ranker ranker = Ranker.Factory.getRankerByArguments(cgiArgs,
-//        SearchEngine.OPTIONS, _indexer);
-//    if (ranker == null) {
-//      message =
-//          "Ranker " + cgiArgs._rankerType.toString() + " is not valid!";
-//      Headers responseHeaders = exchange.getResponseHeaders();
-//      responseHeaders.set("Content-Type", "text/plain");
-//      exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//      OutputStream responseBody = exchange.getResponseBody();
-//      responseBody.write(message.getBytes());
-//      responseBody.flush();
-//      responseBody.close();
-//    }
-//
-//
-//    // Processing the query.
-//    Query processedQuery;
-//    if (cgiArgs._query.matches(".*(\".+\").*")) {
-//      processedQuery = new QueryPhrase(cgiArgs._query, true);
-//    } else {
-//      processedQuery = new QueryPhrase(cgiArgs._query, false);
-//    }
-//    processedQuery.processQuery();
-//
-//    if (processedQuery._tokens == null || processedQuery._tokens.size() <= 0) {
-//      message = "Invalid query text!";
-//      Headers responseHeaders = exchange.getResponseHeaders();
-//      responseHeaders.set("Content-Type", "text/plain");
-//      exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//      OutputStream responseBody = exchange.getResponseBody();
-//      responseBody.write(message.getBytes());
-//      responseBody.flush();
-//      responseBody.close();
-//    }
-//
-//    // Ranking.
-//    if (uriPath.equals("/search")) {
-//      Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
-//
-//      switch (cgiArgs._outputFormat) {
-//        case TEXT: {
-//          StringBuffer response = new StringBuffer();
-//          constructTextResponse(scoredDocs, response);
-//          Headers responseHeaders = exchange.getResponseHeaders();
-//          responseHeaders.set("Content-Type", "text/plain");
-//          exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//          OutputStream responseBody = exchange.getResponseBody();
-//          responseBody.write(response.toString().getBytes());
-//          responseBody.close();
-//          break;
-//        }
-//        case HTML: {
-//          String queryResponse = readHtmlTemplate(_options._resultTemplate);
-//          queryResponse = constructHtmlResponse(cgiArgs._query, scoredDocs,
-//              queryResponse);
-//          Headers responseHeaders = exchange.getResponseHeaders();
-//          responseHeaders.set("Server", "Java HTTP Search Server");
-//          responseHeaders.set("Content-Type", "text/html; charset=iso-8859-1");
-//          responseHeaders.set("Cache-Control", "no-cache");
-//          exchange.sendResponseHeaders(200, queryResponse.getBytes().length);
-//          OutputStream responseBody = exchange.getResponseBody();
-//          responseBody.write(queryResponse.getBytes());
-//          responseBody.flush();
-//          responseBody.close();
-//          break;
-//        }
-//        case JSON: {
-//          String queryResponse = constructJsonSearchResponse(cgiArgs._query, scoredDocs);
-//          Headers responseHeaders = exchange.getResponseHeaders();
-//          responseHeaders.set("Server", "Java JSON API");
-//          responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");
-//          responseHeaders.set("Cache-Control", "no-cache");
-//          responseHeaders.set("Access-Control-Allow-Origin","*");
-//          responseHeaders.set("Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept");
-//          responseHeaders.set("Access-Control-Allow-Methods","GET");
-//          exchange.sendResponseHeaders(200, queryResponse.getBytes().length);
-//          OutputStream responseBody = exchange.getResponseBody();
-//          responseBody.write(queryResponse.getBytes());
-//          responseBody.flush();
-//          responseBody.close();
-//          break;
-//        }
-//        default:
-//          // nothing
-//      }
-//      System.out.println("Finished query: " + cgiArgs._query);
-//    } else if (uriPath.equals("/prf")) {
-//      Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numDocs);
-//      String response = RelevanceFeedback.extendQuery(cgiArgs,
-//          (IndexerInvertedCompressed) _indexer, processedQuery, scoredDocs);
-//
-//      switch (cgiArgs._outputFormat) {
-//        case TEXT: {
-//          Headers responseHeaders = exchange.getResponseHeaders();
-//          responseHeaders.set("Content-Type", "text/plain");
-//          exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
-//          OutputStream responseBody = exchange.getResponseBody();
-//          responseBody.write(response.getBytes());
-//          responseBody.flush();
-//          responseBody.close();
-//          break;
-//        }
-//        case JSON: {
-//          String queryResponse = constructJsonPrfResponse(processedQuery, response);
-//          Headers responseHeaders = exchange.getResponseHeaders();
-//          responseHeaders.set("Server", "Java JSON API");
-//          responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");
-//          responseHeaders.set("Cache-Control", "no-cache");
-//          responseHeaders.set("Access-Control-Allow-Origin", "*");
-//          responseHeaders.set("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//          responseHeaders.set("Access-Control-Allow-Methods", "GET");
-//          exchange.sendResponseHeaders(200, queryResponse.getBytes().length);
-//          OutputStream responseBody = exchange.getResponseBody();
-//          responseBody.write(queryResponse.getBytes());
-//          responseBody.flush();
-//          responseBody.close();
-//          break;
-//        }
-//        default:
-//          // nothing
-//      }
-//    }
-//  }
 
   private String readHtmlTemplate(String filePath) {
     String output = "";

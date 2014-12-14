@@ -15,6 +15,8 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 /**
@@ -148,10 +150,42 @@ public class PrfHandler extends BaseHandler {
       responseBody.close();
     }
 
-    // Ranking.
-    Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numDocs);
-    String response = RelevanceFeedback.extendQuery(cgiArgs,
-        (IndexerInvertedCompressed) _indexer, processedQuery, scoredDocs);
+    String response = "";
+
+    // TODO: deal with misspell
+    List<String> possibleQuery = new ArrayList<String>();
+    boolean hasMisSpellLast = false;
+    if (processedQuery._tokens.size() > 0) {
+      String lastQueryTerm = processedQuery._tokens.lastElement();
+      if (!_indexer.containsTerm(processedQuery._tokens.lastElement())) {
+        hasMisSpellLast = true;
+      }
+    }
+
+    if (hasMisSpellLast) {
+      // Deal with misspell, not part of prf
+      List<String> possibleCorrection = new ArrayList<String>();
+      String prevQueryTerm = "";
+      String lastQueryTerm = processedQuery._tokens.lastElement();
+
+      for (int i = 0; i < processedQuery._tokens.size() - 1; i++) {
+        prevQueryTerm += processedQuery._tokens.get(i);
+        prevQueryTerm += " ";
+      }
+
+      possibleCorrection.addAll(_bkTree.getPossibleNodesForDistanceWithOrder(lastQueryTerm, 2, cgiArgs._numTerms));
+
+      for (int i = 0; i < possibleCorrection.size(); i++) {
+        possibleQuery.add(prevQueryTerm + possibleCorrection.get(i));
+      }
+
+      response = possibleQuery.toArray().toString();
+    } else {
+      // Ranking.
+      Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numDocs);
+      response = RelevanceFeedback.extendQuery(cgiArgs,
+          (IndexerInvertedCompressed) _indexer, processedQuery, scoredDocs);
+    }
 
     switch (cgiArgs._outputFormat) {
       case TEXT: {
@@ -165,7 +199,13 @@ public class PrfHandler extends BaseHandler {
         break;
       }
       case JSON: {
-        String queryResponse = constructPrfJsonOutput(processedQuery, response);
+        String queryResponse = "";
+        if (hasMisSpellLast) {
+          Gson gson = new Gson();
+          queryResponse = gson.toJson(possibleQuery.toArray());
+        } else {
+          queryResponse = constructPrfJsonOutput(processedQuery, response);
+        }
         Headers responseHeaders = exchange.getResponseHeaders();
         responseHeaders.set("Server", "Java JSON API");
         responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");

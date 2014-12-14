@@ -13,10 +13,7 @@ import edu.nyu.cs.cs2580.utils.VByteUtil;
 import edu.nyu.cs.cs2580.document.Document;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * This is the compressed inverted indexer...
@@ -1244,7 +1241,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     return true;
   }
-  public ImmutableBiMap<String, Integer> getDictionary() {
-    return dictionary;
+
+  public ImmutableSet<String> getDictionaryTerms() {
+    return dictionary.keySet();
+  }
+
+  public boolean containsTerm(String term) {
+    return dictionary.containsKey(term);
   }
 }
