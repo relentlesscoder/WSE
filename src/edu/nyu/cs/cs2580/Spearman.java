@@ -16,7 +16,6 @@ public class Spearman {
 
     private static void checkCommandLine(String[] args) throws IOException,
             NumberFormatException {
-
         Util.Check(args.length == 2, "Invalid argument number!");
         Util.Check(args[0] != null || !args[0].isEmpty(), "Must provide pagerank file path!");
         Util.Check(args[1] != null || !args[1].isEmpty(), "Must provide numviews file path!");

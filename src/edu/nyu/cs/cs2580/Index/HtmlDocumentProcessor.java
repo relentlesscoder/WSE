@@ -1,5 +1,8 @@
 package edu.nyu.cs.cs2580.Index;
 
+import com.google.common.io.Files;
+import de.l3s.boilerpipe.BoilerpipeProcessingException;
+import de.l3s.boilerpipe.extractors.ArticleExtractor;
 import edu.nyu.cs.cs2580.document.DocumentIndexed;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
@@ -7,6 +10,7 @@ import org.jsoup.Jsoup;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -50,7 +54,14 @@ public class HtmlDocumentProcessor extends DocumentProcessor {
     String title = jsoupDoc.title();
 
     DocumentFields documentFields = new DocumentFields(title);
-    documentFields.setContent(jsoupDoc.body().text());
+
+    String htmlContent = Files.toString(files[docid], StandardCharsets.UTF_8);
+
+    try {
+      documentFields.setContent(ArticleExtractor.INSTANCE.getText(htmlContent));
+    } catch (BoilerpipeProcessingException ignore) {
+//      e.printStackTrace();
+    }
 
     // Create the document and store it.
     DocumentIndexed doc = new DocumentIndexed(docid);
