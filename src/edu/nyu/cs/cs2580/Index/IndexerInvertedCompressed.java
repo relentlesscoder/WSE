@@ -155,7 +155,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     } else if (corpusType == SearchEngine.CORPUS_TYPE.NEWS_FEED_CORPUS){
       documentProcessor = new NewsDocumentProcessor(files, _options);
     } else {
-      //TODO: Process news corpus per docid...
+      // ...
     }
 
     // Start to process documents
