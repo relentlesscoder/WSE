@@ -8,15 +8,13 @@ import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.Util;
 import edu.nyu.cs.cs2580.utils.VByteUtil;
 import edu.nyu.cs.cs2580.document.Document;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * This is the compressed inverted indexer...
@@ -1243,5 +1241,33 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     return true;
+  }
+
+  // Return the dictionary
+  public ImmutableSet<String> getDictionaryTerms() {
+    return dictionary.keySet();
+  }
+
+  // Check if the dictionary of the index contains the term
+  public boolean containsTerm(String term) {
+    return dictionary.containsKey(term);
+  }
+
+  // Return the term frequency of the index...
+  public Map<String, Integer> getTermFrequency() {
+    Map<String, Integer> res = new HashMap<String, Integer>();
+    for (int termId : meta.keySet()) {
+      // Cast...
+      int frequency = (int) meta.get(termId).getCorpusTermFrequency();
+      String term = dictionary.inverse().get(termId);
+      term = Tokenizer.stopwordFilter(term);
+      if (term == null) {
+        // Skip stop word...
+        continue;
+      }
+      res.put(term, frequency);
+    }
+
+    return res;
   }
 }
