@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.spellCheck.BKTree;
+package edu.nyu.cs.cs2580.spellCheck;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;

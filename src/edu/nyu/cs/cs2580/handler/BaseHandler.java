@@ -11,14 +11,22 @@ import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.Index.Indexer;
 import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Vector;
 
 public abstract class BaseHandler implements HttpHandler {
+  // Common misspell data corpora file
+  private static final File ASPELL_FILE = new File("data/spellCheckTestData/aspell.dat");
+  private static final File MISSP_FILE = new File("data/spellCheckTestData/missp.dat");
+  private static final File WIKIPEDIA_FILE = new File("data/spellCheckTestData/wikipedia.dat");
+  private MisspellDataSet _misspellDataSet;
+
   // For accessing the underlying documents to be used by the Ranker. Since
   // we are not worried about thread-safety here, the Indexer class must take
   // care of thread-safety.
@@ -34,7 +42,7 @@ public abstract class BaseHandler implements HttpHandler {
   protected BKTree<String> _bkTree;
 
   // Constructor
-  public BaseHandler(SearchEngine.Options options, Indexer indexer) {
+  public BaseHandler(SearchEngine.Options options, Indexer indexer) throws IOException {
     //TODO: Not handled well... For now that's just convenience
     _indexer = (IndexerInvertedCompressed) indexer;
     _options = options;
@@ -42,6 +50,11 @@ public abstract class BaseHandler implements HttpHandler {
     _distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
     _bkTree = new BKTree<String>(_distanceAlgo);
     _bkTree.addAll(_indexer.getDictionaryTerms());
+    _misspellDataSet = new MisspellDataSet();
+    _misspellDataSet.addData(ASPELL_FILE);
+    _misspellDataSet.addData(MISSP_FILE);
+    _misspellDataSet.addData(WIKIPEDIA_FILE);
+    _bkTree.addMisspellDataSet(_misspellDataSet);
   }
 
   // Construct plain text response

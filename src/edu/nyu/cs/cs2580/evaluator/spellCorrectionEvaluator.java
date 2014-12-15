@@ -9,7 +9,7 @@ import com.google.common.io.Files;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTree;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.MisspellDataSet;
+import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -75,9 +75,11 @@ public class SpellCorrectionEvaluator {
      *********************************************************************************/
   }
 
-  /*********************************************************************************
+  /**
+   * ******************************************************************************
    * This is the start test for BKTree & Damerau Levenshitein
-   *********************************************************************************/
+   * *******************************************************************************
+   */
 
   private static void testBKTree(Map<String, String> testMap) {
     /********** Spell check implemented with BK Tree and Damerau Levenshitein algorithm ***********/
@@ -110,7 +112,6 @@ public class SpellCorrectionEvaluator {
   private static void testBKTreeWithDistance(BKTree<String> bkTree, Map<String, String> testMap, int expectedDistance) {
 
 
-
     int correctCount = 0;
     int notFoundCount = 0;
     int totalCount = testMap.size();
@@ -128,7 +129,7 @@ public class SpellCorrectionEvaluator {
     }
 
     // Output
-    testBKTreeOutput (correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
+    testBKTreeOutput(correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
   }
 
   private static void testBKTreeWithDistanceOneAndTwo(BKTree<String> bkTree, Map<String, String> testMap) {
@@ -152,7 +153,7 @@ public class SpellCorrectionEvaluator {
     }
 
     // Output
-    testBKTreeOutput (correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
+    testBKTreeOutput(correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
   }
 
   // Output the correct rate and not found rate...

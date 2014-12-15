@@ -3,6 +3,7 @@ package edu.nyu.cs.cs2580.spellCheck.BKTree;
 import com.google.common.base.Optional;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
+import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
 
 import java.util.*;
 
@@ -11,8 +12,8 @@ import java.util.*;
  * http://norvig.com/spell-correct.html
  * http://nullwords.wordpress.com/2013/03/13/the-bk-tree-a-data-structure-for-spell-checking/
  * http://blog.notdot.net/2007/4/Damn-Cool-Algorithms-Part-1-BK-Trees
- *
- **Misspell data set
+ * <p>
+ * *Misspell data set
  * http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
  */
 public class BKTree<E> {
@@ -181,7 +182,7 @@ public class BKTree<E> {
    * Get all possible elements for a specific distance
    *
    * @return a list of possible elements, if not elements were found, return an
-   *         empty list.
+   * empty list.
    */
   public List<E> getPossibleElementsForDistance(E elem, int expectDistance) {
     List<E> res = new ArrayList<E>();
@@ -231,7 +232,7 @@ public class BKTree<E> {
    * distance 2. If still none found, an empty list will be returned.
    *
    * @return a list of possible elements, if not elements were found, return an
-   *         empty list.
+   * empty list.
    */
   public List<E> getPossibleElements(E elem) {
     List<E> res = getPossibleElementsForDistance(elem, DISTANCE_ONE);
@@ -247,7 +248,7 @@ public class BKTree<E> {
    * Get all possible elements for a specific distance with order.
    *
    * @return a list of possible elements, if not elements were found, return an
-   *         empty list.
+   * empty list.
    */
   public List<E> getPossibleElementsForDistanceWithOrder(E elem, int expectDistance) {
     List<E> possibleElements = getPossibleElementsForDistance(elem, expectDistance);
@@ -261,7 +262,7 @@ public class BKTree<E> {
    * distance 2. If still none found, an empty list will be returned.
    *
    * @return a list of possible elements, if not elements were found, return an
-   *         empty list.
+   * empty list.
    */
   public List<E> getPossibleElementsWithOrder(E elem) {
     List<E> possibleElements = getPossibleElements(elem);
@@ -273,8 +274,8 @@ public class BKTree<E> {
    * Get a specific number of possible elements for a specific distance with order.
    *
    * @return a list of possible elements, if not elements were found, return an
-   *         empty list. If the number of possible elements is less then the specific
-   *         size, it will return as many as it can found.
+   * empty list. If the number of possible elements is less then the specific
+   * size, it will return as many as it can found.
    */
   public List<E> getPossibleElementsForDistanceWithOrder(E elem, int expectDistance, int size) {
     List<E> possibleElements = getPossibleElementsForDistanceWithOrder(elem, expectDistance);
@@ -294,8 +295,8 @@ public class BKTree<E> {
    * distance 2. If still none found, an empty list will be returned.
    *
    * @return a list of possible elements, if not elements were found, return an
-   *         empty list. If the number of possible elements is less then the specific
-   *         size, it will return as many as it can found.
+   * empty list. If the number of possible elements is less then the specific
+   * size, it will return as many as it can found.
    */
   public List<E> getPossibleElementsWithOrder(E elem, int size) {
     List<E> possibleNodesForDistance = getPossibleElementsWithOrder(elem);
@@ -325,6 +326,25 @@ public class BKTree<E> {
   }
 
   /**
+   * Get a specific number of elements for a specific distance with order.
+   * It will first use distance 1, if not results were found, it will try
+   * distance 2. If still none found, an empty list will be returned.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   * empty list. If the number of possible elements is less then the specific
+   * size, it will return as many as it can found.
+   */
+  public Optional<E> getMostPossibleElement(E elem) {
+    List<E> possibleElements = getPossibleElementsWithOrder(elem);
+
+    if (possibleElements.size() > 0) {
+      return Optional.fromNullable(possibleElements.get(0));
+    } else {
+      return Optional.fromNullable(null);
+    }
+  }
+
+  /**
    * Sort the possible elements..
    */
   private List<E> sortPossibleElements(List<E> possibleElementsForDistance, E elem) {
@@ -332,18 +352,25 @@ public class BKTree<E> {
     List<E> res = new ArrayList<E>();
 
     Queue<ScoredResult> resQueue = new PriorityQueue<ScoredResult>();
+    double minFrequency = 1;
+    double maxFrequency = Integer.MIN_VALUE;
+
+    for (E _elem : possibleElementsForDistance) {
+      int frequency= elemFrequency.count(_elem);
+      if (frequency > 0) {
+        maxFrequency = Math.max(maxFrequency, frequency);
+      }
+    }
+
     for (E _elem : possibleElementsForDistance) {
       // Set the basic score as the element frequency...
-      double score = elemFrequency.count(_elem);
-      if (score == 0) {
-        // smoothing...
-        score = 1.0;
-      }
+      double frequency = elemFrequency.count(_elem);
+      frequency = frequency == 0 ? 1 : frequency;
 
-      score = Math.log(score);
+      double score = (frequency - minFrequency) / (maxFrequency - minFrequency);
 
       if (correctWordsData.contains(_elem.toString())) {
-        score += 1.0;
+        score += 1;
       }
 
       ScoredResult scoredResult = new ScoredResult(_elem, score);
@@ -355,25 +382,6 @@ public class BKTree<E> {
     }
 
     return res;
-  }
-
-  /**
-   * Get a specific number of elements for a specific distance with order.
-   * It will first use distance 1, if not results were found, it will try
-   * distance 2. If still none found, an empty list will be returned.
-   *
-   * @return a list of possible elements, if not elements were found, return an
-   *         empty list. If the number of possible elements is less then the specific
-   *         size, it will return as many as it can found.
-   */
-  public Optional<E> getMostPossibleElement(E elem) {
-    List<E> possibleElements = getPossibleElementsWithOrder(elem);
-
-    if (possibleElements.size() > 0) {
-      return Optional.fromNullable(possibleElements.get(0));
-    } else {
-      return Optional.fromNullable(null);
-    }
   }
 
   public int getElementCount() {
