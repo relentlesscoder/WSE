@@ -60,25 +60,85 @@ public class SpellCorrectionEvaluator {
     test1Map = constructTestMap(test1File);
     test2Map = constructTestMap(test2File);
 
-    System.out.println("***** This is the test for BKTree with test set 1");
+    /*********************************************************************************
+     * This is the start test for BKTree & Damerau Levenshitein
+     *********************************************************************************/
+
+    System.out.println("                   Test set 1");
     testBKTree(test1Map);
-    System.out.println("***** This is the test for BKTree with test set 2");
+    System.out.println("------------------------------------------------");
+    System.out.println("                   Test set 2");
     testBKTree(test2Map);
 
-
-    int i = 0;
+    /*********************************************************************************
+     * This is the end test for BKTree & Damerau Levenshitein
+     *********************************************************************************/
   }
+
+  /*********************************************************************************
+   * This is the start test for BKTree & Damerau Levenshitein
+   *********************************************************************************/
 
   private static void testBKTree(Map<String, String> testMap) {
     /********** Spell check implemented with BK Tree and Damerau Levenshitein algorithm ***********/
     DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
     BKTree<String> bkTree = new BKTree<String>(distanceAlgo, termFrequency);
     bkTree.addAll(dictionary.keySet());
+
+    System.out.println("################################################");
+    System.out.println("# This is the BKTree test without error model...");
+    System.out.println("################################################");
+    System.out.println("## Distance 1");
+    testBKTreeWithDistance(bkTree, testMap, 1);
+    System.out.println("## Distance 2");
+    testBKTreeWithDistance(bkTree, testMap, 2);
+    System.out.println("## Distance 1 and 2");
+    testBKTreeWithDistanceOneAndTwo(bkTree, testMap);
+
+    System.out.println("################################################");
+    System.out.println("# This is the BKTree test with error model...");
+    System.out.println("################################################");
+    bkTree.addMisspellDataSet(misspellDataSet);
+    System.out.println("## Distance 1");
+    testBKTreeWithDistance(bkTree, testMap, 1);
+    System.out.println("## Distance 2");
+    testBKTreeWithDistance(bkTree, testMap, 2);
+    System.out.println("## Distance 1 and 2");
+    testBKTreeWithDistanceOneAndTwo(bkTree, testMap);
+  }
+
+  private static void testBKTreeWithDistance(BKTree<String> bkTree, Map<String, String> testMap, int expectedDistance) {
+
+
+
+    int correctCount = 0;
+    int notFoundCount = 0;
+    int totalCount = testMap.size();
+    double startTimeStamp = System.currentTimeMillis();
+
+    for (String misspellWord : testMap.keySet()) {
+      Optional<String> correctWord = bkTree.getMostPossibleElementsForDistance(misspellWord, expectedDistance);
+      if (correctWord.isPresent()) {
+        if (testMap.get(misspellWord).equals(correctWord.get())) {
+          correctCount++;
+        }
+      } else {
+        notFoundCount++;
+      }
+    }
+
+    // Output
+    testBKTreeOutput (correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
+  }
+
+  private static void testBKTreeWithDistanceOneAndTwo(BKTree<String> bkTree, Map<String, String> testMap) {
+    /********** Spell check implemented with BK Tree and Damerau Levenshitein algorithm ***********/
     bkTree.addMisspellDataSet(misspellDataSet);
 
     int correctCount = 0;
     int notFoundCount = 0;
     int totalCount = testMap.size();
+    double startTimeStamp = System.currentTimeMillis();
 
     for (String misspellWord : testMap.keySet()) {
       Optional<String> correctWord = bkTree.getMostPossibleElement(misspellWord);
@@ -91,15 +151,28 @@ public class SpellCorrectionEvaluator {
       }
     }
 
+    // Output
+    testBKTreeOutput (correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
+  }
+
+  // Output the correct rate and not found rate...
+  private static void testBKTreeOutput(double correctCount, double notFoundCount, double totalCount, double duration) {
     double correctPercentage = (double) correctCount / (double) totalCount;
     double notFoundPercentage = (double) notFoundCount / (double) totalCount;
+    double termPerSecond = totalCount / (duration / 1000);
 
-    String correctPercentageStr = String.format("Correct rate is %,.3f.", correctPercentage);
-    String notFoundPercentageStr = String.format("Correct rate is %,.3f.", notFoundPercentage);
+    String correctPercentageStr = String.format("#### Correct rate is %,.3f.", correctPercentage);
+    String notFoundPercentageStr = String.format("#### Not found rate is %,.3f.", notFoundPercentage);
+    String termPerSecondStr = String.format("#### Process %,.3f. terms per second.", termPerSecond);
 
     System.out.println(correctPercentageStr);
     System.out.println(notFoundPercentageStr);
+    System.out.println(termPerSecondStr);
   }
+
+  /*********************************************************************************
+   * This is the end test for BKTree & Damerau Levenshitein
+   *********************************************************************************/
 
   /**
    * Construct a map from a text file for evaluation.

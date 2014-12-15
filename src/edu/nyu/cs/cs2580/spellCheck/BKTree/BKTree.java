@@ -48,7 +48,7 @@ public class BKTree<E> {
   // Tolerance distance, when the distance between a source elem and the target node's elem
   // is computed, all the target node's children with distance between +-TOLERANCE_DISTANCE is
   // pushed into the stack and wait for further assessment.
-  private static final int TOLERANCE_DISTANCE = 1;
+  private static final int TOLERANCE_DISTANCE = 2;
 
   // Default edit distance, this should cover most of the misspelled words
   private static final int DISTANCE_ONE = 1;
@@ -289,21 +289,6 @@ public class BKTree<E> {
   }
 
   /**
-   * Get the most possible element for a specific distance.
-   *
-   * @return the most possible element, if it is not present... just check it with Optional.isPresent()...
-   */
-  public Optional<E> getMostPossibleElementsForDistance(E elem, int expectDistance) {
-    List<E> possibleElements = getPossibleElementsForDistanceWithOrder(elem, expectDistance);
-
-    if (possibleElements.size() > 0) {
-      return Optional.fromNullable(possibleElements.get(0));
-    } else {
-      return Optional.fromNullable(null);
-    }
-  }
-
-  /**
    * Get a specific number of elements for a specific distance with order.
    * It will first use distance 1, if not results were found, it will try
    * distance 2. If still none found, an empty list will be returned.
@@ -325,16 +310,12 @@ public class BKTree<E> {
   }
 
   /**
-   * Get a specific number of elements for a specific distance with order.
-   * It will first use distance 1, if not results were found, it will try
-   * distance 2. If still none found, an empty list will be returned.
+   * Get the most possible element for a specific distance.
    *
-   * @return a list of possible elements, if not elements were found, return an
-   *         empty list. If the number of possible elements is less then the specific
-   *         size, it will return as many as it can found.
+   * @return the most possible element, if it is not present... just check it with Optional.isPresent()...
    */
-  public Optional<E> getMostPossibleElement(E elem) {
-    List<E> possibleElements = getPossibleElementsWithOrder(elem);
+  public Optional<E> getMostPossibleElementsForDistance(E elem, int expectDistance) {
+    List<E> possibleElements = getPossibleElementsForDistanceWithOrder(elem, expectDistance);
 
     if (possibleElements.size() > 0) {
       return Optional.fromNullable(possibleElements.get(0));
@@ -365,7 +346,6 @@ public class BKTree<E> {
         score += 1.0;
       }
 
-
       ScoredResult scoredResult = new ScoredResult(_elem, score);
       resQueue.add(scoredResult);
     }
@@ -375,6 +355,25 @@ public class BKTree<E> {
     }
 
     return res;
+  }
+
+  /**
+   * Get a specific number of elements for a specific distance with order.
+   * It will first use distance 1, if not results were found, it will try
+   * distance 2. If still none found, an empty list will be returned.
+   *
+   * @return a list of possible elements, if not elements were found, return an
+   *         empty list. If the number of possible elements is less then the specific
+   *         size, it will return as many as it can found.
+   */
+  public Optional<E> getMostPossibleElement(E elem) {
+    List<E> possibleElements = getPossibleElementsWithOrder(elem);
+
+    if (possibleElements.size() > 0) {
+      return Optional.fromNullable(possibleElements.get(0));
+    } else {
+      return Optional.fromNullable(null);
+    }
   }
 
   public int getElementCount() {
