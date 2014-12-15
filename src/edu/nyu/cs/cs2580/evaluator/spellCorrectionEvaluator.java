@@ -6,9 +6,10 @@ import com.google.common.collect.HashBiMap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.io.Files;
-import edu.nyu.cs.cs2580.BKTree.BKTree;
-import edu.nyu.cs.cs2580.BKTree.DamerauLevenshteinAlgorithm;
-import edu.nyu.cs.cs2580.BKTree.DistanceAlgo;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTree;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.MisspellDataSet;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -28,11 +29,8 @@ public class SpellCorrectionEvaluator {
   static BiMap<String, Integer> dictionary = HashBiMap.create();
   // Term frequency of the test corpus
   static Multiset<String> termFrequency = HashMultiset.create();
-  // Two sets of test map
-  // Key: misspelled word
-  // Value: correct word
-  static Map<String, String> test1Map = new HashMap<String, String>();
-  static Map<String, String> test2Map = new HashMap<String, String>();
+  // The misspell data set...
+  static MisspellDataSet misspellDataSet = new MisspellDataSet();
 
   public static void main(String[] args) throws IOException {
     // Test corpus file
@@ -42,28 +40,50 @@ public class SpellCorrectionEvaluator {
     File test1File = new File("data/spellCheckTestData/test1.text");
     File test2File = new File("data/spellCheckTestData/test2.text");
 
+    // Common misspell data corpora file
+    File aspellFile = new File("data/spellCheckTestData/aspell.dat");
+    File misspFile = new File("data/spellCheckTestData/missp.dat");
+    File wikipediaFile = new File("data/spellCheckTestData/wikipedia.dat");
+
+    misspellDataSet.addData(aspellFile);
+    misspellDataSet.addData(misspFile);
+    misspellDataSet.addData(wikipediaFile);
+
+    // Two sets of test map
+    // Key: misspelled word
+    // Value: correct word
+    Map<String, String> test1Map = new HashMap<String, String>();
+    Map<String, String> test2Map = new HashMap<String, String>();
+
     constructDictionary(testCorpusFile);
 
     test1Map = constructTestMap(test1File);
     test2Map = constructTestMap(test2File);
 
-    testBKTree();
+    System.out.println("***** This is the test for BKTree with test set 1");
+    testBKTree(test1Map);
+    System.out.println("***** This is the test for BKTree with test set 2");
+    testBKTree(test2Map);
+
+
+    int i = 0;
   }
 
-  private static void testBKTree() {
+  private static void testBKTree(Map<String, String> testMap) {
     /********** Spell check implemented with BK Tree and Damerau Levenshitein algorithm ***********/
     DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
     BKTree<String> bkTree = new BKTree<String>(distanceAlgo, termFrequency);
     bkTree.addAll(dictionary.keySet());
+    bkTree.addMisspellDataSet(misspellDataSet);
 
     int correctCount = 0;
     int notFoundCount = 0;
-    int totalCount = test2Map.size();
+    int totalCount = testMap.size();
 
-    for (String misspellWord : test2Map.keySet()) {
+    for (String misspellWord : testMap.keySet()) {
       Optional<String> correctWord = bkTree.getMostPossibleElement(misspellWord);
       if (correctWord.isPresent()) {
-        if (test2Map.get(misspellWord).equals(correctWord.get())) {
+        if (testMap.get(misspellWord).equals(correctWord.get())) {
           correctCount++;
         }
       } else {

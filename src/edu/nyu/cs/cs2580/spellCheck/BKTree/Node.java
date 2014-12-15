@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.BKTree;
+package edu.nyu.cs.cs2580.spellCheck.BKTree;
 
 import com.google.common.base.Optional;
 

@@ -1,7 +1,5 @@
-package edu.nyu.cs.cs2580.BKTree;
+package edu.nyu.cs.cs2580.spellCheck.BKTree;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * This is modified based on the codes from:

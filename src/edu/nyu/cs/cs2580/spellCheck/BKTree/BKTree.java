@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.BKTree;
+package edu.nyu.cs.cs2580.spellCheck.BKTree;
 
 import com.google.common.base.Optional;
 import com.google.common.collect.HashMultiset;
@@ -11,6 +11,9 @@ import java.util.*;
  * http://norvig.com/spell-correct.html
  * http://nullwords.wordpress.com/2013/03/13/the-bk-tree-a-data-structure-for-spell-checking/
  * http://blog.notdot.net/2007/4/Damn-Cool-Algorithms-Part-1-BK-Trees
+ *
+ **Misspell data set
+ * http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
  */
 public class BKTree<E> {
   /**
@@ -54,7 +57,10 @@ public class BKTree<E> {
   private Node<E> root;
   private int elementCount;
   private DistanceAlgo distanceAlgo;
+  // The element frequency multiset
   private Multiset<E> elemFrequency;
+  // This is the misspell data set, or in another word, the error model...
+  private MisspellDataSet misspellDataSet;
 
   /**
    * Constructor...
@@ -63,6 +69,7 @@ public class BKTree<E> {
     this.distanceAlgo = distanceAlgo;
     this.elementCount = 0;
     this.elemFrequency = HashMultiset.create();
+    this.misspellDataSet = new MisspellDataSet();
   }
 
   /**
@@ -136,6 +143,13 @@ public class BKTree<E> {
       throw new NullPointerException();
     }
     addAll(Arrays.asList(elements));
+  }
+
+  /**
+   * Add the misspell data set to improve the accuracy
+   */
+  public void addMisspellDataSet(MisspellDataSet misspellDataSet) {
+    this.misspellDataSet = misspellDataSet;
   }
 
   /**
@@ -238,7 +252,7 @@ public class BKTree<E> {
   public List<E> getPossibleElementsForDistanceWithOrder(E elem, int expectDistance) {
     List<E> possibleElements = getPossibleElementsForDistance(elem, expectDistance);
 
-    return sortPossibleElements(possibleElements);
+    return sortPossibleElements(possibleElements, elem);
   }
 
   /**
@@ -252,7 +266,7 @@ public class BKTree<E> {
   public List<E> getPossibleElementsWithOrder(E elem) {
     List<E> possibleElements = getPossibleElements(elem);
 
-    return sortPossibleElements(possibleElements);
+    return sortPossibleElements(possibleElements, elem);
   }
 
   /**
@@ -332,16 +346,26 @@ public class BKTree<E> {
   /**
    * Sort the possible elements..
    */
-  private List<E> sortPossibleElements(List<E> possibleElementsForDistance) {
+  private List<E> sortPossibleElements(List<E> possibleElementsForDistance, E elem) {
+    List<String> correctWordsData = misspellDataSet.getCorrectWords(elem.toString());
     List<E> res = new ArrayList<E>();
 
     Queue<ScoredResult> resQueue = new PriorityQueue<ScoredResult>();
     for (E _elem : possibleElementsForDistance) {
+      // Set the basic score as the element frequency...
       double score = elemFrequency.count(_elem);
       if (score == 0) {
         // smoothing...
         score = 1.0;
       }
+
+      score = Math.log(score);
+
+      if (correctWordsData.contains(_elem.toString())) {
+        score += 1.0;
+      }
+
+
       ScoredResult scoredResult = new ScoredResult(_elem, score);
       resQueue.add(scoredResult);
     }
