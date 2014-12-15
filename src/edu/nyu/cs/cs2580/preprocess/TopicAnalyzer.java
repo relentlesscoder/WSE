@@ -21,9 +21,9 @@ public class TopicAnalyzer {
   public static void main(String[] args) throws IOException {
     long start = System.currentTimeMillis();
 
-    File dtFile = new File("data/news/topic/doc_topics");
+    File dtFile = new File("data/news/topic_400/doc_topics");
     File newsFile = new File("data/news/inter/news.txt");
-    File topicKey = new File("data/news/topic/topic_key");
+    File topicKey = new File("data/news/topic_400/topic_key");
 
     topicNum = FilePreprocess.countLines(topicKey);
     // Load Topics from document_topic file
@@ -32,9 +32,9 @@ public class TopicAnalyzer {
     integrateTime(newsFile);
     // Adding topic keys to Topics
     addTerms(topicKey);
-    String timeDis = "topic/timeDistribution.txt";
-    String numDis = "topic/numDistribution.txt";
-    String topicRankPath = "topic/topicRank.txt";
+    String timeDis = "topic_400/timeDistribution.txt";
+    String numDis = "topic_400/numDistribution.txt";
+    String topicRankPath = "topic_400/topicRank.txt";
     // Output visualization data
     outputNumDis(numDis);
 
@@ -232,8 +232,8 @@ public class TopicAnalyzer {
       inter += Math.pow(c - average, 2);
     }
     double std = Math.sqrt(inter / size);
-    maxZScore = (max-average)/std/(Math.log(1.9+maxInd*.1)/Math.log(2))*1.1;
-    minZScore = (min-average)/std/(Math.log(1.95+minInd*.05)/Math.log(2))*0.9;
+    maxZScore = (max-average)/std/1/(Math.log(1.95+maxInd*.05)/Math.log(2));
+//    minZScore = (min-average)/std/(Math.log(1.95+minInd*.05)/Math.log(2))*0.9;
     double norm = (double)(docNum-minDocNum)/(maxDocNum-minDocNum);
     sb.append(" max=").append(max)
             .append(", avg=").append(average)

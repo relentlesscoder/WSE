@@ -129,7 +129,7 @@ public class NewsRanker extends Ranker {
       }
     }
 
-    score = score*(Math.log(1.9+timeLength*.1)/Math.log(2));
+    score = score/(Math.log(1.95+timeLength*.05)/Math.log(2));
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 
