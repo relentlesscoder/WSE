@@ -40,7 +40,9 @@ public class FilterFeedMsg {
 
           for (FeedMessage message : feed.getMessages()){
             String url = message.getLink();
-            if (!urlSet.contains(url)&&FilePreprocess.toData(message.getPubDate()).compareTo(FilePreprocess.start)>=0){
+            Date time = FilePreprocess.toData(message.getPubDate());
+            if (!urlSet.contains(url)&&time.compareTo(TopicAnalyzer.dates[0])>=0&&
+                    time.compareTo(TopicAnalyzer.dates[14])<0){
               idCount ++;
               urlSet.add(url);
               message.setPublisher(publisher);

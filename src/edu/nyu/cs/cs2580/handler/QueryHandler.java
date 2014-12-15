@@ -29,7 +29,7 @@ import java.util.Vector;
  * @author fdiaz
  */
 public class QueryHandler extends BaseHandler {
-  public QueryHandler(Options options, Indexer indexer) {
+  public QueryHandler(Options options, Indexer indexer) throws IOException {
     super(options, indexer);
   }
 
