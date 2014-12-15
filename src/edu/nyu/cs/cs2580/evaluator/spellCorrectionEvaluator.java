@@ -25,6 +25,13 @@ import java.util.regex.Pattern;
  */
 
 public class SpellCorrectionEvaluator {
+  // Common misspell data corpora file
+  private static final File ASPELL_FILE = new File("data/spellCheckTestData/aspell.dat");
+  private static final File MISSP_FILE = new File("data/spellCheckTestData/missp.dat");
+  private static final File WIKIPEDIA_FILE = new File("data/spellCheckTestData/wikipedia.dat");
+
+  private static final File DICTIONARY_FILE = new File("data/spellCheckTestData/words");
+
   // Dictionary of the test corpus
   static BiMap<String, Integer> dictionary = HashBiMap.create();
   // Term frequency of the test corpus
@@ -40,14 +47,9 @@ public class SpellCorrectionEvaluator {
     File test1File = new File("data/spellCheckTestData/test1.text");
     File test2File = new File("data/spellCheckTestData/test2.text");
 
-    // Common misspell data corpora file
-    File aspellFile = new File("data/spellCheckTestData/aspell.dat");
-    File misspFile = new File("data/spellCheckTestData/missp.dat");
-    File wikipediaFile = new File("data/spellCheckTestData/wikipedia.dat");
-
-    misspellDataSet.addData(aspellFile);
-    misspellDataSet.addData(misspFile);
-    misspellDataSet.addData(wikipediaFile);
+    misspellDataSet.addData(ASPELL_FILE);
+    misspellDataSet.addData(MISSP_FILE);
+    misspellDataSet.addData(WIKIPEDIA_FILE);
 
     // Two sets of test map
     // Key: misspelled word
@@ -81,11 +83,12 @@ public class SpellCorrectionEvaluator {
    * *******************************************************************************
    */
 
-  private static void testBKTree(Map<String, String> testMap) {
+  private static void testBKTree(Map<String, String> testMap) throws IOException {
     /********** Spell check implemented with BK Tree and Damerau Levenshitein algorithm ***********/
     DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
     BKTree<String> bkTree = new BKTree<String>(distanceAlgo, termFrequency);
-    bkTree.addAll(dictionary.keySet());
+    bkTree.addDictionary(DICTIONARY_FILE);
+//    bkTree.addAll(dictionary.keySet());
 
     System.out.println("################################################");
     System.out.println("# This is the BKTree test without error model...");
@@ -110,8 +113,6 @@ public class SpellCorrectionEvaluator {
   }
 
   private static void testBKTreeWithDistance(BKTree<String> bkTree, Map<String, String> testMap, int expectedDistance) {
-
-
     int correctCount = 0;
     int notFoundCount = 0;
     int totalCount = testMap.size();

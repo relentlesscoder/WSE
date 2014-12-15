@@ -25,6 +25,9 @@ public abstract class BaseHandler implements HttpHandler {
   private static final File ASPELL_FILE = new File("data/spellCheckTestData/aspell.dat");
   private static final File MISSP_FILE = new File("data/spellCheckTestData/missp.dat");
   private static final File WIKIPEDIA_FILE = new File("data/spellCheckTestData/wikipedia.dat");
+
+  private static final File DICTIONARY_FILE = new File("data/spellCheckTestData/words");
+
   private MisspellDataSet _misspellDataSet;
 
   // For accessing the underlying documents to be used by the Ranker. Since
@@ -48,8 +51,9 @@ public abstract class BaseHandler implements HttpHandler {
     _options = options;
 
     _distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
-    _bkTree = new BKTree<String>(_distanceAlgo);
-    _bkTree.addAll(_indexer.getDictionaryTerms());
+    _bkTree = new BKTree<String>(_distanceAlgo, _indexer.getTermFrequency());
+    _bkTree.addDictionary(DICTIONARY_FILE);
+//    _bkTree.addAll(_indexer.getDictionaryTerms());
     _misspellDataSet = new MisspellDataSet();
     _misspellDataSet.addData(ASPELL_FILE);
     _misspellDataSet.addData(MISSP_FILE);

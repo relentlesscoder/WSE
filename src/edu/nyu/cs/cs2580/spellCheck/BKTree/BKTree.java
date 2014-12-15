@@ -3,8 +3,12 @@ package edu.nyu.cs.cs2580.spellCheck.BKTree;
 import com.google.common.base.Optional;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
+import com.google.common.io.Files;
 import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 /**
@@ -120,6 +124,22 @@ public class BKTree<E> {
 
       node.addChild(element, distance);
       elementCount++;
+    }
+  }
+
+  /**
+   * Add a external dictionary, the format should be one word per line...
+   * TODO:
+   * By using this method, we assume E is String.... Deal with it later....
+   */
+  public void addDictionary(File file) throws IOException {
+    // The dependency is guava lib...
+    // This is for convenience... It does use more memory
+    String content = Files.toString(file, StandardCharsets.UTF_8);
+
+    String[] words = content.split("\n");
+    for (String word : words) {
+      add((E) word);
     }
   }
 
