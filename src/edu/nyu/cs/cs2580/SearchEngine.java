@@ -1,6 +1,7 @@
 package edu.nyu.cs.cs2580;
 
 import com.sun.net.httpserver.HttpServer;
+import edu.nyu.cs.cs2580.handler.NewsQueryHandler;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.handler.HtmlHandler;
 import edu.nyu.cs.cs2580.handler.PrfHandler;
@@ -272,12 +273,14 @@ public class SearchEngine {
     indexer.loadIndex();
     QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, indexer);
     PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, indexer);
+    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, indexer);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
 
     // Establish the serving environment
     InetSocketAddress addr = new InetSocketAddress(SearchEngine.PORT);
     HttpServer server = HttpServer.create(addr, -1);
     server.createContext("/search", queryHandler);
+    server.createContext("/search/news", newsQueryHandler);
     server.createContext("/prf", prfHandler);
     server.createContext("/", htmlHandler);
     server.setExecutor(Executors.newCachedThreadPool());

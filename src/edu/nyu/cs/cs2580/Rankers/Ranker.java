@@ -73,6 +73,8 @@ public abstract class Ranker {
           return new RankerQL(options, arguments, indexer);
         case COMPREHENSIVE:
           return new RankerComprehensive(options, arguments, indexer);
+        case NEWS:
+          return new NewsRanker(options, arguments, indexer);
         case NONE:
           // Fall through intended
         default:

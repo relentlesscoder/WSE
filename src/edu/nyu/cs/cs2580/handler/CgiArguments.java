@@ -8,7 +8,7 @@ package edu.nyu.cs.cs2580.handler;
 public class CgiArguments {
   // The type of the ranker we will be using.
   public enum RankerType {
-    NONE, CONJUNCTIVE, COSINE, QL, COMPREHENSIVE
+    NONE, CONJUNCTIVE, COSINE, QL, COMPREHENSIVE, NEWS
   }
 
   // The output format.
