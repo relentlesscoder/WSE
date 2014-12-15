@@ -29,7 +29,7 @@ import java.util.Vector;
  * @author fdiaz
  */
 public class PrfHandler extends BaseHandler {
-  public PrfHandler(Options options, Indexer indexer) {
+  public PrfHandler(Options options, Indexer indexer) throws IOException {
     super(options, indexer);
   }
 
