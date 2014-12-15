@@ -5,6 +5,7 @@ import edu.nyu.cs.cs2580.snowball.SnowballStemmer;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -21,6 +22,9 @@ public class Tokenizer {
   public static final int HIRAGANA = 5;
   public static final int KATAKANA = 6;
   public static final int HANGUL = 7;
+
+  private static final int MAX_GRAM = 4;
+  private static final int MIN_GRAM = 1;
 
   public static final HashSet<String> STOP_WORDS_SET;
 
@@ -124,6 +128,29 @@ public class Tokenizer {
       }
     }
     return input;
+  }
+
+  public static ArrayList<String> nGramFilters(String input, int min, int max){
+    int minGram = min == -1? MIN_GRAM : min;
+    int maxGram = max == -1? MAX_GRAM : max;
+    ArrayList<String> ngrams = new ArrayList<String>();
+    if (input == null || input.isEmpty()) {
+      return null;
+    }
+    else if(input.length() <= 3){
+      return null;
+    }
+    else{
+      String temp;
+      for(int i = minGram; i <= maxGram; i++){
+        for(int j = 0; j < input.length() - i + 1; j++){
+          temp = input.substring(j, j + i);
+          ngrams.add(temp);
+        }
+      }
+    }
+
+    return ngrams;
   }
 
   public String getText() {

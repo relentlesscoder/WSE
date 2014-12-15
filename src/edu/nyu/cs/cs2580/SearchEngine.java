@@ -90,6 +90,9 @@ public class SearchEngine {
     // The parent path where the result template resides
     public String _resultTemplate = null;
 
+    // The parent path where the spell check index resides
+    public String _indexSpell = null;
+
     /**
      * Constructor for options.
      *
@@ -158,6 +161,9 @@ public class SearchEngine {
 
       _resultTemplate = options.get("result_template");
       Util.Check(_resultTemplate != null, "Missing option: result_template!");
+
+      _indexSpell = options.get("index_spell");
+      Util.Check(_indexSpell != null, "Missing option: index_spell!");
     }
   }
 

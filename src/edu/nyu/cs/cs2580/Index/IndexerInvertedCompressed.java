@@ -4,6 +4,8 @@ import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
+import edu.nyu.cs.cs2580.ngram.NGramSpellChecker;
+import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
@@ -66,12 +68,16 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   private SearchEngine.CORPUS_TYPE corpusType;
 
+  private NGramSpellChecker spellChecker;
+
   private String CORPUS_INDEX;
   private String DOCUMENTS;
   private String META;
 
   private long totalTermFrequency = 0;
   private long totalNumViews = 0;
+
+  private static final  String SPELL_CHECK_INDEX = "spell_check";
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -200,6 +206,29 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Merging time: " + Util.convertMillis(duration));
 
     /**************************************************************************
+     * First delete the old spell index files in the target folder....
+     *************************************************************************/
+
+    File spellIndexFolder = new File(_options._indexSpell);
+    for (File file : spellIndexFolder.listFiles()) {
+      file.delete();
+    }
+
+    /**************************************************************************
+     * Start indexing....
+     *************************************************************************/
+    startTimeStamp = System.currentTimeMillis();
+    System.out.println("Start spell check indexing...");
+
+    spellChecker = new NGramSpellChecker(spellIndexFolder, dictionary);
+    spellChecker.buildIndex();
+
+    duration = System.currentTimeMillis() - startTimeStamp;
+
+    System.out.println("Complete spell check indexing...");
+    System.out.println("Indexing time: " + Util.convertMillis(duration));
+
+    /**************************************************************************
      * Populating document addition properties for web page corpus
      *************************************************************************/
 
@@ -266,7 +295,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Total time: " + Util.convertMillis(duration));
   }
 
-
   @Override
   public void loadIndex() throws IOException, ClassNotFoundException {
     IndexerInvertedCompressed loaded;
@@ -299,6 +327,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         this.docTermFreqMeta = loaded.docTermFreqMeta;
 
         this.dictionary = loaded.dictionary;
+
+        this.spellChecker = loaded.spellChecker;
         reader.close();
       }
     }
@@ -364,6 +394,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     } else {
       return documents.get(minDocid);
     }
+  }
+
+  public SpellCheckResult getSpellCheckResults(Query query){
+    return spellChecker.getSpellCheckResults(query);
   }
 
   /**

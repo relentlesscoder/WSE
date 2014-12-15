@@ -6,6 +6,7 @@ import com.sun.net.httpserver.HttpExchange;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.*;
+import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.query.QueryPhrase;
 import edu.nyu.cs.cs2580.rankers.Ranker;
@@ -179,7 +180,6 @@ public class QueryHandler extends BaseHandler {
       responseBody.close();
     }
 
-
     // Processing the query.
     Query processedQuery;
     if (cgiArgs._query.matches(".*(\".+\").*")) {
@@ -201,7 +201,10 @@ public class QueryHandler extends BaseHandler {
     }
 
     // Ranking.
-    Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
+    Vector<ScoredDocument> scoredDocs = new Vector<>();
+    //Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
+    SpellCheckResult spellCheck = ranker.spellCheck(processedQuery);
+    int i = 0;
 
     switch (cgiArgs._outputFormat) {
       case TEXT: {
