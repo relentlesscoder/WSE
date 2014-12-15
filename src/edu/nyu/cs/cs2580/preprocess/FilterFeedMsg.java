@@ -30,19 +30,20 @@ public class FilterFeedMsg {
     if (urlSet == null) {
       urlSet = new HashSet<String>();
     }
-
+    Date max = FilePreprocess.start;
     while (!finish) {
       try {
         while ((s = in.readLine()) != null) {
           Feed feed = gson.fromJson(s, Feed.class);
           String publisher = feed.getPublisher();
           count++;
-
           for (FeedMessage message : feed.getMessages()){
             String url = message.getLink();
             Date time = FilePreprocess.toData(message.getPubDate());
-            if (!urlSet.contains(url)&&time.compareTo(TopicAnalyzer.dates[0])>=0&&
-                    time.compareTo(TopicAnalyzer.dates[14])<0){
+            if (!urlSet.contains(url)&&time.compareTo(FilePreprocess.dates[0])>=0){
+              if (time.compareTo(max)>0){
+                max = time;
+              }
               idCount ++;
               urlSet.add(url);
               message.setPublisher(publisher);
@@ -66,6 +67,7 @@ public class FilterFeedMsg {
         }
         finish = true;
         in.close();
+        System.out.println(max);
         if (sb.length()>0){
           WriteFile.WriteToFile(sb.toString(), outputPath, true);
         }

@@ -1,7 +1,6 @@
 package edu.nyu.cs.cs2580.preprocess;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -16,12 +15,14 @@ public class Topic {
 //  private int leastDocNum;
   private int[] timeSlots;
   public final static int timeSpan = 14;
+  private double score;
 
   public Topic(int topicID) {
     this.topicID=topicID;
     timeSlots = new int[timeSpan];
     terms = new ArrayList<String>();
     docList = new ArrayList<Integer>();
+    score = 0.0;
   };
 
   public int getTopicID() {
@@ -47,5 +48,14 @@ public class Topic {
   public List<Integer> getDocList() {
     return docList;
   }
+
+  public Double getScore() {
+    return score;
+  }
+
+  public void setScore(double score) {
+    this.score = score;
+  }
+
 
 }

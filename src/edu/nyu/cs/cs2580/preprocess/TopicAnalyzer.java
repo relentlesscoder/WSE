@@ -6,31 +6,17 @@ import edu.nyu.cs.cs2580.utils.WriteFile;
 
 import java.io.*;
 import java.util.*;
+import java.util.stream.IntStream;
 
 /**
  * Created by tanis on 11/14/14.
  */
 public class TopicAnalyzer {
   private static int topicNum;
-  @SuppressWarnings ( "deprecation" )
-  public static final Date[] dates = {
-          new Date (114,10,29),
-          new Date (114,11,1),
-          new Date (114,11,2),
-          new Date (114,11,3),
-          new Date (114,11,4),
-          new Date (114,11,5),
-          new Date (114,11,6),
-          new Date (114,11,7),
-          new Date (114,11,8),
-          new Date (114,11,9),
-          new Date (114,11,10),
-          new Date (114,11,11),
-          new Date (114,11,12),
-          new Date (114,11,13),
-          new Date (114,11,14)
-  };
   private static Map<Integer, Topic> topics;
+  private static double avgDocNum;
+  private static int minDocNum;
+  private static int maxDocNum;
 
   public static void main(String[] args) throws IOException {
     long start = System.currentTimeMillis();
@@ -40,15 +26,30 @@ public class TopicAnalyzer {
     File topicKey = new File("data/news/topic/topic_key");
 
     topicNum = FilePreprocess.countLines(topicKey);
+    // Load Topics from document_topic file
     topics= categorizeDocs(dtFile);
+    // Integrate with time slots info
     integrateTime(newsFile);
+    // Adding topic keys to Topics
     addTerms(topicKey);
     String timeDis = "topic/timeDistribution.txt";
     String numDis = "topic/numDistribution.txt";
-    outputDis(timeDis,numDis);
+    String topicRankPath = "topic/topicRank.txt";
+    // Output visualization data
+    outputNumDis(numDis);
 
-    Gson gson = new Gson();
-    String json = gson.toJson(topics);
+    Queue<Topic> scoredTopics= new PriorityQueue<Topic>(new Comparator<Topic>() {
+      @Override
+      public int compare(Topic o1, Topic o2) {
+        return o2.getScore().compareTo(o1.getScore());
+      }
+    });
+    for (Topic topic : topics.values()){
+      computeMetrics(topic, 14);
+      scoredTopics.add(topic);
+    }
+
+    outputRankedTopic(topicRankPath,timeDis,scoredTopics);
 
     long elapsedTime = System.currentTimeMillis() - start;
     int min = (int) elapsedTime / (60 * 1000);
@@ -73,14 +74,17 @@ public class TopicAnalyzer {
       for (Integer docID : topic.getDocList()){
         Date time = docPubDate.get(docID);
 //        System.out.println(time);
-//        System.out.println(dates[1]);
-        if (time.compareTo(dates[0])<0){
+//        System.out.println(FilePreprocess.dates[1]);
+        if (time.compareTo(FilePreprocess.dates[0])<0){
           topic.addToTimeSlots(0);
         }else{
-          for (int i=1; i<dates.length; i++){
-            if (time.compareTo(dates[i])<0){
+          for (int i=1; i<FilePreprocess.dates.length; i++){
+            if (time.compareTo(FilePreprocess.dates[i])<0){
               topic.addToTimeSlots(i-1);
               break;
+            }
+            if (i==FilePreprocess.dates.length-1){
+              topic.addToTimeSlots(FilePreprocess.dates.length-2);
             }
           }
         }
@@ -137,32 +141,106 @@ public class TopicAnalyzer {
     System.out.println("Added top keys into topics.");
   }
 
-  public static void outputDis(String timeFile, String numFile) throws IOException {
+  public static void outputNumDis(String numFile) throws IOException {
     StringBuilder sb = new StringBuilder();
-
     int[] topicDocsCount = new int[topicNum];
 
     for (Topic topic : topics.values()){
       topicDocsCount[topic.getTopicID()] = topic.getDocList().size();
-      sb.append("{visible:false,name:'topic-").append(topic.getTopicID());
-      List<String> terms = topic.getTerms();
-      for (int i=0; i<5; i++){
-        sb.append(" ").append(terms.get(i));
-      }
-      sb.append("',data:[");
-      int[] timeSlots = topic.getTimeSlots();
-      for (int i=0; i<timeSlots.length; i++){
-        sb.append("[").append(i).append(",").append(timeSlots[i]).append("],");
-      }
-      sb.append("]},");
     }
-    WriteFile.WriteToFile(sb.toString(),timeFile, false);
-    System.out.println("Written result in data/news/"+timeFile+".");
-    sb.setLength(0);
+    minDocNum = Integer.MAX_VALUE;
+    maxDocNum = 0;
     for (int i=0; i<topicDocsCount.length; i++){
-      sb.append(topicDocsCount[i]).append(", ");
+      int docNum = topicDocsCount[i];
+      sb.append(docNum).append(", ");
+      if (docNum>maxDocNum){
+        maxDocNum = docNum;
+      }
+      if (docNum<minDocNum){
+        minDocNum = docNum;
+      }
     }
+    int sum = IntStream.of(topicDocsCount).sum();
+    avgDocNum = (double)sum/topicNum;
     WriteFile.WriteToFile(sb.substring(0,sb.length()-2),numFile, false);
     System.out.println("Written result in data/news/"+numFile+".");
+  }
+
+  public static void outputRankedTopic(String topicRankPath, String timeFile, Queue<Topic> scoredTopics){
+    StringBuilder timeSB = new StringBuilder();
+
+    StringBuilder rankSB = new StringBuilder();
+    while (!scoredTopics.isEmpty()){
+      Topic topic = scoredTopics.poll();
+      rankSB.append(topic.getTopicID()).append(":");
+      timeSB.append("{visible:false,name:'topic-").append(topic.getTopicID());
+      List<String> terms = topic.getTerms();
+      for (int i=0; i<5; i++){
+        rankSB.append(" ").append(terms.get(i));
+        timeSB.append(" ").append(terms.get(i));
+      }
+      rankSB.append('\t').append(topic.getScore()).append('\n');
+      timeSB.append("',data:[");
+      int[] timeSlots = topic.getTimeSlots();
+      for (int i=0; i<timeSlots.length; i++){
+        timeSB.append("[").append(i).append(",").append(timeSlots[i]).append("],");
+      }
+      timeSB.append("]},");
+    }
+    System.out.print(rankSB.toString());
+    WriteFile.WriteToFile(rankSB.toString(),topicRankPath,false);
+    System.out.println("Written result in data/news/"+topicRankPath+".");
+    WriteFile.WriteToFile(timeSB.toString(),timeFile, false);
+    System.out.println("Written result in data/news/"+timeFile+".");
+  }
+
+  public static String computeMetrics(Topic topic, int size){
+    StringBuilder sb = new StringBuilder();
+    sb.append(topic.getTopicID()).append(":");
+    List<String> terms = topic.getTerms();
+    for (int i=0; i<5; i++){
+      sb.append(" ").append(terms.get(i));
+    }
+    double maxZScore = 0.0;
+    double minZScore = 0.0;
+    int[] population = topic.getTimeSlots();
+    int sum = 0;
+    int max = 0;
+    int min = Integer.MAX_VALUE;
+    int maxInd = 1;
+    int minInd = 1;
+    int derivativeSum = 0;
+    int docNum = topic.getDocList().size();
+    for (int i=1; i<size+1; i++){
+      int value = population[population.length-i];
+      if (value>max){
+        max = value;
+        maxInd = i;
+      }
+      if (value<min){
+        min = value;
+        maxInd = i;
+      }
+      sum += value;
+      if (i!=size){
+        derivativeSum += value - population[population.length-i-1];
+      }
+    }
+    double average = (double)sum/size;
+    double inter = 0.0;
+    for (int c : population){
+      inter += Math.pow(c - average, 2);
+    }
+    double std = Math.sqrt(inter / size);
+    maxZScore = (max-average)/std/(Math.log(1.9+maxInd*.1)/Math.log(2))*1.1;
+    minZScore = (min-average)/std/(Math.log(1.95+minInd*.05)/Math.log(2))*0.9;
+    double norm = (double)(docNum-minDocNum)/(maxDocNum-minDocNum);
+    sb.append(" max=").append(max)
+            .append(", avg=").append(average)
+            .append(", STD=").append(std)
+            .append(", norm=").append(norm)
+            .append(", ZScoreDiff=").append(maxZScore+minZScore).append(", new:").append(norm*maxZScore);
+    topic.setScore(norm*maxZScore);
+    return sb.toString();
   }
 }
