@@ -110,6 +110,15 @@ public class SpellCorrectionEvaluator {
       testNGramWithDistance(spellChecker, testMap, 2);
       System.out.println("## System default");
       testNGramWithDistance(spellChecker, testMap, -1);
+      System.out.println("################################################");
+      System.out.println("# This is the NGram...");
+      System.out.println("################################################");
+      System.out.println("## Distance 1 - suggested list contains correct word");
+      testNGramWithDistanceContain(spellChecker, testMap, 1);
+      System.out.println("## Distance 2 - suggested list contains correct word");
+      testNGramWithDistanceContain(spellChecker, testMap, 2);
+      System.out.println("## System default - suggested list contains correct word");
+      testNGramWithDistanceContain(spellChecker, testMap, -1);
     }
     catch(Exception e){
       e.printStackTrace();
@@ -307,6 +316,27 @@ public class SpellCorrectionEvaluator {
       ArrayList<String> correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
       if (correctWord != null && correctWord.size() > 0) {
         if (testMap.get(misspellWord).equals(correctWord.get(0))) {
+          correctCount++;
+        }
+      } else {
+        notFoundCount++;
+      }
+    }
+
+    // Output
+    testNGramOutput(correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
+  }
+
+  private static void testNGramWithDistanceContain(NGramSpellChecker spellChecker, Map<String, String> testMap, int expectedDistance) {
+    int correctCount = 0;
+    int notFoundCount = 0;
+    int totalCount = testMap.size();
+    double startTimeStamp = System.currentTimeMillis();
+
+    for (String misspellWord : testMap.keySet()) {
+      ArrayList<String> correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
+      if (correctWord != null && correctWord.size() > 0) {
+        if (correctWord.contains(testMap.get(misspellWord))) {
           correctCount++;
         }
       } else {
