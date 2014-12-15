@@ -1,7 +1,7 @@
 package edu.nyu.cs.cs2580.rankers;
 
-import edu.nyu.cs.cs2580.Index.Indexer;
-import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
+import edu.nyu.cs.cs2580.index.Indexer;
+import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.document.Document;
 import edu.nyu.cs.cs2580.document.DocumentNews;
