@@ -204,7 +204,6 @@ public class QueryHandler extends BaseHandler {
     Vector<ScoredDocument> scoredDocs = new Vector<>();
     //Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
     SpellCheckResult spellCheck = ranker.spellCheck(processedQuery);
-    int i = 0;
 
     switch (cgiArgs._outputFormat) {
       case TEXT: {

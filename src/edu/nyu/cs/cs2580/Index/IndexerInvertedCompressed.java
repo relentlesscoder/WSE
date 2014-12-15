@@ -10,6 +10,8 @@ import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.Util;
 import edu.nyu.cs.cs2580.utils.VByteUtil;
@@ -66,16 +68,16 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
   private SearchEngine.CORPUS_TYPE corpusType;
 
-  private NGramSpellChecker spellChecker;
-
   private String CORPUS_INDEX;
   private String DOCUMENTS;
   private String META;
 
+  private static final String SPELL = "spell";
+
   private long totalTermFrequency = 0;
   private long totalNumViews = 0;
 
-  private static final  String SPELL_CHECK_INDEX = "spell_check";
+  private NGramSpellChecker nGramSpellChecker;
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -218,7 +220,8 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     startTimeStamp = System.currentTimeMillis();
     System.out.println("Start spell check indexing...");
 
-    spellChecker = new NGramSpellChecker(spellIndexFolder, dictionary);
+    DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
+    NGramSpellChecker spellChecker = new NGramSpellChecker(dictionary, getTermFrequency(), distanceAlgo, null);
     spellChecker.buildIndex();
 
     duration = System.currentTimeMillis() - startTimeStamp;
@@ -284,6 +287,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     writer.writeObject(this);
     writer.close();
 
+    String spellIndexFile = _options._indexSpell + "/" + SPELL + IndexerConstant.EXTENSION_IDX;
+    System.out.println("Storing spell inverted index to: " + _options._indexSpell);
+    ObjectOutputStream spellWriter = new ObjectOutputStream(new BufferedOutputStream(new
+            FileOutputStream(spellIndexFile)));
+
+    spellWriter.writeObject(spellChecker);
+    spellWriter.close();
+
     duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Complete serializing...");
     System.out.println("Serialization time: " + Util.convertMillis(duration));
@@ -326,10 +337,12 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
         this.dictionary = loaded.dictionary;
 
-        this.spellChecker = loaded.spellChecker;
         reader.close();
       }
     }
+
+    String spellIndexFile = _options._indexSpell + "/" + SPELL + IndexerConstant.EXTENSION_IDX;
+    this.nGramSpellChecker = NGramSpellChecker.loadIndex(spellIndexFile);
 
     System.out.println(Integer.toString(_numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
@@ -392,10 +405,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     } else {
       return documents.get(minDocid);
     }
-  }
-
-  public SpellCheckResult getSpellCheckResults(Query query){
-    return spellChecker.getSpellCheckResults(query);
   }
 
   /**
@@ -489,7 +498,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           .get(startOffsetOfSkipPointers + 1);
     }
     return scanPostingListForDocid(termId, docid, prevDocid,
-        startOffsetOfPostingList);
+            startOffsetOfPostingList);
   }
 
   /**
@@ -730,7 +739,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private int getDocidOffset(int termId, int docid) {
     List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
-        .get(termId));
+            .get(termId));
     int startOffsetOfPostingList = 0;
     int prevDocid = 0;
 
@@ -1303,5 +1312,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     return res;
+  }
+
+  public SpellCheckResult getSpellCheckResults(Query query){
+    return nGramSpellChecker.getSpellCheckResults(query);
   }
 }

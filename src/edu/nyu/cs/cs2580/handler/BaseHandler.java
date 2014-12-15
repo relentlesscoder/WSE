@@ -7,7 +7,7 @@ import edu.nyu.cs.cs2580.*;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTree;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
-import edu.nyu.cs.cs2580.Index.IndexerInvertedCompressed;
+import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.query.Query;

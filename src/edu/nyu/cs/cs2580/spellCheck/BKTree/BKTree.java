@@ -185,7 +185,7 @@ public class BKTree<E> {
    * dictionary though...
    */
   public boolean hasExist(E elem) {
-    Optional<Node> node = Optional.of(root);
+    Optional<Node<E>> node = Optional.of(root);
     while (node.isPresent()) {
       if (node.get().getElement().equals(elem)) {
         return true;

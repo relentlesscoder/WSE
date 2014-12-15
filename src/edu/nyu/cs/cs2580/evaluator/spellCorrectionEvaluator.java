@@ -6,6 +6,8 @@ import com.google.common.collect.HashBiMap;
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.io.Files;
+import edu.nyu.cs.cs2580.ngram.NGramSpellChecker;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTree;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
@@ -38,6 +40,8 @@ public class SpellCorrectionEvaluator {
   static Multiset<String> termFrequency = HashMultiset.create();
   // The misspell data set...
   static MisspellDataSet misspellDataSet = new MisspellDataSet();
+
+  static HashMap<String, Integer> termFrequencyForNGram = new HashMap<>();
 
   public static void main(String[] args) throws IOException {
     // Test corpus file
@@ -75,6 +79,41 @@ public class SpellCorrectionEvaluator {
     /*********************************************************************************
      * This is the end test for BKTree & Damerau Levenshitein
      *********************************************************************************/
+
+    /*********************************************************************************
+     * This is the start test for NGram & Damerau Levenshitein
+     *********************************************************************************/
+
+    System.out.println("                   Test set 1");
+    testNGram(test1Map);
+    System.out.println("------------------------------------------------");
+    System.out.println("                   Test set 2");
+    testNGram(test2Map);
+
+    /*********************************************************************************
+     * This is the end test for NGram & Damerau Levenshitein
+     *********************************************************************************/
+  }
+
+  private static void testNGram(Map<String, String> testMap){
+    try
+    {
+      DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
+      NGramSpellChecker spellChecker = new NGramSpellChecker(dictionary, termFrequencyForNGram, distanceAlgo, misspellDataSet);
+      spellChecker.buildIndex();
+      System.out.println("################################################");
+      System.out.println("# This is the NGram...");
+      System.out.println("################################################");
+      System.out.println("## Distance 1");
+      testNGramWithDistance(spellChecker, testMap, 1);
+      System.out.println("## Distance 2");
+      testNGramWithDistance(spellChecker, testMap, 2);
+      System.out.println("## System default");
+      testNGramWithDistance(spellChecker, testMap, -1);
+    }
+    catch(Exception e){
+      e.printStackTrace();
+    }
   }
 
   /**
@@ -242,6 +281,13 @@ public class SpellCorrectionEvaluator {
     String term = sb.toString().toLowerCase();
     // Update the term frequency
     termFrequency.add(term);
+    // Update the term frequency for NGram
+    if(termFrequencyForNGram.containsKey(term)){
+      termFrequencyForNGram.put(term, termFrequencyForNGram.get(term) + 1);
+    }
+    else{
+      termFrequencyForNGram.put(term, 1);
+    }
     // Update the dictionary
     if (!dictionary.containsKey(term)) {
       int termId = dictionary.size();
@@ -249,5 +295,41 @@ public class SpellCorrectionEvaluator {
     }
     // Clean the string builder
     sb.setLength(0);
+  }
+
+  private static void testNGramWithDistance(NGramSpellChecker spellChecker, Map<String, String> testMap, int expectedDistance) {
+    int correctCount = 0;
+    int notFoundCount = 0;
+    int totalCount = testMap.size();
+    double startTimeStamp = System.currentTimeMillis();
+
+    for (String misspellWord : testMap.keySet()) {
+      ArrayList<String> correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
+      if (correctWord != null && correctWord.size() > 0) {
+        if (testMap.get(misspellWord).equals(correctWord.get(0))) {
+          correctCount++;
+        }
+      } else {
+        notFoundCount++;
+      }
+    }
+
+    // Output
+    testNGramOutput(correctCount, notFoundCount, totalCount, System.currentTimeMillis() - startTimeStamp);
+  }
+
+  // Output the correct rate and not found rate...
+  private static void testNGramOutput(double correctCount, double notFoundCount, double totalCount, double duration) {
+    double correctPercentage = (double) correctCount / (double) totalCount;
+    double notFoundPercentage = (double) notFoundCount / (double) totalCount;
+    double termPerSecond = totalCount / (duration / 1000);
+
+    String correctPercentageStr = String.format("#### Correct rate is %,.3f.", correctPercentage);
+    String notFoundPercentageStr = String.format("#### Not found rate is %,.3f.", notFoundPercentage);
+    String termPerSecondStr = String.format("#### Process %,.3f. terms per second.", termPerSecond);
+
+    System.out.println(correctPercentageStr);
+    System.out.println(notFoundPercentageStr);
+    System.out.println(termPerSecondStr);
   }
 }
