@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.Vector;
 
 public abstract class BaseHandler implements HttpHandler {
-  // Common misspell data corpora file
+  // Common misspell data corpora file, reference: http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
   private static final File ASPELL_FILE = new File("data/spellCheckTestData/aspell.dat");
   private static final File MISSP_FILE = new File("data/spellCheckTestData/missp.dat");
   private static final File WIKIPEDIA_FILE = new File("data/spellCheckTestData/wikipedia.dat");

@@ -366,6 +366,7 @@ public class BKTree<E> {
 
   /**
    * Sort the possible elements..
+   * Normalization reference: http://stn.spotfire.com/spotfire_client_help/norm/norm_scale_between_0_and_1.htm
    */
   private List<E> sortPossibleElements(List<E> possibleElementsForDistance, E elem) {
     List<String> correctWordsData = misspellDataSet.getCorrectWords(elem.toString());
