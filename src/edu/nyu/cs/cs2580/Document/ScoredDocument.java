@@ -38,8 +38,13 @@ public class ScoredDocument implements Comparable<ScoredDocument> {
 
 	@Override
 	public int compareTo(ScoredDocument o) {
-		if (this._score == o._score) {
-			return 0;
+		double scoreRatio = (double) this._score / (double) o._score;
+		if (scoreRatio >= 0.8 && scoreRatio <= 1.2) {
+			double pageRankRatio = this._pageRank / o._pageRank;
+			if (pageRankRatio >= 0.8 && pageRankRatio <= 1.2) {
+				return this._numView - o._numView;
+			}
+			return (this._pageRank > o._pageRank) ? 1 : -1;
 		}
 		return (this._score > o._score) ? 1 : -1;
 	}

@@ -26,13 +26,13 @@ public abstract class BaseHandler implements HttpHandler {
   protected NGramSpellChecker nGramSpellChecker;
 
   // Common misspell data corpora file, reference: http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
-  private static final File ASPELL_FILE = new File("spellCheckTestData/aspell.dat");
-  private static final File MISSP_FILE = new File("spellCheckTestData/missp.dat");
-  private static final File WIKIPEDIA_FILE = new File("spellCheckTestData/wikipedia.dat");
+  protected static final File ASPELL_FILE = new File("spellCheckTestData/aspell.dat");
+  protected static final File MISSP_FILE = new File("spellCheckTestData/missp.dat");
+  protected static final File WIKIPEDIA_FILE = new File("spellCheckTestData/wikipedia.dat");
 
   private static final File DICTIONARY_FILE = new File("spellCheckTestData/words");
 
-  private MisspellDataSet _misspellDataSet;
+//  protected MisspellDataSet _misspellDataSet;
 
   // For accessing the underlying documents to be used by the Ranker. Since
   // we are not worried about thread-safety here, the Indexer class must take

@@ -6,6 +6,7 @@ import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.ProgressBar;
@@ -126,14 +127,20 @@ public class NGramSpellChecker implements SpellChecker, Serializable {
     }
   }
 
-  public static NGramSpellChecker loadIndex(String indexFile) {
+  public void loadIndex(String indexFile) {
     System.out.println("Load index from: " + indexFile);
-    NGramSpellChecker spellChecker = null;
+    NGramSpellChecker load = null;
     ObjectInputStream reader = null;
 
     try {
       reader = new ObjectInputStream(new BufferedInputStream(new FileInputStream(indexFile)));
-      spellChecker = (NGramSpellChecker) reader.readObject();
+      load = (NGramSpellChecker) reader.readObject();
+      this._dictionary = load._dictionary;
+      this._termFrequency = load._termFrequency;
+      this._totalTermFrequency = load._totalTermFrequency;
+      this._ngramDictionary = load._ngramDictionary;
+      this._invertedIndex = load._invertedIndex;
+      this._distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
     } catch (Exception e) {
       e.printStackTrace();
     } finally {
@@ -145,8 +152,6 @@ public class NGramSpellChecker implements SpellChecker, Serializable {
         }
       }
     }
-
-    return spellChecker;
   }
 
   private void addToInvertedIndex(String ngram, int termId) {

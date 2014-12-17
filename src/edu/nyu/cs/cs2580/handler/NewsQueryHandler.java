@@ -239,7 +239,7 @@ public class NewsQueryHandler extends BaseHandler {
     }
 
     CorrectedQuery correctedQuery = null;
-    switch (cgiArgs.spellCheckerType) {
+    switch (cgiArgs._spellCheckerType) {
       case NGRAM:
         correctedQuery = nGramSpellChecker.getCorrectedQuery(processedQuery);
         break;
