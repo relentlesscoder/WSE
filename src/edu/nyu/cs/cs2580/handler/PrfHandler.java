@@ -89,7 +89,7 @@ public class PrfHandler extends BaseHandler {
       responseBody.close();
     }
 
-    if (!uriPath.equals("/prf")) {
+    if (!uriPath.equals("/prf") && !uriPath.equals("/prf/news")) {
       message = "Only /prf is handled!";
       Headers responseHeaders = exchange.getResponseHeaders();
       responseHeaders.set("Content-Type", "text/plain");

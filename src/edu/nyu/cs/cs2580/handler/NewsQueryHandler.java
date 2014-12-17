@@ -71,13 +71,13 @@ public class NewsQueryHandler extends BaseHandler {
 
   class NewsSearchResponse {
 
-    @SerializedName("QueryText")
+    @SerializedName("queryText")
     private String _queryText;
 
-    @SerializedName("Results")
+    @SerializedName("results")
     private ArrayList<NewsSearchResult> _results;
 
-    @SerializedName("Status")
+    @SerializedName("status")
     private SearchStatus _status;
 
     public NewsSearchResponse(String queryText, ArrayList<NewsSearchResult> results, SearchStatus status){

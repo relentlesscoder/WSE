@@ -310,6 +310,7 @@ public class SearchEngine {
     QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, webPageIndexer, bkTreespellChecker, ngramSpellChecker, SPELL_MODE);
     PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, webPageIndexer);
     NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer, bkTreespellChecker, newsNGramSpellChecker, SPELL_MODE);
+    PrfHandler newsPrfHandler = new PrfHandler(SearchEngine.OPTIONS, newsIndexer);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
 
     // Establish the serving environment
@@ -318,6 +319,7 @@ public class SearchEngine {
     server.createContext("/search", queryHandler);
     server.createContext("/search/news", newsQueryHandler);
     server.createContext("/prf", prfHandler);
+    server.createContext("/prf/news", newsPrfHandler);
     server.createContext("/", htmlHandler);
     server.setExecutor(Executors.newCachedThreadPool());
     server.start();
