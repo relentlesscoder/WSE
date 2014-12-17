@@ -123,7 +123,7 @@ public class TopicsHandler extends BaseHandler {
     BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("data/news/topic/topicRank.txt"))));
     String line;
     int topicNum = 5;
-    while ((line = br.readLine()) != null && topicNum>=0) {
+    while ((line = br.readLine()) != null && topicNum>0) {
       String[] str = line.split("\t");
       String query = str[1].trim();
       Vector<ScoredDocument> scoredDocuments = topicTopDocs(ranker,query, cgiArgs);
@@ -157,8 +157,20 @@ public class TopicsHandler extends BaseHandler {
     responseBody.close();
   }
 
-  private Vector<ScoredDocument> topicTopDocs(Ranker ranker, String query, CgiArguments cgiArgs){
+  private Vector<ScoredDocument> topicTopDocs(Ranker ranker, String queryFull, CgiArguments cgiArgs){
     // Processing the query.
+    String[] str = queryFull.split(" ");
+    StringBuilder sb = new StringBuilder();
+    sb.append(str[0]).append(" ");
+    if (str.equals("percent")){
+      sb.append(str[1]).append(" ");
+    }else {
+      sb.append(str[3]).append(" ");
+    }
+    sb.append(str[2]);
+
+
+    String query = sb.toString().trim();
     Query processedQuery;
     if (query.matches(".*(\".+\").*")) {
       processedQuery = new QueryPhrase(query, true);
