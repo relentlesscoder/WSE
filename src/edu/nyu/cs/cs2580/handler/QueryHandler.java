@@ -66,7 +66,7 @@ public class QueryHandler extends BaseHandler {
     return template.replace(PLACE_HOLDER, output.toString());
   }
 
-  private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments) {
+  private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments, SpellCheckResult spellCheckResult) {
 
     ArrayList<SearchResult> results = new ArrayList<SearchResult>();
     SearchResult result;
@@ -77,7 +77,7 @@ public class QueryHandler extends BaseHandler {
     }
     //TODO: add error handling status
     SearchStatus status = new SearchStatus(STATUS_SUCCESS, STATUS_SUCCESS_MSG);
-    SearchResponse searchResponse = new SearchResponse(queryText, results, status);
+    SearchResponse searchResponse = new SearchResponse(queryText, results, status, spellCheckResult);
     Gson gson = new Gson();
     String response = gson.toJson(searchResponse);
 
@@ -201,8 +201,7 @@ public class QueryHandler extends BaseHandler {
     }
 
     // Ranking.
-    Vector<ScoredDocument> scoredDocs = new Vector<>();
-    //Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
+    Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
     SpellCheckResult spellCheck = ranker.spellCheck(processedQuery);
 
     switch (cgiArgs._outputFormat) {
@@ -233,7 +232,7 @@ public class QueryHandler extends BaseHandler {
         break;
       }
       case JSON: {
-        String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs);
+        String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs, spellCheck);
         Headers responseHeaders = exchange.getResponseHeaders();
         responseHeaders.set("Server", "Java JSON API");
         responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");

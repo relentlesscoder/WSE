@@ -3,10 +3,12 @@ package edu.nyu.cs.cs2580.ngram;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
 import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.ProgressBar;
+import edu.nyu.cs.cs2580.utils.StringUtil;
 import edu.nyu.cs.cs2580.utils.Util;
 
 import java.io.*;
@@ -28,18 +30,30 @@ public class NGramSpellChecker implements Serializable {
 
   private Map<String, Integer> _termFrequency;
 
-  private DistanceAlgo _distanceAlgo;
+  private DistanceAlgo _distanceAlgo = null;
 
   private MisspellDataSet _misspellDataSet;
 
+  private long _totalTermFrequency;
+
   public NGramSpellChecker(BiMap<String, Integer> dictionary, Map<String, Integer> termFrequency,
-                           DistanceAlgo distanceAlgo, MisspellDataSet misspellDataSet){
+                            DistanceAlgo distanceAlgo, MisspellDataSet misspellDataSet){
     _invertedIndex = new HashMap<>();
     _ngramDictionary = HashBiMap.create();
     _dictionary = dictionary;
     _termFrequency = termFrequency;
     _distanceAlgo = distanceAlgo;
     _misspellDataSet = misspellDataSet;
+  }
+
+  public NGramSpellChecker(BiMap<String, Integer> dictionary, Map<String, Integer> termFrequency,
+                           long totalTermFrequency){
+    _invertedIndex = new HashMap<>();
+    _ngramDictionary = HashBiMap.create();
+    _dictionary = dictionary;
+    _termFrequency = termFrequency;
+    _misspellDataSet = null;
+    _totalTermFrequency = totalTermFrequency;
   }
 
   public void buildIndex(){
@@ -92,22 +106,31 @@ public class NGramSpellChecker implements Serializable {
   }
 
   public SpellCheckResult getSpellCheckResults(Query query){
-    HashMap<String, ArrayList<String>> results = new HashMap<>();
+
+    ArrayList<SpellCheckCorrection> results = new ArrayList<>();
 
     for(String term : query._tokens){
-      results.put(term, getSuggestion(term, -1));
+      String spellCorrection = getSuggestion(term, -1);
+      boolean isCorrect = (spellCorrection.equals(term));
+      results.add(new SpellCheckCorrection(isCorrect, spellCorrection));
     }
 
     return new SpellCheckResult(results);
   }
 
-  public ArrayList<String> getSuggestion(String term, int distance){
+  public String getSuggestion(String term, int distance){
+    if(_dictionary.containsKey(term)){
+      return term;
+    }
+
     ArrayList<String> _suggestions = new ArrayList<>();
 
     if(_invertedIndex == null || _invertedIndex.size() <= 0){
       return null;
     }
     else{
+      int threhold = getSimilarityThrehold(term.length(), distance);
+
       int length = term.length();
       ArrayList<String> termGrams = Tokenizer.nGramFilters(term, getMin(length), getMax(length));
       if(termGrams != null && termGrams.size() > 0){
@@ -119,11 +142,15 @@ public class NGramSpellChecker implements Serializable {
             postingList = _invertedIndex.get(gramId);
             if(postingList != null && postingList.size() > 0){
               for(Integer termId : postingList){
-                if(candidateTerms.containsKey(termId)){
-                  candidateTerms.put(termId, candidateTerms.get(termId) + 1);
-                }
-                else{
-                  candidateTerms.put(termId, 1);
+                String termToAdd = _dictionary.inverse().get(termId);
+                int lengthDiff = termToAdd.length() < term.length() ? term.length() - termToAdd.length() : termToAdd.length() - term.length();
+                if(lengthDiff <= threhold){
+                  if(candidateTerms.containsKey(termId)){
+                    candidateTerms.put(termId, candidateTerms.get(termId) + 1);
+                  }
+                  else{
+                    candidateTerms.put(termId, 1);
+                  }
                 }
               }
             }
@@ -131,24 +158,23 @@ public class NGramSpellChecker implements Serializable {
         }
 
         LinkedHashMap<Integer, Integer> sortedMap = Util.sortHashMapByValues(candidateTerms, true);
-        Map<String, Integer> candidateDistances = new HashMap<>();
+        Map<String, Double> candidateDistances = new HashMap<>();
 
         Set entrySet = sortedMap.entrySet();
         Iterator it = entrySet.iterator();
 
         int suggestCount = SUGGEST_COUNT;
 
-        int threhold = getSimilarityThrehold(term.length(), distance);
         String candidateTerm;
         int loopCount = 0;
         while (it.hasNext()){
           Map.Entry pairs = (Map.Entry)it.next();
           int termId = (Integer)pairs.getKey();
           candidateTerm = _dictionary.inverse().get(termId);
-          int stringDistance = _distanceAlgo.getDistance(term, candidateTerm);
+          int stringDistance = StringUtil.getLevenshteinDistance(term, candidateTerm);
           if(stringDistance <= threhold){
             if(!candidateTerm.equals(term)){
-              candidateDistances.put(candidateTerm, stringDistance);
+              candidateDistances.put(candidateTerm, (double)stringDistance);
             }
             else{
               _suggestions.add(candidateTerm);
@@ -159,26 +185,33 @@ public class NGramSpellChecker implements Serializable {
         }
 
         //TODO: use term frequency to boost results, need to be optimized
-        LinkedHashMap<String, Integer> sortedCandidate = Util.sortHashMapByValues(candidateDistances, true);
+        LinkedHashMap<String, Double> sortedCandidate = Util.sortHashMapByValues(candidateDistances, true);
         String suggestTerm;
         loopCount =0;
-/*        candidateDistances.clear();
-        entrySet = sortedCandidate.entrySet();
-        it = entrySet.iterator();
-        int editDistance;
-        while (loopCount < suggestCount && it.hasNext()){
-          Map.Entry pairs = (Map.Entry)it.next();
-          suggestTerm = (String)pairs.getKey();
-          editDistance = (Integer)pairs.getValue();
-          int termFrequency = 1;
-          if(_termFrequency.containsKey(suggestTerm)){
-            termFrequency = _termFrequency.get(suggestTerm);
-          }
-          editDistance = editDistance * termFrequency;
-          candidateDistances.put(suggestTerm, editDistance);
-          loopCount++;
-        }*/
 
+        boolean useTermFrequency = (_misspellDataSet == null && _totalTermFrequency != 0);
+
+        if(useTermFrequency){
+          candidateDistances.clear();
+          entrySet = sortedCandidate.entrySet();
+          it = entrySet.iterator();
+          Double editDistance;
+          double score;
+          while (loopCount < suggestCount && it.hasNext()){
+            Map.Entry pairs = (Map.Entry)it.next();
+            suggestTerm = (String)pairs.getKey();
+            editDistance = (Double)pairs.getValue();
+            int termFrequency = 1;
+            if(_termFrequency.containsKey(suggestTerm)){
+              termFrequency = _termFrequency.get(suggestTerm);
+            }
+            score = editDistance * ((double)termFrequency/(double)_totalTermFrequency);
+            candidateDistances.put(suggestTerm, score);
+            loopCount++;
+          }
+        }
+
+        loopCount = 0;
         sortedCandidate.clear();
         sortedCandidate = Util.sortHashMapByValues(candidateDistances, true);
         entrySet = sortedCandidate.entrySet();
@@ -190,18 +223,24 @@ public class NGramSpellChecker implements Serializable {
           loopCount++;
         }
 
-        _suggestions = sortPossibleElements(_suggestions, term);
+        if(!useTermFrequency){
+          _suggestions = sortPossibleElementsByMissSpellSet(_suggestions, term);
+        }
+
+        if(_suggestions.size() > 0){
+          return  _suggestions.get(0);
+        }
       }
     }
 
-    return _suggestions;
+    return "";
   }
 
   /**
    * Sort the possible elements..
    * Normalization reference: http://stn.spotfire.com/spotfire_client_help/norm/norm_scale_between_0_and_1.htm
    */
-  private ArrayList<String> sortPossibleElements(List<String> possibleElementsForDistance, String elem) {
+  private ArrayList<String> sortPossibleElementsByMissSpellSet(List<String> possibleElementsForDistance, String elem) {
     List<String> correctWordsData = _misspellDataSet.getCorrectWords(elem.toString());
     ArrayList<String> res = new ArrayList<String>();
 

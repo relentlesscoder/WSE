@@ -6,19 +6,19 @@ import com.google.gson.annotations.SerializedName;
  * Created by wei shuai on 12/1/2014.
  */
 public class SearchResult {
-    @SerializedName("Title")
+    @SerializedName("title")
     private String _title;
 
-    @SerializedName("Url")
+    @SerializedName("url")
     private String _url;
 
-    @SerializedName("Score")
+    @SerializedName("score")
     private double _score;
 
-    @SerializedName("PageRank")
+    @SerializedName("pageRank")
     private double _pageRank;
 
-    @SerializedName("NumViews")
+    @SerializedName("numViews")
     private int _numView;
 
     public SearchResult(String title, String url, double score, double pageRank, int numViews){

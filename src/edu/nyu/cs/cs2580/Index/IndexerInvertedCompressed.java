@@ -220,8 +220,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     startTimeStamp = System.currentTimeMillis();
     System.out.println("Start spell check indexing...");
 
-    DistanceAlgo<String> distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
-    NGramSpellChecker spellChecker = new NGramSpellChecker(dictionary, getTermFrequency(), distanceAlgo, null);
+    NGramSpellChecker spellChecker = new NGramSpellChecker(dictionary, getTermFrequency(), totalTermFrequency);
     spellChecker.buildIndex();
 
     duration = System.currentTimeMillis() - startTimeStamp;
@@ -454,27 +453,32 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * document ID exists.
    */
   private int nextDocid(String term, int docid) {
-    int termId = dictionary.get(term);
-    List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
-        .get(termId));
+    if(dictionary.containsKey(term)){
+      int termId = dictionary.get(term);
+      List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
+              .get(termId));
 
-    int startOffsetOfPostingList = 0;
-    int prevDocid = 0;
+      int startOffsetOfPostingList = 0;
+      int prevDocid = 0;
 
-    if (docid >= 0) {
-      // Get the start offset of the skip pointers...
-      int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(
-          partialSkipPointers, docid + 1);
-      if (startOffsetOfSkipPointers >= 0) {
-        // Skip...
-        prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
-        startOffsetOfPostingList = partialSkipPointers
-            .get(startOffsetOfSkipPointers + 1);
+      if (docid >= 0) {
+        // Get the start offset of the skip pointers...
+        int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(
+                partialSkipPointers, docid + 1);
+        if (startOffsetOfSkipPointers >= 0) {
+          // Skip...
+          prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
+          startOffsetOfPostingList = partialSkipPointers
+                  .get(startOffsetOfSkipPointers + 1);
+        }
       }
-    }
 
-    return scanPostingListForNextDocid(term, docid, prevDocid,
-        startOffsetOfPostingList);
+      return scanPostingListForNextDocid(term, docid, prevDocid,
+              startOffsetOfPostingList);
+    }
+    else{
+      return -1;
+    }
   }
 
   /**
@@ -1188,9 +1192,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     for (String term : query) {
-      int termId = dictionary.get(term);
-      if (!invertedIndex.containsKey(termId)) {
-        hasAlready = false;
+      if(dictionary.containsKey(term)){
+        int termId = dictionary.get(term);
+        if (!invertedIndex.containsKey(termId)) {
+          hasAlready = false;
+        }
       }
     }
 

@@ -313,11 +313,9 @@ public class SpellCorrectionEvaluator {
     double startTimeStamp = System.currentTimeMillis();
 
     for (String misspellWord : testMap.keySet()) {
-      ArrayList<String> correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
-      if (correctWord != null && correctWord.size() > 0) {
-        if (testMap.get(misspellWord).equals(correctWord.get(0))) {
-          correctCount++;
-        }
+      String correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
+      if (correctWord.equals(testMap.get(misspellWord))) {
+        correctCount++;
       } else {
         notFoundCount++;
       }
@@ -334,11 +332,9 @@ public class SpellCorrectionEvaluator {
     double startTimeStamp = System.currentTimeMillis();
 
     for (String misspellWord : testMap.keySet()) {
-      ArrayList<String> correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
-      if (correctWord != null && correctWord.size() > 0) {
-        if (correctWord.contains(testMap.get(misspellWord))) {
-          correctCount++;
-        }
+      String correctWord = spellChecker.getSuggestion(misspellWord, expectedDistance);
+      if (correctWord.equals(testMap.get(misspellWord))) {
+        correctCount++;
       } else {
         notFoundCount++;
       }
