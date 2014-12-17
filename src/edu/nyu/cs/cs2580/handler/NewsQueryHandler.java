@@ -33,35 +33,6 @@ import java.util.Vector;
  */
 public class NewsQueryHandler extends BaseHandler {
 
-  class NewsSearchResult{
-    @SerializedName("title")
-    private String _title;
-
-    @SerializedName("url")
-    private String _url;
-
-    @SerializedName("score")
-    private double _score;
-
-    @SerializedName("pubDate")
-    private long _time;
-
-    @SerializedName("source")
-    private String _source;
-
-    @SerializedName("description")
-    private String _description;
-
-    public NewsSearchResult(String title, String url, double score, long time, String source, String description){
-      _title = title;
-      _url = url;
-      _score = score;
-      _time = time;
-      _source = source;
-      _description = description;
-    }
-  }
-
   class NewsSearchResponse {
 
     @SerializedName("queryText")

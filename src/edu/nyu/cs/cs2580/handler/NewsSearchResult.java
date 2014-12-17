@@ -5,19 +5,31 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by wei shuai on 12/1/2014.
  */
-public class NewsSearchResult {
-  @SerializedName("Title")
+public class NewsSearchResult{
+  @SerializedName("title")
   private String _title;
 
-  @SerializedName("Url")
+  @SerializedName("url")
   private String _url;
 
-  @SerializedName("Score")
+  @SerializedName("score")
   private double _score;
 
-  public NewsSearchResult(String title, String url, double score){
+  @SerializedName("pubDate")
+  private long _time;
+
+  @SerializedName("source")
+  private String _source;
+
+  @SerializedName("description")
+  private String _description;
+
+  public NewsSearchResult(String title, String url, double score, long time, String source, String description){
     _title = title;
     _url = url;
     _score = score;
+    _time = time;
+    _source = source;
+    _description = description;
   }
 }
