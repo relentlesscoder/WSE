@@ -6,11 +6,14 @@ import com.google.common.io.Files;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MisspellDataSet {
+public class MisspellDataSet implements Serializable {
+  private static final long serialVersionUID = 1L;
+
   // Key: misspell word
   // Value: a list of correct word
   private ListMultimap<String, String> misspellMap;
@@ -55,5 +58,9 @@ public class MisspellDataSet {
     } else {
       return new ArrayList<String>();
     }
+  }
+
+  public boolean isEmpty() {
+    return misspellMap.isEmpty();
   }
 }

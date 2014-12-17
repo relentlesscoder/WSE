@@ -3,15 +3,16 @@ package edu.nyu.cs.cs2580.handler;
 import com.google.gson.Gson;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import edu.nyu.cs.cs2580.*;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTree;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
-import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
+import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
+import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
+import edu.nyu.cs.cs2580.spellCheck.BKTreeSpellChecker;
 import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
+import edu.nyu.cs.cs2580.spellCheck.NGramSpellChecker;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -21,6 +22,9 @@ import java.util.ArrayList;
 import java.util.Vector;
 
 public abstract class BaseHandler implements HttpHandler {
+  protected BKTreeSpellChecker bkTreeSpellChecker;
+  protected NGramSpellChecker nGramSpellChecker;
+
   // Common misspell data corpora file, reference: http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
   private static final File ASPELL_FILE = new File("spellCheckTestData/aspell.dat");
   private static final File MISSP_FILE = new File("spellCheckTestData/missp.dat");
@@ -41,8 +45,8 @@ public abstract class BaseHandler implements HttpHandler {
   protected static final String STATUS_SUCCESS_MSG = "SUCCESS";
 
   // For spell check
-  DistanceAlgo<String> _distanceAlgo;
-  protected BKTree<String> _bkTree;
+//  DistanceAlgo<String> _distanceAlgo;
+//  protected BKTree<String> _bkTree;
 
   // Constructor
   public BaseHandler(SearchEngine.Options options, Indexer indexer) throws IOException {
@@ -50,15 +54,7 @@ public abstract class BaseHandler implements HttpHandler {
     _indexer = (IndexerInvertedCompressed) indexer;
     _options = options;
 
-    _distanceAlgo = new DamerauLevenshteinAlgorithm<String>();
-    _bkTree = new BKTree<String>(_distanceAlgo, _indexer.getTermFrequency());
-    _bkTree.addDictionary(DICTIONARY_FILE);
-//    _bkTree.addAll(_indexer.getDictionaryTerms());
-    _misspellDataSet = new MisspellDataSet();
-    _misspellDataSet.addData(ASPELL_FILE);
-    _misspellDataSet.addData(MISSP_FILE);
-    _misspellDataSet.addData(WIKIPEDIA_FILE);
-    _bkTree.addMisspellDataSet(_misspellDataSet);
+    bkTreeSpellChecker = new BKTreeSpellChecker(new DamerauLevenshteinAlgorithm<String>(), _indexer.getTermFrequency());
   }
 
   // Construct plain text response

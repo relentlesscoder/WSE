@@ -173,7 +173,7 @@ public class PrfHandler extends BaseHandler {
         prevQueryTerm += " ";
       }
 
-      possibleCorrection.addAll(_bkTree.getPossibleElementsForDistanceWithOrder(lastQueryTerm, cgiArgs._numTerms));
+      possibleCorrection.addAll(bkTreeSpellChecker.getMostPossibleCorrectWord(lastQueryTerm, cgiArgs._numTerms));
 
       for (int i = 0; i < possibleCorrection.size(); i++) {
         possibleQuery.add(prevQueryTerm + possibleCorrection.get(i));

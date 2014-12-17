@@ -8,7 +8,6 @@ import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 import edu.nyu.cs.cs2580.preprocess.FilePreprocess;
 import edu.nyu.cs.cs2580.query.Query;
 
@@ -57,11 +56,6 @@ public class NewsRanker extends Ranker{
     Collections.sort(results, Collections.reverseOrder());
 
     return results;
-  }
-
-  @Override
-  public SpellCheckResult spellCheck(Query query) {
-    return null;
   }
 
   public ScoredDocument scoreDocument(Query query, int docId) {

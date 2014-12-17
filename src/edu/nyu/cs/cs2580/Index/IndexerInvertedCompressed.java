@@ -7,10 +7,9 @@ import com.google.common.primitives.Bytes;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.document.Document;
-import edu.nyu.cs.cs2580.ngram.NGramSpellChecker;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.spellCheck.NGramSpellChecker;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.Util;
 import edu.nyu.cs.cs2580.utils.VByteUtil;
@@ -72,12 +71,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private String CORPUS_INDEX;
   private String DOCUMENTS;
   private String META;
+
   private String SPELL_INDEX;
 
   private long totalTermFrequency = 0;
   private long totalNumViews = 0;
-
-  private NGramSpellChecker nGramSpellChecker;
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -211,35 +209,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Merging time: " + Util.convertMillis(duration));
 
     /**************************************************************************
-     * First delete the old spell index files in the target folder....
-     *************************************************************************/
-
-    File spellIndexFolder = new File(_options._indexSpell);
-    if (!spellIndexFolder.exists()) {
-      spellIndexFolder.mkdir();
-    }
-
-    for (File file : spellIndexFolder.listFiles()) {
-      if (file.getName().matches("^" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX)) {
-        file.delete();
-      }
-    }
-
-    /**************************************************************************
-     * Start indexing for spell check.......
-     *************************************************************************/
-    startTimeStamp = System.currentTimeMillis();
-    System.out.println("Start spell check indexing...");
-
-    NGramSpellChecker spellChecker = new NGramSpellChecker(dictionary, getTermFrequency(), totalTermFrequency);
-    spellChecker.buildIndex();
-
-    duration = System.currentTimeMillis() - startTimeStamp;
-
-    System.out.println("Complete spell check indexing...");
-    System.out.println("Indexing time: " + Util.convertMillis(duration));
-
-    /**************************************************************************
      * Populating document addition properties for web page corpus
      *************************************************************************/
 
@@ -297,14 +266,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     writer.writeObject(this);
     writer.close();
 
-    String spellIndexFile = _options._indexSpell + "/" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
-    System.out.println("Storing spell inverted index to: " + _options._indexSpell);
-    ObjectOutputStream spellWriter = new ObjectOutputStream(new BufferedOutputStream(new
-        FileOutputStream(spellIndexFile)));
-
-    spellWriter.writeObject(spellChecker);
-    spellWriter.close();
-
     duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Complete serializing...");
     System.out.println("Serialization time: " + Util.convertMillis(duration));
@@ -350,11 +311,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         reader.close();
       }
     }
-
-    System.out.println("Loading ngram spell check index");
-
-    String spellIndexFile = _options._indexSpell + "/" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
-    this.nGramSpellChecker = NGramSpellChecker.loadIndex(spellIndexFile);
 
     System.out.println(Integer.toString(_numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
@@ -1309,6 +1265,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     return dictionary.keySet();
   }
 
+  public ImmutableBiMap<String, Integer> getDictionary() {
+    return dictionary;
+  }
+
+  public long getTotalTermFrequency() {
+    return totalTermFrequency;
+  }
+
   // Check if the dictionary of the index contains the term
   public boolean containsTerm(String term) {
     return dictionary.containsKey(term);
@@ -1330,9 +1294,5 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     return res;
-  }
-
-  public SpellCheckResult getSpellCheckResults(Query query) {
-    return nGramSpellChecker.getSpellCheckResults(query);
   }
 }

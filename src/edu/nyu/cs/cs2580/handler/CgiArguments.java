@@ -1,5 +1,7 @@
 package edu.nyu.cs.cs2580.handler;
 
+import edu.nyu.cs.cs2580.SearchEngine;
+
 /**
  * CGI arguments provided by the user through the URL. This will determine
  * which Ranker to use and what output format to adopt. For simplicity, all
@@ -16,6 +18,12 @@ public class CgiArguments {
     TEXT, HTML, JSON
   }
 
+  // Spell checker type
+  public static enum SPELL_CHECKER_TYPE {
+    NONE, NGRAM, BK
+  };
+
+
   // The raw user query
   public String _query = "";
   // How many results/documents to return, default is 10
@@ -28,6 +36,8 @@ public class CgiArguments {
   public OutputFormat _outputFormat = OutputFormat.TEXT;
   // The ranker type, default is none....
   public RankerType _rankerType = RankerType.NONE;
+  // The spell checker type, default is none...
+  public SPELL_CHECKER_TYPE spellCheckerType = SPELL_CHECKER_TYPE.NONE;
 
   public CgiArguments(String uriQuery) {
     String[] params = uriQuery.split("&");
@@ -65,6 +75,12 @@ public class CgiArguments {
           // Ignored, search engine should never fail upon invalid user input.
         }
       } else if (key.equals("format")) {
+        try {
+          _outputFormat = OutputFormat.valueOf(val.toUpperCase());
+        } catch (IllegalArgumentException e) {
+          // Ignored, search engine should never fail upon invalid user input.
+        }
+      } else if (key.equals("checker")) {
         try {
           _outputFormat = OutputFormat.valueOf(val.toUpperCase());
         } catch (IllegalArgumentException e) {
