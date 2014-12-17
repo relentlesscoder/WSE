@@ -1,11 +1,8 @@
 package edu.nyu.cs.cs2580;
 
 import com.sun.net.httpserver.HttpServer;
-import edu.nyu.cs.cs2580.handler.NewsQueryHandler;
+import edu.nyu.cs.cs2580.handler.*;
 import edu.nyu.cs.cs2580.index.Indexer;
-import edu.nyu.cs.cs2580.handler.HtmlHandler;
-import edu.nyu.cs.cs2580.handler.PrfHandler;
-import edu.nyu.cs.cs2580.handler.QueryHandler;
 import edu.nyu.cs.cs2580.minning.CorpusAnalyzer;
 import edu.nyu.cs.cs2580.minning.LogMiner;
 import edu.nyu.cs.cs2580.utils.Util;
@@ -287,12 +284,14 @@ public class SearchEngine {
     PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, webPageIndexer);
     NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
+    TopicsHandler topicsHandler = new TopicsHandler(SearchEngine.OPTIONS, newsIndexer);
 
     // Establish the serving environment
     InetSocketAddress addr = new InetSocketAddress(SearchEngine.PORT);
     HttpServer server = HttpServer.create(addr, -1);
     server.createContext("/search", queryHandler);
     server.createContext("/search/news", newsQueryHandler);
+    server.createContext("/search/topics",topicsHandler);
     server.createContext("/prf", prfHandler);
     server.createContext("/", htmlHandler);
     server.setExecutor(Executors.newCachedThreadPool());

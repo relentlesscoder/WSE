@@ -2,6 +2,7 @@ package edu.nyu.cs.cs2580.preprocess;
 
 import com.google.gson.Gson;
 import edu.nyu.cs.cs2580.crawler.News;
+import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.WriteFile;
 
 import java.io.*;
@@ -20,8 +21,7 @@ public class TopicAnalyzer {
 
   public static void main(String[] args) throws IOException {
     process();
-
-    qrelsGenerator();
+//    qrelsGenerator();
   }
 
   private static void qrelsGenerator() throws IOException {
@@ -60,6 +60,10 @@ public class TopicAnalyzer {
     File dtFile = new File("data/news/topic/doc_topics");
     File newsFile = new File("data/news/inter/news.txt");
     File topicKey = new File("data/news/topic/topic_key");
+    String timeDis = "topic/timeDistribution.txt";
+    String numDis = "topic/numDistribution.txt";
+    String topicRankPath = "topic/topicRank.txt";
+    String topicDocPath = "topic/topicDoc.txt";
 
     topicNum = FilePreprocess.countLines(topicKey);
     // Load Topics from document_topic file
@@ -68,10 +72,6 @@ public class TopicAnalyzer {
     integrateTime(newsFile);
     // Adding topic keys to Topics
     addTerms(topicKey);
-    String timeDis = "topic/timeDistribution.txt";
-    String numDis = "topic/numDistribution.txt";
-    String topicRankPath = "topic/topicRank.txt";
-    String topicDocPath = "topic/topicDoc.txt";
     // Output visualization data
     outputNumDis(numDis);
 
@@ -89,11 +89,41 @@ public class TopicAnalyzer {
     outputRankedTopic(scoredTopics, topicRankPath,timeDis,topicDocPath);
 
     long elapsedTime = System.currentTimeMillis() - start;
-    int min = (int) elapsedTime / (60 * 1000);
-    int sec = (int) (elapsedTime - min * (60 * 1000)) / 1000;
-    System.out.println("Total time: " + min + " min " + sec + " sec.");
+    int sec = (int) elapsedTime / 1000;
+    System.out.println("Total time: "  + elapsedTime + " ms.");
   }
 
+  public static Map<Integer, Topic> categorizeDocs(File dtFile) throws IOException{
+    Map<Integer, Topic> topicDocs = new TreeMap<Integer, Topic>();
+
+    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(dtFile)));
+    String line;
+
+    while ((line = br.readLine()) != null) {
+      if (line.matches("\\#.*")) {
+        continue;
+      }
+      String[] str = line.split("\t");
+      int docID = Integer.parseInt(str[1]);
+      int topicID = Integer.parseInt(str[2]);
+      Double pr = Double.parseDouble(str[3]);
+      DocTopicPr doc = new DocTopicPr(docID,pr);
+
+      if (topicDocs.containsKey(topicID)){
+        List<DocTopicPr> docs = topicDocs.get(topicID).getDocList();
+        docs.add(doc);
+      }else {
+        Topic topic = new Topic(topicID);
+        topic.getDocList().add(doc);
+        topicDocs.put(topicID,topic);
+      }
+    }
+    br.close();
+    System.out.println("Read in topics.");
+    return topicDocs;
+  }
+
+  // compute
   public static void integrateTime(File file) throws IOException {
     Gson gson = new Gson();
     BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
@@ -131,36 +161,6 @@ public class TopicAnalyzer {
     System.out.println("Filled up topics' time slots.");
   }
 
-  public static Map<Integer, Topic> categorizeDocs(File dtFile) throws IOException{
-    Map<Integer, Topic> topicDocs = new TreeMap<Integer, Topic>();
-
-    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(dtFile)));
-    String line;
-
-    while ((line = br.readLine()) != null) {
-      if (line.matches("\\#.*")) {
-        continue;
-      }
-      String[] str = line.split("\t");
-      int docID = Integer.parseInt(str[1]);
-      int topicID = Integer.parseInt(str[2]);
-      Double pr = Double.parseDouble(str[3]);
-      DocTopicPr doc = new DocTopicPr(docID,pr);
-
-      if (topicDocs.containsKey(topicID)){
-        List<DocTopicPr> docs = topicDocs.get(topicID).getDocList();
-        docs.add(doc);
-      }else {
-        Topic topic = new Topic(topicID);
-        topic.getDocList().add(doc);
-        topicDocs.put(topicID,topic);
-      }
-    }
-    br.close();
-    System.out.println("Read in topics.");
-    return topicDocs;
-  }
-
   private static void addTerms(File tokeKey) throws IOException {
     Map<Integer, Topic> topicDocs = new TreeMap<Integer, Topic>();
 
@@ -173,9 +173,15 @@ public class TopicAnalyzer {
       Topic topic = topics.get(topicID);
       String[] termStr = str[2].split(" ");
       List<String> terms = topic.getTerms();
+      Set<String> uniTerms = new LinkedHashSet<String>();
       for (String term : termStr){
-        terms.add(term);
+        if (term.equals("eric")){
+          uniTerms.add(term);
+          continue;
+        }
+        uniTerms.add(Tokenizer.krovetzStemmerFilter(term));
       }
+      terms.addAll(uniTerms);
     }
     br.close();
     System.out.println("Added top keys into topics.");
@@ -213,7 +219,7 @@ public class TopicAnalyzer {
     StringBuilder topicDocSB = new StringBuilder();
     while (!scoredTopics.isEmpty()){
       Topic topic = scoredTopics.poll();
-      rankSB.append(topic.getTopicID()).append(":");
+      rankSB.append(topic.getTopicID()).append("\t");
       timeSB.append("{visible:false,name:'topic-").append(topic.getTopicID());
       List<String> terms = topic.getTerms();
       for (int i=0; i<5; i++){
@@ -240,7 +246,7 @@ public class TopicAnalyzer {
         topicDocSB.append(doc.toString()).append('\n');
       }
     }
-    System.out.print(rankSB.toString());
+//    System.out.print(rankSB.toString());
     WriteFile.WriteToFile(rankSB.toString(),topicRankPath,false);
     System.out.println("Written result in data/news/"+topicRankPath+".");
     WriteFile.WriteToFile(timeSB.toString(),timeFile, false);
@@ -251,7 +257,7 @@ public class TopicAnalyzer {
 
   public static String computeMetrics(Topic topic, int size){
     StringBuilder sb = new StringBuilder();
-    sb.append(topic.getTopicID()).append(":");
+    sb.append(topic.getTopicID()).append("\t");
     List<String> terms = topic.getTerms();
     for (int i=0; i<5; i++){
       sb.append(" ").append(terms.get(i));
