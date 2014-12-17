@@ -42,6 +42,8 @@ public class NewsDocumentProcessor extends DocumentProcessor {
       DocumentNews doc = new DocumentNews(docid, time);
       doc.setTitle(news.getTitle());
       doc.setUrl(news.getLink());
+      doc.setDescription(news.getDescription());
+      doc.setSource(news.getSource());
 
       documents.add(doc);
       populateInvertedIndex(documentFields, docid);

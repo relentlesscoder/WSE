@@ -19,11 +19,47 @@ public class TopicAnalyzer {
   private static int maxDocNum;
 
   public static void main(String[] args) throws IOException {
+    process();
+
+    qrelsGenerator();
+  }
+
+  private static void qrelsGenerator() throws IOException {
+    StringBuilder sb = new StringBuilder();
+    StringBuilder qsb = new StringBuilder();
+    for (Topic topic : topics.values()){
+      List<String> terms = topic.getTerms();
+      qsb.append(terms.get(0)).append(" ").append(terms.get(1)).append('\n');
+      for (DocTopicPr doc : topic.getDocList()) {
+
+        sb.append(terms.get(0)).append(" ").append(terms.get(1)).append('\t');
+        sb.append(doc.getDocID()).append('\t');
+        double pr = doc.getProportion();
+        if (pr>0.8){
+          sb.append("Perfect");
+        }else if (pr>0.6&&pr<=0.8){
+          sb.append("Excellent");
+        }else if (pr>0.4&&pr<=0.6){
+          sb.append("Good");
+        }else if (pr>0.2&&pr<=0.4){
+          sb.append("Fair");
+        }else {
+          sb.append("Bad");
+        }
+        sb.append('\n');
+      }
+    }
+    WriteFile.WriteToFile(qsb.toString(),"queries.tsv",false);
+    WriteFile.WriteToFile(sb.toString(),"qrels.tsv",false);
+    System.out.println("NB!");
+  }
+
+  private static void process() throws IOException {
     long start = System.currentTimeMillis();
 
-    File dtFile = new File("data/news/topic_400/doc_topics");
+    File dtFile = new File("data/news/topic/doc_topics");
     File newsFile = new File("data/news/inter/news.txt");
-    File topicKey = new File("data/news/topic_400/topic_key");
+    File topicKey = new File("data/news/topic/topic_key");
 
     topicNum = FilePreprocess.countLines(topicKey);
     // Load Topics from document_topic file
@@ -32,9 +68,10 @@ public class TopicAnalyzer {
     integrateTime(newsFile);
     // Adding topic keys to Topics
     addTerms(topicKey);
-    String timeDis = "topic_400/timeDistribution.txt";
-    String numDis = "topic_400/numDistribution.txt";
-    String topicRankPath = "topic_400/topicRank.txt";
+    String timeDis = "topic/timeDistribution.txt";
+    String numDis = "topic/numDistribution.txt";
+    String topicRankPath = "topic/topicRank.txt";
+    String topicDocPath = "topic/topicDoc.txt";
     // Output visualization data
     outputNumDis(numDis);
 
@@ -49,7 +86,7 @@ public class TopicAnalyzer {
       scoredTopics.add(topic);
     }
 
-    outputRankedTopic(topicRankPath,timeDis,scoredTopics);
+    outputRankedTopic(scoredTopics, topicRankPath,timeDis,topicDocPath);
 
     long elapsedTime = System.currentTimeMillis() - start;
     int min = (int) elapsedTime / (60 * 1000);
@@ -71,7 +108,8 @@ public class TopicAnalyzer {
     }
     br.close();
     for (Topic topic : topics.values()){
-      for (Integer docID : topic.getDocList()){
+      for (DocTopicPr doc : topic.getDocList()){
+        int docID = doc.getDocID();
         Date time = docPubDate.get(docID);
 //        System.out.println(time);
 //        System.out.println(FilePreprocess.dates[1]);
@@ -106,13 +144,15 @@ public class TopicAnalyzer {
       String[] str = line.split("\t");
       int docID = Integer.parseInt(str[1]);
       int topicID = Integer.parseInt(str[2]);
+      Double pr = Double.parseDouble(str[3]);
+      DocTopicPr doc = new DocTopicPr(docID,pr);
 
       if (topicDocs.containsKey(topicID)){
-        List<Integer> docs = topicDocs.get(topicID).getDocList();
-        docs.add(docID);
+        List<DocTopicPr> docs = topicDocs.get(topicID).getDocList();
+        docs.add(doc);
       }else {
         Topic topic = new Topic(topicID);
-        topic.getDocList().add(docID);
+        topic.getDocList().add(doc);
         topicDocs.put(topicID,topic);
       }
     }
@@ -166,10 +206,11 @@ public class TopicAnalyzer {
     System.out.println("Written result in data/news/"+numFile+".");
   }
 
-  public static void outputRankedTopic(String topicRankPath, String timeFile, Queue<Topic> scoredTopics){
+  public static void outputRankedTopic(Queue<Topic> scoredTopics,
+                                       String topicRankPath, String timeFile, String topicDocPath){
     StringBuilder timeSB = new StringBuilder();
-
     StringBuilder rankSB = new StringBuilder();
+    StringBuilder topicDocSB = new StringBuilder();
     while (!scoredTopics.isEmpty()){
       Topic topic = scoredTopics.poll();
       rankSB.append(topic.getTopicID()).append(":");
@@ -186,12 +227,26 @@ public class TopicAnalyzer {
         timeSB.append("[").append(i).append(",").append(timeSlots[i]).append("],");
       }
       timeSB.append("]},");
+      topicDocSB.append("#").append(topic.getTopicID()).append('\n');
+
+      List<DocTopicPr> docList = topic.getDocList();
+      Collections.sort(docList,new Comparator<DocTopicPr>() {
+        @Override
+        public int compare(DocTopicPr o1, DocTopicPr o2) {
+          return o2.getProportion().compareTo(o1.getProportion());
+        }
+      });
+      for(DocTopicPr doc : docList){
+        topicDocSB.append(doc.toString()).append('\n');
+      }
     }
     System.out.print(rankSB.toString());
     WriteFile.WriteToFile(rankSB.toString(),topicRankPath,false);
     System.out.println("Written result in data/news/"+topicRankPath+".");
     WriteFile.WriteToFile(timeSB.toString(),timeFile, false);
     System.out.println("Written result in data/news/"+timeFile+".");
+    WriteFile.WriteToFile(topicDocSB.toString(),topicDocPath, false);
+    System.out.println("Written result in data/news/"+topicDocPath+".");
   }
 
   public static String computeMetrics(Topic topic, int size){
