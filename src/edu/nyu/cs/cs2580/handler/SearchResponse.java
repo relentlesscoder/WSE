@@ -1,6 +1,8 @@
 package edu.nyu.cs.cs2580.handler;
 
 import com.google.gson.annotations.SerializedName;
+import edu.nyu.cs.cs2580.ngram.SpellCheckCorrection;
+import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 
 import java.util.ArrayList;
 
@@ -9,18 +11,22 @@ import java.util.ArrayList;
  */
 public class SearchResponse {
 
-    @SerializedName("QueryText")
+    @SerializedName("queryText")
     private String _queryText;
 
-    @SerializedName("Results")
+    @SerializedName("results")
     private ArrayList<SearchResult> _results;
 
-    @SerializedName("Status")
+    @SerializedName("status")
     private SearchStatus _status;
 
-    public SearchResponse(String queryText, ArrayList<SearchResult> results, SearchStatus status){
+    @SerializedName("spellCheck")
+    private SpellCheckResult _spellCheck;
+
+    public SearchResponse(String queryText, ArrayList<SearchResult> results, SearchStatus status, SpellCheckResult spellCheck){
         _queryText = queryText;
         _results = results;
         _status = status;
+        _spellCheck = spellCheck;
     }
 }
