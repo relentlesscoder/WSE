@@ -29,24 +29,31 @@ public class TopicsHandler extends BaseHandler {
     private String _tokens;
 
     @SerializedName("results")
-    private ArrayList<NewsSearchResult> _results;
+    private NewsSearchResult[] _results;
 
     public TopTopics(String text, ArrayList<NewsSearchResult> results){
       _tokens = text;
-      _results = results;
+      _results = new NewsSearchResult[results.size()];
+      for (int i = 0; i < results.size(); i++) {
+         _results[i] = results.get(i);
+      }
     }
   }
 
   class TopTopicsResponse {
 
     @SerializedName("results")
-    private ArrayList<TopTopics> _results;
+    private TopTopics[] _results;
 
     @SerializedName("status")
     private SearchStatus _status;
 
     public TopTopicsResponse(ArrayList<TopTopics> results, SearchStatus status){
-      _results = results;
+      _results = new TopTopics[results.size()];
+      for (int i = 0; i < results.size(); i++) {
+        _results[i] = results.get(i);
+      }
+
       _status = status;
     }
   }
@@ -87,7 +94,7 @@ public class TopicsHandler extends BaseHandler {
     }
 
     if (!uriPath.equals("/search/topics")) {
-      message = "Only /search/news is handled!";
+      message = "Only /search/topics is handled!";
       Headers responseHeaders = exchange.getResponseHeaders();
       responseHeaders.set("Content-Type", "text/plain");
       exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes
