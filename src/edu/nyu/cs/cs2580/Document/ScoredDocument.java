@@ -82,7 +82,11 @@ public class ScoredDocument implements Comparable<ScoredDocument> {
 
 	public String getServerUrl() {
 		String url = this._doc.getUrl();
-		return "data/wiki/" + url;
+		if (url.matches("^http.*")) {
+			return url;
+		} else {
+			return "data/wiki/" + url;
+		}
 	}
 
   public int getDocID() { return this._doc._docid; }

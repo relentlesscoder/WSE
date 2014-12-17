@@ -139,8 +139,8 @@ public class NewsQueryHandler extends BaseHandler {
       responseBody.close();
     }
 
-    if (!uriPath.equals("/search")) {
-      message = "Only /search is handled!";
+    if (!uriPath.equals("/search/news")) {
+      message = "Only /search/news is handled!";
       Headers responseHeaders = exchange.getResponseHeaders();
       responseHeaders.set("Content-Type", "text/plain");
       exchange.sendResponseHeaders(200, 0); // arbitrary number of bytes

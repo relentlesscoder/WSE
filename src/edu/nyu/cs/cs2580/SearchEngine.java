@@ -169,9 +169,7 @@ public class SearchEngine {
    */
   public static enum Mode {
     NONE, MINING, WEB_PAGE_INDEX, NEWS_FEED_INDEX, SERVE,
-  }
-
-  ;
+  };
 
   public static Mode MODE = Mode.NONE;
 
@@ -265,15 +263,23 @@ public class SearchEngine {
 
   private static void startServing() throws IOException, ClassNotFoundException {
     // Create the handler and its associated indexer.
-    // TODO: This only create the indexer for normal web page corpus, news are not included.
-    CORPUS_TYPE corpusType = CORPUS_TYPE.WEB_PAGE_CORPUS;
-    Indexer indexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS, corpusType);
-    Util.Check(indexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
+    CORPUS_TYPE webPageCorpusType = CORPUS_TYPE.WEB_PAGE_CORPUS;
+    Indexer webPageIndexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS, webPageCorpusType);
+    Util.Check(webPageIndexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
         + " not found!");
-    indexer.loadIndex();
-    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, indexer);
-    PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, indexer);
-    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, indexer);
+
+    CORPUS_TYPE newsCorpusType = CORPUS_TYPE.NEWS_FEED_CORPUS;
+    Indexer newsIndexer = Indexer.Factory.getIndexerByOption(SearchEngine.OPTIONS, newsCorpusType);
+    Util.Check(newsIndexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
+        + " not found!");
+
+
+    webPageIndexer.loadIndex();
+    newsIndexer.loadIndex();
+
+    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, webPageIndexer);
+    PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, webPageIndexer);
+    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
 
     // Establish the serving environment
