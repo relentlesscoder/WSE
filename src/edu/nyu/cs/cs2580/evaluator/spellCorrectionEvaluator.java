@@ -26,11 +26,11 @@ import java.util.regex.Pattern;
 
 public class SpellCorrectionEvaluator {
   // Common misspell data corpora file, reference: http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
-  private static final File ASPELL_FILE = new File("data/spellCheckTestData/aspell.dat");
-  private static final File MISSP_FILE = new File("data/spellCheckTestData/missp.dat");
-  private static final File WIKIPEDIA_FILE = new File("data/spellCheckTestData/wikipedia.dat");
+  private static final File ASPELL_FILE = new File("spellCheckTestData/aspell.dat");
+  private static final File MISSP_FILE = new File("spellCheckTestData/missp.dat");
+  private static final File WIKIPEDIA_FILE = new File("spellCheckTestData/wikipedia.dat");
 
-  private static final File DICTIONARY_FILE = new File("data/spellCheckTestData/words");
+  private static final File DICTIONARY_FILE = new File("spellCheckTestData/words");
 
   // Dictionary of the test corpus
   static BiMap<String, Integer> dictionary = HashBiMap.create();
@@ -41,11 +41,11 @@ public class SpellCorrectionEvaluator {
 
   public static void main(String[] args) throws IOException {
     // Test corpus file
-    File testCorpusFile = new File("data/spellCheckTestData/big.text");
+    File testCorpusFile = new File("spellCheckTestData/big.text");
 
     // Original files in order to construct the map
-    File test1File = new File("data/spellCheckTestData/test1.text");
-    File test2File = new File("data/spellCheckTestData/test2.text");
+    File test1File = new File("spellCheckTestData/test1.text");
+    File test2File = new File("spellCheckTestData/test2.text");
 
     misspellDataSet.addData(ASPELL_FILE);
     misspellDataSet.addData(MISSP_FILE);

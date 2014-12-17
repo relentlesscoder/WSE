@@ -22,11 +22,11 @@ import java.util.Vector;
 
 public abstract class BaseHandler implements HttpHandler {
   // Common misspell data corpora file, reference: http://www.dcs.bbk.ac.uk/~ROGER/corpora.html
-  private static final File ASPELL_FILE = new File("data/spellCheckTestData/aspell.dat");
-  private static final File MISSP_FILE = new File("data/spellCheckTestData/missp.dat");
-  private static final File WIKIPEDIA_FILE = new File("data/spellCheckTestData/wikipedia.dat");
+  private static final File ASPELL_FILE = new File("spellCheckTestData/aspell.dat");
+  private static final File MISSP_FILE = new File("spellCheckTestData/missp.dat");
+  private static final File WIKIPEDIA_FILE = new File("spellCheckTestData/wikipedia.dat");
 
-  private static final File DICTIONARY_FILE = new File("data/spellCheckTestData/words");
+  private static final File DICTIONARY_FILE = new File("spellCheckTestData/words");
 
   private MisspellDataSet _misspellDataSet;
 
