@@ -108,7 +108,9 @@ public class NewsQueryHandler extends BaseHandler {
     }
     //TODO: add error handling status
     SearchStatus status = new SearchStatus(STATUS_SUCCESS, STATUS_SUCCESS_MSG);
+
     NewsSearchResponse searchResponse = new NewsSearchResponse(queryText, results, status, correctedQuery);
+
     Gson gson = new Gson();
     String response = gson.toJson(searchResponse);
 
