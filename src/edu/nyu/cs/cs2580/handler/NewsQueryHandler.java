@@ -1,8 +1,11 @@
 package edu.nyu.cs.cs2580.handler;
 
 import com.google.gson.Gson;
+import com.google.gson.annotations.SerializedName;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.document.DocumentNews;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.*;
@@ -16,6 +19,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Vector;
 
 /**
@@ -28,6 +32,54 @@ import java.util.Vector;
  * @author fdiaz
  */
 public class NewsQueryHandler extends BaseHandler {
+
+  class NewsSearchResult{
+    @SerializedName("title")
+    private String _title;
+
+    @SerializedName("url")
+    private String _url;
+
+    @SerializedName("score")
+    private double _score;
+
+    @SerializedName("pubDate")
+    private long _time;
+
+    @SerializedName("source")
+    private String _source;
+
+    @SerializedName("description")
+    private String _description;
+
+    public NewsSearchResult(String title, String url, double score, long time, String source, String description){
+      _title = title;
+      _url = url;
+      _score = score;
+      _time = time;
+      _source = source;
+      _description = description;
+    }
+  }
+
+  class NewsSearchResponse {
+
+    @SerializedName("QueryText")
+    private String _queryText;
+
+    @SerializedName("Results")
+    private ArrayList<NewsSearchResult> _results;
+
+    @SerializedName("Status")
+    private SearchStatus _status;
+
+    public NewsSearchResponse(String queryText, ArrayList<NewsSearchResult> results, SearchStatus status){
+      _queryText = queryText;
+      _results = results;
+      _status = status;
+    }
+  }
+
   public NewsQueryHandler(Options options, Indexer indexer) throws IOException {
     super(options, indexer);
   }
@@ -49,14 +101,15 @@ public class NewsQueryHandler extends BaseHandler {
     output.append("<div id=\"divSearchContainer\">\r\n");
     output.append("<ul id=\"unorderedList\">\r\n");
     for (ScoredDocument scoredDocument : scoredDocuments) {
+      DocumentNews document = (DocumentNews)scoredDocument.getDocument();
       output.append("<li class=\"divDocument" + "\">\r\n");
       output.append("<a href=\"" + scoredDocument.getServerUrl()
           + "\" class=\"doc_title\">" + scoredDocument.getTitle() + "</a>\r\n");
+      output.append("<span >" + document.getSource() + "<span>-</span>" + "<span>"+ document.getTime() +"</span>"
+              + "</p>\r\n");
       output.append("<p class=\"score\">Score: " + scoredDocument.getScore()
           + "</p>\r\n");
-      output.append("<p class=\"score\">Rank: " + scoredDocument.getPageRank()
-          + "</p>\r\n");
-      output.append("<p class=\"score\">Views: " + scoredDocument.getNumView()
+      output.append("<p>" + document.getDescription()
           + "</p>\r\n");
       output.append("</li>\r\n");
     }
@@ -67,16 +120,19 @@ public class NewsQueryHandler extends BaseHandler {
 
   private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments) {
 
-    ArrayList<SearchResult> results = new ArrayList<SearchResult>();
-    SearchResult result;
+    ArrayList<NewsSearchResult> results = new ArrayList<NewsSearchResult>();
+    NewsSearchResult result;
     for (ScoredDocument scoredDocument : scoredDocuments) {
-      result = new SearchResult(scoredDocument.getTitle(), scoredDocument.getServerUrl(),
-          scoredDocument.getScore(), scoredDocument.getPageRank(), scoredDocument.getNumView());
+      DocumentNews document = (DocumentNews)scoredDocument.getDocument();
+      result = new NewsSearchResult(scoredDocument.getTitle(), scoredDocument.getServerUrl(),
+          scoredDocument.getScore(), document.getTime().getTime(), document.getSource(), document.getDescription());
       results.add(result);
     }
     //TODO: add error handling status
     SearchStatus status = new SearchStatus(STATUS_SUCCESS, STATUS_SUCCESS_MSG);
-    SearchResponse searchResponse = new SearchResponse(queryText, results, status, null);
+
+    NewsSearchResponse searchResponse = new NewsSearchResponse(queryText, results, status);
+
     Gson gson = new Gson();
     String response = gson.toJson(searchResponse);
 
@@ -256,3 +312,4 @@ public class NewsQueryHandler extends BaseHandler {
     System.out.println("Finished query: " + cgiArgs._query);
   }
 }
+
