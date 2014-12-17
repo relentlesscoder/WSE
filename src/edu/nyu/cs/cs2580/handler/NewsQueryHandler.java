@@ -44,10 +44,14 @@ public class NewsQueryHandler extends BaseHandler {
     @SerializedName("status")
     private SearchStatus _status;
 
-    public NewsSearchResponse(String queryText, ArrayList<NewsSearchResult> results, SearchStatus status) {
+    @SerializedName("correctedQuery")
+    private CorrectedQuery _correctedQuery;
+
+    public NewsSearchResponse(String queryText, ArrayList<NewsSearchResult> results, SearchStatus status, CorrectedQuery correctedQuery) {
       _queryText = queryText;
       _results = results;
       _status = status;
+      _correctedQuery = correctedQuery;
     }
   }
 
@@ -104,7 +108,7 @@ public class NewsQueryHandler extends BaseHandler {
     }
     //TODO: add error handling status
     SearchStatus status = new SearchStatus(STATUS_SUCCESS, STATUS_SUCCESS_MSG);
-    NewsSearchResponse searchResponse = new NewsSearchResponse(queryText, results, status);
+    NewsSearchResponse searchResponse = new NewsSearchResponse(queryText, results, status, correctedQuery);
     Gson gson = new Gson();
     String response = gson.toJson(searchResponse);
 
