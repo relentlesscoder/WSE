@@ -6,11 +6,13 @@ import com.sun.net.httpserver.HttpExchange;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.*;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTreeSpellChecker;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.query.QueryPhrase;
 import edu.nyu.cs.cs2580.rankers.Ranker;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -29,8 +31,19 @@ import java.util.Vector;
  * @author fdiaz
  */
 public class QueryHandler extends BaseHandler {
-  public QueryHandler(Options options, Indexer indexer) throws IOException {
+  private BKTreeSpellChecker _bkTreeSpellChecker;
+  private NGramSpellChecker _nGramSpellChecker;
+  private SearchEngine.SPELLMODE _spellMode;
+
+  public QueryHandler(Options options, Indexer indexer,
+                      BKTreeSpellChecker bkTreeSpellChecker,
+                      NGramSpellChecker nGramSpellChecker,
+                      SearchEngine.SPELLMODE spellMode) throws IOException {
     super(options, indexer);
+
+    this._bkTreeSpellChecker = bkTreeSpellChecker;
+    this._nGramSpellChecker = nGramSpellChecker;
+    this._spellMode = spellMode;
   }
 
   private void constructTextOutput(final Vector<ScoredDocument> docs, StringBuffer response) {
@@ -202,7 +215,13 @@ public class QueryHandler extends BaseHandler {
 
     // Ranking.
     Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
-    SpellCheckResult spellCheck = ranker.spellCheck(processedQuery);
+    SpellCheckResult spellCheck = null;
+    if(_spellMode == SearchEngine.SPELLMODE.BKTREE){
+      _bkTreeSpellChecker.getSpellCheckResults(processedQuery);
+    }
+    else{
+      _nGramSpellChecker.getSpellCheckResults(processedQuery);
+    }
 
     switch (cgiArgs._outputFormat) {
       case TEXT: {

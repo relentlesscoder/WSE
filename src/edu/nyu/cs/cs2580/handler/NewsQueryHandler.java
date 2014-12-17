@@ -10,6 +10,9 @@ import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.query.QueryPhrase;
 import edu.nyu.cs.cs2580.rankers.Ranker;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTreeSpellChecker;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -28,8 +31,19 @@ import java.util.Vector;
  * @author fdiaz
  */
 public class NewsQueryHandler extends BaseHandler {
-  public NewsQueryHandler(Options options, Indexer indexer) throws IOException {
+  private BKTreeSpellChecker _bkTreeSpellChecker;
+  private NGramSpellChecker _nGramSpellChecker;
+  private SearchEngine.SPELLMODE _spellMode;
+
+  public NewsQueryHandler(Options options, Indexer indexer,
+                          BKTreeSpellChecker bkTreeSpellChecker,
+                          NGramSpellChecker nGramSpellChecker,
+                          SearchEngine.SPELLMODE spellMode) throws IOException {
     super(options, indexer);
+
+    this._bkTreeSpellChecker = bkTreeSpellChecker;
+    this._nGramSpellChecker = nGramSpellChecker;
+    this._spellMode = spellMode;
   }
 
   private void constructTextOutput(final Vector<ScoredDocument> docs, StringBuffer response) {
@@ -65,7 +79,7 @@ public class NewsQueryHandler extends BaseHandler {
     return template.replace(PLACE_HOLDER, output.toString());
   }
 
-  private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments) {
+  private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments, SpellCheckResult spellCheckResult) {
 
     ArrayList<SearchResult> results = new ArrayList<SearchResult>();
     SearchResult result;
@@ -76,7 +90,7 @@ public class NewsQueryHandler extends BaseHandler {
     }
     //TODO: add error handling status
     SearchStatus status = new SearchStatus(STATUS_SUCCESS, STATUS_SUCCESS_MSG);
-    SearchResponse searchResponse = new SearchResponse(queryText, results, status, null);
+    SearchResponse searchResponse = new SearchResponse(queryText, results, status, spellCheckResult);
     Gson gson = new Gson();
     String response = gson.toJson(searchResponse);
 
@@ -206,6 +220,14 @@ public class NewsQueryHandler extends BaseHandler {
 
     // Ranking.
     Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
+    //TODO: add CGI argument to switch spell checker
+    SpellCheckResult spellCheck = null;
+    if(_spellMode == SearchEngine.SPELLMODE.BKTREE){
+      _bkTreeSpellChecker.getSpellCheckResults(processedQuery);
+    }
+    else{
+      _nGramSpellChecker.getSpellCheckResults(processedQuery);
+    }
 
     switch (cgiArgs._outputFormat) {
       case TEXT: {
@@ -235,7 +257,7 @@ public class NewsQueryHandler extends BaseHandler {
         break;
       }
       case JSON: {
-        String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs);
+        String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs, spellCheck);
         Headers responseHeaders = exchange.getResponseHeaders();
         responseHeaders.set("Server", "Java JSON API");
         responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");

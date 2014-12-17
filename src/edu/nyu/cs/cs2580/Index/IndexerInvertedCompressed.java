@@ -4,14 +4,12 @@ import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
-import edu.nyu.cs.cs2580.ngram.NGramSpellChecker;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.Util;
 import edu.nyu.cs.cs2580.utils.VByteUtil;
@@ -72,12 +70,11 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private String DOCUMENTS;
   private String META;
 
-  private static final String SPELL = "spell";
-
   private long totalTermFrequency = 0;
   private long totalNumViews = 0;
 
-  private NGramSpellChecker nGramSpellChecker;
+  private static final String SPELL = "spell";
+  private static final String SPELL_NEWS = "news_spell";
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -289,13 +286,23 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     writer.writeObject(this);
     writer.close();
 
-    String spellIndexFile = _options._indexSpell + "/" + SPELL + IndexerConstant.EXTENSION_IDX;
-    System.out.println("Storing spell inverted index to: " + _options._indexSpell);
-    ObjectOutputStream spellWriter = new ObjectOutputStream(new BufferedOutputStream(new
-            FileOutputStream(spellIndexFile)));
+    String spellIndexFile = null;
+    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
+      spellIndexFile = _options._indexSpell + "/" + SPELL + IndexerConstant.EXTENSION_IDX;
+    } else if (corpusType == SearchEngine.CORPUS_TYPE.NEWS_FEED_CORPUS){
+      spellIndexFile = _options._indexSpell + "/" + SPELL_NEWS + IndexerConstant.EXTENSION_IDX;
+    } else {
+      // ...
+    }
 
-    spellWriter.writeObject(spellChecker);
-    spellWriter.close();
+    if(spellIndexFile != null){
+      System.out.println("Storing spell inverted index to: " + _options._indexSpell);
+      ObjectOutputStream spellWriter = new ObjectOutputStream(new BufferedOutputStream(new
+              FileOutputStream(spellIndexFile)));
+
+      spellWriter.writeObject(spellChecker);
+      spellWriter.close();
+    }
 
     duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Complete serializing...");
@@ -342,9 +349,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         reader.close();
       }
     }
-
-    String spellIndexFile = _options._indexSpell + "/" + SPELL + IndexerConstant.EXTENSION_IDX;
-    this.nGramSpellChecker = NGramSpellChecker.loadIndex(spellIndexFile);
 
     System.out.println(Integer.toString(_numDocs) + " documents loaded "
         + "with " + Long.toString(_totalTermFrequency) + " terms!");
@@ -1321,9 +1325,5 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     return res;
-  }
-
-  public SpellCheckResult getSpellCheckResults(Query query){
-    return nGramSpellChecker.getSpellCheckResults(query);
   }
 }

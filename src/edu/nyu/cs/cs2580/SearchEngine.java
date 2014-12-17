@@ -8,6 +8,10 @@ import edu.nyu.cs.cs2580.handler.PrfHandler;
 import edu.nyu.cs.cs2580.handler.QueryHandler;
 import edu.nyu.cs.cs2580.minning.CorpusAnalyzer;
 import edu.nyu.cs.cs2580.minning.LogMiner;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTreeSpellChecker;
+import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
+import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
 import edu.nyu.cs.cs2580.utils.Util;
 
 import java.io.BufferedReader;
@@ -181,6 +185,15 @@ public class SearchEngine {
 
   public static int PORT = -1;
 
+  /**
+   * Running spell mode of the search engine.
+   */
+  public static enum SPELLMODE {
+    NONE, NGRAM, BKTREE
+  };
+
+  public static SPELLMODE SPELL_MODE = SPELLMODE.NONE;
+
   private static void parseCommandLine(String[] args) throws IOException,
       NumberFormatException {
     for (String arg : args) {
@@ -195,7 +208,11 @@ public class SearchEngine {
         }
       } else if (key.equals("--port") || key.equals("-port")) {
         PORT = Integer.parseInt(value);
-      } else if (key.equals("--options") || key.equals("-options")) {
+      }
+      else if(key.equals("--spell") || key.equals("-spell")){
+        SPELL_MODE = SPELL_MODE.valueOf(value.toUpperCase());
+      }
+      else if (key.equals("--options") || key.equals("-options")) {
         OPTIONS = new Options(value);
       }
     }
@@ -279,13 +296,20 @@ public class SearchEngine {
     Util.Check(newsIndexer != null, "Indexer " + SearchEngine.OPTIONS._indexerType
         + " not found!");
 
-
     webPageIndexer.loadIndex();
     newsIndexer.loadIndex();
 
-    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, webPageIndexer);
+    String spellIndexFile = SearchEngine.OPTIONS._indexSpell + "/spell" + IndexerConstant.EXTENSION_IDX;
+    NGramSpellChecker ngramSpellChecker = NGramSpellChecker.loadIndex(spellIndexFile);
+    String newsSpellIndexFile = SearchEngine.OPTIONS._indexSpell + "/news_spell" + IndexerConstant.EXTENSION_IDX;
+    //TODO: for test, comment news spell check for now
+    //NGramSpellChecker newsNGramSpellChecker = NGramSpellChecker.loadIndex(newsSpellIndexFile);
+    NGramSpellChecker newsNGramSpellChecker = null;
+    BKTreeSpellChecker bkTreespellChecker = new BKTreeSpellChecker(new DamerauLevenshteinAlgorithm<String>());
+
+    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, webPageIndexer, bkTreespellChecker, ngramSpellChecker, SPELL_MODE);
     PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, webPageIndexer);
-    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer);
+    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer, bkTreespellChecker, newsNGramSpellChecker, SPELL_MODE);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
 
     // Establish the serving environment

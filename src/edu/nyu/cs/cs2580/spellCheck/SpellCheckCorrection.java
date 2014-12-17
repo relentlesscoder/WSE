@@ -1,4 +1,4 @@
-package edu.nyu.cs.cs2580.ngram;
+package edu.nyu.cs.cs2580.spellCheck;
 
 import com.google.gson.annotations.SerializedName;
 

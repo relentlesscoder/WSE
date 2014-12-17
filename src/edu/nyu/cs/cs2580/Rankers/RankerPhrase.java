@@ -4,7 +4,7 @@ import edu.nyu.cs.cs2580.document.Document;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.query.QueryPhrase;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
@@ -77,11 +77,6 @@ public class RankerPhrase extends Ranker {
     }
     Collections.sort(results, Collections.reverseOrder());
     return results;
-  }
-
-  @Override
-  public SpellCheckResult spellCheck(Query query){
-    return null;
   }
 
   private int nextPos(String term, int docid, int pos) {

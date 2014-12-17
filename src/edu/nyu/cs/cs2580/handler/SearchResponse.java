@@ -1,8 +1,7 @@
 package edu.nyu.cs.cs2580.handler;
 
 import com.google.gson.annotations.SerializedName;
-import edu.nyu.cs.cs2580.ngram.SpellCheckCorrection;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
 
 import java.util.ArrayList;
 

@@ -1,11 +1,15 @@
-package edu.nyu.cs.cs2580.ngram;
+package edu.nyu.cs.cs2580.spellCheck.ngram;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
+import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.query.Query;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.spellCheck.BKTree.DistanceAlgo;
 import edu.nyu.cs.cs2580.spellCheck.MisspellDataSet;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckCorrection;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.SpellChecker;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.ProgressBar;
 import edu.nyu.cs.cs2580.utils.StringUtil;
@@ -14,8 +18,10 @@ import edu.nyu.cs.cs2580.utils.Util;
 import java.io.*;
 import java.util.*;
 
-public class NGramSpellChecker implements Serializable {
+public class NGramSpellChecker extends SpellChecker implements Serializable {
   private static final long serialVersionUID = 1L;
+
+  private static final String SPELL = "spell";
 
   // Compressed inverted index, dynamically loaded per term at run time
   // Key: Term ID
@@ -77,11 +83,29 @@ public class NGramSpellChecker implements Serializable {
     }
   }
 
-  public static NGramSpellChecker loadIndex(String indexFile) throws IOException, ClassNotFoundException{
+  public static NGramSpellChecker loadIndex(String indexFile){
     System.out.println("Load index from: " + indexFile);
+    NGramSpellChecker spellChecker = null;
+    ObjectInputStream reader = null;
 
-    ObjectInputStream reader = new ObjectInputStream(new BufferedInputStream(new FileInputStream(indexFile)));
-    NGramSpellChecker spellChecker = (NGramSpellChecker) reader.readObject();
+    try
+    {
+      reader = new ObjectInputStream(new BufferedInputStream(new FileInputStream(indexFile)));
+      spellChecker = (NGramSpellChecker) reader.readObject();
+    }
+    catch (Exception e){
+      e.printStackTrace();
+    }
+    finally {
+      if(reader != null){
+        try{
+          reader.close();
+        }
+        catch (IOException e){
+          e.printStackTrace();
+        }
+      }
+    }
 
     return spellChecker;
   }
@@ -105,6 +129,7 @@ public class NGramSpellChecker implements Serializable {
     }
   }
 
+  @Override
   public SpellCheckResult getSpellCheckResults(Query query){
 
     ArrayList<SpellCheckCorrection> results = new ArrayList<>();
@@ -234,6 +259,11 @@ public class NGramSpellChecker implements Serializable {
     }
 
     return "";
+  }
+
+  @Override
+  public void addDictionary(File file) throws IOException{
+
   }
 
   /**

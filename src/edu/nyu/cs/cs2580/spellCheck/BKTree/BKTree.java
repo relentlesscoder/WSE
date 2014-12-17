@@ -67,6 +67,9 @@ public class BKTree<E> {
   // This is the misspell data set, or in another word, the error model...
   private MisspellDataSet misspellDataSet;
 
+  public BKTree(){
+  }
+
   /**
    * Constructor...
    */

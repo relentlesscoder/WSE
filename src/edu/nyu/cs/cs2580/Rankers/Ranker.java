@@ -2,7 +2,7 @@ package edu.nyu.cs.cs2580.rankers;
 
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
-import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
+import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
@@ -57,14 +57,6 @@ public abstract class Ranker {
    * @return Up to {@code numResults} scored documents in ranked order
    */
   public abstract Vector<ScoredDocument> runQuery(Query query, int numResults);
-
-  /**
-   * Processes one query.
-   *
-   * @param query the parsed user query
-   * @return spell correction results
-   */
-  public abstract SpellCheckResult spellCheck(Query query);
 
   /**
    * All rankers must be created through this factory class based on the
