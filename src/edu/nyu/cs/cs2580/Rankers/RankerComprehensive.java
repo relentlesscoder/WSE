@@ -1,26 +1,22 @@
 package edu.nyu.cs.cs2580.rankers;
 
-import edu.nyu.cs.cs2580.index.Indexer;
-import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
-import edu.nyu.cs.cs2580.SearchEngine.Options;
+import com.google.common.collect.Multiset;
 import edu.nyu.cs.cs2580.document.Document;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
-import edu.nyu.cs.cs2580.handler.CgiArguments;
+import edu.nyu.cs.cs2580.index.Indexer;
+import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.handler.CgiArguments;
 
 import java.util.*;
 
-/**
- * @CS2580: Implement this class for HW3 based on your {@code RankerFavorite}
- * from HW2. The new Ranker should now combine both term features and the
- * document-level features including the PageRank and the NumViews.
- */
 public class RankerComprehensive extends Ranker {
-  private final static double LAMDA = 0.50;
   IndexerInvertedCompressed indexerInvertedCompressed;
 
-  public RankerComprehensive(Options options, CgiArguments arguments, Indexer indexer) {
+  public RankerComprehensive(Options options, CgiArguments arguments,
+                             Indexer indexer) {
     super(options, arguments, indexer);
     this.indexerInvertedCompressed = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
@@ -60,50 +56,27 @@ public class RankerComprehensive extends Ranker {
 
   @Override
   public SpellCheckResult spellCheck(Query query){
-    return indexerInvertedCompressed.getSpellCheckResults(query);
+    return null;
   }
 
-  /**
-   * Score the document...
-   *
-   * @param query the query
-   * @param docId document ID
-   * @return a ScoreDocument
-   */
   public ScoredDocument scoreDocument(Query query, int docId) {
     ScoredDocument scoredDocument = null;
-    // C is the total number of word occurrences in the collection.
-    long C = indexerInvertedCompressed.totalTermFrequency();
 
-    // Query vector
-    List<String> queryList = new ArrayList<String>();
-    for (String term : query._tokens) {
-      queryList.add(term);
+    List<String> tokens = new ArrayList<String>(query._tokens);
+    // <Term, Term frequency>
+    Map<String, Integer> queryMap = new HashMap<String, Integer>();
+
+    for (String term : tokens) {
+      if (queryMap.containsKey(term)) {
+        queryMap.put(term, queryMap.get(term) + 1);
+      } else {
+        queryMap.put(term, 1);
+      }
     }
+
+    double score = cosineSimilarity(docId, queryMap);
 
     Document document = indexerInvertedCompressed.getDoc(docId);
-
-    // Score the document. Here we have provided a very simple ranking model,
-    // where a document is scored 1.0 if it gets hit by at least one query
-    // term.
-    double score = 0.0;
-
-    for (int i = 0; i < queryList.size(); ++i) {
-      String qi = queryList.get(i);
-
-      // fqi_D is the number of times word qi occurs in document D.
-      int fqi_D = indexerInvertedCompressed.documentTermFrequency(qi,
-          document._docid);
-      // cqi is the number of times a query word occurs in the collection of
-      // documents
-      int cqi = indexerInvertedCompressed.corpusDocFrequencyByTerm(qi);
-      // D is the number of words in D.
-      double D = document.getTotalDocTerms();
-
-      score += Math.log((1 - LAMDA) * (fqi_D / D) + LAMDA * (cqi / C));
-    }
-
-    score = Math.exp(score);
 
     // Considered page rank scores...
     if (document.getPageRank() > 0) {
@@ -116,11 +89,82 @@ public class RankerComprehensive extends Ranker {
 
     // Check for title
     if (indexerInvertedCompressed.isQueryInTitle(query, docId)) {
-      score *= 1.5;
+      score *= 2;
     }
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
-
     return scoredDocument;
+  }
+
+  private double cosineSimilarity(int docid, Map<String, Integer> queryMap) {
+    Multiset<Integer> docTermFrequency = indexerInvertedCompressed.getDocidTermFrequency(docid);
+    int numOfDocTerms = docTermFrequency.size();
+
+    double score = 0.0;
+    double d_j;
+    double q_j;
+    double a = 0.0;
+    double b = 0.0;
+    double c = 0.0;
+
+    // Calculate the numerator a and part of the denominator c
+    for (String queryTerm : queryMap.keySet()) {
+      int queryTermId = indexerInvertedCompressed.getTermId(queryTerm);
+      int queryFrequency = queryMap.get(queryTerm);
+
+      q_j = getQueryTermWeights(queryTermId, queryFrequency);
+
+      if (docTermFrequency.contains(queryTermId)) {
+        d_j = getDocumentTermWeights(docTermFrequency, numOfDocTerms, queryTermId);
+        a += d_j * q_j;
+      }
+
+      c += q_j * q_j;
+    }
+
+    // Calculate the part of denominator b
+    for (int termId : docTermFrequency.elementSet()) {
+      d_j = getDocumentTermWeights(docTermFrequency, numOfDocTerms, termId);
+      b += d_j * d_j;
+    }
+
+    if (b * c != 0) {
+      score = a / Math.sqrt(b * c);
+    }
+
+    return score;
+  }
+
+  private double getQueryTermWeights(int queryTermId, int termFrequency) {
+    double tf_ik = termFrequency;
+    double idf_k = getInverseDocumentFrequency(queryTermId);
+
+    return tf_ik * idf_k;
+  }
+
+  private double getDocumentTermWeights(Multiset<Integer> docTermFrequency,
+                                        int numOfDocTerms, int termId) {
+    double tf_ik = getTermFrequencyWeight(docTermFrequency, numOfDocTerms, termId);
+    double idf_k = getInverseDocumentFrequency(termId);
+
+    return tf_ik * idf_k;
+  }
+
+  private double getTermFrequencyWeight(Multiset<Integer> docTermFrequency,
+                                        int numOfDocTerms, int termId) {
+    double tf_ik = 0.0;
+    double f_ik = docTermFrequency.count(termId);
+
+    tf_ik = f_ik / numOfDocTerms;
+
+    return tf_ik;
+  }
+
+  private double getInverseDocumentFrequency(int termId) {
+    String term = indexerInvertedCompressed.getTermById(termId);
+    double N = _indexer.numDocs();
+    double n_t = indexerInvertedCompressed.corpusDocFrequencyByTerm(term);
+
+    return Math.log(N / n_t);
   }
 }
