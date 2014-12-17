@@ -7,6 +7,7 @@ import edu.nyu.cs.cs2580.document.Document;
 import edu.nyu.cs.cs2580.document.DocumentNews;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
+import edu.nyu.cs.cs2580.ngram.SpellCheckResult;
 import edu.nyu.cs.cs2580.preprocess.FilePreprocess;
 import edu.nyu.cs.cs2580.query.Query;
 
@@ -134,5 +135,10 @@ public class NewsRanker extends Ranker {
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 
     return scoredDocument;
+  }
+
+  @Override
+  public SpellCheckResult spellCheck(Query query){
+    return null;
   }
 }
