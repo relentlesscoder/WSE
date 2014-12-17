@@ -50,7 +50,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Value: The offsets for each of docid in the posting list.
   private ListMultimap<Integer, Byte> skipPointers;
 
-  // Key: Term ID
+  // Key: Term IDd
   // Value: MetaData
   // MetaData {
   //   corpusTermFrequency: Term frequency across whole corpus.
@@ -221,14 +221,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     for (File file : spellIndexFolder.listFiles()) {
       if (file.getName().matches("^" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX)) {
-        file.delete();
-      }
-    }
-
-    for (File file : outputFolder.listFiles()) {
-      if (file.getName().matches("^.*" + CORPUS_INDEX + "[0-9]*" + IndexerConstant.EXTENSION_IDX) ||
-          file.getName().matches("^.*" + DOCUMENTS + "[0-9]*" + IndexerConstant.EXTENSION_IDX) ||
-          file.getName().matches("^.*" + META + IndexerConstant.EXTENSION_IDX)) {
         file.delete();
       }
     }
