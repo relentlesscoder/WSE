@@ -1,21 +1,26 @@
 package edu.nyu.cs.cs2580.rankers;
 
 import com.google.common.collect.Multiset;
+import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.document.DocumentNews;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
+import edu.nyu.cs.cs2580.handler.CgiArguments;
 import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
+import edu.nyu.cs.cs2580.preprocess.FilePreprocess;
 import edu.nyu.cs.cs2580.query.Query;
-import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.handler.CgiArguments;
 
 import java.util.*;
 
-public class RankerComprehensive extends Ranker {
+/**
+ * Created by tanis on 12/17/14.
+ */
+public class NewsRanker extends Ranker{
   IndexerInvertedCompressed indexerInvertedCompressed;
 
-  public RankerComprehensive(Options options, CgiArguments arguments,
-                             Indexer indexer) {
+  public NewsRanker(SearchEngine.Options options, CgiArguments arguments,
+                      Indexer indexer) {
     super(options, arguments, indexer);
     this.indexerInvertedCompressed = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
@@ -29,7 +34,7 @@ public class RankerComprehensive extends Ranker {
 
     while (true) {
       Document document = indexerInvertedCompressed.nextDoc(query,
-          nextDocid);
+              nextDocid);
       if (document == null) {
         break;
       }
@@ -70,21 +75,25 @@ public class RankerComprehensive extends Ranker {
 
     double score = cosineSimilarity(docId, queryMap);
 
-    Document document = indexerInvertedCompressed.getDoc(docId);
+    DocumentNews document = (DocumentNews)indexerInvertedCompressed.getDoc(docId);
 
-    // Considered page rank scores...
-    if (document.getPageRank() > 0) {
-      score = score * document.getPageRank();
+    int timeLength = 15;
+    Date time = document.getTime();
+    if (time.compareTo(FilePreprocess.dates[0])<0){
+      timeLength = 15;
+    }else{
+      for (int i=1; i<FilePreprocess.dates.length; i++){
+        if (time.compareTo(FilePreprocess.dates[i])<0){
+          timeLength-=i;
+          break;
+        }
+        if (i==FilePreprocess.dates.length-1){
+          timeLength-=i;
+        }
+      }
     }
 
-    if (indexerInvertedCompressed.getTotalNumViews() > 0) {
-      score = score + score * 0.1 * ((double) document.getNumViews() / (double) indexerInvertedCompressed.getTotalNumViews());
-    }
-
-    // Check for title
-    if (indexerInvertedCompressed.isQueryInTitle(query, docId)) {
-      score *= 2;
-    }
+    score = score/(Math.log(1.95+timeLength*.05)/Math.log(2));
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
     return scoredDocument;

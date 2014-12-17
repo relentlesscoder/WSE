@@ -16,11 +16,11 @@ import java.util.*;
 /**
  * Created by tanis on 12/15/14.
  */
-public class NewsRanker extends Ranker {
+public class NewsRankerComprehensive extends Ranker {
   private final static double LAMDA = 0.50;
   IndexerInvertedCompressed indexerInvertedCompressed;
 
-  public NewsRanker(Options options, CgiArguments arguments, Indexer indexer) {
+  public NewsRankerComprehensive(Options options, CgiArguments arguments, Indexer indexer) {
     super(options, arguments, indexer);
     this.indexerInvertedCompressed = (IndexerInvertedCompressed) this._indexer;
     System.out.println("Using Ranker: " + this.getClass().getSimpleName());
@@ -130,7 +130,7 @@ public class NewsRanker extends Ranker {
       }
     }
 
-    score = score*(Math.log(1.9+timeLength*.1)/Math.log(2));
+    score = score/(Math.log(1.95+timeLength*.05)/Math.log(2));
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 

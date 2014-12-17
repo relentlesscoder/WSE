@@ -9,7 +9,7 @@ import java.util.List;
 public class Topic {
 
   private int topicID;
-  private List<Integer> docList;
+  private List<DocTopicPr> docList;
   private List<String> terms;
 //  private int mostDocNum;
 //  private int leastDocNum;
@@ -21,7 +21,7 @@ public class Topic {
     this.topicID=topicID;
     timeSlots = new int[timeSpan];
     terms = new ArrayList<String>();
-    docList = new ArrayList<Integer>();
+    docList = new ArrayList<DocTopicPr>();
     score = 0.0;
   };
 
@@ -45,7 +45,7 @@ public class Topic {
     return terms;
   }
 
-  public List<Integer> getDocList() {
+  public List<DocTopicPr> getDocList() {
     return docList;
   }
 
@@ -57,5 +57,27 @@ public class Topic {
     this.score = score;
   }
 
+}
 
+class DocTopicPr{
+  private Integer docID;
+  private Double proportion;
+
+  DocTopicPr (int docid, double proportion){
+    this.docID = docid;
+    this.proportion = proportion;
+  }
+
+  public Integer getDocID() {
+    return docID;
+  }
+
+  public Double getProportion() {
+    return proportion;
+  }
+
+  @Override
+  public String toString(){
+    return docID+"\t"+proportion;
+  }
 }

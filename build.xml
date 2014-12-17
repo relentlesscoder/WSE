@@ -8,6 +8,10 @@
     <property name="main-class" value="edu.nyu.cs.cs2580.SearchEngine"/>
     <property name="B-Compute"  value="edu.nyu.cs.cs2580.SearchEngine"/>
     <property name="crawl"  value="edu.nyu.cs.cs2580.crawler.rss.MainApplication"/>
+    <property name="mallet-input"  value="edu.nyu.cs.cs2580.preprocess.NewsToMalletInput"/>
+    <property name="analyze"  value="edu.nyu.cs.cs2580.preprocess.TopicAnalyzer"/>
+
+
 
     <path id="classpath">
         <fileset dir="${lib}" includes="*.jar"/>
@@ -30,6 +34,25 @@
             </classpath>
         </java>
     </target>
+
+    <target name="interdata">
+        <java fork="true" classname="${mallet-input}">
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="analyze">
+        <java fork="true" classname="${analyze}">
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
 
     <target name="SearchEngine">
         <java fork="true" classname="${main-class}" maxmemory="512m">

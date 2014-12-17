@@ -4,6 +4,7 @@ import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
+import edu.nyu.cs.cs2580.document.Document;
 import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
 import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
 import edu.nyu.cs.cs2580.query.Query;
@@ -13,10 +14,12 @@ import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.Util;
 import edu.nyu.cs.cs2580.utils.VByteUtil;
-import edu.nyu.cs.cs2580.document.Document;
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * This is the compressed inverted indexer...
@@ -47,7 +50,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Value: The offsets for each of docid in the posting list.
   private ListMultimap<Integer, Byte> skipPointers;
 
-  // Key: Term ID
+  // Key: Term IDd
   // Value: MetaData
   // MetaData {
   //   corpusTermFrequency: Term frequency across whole corpus.
@@ -70,11 +73,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   private String DOCUMENTS;
   private String META;
 
+  private String SPELL_INDEX;
+
   private long totalTermFrequency = 0;
   private long totalNumViews = 0;
-
-  private static final String SPELL = "spell";
-  private static final String SPELL_NEWS = "news_spell";
 
   // Provided for serialization
   public IndexerInvertedCompressed() {
@@ -93,11 +95,13 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
         CORPUS_INDEX = IndexerConstant.HTML_CORPUS_INDEX;
         DOCUMENTS = IndexerConstant.HTML_DOCUMENTS;
         META = IndexerConstant.HTML_META;
+        SPELL_INDEX = IndexerConstant.HTML_SPELL_INDEX;
         break;
       case NEWS_FEED_CORPUS:
         CORPUS_INDEX = IndexerConstant.NEWS_FEED_CORPUS_INDEX;
         DOCUMENTS = IndexerConstant.NEWS_FEED_DOCUMENTS;
         META = IndexerConstant.NEWS_FEED_META;
+        SPELL_INDEX = IndexerConstant.NEWS_FEED_SPELL_INDEX;
         break;
       default:
         throw new IllegalArgumentException("Illegal corpus type!!!");
@@ -158,7 +162,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     // Process file/document one by one and assign each of them a unique docid
     if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
       documentProcessor = new HtmlDocumentProcessor(files, _options);
-    } else if (corpusType == SearchEngine.CORPUS_TYPE.NEWS_FEED_CORPUS){
+    } else if (corpusType == SearchEngine.CORPUS_TYPE.NEWS_FEED_CORPUS) {
       documentProcessor = new NewsDocumentProcessor(files, _options);
     } else {
       // ...
@@ -210,12 +214,18 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      *************************************************************************/
 
     File spellIndexFolder = new File(_options._indexSpell);
+    if (!spellIndexFolder.exists()) {
+      spellIndexFolder.mkdir();
+    }
+
     for (File file : spellIndexFolder.listFiles()) {
-      file.delete();
+      if (file.getName().matches("^" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX)) {
+        file.delete();
+      }
     }
 
     /**************************************************************************
-     * Start indexing....
+     * Start indexing for spell check.......
      *************************************************************************/
     startTimeStamp = System.currentTimeMillis();
     System.out.println("Start spell check indexing...");
@@ -286,14 +296,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     writer.writeObject(this);
     writer.close();
 
-    String spellIndexFile = null;
-    if (corpusType == SearchEngine.CORPUS_TYPE.WEB_PAGE_CORPUS) {
-      spellIndexFile = _options._indexSpell + "/" + SPELL + IndexerConstant.EXTENSION_IDX;
-    } else if (corpusType == SearchEngine.CORPUS_TYPE.NEWS_FEED_CORPUS){
-      spellIndexFile = _options._indexSpell + "/" + SPELL_NEWS + IndexerConstant.EXTENSION_IDX;
-    } else {
-      // ...
-    }
+    String spellIndexFile = _options._indexSpell + "/" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
 
     if(spellIndexFile != null){
       System.out.println("Storing spell inverted index to: " + _options._indexSpell);
@@ -460,10 +463,10 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    * document ID exists.
    */
   private int nextDocid(String term, int docid) {
-    if(dictionary.containsKey(term)){
+    if (dictionary.containsKey(term)) {
       int termId = dictionary.get(term);
       List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
-              .get(termId));
+          .get(termId));
 
       int startOffsetOfPostingList = 0;
       int prevDocid = 0;
@@ -471,19 +474,18 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
       if (docid >= 0) {
         // Get the start offset of the skip pointers...
         int startOffsetOfSkipPointers = getDocidPossibleSkipPointerStartOffset(
-                partialSkipPointers, docid + 1);
+            partialSkipPointers, docid + 1);
         if (startOffsetOfSkipPointers >= 0) {
           // Skip...
           prevDocid = partialSkipPointers.get(startOffsetOfSkipPointers);
           startOffsetOfPostingList = partialSkipPointers
-                  .get(startOffsetOfSkipPointers + 1);
+              .get(startOffsetOfSkipPointers + 1);
         }
       }
 
       return scanPostingListForNextDocid(term, docid, prevDocid,
-              startOffsetOfPostingList);
-    }
-    else{
+          startOffsetOfPostingList);
+    } else {
       return -1;
     }
   }
@@ -509,7 +511,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
           .get(startOffsetOfSkipPointers + 1);
     }
     return scanPostingListForDocid(termId, docid, prevDocid,
-            startOffsetOfPostingList);
+        startOffsetOfPostingList);
   }
 
   /**
@@ -750,7 +752,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
    */
   private int getDocidOffset(int termId, int docid) {
     List<Integer> partialSkipPointers = VByteUtil.vByteDecodingList(skipPointers
-            .get(termId));
+        .get(termId));
     int startOffsetOfPostingList = 0;
     int prevDocid = 0;
 
@@ -1199,7 +1201,7 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     }
 
     for (String term : query) {
-      if(dictionary.containsKey(term)){
+      if (dictionary.containsKey(term)) {
         int termId = dictionary.get(term);
         if (!invertedIndex.containsKey(termId)) {
           hasAlready = false;

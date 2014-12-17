@@ -76,11 +76,11 @@ public class ScoredDocument implements Comparable<ScoredDocument> {
 		return this._doc.getUrl();
 	}
 
-	public int getDocid() {
-		return _doc._docid;
-	}
+  public Document getDocument() {
+    return this._doc;
+  }
 
-	public String getServerUrl() {
+  public String getServerUrl() {
 		String url = this._doc.getUrl();
 		if (url.matches("^http.*")) {
 			return url;
