@@ -1,11 +1,10 @@
 package edu.nyu.cs.cs2580.rankers;
 
-import edu.nyu.cs.cs2580.document.ScoredDocument;
-import edu.nyu.cs.cs2580.index.Indexer;
-import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
-import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
+import edu.nyu.cs.cs2580.index.Indexer;
+import edu.nyu.cs.cs2580.query.Query;
 
 import java.util.Vector;
 

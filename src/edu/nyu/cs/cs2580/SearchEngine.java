@@ -6,9 +6,7 @@ import edu.nyu.cs.cs2580.index.Indexer;
 import edu.nyu.cs.cs2580.minning.CorpusAnalyzer;
 import edu.nyu.cs.cs2580.minning.LogMiner;
 import edu.nyu.cs.cs2580.rankers.IndexerConstant;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTreeSpellChecker;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.DamerauLevenshteinAlgorithm;
-import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
+import edu.nyu.cs.cs2580.spellCheck.NGramSpellChecker;
 import edu.nyu.cs.cs2580.utils.Util;
 
 import java.io.BufferedReader;
@@ -56,6 +54,12 @@ public class SearchEngine {
     // The parent path where the web page corpus resides.
     public String _corpusPrefix = null;
 
+    // The parent path where the constructed index resides.
+    public String _indexPrefix = null;
+
+    // The specific Indexer to be used.
+    public String _indexerType = null;
+
     // The parent path where the news feed corpus resides.
     public String _newsPrefix = null;
 
@@ -68,11 +72,8 @@ public class SearchEngine {
     // The parent path where the number of views data resides
     public String _numviewPrefix = null;
 
-    // The parent path where the constructed index resides.
-    public String _indexPrefix = null;
-
-    // The specific Indexer to be used.
-    public String _indexerType = null;
+    // The parent path where the spell check index resides
+    public String _spellPrefix = null;
 
     // The specific CorpusAnalyzer to be used.
     public String _corpusAnalyzerType = null;
@@ -91,9 +92,6 @@ public class SearchEngine {
 
     // The parent path where the result template resides
     public String _resultTemplate = null;
-
-    // The parent path where the spell check index resides
-    public String _indexSpell = null;
 
     /**
      * Constructor for options.
@@ -164,8 +162,8 @@ public class SearchEngine {
       _resultTemplate = options.get("result_template");
       Util.Check(_resultTemplate != null, "Missing option: result_template!");
 
-      _indexSpell = options.get("index_spell");
-      Util.Check(_indexSpell != null, "Missing option: index_spell!");
+      _spellPrefix = options.get("index_spell");
+      Util.Check(_spellPrefix != null, "Missing option: index_spell!");
     }
   }
 
@@ -175,21 +173,12 @@ public class SearchEngine {
    * Running mode of the search engine.
    */
   public static enum Mode {
-    NONE, MINING, WEB_PAGE_INDEX, NEWS_FEED_INDEX, SERVE,
+    NONE, MINING, WEB_PAGE_INDEX, NEWS_FEED_INDEX, NGRAM_SPELL_CHECK_INDEX, SERVE,
   };
 
   public static Mode MODE = Mode.NONE;
 
   public static int PORT = -1;
-
-  /**
-   * Running spell mode of the search engine.
-   */
-  public static enum SPELLMODE {
-    NONE, NGRAM, BKTREE
-  };
-
-  public static SPELLMODE SPELL_MODE = SPELLMODE.NONE;
 
   private static void parseCommandLine(String[] args) throws IOException,
       NumberFormatException {
@@ -205,15 +194,12 @@ public class SearchEngine {
         }
       } else if (key.equals("--port") || key.equals("-port")) {
         PORT = Integer.parseInt(value);
-      }
-      else if(key.equals("--spell") || key.equals("-spell")){
-        SPELL_MODE = SPELL_MODE.valueOf(value.toUpperCase());
-      }
-      else if (key.equals("--options") || key.equals("-options")) {
+      } else if (key.equals("--options") || key.equals("-options")) {
         OPTIONS = new Options(value);
       }
     }
-    Util.Check(MODE == Mode.SERVE || MODE == Mode.WEB_PAGE_INDEX || MODE == Mode.NEWS_FEED_INDEX || MODE == Mode.MINING,
+
+    Util.Check(MODE == Mode.SERVE || MODE == Mode.WEB_PAGE_INDEX || MODE == Mode.NEWS_FEED_INDEX || MODE == Mode.MINING || MODE == Mode.NGRAM_SPELL_CHECK_INDEX,
         "Must provide a valid mode: serve or index or mining!");
     Util.Check(MODE != Mode.SERVE || PORT != -1,
         "Must provide a valid port number (258XX) in serve mode!");
@@ -281,6 +267,14 @@ public class SearchEngine {
     indexer.constructIndex();
   }
 
+  private static void startSpellCheckIndexing() throws IOException, ClassNotFoundException {
+    NGramSpellChecker webNgramSpellChecker = new NGramSpellChecker();
+    NGramSpellChecker newsNgramSpellChecker = new NGramSpellChecker();
+
+    webNgramSpellChecker.construct(SearchEngine.OPTIONS, IndexerConstant.HTML_META);
+    newsNgramSpellChecker.construct(SearchEngine.OPTIONS, IndexerConstant.NEWS_FEED_META);
+  }
+
   private static void startServing() throws IOException, ClassNotFoundException {
     // Create the handler and its associated indexer.
     CORPUS_TYPE webPageCorpusType = CORPUS_TYPE.WEB_PAGE_CORPUS;
@@ -296,17 +290,14 @@ public class SearchEngine {
     webPageIndexer.loadIndex();
     newsIndexer.loadIndex();
 
-    String spellIndexFile = SearchEngine.OPTIONS._indexSpell + "/spell" + IndexerConstant.EXTENSION_IDX;
-    NGramSpellChecker ngramSpellChecker = NGramSpellChecker.loadIndex(spellIndexFile);
-    String newsSpellIndexFile = SearchEngine.OPTIONS._indexSpell + "/news_spell" + IndexerConstant.EXTENSION_IDX;
-    //TODO: for test, comment news spell check for now
-    //NGramSpellChecker newsNGramSpellChecker = NGramSpellChecker.loadIndex(newsSpellIndexFile);
-    NGramSpellChecker newsNGramSpellChecker = null;
-    BKTreeSpellChecker bkTreespellChecker = new BKTreeSpellChecker(new DamerauLevenshteinAlgorithm<String>());
+//    String webSpellCheckPath = SearchEngine.OPTIONS._spellPrefix + "/" + IndexerConstant.HTML_SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
+//    String newsSpellCheckPath = SearchEngine.OPTIONS._spellPrefix + "/" + IndexerConstant.NEWS_FEED_SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
+//    NGramSpellChecker webNgramSpellChecker = NGramSpellChecker.loadIndex(webSpellCheckPath);
+//    NGramSpellChecker newsNgramSpellChecker = NGramSpellChecker.loadIndex(newsSpellCheckPath);
 
-    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, webPageIndexer, bkTreespellChecker, ngramSpellChecker, SPELL_MODE);
+    QueryHandler queryHandler = new QueryHandler(SearchEngine.OPTIONS, webPageIndexer);
     PrfHandler prfHandler = new PrfHandler(SearchEngine.OPTIONS, webPageIndexer);
-    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer, bkTreespellChecker, newsNGramSpellChecker, SPELL_MODE);
+    NewsQueryHandler newsQueryHandler = new NewsQueryHandler(SearchEngine.OPTIONS, newsIndexer);
     PrfHandler newsPrfHandler = new PrfHandler(SearchEngine.OPTIONS, newsIndexer);
     HtmlHandler htmlHandler = new HtmlHandler(SearchEngine.OPTIONS);
     TopicsHandler topicsHandler = new TopicsHandler(SearchEngine.OPTIONS, newsIndexer);
@@ -341,6 +332,9 @@ public class SearchEngine {
         case NEWS_FEED_INDEX:
           corpusType = CORPUS_TYPE.NEWS_FEED_CORPUS;
           startIndexing(corpusType);
+          break;
+        case NGRAM_SPELL_CHECK_INDEX:
+          startSpellCheckIndexing();
           break;
         case SERVE:
           startServing();

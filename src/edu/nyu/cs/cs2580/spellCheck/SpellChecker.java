@@ -4,13 +4,15 @@ import edu.nyu.cs.cs2580.query.Query;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
-/**
- * Created by Wei on 12/17/2014.
- */
-public abstract class SpellChecker {
+public interface SpellChecker {
+  /**
+   * Return a query string where all misspelled words are replaced with most possible correct word.
+   */
+  public CorrectedQuery getCorrectedQuery(Query query);
 
-  public abstract SpellCheckResult getSpellCheckResults(Query query);
+  public String getMostPossibleCorrectWord(String term);
 
-  public abstract void addDictionary(File file) throws IOException;
+  public List<String> getMostPossibleCorrectWord(String term, int size);
 }

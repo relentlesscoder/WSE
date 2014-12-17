@@ -4,13 +4,12 @@ import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.google.common.collect.*;
 import com.google.common.primitives.Bytes;
-import edu.nyu.cs.cs2580.document.Document;
-import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
-import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
-import edu.nyu.cs.cs2580.query.Query;
-import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.SearchEngine;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
+import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.query.Query;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
+import edu.nyu.cs.cs2580.spellCheck.NGramSpellChecker;
 import edu.nyu.cs.cs2580.tokenizer.Tokenizer;
 import edu.nyu.cs.cs2580.utils.Util;
 import edu.nyu.cs.cs2580.utils.VByteUtil;
@@ -210,35 +209,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
     System.out.println("Merging time: " + Util.convertMillis(duration));
 
     /**************************************************************************
-     * First delete the old spell index files in the target folder....
-     *************************************************************************/
-
-    File spellIndexFolder = new File(_options._indexSpell);
-    if (!spellIndexFolder.exists()) {
-      spellIndexFolder.mkdir();
-    }
-
-    for (File file : spellIndexFolder.listFiles()) {
-      if (file.getName().matches("^" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX)) {
-        file.delete();
-      }
-    }
-
-    /**************************************************************************
-     * Start indexing for spell check.......
-     *************************************************************************/
-    startTimeStamp = System.currentTimeMillis();
-    System.out.println("Start spell check indexing...");
-
-    NGramSpellChecker spellChecker = new NGramSpellChecker(dictionary, getTermFrequency(), totalTermFrequency);
-    spellChecker.buildIndex();
-
-    duration = System.currentTimeMillis() - startTimeStamp;
-
-    System.out.println("Complete spell check indexing...");
-    System.out.println("Indexing time: " + Util.convertMillis(duration));
-
-    /**************************************************************************
      * Populating document addition properties for web page corpus
      *************************************************************************/
 
@@ -295,17 +265,6 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
 
     writer.writeObject(this);
     writer.close();
-
-    String spellIndexFile = _options._indexSpell + "/" + SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
-
-    if(spellIndexFile != null){
-      System.out.println("Storing spell inverted index to: " + _options._indexSpell);
-      ObjectOutputStream spellWriter = new ObjectOutputStream(new BufferedOutputStream(new
-              FileOutputStream(spellIndexFile)));
-
-      spellWriter.writeObject(spellChecker);
-      spellWriter.close();
-    }
 
     duration = System.currentTimeMillis() - startTimeStamp;
     System.out.println("Complete serializing...");
@@ -1304,6 +1263,14 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
   // Return the dictionary
   public ImmutableSet<String> getDictionaryTerms() {
     return dictionary.keySet();
+  }
+
+  public ImmutableBiMap<String, Integer> getDictionary() {
+    return dictionary;
+  }
+
+  public long getTotalTermFrequency() {
+    return totalTermFrequency;
   }
 
   // Check if the dictionary of the index contains the term

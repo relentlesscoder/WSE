@@ -1,13 +1,12 @@
 package edu.nyu.cs.cs2580.rankers;
 
-import edu.nyu.cs.cs2580.index.Indexer;
-import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.document.Document;
 import edu.nyu.cs.cs2580.document.DocumentNews;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.handler.CgiArguments;
-import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
+import edu.nyu.cs.cs2580.index.Indexer;
+import edu.nyu.cs.cs2580.index.IndexerInvertedCompressed;
 import edu.nyu.cs.cs2580.preprocess.FilePreprocess;
 import edu.nyu.cs.cs2580.query.Query;
 
@@ -34,7 +33,7 @@ public class NewsRankerComprehensive extends Ranker {
 
     while (true) {
       Document document = indexerInvertedCompressed.nextDoc(query,
-              nextDocid);
+          nextDocid);
       if (document == null) {
         break;
       }
@@ -88,7 +87,7 @@ public class NewsRankerComprehensive extends Ranker {
 
       // fqi_D is the number of times word qi occurs in document D.
       int fqi_D = indexerInvertedCompressed.documentTermFrequency(qi,
-              document._docid);
+          document._docid);
       // cqi is the number of times a query word occurs in the collection of
       // documents
       int cqi = indexerInvertedCompressed.corpusDocFrequencyByTerm(qi);
@@ -116,21 +115,21 @@ public class NewsRankerComprehensive extends Ranker {
 
     int timeLength = 15;
     Date time = document.getTime();
-    if (time.compareTo(FilePreprocess.dates[0])<0){
+    if (time.compareTo(FilePreprocess.dates[0]) < 0) {
       timeLength = 15;
-    }else{
-      for (int i=1; i<FilePreprocess.dates.length; i++){
-        if (time.compareTo(FilePreprocess.dates[i])<0){
-          timeLength-=i;
+    } else {
+      for (int i = 1; i < FilePreprocess.dates.length; i++) {
+        if (time.compareTo(FilePreprocess.dates[i]) < 0) {
+          timeLength -= i;
           break;
         }
-        if (i==FilePreprocess.dates.length-1){
-          timeLength-=i;
+        if (i == FilePreprocess.dates.length - 1) {
+          timeLength -= i;
         }
       }
     }
 
-    score = score/(Math.log(1.95+timeLength*.05)/Math.log(2));
+    score = score / (Math.log(1.95 + timeLength * .05) / Math.log(2));
 
     scoredDocument = new ScoredDocument(document, score, document.getPageRank(), document.getNumViews());
 

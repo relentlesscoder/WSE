@@ -4,25 +4,23 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
-import edu.nyu.cs.cs2580.document.Document;
+import edu.nyu.cs.cs2580.SearchEngine;
+import edu.nyu.cs.cs2580.SearchEngine.Options;
 import edu.nyu.cs.cs2580.document.DocumentNews;
 import edu.nyu.cs.cs2580.document.ScoredDocument;
 import edu.nyu.cs.cs2580.index.Indexer;
-import edu.nyu.cs.cs2580.*;
 import edu.nyu.cs.cs2580.query.Query;
 import edu.nyu.cs.cs2580.query.QueryPhrase;
+import edu.nyu.cs.cs2580.rankers.IndexerConstant;
 import edu.nyu.cs.cs2580.rankers.Ranker;
-import edu.nyu.cs.cs2580.SearchEngine.Options;
-import edu.nyu.cs.cs2580.spellCheck.BKTree.BKTreeSpellChecker;
-import edu.nyu.cs.cs2580.spellCheck.SpellCheckResult;
-import edu.nyu.cs.cs2580.spellCheck.ngram.NGramSpellChecker;
+import edu.nyu.cs.cs2580.spellCheck.CorrectedQuery;
+import edu.nyu.cs.cs2580.spellCheck.NGramSpellChecker;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.Vector;
 
 /**
@@ -35,11 +33,6 @@ import java.util.Vector;
  * @author fdiaz
  */
 public class NewsQueryHandler extends BaseHandler {
-
-  private BKTreeSpellChecker _bkTreeSpellChecker;
-  private NGramSpellChecker _nGramSpellChecker;
-  private SearchEngine.SPELLMODE _spellMode;
-
   class NewsSearchResponse {
 
     @SerializedName("queryText")
@@ -51,22 +44,18 @@ public class NewsQueryHandler extends BaseHandler {
     @SerializedName("status")
     private SearchStatus _status;
 
-    public NewsSearchResponse(String queryText, ArrayList<NewsSearchResult> results, SearchStatus status){
+    public NewsSearchResponse(String queryText, ArrayList<NewsSearchResult> results, SearchStatus status) {
       _queryText = queryText;
       _results = results;
       _status = status;
     }
   }
 
-  public NewsQueryHandler(Options options, Indexer indexer,
-            BKTreeSpellChecker bkTreeSpellChecker,
-            NGramSpellChecker nGramSpellChecker,
-            SearchEngine.SPELLMODE spellMode) throws IOException {
+  public NewsQueryHandler(Options options, Indexer indexer) throws IOException {
     super(options, indexer);
-
-    this._bkTreeSpellChecker = bkTreeSpellChecker;
-    this._nGramSpellChecker = nGramSpellChecker;
-    this._spellMode = spellMode;
+    nGramSpellChecker = new NGramSpellChecker();
+    String indexFileName = options._spellPrefix + "/" + IndexerConstant.NEWS_FEED_SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
+    nGramSpellChecker.loadIndex(indexFileName);
   }
 
   private void constructTextOutput(final Vector<ScoredDocument> docs, StringBuffer response) {
@@ -86,12 +75,12 @@ public class NewsQueryHandler extends BaseHandler {
     output.append("<div id=\"divSearchContainer\">\r\n");
     output.append("<ul id=\"unorderedList\">\r\n");
     for (ScoredDocument scoredDocument : scoredDocuments) {
-      DocumentNews document = (DocumentNews)scoredDocument.getDocument();
+      DocumentNews document = (DocumentNews) scoredDocument.getDocument();
       output.append("<li class=\"divDocument" + "\">\r\n");
       output.append("<a href=\"" + scoredDocument.getServerUrl()
           + "\" class=\"doc_title\">" + scoredDocument.getTitle() + "</a>\r\n");
-      output.append("<span >" + document.getSource() + "<span>-</span>" + "<span>"+ document.getTime() +"</span>"
-              + "</p>\r\n");
+      output.append("<span >" + document.getSource() + "<span>-</span>" + "<span>" + document.getTime() + "</span>"
+          + "</p>\r\n");
       output.append("<p class=\"score\">Score: " + scoredDocument.getScore()
           + "</p>\r\n");
       output.append("<p>" + document.getDescription()
@@ -103,12 +92,12 @@ public class NewsQueryHandler extends BaseHandler {
     return template.replace(PLACE_HOLDER, output.toString());
   }
 
-  private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments, SpellCheckResult spellCheckResult) {
+  private String constructJsonOutput(String queryText, Vector<ScoredDocument> scoredDocuments, CorrectedQuery correctedQuery) {
 
     ArrayList<NewsSearchResult> results = new ArrayList<NewsSearchResult>();
     NewsSearchResult result;
     for (ScoredDocument scoredDocument : scoredDocuments) {
-      DocumentNews document = (DocumentNews)scoredDocument.getDocument();
+      DocumentNews document = (DocumentNews) scoredDocument.getDocument();
       result = new NewsSearchResult(scoredDocument.getTitle(), scoredDocument.getServerUrl(),
           scoredDocument.getScore(), document.getTime().getTime(), document.getSource(), document.getDescription());
       results.add(result);
@@ -243,15 +232,24 @@ public class NewsQueryHandler extends BaseHandler {
       responseBody.close();
     }
 
+    CorrectedQuery correctedQuery = null;
+    switch (cgiArgs.spellCheckerType) {
+      case NGRAM:
+        correctedQuery = nGramSpellChecker.getCorrectedQuery(processedQuery);
+        break;
+      case BK:
+      default:
+        correctedQuery = bkTreeSpellChecker.getCorrectedQuery(processedQuery);
+        break;
+    }
+
     // Ranking.
     Vector<ScoredDocument> scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
-    //TODO: add CGI argument to switch spell checker
-    SpellCheckResult spellCheck = null;
-    if(_spellMode == SearchEngine.SPELLMODE.BKTREE){
-      _bkTreeSpellChecker.getSpellCheckResults(processedQuery);
-    }
-    else{
-      _nGramSpellChecker.getSpellCheckResults(processedQuery);
+
+    // No result, get the corrected query instead...
+    if (!correctedQuery.isSpellCorrect() && scoredDocs.size() == 0) {
+      processedQuery._tokens = correctedQuery.getQuery();
+      scoredDocs = ranker.runQuery(processedQuery, cgiArgs._numResults);
     }
 
     switch (cgiArgs._outputFormat) {
@@ -282,7 +280,7 @@ public class NewsQueryHandler extends BaseHandler {
         break;
       }
       case JSON: {
-        String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs, spellCheck);
+        String queryResponse = constructJsonOutput(cgiArgs._query, scoredDocs, correctedQuery);
         Headers responseHeaders = exchange.getResponseHeaders();
         responseHeaders.set("Server", "Java JSON API");
         responseHeaders.set("Content-Type", "application/jsonp; charset=UTF-8");
