@@ -130,6 +130,9 @@ public class IndexerInvertedCompressed extends Indexer implements Serializable {
      *************************************************************************/
     File outputFolder = new File(_options._indexPrefix);
 
+    if (!outputFolder.exists()) {
+      outputFolder.mkdir();
+    }
     //TODO: If index folder does not exist, null pointer exception will be thrown...
 
     for (File file : outputFolder.listFiles()) {
