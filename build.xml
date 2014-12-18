@@ -1,0 +1,70 @@
+<project>
+
+    <property name="src"    value="src"/>
+    <property name="build"  value="bin"/>
+    <property name="classes"    value="${build}/classes"/>
+    <property name="lib"    value="lib"/>
+
+    <property name="main-class" value="edu.nyu.cs.cs2580.SearchEngine"/>
+    <property name="B-Compute"  value="edu.nyu.cs.cs2580.SearchEngine"/>
+    <property name="crawl"  value="edu.nyu.cs.cs2580.crawler.rss.MainApplication"/>
+    <property name="mallet-input"  value="edu.nyu.cs.cs2580.preprocess.NewsToMalletInput"/>
+    <property name="analyze"  value="edu.nyu.cs.cs2580.preprocess.TopicAnalyzer"/>
+
+
+
+    <path id="classpath">
+        <fileset dir="${lib}" includes="*.jar"/>
+    </path>
+
+    <target name="clean">
+        <delete dir="bin/classes"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="${classes}"/>
+        <javac includeantruntime="false" srcdir="${src}" destdir="${classes}" classpathref="classpath"/>
+    </target>
+
+    <target name="crawl">
+        <java fork="true" classname="${crawl}">
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="interdata">
+        <java fork="true" classname="${mallet-input}">
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+    <target name="analyze">
+        <java fork="true" classname="${analyze}">
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+
+    <target name="SearchEngine">
+        <java fork="true" classname="${main-class}" maxmemory="512m">
+            <arg value="${arg0}"/>
+            <arg value="${arg1}"/>
+            <classpath>
+                <pathelement path="${classes}" />
+                <path refid="classpath"/>
+            </classpath>
+        </java>
+    </target>
+
+
+</project>
+
