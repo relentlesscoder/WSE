@@ -71,13 +71,16 @@ We used Ant for our project environment setting. Thus, you could easily to compi
   <pre><code>
     Crawler will keep running and crawls every 2 hours:
     ant crawl
-    
+  </code></pre>
+  <pre><code>
     To generate the news input for MALLET (with window size of 2 weeks ):
     ant interdata
-    
+  </code></pre>
+  <pre><code>
     Then run Shell Script to call MALLET to generate topics:
     ./topic_model.sh
-    
+  </code></pre>
+  <pre><code>
     To get the metrics of topics, run:
     ant analyze
   </code></pre>
