@@ -57,9 +57,9 @@ public class NewsQueryHandler extends BaseHandler {
 
   public NewsQueryHandler(Options options, Indexer indexer) throws IOException {
     super(options, indexer);
-    nGramSpellChecker = new NGramSpellChecker();
-    String indexFileName = options._spellPrefix + "/" + IndexerConstant.NEWS_FEED_SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
-    nGramSpellChecker.loadIndex(indexFileName);
+//    nGramSpellChecker = new NGramSpellChecker();
+//    String indexFileName = options._spellPrefix + "/" + IndexerConstant.NEWS_FEED_SPELL_INDEX + IndexerConstant.EXTENSION_IDX;
+//    nGramSpellChecker.loadIndex(indexFileName);
   }
 
   private void constructTextOutput(final Vector<ScoredDocument> docs, StringBuffer response) {
