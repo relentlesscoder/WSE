@@ -1,67 +1,114 @@
-Group ID G06: yl1949, ws951, sy1288 :)
+### Group ID G06: yl1949, ws951, sy1288 :)
+
+#Prerequisite
+
+* Some of the codes may require JAVA 8.
+
+* For using the ngram spell checker, 1GB memory may be required. (Default will be BKTree spell checker which requires less memory)
+
+* Since serve mode require both index of web pages and news feed, we decide to put the index file of news feed along with the codes. (The corpora of news feed is too large to submit.)
+
+* Ngram spell checker index mode may not be required since the default spell checker will be BKTree due the less memory consuming.
 
 #Compile and Run
 
 ## Compile:
 
-### We used Ant for our project environment setting. Thus, you could easily to compile the project using command:
+### We used Ant for our project environment setting. Thus, you could easily to compile the project using command.
   <pre><code>
     homework3$ ant clean compile
   </code></pre>
 
 ## Run:
 
-### We used several external library, So, whenever compile the files, mining, constructing index or serving, the path to the library’s files need to be include in classpath.
+* We used several external library, So, whenever compile the files, mining, constructing index or serving, the path to the library’s files need to be include in classpath.
 
-### We recommended to include the path manual when running the program, because we implemented a progress bar which Ant can not print it in real time.
+* We recommended to include the path manual when running the program, because we implemented a progress bar which Ant can not print it in real time.
 
-### example:
-    <pre><code>
-        homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=mining --options=conf/engine.conf
-  	</code></pre>
-  	<pre><code>
-  	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=index --options=conf/engine.conf
-  	</code></pre>
-  	<pre><code>
-  	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
-  	</code></pre>
-  	<pre><code>
-  	  homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Bhattacharyya prf.tsv qsim.tsv
-  	</code></pre>
-  	<pre><code>
-        homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Spearman data/pageRank/pageRanks.g6 data/numView/numViews.g6
-    </code></pre>
+### Examples:
+
+  <pre><code>
+    Minining:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=mining --options=conf/engine.conf
+  </code></pre>
+
+  <pre><code>
+    Wiki Web Page Indexing:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=web_page_index --options=conf/engine.conf
+  </code></pre>
+
+  <pre><code>
+    News Feed Indexing:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=news_feed_index --options=conf/engine.conf
+  </code></pre>
+
+  <pre><code>
+    Ngram spell checker Indexing (Require both meta.idx from web pages corpora and news feed corpora):
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=ngram-spell-check-index --options=conf/engine.conf
+  </code></pre>
+
+  <pre><code>
+    Serving:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.SearchEngine --mode=serve --port=25806 --options=conf/engine.conf
+  </code></pre>
+
+  <pre><code>
+    Bhattacharyya:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Bhattacharyya prf.tsv qsim.tsv
+  </code></pre>
+
+  <pre><code>
+    Spearman:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.Spearman data/pageRank/pageRanks.g6 data/numView/numViews.g6
+  </code></pre>
+
+  <pre><code>
+    Spell checker evaluator:
+    homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.evaluator.SpellCorrectionEvaluator
+  </code></pre>
 
 #Implementation Detail
 
 ## Text Processing
-- Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.snowball".
+- Using Snowball Porter Stemmer Java library for aggressive text stemming, all library files are packaged into the "edu.nyu.cs.cs2580.Snowball".
 
-- Using Apache Lucene KStmmer Java Library for text stemming with validation, all library files are packaged into the "edu.nyu.cs.cs2580.kstemmer".
+- Using Apache Lucene KStmmer Java Library for text stemming with validation, all library files are packaged into the "edu.nyu.cs.cs2580.KStemmer".
 
 - Using JSoup for HTML extracting.
 
 - Using JFlex for text analysis. All regular expressions are based on Word Boundaries defined on http://www.unicode.org/reports/tr29/.
 
-## Constructing
-- Apart from the inverted index, this time we also keep a data structure for all document's term frequency.
+## Index Constructing
+- We mainly use compressed inverted index to index the web pages and news feed.
 
-- We set a memory threshold for inverted index and document term frequency map and will write it into disk once the threshold is met.
+- We use boilerpipe to extract main content from the html pages.
 
-- After processing the corpus, we will merge all temporary written files.
+- We implemented extent list, which help us to know whether a term exists in the title or not. (Current only two field: main content and title.)
+
+- We set a memory threshold for inverted index and document term frequency map and will split it into disk once the threshold is met. Later we will merge them together...
 
 - The merge process will produce only one file for inverted index called corpus.idx and another file for document term frequency map called documents.idx.
 
-- The rest will be serialized to a single file called main.idx.
+- The rest will be serialized to a single file called meta.idx.
+
+- According to different mode, we are able to process different kinds of documents by using the same index class with different document processor class and document class.
+
+## Ngram spell checker index constructing
+
+- Ngram spell checker need to construct its own index based on the corpus index meta data which including its dictionary, term frequency etc...
+
+- It's a separate mode because it takes some time for constructing and can be optional during the serving mode. (Currently are disabled, and use another spell checker to speed the load time at the beginning.)
 
 ## Serving
-- We load the index object first, then load the pageRank.g6 and numView.g6 file.
+- We load the index object first.
 
-- The inverted index and document term frequency are not loaded at first.
+- For ngram spell checker to work, we also need to load its index unless it's disabled in the query handlers.
 
-- Every time a query comes in, we will check whether if it exists in the inverted index, if not, we will load it dynamically.
+- BKTree spell checker will start to construct the tree... (Which loads faster than ngram, so currently is the default spell checker)
 
-- Every time a operation request all term frequency of a specific document, it will be loaded first from disk.
+- For ngram spell checker to work, we also need to load its index
+
+- The inverted index (posting list) and document term frequency are not loaded at beginning, instead we load them at run time if we need them.
 
 - If the size of inverted index or document term frequency hits a threshold, then it will be cleared first. (Priority clean is not implemented yet... Which will first pop the least popular one)
 
