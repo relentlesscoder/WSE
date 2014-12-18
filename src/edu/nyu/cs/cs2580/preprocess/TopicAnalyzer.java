@@ -59,7 +59,7 @@ public class TopicAnalyzer {
 
     File dtFile = new File("data/news/topic/doc_topics");
     File newsFile = new File("data/news/inter/news.txt");
-    File topicKey = new File("data/news/topic/topic_key");
+    File topicKey = new File("data/news/topic/topic_keys");
     String timeDis = "topic/timeDistribution.txt";
     String numDis = "topic/numDistribution.txt";
     String topicRankPath = "topic/topicRank.txt";
