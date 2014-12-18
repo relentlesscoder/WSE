@@ -67,7 +67,7 @@ We used Ant for our project environment setting. Thus, you could easily to compi
     homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.evaluator.SpellCorrectionEvaluator
   </code></pre>
   
-  ### News vertical search:
+### News vertical search:
   <pre><code>
     Crawler will keep running and crawls every 2 hours:
     ant crawl
