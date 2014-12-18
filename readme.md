@@ -14,7 +14,7 @@
 
 ## Compile:
 
-### We used Ant for our project environment setting. Thus, you could easily to compile the project using command.
+We used Ant for our project environment setting. Thus, you could easily to compile the project using command.
   <pre><code>
     homework3$ ant clean compile
   </code></pre>
@@ -66,6 +66,21 @@
     Spell checker evaluator:
     homework3$ java -cp ./bin/classes:./bin/lib/* edu.nyu.cs.cs2580.evaluator.SpellCorrectionEvaluator
   </code></pre>
+  
+  ### News vertical search:
+  <pre><code>
+    Crawler will keep running and crawls every 2 hours:
+    ant crawl
+    
+    To generate the news input for MALLET:
+    ant interdata
+    
+    Then run Shell Script to call MALLET to generate topics:
+    ./topic_model.sh
+    
+    To get the metrics of topics, run:
+    ant analyze
+  </code></pre>
 
 #Implementation Detail
 
@@ -111,6 +126,7 @@
 - The inverted index (posting list) and document term frequency are not loaded at beginning, instead we load them at run time if we need them.
 
 - If the size of inverted index or document term frequency hits a threshold, then it will be cleared first. (Priority clean is not implemented yet... Which will first pop the least popular one)
+
 
 ## Note
 Spearman coefficient: 0.4468566840544932
